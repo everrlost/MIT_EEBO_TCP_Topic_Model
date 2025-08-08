@@ -1,0 +1,517 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The romish Iudas A sermon preached at Saint Maries in Oxford the fifth of Nouember, 1610. By Iohn Ravvlinson Doctour of Diuinitie.</title>
+            <author>Rawlinson, John, 1576-1630.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1611</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 63 KB of XML-encoded text transcribed from 25 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A10499</idno>
+            <idno type="STC">STC 20775</idno>
+            <idno type="STC">ESTC S115696</idno>
+            <idno type="EEBO-CITATION">99850914</idno>
+            <idno type="PROQUEST">99850914</idno>
+            <idno type="VID">16151</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A10499)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 16151)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 934:11)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The romish Iudas A sermon preached at Saint Maries in Oxford the fifth of Nouember, 1610. By Iohn Ravvlinson Doctour of Diuinitie.</title>
+                  <author>Rawlinson, John, 1576-1630.</author>
+               </titleStmt>
+               <extent>[8], 40 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by William Hall for Iohn Hodgets,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1611.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-02</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-03</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-04</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2011-04</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:16151:1" rendition="simple:additions"/>
+            <pb facs="tcp:16151:1"/>
+            <p>THE ROMISH IVDAS.</p>
+            <p>A SERMON PREACHED AT SAINT MARIES IN OXFORD THE FIFTH OF NOVEMBER, 1610.</p>
+            <p>By IOHN RAVVLINSON Doctour of Diuinitie.</p>
+            <q>
+               <bibl>
+                  <hi>Bern. ſuper Cantic. Ser.</hi> 52.</bibl>
+               <p>Non quod mihi eſt vtile, ſed quod multis, id mihi vtile iudicabo.</p>
+            </q>
+            <p>LONDON, Printed by WILLIAM HALL for IOHN HODGETS, 1611.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:16151:2"/>
+            <pb facs="tcp:16151:2"/>
+            <head>TO THE HONOV<g ref="char:EOLhyphen"/>RABLE GOOD KNIGHT Sir <hi>Iohn Egerton,</hi> multiplication <hi>of</hi> Grace <hi>in this life, and</hi> con<g ref="char:EOLhyphen"/>ſummation <hi>of</hi> Glory <hi>in</hi> that other.</head>
+            <opener>
+               <salute>HONOVRABLE SIR,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">T</seg>Hough <hi>Nihili ad om<g ref="char:EOLhyphen"/>ne nullaeſt proportio,</hi> there is no proportion betweene ſuch a <hi>No<g ref="char:EOLhyphen"/>thing</hi> as this, and the <hi>All</hi> of your all-deſeruing fauours to<g ref="char:EOLhyphen"/>wards mee; yet becauſe the <hi>Moraliſt</hi> tells me, that where onely the <hi>qualitie</hi>
+               <pb facs="tcp:16151:3"/>of the affection, and not the <hi>quantitie</hi> of the preſent is to bee attended, <hi>Modicum non differt à magno:</hi> it skilles not, bee the preſent great or ſmall. And, <hi>Teſtes inhabiles tunc admittuntur, cùm ali<g ref="char:EOLhyphen"/>oquì veritas haberi nequit,</hi> ſay the <hi>Lawyers:</hi> Witneſſes leſſe ſufficient are admitted, when the truth cannot with<g ref="char:EOLhyphen"/>out them be ſufficiently tried; J will not once queſtion your kinde and fauourable conſtruction of this either little <hi>Modi<g ref="char:EOLhyphen"/>cum</hi> of my loue, or <hi>inſufficient witneſſe</hi> of the <hi>truth</hi> of my affection towards you, to whom (vnleſſe I would bee impudently baſhfull) I cannot but ingenuouſly con<g ref="char:EOLhyphen"/>feſſe, that whatſoeuer is within the <hi>ſphere of my actiuitie,</hi> hath long ſince been deſeruedly due.</p>
+            <p>Hauing therfore <hi>p<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ſſed</hi> this <hi>Sermon</hi> for a <hi>Souldiour</hi> to fight againſt the <hi>Ro<g ref="char:EOLhyphen"/>miſh
+<pb facs="tcp:16151:3"/>Judas, the Prieſts and Jeſuites,</hi> who are euer like<note n="a" place="margin">Ier. 2.24.</note> 
+               <hi>Jeremies wilde Aſſe, great with foale,</hi> and ſo the fitter to bee purſued, I know not vnder whoſe <hi>colours</hi> it ſhould rather <hi>ſerue</hi> than yours; both becauſe the many ſweet influences of your fauours haue taken ſuch hold and handfaſt of me, that though by the <hi>Ciuil Law, Eccleſiae res vltra triennium lo<g ref="char:EOLhyphen"/>cari non poſſunt,</hi> Church-liuings can<g ref="char:EOLhyphen"/>not be let forth for more than three yeers, yet by the <hi>Law of Ciuilitie,</hi> my ſelfe a Church-man, am bound to let and ſet my ſelfe to your ſeruice for euer; as alſo be<g ref="char:EOLhyphen"/>cauſe you haue vowed your <hi>Knights ſer<g ref="char:EOLhyphen"/>uice</hi> to the defenſe of our <hi>Head-Cap<g ref="char:EOLhyphen"/>taine Chriſt,</hi> againſt his and our <hi>Head-enemie</hi> the <hi>Pope,</hi> the <hi>Muſter-maſter</hi> of the <hi>Prieſts</hi> and <hi>Jeſuites:</hi> a ſort of <hi>Ro<g ref="char:EOLhyphen"/>maniſts,</hi> of whom I would wee might
+<pb facs="tcp:16151:4"/>not truly ſay what<note n="b" place="margin">Cor. Tacit.</note> 
+               <hi>Tacitus</hi> ſometimes ſaid of the <hi>Roman Augurs, Hoc ge<g ref="char:EOLhyphen"/>nus hominum ſemper vetabitur, ſem<g ref="char:EOLhyphen"/>per tamen in Ciuitate retinebitur.</hi> They will euer be forbidden, yet will this Land of ours neuer be rid of them. To put by many other their <hi>matchleſſe,</hi> more than <hi>Machiauellian</hi> Practiſes both at home and abroad, hee that ſhall but looke into their practiſe of the <hi>Pow<g ref="char:EOLhyphen"/>der-plot,</hi> which I haue made the <hi>Sub<g ref="char:EOLhyphen"/>iectum adaequatum</hi> of this <hi>Sermon,</hi> it cannot but reſolue his heart (if truly honeſt) into that poeticall furie, <hi>Odero, ſi potero: ſi non, inuitus amabo.</hi> J know their cunning to be ſuch, that they will diſclaime what they cannot excuſe, and rather than ſtand burdened with ſo foule a crime, disburden themſelues of it what they may, by terming it the <hi>raſh</hi>
+               <note place="margin">c Ouid.</note>
+               <pb facs="tcp:16151:4"/>
+               <hi>attempt</hi> of certaine <hi>vnfortunate Gen<g ref="char:EOLhyphen"/>tlemen,</hi> whom yet they account in no<g ref="char:EOLhyphen"/>thing ſo much vnfortunate, as that it was not their fortune to ſpeede in that diſ<g ref="char:EOLhyphen"/>mall enterpriſe. Howbeit, J verily be<g ref="char:EOLhyphen"/>leeue, that had they ſped, it would haue extorted teares from the Prieſts and Ie<g ref="char:EOLhyphen"/>ſuites their taske-maſters; teares, not of ſorrow, but of ioy, ſuch as <hi>Caeſar</hi> ſhedde when <hi>Pompeys</hi> head was brought be<g ref="char:EOLhyphen"/>fore him.</p>
+            <p>I truſt, my <hi>loyaltie</hi> to my moſt graci<g ref="char:EOLhyphen"/>ous Soueraigne, will excuſe my preſump<g ref="char:EOLhyphen"/>tion, that I ſuffer my pen to trauell in the ſame path after<note n="d" place="margin">The Bi<g ref="char:EOLhyphen"/>ſhop of <hi>Lincolne.</hi> The Deane of <hi>Christ. church.</hi>
+               </note> two of the moſt bright and orient Lights of our Church, after whoſe harueſt I am farre vnworthie to gleane: and my <hi>loue</hi> to your honourable ſelfe obtaine my pardon for entitling you to theſe my poore trauels: for whom,
+<pb facs="tcp:16151:5"/>as for my moſt honorable Lord and Ma<g ref="char:EOLhyphen"/>ſter your Father, the moſt noble Foſter-father of the whole Clergie, with each branch and ſprig of ſo noble a Root, my praier is and euer ſhall be to God:</p>
+            <q>
+               <l>
+                  <note n="e" place="margin">Michael Serinius in antiquitat.</note>Stet Domus haec donec fluctus Formica marinos,</l>
+               <l>Ebibat, &amp; totum Teſtudo perambulet orbem.</l>
+            </q>
+            <q>
+               <l>Vntill a little-little Ant</l>
+               <l>Shall drinke the brackiſh Sea-waues dry;</l>
+               <l>And a Snaile compaſſe all the world,</l>
+               <l>Stand may that noble <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>milie.</l>
+            </q>
+            <closer>
+               <signed>
+                  <hi>Yours to the vtmoſt ſtreine of his beſt ſeruice,</hi> Iohn Rawlinſon.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <head>A SERMON PREACHED AT S<hi rend="sup">t</hi>. MARIES IN OXFORD the fifth of NOVEMBER, 1610.</head>
+         <div type="preface">
+            <pb facs="tcp:16151:5"/>
+            <head>The Preface.</head>
+            <p>
+               <seg rend="decorInit">F</seg>Or euery purpoſe vnder Hea<g ref="char:EOLhyphen"/>uen there is both <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> and <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, (ſo the <hi>Septuagint</hi> read it<note n="a" place="margin">Eccles. 3.</note> 
+               <hi>Eccle<g ref="char:EOLhyphen"/>ſiaſtes</hi> 3.) <hi>Tempus</hi> and <hi>Tempeſti<g ref="char:EOLhyphen"/>uitas,</hi> a Time and a Seaſon: and the Seaſon is (as I may call it) <hi>Salactionum,</hi> the ſalt that ſo ſeaſoneth al our actions, that what<g ref="char:EOLhyphen"/>ſoeuer is vnſeaſonable is euer vnpleaſing.</p>
+            <p>
+               <hi>Muſica in luctu importuna narratio,</hi>
+               <note n="b" place="margin">Ecclus. 22.6.</note> ſaith the <hi>Sonne of Sirac. c.</hi> 22. A tale out of time is as muſicke in mourning: or (in<note n="c" place="margin">Suidas.</note> 
+               <hi>Suidas</hi> his Pro<g ref="char:EOLhyphen"/>uerbe) <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, as the wearing of a hot
+<pb n="2" facs="tcp:16151:6"/>and heauy winter-cloake at Midſommer-Yea, that <hi>Panis Angelorum, Angelicall Manna</hi> that came downe from Heauen, though when it was gathered in due time, it had in it <hi>Omne de<g ref="char:EOLhyphen"/>lectamentum,</hi> the delight and delicacie of all ſweets,<note n="d" place="margin">Sap. 16.20.</note> 
+               <hi>Sap.</hi> 16. yet being gathered out of ſea<g ref="char:EOLhyphen"/>ſon, <hi>tempore non ſuo,</hi> as vpon the <hi>Sabbath</hi> day, <hi>it putrified and was full of wormes,</hi>
+               <note n="e" place="margin">Exo. 16.20</note> 
+               <hi>Exod.</hi> 16.</p>
+            <p>As in other works, ſo eſpecially in this great and notable worke of the Lord <hi>(the Worke of Workes)</hi> the diſpenſation of his holy word, there is a tempeſtiuitie or ſeaſon to bee obſer<g ref="char:EOLhyphen"/>ued. <hi>Text</hi> and <hi>Time</hi> muſt haue congruitie each with other.</p>
+            <p>As at other times, ſo eſpecially at ſuch a time as this, which for the noble and excellent worke of our deliuery wrought therein by the high and mighty hand of God, from the dam<g ref="char:EOLhyphen"/>nable deſignes of that curſed crew, thoſe <hi>Ca<g ref="char:EOLhyphen"/>tuli Catilmarij,</hi> whelpes of <hi>Catilines</hi> breed, <hi>&amp; Iudae pluſquàm Iudaici,</hi> more than <hi>Iewiſh Iudaſſes,</hi> who as <hi>this day fiue yeeres</hi> had banded them<g ref="char:EOLhyphen"/>ſelues together for the extirpation both of Prince and people, may bee called <hi>a Time of Times,</hi> (for, but for it, to vs time had beene no
+<pb n="3" facs="tcp:16151:6"/>more) and doth therfore rightfully challenge at our hands <hi>a Song of Songs,</hi> euen a ſong of thankeſgiuing, which is the beſt and ſweeteſt melodie in the eares of God.</p>
+            <p>While I ſpeake of ſuting this time with a Text, I preſume your conceits doe already an<g ref="char:EOLhyphen"/>ticipate, and runne before mee in my choice; which indeede ſhall bee <hi>a choice without choice,</hi> none other than that of <hi>Iudas</hi> his treaſon, the hideous crie and dinne whereof ſo latelie ſounded, and ſhall now againe bee reuiued in your eares.</p>
+         </div>
+         <div type="sermon">
+            <head>THE TEXT.</head>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>Luc. 22.48.</hi>
+                  </bibl>
+                  <p>Judas, betraieſt thou the Sonne of man with a kiſſe?</p>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">M</seg>Y <hi>Text</hi> then (as yee ſee) for the vi<g ref="char:EOLhyphen"/>cinitie and readineſſe of it, is like <hi>Iacobs Veniſon,</hi>
+               <note n="f" place="margin">Ge. 27.20.</note> 
+               <hi>Gen.</hi> 27. a peece of tame and home-bred <hi>Kidde,</hi> in ſtead of wilde <hi>Deere,</hi> farre fetcht, and hunted afarre off: rather found than
+<pb n="4" facs="tcp:16151:7"/>ſought, becauſe the Lord my God hath brought it vnto my hand. Yet is it not more ready and neere at hand, than apt and appo<g ref="char:EOLhyphen"/>ſit to the preſent buſineſſe. Before (I am ſure) it was no <hi>abortiue</hi> borne out of due time; for it doth but too-too-fitly ſort with <hi>Tempus,</hi> the generalitie of the times wherein wee liue, be<g ref="char:EOLhyphen"/>ing the ſame whereof the <hi>Apoſtle</hi> prophetical<g ref="char:EOLhyphen"/>lie ſpake,<note n="g" place="margin">2. Tim. 3 4</note> 2. <hi>Tim.</hi> 3. that <hi>in the laſt daies ſhould come perillous times, for men ſhould bee vngrate<g ref="char:EOLhyphen"/>full, vnnaturall, Truce-breakers, Traitors.</hi> But now to the <hi>Tempeſtiuitas,</hi> or preſent opportu<g ref="char:EOLhyphen"/>nitie of time, it is as pertinent and proper, as if the Holy Ghoſt had dictated and deſti<g ref="char:EOLhyphen"/>nated it heereunto. Onely it is my burden, and my diſaduantage, that for want either of time, or skill, or both, I ſhall not bee ſo well able to fit it, as it the time; but am faine to come (as<note n="h" place="margin">Plutare de educ. lib.</note> 
+               <hi>Pericles</hi> excuſed himſelfe) <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, not ſo thorowlie prepared as haplie vpon more mature warning I would haue beene.</p>
+            <q>Judas, betraieſt thou, &amp;c.</q>
+            <p>In which our Sauiours <hi>expoſtulation,</hi> I haue heeretofore noted two things:</p>
+            <list>
+               <item>1 The one is <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> ,<hi>the matter or ſubſtance</hi>
+                  <pb n="5" facs="tcp:16151:7"/>of it; and therein
+<list>
+                     <item>An <hi>Action, Treaſon.</hi>
+                     </item>
+                     <item>The <hi>Agent, Iudas,</hi>
+                     </item>
+                     <item>The <hi>Patient, Chriſt.</hi>
+                     </item>
+                     <item>The <hi>Inſtrument, a Kiſſe.</hi>
+                     </item>
+                  </list>
+               </item>
+               <item>2 The other is <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> ,<hi>the Style or Chara<g ref="char:EOLhyphen"/>cter</hi> of our Sauiours ſpeach, which is twofold:
+<list>
+                     <item>1 <hi>Compellatiue,</hi> in this word <hi>Iudas.</hi>
+                     </item>
+                     <item>2 <hi>Interrogatiue,</hi> in the words following, <hi>Betrayeſt thou, &amp;c.</hi>
+                     </item>
+                  </list>
+               </item>
+            </list>
+            <p>The one, an <hi>Intimation</hi> of our Sauiours <hi>Leni<g ref="char:EOLhyphen"/>tie</hi> and <hi>mildneſſe.</hi>
+            </p>
+            <p>The other, an <hi>Inſinuation</hi> of his <hi>Inspection</hi> and <hi>inſight</hi> into the couert plot and practiſe of <hi>Judas.</hi>
+            </p>
+            <p>Theſe be the <hi>limmes</hi> and <hi>lineaments</hi> of this <hi>Text.</hi> Of the firſt <hi>limme,</hi> which is the <hi>Action,</hi> was framed the whole <hi>body</hi> of my laſt <hi>Sermon,</hi> as the woman was made of one ribbe taken out of the man.</p>
+            <p>I ſhould now proceede to the <hi>anatomizing</hi> and <hi>cutting vp</hi> of the <hi>Agent, (Thou)</hi> who, (as I doubt not, ye well remember) by the iuſt and fearefull iudgement of God, was hang'd, (for he hang'd himſelfe) at our laſt <hi>Seſſion.</hi> But for
+<pb n="6" facs="tcp:16151:8"/>this time I will wholly apply my ſelfe to the <hi>curſed</hi> (ſhall I ſay, or <hi>bleſſed?</hi>) occaſion of this meeting: for it was both; <hi>curſed</hi> of God and men in regard of the <hi>attempt,</hi> but in regard of the <hi>euent, bleſſed</hi> of God, bleſſed and euer to be bleſſed of men, till the world it ſelfe ſhall bee conſumed with a <hi>Floud of Fire,</hi> as once before it was with a <hi>Floud of Water.</hi>
+            </p>
+            <p>And becauſe I ſhall endeuour to fit the <hi>trea<g ref="char:EOLhyphen"/>ſon of Iudas</hi> to the <hi>Embryo</hi> or <hi>inchoate treaſon</hi> of this day, next to it the greateſt that euer was, <hi>poſt homines natos,</hi> ſince men began, nay, <hi>poſt di<g ref="char:EOLhyphen"/>abolos incarnatos,</hi> ſince <hi>Engliſhmen Italionate be<g ref="char:EOLhyphen"/>ganne to bee diuels incarnate;</hi> I muſt begge this leaue, that I may make a little excurſion <hi>extra oleas,</hi> beyond the bounds of my text, and take in ſuch other circumſtances as I ſhall meete with in the Storie of <hi>Judas</hi> his treaſon: the ra<g ref="char:EOLhyphen"/>ther, becauſe indeed there is none of them but <hi>reductiuely</hi> falls into my text, as doe all other <hi>Seas</hi> and <hi>Riuers</hi> into the maine <hi>Ocean;</hi>
+            </p>
+            <q>—<note n="i" place="margin">Homer.</note> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.</q>
+            <p>I muſt confeſſe, that in <hi>one,</hi> and that a maine materiall point, which is the <hi>Patient,</hi> there is <hi>an infinite diſpariſon and diſproportion</hi> betweene
+<pb n="7" facs="tcp:16151:8"/>them; for becauſe this of <hi>Iudas</hi> was <hi>High Trea<g ref="char:EOLhyphen"/>ſon</hi> againſt <hi>Chriſt</hi> the ſonne of the moſt high, all other treaſons are ſo infinitely ſhort of it, that (compared with it) they are all but as it were <hi>petite treaſons.</hi> And yet to make amends for that one circumſtance, wherein the <hi>Powder-treaſon</hi> falls ſhort, examine it, and yee ſhall finde other three wherein it exceeds it.</p>
+            <p n="1">1 The <hi>extent</hi> of the <hi>Patient:</hi> for the trea<g ref="char:EOLhyphen"/>ſon of <hi>Iudas</hi> was not againſt all the Apoſtles, or Diſciples, or Frinds, or Followers of <hi>Chriſt,</hi> but againſt <hi>Chriſt</hi> alone: But this was not only againſt <hi>his Maieſties royall perſon,</hi> who is-<hi>multis è millibus vnus,</hi> ſuch a one as is not among ma<g ref="char:EOLhyphen"/>ny thouſands, or rather, as it was ſaid of <hi>Da<g ref="char:EOLhyphen"/>uid,</hi>
+               <note n="k" place="margin">2. Sa. 18.3.</note> 2. <hi>Sam.</hi> 18. <hi>vnus ſolus pro decem millibus,</hi> ſuch a one as is worth ten thouſand of vs: in whom <hi>Maieſtas &amp; amor-,</hi> Maieſty and Serenity are met together, Mercy and Truth haue kiſ<g ref="char:EOLhyphen"/>ſed each other; ſo as neuer any King whoſe perſon might more aggrauate a treaſon in<g ref="char:EOLhyphen"/>tended againſt him: but it was alſo againſt the <hi>Queene,</hi> the <hi>Prince,</hi> the reſt of that <hi>Royall Stemme.</hi> —<note n="l" place="margin">Homer.</note> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> againſt<note n="m" place="margin">2 Re. 2.12.</note> 
+               <hi>the Chariots and Horſemen of Iſrael: the
+<pb n="8" facs="tcp:16151:9"/>thouſands and ten thouſands of Iſrael.</hi>
+            </p>
+            <q>Flos delibatus populi, Suadaeque medulla:</q>
+            <p>the choiceſt of the <hi>Nobilitie,</hi> the <hi>Clergie,</hi> and the <hi>Gentry</hi> of this Land. And to ſumme vp <hi>Jliada malorum,</hi> the Iliads of all our miſeries at once,<note place="margin">Ouid.</note> (I may well call it the <hi>Iliads,</hi> for n <hi>Haec fa<g ref="char:EOLhyphen"/>cies Troiae, cùm caperetur, erat:</hi> ſuch a fiery face had <hi>Troy</hi> when it was taken, as our <hi>Troynouant</hi> ſhould haue had) it was againſt</p>
+            <q>Rem, Regem, Regimen, Regionem, Religionem.</q>
+            <p n="2">2 The ſecond is the <hi>Extent</hi> of the <hi>Agent.</hi> In the treaſon of <hi>Iudas</hi> there was but one to one; one <hi>Iudas</hi> againſt one <hi>Ieſus:</hi> but here it is twelue <hi>Iudaſſes,</hi> twelue Scholars of the <hi>Prieſts</hi> and <hi>Ieſuites,</hi> againſt a number of the Friends and Followers of <hi>Ieſus.</hi> And <hi>multitudo peccan<g ref="char:EOLhyphen"/>tium multiplicat peccatum;</hi> the multitude of of<g ref="char:EOLhyphen"/>fenders multiplies the offenſe.</p>
+            <p n="3">3 The third is the <hi>extent</hi> of the <hi>Action,</hi> to<g ref="char:EOLhyphen"/>gether with the <hi>ſpeedineſſe of the execution. Iudas</hi> betraied <hi>Chriſt</hi> to <hi>one corporall death,</hi> which be<g ref="char:EOLhyphen"/>cauſe hee ſuffred <hi>ſensìm,</hi> peece-meale as it were, by little and little, <hi>Quot mortes in vna morte!</hi> Lord, how many deaths in that one death of his! But theſe would haue betraied
+<pb n="9" facs="tcp:16151:9"/>the King and his to <hi>two deaths at once,</hi> a <hi>corpo<g ref="char:EOLhyphen"/>rall</hi> and a <hi>ſpirituall death;</hi> but the ſpirituall death, which is the ſecond death, worſe than ten thouſand millions of corporall deaths: and to both theſe deaths, not <hi>ſensìm,</hi> by little and little, but <hi>ſine ſenſu,</hi> at vnawares. Their comming was like the comming of a theeſe in the night, ſtealing vpon vs to kill vs:</p>
+            <q>
+               <note n="o" place="margin">Horat.</note> Vt tugulent homines, ſurgunt de nocte Latrones;</q>
+            <p>Or like the comming of the Sonne of man at the laſt day, to iudge the world with fire; in a moment, <hi>in ictu oculi,</hi> in the twinckling of an eie,<note n="p" place="margin">1. Cor. 15.</note> 1. <hi>Cor.</hi> 15. And againe, <hi>in ictu,</hi> at <hi>one blow:</hi> I ſay not, at the <hi>blowing</hi> or <hi>ſounding</hi> of the laſt trumpe, but at the <hi>ſounding</hi> of the hollow vaur, and at the <hi>blowing</hi> of the firſt ſparke; and their <hi>blow</hi> had beene like the <hi>blowing of two contrary windes</hi> at once; for our <hi>bodies</hi> had been blown vp towards heauen, but our <hi>vnprepared ſoules</hi> (without the ſingular mercie of God, whereof in ſo good a cauſe we had the leſſe cauſe to de<g ref="char:EOLhyphen"/>ſpaire) had beene blowne downe to hell.</p>
+            <p>So then three points there are of diſquipa<g ref="char:EOLhyphen"/>rancie and diſſimilitude, wherein this daies treaſon ſurpaſſeth this of <hi>Iudas:</hi> only one (for
+<pb n="10" facs="tcp:16151:10"/>ought I can ſee) wherin this of <hi>Iudas</hi> out-goes it. But (I thinke) for euery other circumſtance of note, that Antichriſtian plot of theirs was ſo neare of bloud, and of ſuch conſanguini<g ref="char:EOLhyphen"/>tie with this moſt Antichriſtian plot of <hi>Iudas</hi> a<g ref="char:EOLhyphen"/>gainſt <hi>Chriſt,</hi> that of all other treaſons it had beſt right to inherit <hi>Iudas</hi> his halter. <hi>Non ouum ouo ſimilius,</hi> One cockatrices egge is not more like another, which in the end will <hi>exire in Re<g ref="char:EOLhyphen"/>gulum,</hi> breake forth into a <hi>Baſiliske, a flying and a fire-breathing Serpent,</hi> whoſe deadly eie will ſpare neither Prince nor people. Howbeit, I wil not ſtriue to make another <hi>Maiores Concor<g ref="char:EOLhyphen"/>dantias</hi> between them; but as the <hi>Iſraelites</hi> paſ<g ref="char:EOLhyphen"/>ſed thorow the <hi>red Sea,</hi> and yet neuer wet their feet, ſo will I thorow this <hi>Mare rubrum,</hi> this <hi>bloud-red Sea</hi> of matter which is before mee, only <hi>ſicco pede,</hi> drie-footed, that is, as lightlie and briefly as I may.</p>
+            <p n="1">
+               <note place="margin">1 The action.</note>1 Firſt then compare wee them in their <hi>Action (Betraieſt)</hi> and therein note we <hi>Ingreſ<g ref="char:EOLhyphen"/>ſum, Progreſſum, Egreſſum;</hi> the <hi>Antecedents,</hi> the <hi>Concomitiants,</hi> and the <hi>Subſequents.</hi>
+            </p>
+            <p>The <hi>antecedents</hi> were <hi>ſeuen.</hi>
+            </p>
+            <p n="1">1 The conſultation to kill Chriſt was
+<pb n="11" facs="tcp:16151:10"/>
+               <note n="q" place="margin">Mat. 26.3.</note> 
+               <hi>In aulâ Pontificis Maximi,</hi> in the hall of <hi>Caia<g ref="char:EOLhyphen"/>phas the high Prieſt:</hi> ſo this conſultation to kill the King and his, was <hi>in aulâ Pontificis Maximi,</hi> in the Hal, or Court of <hi>that High Prieſt Caiaphas</hi> of <hi>Rome,</hi> who becauſe hee is farre worſe than the other <hi>Caiaphas,</hi> ſaid not as he did,<note n="r" place="margin">Ioh. 11.5.</note> 
+               <hi>Ioh.</hi> 11. <hi>It is expedient for vs, that one man die for the peo<g ref="char:EOLhyphen"/>ple, and that the whole Nation periſh not;</hi> but, It is expedient for vs, that not one man alone, but the whole <hi>Nation,</hi> or at leaſt wiſe the <hi>Synopſis,</hi> or <hi>repreſentation</hi> of the whole Nation periſh: as if he were of <hi>Maximinus</hi> his minde in<note n="ſ" place="margin">Tertull. in Apolog.</note> 
+               <hi>Ter<g ref="char:EOLhyphen"/>tullian; Chriſtianorum ſanguinem Dijs victimam eſſe omnium gratiſſimam</hi> that the bloud of Chri<g ref="char:EOLhyphen"/>ſtians is the beſt-pleaſing ſacrifice to God: or as if hee made it his pride and his glorie, with<note n="t" place="margin">Funce Chr. lib. <hi>7.</hi>
+               </note> 
+               <hi>Attila</hi> King of the <hi>Hunni,</hi> to bee called <hi>Flagellum Dei,</hi> the ſcourge of Gods wrath: or with<note n="u" place="margin">Andre Hondorff. Theatr. hiſt.</note> one of the <hi>Frideriks, Malleus Orbis,</hi> the hammer of the whole world: or laſtly, with<note n="*" place="margin">Melanct. Chron. l. <hi>4.</hi>
+               </note> 
+               <hi>Otto, Pallida mors,</hi> the pale death, not <hi>Sarace<g ref="char:EOLhyphen"/>norum,</hi> of the <hi>Saracens,</hi> as he was, but <hi>Chriſtia<g ref="char:EOLhyphen"/>norum,</hi> of Chriſtians. And (that ye may know him to be <hi>Pallida mors</hi> indeed)</p>
+            <q>
+               <note n="*" place="margin">Horat.</note> aequo pede pulſat pauperum Tabernas,</q>
+            <p>
+               <pb n="12" facs="tcp:16151:11"/>
+               <hi>Regumque Turres;</hi> — Hee knockes as well at the Kings Palace, as at the poore mans ſhop: ſo that now it is <hi>raraauis,</hi> a thing almoſt as rare as a <hi>Phoenix,</hi> to heare of a King that di<g ref="char:EOLhyphen"/>eth in his bed.</p>
+            <q>
+               <l>
+                  <note n="y" place="margin">Inuenal.</note> Ad generum Cereris ſine caede &amp; ſanguine pauci</l>
+               <l>Deſcendunt Reges, &amp; ſiccamorte —</l>
+            </q>
+            <p n="2">2 The<note n="z" place="margin">Mat. 26.4.</note> chiefe <hi>Prieſts</hi> and <hi>Scribes</hi> conſulted how they might take <hi>Ieſus by ſubtiltie, and kill him:</hi> ſo did the <hi>Prieſts</hi> and <hi>Ieſuites</hi> take counſel how they might by ſubtilty root out<note n="a" place="margin">Eſa. 9 14</note> 
+               <hi>caput &amp; caudam, head and taile, branch and ruſh,</hi> Prince and people both in one day. And it was a ſub<g ref="char:EOLhyphen"/>tiltie with a witneſſe; <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, a darke ſubtil<g ref="char:EOLhyphen"/>tie, darker than any <hi>Scotus</hi> among all his <hi>Sub<g ref="char:EOLhyphen"/>tilties</hi> euer could inuent. I thinke the <hi>blacke Prince of darkneſſe,</hi> with all the diuels in hell, ſate together in counſell with them, when they deuiſed it.</p>
+            <p n="3">3 <hi>Iudas</hi> went to the chiefe Prieſts, and ſaid,<note n="b" place="margin">Mat. 26.15</note> 
+               <hi>Quid dabitis? What will ye giue me, and I will de<g ref="char:EOLhyphen"/>liuer him vnto you?</hi> and <hi>they appointed vnto him thirty peeces of ſiluer:</hi> So did theſe Traitors goe to the chiefe Prieſts and Ieſuites, and for a <hi>Quid dabitis?</hi> a thing of nothing, (ſuppoſe the
+<pb n="13" facs="tcp:16151:11"/>
+               <hi>canonizing</hi> and <hi>kalendarizing</hi> of them for as good Saints, I dare ſay, as any are in hell) ad<g ref="char:EOLhyphen"/>uentured vpon that infernall and helliſh ex<g ref="char:EOLhyphen"/>ploit.</p>
+            <p n="4">4 <hi>Iudas</hi> did<note n="c" place="margin">Mat. 26.16</note> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, wait an opportu<g ref="char:EOLhyphen"/>nitie to betray Chriſt: and his opportunitie was this; he came by night, becauſe<note n="d" place="margin">Ioh. 18.3.</note> 
+               <hi>hee that euill doth, hateth the light:</hi>
+               <note n="e" place="margin">Mat. 26.43</note> 
+               <hi>dormientibus diſcipulis,</hi> while the Diſciples were aſleepe: ſo did theſe <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Lucifugae,</hi> children of the night of eternall darkneſſe, attend the like opportunitie, being the very ſame which <hi>that old Seminarie the diuell</hi> watched, wherein he might <hi>ſuperſeminare ziza<g ref="char:EOLhyphen"/>ma,</hi> ſow his tares amongſt the good corne. They came by night, <hi>dormientibus hominibus,</hi> while men ſlept, and neuer dreamt of any ſuch matter fortifying their crueltie with our inco<g ref="char:EOLhyphen"/>gitancie; as indeede what time ſo likely for that <hi>Dolus Apocryphus,</hi> that Apocryphall and hidden <hi>myſterie of iniquitie,</hi> as their <hi>Horae Cano<g ref="char:EOLhyphen"/>nicae,</hi> canonicall night-houres, wherewith the Church of <hi>Rome</hi> had acquainted them.</p>
+            <p n="5">5 <hi>Judas</hi> was deuiſing and hammering his treaſon <hi>in Coenaculo,</hi> in the <hi>Parler</hi> where Chriſt
+<pb n="14" facs="tcp:16151:12"/>was eating the <hi>Paſſeouer</hi> with his Diſciples: ſo were theſe <hi>Traitors</hi> framing and machinating their treaſon <hi>in Senatu,</hi> or at leaſtwiſe <hi>ſub Sena<g ref="char:EOLhyphen"/>tu,</hi> vnder the <hi>Parliament houſe,</hi> where the King was to haue conſulted with his Nobles.</p>
+            <p n="6">6 <hi>Iudas</hi>
+               <note n="f" place="margin">Matth. 26.6.</note> receiued <hi>the Sacrament of the Lords Supper</hi> but newly before his treaſon: ſo did theſe <hi>Traitors</hi> immediately before their trea<g ref="char:EOLhyphen"/>ſon; yea they bound themſelues to it with a <hi>double Sacrament; Sacramento Iuriſiurandi,</hi> with the Sacrament of Oath, and <hi>Sacramento cor<g ref="char:EOLhyphen"/>poris &amp; ſanguinis Chriſti,</hi> with the Sacrament of the body and bloud of Chriſt.</p>
+            <p n="7">7 And laſtly<note n="g" place="margin">Ioh. 13.27</note> after the eating of the <hi>ſoppe</hi> which Chriſt reached vnto <hi>Iudas,</hi> Satan entred into him, <hi>in interiora cordis eius,</hi> (ſaith<note n="h" place="margin">Theophyla. ibid.</note> 
+               <hi>Theophy<g ref="char:EOLhyphen"/>lact</hi>) into the very inwards of his heart, and he was made as it were one ſpirit with him: ſo theſe <hi>Traitors,</hi> after the eating of the <hi>ſoppe</hi> (if I may ſo ſpeake) of <hi>the body and bloud of Chriſt,</hi> Satan entred <hi>in interiora cordis,</hi> into the hell of their conſciences, and was made as it were one ſpirit with them.</p>
+            <p n="2">2 The ſecond thing which I noted in the <hi>Action,</hi> was the <hi>Concomitants,</hi> which were two:</p>
+            <p n="1">
+               <pb n="15" facs="tcp:16151:12"/>
+1 The one, the <hi>Manner</hi> of it, wherein they ſhewed themſelues to bee farre deeper <hi>Politi<g ref="char:EOLhyphen"/>cians</hi> than euer <hi>Iudas</hi> was: for <hi>Iudas</hi> his poli<g ref="char:EOLhyphen"/>cie wrought but aboue ground, but theirs wrought vnder ground: and the tooles of their treaſon were not<note n="i" place="margin">Matth. 26.47.</note> 
+               <hi>ſwords and ſtaues</hi> to apprehend, but <hi>ſpades and pickaxes</hi> to vnder<g ref="char:EOLhyphen"/>mine. <hi>Ingenioſa crudelitas ad poenas,</hi> they were men of cruell wits, cruell as the graue: <hi>Sepul<g ref="char:EOLhyphen"/>chrum patensguttur eorum;</hi> their throat was an open ſepulcher to haue ſwalowed vs vp quick, <hi>exardeſcente in nos trâ eorum,</hi> (as<note n="k" place="margin">Pſ. 124.2.</note> 
+               <hi>Tremellius</hi> reads it <hi>Pſal.</hi> 124.) while their iealouſie burnt againſt vs like fire.</p>
+            <q>
+               <l>—<note n="l" place="margin">Ouid.</note> Itum eſt in viſcera terrae,</l>
+               <l>At que oculis capti fodêre cubilia talpae:</l>
+            </q>
+            <p>Theſe <hi>blinded moales and pyoners,</hi> out of a blind, yet fiery zeale, went downe into the bowels of the earth; not as did <hi>Curtius</hi> that noble Ro<g ref="char:EOLhyphen"/>man, when he caſt himſelfe <hi>in hiatum terrae,</hi> in<g ref="char:EOLhyphen"/>to a vaſt vaute, for the incolumitie and preſer<g ref="char:EOLhyphen"/>uation of his Country; but <hi>Genimina vipera<g ref="char:EOLhyphen"/>rum,</hi> viperous broode as they were, they firſt gnawed out the bowels of their <hi>Grandmother Earth,</hi> that ſo they might afterwards gnaw out
+<pb n="16" facs="tcp:16151:13"/>the bowels of their <hi>Mother-Country,</hi> by turning the <hi>Parliament-houſe</hi> into a <hi>ſlaughter-houſe;</hi> as if they had gone before, to beſpeake a place in hell for vs, and in that <hi>Hypocauſtum,</hi> or fire<g ref="char:EOLhyphen"/>vaute of theirs to haue offred vp both Prince and people vnto diuels, <hi>tanquam Holocauſtum,</hi> as a whole burnt offring; like thoſe <hi>Idolaters</hi> that in the <hi>valley of Hinnon offred vp their ſonnes and daughters vnto diuels:</hi> and <hi>Coniuratores, Traitors</hi> (ſhall I ſay, or <hi>Coniurers?</hi> as they would haue beene) becauſe our Religion, which is <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, from aboue, did not pleaſe them, they would <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, from beneath, by <hi>Sorcery</hi> and <hi>Geomancie</hi> haue coniured vp another of their owne, and that (if ye will beleeue them) a tru<g ref="char:EOLhyphen"/>er, a better than ours. But beleeue them not; theirs ſmells too-too-ranklie of the neither-moſt lake.</p>
+            <p n="2">2 The ſecond <hi>Concomitant,</hi> is the <hi>Matter</hi> of their treaſon. When <hi>Iudas</hi> betraied Chriſt, for Chriſts death no torments were thought ex<g ref="char:EOLhyphen"/>quiſite enough. There were <hi>plura parata ſup<g ref="char:EOLhyphen"/>plicia, quàm membra,</hi> more puniſhments proui<g ref="char:EOLhyphen"/>ded for him, than he had members: So in this treaſon there was prepared for the King and
+<pb n="17" facs="tcp:16151:13"/>his companie, though not a <hi>Croſſe,</hi> with the Appendices thereof to crucifie them, yet a <hi>Pile</hi> of fire and fagots, iron barres, timber<g ref="char:EOLhyphen"/>peeces, and huge ſtones, with thirty-ſix bar<g ref="char:EOLhyphen"/>rels of gunpowder, all to haue beene broacht at once, and to haue made but one volley of ſhot to haue blowne them vp, and ſo not one<g ref="char:EOLhyphen"/>lie with their powder to haue burnt them, but leſt <hi>(Salamander-like)</hi> they ſhould haue liued in that fire, with their wood, ſtones, and iron to haue grinded them to powder: for they haue a Law, and by that Law wee muſt haue died; <hi>Turne, or burne; Turne, or be ouer-turned.</hi>
+            </p>
+            <p n="3">3 The <hi>third thing</hi> which I noted in the <hi>Action,</hi> was the <hi>Subſequents,</hi> which were <hi>two:</hi>
+            </p>
+            <list>
+               <item>1 The <hi>Penſion,</hi> as of <hi>Iudas</hi> his treaſon, ſo of theirs, was <hi>Suspenſion:</hi> for <hi>Iudas</hi> hang'd him ſelfe; they were hang'd by others. Both had not the hap to execute their treaſon alike; but it was both their haps to be alike executed for their treaſon. <hi>Iudas</hi> executed his treaſon, and his treaſon likewiſe executed him: but theſe <hi>Traitors</hi> could not execute their treaſon, and yet their treaſon executed them.</item>
+               <item>2 With the reward of <hi>Iudas</hi> his treaſon
+<pb n="18" facs="tcp:16151:14"/>was purchaſed the<note n="m" place="margin">Act. 1.19.</note> 
+                  <hi>Potters Field to bury ſtran<g ref="char:EOLhyphen"/>gers in;</hi> and that Field is called <hi>Aceldama,</hi> the Field of bloud: ſo the reward of their treaſon is this, that to <hi>Rome,</hi> which is <hi>Campus Figuli,</hi> I will not ſay, <hi>Peters Field,</hi> as they would haue it, but the <hi>Potters Field,</hi> (the Field of the Pope, who together with his ſeruants and apprenti<g ref="char:EOLhyphen"/>ſes the Prieſts and Ieſuites, is <hi>Figulus Proditio<g ref="char:EOLhyphen"/>num,</hi> the <hi>Potter</hi> and <hi>Plotter</hi> of ſo many trea<g ref="char:EOLhyphen"/>ſons) I ſay, to <hi>Rome</hi> it hath purchaſed this name, <hi>Aceldama,</hi> the Field of bloud; a Field to burie thoſe in, that will bee ſtrangers to their Re<g ref="char:EOLhyphen"/>ligion.</item>
+            </list>
+            <p>That's for the firſt point, which is the <hi>Action.</hi>
+            </p>
+            <p>The <hi>ſecond</hi> is the <hi>Agent (Thou.)</hi>
+            </p>
+            <p>
+               <note place="margin">2 The Agent.</note> A man would thinke, that there had beene a tranſmigration of <hi>Iudas</hi> his <hi>malus genius</hi> into theſe <hi>Traitors;</hi> ſo aptly doe they accord both in <hi>Name</hi> and in <hi>Perſon.</hi>
+            </p>
+            <p n="1">1 For their <hi>Name; Iudas</hi>
+               <note n="n" place="margin">Polycarp. Lyſer. li de <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>aſſ. Dom.</note> had his <hi>name</hi> of <hi>Iudah</hi> a Patriarke of that Tribe, of which our Sauiour himſelfe deſcended; who is therefore called <hi>Leo de Tribu Iudah,</hi> the Lion of the Tribe of <hi>Iudah,</hi>
+               <note n="o" place="margin">Apoc. 5.</note> 
+               <hi>Apoc.</hi> 5. And yet in <hi>nature</hi> hee is <hi>Iudas de Leone, Judas</hi> of the Tribe of thoſe Li<g ref="char:EOLhyphen"/>ons,
+<pb n="19" facs="tcp:16151:14"/>of whom our Sauiour ſaith,<note n="p" place="margin">Pſal. 57.4.</note> 
+               <hi>Pſalm.</hi> 57. <hi>Eripuit Deus animam meam de medio catulorum Leonum;</hi> God hath deliuered my ſoule from the midſt of Lions whelpes. So the <hi>Ieſuites,</hi> the Authors of this treaſon, haue their names of <hi>Ieſus,</hi> the Lion of the Tribe of <hi>Iudah;</hi> but yet in nature they are of the Tribe of <hi>Lions:</hi>
+            </p>
+            <q>
+               <note n="q" place="margin">Virgil.</note> — Hyrcanaeque admôrunt vbera Tigres.</q>
+            <p>Againe, the name of <hi>Iudas</hi>
+               <note n="r" place="margin">Ambroſ in Apoc. <hi>7.</hi>
+               </note> ſignifieth <hi>Confeſ<g ref="char:EOLhyphen"/>ſion,</hi> which is a notable meanes of ſaluation; for <hi>Ore fit confeſſio ad ſalutem,</hi>
+               <note n="ſ" place="margin">Ro. 10.10.</note> 
+               <hi>Rom.</hi> 10. but yet his practiſe was <hi>Confuſion,</hi> euen the killing both of Chriſt and himſelfe. So the <hi>Jeſuites,</hi> the Authors of this treaſon, take their name of <hi>Ie<g ref="char:EOLhyphen"/>ſus, the only name vnder heauen by which wee muſt be ſaued;</hi> and yet their only practiſe is the con<g ref="char:EOLhyphen"/>fuſion &amp; ruinating both of Kings and Coun<g ref="char:EOLhyphen"/>tries; as if their ſocietie and brotherhood were founded vpon that fraternity and brother<g ref="char:EOLhyphen"/>hood which<note n="t" place="margin">Baſil l. de inuidiâ.</note> 
+               <hi>S. Baſil</hi> ſpeakes of, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, en<g ref="char:EOLhyphen"/>uie and ſlaughter, which (as he noteth) were founded vpon the <hi>firſt Fraternitie</hi> that euer was, which was that of <hi>Cain</hi> and <hi>Abel:</hi> for <hi>Cain</hi> firſt enuied his brother, and then hee ſlew him.</p>
+            <p>
+               <pb n="20" facs="tcp:16151:15"/>
+Againe, <hi>Iudas</hi> had alſo another name, and that was <hi>Iſcariot;</hi> which is (as<note n="u" place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>iuret.</note> ſome interpret it) <hi>
+                  <g ref="char:V">Ʋ</g>ir occiſionis,</hi> or <hi>
+                  <g ref="char:V">Ʋ</g>ir exterminationis,</hi> a mur<g ref="char:EOLhyphen"/>derer or a deſtroier. So the <hi>Agens aggregatum,</hi> the whole aggregate Agent of this treaſon, being (as<note n="*" place="margin">Pſ. 67.33.</note> 
+               <hi>Dauid</hi> ſpeaks, <hi>Pſal.</hi> 67. <hi>Congregatio Taurorum in vaccis populorum</hi>) the Prieſts and Ieſuites the <hi>Authors,</hi> and the twelue which were the <hi>Actors,</hi> they were all of them <hi>Iſcariots,</hi> or <hi>viri exterminantes,</hi> murderers and deſtroi<g ref="char:EOLhyphen"/>ers, not only <hi>Sonnes,</hi> but <hi>Fathers</hi> alſo of <hi>perdi<g ref="char:EOLhyphen"/>tion: <g ref="char:V">Ʋ</g>iri ſanguinum &amp; doloſi,</hi> bloud-thirſtie and deceitfull men; <hi>Boanerges,</hi> ſonnes of <hi>Thun<g ref="char:EOLhyphen"/>der</hi> from beneath, and of ſudden <hi>Lightning be<g ref="char:EOLhyphen"/>fore death:</hi> in a word, the <hi>Diuels Hell-hounds,</hi> who is <hi>Parſon</hi> of two great <hi>Pariſhes, Hell</hi> and <hi>Purgatorie;</hi> or rather the <hi>Popes Bloud-hounds,</hi> who is his <hi>Curate,</hi> to ſee both places diligently ſerued.</p>
+            <p n="2">2 For their <hi>Perſons</hi> and <hi>Callings; Iudas</hi> was a <hi>Prieſt,</hi> and yet a <hi>Father of Runnagates,</hi> for that's one of his curſes,<note n="x" place="margin">Pſal. 109.</note> 
+               <hi>Pſal.</hi> 109. <hi>Let his chil<g ref="char:EOLhyphen"/>dren be vagabunds.</hi> So the Prieſts and Ieſuites, they are (many of them) <hi>Fugitiues</hi> themſelues from this their natiue Countrey, but all of
+<pb n="21" facs="tcp:16151:15"/>them the <hi>Fathers and begetters</hi> of <hi>Fugitiues.</hi>
+            </p>
+            <p>Againe, <hi>Iudas</hi> was a <hi>Diſciple,</hi> and an <hi>Apoſtle</hi> of Chriſt: ſo the <hi>Actors</hi> of this treaſon were <hi>Diſciples, and Apoſtles;</hi> but <hi>Diſciples</hi> of the Prieſts and Ieſuites; <hi>Apoſtles,</hi> and as it were <hi>Le<g ref="char:EOLhyphen"/>gati à Latere</hi> from the Pope.</p>
+            <p>Againe, <hi>Iudas</hi> was <hi>a Friend, and Seruant, and natiue Country man</hi> of Chriſts, graced with many fauours and kindneſſes at his hands: ſo theſe <hi>Traitors, ſeeming Friends, and Subiects, and naturall vnnaturall Country-men</hi> of the Kings; vpon whom hee had caſt, or rather, caſt away many kindneſſes; for beſides that he had par<g ref="char:EOLhyphen"/>doned both them, and others that were <hi>eiuſdem monetae,</hi> of the ſame mine and mint that they were, many pecuniary mulcts for <hi>Recuſancie,</hi> and had ſpared them both <hi>life and liberty,</hi> when yet they deſerued neither, ſome of them hee had adorned with titles of dignity and honor, others with more than titular fauours. But</p>
+            <q>
+               <l>Perit quodfacis ingrato: <hi>And</hi>
+               </l>
+               <l>Improbus à nullo flectitur obſequio.</l>
+            </q>
+            <p>Theſe <hi>poore and frozen ſnakes,</hi> whom the King had cheriſhed in his owne boſome, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, (as<note n="y" place="margin">Greg. Na<g ref="char:EOLhyphen"/>zianz. in od.</note> 
+               <hi>Gregorie Nazianzen</hi> ſpeakes) when once
+<pb n="22" facs="tcp:16151:16"/>they had receiued warmth &amp; liuelihood from him, they were turned into <hi>fierie Serpents,</hi> to haue ſtung him to death. More than <hi>Cyclopi<g ref="char:EOLhyphen"/>call Monſters</hi> of men! for that <hi>Captaine-Cyclops Polyphemus</hi> (in the Poet) promiſed, not to de<g ref="char:EOLhyphen"/>uoure <hi>Vlyſſes King of Ithaca,</hi> ſo long as he had but any one of his companions to feede on; and his reaſon was, becauſe hee had begun to him in noble and generous wine. But theſe moſt ignoble and degenerous monſters of men, notwithſtanding thoſe many fauours wherewith his Maieſtie had vouchſafed in a manner to inebriate and ouercharge them, would haue deuoured both him and all his companions at once; but his Maieſtie rather than any, or all his companions beſides.</p>
+            <p>Thats for the ſecond point, which was the <hi>Agent.</hi>
+            </p>
+            <p>
+               <note place="margin">3 The Pati<g ref="char:EOLhyphen"/>ent.</note>The <hi>third</hi> is the <hi>Patient, (the Sonne of man)</hi> who becauſe he is euery way of a <hi>ſuper-ſuper<g ref="char:EOLhyphen"/>latiue excellencie</hi> by himſelfe, can admit no exact compariſon with any the ſonnes of men. And yet, foraſmuch as the Holy Ghoſt himſelfe hath thought it no robberie, to make <hi>Dauid</hi> and <hi>Salomon</hi> types of Chriſt; let it not bee
+<pb n="23" facs="tcp:16151:16"/>thought preſumption in mee, if I take vpon me to ſhew you ſome few of many <hi>Analogies</hi> betweene the <hi>Patients</hi> in both treaſons: <hi>Chriſt</hi> in the one, and the <hi>King</hi> (as the marke chiefly ſhot at) in the other.</p>
+            <p>The <hi>Analogies</hi> hold chiefly in <hi>foure</hi> things: their <hi>Perſons,</hi> their <hi>Names,</hi> their <hi>Offices,</hi> and their <hi>Adiuncts.</hi>
+            </p>
+            <p n="1">1 In their <hi>Perſons. Chriſt</hi> was <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>God and Man:</hi> ſo the <hi>King, in ſenſu modificato,</hi> in a qualified ſenſe, is alſo <hi>God and man.</hi> I would not be miſtaken: I ſay not an heauenly, but an <hi>earthly God:</hi> a God, not by nature, but by regi<g ref="char:EOLhyphen"/>ment. And therefore the Pſalmiſt, after <hi>Dixt Dijeſtis,</hi> I haue ſaid, ye are Gods,<note n="z" place="margin">Pſal. 82.6.</note> 
+               <hi>Pſalm.</hi> 82. preſently ſubioines an <hi>Item</hi> of mortalitie, <hi>Sed ſicut homines moriemini;</hi> Gods though yee bee, yet ye ſhall die like men.</p>
+            <p n="2">2 In their <hi>Names.</hi> Chriſt was called <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, or <hi>
+                  <g ref="char:V">Ʋ</g>nctus Dei,</hi> the anointed of God: ſo is the King <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Vnctus Dei,</hi> the anointed of God. And concerning Kings hath God giuen this expreſſe charge; <hi>Nolite tangere Chriſtos meos,</hi> Touch not mine anointed.</p>
+            <p>Againe, <hi>Chriſt</hi> was called <hi>Ieſus,</hi> which
+<pb n="24" facs="tcp:16151:17"/>
+               <note n="a" place="margin">Luc. 2.</note> ſignifieth a <hi>Sauiour, becauſe hee ſaued his people from their ſinnes:</hi> So may the <hi>King,</hi> like another <hi>Ioſhua,</hi> bee called <hi>Ieſus,</hi> becauſe by meanes of that <hi>diuine Reuelation,</hi> whereby hee vnriddled the meaning of thoſe <hi>Vriahs-like Letters</hi> of theirs, he was a <hi>temporall Sauiour</hi> of vs his peo<g ref="char:EOLhyphen"/>ple, as <hi>Ioſhua</hi> was of his.</p>
+            <p n="3">3 In their <hi>Offices. Chriſt</hi> was both a <hi>King,</hi> and the <hi>Sonne of a King, euen the King of heauen and earth:</hi> So the <hi>King</hi> is both a <hi>King,</hi> and the <hi>Sonne of a King,</hi> who was once a King on earth, but now a King in heauen.</p>
+            <p>Againe, <hi>Chriſt</hi> was <hi>Sacerdos, a Prieſt for euer after the order of Melchiſedech, King of Shalem,</hi>
+               <note n="b" place="margin">Ge. 14.18.</note> 
+               <hi>who brought forth bread and wine to Abraham,</hi> af<g ref="char:EOLhyphen"/>ter <hi>Abrahams</hi> victorie ouer the King of <hi>Sodom:</hi> So is the King <hi>Sacerdos,</hi> a Prieſt for euer after the order of <hi>Melchiſedech,</hi> King of <hi>Shalem, King of peace,</hi> bringing foorth (as appeareth this day) <hi>bread and wine, as a Sacrifice of thankeſgi<g ref="char:EOLhyphen"/>uing,</hi> to offer vnto the God of <hi>Abraham,</hi> after his victorie ouer the King of <hi>Sodome</hi> the <hi>Pope,</hi> whoſe hope was, that, as this day, wee alſo ſhould haue beene<note n="c" place="margin">Rom. 9.</note> 
+               <hi>facti tanquam Sodoma,</hi> and haue died of <hi>Sodomes</hi> conſumption with fire
+<pb n="25" facs="tcp:16151:17"/>and brimſtone, not from heauen, but from hell. Yea, and before this conqueſt alſo, his Maieſtie in a thankfull commemoration and recognition of another no leſſe mighty than merueilous deliuerance, had appointed, and doth ſtill religiouſly obſerue (and obſerue, O Lord, let him, if it bee thy will, many and many yeeres) a continuall morning-ſacrifice of thankſgiuing vnto God, euery <hi>Tueſday</hi> tho<g ref="char:EOLhyphen"/>row out the yeare.</p>
+            <p>Againe, <hi>Chriſt</hi> was <hi>Propheta,</hi> a Prophet, nay <hi>pluſquam pluſquam Propheta,</hi> more than <hi>John the Baptiſt, who was more than a Prophet.</hi> So is the King <hi>Propheta,</hi> a Prophet, yea and more than a Prophet, euen <hi>Regius Propheta,</hi> as was <hi>Dauid, a Kingly Prophet;</hi> a Prophet skill'd, as was <hi>Moſes</hi> that man of God, in all the learning of the <hi>Aegyptians,</hi> in all good ſecular arts and ſciences, (theſe very walles haue beene eare<g ref="char:EOLhyphen"/>witneſſes of it) and not only ſo, but in expoun<g ref="char:EOLhyphen"/>ding of holy writ (<hi>Opera teſtantur de eo,</hi> his workes teſtifie of him) and (which more is) in encountring, nay quelling (as <hi>Hercules</hi> did the <hi>many-headed Hydra</hi>) that moſt <hi>Tortuous and ſubtill Serpent of Rome:</hi> but then moſt a Pro<g ref="char:EOLhyphen"/>phet,
+<pb n="26" facs="tcp:16151:18"/>when by inſpiration and reuelation from aboue, be diſcyphered the hidden meaning of thoſe moſt obſcure and <hi>myſticall Letters.</hi> And as Chriſt himſelfe, both a Prophet and the God of the Prophets, was the firſt that dete<g ref="char:EOLhyphen"/>cted <hi>Iudas</hi> his treaſon; ſo the King, as a Pro<g ref="char:EOLhyphen"/>phet inſpired by that God, was the firſt that diſcouered and defeated this treaſon.</p>
+            <p n="4">4 In their <hi>Adiuncts</hi> or <hi>Attributes.</hi> Chriſt was not only <hi>verax,</hi> true, one that <hi>taught the way of God truly;</hi> but he was <hi>Ipſa Veritas,</hi> Truth it ſelfe.<note n="d" place="margin">Ioh. 14.</note> 
+               <hi>Ioh.</hi> 14. So the King is not only <hi>verax,</hi> true in his <hi>Tenet</hi> of Religion, but hee is alſo <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, a Propugner and Defender of the truth of Chriſt.</p>
+            <p>Againe, Chriſt was <hi>Mitis &amp; Manſuetus,</hi> meeke and gentle: his <hi>Meekeneſſe</hi> ſuch, that he reuiled not his aduerſaries when they wrote this inſcription ouer his head, as in a ſcorne; <hi>This is the King of the Iewes:</hi> but rather made it his Crowne, and his reioicing: and his <hi>Gen<g ref="char:EOLhyphen"/>tleneſſe</hi> ſuch, that he was more ready to reuiue the dead, than to kill the liuing. So the King is <hi>Mitis &amp; Manſuetus,</hi> meeke and gentle; his <hi>Meekeneſſe</hi> ſuch, that <hi>though his aduerſarie write
+<pb n="27" facs="tcp:16151:18"/>a booke againſt him, yet will hee take it vpon his ſhoulder, and binde it as a Crowne vnto him,</hi> (as the holy man<note n="e" place="margin">Job 31.35</note> 
+               <hi>Job</hi> ſpeakes, chap. 31.) and his <hi>Gentleneſſe</hi> ſuch, that more ready he would bee (if it were in his power) to reuiue the dead, than to kill the liuing.</p>
+            <p>Againe, Chriſt was <hi>Innocens,</hi> innoxious and harmeleſſe, and therefore it is his plaint in the Pſalme; <hi>Principes perſequuti ſunt me gratis;</hi> the Princes perſecuted mee without a cauſe, and without any deſert of me, O God. So the King, moſt innocent. <hi>God thou knoweſt his righteouſ<g ref="char:EOLhyphen"/>neſſe, and his innocencie is not hid from thee.</hi> And heerein was the <hi>Traitors</hi> cruelty like that of <hi>Herod,</hi> who would haue killed the poore <hi>Inno<g ref="char:EOLhyphen"/>cents</hi> that were <hi>bimuli,</hi> of two yeares old and vnder: for ſo would they haue killed the King when hee had raigned little more than two yeares among vs, though innocent as euer was <hi>Bimulus,</hi> any childe of two yeares old. And as <hi>Herod,</hi> rather than not kill Chriſt, cau<g ref="char:EOLhyphen"/>ſed his owne ſonne to be killed among thoſe <hi>Innocents;</hi> ſo they, rather than not kill the King, would haue blowne vp ſome <hi>Catholikes</hi> of their owne with him, to haue beene burnt
+<pb n="28" facs="tcp:16151:19"/>as <hi>Martyrs</hi> with him for companie.</p>
+            <p>That's for the third point, which was the <hi>Patient.</hi>
+            </p>
+            <p>
+               <note place="margin">4 The Inſtru<g ref="char:EOLhyphen"/>ment.</note>The <hi>fourth</hi> and laſt, is the <hi>Inſtrument (with a Kiſſe.)</hi> From whence there ariſeth a <hi>twofold</hi> contemplation: <hi>one,</hi> of the <hi>colour; another</hi> of the <hi>cauſe</hi> of <hi>Iudas</hi> his treaſon; the falſe colour, and the true cauſe.</p>
+            <p n="1">1 For the <hi>Colour. Iudas</hi> his treaſon had <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, which I may call either a <hi>goodly gloſſe,</hi> or a <hi>faire tongue,</hi> (for the words ſignifie both) &amp; it had alſo a <hi>faire paire of lips,</hi> like the harlot (in the<note n="f" place="margin">Pro. 30.20</note> Prouerbs) when <hi>ſhee wipeth her mouth,</hi> as if ſhe had no ill thought with her. For hee comes vnto Chriſt with <hi>Aue Rabbi,</hi> All-haile Maſter, and withall <hi>he kiſſeth him.</hi> Both were <hi>colourable pretexts;</hi> I ſay not, to commend and honeſt, but to cloake and couer his crueltie. So had this treaſon alſo <hi>a faire tongue;</hi> for who more ready than theſe <hi>Traitors,</hi> to ſay <hi>Aue Rex,</hi> God ſaue King <hi>Iames?</hi> It was as familiar to them almoſt as their <hi>Aue Maria.</hi> And it had al<g ref="char:EOLhyphen"/>ſo <hi>a faire paire of falſe harlots lips,</hi> offring <hi>oſculum pacis,</hi> a holy kiſſe of peace, (many treaties and ſupplications for toleration of their intolera<g ref="char:EOLhyphen"/>ble
+<pb n="29" facs="tcp:16151:19"/>Religion among vs) as if they, forſooth, had ſought nothing but the pretended good of their owne ſoules, when indeede they min<g ref="char:EOLhyphen"/>ded nothing ſo much as the <hi>internecion</hi> of <hi>Pro<g ref="char:EOLhyphen"/>teſtants,</hi> body and ſoule.</p>
+            <p n="2">2 The true <hi>Cauſe,</hi> and (as I may ſay) <hi>Fodina,</hi> the quarry and the rocke whence this treaſon was hewen, was <hi>two-fold.</hi>
+            </p>
+            <p n="1">1 The one was <hi>Ambition.</hi> For when<note n="g" place="margin">Ioh. 19.15</note> 
+               <hi>Pi<g ref="char:EOLhyphen"/>late</hi> asked the high Prieſts, <hi>Shall I crucifie your King?</hi> meaning Chriſt; they anſwered, <hi>We haue no King but Caeſar.</hi> And afterwards<note n="h" place="margin">Verſe 21.</note> when <hi>Pilate</hi> had written Chriſts Title, and ſet it ouer his head on the Croſſe, they ſaid vnto him,<note n="i" place="margin">Mat. 27.37</note> 
+               <hi>Write not, The king of the Iewes, but that he ſaid, I am king of the Iewes:</hi> and that muſt be ſet ouer his head as the cauſe of his ſufferings. So the quarrell of the <hi>Prieſts</hi> &amp; <hi>Ieſuites</hi> againſt our King was, that he would bee an abſolute King, and head of the Church within his own dominions, and not ſubmit both his head and head-ſhip to the Pope. They will heare of <hi>no King, but Caeſar;</hi> no head, no not of any particular Church, but the Pope. It were therefore to be wiſhed, that the Pope caried a mind but as gentle, as it is gen<g ref="char:EOLhyphen"/>tleman-like:
+<pb n="30" facs="tcp:16151:20"/>for as <hi>Gentlemen</hi> (many of them) thinke they haue neuer elbow-roome enough, till they haue ſhoued &amp; ſhoulderd out al their poore neighbours out of their houſen, and ta<g ref="char:EOLhyphen"/>ken their houſen into their owne hands: ſo the Pope thinkes he hath neuer <hi>Rome</hi> enough, till he haue thruſt all Chriſtian Kings, that wil not ſtoope to his lure, out of their thrones, king<g ref="char:EOLhyphen"/>domes, liues and all. His pretence is, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> that he doth it for the Lords ſake; but the truth is, that hee doth it <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, for Lordſhips ſake, that he may <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, carry an imperious hand ouer the Kings of the nations.</p>
+            <p n="2">2 The other cauſe was <hi>Couetouſneſſe.</hi>
+               <note n="k" place="margin">Ioh. 12.5.</note> 
+               <hi>Iudas</hi> was angry that the ointment was poured vp<g ref="char:EOLhyphen"/>on <hi>Ieſus</hi> his head, and that mony was not made of it to his bagge. So the <hi>Prieſts</hi> and <hi>Jeſuites,</hi> who are the Popes <hi>Burſars</hi> and <hi>Treaſurers,</hi> if not to beare, yet to fill his bags, were angrie that the ointment which was poured vpon <hi>King James</hi> the anointed of the Lord, had not been turned into mony: that's as much to ſay, that the King was not content to become tri<g ref="char:EOLhyphen"/>butarie to the Pope.</p>
+            <p>Againe, <hi>Iudas</hi> becauſe hee had loſt 300.
+<pb n="31" facs="tcp:16151:20"/>pence in the ointment, to regaine what he had loſt, betraied <hi>Christ</hi> for 30. pence, euery one of which (as ſome write) was equiualent to ten vſuall pence, and ſo by that meanes he made himſelfe a ſauer. So the <hi>Prieſts</hi> and <hi>Ieſuites,</hi> be<g ref="char:EOLhyphen"/>cauſe the Pope loſt ſomewhat that hee might haue gained by the ointment, that is to ſay, if our <hi>Anointed</hi> had beene <hi>Catholike,</hi> to repaire that loſſe (as they hoped) by a ſucceſſour of their owne making, that might bee for their turne, would haue throwne our gracious So<g ref="char:EOLhyphen"/>ueraigne out of throne and life at once.</p>
+            <p>Thus ye ſee (beloued) how the moſt <hi>execra<g ref="char:EOLhyphen"/>ble Treaſon</hi> of this day doth euery way match, if not maſter, the treaſon of <hi>Iudas</hi> (excepting onely that euer to bee excepted circumſtance of the altogether vnmatchable perſon of the <hi>Patient, Chriſt</hi>) and that both of them ſo neere<g ref="char:EOLhyphen"/>lie iumpe together, as if that had beene the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, or prime-copie of this <hi>Treaſon,</hi> this but an <hi>extract</hi> or <hi>tranſcript</hi> of it, with ſome few ad<g ref="char:EOLhyphen"/>ditions of an higher ſtreine, wherein it goes beyond it.</p>
+            <p>The conſideration whereof ſhould engen<g ref="char:EOLhyphen"/>der in vs</p>
+            <p n="1">
+               <pb n="32" facs="tcp:16151:21"/>
+1 A <hi>Deteſtation</hi> of that <hi>ſhameleſſe, enti<g ref="char:EOLhyphen"/>cing, ſanguin-coloured, Catholike, common whore of Babylon,</hi> who is euer in trauell with a <hi>Babel,</hi> or <hi>Chaos</hi> of our confuſion; whoſe Religion is like <hi>Draco's</hi> Lawes, written with <hi>bloud;</hi> whoſe head, <hi>Officina ſcelerum,</hi> the ſhop where all <hi>Trea<g ref="char:EOLhyphen"/>ſons</hi> and <hi>Villanies</hi> are forged; whoſe heart and hands, <hi>Carnificina Sanctorum,</hi> the ſhambles of the Saints of God: and among other her <hi>who<g ref="char:EOLhyphen"/>riſh trickes,</hi> ſhe hath this for one; ſhe is <hi>Diuari<g ref="char:EOLhyphen"/>catis tibijs,</hi> (as the<note n="l" place="margin">Ezech. 16.</note> Prophet ſpeakes) ready to admit all commers; <hi>burning</hi> with <hi>luſt,</hi> and <hi>luſt<g ref="char:EOLhyphen"/>ing</hi> to <hi>burne;</hi> to burne all. Thoſe that approch vnto her, ſhee burnes in that <hi>brimſtonie lake</hi> of <hi>hell;</hi> and thoſe that will not come at her, ſhee burnes in a <hi>lake</hi> of <hi>gunpowder,</hi> a borderer and next neighbour to the lake of hell.</p>
+            <p n="2">2 A <hi>Caution</hi> and <hi>Circumſpection,</hi> to walke wiſely and warily amidſt ſuch a crooked and peruerſe generation, a generation that ſet not their heart aright towards vs: and to truſt nei<g ref="char:EOLhyphen"/>ther flat <hi>Recuſants,</hi> that openly refuſe our holy Aſſemblies, no nor yet our monethly <hi>Popiſh Proteſtants,</hi> and <hi>Proteſting Papiſts,</hi> the <hi>Moone<g ref="char:EOLhyphen"/>calues</hi> of that <hi>Lunaticke Religion,</hi> hauing <hi>Fidem
+<pb n="33" facs="tcp:16151:21"/>menſtruam,</hi> a faith that wexeth and weineth with the <hi>Moone,</hi> comming to Church once a moneth, (more for feare of the Law, than for loue of the Goſpell) and then preſently hauing a moneths minde to bee out of the Church a<g ref="char:EOLhyphen"/>gaine: And to know, that <hi>Hora eſt iam nos de ſomno ſurgere;</hi> ſith the <hi>Papiſts</hi> are ſo watchfull while wee ſleepe; and all, that they may with leaſt ſuſpicion, &amp; beſt aduantage, be <hi>Fundi no<g ref="char:EOLhyphen"/>ſtri calamitas,</hi> the baine and bale of this Land of ours; it's time, high time, that we now awake out of our ſleepe; yea, that the keene ſword of <hi>Iuſtice</hi> ſhould now awake, and ſleepe no lon<g ref="char:EOLhyphen"/>ger in the ſcabbard of cruell pitie; and to per<g ref="char:EOLhyphen"/>ſwade our ſelues (as too-too-iuſtly wee may) that<note n="n" place="margin">Virgil.</note> 
+               <hi>Vna ſalus nobis nullam ſperare ſalutem.</hi>
+            </p>
+            <p>Our only ſafe courſe ſhall be, neuer to thinke our ſelues ſafe, ſo long as this <hi>Troian Horſe</hi> is among vs;</p>
+            <q>
+               <note n="o" place="margin">Idem.</note> Equo ne credite Teucri:</q>
+            <p>And, that though one vaute of theirs be dam<g ref="char:EOLhyphen"/>med vp, yet ſo long as there is another, and that a deeper vaute of <hi>Treaſon</hi> in their hollow hearts, <hi>abyſſus abyſſum,</hi> one vaute will call vp a<g ref="char:EOLhyphen"/>nother, and <hi>ignis ignem,</hi> one <hi>fire-worke</hi> will kin<g ref="char:EOLhyphen"/>dle<note n="m" place="margin">Rom. 13.</note>
+               <pb n="34" facs="tcp:16151:22"/>another, and <hi>ſimile ſimile,</hi> one like will pro<g ref="char:EOLhyphen"/>duce another like to it ſelfe. <hi>Dolent, ſibi bolum è faucibus ereptum;</hi> it grieues them, that wee were not giuen ouer as a prey vnto <hi>Faux</hi> his teeth: and therefore their rage is ſtill as hot as hell-fire againſt vs, euen <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, a fire that neuer wil be quenched; and the burning there<g ref="char:EOLhyphen"/>of (if we looke not to it) will be fire and much wood; and the breath of the Pope, like a riuer of brimſtone, to kindle it for euermore.</p>
+            <p n="3">3 A <hi>Conſolation,</hi> to confirme and ſolace our hearts in this aſſurance, that as at our <hi>firſt</hi> redemption <hi>de inferiori abyſſo,</hi> from the nether<g ref="char:EOLhyphen"/>moſt hell, Chriſt cancelled <hi>Chirographum,</hi> the hand-writing that was againſt vs, and nailed it to his Croſſe, and now againe at this our <hi>ſe<g ref="char:EOLhyphen"/>cond</hi> redemption (as I may call it) <hi>de ſuperiori a<g ref="char:EOLhyphen"/>byſſo,</hi> from the vppermoſt hell, he alſo cancel<g ref="char:EOLhyphen"/>led <hi>Chirographum,</hi> the hand-writing that was againſt vs, and nailed it to the Traitors Croſſe: ſo if we ſhall ſerue and feare him as we ought, he will euer fruſtrate and annihilate whatſoe<g ref="char:EOLhyphen"/>uer purpoſes and proiects all the diuels either on earth, or in hell can deuiſe againſt vs. And, that as Chriſt was <hi>Emmanuel,</hi> God with vs, <hi>Ad
+<pb n="35" facs="tcp:16151:22"/>conſummationem ſalutis,</hi> for the conſummation of <hi>our ſaluation,</hi> when, as the Sonne of man, he ſuffered himſelfe to be betraied to the death of the Croſſe, as in my text: and againe, <hi>Em<g ref="char:EOLhyphen"/>manuel,</hi> God with vs, as on this day, <hi>ad conſum<g ref="char:EOLhyphen"/>mationem ſalutis,</hi> for the conſummation of this our <hi>ſecond ſaluation,</hi> when, as the Son of God, he reuealed, and, as it were, betraied theſe <hi>Trai<g ref="char:EOLhyphen"/>tors</hi> to the death of the Croſſe: ſo hee will alſo be <hi>Emmanuel,</hi> God with vs,<note n="p" place="margin">Matt. 28.</note> 
+               <hi>ad conſummationem ſaeculi,</hi> to the end of the world, if wee ſtand faſt and immoueable in the faith of Chriſt, where<g ref="char:EOLhyphen"/>by we ſhall be able to quench all the firie darts of the diuell. For true and faithfull is he that hath promiſed, that if we will be his people, he will ſurely be our God. Wherefore, march va<g ref="char:EOLhyphen"/>liantly, ô my ſoule; and ô ye the faithfull ſoul<g ref="char:EOLhyphen"/>diers of Chriſt, bee ſtrong, and comfort your hearts. <hi>Chriſto Duce,</hi> ſo long as your Captain Generall is Chriſt, feare not what diuell or man can doe vnto you.</p>
+            <p n="4">4 And laſtly, a <hi>Gratulation</hi> or <hi>Thankeſgiuing</hi> vnto God, for this his vnſpeakable mercie to<g ref="char:EOLhyphen"/>wards vs. For <hi>Ecce nunc dies ſalutis,</hi> Behold now the day of ſaluation. A day in the Church of
+<pb n="36" facs="tcp:16151:23"/>
+               <hi>Rome, <gap reason="blank" extent="1 word">
+                     <desc> _____ </desc>
+                  </gap> -Carbone notabilis atro;</hi> for euer to be marked and ſigned with a blacke coale, be<g ref="char:EOLhyphen"/>cauſe the fire came not at their coale to make it red: but to the Churches of <hi>Great Britannie</hi> for euer to ſtand in their <hi>Kalendars</hi> like that <hi>
+                  <g ref="char:V">Ʋ</g>ialactea,</hi> or milkie way in heauen,
+<q>
+                  <note n="q" place="margin">Ouid.</note> Candore notabilis ipſo:</q> and to be noted for a <hi>milke-white day,</hi> becauſe in it the fauour of God was as milke to repreſſe and quench the wild-fire and the gunpowder, that had otherwiſe beene vnquenchable, till wee had ſtaunched &amp; quenched the fury of it with a common ruine. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, but not <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>dies,</hi> but not <hi>in diem,</hi> a day, but the memory therof not to laſt only for a day. <hi>Diem pro anno, diem (inquam) pro anno tibi dedi,</hi> ſaith God to his Pro<g ref="char:EOLhyphen"/>phet<note n="r" place="margin">Ezec. 4.6.</note> 
+               <hi>Ezechiel, c.</hi> 4. I haue appointed thee a day for a yeare, euen a day for a yeare. But this is <hi>dies pro omnibus annis,</hi> a day that muſt neuer be ouer-year'd, a day for all the yeares of our life to thanke God for: a day (I ſay) wherein<note n="ſ" place="margin">Pſa. 111.4.</note> 
+               <hi>the mercifull and gratious Lord hath ſo done his mer<g ref="char:EOLhyphen"/>ueilous worke, that it ought to bee had in remem<g ref="char:EOLhyphen"/>brance.</hi> For it was come to a <hi>Tantumnon,</hi> and to a <hi>paulominùs in inferno habitaſſet anima noſtra.</hi>
+               <pb n="37" facs="tcp:16151:23"/>We were euen at the pits brinke, <hi>Jn articulo mortis,</hi> not onley as men appointed to die, but at the point to die. But God who is <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, (as<note n="t" place="margin">Simplicius in Ariſt. Phyſic. l. <hi>1.</hi>
+               </note> the <hi>Philoſopher</hi> calls him) and (as<note n="u" place="margin">Pſal. 9.9.</note> 
+               <hi>Dauid</hi>) <hi>Deus in opportunitatibus,</hi> a God in the needfull time of trouble, when we were thus <hi>albicantes ad meſſem,</hi> white for the harueſt, and ready to be cut downe, and there wanted nothing but on<g ref="char:EOLhyphen"/>ly the thruſting in of <hi>Falx,</hi> the ſickle to cut vs downe; or <hi>Fax,</hi> the fire to burn vs vp; or <hi>Faux,</hi> euen <hi>Guy Faux,</hi> or (if yee will) <hi>Faux Orci,</hi> that helliſh <hi>Faux</hi> to haue deuoured vs; then, then did he ſend from heauen, and ſaue vs.</p>
+            <q>Nocte pluit totâ, redeunt ſpectacula manè.</q>
+            <p>All the night long were the vngodly digging a pit for vs, but <hi>before the morning watch, I ſay, be<g ref="char:EOLhyphen"/>fore the morning watch,</hi> they fell into it them<g ref="char:EOLhyphen"/>ſelues. God <hi>the watchman of Iſrael, who neither ſlumbers nor ſleeps, who vnleſſe he had kept the City, the watchmen had watched but in vain,</hi> he watch<g ref="char:EOLhyphen"/>ed them a turne, and turn'd their counſell to their owne confuſion. The blow which they had intended vnto vs, was ſuch a blow to themſelues, that in euery honeſt heart the cre<g ref="char:EOLhyphen"/>dit of their <hi>Lex ignea</hi> is quite blowne vp.</p>
+            <p>O let not vs alſo play the <hi>Iudaſſes</hi> with <hi>God,</hi>
+               <pb n="38" facs="tcp:16151:24"/>and ſet light by this and other his mercies to<g ref="char:EOLhyphen"/>wards vs.<note place="margin">Pſ. 125.4.</note> If God do * <hi>benefacere,</hi> do well vnto vs, let it not grieue vs, <hi>benedicere,</hi> to ſpeak good of his name.<note place="margin">Ge. 22.13.</note> But as <hi rend="sup">x</hi> a <hi>Ramme</hi> was offer'd vp to <hi>God</hi> for <hi>Iſaaks</hi> deliuery, when <hi>wood, fire,</hi> and <hi>knife</hi> were prepared to haue kill'd &amp; offer'd vp him in ſacrifice;<note place="margin">Pſal. 28.1.</note> ſo y <hi>Afferte domino, filij Dei, afferte domino filios arietum.</hi> For this deliuery of our gracious <hi>Iacob</hi> and his people, bring vnto the Lord, ô ye ſons of God, bring young rammes, (bring alſo the calues of your lips) vnto the Lord; that is, (as it followes in the Pſalme) <hi>Aſcribe vnto the Lord worſhip and ſtrength, Giue the Lord the honor due vnto his name.</hi> And ſith our bleſſed <hi>Iacob,</hi> as this day, got away the bleſſing from that <hi>Romiſh Eſau,</hi> &amp; ſupplanted thoſe ſup<g ref="char:EOLhyphen"/>planters, &amp; hauing as it were wreſtled al night with the deſtroying Angel, in the morning be<g ref="char:EOLhyphen"/>came <hi>Iſrael,</hi> and preuailed with God; Oh let <hi>Iacob</hi> and all <hi>Iſrael</hi> powre out their hearts in ſongs of thankſgiuing vnto <hi>God,</hi> the <hi>God</hi> of <hi>Ia<g ref="char:EOLhyphen"/>cob</hi> &amp; <hi>Iſrael.</hi> And ſith our ſelues were not made (as wee had almoſt beene) <hi>Oblatio matutina,</hi> a morning burnt incenſe to the diuell, <hi>igni deuo<g ref="char:EOLhyphen"/>rationis,</hi> with their deuouring fire; let vs make our ſelues <hi>Oblationem matutinam,</hi> a morning
+<pb n="39" facs="tcp:16151:24"/>burnt ſacrifice vnto God, <hi>igni deuotionis,</hi> with the fire of deuotion. And ſith <hi>Calix mortis,</hi> that bitter cuppe of death and deſtruction, which they had mixed for vs, paſſed from vs vntou<g ref="char:EOLhyphen"/>ched and vntaſted, let vs teſtifie our thankful<g ref="char:EOLhyphen"/>neſſe vnto <hi>God</hi> for it, by taking and taſting of this other cup, which the Lord himſelfe hath mingled for vs, euen the cup of his <hi>owne bloud;</hi> a bloud that ſpeaketh better things than did the bloud of their cup. For this is <hi>Calix ſaluta<g ref="char:EOLhyphen"/>ris,</hi> the cup of ſaluation, and <hi>Calix benedictionis,</hi> the cup of bleſſing, and <hi>Calix Euchariſtiae,</hi> the cup of thankſgiuing vnto God, as for the be<g ref="char:EOLhyphen"/>nefit of Chriſts ſuffering, ſo likewiſe for the benefit of our not ſuffering.</p>
+            <p>And now, beſeech wee God <hi>(Quid enim niſi vota ſuperſunt?)</hi> euen that God who hath hi<g ref="char:EOLhyphen"/>therto ſo graciouſly preſerued vs, that if euery haire of our head were a life, it were not too much to ſpend them al in defence of his truth, that as he turn'd the treaſon of <hi>Iudas</hi> to the ſal<g ref="char:EOLhyphen"/>uation of mankind, ſo he would alſo turn this treaſon of the <hi>Papiſts</hi> to the good of this Land, that it may make vs al wiſe vnto ſaluation, that once knowing them, we may for euer learne to auoid them; that the Regall Diademe may
+<pb n="40" facs="tcp:16151:25"/>for euer be ſo nailed and fixed to the head of <hi>King James,</hi> that the ſtrong and gun-powder breath of the Pope, or any other Prince or Po<g ref="char:EOLhyphen"/>tentate whatſoeuer, may neuer bee able to blow it off: That his <hi>Queene</hi> may be an ancient <hi>Nurſing-mother</hi> both to him, and our whole Land: That his <hi>Children</hi> may grow vp as the young plants, &amp; be as <hi>Oliue-branches</hi> (pledges of our continuall <hi>peace</hi>) round about his Ta<g ref="char:EOLhyphen"/>ble: That God would alſo make his enemies, &amp; the enemies of his truth, like vnto a <hi>wheele,</hi> and ſtrike them with the ſpirit of giddineſſe: That hee would turne their fire-matches into halters for their owne necks, and their ſwords into their owne bowels: and that hee would euer bow downe their backes, whoſe neckes are ſo ſtiffe, that they wil not bow to the yoake of obedience to their liege and lawfull Soue<g ref="char:EOLhyphen"/>raigne; that ſo, we his people may take vp that <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, or Song of triumph;<note n="z" place="margin">Pſ. 110.1.</note> 
+               <hi>Dixit Dominus Do<g ref="char:EOLhyphen"/>mino meo,</hi> The Lord ſaid vnto our Lord the King, Sit thou on thy Throne, vntill I make thy foes thy footſtoole. And let all the people ſay, <hi>Fiat, Fiat: <g ref="char:V">Ʋ</g>iuat, <g ref="char:V">Ʋ</g>iuat: <g ref="char:V">Ʋ</g>aleat, Valeat:</hi> God ſaue <hi>King Iames. Amen, Amen. Amen;</hi> Euen ſo Lord Ieſus.</p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:16151:25"/>
+         </div>
+      </body>
+   </text>
+</TEI>

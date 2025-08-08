@@ -1,0 +1,587 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Sum of the actes &amp; decrees made by dyuers byshopes of Rome</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1538</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 33 KB of XML-encoded text transcribed from 17 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A11045</idno>
+            <idno type="STC">STC 21307A.5</idno>
+            <idno type="STC">ESTC S1118</idno>
+            <idno type="EEBO-CITATION">21416251</idno>
+            <idno type="OCLC">ocm 21416251</idno>
+            <idno type="VID">23960</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A11045)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 23960)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1735:4)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The Sum of the actes &amp; decrees made by dyuers byshopes of Rome</title>
+                  <author>Gybson, Thomas, d. 1562.</author>
+               </titleStmt>
+               <extent>[32] p.   </extent>
+               <publicationStmt>
+                  <publisher>... Imprynted in [the] house of Thomas Gybson,</publisher>
+                  <pubPlace>[London] :</pubPlace>
+                  <date>1538.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"Translated out of Latyn into Englyshe ..."--Colophon.</note>
+                  <note>Name of publisher from colophon.</note>
+                  <note>Signatures: A-D⁴.</note>
+                  <note>Title in ornamental border.</note>
+                  <note>Contains tailpiece.</note>
+                  <note>Reproduction of original in King's College (University of Cambridge). Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Catholic Church --  Controversial literature.</term>
+               <term>Popes.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2008-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-03</date>
+            <label>John Pas</label>Sampled and proofread</change>
+         <change>
+            <date>2010-03</date>
+            <label>John Pas</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:23960:1"/>
+            <pb facs="tcp:23960:1" rendition="simple:additions"/>
+            <p>¶ The Sum of the actes &amp; decrees made by dyuers Byſhopes of Rome.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:23960:2"/>
+            <p>
+               <seg rend="decorInit">I</seg>N this lyttell Treatyle here folowyng y<hi rend="sup">u</hi> mayſte beholde moſte Chriſten rea<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>r (as in a glas moſt clere and bryght) y<hi rend="sup">e</hi> very vyſnomy, Image, Figu<g ref="char:EOLunhyphen"/>re, Shape, and faſſio<g ref="char:cmbAbbrStroke">̄</g>, of our Popyſhe po<g ref="char:EOLhyphen"/>pettes whiche hathe named them ſelue Popes (whiche y<hi rend="sup">e</hi> truthe to ſaye are By<g ref="char:EOLhyphen"/>ſhoppes of Rome) how &amp; in what thyng theyr great labors and paynes co<g ref="char:cmbAbbrStroke">̄</g>ſyſteth Only in makynge of lawes to ſtabily<g ref="char:EOLhyphen"/>ſhe theyr owne auctoryties, And in ſet<g ref="char:EOLhyphen"/>tynge vp longe Matyns and Maſſes, with Diriges &amp; other patrynges, That at no tyme ther ſhulde be any place gyue<g ref="char:cmbAbbrStroke">̄</g> that Goddes worde ſhulde be preached to the comfort of them that are derelye bought with the bloude of our mercifull ſauiour Chriſt. Theſe are the myſty aun<g ref="char:EOLhyphen"/>gelles of Satan (y<hi rend="sup">t</hi> Paule warneth vs of (whiche tranſfygureth them ſelues in to the ſymilitude &amp; Image of the aungel<g ref="char:EOLunhyphen"/>les
+<pb facs="tcp:23960:2"/>
+of lyght. ¶ Here in mayſte thou alſo beholde nowe that all Ceremonies that at this day is vſed in the church, Are the Inſtitucions and ordinaunces of Men, and therfore not to be eſtemed of no ſuch valour, that Godes worde ſhulde gyue place to let theſe dom paterynges be mi<g ref="char:EOLhyphen"/>niſtred. But that all theſe ought to gyue place and clerely to be put awaye, when godes worde co<g ref="char:cmbAbbrStroke">̄</g>meth to be lyuely and cle<g ref="char:EOLunhyphen"/>rely preached, which the Lorde of Glory graunt to be, Amen</p>
+            <div type="year">
+               <head>¶ In the yere of our lorde god .C.x</head>
+               <p>EVariſtus Byſhop of Rome ordey<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>d that if a Byſhop were accuſed by the comen people, it ſhulde not be re<g ref="char:EOLhyphen"/>ceaued. ¶Item that a Byſhop whan he preacheth, ſhulde haue .viii. Deacons to wayght vpon hym.</p>
+            </div>
+            <div type="year">
+               <head>¶ In the yere of oure Lorde god .C.xix.</head>
+               <p>¶ Alexander byſſhop of Rome ordeyned that they ſhulde be accurſed that dyd let any y<hi rend="sup">t</hi> were ſent from y<hi rend="sup">e</hi> See apoſtolicall
+<pb facs="tcp:23960:3"/>
+¶And y<hi rend="sup">t</hi> a lay man ſhuld not ſewe none of the Clergye at the te<g ref="char:cmbAbbrStroke">̄</g>porall lawe vpo<g ref="char:cmbAbbrStroke">̄</g> payne of excommunication. ☞ Item y<hi rend="sup">t</hi> ones a day the Preſte ſhulde ſacrifyce the bodye of Chriſt. &amp;c. ¶Item he added to y<hi rend="sup">e</hi> Sacrifyce and memory, of the paſſion of Chriſt (Qui pridie ꝙ paterecur. &amp;c.) to be ſayd vnto theſe wordes (Thys is my bo<g ref="char:EOLunhyphen"/>dye. &amp;c.) ¶Item he ordeyned that water ſhuld be myngled with y<hi rend="sup">e</hi> wyne, &amp; that it ſhuld be vnleuioned brede that was oc<g ref="char:EOLhyphen"/>cupyed in y<hi rend="sup">e</hi> oblation &amp; not leuende bred as was afore. Alſo he ordeyned holy wa<g ref="char:EOLunhyphen"/>ter to be made to fere dyuels a way w<hi rend="sup">t</hi> al.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our lorde .C.xxix.</head>
+               <p>¶Syxtus byſſhop of Rome, ordeyned y<hi rend="sup">t</hi> no prophane creature or lay man ſhulde lay hondes on holy thynges. ¶ Alſo that y<hi rend="sup">e</hi> corporas clothe ſhuld be of fyne lynyn. ¶And that the Maſſe ſhuld be celebrate vpon the auter, &amp; that in it ſhuld be ſayd thryſe Sanctus.</p>
+            </div>
+            <div type="year">
+               <head>☞In the yere of our lorde .C.xxxix.</head>
+               <p>
+                  <pb facs="tcp:23960:3"/>☞Telleſphorus byſſhop of Rome, ordey<g ref="char:EOLunhyphen"/>ned the .xl. Dayes afore Eſter called lent to be faſted. Alſo y<hi rend="sup">t</hi> a Preeſt vpo<g ref="char:cmbAbbrStroke">̄</g> Criſt<g ref="char:EOLhyphen"/>mas daye might co<g ref="char:cmbAbbrStroke">̄</g>ſecrate thryſe, or thry maſſes. Alſo that Gloria in exelſis ſhuld be ſonge in the maſſe.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our lorde .C.xl.</head>
+               <p>¶ Higinius Byſhop of Rome ordeyned that Solempne churches ſhulde be halo<g ref="char:EOLhyphen"/>wed w<hi rend="sup">t</hi>out ſacrifice or without a maſſe. And y<hi rend="sup">t</hi> the materiall thynges of the chur<g ref="char:EOLhyphen"/>che ſholde not be turned in Prophayne vſes. And y<hi rend="sup">t</hi> a infant ſhule be preſented at Baptyme or confirmacion, or Biſho<g ref="char:EOLhyphen"/>pynge be one man or one woman.</p>
+            </div>
+            <div type="year">
+               <head>☞ In the yere of our lorde .C.xliiii.</head>
+               <p>☞ Pius Byſhop of Rome Ordeyned Eaſter daye to be celebrate vpon the ſon<g ref="char:EOLunhyphen"/>day. Alſo the payne that preſtes ſhuld ha<g ref="char:EOLunhyphen"/>ue if they neglected or let paſſe any parte of the Celebration. Alſo that none ſhuld ſwere nether by the here nor hed of god. Alſo maydens before. xxv. yere of age &amp;
+<pb facs="tcp:23960:4"/>
+after the .xii. daye ſhulde not be conſecra<g ref="char:EOLunhyphen"/>ted into religion. ¶And y<hi rend="sup">t</hi> is ſacrilege raſhely to cauſe the profettes of the chur<g ref="char:EOLhyphen"/>che to be miniſhed nor the religious me<g ref="char:cmbAbbrStroke">̄</g> to be put out of fauor.</p>
+            </div>
+            <div type="year">
+               <head>¶ In the Iere of our lorde .C.lxvi.</head>
+               <p>¶ Sater Byſſhop of Rome ordeyned y<hi rend="sup">e</hi> a preeſte ſhuld not ſay maſſe or ſacrifyce except ii. Folkes at the leaſte were pre<g ref="char:EOLhyphen"/>ſent. And that nu<g ref="char:cmbAbbrStroke">̄</g>nes ſhuld not coche the corporas clothe the Chalyce nor the ky<g ref="char:EOLhyphen"/>uerynge of the chalys. And that Nu<g ref="char:cmbAbbrStroke">̄</g>nes ſhall not Sacrifice in the tyme of ſerui<g ref="char:EOLhyphen"/>ce. Item that a bleſſynge Preſte be pre<g ref="char:EOLunhyphen"/>ſent, at the tyme of matrymony, Item that a mayde be gyuen to her huſbande ſolempni of her father or mother or other frendes. Item y<hi rend="sup">t</hi> a vnlawful othe is to be broken. Item y<hi rend="sup">e</hi> vpon Mawndy, thueſ<g ref="char:EOLhyphen"/>day men ſhuld receaue the ſacrament.</p>
+            </div>
+            <div type="year">
+               <head>¶ In the yere of our lorde .C.lxivii.</head>
+               <p>¶ Eleuterius byſhop of Rome ordened y<hi rend="sup">t</hi> no meate ſhuld be forſaken thorown a
+<pb facs="tcp:23960:4"/>
+ſuperſticious name. That no ma<g ref="char:cmbAbbrStroke">̄</g> ſhuld be purdowne from theyr, dygnyte. But if they be fyrſt accuſed and then conuic<g ref="char:EOLhyphen"/>ted. He that is gyltye &amp; abſent ſhall not be condempned though hys acccuſor cal vpon hym. Vnder this byſhop y<hi rend="sup">e</hi> Bry<g ref="char:EOLhyphen"/>taynes receyued the fayth of Chriſt.</p>
+            </div>
+            <div type="year">
+               <head>¶ In the yere of our lorde .C.lxxxxii.</head>
+               <p>¶ Victor byſhop of Rome ordeyned that Eſter day ſhuld be Celebrate on the ſon<g ref="char:EOLhyphen"/>day after the .xiiii daye of the mone of the .i. Moneth. Alſo y<hi rend="sup">t</hi> euery ma<g ref="char:cmbAbbrStroke">̄</g> of neceſſite requyred myght be baptyſed whe<g ref="char:cmbAbbrStroke">̄</g> he plea<g ref="char:EOLunhyphen"/>ſe. And that thoſe y<hi rend="sup">t</hi> wolde not be reco<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>ſyled from theyr olde malyce, they ſhuld be exco<g ref="char:cmbAbbrStroke">̄</g>municate from the ſeruyce of god.</p>
+            </div>
+            <div type="year">
+               <head>¶ In the yere of our lorde .CC.iii.</head>
+               <p>¶ Seuerinus ordeyned y<hi rend="sup">t</hi> the ſacrament ſhuld be co<g ref="char:cmbAbbrStroke">̄</g>ſecrate in a chalyce of Glaſſe &amp; not of tre, as a fore. ☞ Alſo that Chri<g ref="char:EOLhyphen"/>ſte<g ref="char:cmbAbbrStroke">̄</g> people ſhuld reſcyue the ſacrame<g ref="char:cmbAbbrStroke">̄</g>t on Eſter day at y<hi rend="sup">e</hi> laeſt. And y<hi rend="sup">t</hi> preſtes ſhuld be w<hi rend="sup">t</hi> the Byſhop when he ſaythe maſſe</p>
+            </div>
+            <div type="year">
+               <pb facs="tcp:23960:5"/>
+               <head>☞In the yere of our lorde .CC.xii.</head>
+               <p>☞ Calixtus ordeyned, that the ymbryng dayes ſhulde be faſted that whete, wyne &amp; oyle myght be encreaſe. ☞ And that thoſe whiche ſhuld take orders ſhuld ab<g ref="char:EOLhyphen"/>ſtayne from wyues for euer, Item that a byſhop ſhuld not be co<g ref="char:cmbAbbrStroke">̄</g>ſecrated but yf he were lawfully choſe. That preſtes ſhold not be accuſed by defamed ꝑſons. That accuſars of clarckes, yf they be ſuſpecte enemies, they ſhal not be admitted in the courte or lawe. ☞ Alſo that the hurters of pylgryms ſhulde be accurſed.</p>
+            </div>
+            <div type="year">
+               <head>☞ In the yere of our lorde .CC.lii.</head>
+               <p>☞ Fabian ordeyned the holy oyle ſhulde be reuyued euery yere. And y<hi rend="sup">t</hi> the olde ſhulde be bre<g ref="char:cmbAbbrStroke">̄</g>t on mau<g ref="char:cmbAbbrStroke">̄</g>dy thurſday. That cryſten people ſhulde receyue the ſacra<g ref="char:EOLhyphen"/>ment thryſe a yere. Alſo that no man ſhulde loke to y<hi rend="sup">e</hi> preſtes lyuing but ſhuld herken to his doctryne &amp; thoſe thynges that he mynyſtrythe. In that clarkes that are gylte ſhulde be punyſhed by the
+<pb facs="tcp:23960:5"/>
+lawe of the chyrche. Item that thoſe y<hi rend="sup">t</hi> reproueth wro<g ref="char:cmbAbbrStroke">̄</g>gfully and clark, ſhulde be a curſed. That no man ſhulde take a wyfe within .v. degre of bloude.</p>
+            </div>
+            <div type="year">
+               <head>☞In the yere of our lorde .CC.lv.</head>
+               <p>☞ Cornelius ordeyned y<hi rend="sup">t</hi> no man ſhuld conſtrayne a preſte to ſwere but in a mat<g ref="char:EOLunhyphen"/>ter Of the fayth. That thoſe which are put vnto theyr others, by the order of the lawe ſhuld be faſtynge.</p>
+            </div>
+            <div type="year">
+               <head>☞In the yere of our lorde .CC.lxi.</head>
+               <p>☞Stephanus ordeyned y<hi rend="sup">e</hi> clarkes ſhuld not were the veſtamentes of the churche but in the miniſtracion of holy thynges. Item thoſe y<hi rend="sup">t</hi> take away y<hi rend="sup">e</hi> goodes of the church ſhalbe co<g ref="char:cmbAbbrStroke">̄</g>dempned as me<g ref="char:cmbAbbrStroke">̄</g>ſlayers. Thoſe that haue lefte the fayth, and are penyte<g ref="char:cmbAbbrStroke">̄</g>t ſhal not be baptyſed agayne.</p>
+            </div>
+            <div type="year">
+               <head>☞In the yere of our lord .CC.lxiiii.</head>
+               <p>☞ Sixtus ordeyned y<hi rend="sup">t</hi> a preeſt ſhulde ſa<g ref="char:EOLhyphen"/>crifyſe vpon a halowed altare &amp; he gaue vnto ſaynt Laurence the treaſure of the churche to dyſtrybute.</p>
+            </div>
+            <div type="year">
+               <pb facs="tcp:23960:6"/>
+               <head>In the yere of our lord .CC.lxxiii.</head>
+               <p>Helix ordeyned holy dayes yerely in reme<g ref="char:cmbAbbrStroke">̄</g>braunce of martyrs. He renewed conſecracio<g ref="char:cmbAbbrStroke">̄</g>s &amp; halowynges of chyrches that preſtes ſhulde not ſaye maſſe but in holy place onely.</p>
+            </div>
+            <div type="year">
+               <head>In the yere of our lord .CC.lxxvii.</head>
+               <p>EVticianus ordeyned that thoſe y<hi rend="sup">t</hi> geld the<g ref="char:cmbAbbrStroke">̄</g>ſelues, &amp; thoſe y<hi rend="sup">t</hi> are bug<g ref="char:EOLhyphen"/>gerers &amp; abbates y<hi rend="sup">t</hi> preſume to defyle vir<g ref="char:EOLunhyphen"/>gyns ſhuld be exco<g ref="char:cmbAbbrStroke">̄</g>municat. That newe frutes ſhuld be bleſſed vpon y<hi rend="sup">e</hi> auter Ite<g ref="char:cmbAbbrStroke">̄</g> y<hi rend="sup">t</hi> a marter ſhuld be beryed in a cope.</p>
+            </div>
+            <div type="year">
+               <head>In the yere of our lorde .CC.lxxxv.</head>
+               <p>Catus ordeyned that they ſhuld aſſend by vii. diſtynet orders to be a byſhop. Ite<g ref="char:cmbAbbrStroke">̄</g> y<hi rend="sup">t</hi> no lay man nether heretycke nor vn<g ref="char:EOLhyphen"/>baptyſed ma<g ref="char:cmbAbbrStroke">̄</g> ſhal cal a clarck to y<hi rend="sup">e</hi> lawe.</p>
+            </div>
+            <div type="year">
+               <head>In the yere of our lorde .CC.lxxxxvii.</head>
+               <p>Marcellinus for feare of payne co<g ref="char:cmbAbbrStroke">̄</g>mit<g ref="char:EOLunhyphen"/>ted Idolatrye &amp; afterwarde dyd penau<g ref="char:cmbAbbrStroke">̄</g>ce and y<hi rend="sup">e</hi> time ther was xvii.M.i.xxx. dais marterd by Dyocleſyan the Emperour.</p>
+            </div>
+            <div type="year">
+               <pb facs="tcp:23960:6"/>
+               <head>☞In the yere of our lorde .CCC.vi.</head>
+               <p>Marcellus was y<hi rend="sup">e</hi> fyrſt that gaue ty<g ref="char:EOLhyphen"/>tles to paryſhes and dyoces in Rome.</p>
+            </div>
+            <div type="year">
+               <head>In the yere of our lord .CCC.xi.</head>
+               <p>Euſebius ardeyned y<hi rend="sup">t</hi> thoſe that takyth away any thynge praynyng to y<hi rend="sup">e</hi> church ſhall reſtore .x. tymes aſmoche agayne, Ite<g ref="char:cmbAbbrStroke">̄</g> that preſtes ſhuld not be accuſed but of men of gret grauyte. The workers of witchcraft &amp; defamed perſons ſhall not be receaued as witneſſes. Alſo a woman y<hi rend="sup">t</hi> is ſpouſed to her huſband may departe from hym &amp; go into Religion.</p>
+            </div>
+            <div type="year">
+               <head>In the yere of our lorde .CCC.xiii.</head>
+               <p>Melacides y<hi rend="sup">e</hi> laſt marter from Peter ordeyned y<hi rend="sup">t</hi> no man ſhuld faſt on ſonday or thurſdaye. That no man ſhuld be con<g ref="char:EOLunhyphen"/>dempned of ſuſpicion before the dede be proued. That a clarck ſhuld abſtayne fro<g ref="char:cmbAbbrStroke">̄</g> ſeculer buſines.</p>
+            </div>
+            <div type="year">
+               <head>In the yere of our lorde .CCC.xvii.</head>
+               <p>Sylueſter Ordeyned y<hi rend="sup">t</hi> the holy oyle ſhuld be conſecrated by a byſhop. And y<hi rend="sup">e</hi>
+                  <pb facs="tcp:23960:7"/>
+chyldren beyng baptyſed ſhuld be confyr<g ref="char:EOLunhyphen"/>med by a byſhop. Item y<hi rend="sup">t</hi> preſtes ſhulde a noynt ſyk folkꝭ. Item y<hi rend="sup">t</hi> wenſday fry<g ref="char:EOLhyphen"/>day and ſaterday ſhuld be faſted. Item y<hi rend="sup">t</hi> preſtes may not be called of a lay man into no law. Item y<hi rend="sup">t</hi> a preſt ſhuld not be aturne in y<hi rend="sup">e</hi> temporall lawe. Ite<g ref="char:cmbAbbrStroke">̄</g> y<hi rend="sup">t</hi> preſtes ſhuld were no ſylk in clothꝭ. Ite<g ref="char:cmbAbbrStroke">̄</g> y<hi rend="sup">t</hi> he ſhall haue no dyed corporas cloth. Alſo he was y<hi rend="sup">e</hi> fyrſt y<hi rend="sup">t</hi> cauſed a deacon to put a cope on hym in tyme of maſſe and a fanon on hys left hande</p>
+            </div>
+            <div type="year">
+               <head>¶ In the yere of our lord .CCC.xxxviii.</head>
+               <p>☞Marcus ordeyned y<hi rend="sup">t</hi> the crede ſhuld be long a loft after y<hi rend="sup">e</hi> goſpel. That a clark ſhuld not be brought to the te<g ref="char:cmbAbbrStroke">̄</g>poral law.</p>
+            </div>
+            <div type="year">
+               <head>¶ In the yere of our lorde .CCC.lxxiii.</head>
+               <p>¶Damaſus ordeyned that the confite or ſhuld be ſayd at y<hi rend="sup">e</hi> beginnyng of y<hi rend="sup">e</hi> maſſe. Alſo he cauſed fyrſt y<hi rend="sup">e</hi> deuiſion of y<hi rend="sup">e</hi> quere y<hi rend="sup">e</hi> one ſhuld ſyng on verſe on y<hi rend="sup">e</hi> one ſyde and y<hi rend="sup">e</hi> other on y<hi rend="sup">e</hi> other ſyde. And y<hi rend="sup">t</hi> gloria patti ſhuld be ſonge at the ende of euery
+<pb facs="tcp:23960:7"/>
+pſalme. Alſo y<hi rend="sup">t</hi> thoſe y<hi rend="sup">e</hi> brek his canon lawe ſhulde be counted as blaſphemers of y<hi rend="sup">e</hi> ſpirit. He gaue autorite to .ſ. Ieromꝭ wrytyngꝭ He ordeyned y<hi rend="sup">e</hi> goſpel &amp; piſtle to be red in y<hi rend="sup">e</hi> maſſe He wryt y<hi rend="sup">e</hi> lyues of his <g ref="char:abpre">p̄</g>deceſſors &amp; many lawes. In hys tyme y<hi rend="sup">e</hi> counſel of Conſtantinople was</p>
+            </div>
+            <div type="year">
+               <head>☞In the yere of our lorde .CCC.xC.</head>
+               <p>¶ Siricius ordeyned y<hi rend="sup">t</hi> orders ſhuld be gyuen dyuerſe tymes of the yere. And y<hi rend="sup">t</hi> Pryſtes ſhuld be made by the byſſhoppꝭ only. And y<hi rend="sup">t</hi> pryſtes ſhuld not dwell w<hi rend="sup">t</hi> no wome<g ref="char:cmbAbbrStroke">̄</g>, But they were nye kynne to them. Alſo y<hi rend="sup">t</hi> no man Maryinge a wy<g ref="char:EOLhyphen"/>dowe ſhulde not be preſte.</p>
+            </div>
+            <div type="year">
+               <head>¶ In the yere of our lorde .CCCC.v.</head>
+               <p>¶Anaſtaſius, ordeyned y<hi rend="sup">t</hi> men ſhuld ſta<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLunhyphen"/>de vp at y<hi rend="sup">e</hi> readyng of the goſpel &amp; here it in remembraunce. Item that thoſe y<hi rend="sup">t</hi> lacked any of theyr members, or partꝭ of theyr bodyes ſhuld not be made pryſtꝭ.</p>
+               <p>Alſo he ordeyned fyrſte the Order of ſaynct Hierome.</p>
+            </div>
+            <div type="year">
+               <pb facs="tcp:23960:8"/>
+               <head>¶In the yere of our lord iiii.C.viii.</head>
+               <p>Innocentius ordeyned y<hi rend="sup">e</hi> Saterdayes ſhuld be faſted. A church ons halowed ſhuld not be halowed agayn. Item that a ſtatute made of the clargy without the co<g ref="char:cmbAbbrStroke">̄</g>ſent of the byſhop ſhulde be as voyde. Item that it ſhalbe counted Simonye to them that ſolde Prebendes, dignityes or of holy Oyle. Ite<g ref="char:cmbAbbrStroke">̄</g> on Solempne feaſtes thoſe that are Chriſten people ſhuld afore that they receyue the ſacrame<g ref="char:cmbAbbrStroke">̄</g>t gyue eche other a kyſſe of peace.</p>
+            </div>
+            <div type="year">
+               <head>In the yere of our lorde .iiii.C.xxiiii.</head>
+               <p>Sozinus ordeyned y<hi rend="sup">t</hi> the paſchall ta<g ref="char:EOLhyphen"/>per ſhulde be halowed in euery paryſhe on Eſter euen. Item that clarkes ſhulde not drynke in tauernes. Item y<hi rend="sup">t</hi> pre<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>tyſes ſhuld not take orders.</p>
+            </div>
+            <div type="year">
+               <head>In the yere of our lord .iiii.C.xxxiii.</head>
+               <p>Bonefacius ordeined y<hi rend="sup">t</hi> no man ſhuld be made a preſte before .xxx. yere &amp; that y<hi rend="sup">e</hi> ſeruaunte that ranne awaye from hys maſter ſhuld not be receyued to a pryſte.</p>
+            </div>
+            <div type="year">
+               <head>In the yere of our lorde .iiii.C.xliii.</head>
+               <p>
+                  <pb facs="tcp:23960:8"/>Leo ordeyned that in baptyme and co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLunhyphen"/>fyrmacyon we ſhuld haue one god father Item y<hi rend="sup">t</hi> in ſeptuageſime &amp; quadrageſyme and aduente, Alleluya ſhuld not be ſong nor gloria in excelſis. He ordeyned hanc igitur to be ſayd, in the cano<g ref="char:cmbAbbrStroke">̄</g> of the maſſe Item y<hi rend="sup">t</hi> a Byſhop of Via<g ref="char:cmbAbbrStroke">̄</g> called Mamar<g ref="char:EOLunhyphen"/>cus inſtituted the Latony to be ſonge.</p>
+            </div>
+            <div type="year">
+               <head>In the yere of our lord .iiii.C.lxiii.</head>
+               <p>Hilarius ordeyned y<hi rend="sup">t</hi> byſhopes ſhuld not choſe the<g ref="char:cmbAbbrStroke">̄</g> ſucceſſors This byſhop ga<g ref="char:EOLhyphen"/>thered al y<hi rend="sup">e</hi> decrees of his <g ref="char:abpre">p̄</g>deceſſors into one boke &amp; publyſhed the<g ref="char:cmbAbbrStroke">̄</g> to all y<hi rend="sup">e</hi> world.</p>
+            </div>
+            <div type="year">
+               <head>In the yere of our lord .v.C.xxv.</head>
+               <p>Iohn y<hi rend="sup">e</hi> .i. ordeyned y<hi rend="sup">t</hi> the Emperours ſhuld be ſubiectꝭ vnto y<hi rend="sup">e</hi> byſhopes &amp; not to bere rule ouer the<g ref="char:cmbAbbrStroke">̄</g>. In y<hi rend="sup">t</hi> tyme the holy<g ref="char:EOLunhyphen"/>nes of Bn<g ref="char:cmbAbbrStroke">̄</g>d<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e was i<g ref="char:cmbAbbrStroke">̄</g> y<hi rend="sup">e</hi> exſtemacio<g ref="char:cmbAbbrStroke">̄</g> which ordeined the Relion of monkes. Whiche thenſeforth was deuyded in many houſ<g ref="char:EOLhyphen"/>holdes.</p>
+            </div>
+            <div type="year">
+               <head>In the yere of our lorde .v.C.xxxii.</head>
+               <p>Bonyface y<hi rend="sup">e</hi> .ii. ordeyned that the lay
+<pb facs="tcp:23960:9"/>
+people ſhuld here theyr diuine ſeruice in a ſeuerall place from the clergye.</p>
+            </div>
+            <div type="year">
+               <head>¶ In the yere of our lorde .v.C.lvi.</head>
+               <p>☞Pelagius .i. ordeyned y<hi rend="sup">t</hi> preſtes ſhuld ſay theyr canonicall houres dayly. And that i<g ref="char:cmbAbbrStroke">̄</g> the tyme of lent they ſhulde not ce<g ref="char:EOLhyphen"/>lebrate before they had ſayd y<hi rend="sup">e</hi> laſt hour. And y<hi rend="sup">t</hi> ther ſhal not be admitted i<g ref="char:cmbAbbrStroke">̄</g> the ſpi<g ref="char:EOLunhyphen"/>rituall courte no lybell of accuſation on leſſe the party accuſed be preſent. Alſo y<hi rend="sup">t</hi> ſeiſmatykes &amp; heretikes ſhuld be oppreſ<g ref="char:EOLunhyphen"/>ſed with the ſeculer power.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our lord .v.C.xCii.</head>
+               <p>¶Gregory y<hi rend="sup">e</hi> great wrote fyrſt himſelfe in his letter i<g ref="char:cmbAbbrStroke">̄</g> theſe wordes ſeruus ſerue<g ref="char:EOLunhyphen"/>rum y<hi rend="sup">t</hi> is the ſeruau<g ref="char:cmbAbbrStroke">̄</g>t of al ſeruau<g ref="char:cmbAbbrStroke">̄</g>tes. In y<hi rend="sup">e</hi> ſinode of y<hi rend="sup">e</hi> .xxiiii. fathers he confyrmed ope<g ref="char:cmbAbbrStroke">̄</g>ly .iiii. general cou<g ref="char:cmbAbbrStroke">̄</g>cellꝭ. He brought into the church ornamentes &amp; ſyngyng. He ordeyned that the maſſe ſhuld begin w<hi rend="sup">t</hi> a verſe of y<hi rend="sup">e</hi> ſpalter. And that kyrieleyſon ſhuld be repeted .ix. tymes. He ordey<g ref="char:EOLunhyphen"/>ned Alleluya to be ſayd alſo y<hi rend="sup">e</hi> offertorye
+<pb facs="tcp:23960:9"/>
+he ordeyned &amp; in y<hi rend="sup">e</hi> canon of y<hi rend="sup">e</hi> maſſe to be ſayd. Deꝰ <abbr>q</abbr> nr<g ref="char:cmbAbbrStroke">̄</g>os. &amp;c. &amp; after y<hi rend="sup">e</hi> cano<g ref="char:cmbAbbrStroke">̄</g> of y<hi rend="sup">e</hi> d<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ical oracio<g ref="char:cmbAbbrStroke">̄</g> to be ſayed ouer y<hi rend="sup">e</hi> hoſte. at y<hi rend="sup">e</hi> houres he ordeyned Deꝰ i<g ref="char:cmbAbbrStroke">̄</g> adiutoriu<g ref="char:cmbAbbrStroke">̄</g> to be ſayd w<hi rend="sup">t</hi> gloria pr<g ref="char:cmbAbbrStroke">̄</g>i. And y<hi rend="sup">t</hi> the laſt wyll of the<g ref="char:cmbAbbrStroke">̄</g> y<hi rend="sup">t</hi> died ſhuld be kept &amp; ratified. And y<hi rend="sup">t</hi> the .iiii. dayes before the fyrſt ſonday in<g ref="char:EOLunhyphen"/>tent ſhuld be faſted, Alſo y<hi rend="sup">t</hi> me<g ref="char:cmbAbbrStroke">̄</g> maryed to ii. wiues &amp; vſerers ſhuld not be admitted to be preſtꝭ. Ite<g ref="char:cmbAbbrStroke">̄</g> y<hi rend="sup">t</hi> me<g ref="char:cmbAbbrStroke">̄</g> leuing theyr wiuꝭ w<hi rend="sup">t</hi> co<g ref="char:cmbAbbrStroke">̄</g>ſent y<hi rend="sup">t</hi> their wiues ought the<g ref="char:cmbAbbrStroke">̄</g> to en<g ref="char:EOLhyphen"/>ter i<g ref="char:cmbAbbrStroke">̄</g>to religio<g ref="char:cmbAbbrStroke">̄</g>, And alſo weme<g ref="char:cmbAbbrStroke">̄</g> leui<g ref="char:cmbAbbrStroke">̄</g>g their huſba<g ref="char:cmbAbbrStroke">̄</g>de with co<g ref="char:cmbAbbrStroke">̄</g>ſent their huſba<g ref="char:cmbAbbrStroke">̄</g>dꝭ ought alſo to enter i<g ref="char:cmbAbbrStroke">̄</g>to religio<g ref="char:cmbAbbrStroke">̄</g>. Alſo y<hi rend="sup">t</hi> their ſhal not be ii. metropolita<g ref="char:cmbAbbrStroke">̄</g>s i<g ref="char:cmbAbbrStroke">̄</g> one ꝓue<g ref="char:cmbAbbrStroke">̄</g>ce, This ma<g ref="char:cmbAbbrStroke">̄</g> co<g ref="char:cmbAbbrStroke">̄</g>mau<g ref="char:cmbAbbrStroke">̄</g>deth to prechers y<hi rend="sup">t</hi> they ſhuld vſe deſcreſſio<g ref="char:cmbAbbrStroke">̄</g> both i<g ref="char:cmbAbbrStroke">̄</g> ſpeking &amp; in keping of ſile<g ref="char:cmbAbbrStroke">̄</g>s. ¶And he belded .vi. monaſteries our of y<hi rend="sup">e</hi> grou<g ref="char:cmbAbbrStroke">̄</g>de of his owne coſt And he mayd his owne houſe a Religious houſe And like him ſhal ye ſkan<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> fynde any.<g ref="char:cross">✚</g>
+               </p>
+            </div>
+            <div type="year">
+               <head>¶ In the yere of our lorde .vi.C.v.</head>
+               <p>Sabinus ordeined y<hi rend="sup">t</hi> the houres of y<hi rend="sup">e</hi> day
+<pb facs="tcp:23960:10"/>
+ſhuld be made knowe<g ref="char:cmbAbbrStroke">̄</g> vnto y<hi rend="sup">e</hi> church bi y<hi rend="sup">e</hi> diſtinctio<g ref="char:cmbAbbrStroke">̄</g> of y<hi rend="sup">e</hi> ryngi<g ref="char:cmbAbbrStroke">̄</g>g of bellꝭ And y<hi rend="sup">t</hi> thee ſhuld la<g ref="char:cmbAbbrStroke">̄</g>pes co<g ref="char:cmbAbbrStroke">̄</g>tinually burne i<g ref="char:cmbAbbrStroke">̄</g> y<hi rend="sup">e</hi> church.</p>
+            </div>
+            <div type="year">
+               <head>☞In the yere of our lorde .vi.C.vii.</head>
+               <p>Boniface y<hi rend="sup">e</hi> .iii. ordeyned y<hi rend="sup">t</hi> the corporas cloth at y<hi rend="sup">e</hi> co<g ref="char:cmbAbbrStroke">̄</g>ſecratio<g ref="char:cmbAbbrStroke">̄</g> ſhuld belayde abrode by y<hi rend="sup">e</hi> preſt &amp; that none ſhuld be elected i<g ref="char:cmbAbbrStroke">̄</g> y<hi rend="sup">e</hi> place of the dede byſhop, But y<hi rend="sup">e</hi> .iii. day af<g ref="char:EOLunhyphen"/>ter hys deth, And y<hi rend="sup">t</hi> nether for fauor nor for no mony. And y<hi rend="sup">t</hi> the electio<g ref="char:cmbAbbrStroke">̄</g> ſhulde be made bothe of y<hi rend="sup">e</hi> clargy &amp; lay people, and y<hi rend="sup">t</hi> it ſhuld be ratyfyed by chaſſent of y<hi rend="sup">e</hi> by<g ref="char:EOLhyphen"/>ſhop. This man by y<hi rend="sup">e</hi> co<g ref="char:cmbAbbrStroke">̄</g>ſent of Focas ob<g ref="char:EOLunhyphen"/>tayned agai<g ref="char:cmbAbbrStroke">̄</g>ſt y<hi rend="sup">e</hi> patriarke of co<g ref="char:cmbAbbrStroke">̄</g>ſta<g ref="char:cmbAbbrStroke">̄</g>tinople That y<hi rend="sup">e</hi> ſee of Peter ſhulde be the hede of the churche.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our Lorde .vi.C.viii.</head>
+               <p>Boniface y<hi rend="sup">e</hi> .iiii. he dedicated y<hi rend="sup">e</hi> te<g ref="char:cmbAbbrStroke">̄</g>pyl of Gybel &amp; of y<hi rend="sup">e</hi> gentyles vnto our lady &amp; al ſayntes. ¶He made his fathers howſe a monaſtery, and the londes of his aun<g ref="char:EOLhyphen"/>cetry he gaue vnto the vſe of the Mo<g ref="char:cmbAbbrStroke">̄</g>kes. And than gaue vnto them auctorite to
+<pb facs="tcp:23960:10"/>
+preache, to baptyſe and to abſoyle.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our Lorde .vi.C.xv.</head>
+               <p>Theodatꝰ y<hi rend="sup">e</hi> .i. ordeyned y<hi rend="sup">t</hi> no ma<g ref="char:cmbAbbrStroke">̄</g> ſhulde mary that Mayde that his father had be<g ref="char:cmbAbbrStroke">̄</g> god father to. ¶This man loued y<hi rend="sup">e</hi> clar<g ref="char:EOLhyphen"/>gye and pore people ardently.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our lorde .vi.C.xviii.</head>
+               <p>Boniface the .v. ordeyned that thoſe the came to the church for ſocor, ſhuld not be taken from them with viole<g ref="char:cmbAbbrStroke">̄</g>ce. And that thoſe y<hi rend="sup">e</hi> co<g ref="char:cmbAbbrStroke">̄</g>mitted Sacrilege ſhuld in eue<g ref="char:EOLunhyphen"/>ry place be co<g ref="char:cmbAbbrStroke">̄</g>uicted &amp; accurſed. And y<hi rend="sup">e</hi> te<g ref="char:EOLhyphen"/>ſtamentes made by y<hi rend="sup">e</hi> Princes ſhuld by all maner of wayes ſta<g ref="char:cmbAbbrStroke">̄</g>de in ful ſtrength.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our lorde .vi.C.xxiii.</head>
+               <p>Honoriꝰ y<hi rend="sup">e</hi> .i. ordeyned y<hi rend="sup">t</hi> the names of y<hi rend="sup">e</hi> excomu<g ref="char:cmbAbbrStroke">̄</g>icat ſhuld be ope<g ref="char:cmbAbbrStroke">̄</g>ly denou<g ref="char:cmbAbbrStroke">̄</g>ſed, this ma<g ref="char:cmbAbbrStroke">̄</g> did reſtore many churchꝭ &amp; church yer<g ref="char:EOLunhyphen"/>des. And he apointed lawes to y<hi rend="sup">e</hi> ſaraſe<g ref="char:cmbAbbrStroke">̄</g>s.</p>
+            </div>
+            <div type="year">
+               <head>¶In y<hi rend="sup">e</hi> yere of our lord .vi.C.xxxviii.</head>
+               <p>Iohn<g ref="char:cmbAbbrStroke">̄</g> the .iiii. ordeyned that any inua<g ref="char:EOLhyphen"/>ded or toke away the godes of the church He ſhuld reſtore .iiii. folde.</p>
+            </div>
+            <div type="year">
+               <pb facs="tcp:23960:11"/>
+               <head>☞ In the yere of our lorde .vi.C.xl.</head>
+               <p>Theodorus Ordeyned the halowynge of waxe as Sozinus writyth of hym, &amp; bylded vp .ii. Celles in Rome.</p>
+            </div>
+            <div type="year">
+               <head>¶ In the yere of our lorde .vi.C.xlvi.</head>
+               <p>Martyne y<hi rend="sup">e</hi> .i. ordeyned y<hi rend="sup">t</hi> they ſhuld not haue no lo<g ref="char:cmbAbbrStroke">̄</g>g here. And y<hi rend="sup">t</hi> y<hi rend="sup">e</hi> ma<g ref="char:cmbAbbrStroke">̄</g> &amp; his wyfe ſhulde be bleſt before they laye together. And y<hi rend="sup">t</hi> the byſhop euery yere ſhuld make creme &amp; ſend it to euer<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> pariſhe of y<hi rend="sup">e</hi> diocꝭ.</p>
+            </div>
+            <div type="year">
+               <head>☞In the yere of our lorde .vi.C.liii.</head>
+               <p>Egenius the .ii. ordeyned that the By<g ref="char:EOLhyphen"/>ſhop ſhuld haue pryſons, to ponyſhe y<hi rend="sup">e</hi> of fenders of the Clarge. Alſo that y<hi rend="sup">e</hi> preſtꝭ howſes ſhulde be bylded nere y<hi rend="sup">e</hi> churche.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our lorde .vi.C.lvi.</head>
+               <p>Vitilianus made y<hi rend="sup">e</hi> order of y<hi rend="sup">e</hi> churches He ordeyned ſonge &amp; added to y<hi rend="sup">e</hi> organs.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our lorde .vi.C.lxv.</head>
+               <p>Theodarus y<hi rend="sup">e</hi> .ii. bylded churches. He ordeined many ſuffrages to put away ma<g ref="char:EOLunhyphen"/>ny wonders y<hi rend="sup">t</hi> hapened i<g ref="char:cmbAbbrStroke">̄</g> thoſe dayes.</p>
+            </div>
+            <div type="year">
+               <head>☞In the yere of our lorde .vi.C.lxxi.</head>
+               <p>
+                  <pb facs="tcp:23960:11"/>Donus y<hi rend="sup">e</hi> .i. ordeyned y<hi rend="sup">e</hi> clergye into di<g ref="char:EOLhyphen"/>uerſe degrees. He made y<hi rend="sup">e</hi> church of Raue<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLunhyphen"/>na to be obedie<g ref="char:cmbAbbrStroke">̄</g>t vnto y<hi rend="sup">e</hi> church of Rome.</p>
+            </div>
+            <div type="year">
+               <head>☞In the yere of our lord .vi.C.lxxx.</head>
+               <p>Agatho in counſell of .ii.C.lxxxix. by<g ref="char:EOLhyphen"/>ſhopꝭ vnied &amp; accorded y<hi rend="sup">e</hi> latyns &amp; the gre<g ref="char:EOLunhyphen"/>kes in y<hi rend="sup">e</hi> Eccleſiaſticall Ceremoniꝭ &amp; ma<g ref="char:EOLunhyphen"/>ner of ſacrifices. He co<g ref="char:cmbAbbrStroke">̄</g>dempned for an he re<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ke Marcharius y<hi rend="sup">e</hi> byſhop of Antioche This was the .vi. generall counſell.</p>
+            </div>
+            <div type="year">
+               <head>☞In the yere of our lord .vi.C.lxxxiiii.</head>
+               <p>Leo y<hi rend="sup">e</hi> .ii. ordeyned Baptyme to be done in vrgent neceſſite. He ordeyned y<hi rend="sup">e</hi> Pax to be borne about to the people beyng pre<g ref="char:EOLunhyphen"/>ſent a Maſſe. Alſo that the eleccion of y<hi rend="sup">e</hi> clergy of Raue<g ref="char:cmbAbbrStroke">̄</g>na which made hymſelfe Equall w<hi rend="sup">t</hi> Rome ſhuld not be in ſtre<g ref="char:cmbAbbrStroke">̄</g>gth but yf y<hi rend="sup">e</hi> byſhop of Rome, dyd a proue in Thys man ordeyned the pſalmody, and he brought y<hi rend="sup">e</hi> hymmꝭ i<g ref="char:cmbAbbrStroke">̄</g>to aſwere tewne.</p>
+            </div>
+            <div type="year">
+               <head>☞In the yere of our lorde .vi.C.lxxxv.</head>
+               <p>Benedicte y<hi rend="sup">e</hi> .ii. a ma<g ref="char:cmbAbbrStroke">̄</g> of mooſt hye holy<g ref="char:EOLhyphen"/>nes, whoſe holines moued Co<g ref="char:cmbAbbrStroke">̄</g>ſta<g ref="char:cmbAbbrStroke">̄</g>tyne to
+<pb facs="tcp:23960:12"/>
+make him to be y<hi rend="sup">e</hi> very vyear of Chriſt in erth, who<g ref="char:cmbAbbrStroke">̄</g> y<hi rend="sup">e</hi> clargy &amp; the people of Rome did make byſhop, by y<hi rend="sup">e</hi> autorite of y<hi rend="sup">e</hi> como<g ref="char:cmbAbbrStroke">̄</g> hawſe w<hi rend="sup">t</hi>out any co<g ref="char:cmbAbbrStroke">̄</g>fyrmacio<g ref="char:cmbAbbrStroke">̄</g> of y<hi rend="sup">e</hi> prince.</p>
+            </div>
+            <div type="year">
+               <head>☞In y<hi rend="sup">e</hi> yere our Lorde. vi.C.lxxxvi.</head>
+               <p>Iohn<g ref="char:cmbAbbrStroke">̄</g> y<hi rend="sup">e</hi> .v. was co<g ref="char:cmbAbbrStroke">̄</g>ſecrated of .iii. byſho<g ref="char:EOLunhyphen"/>pes &amp; ſo made a decre that the ſame ma<g ref="char:EOLhyphen"/>ner of conſecracion ſhuld be obſerued of his ſucceſſours.</p>
+            </div>
+            <div type="year">
+               <head>☞In y<hi rend="sup">e</hi> yere of our lorde .vi.C.lxxxviii.</head>
+               <p>Sergius y<hi rend="sup">e</hi> .i. ordeyned Agnus dei to be ſayd of y<hi rend="sup">e</hi> preſte in y<hi rend="sup">e</hi> Maſſe before y<hi rend="sup">e</hi> brea<g ref="char:EOLunhyphen"/>kyng of y<hi rend="sup">e</hi> hoſte, which peeꝭ of y<hi rend="sup">e</hi> hoſte He declared y<hi rend="sup">e</hi> ſignificatio<g ref="char:cmbAbbrStroke">̄</g> i<g ref="char:cmbAbbrStroke">̄</g> a certayne cano<g ref="char:cmbAbbrStroke">̄</g>. This ma<g ref="char:cmbAbbrStroke">̄</g> brought y<hi rend="sup">e</hi> church of Aquila to his dutie, which did lytel alowe y<hi rend="sup">e</hi> .v. cou<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLunhyphen"/>ſell.</p>
+            </div>
+            <div type="year">
+               <head>☞In y<hi rend="sup">e</hi> yere of our lord .vii.C.i.</head>
+               <p>Iohn<g ref="char:cmbAbbrStroke">̄</g> the .vi. redemed many y<hi rend="sup">t</hi> were in captiuite, &amp; garnyſhed y<hi rend="sup">e</hi> church. And in tyme was Bede and Heymo.</p>
+            </div>
+            <div type="year">
+               <head>☞In the yere of our Lorde .vii.C.iiii.</head>
+               <p>Iohn<g ref="char:cmbAbbrStroke">̄</g> y<hi rend="sup">e</hi> .vii. garnyſhed many churches with pycrueres and Images of ſayntes.</p>
+            </div>
+            <div type="year">
+               <pb facs="tcp:23960:12"/>
+               <head>¶ In the yere of our lorde .vii.C.vi.</head>
+               <p>Sizimus hauynge the gowte bothe in handes and feete, dyed ſodeynly.</p>
+            </div>
+            <div type="year">
+               <head>¶ In the yere of our lorde .vii.C.vii.</head>
+               <p>Conſtantyne y<hi rend="sup">e</hi> .i. ordeyned y<hi rend="sup">t</hi> the Ima<g ref="char:EOLhyphen"/>ges of ſaynctes whiche we raſed oute by Philyp in the tempyll of Sophye ſhulde agayne be paynted in the porche of ſaynt Peter, And he ordyned that y<hi rend="sup">e</hi> name of thy Heretyke Emperour ſhuld not be re<g ref="char:EOLhyphen"/>ceyued nother in open nor pryuate wry<g ref="char:EOLhyphen"/>tinges nether in Braſſe, Syluer or lead,</p>
+            </div>
+            <div type="year">
+               <head>¶ In the yere of our lorde .vii.C.xiiii.</head>
+               <p>Gregory y<hi rend="sup">e</hi> .ii. co<g ref="char:cmbAbbrStroke">̄</g>uerted y<hi rend="sup">e</hi> germaynes to y<hi rend="sup">e</hi> fayth by his dilige<g ref="char:cmbAbbrStroke">̄</g>ce. He exco<g ref="char:cmbAbbrStroke">̄</g>mu<g ref="char:cmbAbbrStroke">̄</g>icated Leo y<hi rend="sup">e</hi> Emperour to be an heretike. Here payred y<hi rend="sup">e</hi> churchꝭ &amp; the wallꝭ of y<hi rend="sup">e</hi> Citie.</p>
+            </div>
+            <div type="year">
+               <head>In the yere of our lorde .vii.C.xxxi.</head>
+               <p>Gregory y<hi rend="sup">e</hi> .iii. ordeyned the Images of ſaynctes to be worſhypped. And them to be Exco<g ref="char:cmbAbbrStroke">̄</g>municated y<hi rend="sup">t</hi> dyd violate theym. This man w<hi rend="sup">t</hi> a counſell of a. M Byſho<g ref="char:EOLhyphen"/>pes, &amp; with thaſſent of the clargye, &amp; alſo of the
+<pb facs="tcp:23960:13"/>
+people dyd depryue Leo bothe of his Im<g ref="char:EOLunhyphen"/>pery and alſo of the company of good me<g ref="char:cmbAbbrStroke">̄</g> Becauſe Leo had raſed out of y<hi rend="sup">e</hi> chuches the forſayde Images and broke the<g ref="char:cmbAbbrStroke">̄</g> dow<g ref="char:EOLunhyphen"/>ne. He decked y<hi rend="sup">e</hi> churches &amp; reſtored mo<g ref="char:EOLhyphen"/>naſteries. And he added to the Canon of the maſſe theſe wordes (Quoru<g ref="char:cmbAbbrStroke">̄</g> hodie ſo<g ref="char:EOLhyphen"/>lemnitas. &amp;c.) But they do not vſe thoſe wordes now in y<hi rend="sup">e</hi> Secretes of the maſſe.</p>
+            </div>
+            <div type="year">
+               <head>¶ In the yere of our lorde .vii.C.xlii.</head>
+               <p>Sacharias ordeyned y<hi rend="sup">e</hi> men of y<hi rend="sup">e</hi> clarge ſhuld were no ſeculer habytes.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our lorde .vii.C.lxviii.</head>
+               <p>Steuen y<hi rend="sup">e</hi> .iii. ordeyned y<hi rend="sup">t</hi> no man ſhuld be made a biſhop excepte he were w<hi rend="sup">t</hi>in or<g ref="char:EOLhyphen"/>ders before. And y<hi rend="sup">t</hi> ymages which were taken away by y<hi rend="sup">e</hi> cou<g ref="char:cmbAbbrStroke">̄</g>ſell of Co<g ref="char:cmbAbbrStroke">̄</g>ſtantyne: ſhulde be reſtored to the church agayne-</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our Lorde .viii.C.xvii.</head>
+               <p>Paſcalis the .i. ordeyned that no ſeculer man ſhulde preſume to take a benefice.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our lorde .viii.C.xxvii.</head>
+               <p>Gregory the forth ordeyned the feeſte of
+<pb facs="tcp:23960:13"/>
+all Halowes.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our lorde .viii.C.xliii.</head>
+               <p>Sergius the .ii. (whiche was called the mouth of a Swyne) for y<hi rend="sup">e</hi> vnclene ſou<g ref="char:cmbAbbrStroke">̄</g>de of his voyce. He toke to hym this name Sergius, And of this ma<g ref="char:cmbAbbrStroke">̄</g> al other byſho<g ref="char:EOLunhyphen"/>pes of Rome hath taken occaſion to chau<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLunhyphen"/>ge their name. Thys man ordeyned that all ſayntes and holy me<g ref="char:cmbAbbrStroke">̄</g> ſhuld be buryed Sou<g ref="char:cmbAbbrStroke">̄</g>teouſly with Tombes and ſhrines.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our lorde .viii.C.xlvi.</head>
+               <p>Leo the .iiii. ordeyned y<hi rend="sup">t</hi> a byſhop ſhuld not be accuſed w<hi rend="sup">t</hi> leſſe tha<g ref="char:cmbAbbrStroke">̄</g> .lxxii. witneſſꝭ</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our Lorde .viii.C.liiii.</head>
+               <p>Iohn<g ref="char:cmbAbbrStroke">̄</g> the .viii. a woman (as they ſay) ve<g ref="char:EOLunhyphen"/>ry well lerned. She ſhewed herſelfe out<g ref="char:EOLunhyphen"/>wardly to be a man, And ſhe being great with chylde was delyuered in profeſſion in the rogation dayes, and ſtrayght way ſhe dyed: and her chylde with her.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our lord .viii.C.lvi.</head>
+               <p>Benedicte the .iii. ordeyned y<hi rend="sup">t</hi> the clarge ſhuld ſynge Dirige for theyr ſuperiours
+<pb facs="tcp:23960:14"/>
+and agayne the ſuperiours to ſynge diri<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLunhyphen"/>ge for the clargye.</p>
+            </div>
+            <div type="year">
+               <head>☞In the yere of our lorde .ix.C.xiiii.</head>
+               <p>Anaſtaſius the thyrde affyrmed the or<g ref="char:EOLhyphen"/>der of the Rule of Benet,</p>
+            </div>
+            <div type="year">
+               <head>☞In the yere of our lorde .ix.C.xCv.</head>
+               <p>Gregory the fyfte ordeyned that only y<hi rend="sup">e</hi> Germaynes ſhulde choſe the Emperour for he was a Saxon borne.</p>
+            </div>
+            <div type="year">
+               <head>¶ In y<hi rend="sup">e</hi> yere of our lord .ix.C.lxxxxviii.</head>
+               <p>Sylueſter the ſecond was made byſhop of Rome by Dyuelyſhe congeringe and He aſked the deuyll how longe he ſhuld lyue and he ſhewed hym ſo longe as he came not to Hieruſalem. And Sylueſter ſaying maſſe in a chapell of y<hi rend="sup">e</hi> holy croſſe called Hieruſalem, dyd perſeaue his laſte day was come, and than he ſhewed how he was made byſhop by congeracion.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our lorde .M.ii.</head>
+               <p>Iohn<g ref="char:cmbAbbrStroke">̄</g> the .xix. ordeyned all Sollen day to be next after all halon daye.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our lorde .M.xlviii.</head>
+               <p>
+                  <pb facs="tcp:23960:14"/>Damaſius the ſecond poyſond Cleme<g ref="char:cmbAbbrStroke">̄</g>t the ſeconde, &amp; ſtrayght w<hi rend="sup">t</hi>out any electio<g ref="char:cmbAbbrStroke">̄</g> toke vpon hym to be in the Se of Rome</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our lorde .M.lxiii</head>
+               <p>Gregorye the ſeuenthe Ordeyned that Monkes ſhulde eate no fleſh.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our lorde .M.lxxxviii.</head>
+               <p>Vrban the ſecond ordeyned that Clar<g ref="char:EOLhyphen"/>kes ſhuld ſaye our Lady matyns euerye daye and that her ſeruice ſhuld be on the Saterday and y<hi rend="sup">t</hi> no preſtes ſonne ſhuld haue no offyce in the churche.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our lorde .M.c.xcix.</head>
+               <p>Innocentius the thyrde ordeyned that they that take theyr rightes ſhuld be co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>feſſed, euery yere ons at the leſt at Eſter</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our lorde .M.CC.xvi.</head>
+               <p>Honorius the thyrde dyd confyrme the orders of Dominike and Franſis.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our Lorde .M.cc.xxvii.</head>
+               <p>Gregory y<hi rend="sup">e</hi> .ix. made Dominike &amp; Fra<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLunhyphen"/>cis &amp; one of his kynſme<g ref="char:cmbAbbrStroke">̄</g> Antony &amp; Eli<g ref="char:EOLhyphen"/>zabeth ſayntes, He ſet fourthe alſo the
+<pb facs="tcp:23960:15"/>
+Decritalles co<g ref="char:cmbAbbrStroke">̄</g>pyled by one Raimundꝰ.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our lord .M.iiC.xliii.</head>
+               <p>Innocencius the fourthe ordeyned that the Natyuite of our lady ſhuld be kepte. viii. dayes, and that Cardynalles whan they ryde on horſbacke ſholde were a red hat. He gaue religeous men priuileges and wrote the rule of ſaynt Clare.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our lorde .M.iiC.lvi.</head>
+               <p>Alexander the fourthe Ordeyned that ſeculer power to requyre of no Chyrche nether of man of the churche any taſkes or deme, and that lay men ſhulde not dy<g ref="char:EOLhyphen"/>ſpute of fayth. He made Clare a Saynte, &amp; gaue lycens to the Hermytes to dwell in the Cytyes.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our lorde .M.cc.lxii.</head>
+               <p>Vrbanus the fourthe ordeyned the reſte of corpus Chriſt: the wh<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>che Tomas of Aquyne dyd make and compyle.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our lorde .M cc.lxxxvi.</head>
+               <p>Honorius the forthe approued the order of whyte freers, the whiche at that tyme
+<pb facs="tcp:23960:15"/>
+was not approued by any cou<g ref="char:cmbAbbrStroke">̄</g>ſayle and chaunged ther vttermoſt blacke cope in<g ref="char:EOLhyphen"/>to whyte.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our lorde .M.cc.xcv.</head>
+               <p>Bonifacius the Eyght ordeyned permu<g ref="char:EOLunhyphen"/>tacions of Benefytes, And the maner of dyſgrading of clarkes. And that clarkes ſhulde haue wyues, and they to kepte theyr gownes and heddes to be ſhauen as was before, and they to haue al priui<g ref="char:EOLhyphen"/>leges as they hath before, and he made all the clargy free from all maner of Ex<g ref="char:EOLhyphen"/>actyons of the Temporalte. And he or<g ref="char:EOLhyphen"/>deyned the diſgradynge of clarkes, and perpetuall priſonment.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our Lorde .M.ccc.xvii.</head>
+               <p>Iohn<g ref="char:cmbAbbrStroke">̄</g> the .xxiii. Dyd declare the Order of the Graye freers, and made Thomas Aquyne, and Thomas the byſhop of Her<g ref="char:EOLunhyphen"/>ten Saynctes:</p>
+            </div>
+            <div type="year">
+               <head>¶ In the yere of our lorde .M.ccc.lxxx.</head>
+               <p>Vrbanus the .vi. Made on one daye. xxix. Cardinalles, ☞ And he made Viſi<g ref="char:EOLhyphen"/>tacion
+<pb facs="tcp:23960:16"/>
+of our lady holy daye.</p>
+            </div>
+            <div type="year">
+               <head>¶In the yere of our lord .M.iiii.xlviii,</head>
+               <p>Nycholas the fyfte made amonge diuer<g ref="char:EOLunhyphen"/>ſe other Bernardyne a Saynt.</p>
+            </div>
+            <div type="year">
+               <head>¶ In the yere of our lorde .M.iiii.c.lvi.</head>
+               <p>Calixtus dyd ordeyne the feaſte y<hi rend="sup">e</hi> tranſ<g ref="char:EOLunhyphen"/>figuracion of our lord, And he made Vin<g ref="char:EOLunhyphen"/>cent a Saynt.</p>
+            </div>
+            <div type="year">
+               <head>☞In the yere of our lorde .cccc.C.lix.</head>
+               <p>☞Pius the ſeconde made Katherine a ſaynt.</p>
+            </div>
+            <div type="year">
+               <head>¶ In the yere of our lorde .M.cccc.lxv.</head>
+               <p>Paule the ſeconde ordeyned that they y<hi rend="sup">t</hi> dyd allyenat, or withdrawe any thynge from y<hi rend="sup">e</hi> church ſhuld be exco<g ref="char:cmbAbbrStroke">̄</g>municated.</p>
+            </div>
+            <div type="year">
+               <head>☞In the yere of our lord .M.cccc.lxxii.</head>
+               <p>Sixtus the fourthe ordeyned the feeſtes of y<hi rend="sup">e</hi> Conception and preſentation of our lady and the feaſtes of Anne Franſis, &amp; Ioſephe, And brought backe the yere of Iubilee to the yere of, xxv: And he dyd make Bonauenture a Saynt.</p>
+            </div>
+            <div type="year">
+               <head>☞In y<hi rend="sup">e</hi> yere of our lord .M.cccc.lxxxvi</head>
+               <p>
+                  <pb facs="tcp:23960:16"/>Innocentius the .viii. made Heliopolde a Saynt.</p>
+            </div>
+            <trailer>☞ FINIS.
+<figure/>
+            </trailer>
+            <epigraph>
+               <q>
+                  <p>☞The lorde of glory) hath ſent his mi<g ref="char:EOLunhyphen"/>niſters to plage the beſt, with her adhere<g ref="char:cmbAbbrStroke">̄</g>
+                     <g ref="char:EOLunhyphen"/>tes whiche hath her marke, and vpon al
+<pb facs="tcp:23960:17"/>
+them which worſhypped her ymage that ſhe nor her chyldre<g ref="char:cmbAbbrStroke">̄</g> ſhuld no more ſhedde the bloude of the chyldre<g ref="char:cmbAbbrStroke">̄</g> of ſaluacion w<hi rend="sup">t</hi> her gret burdyns of tradicio<g ref="char:cmbAbbrStroke">̄</g>s.</p>
+                  <bibl>Apo. xvi.</bibl>
+               </q>
+            </epigraph>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>¶Tranſlated out of latyn into Englyſhe, And Imprynted in y<hi rend="sup">e</hi> houſe of Thomas gybſon.</p>
+            <pb facs="tcp:23960:17"/>
+         </div>
+      </back>
+   </text>
+</TEI>

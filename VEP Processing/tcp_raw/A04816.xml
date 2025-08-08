@@ -1,0 +1,800 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The burthen of a loaden conscience: or the miserie of sinne set forth by the confession of a miserable sinner.</title>
+            <author>Kilby, Richard, d. 1617.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1608</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 125 KB of XML-encoded text transcribed from 54 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A04816</idno>
+            <idno type="STC">STC 14950</idno>
+            <idno type="STC">ESTC S100262</idno>
+            <idno type="EEBO-CITATION">99836108</idno>
+            <idno type="PROQUEST">99836108</idno>
+            <idno type="VID">356</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A04816)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 356)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1353:10)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The burthen of a loaden conscience: or the miserie of sinne set forth by the confession of a miserable sinner.</title>
+                  <author>Kilby, Richard, d. 1617.</author>
+               </titleStmt>
+               <extent>[6], 98 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Cantrell Legge, printer to the Vniversitie of Cambridge,</publisher>
+                  <pubPlace>[Cambridge] :</pubPlace>
+                  <date>1608.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>By Richard Kilby.</note>
+                  <note>Printer's device (McKerrow 264) on title page.</note>
+                  <note>Some print faded and show-through; some pages cropped, stained, tightly bound and underlined, with loss of print.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Sin --  Early works to 1800.</term>
+               <term>Conscience, Examination of --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-08</date>
+            <label>Lauren Proux</label>Sampled and proofread</change>
+         <change>
+            <date>2009-08</date>
+            <label>Lauren Proux</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:356:1" rendition="simple:additions"/>
+            <pb facs="tcp:356:1" rendition="simple:additions"/>
+            <p>THE <hi>BVRTHEN OF a loaden conſcience:</hi> OR THE MISERIE OF <hi>SINNE:</hi> Set forth by the confeſ<g ref="char:EOLhyphen"/>ſion of a miſerable <hi>ſinner.</hi>
+            </p>
+            <p>Printed by CANTRELL LEGGE, Printer to the Vniverſitie of <hi>Cambridge.</hi> 1608.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:356:2"/>
+            <pb facs="tcp:356:2"/>
+            <head>To all Chriſtened <hi>people.</hi>
+            </head>
+            <p>I Knowing the great honor which Almightie God hath graciouſly giuen vnto you, for you are his children, &amp; his holy Ghoſt is in you; doe therfore acknowledge my boun<g ref="char:EOLhyphen"/>den dutie next after God, vnto you, and accordingly with humble reue<g ref="char:EOLhyphen"/>rence dedicate this my Confeſſion, firſt to God, &amp; then to you his deere<g ref="char:EOLhyphen"/>ly beloued children.</p>
+            <p>I wrote it in deadly diſeaſe of bo<g ref="char:EOLhyphen"/>die, and in dolefull trouble of minde: my purpoſe was to glorifie God, and to ſhew vnto all people the horrible bondage of ſinne; that they might plainly ſee it, truly feare it, and timely preuent it. Herein if any ſhall thinke
+<pb facs="tcp:356:3"/>
+me ouer-harſh, and too too plaine, I beſeech them to weigh in their con<g ref="char:EOLhyphen"/>ſcience, what it is to be at the doore of death, and the gate of hell; terrifi<g ref="char:EOLhyphen"/>ed with the ſight of Gods wrathfull iudgement, and in continuall danger of ſudden death. This is no time to couer, or to colour my ſinnes, but to lay them open, that it may pleaſe God mercifully to couer them. To this ende, I doe humbly craue your Chriſtian furtherance, in earneſt praier to God for my confeſſion, and for me. For my confeſſion, that it may proſper againſt ſinne: for my ſelfe, that I may be deliuered out of hell, and receiued into your heauenly companie: I aske no more, but to be the very loweſt of all people that ſhal be ſaued. Which if it ſhall pleaſe the bleſſed God, through your praiers in Ieſus Chriſt to vouchſafe vnto me moſt vnworthie, then ſhall I be in good hope to liue, and ſet forth an
+<pb facs="tcp:356:3"/>
+               <hi>Hallelu-ia,</hi> that you may praiſe God for his mercie, his maruelous mercie towards you and me. Then ſhall you know the poore ſinners name, that nowe beggeth the benefite of your praiers.</p>
+            <p>Hallowed be the name of God, and his bleſſing be vpon Chriſtened people, men, women, and children for euermore, Amen.</p>
+            <p>Thus I humbly take my leaue.</p>
+            <closer>
+               <dateline>
+                  <date>
+                     <hi>Iune</hi> 13. 1608.</date>
+               </dateline>
+            </closer>
+         </div>
+         <div type="note_to_printer">
+            <pb facs="tcp:356:4"/>
+            <head>To the Printer.</head>
+            <p>IF any thing which I haue written, doe ſeeme vnto godly learned men, not likely to worke well for the deſtructi<g ref="char:EOLhyphen"/>on of ſinne, I deſire that they will take the paines to amend it; ſo as they will anſwer their doings therein vnto the Lord Ieſus Chriſt, when all purpoſes and cauſes ſhall be brought to light. I proteſt before God, that nothing be mitigated concerning me; by turning, <hi>I am,</hi> into <hi>I was,</hi> &amp;c. It is very needefull for a man to know what he is. I know none but my ſelfe, I iudge none but my ſelfe; I intreat others to giue me leaue to iudge my ſelfe, becauſe I feare the iudgement of God, and would perſwade people to feare God, that they may eſcape his iudgement, and obtaine his mercie: Amen, Amen. O good Lord Ieſu! for thy holy names ſake, ſay thou, Amen.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:356:4"/>
+            <head>The burthen of a loaden conſcience.</head>
+            <p>
+               <seg rend="decorInit">A</seg>Ll Chriſtened people, men, women and children, I ſin<g ref="char:EOLhyphen"/>full ſinner, hauing by long, and wofull experience found the miſeries of ſinne, am de<g ref="char:EOLhyphen"/>ſirous to confeſſe the ſame, that others may ſee and ſpeedily turne away from it. There<g ref="char:EOLhyphen"/>fore I humbly beſeech you, that for Chriſts ſake you will charitably read, or heare this my confeſſion.</p>
+            <p>VVHen I was a child, and firſt began to vnderſtand and ſpeake, then was the foundation laide of all my miſerie. Becauſe I was not by and by, entered into the faith, and feare of God; but the Deuill had leiſure to take full poſſeſſion of my heart. Who ſo deepely ſeaſoned me with ſinne, that I haue continued ſinnefull euer ſince: yea, I am ſo hardened in wickedneſſe, that although I feele death comming vpon me; and may looke euerie houre when I
+<pb n="2" facs="tcp:356:5"/>
+ſhall ſuddenly die, and be caſt into hell fire, yet I haue no power to turne vnto God. Wherefore I beſeech all people to take warning by me: let it be your firſt, and chie<g ref="char:EOLhyphen"/>feſt care to liue in the faith, and feare of God. Beleeue verily, for it is moſt true; you are alwaies in the ſight of God. Hee ſear<g ref="char:EOLhyphen"/>cheth out your thoughts and affections: he hearkneth to your words, he vieweth your behauiour, and writeth vp all in a booke, with purpoſe to iudge you accor<g ref="char:EOLhyphen"/>ding to the practiſe of your life. Beare this continually in minde, and be afraide to diſpleaſe God; who ſhineth ouer your head with ſuch a glorious brightneſſe, that if it were his pleaſure to ſhewe himſelfe openly to the world; the ſunne that ſhineth in the skie ſhould be vtterly darkened, and no earthly creature could remaine aliue, by reaſon of the terrible ſight of his almightie maieſtie. Bleſſed are you if ye haue the feare of God before your eies. But you are in woefull caſe, if you feare him not.</p>
+            <p>O all ye parents, and bringers vp of chil<g ref="char:EOLhyphen"/>dren; great is the account which you muſt make vnto God. Therefore ſo ſoone as your children be able to vnderſtand and ſpeake, accuſtome them to know and feare God.
+<pb n="3" facs="tcp:356:5"/>
+Take good heede, leaſt the deuill get the firſt poſſeſſion of your childre<g ref="char:cmbAbbrStroke">̄</g>: for he know<g ref="char:EOLhyphen"/>ing that is little ones are ſeaſoned in the beginning, ſo they are likely to ſauour euer after; will looſe no time, nor let paſſe any occaſion to ſowe his curſed ſeede in them. This many parents, and tutors of children doe little thinke of; and therefore giue the deuill leaue to worke his will. But doe you minde it, and in the name of Chriſt kindely perſwade your children to beleeue in God, and to feare him; oftentimes telling them what is good, and what is naught: and that the good commeth of God, and naught fro<g ref="char:cmbAbbrStroke">̄</g> the deuill: and therefore if they will loue, and practiſe goodneſſe, God will loue them, and keepe them ſafe from the Deuill: but if they loue and practiſe naughtineſſe, God will forſake them, and leaue them to the Deuill.</p>
+            <p>Why doe ſo many teach little children to ſay, and to doe that which angreth al<g ref="char:EOLhyphen"/>mightie God? the ſilly children ſeeing their parents &amp; others ſo much delighted with e<g ref="char:EOLhyphen"/>uill <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ſetled in beleefe that it is good. Thus the deuill is furthered in working the de<g ref="char:EOLhyphen"/>ſtruction of children.</p>
+            <p>But ſome ſa<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> that vnleſſe children be
+<pb n="4" facs="tcp:356:6"/>
+framed to mirthfull wantonneſſe, they will not prooue wittie. To which I anſwere, the children of God are wittie to ſaie, and doe good: the children of the deuill are wit<g ref="char:EOLhyphen"/>tie to ſay, and doe euill: nowe conſider to whom you doe liken your children; to God, or to the deuill? for like will to like.</p>
+            <p>Children giue great heede to that which they ſee, or heare, eſpecially in their parents, and gouernours: therefore all people, as you will anſwer to God, be careful what you ſay or doe before children: for they will thinke, that they may ſafely ſay as you ſay, and doe as you doe. Let not childre<g ref="char:cmbAbbrStroke">̄</g> be much among ſeruants, for many ſeruants loue to teach children that which is naught.</p>
+            <p>O ye godfathers, and godmothers, re<g ref="char:EOLhyphen"/>member that you are bound vnto God for the good bringing vp of your god-children.</p>
+            <p>In the beginning of Chriſtian religion, people were verie carefull of bringing vp their children: whereupon a learned Iewe was wont to ſaie, that Chriſtians were called tillers; becauſe they did diligently till the heartes of thoſe that were vnder their charge; ſowing in them the ſeedes of god<g ref="char:EOLhyphen"/>lineſſe.</p>
+            <p>There are too few ſuch tillers now adaies:
+<pb n="5" facs="tcp:356:6"/>
+that heauenly husbandrie, and bleſſed tillage is laide aſide. Our moſt mightie Lord God for his ſonne Ieſus Chriſts ſake reſtore it, and be mercifull to young children, that his holy Ghoſt may fill their hearts with grace and goodneſſe. Amen, Amen.</p>
+            <div type="part">
+               <p>AS I grew in age, ſo I increaſed in ſinne, prouoking Gods diſpleaſure continu<g ref="char:EOLhyphen"/>ally, who notwithſtanding patiently indured me, yea &amp; deliuered me out of many deadly dangers, whereinto I by follie and ſinne did thruſt my ſelfe from time to time. More<g ref="char:EOLhyphen"/>ouer, of his great goodneſſe he gaue me knowledge of his righteouſneſſe, and of mine owne ſinnes; moouing me oftentimes to leaue the waie of damnation, and turne vnto his bleſſed maieſtie thorough Ieſus Chriſt; aſſuring my heart that in ſo doing I ſhould be bleſſed, but otherwiſe curſed, and condemned. But all this did not preuaile with my reprobate heart, which beeing vt<g ref="char:EOLhyphen"/>terly hardened in ſinne, and voide of repen<g ref="char:EOLhyphen"/>tance, cauſeth me to heape vp wrath vpon wrath, and vengeance vpon vengeance, to the increaſing of mine euerlaſting torments in hell fire.</p>
+               <p>
+                  <pb n="6" facs="tcp:356:7"/>All maner of people, yong and olde, take heede by me. Haue no more Gods but one.</p>
+               <p>Conſider well what he hath done for you. He made you at the firſt like vnto himſelfe in wiſdome, and holineſſe; and when you were by ſinne made like the deuill, and muſt therefore haue beene con<g ref="char:EOLhyphen"/>demned to hell torments, God ſent his one<g ref="char:EOLhyphen"/>ly ſonne, who taking vnto him a bodie, and ſoule, was a man, and ſuffered great wrong, and a ſhamefull death to procure your par<g ref="char:EOLhyphen"/>don, and to buie you out of the Deuills bon<g ref="char:EOLhyphen"/>dage; that ye might be renued to the like<g ref="char:EOLhyphen"/>neſſe of God. And now he hath ſent the holy Ghoſt to enter, and take poſſeſſion of your hearts, clenſing you from ſinne, which is the Deuills likeneſſe, and making you righteous, which is the likeneſſe of God; to the ende ye might be fit to keepe companie with all Saints in the ioyes of heauen. Call to mind, how long ye haue intertained the deuill, and kept out the holy Ghoſt; and with how great patience God hath hitherto ſuffered you, and kept you aliue, becauſe he would not haue you periſh; but <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>, and be ſaued. O what is the reaſon that people doe not loue this God aboue all things? yea aboue their owne life? Surely the <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+                  <pb n="7" facs="tcp:356:7"/>
+is, becauſe they lacke faith: for they doe not eſteeme it their onely happineſſe to be in the fauour of God; but like vnto bruit beaſtes giue credit to deceitfull ſhewes, and flattering enticements, and ſo are wil<g ref="char:EOLhyphen"/>fully ſnared of the Deuill, who with his alluring baites draweth them on to deſtru<g ref="char:EOLhyphen"/>ction: and the further he draweth them, the ſurer he is of them. Therefore all people for Gods ſake take heede, doe not delaie the time as I haue done; thinking to turne vnto God, to morrow, and next daie: for the longer you continue in ſinne, the harder it will be to repent, becauſe the deuill doth euery day get more and more power in you, till your heart be fulfilled with wickedneſſe, and ſo God doe euerlaſtingly forſake you. Neuer be at quiet with your heart, vntil you be in loue with God, Studie, and ſtriue to compaſſe the loue of God, ioye in what<g ref="char:EOLhyphen"/>ſoeuer furthereth you vnto it; grieue in all that hindereth you from it.</p>
+               <p>How ſhall I endeauour to loue God? loue that which is good, and hate that which is naught: for good co<g ref="char:cmbAbbrStroke">̄</g>meth of God, and euill is of the deuill. The thought is the beginning of your good, and of your euill. An euill thought is ſent from the deuill,
+<pb n="8" facs="tcp:356:8"/>
+and if you entertaine it, it bringeth in the deuill. A good thought is ſent from the holy Ghoſt, as a meſſenger vnto your ſoule; if you receiue it, and make much of it in your heart, the holy Ghoſt will enter, and putting out the Deuill, will fill you full of heauenly grace. Therefore doe as the Pſalme biddeth you;<note place="margin">4.7.</note> lift vp your heads, O ye gates, and be ye lifted vp ye euerlaſting doores; and the King of glorie will come in. With<g ref="char:EOLhyphen"/>drawe your minde from all euill thoughts, and thinke vpon God, and godlineſſe, cleaue thereunto with full purpoſe of heart, and ſtudie how you may alwaies doe his will with diligence, and ſuffer his pleaſure with patience: aſſuring your ſelues, that if you giue your minde to ſerue him, hee will not ſaile you, nor forſake you; but preſerue you to his euerlaſting kingdome and glorie: doe not endure to thinke, ſay, or doe any thing againſt your conſcience, but alwaies be carefull to pleaſe God.</p>
+               <p>My heart beeing not knit vnto God, but to the world, I framed my religion to mine affection, and mine affection to imagina<g ref="char:EOLhyphen"/>tion: firſt, I was hote againſt the Romane re<g ref="char:EOLhyphen"/>ligion, then being much befreinded by ſome that fauoured that religion, I to gratifie the<g ref="char:cmbAbbrStroke">̄</g>,
+<pb n="9" facs="tcp:356:8"/>
+grew in good liking of it alſo, yea ſo farre forth, that I became a recuſant, was receiued into the Church of Rome by a Seminarie Prieſt, and did what I could to perſwade manie others to leane that waie. But when trouble was likely to fall vpon me, I went to Church againe; and ſo by little and lit<g ref="char:EOLhyphen"/>tle fell off: yet ſo, as whereſoeuer I found any of that religion, I was ſtill ſutable vnto them.</p>
+               <p>After this, I beeing kindely vſed of ſome, that were commonly called Puritans, tooke liking of their opinions; yea and in ſome points, was readie to runne beyond them; and all this in great ſhew of zeale towardes God, ſo that I made my ſelfe beleeue, that I was in the right waie, and did well.</p>
+               <p>I doe often wonder at my ſelfe, how feruent I was, firſt a Proteſtant, then a Ro<g ref="char:EOLhyphen"/>mane Catholike, afterward a Preciſian, ſo that I tooke vpon me to rebuke many, yea and ſome of high degree; as though I had beene a verie man of God, full of the holy Ghoſt: whereas indeede the deuill was in my heart, and therefore all my waies were ſinnefull, and diſpleaſing vnto God.</p>
+               <p>O all ye Chriſtian people, take heede by me; doe not raſhly giue your minde to
+<pb n="10" facs="tcp:356:9"/>
+fancie this or that religion: but firſt of all ſettle your heart in the feare, and loue of God. Make conſcience betweene God and your ſoule of all that you thinke, ſay, or doe. Serue God in your ſpirit, vnfainedly tur<g ref="char:EOLhyphen"/>ning from ſinne, and ſtriuing to pleaſe him. Till you be thus ſetled in true godlineſſe, it is vaine, yea and daungerous to hammer &amp; meddle with points of religion: for your heart beeing vncleanſed, and your affections vnrighted, God is not your leader, but the deuill: who will ſtrangely deceiue you, and make you proude of your doings, when you ſtinke in your ſinnes before the face of God. Therefore ſubmit your ſelues humblie to God, weane your ſoules from ſinne, that ye may be wedded to Ieſus Chriſt, and by his ſpirit bring forth ſuch fruits, as are plea<g ref="char:EOLhyphen"/>ſing to God: which if you doe, God will ſurely lead you into all truth. Of what ſide ſoeuer you be, doe nothing againſt your conſcience, nor deſpiſe the practiſe of reli<g ref="char:EOLhyphen"/>gion in them that are contrarie to your opi<g ref="char:EOLhyphen"/>nion. But if you be ſure that they are in a wrong way, pitie them, and praie heartily to God for them, that he will mercifully in<g ref="char:EOLhyphen"/>lighten their mindes, and turne their hearts. To which ende you muſt endeauour to ſerue
+<pb n="11" facs="tcp:356:9"/>
+vnder God with the holy Ghoſt; that you may help to ouercome the enemies of Gods truth; not with the weapons of this world, as reprochful ſpeaches, and bloody practiſes; but with the armour of God; as charitie, humbleneſſe, meekneſſe, patience, for theſe are the meanes to ouercome euill with goodneſſe, and turne mens mindes from falſe opinions to the true religion.</p>
+               <p>True Chriſtianitie is an holy Prieſthood, to offer vp ſpirituall ſacrifices, wel-pleaſing to God thorough Ieſus Chriſt. A true Chriſtian doth faithfully intende to offer firſt himſelfe, and then others alſo vnto God. In offering your ſelfe, you muſt be<g ref="char:EOLhyphen"/>ginne with your heart: for God ſaith,<note place="margin">Prov. 23</note> My ſonne, giue me thine heart. Your heart muſt be wholly ſet vpon God, alwaies deſiring to enioy his grace and fauour. Secondly, your tongue muſt be ſacrificed vnto God, that it may be as the pen of a readie writer, to glorifie and pleaſe God in euery word that commeth out of your mouth. Thirdly, your apparell, geſture, eating, drinking, buying, ſelling, borrowing, lending, labour, paſtime, and all your behauiour muſt be ſacrificed to God; that in nothing you diſhonour, or diſpleaſe him: yea, your bodie, ſoule, life, &amp;
+<pb n="12" facs="tcp:356:10"/>
+all that you haue, muſt be dedicated and gi<g ref="char:EOLhyphen"/>uen to the ſeruice of God. A good ſubiect doth beare the minde to ſpende both life, and goods in defence of his Prince, and countrie; therefore a true Chriſtian ought much more to ſacrifice all his power and poſſibilitie to vphold the kingdome of Ieſus Chriſt; firſt in maintaining the miniſterie of his word and Sacraments,<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>. 4.18.</note> which is an offering greatly accepted of God.</p>
+               <p>Secondly, in ſuccouring his poore: with which kinde of ſacrifices God is well plea<g ref="char:EOLhyphen"/>ſed;<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>. 13.16.</note> as it may appeare by that which the holy Ghoſt ſaith of a charitable man;</p>
+               <p>
+                  <note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>al. <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>12.<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.</note>He hath diſperſed, he hath giuen to the poore, his righteouſneſſe endureth for euer.</p>
+               <p>Whatſoeuer mercie is ſhewed to a Chri<g ref="char:EOLhyphen"/>ſtian in neceſſitie,<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>atth. 25.</note> is ſhewed to Chriſt him<g ref="char:EOLhyphen"/>ſelfe; and he that is any waie vnmercifull to a Chriſtian, is vnmercifull to Ieſus Chriſt: and ſo Chriſt will profeſſe at the day of iudgement.</p>
+               <p>
+                  <note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>v. 25.22.</note>It is a ſingular ſacrifice to doe good againſt euill, &amp; kindly to ſuccour your verie enimie in neceſſitie: for thereby you doe your good will to offer your enemie vnto almightie God, in turning him from enmitie and euill, to peace and goodneſſe.</p>
+               <p>
+                  <pb n="13" facs="tcp:356:10"/>Saint Iames ſaith,<note place="margin">Iam. 5.1<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.</note> he that turneth a ſin<g ref="char:EOLhyphen"/>ner from going out of his waie, ſhall ſaue a ſoule from death, and ſhall couer a multitude of ſinnes. In what a fearefull caſe are they that ſacrifice many to the deuill, driuing them by enmitie, or drawing them by euill allurements, and naughtie examples as I haue done. He that will offer the ſweete ſacrifice of turning others vnto God, muſt firſt with all diligence turne himſelfe from ſinne; that his life and conuerſation may be holy, and vnblameable: for then others will beleeue that God is in him, and there<g ref="char:EOLhyphen"/>fore they will haue a good opinion of him. All people by the light of naturall reaſon, doe honour vertue, and honeſtie. But if your behauiour be faultie, as mine is, and euer hath beene, you are vnfit to turne others, beeing not turned your ſelfe.</p>
+               <p>Secondly, if your conſcience be cleere, and your conuerſation faultleſſe, you muſt not diſdaine ſinners,<note place="margin">Luk. 28 10, 11.</note> as the proud Phariſie did; for then you marre all; becauſe pride is of the deuill, and God reſiſteth the proude. But you muſt pitie their caſe that doe euill, and mourne for them, as King Dauid did.<note place="margin">Pſal. 115</note>
+               </p>
+               <p>Thirdly, you muſt pray deuoutly vnto God for them, that he will mercifully or<g ref="char:EOLhyphen"/>daine
+<pb n="14" facs="tcp:356:11"/>
+ſome meanes to deliuer them out of the Deuills bondage; and that it may pleaſe him to giue you the grace, to be one of his workmen in ſo honourable a buſineſſe.</p>
+               <p>Fourthly, you muſt waite for any fit occa<g ref="char:EOLhyphen"/>ſion that you may humblie and kindly in<g ref="char:EOLhyphen"/>treate them to conſider well in what a dan<g ref="char:EOLhyphen"/>gerous caſe they are; diſpleaſing God, ſer<g ref="char:EOLhyphen"/>uing the deuill, and working their owne deſtruction. If you ſee, or heare that any vnder your gouernment doe ſinne, whether it be your childe, or your ſeruant, you are bound to breake them from their ſinne, by faire meanes, if it may be; els by correction, and puniſhment.</p>
+               <p>But if you ſee any ſuch ſinners, as are your betters in degree, or ſuch as you haue not the heart to rebuke, you muſt ſo much the more earneſtly pray vnto god for them, and ſtriue more painefully to ſhew them by the light of your conuerſation what they ought to doe.</p>
+               <p>When you goe about to tell any one of his fault, take God in your minde, and humble your heart, that you may doe it in the ſpirit of meekeneſſe, gentleneſſe, peace<g ref="char:EOLhyphen"/>ableneſſe, and patience; carefully keeping out anger: for the wrath of man worketh
+<pb n="15" facs="tcp:356:11"/>
+not the righteouſneſſe of God.</p>
+               <p>Hee that doth worthily receiue the holy ſacrament of Chriſts bodie, and bloode, doth offer vnto God many ſacrifices to<g ref="char:EOLhyphen"/>gether: for that ſacrament is a repreſentati<g ref="char:EOLhyphen"/>on &amp; ſetting forth of the ſacrifice of Chriſt; who vpon the croſſe offered himſelfe vnto God the father to pacifie his wrath, and to purchaſe his grace for all people: where<g ref="char:EOLhyphen"/>upon almightie God doth offer his gracious pardon, and heauenly bleſſings to all that will worthily receiue them. And if you will worthily receiue the bodie, and bloode of Chriſt, you muſt offer vnto God, firſt a ſorrowfull heart for your ſinnes, confeſſing them to his glorie and your ſhame. Second<g ref="char:EOLhyphen"/>ly, you muſt offer vnto God the ſacrifice of faith in Ieſus Chriſt, beleeuing verily that he is the onely ſonne of God, God and man, and crying vnto God for mercie in his name, beſeeching God that for Chriſts ſake he will forgiue you your ſinnes, and clenſe you from all ſinnefulneſſe. Thirdly, you muſt of<g ref="char:EOLhyphen"/>fer vnto God a charitable heart towards all people: for God will not accept your heart, if it be not in charitie, yea ſetled to keepe the vnitie of the ſpirit in the bond of peace. Fourthly, you muſt offer your ſelfe whol<g ref="char:EOLhyphen"/>ly
+<pb facs="tcp:356:12"/>
+vnto God, to doe and to ſuffer his good pleaſure. Fiftly, you muſt offer humble and heartie praiſe vnto God, for all his gracious gifts giuen vnto mankinde; ſpecially for gi<g ref="char:EOLhyphen"/>uing his onely ſonne Ieſus Chriſt to be our Sauiour. Sixtly, you muſt offer of your goods a firſt fruites vnto God, towards the ſup<g ref="char:EOLhyphen"/>plying of breade, and wine for the commu<g ref="char:EOLhyphen"/>nion; towards the reliefe of the miniſter, and of the poore.</p>
+               <p>By baptiſme ye are graffed into Ieſus Chriſt, as if branches of a wilde vine were graffed into a true vine; and by worthie receiuing the holy communion of Chriſts bodie and bloode, ye are fedde and filled with the graces of Chriſt, as graffes are nouriſhed with the ſap of that tree, where<g ref="char:EOLhyphen"/>upon they are graffed. I wicked wretch re<g ref="char:EOLhyphen"/>ceiued firſt for faſhion ſake, negligently; afterward inclining to the Romane religion, I receiued for feare of the lawes of this land, againſt my will, diſdainfully; reckoning it as a thing of naught, which I receiued. Whereby, I doe thinke in my conſcience, I did ſore diſpleaſe almightie God. The Lord Ieſus Chriſt giue grace, that no man or woman may hereafter receiue his bodie and bloode vnworthily.</p>
+               <p>
+                  <pb n="17" facs="tcp:356:12"/>I was not giuen to pray vnto God, nor indeede knew howe to praie, and therefore was not bleſſed in that which I did practiſe. All people be carefull to praie alwaies, in the beginning, continuance, and ending of all good emploiment. Whenſoeuer you are about to thinke, to ſay, or to doe any thing, praie vnto God, that he will for Chriſts ſake giue you the grace to thinke, ſaie, and doe his will; and for euery bleſſing which hee giueth vnto you, be mindefull and forward to giue him thankes. When you purpoſe to praie vnto him, or to praiſe him, quicken your faith in this maner: firſt, beleeue that you are in the ſight, and hearing of God, beleeue it ſo verily, as you did ſee him with your bodily eies. Secondly, conſider his al<g ref="char:EOLhyphen"/>mightie maieſtie and your owne vile baſe<g ref="char:EOLhyphen"/>neſſe, being as you are a ſinner, duſt, &amp; aſhes, and thereupon humble your heart, as if you would caſt your ſelfe flatte vpon the ground before him. Thirdly, with all reue<g ref="char:EOLhyphen"/>rence, and diligent diſcretion lift vp your minde, and vtter your heart vnto him. You may well praie to God, or praiſe him in your heart, although your mouth ſpeake it not; but you cannot well ſpeake vnto him with your mouth, vnleſſe your heart doe
+<pb n="18" facs="tcp:356:13" rendition="simple:additions"/>
+wholly intend and thinke vpon that which you ſay: for it is your heart that God giueth heede vnto. In your praier and thankeſgi<g ref="char:EOLhyphen"/>uing ſhunne the pride of words; for God lo<g ref="char:EOLhyphen"/>ueth plaine ſpeech: and vſe no needleſſe circumſtance; becauſe he loueth no idle words. Be very carefull, and fearefull, leaſt in any thing, that you ſay vnto him, you diſpleaſe him: for we are apt to diſpleaſe God euery way, yea euen when we thinke to pleaſe him. Pray very leiſurely: for haſt maketh waſt. Becauſe I wanted inſtruction how to praie, I am deſirous to helpe others the beſt that I can. Let your firſt praier be for the forgiueneſſe of your ſinnes, in ſome ſuch maner as this: O almightie and moſt dreadfull Lord God, I loathſome ſinner vn<g ref="char:EOLhyphen"/>worthie to liue in thy ſight, doe humbly beſeech thee, that for thine onely ſonne Ie<g ref="char:EOLhyphen"/>ſus Chriſts ſake, thou wilt vouchſafe to for<g ref="char:EOLhyphen"/>giue me my ſinnes, and to clenſe me from my ſinfulneſſe; that I may be thine humble and true ſeruant: for vnto thee all honour and glorie is due world without ende. A<g ref="char:EOLhyphen"/>men.</p>
+               <p>When you purpoſe to thinke vpon, to ſpeake, or to doe any thing: pray for grace, &amp; good ſpeede, O almightie God, Lord of
+<pb n="19" facs="tcp:356:13" rendition="simple:additions"/>
+heauen, and earth, the onely giuer of all good ſpeede, and proſperitie, I beſeech thee <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o forgiue me my ſinnes, and ſo to bleſſe me <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n this buſineſſe which now I doe intende, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hat it may be proſperous to thy glorie, thorough Ieſus Chriſt thine onely ſonne, who with thee, and the holy Ghoſt, three perſons, and one God, be honoured in heart, word, and deede, henceforth for euer, and euer. Amen.</p>
+               <p>When you receiue any bleſſing, or pro<g ref="char:EOLhyphen"/>ſperitie from God, praiſe him heartily; O moſt bleſſed, and bountifull Lord God; what am I, that thou giueſt ſuch bleſſing vnto me? I am a vile ſinner, worthie of no<g ref="char:EOLhyphen"/>thing but miſerie, and damnation; and ther<g ref="char:EOLhyphen"/>fore it is thy meere mercie, that I am thus bleſſed. O good Lord, I humbly beſeech thee to continue thy gracious fauour to<g ref="char:EOLhyphen"/>wards me, and to make me euery way vn<g ref="char:EOLhyphen"/>fainedly thankfull vnto thee for the ſame, thorough Ieſus Chriſt thine onely ſonne, who with thee and the holy Ghoſt, three perſons and one God, be vnfainedly prai<g ref="char:EOLhyphen"/>ſed for euer, and euer. Amen.</p>
+               <p>When ſickneſſe, or any aduerſitie falleth vpon you, the firſt thing you doe, humble your ſelfe vnto God; O moſt holy, and righ<g ref="char:EOLhyphen"/>teous
+<pb facs="tcp:356:14"/>
+                  <pb n="20" facs="tcp:356:15" rendition="simple:additions"/>
+Lord God, I doe confeſſe that thou maieſt iuſtly deſtroie me bodie and ſoule, for my many and grieuous ſinnes, where<g ref="char:EOLhyphen"/>with I haue daily, and hourely diſpleaſed thee all my life long; therefore I am bound to praiſe thee, becauſe thou haſt ſuffered me all this while, and now doeſt ſo fauourably chaſten me, to the end that I ſhould repent, and not be condemned. O moſt mightie Lord, nothing can happen vnto me with<g ref="char:EOLhyphen"/>out thine ordinance. Therefore I beſeech then, that I may humbly, patiently, and thankefully take this thy correction, to the amendment of my life, and to the glorie of thy bleſſed name, thorough Ieſus Chriſt thine onely ſonne, who with thee, and thy holy Ghoſt, three perſons and one God, be rightly worſhipped, obeied, and praiſed for euer, and euer. Amen.</p>
+               <p>When any croſſe, or aduerſitie doth lie ſo heauie vpon you, that you can not endure it, make humble ſupplication to God; O father of mercie, and God of all comfort, I vile wretch am much grieued vnder the burden of my ſinnes; and thou haſt not laide the whole weight of them vpon me; I doe heartily thank thee, that thou haſt not ouer<g ref="char:EOLhyphen"/>whelmed me with thy dreadfull wrath,
+<pb n="21" facs="tcp:356:15" rendition="simple:additions"/>
+which I haue all my life time deſerued; and <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lſo I humblie beſeech thee, that if it may <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>and with thy good pleaſure, thou wilt <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ouchſafe to eaſe me of this, which I nowe <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>uffer; that I may the better be able to doe <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hee ſeruice; but if it pleaſe thee not, thy will <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> holy, thy wil be done; onely vouchſafe me <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>omfort and patience, moſt bleſſed Lord; <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hat thy holy name may be glorified of me <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n mine obedient ſuffering, thorough Ieſus Chriſt thine onely ſonne, who with thee <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd the holy Ghoſt, three perſons, and one God, be honoured and praiſed for euer, and <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>uer. Amen.</p>
+               <p>I was not accuſtomed to ſay grace when I was young, but ſometime ſaide it for a <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>aine glorie, and finding the faſhion of the world to be like vnto the manner of bruit <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>oaſtes, following nature, and not grace, I became a beaſt my ſelfe, falling to meate without any acknowledgement of Gods goodneſſe. Afterward finding that Ieſus Chriſt himſelfe, and all good Chriſtians, vſed to ſay grace, I was touched in conſci<g ref="char:EOLhyphen"/>ence, and meant to vſe it, but hauing not the power to ſubdue mine owne will, nor the heart to contrarie the courſe of them with whome I liued; I remained as a repro<g ref="char:EOLhyphen"/>bate,
+<pb n="22" facs="tcp:356:16"/>
+vncouth and vnframable to euery good worke.</p>
+               <p>All people, for Gods ſake, accuſtome your ſelues to haue grace before, and after you eate, and drinke. If it ſeeme vncouth vnto you, as it doth to many people; be a<g ref="char:EOLhyphen"/>fraide: for it is an ill ſigne ſhewing that your heart is a ſtranger to God, and if you be ſtrange to him he will be ſtrange to you. Therefore by any meanes ouercome that ill qualitie, and giue your ſelfe to grace. But you may ſay, it is ſo out of vſe with moſt folk, that if I offer to ſay grace among them, they wil thinke ſcornfully of me, and reckon me a preciſe fooliſh bodie: I anſwer; firſt, if you be the diſciple of Chriſt, you ſerue a good maſter, be not aſhamed of him and his ſeruice; leaſt he be aſhamed of you at the day of iudgement. Secondly, if you for ſer<g ref="char:EOLhyphen"/>uing God be ill thought of, a bleſſed ſoule are you.<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>tth 9.10, <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>.</note> It is a great fauour of God, if hee vouchſafe to giue you the grace to ſuffer any wrong for his ſake. For great is their reward in heauen, that are any waie perſe<g ref="char:EOLhyphen"/>cuted for righteouſneſſe ſake.</p>
+               <q>Grace before meate.</q>
+               <p>O bleſſed Lord God I humblie beſeech thee to pardon my ſinnes, and to bleſſe the
+<pb n="23" facs="tcp:356:16"/>
+foode, which it pleaſeth thee to giue me; that I may be thereby nouriſhed, &amp; made able to doe thee true ſeruice in my calling, through Ieſus Chriſt thine onely ſonne our Lord, and Sauiour. Amen.</p>
+               <q>Grace after you haue eaten, and drunken.</q>
+               <p>O moſt mercifull Lord God, I am bound to giue thee humble, and heartie thankes, for thy manifold bleſſings giuen vnto me, and to all mankinde. Therefore I beſeech the to giue me grace, that I may be continually thankfull vnto thee, thorough Ieſus Chriſt thine onely ſonne our Lord, Amen.</p>
+               <p>Vſe often to ſay the Lords praier, ſo cal<g ref="char:EOLhyphen"/>led becauſe our Lord Ieſus Chriſt made it, and taught it his diſciples. It is a moſt heauenly praier, ſhort and ſweete, contai<g ref="char:EOLhyphen"/>ning all that we neede in fewe wordes. Therefore you muſt ſay it very leiſurely, and alſo vnderſtandingly.</p>
+               <p>According to my weake vnderſtanding, I will by the grace of God, briefly open vnto you the meaning of the Lords praier: O father of Ieſus Chriſt,<note place="margin">The L<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> pray<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                     <g ref="char:EOLunhyphen"/>ned.</note> and thorough him the father of all true Chriſtians, of which number I truſt, that by thy grace, I am one.
+<pb n="24" facs="tcp:356:17"/>
+Thy glorious maieſtie, and powerfull great<g ref="char:EOLhyphen"/>neſſe filleth heauen and earth; but in heauen thy ioyfull countenance is to be ſeene. Thy name is holy: O let the holineſſe thereof be euery day more and more ſet forth, that al the world may honor thee in heart, word, and deede. Thou art the onely rightfull King of heauen, and earth; but the Deuill by temptation hath made vs rebell againſt thee; O let the kingdome of thy grace come into our hearts, and put out Satan for euer<g ref="char:EOLhyphen"/>more. Thine Angels, and Saints in heauen doe altogether obey thy will, O graunt that we children of men here vpon earth may likewiſe be obedient vnto thee in all things. Our bodies doe daily neede the comforta<g ref="char:EOLhyphen"/>ble ſupplie of foode, raiment, lodging, and ſuch like; O giue vs therefore ſuch continu<g ref="char:EOLhyphen"/>all comfort, as thou knoweſt we cannot be without; and becauſe it is dangerous to our foules to haue too much, or too little of worldly goods; we beſeech thee to giue vs neither more, nor leſſe; but iuſt ſo much, as by thy grace, may beſt fit vs to ſerue and pleaſe thee. Our ſinnes doe deſerue thy wrathfull vengeance, and euerlaſting tor<g ref="char:EOLhyphen"/>ment in hell fire; yet of thy wonderfull mer<g ref="char:EOLhyphen"/>cie thou doeſt offer vnto vs thy gracious
+<pb n="25" facs="tcp:356:17"/>
+pardon thorough Ieſus Chriſt, with condi<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>on, that we ſhall heartily forgiue all that <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ffend vs; O good Lord we doe forgiue <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hem from the bottome of our hearts, and <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s we doe forgiue them, and not ſeeke re<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>enge againſt them; ſo wee praie thee to forgiue vs, and not to late thy heauie ven<g ref="char:EOLhyphen"/>geance vpon vs.</p>
+               <p>The deuill by meanes of this world, and our owne naughtie inclination can eaſily ouercome vs, and tempt vs to his pleaſure; Therefore we beſeech thee, that thou wilt not giue vs ouer into his handes; but by thine almightie goodneſſe, preſerue vs from Satan, and all his partakers. For the king<g ref="char:EOLhyphen"/>dome of all bleſſedneſſe is thine, thou art the right owner of all goodneſſe; all power commeth from thee, and therfore all glorie, and praiſe is due onely to thee, O father al<g ref="char:EOLhyphen"/>mighty, with thy ſonne, and thy holy Ghoſt, for euermore. Be it euen ſo. Amen.</p>
+               <p>Pray often and with great deuotion vnto God, that all Chriſtian people may be knit together by the holy Ghoſt in one faith, and one charitie, and ſhew forth the migh<g ref="char:EOLhyphen"/>tie power of God in their liues, and con<g ref="char:EOLhyphen"/>uerſations; that the Iewes, Turkes, and all misbeleeuing people, may thereby take
+<pb n="26" facs="tcp:356:18"/>
+knowledge that Chriſtian religion is the onely true worſhipping and ſeruice of God, and thereupon turne to be true Chriſtians. For it is not warre, nor worldly conqueſt that turneth people vnto God; but the holy praiers, and heauenly liues of them that ſerue God.</p>
+            </div>
+            <div type="part">
+               <p>IF God will not hold him guiltleſſe that taketh his name in vaine, what ſhall be<g ref="char:EOLhyphen"/>come of me, who haue all my life time moſt grieuouſly taken his name in vaine, euery kind of way. For firſt, I profeſſed my ſelfe a Chriſtian; that is, a child of God, thorough Ieſus Chriſt, but indeed I haue been hereto<g ref="char:EOLhyphen"/>fore the child of the deuill: becauſe I haue done his will, and not Gods will. Secondly, I tooke vpon me to be a miniſter of Chriſt; that is, a meſſenger ſent of God to ioyne with the holy Ghoſt in trayning people to be children of God; but indeede I ioyned in worke with the deuill to make people his children. The verie name, and word of God I vſed vainely, raſhly, vnreuerently, and vndiſcreetly, to glorifie and pleaſe my ſelfe, not to glorifie and pleaſe him.</p>
+               <p>All Chriſtians, take heede to your ſelues;
+<pb n="27" facs="tcp:356:18" rendition="simple:additions"/>
+if you weare the Kings liuerie, ſerue not the Kings enemie. You were chriſtened in the name of the father, and of the ſonne, and of the holy Ghoſt: therefore ſerue God, and not the Deuill, leaſt it be prooued againſt you at the day of iudgement, that ye tooke Gods name in vaine, and ſo ye be found guilty. At that daie neither ſhall the onely preaching, nor the onely hearing of Gods word be allowed: for both take the name of God in vaine, becauſe the one preacheth, and practiſeth not; the other heareth, and doth not the will of God; therefore both ſhall be caſt away with this grieuous ſentence, I knowe you not;<note place="margin">Matth. 23. Luk. 13 27.</note> awaie from me, ye workers of vnrighteouſ<g ref="char:EOLhyphen"/>neſſe.</p>
+               <p>Therefore frame your ſelues to be obe<g ref="char:EOLhyphen"/>dient vnto your Lord God, and doe not think, ſpeake, write, heare, or profeſſe his name, or his word without due diſcretion, and groat reuerence.</p>
+               <p>Doe not make ſo light reckoning of your God, as to vſe his name, or his word in idleneſſe.</p>
+               <p>It is idle to call vpon the name of God without good cauſe, and reuerent manner; as ſome will ſay, O God, what a ieſt is this!
+<pb n="28" facs="tcp:356:19" rendition="simple:additions"/>
+O Ieſu! who euer hard the like! In any ſuch ſpeaking, you are too bold with your God.</p>
+               <p>It is alſo a vaine taking of Gods name, to praiſe him in ſcorning, or blaming o<g ref="char:EOLhyphen"/>others; as ſome will not be content to ſay of an idle bodie, he liueth idlelie; but they will ſay, God be thanked he liueth idlelie. O doe not thank God for any ſinne, becauſe you ſhould ſo doe him great wrong; and of all things he cannot abide it to be noted as the cauſe of ſinne, which is farre from his moſt holy nature. Be not a common ſwearer: for a man giuen to ſwearing, ſhall be filled with wickedneſſe. You ought not to call God to witneſſe, vnleſſe there be great neede, and none other meanes to make the truth knowne. O how grieuous it is to heare people, old and yong ſweare by God, without feare of his diſpleaſure. Some ſwear not by God, but by their faith, and troth; by the maſſe; by ſome Saint; by golde, and ſiluer, and many others waies. But doe not you ſo:<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 7.</note> for it is diſpleaſing to God to ſweare by that which is not God.</p>
+               <p>It is called ſwearing, when any ſay, Gods woundes, Gods blood, Gods heart; Gods nailes, Gods foote, &amp;c. but you ſhall heare
+<pb n="29" facs="tcp:356:19" rendition="simple:additions"/>
+what Chriſt will call it, when he co<g ref="char:cmbAbbrStroke">̄</g>meth to iudgement. In the meane time vſe no ſuch raging ſpeaches; for they grieuouſly take the name of God in vaine.</p>
+               <p>Bleſſe your ſelfe from curſing and ban<g ref="char:EOLhyphen"/>ning: for curſing is the vengeance of God.<note place="margin">Luk. 9.51, 52, 53, 54.</note> He that wiſheth vengeance to fall vpon his verie enemie, had neede to be well adui<g ref="char:EOLhyphen"/>ſed what ſpirit is within him. Take heede how you heare the word of God, that you be not negligent, nor contentious, nor dain<g ref="char:EOLhyphen"/>tie, nor vaineglorious; but diligently hunger and thirſt for the pure, and plaine word of God, which if you receiue it in meekeneſſe, is able to ſaue your ſoule.</p>
+               <p>Some make ieſtes of Gods word; but doe not you ſo. For it is ill ieſting with edge tooles.</p>
+               <p>Doe not alleadge any part of Gods word but to a good, and godly ende; and in the feare of God.</p>
+               <p>Take heede how you make any vowe to God, or how you promiſe any thing with an oth; for whe<g ref="char:cmbAbbrStroke">̄</g> you haue vowed, or ſworne, your ſoule is bound. Therefore before you vowe, conſider whether it be pleaſing to God, and in your power to performe: and when you haue made ſuch a vowe, rather
+<pb n="30" facs="tcp:356:20" rendition="simple:additions"/>
+looſe your life, then breake it. Ieſus Chriſt keepe you from beeing a vow-breaker, as I am.</p>
+               <p>Mocke no bodie with their pouertie, lamenes, blindeneſſe, or with any thing, which they cannot helpe; leaſt you take the name of God in vaine. For Salomon ſaith, he that mocketh the poore, reprocheth his maker.</p>
+               <p>It is a moſt horrible thing to blaſpheme almightie God; that is, to thinke, or vtter any thing diſhonourable vnto him. It is dangerous in ſome things to ſpeake that of God, which is true. Becauſe our blinde vn<g ref="char:EOLhyphen"/>derſtanding is not able to ſee the depth of his wiſdome, and righteouſneſſe. There<g ref="char:EOLhyphen"/>fore it is your ſafeſt waie, to be thorough<g ref="char:EOLhyphen"/>ly perſwaded, that God in whatſoeuer he doth, or ſuffereth to be done, is moſt per<g ref="char:EOLhyphen"/>fitly wiſe, and righteous; and to refraine your minde from prying into the high queſtions of Gods fore-knowledge, and predeſtination: for the more you look vpon the ſunne, the worſe you ſhall ſee, and the more you ſeeke into the ſecrets of God, the weaker will your vnderſtanding be.</p>
+               <p>Whatſoeuer calamitie, or miſerie falleth vpon you, acknowledge your ſelfe to haue
+<pb n="31" facs="tcp:356:20" rendition="simple:additions"/>
+deſerued it, yea, and much more. Submit your heart wholly to God, and praiſe him as well for aduerſitie, as for proſperitie; for that is meete, and right; So you ſhall beſt pleaſe him, and moſt eaſe your ſelfe. They that wickedly blame God for any thing which commeth to paſſe, do both wrong his bleſſed maieſtie, and hurt themſelues. Al<g ref="char:EOLhyphen"/>though all things goe croſſe, and contrarie vnto you, yet praiſe and bleſſe the name of God continually, yea to the death, and in dying. Neuer deſpaire of Gods goodneſſe, but confeſſe his righteouſneſſe, and your owne vnrighteouſnes, and ſo yeild your ſelfe to his good pleaſure.</p>
+            </div>
+            <div type="part">
+               <p>I Neuer kept holy the Sabbath day, and therefore am full of all vnholineſſe. I for<g ref="char:EOLhyphen"/>ſooke the Church to followe euerie vaine pleaſure, or worldly profit. I traueiled vpon ſondaies in ſeruice time. And when I went to Church, the Deuill perſwaded me to come late, that I might tarrie the leſſe while there. Comming into Church, I tooke no heede that I came into the houſe of God, to pray vnto him, and to learne my dutie out of his word: and firſt I leaned vpon a ſeate,
+<pb n="32" facs="tcp:356:21" rendition="simple:additions"/>
+or kneeled charily vpo<g ref="char:cmbAbbrStroke">̄</g> one knee, hiding my face, or moouing my lippes, that others might thinke I praied, when indeede I ei<g ref="char:EOLhyphen"/>ther ſaide nothing, or with no deuotion. I little regarded what the miniſter praied, or what he read in the word of God; and if there were any ſermon, I minded not to heare it; but wiſhed for an ende of ſeruice, and ſermon, that I might goe to my dinner, and then to my vaine delights. As for eue<g ref="char:EOLhyphen"/>ing praier I either loſt it, or came ſhort vn<g ref="char:EOLhyphen"/>to it, or howſoeuer, I made no reckoning of it, being wholly giuen to fooliſh paſtime. Thus I made ſonday the worſt day of the weeke, and my ſelfe the worſt ſinner of all the world. But doe you make it the beſt daie of the weeke, that you may be euery Sabbath daie, by the grace of God, made better and better; till at the length you be fit to enter into the euerlaſting Sabbath, and reſt of God in heauen. Therefore leauing your worldly affaires, and weaning your hearts from all pleaſures of ſinne, you muſt deſirouſly intend to keepe holy the Sabbath daie. Ariſe early in the morning, fall downe vpon your knees, and humbly praie vnto God, that he will giue you grace to keepe holy his ſabbath daie, according to his will.</p>
+               <p>
+                  <pb n="33" facs="tcp:356:21" rendition="simple:additions"/>Prepare your ſelfe ſo carefully to goe vnto the Church, as if you were to goe out of this world into heauen. Be not deckt in your apparell, as if you were to plaie a part in a ſtage plaie, or a may-game; but come into Gods houſe, as an humble ſuiter, in ſuch Chriſtian plaineneſſe of raiment, as decently may ſhewe the lowlineſſe of your heart; leaſt you diſpleaſe God, and his Angels; and giue much offence to Gods people, yea, and hinder your owne deuoti<g ref="char:EOLhyphen"/>on; as I haue done. Alas! I haue beene ex<g ref="char:EOLhyphen"/>ceeding vaine, and tooke great pride in comming gaily to Church, and ſo I quen<g ref="char:EOLhyphen"/>ched all deſire of ſeruing God, deſiring chiefly to ſee, and to be ſeene.</p>
+               <p>Come to Church with the firſt, and not with the laſt, leaſt you come too late to ſpeed. Be more deſirous, and more delighted to ſerue God, then to doe any thing els. For it is hee to whome you muſt truſt, all other things will deceiue you, and forſake you. If you be diligent to ſerue God, hee will be carefull to ſaue you, he wil loue you, he will come vnto you, and dwell with you. When you enter into the Church, humble your hearts, kneele downe vpon your knees, lift vp your minde to God, crie him mercie
+<pb n="34" facs="tcp:356:22" rendition="simple:additions"/>
+for your ſinnes, craue his grace in Chriſt Ie<g ref="char:EOLhyphen"/>ſus, that you may truly pleaſe him in all that you ſhall thinke, ſay, or doe.</p>
+               <p>When the miniſter readeth the praiers appointed; ioyne you with him: thinke that which he readeth word by word; and at the ende of euery praier, ſay heartily, Amen. When any part of Gods word is read, giue diligent eare, as though God himſelfe ſpake vnto you from heauen. When the Miniſter or any other is about to preach, pray ear<g ref="char:EOLhyphen"/>neſtly to God in your heart, that God will giue him grace rightly to vnderſtand, and well to vtter that which is needefull to be preached. Doe not deſire to heare fine words, or wittie conceits: for the word of God is moſt powerfull to ſaluation, when it is moſt plainly preached; becauſe the minde intending onely the will of God, the heart yeeldeth wholly to the working of the holy Ghoſt. Although the preacher be long in his ſermon, yet be not wearie, but giue heed to his words vntill he haue made an ende: for it is a diſhonour vnto God, if you neg<g ref="char:EOLhyphen"/>lect to heare his meſſenger. Take heede that you doe not giue any occaſion to other folk, to turne their minde from ſeruing God, to gaze vpon you, or to looke vpon any thing
+<pb n="35" facs="tcp:356:22" rendition="simple:additions"/>
+which you bring into the Church with you: for ſo you ſhould doe much harme vnto them, and wrong vnto God. All the while that you are in the Church, keepe your mind ſteadfaſtly vpon God: let nothing mooue you to turne your eies this way, or that way, but as a diligent waiting man, attend vpon your Lord and maſter, who will be greatly pleaſed to ſee your heart, and mind earneſtly intended vnto him. Satan will practiſe many deuiſes to turne your heart from God, ſpeci<g ref="char:EOLhyphen"/>ally by ſhewing you fine and beautifull wo<g ref="char:EOLhyphen"/>men, who doe commonly come gliſtering into the Church after ſeruice is well begun, and then ſit, or ſtand in the ſight of men. When ſeruice is done, betake your ſelfe vnto God, and depart out of the Church: for it is no fit place to talke of worldly matters.</p>
+               <p>If you muſt needes reckon, or paie, or re<g ref="char:EOLhyphen"/>ceiue money vpon the Sabbath day, yet let it be after euening praier.</p>
+               <p>Were I worthie to giue you counſell, you ſhould eate and drinke very meaſurably at Sondaie at dinner, that you might be the fit<g ref="char:EOLhyphen"/>ter to ſerue God alſo in the afternoone. Ma<g ref="char:EOLhyphen"/>ny come ſieldome in the afternoone, becauſe they cannot find in their heart to leaue their worldly pleaſure, or profit: and ſome thinke,
+<pb n="36" facs="tcp:356:23" rendition="simple:additions"/>
+they can ſerue God ſo well at home, as at Church. But doe not you looſe euening praier, leaſt you looſe that which is praied for. He is no good ſeruant that will not waite vpon his maſter both at dinner, and at ſupper. And goe you to Church, for there all the pariſh ioyneth in praier with you, wherefore you ſhall be heard the ſooner. Some that you make leaſt reckoning of may be in greater fauour with God, then your ſelfe, and then you ſhall ſpeede the better in praying with them. What cauſe ſoeuer you alleadge of not comming to Church, others will be readie to follow your example: for they will thinke they may as well looſe their praiers, as you.</p>
+               <p>The better daie, the better deede; there<g ref="char:EOLhyphen"/>fore loue to doe any worke of charitie to ſuch as neede vpon the Sabbath daie: to re<g ref="char:EOLhyphen"/>leeue the poore, to viſit the ſicke, to counſell the counſelleſſe, to comfort the comfortles, and to make peace betweene parties that are in diſagreement. Delight not much in worldly paſtime: for it is like the burning of thornes, which make a great crackling for a little while; but by and by all the noiſe com<g ref="char:EOLhyphen"/>meth to nothing. O take it vpon mine expe<g ref="char:EOLhyphen"/>rience; if you wedde your heart to worldly
+<pb n="37" facs="tcp:356:23" rendition="simple:additions"/>
+ioy, you ſhall in the ende be ioileſſe. There<g ref="char:EOLhyphen"/>fore giue your minde to conſider rightly of time to come, and ſet your loue and delight vpon God, and a good conſcience: for that is a continuall feaſt, which neuer will for<g ref="char:EOLhyphen"/>ſake you. And if you had once well taſted it, you would not excha<g ref="char:cmbAbbrStroke">̄</g>ge it for all the worlds good. I ſay againe, acquaint your heart with heauenly ioie betime: for as that cloath which is thoroughly died blacke will after<g ref="char:EOLhyphen"/>wards take none other colour, ſo the heart which is fully poſſeſſed with the loue of worldly ioie, will very hardly be turned to loue the ioie of God.</p>
+               <p>Our bleſſed Lord God for Ieſus Chriſts ſake, vouchſafe to giue you grace, that you may reſt in him, and ioie in him, which is the right keeping holy of the Sabbath day.</p>
+            </div>
+            <div type="part">
+               <p>O The terrible wrath of almightie God, I horriblie diſhonoured my father and mother euen from my birth vntill they were dead, and buryed. Therefore I could neuer take good roote in any place whitherſoeuer I came: great meanes of happineſſe haue beene offered vnto me, but thorough want of grace I haue alwaies liued wretchedly,
+<pb n="38" facs="tcp:356:24" rendition="simple:additions"/>
+and runne into many grieuous aduerſities. I began to diſhonour, greeue, mock, and ſcorne my deare mother ſo ſoone, as I coulde ſpeake; and fell into an helliſh vngraciouſ<g ref="char:EOLhyphen"/>nes, wherewith I haue diſgraced, and miſu<g ref="char:EOLhyphen"/>ſed my ſelfe euer ſince. In time alſo I began to diſhonour, and greeue my father; in which curſed ſinne I continued till his death: Therefore fewe and troubleſome are the daies of my life: and that which is worſt of all, an euill ende is falling vpon me.</p>
+               <p>All children take warning by me; ho<g ref="char:EOLhyphen"/>nour your parents in heart, in word, and in<g ref="char:EOLhyphen"/>deede. Reuerence them, obey them di<g ref="char:EOLhyphen"/>ligently, and ſtriue to pleaſe them. Then will God ſurely bleſſe you, and you ſhall proſper in bodie, and ſoule. But if you will be leade by the deuill to deſpice your par<g ref="char:EOLhyphen"/>ents, to diſobey them, and greeue them, God will deſpice you, greeue you, and deſtroy you. If you haue any waie miſbe<g ref="char:EOLhyphen"/>haued yourſelues to your parents, cry them mercie vpon your knees, and humblie in<g ref="char:EOLhyphen"/>treat them to praie vnto God, that he will forgiue you.</p>
+               <p>If your parents doe neede your helpe, help them to the verie vttermoſt of your power. When they be ſick, goe vnto them,
+<pb n="39" facs="tcp:356:24" rendition="simple:additions"/>
+tarrie about them, be readie, and put forth your ſelfe to to doe any thing for them. O that children did know what is the worth of a fathers, or mothers bleſſing, when their hearts be comforted by the dutifullneſſe of their child. They would rather then faile, creepe vpon their hands, and knees to pleaſe them.</p>
+               <p>The Deuill knoweth this to be true, and therefore blindeth childrens eyes, and hard<g ref="char:EOLhyphen"/>neth their hearts, leaſt they, by honouring their father, and mother ſhould procure to themſelues the manyfold bleſſings of God. When your parents die, mourne for them, and bury them in ſeemelie ſort.</p>
+               <p>Neuer endure to ſay or heare any worde againſt your father, or mother.</p>
+               <p>If you haue any grandfather, and grand<g ref="char:EOLhyphen"/>mother, you muſt honour them as your fa<g ref="char:EOLhyphen"/>ther, and mother. Honour your vnckles, auntes, brethren, and ſiſters, yea and all your kindred, for your fathers, and mothers ſake. Moreouer honour all them that haue beene freindes to your father, and mother. you muſt honour the King as your father; for he vnder God preſerueth you in peace from iniurie, and violence. You muſt loue your country, as your mother: for in it you
+<pb n="40" facs="tcp:356:25"/>
+were borne and brought vp. You muſt honour them that are in authoritie vnder the king, and all your ſuperiours. For they are meanes to keepe good order; that you may liue a quiet life in all godlineſſe, and honeſtie. Meddle not with ſtate-matters aboue your calling: for it is a ſpice of a re<g ref="char:EOLhyphen"/>bellious nature to call the doeings of higher powers into queſtion, and to finde fault with them. If any thing ſeeme amiſſe, pray humblie to God, that he will mercifully cauſe it to be amended; and doe you care<g ref="char:EOLhyphen"/>fully endeuour to amende your owne ſelfe. For it may be that your ſinne is ſome part of cauſe, why there is any want of grace in your gouernors. This is your beſt waie; and not to ſpeake euill of thoſe which are in authoritie, as I haue wickedly done.</p>
+               <p>You muſt honour Archbiſhopps, and Biſhops and all Chriſts miniſters as fathers. For their office is to feede your ſoules; ſpe<g ref="char:EOLhyphen"/>cially the miniſter of the pariſh, wherein you liue, who in matter of ſaluation is as a mother to nurce you,<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ſ. 2.7. <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>11, 12</note> and as a father to traine you, and teach you. Haue alwaies a reuerent opinion of your miniſter; for other<g ref="char:EOLhyphen"/>wiſe you ſhall greatly indanger your ſoules; as I haue done.</p>
+               <p>
+                  <pb n="41" facs="tcp:356:25"/>If your heart be poſſeſſed with a diſlike of your miniſter, goe to ſome other Church to heare the ſeruice of God, vntill you be in a better minde; leaſt the ill conceit of the miniſter make you to miſtake and be diſtaſ<g ref="char:EOLhyphen"/>ted with that which he preacheth, readeth, or prayeth. For then you ſhould be in a fearefull caſe, and the deuill woulde enter into you, and make you loath the holy ſer<g ref="char:EOLhyphen"/>uice of God.</p>
+               <p>Whiles you liue, bleſſe your ſelfe from ſaying, and doing any thing, that may diſa<g ref="char:EOLhyphen"/>ble the miniſter of Chriſt;<note place="margin">Luk. 10.<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </note> for that were to deſpice Chriſt himſelfe.</p>
+               <p>If you ſaie, he is thus, and thus vnfit for his calling. I anſwear, as before, if hee be ſo, you are bounde to praie that he may be amended. What warrant haue you to iudge Gods miniſter; Take heede.</p>
+               <p>I was once a naughtie ſeruant; and there<g ref="char:EOLhyphen"/>fore doe intreat all ſeruants to honour them whoſe ſeruants they are, as if they were their fathers, and mothers, reuerencing, obeying, and ſeruing them faithfully. Bleſſed are all good ſeruants. For whether their maſters vſe them well, or no, God will not faile to powre his bleſſing vpon them. But he will ſurelie puniſh naughtie ſeruants, and
+<pb n="42" facs="tcp:356:26"/>
+naughtie maſters.</p>
+               <p>Honour all your friends, and well willers: for they are, or would be, as your parents, meanes to preſerue you. Hate my barbarous propertie, and neuer be vnkind to any that hath beene kind to you, although he be tur<g ref="char:EOLhyphen"/>ned from a friend to an enemie.</p>
+               <p>One vnkindneſſe, yea many times a falſe ſuſpicion of vnkindneſſe, hath made me di<g ref="char:EOLhyphen"/>ſhonour my kind freinds: But if you will pleaſe God, practiſe the contrary, let not many vnkindneſſes cauſe you to forget one kindneſſe; but let one kindneſſe put many vnkindneſſes quite out of mind.</p>
+               <p>Reuerence your elders, and all that are in any gift or grace of God better then you, for they are as fathers and mothers vnto you to doe you ſome good, at leaſt by exam<g ref="char:EOLhyphen"/>ple.</p>
+               <p>God made all people in his owne like<g ref="char:EOLhyphen"/>neſſe, and their is none ſo low but that he may one way or other doe you good; at leaſt by excerciſing your patience if he be faultie, or your enimie; much more by praying for you, if you giue him cauſe ſo to doe: there<g ref="char:EOLhyphen"/>fore honour all people, euen your enemies. And let your owne conuerſation be wiſe &amp; vertuous, leaſt you doe as I haue done, di<g ref="char:EOLhyphen"/>ſhonouring
+<pb n="43" facs="tcp:356:26"/>
+God that made you, your pa<g ref="char:EOLhyphen"/>rens that brought you forth and noriſhed you, your gouernours that haue the ruling of you, your freinds that fauour, and further you, for you doing euill are a diſcredit vnto them all: yea, if your behauiour be not good you diſhonour all the world, for if you doe reſpect them as Gods people ought to be reſpected, you will be aſhamed that any ſhould ſee, or heare euill of you.</p>
+               <p>All parents, and bringers vp of children nurture them while they be young to feare God and honor you, for ſo they will be fra<g ref="char:EOLhyphen"/>med to honour all others. But if in fonde loue you make your children your fellowes or by ill behauiour cauſe them to thinke vnreuerently of you, how can they kindly performe their dutie vnto you.</p>
+               <p>O that parents did ſo loue their children, that their ſpeciall care might be to make them lowely and louely to God, and to all people; O Lord Ieſu, I humbly beſeech thee to ſay, Amen.</p>
+               <p>I am a murderer in heart, in tongue, &amp; in outward works, therefore euerlaſting life is not in me: my heart is full of vncharitable<g ref="char:EOLhyphen"/>neſſe, readie to miſlike any bodie, to ſurmiſe euill of them, and ſo to entertaine furious
+<pb n="44" facs="tcp:356:27"/>
+anger, helliſh hatred, and all deadly enmitie my tongue is a ſharpe ſword wounding euen my freinds; yea, I am like a foole that blindfoldeth himſelfe and hurteth he careth not whom, when I conceaue that any is ad<g ref="char:EOLhyphen"/>verſarie vnto me, I ſpare no poyſon but re<g ref="char:EOLhyphen"/>uile him bitterly. I haue murdered many with an euill eie, enuying their proſperitie; I haue ſtricken and flung at others with a murderous mind, I haue cauſed quareling &amp; and fighting, I haue cauſed ſome to looſe the meanes whereby they liued. I haue hindred others from obtaining helps of preſeruing their life. I haue greedily kept in ſtore, and vainely waſted that, through the want whereof many poore haue pined with hun<g ref="char:EOLhyphen"/>ger and cold. I haue indangered the ſaluati<g ref="char:EOLhyphen"/>on of others by ill example, liuing among them as one infected with the plague; yea many ſinnes like plague ſores breaking and running out co<g ref="char:cmbAbbrStroke">̄</g>tinualy. All people take war<g ref="char:EOLhyphen"/>ning by me, if you will not be guiltie of murder, ſhunne all the cauſes, and occaſions thereof. Doe not endure to take any diſlike of man, woman, or child, nor be too well conceited of your ſelfe, for then you ſhall be apt to thinke ill of any bodie: O that you knew into how many dangers you put your
+<pb n="45" facs="tcp:356:27"/>
+ſelfe, when you begin to diſlike or deſpiſe a<g ref="char:EOLhyphen"/>ny bodie: for euen as when your mouth is out of taſt you cannot reliſh any thing be it neuer ſo good; ſo if your mind be ill concei<g ref="char:EOLhyphen"/>ted of an other, whatſoeuer he ſaieth or do<g ref="char:EOLhyphen"/>eth you condemne it. But you may ſay, ſhall I not diſlike ſuch as I doe ſee and heare to be euill? I anſwere firſt, you may by ſight, and hearing take your taſt amiſſe,<note place="margin">Luk. 18.</note> as the Phari<g ref="char:EOLhyphen"/>ſe did in diſliking the publican; whoſe heart was better liked of God then the Phariſes, that diſliked him. Secondly, although an o<g ref="char:EOLhyphen"/>ther be indeede ſo bad as you ſee and heare that he is; yet you muſt diſlike him none otherwiſe, then for your owne ſinnes you diſlike your ſelfe. Sorrie you are and much diſpleaſed with your ſinnes, if you be a true chriſtian; but yet you hate not your ſelfe, you doe not raile vpon your ſelfe; but louing your ſelfe you hide your faults. So muſt you doe to others, for if you loue them, loue co<g ref="char:EOLhyphen"/>uereth a multitude of ſinnes. But if you hate any of Gods people you are a murderer:<note place="margin">1. Ioh 3</note> therefore take heede,<note place="margin">Eph. 4.2</note> follow the counſell of the holy Ghoſt, whatſoeuer cauſe is gi<g ref="char:EOLhyphen"/>uen you to be angry, pacifie your ſelfe, and let not wrath ſtay long in your heart; leaſt you entertaine the deuill, who will fill you
+<pb n="46" facs="tcp:356:28"/>
+with hate, and deſire of reuenge. If anie doe hurt you in word or deede, firſt conſider well, whether you haue giuen anie cauſe ei<g ref="char:EOLhyphen"/>ther ſpeciallie touching that partie, or by a<g ref="char:EOLhyphen"/>nie misbehauiour: examine your heart be<g ref="char:EOLhyphen"/>fore the face of God, as he ſhall iudge your ſoule, and if you finde your ſelfe anie waie in fault; crie God mercie both for your owne ſinnes, and for his that hath thereupon done you harme: for if you had not giuen cauſe, he had not ſinned in harming you by word or deede.</p>
+               <p>But if your conſcience be cleare, that you be hurt by them, to whome you haue giuen no cauſe, then if you can haue true patience, you are Gods owne childe. If a man were by the lawes of the Realme condemned to die a grieuous death, and might eſcape with condition that his coate ſhould be beaten, and he take it patientlie, it is to be thought that he would be verie glad of the conditi<g ref="char:EOLhyphen"/>on, and ſtriue to be patient: you are a ſinner, and therefore by the law of God worthie to ſuffer death in hell fire, where the damned are euer in extreame pangs of death, and yet they neuer die. God of his mercie offereth you pardon through Ieſus Chriſt, vpon con<g ref="char:EOLhyphen"/>dition that you ſhall patientlie ſuffer the ad<g ref="char:EOLhyphen"/>uerſities,
+<pb n="47" facs="tcp:356:28"/>
+and iniuries of this world. There<g ref="char:EOLhyphen"/>fore looke well to your ſelfe, and by your patience keepe your ſoule,<note place="margin">Matth. 1 23, 24, 25</note> leaſt breaking the condition you forfeit your pardon, and ſo be torme<g ref="char:cmbAbbrStroke">̄</g>ted. Take heed how you iudge of any bodie, for you may be many waies de<g ref="char:EOLhyphen"/>ceiued; euen in that which you ſee, much more in that which you heare, and moſt of all in that which you ſurmiſe.</p>
+               <p>Doe not wiſh, no nor imagine any euill to happen vpon any of Gods people; but thinke, and wiſh well to all, yea to your e<g ref="char:EOLhyphen"/>enemies, praie earneſtly to God for them. Doe not reioice to ſee, or heare any euill of others, but ſorrow and grieue at it; nor grieue to ſee or heare of the proſperitie of others, but reioice at it. Then are you in charitie; els not.</p>
+               <p>Whatſoeuer aduerſitie happeneth vnto you, humble your ſelfe to God, and take it patientlie, leaſt you hurt both body &amp; ſoule with worldlie ſorrow, as I haue done. Haue a good conſcience towards God, and be in charitie and peace with all people; then no<g ref="char:EOLhyphen"/>thing can ouercome you.</p>
+               <p>Be ſlowe to ſpeake, and when you ſpeake let your ſpeach be gracious, powdred with heauenlie ſalt, that you may harme none of
+<pb n="48" facs="tcp:356:29"/>
+Gods people in any word that you vtter. Before you ſpeake, be well aduiſed what you ſay; of whome, and to whome, what you ſay? for you muſt giue a reckoning of euerie idle word. One needles word draw<g ref="char:EOLhyphen"/>eth out an other, and commonly cauſeth much euill communication. Take heede of whome you ſpeake: for you muſt not call a<g ref="char:EOLhyphen"/>ny bodies name into queſtion, vnleſſe it be to ſome good and charitable purpoſe. It is an helliſh propertie of mine to occaſion ſpeach of any in place where they are likelie to be ill ſpoken of, whereby I ſet them as a marke for others to ſhoote at.</p>
+               <p>Take heede to whome you ſpeake: for ſome are of that qualitie, that you can hard<g ref="char:EOLhyphen"/>lie ſaie any thing to them, but they wil pick ſome euill out of it. Therefore let your words be few, and wiſelie ſpoken.</p>
+               <p>Neuer ſpeake word to reproach any man, woman, or child. It is naught to reuile our enemie, worſe to ſpeake ill of him that neuer did you harme; but an horrible wickedneſſe to diſgrace your friend. Some will ſay; Is it not lawfull to call a ſpade, a ſpade? I anſwer you by a notable example. S. <hi>Iude</hi> writeth that Michael the Archangel beeing in ſtrife with the deuill, durſt not giue any reproach<g ref="char:EOLhyphen"/>full
+<pb n="49" facs="tcp:356:29" rendition="simple:additions"/>
+word. Whie durſt he not? Surelie for diſpleaſing God. If it be diſpleaſing to God, that an holie Angel ſhould ſpeake any re<g ref="char:EOLhyphen"/>proach to the deuil, how can we ſafely quip, taunt, revile, defame, curſe, and banne one an other?</p>
+               <p>A word of reproach is grieuous to him of whome it is ſpoken, maketh others to thinke hardlie of him, and may cauſe his de<g ref="char:EOLhyphen"/>ſtruction.</p>
+               <p>Curſers are murderers, for if it pleaſe God, to ſuffer their curſe to take effect, the partie curſed is murdered by the deuill.</p>
+               <p>They that ſooth and flatter others in euil, are murderers: for they thruſt them forward into deſtruction.</p>
+               <p>Neuer practiſe any deceit to draw an other into danger: for God hateth blood thirſtie and deceitfull men.</p>
+               <p>Be not double tongued, to ſpeake faire to ones face, and foule behind his backe.</p>
+               <p>Make no debate, nor be a tale-carrier: for all ſuch are ſet a work by the deuill, to cauſe miſchiefe, and murder in the world.</p>
+               <p>Vſe no man, woman, or child vncharitab<g ref="char:EOLhyphen"/>ly: be kinde to all, and cruell to none. Be carefull to ſuccour the needie, leaſt they pe<g ref="char:EOLhyphen"/>riſh through want of that which you might
+<pb n="50" facs="tcp:356:30"/>
+doe for them. Goe often to them that are ſicke, but goe with a good intent, to good purpoſe. Sickneſſe warneth the ſicke to pre<g ref="char:EOLhyphen"/>pare towards heauen. Therefore you muſt not talk much of earthly matters: for a ſmall touch plucketh him downeward that is weakely going vp the hill; but helpe him vpward the beſt that you can with heauenly communication.</p>
+               <p>Take heede that you giue none euill ex<g ref="char:EOLhyphen"/>ample in word or deed, for it is like the poy<g ref="char:EOLhyphen"/>ſoned infection of the plague, which may goe farre, and cauſe the deſtruction of many.</p>
+               <p>If you would be cleere from all blood<g ref="char:EOLhyphen"/>guiltyneſſe, flee from enmitie, and labour to be in peace, and to make peace.</p>
+               <p>To be in peace; firſt and foremoſt with God: for if there be enimitie betweene God, and you, you take the waie to mur<g ref="char:EOLhyphen"/>der your owne ſoule; Secondly if you can poſſiblie with a good conſcience haue peace withall people, yea ſue, and ſeek for it. Becauſe enmitie can hardly be without much vncharitableneſſe. And greeuous is the danger thereof; as I finde, and feele by woefull experience. If your waies pleaſe God, as mine did neuer, he will make your
+<pb n="51" facs="tcp:356:30"/>
+enemies to be in peace with you. And then you ſhal proſperouſly practiſe to be a make-peace betweene God and your neigh<g ref="char:EOLhyphen"/>bour; and betweene neighbour and neigh<g ref="char:EOLhyphen"/>bour, by your godly life, and good counſell. When you ſee or heare that anie are in en<g ref="char:EOLhyphen"/>mitie, pitie their caſe, as if their houſes were a fire and they themſelues liklie to be bur<g ref="char:EOLhyphen"/>ned; pray vnto God for them, that they may be rightly agreed; and practiſe what good meanes you can to quench the fire; but come not to neere it, leaſt you be alſo fired; meddle not to much with the pointes in controuerſie: for it is a very dangerous buſineſſe. Keepe your ſelfe alwaies indiffer<g ref="char:EOLhyphen"/>ent, not holding with one, nor with the other: for a partaker cannot be thought to beare an euen hand betweene them. Re<g ref="char:EOLhyphen"/>member well the ſaying of <hi>Salomon,</hi>
+                  <note place="margin">Prov. 10</note> It is honour for a man to keepe himſelfe out of contention; but fooles will be medling.</p>
+               <p>Striue to liue quietly: So ſhall you eſcape many troubles, preuent much miſcheefe, and inioy many bleſſings.</p>
+            </div>
+            <div type="part">
+               <p>ALas! how ſhall I doe; without holi<g ref="char:EOLhyphen"/>neſſe none ſhall ſee God; I haue al<g ref="char:EOLhyphen"/>waies
+<pb n="52" facs="tcp:356:31"/>
+poſſeſſed my bodie in vnholineſſe, and diſhonour: for euen from my childe<g ref="char:EOLhyphen"/>hoode I was, and am defiled with fleſh<g ref="char:EOLhyphen"/>ly luſt, which hath conſumed my bodie, and cancred my ſoule, ſo that I am before God a moſt ougly monſter, and a deteſta<g ref="char:EOLhyphen"/>ble loathſome wretch. This helliſh fire was firſt kindled in my heart by ſeeing lewde behauour, and harkening to filthy talke, whereby I grewe to be of ſo beaſtly an ima<g ref="char:EOLhyphen"/>gination; that I could hardly ſee, or heare anie thing, but preſently I turned it to ſome meaning of luſt. To quench this fire I ſome time thought vpon <hi>Origens</hi> remedy, ſome<g ref="char:EOLhyphen"/>time I purpoſed marriage, but all in vaine, for to this daie I continue inflamed with it; and neuer had the grace to be freed from it.</p>
+               <p>O all ye children of men, liue in the feare of God, and beginne betimes to hate this fooliſh and filthie ſinne: for if it once take poſſeſſion of your heart, it will haunt you like an euill ſpirit. Therefore doe not endure to ſee, heare, or thinke any vnclenneſſe. If any beginne to talke, read, or ſing matter of beaſtlineſſe, flee out of their compaine: for it is the deuill that ſetteth them a work to fire your hearts. Whatſoeuer lewd bal<g ref="char:EOLhyphen"/>let,
+<pb n="53" facs="tcp:356:31" rendition="simple:additions"/>
+booke, or picture co<g ref="char:cmbAbbrStroke">̄</g>meth to your hands, teare it all to peeces, or burne it to aſhes: for whoſoeuer made it, the deuill deuiſed it for your deſtruction. If God doe ſee that you hate all cauſes of filthineſſe, he will loue you deerelie, and many excellent gra<g ref="char:EOLhyphen"/>ces he will giue vnto you.</p>
+               <p>Parents, and gouernours of children, keep them carefully from the delite of this ſinne. It is not good that boyes, and girles ſhould lie in bed together, nor plaie in priuate pla<g ref="char:EOLhyphen"/>ces: for the deuill watcheth his time to work his temptation vpon them. It is ſtrange, and I ſhould not beleeue it, but that I remember it, ſince I was a child, how younglings will draw one an other to this filthie ſinne.</p>
+               <p>All people if you deſire by the grace of God, to be preſerued from this fierie filthi<g ref="char:EOLhyphen"/>nes, in the name of Ieſus Chriſt, ſettle your hearts to praie, and to practiſe for chaſtitie.</p>
+               <p>O moſt holy Lord God, who in the be<g ref="char:EOLhyphen"/>ginning of this world didſt make man and woman, and marrie them together, ordai<g ref="char:EOLhyphen"/>ning that they ſhould with ſo vndefiled hearts increaſe their kind, as in eating and drinking they nouriſh their bodies: But e<g ref="char:EOLhyphen"/>uer ſince Sathan by temptation had drawne them awaie from thee, thine holy ordinance
+<pb n="54" facs="tcp:356:32" rendition="simple:additions"/>
+is broken, for people doe rather giue them<g ref="char:EOLhyphen"/>ſelues to the delight of beaſtly luſt, then to the deſire of bleſſed increaſe. Whereupon they pamper, and paint out themſelues, that they may followe their filthineſſe, &amp; allure one an other thereunto. Moreouer by the procurement of our old enemie the deuill, this world is ſo full of temptation, that I am continualy in danger by ſeeing, hearing, or ſome one waie, or an other to be infected by loathſome luſt: yea, although there were not ſuch abundance of outward alurements, yet mine owne heart is readie to betraie me to the deuill. Therefore I doe humbly be<g ref="char:EOLhyphen"/>ſeech thy bleſſed maieſtie, that it may pleaſe thee to preſerue me from all temptations of luſt all the daies of my life. And if it be thy will that I ſhall marrie, good Lord giue vn<g ref="char:EOLhyphen"/>to me a vertuous wife, that we may chriſti<g ref="char:EOLhyphen"/>anly liue together, not in the vnſatiable luſt of vncleanes, as they that know thee not; but in ſuch godly tempera<g ref="char:cmbAbbrStroke">̄</g>ce, that our minds may be holy, our bodies healthie, our chil<g ref="char:EOLhyphen"/>dren, if thy pleaſure be to ſend vs any, holy, and able to doe thee ſeruice. Moſt mercifull God, grant me this my prayer for thy ſonne Ieſus Chriſts ſake, to whom with thee, and the holy Ghoſt be all honour, and glory
+<pb n="55" facs="tcp:356:32" rendition="simple:additions"/>
+henceforth for euermore, Amen.</p>
+               <p>Now with daily prayer ioyne diligent practiſe. Giue your ſelues to ſome good ex<g ref="char:EOLhyphen"/>erciſe and labour, flie from idleneſſe. Pam<g ref="char:EOLhyphen"/>per not your bodies with gluttonie, and drunkenneſſe, but vſe verie ſober diet: ab<g ref="char:EOLhyphen"/>hor all brauerie of apparel, be cloathed only as becommeth a chriſtian in your degree.</p>
+               <p>Whatſoeuer it be that mooueth you any way to the thought, or deſire of luſt, leaue it, and turne from it.</p>
+               <p>I doe heartly wiſh holineſſe to al people, but being a wreched man I doe ſpecially in<g ref="char:EOLhyphen"/>tend my confeſſion vnto men.</p>
+               <p>All men, young or old, I beſeech you giue your heart and mind to holy thoughts, and heauenly deſires, deteſt all motions of filthineſſe, which tend to diſpleaſe God, &amp; deſtroie you bodie and ſoule.</p>
+               <p>Doe not muſe of woman, nor let your eies be delighted in behoulding their beau<g ref="char:EOLhyphen"/>tie and fineneſſe; giue no regard to their coie behauiour, tripping, and dauncing. Take no pleaſure in hearing their delicate talking, ſweet ſinging, and amorous playing, for the deuill is readie when you are any way touched with delight of women, preſently to kindle his fire in your heart. Be not much
+<pb n="56" facs="tcp:356:33" rendition="simple:additions"/>
+familiar with any woman, ſpecially alone for it will cauſe danger to you, and ſuſpition to others. If you ſee a woman to be verie fellowly, iudge her not, for ſhe may be good; but be you a ſtranger vnto her, leaſt Satan make you naught. Doe not dally, ieſt, or plaie with woemen, leaſt it happen vnto you, as to the flie that playeth about the ca<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>dle till ſhe haue ſpoyled her flying.</p>
+               <p>As you muſt carefully keepe your ſelues from being enflamed with luſt, ſo alſo you ought to take great heede, that you giue none occaſion to enflame any of Gods peo<g ref="char:EOLhyphen"/>ple. O what an helliſh part it is to ioyne with the deuill in tempting others. A man and his wife ſhould not dally one with an other in the ſight of any, no not of their owne children, leaſt it mooue them to euill thoughts. An heathen man among heathen people was put to great diſgrace, becauſe he kiſſed his wife in the ſight of his daugh<g ref="char:EOLhyphen"/>ter. This is a notable example for chriſtians that make no conſcience to infect others by word, and deede, apparell, geſture, and e<g ref="char:EOLhyphen"/>uerie waie that can be deuiſed:<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>th. 18.6.</note> you knowe that Chriſt ſaith, it were better for a man to be caſt into the ſea with a milſtone about his necke, then to giue any occaſio<g ref="char:cmbAbbrStroke">̄</g> to make
+<pb n="57" facs="tcp:356:33" rendition="simple:additions"/>
+an other to ſinne.</p>
+               <p>O ye women, I pray you that for Chriſts ſake ye will conſider, why God was ſo diſpleaſed with the daughters of Sion,<note place="margin">Eſa. 3.16.</note> for their fine attire, and wanton behauiour: and alſo why the holy Ghoſt doth will chriſtian women to decke themſelues with vertues, and not with coſtly raiment? Surely it ſe<g ref="char:EOLhyphen"/>meth to me, that one cauſe is the great dan<g ref="char:EOLhyphen"/>ger of men, who are inticed to luſt by the trimneſſe of women. And is not an other cauſe the waſting of Gods goods vpon vaine ornaments? Take heede leaſt God doe one daie call you to a reckoning for euerie pennie idly beſtowed and for euerie man by your meanes tempted. O the modeſtie of women, what an heauenly preſeruatiue and remedie it is againſt luſt?</p>
+               <p>Yong men pray humbly, and feruently to God, that you be not ſtained with luſt; and if you finde your bodies dangerouſlie ſubiect thereunto, ſtriue to keep your minds cleane. Rather then yeild to any vnlawfull act of fleſhlineſſe, intend your ſelfe to marrie: for mariage is an honourable calling, and holy before God. It is farre better to be ma<g ref="char:EOLhyphen"/>ried, and very poore, with honeſtie; then to be vnmaried, and very rich, with diſhoneſtie.
+<pb n="58" facs="tcp:356:34"/>
+If you meane to marrie, pray vnto God that he will giue you grace, well and wiſely to gouerne, and maintaine a maried life: praie alſo that hee will match you with a godly wife. And as you praie, ſo practiſe by all good meanes to procure the bleſſings which you praie for. Commending your ſelfe to the pleaſure of God: be well aduiſed before you make choiſe of a wife, and when you haue once ſetled your minde, let nothing cauſe you to repent, or forſake your choiſe: I had beene a married man, and freed from the flames of luſt, but that I gaue eare to thoſe that diſliked the partie, whome I had good cauſe to like and to loue, notwithſtan<g ref="char:EOLhyphen"/>ding whatſoeuer they could ſay againſt her: I was accurſed, and therefore vnſteadfaſt in all good courſes.</p>
+               <p>Beeing determined to marrie a woman, hate the thought of making her your concu<g ref="char:EOLhyphen"/>bine, before ſhee be your lawfull wife: leaſt God in great diſpleaſure doe lay ſome one plague or an other vpon you. O that you knew what a bleſſednes it is for a man and a woman to come into the Church before the face of God, and his Angels, there to be ma<g ref="char:EOLhyphen"/>ried, beeing both vndefiled.</p>
+            </div>
+            <div type="part">
+               <pb n="59" facs="tcp:356:34"/>
+               <p>I Haue beene a thiefe many waies: when I was a child, I remember I was giuen to ſteale apples, and afterward I purloined di<g ref="char:EOLhyphen"/>uers things, yea money from my father and mother: I bought things, and neuer paied for them: I did ſteale bookes, and deceiued others by many ſhifts: when I was put in truſt to buie any thing for an other, I made them beleeue that I paied more for it, then indeede I did: and commonly took vp much commodities for mine owne vſe, and left it vpon their reckoning whome I ſerued; ſpe<g ref="char:EOLhyphen"/>cially when I was a young ſcholler in the V<g ref="char:EOLhyphen"/>niverſitie, where I did much wrong my good friends.</p>
+               <p>When I bought any thing, I made much adoe to get it better cheape then it was worth; diſpraiſing it, and promiſing to helpe the ſeller to cuſtome. I haue bought things for halfe the worth, of ſuch as haue wanted money. Contrariwiſe if I ſold a thing, I falſly praiſed and prized it at more then it was worth, profeſſing that I would not haue par<g ref="char:EOLhyphen"/>ted from it, but for neede of money, or for loue of the buier. I haue made them paie ex<g ref="char:EOLhyphen"/>treamely that were earneſt to buie any thing
+<pb n="60" facs="tcp:356:35"/>
+which I had.</p>
+               <p>If I found any thing, I cloſely kept it to my ſelfe; yea, and ſometimes I found things before they were loſt.</p>
+               <p>Once one found certain monie, who ſee<g ref="char:EOLhyphen"/>ing me goe that waie, thought it had beene mine, and therefore gaue it me, and I tooke it for mine owne, although I loſt none.</p>
+               <p>I haue taken reward for doing many things, which I did not as I ought to haue done.</p>
+               <p>I haue not well rewarded many that did for me, yea I haue diuers times done euill to them, that did good to me.</p>
+               <p>In matter of reckoning, when ſome haue not remembred ſo much as I owed vnto them, I paied them according to their reme<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>brance, and kept the reſidue to my ſelfe a<g ref="char:EOLhyphen"/>gainſt my conſcience.</p>
+               <p>I haue taken wages for ſchooling chil<g ref="char:EOLhyphen"/>dren, and miniſtring in the Church, but did not truly performe my dutie, and therefore am a theefe.</p>
+               <p>I haue beene giuen to gaming, and there<g ref="char:EOLhyphen"/>in practiſed deceit, which people doe call foule-plaie; but before the face of God it is very theft.</p>
+               <p>I haue by faire words, and pleaſing pro<g ref="char:EOLhyphen"/>miſes
+<pb n="61" facs="tcp:356:35"/>
+gotten many things of others, for which I made no recompence.</p>
+               <p>I haue ſet ſome to worke for me, &amp; haue paid them too little for their paines.</p>
+               <p>I haue beene a broker to helpe one to get goods from an other: once I was a meanes to make a man giue houſe and land from his kinred to an other. In performing which worke I wrought with the deuill, and pra<g ref="char:EOLhyphen"/>ctiſed much deceit.</p>
+               <p>I haue borowed things, and either not re<g ref="char:EOLhyphen"/>ſtored them at all, or not in ſo good ſort, as I receiued them. I haue heartned ſome to truſt others, by whome they haue beene de<g ref="char:EOLhyphen"/>ceiued.</p>
+               <p>I haue many waies waſted and hurt the goods of other folke careleſly, couetouſly, and ſpitefully.</p>
+               <p>I haue oftentimes beene very partiall in queſtion touching goods betweene partie and partie; becauſe I haue beene ill concei<g ref="char:EOLhyphen"/>ted of the one, or well opinioned of the o<g ref="char:EOLhyphen"/>ther, or thought to be a gainer by the buſi<g ref="char:EOLhyphen"/>neſſe. I haue many waies counſelled, aided, and concealed vnrightfulneſſe.</p>
+               <p>By all theſe waies, and many more, which I can not remember,<note place="margin">Zach. 5.1, 2, 3, 4.</note> I haue beene a theefe, and therefore the huge booke of
+<pb n="62" facs="tcp:356:36"/>
+Gods curſes written againſt theeues, doth take holde vpon me, and will not leaue me till I be brought to naught.</p>
+               <p>O ye people of God, for Chriſts ſake be carefull to keepe your ſelues true, and iuſt. Doe not get ſo much as a pinne with an e<g ref="char:EOLhyphen"/>uill conſcience: for howſoeuer the deuill blindeth you, yet one daie you ſhall ſee, that all naughtie gaine will haue a naughtie end. Practiſe no deceit, nor crueltie in buying, ſelling, chopping, changing, borrowing, len<g ref="char:EOLhyphen"/>ding, gaming, or any waie els: for God will ſurely laie his vengeance vpon all that make any vniuſt gaine, or diminiſh the goods of others.</p>
+               <p>Make no commoditie by any trade, or practiſe that hindreth your neighbour, or is againſt a common good. Doe not take, or hold from any that which in conſcience is due vnto them: for goods wrongfully got<g ref="char:EOLhyphen"/>ten, or kept from the right owner, doe con<g ref="char:EOLhyphen"/>tinually crie vnto God for iuſtice againſt you.</p>
+               <p>Therefore if you haue by any manner of meanes hurt, hindred, or diminiſhed the good of any, yeelde due recompence vpon true repentance, to the partie wronged, or if he be dead, to his heires; or if he be dead
+<pb n="63" facs="tcp:356:36"/>
+without heires, or you cannot finde the par<g ref="char:EOLhyphen"/>tie to whome reſtitution is due, giue it to the poore. But if you haue no abilitie to make ſatisfaction, confeſſe the wrong to the partie whome you haue wronged, and praie him to forgiue; and at leaſt praie vnto God continually that he will plentifully recom<g ref="char:EOLhyphen"/>pence them, whom you haue iniuried, pow<g ref="char:EOLhyphen"/>ring vpon them his bleſſings in bodie and ſoule. If you thinke that Chriſts religion doth not require ſatisfaction of wrongs, you are deceiued:<note place="margin">Luk. 19.8.</note> for Zacheus inſtructed of Chriſt, offered that if he had done wrong to any man, he would giue to the partie wron<g ref="char:EOLhyphen"/>ged foure times ſo much, as the dammage came to.</p>
+               <p>Therefore needes muſt ſingle ſatiſfaction be due, a pennie, for a pennie, and a pound for a pounde.</p>
+               <p>If you ask, whether I follow this leſſon or no? I anſwer; my conſcience doth tie me vnto it. Therefore ſome ſatisfaction I haue made, and ſome more, by the grace of God, I will make; and that which I cannot doe thorough want of abilitie, I muſt craue of God, that he will ſupplie: I doe not ſpeake to honor my ſelfe; but to glorifie God, who is my iudge, and to benefit you, who are
+<pb n="64" facs="tcp:356:37" rendition="simple:additions"/>
+his people. I haue paide twentie ſhillings at once by waie of reſtitution, to him that could not claime ſo much as a peny due; becauſe I had formerly paide him his owne reckoning; who thereupon held himſelfe ſatisfied; but my conſcience did teſtifie that I owed more vnto him.</p>
+               <p>Some haue iudged me fooliſh, and vaine-glorious, becauſe I appeared to ſuccour ſome fewe poore people: I doe not iuſtify my ſelfe, for it is God that truly ſeeth, and iudgeth all things. But my conſcience is, that I am bounde to giue much, by waie of recompence to the poore; becauſe many that I haue wronged are deade, or if they be aliue, I know not where to finde them; and therefore muſt followe S. Pauls directi<g ref="char:EOLhyphen"/>on,<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ph. 4.28.</note> who ſayeth, let him that ſtole, ſteale no more, but let him rather labour, working with his hands that which is good; that he may haue to impart vnto ſuch as haue neede.</p>
+               <p>All chriſtians ought to put themſelues to take any paines, yea ſuch as they were neuer brought vp vnto, rather then to maintaine themſelues with the hinderance of other.</p>
+               <p>Beware of ſlouthfullneſſe, waſtfullnes, and vnthriftineſſe: for they will bring you
+<pb n="65" facs="tcp:356:37" rendition="simple:additions"/>
+into neceſſitie; and then you muſt liue like a drone, if not by wicked ſhifting, yet by baſe beggerie. Godly thrift is a great vertue, ha<g ref="char:EOLhyphen"/>uing diligence to prouide things neceſſarie truly and righteouſly, and care to ſaue and keepe things gotten, yet without filthie nig<g ref="char:EOLhyphen"/>gardneſſe and vnmercifulneſſe.</p>
+               <p>Take heede, leaſt thorough your coun<g ref="char:EOLhyphen"/>tenance, counſell, or commendation you cauſe one to ſuffer loſſe by an other: for if you doe, the loſſe before God ſhalbe requi<g ref="char:EOLhyphen"/>red at your hands.</p>
+               <p>If the word of God be true,<note place="margin">Prov. 19.9</note> as without doubt it is, that a falſe witneſſe ſhall not be vnpuniſhed, and he that ſpeaketh lies ſhall periſh; then am I in a fearefull caſe: for I haue made many lies, and borne much falſe witneſſe, I haue ſignified many things, o<g ref="char:EOLhyphen"/>therwiſe then I thought of them, I take much delight in telling ſtrang reports: and ſuch as are either altogether vntrue, or peeced vp with lies, or at leaſt verie vncer<g ref="char:EOLhyphen"/>tain, and not like to be true. Alſo I loue lies, and when I heare them, I vphold them, ſome time for my owne aduantage, ſome time to pleaſe other, and ſome time to hurt them that I loue not. Hereby it plainly appeareth whoſe child I am: for God is the father of
+<pb n="66" facs="tcp:356:38"/>
+truth, and the Deuill father of lying.</p>
+               <p>For Gods ſake therefore all people I be<g ref="char:EOLhyphen"/>ſeech you hate lying, doe not ſignifie, or maintaine any word that is vntrue, although you might much benifit your ſelfe by it: vn<g ref="char:EOLhyphen"/>leſſe in verie conſcience you be perſwaded and haue good reaſon to mooue you that ſuch a thing is true, vtter it not. Be no com<g ref="char:EOLhyphen"/>mon reporter of newes, nor much giuen to talke: for ſuch people doe vtter many lies. In bearing witneſſe be well aduiſed what you ſaie, &amp; with what intent; for you may be a falſe witnes many waies, and ſometime not perceiue it your ſelfe. Falſe witneſſe is a lie in matter or in meaning. The matter teſtified is falſe altogether, or in ſome part. A teſti<g ref="char:EOLhyphen"/>monie altogether falſe is that, wherein there is no word true, as they which witneſſed a<g ref="char:EOLhyphen"/>gainſt Naboth,<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>. king. 21.<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>2, 13.</note> that he had ſpoken againſt God, and the king: whereas he had not ſpoken any thing againſt God, or the king.</p>
+               <p>A teſtimonie partly falſe, is when ſome<g ref="char:EOLhyphen"/>what is put to, or put out, or ſome word altered.</p>
+               <p>Of putting to, we haue an example in the Iewes who accuſed Chriſt to Pilate the Em<g ref="char:EOLhyphen"/>perours deputie,<note place="margin">Luk. 23.<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>, 2.</note> that he did forbid men to
+<pb n="67" facs="tcp:356:38" rendition="simple:additions"/>
+paie tribute to the Emperour, ſaying,<note place="margin">Mat. 22.</note> that he was Chriſt a king. It is true that he ſaid he was Chriſt a king; but falſe that he forbad men to paie tribute to the Emperour,<note place="margin">Mat. 17.25, 26, 2<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </note> for he willed people to paie, yea, and paide for himſelfe.</p>
+               <p>Of leauing out we haue an example in the deuill; who,<note place="margin">Mat. 4.6 Pſal 91.<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </note> to perſwade Chriſt to throw himſelfe downe from the top of the temple, told him that it is written in the word of God, the angels of God had a charge giuen them to keepe Chriſt from hurting him<g ref="char:EOLhyphen"/>ſelfe. Here the deuill left out theſe words, In all thy waies; which he would not ſpeake, becauſe he intended that Chriſt ſhould not take the waie to goe downe by ſtaires; but tempt God in falling from the toppe.</p>
+               <p>Of altering ſome word we haue an ex<g ref="char:EOLhyphen"/>ample in the two falſe witneſſes,<note place="margin">Mat. 26.<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </note> that accu<g ref="char:EOLhyphen"/>ſed Chriſt ſaying; this man ſaide, I can deſtroy the temple of God,<note place="margin">Ioh. 2.15</note> and build it in three daies. Whereas Chriſt ſaide, deſtroy ye this temple, and I will build it in three daies.</p>
+               <p>You may teſtifie of an other that which he hath ſaide or done, and yet miſtake his meaning. So when Chriſt ſaide,<note place="margin">Ioh. 2.10</note> deſtroy ye this temple; he meant his bodie; but his
+<pb n="68" facs="tcp:356:39" rendition="simple:additions"/>
+aduerſaries tooke it, that he meant the temple that was built of lime and ſtone.</p>
+               <p>When Dauid fled from the court of King Saul,<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>m. 20. <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 21. <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 22.</note> and came to Abimelec the Prieſt; he knowing none otherwiſe but that he was ſtill in the kings fauour, gaue him intertain<g ref="char:EOLhyphen"/>ment; and was therefore falſly accuſed of one Doeg, to haue conſpired with Dauid againſt the King; who thereupon put him to death and all his kindred.</p>
+               <p>It is a grieuous thing to conſider, how both words and deedes are commonly miſtaken, to the great wrong of many peo<g ref="char:EOLhyphen"/>ple, yea that which is more grieuous, when a thing cannot in it ſelfe be miſtaken wee preſume to finde out ſome bad cauſe that mooued the partie to ſay it, or doe it.</p>
+               <p>
+                  <note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 2.13.</note>When the Apoſtles by the inſpiration of the holy Ghoſt ſpake in ſtrange languages good matter; ſome ſaide they were drunck. When Chriſt caſt out deuills;<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>t. 12.24.</note> ſome ſaide he was a coniurer, and wrought with the deuill. Iob liuing an vpright life,<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 1.9, 11.</note> the deuill accu<g ref="char:EOLhyphen"/>ſed him that in his heart he was a diſſember; and would ſerue God no longer then God fed him with giftes; and when he was proo<g ref="char:EOLhyphen"/>ued a lyer in that,<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 2.4, 5.</note> yet he vrged, that if Iob were bodily puniſhed with diſeaſes, hee
+<pb n="69" facs="tcp:356:39" rendition="simple:additions"/>
+would ſhew himſelfe falſhearted to God: which alſo prooued a falſe witneſſe.</p>
+               <p>Among all the apprentiſes that the deuill hath in the trade of falſe witneſſing and lying, none goe beyond them that will accuſe men for well doing, as they that accuſed Daniel for ſaying his praiers allead<g ref="char:EOLhyphen"/>ging that therein he ſhewed an ill minde to the king.<note place="margin">Dan. 6.</note>
+               </p>
+               <p>You may teſtifie againſt a man that which is true, and yet before the face of God, be within compaſſe of falſe witneſſe: as he that accuſed Moſes of killing an Egyptian,<note place="margin">Exod. 2</note> gaue true teſtimonie: for Moſes did ſo indeede, therefore the accuſer ſpake the truth, but not truly, that is, not in zeale to the truth, but in malice to Moſes, who told him of his fault.</p>
+               <p>To keepe your ſelfe cleare from lying &amp; falſe witneſſing, you muſt firſt feare God, for he is a moſt righteous iudge, and will ex<g ref="char:EOLhyphen"/>amine whatſoeuer you ſaie of any bodie.</p>
+               <p>Secondly, you muſt loue the party of who<g ref="char:cmbAbbrStroke">̄</g> you ſpeake, for it is verie true, that euill will cannot ſpeake well, but one way or an other it will outrunne your conſcience. Therefore if your heart be out of charitie with any, re<g ref="char:EOLhyphen"/>fraine your ſelfe from medling with them:
+<pb n="70" facs="tcp:356:40"/>
+becauſe the wrath of man worketh not the righteouſneſſe of God.<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 1.20.</note>
+               </p>
+               <p>Thirdly, whatſoeuer you ſee or heare of others, either meddle not with it according to S. Pauls leſſon, Striue to be quiet, and doe your buſineſſe:<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>heſſ. 4.</note> or if it ſo concerne you, that you muſt needes thinke and ſpeake of it, take good heed that you doe not miſtake a<g ref="char:EOLhyphen"/>ny part of it, for miſtaking breedeth lies, and it is a ſinne to bely the deuill, many things are ſo ſaid and ſo done, that they may be ta<g ref="char:EOLhyphen"/>ken well or ill, yea what can be ſaid or done, but ſome one or other will turne it to an e<g ref="char:EOLhyphen"/>uill meaning, like vnto the ſpider that out of the beſt flowers will ſuck ſome poiſon. But be you of the mind to take euerie thing the beſt waie, knowing that it is the deuills propertie to make the worſt of euerie thing.</p>
+               <p>You may be deceiued in that which you haue vpon your owne knowledge, becauſe you cannot ſee the heart and meaning of the partie, much more in that which you haue by heareſaie: for reports are commonly ve<g ref="char:EOLhyphen"/>rie faultie, and ſeldome hold truth in euerie point: wherefore almightie God to ſhew vs an example what we ought to doe,<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>n. 18. <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 21.</note> when the crie of the ſinnes of Sodom came vp to
+<pb n="71" facs="tcp:356:40"/>
+heauen, came downe to ſee whether it were true or not, before he would ſeeme to be<g ref="char:EOLhyphen"/>leeue it, whereby you learne to be ſlow of beleefe in hearing euill of others.</p>
+               <p>But if you be well aſſured that an other hath ſaid or done wrongfully, the wrong is either to you or to others. If any haue wronged you, you muſt by the commande<g ref="char:EOLhyphen"/>ment of your maſter Ieſus Chriſt,<note place="margin">Mat. 1<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </note> firſt tel the partie of his fault ſecretly and charitably;<note place="margin">16.</note> if he ſo amend, you are ſatisfied. If he regard not your talke, you muſt take one or two with you, and tell him of his fault againe in charitable manner: and if then he amend, you muſt reſt contented:<note place="margin">17.</note> but if he continue in his fault, you muſt complaine to ſuch as haue authoritie to iudge betweene you.</p>
+               <p>If one wrong an other, and you be priuie to it, and ſure of it, you muſt be carefull that you wrong neither of them; becauſe they are both your neighbours, and brethren: there<g ref="char:EOLhyphen"/>fore firſt deſire the partie that doth the wro<g ref="char:cmbAbbrStroke">̄</g>g to right it, which if he will not doe, you muſt diſcouer it, leaſt before God you be a partaker in the wrong doing.</p>
+            </div>
+            <div type="part">
+               <pb n="72" facs="tcp:356:41"/>
+               <p>I Was neuer content with that which God gaue me, but continually diſliked my ſtate; murmuring, and caſting out com<g ref="char:EOLhyphen"/>plaints; enuying the proſperitie of others, iudging them not ſo worthie of it as my ſelfe: yea, wiſhing in my heart that I had their goods. Beeing promiſed a liuing, which I could not haue till the death of him that had it, and hath it, I often deſired to heare of his death. Wherefore by the iuſt iudgement of God, he is likely to heare of my death. When I haue heard that ſuch, and ſuch were in poſſibilitie of preferment, or had obtained it, I fretted and fumed at it, becauſe I would haue had it my ſelfe.</p>
+               <p>When I ſaw a man haue a wiſe of good condition, I could finde in my heart to wiſh him dead, and my ſelfe maried to his wife. And when one maried a wife, whome I li<g ref="char:EOLhyphen"/>ked, I ſtomacked it much, becauſe I had her not. I haue wiſhed a good ſeruant from one to another.</p>
+               <p>Thus, and many other waies I haue co<g ref="char:EOLhyphen"/>ueted my neighbours goods, both to my ſelfe and to others, becauſe I had not faith and charitie.</p>
+               <p>
+                  <pb n="73" facs="tcp:356:41" rendition="simple:additions"/>O all Chriſtian people, hate this helliſh couetouſnes, the roote of all euill. Be high<g ref="char:EOLhyphen"/>ly content with that which God giueth you, and you get by good meanes: for that which you get by ill meanes God giueth not, but by the ſufferance of God, the deuill helpeth you to it.</p>
+               <p>Therefore with goods well gotten quiet your minde, and be very thankfull to God. Couet not to be rich, for when a man is o<g ref="char:EOLhyphen"/>uerloaded he can hardly trauell: and you are trauailers paſſing through this world into heauen. But if you foreſlow the time till heauen gate be ſhut againſt you, what will all this worlds good auaile you? your bodie muſt to the graue, your ſoule to hell, &amp; your goods whereupon you haue beſtowed all your time, ſtudie, and labour, muſt remaine to whome you know not. Therefore haue a meaſure in your worldly cares,<note place="margin">Mat. 6.1<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> 20, 21.</note> and as your deere Lord and Sauiour willeth you, giue your minds to grow rich towards God, lay<g ref="char:EOLhyphen"/>ing vp treaſure in heauen, where it ſhall be ſafely kept till you come, and there you ſhal inioy the ſame for euer.</p>
+               <p>Deſire rather to make ſure vnto your ſelues the ſaluation of your ſoules, then the goods of the bodie: for looke what you de<g ref="char:EOLhyphen"/>ſire
+<pb n="74" facs="tcp:356:42" rendition="simple:additions"/>
+moſt, you will moſt intend. Of the two, it were better to neglect the bodie,<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>th. 6.33.</note> then the ſoule; becauſe he that ſeeketh to aſſure vnto himſelfe the good of his ſoule, ſhall haue the good of his bodie into the bargaine.</p>
+               <p>If this were ſetled in the hearts of people, they would not couet ſo vnmeaſurably. This vnmeaſurable couetouſneſſe doth ſhewe that the heart is not right ſet towards God: for if it were turned to him, it would be thoroughly ſufficed with his grace, whe<g ref="char:EOLhyphen"/>ther you had much or little of worldlie goodes. Like as the needle in a diall will neuer be quiet vntill it be ſet right to the north ſtarre, and then it will reſt.</p>
+               <p>It cannot be, but that a couetouſe man is a breaker of this commandement, becauſe his heart is in the hand of the Deuill, and he turneth it whither he will.</p>
+               <p>But many will ſaie, ſuch, and ſuch haue to much, and I haue to little; I anſwer, how know you, they haue to much, and you to little. Becauſe they haue inough, and ſpare, but we want that which is neceſſarie, yea but yet you liue. We liue indeede, but not ſo well, as they that haue more. Ah, you doe not fare ſo well, nor goe ſo gaie, nor pleaſe your eies with the ſight of worldly
+<pb n="75" facs="tcp:356:42" rendition="simple:additions"/>
+wealth: If it be the felicitie of this worlde that you looke for; take heede leaſt you be one of them to whome Chriſt ſaith, Woe be vnto you rich,<note place="margin">Luk. 6.29.</note> becauſe you haue receiued your comfort: that is, you haue that which you ſought after. Yea, but you will ſay, we haue it not. I anſwer, God loueth you ſo much the better. But you will ſay, why doth he not giue vnto me as well as to others? A good child reſteth content with that, which his father giueth him. But if that reaſon will not ſerue, why doe parents keepe kniues fro<g ref="char:cmbAbbrStroke">̄</g> little children? leaſt they ſhould hurt their bodies: ſo God keepeth worldly goods from you, leaſt you ſhould by the ill vſing of them harme your owne ſoules. Doe you thinke that the poore begger Lazarus doth now grieue at the miſerie wherein he was, when he lay at the rich mans gate full of ſores, and readie to ſtarue through want of foode? No verily: He reioyceth, and praiſeth God for his pouertie, and for his patience, wherewith he endured the good pleaſure of God: knowing that if he had contrariwiſe beene rich, he might haue thereby loſt his ſaluation, as Diues did. It is a greater mat<g ref="char:EOLhyphen"/>ter to vſe riches well, then moſt people ima<g ref="char:EOLhyphen"/>gine. Els would not our Sauiour Chriſt haue
+<pb n="76" facs="tcp:356:43" rendition="simple:additions"/>
+ſaid,<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>th. 19.24, 25,</note> as he did ſay; That it is eaſier for a ca<g ref="char:EOLhyphen"/>mell to go through the eye of a needle, then for a rich man to enter into the kingdome of heauen. And yet leaſt they to whom God giueth riches ſhould be diſcomforted, hee told his Diſciples, that God is able to ſaue the rich. Whereby you vnderſtand that to be rich, and to be ſaued, requireth a moſt mightie grace of God: for it were a great miracle to make a camell goe through a needles eie.</p>
+               <p>All this I ſay, to the ende that you ſhould not couet more then you may with a ſafe conſcience, your ſoule beeing firſt prouided for, procure vnto your ſelfe.</p>
+               <p>But ſome ſay, I could be contented with a little, were it not for my children; I muſt needs confeſſe that it is a godly care to pro<g ref="char:EOLhyphen"/>uide for your children: but let it be without couetouſneſſe. Let not your children be ei<g ref="char:EOLhyphen"/>ther brought vp, or ſettled in the world with goods vnconſcionably gotten from others. It is better for them to be poorely brought vp, and to haue but little left them. Haue you not ſeene many whoſe friends haue left them much goods, fallen into more follie, then they that had little, or nothing left the<g ref="char:cmbAbbrStroke">̄</g>? But if you ſay, ſome fewe get all into their
+<pb n="77" facs="tcp:356:43" rendition="simple:additions"/>
+hands, and then deale vnmercifully with vs. Doe you beleeue in God? Yea. Then you muſt throughly perſwade your ſelfe, that he is your father, and in his fatherly care proui<g ref="char:EOLhyphen"/>deth that for you, which he well knoweth will doe you moſt good: notwithſtanding all the couetouſneſſe, and crueltie of this world, yet God, if it pleaſe him, could giue you plentie: and becauſe he doth not, it ap<g ref="char:EOLhyphen"/>peareth that he purpoſeth to puniſh you. Will you therfore be out of patience, know<g ref="char:EOLhyphen"/>ing that whome God loueth, he correcteth? Surely I had rather be a patient poore man, and Gods child, then a cruell rich man, and Gods rod: for commonly the child is recei<g ref="char:EOLhyphen"/>ued into fauour, and the rod is caſt into the fire.</p>
+               <p>Howſoeuer the world goe, be patient, and ſubmit your ſelf to the pleaſure of God. Doe not enuie, nor condemne thoſe that are any waie in more proſperitie then you. For if you doe ſo, ye are not in charitie, and if you be not in charitie, Chriſt is not in you, but the deuill. Therefore ſtriue by your pa<g ref="char:EOLhyphen"/>tience to poſſeſſe your owne ſoule, and by the holy Ghoſt, contrarie to the nature of fleſh and blood, be exceeding glad, that you may be one of Chriſts companie, although
+<pb n="78" facs="tcp:356:44" rendition="simple:additions"/>
+in the loweſt degree that may be; yea, the verie foote: reioycing at the proſperitie of any other, and ſorrowing in their aduerſitie, as if it were your owne. This if you can doe, you are a Chriſtian indeede; and although you be in low degree vpon earth, yet your Lord and father will highly aduance you in the glorie of heauen. Remember what Saint <hi>Iames</hi> ſaith,<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>m. 1.9.</note> Let a brother of low degree re<g ref="char:EOLhyphen"/>ioyce in his aduancement.</p>
+               <p>O that I were a brother of that heauenly co<g ref="char:cmbAbbrStroke">̄</g>panie, and my name written in the booke of life, although it were with condition to ſuffer all poſſible miſerie in this world. If you ſaie I giue you ſuch counſell, as I could neuer take my ſelfe, I confeſſe it, but you would not be in my caſe, if you knew it as I do, although you might haue al the goods of the earth; for death and hell haue taken ſure hold vpon me, and I am ſo hardened in ſinne through long cuſtom in wickednes, &amp; delay of repentance, that my ſoule is readie to de<g ref="char:EOLhyphen"/>ſpaire of Gods mercie. Therefore while time ſerueth, &amp; while grace is offered vnto you, make ſure worke; Striue by obeying the will of God to enter in at the ſtraight gate: for Chriſt ſaith,<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>k. 13.<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> 24, 25.</note> many wilt ſeeke to enter, and ſhall not be able: becauſe they ſeeke not till
+<pb n="79" facs="tcp:356:44" rendition="simple:additions"/>
+it be too late. This is my ſtate, and therefore I periſh.</p>
+               <p>All people yong and old, praie daily and deuoutly to God, that it will pleaſe him through Ieſus Chriſt to giue you the graces of faith, hope, and charitie, that you may cleane faſt vnto him with full purpoſe of heart, and being ſufficed with that which he vouchſaſeth to giue you, put him in truſt with ſoule and bodie, aſſuring your ſelues that he will not faile you, nor forſake you, &amp; if his pleaſure be to trie your faith and truſt by croſſes and aduerſities, reioyce therein, for his mind is to crown you therfore in the world to come, Loue all chriſtians as your owne ſelfe, yea loue your verie enemies, pray for them, and practiſe in word and deede to be kind vnto them.</p>
+               <p>By theſe graces you ſhall performe the kingly law of libertie, and ſo be kings vnto God, ruling &amp; raigning ouer your thoughts and affections, according to his pleaſure, being ſet at libertie from the law of ſinne, &amp; bondage of the deuill. Almightie God for Ieſus Chriſts ſake fulfill you all with the ho<g ref="char:EOLhyphen"/>ly Ghoſt, Amen, Amen.</p>
+            </div>
+            <div type="part">
+               <pb n="80" facs="tcp:356:45" rendition="simple:additions"/>
+               <p>NOw I beſeech all that giue your mind to booke learning, patiently to reade or heare this laſt part of my confeſſion in<g ref="char:EOLhyphen"/>tended to your good.</p>
+               <p>When I went firſt to ſchoole, I was ful of all vngraciouſneſſe, and misbehaued my ſelfe to God, to my parents, and to all peo<g ref="char:EOLhyphen"/>ple: which curſed qualities poiſoned what<g ref="char:EOLhyphen"/>ſoeuer learning I could get.</p>
+               <p>All children that goe to ſchoole, feare God, and praie vnto him heartily that he will giue you the grace to ſtand in awe of his almightie maieſtie, and to be afraid of diſpleaſing him: for the feare of God is the beginning of wiſdome. All learning without the feare of God, is as a ſword in the hand of a madde man, likely to doe much miſ<g ref="char:EOLhyphen"/>chiefe and no good. Hate all naughtie con<g ref="char:EOLhyphen"/>ditions, and behaue your ſelues lowely, and gently to euerie man, woman, and child. Praie often to God and ſaie, O almightie God, the giuer of all good learning and true wiſdome, I ſinfull wretch doe humbly be<g ref="char:EOLhyphen"/>ſeech thee, that for thine onely ſonne Ieſus Chriſts ſake, thou will ſend thine holy ghoſt into mine heart, that I may be cleanſed from
+<pb n="81" facs="tcp:356:45" rendition="simple:additions"/>
+ſinne, and get ſo much learning and know<g ref="char:EOLhyphen"/>ledge as may beſt fit me to be thy faithfull ſeruant in that ſtate of life, whereunto it ſhal pleaſe thee to call me, Amen.</p>
+               <p>Vſe commonly to praiſe God in ſome ſuch manner as this. O moſt bountifull Lord God, I doe humbly and heartily thank thee, becauſe thou haſt cauſed my friends to ſet me to ſchoole. Good Lord I beſeech the ſo to continue, &amp; bleſſe me in learning, that I may learne to doe my dutie to thee and to all thy people, in what degree ſoeuer it ſhall pleaſe thee to place me; through Ieſus Chriſt thine onely ſonne, who with thee and the holy Ghoſt, three perſons and one God, be honoured and praiſed in heart word and deede, for euer and euer, Amen.</p>
+               <p>Follow your ſchooling diligently, and if it pleaſe God to giue you the gift to learne, be glad, and giue him thankes therefore, but be not proud of it: or if pride enter into your heart, it will puffe you vp like a bladder, &amp; although you proue marueilouſly learned, yet in the end you ſhalbe nothing but wind. All ſcholers take heede of pride: for it will make you like the Deuill, and hatefull before God.</p>
+               <p>When you are allowed to plaie, then plaie:
+<pb n="82" facs="tcp:356:46" rendition="simple:additions"/>
+for it is healthfull to ſtir your bodies: Pract<g ref="char:EOLhyphen"/>iſe no baſe, and lewde paſtime, but exerciſe yourſelues in ſome honeſt ſport, which may bring you into ſtrength, and abilitie.</p>
+               <p>At no time let any bad or beaſtly word come out of your mouth. Delite not in vaine talk, mocking, or ſcorning: for all ſuch things are verie diſpleaſing vnto God.</p>
+               <p>I went to the Vniuerſitie verie rawe: for I had fewe groundes of grammar, and none of grace. Therefore I ſpent much time in getting little learning; but all maner af vice in me grewe vp and abounded. I was vaine minded, proude hearted, buſiheaded, and full of a bitter, peeuiſh, contentious ſpirit. Beeing poore I found great friendſhip, and had good allowance of many; but I was ſingularly negligent, and vnthankfull vnto them. My ſtudie was to make great ſhewe of little learning, and therefore I ſought af<g ref="char:EOLhyphen"/>ter fine choiſe words. When I diſputed with anie, I was deſirous to diſmaie them with reprooches, in ſtead of reaſons; and to that ende I had a written phraſe-booke ſtuffed with taunting, and biting ſpeaches.</p>
+               <p>All ſchollers that goe to anie Vniuerſitie, take warning by me. Be carefull to come thither well grounded in learning, and ver<g ref="char:EOLhyphen"/>tue.
+<pb facs="tcp:356:46" rendition="simple:additions"/>
+Giue yourſelues to be ſober, humble, quiet, milde, and peaceable. Be diligent in your buſineſſe, duetifull to all people, and verie thankfull to your friends. Theſe ver<g ref="char:EOLhyphen"/>tues will make you gracious in the ſight of God, Angells, and men. Be more carefull to get ſounde learning, for good vſe, then to ſtand vpon the ſhew of knowledge; for it is a vainglorious follie. Hunt not after curi<g ref="char:EOLhyphen"/>ous minion tearmes, whereof cometh no good; but ſpeake and write plaine ordina<g ref="char:EOLhyphen"/>rie words: for they that would ſeeme to be worde-wiſe, are of graue and learned men accounted vnwiſe.</p>
+               <p>Pride and enuie are properties of the deuill; and of all other ſinnes moſt readie to waite vpon ſchollers. Therefore take great heede of them: If you be proude, you are Lucifer, high in your owne conceit, and therefore ſhalbe brought lowe euen downe into hell. If you enuy the learning, eſtimati<g ref="char:EOLhyphen"/>on, and proſperitie of others, you are Satan, an enemie to the giftes of Gods grace.</p>
+               <p>Doe neuer diſpraiſe anie, nor quip any in your orations, and ſpeaches: for it ſhew<g ref="char:EOLhyphen"/>eth bitterneſſe, which is very bad in a ſcho<g ref="char:EOLhyphen"/>ler. When you argue, or diſpute publike<g ref="char:EOLhyphen"/>ly, or priuately, feare God, and ſhunne
+<pb facs="tcp:356:47"/>
+ſnarling, reproching, and all furious behau<g ref="char:EOLhyphen"/>iour. Let your reaſoning be, as in the hear<g ref="char:EOLhyphen"/>ing and ſeeing of God, and Angells, calme, amiable, ſweet, and ſober. Whenſoeuer you prepare any oration, diſputation, or exer<g ref="char:EOLhyphen"/>ciſe of learning, firſt humble your ſelfe be<g ref="char:EOLhyphen"/>fore God, crauing his mercie and grace; that you may ſo performe it, as beſt beco<g ref="char:cmbAbbrStroke">̄</g>meth a Chriſtian ſcholler; thereby to be fitted for the ſeruice of Ieſus Chriſt in the Church, or common wealth.</p>
+               <p>If any ſinne reigne in you, ſtriue by all meanes to ſubdue it: for where ſinne reig<g ref="char:EOLhyphen"/>neth, there the Deuill dwelleth; and the end of that man will be naught.</p>
+            </div>
+            <div type="part">
+               <p>VVHen I had gotten a ſhadowe, and outſide of learning, I left the Vniuerſitie, and tooke vpon me to be a ſchoolemaſter, God forgiue me; I was a bad one: for how could I frame children to godly learning, beeing vngodly, and ill learned.</p>
+               <p>I vndertooke to teach more then I had learned my ſelfe, I was newfangled, and negligent in teaching; and yet tired, and dulled my ſchollers by keeping them too
+<pb n="85" facs="tcp:356:47" rendition="simple:additions"/>
+long at their bookes, and by fierce correcti<g ref="char:EOLhyphen"/>on, and cruell beating of them.</p>
+               <p>O ye ſchoole maſters, I pray you for the reuerence of God, be well aduiſed; The ſchooling of children is the nurcerie of chriſtians; therefore you ought to be learned and vertuous; that you may traine your ſchollers to be the diſciples of Chriſt.</p>
+               <p>The deuill will practiſe to make you his vnderſchoolemaſters, that you may fit your ſchollers to be his ſeruants.</p>
+               <p>To preuent this danger, you cannot be to carefull of your behauiour euery waie.</p>
+               <p>Take no more vpon you, then you know your ſelfe able, by the grace of God, to performe, followe the common waie of teaching commanded by authoritie.</p>
+               <p>It is to be wiſhed that the Grammar for the latin tongue, were one whole booke, the rules in engliſh, the examples in latin.</p>
+               <p>Teach your ſchollers their leſſons verie leaſurely, and plainely, heare them their leſſons mildely, and patiently, correct them for their faults merciefully and ſparingly. What man fearing God can find in his heart to play the tyrant among Gods tender chil<g ref="char:EOLhyphen"/>dren, reuiling, buffeting, ſtriking, ſcourging, and terrifying them with thundering ſpea<g ref="char:EOLhyphen"/>ches,
+<pb n="86" facs="tcp:356:48"/>
+as if they were dogges, yea limmes of the Deuill, no man can with a ſafe conſci<g ref="char:EOLhyphen"/>ence ſo curſedly vſe a beaſt, as I in word and deede haue vſed my ſchollers, I praie God forgiue me, and grant that no ſchoolmaſter offend in that point.</p>
+               <p>Thinke with your ſelues how hatefull ſuch rigorous vſage is to God, and his holy Angels, who haue the charge of children.</p>
+               <p>Frame your ſchollers by all meanes to feare God, and to pleaſe him; and then aſſure your ſelues that ouer and aboue whatſoeuer their fathers and friends giue vnto you, he will giue you a rich reward.</p>
+               <p>It is not good to hold children too hard, or too long at their bookes: for their witts are tender, and therefore ought to be gently vſed, and often refreſhed. Our Lord Ieſus Chriſt bleſſe all ſchoolemaſters, that they may know, and doe their duties to the con<g ref="char:EOLhyphen"/>tinuall increaſe of right Chriſtian learning, Amen.</p>
+            </div>
+            <div type="part">
+               <p>I Preſumed with all mine abominable vi<g ref="char:EOLhyphen"/>ces to enter into the holy Miniſterie, and haue beene a profeſſed miniſter of Chriſt; that is, a ſoule-keeper, and a ſoule-feeder al<g ref="char:EOLhyphen"/>moſt twelue yeares: Ieſu Chriſt forgiue me.
+<pb n="87" facs="tcp:356:48"/>
+I tooke vpon me to preach, neither vnder<g ref="char:EOLhyphen"/>ſtanding the word of God, nor indued with the power of godlines. Therefore I haue in<g ref="char:EOLhyphen"/>dangered the ſaluation of many people, eue<g ref="char:cmbAbbrStroke">̄</g> as an ignorant and vnhoneſt phyſitian doth hazard the bodily life of them that take phyſicke by his appointment.</p>
+               <p>Although water in the ſpring head be pure and wholeſome, yet if it be caried from thence in an vncleane and poiſoned veſſell, who can drinke it without daunger? The word of God is in it ſelfe moſt pure and wholeſome; but my preaching hath defiled it with ignorance, and with the wicked in<g ref="char:EOLhyphen"/>fection of pride, enuy, wrath, couetouſneſſe, and all ſinnes; euery vice vpon occaſion put<g ref="char:EOLhyphen"/>ting it ſelfe into my ſermons. Moreouer if I preached anie thing according to the word of God, I vtterly vnpreached and denied it in my life and conuerſation. Alas how many ſoules may iuſtly challenge me before the face of Ieſus Chriſt, for giuing cauſe of their damnation; I cannot ſay, vpon my conſcience, that in all this time, wherein I haue taken vpon me to be a miniſter; I haue done my duetie, ſo much as to the ſauing of one ſoule. A true miniſter of Chriſt ſhould be a meanes to turne all euill
+<pb n="88" facs="tcp:356:49" rendition="simple:additions"/>
+from his ſheepe, and to procure all bleſſings vnto them. But I contrarily haue beene a meanes to turne bleſſings from them, and to bring miſerie vpon them. It had bin bet<g ref="char:EOLhyphen"/>ter for me to haue gotten my liuing by beg<g ref="char:EOLhyphen"/>ging from doore to doore; yea, leſſe had bin my ſinne, if I had liued by ſtealing and rob<g ref="char:EOLhyphen"/>bing: for he that is a miniſter and doth not diſcharge his dutie, is a theefe and a robber in the higheſt degree: becauſe he robbeth God of his people, and robbeth people of their ſaluation. How is it poſſible for me to eſcape the vengeance of hell fire?</p>
+               <p>All you that purpoſe to be miniſters in the Church, for Chriſts ſake, take warning by me. Before you enter into the miniſterie, examine your heart according to your con<g ref="char:EOLhyphen"/>ſcience in the ſight of God; what mooueth you to be a miniſter? and what you princi<g ref="char:EOLhyphen"/>pally deſire and intend? for looke what you minde, that you will follow, and to compaſſe the ſame, neglect all other things. Therfore if you perceiue that your mind is chiefly ſet vpon worldly gaine, or glorie, take no ſoules to keepe: for you will let them ſink or ſwim: and notwithſtanding what ſhew ſoeuer you make, they ſhall be ſorily reſpected, and ma<g ref="char:EOLhyphen"/>ny waies vnfitted. But if you doe chiefly
+<pb n="89" facs="tcp:356:49"/>
+aime at the glorie of Chriſt in the ſaluation of Chriſtia<g ref="char:cmbAbbrStroke">̄</g>s, you are the bleſſed of the Lord; God increaſe the number of you: for you wil not ſticke to looſe any worldly commodity, yea your owne life, rather then hazard the loſſe of one ſoule. Enter therfore in the name of Ieſus Chriſt. But before you take a charge of ſoules vpon you, giue all diligence that you may haue a good vnderſtanding in the word of God, and that the power of godli<g ref="char:EOLhyphen"/>nes may be in your life and conuerſation: for if the blind lead the blind, they fall both in<g ref="char:EOLhyphen"/>to the ditch: and he is graceleſſe, that hauing ſight, doth lead the blind out of the way: be<g ref="char:EOLhyphen"/>cauſe the blind will follow their leader. The peoples eyes are neuer well opened vntill the light of their miniſter doe ſo ſhine be<g ref="char:EOLhyphen"/>fore the<g ref="char:cmbAbbrStroke">̄</g>, that they may ſee his good works and glorifie God, in following his enſample. O happie is that miniſter that euer he was borne, who before he vndertaketh a charge of ſoules,<note place="margin">Matth. 4.</note> hath the grace to ouercome the temptations of Satan, as Chriſt did.</p>
+               <p>Beeing made a miniſter, and hauing a charge of ſoules, beare alwaies in mind, that you muſt be anſwearable to Chriſt for euery one of them. So that whatſoeuer a miniſter might poſſibly doe to ſaue them, you ſhall
+<pb n="90" facs="tcp:356:50"/>
+deerely abuie it, if you performe it not. This mooued S. Paul to warne euery one,<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>. 28.</note> &amp; teach euery one in all wiſdome, that he might pre<g ref="char:EOLhyphen"/>ſent euery one perfect in Chriſt Ieſus.</p>
+               <p>Therefore you knowing the terriblenes of the Lord, muſt approoue your ſelfe vnto God, and to euery conſcience of man, wo<g ref="char:EOLhyphen"/>man, and child in the ſight of God, carefully and diſcreetely waiting vpon your charge, that you may giue to euery one their porti<g ref="char:EOLhyphen"/>on of meate in due time. You muſt truly teach Gods people the waie of ſaluation out of his word. Therefore in vnderſtanding and expounding the holy Bible, follow the con<g ref="char:EOLhyphen"/>ſent of auncient and learned writers, &amp; thoſe eſpecially who are reported to haue liued an holy life: for God in all ages doth moſt reſpect them that feare him, and they haue moſt certen knowledge of his will. Others although they ſeeme exceedingly learned, yet they are full of errors, becauſe the ſpirit of deceit hath power in them. Therefore take heede.</p>
+               <p>Deſire not to be ſingular, nor to differ from others: for it is a ſigne of a naughtie ſpirit, which hath cauſed much euill in the world from the beginning. Teach people that which doth neceſſarily concerne their
+<pb n="91" facs="tcp:356:50"/>
+ſaluation: for it is a temptation of the deuill to buſie folkes minds with by-matter, that they may neglect the maine worke of ſauing their ſoules. A miniſter ought diligently to take particular knowledge of his charge: who be yong in vnderſtanding; who be ripe in diſcretion; who be ſick in ſinne, and who be ſound in ſoule, that he may accordingly diet them. Much preaching and teaching doth not take that good effect which it might, if peoples vnderſtanding were ripe<g ref="char:EOLhyphen"/>ned to heare it. There is a certaine teaching called the A, b, c, of Gods word; becauſe e<g ref="char:EOLhyphen"/>uen as a ſcholler muſt learne to know let<g ref="char:EOLhyphen"/>ters, and to ſpell them together, before he can read;<note place="margin">Heb. 5.12.</note> ſo muſt a Chriſtian firſt learne the ground worke of religion, before he can well proceede in the vnderſtanding &amp; pra<g ref="char:EOLhyphen"/>ctiſe of Gods word. I haue found elderly people, that ſeemed to be much delighted in hearing the word of God preached, yet not<g ref="char:EOLhyphen"/>withſtanding ſtrangely ignorant in the foun<g ref="char:EOLhyphen"/>dation of faith. As for example, they did be<g ref="char:EOLhyphen"/>leeue in the ſonne of God, and yet did not thinke that he was in time before the virgin Marie. How is it poſſible, that people ſhould be ignorant of ſuch points, commonly prea<g ref="char:EOLhyphen"/>ched and printed? Becauſe they are not in<g ref="char:EOLhyphen"/>ſtructed
+<pb n="92" facs="tcp:356:51"/>
+orderly, pithily, and plainly: orderly, as children are taught to read: pithily, for many wordes and toileſome circumſtances doe bring an ignorant hearer into a wood, where he looſeth himſelf: plainly, for tearms of art, and fine eloquence are not ſutable to the goſpel of Chriſt, becauſe in darkning the vnderſtanding of ſome, &amp; tickling the eares of others, they hinder the working of the matter. Fie vpon all vaine glorious ſhewes: for the kingdome of God is not in word,<note place="margin">1. Cor. 4.20</note> but in power.</p>
+               <p>If you doe not ſo teach the will of God, that the verie ignorant may well vnderſtand it, and keepe it in rememberance, what an<g ref="char:EOLhyphen"/>ſwer can you make to Ieſus Chriſt, when he calleth you to a reckoning?</p>
+               <p>Although a ſcholler be taught to knowe his letters, yet many times he is not well inſtructed to ſpell them together: So the foundation points of religion may be taught, and yet not put well together: for example,<note place="margin">Rom. 3.28.</note> Chriſtians are iuſtified by faith in Ieſus Chriſt, without the works of the law. This is one point.<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>at. 16.27 <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>. Cor. 5.10</note> Chriſt will iudge all peo<g ref="char:EOLhyphen"/>ple according to their works, anſwerable to the practiſe of their liues. This is an other point. Now vnles theſe two points be right<g ref="char:EOLhyphen"/>ly
+<pb n="93" facs="tcp:356:51"/>
+ioyned together, the deuil wil make ſome vtterly neglect works, and other altogether to preſume vpon their owne deſerts.</p>
+               <p>Iuſtifying faith is the gift of God, and bringeth forth good workes, whereby true Chriſtians are iuſtified at the day of iudge<g ref="char:EOLhyphen"/>ment.</p>
+               <p>The capacitie of people is like vnto a ſmall bottle with a narrow mouth, if you powre in wine haſtily, you ſhall ſpill much beſide, and if you doe exceede their meaſure they will runne ouer: no worke or imploi<g ref="char:EOLhyphen"/>ment in all the world doth require more carefull diligence, then the office of a mini<g ref="char:EOLhyphen"/>ſter.</p>
+               <p>Although you teach and preach verie much, and in plaine words, yet your ſheepe will ſpecially regard your practiſe of life, be<g ref="char:EOLhyphen"/>cauſe their nature is to be lead, rather then to be driuen.</p>
+               <p>I would I had preached leſſe in words, &amp; more in works. Your conuerſation muſt be euery waie ſquare to your profeſſion: for you cannot ſo much as ſpeake a word in ieſt, but it ſhall be heeded and conſidered. Yea, if there be any ill word ſpoken in your hea<g ref="char:EOLhyphen"/>ring, people will marke how you take it. Be<g ref="char:EOLhyphen"/>leeue me vpon mine experience; if there be
+<pb n="94" facs="tcp:356:52"/>
+gappes in your conuerſation, your ſheepe will thereby runne out from Chriſt; yea they will boldly make gappes themſelues, preſuming that they may with as little dan<g ref="char:EOLhyphen"/>ger ſinne in one kinde, as you in an other.</p>
+               <p>When I as a Curate entred into a charge of ſoules, the people at the firſt had ſuch a reuerent opinion of me, by reaſon of mine earneſt plainnes in preaching; that they were very carefull leaſt I ſhould ſee any fault in their behauiour; but afterward when they perceiued that the practiſe of my life was not according to my preaching, they grew in a manner careleſſe what they ſaid, or what they did: whereas if I had not loſt that firſt reputation, I thinke in my conſcience, that many, yea moſt of them would haue ame<g ref="char:cmbAbbrStroke">̄</g>ded their waies.</p>
+               <p>A miniſter ought to be graue and mild. Grauitie without mildneſſe is ſurlineſſe, and mildeneſſe without grauitie is light<g ref="char:EOLhyphen"/>neſſe.</p>
+               <p>Iocond, ieſting, and ſcoffing behauiour doth not becom a miniſter, for he is the meſ<g ref="char:EOLhyphen"/>ſenger of God, and weightie is his meſ<g ref="char:EOLhyphen"/>ſage.</p>
+               <p>It is a true ſaying, that too much familia<g ref="char:EOLhyphen"/>ritie breeds contempt; and ſo I haue alwaies
+<pb n="95" facs="tcp:356:52"/>
+found it. Therefore vſe to retire your ſelfe, and be no common companie keeper: for howſoeuer you may preſerue your perſo<g ref="char:EOLhyphen"/>nall reputation, yet the power of your office, which is much grounded vpon a reuerent e<g ref="char:EOLhyphen"/>ſtimation, will be by companie keeping ma<g ref="char:EOLhyphen"/>ny waies diminiſhed. The appearance of any vice in a miniſter doth diſable his miniſterie; ſpecially pride, and couetouſnes. It were to be wiſhed that miniſters would in their ap<g ref="char:EOLhyphen"/>parel, and geſture, vſe decencie, ſhunning all vanitie and brauerie; whereby the humble<g ref="char:EOLhyphen"/>nes and meekenes of Ieſus Chriſt might be ſeene in them.</p>
+               <p>You that teach others to be content with that which they haue, ought to ſhew your ſelues free from filthie couetouſnes.</p>
+               <p>Keepe alwaies within compaſſe of your maintenance, that you may be before hand; els you ſhall runne into many inconuenien<g ref="char:EOLhyphen"/>ces: for firſt you ſhall by want be forced to looſe your libertie: for, as <hi>Salomon</hi> ſaith, the borrower is a ſeruant to the lender. Then much more is the receiuer ſeruant to the giuer. An heathen man ſaide truly, He that taketh a gift, looſeth his libertie. Who hath more cauſe to keepe himſelfe free then a mi<g ref="char:EOLhyphen"/>niſter? for if he be ingaged to any, the deuill
+<pb facs="tcp:356:53"/>
+will tempt him to ſooth them in their ſinnes, or at leaſt to be tongue-tied, and not to re<g ref="char:EOLhyphen"/>prooue them for their faults. Alas! in what wretched ſtate are many Curates? for they are driuen to ſeeke their co<g ref="char:cmbAbbrStroke">̄</g>modities, where they can finde them.</p>
+               <p>An other inconuenience in a hinderly mi<g ref="char:EOLhyphen"/>niſter is, that he cannot be beneficiall to the poore: which is a very ſpeciall point in a mi<g ref="char:EOLhyphen"/>niſter: for how can it appeare that he is zea<g ref="char:EOLhyphen"/>lous to feede mens ſoules, that hath no care to comfort their bodies. Therefore Chriſt and his Apoſtles were very diligent to pro<g ref="char:EOLhyphen"/>uide for the poore.<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Mar-</note> An auncient writer teſti<g ref="char:EOLhyphen"/>fied to an heathen Romane Emperour, that among Chriſtians the miniſter is a prouider for all needie people.</p>
+               <p>Although any other miniſter ſeeme faul<g ref="char:EOLhyphen"/>tie and haue an ill report, yet doe not endure to ſpeake or heare any euill of him: for ſo you ſhould verie much offend, and incou<g ref="char:EOLhyphen"/>rage to be diſtaſted with the miniſtrie.</p>
+               <p>Doe not enuie nor deſpiſe any miniſter whomſoeuer, not meddle with any mans charge but your owne.</p>
+               <p>Suffer much wrong rather then enter in<g ref="char:EOLhyphen"/>to ſtrife. Be no partie nor partaker in any contention.</p>
+               <p>
+                  <pb n="97" facs="tcp:356:53"/>If you be aſſured that any one doth a<g ref="char:EOLhyphen"/>miſſe in your pariſh,<note place="margin">I tooke vpon <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> to finde fault rig<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                     <g ref="char:EOLunhyphen"/>rouſly with ma<g ref="char:EOLhyphen"/>ny; yea, &amp; with great men out of my charge; <gap reason="illegible" resp="#PDCC" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> my great ſhame.</note> tell him his fault ſecret<g ref="char:EOLhyphen"/>ly, and verie kindly, beſeeching him in Chriſts behalfe to turne vnto God. Whoſo<g ref="char:EOLhyphen"/>euer fall out, doe not you appeare to be ad<g ref="char:EOLhyphen"/>uerſarie to any one, nor to vphold the partie againſt him. It wil hinder your miniſterie, &amp; peraduenture put you into more trouble then you can imagine. Contention and par<g ref="char:EOLhyphen"/>taking hath tormented me verie grieuouſly, for I met with thoſe that ouermatched me, and laid heauie accuſations vpon me. God forgiue me and them, and God giue you the heauenly bleſſing of quietneſſe. Hate all iarring, and ſnarling, for they are dogged properties: as alſo fawning, and flatterie. He is a right dogge, that will one while ſnarle, and an other while fawne, as I haue fooliſhly done.</p>
+               <p>Be a man of wiſdome and few words. Be ſlow to ſpeake, and ſhort and ſweet in ſpea<g ref="char:EOLhyphen"/>king. A man full of words is full of many offences. Laſt of all, I commend vnto you a notable ſentence which the holy Ghoſt ſent to a miniſter.</p>
+               <p>No man that is a warriour entangleth himſelf with worldly buſineſſe,<note place="margin">
+                     <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>. Tim. <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.</note> that he may pleaſe him who hath choſen him to be a
+<pb facs="tcp:356:54" rendition="simple:additions"/>
+                  <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> beſeech the bleſſed God, <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> kne<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>, that he will for Ieſus <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> giue vn<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o all miniſters the grace <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> and pe<gap reason="illegible" resp="#PDCC" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap>e the true meaning <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap>nce.</p>
+            </div>
+            <trailer>Amen, Amen.</trailer>
+            <pb facs="tcp:356:54"/>
+         </div>
+      </body>
+   </text>
+</TEI>

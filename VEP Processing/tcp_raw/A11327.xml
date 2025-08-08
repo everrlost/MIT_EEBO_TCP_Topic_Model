@@ -1,0 +1,987 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A treatyse concerni[n]ge the power of the clergye and the lawes of the realme. Cu[m] priuilegio regali.</title>
+            <author>Saint German, Christopher, 1460?-1540.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1535</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 116 KB of XML-encoded text transcribed from 68 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A11327</idno>
+            <idno type="STC">STC 21588</idno>
+            <idno type="STC">ESTC S108136</idno>
+            <idno type="EEBO-CITATION">99843824</idno>
+            <idno type="PROQUEST">99843824</idno>
+            <idno type="VID">8583</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A11327)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 8583)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 519:09)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A treatyse concerni[n]ge the power of the clergye and the lawes of the realme. Cu[m] priuilegio regali.</title>
+                  <author>Saint German, Christopher, 1460?-1540.</author>
+               </titleStmt>
+               <extent>[136] p.   </extent>
+               <publicationStmt>
+                  <publisher>By Thomas Godfray,</publisher>
+                  <pubPlace>[Printed at Lo[n]don :</pubPlace>
+                  <date>[1535?]]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>By Christopher Saint German.</note>
+                  <note>Imprint from colophon; publication date suggested by STC.</note>
+                  <note>Signatures: A-H I⁴.</note>
+                  <note>Reproduction of the original in the Harvard University. Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Clergy --  England --  Early works to 1800.</term>
+               <term>Church and state --  England --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-04</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-05</date>
+            <label>Susie Lorand</label>Sampled and proofread</change>
+         <change>
+            <date>2011-05</date>
+            <label>Susie Lorand</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:8583:1" rendition="simple:additions"/>
+            <pb facs="tcp:8583:1"/>
+            <p>A treatyſe concerni<g ref="char:cmbAbbrStroke">̄</g>ge the power of the clergye / and the lawes of the Realme.</p>
+            <floatingText type="license" xml:lang="eng">
+               <body>
+                  <p>
+                     <g ref="char:trefoil">♣</g> Cu<g ref="char:cmbAbbrStroke">̄</g> priuilegio regali.</p>
+               </body>
+            </floatingText>
+         </div>
+         <div type="front_matter">
+            <pb facs="tcp:8583:2"/>
+            <head>¶ The <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+            </head>
+            <p>THough the pri<g ref="char:cmbAbbrStroke">̄</g>cypall intent of this preſent treatyſe / be to ſpeke of the power of the clergye / &amp; of the lawes of the realme: Yet for aſmoche as thoſe powers canne nat perfytly be knowen / but the power of kynges &amp; pri<g ref="char:cmbAbbrStroke">̄</g>ces be knowen alſo. Therfore dyuers textes of Scrip<g ref="char:EOLhyphen"/>ture / concernynge kynges and prin<g ref="char:EOLunhyphen"/>ces be put into thre of the fyrſt Cha<g ref="char:EOLhyphen"/>pitres of this treatiſe / with the En<g ref="char:EOLhyphen"/>glyſhe folowyng the ſame / for them that vnderſta<g ref="char:cmbAbbrStroke">̄</g>de nat the latin tonge. And the .ix. chapiter alſo / treateth moch of the power of kynges &amp; pri<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>ces / and alſo of the clergy / and whe<g ref="char:EOLhyphen"/>ther the goſpell toke any power fro princes that they had before the com<g ref="char:EOLunhyphen"/>myng of Chriſt / or nat. The other Chapiters concerne moſt ſpecyally the clergy / and the lawes and cuſto<g ref="char:EOLhyphen"/>mes of the realme / as to the reders wyll appere.</p>
+         </div>
+      </front>
+      <body>
+         <div n="1" type="chapter">
+            <pb facs="tcp:8583:2"/>
+            <head>¶ Auctorities to proue that ki<g ref="char:cmbAbbrStroke">̄</g>ges and princes haue theyr auctoritye imediatly of god. And that honour and obedience ought to be gyuen to them. The fyrſt chapiter.</head>
+            <q xml:lang="lat">
+               <hi>PEr me reges regnant / et legum con<g ref="char:EOLunhyphen"/>ditores iuſta decer<g ref="char:cmbAbbrStroke">̄</g>unt. <bibl>Pro. viij.</bibl>
+               </hi>
+            </q>
+            <q>By me kinges raygne / &amp; makers of lawes dyſcerne thynges that be rightwyſe. <bibl>Prouerbiorum. viii.</bibl>
+            </q>
+            <q xml:lang="lat">
+               <hi>¶ Et nunc Reges intelligite erudimini qui iudicatis terram. <bibl>Pſal. ii.</bibl>
+               </hi>
+            </q>
+            <q>And nowe o kyngꝭ / loke ye vnder<g ref="char:EOLunhyphen"/>ſtande: be ye lerned that iuge the worlde. <bibl>Pſalmo .ii.</bibl>
+            </q>
+            <q xml:lang="lat">
+               <hi>¶ Audite ergo Reges et intelligite / diſ<g ref="char:EOLhyphen"/>cite iudices furtum terre / prebete aures vos qui continetis multitudines et pla<g ref="char:EOLhyphen"/>cetis vobis i<g ref="char:cmbAbbrStroke">̄</g> turbis nationum / quoniam data eſt a deo poteſtas vobis. <bibl>Sapi. vi.</bibl>
+               </hi>
+            </q>
+            <q>Here ye therfore ye kynges and vnderſtande: lerne ye that be iuges
+<pb facs="tcp:8583:3"/>
+of all parties of the worlde: laye to your eares ye that rule the multitu<g ref="char:EOLhyphen"/>de and ordre the people: for power is gyuen to you of god. <bibl>Sapi. vi.</bibl>
+            </q>
+            <q xml:lang="lat">
+               <hi>¶ Reges ge<g ref="char:cmbAbbrStroke">̄</g>tium dn<g ref="char:cmbAbbrStroke">̄</g>antur co<expan>
+                     <am>
+                        <g ref="char:abrum"/>
+                     </am>
+                     <ex>rum</ex>
+                  </expan>. <bibl>Luc xxij</bibl>
+               </hi>
+            </q>
+            <q>Kinges of the people haue power ouer them. <bibl>Luc. xxii.</bibl>
+            </q>
+            <q xml:lang="lat">
+               <hi>¶ Deum timete / et regem honorificate.</hi>
+            </q>
+            <q>Drede god &amp; honour y<hi rend="sup">e</hi> ki<g ref="char:cmbAbbrStroke">̄</g>g. <bibl>i. pe. ii.</bibl>
+            </q>
+            <q xml:lang="lat">
+               <hi>¶ Non eſt eni<g ref="char:cmbAbbrStroke">̄</g> poteſtas niſi a deo. Que autem ſunt / a deo ordinata ſunt. Ita<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> / qui reſiſtit poteſtati dei ordinationi reſi<g ref="char:EOLhyphen"/>ſtit. Qui autem reſiſtunt ip<g ref="char:cmbAbbrStroke">̄</g>i ſibi damp<g ref="char:EOLhyphen"/>nationem acquirunt. &amp;c. Nam principes non ſunt timori boni operis ſed mali. &amp;c. Vis autem no<g ref="char:cmbAbbrStroke">̄</g> timere poteſtatem / bonu<g ref="char:cmbAbbrStroke">̄</g> fac &amp; habebis laudem ex illa / dei enim mi<g ref="char:EOLunhyphen"/>niſter eſt tibi in bonum / ſi autem malum feceris time non enim ſine cauſa gladiu<g ref="char:cmbAbbrStroke">̄</g> portat. <bibl>ad Ro. xiii.</bibl>
+               </hi>
+            </q>
+            <q>There is no power but of god. Forſoth all thi<g ref="char:cmbAbbrStroke">̄</g>ges that be / be ordey<g ref="char:EOLunhyphen"/>ned of god. And ſo he that reſyſteth
+<pb facs="tcp:8583:3"/>
+power / reſyſteth the ordynaunce of god. And they that reſyſt get damp<g ref="char:EOLunhyphen"/>nacyon to them ſelfe. For princes be nat ordayned to the drede of a good worke / but of euyll. Wylt thou nat drede power? do well &amp; thou ſhalte haue laude of it. He is the miniſter of god into goodneſſe to the / and if thou do euyll / drede / for he bereth nat a ſwerde without cauſe.</q>
+            <q xml:lang="lat">
+               <hi>¶ Subiecti eſtote of humane creature propter deum ſine regi tanquam precel<g ref="char:EOLhyphen"/>le<g ref="char:cmbAbbrStroke">̄</g>ti ſine ducibus tanqua<g ref="char:cmbAbbrStroke">̄</g> ab eo miſſis ad vindictam malefactorum laude<g ref="char:cmbAbbrStroke">̄</g> vero bo<g ref="char:EOLhyphen"/>norum. <bibl>Prima petri .ii.</bibl>
+               </hi>
+            </q>
+            <q>Be ye ſubget to all men for god: eyther to the kynge as precellynge other / or to dukes as men ſente by him to the correction of euyl doers / and laude of wel doers <bibl>.i. Petri. ii.</bibl>
+            </q>
+            <q xml:lang="lat">
+               <hi>¶ Non aufert deus a iuſto oculos ſuos et reges in ſolio collocat imꝑpetuu<g ref="char:cmbAbbrStroke">̄</g>.</hi>
+            </q>
+            <q>God tourneth nat his eyen fro a
+<pb facs="tcp:8583:4"/>
+rightwyſman / &amp; kynges he ſetteth in their ſeates for euer. <bibl>Iob. xxxvi.</bibl>
+            </q>
+            <q xml:lang="lat">
+               <hi>¶ Rex Dauid dixit omni populo elegit dominus deus Iſraell me de vniuerſa domo patris mei / vt eſſem rex ſuper Iſ<g ref="char:EOLhyphen"/>raell in ſempiternum <bibl>.i Parale. xxviii.</bibl>
+               </hi>
+            </q>
+            <q>Kinge Dauyd ſayd to al y<hi rend="sup">e</hi> people our lorde god of Iſraell / chaſe me before all y<hi rend="sup">e</hi> houſe of my father / that I ſhulde be kynge vpon Iſraell for euer. <bibl>Primo. Parali. xxviii.</bibl>
+            </q>
+         </div>
+         <div n="2" type="chapter">
+            <head>¶ Certayn partyculer auctorityes concernynge Kynges and princes. The ſeconde chapiter.</head>
+            <q xml:lang="lat">
+               <hi>COnſtituit te rege<g ref="char:cmbAbbrStroke">̄</g> vt faceres iudiciu<g ref="char:cmbAbbrStroke">̄</g> et iuſticiam <bibl>.iii. Regum .x.</bibl>
+               </hi>
+            </q>
+            <q>He hath ordeyned the a ki<g ref="char:cmbAbbrStroke">̄</g>ge / that thou ſhuldeſt do iuſtyce &amp; iugeme<g ref="char:cmbAbbrStroke">̄</g>t.</q>
+            <q xml:lang="lat">
+               <hi>¶ Regina Saba dixit ad Salomone<g ref="char:cmbAbbrStroke">̄</g> / <choice>
+                     <abbr>qr</abbr>
+                     <expan>quia</expan>
+                  </choice> diligit deꝰ Iſrael et vult ſeruare illu<g ref="char:cmbAbbrStroke">̄</g> ine<g ref="char:EOLunhyphen"/>ternu<g ref="char:cmbAbbrStroke">̄</g> idcirco poſuit te ſuꝑ eum regem vt
+<pb facs="tcp:8583:4"/>
+facias iuditia at<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> iudiciu<g ref="char:cmbAbbrStroke">̄</g> 
+                  <bibl>.ii. Paral. ix.</bibl>
+               </hi>
+            </q>
+            <q>The quene of Saba ſayd to Sa<g ref="char:EOLunhyphen"/>lomon / bicauſe god loueth Iſrael &amp; wyl p<g ref="char:cmbAbbrStroke">̄</g>ſerue him for euer / therfore he hath made the kyng ouer him / that thou ſhuldeſt do iuſtyce to all &amp; eue<g ref="char:EOLunhyphen"/>ry one of the people <bibl>.ii. Paral. ix.</bibl>
+            </q>
+            <q xml:lang="lat">
+               <hi>¶ Honor regis iudiciu<g ref="char:cmbAbbrStroke">̄</g> diligit. <bibl>Pſa. 98.</bibl>
+               </hi>
+            </q>
+            <q>The honour of a kynge loueth iu<g ref="char:EOLunhyphen"/>ſtyce.</q>
+            <q xml:lang="lat">
+               <hi>¶In multitudine populi dignitas regꝭ / et in paucitate plebis ignominia princi<g ref="char:EOLhyphen"/>pis. <bibl>Prouerbiorum. xiiii.</bibl>
+               </hi>
+            </q>
+            <q>In the multytude of people is the dygnyte of a kynge / and in the lytelneſſe of people is the wantyng of glory to a prince. <bibl>Pro. xiiii.</bibl>
+            </q>
+            <q xml:lang="lat">
+               <hi>¶ Diuinatio in labiis regis in iuditio non errabit os eius. <bibl>Prouer. xvi.</bibl>
+               </hi>
+            </q>
+            <q>A dyuine workynge is in the lyp<g ref="char:EOLhyphen"/>pes of a ki<g ref="char:cmbAbbrStroke">̄</g>ge / &amp; his mouth ſhall nat erre in iugement. <bibl>Pro. xvi.</bibl>
+            </q>
+            <q xml:lang="lat">
+               <pb facs="tcp:8583:5"/>
+               <hi>¶ Abominables Kegi qui agunt impie / quoniam iuſticia firmatur ſolium / volun<g ref="char:EOLunhyphen"/>tas regum labia iuſta. <bibl>Prouer. xvi.</bibl>
+               </hi>
+            </q>
+            <q>They be abhominable to a kinge that do wyckedly / for a ki<g ref="char:cmbAbbrStroke">̄</g>gdome is ſtabyled in iuſtyce / &amp; true lyppꝭ are a kynges wyll. <bibl>Prouer. xvi.</bibl>
+            </q>
+            <q xml:lang="lat">
+               <hi>¶ In hilaritate vultus regis vita / et cle<g ref="char:EOLunhyphen"/>me<g ref="char:cmbAbbrStroke">̄</g>tia eiꝰ quaſi imber ſerotinus. <bibl>pro xvi.</bibl>
+               </hi>
+            </q>
+            <q>In the cherefulneſſe of a kynges countenaunce is lyfe: and his mer<g ref="char:EOLhyphen"/>cy is as an euenyng dewe. <bibl>pro. xvi.</bibl>
+            </q>
+            <q xml:lang="lat">
+               <hi>¶ Sicut diuiſiones aquarum ita cor re<g ref="char:EOLhyphen"/>gis in manu domini / quocum<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> voluerit inclinabit illud. <bibl>Prouerbiorum. xxi.</bibl>
+               </hi>
+            </q>
+            <q>As diuiſyons of waters are in the handes of our lorde / ſo is the herte of a kynge in the hande of our lorde and whyther ſoeuer he wyll he ſhall bowe it. <bibl>Prouerbiorum .xxi.</bibl>
+            </q>
+            <q xml:lang="lat">
+               <hi>¶ Qui diligit cordis mundiciam prop<g ref="char:EOLhyphen"/>ter gratiam labiorum ſuorum habebit a micum regem. <bibl>Prouerbiorum. xxii.</bibl>
+               </hi>
+            </q>
+            <q>
+               <pb facs="tcp:8583:5"/>He that loueth the clennes of herte for the grace of his wordes ſhall ha<g ref="char:EOLunhyphen"/>ue the kinge fauorable vnto him.</q>
+            <q xml:lang="lat">
+               <hi>¶ Gloria regis inueſtigare ſermonem.</hi>
+            </q>
+            <q>The glory of a kynge is to ſerche the truth of that is ſpoken. <bibl>pro. xxv.</bibl>
+            </q>
+            <q xml:lang="lat">
+               <hi>¶ Rex iuſtus erigit terram. <bibl>Pro. xxix.</bibl>
+               </hi>
+            </q>
+            <q>A rightwyſe kynge exalteth hys realme. <bibl>Prouerbiorum. xxix.</bibl>
+            </q>
+            <q xml:lang="lat">
+               <hi>
+                  <g ref="char:trefoil">♣</g> Rex q<g ref="char:cmbAbbrStroke">̄</g> iudicat in veritate pauꝑes / thro<g ref="char:EOLunhyphen"/>nus eius ineternum firmabitur. <bibl>pro. xxix</bibl>
+               </hi>
+            </q>
+            <q>A kinge that iugeth poore men in truth / his throne ſhal be ſtabylled for euer. <bibl>Prouerbiorum. xxix.</bibl>
+            </q>
+            <q xml:lang="lat">
+               <hi>
+                  <g ref="char:trefoil">♣</g> Beata terra cuius rex nobilis eſt.</hi>
+            </q>
+            <q>Bleſſed is that countrey that hath a noble kynge. <bibl>Eccleſiaſtes .x.</bibl>
+            </q>
+            <q xml:lang="lat">
+               <hi>
+                  <g ref="char:trefoil">♣</g>In cogitacione tua regi non detrabas et in ſecreto cubiculi tui non malediceris diuiti quia et aues celi protabunt vocem
+<pb facs="tcp:8583:6"/>
+tuam / et qui habe<g ref="char:cmbAbbrStroke">̄</g>t pennas annunciabu<g ref="char:cmbAbbrStroke">̄</g>t ſente<g ref="char:cmbAbbrStroke">̄</g>ciam. <bibl>Eccleſiaſtes. x.</bibl>
+               </hi>
+            </q>
+            <q>In the ſecrete of thy hert bacbyte not the kynge / &amp; in thy ſecrete chau<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>ber / ſpeke nat euyll of a riche man: for the byrdes of heue<g ref="char:cmbAbbrStroke">̄</g> ſhall bere thy voyce / &amp; they that haue queles ſhall ſhewe thy ſentence. <bibl>Eccleſiaſtes. x.</bibl>
+            </q>
+            <q xml:lang="lat">
+               <hi>¶ Si ergo delectamini ſedibꝰ et ſceptris o reges populi / diligite ſapienciam vt in<g ref="char:EOLhyphen"/>eternum viuetis. <bibl>Sapienci. vi.</bibl>
+               </hi>
+            </q>
+            <q>O ye kinges of the people if you loue your high ſeates and ſcepters / loue wyſdome and ye ſhall lyue for euer. <bibl>Sapienci. vi.</bibl>
+            </q>
+            <q xml:lang="lat">
+               <hi>¶Rex ſapiens / populi ſtabilimentu<g ref="char:cmbAbbrStroke">̄</g> eſt.</hi>
+            </q>
+            <q>A wyſe kynge is the ſtableneſſe of his people. <bibl>Sapi. vi.</bibl>
+            </q>
+         </div>
+         <div n="3" type="chapter">
+            <head>¶ Dyuers autorites prouyng that kynges and princes in tyme paſt haue ordered thynges that ſome men call <choice>
+                  <abbr>ſpu<g ref="char:cmbAbbrStroke">̄</g>all</abbr>
+                  <expan>ſpirituall</expan>
+               </choice>. The .iii. cha.</head>
+            <q xml:lang="lat">
+               <pb facs="tcp:8583:6"/>
+               <hi>EXiuit igitur Ioſeph omnem terram Egipti vendentibus ſingulis poſ<g ref="char:EOLhyphen"/>ſeſſiones ſuas pre magnitudine famis / ſubiecit<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> eam Pharaoni et cunctos po<g ref="char:EOLhyphen"/>pulos eius a nouiſſimis terminis egipti vſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ad extremos fines eius / preter terra<g ref="char:cmbAbbrStroke">̄</g> ſacerdotu<g ref="char:cmbAbbrStroke">̄</g> que a rege tradita fuit eis / qui bus &amp; ſtatuta cibaria ex horteis publiris prebebantur et id circo non ſu<g ref="char:cmbAbbrStroke">̄</g>t compulſi ve<g ref="char:cmbAbbrStroke">̄</g>dere poſſeſſiones ſuas. <bibl>Gene. xlvii.</bibl>
+               </hi>
+            </q>
+            <q>Ioſeph wente thorugh all the la<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLunhyphen"/>des of Egypte euery man ſellynge his poſſeſſyons for the greatneſſe of the hungre / &amp; he ſubdued it to Pha<g ref="char:EOLunhyphen"/>rao / and all the people therof / from the fartheſt ende of Egypte to the extreme parte therof. Excepte the landes of the preſtes that were gy<g ref="char:EOLhyphen"/>uen vnto them by the kinge / to who<g ref="char:cmbAbbrStroke">̄</g> alſo ſuffycient meat was gyuen of the comen barnes / and therfore they were nat compelled to ſell their poſ<g ref="char:EOLhyphen"/>ſeſſyons.</q>
+            <q xml:lang="lat">
+               <hi>¶ Et conſtituit Salomon iuxta conſti<g ref="char:EOLhyphen"/>tucionem Dauid patris ſui officia ſacer<g ref="char:EOLhyphen"/>dotu<g ref="char:cmbAbbrStroke">̄</g> in miniſteriis ſuis et leuitas in or<g ref="char:EOLhyphen"/>dine
+<pb facs="tcp:8583:7"/>
+ſuo vt laudarent et miniſtrare<g ref="char:cmbAbbrStroke">̄</g>t cora<g ref="char:cmbAbbrStroke">̄</g> ſacerdotibꝰ iuxta ritum vniuſcuiuſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> dici et iauitores in diuiſionibus ſuis ꝑ porta<g ref="char:cmbAbbrStroke">̄</g> et portam ſic enim precepit Dauid homo dei nec pretergreſſi ſu<g ref="char:cmbAbbrStroke">̄</g>t de ma<g ref="char:cmbAbbrStroke">̄</g>datis regis tam ſacerdotes qua<g ref="char:cmbAbbrStroke">̄</g> leuite ex oi<g ref="char:cmbAbbrStroke">̄</g>bus q<g ref="char:cmbAbbrStroke">̄</g> pre<g ref="char:EOLunhyphen"/>coperat <bibl>.ii. Parali. viii.</bibl>
+               </hi>
+            </q>
+            <q>Salomon accordinge to the con<g ref="char:EOLunhyphen"/>ſtitutyon of Dauid his father ordei<g ref="char:EOLunhyphen"/>ned the office of preſtes in their mi<g ref="char:EOLhyphen"/>niſtrations &amp; leuytes in their order that they ſhulde laude and miniſter before the preſtes after the cuſtomes of euery daye / and porters in their diuiſyons by gate and gate: ſo com<g ref="char:EOLunhyphen"/>mau<g ref="char:cmbAbbrStroke">̄</g>ded Dauid the ma<g ref="char:cmbAbbrStroke">̄</g> of god that it ſhulde be / and they breke nothi<g ref="char:cmbAbbrStroke">̄</g>ge of the ki<g ref="char:cmbAbbrStroke">̄</g>ges co<g ref="char:cmbAbbrStroke">̄</g>mau<g ref="char:cmbAbbrStroke">̄</g>deme<g ref="char:cmbAbbrStroke">̄</g>t neyther y<hi rend="sup">e</hi> preeſtes nor the leuytes in all thin<g ref="char:EOLhyphen"/>ges that the kinge co<g ref="char:cmbAbbrStroke">̄</g>maunded.</q>
+            <q xml:lang="lat">
+               <hi>¶Rex Ioſaphat co<g ref="char:cmbAbbrStroke">̄</g>ſtituit iudices i<g ref="char:cmbAbbrStroke">̄</g> cunctꝭ ciuitatibꝰ Iuda / &amp; in Hierl'm co<g ref="char:cmbAbbrStroke">̄</g>ſtituit leuitas et ſacerdotes et principes Fami<g ref="char:EOLhyphen"/>liarum vt iudicium et cauſam domini in<g ref="char:EOLhyphen"/>ditarent
+<pb facs="tcp:8583:7"/>
+habitatoribus eius / et vlterius addidit dicens / Amarias aute<g ref="char:cmbAbbrStroke">̄</g> ſacerdos et pontifex veſter in hijs q<g ref="char:cmbAbbrStroke">̄</g> ad deum per<g ref="char:EOLhyphen"/>tinent preſidebit <bibl>.ii. Parali. ix.</bibl> Multa e<g ref="char:EOLhyphen"/>ciam fecit. Ezechias rex in hijs que vi<g ref="char:EOLhyphen"/>dentur eſſe ſpu<g ref="char:cmbAbbrStroke">̄</g>alia vt patet <bibl>.ii. paralip. xxix. &amp;. xxx. &amp; xxxi.</bibl> reges etiam diuerſi co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLunhyphen"/>ſtituerunt ſu<g ref="char:cmbAbbrStroke">̄</g>mu<g ref="char:cmbAbbrStroke">̄</g> ſacerdociu<g ref="char:cmbAbbrStroke">̄</g> inter iudeos vt patet <bibl>.i. Machab. vii. et .x. &amp; xiiii.</bibl>
+               </hi>
+            </q>
+            <q>The kynge Ioſaphat ordeyned iuges in all the cyties of Iuda / &amp; in Hieruſalem he ordeyned leuytes &amp; preſtes / &amp; princes of Familes / that they ſhulde iudge the iugemente &amp; cauſe of our lorde to al the dwellers therof / &amp; furthermore he added ther to ſayeng. Amarie / your preeſt &amp; buſſhop ſhalbe chefe in ſuch thinges as ꝑteyne to god <bibl>.ii. parali. ix.</bibl> Alſo kynge Ezechias ordeyned many thi<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLunhyphen"/>ges that ſemeth to be <choice>
+                  <abbr>ſpu<g ref="char:cmbAbbrStroke">̄</g>al</abbr>
+                  <expan>ſpiritual</expan>
+               </choice> / as it ap<g ref="char:EOLunhyphen"/>pereth <bibl>.ii. parali. xxix. &amp; .xxx. &amp; xxxi.</bibl> Alſo dyuers kynges appoynted the high preſthod among y<hi rend="sup">e</hi> iewes as it appereth <bibl>.i. Mach. vii. &amp; .x. &amp; .xiiii.</bibl>
+            </q>
+         </div>
+         <div n="4 (question 1)" type="chapter">
+            <pb facs="tcp:8583:8"/>
+            <head>The firſt queſtion the .iiii. Cha.</head>
+            <p>
+               <seg rend="decorInit">W</seg>Hether the ſtatute made in the .xlv. yere of kynge Edward the .iii. that is co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLunhyphen"/>monly called y<hi rend="sup">e</hi> ſtatute of Silua Cedua / be agaynſt the lawe of god or nat. The .iiii. Chapiter.</p>
+            <div type="answer">
+               <head>¶ An anſwere to the ſayd fyrſt queſtion</head>
+               <p>THe ſtatute of Silua Cedua wherof mencion is made in the ſayd fyrſt queſtion ſtandeth wel with the lawe of god / and ought in conſcience to be obſerued / aſwell by the clergye as by the people in this realme: and theſe be the cauſes that moue vs to ſay ſo: We thynke that the payeng of the .x. parte of wode aboue .xx. yere can nat conuenyent<g ref="char:EOLhyphen"/>ly ſerue for the ſuſteynau<g ref="char:cmbAbbrStroke">̄</g>ce of y<hi rend="sup">e</hi> ſpi<g ref="char:EOLunhyphen"/>rituall minyſtres / for they muſte yerely and dayly be ſuſteyned / and the profyt of that wode may happe<g ref="char:EOLhyphen"/>ly
+<pb facs="tcp:8583:8" rendition="simple:additions"/>
+nat come in an hundreth yere or more / for the wode ſhall growe as longe as it ſhall pleaſe the owner / and therfore whan our lorde (Leui<g ref="char:EOLunhyphen"/>tici .xxvii) appoynted to the iewes / wherof tythes ſhulde be payde / he appoi<g ref="char:cmbAbbrStroke">̄</g>ted nat that any tythes ſhulde be payde of the trees / but of y<hi rend="sup">e</hi> frutes as there appereth. Another cauſe is this. Though the people be bou<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLunhyphen"/>de by the lawe of reaſon and alſo by the lawe of god / to fynde to their ſpirituall miniſters a reſonable por<g ref="char:EOLunhyphen"/>cion of goodꝭ to lyue with / yet that the people ſhall paye precyſely the tenth parte to their ſpirituall mini<g ref="char:EOLhyphen"/>ſters in name of that porcyon / is but by the lawe of man. And therfore if the tenth parte in any countrey ſuffyſed nat for the minyſters / the people were bounde to gyue theym more. And accordynge to that / that is ſayd before / ſpeketh Iohn<g ref="char:cmbAbbrStroke">̄</g> Gerſo<g ref="char:cmbAbbrStroke">̄</g>
+                  <pb facs="tcp:8583:9" rendition="simple:additions"/>
+in a treatiſe that he nameth Regule morales / where he ſaythe thus.</p>
+               <p>Solucio decimaru<g ref="char:cmbAbbrStroke">̄</g> ſacerdotibꝰ eſt de iure diuino quatenus clerici inde ſuſtententur: ſed quota<g ref="char:cmbAbbrStroke">̄</g> hanc vel illam aſſignare aut in alios red<g ref="char:EOLunhyphen"/>ditꝰ co<g ref="char:cmbAbbrStroke">̄</g>mutare poſitiui iuris exiſtit.</p>
+               <p>That is to ſaye / The payenge of tythes to preſtꝭ is by the law of god ſo that they therwith maye be ſuſtey<g ref="char:EOLunhyphen"/>ned / but to aſſygne this porcyon or that / or to chaunge it into other ren<g ref="char:EOLunhyphen"/>tes / is by the lawe poſytyue / that is to ſay / by the lawe of man. And ſyth the tenth parte is by the lawe of man / all cuſtommes and preſcrip<g ref="char:EOLhyphen"/>cyons of payment of tithes in name of the tenth parte ought to be obſer<g ref="char:EOLhyphen"/>ued / ſo that the ſpyrituall miniſters haue ſuffycient <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> / and the ſayd ſtatute is no farther / but that a pro<g ref="char:EOLhyphen"/>hybicyon ſhall lye where a man is ſued in the ſpyrituall courte for tith
+<pb facs="tcp:8583:9"/>
+of wood aboue the age of .xx. yeres by the name of Silua Cedua / as it hath done in tyme paſt. and though tythes be called ſpyrituall / yet they be in dede temporall: as all goodes be i<g ref="char:cmbAbbrStroke">̄</g> whoſe handꝭ ſoeuer they come. And ſo the parliament hath full po<g ref="char:EOLhyphen"/>wer to ordre them / ſo that the lawe of god be nat broken by their ordre. And it is nat to thynke that the ki<g ref="char:cmbAbbrStroke">̄</g>ge and his lordes ſpyrituall &amp; te<g ref="char:cmbAbbrStroke">̄</g>porall and the come<g ref="char:cmbAbbrStroke">̄</g>s that were at that par<g ref="char:EOLunhyphen"/>liament wolde haue ben ſo farre o<g ref="char:EOLhyphen"/>uer ſeen / to haue made a ſtatute a<g ref="char:EOLhyphen"/>gainſte the lawe of god / and if it be ſayde that the tenthe parte amonge the Iewes in the olde lawe / was a lawe of god / &amp; that therfore it ought to be obſerued / among criſten men as other morall lawes be. Yt may be anſwered / that payeng of the tenth parte for tythes is no morall lawe / and therfore it ceſſed whan the paſ<g ref="char:EOLhyphen"/>ſyon
+<pb facs="tcp:8583:10"/>
+of Chriſte was fully preched &amp; knowen amo<g ref="char:cmbAbbrStroke">̄</g>ge the people as other Iudicyalles and Ceremonialles dyd. And therfore if it were prohi<g ref="char:EOLhyphen"/>byted / that it ſhulde nat herafter be lawfull for any man / to ſaye that the ſayde ſtatute is agaynſt the lawe of god. It is very like that it ſhuld cau<g ref="char:EOLunhyphen"/>ſe great quyetnes herafter betwene the Curattes and their paryſſhons in many places in this realme.</p>
+            </div>
+         </div>
+         <div n="5 (question 2)" type="chapter">
+            <head>
+               <g ref="char:trefoil">♣</g> The .ii. queſtion. the fyth cha.</head>
+            <p>wHether the Iuges in ſpryrituall courtes be bounde in any caſe to take knowlege of the kynges la<g ref="char:EOLhyphen"/>wes / and to iuge therafter or nat.</p>
+            <p>The fyfth chapiter.</p>
+            <div type="answer">
+               <head>¶ An anſwere to the ſe<g ref="char:EOLhyphen"/>conde queſtion.</head>
+               <p>
+                  <pb facs="tcp:8583:10"/>IF any queſtyon or doute ryſe in the <choice>
+                     <abbr>ſpu<g ref="char:cmbAbbrStroke">̄</g>all</abbr>
+                     <expan>ſpirituall</expan>
+                  </choice> courte concerni<g ref="char:cmbAbbrStroke">̄</g>g the ryght or poſſeſſyon of any te<g ref="char:cmbAbbrStroke">̄</g>po<g ref="char:EOLhyphen"/>ral thyng / &amp; wherof they in the ſpy<g ref="char:EOLhyphen"/>rytuall courte / after the cuſtome of the realme maye holde ple. The iu<g ref="char:EOLhyphen"/>ges there are bounde to iudge the right to him that hathe right by the kynges lawes. As if a man haue two ſonnes / one borne before eſpou<g ref="char:EOLunhyphen"/>ſels / and another after: and he be<g ref="char:EOLhyphen"/>queth to his ſonne and heyre an hun<g ref="char:EOLunhyphen"/>dreth pounde / they in the ſpyrituall courte are bounde to iuge the hun<g ref="char:EOLhyphen"/>dreth pou<g ref="char:cmbAbbrStroke">̄</g>de to him that is heyre by the lawes of the realme. Alſo if a man haue a porcyon of tythes in a<g ref="char:EOLunhyphen"/>nother paryſſhe / ſo longe tyme that it maketh a preſcryption in the ſpy<g ref="char:EOLhyphen"/>rytuall courte / but nat in the lawes of the realme. He hath no ryght to that porcyon, for lyke as a lawe ma<g ref="char:EOLhyphen"/>de by the Clergye / that one curate
+<pb facs="tcp:8583:11"/>
+ſhulde haue a porcyon of tythes in another paryſſhe were voyde. So is a preſcription voide that is grou<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLunhyphen"/>ded onely by the lawe made by the Clergye / agaynſt the preſcryptio<g ref="char:cmbAbbrStroke">̄</g>s of the law of the realme. And in the lawe of the realme there is no leſſe preſcryption / tha<g ref="char:cmbAbbrStroke">̄</g> fro the tyme wher<g ref="char:EOLunhyphen"/>of no mynde of man renneth to the contrarie. Alſo if a man by his wyll byqueth certayne money or goodes to a monke / that by queſt is voyde in the lawes of the realme. And ſo they in the ſpyrituall courte oughte to iudge it.</p>
+            </div>
+         </div>
+         <div n="6 (question 3)" type="chapter">
+            <head>
+               <g ref="char:trefoil">♣</g> The .iii. queſtyon the ſyxt cha.</head>
+            <p>WHether it be agaynſte the lawe of god to arraigne preſtes befo<g ref="char:EOLhyphen"/>re laye me<g ref="char:cmbAbbrStroke">̄</g> or nat. The .vi. cha.</p>
+            <div type="answer">
+               <head>¶ An anſwere to the .iii. queſtion.</head>
+               <p>
+                  <pb facs="tcp:8583:11"/>AS to the very auncye<g ref="char:cmbAbbrStroke">̄</g>t grou<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLunhyphen"/>des of the come<g ref="char:cmbAbbrStroke">̄</g> lawe of this realme preſtes ſhulde be put to an<g ref="char:EOLhyphen"/>ſwere before the ki<g ref="char:cmbAbbrStroke">̄</g>ges iuſtyces: as well in actions real and perſonall / As i<g ref="char:cmbAbbrStroke">̄</g> felonyes murdrers &amp; treaſons / as farforth as any laye men ſhulde be. Neuertheleſſe / by a contynuall pretence that the clergy haue made that it is agaynſte the lawe of god that clerkꝭ ſhulde be put to anſwere before laye men / or their bodyes a<g ref="char:EOLhyphen"/>reſted. They haue hadde great fa<g ref="char:EOLhyphen"/>uoure in ſuche thinges / more than laye men haue had. Howbeit wha<g ref="char:cmbAbbrStroke">̄</g> they haue had ſuch fauour / they ha<g ref="char:EOLhyphen"/>ue natte taken it as a fauoure of the kynge or his lawes: but as a thi<g ref="char:cmbAbbrStroke">̄</g>ge whiche they ought of right to haue by the lawe of god. And thervpon they haue at many parliame<g ref="char:cmbAbbrStroke">̄</g>tes ma<g ref="char:EOLunhyphen"/>de pretence to haue more lybertie in that behalfe than the comen lawe &amp;
+<pb facs="tcp:8583:12"/>
+cuſtome of the realme hathe gyuen them / and more than laye men haue had. And to cauſe the matter more playnly to appere I ſhall recyte ſo<g ref="char:cmbAbbrStroke">̄</g>e ſtatutes that haue been made in dy<g ref="char:EOLhyphen"/>uers parlyamentes in tyme paſt / co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLunhyphen"/>cernynge the pretence of the clergye therin. Fyrſt in the ſtatute of Mar<g ref="char:EOLunhyphen"/>lebrygge in the .lii. yere of kynge Henry the thyrde. It is inactyd thus. If a clerke be arreſted for a<g ref="char:EOLunhyphen"/>ny offence belongyng to the crowne and after by the kynges co<g ref="char:cmbAbbrStroke">̄</g>maunde<g ref="char:EOLhyphen"/>mente he is let to bayll or is repleui<g ref="char:EOLunhyphen"/>ed. So that they to whom he is ta<g ref="char:EOLunhyphen"/>ken to vayle ſhall haue hym before the kynges iuſtyce. &amp;c. That they to who<g ref="char:cmbAbbrStroke">̄</g> he is taken in bayle / nor his other pledges ſhall nat frothe<g ref="char:cmbAbbrStroke">̄</g>ſforth be amercyed / if they haue his body before the iuſtyce though he wyl nat or maye nat anſwere before theym / for the priuylege that he is a clerke / 
+<pb facs="tcp:8583:12"/>
+by which ſtatue it appereth that be<g ref="char:EOLhyphen"/>fore that ſtatute clerkes were arre<g ref="char:EOLhyphen"/>ſted for offe<g ref="char:cmbAbbrStroke">̄</g>ces agaynſt the crowne and it appereth alſo that clerkes cla<g ref="char:EOLunhyphen"/>med their priuyleges than / as they do nowe / but the Statute doth nat afferme or alowe that they oughte to haue it. For the ſtatute was nat made to that entente / but it was ma<g ref="char:EOLunhyphen"/>de onely for the indempnytie of the pledges / that though the clerkes in ſuch caſe wolde nat anſwer for truſt of their ſayd priuylege / that yet the pledges ſhulde bere no loſſe therby as ſome men take it that they ſhuld haue done by the lawe / but the pri<g ref="char:EOLhyphen"/>uylege of clerkes was lefte in dout as it was before. And preſtes were put to anſwere before the kynges iu<g ref="char:EOLunhyphen"/>ſtyce after that ſtatute as they were before / and ſo contynued the vary<g ref="char:EOLhyphen"/>aunce / vntyll the treatyce of Arti<g ref="char:EOLhyphen"/>culi cleri was made / which as it is
+<pb facs="tcp:8583:13"/>
+ſayde is a ſtatute / and was made in the .ix. yere of Kynge Edwarde the .ii. at whiche tyme the Clergye made many artycles of certayn gre<g ref="char:EOLunhyphen"/>fes done / as they ſayd to the church of Englande / wherby is vnderſtan<g ref="char:EOLunhyphen"/>de the clergye of Englande wherof one was that though a clerke ought nat as they ſayde to be iuged before a ſeculer iudge / ne any thynge to be done agai<g ref="char:cmbAbbrStroke">̄</g>ſte him wherby he might come to the parell of deth. Neuerthe<g ref="char:EOLunhyphen"/>leſſe / they ſayde that ſeculer Iuges make clerkes y<hi rend="sup">t</hi> fle to churches and there knowlege their offences to ab<g ref="char:EOLunhyphen"/>iure the realme / and admitte the ab<g ref="char:EOLhyphen"/>iuratio<g ref="char:cmbAbbrStroke">̄</g>s for that cauſe / though thei be nat their iuges thervpon. And ſo ſayde they that there was gyuen to laye men an indyrecte power to pu<g ref="char:EOLhyphen"/>nyſſhe clerkes if they come into the realme agayne. To this co<g ref="char:cmbAbbrStroke">̄</g>plainte the ſeyde treatiſe anſwereth thus / &amp;
+<pb facs="tcp:8583:13"/>
+ſayth. A clerke fleeng to the church for felony / to haue the defence of the church / if he afferme him ſelfe to be a clerke: ſhall nat be compelled to abiure the realme / but yeldynge hi<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLunhyphen"/>ſelfe to y<hi rend="sup">e</hi> lawe of the realme he ſhall enioye the lybertie of the church / af<g ref="char:EOLunhyphen"/>ter y<hi rend="sup">e</hi> laudable cuſtome of y<hi rend="sup">e</hi> realme vſed i<g ref="char:cmbAbbrStroke">̄</g> tyme paſt. And it ſemeth y<hi rend="sup">t</hi> by this worde Clericus in the ſayd tre<g ref="char:EOLunhyphen"/>atyſe is vnderſtande only a Clerke that is withi<g ref="char:cmbAbbrStroke">̄</g> ordres / and nat euery clerke that can rede. And than it ap<g ref="char:EOLunhyphen"/>pereth farther by the ſayde treatyſe that if he wyll haue the defence of y<hi rend="sup">e</hi> church he muſte confeſſe the felony / for the ſeyde treatyſe is / that he ſub<g ref="char:EOLunhyphen"/>myttynge himſelfe to the lawe of the realme ſhal haue the lybertye of the churche. And by the lawe of the real me he muſt confeſſe ſome felony be<g ref="char:EOLhyphen"/>fore he haue that lybertye. Neuer<g ref="char:EOLhyphen"/>theleſſe bicauſe this article hath nat
+<pb facs="tcp:8583:14"/>
+ben ſeen / but ſeldom i<g ref="char:cmbAbbrStroke">̄</g> vre it hath be<g ref="char:cmbAbbrStroke">̄</g> a doubte to many men whether the Corowner ſhall be iuge i<g ref="char:cmbAbbrStroke">̄</g> that mat<g ref="char:EOLhyphen"/>ter himſelf / or whether the Corow<g ref="char:EOLhyphen"/>ner muſte ſende him to the kynges iuſtyce / and than they either to com<g ref="char:EOLunhyphen"/>mytte him to the ordynarye or to re<g ref="char:EOLunhyphen"/>mytte him agayne to the ſent warye as they thynke ought to be done by the lawe. But I ſuppoſe that i<g ref="char:cmbAbbrStroke">̄</g> this caſe the Corowner is the iuge. And another complaynt that the clergye made at the makynge of the ſayde treatyſe called Articuli Cleri was this. They ſayde that though the conuſau<g ref="char:cmbAbbrStroke">̄</g>ce made before him that is nat iuge of hi<g ref="char:cmbAbbrStroke">̄</g> that maketh the conu<g ref="char:EOLhyphen"/>ſau<g ref="char:cmbAbbrStroke">̄</g>ce holdeth nat / nor ſuffyſeth nat to make proces / nor to gyue ſente<g ref="char:cmbAbbrStroke">̄</g>ce vpon. Neuertheleſſe / they ſayd that ſome ſeculer Iuges admytte the ac<g ref="char:EOLhyphen"/>cuſation made by clerkes by waye of approuynge or appelle / though
+<pb facs="tcp:8583:14"/>
+they be nat of their iuriſdyctyon as they ſayde. But reteyne ſuche cler<g ref="char:EOLunhyphen"/>kes / that confeſſe before them their owne enormyous offences: as thef<g ref="char:EOLhyphen"/>tes / robbories &amp; manſlaughter / and delyuer the<g ref="char:cmbAbbrStroke">̄</g> nat after to their p<g ref="char:cmbAbbrStroke">̄</g>lates though they be thervpon ſuffycient<g ref="char:EOLunhyphen"/>ly requyred. Ne though before the<g ref="char:cmbAbbrStroke">̄</g> for all theire owne confeſſyon they maye nat be iuged ne condempned without brekynge of the lybertie of the churche. To this complaynte the ſayde treatyſe anſwereth thus: To an apprower aſked by thordy<g ref="char:EOLhyphen"/>narye in due forme as a Clerke / the benyfyte nor the lybertye of the chur<g ref="char:EOLunhyphen"/>che ſhall nat be denyed. By whiche complaynte and anſwere made ther<g ref="char:EOLunhyphen"/>vpon / there ſemeth to appeare two thynges / one is / that the Clergye pretended that the confeſſyon of a clerke made before a ſeculer iuge for murder or felony byndeth nat. The
+<pb facs="tcp:8583:15"/>
+ſecond is that they founde them gre<g ref="char:EOLunhyphen"/>ued / that whan clerkes made ſuche confeſſyons / &amp; thervpon approued other for the Kynges aduauntage as they might do by the lawe. That than thoughe the ordynaryes came and aſked them as clerkes / that yet the iuges wolde nat delyuer them. And that was trewe as the ordyna<g ref="char:EOLhyphen"/>ryes ſayd / bycauſe they that the cler<g ref="char:EOLunhyphen"/>kes hadde appealed / might offre to ioyne battayle if they wolde / which tryall by the lawe might nat be ta<g ref="char:EOLhyphen"/>ken fro him that was ſo approued. And as to that artycle the ſayd trea<g ref="char:EOLunhyphen"/>tyſe aſſented to the requeſt of y<hi rend="sup">e</hi> cler<g ref="char:EOLunhyphen"/>gye and graunted that he ſhulde be delyuered to the ordynarie whan he aſked him. And ſo by that treatyſe the ioynynge of battayle is take<g ref="char:cmbAbbrStroke">̄</g> fro the appelle. But as for the fyrſt ar<g ref="char:EOLhyphen"/>tycle / that is to ſaye that ſeculer iu<g ref="char:EOLhyphen"/>ges ſhulde be no iuges to clerkes / 
+<pb facs="tcp:8583:15"/>
+the ſeid treatiſe regarded it nat / but lefte it as it was before. And after this varyaunce / thus contynuynge without accorde / clerkes were con<g ref="char:EOLhyphen"/>tynually put to anſwere before the kyngꝭ iuſtyces as they were before. In ſo moch / that as well ſeculer cler<g ref="char:EOLunhyphen"/>kes as chapelaynes / and monkes / &amp; other men of relygion were drawe<g ref="char:cmbAbbrStroke">̄</g> and hanged by the awarde of ſecu<g ref="char:EOLhyphen"/>ler iuſtyces / as appereth by the re<g ref="char:EOLhyphen"/>cytall of the ſtatute made in the .xxv yere of kynge Edwarde the thirde. Pro Clero the .iii. chapiter / which the Clergye ſayde was to the great preiudice of the fraunches of holye churche / and to the oppreſſyon of y<hi rend="sup">e</hi> Iuriſdyctyon thereof / wherfore it was accordyd and graunted by the kynge in his ſayd parlyament / that all maner of Clerkes as well ſecu<g ref="char:EOLhyphen"/>ler as religiouſe y<hi rend="sup">t</hi> ſhuld be frothe<g ref="char:cmbAbbrStroke">̄</g>ſ<g ref="char:EOLhyphen"/>forth co<g ref="char:cmbAbbrStroke">̄</g>uycte before iuſtyces ſeculer
+<pb facs="tcp:8583:16"/>
+for any maner of treaſon or felonye touchyng any other perſone tha<g ref="char:cmbAbbrStroke">̄</g> the kynge or his royall maieſtye ſhulde haue &amp; enioye frely from thens forth the preuyleges of the holy church of Englande / and ſhall be without im<g ref="char:EOLunhyphen"/>pechement or delaye delyuered to y<hi rend="sup">e</hi> ordinary whan they demaunde the<g ref="char:cmbAbbrStroke">̄</g>. And thervpon the Archbiſſhoppe of Caunterbury / promyſed that ſuche couenable ordinau<g ref="char:cmbAbbrStroke">̄</g>ces ſhulde be ma<g ref="char:EOLunhyphen"/>de for the ſauegarde &amp; chaſtyſement of the ſeyd clerkes / ſo that none ſhul<g ref="char:EOLunhyphen"/>de herafter take any boldneſſe to of<g ref="char:EOLhyphen"/>fende for defaut of chaſtiſment / and ſo it appereth that the intente of the kyng and of his parlyament at the makynge of the ſeyde ſtatute / was / that in treaſon or felonye touchynge the kynge / they ſhulde nat haue the preuylege. And in the chapyter next folowynge / it is ordeyned / that cler<g ref="char:EOLunhyphen"/>kes that be arrayned before ſeculer
+<pb facs="tcp:8583:16"/>
+Iuſtyces / the which chalenge their clergye / and be demaunded by the ordynaryes / ſhalbe forthw<hi rend="sup">t</hi> delyue<g ref="char:EOLunhyphen"/>red vnto them without delaye. And afore that ſtatute ſomtime the iuges wolde remaunde clerkes to priſon / ſayenge they had other thinges to ſaye vnto them. And that is prohi<g ref="char:EOLhyphen"/>byted by the ſeyde ſtatute / &amp; after in the fourthe yere of kinge Henry the ſeuenth. It was enacted that a clerke which was nat within ordres and had his clergie / ſhlude be bur<g ref="char:EOLhyphen"/>ned vppon the lefte hande / in ſuche maner as by the ſeyde ſtatute appe<g ref="char:EOLhyphen"/>reth. And that if any perſone at the ſeconde time that he is arrayned de<g ref="char:EOLunhyphen"/>maunde his clergye by cauſe he is withi<g ref="char:cmbAbbrStroke">̄</g> ordres / &amp; hath nat his letters there / nor thordynaryes certifycat that than the iuſtyces ſhulde giue a day by their dyſcretyon to hym / to bringe in his letters or certifycat / &amp;
+<pb facs="tcp:8583:17"/>
+if he fayle therof at that daye / he to be put fro his clergye. And ſo by that ſtatute it appereth that if a cler<g ref="char:EOLunhyphen"/>ke that is nat within ordres be bren<g ref="char:EOLunhyphen"/>ned in the hande / and than be made a preeſt / and be after arrayned of fe<g ref="char:EOLunhyphen"/>lony &amp; than he ſaith that he is with in ordres / but he hath nat his letters nor any certyfycat of thordynarye / wherfore he hathe a daye to bringe them in / accordynge to the ſeyd ſta<g ref="char:EOLhyphen"/>tute of Anno quarto. And at the day he faylleth therof / that he ſhalbe put fro his clergye / and therof muſt ne<g ref="char:EOLhyphen"/>des folowe / that though he be with in ordres / he ſhalbe put in execuco<g ref="char:cmbAbbrStroke">̄</g>n. And furthermore it is nat lyke that there was any ſufficient proufe ſhe<g ref="char:EOLhyphen"/>wed at any of the ſeyd parlyamentꝭ that it ſhulde be againſt the lawe of god / that preeſtes ſhulde be put to aunſwer before laye men. For it is nat to preſume / that ſo many noble
+<pb facs="tcp:8583:17"/>
+princes and their counſeyle / ne the lordes / and the nobles of the realme ne yet the Comons gathered in the ſayde parlyamente / wolde fro tyme to tyme / renne in to ſo great offence of conſcyence / as is the brekynge of the lawe of god. And if ther be no ſuffycyent proufe / that it is againſt the lawe of god / than the cuſtome of the realme is good / to put them to anſwere vpon. And than is there great defaute in all the clergie / that ſo depely hath reſyſted the ſeyde cu<g ref="char:EOLhyphen"/>ſtome vppon a ſurmyſe that is nat trewe / ne can nat be proued. And where dyuers ſpyrituall men haue in tyme paſt made pretence as well in open ſermons / as in other co<g ref="char:cmbAbbrStroke">̄</g>mu<g ref="char:EOLhyphen"/>nycatyons / that it is agaynſte the lawe of god to put preeſtes to aun<g ref="char:EOLhyphen"/>ſwer before laye men. And for profe therof haue layde this texte.</p>
+               <p>Nolite ta<g ref="char:cmbAbbrStroke">̄</g>gere chriſtos meos. p<g ref="char:cmbAbbrStroke">̄</g>. ciiii
+<pb facs="tcp:8583:18"/>
+That is to ſaye / Touch nat my an<g ref="char:EOLhyphen"/>noynted / which they applye only to preſtes. It is apparant that it is no lytteral expoſycion / for after the let<g ref="char:EOLhyphen"/>ter of the ſeyd texte. It maye as wel be applyed to kynges / yea / and to euery chriſten man / as to preſtes.</p>
+               <p>And after ſaynte Auguſtyne / and ſaynte Hierome / there is no ſence of ſcrypture ſuffycyente to proue an argume<g ref="char:cmbAbbrStroke">̄</g>t but only the lyterall ſence.</p>
+            </div>
+         </div>
+         <div n="7 (question 4)" type="chapter">
+            <head>¶ The .iiii. queſtion the .vii. cha.</head>
+            <p>
+               <seg rend="decorInit">W</seg>Hether any of the conſti<g ref="char:EOLhyphen"/>tucyons prouyncyall be a<g ref="char:EOLunhyphen"/>gainſte the kynges lawes and his p<g ref="char:cmbAbbrStroke">̄</g>rogatyue or nat And of what effecte the expoſycion of maſter Lynwode vpon the ſeyde conſtitucyons is of, The .vii. cha.</p>
+            <div type="answer">
+               <head>
+                  <g ref="char:trefoil">♣</g> The anſwere to the .iiii. queſtio<g ref="char:cmbAbbrStroke">̄</g>.</head>
+               <p>
+                  <pb facs="tcp:8583:18"/>IT is no dout / but that dyuers of the conſtitutyons prouyn<g ref="char:EOLhyphen"/>cyall / &amp; alſo of the Legantynes of Octo and Octobon / be dyrectely a<g ref="char:EOLhyphen"/>gaynſte the kynges lawes and his prerogatyue / which can nat be here conuenyently reherſed. And than it muſt nedes folowe / that the expoſy<g ref="char:EOLhyphen"/>cyon made by maſter Lynwod vpo<g ref="char:cmbAbbrStroke">̄</g> the ſame / is againſte the kinge and his prerogatyue. For vpon a feble foundacyon can nat be ſette a ſtable buyldinge / wherfore it were righte expedyent / that the ſeyd co<g ref="char:cmbAbbrStroke">̄</g>ſtitutio<g ref="char:cmbAbbrStroke">̄</g>s and legantines ſo beynge againſte the kynge and his prerogatyue.</p>
+               <p>And the ſeyde expoſitions alſo: ſhul<g ref="char:EOLunhyphen"/>de clerely be prohybit and raſed out of the bokes / ſo that the younge men that ſhall herafter ſette them ſelfe to ſtudye the Canons / ſhall nat be diſ<g ref="char:EOLunhyphen"/>ceyued therby hereafter as manye haue ben in tyme paſte.</p>
+            </div>
+         </div>
+         <div n="8 (question 5)" type="chapter">
+            <pb facs="tcp:8583:19"/>
+            <head>¶ The .v. queſtyon. The .viii. cha.</head>
+            <p>WHether the treatyſe that is cal<g ref="char:EOLhyphen"/>led Circumſpecte agatis / and that is ſet amonge dyuers ſtatutes of this realme as a ſtatute / be a ſta<g ref="char:EOLhyphen"/>tute or nat. The .viii. chapiter.</p>
+            <div type="answer">
+               <head>¶ An anſwere to the .v. queſtyon.</head>
+               <p>THe treatiſe that is recited in the .v. queſtion that is called Circumſpecte agatis / is recyted in a conſtitucyon prouyncyall / which is in the ſeconde boke of the conſty<g ref="char:EOLhyphen"/>tucyons / and begynneth: Circum<g ref="char:EOLhyphen"/>ſpecte agatis &amp; infra / in maner wor<g ref="char:EOLunhyphen"/>de for worde as it is conteyned in y<hi rend="sup">e</hi> ſeyd treatyſe / that is taken for a ſta<g ref="char:EOLhyphen"/>tute amonges the learners of the la<g ref="char:EOLhyphen"/>wes of the realme / which alſo begin<g ref="char:EOLunhyphen"/>neth Circumſpecte agatis / and it is recyted in the ſayde Conſtytucyon
+<pb facs="tcp:8583:19"/>
+that is was taken out of the kynges anſweres. But we neuer ſawe any proufe that it was ſo. And there be in the ſeyde treatyſe dyuers thinges that be directly agaynſte the lawes of the realme: as it is in this poi<g ref="char:cmbAbbrStroke">̄</g>te. That prelates for fornycatyon / a<g ref="char:EOLhyphen"/>uoutrye / and ſuch other: may ſom<g ref="char:EOLhyphen"/>time aſſygne bodily payne / and ſom<g ref="char:EOLunhyphen"/>tyme pecunare payne. And the law is / that prelates ſhall neuer aſſigne pecunary payne for correction of ſin but onely at the deſyre of the partie. And alſo it is recyted in the ſeyde treatyſe / y<hi rend="sup">t</hi> if the prelate of any chyr<g ref="char:EOLunhyphen"/>che / or his aduocate aſke of a ꝑſone a pencyon / that the ſute ſhulde be in the ſpyrituall courte / and the lawe of the realme is euyn to the contra<g ref="char:EOLhyphen"/>ry. And we thinke that if it had ben a ſtatute / that the lawe ſhulde neuer haue ben vſed therin ſo directly a<g ref="char:EOLhyphen"/>gaynſte the ſtatute as it hathe ben
+<pb facs="tcp:8583:20"/>
+vſed. And in the .xix. yere of kynge Edwarde the thirde in a writ of An<g ref="char:EOLunhyphen"/>nuyte brought in the kynges courte agaynſt the ſayde artycle of the ſeid treatyſe. It is ſayde that the ſeyde treatyſe is no ſtatute / but that it was named ſo to be by the prelates. And alſo the ſeyde writ of Annuytie / is iuged to be mayntenable in the kyn<g ref="char:EOLunhyphen"/>ges courte / and that is dyrectly a<g ref="char:EOLhyphen"/>gaynſt the ſeyde treatyſe of Circum<g ref="char:EOLunhyphen"/>ſpecte agatis / wherfore we thi<g ref="char:cmbAbbrStroke">̄</g>ke it is no Statute.</p>
+            </div>
+         </div>
+         <div n="9 (question 6)" type="chapter">
+            <head>¶ The .vi. queſtion / The .ix. cha.</head>
+            <p>WHether ki<g ref="char:cmbAbbrStroke">̄</g>ge Lucyus that was the fyrſte chriſten kynge of the Bretons / in this realme / or kynge Ethelberte that was the fyrſte chri<g ref="char:EOLhyphen"/>ſten kynge of Englyſſhmen / hadde any leſſe auctorite and power ouer
+<pb facs="tcp:8583:20"/>
+their ſubiectes after they were chri<g ref="char:EOLhyphen"/>ſtened than they hadde before whan they wer paynymes or nat. The .vi queſtyon / The nynth chapiter.</p>
+            <div type="answer">
+               <head>¶ An anſwere to the .vi. queſtion.</head>
+               <p>WE neuer ſawe cauſe why kinge Lucyus or kinge Ethelberte re<g ref="char:EOLunhyphen"/>cyted in the ſeyde ſyxte Queſtyon ſhulde haue any leſſe auctorite ouer theire Subiectes after they were Chriſtened than they hadde before whan they were Paynymes.</p>
+               <p>Howebeit truth it is that after they and theyr people were conuerted / they might nat compel their people to forſake the chriſten faith whiche they had receyued ne to do any thin<g ref="char:EOLunhyphen"/>ge agaynſte the chriſten fayth / but that was no bondage vnto them ne abatynge of their power / but a great lybertye and fredome in god.
+<pb facs="tcp:8583:21"/>
+Wherby they &amp; their people were de<g ref="char:EOLunhyphen"/>liuered fro y<hi rend="sup">e</hi> bo<g ref="char:cmbAbbrStroke">̄</g>dage of infidelitie y<hi rend="sup">t</hi> they were i<g ref="char:cmbAbbrStroke">̄</g> before their conuerſion. 1. ¶ And yf anye man wyll ſaye that the power of Princes ſhulde be abatted by the wordes that oure lorde ſayd to his diſcyples Mat. 18. What ſo euer ye bynde vpon erthe ſhalbe bounde in heuyn / and what ſo euer ye loſe vpon erthe / ſhalbe lo<g ref="char:EOLhyphen"/>ſed in heauen: And that by thoſe wor<g ref="char:EOLunhyphen"/>des his diſciples &amp; their ſucceſſours ſhulde haue power to make lawes / wherby princes and their ſubiectes ſhulde be bounde / and that therfore the power of princes after the com<g ref="char:EOLhyphen"/>mynge of Chriſte was abated euyn by the lawe of god. To that it may be anſwered that holye ſcrypture is nat to be expounded onely after the lytterall ſence of the texte / that it is written in / but after other textes of ſcrypture concerning the ſame mat<g ref="char:EOLhyphen"/>ter.
+<pb facs="tcp:8583:21"/>
+And they to be ſo conſtrued and declared / that there be no co<g ref="char:cmbAbbrStroke">̄</g>traryo<g ref="char:EOLunhyphen"/>ſitie in theym / as vndoutedly there is nat / if they be well and truly vn<g ref="char:EOLhyphen"/>derſtande. And accordynge to that ſayenge there is a texte conſtrued. Luc. vi. that ſayth. Et qui aufert que tua ſunt ne repetas. That is to ſay / If any man take fro the that is thyne / aſke it nat agayne. And if that texte ſhulde be onely taken ac<g ref="char:EOLhyphen"/>cordyng to the ſence of the ſame text withoute anye further decleratyon therof / than all propertie were put awaye / and lawes and iuſtyce con<g ref="char:EOLhyphen"/>cerninge goodes ſhulde nothing be regarded / wherby the hole commen welth ſhulde be diſtroied. And ther<g ref="char:EOLunhyphen"/>fore that it was nat thentente of our maiſter Chriſt / that the ſeyde wor<g ref="char:EOLhyphen"/>des ſhulde be ſo vnderſta<g ref="char:cmbAbbrStroke">̄</g>de / it appe<g ref="char:EOLunhyphen"/>reth by the wordes that he ſayde.</p>
+               <p>Mat. xix. Non facies furtu<g ref="char:cmbAbbrStroke">̄</g>. Thou
+<pb facs="tcp:8583:22"/>
+ſhalte do no thefte. And in that he prohybiteth thefte / wherby is vn<g ref="char:EOLhyphen"/>derſtande generally the vnlawfull takynge awaye of our neighbours goodes. It appereth that whan he ſpeke the ſeid wordes / Luc. vi. that his meani<g ref="char:cmbAbbrStroke">̄</g>ge was nat that it ſhulde be laufull to take away the goodes of his neyghbours / ne that he that they were taken fro ought nat by iu<g ref="char:EOLunhyphen"/>ſtyce to aſke them agayne. But ra<g ref="char:EOLhyphen"/>ther that his wordes ſhulde gyue oc<g ref="char:EOLunhyphen"/>caſyon to him that the goodes were taken fro / to prepare himſelfe to ſuf<g ref="char:EOLunhyphen"/>fre the wronge as in his herte / and to do nomore for the reuengynge of the ſeyde wrongfull takynge, than ſhulde be expedyent to reforme him that dyd the wronge / and to feare o<g ref="char:EOLhyphen"/>ther that they ſhulde nat do lyke of<g ref="char:EOLhyphen"/>fence. And to that intente charitye wyll that the owner ſhall aſke his goodes agayne. Alſo whan oure
+<pb facs="tcp:8583:22"/>
+lorde ſayde to his Apoſtles. Luce. xxii. (Iudas than beyng one of the apoſtles) I haue ordeyned to you as my father hathe ordeyned to me / the kyngdom of heuen / that ye ſhall ſytte vpon my table in my kyng<g ref="char:EOLhyphen"/>dome / iugynge the twelue Trybes of Iſraell. And it can nat be taken that our lorde mente that the kyng<g ref="char:EOLhyphen"/>dome of heuen was ordeyned to Iu<g ref="char:EOLunhyphen"/>das. For Iohn<g ref="char:cmbAbbrStroke">̄</g> .xvii. He called hi<g ref="char:cmbAbbrStroke">̄</g> the ſo<g ref="char:cmbAbbrStroke">̄</g>ne of perdicyon / and therfore the wordes that oure lorde ſpake in that texte / were to be vnderſtande of Matthias thappoſtell who<g ref="char:cmbAbbrStroke">̄</g> oure lorde knewe ſhulde be choſen in the place of Iudas / and he that taketh thoſe wordes to be vnderſtande of Iudas / as well as of anye other of the apoſtles is farre deceyued. Alſo the ſame text what ſoeuer ye binde. &amp;c. to one intent / is conſtrued accor<g ref="char:EOLhyphen"/>dynge to thentent of the maker / that
+<pb facs="tcp:8583:23"/>
+is to ſay of oure mayſter Chriſte / &amp; nat onely accordyng to his wordes for his intent was that ſuche aucto<g ref="char:EOLhyphen"/>ritie as he wold his diſciples ſhuld haue therby: ſhulde go to their ſuc<g ref="char:EOLhyphen"/>ceſſours to the ende of the worlde / and yet his wordes ſtreche onely to the apoſtels ſelfe. But for aſmoche as he came to make a lawe &amp; Teſta<g ref="char:EOLhyphen"/>mente that ſhulde contynue to the ende of the worlde. It is conuenie<g ref="char:cmbAbbrStroke">̄</g>t to thynke that his wordes ſhall be taken accordynge / for if his wordes ſhuld be taken to ſtreche only to his dyſcyples / than by their dethe / his wordes had ben determyned / and that had ben a thynge of a ſmall ef<g ref="char:EOLhyphen"/>fecte / for commynge ſo farre as he came / and for ſufferyng ſo gret pay<g ref="char:EOLunhyphen"/>ne as he ſuffered: It is no doubte therfore but that his wordes in that behalfe ſhall be taken to ſtreche to their ſucceſſours / and than ſyth his
+<pb facs="tcp:8583:23"/>
+entent ſhalbe conſtrued more lar<g ref="char:EOLhyphen"/>gely than his wordes ſtreche vnto as to the contynuaunce of their auc<g ref="char:EOLunhyphen"/>torite / why than ſhall nat his intent be conſtrued more ſtrayte than his wordes ſounde vnto / for declaryng what auctorite he wolde his diſcy<g ref="char:EOLhyphen"/>ples ſhulde haue eſpecyally concer<g ref="char:EOLhyphen"/>nynge the power of princes / ſeynge that he hath declared his intent him ſelfe / as it ſhall appere hereafter y<hi rend="sup">t</hi> he hath done / for declaration wher<g ref="char:EOLhyphen"/>of it is to be conſidered that there be dyuers auctorityes of Scripture / wherby it appereth that oure lorde neuer intended by his commyng in to this world to take any power fro princes / but that they ſhulde haue ly<g ref="char:EOLunhyphen"/>ke power ouer their ſubiettes after his commyng as they hadde before and that may appere thus. He ſayd Luce. xx. Reddite que ſunt Ceſaris Ceſari. Et que ſunt dei / deo. That
+<pb facs="tcp:8583:24"/>
+is to ſay / gyue ye to the Emperoure that is his / and to god that is his. And he alſo payde to the Emperour tribute and what power ente<g ref="char:cmbAbbrStroke">̄</g>ded he to take fro the Emperour that payd him trybute / he alſo refuſed to de<g ref="char:EOLhyphen"/>uyde the inheritau<g ref="char:cmbAbbrStroke">̄</g>ce betwyxt the .ii brethern / ſayeng to them / who hath ordeyned me to be deuyder betwyxt you. Math. xxii. As if he had ſayd though I haue power to do it: yet I am nat come to execute y<hi rend="sup">e</hi> power / but go ye to the Emperours lawes that be ordeyned for it / he ſayd alſo Io. xviii. Regnum meum non eſt de hoc mundo. That is to ſay / my kyngedome is nat of this worlde / as who ſayth though I be a kynge / and that the gretteſt kynge that euer was / and myght take all power fro<g ref="char:cmbAbbrStroke">̄</g> kynges and princes if I wolde / yet I come nat to execute that power / Chriſte alſo refuſed to be a kynge / 
+<pb facs="tcp:8583:24"/>
+and ſo by all his dedes he ſhewed playnly that he came nat to be a ki<g ref="char:cmbAbbrStroke">̄</g>g ne to take away any power fro pri<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>ces that lyued in pouertye hi<g ref="char:cmbAbbrStroke">̄</g> ſelf / ſo farre vnlyke to princes / &amp; ſyth euery dede of Chriſt is an inſtruction to euery chriſten man. It muſt nedes be ſo moſt ſpecyally to his apoſtels before all other to i<g ref="char:cmbAbbrStroke">̄</g>ſtructe them that they ſhall do as Chriſt dydde: And furthermore to proue that the mea<g ref="char:EOLhyphen"/>nyng of Chriſt was nat that his ap<g ref="char:EOLunhyphen"/>poſtels &amp; diſcyples ſhulde take anye power fro pri<g ref="char:cmbAbbrStroke">̄</g>ces by any thyng y<hi rend="sup">t</hi> he had ſpoken to the<g ref="char:cmbAbbrStroke">̄</g> of before: He ſayd to his appoſtles after his reſurrecti<g ref="char:EOLunhyphen"/>on thus. Accipite ſpiritum ſanctu<g ref="char:cmbAbbrStroke">̄</g> ſicut miſit me <abbr>pater</abbr> et ego mitto vos. Ioh. xx. Take ye the holygoſt as my fader hath ſent me / I ſende you. And certayne it is that the very in<g ref="char:EOLhyphen"/>tente / why Chriſt was ſente by his father into the worlde nexte to oure
+<pb facs="tcp:8583:25"/>
+rede<g ref="char:cmbAbbrStroke">̄</g>ption / was to teche &amp; preche the truth / and to fulfyll the wyll of his father in mekeneſſe / pacyence / ſuffe<g ref="char:EOLhyphen"/>raunce / &amp; ſuch other / and to enduce the peple through his example and doctryne / to diſpyſe this worlde / &amp; to deſyre the worlde to come. And to the ſame intente Chriſt ſente his appoſtles / as appereth by the ſeyde wordes / &amp; nat to be lyke pri<g ref="char:cmbAbbrStroke">̄</g>ces or to take power fro princes / but onely to order thynges concernynge their miniſtraco<g ref="char:cmbAbbrStroke">̄</g>n / as to appoint in what bred and wyne the ſacrament of the auter ſhalbe co<g ref="char:cmbAbbrStroke">̄</g>ſecrated &amp; ſuch other. Alſo it appereth. Act. xiii. that the holyghoſt appered to the miniſters at Antioche as they were miniſtri<g ref="char:cmbAbbrStroke">̄</g>g to our lorde / and dilygent in faſti<g ref="char:cmbAbbrStroke">̄</g>g. And commaunded theym to ſende Saule and Barnabe / into a worke that he had appoynted them to.</p>
+               <p>And it appereth in y<hi rend="sup">e</hi> ſame chapiter
+<pb facs="tcp:8583:25"/>
+that the worke that he appoi<g ref="char:cmbAbbrStroke">̄</g>ted the<g ref="char:cmbAbbrStroke">̄</g> to / was to preche Iheſu the ſonne of Dauid to be y<hi rend="sup">e</hi> ſauiour of the world / &amp; how he was gyltleſſe put to dethe buryed / and roſe agayne the thirde daye. And who can thinke but that their ſucceſſoures were ſente to the ſame purpoſe as they were / and nat to take vpon them many powers &amp; auctorities that many of them haue vſed in tyme paſt. And if it be aſked to what intente Chriſte than ſpeke thoſe wordes. Quodcum<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> liga<g ref="char:EOLhyphen"/>ueritis. &amp;c. If he ment nat that his diſciples ſhulde therby haue power to make lawes to ordre the people / for he ſpeke nothing without cauſe. It maye be anſwered that he gaue them auctoritie therby / to ſeperate euyll men for their offences / fro the co<g ref="char:cmbAbbrStroke">̄</g>munyon of the good people / &amp; to commau<g ref="char:cmbAbbrStroke">̄</g>de the good people alſo to eſchewe theire company / &amp; to make
+<pb facs="tcp:8583:26"/>
+abſolution therof agayne. &amp;c. whi<g ref="char:EOLhyphen"/>che be great powers and maye do gret good if they be charytably put in executyon. But if they wyll de<g ref="char:EOLhyphen"/>clare the ſeyde texte / in ſuche maner that they ſhulde therby take power fro princes which Chriſte lefte vnto them / or to exalte their owne power more than Chriſte gaue vnto them. Than princes maye reſyſt their de<g ref="char:EOLhyphen"/>claration theri<g ref="char:cmbAbbrStroke">̄</g>. yea / &amp; ar bou<g ref="char:cmbAbbrStroke">̄</g>d to do it / &amp; there princes ought to be iuges takyng ſuch of the clergie vnto the<g ref="char:cmbAbbrStroke">̄</g> as they ſhall thynke conuenyent. wherof vndoutedly there be righte many that wyl nat be blinded with ſuche worldly honour and vanyte. And ſo it ſemeth that the ſeyd texte / Quodcum<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ligaueritis. &amp;c. ſhalbe taken ſpecyally accordi<g ref="char:cmbAbbrStroke">̄</g>g to theffecte of the other auctorities before reher<g ref="char:EOLunhyphen"/>ſed: and nat onely accordyng to the lytterall ſence of the ſame texte.</p>
+               <p>
+                  <pb facs="tcp:8583:26"/>Alſo though ſome men haue ſayde that our lorde gaue to his diſcyples both powers. That is to ſaye.</p>
+               <p>Spyrituall and temperall / whan the apoſtles ſayde vnto him (Luc. xxii.) Lorde / here be two ſwerdes / And he anſwered: That is ynough And that he ſhuld mean therby that he wolde that they ſhuld haue both powers / for if he had nat ment ſo / he wolde nat haue ſayd of the .ii. ſwer<g ref="char:EOLunhyphen"/>des / It is ynough. But it is to mo<g ref="char:EOLhyphen"/>che. And that therfore princes ha<g ref="char:EOLhyphen"/>ue had ſythe that tyme their tempo<g ref="char:EOLhyphen"/>rall power of the ſpyrituall power. To that it maye be anſwered / that thoſe wordes were neuer ſpoken of thoſe two powers / as the letter of y<hi rend="sup">e</hi> ſeyd goſpell playnly declareth: For the letter is this. Our lorde a lyttel before his paſſyon / ſayde to his diſ<g ref="char:EOLhyphen"/>cyples thus: Wha<g ref="char:cmbAbbrStroke">̄</g> I ſent you with out ſecke / ſcryppe / or ſhoes: dyd you
+<pb facs="tcp:8583:27"/>
+wante any thynge? And they ſayde naye. Than he ſayde vnto them.</p>
+               <p>But nowe he that hath a ſecke let hi<g ref="char:cmbAbbrStroke">̄</g> alſo take his ſcryppe. And he that hath no ſwerde / let him ſell his cote and bye a ſwerde / for I ſay to you: that it behoueth that that is written of me ſhalbe fulfylled. Et cum ini<g ref="char:EOLhyphen"/>quis deputatus eſt: that is to ſaye: he is accou<g ref="char:cmbAbbrStroke">̄</g>ted among wyked men: And than he ſayd further: And truly tho thinges that be written of me be nygh at an ende to be fulfylled: And than they ſayd / lorde / lo here be two ſwerdes / and he ſayde vnto them / it is ynough. And Lyre whiche trea<g ref="char:EOLhyphen"/>teth princypally vpon the lytterall ſence of Scripture / ſayth that tho wordes were ſpoken by oure lorde to inſtructe his diſcyples / that ſom<g ref="char:EOLhyphen"/>tyme it is lawfull for a man to defen<g ref="char:EOLunhyphen"/>de him ſelfe moderatly from perſe<g ref="char:EOLhyphen"/>cutours / and that therfore the Appo<g ref="char:EOLunhyphen"/>ſtelles
+<pb facs="tcp:8583:27"/>
+beyng at that tyme well cou<g ref="char:EOLhyphen"/>raged to defende them ſelfe / regar<g ref="char:EOLhyphen"/>ged more tho wordes that our lorde ſpake of the ſwerdes / than they did eyther of their ſeckꝭ or of their ſcrip<g ref="char:EOLunhyphen"/>bes. And therfore they anſwered / he<g ref="char:EOLunhyphen"/>re be two ſwerdes / &amp; than he know<g ref="char:EOLunhyphen"/>ynge that it was the wyll of his fa<g ref="char:EOLhyphen"/>ther that he ſhulde ſuffre deth for re<g ref="char:EOLhyphen"/>de<g ref="char:cmbAbbrStroke">̄</g>ption of man: ſayd: it is ynough. As though he had ſayd / thoſe two ſwerdes ſuffyce and be ynough to defende me fro deth aſwell as many thouſand of ſwerdes ſhulde do / for I that accordyng to y<hi rend="sup">e</hi> wyl of my fa<g ref="char:EOLunhyphen"/>ther wyl wylfully ſuffre deth for ma<g ref="char:cmbAbbrStroke">̄</g> loke for no defe<g ref="char:cmbAbbrStroke">̄</g>ce of ſwerdes. This ſemeth to be the intente why he ſayd of the two ſwerdes / it is ynough / &amp; nat to ſygnyfye therby that thappo<g ref="char:EOLhyphen"/>ſtelles ſhuld haue both powers ſpi<g ref="char:EOLhyphen"/>rituall and temporal / and if it ſhuld be taken to be ment ſo, it ſhulde nat
+<pb facs="tcp:8583:28"/>
+be by a litterall ſence / &amp; after Saint Auguſtyn and ſaynt Hierome / it is onely of the lytterall ſence of holye ſcripture that a ſuffycient argume<g ref="char:cmbAbbrStroke">̄</g>t may be taken / &amp; ſo we thynke thoſe wordes to bere but a ſmall effecte a<g ref="char:EOLhyphen"/>ny thynge to abate the power of pri<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLunhyphen"/>ces. And where ſome me<g ref="char:cmbAbbrStroke">̄</g> haue ſayd that the clergye haue auctorytie by the goſpell to here all cauſes that ſhulde be ſhewed vnto them by any maner of complaynt: and that that ſhulde appere by the wordꝭ that our lorde ſayd. Math. xviii. If thy bro<g ref="char:EOLunhyphen"/>ther offend the correcte him betwen him and the onely / And if he here y<hi rend="sup">t</hi> thou haſt wone thy brother / and if he here the nat / take with the one or two wytnes / and if he here the nat than / than ſhewe it to the chyrche / and if he here nat the churche / lette him be to the lyke an Ethenyke and a publycan / and that in ſomoch that
+<pb facs="tcp:8583:28"/>
+the goſpell co<g ref="char:cmbAbbrStroke">̄</g>mmaunded to ſhewe the offence to the chyrch / &amp; ſheweth nat in what caſes that it ſhall ther<g ref="char:EOLhyphen"/>fore be vnderſta<g ref="char:cmbAbbrStroke">̄</g>de in all caſes / and that bycauſe it is ſayd / ſhewe it to y<hi rend="sup">e</hi> chyrche / that it was mente thereby that it ſhulde be ſhewed to the cler<g ref="char:EOLhyphen"/>gye: To that it maye be anſwered that by that worde chyrche is nat vn<g ref="char:EOLunhyphen"/>derſtande only the clergye / for they vndoutydly make nat the chyrche / for the hole congregation of Chriſte<g ref="char:cmbAbbrStroke">̄</g> people maketh the chyrche: And by<g ref="char:EOLhyphen"/>cauſe the hole people of chriſte<g ref="char:cmbAbbrStroke">̄</g>dom can nat be gathered togyder / ſo that they may haue ſuch matters ſhewed vnto them all: therfore it can nat be taken that our lorde ment y<hi rend="sup">t</hi> it ſhuld be ſhewed to al the people / for he co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLunhyphen"/>mau<g ref="char:cmbAbbrStroke">̄</g>ded nothyng but that may well &amp; reſonably be obſerued: And ther<g ref="char:EOLhyphen"/>fore whan it is ſayd ſhewe it to the chyrch. It is to be vnderſtande ther<g ref="char:EOLunhyphen"/>by
+<pb facs="tcp:8583:29"/>
+/ that it ſhall be ſhewed vnto the<g ref="char:cmbAbbrStroke">̄</g> that by the lawe &amp; cuſto<g ref="char:cmbAbbrStroke">̄</g>e there vſed haue auctorite to correct that offe<g ref="char:cmbAbbrStroke">̄</g>ce And therfore he that in this realme wyll gyue charytable monycyon to his neyghbour that offendeth in ſuche a thynge as the kynge by his lawes &amp; cuſtome of his realme may lawfully punyſſhe / and he wyll nat yet amende. Wherfore he ſheweth it to the kynge or to his iuges / or to his iuſtyces of peace i<g ref="char:cmbAbbrStroke">̄</g> the co<g ref="char:cmbAbbrStroke">̄</g>trey / or other offycers that after the lawe &amp; cuſtome of the realme may reforme it. He hathe therin right well ful<g ref="char:EOLhyphen"/>fylled the goſpell. And if the offence be of ſuch thynges as by the cuſtom of the Realme be called ſpyrituall: As it is of auoutry / fornycation / &amp; ſuch other / wherof the clergy maye holde ple. And thervpon bycauſe y<hi rend="sup">e</hi> partye that he hath gyuen monicyo<g ref="char:cmbAbbrStroke">̄</g> to / according to the goſpel / wyll nat
+<pb facs="tcp:8583:29"/>
+amende / he ſheweth it to the ordy<g ref="char:EOLhyphen"/>nary or to his offycers. We thynke that he hath alſo right wel obſerued the goſpell. But to ſaye that y<hi rend="sup">e</hi> ſeyd wordes (Dic eccleſie) ſhulde take a<g ref="char:EOLunhyphen"/>ny power fro princes that they had at the commynge of Chriſt / or that they haue had ſyth that tyme by the lawes &amp; cuſtomes of theire realmes and countreys. We thinke that the ſeyde wordes do nothynge amount vnto it. And furthermore it ſhulde ſeme to make a repugnauncy in ſcri<g ref="char:EOLunhyphen"/>pture. If it coulde be proued that our lorde gaue auctoritie to his ap<g ref="char:EOLhyphen"/>poſtles &amp; diſcyples to make lawes / that ſhulde take any power fro kyn<g ref="char:EOLunhyphen"/>ges. For it is ſayde. Pſal. ii.</p>
+               <p>Et nunc reges intelligite erudi<g ref="char:EOLhyphen"/>mini qui iudicatis terram. That is to ſaye. O ye kinges vnderſta<g ref="char:cmbAbbrStroke">̄</g>de ye: and be lerned that iuge the worl<g ref="char:EOLunhyphen"/>de: by whiche wordes it appereth
+<pb facs="tcp:8583:30"/>
+that kynges iuge the worlde. And howe coulde that be trewe if the ap<g ref="char:EOLunhyphen"/>poſtles &amp; diſcyples of Chriſt &amp; their ſucceſſoures ſhuld haue auctorite to make lawes generally to bynde pri<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLunhyphen"/>ces and their people: And ſcripture is alway true. Alſo it is written.</p>
+               <p>Sapienc .vi. Rex ſapiens populi ſtabilimentum eſt. That is to ſaye.</p>
+               <p>A wyſe kynge is the ſtableneſſe of his people: By which wordes it ſe<g ref="char:EOLhyphen"/>meth that it muſt of neceſſyte folowe that kynges haue alſo power and auctorite to ſtable their people. For wyſdome withoute power can nat ſtable the people. But how can any kynge either by power or wyſdome ſtable his people / if the clergy haue power to make lawes to bynde him and his people / onles that he ſhuld be taken as iudge ouer thoſe lawes wherfore we thinke that lyke as ki<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLunhyphen"/>ges and prynces before they were
+<pb facs="tcp:8583:30"/>
+criſtened / had power to order their people after the lawe that they than were of / and had power to auoyde all ſuche thinges: as might bringe any vnquyetneſſe amonge their peo<g ref="char:EOLhyphen"/>ple / that ſo the ſame princes after they were conuerted to the chryſten faythe / hadde as full power to kepe their people in peace and quyetnes as they had before they were criſte<g ref="char:EOLhyphen"/>ned. And that they maye auoyde al<g ref="char:EOLunhyphen"/>thyngꝭ that might breke their peace or bringe vnquietneſſe amonge their people / by what occaſyo<g ref="char:cmbAbbrStroke">̄</g> ſo euer it ſhulde happen to ryſe / ſo that they offe<g ref="char:cmbAbbrStroke">̄</g>de nat the cryſten faith that they haue receyued.</p>
+            </div>
+         </div>
+         <div n="10 (question 7)" type="chapter">
+            <head>¶ The ſeuenth queſtion. the tenth Chapiter.</head>
+            <pb facs="tcp:8583:31"/>
+            <p>
+               <seg rend="decorInit">I</seg>F a kinge that is an in<g ref="char:EOLhyphen"/>fydele wolde offre to be conuerted to the chriſte<g ref="char:cmbAbbrStroke">̄</g> fayth / and to receyue al the artycles of it / with all his people. But he wyll nat that his Subiectes ſhulde be bounde to breke their laboure / ne to kepe any holy dayes but onely the Sonday / Ne that hys ſubiectes ſhulde be be bounde to any lawes made after their conuercyon / but onely by ſuch lawes as ſhulde be made after the ordre and cuſtom of his realme whe<g ref="char:EOLunhyphen"/>ther he oughte to be receyued to the fayth with thoſe condicyons or nat. The tenth chapiter.</p>
+            <div type="answer">
+               <head type="sub">¶ The anſwer to the .vii. queſtio<g ref="char:cmbAbbrStroke">̄</g>.</head>
+               <p>THe anſwere that is made to the ſyxte queſtyon / ſheweth ſuffyciently &amp; playnly ynough how
+<pb facs="tcp:8583:31"/>
+this ſeuenth queſtion may be anſwe<g ref="char:EOLunhyphen"/>red. For if the Clergie haue aucto<g ref="char:EOLhyphen"/>ryte by the lawe of god to make ho<g ref="char:EOLhyphen"/>lydayes / and alſo to make lawes to bynde princes and their people / tha<g ref="char:cmbAbbrStroke">̄</g> there maye be none that wyll be of chriſtes fayth that ſhal refuſe them / For euery chriſten man muſt ſpecy<g ref="char:EOLhyphen"/>ally ꝓfeſſe to obſerue and kepe the lawe of god. But if the clergy haue made holydayes and lawes by a fre conſente and agrement of princes &amp; of the people / or by graunte of prin<g ref="char:EOLhyphen"/>ces / &amp; nat by the lawe of god. Tha<g ref="char:cmbAbbrStroke">̄</g> maye ſuche a kynge that is vncry<g ref="char:EOLhyphen"/>ſtened / and deſyreth to be cryſtened refuſe all thoſe holydaies &amp; lawes For they be nat made by the imme<g ref="char:EOLhyphen"/>dyat auctorite of the lawe of god / But the Sondaye / all cryſten men be boude to kepe holi by example of our lorde / which in the ſeuenth day reſted frome all workes that he had
+<pb facs="tcp:8583:32"/>
+made. As it appereth. Gene. ii. And yet we ſuppoſe that the Son<g ref="char:EOLhyphen"/>daye that is now vſed amonge cry<g ref="char:EOLhyphen"/>ſten men / might be chaunged to a<g ref="char:EOLhyphen"/>nother daye in the weke by princes and their people / ſo that one day in the weke be kepte as a daye of reſt / for prayer and contemplacyon. For it is but by the lawe &amp; ordynaunce of man that the Sondaye is kepte on this daye as it is nowe kepte a<g ref="char:EOLhyphen"/>monge chriſten men / for among the iewes it was kepte on the ſaturday Neuertheleſſe our meanyng is nat that it were good to haue the Son<g ref="char:EOLunhyphen"/>day alteryde to any other day in the weke / for y<hi rend="sup">e</hi> day that it is nowe kept on ſemeth to be the moſt conuenient daye that can be appoynted for it.</p>
+               <p>But our intent is to ſhewe how the Sondaye is by the lawe of god / &amp; howe it is by the lawe of man. And as for all other holye dayes they be
+<pb facs="tcp:8583:32"/>
+but ceremonyals brought vp by the deuotyon of the people / thorowe the good enſample of their byſſhoppes and preſtes / whiche vndoutedly ly<g ref="char:EOLhyphen"/>ued a bleſſed lyfe / in faſtynge / pray<g ref="char:EOLunhyphen"/>enge / and contemplacyon / in the by<g ref="char:EOLunhyphen"/>gynnynge of the church / more pure<g ref="char:EOLunhyphen"/>ly than lay me<g ref="char:cmbAbbrStroke">̄</g> dyd / ſo farforth that princes ſeyng the grace and vertue that was in them / were contented to ſuffre them to do many thynges concernynge the good ordre of the people / which they might haue do<g ref="char:EOLhyphen"/>ne themſelfe if they hadde lyſte: but princes haue nat al way accompted ceremonyes concernynge the orde<g ref="char:EOLhyphen"/>rynge of the people / to be of ſuche weyght as they haue ben in dede: but haue holden them as ſmall mat<g ref="char:EOLunhyphen"/>ters which haue ben very weyghty and therfore they haue ſuffred the Clergye to ordre them whyles they haue benne buſyed in weyghtyer
+<pb facs="tcp:8583:33"/>
+matters for the como<g ref="char:cmbAbbrStroke">̄</g> welth as they haue thought / though it haue natte alway ben ſo: for many ceremonyes be ryȝt moch to be regarded &amp; many perſones haue benne punyſſhed for brekyng of them as greuouſly as yf they had offended agaynſt the lawe of god and ſomtyme more / and ther vpon in proces of tyme the people haue thought that the clergye haue ordered ſuche ceremonyes and ma<g ref="char:EOLhyphen"/>de lawes theruppon by their owne power and by the immedyat aucto<g ref="char:EOLhyphen"/>rytye of the lawe of god / where it hath nat ben alway ſo in dede / but they ought in manye caſes to haue put the princes and their people in mynde to haue done it / and that is the very dutye of a watchma<g ref="char:cmbAbbrStroke">̄</g> to put the rulers of the cyte in minde what thinges be lyke to be dangerous vn<g ref="char:EOLunhyphen"/>to the cytie / and therupon to be cal<g ref="char:EOLhyphen"/>lers on that remedy may be prouy<g ref="char:EOLhyphen"/>ded
+<pb facs="tcp:8583:33"/>
+before the dau<g ref="char:cmbAbbrStroke">̄</g>ger come. But y<hi rend="sup">e</hi> clergye by ſuch ſuffera<g ref="char:cmbAbbrStroke">̄</g>ce (as before appereth) haue take<g ref="char:cmbAbbrStroke">̄</g> vpon the<g ref="char:cmbAbbrStroke">̄</g> to or<g ref="char:EOLhyphen"/>dre ſuche thynges as by their owne auctorite / &amp; that hath cauſed moche people to drede them &amp; their lawes more than their princes / wherby the power of princes to the<g ref="char:cmbAbbrStroke">̄</g> gyuen by god / hath greatly decayed and ben but lytel regarded / and by this ſuf<g ref="char:EOLhyphen"/>feraunce the clergye haue extended their power vpon the people verye greuouſly where vpon great grud<g ref="char:EOLhyphen"/>ges haue ryſen in manye places a<g ref="char:EOLunhyphen"/>monge the people: wherfore nowe that ſuch grudges be knowen prin<g ref="char:EOLhyphen"/>ces be bounden to knowe their own power and omyttynge other thi<g ref="char:cmbAbbrStroke">̄</g>ges that be nat for the tyme ſo neceſſary for the comen welth / ar bounde alſo to put to their handes for reforma<g ref="char:EOLhyphen"/>cyon / and nat to ceſſe tyll they haue brought ſuch maters to a good q<g ref="char:cmbAbbrStroke">̄</g>et<g ref="char:EOLhyphen"/>neſſe.
+<pb facs="tcp:8583:34"/>
+And as for other holydayes / if the multytude of the<g ref="char:cmbAbbrStroke">̄</g> be thoughte hurtfull to the common welthe / and rather to encreaſe vyce than vertue / or to gyue occaſyon to pride rather than to mekeneſſe / as parauenture the ſynodales and pertyculer holy<g ref="char:EOLhyphen"/>daies haue done in ſome places / the parlyament hath good authorite to reforme it. But as for the holydays that be kepte in the honour of oure lady / the poſtles / and other auncye<g ref="char:cmbAbbrStroke">̄</g>t ſayntes / they ſeme right neceſſarye &amp; expedyent to be co<g ref="char:cmbAbbrStroke">̄</g>tynued / though they be nat merely grou<g ref="char:cmbAbbrStroke">̄</g>ded by auc<g ref="char:EOLunhyphen"/>torite of the lawe of god. Thus we thynke that ſuch a prince as wolde be conuerted to the chriſten faythe maye refuce any of the ceremonyes and lawes made by the Clergye in tyme paſte / and yet be receyued to the principall artycles of the chriſten relygyon.</p>
+            </div>
+         </div>
+         <div n="11 (question 8)" type="chapter">
+            <pb facs="tcp:8583:34"/>
+            <head>¶ The .viii. queſtion. The .xi. cha.</head>
+            <p>IF a ma<g ref="char:cmbAbbrStroke">̄</g> auowe to offre a horſe or any other thyng to a ſaynt before a certayne ymage / whether that auowe muſte vpon payne of re<g ref="char:EOLunhyphen"/>ſtytucyon be performed quycke or ded / or nat. The .xi. chapiter.</p>
+            <div type="answer">
+               <head>¶ An anſwere to the .viii. queſtio<g ref="char:cmbAbbrStroke">̄</g>.</head>
+               <p>IF a ma<g ref="char:cmbAbbrStroke">̄</g> haue auowed to offre a horſe or any other thynge to a ſaynte / byfore a certayne Image. He that hath the profet of y<hi rend="sup">e</hi> offeri<g ref="char:cmbAbbrStroke">̄</g>ge there / hath after the lawes of the re<g ref="char:EOLunhyphen"/>alme no propertie in the thyng ſo a<g ref="char:EOLunhyphen"/>uowed tyll it be offred in dede. For after the lawes of the realme / ſuche a vowe is but as a nude contracte / and is voyde to all intentes / as to the lawe / if it be nat performed.</p>
+               <p>But if it be offred to the ſaynte ac<g ref="char:EOLhyphen"/>cordyng
+<pb facs="tcp:8583:35"/>
+to the auowe. Than he that hath the profet of the offerynge hath good propertie in it. Howbeit if the partye lyue we thinke it is ex<g ref="char:EOLhyphen"/>pedyent that he make his offerynge in fulfyllynge of his auowe / onleſſe he haue an vrgent cauſe to lette him that he maye nat do it. And if he ha<g ref="char:EOLhyphen"/>ue ſuche a reaſonable cauſe / than it ſemeth that he may turne it to ſome other good dede after his deuocion / for the lawe by<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>eth him natte to any reſtytucyon. And in lykewyſe it is / if a man withoute hauynge. Quid pro quo. promyſe to gyue a<g ref="char:EOLhyphen"/>nother .xx. pounde at a certayne day that promyſe in the law of the real<g ref="char:EOLhyphen"/>me is alſo voyde / and is called in y<hi rend="sup">e</hi> lawe a nude contracte / and none accyon lyeth vpon that promyſe.</p>
+               <p>Ne the partye is nat bounde in con<g ref="char:EOLhyphen"/>ſcyence to fulfyll the promyſe with<g ref="char:EOLhyphen"/>out he entended to be bounde by his
+<pb facs="tcp:8583:35"/>
+promyſe whan he made it. But if he vpon the promyſe made an othe that he wolde performe it / than we thynke he is bounde in conſcyence to parforme it in ſauynge of his oth whether he entended to be bounde by his promyſe or nat / though he be nat bounde therto by the lawe: But to ſaye that reſtitucyon muſt be ma<g ref="char:EOLunhyphen"/>de in this caſe to him that hathe the profyte of that offerynge / is but a<g ref="char:EOLhyphen"/>vayne ſayeng. And the people wol<g ref="char:EOLunhyphen"/>de be playnly inſtructed therein / to thentente that if any ſuche caſe ſhul<g ref="char:EOLunhyphen"/>de happen hereafter / that no man ſhulde thynke him ſelfe bounde in conſcyence to reſtytutyon where he is nat bounde to it. And ſo to haue a grudge in co<g ref="char:cmbAbbrStroke">̄</g>ſcye<g ref="char:cmbAbbrStroke">̄</g>ce where it nedeth nat.</p>
+            </div>
+         </div>
+         <div n="12 (question 9)" type="chapter">
+            <head>¶ The .ix. queſtion / The .xii. cha.</head>
+            <p>
+               <pb facs="tcp:8583:36"/>IF the writte of Excomunicato capiendo were put awaye by parlyamente. Whether the keyes of the churche were any thynge offen<g ref="char:EOLhyphen"/>ded therby or nat. The .xii. chapi.</p>
+            <div type="answer">
+               <head>¶ An anſwere to the .ix. queſtyon.</head>
+               <p>IF the writte of excomunicato capiendo. That is commenly called a Significauit / were put a<g ref="char:EOLhyphen"/>waye by parlyamente / the keyes of the church were nothinge therby of<g ref="char:EOLunhyphen"/>fended. For if the clergye make an excomunication / &amp; the partye exco<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLunhyphen"/>municate wyll nat obeye it / but ob<g ref="char:EOLhyphen"/>ſtynatly ſtande in his malyce / the clergye by vertue of the keyes hath no auctorite to impriſon him there<g ref="char:EOLhyphen"/>vpon / ne to compell him to any pe<g ref="char:EOLhyphen"/>naunce / ne to procede any farther bi their owne power. But than it hath ben vſed by a lawdable cuſtome of
+<pb facs="tcp:8583:36"/>
+the realme in mayntenau<g ref="char:cmbAbbrStroke">̄</g>ce of good ordre and vertu among the people / That if the byſſhop certifye the kin<g ref="char:EOLunhyphen"/>ge that ſuche an excomunicat ꝑſone hath ben accurſed .xl. dayes &amp; wyll nat be iuſtyfyed by the cenſures of y<hi rend="sup">e</hi> chyrche / as they call them / that than the kynge of his ſpecyall grace ſhal dyrecte the ſayd write of Excomu<g ref="char:EOLhyphen"/>nicato capie<g ref="char:cmbAbbrStroke">̄</g>do to the ſheryffe where the partye dwelleth co<g ref="char:cmbAbbrStroke">̄</g>maundynge him therby to iuſtifye the partye by the body vntyll he haue ſatyſfyed y<hi rend="sup">e</hi> chyrche / both of the contempt and of the wronge. &amp;c. And ſo it appe<g ref="char:EOLhyphen"/>reth that the grauntyng forth of the ſayd wrytte of Significauit depen<g ref="char:EOLunhyphen"/>deth onely vppon the power of the kynge and of his lawes &amp; nat vpon the i<g ref="char:cmbAbbrStroke">̄</g>mediate power of the clergye. Therfore though it were prohibyt the power of the clergye remayned hole vnto theym as it dydde before.
+<pb facs="tcp:8583:37"/>
+Neuertheleſſe oure intente is nat to proue that it wer good to put away the ſeyde writte of Significauit. For it is right good and conuenye<g ref="char:cmbAbbrStroke">̄</g>t to be vſed whan the caſe requyreth. But our intent is to haue it knowe<g ref="char:cmbAbbrStroke">̄</g> that the power of the grauntyng of the ſeyd writte dependeth vpon the ſayd cuſtome and lawes of the real me / and nat vpon the power of the Clergye: ſo that the Clergye maye the rather parceyue what great fa<g ref="char:EOLhyphen"/>uoure the kynge &amp; his lawes hathe borne to the ſpyrituall Iuriſdictio<g ref="char:cmbAbbrStroke">̄</g> vpon truſt that they haue had / that the ſpyrituall Iuriſdyction wyll ſo effectuouſly gyue eye vnto y<hi rend="sup">e</hi> truthe that none of the kynges Subiectes ſhulde be vniuſtly greued by ſuche exco<g ref="char:cmbAbbrStroke">̄</g>munications. But if it ſhul<g ref="char:EOLhyphen"/>de happen the people to be ouer<g ref="char:EOLhyphen"/>moch greued therby. Than ſhulde the kynge and his parlyamente be
+<pb facs="tcp:8583:37"/>
+bounde in conſcyence to prouyde re<g ref="char:EOLunhyphen"/>medy in that behalfe / as ſhulde be thought expedient for the good pece and quyetneſſe of his ſubiectes.</p>
+            </div>
+         </div>
+         <div n="13 (question 10)" type="chapter">
+            <head>¶ The tenth queſtion / The xiii. chapiter.</head>
+            <p>WHether the artycle of y<hi rend="sup">e</hi> ſtatute of Carleole that treateth of the comen ſeales of houſes of relygyon be a ſtatute or nat. And if it be a ſta<g ref="char:EOLhyphen"/>tute / why it hathe nat be put in exe<g ref="char:EOLhyphen"/>cutyon. The .xiii. chapiter.</p>
+            <div type="answer">
+               <head>¶ An anſwere to the .x. queſtyon.</head>
+               <p>THe article of the Statute of Carleole that treateth of the comen ſeales of houſes of relygion is a ſtatute / as the other chapiters in the ſayde ſtatute of Carleole are.
+<pb facs="tcp:8583:38"/>
+And we thynke ferther that two thi<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLunhyphen"/>ges haue cauſed the ſaid ſtatute nat to be put in execucyon / wherof one is this. The wordes of the ſtatute are ſo vncertayn of them ſelfe that the iudges coulde nat by the word / of y<hi rend="sup">e</hi> ſtatute iuge by order of y<hi rend="sup">e</hi> law what was the veraye meanynge of the makers therof for though it ſe<g ref="char:EOLhyphen"/>me that their meanynge was to pro<g ref="char:EOLunhyphen"/>uyde remedy for the ſaue kepynge of the comen Sealles of houſes of religion / and that lyke as the come<g ref="char:cmbAbbrStroke">̄</g> Seales had ben in tyme paſt in the kepynge of the Abbot or Prior or other ſoueratn only. &amp;c. that it ſhuld be fro thens forth in the kepynge of the Abbot or prior. &amp;c. And of .iiii. of the moſt dyſcrete brethern of the ſayd coue<g ref="char:cmbAbbrStroke">̄</g>t: Yet neuertheles / the ſta<g ref="char:EOLunhyphen"/>tute is that it ſhal be put into the ke<g ref="char:EOLunhyphen"/>pyng of the ſayd foure brethern vn<g ref="char:EOLhyphen"/>der the priuate ſeale of the Abbot / 
+<pb facs="tcp:8583:38"/>
+and ſo the wordes that folow after in the ſtatute / y<hi rend="sup">t</hi> is to ſay / ſo that the Abbot or Prior of the houſe may in no wyſe make a contracte or obliga<g ref="char:EOLunhyphen"/>cyon by him ſelfe / be voyed and of none effecte / for natwithſtandynge that the comen Seale be in the ke<g ref="char:EOLhyphen"/>pyng of the foure brethern vnto the priuate ſeale of Abbot: Yet may the Abbot make a contracte or obliga<g ref="char:EOLhyphen"/>cyon / as well as he might haue do<g ref="char:EOLhyphen"/>ne before the makynge of the ſeyde ſtatute. And ſo the vncertainte ther<g ref="char:EOLunhyphen"/>of is one cauſe why it hath nat ben put in executyon. Ther be alſo dy<g ref="char:EOLhyphen"/>uers other ſtatutꝭ / whrein the mi<g ref="char:cmbAbbrStroke">̄</g>de and intente of the makers / were nat ſo playnly declared / that the iuges after the ordre of the lawe might iu<g ref="char:EOLunhyphen"/>ge vpon them / tyll they were more plainly declared and interpreted by parlyament. For none maye inter<g ref="char:EOLhyphen"/>pretate a ſtatute but the parlyament
+<pb facs="tcp:8583:39"/>
+onely. And one of the ſtatutes that were in themſelfe vncertayn for the Iuges to iuge vpo<g ref="char:cmbAbbrStroke">̄</g> is this. It was inacted in the ſeuenth yere of kynge Rycharde the ſeconde the .xv. chap, That no man ſhulde cary / armour corne / vytayll / nor other refreſſhe<g ref="char:EOLhyphen"/>ment into any party of Skotlande on payne of forfeyture. &amp;c. And for bycauſe Berwicke which is in ſkot la<g ref="char:cmbAbbrStroke">̄</g>de was nat excepted i<g ref="char:cmbAbbrStroke">̄</g> the ſtatute though it were than as it is nowe in the Kynges handes: yet it was thought that the goodes caried thy ther were forfeyt. And the Iudges wolde nat take vpon them to enter<g ref="char:EOLhyphen"/>prete the ſtatute otherwyſe than the expreſſe wordꝭ of the ſtatute warra<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>ted the<g ref="char:cmbAbbrStroke">̄</g> to do. Wherfore in y<hi rend="sup">e</hi> .xv. yere of his reygne it was declared by ꝑ<g ref="char:EOLhyphen"/>lyament. That it was nat thentent of the ſeyde fyrſte ſtatute / that they that caryed anye vytayles to Ber<g ref="char:EOLhyphen"/>wycke
+<pb facs="tcp:8583:39"/>
+ſhuld ronne therfore i<g ref="char:cmbAbbrStroke">̄</g>to any penaltie of that fyrſt ſtatute. Alſo a ſtatute was made in y<hi rend="sup">e</hi> .viii. yere of kynge He<g ref="char:cmbAbbrStroke">̄</g>ry the .vi. wherby it was ordeyned y<hi rend="sup">t</hi> the chuſers of y<hi rend="sup">e</hi> knightꝭ of the parlyamente ſhulde be of the ſame countye / &amp; haue landes to the yerely value of .xl. ſhyllynges ouer the repriſes. But the ſtatute ſayd nat expreſly that the chuſers ſhulde haue la<g ref="char:cmbAbbrStroke">̄</g>des to the yerely value of .xl ſhyllynges within the ſame ſhyre / wherfore ſom men were of an oppy<g ref="char:EOLhyphen"/>nyon / that if he dwelled in the ſame ſhyre and had .xl. ſhillynges yerely in another ſhyre that it ſufficed / and ſome other thought the contrary.</p>
+               <p>And that lyke as the entente of the makers of the ſeyde Statute was that ſuche an elyſour ſhulde dwell within the ſame ſhyte / that their intente was that he ſhulde alſo ha<g ref="char:EOLhyphen"/>ue landes within the ſame ſhyre.</p>
+               <p>
+                  <pb facs="tcp:8583:40"/>And finally the matter was ſhewed in the parlyament in the tenth yere of kynge Henry the ſyxte / where it was inacted. That euery chewſer of the knyghtes of the parlyamente ſhulde haue .xl. ſhillingꝭ of freholde within the ſame ſhyere. And ſo we thynke that one cauſe why the ſeide ſtatute of Carleole was natte putte in executyon / was the vncertayntie of the wordes of the ſtatute. And therfore / if it were yet declared and made more certayne / we thynke it were a right good dede. Another cauſe why the ſeyde ſtatute was nat put in executyon / we ſuppoſe to be this. That is to ſaye / that abbottes and other ſpiritual me<g ref="char:cmbAbbrStroke">̄</g> in tho dayes pretended that it was nat in the po<g ref="char:EOLhyphen"/>wer of the parlyament to ordre ſuch ſpyrituall matters / as they thought the kepynge of the comen ſeales in ſpyrituall houſes was / &amp; that ther<g ref="char:EOLhyphen"/>fore
+<pb facs="tcp:8583:40" rendition="simple:additions"/>
+/ they were vnder the pretence of a more clere way in conſyence en<g ref="char:EOLunhyphen"/>couraged y<hi rend="sup">e</hi> iuges to ſuffre the ſeyd ſtatute to lye vnexecuted / and what ſo euer the occaſyon therof was / the truth is / that the ſeyde ſtatute was neuer yet put in execucyon. But if the ſtatute were playnly declared &amp; put in execucyon herafter: it ſhulde ſeme to be a right expedyente acte / for the well ordringe of many rely<g ref="char:EOLhyphen"/>gyouſe howſes within this realme.</p>
+            </div>
+         </div>
+         <div n="14 (question 11)" type="chapter">
+            <head>¶ The .xi. queſtyo<g ref="char:cmbAbbrStroke">̄</g>. The .xiiii. cha.</head>
+            <p>
+               <seg rend="decorInit">I</seg>F a man be accurſed for dyſobeyenge of any of the conſtytucyons pro<g ref="char:EOLhyphen"/>uyncyall or decres that be agaynſte the kynges lawes and his prerogatyue / what daunger he renneth in by that exco<g ref="char:EOLhyphen"/>municacion. The .xiiii. chapiter.</p>
+            <div type="answer">
+               <pb facs="tcp:8583:41"/>
+               <head>¶ An anſwere to the .xi. queſtyon.</head>
+               <p>IF a man be accurſed for dyſ<g ref="char:EOLhyphen"/>obeynge of any of the conſti<g ref="char:EOLhyphen"/>tucyons prouyncyall or decres / that be agaynſte the kynges lawes and his prerogatyue / or for anye cauſe wherof the ſute parteyneth to the ki<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLunhyphen"/>ges courte / the excommunicacyon is nat ſuffycyente in the lawes of the realme / ne a ſignificauit lyeth nat in ſuche caſe if the truth of the mat<g ref="char:EOLhyphen"/>ter appere to the kynge / and if the byſſhoppe certifye the excommunica<g ref="char:EOLhyphen"/>tyon to the kynge / and ſheweth nat the caſe therof. And therupon the exco<g ref="char:cmbAbbrStroke">̄</g>municate is taken by a ſigni<g ref="char:EOLhyphen"/>ficauit &amp; put in priſon / &amp; than he by his frendes ſheweth the matter be<g ref="char:EOLhyphen"/>fore the kyng in his Chauncery / the partye oughte therupon to be dely<g ref="char:EOLhyphen"/>uered out of priſon. And if the byſ<g ref="char:EOLhyphen"/>ſhoppe wyll in nowyſe aſſoyle him
+<pb facs="tcp:8583:41"/>
+whan he is delyuered out of the priſon he offendeth agaynſt the kynge and his lawes right greuouſly for deny<g ref="char:EOLunhyphen"/>enge the abſolucyon.</p>
+            </div>
+         </div>
+         <div n="15 (question 12)" type="chapter">
+            <head>¶ The .xii. queſtion / The .xv. cha.</head>
+            <p>WHether the kynges Courte be put out of iuriſdictyon for ty<g ref="char:EOLhyphen"/>thes by the lawe of god or by cuſto<g ref="char:cmbAbbrStroke">̄</g>e of the realme. The .xv. chapiter.</p>
+            <div type="answer">
+               <head>¶ An anſwere to the .xii. queſtion.</head>
+               <p>THe people be bounde by the lawe of reaſon and alſo by the lawe of god to gyue vnto theyr ſpirituall mynyſters a ſuffycyente portion of their goodes to ſuſtayne them with: But that the ſpirituall mynyſters ſhulde haue the .x. parte in the name of y<hi rend="sup">e</hi> reaſonable porcion is onely by the lawe of man and by
+<pb facs="tcp:8583:42" rendition="simple:additions"/>
+a cuſtome of the realme. And ther<g ref="char:EOLhyphen"/>fore if that .x. parte were nat ſuffy<g ref="char:EOLhyphen"/>cyent in any place for a reaſonable ſuſtentacion of the ſpirituall myni<g ref="char:EOLhyphen"/>ſtres the people were bounde to gy<g ref="char:EOLhyphen"/>ue them more. And yf it be to much and ouer greuous to the people / the parliament may moderate it. But than though a reaſonable porcyon be due to the ſpirituall mynyſtres by the law of god as is ſayd before yet that the ſute ſhalbe take<g ref="char:cmbAbbrStroke">̄</g> for that reaſonable porcyon in the ſpirituall courte yf it be denyed is only grou<g ref="char:cmbAbbrStroke">̄</g> dyd vpon a fauour that the kyngꝭ of this realme and the hole realme haue in tyme paſte borne vnto the clergye / for though the porcyon be due by lawe of god: yet it were no thynge agaynſte the lawe of god though the ſute for the porcyon ſhul<g ref="char:EOLunhyphen"/>de be take<g ref="char:cmbAbbrStroke">̄</g> in y<hi rend="sup">e</hi> kynges courte: And paraue<g ref="char:cmbAbbrStroke">̄</g>ture it were the more indiffe<g ref="char:EOLhyphen"/>rent
+<pb facs="tcp:8583:42"/>
+wey if it were ſo / for nowe they be both iudges and partyes / but as for the tenth parte it is much more ſtronger that the ſute myght be taken in the kynges courte with out offendyng the lawe of god: and ſo we thynke that the kyngꝭ courtꝭ be put out of iuryſdyccio<g ref="char:cmbAbbrStroke">̄</g> for tythes by a cuſtome of the realme and nat by the immediat power of the lawe of god: And that it is ſo / it maye more playnly appere thus / longe af<g ref="char:EOLunhyphen"/>ter that the kynges courtes of his Benche and Comen place / and al<g ref="char:EOLhyphen"/>ſo other inferiall courtes were put out of iuriſdiccyon for tythes: Yet neuertheles writtes of Scire faci<g ref="char:EOLhyphen"/>as were comenly ſued in the Chaun<g ref="char:EOLunhyphen"/>cerye for tythes / and the defendaun<g ref="char:EOLunhyphen"/>tes were ther vpon put to anſwere / wherfore at the petycion of the cler<g ref="char:EOLhyphen"/>gy / and in co<g ref="char:cmbAbbrStroke">̄</g>ſyderation of a dyſme that the clergye grau<g ref="char:cmbAbbrStroke">̄</g>ted to the kyn<g ref="char:EOLhyphen"/>ge
+<pb facs="tcp:8583:43"/>
+it was enacted in the parliament holden at weſtm<g ref="char:cmbAbbrStroke">̄</g> in the .xviii. yere of kynge Edward the .iii. the laſte Chapiter that ſuch writtꝭ of Scire facias ſhulde nat fro thenſforthe be graunted for tythes / &amp; that the pro<g ref="char:EOLhyphen"/>ces than depending vpon ſuch writ<g ref="char:EOLunhyphen"/>tes ſhulde be voyde / and that the ꝑ<g ref="char:EOLunhyphen"/>tyes ſhulde be dyſmyſſed afore ſecu<g ref="char:EOLunhyphen"/>ler iudges of ſuche maner of plees / ſauinge to the kynge ſuche right as he &amp; his aunceſtours haue had / and of reaſon ought to haue / And by rea<g ref="char:EOLunhyphen"/>ſon of this ſtatute no ſute maye be taken in the Chauncery for tythes / but onely by the kynges patentes / and therfore yf it were ordeyned by parlyament that the ſutes for ty<g ref="char:EOLhyphen"/>thes ſhuld here after be taken in the kynges courte. The parlyament ought to be obeyed therin / aſwel by ſpirituall men as by te<g ref="char:cmbAbbrStroke">̄</g>porall. How be it we wyll nat fully afferme that
+<pb facs="tcp:8583:43" rendition="simple:additions"/>
+it were good ſo to haue it ordered / for as longe as the ſpirituall iuriſ<g ref="char:EOLhyphen"/>dyction wyll ordre the ſutes therof there accordyng to right and good indyfferencye / it is ſufferable that the ſutes be taken there for tythes herafter as they haue ben in tymes paſte. But if they vſe them ſelfe in ſuch percyall maner / that the peple haue iuſt cauſe to complayne of the parcyalyte / tha<g ref="char:cmbAbbrStroke">̄</g> ſhall the parlyame<g ref="char:cmbAbbrStroke">̄</g>t be bounde in conſcyence to loke dy<g ref="char:EOLhyphen"/>lygently on the matter and to ſee it reformed. Alſo it is only by the cu<g ref="char:EOLhyphen"/>ſtome of the realme / that dyuers thi<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLunhyphen"/>ges be tryed by the ſpyrituall court and nat by the kynges lawes: as it is of this Iſſue. He is a monke pro<g ref="char:EOLunhyphen"/>feſſed or nat profeſſed / dereyned or nat dereygned / admytted and inſti<g ref="char:EOLhyphen"/>tuted or nat admytted / able or nat able / Bygamus or nat Bygamus / playne or nat playne. All theſe Iſ<g ref="char:EOLhyphen"/>ſues
+<pb facs="tcp:8583:44"/>
+and many other may ſomtyme be tryed by the ordynary / but <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>arte alway: for if ſuch maters be pleded in abatemente of the writte / or that ſuch matters be aledged i<g ref="char:cmbAbbrStroke">̄</g> them that be ſtraungers to the ple: or if diſaby<g ref="char:EOLunhyphen"/>lyte be aleyed in one that is deed: or if the ordynarye certifye that he in whom profeſſyon is aleyed / is exe<g ref="char:cmbAbbrStroke">̄</g>p<g ref="char:EOLunhyphen"/>ted from his iuriſdyction. It ſhall be tryed euyn as the lawe is nowe / by the kinges lawes. And tf it were enacted that it ſhulde be ſo in al ca<g ref="char:EOLhyphen"/>ſes / the lawe af god were nothynge offended therby. Howbeit we ſaye nat this: to thentente it ſhulde be ſo enacted / but that we thynke it con<g ref="char:EOLhyphen"/>uenyent that the clergy ſhuld know that they haue that power by the fa<g ref="char:EOLunhyphen"/>uour of the kyng and of his realme by reaſon of a ſpecyall truſt and co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>fydence that the kynges of this real<g ref="char:EOLunhyphen"/>me / and the hole realme haue had in
+<pb facs="tcp:8583:44"/>
+the ordynaryes in tyme paſt. But if they myſordre them ſelfe therin / and refuſe to obeye the kynges lawes / or clayme that power onely by the lawes of god / ſo that it maye in no wyſe be taken fro them / where it is natte ſo in dede. Than as it ſemeth good charite wolde that to gyue the<g ref="char:cmbAbbrStroke">̄</g> the more occaſyon of mekenes / that they ſhulde knowe the power of the kynge and of his parlyame<g ref="char:cmbAbbrStroke">̄</g>t therin. And it is no dout but that the parly<g ref="char:EOLunhyphen"/>ament maye with a cauſe take that power fro them / and might alſo ha<g ref="char:EOLunhyphen"/>ue done lykewyſe before it was re<g ref="char:EOLhyphen"/>cognyſed by the parlyame<g ref="char:cmbAbbrStroke">̄</g>t / and by the clergye that the kynge was the heed of the church of Englande / for he was ſo before that recongnicion was made: as all other criſten prin<g ref="char:EOLunhyphen"/>ces be in theire owne realmes ouer all their Subiectes ſpirituall and temporall.</p>
+            </div>
+         </div>
+         <div n="16 (question 13)" type="chapter">
+            <pb facs="tcp:8583:45"/>
+            <head>¶ The .xiii. queſtion. the .xvi. cha.</head>
+            <p>
+               <seg rend="decorInit">W</seg>Hether the determinatio<g ref="char:cmbAbbrStroke">̄</g>s vpo<g ref="char:cmbAbbrStroke">̄</g> certayn artycles here after folowyng. and that be recyted in the ſummes called Su<g ref="char:cmbAbbrStroke">̄</g>ma angelica &amp; Summa roſella / ſtande with the lawes of the realme or nat. And if nat whether a<g ref="char:EOLunhyphen"/>ny hurte maye come by them if they be ſuffred to contynewe any lengre or nat. The .xvi. chapiter.</p>
+            <p>¶ If a ſeculer Iuge be neclygente in doynge of Iuſtyce / whether a ſpi<g ref="char:EOLunhyphen"/>rytual iuge may compell him to do iuſtyce / or to ſupply his rome &amp; here the cauſe &amp; it is ſaid there y<hi rend="sup">t</hi> he may. Su<g ref="char:cmbAbbrStroke">̄</g>ma Ro. Iudex .ii. para. iiii.</p>
+            <p>Whether the goodes of them that miniſter the goodes of the churche be bounde for the churche goodes.
+<pb facs="tcp:8583:45"/>
+And if ſuche miniſters doo pledge their goodꝭ for neceſſyty to another whether the goodes pledged ſtande charged. And it is ſayde there that they do. Ro. pignus. para. ii. in pri<g ref="char:cmbAbbrStroke">̄</g>.</p>
+            <p>Whether relygyouſe perſo<g ref="char:cmbAbbrStroke">̄</g>s ſhall ſuccede to their aunceſtours. And it is anſwered that they ſhall excepte freres minours. Roſ. religio. iiii. Para. xiiii.</p>
+            <p>Whether any gyfte betwene the huſba<g ref="char:cmbAbbrStroke">̄</g>de and the wyfe may be good And it is ſayd yea. wha<g ref="char:cmbAbbrStroke">̄</g> the huſba<g ref="char:cmbAbbrStroke">̄</g>d gyueth it cauſa remu<g ref="char:cmbAbbrStroke">̄</g>eracionis. ro. in the tytle donatio. i. Para. xxxii.</p>
+            <p>If a man do treaſon whether the gyfte of goodes after the treaſon &amp; before atteyndre be good. Summa an. in the tytle donacio. i Para. xii, And it ſemeth there naye. And loke Su<g ref="char:cmbAbbrStroke">̄</g>. an i<g ref="char:cmbAbbrStroke">̄</g> y<hi rend="sup">e</hi> title alienatio. pa. xxiiii</p>
+            <p>
+               <pb facs="tcp:8583:46"/>If a man make a wyll and enter into religton / whether he may after reuoke the wyll. And it is ſayd that Freres Mynours maye nat and o<g ref="char:EOLhyphen"/>ther may. Su<g ref="char:cmbAbbrStroke">̄</g>. Ro. in the tytle do<g ref="char:EOLhyphen"/>nacio. i. Para. xxxv. in fine.</p>
+            <p>Whether all that is bought with the money of the church be the chur<g ref="char:EOLunhyphen"/>ches. And it is anſwered ye. Sum. Ro. in the tytle Ecclia. i. Para. vii</p>
+            <p>Whether the byſſhops palayes be ſent wary. And it is anſwered yes. Sum. Ro. i<g ref="char:cmbAbbrStroke">̄</g> the tytle Emunitatas. .ii. Para. xxiiii.</p>
+            <p>Whether the dignite of a biſſhop or preſthod diſcharge bondage. and it is ſayd yes / but it is agreed that they ought nat to be receyued ther<g ref="char:EOLhyphen"/>to. &amp;c. Su<g ref="char:cmbAbbrStroke">̄</g>. Ro. in the tytle Ep<g ref="char:cmbAbbrStroke">̄</g>us in principio.</p>
+            <p>
+               <pb facs="tcp:8583:46"/>Whether a clerke be bou<g ref="char:cmbAbbrStroke">̄</g>de to pay any impoſicions or tallages for his patrymony or otherwyſe. Su<g ref="char:cmbAbbrStroke">̄</g>. Ro. in the tytle exco<g ref="char:cmbAbbrStroke">̄</g>municacio octaua. pa. iiii. v. et vi. et diuiſione nona. Para. i.</p>
+            <p>If it were ordeyned by ſtatute that if a man ſell. &amp;c. that he ſhall gi<g ref="char:EOLunhyphen"/>ue to the kynge .ii. pence. whether a clerke be bou<g ref="char:cmbAbbrStroke">̄</g>de if he ſell of his pre<g ref="char:EOLunhyphen"/>bende. And it is ſayde nay. Sum. Ro. in the tytle exco<g ref="char:cmbAbbrStroke">̄</g>municacio. i. di<g ref="char:EOLunhyphen"/>uiſione nona. Para. iii.</p>
+            <p>If it be ordeyned by ſtatute that there ſhall nat be layde vpon a deed perſone but ſuch a certayne cloth or thus many tapers or candeles / whe<g ref="char:EOLunhyphen"/>ther the ſtatute be good. And it is lefte for a queſtion. Su<g ref="char:cmbAbbrStroke">̄</g>. Ro. in the tytle exco<g ref="char:cmbAbbrStroke">̄</g>icatio .i. diuiſione .xviii. Para. viii. in fine.</p>
+            <p>
+               <pb facs="tcp:8583:47"/>Thinges i<g ref="char:cmbAbbrStroke">̄</g>mouable of the church maye nat be gyuen. Su<g ref="char:cmbAbbrStroke">̄</g>. Ro. in the tytle feodum. Para. i. et vide ibi in principio / what feodum is.</p>
+            <p>To whom treaſure founde belon<g ref="char:EOLunhyphen"/>geth. And the anſwere therin vary<g ref="char:EOLhyphen"/>eth moch fro the lawe of the realme / and is alſo agaynſte the kyngꝭ pre<g ref="char:EOLhyphen"/>rogatyue. Summa. Ro. in the ty<g ref="char:EOLhyphen"/>tle furtum. Para. xi.</p>
+            <p>The goodes of deed men go to y<hi rend="sup">e</hi> heyres / and that of dampned men / and by that terme goodes they vn<g ref="char:EOLhyphen"/>derſtande landes &amp; tenyme<g ref="char:cmbAbbrStroke">̄</g>tꝭ. Su<g ref="char:cmbAbbrStroke">̄</g> / Ro. in the tytle hereditas. Para. i.</p>
+            <p>If goodꝭ be fou<g ref="char:cmbAbbrStroke">̄</g>de that were lefte of the owner as forſaken who hathe right to them. Sum. Ro. in the ty<g ref="char:EOLhyphen"/>tle inuenta. Para. ii. et vide. Sum. Ro. in the tytle. furtum. Para. xvii</p>
+            <p>
+               <pb facs="tcp:8583:47"/>If a man bequeth another mans good of what effecte it is. Su<g ref="char:cmbAbbrStroke">̄</g>. Ro. in the tytle legare. para. i. et .ii.</p>
+            <p>If a man bequeth to his wyfe his ornamentes whiche haue certayne golde and Iuelles vpon the<g ref="char:cmbAbbrStroke">̄</g> that is nat lawfull to vſe after the ſtatutes of the countrey. whether the golde &amp; Iuelles paſſe. Ro. Legare. para. xiiii, et xv.</p>
+            <p>If a ma<g ref="char:cmbAbbrStroke">̄</g> bequeth to his daughter wha<g ref="char:cmbAbbrStroke">̄</g> ſhe maryeth a certaine ſo<g ref="char:cmbAbbrStroke">̄</g>me of money / &amp; ſhe entreth in to relygion whether the bequeſte holde. Ro. in the tytle legare. Para. xxvii.</p>
+            <p>If two haue an houſe in comen and one wyll ſette it / and the other wyll dwell in it / who ſhalbe prefer<g ref="char:EOLhyphen"/>red. Ro. locatio. Para. vi.</p>
+            <p>wherby y<hi rend="sup">e</hi> rent of a thi<g ref="char:cmbAbbrStroke">̄</g>g ſet to ferme
+<pb facs="tcp:8583:48"/>
+ſhalbe releaſed. Ro. locacio. pa. ix. et .x. And it is ſayd by tempeſte and enemyes. &amp;c. et vide pedagiu<g ref="char:cmbAbbrStroke">̄</g> .xviii</p>
+            <p>Whether the rente ſhalbe encrea<g ref="char:EOLhyphen"/>ſed if the thynge let be amended of it ſelfe. Ro. locacio. Para. xi. et .xii. And it is ſaide if a myll encreaſe by decaye of other mylles / the re<g ref="char:cmbAbbrStroke">̄</g>te ſhal be encreaſed</p>
+            <p>If a prelate relygiouſe without aſſente of the couente make a leaſe for terme of lyfe / or to a certayne ter<g ref="char:EOLunhyphen"/>me / he is ſuſpended / &amp; nought goth to y<hi rend="sup">e</hi> grau<g ref="char:cmbAbbrStroke">̄</g>tee. Ro. locacio. pa. xxiiii</p>
+            <p>Whether la<g ref="char:cmbAbbrStroke">̄</g>des of the church may be pledged. Ro. pignus. para. vi.</p>
+            <p>Whether a preſcription ſerueth a<g ref="char:EOLunhyphen"/>gaynſte him that hath payed a thi<g ref="char:cmbAbbrStroke">̄</g>g longe without cauſe. And it is aun<g ref="char:EOLhyphen"/>ſwered naye. Ro. p<g ref="char:cmbAbbrStroke">̄</g>ſcripco<g ref="char:cmbAbbrStroke">̄</g>. pa. xxii</p>
+            <p>
+               <pb facs="tcp:8583:48"/>Whether vpon a nude contracte may be grounded any accion. And it is ſayd yea. Ro. ꝓmiſſio. pa. v.</p>
+            <p>If a monke that is fugytiue / or a poſtata come to goodes / to whom belo<g ref="char:cmbAbbrStroke">̄</g>geth the goodes. And it is ſaid there to the monaſterye. Ro. reli<g ref="char:EOLhyphen"/>gio para. i. and Loke. Ro. religio. .iiii. para. xii.</p>
+            <p>Whether goodes that a man gy<g ref="char:EOLhyphen"/>ueth to the monaſtary that he goth to folow him if he go to another mo<g ref="char:EOLunhyphen"/>naſtery. Ro. religio .iiii. Para. xi.</p>
+            <div type="answer">
+               <head>¶ An anſwere to the artycles con<g ref="char:EOLhyphen"/>tryued in the ſeyd .xiii. queſtion.</head>
+               <p>WE thynke that all the ſeyd arty<g ref="char:EOLunhyphen"/>cles be eyther agaynſt the kin<g ref="char:EOLhyphen"/>ges lawes / orels that they be of non auctorite in this realme. And ther<g ref="char:EOLhyphen"/>fore
+<pb facs="tcp:8583:49"/>
+whoſoeuer in this realme ordre their conſcyence after the determy<g ref="char:EOLhyphen"/>nacyons of the ſeyde ſo<g ref="char:cmbAbbrStroke">̄</g>mes mencio<g ref="char:EOLunhyphen"/>ned in the ſeyd .xiii. queſtyon / and by the auctorite of the ſeyd ſommes we thynke they erre in conſcyence. And we thi<g ref="char:cmbAbbrStroke">̄</g>ke ferther alſo that it is very lyke that ſo<g ref="char:cmbAbbrStroke">̄</g>me ſpirituall men in ar by treme<g ref="char:cmbAbbrStroke">̄</g>tes &amp; other cou<g ref="char:cmbAbbrStroke">̄</g>ſelles / and alſo in their iugementes haue ben diſceyued therby in tyme paſt. And that it is very lyke that many of them wyll be ſo / tyll a playne de<g ref="char:EOLhyphen"/>claracyon be made therupon / accor<g ref="char:EOLhyphen"/>dynge to the lawes of the realme.</p>
+               <p>And the daunger is ſuch / that they that gyue ſentence accordynge to y<hi rend="sup">e</hi> ſeyd artycles or any other that be a<g ref="char:EOLunhyphen"/>gaynſt the lawe of the realme bynde the<g ref="char:cmbAbbrStroke">̄</g>ſelf therby to reſtituco<g ref="char:cmbAbbrStroke">̄</g>n nat only of the thinge in varia<g ref="char:cmbAbbrStroke">̄</g>ce / but alſo of all the coſtꝭ &amp; damages that the ꝑtye ſhall ſuſtayn by occaſion of y<hi rend="sup">e</hi> ſame.</p>
+            </div>
+         </div>
+         <div n="17 (question 14)" type="chapter">
+            <pb facs="tcp:8583:49"/>
+            <head>¶ The .xiiii. queſtio<g ref="char:cmbAbbrStroke">̄</g>. the .xvii. cha.</head>
+            <p>WHat ſhulde cauſe the hygheſt come<g ref="char:cmbAbbrStroke">̄</g> welth now in theſe daies</p>
+            <p>The .xvii. chapiter.</p>
+            <div type="answer">
+               <head>¶ An anſwere to the .xiiii. queſtio<g ref="char:cmbAbbrStroke">̄</g>.</head>
+               <p>THe hygheſt come<g ref="char:cmbAbbrStroke">̄</g> welth that could be now in theſe dayes wer this. That al kynges &amp; pri<g ref="char:cmbAbbrStroke">̄</g>ces wolde fall to a louynge peaſe and concorde togyther / &amp; that they wold than conſyder what highe power &amp; auctorite they haue receyued of our lorde ouer his people / &amp; how ſtrayt acco<g ref="char:cmbAbbrStroke">̄</g>pte they haue to make therfore herafter / and that they wolde ther<g ref="char:EOLhyphen"/>vpon with all dilyge<g ref="char:cmbAbbrStroke">̄</g>ce fro tyme to tyme put that power in execucyon to the honoure of god and welth of the people. And that they ſpecially by ſuch counſell as they ſhall thi<g ref="char:cmbAbbrStroke">̄</g>ke
+<pb facs="tcp:8583:50"/>
+moſt diſpoſed to ſaye the truthe.</p>
+               <p>Haue this verſe whiche is written. Pſalmo .ii. Et nunc reges intelli<g ref="char:EOLhyphen"/>gite erudimini qui iudicatis terra<g ref="char:cmbAbbrStroke">̄</g>. And this text. Rex ſapiens: populi ſtabilimentu<g ref="char:cmbAbbrStroke">̄</g> eſt. which is Sap. ii Playnly and truly expounded and declared vnto them / and dilygently to folowe the ſame. And certayne it is that he that ſayde. My delyte is to be with the ſonnes of men / wolde nat haue his people lyue out of or<g ref="char:EOLhyphen"/>dre / ne be blynded with darkeneſſe of ignorau<g ref="char:cmbAbbrStroke">̄</g>ce. And if the ſeyd textes be wel vnderſtande / it wyll appere therby / that the high iugemente is in princes / and that it lyeth in prin<g ref="char:EOLunhyphen"/>ces to appeaſe all varyaunces and vnquyetneſſe that ſhall ryſe amo<g ref="char:cmbAbbrStroke">̄</g>ge the people / by what occaſion ſoeuer it ryſe ſpyrituall or temporall / and it wyll appere therby alſo / that the kynges grace hathe nowe no newe
+<pb facs="tcp:8583:50"/>
+auctorite by that / that he is co<g ref="char:cmbAbbrStroke">̄</g>feſſed by the clergy / and auctoriſed by the parlyame<g ref="char:cmbAbbrStroke">̄</g>t to be the heed of the chur<g ref="char:EOLunhyphen"/>che of Englande. For it is but only a declaracyon of his fyrſt power by god commytted to kynglye &amp; regall auctorite / &amp; no newe graunte. and that for all the power that he is the heed of the churche / that yet he hath none auctorite to miniſter any of y<hi rend="sup">e</hi> ſacrame<g ref="char:cmbAbbrStroke">̄</g>tes / ne to do any other thi<g ref="char:cmbAbbrStroke">̄</g>g ſpyrituall / wherof oure lorde gaue power only to his apoſtles and diſ<g ref="char:EOLhyphen"/>cyples. And bycauſe princes haue nat here tofore commenly ben ler<g ref="char:EOLhyphen"/>ned of theym ſelfe to knowe their owne power in all thynges to them co<g ref="char:cmbAbbrStroke">̄</g>mytted by god. It is therfore ex<g ref="char:EOLhyphen"/>pedyent that they haue trewe / iuſte and indyfferent counſeyle / as well ſpyrituall as temporall / the whiche as minyſters vnder them / maye fro tyme to tyme declare theire power
+<pb facs="tcp:8583:51"/>
+vnto them / and put them in mynde what is expedyent to be done for y<hi rend="sup">e</hi> co<g ref="char:cmbAbbrStroke">̄</g>men welth: ſettyng alway truthe before their eyen / with y<hi rend="sup">e</hi> faithe and obedyence that they are bounde to bere vnto their prince / ſpecyally co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>cernynge the power and auctoritye that he hathe receyued of god / for myniſtracyon of Iuſtyce vnto his ſubiectes / and for kepynge of them in peace and quyetneſſe.</p>
+            </div>
+         </div>
+         <div n="18" type="chapter">
+            <head>¶ Of dyuers auctorities and rea<g ref="char:EOLhyphen"/>ſons / wherby many haue pretended in time paſt / y<hi rend="sup">t</hi> the clergy ſhuld haue both powers / y<hi rend="sup">t</hi> is to ſay ſpu<g ref="char:cmbAbbrStroke">̄</g>al &amp; tem<g ref="char:EOLunhyphen"/>porall / with anſweres to the ſame reaſons. The .xviii. chapiter.</head>
+            <div n="1" type="reason">
+               <head>
+                  <g ref="char:trefoil">♣</g> The fyrſt reaſon is this.</head>
+               <p>OVre lorde ſayde to his diſcy<g ref="char:EOLhyphen"/>ples. Math. xviii. Quod<g ref="char:EOLhyphen"/>cum<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ligaueritis ſuꝑ terram erit
+<pb facs="tcp:8583:51"/>
+ligatum et in celo. Et quodcum<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ſolueritis ſuper terram erit ſolutu<g ref="char:cmbAbbrStroke">̄</g> et in celo. And than they ſaye that he that gaue the<g ref="char:cmbAbbrStroke">̄</g> auctorite to bynde and loſe all thynge / gaue them auc<g ref="char:EOLunhyphen"/>torite to make lawes of all thynge: And lawes of al thynges can nat be made without power / as well ſpy<g ref="char:EOLhyphen"/>rytuall as temporall. &amp;c. wherefore they ſaye it muſt nedes folowe that the clergye hath both powers.</p>
+            </div>
+            <div n="2" type="reason">
+               <head>¶ The ſeconde reaſon.</head>
+               <p>ALſo the apoſtles ſayd to our lorde. Luc. xxi. Here be .ii. ſwerdes / and he anſwered that ſuf<g ref="char:EOLhyphen"/>fyſith. And than they ſaye / that by theſe two ſwerdes are vnderſtande both powers / that is to ſaye <choice>
+                     <abbr>ſpu<g ref="char:cmbAbbrStroke">̄</g>all</abbr>
+                     <expan>ſpirituall</expan>
+                  </choice> and temporall. And than they ſaye farther / y<hi rend="sup">t</hi> if our lorde had thought <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hoſe powers to moche for his apo<g ref="char:EOLhyphen"/>ſtelles
+<pb facs="tcp:8583:52"/>
+/ that he wolde nat haue ſayd of the two ſwerdes / it ſuffyſith / but it is to moche.</p>
+            </div>
+            <div n="3" type="reason">
+               <head>¶ The thirde reaſon.</head>
+               <p>ALſo it is ſayde. Mat. xviii. If thy brother offende the / correcte him betwene him and the / and if he here the / thou haſte wonne thy brother: and if he here the nat / take with the one or two wytneſſe. And if he here the nat than / ſhewe it to the churche / and if he here nat the churche / let him be to the as an Ethnyke and a publican. And than they ſay that by thoſe wordes: ſhew it to the church / is vnderſtande the ſpyritualtye. And that / in that it is ſayd / if thy brother offende the. &amp;c. and ſheweth natte in what offence / that it is vnderſtande of all offe<g ref="char:cmbAbbrStroke">̄</g>ces Spyrituall and Temporall. &amp;c.</p>
+               <div type="answer">
+                  <pb facs="tcp:8583:52"/>
+                  <p>¶ The anſwere to theſe .iii. reaſo<g ref="char:cmbAbbrStroke">̄</g>s before / appereth in y<hi rend="sup">e</hi> .ix. <abbr>chapiter</abbr> of this boke.</p>
+               </div>
+            </div>
+            <div n="4" type="reason">
+               <head>The fourth reaſon.</head>
+               <p>ALſo it is written. Primo ad Corinth ii. Spiritualis autem iudicat omnia et ipſe a nemi<g ref="char:EOLunhyphen"/>ne iudicatur: That is to ſaye / A ſprituall man iudgeth all thynges / and he is iuged of no man. And tha<g ref="char:cmbAbbrStroke">̄</g> they ſaye / than he that maye iuge al thynges hath power as well ſpiry<g ref="char:EOLhyphen"/>tuall as temporall. &amp;c.</p>
+               <div type="answer">
+                  <head>An anſwere to this .iiii. reaſon.</head>
+                  <p>¶ The wordes of the Appoſtle in this place ar of this effecte that the ſpirituall man / that is to ſay / a ma<g ref="char:cmbAbbrStroke">̄</g> that foloweth the iugemente of the ſpirit / Iugeth all thynges as they be: That is / thynges worldly to be but vayne / diſceytfull / and of ſhort
+<pb facs="tcp:8583:53"/>
+abydyng / and thinges goſtly to be ſothfaſt / true / and alway abydyng. And ouer that for the more clere vn<g ref="char:EOLhyphen"/>derſtandynge of this texte of the a<g ref="char:EOLhyphen"/>poſtel. It is to vnderſtande that by this terme <choice>
+                        <abbr>ſpu<g ref="char:cmbAbbrStroke">̄</g>all</abbr>
+                        <expan>ſpirituall</expan>
+                     </choice> / is nat vnderſta<g ref="char:cmbAbbrStroke">̄</g>de ſpirituall men after the comen vſe of ſpekyng / wherby all of the cler<g ref="char:EOLhyphen"/>gye are called ſpirituall men. For it is no doute but that many of the clergye are more worldly and more carnall than many of the laye men be. And it is natte agaynſt the per<g ref="char:EOLhyphen"/>feccyon of the hole clergye / though they co<g ref="char:cmbAbbrStroke">̄</g>feſſe that ſome of them be ſo. Ne it ſta<g ref="char:cmbAbbrStroke">̄</g>deth nat with charite / that if any man wyll laye abuſes in ſo<g ref="char:cmbAbbrStroke">̄</g>e of the clergye / that they ſhuld ther<g ref="char:EOLhyphen"/>fore coniecture or make other to con<g ref="char:EOLunhyphen"/>iecture y<hi rend="sup">t</hi> he that ſo doth loueth nat preſtes / or hateth their miniſtraco<g ref="char:cmbAbbrStroke">̄</g>n and there wylbe no parfet vnite as longe as the clergy wyl rather fi<g ref="char:cmbAbbrStroke">̄</g>de
+<pb facs="tcp:8583:53"/>
+defaute at them that ſpeke of ſuche abuſyons in the clergye / than to do that in them is to reform them / and ſo by that terme <choice>
+                        <abbr>ſpu<g ref="char:cmbAbbrStroke">̄</g>all</abbr>
+                        <expan>ſpirituall</expan>
+                     </choice> that the apo<g ref="char:EOLhyphen"/>ſtell ſpeketh of is vnderſtand a ma<g ref="char:cmbAbbrStroke">̄</g> that lyueth after y<hi rend="sup">e</hi> ſpirit / as is ſaid before. And therfore he that taketh the texte to be vnderſtande / that a ſpyrituall man ſhall iuge all thinge takyng by that terme ſpiritual / the clergye taketh it clere contrarye to the mynde of the apoſtell. &amp;c.</p>
+               </div>
+            </div>
+            <div n="5" type="reason">
+               <head>The fyfth reaſon.</head>
+               <p>ALſo it is written .i. Corinth. vi. Neſcitis quia angelos iudicabitis / qua<g ref="char:cmbAbbrStroke">̄</g>to magis ſecularia That is to ſay / Knowe ye nat that ye ſhall iudge aungels / howe moch more ſhal ye iudge ſeculer thinges. Wherby ſome of the Clergye haue ſayd that the clergye ought to iuge
+<pb facs="tcp:8583:54"/>
+ſeculer thynges. For they ſaye that the ſayde epyſtell was written to the clergye at Corinth. &amp;c.</p>
+               <div type="answer">
+                  <head>An anſwer to this .v. reaſon.</head>
+                  <p>¶ The wordes of the apoſtle that are recyted in this, v. reaſon / were ſpoken to al the criſtians at Cori<g ref="char:cmbAbbrStroke">̄</g>th and nat only to the clergy there: as it appereth in the fyrſte chapiter of the ſeyd ſeconde epiſtell to the Cor<g ref="char:cmbAbbrStroke">̄</g>. For it was made to his diſcyple.</p>
+                  <p>Tymothye. Et eccleſie dei que eſt Corinth. That is / To Thymothy and to the churche of god that is at Corinth. And by that terme: The church of god at Corinth / is vnder<g ref="char:EOLunhyphen"/>ſtande the hole congregation of the faythfull people at Corinthe / &amp; that they all ſhall iuge aungels. That is to ſaye / that they ſhall approue y<hi rend="sup">e</hi> ſentence of god gyuen vpon angels good &amp; bad / as euery good cryſten
+<pb facs="tcp:8583:54"/>
+man ſhal. And nat only y<hi rend="sup">t</hi> the clergy ſhall do it. And therfore they that take that texte to be ſpoken onely to the clergy / take it contrarye to the texte / and alſo contrary to the mi<g ref="char:cmbAbbrStroke">̄</g>de of the appoſtell. &amp;c.</p>
+               </div>
+            </div>
+            <div n="6" type="reason">
+               <head>The .vi. reaſon.</head>
+               <p>ALſo Gene. i. it is ſayd / god ma<g ref="char:EOLunhyphen"/>de .ii. great lyghtes: The ſon<g ref="char:EOLhyphen"/>ne y<hi rend="sup">t</hi> is the ſpiritualtye / that it ſhulde gouerne the daye / that is to ſaye thinges <choice>
+                     <abbr>ſpu<g ref="char:cmbAbbrStroke">̄</g>all</abbr>
+                     <expan>ſpirituall</expan>
+                  </choice>. And the mone that is the Emperour or the kynge / that it ſhulde gouerne the nyghte. That is to ſaye / temporall thinges But the mone hath no lyght / but of the ſonne. And no more hathe the kynge or emperour but of the ſpyri<g ref="char:EOLunhyphen"/>tualtye. &amp;c. And therfore they ſaye that the clergye haue both powers / The one in poſſeſſyon / the other in
+<pb facs="tcp:8583:55"/>
+right. Howbeit that they haue com<g ref="char:EOLunhyphen"/>mytted the miniſtracyon of thinges temporall / to temporall men,</p>
+               <div type="answer">
+                  <head>An anſwere to this .vi. reaſon.</head>
+                  <p>¶ That expoſicion wherby the ſpi<g ref="char:EOLhyphen"/>ritualtye is compared to the ſonne / and the temporaltye to the mone in the ſayd .vi. reaſon / is no lytterall expoſicion / and there is no ſence of ſcripture ſuffycient to proue an ar<g ref="char:EOLhyphen"/>gume<g ref="char:cmbAbbrStroke">̄</g>t by but only the lytterall ſe<g ref="char:cmbAbbrStroke">̄</g>ce. And ſo that .vi. reaſone is of ſmall effecte to proue that the clergye ha<g ref="char:EOLhyphen"/>ue both powers / for it may as lyght<g ref="char:EOLunhyphen"/>ly be denied as affermed.</p>
+               </div>
+            </div>
+            <div n="7" type="reason">
+               <head>The ſeuenth reaſon.</head>
+               <p>ALſo Theodoſius themperour enacted / and Charles confer<g ref="char:EOLhyphen"/>med it: That who ſoeuer had any varyaunce and wolde put it to
+<pb facs="tcp:8583:55"/>
+the iugeme<g ref="char:cmbAbbrStroke">̄</g>t of the byſſhoppes. &amp;c. That anon without any doutynge it ſhall be ſente to the iugeme<g ref="char:cmbAbbrStroke">̄</g>t of the biſſhops. ex. de iudiciis. Ca. nouit.</p>
+               <div type="answer">
+                  <head>An anſwere to this .vii. reaſon.</head>
+                  <p>¶ Though Theodoſius enacted &amp; Charles confermed it / that who ſo euer had any variaunce and wolde put it in iugement of the byſſhops / that anon without doutyng it ſhuld be ſent to the iugement of the byſ<g ref="char:EOLhyphen"/>ſhoppes: yet that graunt is of none auctoritye in this realme for the kin<g ref="char:EOLunhyphen"/>ges grace here knoweth no ſuperi<g ref="char:EOLhyphen"/>our vnder god: And therfore for hi<g ref="char:cmbAbbrStroke">̄</g> lyeth no appeale. And ouer that / if the ki<g ref="char:cmbAbbrStroke">̄</g>ges grace made ſuch a grau<g ref="char:cmbAbbrStroke">̄</g>te to his byſſhops in this realme / that they might holde ple of Temporall thynges / the graunte were voyde. for it were agaynſt his lawes. And furthermore we knowe no auctorite
+<pb facs="tcp:8583:56"/>
+to proue that the ſeyde Emperours made the ſeyd grau<g ref="char:cmbAbbrStroke">̄</g>t &amp; confyrmaco<g ref="char:cmbAbbrStroke">̄</g>n but onely the recytall of the ſeyde lawe made. ex. de iudicus. Ca no<g ref="char:EOLhyphen"/>uit. And that ſemeth nat ſuffycient to bynde the Emperoures / ne their ſucceſſours / onles their aſſent could be proued by other ſuffyciente mat<g ref="char:EOLhyphen"/>ters of recorde.</p>
+               </div>
+            </div>
+            <div n="8" type="reason">
+               <head>The .viii. reaſon.</head>
+               <p>ALſo it is ſayde Deutro. xvii. If any thynge be harde and doutfull to the: bytwext blode and blode / cauſe and cauſe / leprye and leprye / &amp; thou ſeeſt the iugeme<g ref="char:cmbAbbrStroke">̄</g>t variant bytwext the perſones / thou ſhalt come to y<hi rend="sup">e</hi> preſtes of the Leuy<g ref="char:EOLhyphen"/>tycall kynde &amp; to the iudge that ſhal be that tyme / which ſhall ſhewe the the truth of the iugement / and thou ſhalte do what ſo euer they that be
+<pb facs="tcp:8583:56"/>
+there in the place that our lord hath choſen: ſaye / and thou ſhalt folowe their ſentence / and than they ſaye that ſyth preſtes in the newe law be of no leſe auctorytie and power tha<g ref="char:cmbAbbrStroke">̄</g> preeſtes of the olde lawe were &amp;c. that they ought to haue no leſe auc<g ref="char:EOLhyphen"/>torytye and power than the other hade / but rather more.</p>
+               <div type="answer">
+                  <head>An anſwere to this .viii. reaſon.</head>
+                  <p>¶ It is no dout but that the offyce and miniſtracyon of the preſtes of y<hi rend="sup">e</hi> newe lawe are more notable &amp; more worthy than the offyce or miniſtra<g ref="char:EOLhyphen"/>cyon of y<hi rend="sup">e</hi> preſtꝭ of the old law were: For they were i<g ref="char:cmbAbbrStroke">̄</g> a derkneſſe theſe in the lyght. They in fygure / theſe in truth of the thinge fygured. And therfore for the highnes of their auc<g ref="char:EOLunhyphen"/>toritye in <choice>
+                        <abbr>ſpu<g ref="char:cmbAbbrStroke">̄</g>all</abbr>
+                        <expan>ſpirituall</expan>
+                     </choice> thynges / the iuge<g ref="char:EOLhyphen"/>ment &amp; orderynge of temporall thin<g ref="char:EOLunhyphen"/>ges is the more vnconuenyente for
+<pb facs="tcp:8583:57"/>
+them. And for that cauſe it was that the apoſtels ſayd. Act. vi. It is nat mete for vs to leue the worde of god and minyſter to y<hi rend="sup">e</hi> tables. And ſith the appoſtles thought that the mini<g ref="char:EOLunhyphen"/>ſtracyon to the tables / thoughe it were a right charitable dede / was vnmete for their offyce which ſtode ſpecyally in preachyng and teching and in prayer and contemplacyon / and other ghoſtly counſeyls and mi<g ref="char:EOLunhyphen"/>niſtracyons to the people. How far vnmete is it tha<g ref="char:cmbAbbrStroke">̄</g> to their ſucceſſours to take vpon them as it were a dede of highe ꝑfectyon / to iuge betwixt cauſe and cauſe / tytle and tytle / as well of landes &amp; tenementes / as of goodes and catales. yea: and ſom<g ref="char:EOLhyphen"/>tyme of thynges concernynge the lyfe of man. Therfore the ſame rea<g ref="char:EOLhyphen"/>ſon that is made to proue y<hi rend="sup">t</hi> bycauſe the auctorytie and power of preſtes in the newe lawe / is no leſſe tha<g ref="char:cmbAbbrStroke">̄</g> the
+<pb facs="tcp:8583:57"/>
+auctorite and power of the preſtes of the olde law was / &amp; that therfore they ſhulde haue as moch auctorite to iuge betwyxte blode and blode / cauſe and cauſe / leprie and leprie as the other had / maketh right ſtrong<g ref="char:EOLhyphen"/>ly agaynſt the<g ref="char:cmbAbbrStroke">̄</g>. And further it is to be noted that in y<hi rend="sup">e</hi> ſeid texte of Deu. xvii. It is nat ſayde onely that the partye ſhall come to the preſtes of y<hi rend="sup">e</hi> leuytycall kynde / but that he ſhall come alſo to the iudge that ſhall be that tyme / but whether that iudge muſte be of the leuytycall kynde or nat it doth nat appere. &amp;c.</p>
+               </div>
+            </div>
+            <div n="9" type="reason">
+               <head>
+                  <g ref="char:leaf">❧</g> The .ix. reaſon.</head>
+               <p>ALſo in this mater in hath be<g ref="char:cmbAbbrStroke">̄</g> ſayde / that Emperours at y<hi rend="sup">e</hi> begynnynge had ſome right in the Empyre / but for their ſi<g ref="char:cmbAbbrStroke">̄</g>ne that they dyd agaynſt holy ſayntes / and that ſpecyally agai<g ref="char:cmbAbbrStroke">̄</g>ſte the high byſſhops
+<pb facs="tcp:8583:58"/>
+they were depryued of the right of y<hi rend="sup">e</hi> Empyre / and that the right therof was tranſlated vnto the church / for he deſerueth to leſe his priuilege y<hi rend="sup">t</hi> abuſeth the power to him co<g ref="char:cmbAbbrStroke">̄</g>mitted, xi. q. iii. Ca. priuilegium.</p>
+               <div type="answer">
+                  <head>An anſwere to the .ix. reaſon.</head>
+                  <p>¶ Emperours had tytle to the Em<g ref="char:EOLunhyphen"/>pyre of the immediat gyfte and or<g ref="char:EOLhyphen"/>dynaunce of god long tyme before the comynge of Chriſt / and it appe<g ref="char:EOLhyphen"/>reth nat that euer Chriſte toke that power from them. And though ſo<g ref="char:cmbAbbrStroke">̄</g>e of them myſdemeaned themſelfe a<g ref="char:EOLhyphen"/>gaynſt holy ſayntes / and that ſpe<g ref="char:EOLhyphen"/>cyally againſt the high biſſhoppes. Yet why they / or their ſucceſſoures ſhulde therfore leſe the right of the Empier which was gyuen to them of god. There is no reaſon / for though ſome of the<g ref="char:cmbAbbrStroke">̄</g> were euyll / the ſucceſſoures might be good: as vn<g ref="char:EOLhyphen"/>doutedly
+<pb facs="tcp:8583:58"/>
+many of theym haue ben. And ſome tyme an euyll man is ſuf<g ref="char:EOLhyphen"/>fered of god / for the proufe of good men / &amp; ouer that admytte that they wer worthy to be depriued for their offences fro the right of the Empier Yet why that right ſhulde be tran<g ref="char:EOLhyphen"/>ſlated to the churche / it wyll be har<g ref="char:EOLhyphen"/>de to proue it by reaſon. For as for to the lawe that is aleyed for y<hi rend="sup">e</hi> prou<g ref="char:EOLunhyphen"/>fe therof. that is to ſay .xi. q. iii. Ca. Priuilegiu<g ref="char:cmbAbbrStroke">̄</g>. That he deſerueth to le<g ref="char:EOLunhyphen"/>ſe his priuilege that abuſeth the po<g ref="char:EOLhyphen"/>wer to him co<g ref="char:cmbAbbrStroke">̄</g>mytted / proueth no<g ref="char:EOLhyphen"/>thynge that it ſhulde be tranſlated to the churche / taki<g ref="char:cmbAbbrStroke">̄</g>ge by that terme church / the byſſhops and clergye. For it is no dout but that the empe<g ref="char:EOLhyphen"/>rours receyued nat the emprye of y<hi rend="sup">e</hi> Clergye / wherfore it ſemeth y<hi rend="sup">t</hi> that reaſon is but of lytell ſtre<g ref="char:cmbAbbrStroke">̄</g>gth to pro<g ref="char:EOLunhyphen"/>ue y<hi rend="sup">t</hi> both powers / y<hi rend="sup">t</hi> is to ſay ſpu<g ref="char:cmbAbbrStroke">̄</g>al and te<g ref="char:cmbAbbrStroke">̄</g>peral ſhulde be in the clergy.</p>
+               </div>
+            </div>
+            <div n="10" type="reason">
+               <pb facs="tcp:8583:59"/>
+               <head>
+                  <g ref="char:leaf">❧</g> The tenth reaſon.</head>
+               <p>ALſo it is ſayde. Pſal. lxxi. Deus iudicium tuum regi<g ref="char:EOLunhyphen"/>da et iuſticiam tua<g ref="char:cmbAbbrStroke">̄</g> filio regis: iudi<g ref="char:EOLunhyphen"/>care populum tuu<g ref="char:cmbAbbrStroke">̄</g> in iuſticia et pau<g ref="char:EOLunhyphen"/>peres tuos in iudicio. That is to ſaye / O lorde god gyue thy iuge<g ref="char:EOLhyphen"/>ment to a kynge / and thy iuſtyce to the ſonne of a kynge: to iuge thy pe<g ref="char:EOLunhyphen"/>ple in iuſtyce / and thy poore folke in iugeme<g ref="char:cmbAbbrStroke">̄</g>t. And tha<g ref="char:cmbAbbrStroke">̄</g> this reaſon hath ben made thervpon / that theſe wor<g ref="char:EOLhyphen"/>des were ſpoken lytterally of chriſt as they were in dede / as a prayer y<hi rend="sup">t</hi> the father of heuen wolde gyue his iugement &amp; iuſtyce to Chriſt. And they ſaye as the trouth is / that that power was fulfylled i<g ref="char:cmbAbbrStroke">̄</g> Chriſt: as it appereth. Ioh. v. Where it is ſayd. Pater omne iudicium dedit filio. The father hath gyuen all the iuge<g ref="char:EOLunhyphen"/>ment to his ſonne. And alſo chriſte ſayth himſelf. Mat. xxviii. All po<g ref="char:EOLhyphen"/>wer
+<pb facs="tcp:8583:59"/>
+is gyuen to me in heuen and in erth. And than this reaſon is made further. That that power y<hi rend="sup">t</hi> chriſte had he neuer gaue to emperours or kynges / but to his diſcyples / whan he ſayd to them. Quodcu<g ref="char:cmbAbbrStroke">̄</g>
+                  <expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> liga. &amp;c Wherfore bothe powers <choice>
+                     <abbr>ſpu<g ref="char:cmbAbbrStroke">̄</g>all</abbr>
+                     <expan>ſpirituall</expan>
+                  </choice> and te<g ref="char:cmbAbbrStroke">̄</g>porall ſyth the tyme of chriſte hath ben in his appoſtels and diſcyples / and in their ſucceſſours.</p>
+               <div type="answer">
+                  <head>An anſwer to this tenth reaſon.</head>
+                  <p>¶It is no dout but that all power was in Chriſt / in heuen &amp; in erthe / both of bodyes &amp; ſoules / la<g ref="char:cmbAbbrStroke">̄</g>des and goodes / lyfe &amp; deth. But it is as ly<g ref="char:EOLhyphen"/>tell a dout but that Chriſt neuer ga<g ref="char:EOLhyphen"/>ue al that power to his apoſtels nor diſcyples / ne yet he gaue nat to the<g ref="char:cmbAbbrStroke">̄</g> all the power that was in him con<g ref="char:EOLhyphen"/>cernynge the miniſtracyon of the ſa<g ref="char:EOLunhyphen"/>cramentes / wherof he commytted a
+<pb facs="tcp:8583:60"/>
+right high power vnto them: as to miniſter any of the ſacrame<g ref="char:cmbAbbrStroke">̄</g>tes but in due mater / as in water / bred / and wyne or ſuch other / as he might ha<g ref="char:EOLhyphen"/>ue done him ſelfe: Ne yet he neuer graunted power vnto theym to doo myracles by their own power / as he him ſelfe dyd. And ſyth he grau<g ref="char:cmbAbbrStroke">̄</g>
+                     <g ref="char:EOLhyphen"/>ted nat to them power to mynyſter the ſacramentes but in due matter / which if he had done / it had nat dy<g ref="char:EOLhyphen"/>myniſſhed the perfeccyon of theire miniſtracyon / but gretly enlarged it. It is nat to thinke that he wolde gyue them power ouer ſuch thi<g ref="char:cmbAbbrStroke">̄</g>ges / wherby they ſhulde be the more vn<g ref="char:EOLhyphen"/>apte and vnable to vſe the ſpiritual miniſtracyon to the people that he had gyuen vnto them: as is the me<g ref="char:EOLhyphen"/>delynge with temporall matters &amp; temporall buſynes. And howe gre<g ref="char:EOLhyphen"/>at perell and daunger hath comen therby / as well to the hurte of their
+<pb facs="tcp:8583:60"/>
+owne ſoules as of the ſoules of ma<g ref="char:EOLhyphen"/>ny other / no man knoweth but god alone. And for as moch as it is ve<g ref="char:EOLhyphen"/>rye lyke that ſpyrituall mynyſters wyll nat frely remoue them ſelfe fro ſuch Temporall power and Tem<g ref="char:EOLhyphen"/>porall buſyneſſe. All chriſten prin<g ref="char:EOLhyphen"/>ces are bounde in conſcyence aſwell for the helth of the ſoules of all ſpi<g ref="char:EOLhyphen"/>rytuall mynyſters as of all other people that they haue taken charge of / to remoue the occaſyons that haue cauſed theym to ſet theymſelfe ſo fully to the medelynge of Temporall thynges as ma<g ref="char:EOLunhyphen"/>ny of theym haue done in tyme paſte.</p>
+               </div>
+            </div>
+            <div n="11" type="reason">
+               <pb facs="tcp:8583:61"/>
+               <head>The .xi. reaſon</head>
+               <p>OVr maſter Chriſt ſayd to his lxxii. diſcyplꝭ. Luc. x. He y<hi rend="sup">t</hi> he rech you / hereth me. And vpo<g ref="char:cmbAbbrStroke">̄</g> theſe wordes this reaſon hath ben made / that for as moche as our lorde ſpeke the ſeid wordes generally to his diſ<g ref="char:EOLunhyphen"/>ciples / to whom all preſtes be ſucceſ<g ref="char:EOLunhyphen"/>ſours: and ſhewed nat what tyme / ne wherin they ſhulde be herde / that hys wordes muſte therfore be taken to be of this effecte / that he wolde that his diſciples &amp; their ſuceſſours ſhulde be herde and obeyed as well in thinges ſpyrituall as temporall / wherof it muſte nedes folowe that they haue both powers / That is to ſaye ſpyrituall and temporall.</p>
+               <div type="answer">
+                  <head>An anſwer to this .xi. reaſon.</head>
+                  <p>¶ It is to be vnderſtande / that the ſame tyme that oure lorde ſpeke the
+<pb facs="tcp:8583:61"/>
+feyd wordes to his diſcyples / he ſe<g ref="char:cmbAbbrStroke">̄</g>te them forth to preach in to euery cyte and place where he ſhuld come: and at that ſendynge forth he ſayde to theym on this maner: The herueſt is great: the workmen be few: pray ye the lorde of y<hi rend="sup">e</hi> herueſt that he ſe<g ref="char:cmbAbbrStroke">̄</g>de workmen in to his herueſt: Go ye forth. Lo / I ſende you as lambes in the myddes of wolues / Bere nei<g ref="char:EOLunhyphen"/>ther ſecke / ſcryppe / nor ſhoes / and ſalute no man by the way: In what houſe ſo euer ye e<g ref="char:cmbAbbrStroke">̄</g>ter fyrſt ſay / peace be to this houſe / and if the ſonne of peace be there / your peace ſhall reſt vpon him / and els it ſhall retourne agayne vnto your ſelfe: In y<hi rend="sup">e</hi> ſame houſe abyde ye / eatyng &amp; drinkyng ſuch as they haue. Truly the work man is worthy his hyre / go nat fro houſe to houſe, And into what cyte ſoeuer ye enter &amp; they receyue you / eate that is ſet before you / and cure
+<pb facs="tcp:8583:62"/>
+the ſycke folkes that be in it / &amp; ſaye vnto theym / the kyngdome of god ſhall drawe nere vnto you. And i<g ref="char:cmbAbbrStroke">̄</g> to what cyte ſoeuer ye entre / &amp; they re<g ref="char:EOLhyphen"/>ceyue you nat / ye ſhal go i<g ref="char:cmbAbbrStroke">̄</g>to the ſtre<g ref="char:EOLunhyphen"/>tes and ſaye. Lo / the duſte that cle<g ref="char:EOLhyphen"/>ueth to vs of your cyte we caſt vpo<g ref="char:cmbAbbrStroke">̄</g> you. Neuertheles knowe this / that the kyngdom of god draweth nere. And tha<g ref="char:cmbAbbrStroke">̄</g> after certayne wordes that he ſpeke to them concernynge ſuche cyties as wolde nat receyue the<g ref="char:cmbAbbrStroke">̄</g> / he ſayd the wordꝭ before reherſed / He that hereth you / hereth me / wherby it appereth that his meanynge was to haue the people here hys diſcy<g ref="char:EOLhyphen"/>ples whan they preached ſuch thin<g ref="char:EOLhyphen"/>ges as he commaunded them to do / that is to ſaye. That the kyngdom of god drewe nere / as if he hadde ſayde. Whan ye preache that I com<g ref="char:EOLunhyphen"/>maunded you to preache / and as I my ſelfe do preache of the kyng<g ref="char:EOLhyphen"/>dome
+<pb facs="tcp:8583:62"/>
+of heuen / and vſe youre ſelfe as lambes amonge the people / than he that hereth you / hereth me / for ye ſpeke in me / and I in you. And tha<g ref="char:cmbAbbrStroke">̄</g> alſo all they that heare you and fo<g ref="char:EOLhyphen"/>lowe your teachynge ſhall haue as moch rewarde as if they had herde me parſonally and folowed my tea<g ref="char:EOLunhyphen"/>chynge. Furthermore it is nat lyke that the meanynge of our lorde was by thoſe wordes that his diſcyples ſhulde haue both powers ſpirituall and temporall: for if he had enten<g ref="char:EOLhyphen"/>ded ſo, he wolde nat haue ſent them forth ſo poorely as he dyd withoute ſecke / ſcryppe / or ſhoes / and bydde them lyue of their prechynge. The effecte therfore of the ſeyde wordes is this. That wha<g ref="char:cmbAbbrStroke">̄</g> preachers preche the goſpell truely vnto the people &amp; declare vnder what maner y<hi rend="sup">e</hi> ki<g ref="char:cmbAbbrStroke">̄</g>gdo<g ref="char:cmbAbbrStroke">̄</g> of heue<g ref="char:cmbAbbrStroke">̄</g> may co<g ref="char:cmbAbbrStroke">̄</g>e vnto the<g ref="char:cmbAbbrStroke">̄</g> / y<hi rend="sup">t</hi> they be tha<g ref="char:cmbAbbrStroke">̄</g> reuere<g ref="char:cmbAbbrStroke">̄</g>tly &amp; deuoutly herd. But
+<pb facs="tcp:8583:63"/>
+if they pretende to haue by that text or any other: more worldly honour power / or rycheſſe / than our maſter Chriſt lefte vnto them / than the peo<g ref="char:EOLunhyphen"/>ple ar nat bounde to obey theym in that pretence.</p>
+               </div>
+            </div>
+         </div>
+         <div n="19" type="chapter">
+            <head>¶ Of abuſions and defautes in the clergye / concernynge the lawes of the realme. The .xix. chapiter.</head>
+            <p>FYrſt / it hathe ben a great de<g ref="char:EOLhyphen"/>faute in dyuers of the clergye that they haue reported &amp; affermed in tyme paſte / that the ſtatute made in the .xlv. yere of kinge Edwarde the thirde / concernynge the tythi<g ref="char:cmbAbbrStroke">̄</g>ge of wood that is co<g ref="char:cmbAbbrStroke">̄</g>menly called the ſtatute of Silua cedua / is agaynſt the lawe of god. And that yet nowe that ſome queſtyon hath of late ben moued thervpon / none of them en<g ref="char:EOLhyphen"/>deuoreth
+<pb facs="tcp:8583:63"/>
+him ſelfe to proue it is ſo / ne yet to haue the matter ſette in a good cleare waye: but as it ſemeth force lyttell / though the matter reſt ſtyll in varyaunce as it hathe done before: &amp; yf it be ſo ſuffered to con<g ref="char:EOLhyphen"/>tynue / great varyaunce wyll folow thervpo<g ref="char:cmbAbbrStroke">̄</g>: for the one lawe wyll that the tyth wode be payed / &amp; the other lawe clerely prohibyteth it.</p>
+            <p>¶ Alſo it hathe ben a great defaute in many of the clergy / for that they haue made pretence in tyme paſte / as wel in open ſermons as in other places / that it is agaynſte the lawe of god / y<hi rend="sup">t</hi> preſtꝭ ſhulde be araygned before laye men / and that yet they haue nat endeuored the<g ref="char:cmbAbbrStroke">̄</g>ſelfe to ſhew any ſuffyciente auctorite to proue y<hi rend="sup">t</hi> it is ſo / &amp; clerely to ſtable the real<g ref="char:EOLhyphen"/>me in that behalfe / but rather ſhew the<g ref="char:cmbAbbrStroke">̄</g>ſelf content that the mater ſhuld contynue in varyaunce / as it hathe
+<pb facs="tcp:8583:64"/>
+done in tyme paſt.</p>
+            <p>Alſo it hath ben a ryght great de<g ref="char:EOLhyphen"/>fault in many of the clergye that ſe<g ref="char:EOLhyphen"/>ynge that they haue made pretence openly that it is agaynſte the lawe of god / that preſtes ſhuld be array<g ref="char:EOLhyphen"/>gned before laye men / and that they haue yet ope<g ref="char:cmbAbbrStroke">̄</g>ly preched and taught / yea / and executed it in dede openly byfore the face of the worlde / that if a preeſte be degrated y<hi rend="sup">t</hi> than he may be put in execucyon: For though he be degrated he is a preſt as he was before / bycauſe the carecter is inde<g ref="char:EOLhyphen"/>lyble. And ſo that pretence of degra<g ref="char:EOLunhyphen"/>tynge ſemeth to be none other / but an illudyng of the truth. And that the byſſhops wolde bringe the mat<g ref="char:EOLunhyphen"/>ter to that poynte / that ſuch preſtes as they wold haue arreygned afore laye men ſhulde be arreygned / and that none other ſhulde.</p>
+            <p>¶ Alſo ſith the knowlege of the la<g ref="char:EOLhyphen"/>wes
+<pb facs="tcp:8583:64"/>
+of the realme is in many caſes neceſſarye to all men in this realme for the clere orderyng of conſcyence and for gyuynge of true counſell to the people: It is a great defaute in many of the clergye / that they haue endeuored the<g ref="char:cmbAbbrStroke">̄</g>ſelfe no more to haue knowlege therof tha<g ref="char:cmbAbbrStroke">̄</g> they haue don And what inco<g ref="char:cmbAbbrStroke">̄</g>uenye<g ref="char:cmbAbbrStroke">̄</g>ces haue come therby / no man can tell: for by that occaſyon ignoraunce hath ben pre<g ref="char:EOLhyphen"/>ferred before knowlege / as well in outwarde courtes / as in the ſecrete Courte of the ſoule.</p>
+            <p>¶ Alſo it hath ben a great defaute in many of the Clergye / that they haue pretended / that it hath nat ben conuenyent for laye men to treate of the power of the clergye / ne to rea<g ref="char:EOLhyphen"/>ſon what be the keyes of the church / ne to touche the power of the maki<g ref="char:cmbAbbrStroke">̄</g>g of their Canons / or to treate which be reſonable and which nat: for that
+<pb facs="tcp:8583:65"/>
+right ſpecyally belongeth to pri<g ref="char:cmbAbbrStroke">̄</g>ces and their counſell to loke vpon: for if they ſhuld be driuen to beleue the iugement of the clergye in thinges concernynge the honour / power / &amp; iuriſdyccion of the clergye agaynſt their owne / they might happely be diſceyued: for the more power that the clergy hath in temporall thi<g ref="char:cmbAbbrStroke">̄</g>ges the leſſe is the power of princes / &amp; therfore they y<hi rend="sup">t</hi> be lerned in the kin<g ref="char:EOLhyphen"/>ges lawes / ar ſpecyally bounde be<g ref="char:EOLhyphen"/>fore other to know the power of the kynge and of his parlyament. For howe can they knowe that the lawe that they haue lerned is to be mini<g ref="char:EOLhyphen"/>ſtred amonge the people / If they knowe natte whether the kynge by whoſe auctorite it is miniſtred / ha<g ref="char:EOLhyphen"/>ue power to co<g ref="char:cmbAbbrStroke">̄</g>mau<g ref="char:cmbAbbrStroke">̄</g>de the miniſtra<g ref="char:EOLunhyphen"/>cyon of it. Alſo he y<hi rend="sup">t</hi> knoweth nat y<hi rend="sup">t</hi> the parlyament of Englande hathe power by y<hi rend="sup">e</hi> hole church of Engla<g ref="char:cmbAbbrStroke">̄</g>d
+<pb facs="tcp:8583:65"/>
+can nat fully knowe the power of y<hi rend="sup">e</hi> parlyament. Furthermore no man can knowe the power of the kynge and of his parlyame<g ref="char:cmbAbbrStroke">̄</g>t: but he knowe the power of the clergy. For it is no dout but that ſuch power as the cler<g ref="char:EOLunhyphen"/>gye hath by the i<g ref="char:cmbAbbrStroke">̄</g>mediat graunte of Chriſt / the kynge ne his parlyame<g ref="char:cmbAbbrStroke">̄</g>t can nat take it from theym thoughe they maye order the manner of the doynge. What an abuſyon is it tha<g ref="char:cmbAbbrStroke">̄</g> in the<g ref="char:cmbAbbrStroke">̄</g> that wolde make the lerners of the lawes of y<hi rend="sup">e</hi> realme beleue that it is nat conuenyent for them to ſer<g ref="char:EOLhyphen"/>che / ne knowe what is the auctorite of the clergye: for the auctoritie of kynges and of the clergy be ſo lyn<g ref="char:EOLhyphen"/>ked togyther in many thinges / that the one can nat be knowen / but the other be knowen alſo: And yet as it hath ben reportyd / many right no<g ref="char:EOLhyphen"/>table men haue ben brought to that belefe in tyme paſt. Moreouer it is
+<pb facs="tcp:8583:66"/>
+no defaute in lerners of the lawe to pretende ignorau<g ref="char:cmbAbbrStroke">̄</g>ce in high doutes of ſcripture that parteyne nat to the lernynge of the lawe / but to p<g ref="char:cmbAbbrStroke">̄</g>tende ignoraunce in the power of y<hi rend="sup">e</hi> kinge and his parlyament or of the clergy which be the thinges that moſt ſpe<g ref="char:EOLhyphen"/>cyally parteyne to the approuynge or dyſaprouynge of y<hi rend="sup">t</hi> they haue ta<g ref="char:EOLhyphen"/>ken in ha<g ref="char:cmbAbbrStroke">̄</g>de to lerne is gret defaut. And furthermore / ſith dyuers ſpu<g ref="char:cmbAbbrStroke">̄</g>al men haue taken vpon the<g ref="char:cmbAbbrStroke">̄</g> to reaſon whether laye me<g ref="char:cmbAbbrStroke">̄</g> haue power to aſ<g ref="char:EOLhyphen"/>ſygne what cloth ſhalbe layed vpo<g ref="char:cmbAbbrStroke">̄</g> a deed corſe at his buryall / &amp; what candelſtyckes &amp; other thinges ſhall be ſet about hi<g ref="char:cmbAbbrStroke">̄</g> / and what nat. why ſhulde nat leye men / and ſpecyally thoſe that be lerned in the lawes of realmes and countreys ſerche whe<g ref="char:EOLhyphen"/>ther the reaſonynge and determy<g ref="char:EOLhyphen"/>nacyon therin procede vpon an in<g ref="char:EOLhyphen"/>differency &amp; accordyng to the trouth
+<pb facs="tcp:8583:66"/>
+or vpon a ſynguler couetice of them ſelfe / and if they ought nat nor mi<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t nat do ſo / tha<g ref="char:cmbAbbrStroke">̄</g> might the clergy hap<g ref="char:EOLhyphen"/>pely bi<g ref="char:cmbAbbrStroke">̄</g>de laye me<g ref="char:cmbAbbrStroke">̄</g> to that they ought nat to do in many caſes. Neuerthe<g ref="char:EOLhyphen"/>leſſe we thinke nat y<hi rend="sup">t</hi> al the hole cler<g ref="char:EOLunhyphen"/>gye be fallen into theſe defaultes be<g ref="char:EOLunhyphen"/>fore reherſed: for we doute nat but y<hi rend="sup">t</hi> ther be many of the<g ref="char:cmbAbbrStroke">̄</g> that haue their eyen fully ſet open vnto the trouth: ne yet we thinke nat that any of the clergye now lyuyng be in the ful de<g ref="char:EOLunhyphen"/>faute of the ſayd abuſyons: for ma<g ref="char:EOLhyphen"/>ny of theym were bygonne by their predeceſſours before their tyme / and therfore if they wyll herafter ende<g ref="char:EOLhyphen"/>uour the<g ref="char:cmbAbbrStroke">̄</g> ſelf with good dilyge<g ref="char:cmbAbbrStroke">̄</g>ce to helpe y<hi rend="sup">t</hi> the defaultꝭ which were firſt bego<g ref="char:cmbAbbrStroke">̄</g> by their p<g ref="char:cmbAbbrStroke">̄</g>deceſſours may be re<g ref="char:EOLunhyphen"/>formed. They ſhall therby deſerue great thanke of god / &amp; gyue alſo a good &amp; a bleſſed exa<g ref="char:cmbAbbrStroke">̄</g>ple to al y<hi rend="sup">e</hi> peple toward a good vniuerſall reforma<g ref="char:EOLhyphen"/>cion Amen.</p>
+         </div>
+      </body>
+      <back>
+         <div type="errata">
+            <pb facs="tcp:8583:67"/>
+            <head>
+               <g ref="char:leaf">❧</g> Fautes in printynge.</head>
+            <p>¶ In the tenth chapiter the fourth lefe / the ſeconde ſyde / the .xix. lyne / rede many for any.</p>
+            <p>¶ In the .xiii. chapiter the ſeconde lefe / the fyrſte ſyde / the .viii. lyne / rede vnder for vnto. And in the .ix. lyne for abbot rede the abbot.</p>
+            <p>¶ In the .xvi. chapiter / the ſeconde lefe / the ſeconde ſyde / the .xiii. lyne / rede emunitas for emunitatas / and in the .v. lefe / the firſt ſyde / the .xiiii. lyne / rede contayned for contryued.</p>
+            <p>¶ In the .xviii. chapiter / the .xiii. lefe / the fyrſt ſyde / and the laſt lyne rede to be herde / for herde</p>
+         </div>
+         <div type="table_of_contents">
+            <head>The table.</head>
+            <list>
+               <item>THat kinges and pri<g ref="char:cmbAbbrStroke">̄</g>ces haue their auctorite i<g ref="char:cmbAbbrStroke">̄</g>medyately of god &amp; of obedye<g ref="char:cmbAbbrStroke">̄</g>ce to the<g ref="char:cmbAbbrStroke">̄</g>. the .i. cha.</item>
+               <item>¶ Certayne other auctorities con<g ref="char:EOLhyphen"/>cerni<g ref="char:cmbAbbrStroke">̄</g>g kynges &amp; princes. the .ii. cha.</item>
+               <item>
+                  <pb facs="tcp:8583:67"/>¶ Of auctorities prouyng that ki<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>ges in tyme paſt haue ordered thin<g ref="char:EOLhyphen"/>ges that ſome men call ſpyrituall thynges. The thirde chapiter.</item>
+               <item>¶ Whether the ſtatute of Silua ce<g ref="char:EOLhyphen"/>dua / that treateth of tyth wood / be a<g ref="char:EOLunhyphen"/>gaynſt the lawe of god. the .iiii. ch.</item>
+               <item>¶ Whether the <choice>
+                     <abbr>ſpu<g ref="char:cmbAbbrStroke">̄</g>all</abbr>
+                     <expan>ſpirituall</expan>
+                  </choice> Iudges be bou<g ref="char:cmbAbbrStroke">̄</g>de in any caſe to take knowlege of the kynges lawes. The .v. chap.</item>
+               <item>¶ Of arraygni<g ref="char:cmbAbbrStroke">̄</g>ge of preſtes before laye men. The .vi. chapiter.</item>
+               <item>
+                  <g ref="char:leaf">❧</g> Whether any of the conſtitucio<g ref="char:cmbAbbrStroke">̄</g>s prouincyall be agaynſte the kynges lawes / and of the expoſicyon of mai<g ref="char:EOLunhyphen"/>ſter Lynwode made therupon, The .vii. Chapiter.</item>
+               <item>¶ Whether the treatyce called Cir<g ref="char:EOLunhyphen"/>cumſpecte Agatis / be a Statute. The .viii. Chapiter.</item>
+               <item>
+                  <g ref="char:leaf">❧</g> Whether cryſten kynges haue a<g ref="char:EOLunhyphen"/>ny leſſe power ouer their ſubiectes after their conuercyon than they
+<pb facs="tcp:8583:68"/>
+had whan they were Paynymmes. The .ix. chapiter.</item>
+               <item>¶ If a kynge that is an Infydele offre to be conuerted / but he wyll re<g ref="char:EOLunhyphen"/>ceyue no holye dayes but onely the ſondayes / nor haue his Subiectes bounde by anye lawes / but of hys owne makynge / whether he ſhalbe receyued with thoſe condicyons. The .x. Chapiter.</item>
+               <item>¶ If a vowe be made to a ſaynte / whether that avowe muſt be perfor<g ref="char:EOLunhyphen"/>med vpon payne of reſtitutyon, The .xi. Chapiter.</item>
+               <item>¶ If the writ of Exco<g ref="char:cmbAbbrStroke">̄</g>icato capiendo / were put awaye / whether the keyes of the churche were thereby offended. The .xii. chapiter.</item>
+               <item>¶ Whether the artycle of the ſta<g ref="char:EOLhyphen"/>tute of Carleole that treateth of co<g ref="char:EOLhyphen"/>men ſeales / be a ſtatute. the .xiii. ch.</item>
+               <item>¶ Of exco<g ref="char:cmbAbbrStroke">̄</g>icacyons made agai<g ref="char:cmbAbbrStroke">̄</g>ſt y<hi rend="sup">e</hi> kynges lawes. The .xiiii. chap.</item>
+               <item>
+                  <pb facs="tcp:8583:68"/>¶ By what lawe the kyngꝭ courte is put out of Iuri<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>diccyon / for ty<g ref="char:EOLhyphen"/>thes. The .xv. Chapiter.</item>
+               <item>¶ Whether diuers caſes contained in the Su<g ref="char:cmbAbbrStroke">̄</g>mes called Su<g ref="char:cmbAbbrStroke">̄</g>ma roſel<g ref="char:EOLunhyphen"/>la:
+and Su<g ref="char:cmbAbbrStroke">̄</g>ma angelica / &amp; that be recyted in this chapiter / ſta<g ref="char:cmbAbbrStroke">̄</g>de with the lawes of the realme. the .xvi. ch.</item>
+               <item>¶ What ſhulde cauſe the hygheſt commen welth nowe in theſe dayes. The .xvii. chapiter.</item>
+               <item>¶Of dyuers reaſons to proue that the clergye haue bothe powers ſpy<g ref="char:EOLhyphen"/>rytua and Temporall / with anſwe<g ref="char:EOLhyphen"/>res therto. The .xviii. chapiter.</item>
+               <item>¶ Of abuſyons in dyuers of the clergye concernynge the lawes of the realme. The .xix. chapiter.</item>
+            </list>
+            <trailer>¶ Finis.</trailer>
+         </div>
+         <div type="colophon">
+            <p>¶ Printed at Lo<g ref="char:cmbAbbrStroke">̄</g>don by Tho<g ref="char:EOLunhyphen"/>mas Godfray.</p>
+            <floatingText type="license" xml:lang="eng">
+               <body>
+                  <p>Cum pri<g ref="char:EOLhyphen"/>uilegio Regali.</p>
+               </body>
+            </floatingText>
+         </div>
+      </back>
+   </text>
+</TEI>

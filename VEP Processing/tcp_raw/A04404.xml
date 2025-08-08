@@ -1,0 +1,710 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The fryer, an[d] the boy</title>
+            <title>Fryer and the boy.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1617</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 22 KB of XML-encoded text transcribed from 12 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A04404</idno>
+            <idno type="STC">STC 14523</idno>
+            <idno type="STC">ESTC S112216</idno>
+            <idno type="EEBO-CITATION">99847474</idno>
+            <idno type="PROQUEST">99847474</idno>
+            <idno type="VID">12511</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A04404)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 12511)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1604:04)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The fryer, an[d] the boy</title>
+                  <title>Fryer and the boy.</title>
+               </titleStmt>
+               <extent>[24] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by E: A[llde] dwelli[ng] neere Christ-Church,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1617.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Printer's name from STC.</note>
+                  <note>Signatures: A B⁴.</note>
+                  <note>Imperfect; title page is cropped, affecting some print.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Tales, English --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-08</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-05</date>
+            <label>Sarah Wingo</label>Sampled and proofread</change>
+         <change>
+            <date>2013-05</date>
+            <label>Sarah Wingo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:12511:1"/>
+            <pb facs="tcp:12511:1"/>
+            <p>The Fryer, an<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the Boy.</p>
+            <figure>
+               <figDesc>woodcut</figDesc>
+            </figure>
+            <p>LONDON <hi>Printed by</hi> E: A. <hi>dwelli.</hi> neere Chriſt-Church. 1617.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:12511:2"/>
+            <pb facs="tcp:12511:2"/>
+            <head>A Merry Ieſt: of the <hi>Frier &amp; the Boy.</hi>
+            </head>
+            <p>
+               <figure>
+                  <figDesc>woodcut</figDesc>
+               </figure>
+            </p>
+            <lg>
+               <l>THat God that dyed for vs all,</l>
+               <l>And dranke both vineger and gall,</l>
+               <l>bring vs out of bale:</l>
+               <l>And giue them both good life and long</l>
+               <l>Which liſten doe vnto my ſong,</l>
+               <l>or tend vnto my tale.</l>
+            </lg>
+            <lg>
+               <l>¶ There dwelt a man in my Countrie</l>
+               <l>Which in his life had wiues thrée:</l>
+               <l>a bleſſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ng full of ioy:</l>
+               <l>By the firſt wife a ſonne he had,</l>
+               <l>Which was a pretty ſturdylad,</l>
+               <l>a good vnhappy boy.</l>
+               <pb facs="tcp:12511:3"/>
+               <l>His Father loued him well,</l>
+               <l>But his ſtep-mother neuer a dell,</l>
+               <l>I tell you as I thinke:</l>
+               <l>All things ſhe thought loſt by the Rood</l>
+               <l>Which to the boy did any good,</l>
+               <l>as either meat or drink,</l>
+               <l>And yet I wis it was but bad,</l>
+               <l>Nor halfe enough thereof he had,</l>
+               <l>but euer more the worſt,</l>
+               <l>And therefore euill might ſhe fare,</l>
+               <l>That did the little boy ſuch care,</l>
+               <l>ſo farre forth as ſhe durſt.</l>
+               <l>Vnto the man the wife gan ſay,</l>
+               <l>I would you'd put this boy away,</l>
+               <l>and that right ſoone in haſt,</l>
+               <l>Truely he is a curſed lad.</l>
+               <l>I would ſome other man him had</l>
+               <l>that would him better chaſt.</l>
+               <l>Then ſaid the good-man dame not ſo</l>
+               <l>I will not let the young boy goe,</l>
+               <l>he is but re<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ber of age,</l>
+               <l>He ſhall with me this yeare abide,</l>
+               <l>till he be growne more ſtrong and tride</l>
+               <l>for to winne better wage.</l>
+               <l>We haue a man a ſturdy lout</l>
+               <l>which kéepeth our neat the fields about</l>
+               <l>and ſléepeth all the day,</l>
+               <l>He ſhall come home as god me ſhield,</l>
+               <pb facs="tcp:12511:3"/>
+               <l>And the boy ſhall into the field,</l>
+               <l>to kéepe them if he may.</l>
+               <l>Then ſaid the wife in verament</l>
+               <l>Huſband thereto I giue concent,</l>
+               <l>for that I thinke it néede:</l>
+               <l>On the morrow when it was day</l>
+               <l>The litte boy went on his way</l>
+               <l>vnto the field with ſpéed,</l>
+               <l>Of no man he tooke any care,</l>
+               <l>But ſong heyho away the mare,</l>
+               <l>much mirth he did purſue,</l>
+               <l>Forth he went with might and maine,</l>
+               <l>Vntill he came vnto the plaine,</l>
+               <l>where he his dinner drew.</l>
+               <l>But when he ſaw it was ſo bad,</l>
+               <l>Full little liſt there to he had,</l>
+               <l>but put it vp from ſight,</l>
+               <l>Saying he had no liſt to taſt,</l>
+               <l>But that his hunger ſtill ſhould laſt</l>
+               <l>till he came home at night:</l>
+               <l>And as the boy ſate on a hill,</l>
+               <l>There came an old man him vntill,</l>
+               <l>was walking by the way:</l>
+               <l>Sonne he ſaid, God thée ſée,</l>
+               <l>Now welcome Father may ye be</l>
+               <l>the little boy gan ſay.</l>
+               <l>The old man ſaid I hunger ſore</l>
+               <l>Then haſt thou any meate in ſtore,</l>
+               <pb facs="tcp:12511:4"/>
+               <l>which thou mightſt giue to m<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>?</l>
+               <l>The Childs ropli'de, ſo God me ſaue,</l>
+               <l>To ſuch poore victuals as I haue,</l>
+               <l>right welcome ſhall you be.</l>
+               <l>Of this the olde man was full glad,</l>
+               <l>The boy drew forth ſuch as he had,</l>
+               <l>and ſaid goe to gladly:</l>
+               <l>The olde man eaſte was to pleaſe,</l>
+               <l>He eate and made himſelfe at eaſe,</l>
+               <l>ſaying, Sonne gramercy,</l>
+               <l>Sonne he ſaid th'aſt giuen meat to mée,</l>
+               <l>And I will giue thrée things to thée,</l>
+               <l>what ere thou wilt intreat:</l>
+               <l>Thenſaid the boy tis beſt I trowe,</l>
+               <l>That you beſtowe on me a Bowe,</l>
+               <l>with which I birds may get.</l>
+               <l>A Bowe my Sonne I will thée giue,</l>
+               <l>Such as ſhall laſt while thou doe liue,</l>
+               <l>was neuer Bowe more fit:</l>
+               <l>For if thou ſhoot therin all day,</l>
+               <l>Waking or winking, or any way,</l>
+               <l>the marke thou ſtill ſhalt hit.</l>
+               <l>Now when the Bowe in hand he felt,</l>
+               <l>And Arrowes had vnder his belt,</l>
+               <l>hartily he laught Iwis:</l>
+               <l>And ſaid had I a Pipe withall,</l>
+               <l>Though nere ſo little or ſo ſmall,</l>
+               <l>I then had all my wiſh,</l>
+               <pb facs="tcp:12511:4"/>
+               <l>A Pipe Sonne thou ſhalt hane alſo,</l>
+               <l>That in true muſike ſo ſhall goe,</l>
+               <l>I put thee out of dout,</l>
+               <l>As who that liues, and ſhall it heare,</l>
+               <l>Shall haue no power to forbeare,</l>
+               <l>but laugh and leap about.</l>
+               <l>Now tell me what the third ſhall be,</l>
+               <l>For thrée things I will giue to thée,</l>
+               <l>as I haue ſaid before:</l>
+               <l>The Boy then ſmiling, anſwer made,</l>
+               <l>I haue ynough for my poore trade,</l>
+               <l>I will deſire nomore.</l>
+               <l>The olde man ſaid my troth is plight,</l>
+               <l>Thou ſhalt haue all I thée behight,</l>
+               <l>ſay on now let me ſée:</l>
+               <l>At home I haue (the Boy replide)</l>
+               <l>A cruell Step-dame full of pride,</l>
+               <l>who is moſt curſt to me.</l>
+               <l>When meat my Father giues to me,</l>
+               <l>She wiſhes poyſon it might be,</l>
+               <l>and ſtareth in my face:</l>
+               <l>Now when ſhe gazeth on me ſo</l>
+               <l>I would ſhe ſhould a ray let goe</l>
+               <l>which might ring through the place.</l>
+               <l>The olde man anſwered then anon,</l>
+               <l>When ere ſhe lookes thy face vpon,</l>
+               <l>her tayle ſhall winde the horne:</l>
+               <l>So loudly, that who ſhall it hears,</l>
+               <pb facs="tcp:12511:5"/>
+               <l>Shall not be able to forbeare</l>
+               <l>but laugh her vnto ſcorne,</l>
+               <l>So farewell ſonne the old man cride,</l>
+               <l>God keepe you ſir the boy replide,</l>
+               <l>I take my leane of thée:</l>
+               <l>God that beſt of all thinges may</l>
+               <l>Kéepe thée ſafe both night and day,</l>
+               <l>gramercy ſonne ſaid he.</l>
+               <l>When it grew neare vpon the night,</l>
+               <l>Iack well prepar'd hide home ful right</l>
+               <l>it was his ordinanee,</l>
+               <l>And as he went his pipe did blow,</l>
+               <l>The whilſt his Cattle on a row</l>
+               <l>about him gan to dance.</l>
+               <l>Thus to the Towne he pipt full trim,</l>
+               <l>His ſkipping beaſtes did follow him</l>
+               <l>into his Fathers cloſe?</l>
+               <l>He went and put them vp each one,</l>
+               <l>Which done, be homeward went anon</l>
+               <l>to's Fathers Hall he goes.</l>
+               <l>His Father at his ſupper ſat,</l>
+               <l>And little Iack eſpide well that,</l>
+               <l>and ſaid to him anon:</l>
+               <l>Father, all day I kept your Neat,</l>
+               <l>At night I pray you giue me meat,</l>
+               <l>I'me hungry by S. Iohn,</l>
+               <l>Meatles I haue lien all the day,</l>
+               <l>and kept your beaſts, they did not ſtray,</l>
+               <pb facs="tcp:12511:5"/>
+               <l>my diuner was but ill:</l>
+               <l>His Father tooke a Capons wing,</l>
+               <l>And at the boy he did it fling,</l>
+               <l>bidding him eat his fill.</l>
+               <l>This grieu'd his ſtepdames hart full ſore</l>
+               <l>Who loath'd the lad ſtill more and more:</l>
+               <l>ſhe ſtar'd him in the face:</l>
+               <l>With that ſhe let goe ſuch ablaſt,</l>
+               <l>As made the people all agaſt,</l>
+               <l>it ſounded through the place.</l>
+               <l>Each one did laugh and make good game,</l>
+               <l>But the curſt wife grew red for ſhame,</l>
+               <l>and wiſht ſhe had béene gone:</l>
+               <l>Pardy (the boy ſaid) well I wot,</l>
+               <l>That Gun was both well chargd &amp; ſt<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ot,</l>
+               <l>and might haue broke a ſtone.</l>
+               <l>Full curſtly ſhe lookt on him thoe,</l>
+               <l>That looke an other crack let goe</l>
+               <l>which did a thunder raiſe:</l>
+               <l>Quoth the boy did you euer ſée</l>
+               <l>A woman let her pellets flée</l>
+               <l>more thick and more at eaſe?</l>
+               <l>Fie ſaid the boy vnto his dame,</l>
+               <l>Temper thy tel-tale bum for ſhame,</l>
+               <l>which made her full of ſorrow:</l>
+               <l>Dame ſaid the good-man goe thy way,</l>
+               <l>For why I ſwears by night nor day</l>
+               <l>thy geare is not to borrow.</l>
+               <pb facs="tcp:12511:6"/>
+               <l>Now afterward as you ſhall heare,</l>
+               <l>Vnto the houſe there came a Frier,</l>
+               <l>and lay there all the night:</l>
+               <l>The wife this Frier lou'de as a Saint,</l>
+               <l>And to him made a great complaint,</l>
+               <l>of Iackes moſt vile deſpite.</l>
+               <l>We haue quoth ſhe within Iwis,</l>
+               <l>A wicked Boy, none ſhrewder is,</l>
+               <l>which doth me mighty eate:</l>
+               <l>I dare not looke vpon his face,</l>
+               <l>Or hardly tell my ſhamfull caſe,</l>
+               <l>ſo ſtlthily I fare.</l>
+               <l>For Gods loue méet the boy to morowe,</l>
+               <l>Beat him well and giue him ſorowe,</l>
+               <l>and make him blinde or ſame:</l>
+               <l>The Frier ſwore he would hint beat,</l>
+               <l>The wife prayd him not to forget,</l>
+               <l>the Boy did her much ſhame.</l>
+               <l>Some Witch quoth ſhe he is I ſmell,</l>
+               <l>But quoth the Frier Ile beat him well,</l>
+               <l>of that take you no care:</l>
+               <l>Ile teach him wite-craft if I may,</l>
+               <l>O quoth the wife doe ſo I pray,</l>
+               <l>lay on and doe not ſpare.</l>
+               <l>Early next morne the Boy aroſe</l>
+               <l>And to the field full ſoone he goes,</l>
+               <l>his Cattell for to driue:</l>
+               <l>The Frier then vp as early gate,</l>
+               <pb facs="tcp:12511:6"/>
+               <l>He was affraid to come too late,</l>
+               <l>he ranne full faſt and blithe.</l>
+               <l>But when he came vpon the land,</l>
+               <l>He found where little Iacke did ſtand</l>
+               <l>kéeping his deaſts alone:</l>
+               <l>Now Boy he ſaid God giue thée ſhame</l>
+               <l>What haſt thou done to thy Step-dame</l>
+               <l>tell me forthwith anon.</l>
+               <l>And if thou canſt not quit thée well,</l>
+               <l>Ile beat thée till thy body ſwell,</l>
+               <l>I will no longer bide:</l>
+               <l>The Boy reply'd what ayleth thée?</l>
+               <l>My Stepdame is as well as yée,</l>
+               <l>what need you thus to chide?</l>
+               <l>Come will you ſée mine arrowe flye,</l>
+               <l>And hit yon ſmall bird in the eye</l>
+               <l>and other things withall?</l>
+               <l>Sir Frier though I haue little wit,</l>
+               <l>Yet yonder Bird I meane to hit</l>
+               <l>and giue her you I ſhall.</l>
+               <l>There ſate a ſmall Bird on a bryer,</l>
+               <l>Shoot ſhoot you wag then ſaid the Frier</l>
+               <l>for that I long to ſée:</l>
+               <l>Iacke hit the Bird vpon the head,</l>
+               <l>So right, that ſhe fell downe for dead,</l>
+               <l>no further could ſhe flée.</l>
+               <l>Faſt to the buſh the Frier went,</l>
+               <l>And vp the Bird in hand he hent,</l>
+               <pb facs="tcp:12511:7"/>
+               <l>much wondring at the chance:</l>
+               <l>Meane while Iack tooke his pipe &amp; plaid</l>
+               <l>So loud the Frier grew mad apaid,</l>
+               <l>and fell to skip and dance.</l>
+               <l>No ſooner was the pipes ſound heard</l>
+               <l>But Bedlani like he bounſt and far'd,</l>
+               <l>and leapt the buſh about:</l>
+               <l>The ſharpe briers ſcracht him by the face,</l>
+               <l>And by the bréech, and other place,</l>
+               <l>that faſt the bloud ran out.</l>
+               <l>It tare his cloathes downe to the ſkirt,</l>
+               <l>His cope, his coole, and linnen ſhirt,</l>
+               <l>and euery other wéede:</l>
+               <l>The thornes this while were rough and thick</l>
+               <l>And did his priuy members prick,</l>
+               <l>that faſt they gan to bléede.</l>
+               <l>Iack as he piped laught among,</l>
+               <l>The Frier with bryers was vildly ſtung,</l>
+               <l>he hopped wondrous hye:</l>
+               <l>At laſt the Frier held vp his hand,</l>
+               <l>And ſaid I can no longer ſtand,</l>
+               <l>oh I ſhall dauncing dye.</l>
+               <l>Gentle Iacke thy Pipe holde ſtill,</l>
+               <l>And heere I vow for good nor ill</l>
+               <l>to doe thée any woe:</l>
+               <l>Iacke laughing to him thus replide,</l>
+               <l>Frier ſhip out on the other ſide,</l>
+               <l>thou haſt frée leaue to goe.</l>
+               <pb facs="tcp:12511:7"/>
+               <l>Out of the buſh the Frier then went,</l>
+               <l>All martyrd, ragged, ſcratcht and rent,</l>
+               <l>and torne on euery ſide;</l>
+               <l>Hardly on him was left a clout,</l>
+               <l>To wrap his belly round about,</l>
+               <l>his harlotry to hide.</l>
+               <l>The thornes had ſcratcht him by the face,</l>
+               <l>On hands, on thighes, and euery place,</l>
+               <l>he was all bath <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> in blood,</l>
+               <l>So much, that who the Frier did ſé,</l>
+               <l>For feare of him, were faine to flée,</l>
+               <l>thinking he had bene wood.</l>
+               <l>When to the good wife home he came,</l>
+               <l>He made no bragges for very ſhame</l>
+               <l>to ſée his cloathes rent all:</l>
+               <l>Much ſorowe in his heart he had,</l>
+               <l>And euery man did geſſe him mad</l>
+               <l>when he was in the Hall.</l>
+               <l>The good wife ſaid where haſt thou béene?</l>
+               <l>Sure in ſome euill place I wéene,</l>
+               <l>by ſight of thine array:</l>
+               <l>Dame (ſaid he) I came from thy Sonne,</l>
+               <l>The Deuill and he hath me vndone,</l>
+               <l>no man him conquer may.</l>
+               <l>With that, the goodman he came in,</l>
+               <l>The wife ſet on her madding pin,</l>
+               <l>cride, héer's a foule array:</l>
+               <l>Thy Sonne that is thy life and dere,</l>
+               <pb facs="tcp:12511:8"/>
+               <l>Hath almoſt ſlaine the holy Frier,</l>
+               <l>alas and well away.</l>
+               <l>The good-man ſaid <hi>benediciti,</hi>
+               </l>
+               <l>What hath the bilde boy done to thee,</l>
+               <l>now tell me without let?</l>
+               <l>The deuill him take the Frier then ſaid,</l>
+               <l>Homade m<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> dance deſpite my head,</l>
+               <l>among the Thornes, the hey go bef.</l>
+               <l>The good-man ſaid vnto him tho,</l>
+               <l>Father, hadſt thou bene murdred ſo,</l>
+               <l>it had bens deadly ſinne:</l>
+               <l>The Frier to him made this reply,</l>
+               <l>The Pipe did ſound ſo merrily</l>
+               <l>that I could neuer blin.</l>
+               <l>Now when it grew to almoſt night,</l>
+               <l>Iacke the Boy came home ſull right,</l>
+               <l>as he was wont to do:</l>
+               <l>But when he came into the Hall,</l>
+               <l>Full ſoone his Father did him call,</l>
+               <l>and bad him come him to.</l>
+               <l>Boy he ſaid, come tell me here,</l>
+               <l>What haſt thou done vnto this Frier,</l>
+               <l>lye not in any thing</l>
+               <l>Father he ſaid, now by my birth,</l>
+               <l>I playd him but a fit of mirth,</l>
+               <l>and pipte him vp a ſpring.</l>
+               <l>That Pipe ſaid's Father would I heare</l>
+               <l>Now God forbid cride out the Frier,</l>
+               <pb facs="tcp:12511:8"/>
+               <l>his handes he then did wring:</l>
+               <l>You ſhall (the boy ſaid) by Gods grace,</l>
+               <l>The Fryer replide woe, and alas,</l>
+               <l>making his ſorrowes ring.</l>
+               <l>For Gods loue ſaid the wretched Frier,</l>
+               <l>And if you will that ſtrange Pipe heare,</l>
+               <l>binde me faſt to a poſt:</l>
+               <l>For ſure my fortune thus I read,</l>
+               <l>If dance I doe I am but dead,</l>
+               <l>my wofull life is loſt.</l>
+               <l>Strong ropes they tooke both ſharpe and round</l>
+               <l>And to the poaſt the Frier they bound</l>
+               <l>in the middle of the hall:</l>
+               <l>All they which at the Table ſat,</l>
+               <l>Laughed and made good ſport thereat,</l>
+               <l>ſaying Frier thou canſt not fall.</l>
+               <l>Then ſaid the goodman to the boy,</l>
+               <l>Iack pipe me vp ſome merry toy,</l>
+               <l>pipe fréely when thou will:</l>
+               <l>Father, the boy ſaid verily,</l>
+               <l>You ſhall haue mirth enough and glée;</l>
+               <l>till you bid me be ſtill.</l>
+               <l>With that his pipe he quickly hent,</l>
+               <l>And pipte, the whilſt in verament,</l>
+               <l>each Creature gan to dance:</l>
+               <l>Lightly they ſkipt and leapt about,</l>
+               <l>Yerking their legs now in, now out,</l>
+               <l>ſtriuing aloft to prance.</l>
+               <pb facs="tcp:12511:9"/>
+               <l>The good man as in ſad diſpaire</l>
+               <l>Leapt out, and through, &amp; ore his chaire,</l>
+               <l>no man could caper hier:</l>
+               <l>Some others leapt quite ore the ſtocks</l>
+               <l>Some ſtart at ſtrawes and fell ore blocks</l>
+               <l>ſome wallowed in the fier.</l>
+               <l>The good man made himſelfe good ſport</l>
+               <l>To ſée them dance in this mad ſort,</l>
+               <l>the good-wife ſate not ſtill:</l>
+               <l>But as ſhée danſt the look't on Iack,</l>
+               <l>And faſt her taile did do<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>le each crack,</l>
+               <l>loud as a water-mill.</l>
+               <l>The Frier this while was almoſt loſt,</l>
+               <l>He knockt hi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> pate againſt the poaſt,</l>
+               <l>'twas then his dancing grace,</l>
+               <l>The rope rubd him vnder the chinne,</l>
+               <l>That the blood ran fro<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> his tatterd ſkin,</l>
+               <l>in many a naked place.</l>
+               <l>Iack pip<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ng ran into the ſtréet,</l>
+               <l>They followed him with nimble féete,</l>
+               <l>hauing no power to ſtay:</l>
+               <l>And in their haſt the doore did cracke,</l>
+               <l>Each tumbling ouer his fellowes back</l>
+               <l>vnmindfull of their way.</l>
+               <l>The neighbours that were dwelling by,</l>
+               <l>Hearing the pipe ſo merrily,</l>
+               <l>came dancing to the gate:</l>
+               <l>Some leapt ore doores, ſome ore the hatch</l>
+               <pb facs="tcp:12511:9"/>
+               <l>No man would ſtay to draw the latch,</l>
+               <l>but thought he came too late.</l>
+               <l>Some ſicke or ſléeping in their bed,</l>
+               <l>As they by chance lift vp their head,</l>
+               <l>were with the pipe awaked:</l>
+               <l>Straight foorth they ſtart through doores <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> locks</l>
+               <l>Some in their ſhirts ſom in their ſmocks</l>
+               <l>and ſome ſtarke belly naked.</l>
+               <l>When all were gathered round about,</l>
+               <l>There was a bilde vnruly rout</l>
+               <l>that danced in the ſtréet:</l>
+               <l>Of which ſome lame that could not go<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>Striuing to leape did tumble ſo,</l>
+               <l>they dancſt on hands and féet.</l>
+               <l>Iack tyred with ſport ſaid now I'le reſt,</l>
+               <l>Doe (quoth his Father) I holde it beſt,</l>
+               <l>thou cloyſt me with this cheare:</l>
+               <l>I pray thée boy now quiet ſit,</l>
+               <l>In faith this was the merrieſt ſit</l>
+               <l>I heard this ſeauen yeare.</l>
+               <l>All thoſe that dancing thither came</l>
+               <l>Laught heartily and made good game,</l>
+               <l>yet ſome got many a fall:</l>
+               <l>Thou curſed boy cry'd out the Frier,</l>
+               <l>Héere I doe ſummon thée to appeare</l>
+               <l>before the Officiall:</l>
+               <l>Looke thou be there on Friday next,</l>
+               <l>Ile méete thée then though now perplext,</l>
+               <pb facs="tcp:12511:10"/>
+               <l>for to ordaine thy ſorrow:</l>
+               <l>The boy replide, I make a vow,</l>
+               <l>Fryer Ile appeare as ſóone as thou,</l>
+               <l>if Friday were to morrow.</l>
+               <l>But friday came as you ſhall heare,</l>
+               <l>Iackes ſtep-dame and the dancing Frier</l>
+               <l>together they were met:</l>
+               <l>And other people a great pace,</l>
+               <l>Flockt to the Court to heare each caſe,</l>
+               <l>the Officiall was ſet.</l>
+               <l>Much ciuill matters were to doe,</l>
+               <l>More Libels read then one or two,</l>
+               <l>both againſt Prieſt and Clarke:</l>
+               <l>Some there had teſtaments to prooue,</l>
+               <l>Some women there through wanton loue</l>
+               <l>which got ſtroakes in the darke.</l>
+               <l>Each Procter there did plead his caſe</l>
+               <l>When forth did ſtep Frier <hi>Topias,</hi>
+               </l>
+               <l>and Iackes ſtep-dame alſo:</l>
+               <l>Sir Officiall aloud ſaid he,</l>
+               <l>I haue brought a wicked boy to thée</l>
+               <l>hath done me mightie woe:</l>
+               <l>He is a Witch as I doe feare,</l>
+               <l>In <hi>Orleance</hi> he can finde no peare,</l>
+               <l>this of my troth I know.</l>
+               <l>He is a Deuill (quoth the wife)</l>
+               <l>And almoſt hath bereau'd my life</l>
+               <l>at that, her taile did blowe,</l>
+               <pb facs="tcp:12511:10"/>
+               <l>So lowd, th'aſſembly laught thereat,</l>
+               <l>And ſaid her piſtols cracke was flat,</l>
+               <l>the charge was all amiſſe:</l>
+               <l>Dame (qd. the gentle Officiall)</l>
+               <l>Procéed and tell me forth thy tale,</l>
+               <l>an doe not let for this.</l>
+               <l>The wife that feard another cracke,</l>
+               <l>Stood mute, and nere a word ſhe ſpake,</l>
+               <l>ſhame put her in ſuch dread:</l>
+               <l>Ha (ſaid the Frier) right angerly,</l>
+               <l>Knaue this is all ſtill long of thée,</l>
+               <l>now euill maiſt thou ſpéed.</l>
+               <l>The Frier ſaid, ſir Officiall,</l>
+               <l>This wicked boy will ve<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e vs all,</l>
+               <l>vnleſſe you doe him chaſte:</l>
+               <l>Sir, he hath yet a pipe, truly,</l>
+               <l>Will make you dance and leape full hie,</l>
+               <l>and breake your heart at laſt,</l>
+               <l>The Officiall replide perdie,</l>
+               <l>Such a pipe I faine would ſée,</l>
+               <l>and what mirth it can make:</l>
+               <l>Now God forbid replide the Fryer,</l>
+               <l>That ere we ſhould that vilde pipe h<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>are</l>
+               <l>ere I my way hence take.</l>
+               <l>Pipe on Iacke (ſaid the Officiall)</l>
+               <l>And let me heare thy cunning all.</l>
+               <l>Iacke blew his pipe full lowd,</l>
+               <l>That euery man ſtart vp and dancſt,</l>
+               <pb facs="tcp:12511:11"/>
+               <l>Procters &amp; Prieſts, and Somners pran<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t</l>
+               <l>and all in that great crowd,</l>
+               <l>Ouer the desks the Officiall ran,</l>
+               <l>And hopt vpon the Table, that</l>
+               <l>ſtraight iumpt vnto the flore:</l>
+               <l>That Frier that danſt as faſt as he</l>
+               <l>Met him mid-way, and dangerouſly</l>
+               <l>broake eithers face full ſore.</l>
+               <l>The Regiſter leapt from his pen,</l>
+               <l>And hopt into the throng of men,</l>
+               <l>his Inke-horne in his hand:</l>
+               <l>Which ſwinging round about his head,</l>
+               <l>pome he ſtrucke blinde, ſome almoſt dead,</l>
+               <l>ſome they could hardly ſtand.</l>
+               <l>The Procters ſlung their Billes about:</l>
+               <l>The good-wiues taile gaue many a ſhout,</l>
+               <l>perfuming all the mirth:</l>
+               <l>He Somners as they had béene wood</l>
+               <l>eapt ore the formes and ſeates a good,</l>
+               <l>and wallowed on the earth.</l>
+               <l>Renches that for their Pennance came,</l>
+               <l>nd other méeds of worldly ſhame,</l>
+               <l>danſt euery one as faſt:</l>
+               <l>ach ſet vpon a mercy pin,</l>
+               <l>ome brok<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> their heads, &amp; ſome their ſhin</l>
+               <l>and ſome their noſes braſt.</l>
+               <l>he officiall thus ſore turmoild,</l>
+               <l>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lfe ſwelt with ſweat &amp; almoſt ſpoild,</l>
+               <pb facs="tcp:12511:11"/>
+               <l>cride to the wanton childe,</l>
+               <l>To pipe no more within that place,</l>
+               <l>But ſtay the ſound euen for Gods grace,</l>
+               <l>and loue of Parie milde.</l>
+               <l>Iacke ſaid, As you will it ſhall be,</l>
+               <l>Prouided I may hence goe free,</l>
+               <l>and no man doe me wrong.</l>
+               <l>Neither this woman nor this Frier,</l>
+               <l>Nor any other creature héere,</l>
+               <l>he anſwered him anon:</l>
+               <l>Iack, I to thée my promiſe plight,</l>
+               <l>In thy defence I meane to fight,</l>
+               <l>and will oppoſe thy fone.</l>
+               <l>Iack ceaſt his pipe then all ſtill ſtood,</l>
+               <l>Some laughing hard, ſome raging wood,</l>
+               <l>ſo parted at that tide:</l>
+               <l>Tho Officiall and the Somner,</l>
+               <l>The ſtep dame, and the wicked Frier,</l>
+               <l>with much ioy, mirth, and pride.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:12511:12"/>
+            <pb facs="tcp:12511:12"/>
+         </div>
+      </body>
+   </text>
+</TEI>

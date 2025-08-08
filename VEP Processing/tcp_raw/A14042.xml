@@ -1,0 +1,440 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Youth knovv thy selfe</title>
+            <author>Turner, Richard, poet.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1624</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 17 KB of XML-encoded text transcribed from 10 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A14042</idno>
+            <idno type="STC">STC 24347</idno>
+            <idno type="STC">ESTC S118704</idno>
+            <idno type="EEBO-CITATION">99853911</idno>
+            <idno type="PROQUEST">99853911</idno>
+            <idno type="VID">19313</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A14042)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 19313)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1012:3)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Youth knovv thy selfe</title>
+                  <author>Turner, Richard, poet.</author>
+               </titleStmt>
+               <extent>[22] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Augustine Mathevves and Iohn Norton, and are to be sold [by R. Milbourne] at the great south doore of Pauls,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1624.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>By Richard Turner.</note>
+                  <note>In verse.</note>
+                  <note>Bookseller's name from STC.</note>
+                  <note>Signatures: A-C⁴ (-C4).</note>
+                  <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-12</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-01</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2012-01</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:19313:1"/>
+            <pb facs="tcp:19313:1" rendition="simple:additions"/>
+            <p>YOVTH KNOW THY SELFE.</p>
+            <q>
+               <l>Diſce puer virtutem exme, verumque laborem,</l>
+               <l>Fortunam ex alijs.</l>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed by AVGVSTINE MATHEVVES and IOHN NORTON, and are to be ſold at the great South doore of Pauls. 1624.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:19313:2"/>
+            <pb facs="tcp:19313:2"/>
+            <head>To the Reader.</head>
+            <l>REader (if that there will be any ſuch,</l>
+            <l>Theſe vncouth-ragged lines will grace ſo much)</l>
+            <l>I doe implore of thee this courteſie,</l>
+            <l>As that thou wilt not looke with Eagles eye.</l>
+            <l>For though like <hi>Delphian</hi> Oracles I ſeeme,</l>
+            <l>My not-<hi>Appollo's</hi> verſes to eſteeme;</l>
+            <l>Yet know, I thinke ſo great will be their fame,</l>
+            <l>As that I dare not ſet to them my name.</l>
+            <l>Then ſeeing that I am vnknowne of thee,</l>
+            <l>And that thou likewiſe art vnknowne of mee,</l>
+            <l>I can report of thee no thing that's bad,</l>
+            <l>Doe but the ſame of me, I ſhall be glad.</l>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:19313:3"/>
+            <pb facs="tcp:19313:3"/>
+            <head>YOVTH KNOW THY SELFE</head>
+            <l>
+               <seg rend="decorInit">T</seg>O Schoole the weather-beaten wiſe, &amp; fage,</l>
+            <l>To checke the little pretty innocent age,</l>
+            <l>Were but preſumption, and too curious follie;</l>
+            <l>Since neither of theſe ages can be iolly.</l>
+            <l>Your hoary haires, like iſicles which bee,</l>
+            <l>Strike admiration, and reſpect in mee.</l>
+            <l>You poſt vnto the layle, your graue, and ſo</l>
+            <l>Along to Heauens-Seſsions houſe, to know</l>
+            <l>From the Coeleſtiall Iudge, the fatall doome</l>
+            <l>Of al your ſins, done from your mothers wombe.</l>
+            <l>Expect your cenſure there; Ile not ſo much,</l>
+            <l>As how you come bald-pated, giue a touch:</l>
+            <l>Your frowning lookes, &amp; wrinckles doe infuſe</l>
+            <l>A ſmoothed brow vpon mine angry Muſe.</l>
+            <l>Your frozen members, and infrigidated,</l>
+            <l>Cannot by <hi>Venus</hi> ſtarre be calculated.</l>
+            <pb facs="tcp:19313:4"/>
+            <pb facs="tcp:19313:4"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb facs="tcp:19313:5"/>
+            <l>But if amongſt you ſome be children growne,</l>
+            <l>How for to know themſelues it ſhall be ſhowne.</l>
+            <l>You with your golden lookes, and ſiluer bands,</l>
+            <l>Like to the Dayſes culled by your hands,</l>
+            <l>Your louing ſports, and quarrell-breeding games,</l>
+            <l>The ſtricteſt-rigid'ſt <hi>Cato</hi> neuer blames.</l>
+            <l>Your euer-bluſhing cheekes protend, yee feare</l>
+            <l>That all things which ye doe, offenſiue are.</l>
+            <l>Ah! 'tis not you, that for my rage are fuell,</l>
+            <l>Your ſmiles, and bablings, make me not ſo cruell.</l>
+            <l>'Tis hee, or ſhe that <hi>Venus</hi> ſhrine adores,</l>
+            <l>That's in the teenes, and not come to the ſcores.</l>
+            <l>'Tis thoſe that new, forth from the eg-ſhell came,</l>
+            <l>And are become ſtout cockes, &amp; henns o'the game:</l>
+            <l>This is the blood-warme age, there ſprings from</l>
+            <l>The Salamander of concupiſcence.</l>
+            <l>This is the Age that makes my ſpleene to ſwell hence</l>
+            <l>With laughter, and my gall to leaue her cell:</l>
+            <l>Which being vomited vp, about doth flye,</l>
+            <l>Beſpurtling euery body that ſtands nigh.</l>
+            <l>This makes mine eyes, like Baſiliskes for to pry</l>
+            <l>Vpon the obiect, till I make it dye.</l>
+            <l>Oh who hath ſuch a foggie-clowdy braine,</l>
+            <l>That of all ages thinkes not this moſt vaine?</l>
+            <pb facs="tcp:19313:5"/>
+            <l>Or who is ſuch an A-b-c-darian aſſe,</l>
+            <l>That finds not this all former times to paſſe?</l>
+            <l>Since Satan belch't out poyſon firſt on earth,</l>
+            <l>Sin nere was practiſ'd with ſuch ioy and mirth.</l>
+            <l>And ſome's ſo horrid, that I cannot tell,</l>
+            <l>Whether hee'l owne it, that inhabits Hell.</l>
+            <l>Be deafe yee tender eares, whilſt I rehearſe,</l>
+            <l>Things that would ſtain the pureſt meaning verſe:</l>
+            <l>When Dildoes, Merkins, and ſophiſtications,</l>
+            <l>With thouſands of ſuch luſt-full variations,</l>
+            <l>Muſt de divulged by a mind that's bent,</l>
+            <l>To bid the good beware, the bad repent.</l>
+            <l>Goe on my Muſe, thou need'ſt not dread diſgrace,</l>
+            <l>Black is the only colour in thy face</l>
+            <l>Aſſume thy former ſpirit, I know thou durſt</l>
+            <l>Say of all earthly creatures, man's the worſt.</l>
+            <l>All haue obey'd their Maker but this man,</l>
+            <l>Who neuer fully did, nor neuer can.</l>
+            <l>Witneſſe this laſt declining age, wherein</l>
+            <l>That is thought vertue, which before was ſinne.</l>
+            <l>When as Venerious youngſters ſet on fire,</l>
+            <l>Dare to their neighbours ſilent bed aſpire,</l>
+            <l>To drench their itching, and ſulpherous flame,</l>
+            <l>Yet muſt the wronged beare away the ſhame.</l>
+            <pb facs="tcp:19313:6"/>
+            <l>Since Cuckolding, and head-horning plantation</l>
+            <l>Is deem'd and act of ſupererrogation.</l>
+            <l>But thoſe that, like old cuckowes, rob mens neſts;</l>
+            <l>An eating Scab their pureſt parts inueſts.</l>
+            <l>Oh! that Adultery, fondlings ſhould ſo hallow,</l>
+            <l>Which is the deepeſt ſink, the ſoule doth ſwallow.</l>
+            <l>And thoſe that make horns on me<g ref="char:cmbAbbrStroke">̄</g>s heads to dwel,</l>
+            <l>Should engins make, to toſſe themſelues to Hell.</l>
+            <l>The winged-chirping ſongſters of the ayre,</l>
+            <l>Vpon Saint <hi>Valentines</hi> day, that vſe to payre,</l>
+            <l>May teach theſe Royſters, if they cannot tarry,</l>
+            <l>The remedie is very ſpeedy, Marry.</l>
+            <l>Giue to the Parſon, and to toule the bell,</l>
+            <l>Hee'l ſoone diſpatch yee, be yee impes of Hell.</l>
+            <l>And if one come the match to diſanull,</l>
+            <l>Hee'l pull his dagger out, and breake his skull.</l>
+            <l>And if yee feare in Church to ſhew your face,</l>
+            <l>A barne-like thatched one, may be the place.</l>
+            <l>Such crimes as theſe doe make me not my ſelfe,</l>
+            <l>But like the ſpitefull-ſnaky-headed Elfe:</l>
+            <l>I pine through enuy, when I ſee, with eaſe</l>
+            <l>A ten in the hondred ſweltering in greaſe:</l>
+            <l>A Fox-fur'd-clouted-pated fornicator,</l>
+            <l>That's to his Tenants wife Adminiſtrator:</l>
+            <pb facs="tcp:19313:6"/>
+            <l>Whom for to keepe a wife, the charge debar'd,</l>
+            <l>And that would ſlice his Father for his lard:</l>
+            <l>That euery day doth feare a plague, and dearth,</l>
+            <l>As ſome which doe <hi>Sol's</hi> falling downe on earth.</l>
+            <l>Me thinkes there's wild-fire in my ſparkling eies,</l>
+            <l>That makes the balls, like bullets, rend the skies:</l>
+            <l>When that an open-fiſted-biggen'd Baby,</l>
+            <l>That worſhippeth the name of Lord and Lady:</l>
+            <l>That <hi>Forma Pauperis</hi> thinkes is his damnation,</l>
+            <l>And doth eſteeme demurres, his beſt ſaluation:</l>
+            <l>Should haue ſuch takings at Weſtminſter Hall,</l>
+            <l>And yet his Wifes at home, ſurmount them all.</l>
+            <l>Why? ſure my braines with madneſſe is ſo full,</l>
+            <l>That it flies vp and downe, and cracks my skull:</l>
+            <l>To ſee a weeping Crocodile, when ſhe yells</l>
+            <l>Lowder then Free Schooles, or ring of bells;</l>
+            <l>That ſounds: whoſe necke ſeemes not to beare her head</l>
+            <l>That wrings her hands, howles out my husbands dead.</l>
+            <l>Yet ſcarce ſhal the Sea-god, which entertains</l>
+            <l>
+               <hi>Phoebus,</hi> that all his fiery horſes traines,</l>
+            <l>To viſit <hi>Neptune,</hi> in his Sea-ſicke weedes;</l>
+            <l>Haue watered all the foamy ſweating Steeds,</l>
+            <l>And giuen ſome fiſh vnto his frying Brother;</l>
+            <l>But more then monſter-like, ſhee'l haue another.</l>
+            <pb facs="tcp:19313:7"/>
+            <l>For if you thinke the Serpent muttereth hiſſe,</l>
+            <l>You are deceiu;d, ſhe treacherouſly cries kiſſe)</l>
+            <l>Let but her louer curſe her, ſhee's content,</l>
+            <l>And thinks his curſes are like bleſsings ſent:</l>
+            <l>So they'd be Martyrs which ne're came toth' ſtake,</l>
+            <l>And God chaſtiſeth, doth not Martyrs make.</l>
+            <l>She loues the wall, the higheſt ſeate at meetings,</l>
+            <l>She would be idoliz'd by poore mens greetings.</l>
+            <l>Her almes and charity is a three-penny dole,</l>
+            <l>By cheats, and cogges from careleſſe purſes ſtole:</l>
+            <l>Shee grudges this large portion, iuſt like thoſe,</l>
+            <l>The hundreth grudg, whe<g ref="char:cmbAbbrStroke">̄</g> God the tenth beſtows.</l>
+            <l>She neuer weepes, but when her Mother's well,</l>
+            <l>She neuer laughs, but at her Fathers knell.</l>
+            <l>Drunkenneſſe is her portion, her purgation,</l>
+            <l>Is for her burning Ague Fornication:</l>
+            <l>She needs not the Phiſitian's helping hand,</l>
+            <l>Who freely giues vnto his patients land.</l>
+            <l>Her conuerſation is amongſt wild beaſts;</l>
+            <l>Shee euer bleſſeth founders of great feaſts:</l>
+            <l>Shee'l purge her ſtupid pate with <hi>Helebore,</hi>
+            </l>
+            <l>That where ſhe hath beene once, ſhe may come more:</l>
+            <l>Stroke her Rhinoceros noſe, ſhee'l neuer reſt,</l>
+            <l>Till ſhe ſniuels out an Elephantine ieſt:</l>
+            <pb facs="tcp:19313:7"/>
+            <l>And ſhee'l engroſe vp all the Table chat,</l>
+            <l>And laugh, till euery body laugh thereat.</l>
+            <l>She ſcornes inferiours, if an heyre ſhe be,</l>
+            <l>By phauning ſycophants deifi'd is ſhe.</l>
+            <l>She e're malignes, becauſe ſhe flatterie hates:</l>
+            <l>Like thoſe, who to renounce all Popiſh baites,</l>
+            <l>N'ere pure enough doe thinke themſelues to bee,</l>
+            <l>Till they in euery thing doe diſagree.</l>
+            <l>She hath ſugar'd-hony-dropping complements,</l>
+            <l>Of venomous thoughts, the poyſoned impleme<g ref="char:cmbAbbrStroke">̄</g>ts,</l>
+            <l>Shee'l kiſſe your hand, your picture, ſhoe-ſtrings, cheekes,</l>
+            <l>She for bumbaſting ſtuffe in Play-bookes ſeekes:</l>
+            <l>As that the red-roſe, and the Lillie grow,</l>
+            <l>In your Angelicall face, thats white as ſnow:</l>
+            <l>And that your teeth are like two rowes of pearle,</l>
+            <l>You may be Concubine to any Earle:</l>
+            <l>Shee'l crouch with cap in hand, and pardon craue,</l>
+            <l>Shee'l be your ſeruant, varlet, vaſſall, ſlaue:</l>
+            <l>You may command her like your 3. pound Iacke,</l>
+            <l>And yet ſhee'l cut your throat behind your backe.</l>
+            <l>(Theſe are the golden hookes, with which ſhee angles,</l>
+            <l>And the not-hyperbolicall wretch entangles)</l>
+            <pb facs="tcp:19313:8"/>
+            <l>Her Spaniſh ſpit doth make her raiſe much ſtrife,</l>
+            <l>With which ſhee'l hood winck't tilt away her life:</l>
+            <l>Then may the little field-mouſe ſup the blood,</l>
+            <l>Of her who hacſter-like-inſulting ſtood.</l>
+            <l>She that doth weare a ribband for a feather,</l>
+            <l>And quarrels with the faire, and ſerene weather,</l>
+            <l>More bawdery hath her knauiſh-leatherne hide,</l>
+            <l>Then an old Mid-wife, or an vntusk't bride.</l>
+            <l>In Colledges, Inns of Court, ſhe fornication</l>
+            <l>Abhorres, not with the coupled copulation:</l>
+            <l>To couple with the coupled's Fellow-like,</l>
+            <l>The law did neuer 'gainſt this maxime ſtrike.</l>
+            <l>Ambition mounts her, as the skipping backe,</l>
+            <l>The water-coffins which doe ſuffer wracke:</l>
+            <l>And makes her cogitations towre as high,</l>
+            <l>As the early-Sun-ſaluting Fidlers flye:</l>
+            <l>Then doth ſhe thinke her ſelfe ſome potentate,</l>
+            <l>When ſhe is begging at anothers gate.</l>
+            <l>If ſhe hath trauelled, that ſhe hath beene, where</l>
+            <l>
+               <hi>Cambridge,</hi> and <hi>Oxford</hi> neuer came, ſheele ſweare:</l>
+            <l>And that her Tongus are beſt (me thinks 'tis pitty,</l>
+            <l>She hangs not Parat-like out in the Citty)</l>
+            <l>Shee doth allure by her diſheuel'd treſſes,</l>
+            <l>For to intice ſhe hath a thouſand dreſſes.</l>
+            <pb facs="tcp:19313:8"/>
+            <l>Shee's ſo inſatiate, that in euery roome,</l>
+            <l>She doth prouide a Lackey, Page, and Groome.</l>
+            <l>She hath her Monkies, Marmoſets, &amp; ſuch toyes,</l>
+            <l>And much about the age of thirteene, boyes.</l>
+            <l>All her attendants naked come to waite,</l>
+            <l>Loue-powder and flat witchcraft is her baite.</l>
+            <l>Shee Lady-like frequents the Maskes at Court,</l>
+            <l>Where all the gallant hot-ſpurres doe reſort:</l>
+            <l>And there ſhee ſits, like women in Cheape-ſide,</l>
+            <l>Who for to ſell their wares doe there abide.</l>
+            <l>She without Natures vſefull preparations,</l>
+            <l>Can ſatisfie her tickling inſtigations.</l>
+            <l>Cantharides, with Eringos, and ſuch cates,</l>
+            <l>The fiery coales of burning heat inflates,</l>
+            <l>Vntill the fleſh be ouer-roaſted growne,</l>
+            <l>And all the liquor from the pot be flowne:</l>
+            <l>That ſo much moyſture found can ſcarce be there,</l>
+            <l>As for to ſhed the leaſt repentant teare.</l>
+            <l>Shee makes her mony flye in needleſſe charge,</l>
+            <l>And for Tobacco her expence is large:</l>
+            <l>When as ſhe taken hath the ſame ſo long,</l>
+            <l>That like an opened vault her breath is ſtrong,</l>
+            <l>So that Tobacco now ſhe might forſake,</l>
+            <l>And at one anothers mouth's ſhe might it take.</l>
+            <pb facs="tcp:19313:9"/>
+            <l>She neither heat, nor coldnes can endure,</l>
+            <l>But in the houſe ſhee doth her ſelfe immure:</l>
+            <l>She ſtriues not yet to keepe her ſelfe from Hell,</l>
+            <l>Where fire muſt froſt, and froſt muſt fire expell.</l>
+            <l>She vilifies Vniverſities, and Schooles,</l>
+            <l>And wiſdome gets by tearming others fooles.</l>
+            <l>To be aboue Gods <hi>Aarons</hi> is her right,</l>
+            <l>If though her Grandſire clowne, her Sire was Knight.</l>
+            <l>Not in the Hall, ſhe in the Kitchin gluts,</l>
+            <l>For fineſſe ſake ſhe waineſcoteth her guts:</l>
+            <l>Till from the mincing mouth you may aſſume</l>
+            <l>In all your carued meate, her ſweete perfume.</l>
+            <l>To carry her glaſſe to Church, if once ſhe miſſe,</l>
+            <l>(And if it pleaſe her, ſhe may carry this)</l>
+            <l>So many Tales ſhe will relate in ieſt,</l>
+            <l>Till at the length ſhee'l ſweare ſhe did the beſt.</l>
+            <l>For to forſweare her ſelfe ſhee'l vſe this art,</l>
+            <l>That ſhee, though not in tongue, hath God in heart:</l>
+            <l>So when the famiſh't Prophets doe foretell,</l>
+            <l>The wages of Church-broking ſhall be Hell,</l>
+            <l>Reply the curſed ſacrilegious crew,</l>
+            <l>God bids all liue by him, as well as you.</l>
+            <l>(But know you damned catyfes, while they want</l>
+            <l>Their bodies food, your ſoules is very ſcant)</l>
+            <pb facs="tcp:19313:9"/>
+            <l>When as the fable Night doth ouer ſpread</l>
+            <l>Her duskye Canopy, on the drowzie head</l>
+            <l>Of drooping <hi>Titan,</hi> then ſhe takes her reſt,</l>
+            <l>Vpon her dainty downy feathered neſt.</l>
+            <l>And though ſhe cannot but looke vp on high,</l>
+            <l>Yet ſhe ne're begs for heauens moſt watchful eye.</l>
+            <l>Then diſmall dreames her wa<g ref="char:cmbAbbrStroke">̄</g>dring ſenſe affright,</l>
+            <l>Till ſhe awakes, and ſeekes the mornings light:</l>
+            <l>But the ſin-conſcious darkneſſe ſhe beholds,</l>
+            <l>And then her cloſe-pent conſcience ſhe vnfolds:</l>
+            <l>But while ſhe ſearcheth her ſins Catalogue out,</l>
+            <l>Shee feares the Diuell muſters round about.</l>
+            <l>And dreading his vice-ſcourging-yron rod,</l>
+            <l>Perhaps ſhee'l careleſly cry out, O God.</l>
+            <l>At laſt of other helpe ſhe doth diſpaire,</l>
+            <l>And therefore ſpends a Spirit-expelling prayer:</l>
+            <l>The trickling teares bedew her guilty bed,</l>
+            <l>She vowes ſhee'l new conditions firmely wed.</l>
+            <l>Now ſhe will keepe her body chaſt as ice,</l>
+            <l>And not enthrall her ſelfe to torturing vice.</l>
+            <l>But when ſhe ſee's the Mornes vermillion coate,</l>
+            <l>She quickly changeth this conſtrained note.</l>
+            <l>For when her ſneaking ſtalking-horſe appeares,</l>
+            <l>Shee'l ſay ſhe dream't his death, &amp; ſhed theſe teares.</l>
+            <pb facs="tcp:19313:10"/>
+            <l>Then to her former trade ſhee goes afreſh,</l>
+            <l>To warme with feare, her long benummed fleſh.</l>
+            <l>(But if betimes ſhe doth not it forſake,</l>
+            <l>She may be ſcorth't in the euer-burning lake,)</l>
+            <l>The vſing of her owne ſhe thinkes ſo fit,</l>
+            <l>That all her kindred may haue vſe of it.</l>
+            <l>Shee'l make her Father pander, Mother bawd,</l>
+            <l>Husband door-keeper, Children to applaud.</l>
+            <l>(Thus all her ſworne alliance is her guard;</l>
+            <l>And Luſt's moſt-baſely-captiuated ward:</l>
+            <l>So Luſt the roote of all contagious euils,</l>
+            <l>Supplies the place of men-poſſeſſing Diuels)</l>
+            <l>Shee loues the meanes, but yet not procreation,</l>
+            <l>For to preuent it is her occupation.</l>
+            <l>If an abortiue birth ſhe chance to haue,</l>
+            <l>She will expoſe it to a murthering ſlaue.</l>
+            <l>This ſin my Muſe to her laſt gaſpe hath brought,</l>
+            <l>For 'tis ſo foule, that it hath ſtop't her throat.</l>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:19313:10"/>
+         </div>
+      </body>
+   </text>
+</TEI>

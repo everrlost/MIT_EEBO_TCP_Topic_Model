@@ -1,0 +1,719 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[The Jest of Sir Gawaine]</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1528</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 10 KB of XML-encoded text transcribed from 4 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A01564</idno>
+            <idno type="STC">STC 11691A.3</idno>
+            <idno type="STC">ESTC S2682</idno>
+            <idno type="EEBO-CITATION">24496328</idno>
+            <idno type="OCLC">ocm 24496328</idno>
+            <idno type="VID">27733</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A01564)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 27733)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1852:9)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>[The Jest of Sir Gawaine]</title>
+               </titleStmt>
+               <extent>[4+] leaves.   </extent>
+               <publicationStmt>
+                  <publisher>Imprynted at London in Fletestrete at the sygne of Saynt Iohan euaugelyst [sic], by me Iohan Butler,</publisher>
+                  <pubPlace>[London] :</pubPlace>
+                  <date>[1528?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>T.p. lacking; title suggested by STC (2nd ed.).</note>
+                  <note>Imprint from colophon; date of publication suggested by STC (2nd ed.)</note>
+                  <note>Imperfect: all but 4 leaves lacking; cropped.</note>
+                  <note>Reproduction of original in the Lambeth Palace Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2014-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2014-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2014-02</date>
+            <label>Anne Simpson</label>Sampled and proofread</change>
+         <change>
+            <date>2014-02</date>
+            <label>Anne Simpson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="poem">
+            <pb facs="tcp:27733:1"/>
+            <lg>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> ſhall I wete yf he be a man</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>o haue good daye</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>e to the pauyl yon he rode</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>we the mayden as ſhe ſtode</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> was her brother gaye</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>yght ſhe ſayd here cometh one</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>he harde hym to ouer gone</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> now and ſe</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> wyll dure in fyght</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>unte ye ſawe neuer a better knyght</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> ſhall fynde hym ſykerly</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> now my brother fyr Brandles</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>arrefull flye ywys</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> you ſhall fynde</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>e <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> paſtynge lyke a knyght</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ede ye ſhall fynde hym wyght</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>er this lynde</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>y<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>a wayne he is full lyke</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> and to ſtryke</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> handes a man</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>t or now this yeres thre</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>e lyke a man to be</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>d by ſaynt Iohan</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>y<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Brandles the knyght gay</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> hyghe and thus gan ſay</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>e thou the cheuelere</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> haſt he ſayd on hyght</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> the wyll I fyght</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>me thou ſhalte lere</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> done <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e dyſhououre grete</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> not now amendement gete</l>
+               <pb facs="tcp:27733:1"/>
+               <l>Let me make amendes and you maye</l>
+               <l>Or thou begyn this werke</l>
+               <l>Syr and I haue ought myſdone</l>
+               <l>Tell me and it ſhall he amended ſoone</l>
+               <l>All gentylneſſe to fulfyll</l>
+               <l>I haue ben beſtad today full fore</l>
+               <l>Shame it were to preue me ony more</l>
+               <l>But here I am at your wyll</l>
+               <l>I wys quod Brandles that is ſothe</l>
+               <l>But I muſt nedes holde myne othe</l>
+               <l>Thou haſt done ſo yll</l>
+               <l>My fader and my brederne thou haſt beten bothe</l>
+               <l>To accorde I were therof full lothe</l>
+               <l>My worſhyp to fulfyll</l>
+               <l>Now ſayd Gawayne ſyth it is ſo</l>
+               <l>I muſt nedes me dryue therto</l>
+               <l>This daye god lende me grace</l>
+               <l>For my ſwerde ſhall do none aduantage</l>
+               <l>Let vs ſe how well we can autrage</l>
+               <l>If I may dure ought in this trace</l>
+               <l>Gramer<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>y ſayd Brandles in good faye</l>
+               <l>Now ſhall you ſe me make good playe</l>
+               <l>Of knyghthode thou haſt no pere</l>
+               <l>I am ryght glad that thou haſt myght</l>
+               <l>But ſory I am that we wante daye lyght</l>
+               <l>But amended is mychere</l>
+               <l>They fought togyder theſe knyghtes good</l>
+               <l>Thrugh the haburgeons ranne the reed blood</l>
+               <l>That pyte it was toſe</l>
+               <l>They fought togyder with ſuche yre</l>
+               <l>That after fl<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>med out the f<gap reason="illegible" resp="#MURP" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>
+               </l>
+               <pb facs="tcp:27733:2"/>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>e boughe in his hande he dyde brynge</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ge on a Ioly courſere</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ſe was trapped in reed veluet</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>uches of golde theron was ſet</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ghthode he had nopere</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>is horſe was armed before</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ed and the breſt and no more</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>fyne ſtele</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>e was armed paſſynge ſure</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> that wolde ſtrokes endure</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e proued ryght we<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>yght bare on his heed a pomell <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>aye</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ge on his horſe ſtertynge out of y<hi rend="sup">e</hi> waye</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>s he came aboute</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> he had that was of renowne</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> thee in a blacke fawcowne</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>e was of ſyluer without</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> his hande a ſpere he bare</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> ſtronge and longe I make you ware</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> truſty tree</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> was an heed theron of ſtele wrought</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>eſte that myght be made or bought</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ell aſſayed had be</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> of pleaſaunce a ke<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>che yf honge</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> it was more than thre elles longe</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>dred all with golde</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> as a knyght of large and lengthe</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>oued well of moche ſtrengthe</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> hym who ſo wolde</l>
+               <l>
+                  <gap reason="illegible: left margin cropped or obscured"
+                       resp="#KEYERS"
+                       extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> of golde alſo he had on</l>
+               <pb facs="tcp:27733:2"/>
+               <l>She hath cauſed to daye moche ſhame parde</l>
+               <l>It is pyte ſhe hath her ſyght</l>
+               <l>Syr knyght ſayd ſyr Gawayne haue good daye</l>
+               <l>For on fote I haue a longe waye</l>
+               <l>
+                  <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n horſe were me wonder dere</l>
+               <l>Somtyme good horſes I haue good wone</l>
+               <l>But now on fote nedes muſt I gone</l>
+               <l>God in haſt amende my chere</l>
+               <l>Syr Gawayne was armed paſſynge heuy</l>
+               <l>On fote myght he not endure truely</l>
+               <l>His knyfe he toke in honde</l>
+               <l>His armoure good he cut hym fro</l>
+               <l>Elles on fore myght he not go</l>
+               <l>Thus with care was he bonde</l>
+               <l>¶ Leue we now ſyr Gawayne in wo</l>
+               <l>And ſpeke we more of ſyr Brandles tho</l>
+               <l>Whan he with his ſyſter met</l>
+               <l>He ſayd fye on the harlot ſtronge</l>
+               <l>It is pyte that thou lyueſt ſo longe</l>
+               <l>Strypes harde I wyll the ſet</l>
+               <l>And bete the bothe backe and ſyde</l>
+               <l>And than wolde he not abyde</l>
+               <l>But to his fader ſtreyte he wente</l>
+               <l>Than he axed hym how he fared</l>
+               <l>He ſayd ſone for the haue I cared</l>
+               <l>I wende that thou haddeſt ben ſhente</l>
+               <l>Brandles fayd I haue bete my ſyſtere</l>
+               <l>And the knyght I made hym ſwere</l>
+               <l>
+                  <gap reason="illegible" resp="#MURP" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> we mete agayne</l>
+               <l>
+                  <gap reason="illegible" resp="#MURP" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> togyder fyght</l>
+               <pb facs="tcp:27733:3"/>
+               <l>Tyll at the laſte they wanted lyght</l>
+               <l>They wyſt not what to done</l>
+               <l>Than ſayd ſyr Brandles that knyght ſo gaye</l>
+               <l>Syr knyght we wante lyght of the daye</l>
+               <l>Therfore I make my mone</l>
+               <l>If we fyght thus in the derke togyder</l>
+               <l>Thrugh myſhap the one myght fle the other</l>
+               <l>And therfore by myne aſſente</l>
+               <l>Let vs ſwere on our ſwerdes bothe</l>
+               <l>Where that we mete for lefe or lothe</l>
+               <l>If that we mete in preſente</l>
+               <l>And neuer leue the batayle tyll the one be ſlayne</l>
+               <l>I aſſent me therto than ſayd Gawayne</l>
+               <l>And ye wyll that it ſo be</l>
+               <l>Thus ſayd ſyr Brandles I maye none other do</l>
+               <l>For ſuche promyſe I made my fader vnto</l>
+               <l>Therfore this othe make we</l>
+               <l>I wote that there is no ſtroke y<hi rend="sup">t</hi> thou gyueſt me</l>
+               <l>But I haue quyt it ſykerly</l>
+               <l>And thou arte not in my det</l>
+               <l>Full large of lyuerye thou arte ſyr knyght</l>
+               <l>Neuer none dyde preue ſo well my myght</l>
+               <l>We ben euen as we met</l>
+               <l>Let vs make an othe on our ſwerdes here</l>
+               <l>In what place we mete ferre or nere</l>
+               <l>Euen there as eyther other may fynde</l>
+               <l>Euen ſo we ſhall do the batayle vtterly</l>
+               <l>I holde ſayd Gawayne by mylde mary</l>
+               <l>And thus we make an ende</l>
+               <l>S<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>r Gamayne take <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> his ſwerde than</l>
+               <pb facs="tcp:27733:3"/>
+               <l>Whan he all ſawe he ſayd alas</l>
+               <l>This is euyll tydyngr</l>
+               <l>Whan he ſawe his fader all blody</l>
+               <l>And his .ii. bretherne hurte full ſykerly</l>
+               <l>Alas ſayd Brandles than</l>
+               <l>Who hath done you ſuche a dyſpyte</l>
+               <l>Tell me in haſt that I may hym quyte</l>
+               <l>For myne herte is wo begone</l>
+               <l>Then ſayd the fader ſone I ſhall the tell</l>
+               <l>All this hathe done a knyght full fell</l>
+               <l>And layne by thy ſyſter alſo</l>
+               <l>He bet me fyrſte and ſythe them all</l>
+               <l>And made vs ſwere that we ne ſhall</l>
+               <l>This day do hym no wo</l>
+               <l>Now quod Brandles this is ylle come</l>
+               <l>I enſure you by my holy dome</l>
+               <l>I ſhall proue his myght</l>
+               <l>Were he as ſtronge as Sampſon was</l>
+               <l>In faty he ſhall I neuer frome hympas</l>
+               <l>Tyll the one of vs to dethe be dyght</l>
+               <l>Ye loue Brendles thou ſhalte not ſo</l>
+               <l>Though he haue done wronge let hymg</l>
+               <l>The knyght is paſſynge ſure</l>
+               <l>I wyll not for more than I wyll ſayne</l>
+               <l>Se the ſyr Brandles there ſlayne</l>
+               <l>For I warrante the he wyll endure</l>
+               <l>The knyght is ſtronge and well fyght</l>
+               <l>And whan he hath in his hande a man</l>
+               <l>He wyll do hym no yl<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>But <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>entyll wordes ſpeke agayne</l>
+               <pb facs="tcp:27733:4"/>
+               <l>And eche of them helped other</l>
+               <l>As well as they myght go</l>
+               <l>Than the lady gate her awaye</l>
+               <l>They ſawe her neuer after that daye</l>
+               <l>She wente wandrynge to and fro</l>
+               <l>Alſo ſyr Gawayne in his party</l>
+               <l>On fote he wente full weryly</l>
+               <l>Tyll he to the courte came home</l>
+               <l>All his aduenture he ſhewed the kynge</l>
+               <l>That with thoſe .iiii. knyghtes he had fyghtyng</l>
+               <l>And eche after other alone</l>
+               <l>After that tyme they neuer met more</l>
+               <l>Full glad were theſe partyes therfore</l>
+               <l>So was there made the ende</l>
+               <l>I praye god gyue vs all good reſte</l>
+               <l>And thoſe that haue harde this lytell geſte</l>
+               <l>And in hye heuen for to be dwellynge</l>
+               <l>And that we all vpon domes daye</l>
+               <l>Come to the blyſſe that laſteth a ye</l>
+               <l>Where we maye here the aungelles ſynge</l>
+            </lg>
+            <floatingText xml:lang="eng" type="colophon">
+               <body>
+                  <p>¶ Imprynted at London in Fleteſtrete at the ſygne of ſaynt Iohan euaugelyſt<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> by me Iohan Butler.</p>
+               </body>
+            </floatingText>
+            <pb facs="tcp:27733:4"/>
+            <lg>
+               <l>Of knyghthode thou haſte no felowe</l>
+               <l>On my faythe I enſure the</l>
+               <l>Nowe quod Gawayne let hym be</l>
+               <l>And ſyr knyght make one othe to me</l>
+               <l>That this daye thou do me no greue</l>
+               <l>And thou ſhalte paſſe from me all quyte</l>
+               <l>Where as is nowe thy mooſt delyte</l>
+               <l>Without ony more reprefe</l>
+               <l>Syr Terry ſayd therto I graunte</l>
+               <l>Fare well nowe god be thy warraunte</l>
+               <l>Full mekely he wente on fote</l>
+               <l>He lefte neuer tyll he came there</l>
+               <l>Where his fader and ſyr Gyamoure were</l>
+               <l>That carefull hertes had god wote</l>
+               <l>Than ſpake ſyr Gyamoure his yongeſt bro</l>
+               <l>Syr thou haſt goten as we haue and none</l>
+               <l>That knewe I well it ſholde ſo be</l>
+               <l>By god ſayd ſyr Terry ſo nowe it is</l>
+               <l>He is a deuyll forſothe Iwys</l>
+               <l>And that is preued on me</l>
+               <l>Ye quod ſyr Gylberde that erle olde</l>
+               <l>He is a knyght bothe ſtronge and bolde</l>
+               <l>And fortune is his frende</l>
+               <l>My d<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ughters loue he clene wan</l>
+               <l>Therfore I dare well ſaye he is a man</l>
+               <l>And mykell worſe than I wende</l>
+               <l>As they thre ſtode thus talk ynge</l>
+               <l>They herde a man full lowde ſynge</l>
+               <l>That all the wode ronge</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

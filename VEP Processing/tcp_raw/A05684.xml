@@ -1,0 +1,883 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Breviarium ad usum Sarum]</title>
+            <title>Breviary (Salisbury)</title>
+            <author>Catholic Church.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1475</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 8 KB of XML-encoded text transcribed from 3 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A05684</idno>
+            <idno type="STC">STC 15794</idno>
+            <idno type="STC">ESTC S120723</idno>
+            <idno type="EEBO-CITATION">99855917</idno>
+            <idno type="PROQUEST">99855917</idno>
+            <idno type="VID">21425</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A05684)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 21425)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 86:03)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>[Breviarium ad usum Sarum]</title>
+                  <title>Breviary (Salisbury)</title>
+                  <author>Catholic Church.</author>
+               </titleStmt>
+               <extent>[2+] leaves   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[Southern Netherlands :</pubPlace>
+                  <date>ca. 1475?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Title and suggested imprint from STC.</note>
+                  <note>Imperfect; a fragment.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="lat">lat</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Catholic Church --  Prayer-books and devotions --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-05</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-04</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2010-04</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="lat">
+      <body>
+         <div type="fragment_of_breviary">
+            <pb facs="tcp:21425:1"/>
+            <pb facs="tcp:21425:1" rendition="simple:additions"/>
+            <gap reason="missing" extent="1+ pages">
+               <desc>〈1… pages missing〉</desc>
+            </gap>
+            <div type="chapter">
+               <gap reason="missing" extent="1+ pages">
+                  <desc>〈1… pages missing〉</desc>
+               </gap>
+               <p>I<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>em<g ref="char:cmbAbbrStroke">̄</g> ide<g ref="char:cmbAbbrStroke">̄</g> verba dei audit qui ex deo eſt et audire verb a no<g ref="char:cmbAbbrStroke">̄</g> poteſt quiſ quis ex illo no<g ref="char:cmbAbbrStroke">̄</g> eſt in<g ref="char:EOLunhyphen"/>terroget ſe quiſ quis ſi <choice>
+                     <abbr>vba</abbr>
+                     <expan>verba</expan>
+                  </choice> dei in aure cordis ꝑci<g ref="char:EOLunhyphen"/>pit et intelligat vnde ſit. Celeſtem patria<g ref="char:cmbAbbrStroke">̄</g> deſide<g ref="char:EOLhyphen"/>rare veritus iubet carnis diſideria co<g ref="char:cmbAbbrStroke">̄</g>teri mu<g ref="char:cmbAbbrStroke">̄</g>di glo<g ref="char:EOLunhyphen"/>riam declinare aliena no<g ref="char:cmbAbbrStroke">̄</g> appeti ꝓpria largiri. <choice>
+                     <abbr>R<hi rend="sup">m</hi>
+                     </abbr>
+                     <expan>Responsum</expan>
+                  </choice> In ꝓximo eſt tribulacio meo dn<g ref="char:cmbAbbrStroke">̄</g>e et no<g ref="char:cmbAbbrStroke">̄</g> eſt qui ad<g ref="char:EOLunhyphen"/>iuuet vt fodeant manus meas et pedes meos lib<expan>
+                     <am>
+                        <g ref="char:aber"/>
+                     </am>
+                     <ex>er</ex>
+                  </expan>a me de ore leonis vt enar<g ref="char:EOLunhyphen"/>rem nome<g ref="char:cmbAbbrStroke">̄</g> tuu<g ref="char:cmbAbbrStroke">̄</g> fratribus meis. <choice>
+                     <abbr>v</abbr>
+                     <expan>versus</expan>
+                  </choice> Erue a framea deus anima<g ref="char:cmbAbbrStroke">̄</g> mea<g ref="char:cmbAbbrStroke">̄</g> &amp; de ma<g ref="char:EOLunhyphen"/>nu canis vnicu<g ref="char:cmbAbbrStroke">̄</g> mea<g ref="char:cmbAbbrStroke">̄</g> Vt. <choice>
+                     <abbr>R</abbr>
+                     <expan>Responsum</expan>
+                  </choice> ferialia. Ne ꝑdas cu<g ref="char:cmbAbbrStroke">̄</g> impijs deus anima<g ref="char:cmbAbbrStroke">̄</g> mea<g ref="char:cmbAbbrStroke">̄</g> et cum viris ſa<g ref="char:cmbAbbrStroke">̄</g>guinu<g ref="char:cmbAbbrStroke">̄</g> vi<g ref="char:EOLhyphen"/>tam mea<g ref="char:cmbAbbrStroke">̄</g>. redime me dn<g ref="char:cmbAbbrStroke">̄</g>e <choice>
+                     <abbr>v</abbr>
+                     <expan>versus</expan>
+                  </choice> Eripe me dn<g ref="char:cmbAbbrStroke">̄</g>e ab homi<g ref="char:cmbAbbrStroke">̄</g>e malo a viro iniquo libera me Redime. <choice>
+                     <abbr>R</abbr>
+                     <expan>Responsum</expan>
+                  </choice> Ne auer<g ref="char:EOLunhyphen"/>tus faciem tuam a puero tuo dn<g ref="char:cmbAbbrStroke">̄</g>e <choice>
+                     <abbr>Qm</abbr>
+                     <expan>Quoniam</expan>
+                  </choice> tribulor ve<g ref="char:EOLhyphen"/>lociter exaudi me. <choice>
+                     <abbr>v</abbr>
+                     <expan>versus</expan>
+                  </choice> In<g ref="char:EOLhyphen"/>tende anime mee et slibe<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> eam ꝓpter inimicos me<g ref="char:EOLunhyphen"/>os eripe me <choice>
+                     <abbr>Qm</abbr>
+                     <expan>Quoniam</expan>
+                  </choice> tribulor Hec duo <choice>
+                     <abbr>R</abbr>
+                     <expan>Responsum</expan>
+                  </choice> ferialia dii<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> pariter in vno die quoci<g ref="char:EOLhyphen"/>e<g ref="char:cmbAbbrStroke">̄</g>s dicit<expan>
+                     <am>
+                        <g ref="char:abur"/>
+                     </am>
+                     <ex>ur</ex>
+                  </expan> de iij <choice>
+                     <abbr>noct</abbr>
+                     <expan>noctibus</expan>
+                  </choice>. ꝑ <abbr>ebd</abbr> 
+                  <choice>
+                     <abbr>v</abbr>
+                     <expan>versus</expan>
+                  </choice> Inte<g ref="char:cmbAbbrStroke">̄</g>de ai<g ref="char:cmbAbbrStroke">̄</g>e mee et libe<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> eam. <choice>
+                     <abbr>R</abbr>
+                     <expan>Responsum</expan>
+                  </choice> ꝓPter inimicos meos eripe me. Iſte <choice>
+                     <abbr>v</abbr>
+                     <expan>versus</expan>
+                  </choice> di<g ref="char:EOLunhyphen"/>cat<expan>
+                     <am>
+                        <g ref="char:abur"/>
+                     </am>
+                     <ex>ur</ex>
+                  </expan> an<g ref="char:cmbAbbrStroke">̄</g> laudes vſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ad cena<g ref="char:cmbAbbrStroke">̄</g> dni<g ref="char:cmbAbbrStroke">̄</g> qua<g ref="char:cmbAbbrStroke">̄</g>do de <choice>
+                     <abbr>tꝑali</abbr>
+                     <expan>temporali</expan>
+                  </choice> agit<expan>
+                     <am>
+                        <g ref="char:abur"/>
+                     </am>
+                     <ex>ur</ex>
+                  </expan>. In laudiꝰ <choice>
+                     <abbr>an</abbr>
+                     <expan>antiphona</expan>
+                  </choice>
+               </p>
+               <p>Ide dn<g ref="char:cmbAbbrStroke">̄</g>e afflictione<g ref="char:cmbAbbrStroke">̄</g> mea<g ref="char:cmbAbbrStroke">̄</g> 
+                  <choice>
+                     <abbr>qm</abbr>
+                     <expan>quoniam</expan>
+                  </choice> erectus eſt inimicus meus. <choice>
+                     <abbr>ps</abbr>
+                     <expan>psalmus</expan>
+                  </choice> Miſe<g ref="char:EOLunhyphen"/>rere. <choice>
+                     <abbr>an</abbr>
+                     <expan>antiphona</expan>
+                  </choice> In tribulaco<g ref="char:cmbAbbrStroke">̄</g>e in nom<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ni dn<g ref="char:cmbAbbrStroke">̄</g>m et exaudiuit me in latitudine. <choice>
+                     <abbr>ps</abbr>
+                     <expan>psalmus</expan>
+                  </choice> Con<g ref="char:EOLunhyphen"/>fitemini. <choice>
+                     <abbr>an</abbr>
+                     <expan>antiphona</expan>
+                  </choice>. Judicaſti do<g ref="char:EOLunhyphen"/>mine cauſa<g ref="char:cmbAbbrStroke">̄</g> anime mee de<g ref="char:EOLunhyphen"/>fenſor vite mee dn<g ref="char:cmbAbbrStroke">̄</g>e deus meus. <choice>
+                     <abbr>ps</abbr>
+                     <expan>psalmus</expan>
+                  </choice> Deus deus <choice>
+                     <abbr>an</abbr>
+                     <expan>antiphona</expan>
+                  </choice> Popule meus quid feci <choice>
+                     <abbr>t</abbr>
+                     <expan>tibi</expan>
+                  </choice> aut <choice>
+                     <abbr>qd</abbr>
+                     <expan>quid</expan>
+                  </choice> moleſtus fui <choice>
+                     <abbr>rnde</abbr>
+                     <expan>responde</expan>
+                  </choice> 
+                  <choice>
+                     <abbr>m</abbr>
+                     <expan>mihi</expan>
+                  </choice>. <choice>
+                     <abbr>ps</abbr>
+                     <expan>psalmus</expan>
+                  </choice> 
+                  <choice>
+                     <abbr>Bnd</abbr>
+                     <expan>Benedictus</expan>
+                  </choice>. <choice>
+                     <abbr>an</abbr>
+                     <expan>antiphona</expan>
+                  </choice> Nu<g ref="char:cmbAbbrStroke">̄</g>quid redditur ꝓ bono malum quia foderu<g ref="char:cmbAbbrStroke">̄</g>t foueam ani<g ref="char:EOLunhyphen"/>me mee. <choice>
+                     <abbr>ps</abbr>
+                     <expan>psalmus</expan>
+                  </choice> Laudate.</p>
+               <div type="part">
+                  <head>Ca<hi rend="sup">m</hi>.</head>
+                  <p>Priſtus aſſiſte<g ref="char:cmbAbbrStroke">̄</g>s po<g ref="char:cmbAbbrStroke">̄</g>n<g ref="char:EOLunhyphen"/>fex futuro<expan>
+                        <am>
+                           <g ref="char:abrum"/>
+                        </am>
+                        <ex>rum</ex>
+                     </expan> bono<expan>
+                        <am>
+                           <g ref="char:abrum"/>
+                        </am>
+                        <ex>rum</ex>
+                     </expan> ꝑ am<g ref="char:EOLunhyphen"/>plius
+<pb facs="tcp:21425:2"/>et perfectius <choice>
+                        <abbr>tabnacu<g ref="char:EOLunhyphen"/>lu<g ref="char:cmbAbbrStroke">̄</g>
+                        </abbr>
+                        <expan>tabernaculum</expan>
+                     </choice> no<g ref="char:cmbAbbrStroke">̄</g> manufactu<g ref="char:cmbAbbrStroke">̄</g> id <choice>
+                        <abbr>e</abbr>
+                        <expan>est</expan>
+                     </choice> huiꝰ creaco<g ref="char:cmbAbbrStroke">̄</g>is ne<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> per ſa<g ref="char:cmbAbbrStroke">̄</g>guine<g ref="char:cmbAbbrStroke">̄</g> hyrco<expan>
+                        <am>
+                           <g ref="char:abrum"/>
+                        </am>
+                        <ex>rum</ex>
+                     </expan> aut vitulorum ſed ꝑ ꝓpriu<g ref="char:cmbAbbrStroke">̄</g> ſanguine<g ref="char:cmbAbbrStroke">̄</g> i<g ref="char:cmbAbbrStroke">̄</g>troiuit ſemel in ſancta et<expan>
+                        <am>
+                           <g ref="char:aber"/>
+                        </am>
+                        <ex>er</ex>
+                     </expan>na <choice>
+                        <abbr>rde<g ref="char:cmbAbbrStroke">̄</g>p<g ref="char:EOLunhyphen"/>cione</abbr>
+                        <expan>redempcione</expan>
+                     </choice> inuenta.</p>
+                  <div type="hymn">
+                     <head>Ymnus</head>
+                     <p>
+                        <gap reason="illegible: missing" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>Uſtra ſex <choice>
+                           <abbr>q</abbr>
+                           <expan>qui</expan>
+                        </choice>iam per acta tempꝰ imple<g ref="char:cmbAbbrStroke">̄</g>s corꝑis ſe vole<g ref="char:cmbAbbrStroke">̄</g>te natus ad hoc paſſio<g ref="char:cmbAbbrStroke">̄</g>i deditus agnꝰ in cruce leuat<expan>
+                           <am>
+                              <g ref="char:abur"/>
+                           </am>
+                           <ex>ur</ex>
+                        </expan> immolandꝰ ſtipite <gap reason="illegible: missing" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ic acetu<g ref="char:cmbAbbrStroke">̄</g> fel aru<g ref="char:cmbAbbrStroke">̄</g>do ſputa clauis lancea mite corpus ꝑforat<expan>
+                           <am>
+                              <g ref="char:abur"/>
+                           </am>
+                           <ex>ur</ex>
+                        </expan> ſa<g ref="char:cmbAbbrStroke">̄</g>guis nu<g ref="char:EOLunhyphen"/>da ꝓfluit terra pontus aſ<g ref="char:EOLunhyphen"/>tra mu<g ref="char:cmbAbbrStroke">̄</g>dus quo lauat<expan>
+                           <am>
+                              <g ref="char:abur"/>
+                           </am>
+                           <ex>ur</ex>
+                        </expan> flu<g ref="char:EOLunhyphen"/>mine <gap reason="illegible: missing" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>rux fidelis int<expan>
+                           <am>
+                              <g ref="char:aber"/>
+                           </am>
+                           <ex>er</ex>
+                        </expan> oe<g ref="char:cmbAbbrStroke">̄</g>s arbor vna nobilis nulla ſilua tale<g ref="char:cmbAbbrStroke">̄</g> ꝓfert fronde flo<g ref="char:EOLunhyphen"/>re germine dulce lignum dulces clauos dulce po<g ref="char:cmbAbbrStroke">̄</g>dꝰ fuſtinet <gap reason="illegible: missing" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>lecte ramos ar<g ref="char:EOLunhyphen"/>bor alta tenſa laxa viſcea<g ref="char:cmbAbbrStroke">̄</g> et rigor lenteſcat ille que<g ref="char:cmbAbbrStroke">̄</g> dedit natiuitas ut ſuperni me<g ref="char:cmbAbbrStroke">̄</g>bra regis miti tendas ſtipite <gap reason="illegible: missing" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ola digna tu fuiſ<g ref="char:EOLunhyphen"/>ti ferre <g ref="char:abpre">p̄</g>tiu<g ref="char:cmbAbbrStroke">̄</g> ſeculi at<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> por<g ref="char:EOLunhyphen"/> tum <g ref="char:abpre">p̄</g>parare nauta mu<g ref="char:cmbAbbrStroke">̄</g>do naufrago quem ſacer cru<g ref="char:EOLunhyphen"/>or perunxit fufus agni cor<g ref="char:EOLunhyphen"/>pore <gap reason="illegible: missing" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>loria &amp; honor do vſ<g ref="char:EOLunhyphen"/>
+                        <expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> quo altiſſimo vna patri filio<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> inclito paraclito cuii laus eſt et poteſtas ꝑ eter<g ref="char:EOLunhyphen"/>na ſecula Amen. ver. Eri<g ref="char:EOLunhyphen"/>pe me de inimicis meis de<g ref="char:EOLunhyphen"/>us meus <choice>
+                           <abbr>R<hi rend="sup">m</hi>
+                           </abbr>
+                           <expan>Responsum</expan>
+                        </choice> Et ab inſur<g ref="char:EOLunhyphen"/>gentibus in me libera me <choice>
+                           <abbr>an</abbr>
+                           <expan>antiphona</expan>
+                        </choice>. Quis ex vois argu<g ref="char:EOLunhyphen"/>et me de peccato ſi <choice>
+                           <abbr>veitate<g ref="char:cmbAbbrStroke">̄</g>
+                           </abbr>
+                           <expan>veritatem</expan>
+                        </choice> dico quare vos non credi<g ref="char:EOLunhyphen"/>tis michi qui eſt ex deo <choice>
+                           <abbr>v<g ref="char:EOLunhyphen"/>ba</abbr>
+                           <expan>verba</expan>
+                        </choice> dei audit <choice>
+                           <abbr>proptea</abbr>
+                           <expan>propterea</expan>
+                        </choice> vos no<g ref="char:cmbAbbrStroke">̄</g> auditis quia ex deo n<g ref="char:cmbAbbrStroke">̄</g> eſtis <choice>
+                           <abbr>ps</abbr>
+                           <expan>psalmus</expan>
+                        </choice> Benedictus. O<g ref="char:EOLunhyphen"/>raco<g ref="char:cmbAbbrStroke">̄</g>. Queſumꝰ omnipote<g ref="char:cmbAbbrStroke">̄</g>s deus familiam tuam. Ad primam <choice>
+                           <abbr>an</abbr>
+                           <expan>antiphona</expan>
+                        </choice>. Ego demoni<g ref="char:EOLunhyphen"/>um non habeo ſed honori<g ref="char:EOLunhyphen"/>fico patrem meum dicit do<g ref="char:EOLunhyphen"/>minus <choice>
+                           <abbr>ps</abbr>
+                           <expan>psalmus</expan>
+                        </choice>. Deus deus me<g ref="char:EOLunhyphen"/>us reſpice. Ab hac die vſ<g ref="char:EOLunhyphen"/>
+                        <expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> ad octa. paſche non di<g ref="char:EOLunhyphen"/>citur<g ref="char:punc">▪</g> Iheſu criſte<g ref="char:punc">▪</g> Sed pꝰ capitulum ſtatim dicatur <abbr>verſic</abbr> Exurge domine ad<g ref="char:EOLhyphen"/>eo<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>em modo dicatur quo<g ref="char:EOLunhyphen"/>tidie vſ<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> ad cenam domi<g ref="char:EOLunhyphen"/>ni quando de <choice>
+                           <abbr>tꝑali</abbr>
+                           <expan>temporali</expan>
+                        </choice> agit<expan>
+                           <am>
+                              <g ref="char:abur"/>
+                           </am>
+                           <ex>ur</ex>
+                        </expan>
+                        <g ref="char:punc">▪</g>
+                        <pb facs="tcp:21425:2"/>ore gentes predica<g ref="char:cmbAbbrStroke">̄</g>t et in laude<g ref="char:cmbAbbrStroke">̄</g> 
+                        <choice>
+                           <abbr>xpi</abbr>
+                           <expan>christi</expan>
+                        </choice> voces tona<g ref="char:cmbAbbrStroke">̄</g>t ꝑ nu<g ref="char:EOLunhyphen"/>bula oſanna <choice>
+                           <abbr>ps</abbr>
+                           <expan>psalmus</expan>
+                        </choice> Memen<g ref="char:EOLunhyphen"/>to. Oratio. Omnipotens ſempiterne deꝰ <abbr>Feia</abbr>
+                        <g ref="char:punc">▪</g> ij ad <abbr>ms</abbr>. <abbr>Inuit</abbr>. Adoremus dn<g ref="char:cmbAbbrStroke">̄</g>m. Qui nos redemit ꝑ cruce<g ref="char:cmbAbbrStroke">̄</g> 
+                        <choice>
+                           <abbr>ps</abbr>
+                           <expan>psalmus</expan>
+                        </choice>. Venite. ymnus<g ref="char:punc">▪</g> Pange lingua<g ref="char:punc">▪</g> Ad noct<g ref="char:EOLhyphen"/>
+                        <expan>
+                           <am>
+                              <g ref="char:abur"/>
+                           </am>
+                           <ex>ur</ex>
+                        </expan>a<g ref="char:cmbAbbrStroke">̄</g>e<g ref="char:punc">▪</g> et <abbr>pi</abbr>. illiꝰ ferie <choice>
+                           <abbr>v</abbr>
+                           <expan>versus</expan>
+                        </choice> Erue a framea <choice>
+                           <abbr>ds</abbr>
+                           <expan>dominus</expan>
+                        </choice> aiam meam <choice>
+                           <abbr>R</abbr>
+                           <expan>Responsum</expan>
+                        </choice> Et de manu canis <choice>
+                           <abbr>vni<g ref="char:EOLunhyphen"/>c.</abbr>
+                           <expan>unicam</expan>
+                        </choice> 
+                        <choice>
+                           <abbr>m</abbr>
+                           <expan>meam</expan>
+                        </choice>.</p>
+                  </div>
+                  <div n="1" type="lection">
+                     <head>
+                        <choice>
+                           <abbr>lc.</abbr>
+                           <expan>lectio</expan>
+                        </choice> i.</head>
+                     <p>
+                        <gap reason="illegible: missing" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>Cito &amp; vide <choice>
+                           <abbr>qr</abbr>
+                           <expan>quia</expan>
+                        </choice> malu<g ref="char:cmbAbbrStroke">̄</g> et ama<expan>
+                           <am>
+                              <g ref="char:abrum"/>
+                           </am>
+                           <ex>rum</ex>
+                        </expan> eſt de <choice>
+                           <abbr>rliqſſe</abbr>
+                           <expan>reliquisse</expan>
+                        </choice> dn<g ref="char:cmbAbbrStroke">̄</g>m tuu<g ref="char:cmbAbbrStroke">̄</g> &amp; no<g ref="char:cmbAbbrStroke">̄</g> 
+                        <choice>
+                           <abbr>ee</abbr>
+                           <expan>esse</expan>
+                        </choice> timore<g ref="char:cmbAbbrStroke">̄</g> eius apud te dicit dn<g ref="char:cmbAbbrStroke">̄</g>s <choice>
+                           <abbr>ds</abbr>
+                           <expan>deus</expan>
+                        </choice> exercituu<g ref="char:cmbAbbrStroke">̄</g> A ſeculo co<g ref="char:cmbAbbrStroke">̄</g>fregi<g ref="char:EOLunhyphen"/>ſti iugu<g ref="char:cmbAbbrStroke">̄</g> meum rupiſti vin<g ref="char:EOLunhyphen"/>cula mea et dixiſti No<g ref="char:cmbAbbrStroke">̄</g> ſer<g ref="char:EOLunhyphen"/>uiam In o<g ref="char:cmbAbbrStroke">̄</g>ni <choice>
+                           <abbr>ei</abbr>
+                           <expan>enim</expan>
+                        </choice> colle ſubli<g ref="char:EOLunhyphen"/>mi et ſub o<g ref="char:cmbAbbrStroke">̄</g>ni ligno frondo<g ref="char:EOLunhyphen"/>ſo tu proſternab<expan>
+                           <am>
+                              <g ref="char:aber"/>
+                           </am>
+                           <ex>er</ex>
+                        </expan>is <choice>
+                           <abbr>metrix</abbr>
+                           <expan>meretrix</expan>
+                        </choice> 
+                        <choice>
+                           <abbr>R</abbr>
+                           <expan>Responsum</expan>
+                        </choice>. Synago<g ref="char:EOLunhyphen"/>ge <choice>
+                           <abbr>pplo<expan>
+                                 <am>
+                                    <g ref="char:abrum"/>
+                                 </am>
+                                 <ex>rum</ex>
+                              </expan>
+                           </abbr>
+                           <expan>populorum</expan>
+                        </choice> cir<g ref="char:EOLunhyphen"/>cu<g ref="char:cmbAbbrStroke">̄</g>dederu<g ref="char:cmbAbbrStroke">̄</g>t me et no<g ref="char:cmbAbbrStroke">̄</g> reddi<g ref="char:EOLunhyphen"/>di <choice>
+                           <abbr>retbue<g ref="char:cmbAbbrStroke">̄</g>tibus</abbr>
+                           <expan>retribuentibus</expan>
+                        </choice> 
+                        <choice>
+                           <abbr>m</abbr>
+                           <expan>mihi</expan>
+                        </choice> mala. co<g ref="char:cmbAbbrStroke">̄</g> ſumet<expan>
+                           <am>
+                              <g ref="char:abur"/>
+                           </am>
+                           <ex>ur</ex>
+                        </expan> dn<g ref="char:cmbAbbrStroke">̄</g>e <choice>
+                           <abbr>neqtia</abbr>
+                           <expan>nequitia</expan>
+                        </choice> 
+                        <choice>
+                           <abbr>pcto<expan>
+                                 <am>
+                                    <g ref="char:abrum"/>
+                                 </am>
+                                 <ex>rum</ex>
+                              </expan>
+                           </abbr>
+                           <expan>peccatorum</expan>
+                        </choice> &amp; diriges iuſtu<g ref="char:cmbAbbrStroke">̄</g> 
+                        <choice>
+                           <abbr>v</abbr>
+                           <expan>versus</expan>
+                        </choice>. Iudica me dn<g ref="char:cmbAbbrStroke">̄</g>e <choice>
+                           <abbr>ſm</abbr>
+                           <expan>ſecundum</expan>
+                        </choice> iuſticia<g ref="char:cmbAbbrStroke">̄</g> mea<g ref="char:cmbAbbrStroke">̄</g> &amp; <choice>
+                           <abbr>ſm</abbr>
+                           <expan>ſecundum</expan>
+                        </choice> innoce<g ref="char:cmbAbbrStroke">̄</g>tiam mea<g ref="char:cmbAbbrStroke">̄</g> ſuper me<g ref="char:punc">▪</g> conſumetur.</p>
+                  </div>
+                  <div n="2" type="lection">
+                     <head>
+                        <choice>
+                           <abbr>lc</abbr>
+                           <expan>lectio</expan>
+                        </choice>. ij</head>
+                     <p>
+                        <gap reason="illegible: missing" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>Go plantaui te uine<g ref="char:EOLhyphen"/>am mea<g ref="char:cmbAbbrStroke">̄</g> 
+                        <choice>
+                           <abbr>elcam</abbr>
+                           <expan>electam</expan>
+                        </choice> o<g ref="char:cmbAbbrStroke">̄</g>ne ſeme<g ref="char:cmbAbbrStroke">̄</g> ver<expan>
+                           <am>
+                              <g ref="char:abrum"/>
+                           </am>
+                           <ex>rum</ex>
+                        </expan>. <choice>
+                           <abbr>Quo</abbr>
+                           <expan>Quomodo</expan>
+                        </choice> ergo ꝯuer<g ref="char:EOLunhyphen"/>ſa es in <choice>
+                           <abbr>puu</abbr>
+                           <expan>pravum</expan>
+                        </choice> vinea alie<g ref="char:cmbAbbrStroke">̄</g>a Si laueris te intro et <choice>
+                           <abbr>mltiplicaueris</abbr>
+                           <expan>multiplicaveris</expan>
+                        </choice> tibi herbam<g ref="char:dram">ʒ</g> bo<g ref="char:EOLunhyphen"/>rith <choice>
+                           <abbr>maclata</abbr>
+                           <expan>maculata</expan>
+                        </choice> es in <choice>
+                           <abbr>iniqta<g ref="char:EOLunhyphen"/>te</abbr>
+                           <expan>iniquitate</expan>
+                        </choice> tua coram me dicit dn<g ref="char:cmbAbbrStroke">̄</g>s <choice>
+                           <abbr>ds</abbr>
+                           <expan>deus</expan>
+                        </choice>. <choice>
+                           <abbr>R</abbr>
+                           <expan>responsum</expan>
+                        </choice> Obprobriu<g ref="char:cmbAbbrStroke">̄</g> factud ſum nimis inimicis meis videru<g ref="char:cmbAbbrStroke">̄</g>t me et moueru<g ref="char:cmbAbbrStroke">̄</g>t ca<g ref="char:EOLunhyphen"/>pita ſua adiuua me <abbr>dne</abbr> 
+                        <choice>
+                           <abbr>ds</abbr>
+                           <expan>deus</expan>
+                        </choice> meus <choice>
+                           <abbr>v</abbr>
+                           <expan>versus</expan>
+                        </choice> Locuti ſu<g ref="char:cmbAbbrStroke">̄</g>t ad<g ref="char:EOLunhyphen"/>u<expan>
+                           <am>
+                              <g ref="char:aber"/>
+                           </am>
+                           <ex>er</ex>
+                        </expan>ſum me lingua doloſa &amp; s<expan>
+                           <am>
+                              <g ref="char:aber"/>
+                           </am>
+                           <ex>er</ex>
+                        </expan>monibꝰ odij <choice>
+                           <abbr>circu<g ref="char:cmbAbbrStroke">̄</g>dedert</abbr>
+                           <expan>circumdederunt</expan>
+                        </choice> me. adiuua me.</p>
+                  </div>
+                  <div n="3" type="lection">
+                     <head>
+                        <choice>
+                           <abbr>lc.</abbr>
+                           <expan>lectio</expan>
+                        </choice> iij.</head>
+                     <p>
+                        <choice>
+                           <abbr>
+                              <gap reason="illegible: missing" extent="1 letter">
+                                 <desc>•</desc>
+                              </gap>Vomo</abbr>
+                           <expan>QUomodo</expan>
+                        </choice> tu dicis n<g ref="char:cmbAbbrStroke">̄</g> ſu<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> polluta poſt baalim non ambulaui vide vias tuas in conualle ſcito <choice>
+                           <abbr>qd</abbr>
+                           <expan>quid</expan>
+                        </choice> feceris Curſor leuis expli<g ref="char:EOLunhyphen"/>cans vias tuas. <choice>
+                           <abbr>R</abbr>
+                           <expan>Responsum</expan>
+                        </choice>. Viri impij dixerunt opprima<g ref="char:EOLunhyphen"/>mus virum iuſtum iniuſte et deglutiamus eum tum ꝙ inferi viuu<g ref="char:cmbAbbrStroke">̄</g> auferamꝰ me<g ref="char:cmbAbbrStroke">̄</g>oria eius de t<expan>
+                           <am>
+                              <g ref="char:aber"/>
+                           </am>
+                           <ex>er</ex>
+                        </expan>ra et de ſpolijs eius ſorte<g ref="char:cmbAbbrStroke">̄</g> mi<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>taꝰ int<expan>
+                           <am>
+                              <g ref="char:aber"/>
+                           </am>
+                           <ex>er</ex>
+                        </expan> nos <choice>
+                           <abbr>Ipi</abbr>
+                           <expan>Ipsi</expan>
+                        </choice> a<g ref="char:cmbAbbrStroke">̄</g>t hoi<g ref="char:cmbAbbrStroke">̄</g>cide the<g ref="char:EOLunhyphen"/> zauiſauer<g ref="char:cmbAbbrStroke">̄</g>t ſibi malu<g ref="char:cmbAbbrStroke">̄</g> i<g ref="char:cmbAbbrStroke">̄</g>ſipi<g ref="char:EOLunhyphen"/>entes &amp; malig<gap reason="illegible" extent="2 letters">
+                           <desc>••</desc>
+                        </gap> 
+                        <gap reason="illegible" extent="2 words">
+                           <desc>〈◊◊〉</desc>
+                        </gap>
+                        <pb facs="tcp:21425:3" rendition="simple:additions"/>Et rei facti ſu<g ref="char:cmbAbbrStroke">̄</g>t in
+cogitaco<g ref="char:cmbAbbrStroke">̄</g>
+                        <g ref="char:EOLunhyphen"/>nibꝰ ſuis, <choice>
+                           <abbr>v</abbr>
+                           <expan>versus</expan>
+                        </choice> Hec cogtaue<g ref="char:EOLunhyphen"/>ru<g ref="char:cmbAbbrStroke">̄</g>t &amp; errauer<g ref="char:cmbAbbrStroke">̄</g>t excauit eni<g ref="char:cmbAbbrStroke">̄</g> illos malicia eo<expan>
+                           <am>
+                              <g ref="char:abrum"/>
+                           </am>
+                           <ex>rum</ex>
+                        </expan> Et rei. <choice>
+                           <abbr>v.</abbr>
+                           <expan>versus</expan>
+                        </choice> Inte<g ref="char:cmbAbbrStroke">̄</g>de ai<g ref="char:cmbAbbrStroke">̄</g>e In <abbr>laud</abbr> 
+                        <abbr>a</abbr>
+                     </p>
+                     <p>Aciem mea<g ref="char:cmbAbbrStroke">̄</g> no<g ref="char:cmbAbbrStroke">̄</g> au<expan>
+                           <am>
+                              <g ref="char:aber"/>
+                           </am>
+                           <ex>er</ex>
+                        </expan>ti ab increpa<g ref="char:cmbAbbrStroke">̄</g>tibꝰ et co<g ref="char:cmbAbbrStroke">̄</g>
+                        <g ref="char:EOLunhyphen"/>ſpue<g ref="char:cmbAbbrStroke">̄</g>tibꝰ in me. <choice>
+                           <abbr>ps</abbr>
+                           <expan>psalmus</expan>
+                        </choice> 
+                        <abbr>Miſere</abbr> 
+                        <choice>
+                           <abbr>an</abbr>
+                           <expan>antiphona</expan>
+                        </choice> Framea ſuſcitare adu<expan>
+                           <am>
+                              <g ref="char:aber"/>
+                           </am>
+                           <ex>er</ex>
+                        </expan>
+                        <g ref="char:EOLunhyphen"/>ſus eos qui diſpergu<g ref="char:cmbAbbrStroke">̄</g>t
+gre<g ref="char:EOLunhyphen"/>gem meu<g ref="char:cmbAbbrStroke">̄</g>. <choice>
+                           <abbr>ps</abbr>
+                           <expan>psalmus</expan>
+                        </choice> Verba mea <choice>
+                           <abbr>an</abbr>
+                           <expan>antiphona</expan>
+                        </choice> Appenderu<g ref="char:cmbAbbrStroke">̄</g>t mercedem mea<g ref="char:cmbAbbrStroke">̄</g> 
+                        <abbr>xxx</abbr> arge<g ref="char:cmbAbbrStroke">̄</g>teis <choice>
+                           <abbr>qs</abbr>
+                           <expan>quas</expan>
+                        </choice> 
+                        <choice>
+                           <abbr>app<g ref="char:EOLunhyphen"/>ciatus</abbr>
+                           <expan>appreciatus</expan>
+                        </choice> ſu<g ref="char:cmbAbbrStroke">̄</g> ab eis. <choice>
+                           <abbr>ps</abbr>
+                           <expan>psalmus</expan>
+                        </choice> Deꝰ <choice>
+                           <abbr>ds</abbr>
+                           <expan>deus</expan>
+                        </choice>, <choice>
+                           <abbr>an</abbr>
+                           <expan>antiphona</expan>
+                        </choice>. Immdaueru<g ref="char:cmbAbbrStroke">̄</g>t <choice>
+                           <abbr>aq</abbr>
+                           <expan>aquae</expan>
+                        </choice> ſuꝑ capud meu<g ref="char:cmbAbbrStroke">̄</g> dixi ꝑij in<g ref="char:EOLunhyphen"/>uocabo nome<g ref="char:cmbAbbrStroke">̄</g> tuu<g ref="char:cmbAbbrStroke">̄</g> dn<g ref="char:cmbAbbrStroke">̄</g>e <choice>
+                           <abbr>ds</abbr>
+                           <expan>deus</expan>
+                        </choice> meus. <choice>
+                           <abbr>ps</abbr>
+                           <expan>psalmus</expan>
+                        </choice> Confitebor. <choice>
+                           <abbr>an</abbr>
+                           <expan>antiphona</expan>
+                        </choice> Labia inſurgtenciu<g ref="char:cmbAbbrStroke">̄</g> et co<g ref="char:EOLhyphen"/>gitaciones eo<expan>
+                           <am>
+                              <g ref="char:abrum"/>
+                           </am>
+                           <ex>rum</ex>
+                        </expan> vide dn<g ref="char:cmbAbbrStroke">̄</g>e. <choice>
+                           <abbr>ps</abbr>
+                           <expan>psalmus</expan>
+                        </choice> Laud. Ca. Dn<g ref="char:cmbAbbrStroke">̄</g>e demo<g ref="char:cmbAbbrStroke">̄</g>
+                        <g ref="char:EOLunhyphen"/>ſtraſti, y<g ref="char:cmbAbbrStroke">̄</g>nus Luſtra ſex. <choice>
+                           <abbr>v</abbr>
+                           <expan>versus</expan>
+                        </choice> Eripe me. <choice>
+                           <abbr>an</abbr>
+                           <expan>antiphona</expan>
+                        </choice> No<g ref="char:cmbAbbrStroke">̄</g> he<g ref="char:cmbAbbrStroke">̄</g>res in me pta<g ref="char:cmbAbbrStroke">̄</g>te<g ref="char:cmbAbbrStroke">̄</g> 
+                        <choice>
+                           <abbr>n</abbr>
+                           <expan>nisi</expan>
+                        </choice> deſuper da<g ref="char:EOLunhyphen"/>tu<g ref="char:cmbAbbrStroke">̄</g> 
+                        <choice>
+                           <abbr>t</abbr>
+                           <expan>tibi</expan>
+                        </choice> 
+                        <abbr>fuiſſ</abbr>, <choice>
+                           <abbr>ps</abbr>
+                           <expan>psalmus</expan>
+                        </choice> Bn<g ref="char:cmbAbbrStroke">̄</g>d. Oro<g ref="char:cmbAbbrStroke">̄</g>
+                     </p>
+                     <p>
+                        <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>A <choice>
+                           <abbr>qs</abbr>
+                           <expan>quaesumus</expan>
+                        </choice> 
+                        <choice>
+                           <abbr>ops</abbr>
+                           <expan>omnipotens</expan>
+                        </choice> 
+                        <choice>
+                           <abbr>ds</abbr>
+                           <expan>deus</expan>
+                        </choice> vt qui in tot adu<expan>
+                           <am>
+                              <g ref="char:aber"/>
+                           </am>
+                           <ex>er</ex>
+                        </expan>ſis ex nra<g ref="char:cmbAbbrStroke">̄</g> infirmitate deficimꝰ int<expan>
+                           <am>
+                              <g ref="char:aber"/>
+                           </am>
+                           <ex>er</ex>
+                        </expan>ce<g ref="char:EOLunhyphen"/>de<g ref="char:cmbAbbrStroke">̄</g>te vnigeniti filij tui paſ<g ref="char:EOLunhyphen"/> ſione reſpiremꝰ Qui tecu<g ref="char:cmbAbbrStroke">̄</g> Ad <abbr>pma<g ref="char:cmbAbbrStroke">̄</g>
+                        </abbr> 
+                        <choice>
+                           <abbr>an</abbr>
+                           <expan>antiphonam</expan>
+                        </choice> A<gap reason="illegible" extent="2+ letters">
+                           <desc>••…</desc>
+                        </gap>ue i<g ref="char:cmbAbbrStroke">̄</g>pio<expan>
+                           <am>
+                              <g ref="char:abrum"/>
+                           </am>
+                           <ex>rum</ex>
+                        </expan> 
+                        <choice>
+                           <abbr>ps</abbr>
+                           <expan>psalmus</expan>
+                        </choice> Deus i<g ref="char:cmbAbbrStroke">̄</g> no. Ad <abbr>m</abbr> et ad alias <abbr>hos</abbr> 
+                        <choice>
+                           <abbr>v</abbr>
+                           <expan>versus</expan>
+                        </choice> et <abbr>reſpo</abbr> ſi<g ref="char:EOLunhyphen"/>cut in <abbr>do</abbr> palma<expan>
+                           <am>
+                              <g ref="char:abrum"/>
+                           </am>
+                           <ex>rum</ex>
+                        </expan> et ſic fi<g ref="char:EOLunhyphen"/>at cotidie vſ<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> ad cena<g ref="char:cmbAbbrStroke">̄</g> dni<g ref="char:cmbAbbrStroke">̄</g> qn<g ref="char:cmbAbbrStroke">̄</g> de tꝑali agit<expan>
+                           <am>
+                              <g ref="char:abur"/>
+                           </am>
+                           <ex>ur</ex>
+                        </expan>, <abbr>cetea</abbr> oi<g ref="char:cmbAbbrStroke">̄</g>a ſic<g ref="char:cmbAbbrStroke">̄</g> in ferijs <abbr>
+                           <g ref="char:abpre">p̄</g>cedent</abbr> ꝓxi<g ref="char:cmbAbbrStroke">̄</g>e <abbr>ebd</abbr>. ad <choice>
+                           <abbr>vs</abbr>
+                           <expan>versum</expan>
+                        </choice> 
+                        <choice>
+                           <abbr>R.</abbr>
+                           <expan>Responsum</expan>
+                        </choice> Circu<g ref="char:cmbAbbrStroke">̄</g>de<g ref="char:EOLhyphen"/>der<g ref="char:cmbAbbrStroke">̄</g>t. <choice>
+                           <abbr>an</abbr>
+                           <expan>antiphona</expan>
+                        </choice> 
+                        <choice>
+                           <abbr>ptate</abbr>
+                           <expan>potestatem</expan>
+                        </choice> 
+                        <choice>
+                           <abbr>heo</abbr>
+                           <expan>habeo</expan>
+                        </choice> pone<g ref="char:cmbAbbrStroke">̄</g>di uia<g ref="char:cmbAbbrStroke">̄</g>m mea<g ref="char:cmbAbbrStroke">̄</g> et ite<expan>
+                           <am>
+                              <g ref="char:abrum"/>
+                           </am>
+                           <ex>rum</ex>
+                        </expan> ſume<g ref="char:cmbAbbrStroke">̄</g>di eam. <choice>
+                           <abbr>ps</abbr>
+                           <expan>psalmus</expan>
+                        </choice> 
+                        <abbr>Mgt.</abbr> Oro<g ref="char:cmbAbbrStroke">̄</g>
+                     </p>
+                     <p>
+                        <gap reason="illegible: missing" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>Diuua nos <choice>
+                           <abbr>ds</abbr>
+                           <expan>deus</expan>
+                        </choice> ſaluta<g ref="char:EOLunhyphen"/>ris nr<g ref="char:cmbAbbrStroke">̄</g>: et ad bn<g ref="char:cmbAbbrStroke">̄</g>ficia recolenda <choice>
+                           <abbr>qbꝰ</abbr>
+                           <expan>quibus</expan>
+                        </choice> nos
+inſtau<g ref="char:EOLunhyphen"/>rare dignatus es tribue venire gaude<g ref="char:cmbAbbrStroke">̄</g>tes. Per Fe<g ref="char:EOLunhyphen"/>ria iij. <choice>
+                           <abbr>v</abbr>
+                           <expan>versus</expan>
+                        </choice> De ore leonis, <abbr>l<gap reason="illegible" extent="2 letters">
+                              <desc>••</desc>
+                           </gap>
+                        </abbr>
+                     </p>
+                     <p>
+                        <gap reason="illegible: missing" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>Nager aſſuetus in ſo<g ref="char:EOLunhyphen"/>litudie<g ref="char:cmbAbbrStroke">̄</g> in deſiderio ai<g ref="char:cmbAbbrStroke">̄</g>
+                        <g ref="char:EOLunhyphen"/>me ſue attraxit ventu<g ref="char:cmbAbbrStroke">̄</g> amo<g ref="char:EOLunhyphen"/>ris fui nullus au7aber;tet eam Om<g ref="char:cmbAbbrStroke">̄</g>s qui <choice>
+                           <abbr>qrunt</abbr>
+                           <expan>quaerunt</expan>
+                        </choice> ea<g ref="char:cmbAbbrStroke">̄</g> no<g ref="char:cmbAbbrStroke">̄</g> de<g ref="char:EOLunhyphen"/>ficie<g ref="char:cmbAbbrStroke">̄</g>t in me<g ref="char:cmbAbbrStroke">̄</g>ſtruis eius in uenient ea<g ref="char:cmbAbbrStroke">̄</g>. <choice>
+                           <abbr>R</abbr>
+                           <expan>Responsum</expan>
+                        </choice> Saluu<g ref="char:cmbAbbrStroke">̄</g> me fuc <abbr>Reqre</abbr> in <abbr>do</abbr> palma<expan>
+                           <am>
+                              <g ref="char:abrum"/>
+                           </am>
+                           <ex>rum</ex>
+                        </expan> ad hora<g ref="char:cmbAbbrStroke">̄</g> nona<g ref="char:cmbAbbrStroke">̄</g>.</p>
+                  </div>
+                  <div n="2" type="lection">
+                     <head>
+                        <choice>
+                           <abbr>Lc</abbr>
+                           <expan>Lectio</expan>
+                        </choice> ij.</head>
+                     <p>
+                        <gap reason="illegible: missing" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>Rohibe pedem tuum a nuditate et guttur tuu<g ref="char:cmbAbbrStroke">̄</g> a ſiti Et dixiſti Deſ<g ref="char:EOLhyphen"/>pera<g ref="char:cmbAbbrStroke">̄</g> 
+                        <choice>
+                           <abbr>nequaq</abbr>
+                           <expan>nequaquam</expan>
+                        </choice> faciam Ad<g ref="char:EOLunhyphen"/>amaui quippe alienos et poſt eos ambulabo. <choice>
+                           <abbr>R<hi rend="sup">m</hi>
+                           </abbr>
+                           <expan>Responsum</expan>
+                        </choice>
+                     </p>
+                     <gap reason="missing" extent="1+ pages">
+                        <desc>〈1… pages missing〉</desc>
+                     </gap>
+                     <pb facs="tcp:21425:3"/>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

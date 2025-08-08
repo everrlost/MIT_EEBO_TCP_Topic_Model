@@ -1,0 +1,680 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The parlament of byrdes</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1565</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 17 KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A09014</idno>
+            <idno type="STC">STC 19304</idno>
+            <idno type="STC">ESTC S120797</idno>
+            <idno type="EEBO-CITATION">99855990</idno>
+            <idno type="PROQUEST">99855990</idno>
+            <idno type="VID">21503</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A09014)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 21503)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 122:12)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The parlament of byrdes</title>
+               </titleStmt>
+               <extent>[14] p.   </extent>
+               <publicationStmt>
+                  <publisher>[By J. Awdley] for Antony Kytson],</publisher>
+                  <pubPlace>[Imprinted at London :</pubPlace>
+                  <date>[ca. 1565]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Imprint from colophon; printer's name and conjectured publication date from STC.</note>
+                  <note>Another edition of STC 19303.7, published in ca. 1520.</note>
+                  <note>Signatures: A⁴ B³.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-02</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-03</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2010-03</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="poem">
+            <pb facs="tcp:21503:1"/>
+            <!-- PDF PAGE 106 -->
+            <pb facs="tcp:21503:1"/>
+            <!-- PDF PAGE 106 -->
+            <head>
+               <g ref="char:leaf">❧</g>The Parlament of Byrdes.</head>
+            <lg>
+               <pb facs="tcp:21503:2"/>
+               <!-- PDF PAGE 107 -->
+               <l>THis is the parlyament of byrdes</l>
+               <l>For hye and lowe and them amyddes</l>
+               <l>To ordayne a meane how it is beſt</l>
+               <l>To keepe among them peace and reſt</l>
+               <l>For muche noyſe is on euery ſyde</l>
+               <l>Agaynſt the hauke ſo full of pride</l>
+               <l>Therfore they ſhall in bylles bryng,</l>
+               <l>Theyr complaints to the Egle theyr kyng</l>
+               <l>And by the kynge in parlyament</l>
+               <l>Shall be ſette in lawful Iudgement.</l>
+            </lg>
+            <lg>
+               <head>The Grype.</head>
+               <l>The great Grype was the fyrſt that ſpake,</l>
+               <l>And ſayd owne is owne, who can it take.</l>
+               <l>For thyne and myne, make much debate,</l>
+               <l>Wyth great and ſmall in euery eſtate.</l>
+            </lg>
+            <lg>
+               <head>The Cuckow.</head>
+               <l>I ſynge ſayd the Cuckowe euer one ſong</l>
+               <l>That the weake taketh euer the wrong</l>
+               <l>For he that hath wyth vs moſt myght,</l>
+               <l>Taketh his wyll, as reaſon is ryght.</l>
+            </lg>
+            <lg>
+               <head>The Fawcon.</head>
+               <l>Than anſwered the Fawcon to that ſame,</l>
+               <l>That pleaſeth a Prynce, is iuſt and law,</l>
+               <l>And he that can no ſong but one,</l>
+               <l>Whan he hath ſong, his wytte is gone.</l>
+            </lg>
+            <lg>
+               <head>The Commons.</head>
+               <l>Than all the byrdes that could ſpeake</l>
+               <l>Said, the Hauke doth vs great wreake,</l>
+               <l>Of them ſo many diuers there be,</l>
+               <l>That no Foule nor byrde may fro them flye.</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:21503:2"/>
+               <!-- PDF PAGE 107 -->
+               <head>The hauke</head>
+               <l>The hauke anſwered the prating pye</l>
+               <l>Where is many wordes the trouth goeth by</l>
+               <l>And better it were to ſeace of language ſone</l>
+               <l>than ſpeake and repent whan thou haſt done.</l>
+            </lg>
+            <lg>
+               <head>The ſterlyng.</head>
+               <l>Than ſayd the ſterlynge verament</l>
+               <l>Who ſayth ſo ſhalbe ſhent,</l>
+               <l>No man maye nowe ſpeake of trouth,</l>
+               <l>But his heade be broke, and that is routh.</l>
+            </lg>
+            <lg>
+               <head>The hauke.</head>
+               <l>The Hauke ſwore by his heade of graye,</l>
+               <l>All ſoothes be not for to ſaye,</l>
+               <l>It is better ſome be lefte by reaſon</l>
+               <l>Than trouth to be ſpoken out of ſeaſon.</l>
+            </lg>
+            <lg>
+               <head>The Popyniay.</head>
+               <l>Than ſpake the Popyniay of paradyſe,</l>
+               <l>Who ſayth lytell he is wyſe,</l>
+               <l>For lytle money is ſoone ſpende</l>
+               <l>And fewe wordes are ſoone amend</l>
+            </lg>
+            <lg>
+               <head>The hauke.</head>
+               <l>The hauke bad for dreade of payne</l>
+               <l>Speake not to much of thy ſouerayne</l>
+               <l>For who that will forge tales new,</l>
+               <l>Whan he weneth leaſt his tale may he rewe,</l>
+            </lg>
+            <lg>
+               <head>The commons.</head>
+               <l>Than deſyred al the Byrdes great and ſmal</l>
+               <l>to mewe the hauke for good and all</l>
+               <l>A place alone we woulde he had</l>
+               <l>For his counſell to vs was neuer glad.</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:21503:3"/>
+               <!-- PDF PAGE 108 -->
+               <head>The Hauke.</head>
+               <l>The Hauke anſwered, ye tail, ye fail al witte,</l>
+               <l>It is no tyme to mewe haukes yet.</l>
+               <l>Commons, of haukes can but lyttle ſkyll,</l>
+               <l>They ſhall not rule them as they wyll.</l>
+            </lg>
+            <lg>
+               <head>The Nightyngale.</head>
+               <l>Anone than ſang the Nyghtyngale,</l>
+               <l>With notes many great and ſmale.</l>
+               <l>That byrde that can well ſpeake, and ſynge,</l>
+               <l>Shall be cheryſhed with quene and kynge.</l>
+            </lg>
+            <lg>
+               <head>The Hauke,</head>
+               <l>The Hauke aunſwered with great fury,</l>
+               <l>The ſonge is nought that is not mery,</l>
+               <l>And who ſo no better ſynge can,</l>
+               <l>Maketh litle chere to any man.</l>
+            </lg>
+            <lg>
+               <head>The Doue</head>
+               <l>Than tombled the Doue for her lot,</l>
+               <l>Folke may be mery and ſyng not,</l>
+               <l>And who ſo hath no good voyce,</l>
+               <l>Muſt make mery with little noyſe.</l>
+            </lg>
+            <lg>
+               <head>The Hauke.</head>
+               <l>Whan this reaſon was forth ſhewed,</l>
+               <l>Lerne (quod the Hauke) or ye be lewed,</l>
+               <l>For the byrde that can not ſpeake nor ſyng,</l>
+               <l>Shall to the kytchyn to ſerue the kynge.</l>
+            </lg>
+            <lg>
+               <head>The Feſaunt.</head>
+               <l>Than crowed the Feſaunt in the wood,</l>
+               <l>Domme men he ſayde getteth lytle good,</l>
+               <l>Woode nor water nor other foode,</l>
+               <l>It fleteth from hym as doeth the floode,</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:21503:3"/>
+               <!-- PDF PAGE 108 -->
+               <l>The Hauke ſayd whan all is ſought,</l>
+               <l>Great crowers were neuer ought,</l>
+               <l>For I ſwere by my foly,</l>
+               <l>He is not moſt wyſe that is moſt ioly.</l>
+            </lg>
+            <lg>
+               <head>The moore Cocke.</head>
+               <l>Than crowed agayne the More Cocke,</l>
+               <l>The Hauke bringeth much thing out of nock,</l>
+               <l>The Oſyll whyſteleth and byrdes blacke,</l>
+               <l>He muſt haue a do, that a do doth make,</l>
+            </lg>
+            <lg>
+               <head>The Hauke.</head>
+               <l>I muſt ſayd the Hauke, buy all my belles,</l>
+               <l>Say for my ſelfe, for none wyll elles,</l>
+               <l>He is not greatly to repreue,</l>
+               <l>That ſpeaketh with his ſoueraynes leue.</l>
+            </lg>
+            <lg>
+               <head>The Byttur.</head>
+               <l>Than bluſhed the Byttur in the fenne,</l>
+               <l>The Cote, the Bobchick, and the water Hen,</l>
+               <l>The Hauke that doeth vs all this dere,</l>
+               <l>We woulde be were ſouſed in the myre.</l>
+            </lg>
+            <lg>
+               <head>The Hauke</head>
+               <l>The Hauke ſayd wyſſhers want wyll,</l>
+               <l>Whether they ſpeake loude or ſtyll,</l>
+               <l>Whan all this done was ſayde and lafte,</l>
+               <l>Euery man muſt lyue by his crafte.</l>
+            </lg>
+            <lg>
+               <head>The Malarde.</head>
+               <l>Than creked the Malarde and the Gooſe,</l>
+               <l>They may beſt flye that are loſe,</l>
+               <l>He is well that is at large,</l>
+               <l>That nedeth not the Kynges great charge.</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:21503:4"/>
+               <!-- PDF PAGE 109 -->
+               <head>The hauke.</head>
+               <l>The hauke ſayd, though they flye loſe,</l>
+               <l>they muſt obeye they maye not choſe</l>
+               <l>Who hath a maiſter or a make,</l>
+               <l>He is tyed by the ſtake.</l>
+            </lg>
+            <lg>
+               <head>The Heron.</head>
+               <l>Than creeped the Heron and the Crane</l>
+               <l>Great trouble make wittes lame</l>
+               <l>He is well aduyſed that can beare hym low,</l>
+               <l>And ſuffer euery wynde to ouer blow.</l>
+            </lg>
+            <lg>
+               <head>The hauke.</head>
+               <l>The hauke ſayd, who can blow to pleaſe,</l>
+               <l>Long neckes done great eaſe,</l>
+               <l>For the commons that hath no reſt</l>
+               <l>Meaneth not euer with the beſt.</l>
+            </lg>
+            <lg>
+               <head>The Patryche, Quayle and Larke.</head>
+               <l>The Patryche Quayle and Larke in fielde</l>
+               <l>Said, her may not auayle but ſpere and ſheld</l>
+               <l>the hauke with vs maketh great battayle.</l>
+               <l>In euery countrey, where he maye auayle.</l>
+            </lg>
+            <lg>
+               <head>The hauke.</head>
+               <l>The hauke ſayd who ſo wilfully wyll fyght</l>
+               <l>May make hym wrong ſoone of ryght</l>
+               <l>Lawe is beſt I vnderſtande,</l>
+               <l>To ryght all in euery lande.</l>
+            </lg>
+            <lg>
+               <head>The Rodyn and the Wren.</head>
+               <l>Than chydde the Robyn and the Wren,</l>
+               <l>And all ſmall byrdes that beare penne,</l>
+               <l>Againſt the hauke the commons muſt aryſe</l>
+               <l>
+                  <pb facs="tcp:21503:4"/>
+                  <!-- PDF PAGE 109 -->And helpe them ſelfe in theyr beſt wyſe.</l>
+            </lg>
+            <lg>
+               <head>The hauke.</head>
+               <l>The Hauke made the Wrenne his anſwer</l>
+               <l>Small power may lyttle dere.</l>
+               <l>And who wyll liue in reſt louge.</l>
+               <l>Maye not be beſy with his tonge.</l>
+            </lg>
+            <lg>
+               <head>The commons.</head>
+               <l>Than prayed all the common houſe.</l>
+               <l>That ſome myght the hauke ſouſe.</l>
+               <l>For foule nor byrde by water nor lande,</l>
+               <l>He wyll leaue a lyue, and he myght ſtande.</l>
+               <l>In his neſt maye none abyde</l>
+               <l>In country where he doth glyde.</l>
+               <l>Theyr fethers he plucketh many a folde,</l>
+               <l>And leaueth them naked in full great colde.</l>
+               <l>We thinke therfore by reaſon good.</l>
+               <l>To diſtroy the Hauke and all his blood.</l>
+            </lg>
+            <lg>
+               <head>The Kyng and his Lordes.</head>
+               <l>The King and his lordes anſwered anone,</l>
+               <l>States may not the hauke forgone.</l>
+               <l>Nor by no lawe his kinde deſtroye.</l>
+               <l>Nor deme him ſelfe for to dye.</l>
+               <l>Nor put him to none other diſtreſſe.</l>
+               <l>But kepe him in a payre of Ieſſe.</l>
+               <l>That he flye not to no byrde about,</l>
+               <l>Except his keeper let him out.</l>
+            </lg>
+            <lg>
+               <head>The Cornyſh dawe.</head>
+               <l>Than ſayde the Cornyſſh daw.</l>
+               <l>Lytle money lytle lawe.</l>
+               <l>For here is nought els with friende nor foe,</l>
+               <l>
+                  <pb facs="tcp:21503:5"/>
+                  <!-- PDF PAGE 110 -->But go bet peny go bet go.</l>
+            </lg>
+            <lg>
+               <head>The Hauke.</head>
+               <l>Thou Cornyſſhe quod the Hauke by thy wil</l>
+               <l>Say well, or holde thee ſtyll,</l>
+               <l>Thou haſt harde of many a man,</l>
+               <l>A tonge breaketh bone, and it ſelfe hath none</l>
+            </lg>
+            <lg>
+               <head>The Kynge.</head>
+               <l>Then anſwered the king, &amp; the birds a row</l>
+               <l>Why cometh not to the parliament the Crow</l>
+               <l>For good counſell refourmeth euery myſſe,</l>
+               <l>And it betokeneth where it is.</l>
+            </lg>
+            <lg>
+               <head>The Hauke.</head>
+               <l>The Hauke ſayde it is not leſſe,</l>
+               <l>Counſell is good in warre and peace,</l>
+               <l>But the Crow hath no brayne,</l>
+               <l>For to gyue counſell but of the rayne,</l>
+            </lg>
+            <lg>
+               <head>The Night Wale.</head>
+               <l>Than ſaid the night whale with his hed gay,</l>
+               <l>He ſhameth vs with his parlament aray,</l>
+               <l>It is a terme with Iohn and Iacke,</l>
+               <l>Broken ſleue, draweth arme a backe.</l>
+            </lg>
+            <lg>
+               <head>The Hauke.</head>
+               <l>The Hauke ſayde he ſhall thryue fullate,</l>
+               <l>that looketh to keepe a great eſtate,</l>
+               <l>And can not wyth all his wiſedome,</l>
+               <l>Gette hym ſelfe an hole gowne,</l>
+            </lg>
+            <lg>
+               <head>The Pecoke and the Swanne.</head>
+               <l>Than ſayde the Pecoke and the Swanne,</l>
+               <l>Who no good hath, no good canne,</l>
+               <l>And lytle is his wytte let by,</l>
+               <l>
+                  <pb facs="tcp:21503:5"/>
+                  <!-- PDF PAGE 110 -->That hath not to beare out company.</l>
+            </lg>
+            <lg>
+               <head>The Hauke.</head>
+               <l>The Hauke ſayde he is worſe than wood,</l>
+               <l>That maketh him freſh with other me<g ref="char:cmbAbbrStroke">̄</g>s good,</l>
+               <l>Or ought wyll borowe and neuer paye,</l>
+               <l>Or with wronge getteth gallant araye.</l>
+            </lg>
+            <lg>
+               <head>The Specke.</head>
+               <l>Than in his hole ſayd the Specke,</l>
+               <l>I woulde the hauke brake his necke.</l>
+               <l>Or brought vnto ſome myſcheuous dale,</l>
+               <l>For of euery byrde he telleth a tale.</l>
+            </lg>
+            <lg>
+               <head>The Hauke.</head>
+               <l>The Hauke ſaid though thy caſtel be in y<hi rend="sup">e</hi> tre</l>
+               <l>Buylde not aboue thy degree,</l>
+               <l>For who ſo heweth ouer hye,</l>
+               <l>The chippes wyll fall in his eye.</l>
+            </lg>
+            <lg>
+               <head>The Kynge.</head>
+               <l>Then ſayde the Kyng it is our entent,</l>
+               <l>To amende the Crowes rayment,</l>
+               <l>And all the Byrdes ſayde anone,</l>
+               <l>Of eche of our fethers be ſhall haue one.</l>
+            </lg>
+            <lg>
+               <head>The Hauke</head>
+               <l>The Hauke ſaid he may ſone come to honeſt<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:punc">▪</g>
+               </l>
+               <l>That euery man helpeth in his poſte,</l>
+               <l>For as teacheth vs the learned clerke</l>
+               <l>Many handes maketh lyght werke.</l>
+            </lg>
+            <lg>
+               <head>The Tytyffer.</head>
+               <l>I ſay ſayd the Tytyfer we kentyſſhe men,</l>
+               <l>We may not geue the Crow a penne,</l>
+               <l>For with them that are ſober and good,</l>
+               <l>
+                  <pb facs="tcp:21503:6"/>
+                  <!-- PDF PAGE 111 -->A byrde in hande is worth two in the wood,</l>
+            </lg>
+            <lg>
+               <head>The Hauke.</head>
+               <l>The Hauke ſayde I take me to my crede,</l>
+               <l>Who ſo will ſpende with you he may ſpeede,</l>
+               <l>Lytle ye gyue but ye wote whye,</l>
+               <l>Ye make the blynde eate many a ſlye.</l>
+            </lg>
+            <lg>
+               <head>The Crowe.</head>
+               <l>Than the Crowe was put in his araye,</l>
+               <l>I am not nowe as I was yeſterdaye.</l>
+               <l>I am able without offence,</l>
+               <l>To ſpeake in the Kynges preſence.</l>
+            </lg>
+            <lg>
+               <head>The Hauke</head>
+               <l>The Hauke ſayd to the commons by dene,</l>
+               <l>Enuy and pryde would fayne be ſene,</l>
+               <l>He is worthy none audience to haue,</l>
+               <l>That can not ſaye but knaue knaue.</l>
+            </lg>
+            <lg>
+               <head>The Commons.</head>
+               <l>Than aſked the byrdes by aduyſement,</l>
+               <l>Who is that taketh to vs no tent,</l>
+               <l>He preſumeth before vs all to flye,</l>
+               <l>To the Kynges hyghe maieſty.</l>
+            </lg>
+            <lg>
+               <head>The Hauke.</head>
+               <l>The Hauke anſwered to the white ſeamew</l>
+               <l>It is the ſory blacke Crowe,</l>
+               <l>And for him fareth no man the better,</l>
+               <l>Let hym crowe therfore neuer the greater.</l>
+            </lg>
+            <lg>
+               <head>The Lordes.</head>
+               <l>Than ſayde the Lordes euerychone,</l>
+               <l>We wyll aſke of the Kynge abone,</l>
+               <l>That euery byrde ſhall reſume,</l>
+               <l>
+                  <pb facs="tcp:21503:6"/>
+                  <!-- PDF PAGE 111 -->Agayne his fether and his plume.</l>
+               <l>And make the crowe agayne a knaue.</l>
+               <l>For he that nought hath nought ſhal haue,</l>
+            </lg>
+            <lg>
+               <head>The Hauke.</head>
+               <l>Than ſayd the Hauke as ſome ſayne,</l>
+               <l>Borowed ware wyll home agayne,</l>
+               <l>And who wyll herken what euery man dooſe</l>
+               <l>Maye go helpe to ſhoo the gooſe.</l>
+            </lg>
+            <lg>
+               <head>The Cormoraunt.</head>
+               <l>For the Crowe ſpake the Cormoraunt,</l>
+               <l>And of his rule made great auaunt,</l>
+               <l>Such worſhip is reſon that euery man haue</l>
+               <l>As the Kynges highnes vouchſaue.</l>
+            </lg>
+            <lg>
+               <head>The Hauke.</head>
+               <l>It is ſo the ſayd the hauke that thou doeſt ſay</l>
+               <l>Whan all turneth to ſporte and playe,</l>
+               <l>Thou mayſt leſte ſpeake for the crowes pelfe</l>
+               <l>For all thinge loueth that is lyke it ſelfe.</l>
+            </lg>
+            <lg>
+               <head>The hole parlyment.</head>
+               <l>Than prayed the hole parlyament,</l>
+               <l>To the Kynge with one aſſent,</l>
+               <l>That euery byrde her fether myght,</l>
+               <l>Take from that proude knyght.</l>
+            </lg>
+            <lg>
+               <head>The Kynge.</head>
+               <l>The kynge ſayde ye ſhall leue haue,</l>
+               <l>A knyght ſhoulde neuer come of a knaue,</l>
+               <l>All thynge wyll ſhewe fro whence it come.</l>
+               <l>Where is his place and his home.</l>
+            </lg>
+            <lg>
+               <head>The Hauke.</head>
+               <l>Nowe trewly ſayde the Hauke than,</l>
+               <l>
+                  <pb facs="tcp:21503:7"/>
+                  <!-- PDF PAGE 112 -->It is a great comforte to all men,</l>
+               <l>Or the Kynges great proſperity,</l>
+               <l>Whan the Kynge ruleth wel his communalty</l>
+               <l>Than was plucked from the Crowe anon,</l>
+               <l>All his fethers by one and by one,</l>
+               <l>And lef<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e a<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>l bi<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>cke in <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eede of red,</l>
+               <l>And called him a page of the fyrſt head.</l>
+            </lg>
+            <lg>
+               <head>The Hauke.</head>
+               <l>Quod the Hauke the Crowe is nowe as he ſhuld be</l>
+               <l>A <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>nde knaue in his degree,</l>
+               <l>And he that weneth no byrde is hym lyke,</l>
+               <l>W<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>en his fethers are pluked he may him go pike</l>
+            </lg>
+            <lg>
+               <head>The Commons.</head>
+               <l>T<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>an made the Commons great noyſe,</l>
+               <l>And aſked of the Lordes with one voyce,</l>
+               <l>That they woulde the hauke exyle,</l>
+               <l>Out of this lande many a myle,</l>
+               <l>Neuer to come agayne hyther,</l>
+               <l>But the kynge ſente to him thether,</l>
+               <l>Hym to truſt we haue no theſon,</l>
+               <l>For it is proued in truſt is treaſon,</l>
+               <l>And ſythe ye ſaye he ſhall not dye,</l>
+               <l>Plucke of his hokes and let hym flye,</l>
+            </lg>
+            <lg>
+               <head>The Lordes.</head>
+               <l>To that ſayde the Lordes we pretende,</l>
+               <l>This ſtatute and other to amende,</l>
+               <l>So in this that ye accorde,</l>
+               <l>To put all to our ſouerayne Lorde.</l>
+            </lg>
+            <lg>
+               <head>The Commons.</head>
+               <l>The commons ſayde it is greate ſkyll,</l>
+               <l>
+                  <pb facs="tcp:21503:7"/>
+                  <!-- PDF PAGE 112 -->All thynge to be at the kynges wyll,</l>
+               <l>And vnder the hande of his greate myght,</l>
+               <l>By grace the people to ſeke theyr ryght.</l>
+            </lg>
+            <lg>
+               <head>The Hauke.</head>
+               <l>Than ſayde the Hauke nowe to, now fro,</l>
+               <l>Thus goeth the worlde in well and wo,</l>
+            </lg>
+            <lg>
+               <head>The Kynge.</head>
+               <l>Than ſayd the Kynge in his maieſtye,</l>
+               <l>We wyll diſſeuer this greate ſembly,</l>
+               <l>He commaunded his chauncelere,</l>
+               <l>The beſt ſtatutes to rede that he myght here</l>
+               <l>Thus the fynall Iudgemente,</l>
+               <l>He redde of the byrdes parlyment,</l>
+               <l>Whether they be Whyte or blacke</l>
+               <l>None ſhall others fethers take,</l>
+               <l>Nor the Rauyn plucke the Pecokes tayle,</l>
+               <l>To make him freſſhe for his auayle,</l>
+               <l>For the Commons fethers want,</l>
+               <l>For wyth ſome they be right ſkant.</l>
+            </lg>
+            <lg>
+               <head>The Iaye.</head>
+               <l>Thus ſayeth the choſen of the Iaye,</l>
+               <l>That none ſhall vſe others araye,</l>
+               <l>For who ſo mounteth wyth Egle an hye,</l>
+               <l>Shall fayle fethers whan he woulde flye.</l>
+            </lg>
+            <lg>
+               <head>Sapiencia.</head>
+               <l>Be not gredy glede to gader,</l>
+               <l>For good fadeth and foules fether,</l>
+               <l>And though thy fether be not gaye,</l>
+               <l>Haue none enuye at the Swannes aray,</l>
+            </lg>
+            <lg>
+               <head>Concludent.</head>
+               <l>
+                  <pb facs="tcp:21503:8"/>
+                  <!-- PDF PAGE 113 -->For thoughe an aſtryche may eaſe nayle,</l>
+               <l>Wrath wyll pluckt his winge and tayle,</l>
+               <l>And yf thou lye in ſwalowes neſt,</l>
+               <l>Let not <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ouſh in thy fethers reſt,</l>
+               <l>Be trewe as turtyll in thy kynde,</l>
+               <l>For luſt wyll part as fethers in wynde,</l>
+               <l>And he that is a glotonous gull,</l>
+               <l>Death wyll ſoone his fethers pull,</l>
+               <l>Thoughe <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> be as haſty as a wype,</l>
+               <l>And the fethers <gap reason="illegible" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>ght rype,</l>
+               <l>Loke thy fethers and wrytyng be dene,</l>
+               <l>What they ſaye and what they mene,</l>
+               <l>For here is none other thynge,</l>
+               <l>But fowles fethers and wrytyng,</l>
+               <l>Thus endeth the byrdes parlyment,</l>
+               <l>By theyr kynges commaundement.</l>
+            </lg>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>¶Imprinted at London for Antony Kytſon.</p>
+            <pb facs="tcp:21503:8"/>
+            <!-- PDF PAGE 113 -->
+         </div>
+      </back>
+   </text>
+</TEI>

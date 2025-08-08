@@ -1,0 +1,674 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Here begynneth a litell treatise of the knight of curtesy and the lady of Faguell</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1556</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 23 KB of XML-encoded text transcribed from 10 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A13922</idno>
+            <idno type="STC">STC 24223</idno>
+            <idno type="STC">ESTC S102650</idno>
+            <idno type="EEBO-CITATION">99838422</idno>
+            <idno type="PROQUEST">99838422</idno>
+            <idno type="VID">2800</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A13922)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 2800)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1119:06)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Here begynneth a litell treatise of the knight of curtesy and the lady of Faguell</title>
+               </titleStmt>
+               <extent>[20] p.   </extent>
+               <publicationStmt>
+                  <publisher>By me Wyllyam Copland,</publisher>
+                  <pubPlace>[Imprynted at London :</pubPlace>
+                  <date>[1556?]]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Imprint from colophon.</note>
+                  <note>Publication date conjectured by STC.</note>
+                  <note>In verse.</note>
+                  <note>Signatures: A¹⁰.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>[Le chat̂elain de Coucy (Romance)] --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-01</date>
+            <label>Judith Siefring</label>Sampled and proofread</change>
+         <change>
+            <date>2013-01</date>
+            <label>Judith Siefring</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:2800:1"/>
+            <pb facs="tcp:2800:1" rendition="simple:additions"/>
+            <p>¶ Here begynneth a litell treatiſe of the Knight of Curteſy and the lady of Faguell.
+<figure>
+                  <figDesc>a man and a lady, accompanied by another lady, in courtly dress</figDesc>
+               </figure>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:2800:2"/>
+            <pb facs="tcp:2800:2"/>
+            <l>
+               <seg rend="decorInit">I</seg>N Faguell a fayre countre</l>
+            <l>A great lorde ſomtyme dyd dwell</l>
+            <l>Which had a lady ſo fayre and fre</l>
+            <l>That all men good of her dyd tel</l>
+            <l>¶ Fayre and pleaſaunt ſhe was in ſight</l>
+            <l>Gentyl and amyable in eche degre</l>
+            <l>Chaſte to her lorde bothe day and nyght</l>
+            <l>As is the turtyll vpon the tre</l>
+            <l>¶ All men her loued bothe yonge and olde</l>
+            <l>For her vertue and gentylneſſe</l>
+            <l>Alſo in that lande was a knight bolde</l>
+            <l>Ryght wyſe and ful of doughtineſſe</l>
+            <l>¶ All men ſpake of his hardyneſſe</l>
+            <l>Ryche and poore of eche degre</l>
+            <l>So that they called him doutleſſe</l>
+            <l>The noble knyght of curteſy</l>
+            <l>¶ This knight ſo curteſy was and bolde</l>
+            <l>That the lorde herde ther of anone</l>
+            <l>He ſayd that ſpeke with him he wolde</l>
+            <l>For hym the meſſengere is gone</l>
+            <l>¶ Wyth a letter vnto this knight</l>
+            <l>And ſayd ſyr I pray god you ſe</l>
+            <l>My lorde of Faguell you ſendeth ryght</l>
+            <l>An hundred folde gretynge by me</l>
+            <l>¶ He praieth you in all haſtynge</l>
+            <l>To come in his court for to dwell</l>
+            <l>And ye ſhal lake no maner of thynge</l>
+            <l>As townes towres and many a caſtell</l>
+            <l>¶ The curteyſe knight was ſone content</l>
+            <l>And in all dilygence that might be</l>
+            <pb facs="tcp:2800:3"/>
+            <l>Wyth the meſſyngere anone he went</l>
+            <l>This lorde to ſerue with humylite</l>
+            <l>¶ Faſt they rode bothe day and nyght</l>
+            <l>Tyll he vnto the lorde was come</l>
+            <l>And whan the lorde of hym had a ſight</l>
+            <l>Right frendly he did him welcome</l>
+            <l>¶ He gaue hym towenes caſtelles &amp; towres</l>
+            <l>Whereof all other had enuye</l>
+            <l>They thought to reue him his honoures</l>
+            <l>By ſome treaſon or trechery</l>
+            <l>✿ This lady of whome I ſpake before</l>
+            <l>Seyng this knight ſo good and kynde</l>
+            <l>Afore all men that euer were bore</l>
+            <l>She ſet on hym her herte and minde</l>
+            <l>¶ His paramour ſhe thought to be</l>
+            <l>Hym for to loue wyth herte and minde</l>
+            <l>Nat in vyce but in chaſtyte</l>
+            <l>As chyldren that together are kynde</l>
+            <l>✿ This knight alſo curteyſe and wyſe</l>
+            <l>With herte and mynde bothe ferme and faſt</l>
+            <l>Louyd this lady wythouten vyſe</l>
+            <l>Whyche tyll they dyed dyd euer laſte</l>
+            <l>¶ Both night and day theſe louers true</l>
+            <l>Suffred great paine wo and greuaunce</l>
+            <l>How eche to other theyr minde might ſhewe</l>
+            <l>Tyll at the laſt by a ſodaine chaunce</l>
+            <l>✿ This knight was in a garden grene</l>
+            <l>And thus began him to complayne</l>
+            <l>Alas he ſayd With murnynge eyen</l>
+            <l>Now is my herte in wo and payne</l>
+            <pb facs="tcp:2800:3"/>
+            <l>From mournynge can I not refrayne</l>
+            <l>This ladyes loue dothe me ſo wounde</l>
+            <l>I feare ſhe hath of me diſdayne</l>
+            <l>with that he fell downe to the grounde</l>
+            <l>¶ The lady in a wyndowe laye</l>
+            <l>With herte colde as any ſtone</l>
+            <l>She wyſt nat what to do nor ſaye</l>
+            <l>Whan ſhe herde the knightes mone</l>
+            <l>¶ Sore ſighed that lady of renowne</l>
+            <l>In her face was no colour founde</l>
+            <l>Than into the gardein came ſhe downe</l>
+            <l>And ſawe this knight lye on the grounde</l>
+            <l>¶ whan ſhe ſawe hym lye ſo for her ſake</l>
+            <l>Her here <gap reason="illegible" resp="#OXF" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> was almooſt gone</l>
+            <l>To her <gap reason="illegible" resp="#OXF" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> coude ſhe none take</l>
+            <l>But in ſwo<gap reason="illegible" resp="#OXF" extent="2 letters">
+                  <desc>••</desc>
+               </gap> fell downe hym vpon</l>
+            <l>✿ So ſadly that the knyght awoke</l>
+            <l>And whan that he ſawe her ſo nere</l>
+            <l>To hym comforte anone he toke</l>
+            <l>And began the lady for to chere</l>
+            <l>¶ He ſayd lady and loue alas</l>
+            <l>In to this cure who hath you brought</l>
+            <l>She ſayd my loue and my ſolas</l>
+            <l>Your beaute ſtandeth ſo in my thought</l>
+            <l>✿ That yf I had no worldly make</l>
+            <l>Neuer none ſhould haue my herte but ye</l>
+            <l>The kynght ſayd lady for your ſake</l>
+            <l>I ſhal you loue in chaſtyte</l>
+            <l>✿ Our loue he ſayde ſhal be none other</l>
+            <l>But chaſte and true as is betwene</l>
+            <pb facs="tcp:2800:4"/>
+            <l>A goodly ſyſter and a brother</l>
+            <l>For luſte our bodyes to kepe clene</l>
+            <l>
+               <g ref="char:cross">✚</g> And where ſo euer mi body be</l>
+            <l>Bothe day and night at euery tyde</l>
+            <l>My ſimpele herte in chaſtite</l>
+            <l>Shall euer more lady with you abide</l>
+            <l>✿ This lady white as any floure</l>
+            <l>Replete with feminine ſhamefaſtneſſe</l>
+            <l>Begayn to chaunge her face coloure</l>
+            <l>And to him ſayd my loue doubteleſſe</l>
+            <l>¶ Vnder ſuche forme I ſhal you loue</l>
+            <l>With faythful herte in chaſtite</l>
+            <l>Next vnto god that is aboue</l>
+            <l>Bothe in welthe and aduerſyte</l>
+            <l>✿ Eche of them kyſſed other truely</l>
+            <l>But euer alas ther was a fo</l>
+            <l>Behynde the wall them to eſpye</l>
+            <l>Which after torned them to muche wo</l>
+            <l>¶ Out of the gardyn whan they were gone</l>
+            <l>Eche from other dyd departe</l>
+            <l>Awaye was all theyr wofull mone</l>
+            <l>The one had lyghted the others herte</l>
+            <l>✿ Than this ſpye of whome I tolde</l>
+            <l>Whyche ſtode behinde the garden wall</l>
+            <l>Wente vnto his lorde ful bolde</l>
+            <l>And ſayd ſyr ſhewe you I ſhall</l>
+            <l>¶ By your gardyn as I was walkynge</l>
+            <l>I herde the knight of curteſye</l>
+            <l>which with your lady was talkinge</l>
+            <l>Of loue vnlawfull pryuely</l>
+            <pb facs="tcp:2800:4"/>
+            <l>¶ Therfore yf ye ſuffre him for to procede</l>
+            <l>Wyth your lady to haue his loue</l>
+            <l>He ſhal bee lede fro you in dede</l>
+            <l>Or elles they bothe ſhal you diſtroye</l>
+            <l>✿ Whan than the lorde had vnderſtande</l>
+            <l>The wordes that the ſpye him tolde</l>
+            <l>He ſware he wolde rydde him fro that</l>
+            <l>Where he neuer ſo ſtronge and bolde</l>
+            <l>¶ He ſware an othe by god almyght</l>
+            <l>That he ſhould neuer be glade certayne</l>
+            <l>While that knighe was in his ſight</l>
+            <l>Tyl that he by ſome meane were ſlaine</l>
+            <l>
+               <g ref="char:cross">✚</g> Than let he do crye a feeſt</l>
+            <l>For euery man that thider wolde come</l>
+            <l>For euery man bothe mooſt and leeſt</l>
+            <l>Thyder came lordes bothe olde and yonge</l>
+            <l>✿ The lorde was at the table ſet</l>
+            <l>And his lady by him that tide</l>
+            <l>The knight of curteſy anone was ſet</l>
+            <l>And ſet downe on the other ſyde</l>
+            <l>¶ Theyr hartes ſhould haue be wo begone</l>
+            <l>If they had knowen the lordes thought</l>
+            <l>But whan that they were ſtyll echone</l>
+            <l>The lorde theſe words anone forth brought</l>
+            <l>✿ My thinke it is ſyttinge for a knight</l>
+            <l>For auentures to enquyre</l>
+            <l>And nat thus bothe day and night</l>
+            <l>At home to ſoiourne by the fyre</l>
+            <l>¶ Therfore ſyr knight of curteſye</l>
+            <l>This thinge wyl I you counſeyll</l>
+            <pb facs="tcp:2800:5"/>
+            <l>To ryde and go throught the countre</l>
+            <l>To ſeke aduentures for your auayle</l>
+            <l>¶ As vnto rodes for to fight</l>
+            <l>The chriſten fayth for to mayntayne</l>
+            <l>To ſhewe by armes your force and myght</l>
+            <l>In Lumbardy, Portyngale &amp; in Spayne</l>
+            <l>✿ Than ſpake the knyght to the lord anone</l>
+            <l>For your ſake wyl I auenture my lyfe</l>
+            <l>Whether euer I come agaynſt or none</l>
+            <l>And for me ladyes ſake your wyfe</l>
+            <l>¶ If I dyd nat I were to blame</l>
+            <l>Than ſighed the lady with that worde</l>
+            <l>In dolour depe her hirte was tane</l>
+            <l>And ſore wounded as wyth a ſworde</l>
+            <l>✿ Than after dyuer the knight did go</l>
+            <l>His horſe and harneyſe to make redy</l>
+            <l>The woful lady came him vnto</l>
+            <l>And to him ſayd right pyteouſly</l>
+            <l>¶ Alas yf ye go I muſt complayne</l>
+            <l>Alone as a wofull creature</l>
+            <l>If that ye be in batayle ſlayne</l>
+            <l>On lyue may I not endure</l>
+            <l>✿ Alas vnhappy creature</l>
+            <l>Where ſhal I go where ſhal I byde</l>
+            <l>Of dethe ſothely nowe am I ſure</l>
+            <l>And all worldly ioye I ſhal ſet a ſyde</l>
+            <l>¶ A payre of ſheres than dyd ſhe take</l>
+            <l>And cut of her here bothe yelowe and bright</l>
+            <l>Were this than ſayd ſhe for my ſake</l>
+            <l>Vpon your helme moche cutuyſe knighe</l>
+            <pb facs="tcp:2800:5"/>
+            <l>I ſhall dere lady for your ſake</l>
+            <l>This knyght ſayd with ſtyl morninge</l>
+            <l>No comforte to him coude he take</l>
+            <l>Nor abſteine him fro perfounde ſyghinge</l>
+            <l>¶ For grete pyte I can not wryte</l>
+            <l>The ſorowe that was betwene them two</l>
+            <l>Alſo I haue to ſmall reſpyte</l>
+            <l>For to declare theyr payne and wo</l>
+            <l>✿ The wofull departinge and complaynt</l>
+            <l>That was betwene theſe louers twayne</l>
+            <l>Was neuer man that coude detaynt</l>
+            <l>So wofull did they complayne</l>
+            <l>¶ The teres ran from theyr eyen twayne</l>
+            <l>For doloure whan they did departe</l>
+            <l>The lady in her caſtell did remayne</l>
+            <l>Wyth langour replenyſſhed was her herte</l>
+            <l>✿ Now leue we here this lady bryght</l>
+            <l>Wythin her caſtel makinge her moue</l>
+            <l>And tourne we to the curteys knyght</l>
+            <l>Whyche on his Iourney forth is gone</l>
+            <l>¶ Vnto hymſelfe this knight ſayd he</l>
+            <l>Agaynſt the chryſten I wyl not fyght</l>
+            <l>But to the rodes wyl I go</l>
+            <l>Them to ſuſteyne with all my myght</l>
+            <l>✿ Than did he her heere vnfolde</l>
+            <l>And one his helme it ſet on hye</l>
+            <l>Wyth rede thredes of ryche golde</l>
+            <l>Whiche he had of his lady</l>
+            <l>¶ Full richely his ſhelde was wrought</l>
+            <l>Wyth aſure ſtones and beten golde</l>
+            <pb facs="tcp:2800:6"/>
+            <l>But on his lady was his tohught</l>
+            <l>The yelo we heare whan he dyd beholde</l>
+            <l>¶ Than forth he rode by dale and downe</l>
+            <l>After auentures to enquyre.</l>
+            <l>By many a caſtel cyte and towne</l>
+            <l>All to batayl was his deſyre</l>
+            <l>
+               <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap> In euery Iuſtyng where he came</l>
+            <l>None ſo good as he was founde</l>
+            <l>In euery place the pryce he wan</l>
+            <l>And ſmote his aduerſaryes to the grounde</l>
+            <l>¶ So whan he came to Lumberdye</l>
+            <l>Ther was a dragon ther aboute</l>
+            <l>Whyche did great hurt and vylanye</l>
+            <l>Bothe man and beſte of hym had doubte</l>
+            <l>¶ As this knight rode there alone</l>
+            <l>Saue onely his page by his ſyde</l>
+            <l>For his lady he began to mone</l>
+            <l>Sore ſyghynge as he did ride</l>
+            <l>
+               <g ref="char:cross">✚</g> Alas he ſayd my lady ſwete</l>
+            <l>God wote in what caſe ye be</l>
+            <l>God wote whan we two ſhal mete</l>
+            <l>I feare that I ſhal neuer you ſe</l>
+            <l>
+               <g ref="char:cross">✚</g> Than as he loked hym a boute</l>
+            <l>Towarde a hyll that was ſo hye</l>
+            <l>Of this dragon he harde a ſhoute</l>
+            <l>Yonder is a feaſt he ſayd truly</l>
+            <l>¶ The knight him bleſſyd &amp; forthe dyd go</l>
+            <l>And ſayd I ſhal do my trauayle</l>
+            <l>Betyde me well betyde me wo</l>
+            <l>The <gap reason="illegible" resp="#OXF" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ers fynde I ſhal aſſayle</l>
+            <pb facs="tcp:2800:6"/>
+            <l>¶ Than wyth the dragon dyd he meate</l>
+            <l>Whan ſhe him ſawe ſhe gaped wyde</l>
+            <l>He toke good hede as ye may wete</l>
+            <l>And quyckely ſterted a lytle a ſyde</l>
+            <l>¶ He drewe his ſwerde like a knyght</l>
+            <l>This dragon fyerſly to aſſayle</l>
+            <l>He gaue her ſtrokes ful of myght</l>
+            <l>Stronge and mortall was the batayle</l>
+            <l>¶ The dragon gaue this knight a wounde</l>
+            <l>Wyth his tayle vpon the heed</l>
+            <l>that he fell downe vnto the grounde</l>
+            <l>In a ſowne as he had ben deed</l>
+            <l>¶ So at the laſt he roſe agayne</l>
+            <l>And made his moue to god almyght</l>
+            <l>And to our lady he dyd compleyne</l>
+            <l>theyr helpe deſyrynge in that fyght</l>
+            <l>than ſterte he wyth a fayrſe courage</l>
+            <l>Vnto the dragon without fayle</l>
+            <l>He loked ſo for his aduauntage</l>
+            <l>that he ſmote of her tayle</l>
+            <l>¶ Than hegan the dragon for to yell</l>
+            <l>And tourned her vpon her ſyde</l>
+            <l>the knight was w re of her right well</l>
+            <l>And in her bodt made his ſworde to ſlyde</l>
+            <l>¶ So that ſhe coud nat remoue ſeartely</l>
+            <l>the knight that ſeinge approched nere</l>
+            <l>And ſmote her heed of lyghtly</l>
+            <l>than was he eſcaped that daungere</l>
+            <l>✿ Than thanked he god of his grace</l>
+            <l>Whiche by his goodnes and mercye</l>
+            <pb facs="tcp:2800:7"/>
+            <l>Hym had preſerued in that place</l>
+            <l>Through vertue of hys deyte</l>
+            <l>¶ Than went he to a nonrye there beſyde</l>
+            <l>And there a ſurge<g ref="char:cmbAbbrStroke">̄</g> and by his arte</l>
+            <l>Heled his woundes that were ſo wyde</l>
+            <l>And than fro thens he dyd departe</l>
+            <l>✿ To warde the rodes for to fyght</l>
+            <l>In bataill as he had vndertake</l>
+            <l>The fayth to ſuſteyne with all his might</l>
+            <l>For his promyſſe he wil not breke</l>
+            <l>¶ Than of ſarazyns there was a route</l>
+            <l>All redy armen and in araye</l>
+            <l>That ſyeged the rodes round aboute</l>
+            <l>Fyerſly agaynſt the good fredaye</l>
+            <l>✿ The knight was welcomed of echone</l>
+            <l>That within the cyte were</l>
+            <l>They prouided forth batayle anone</l>
+            <l>So for this time I leue them there</l>
+            <l>¶ And tourne to his lady bryght</l>
+            <l>Which is at home wyth wofull mone</l>
+            <l>Sore morned both day and night</l>
+            <l>Sayenge alas my loue is gone</l>
+            <l>✿ Alas ſhe ſayd my gentyl knight</l>
+            <l>For your ſake is my herte ful ſore</l>
+            <l>Myght I ones of you haue a ſyght</l>
+            <l>Afore my dethe I deſyre no more</l>
+            <l>¶ Alas what treſon or enuye</l>
+            <l>Hath made my loue fro me to go</l>
+            <l>I thynke my lorde for Ire truley</l>
+            <l>By treaſon him to deth hathe do.</l>
+            <pb facs="tcp:2800:7"/>
+            <l>¶ Alas my lorde ye were to blame</l>
+            <l>Thus my loue for to betraye</l>
+            <l>It is to you a right great ſhame</l>
+            <l>Sythe that our loue was caſt al waye</l>
+            <l>¶ Our loue was clene in chaſtyte</l>
+            <l>Wichout ſynne ſtyl to endure</l>
+            <l>We neuer entended vylanye</l>
+            <l>Alas mooſt curteyſe creature</l>
+            <l>✿ Where do ye dwell where do ye byde</l>
+            <l>Wold god I knewe where you to fynde</l>
+            <l>Wher euer ye go where euer ye ride</l>
+            <l>Loue ye ſhal neuer out of my mynde</l>
+            <l>¶ A deth where art thou ſo longe fro me</l>
+            <l>Come and departe me fro this paine</l>
+            <l>For dead and buried til I be</l>
+            <l>Fro morning can I nat refraine</l>
+            <l>✿ Fare wel dere loue, where euer ye be</l>
+            <l>Bi you pleaſure is fro me gone</l>
+            <l>Vnto the time I may you ſe</l>
+            <l>Without comforte ſtill muſt I mone</l>
+            <l>¶ Thus this lady of coloure clere</l>
+            <l>Aloue mourninge did complaine</l>
+            <l>Nothinge coulde her comforte ne chere</l>
+            <l>So was ſhe oppreſſed with wo and paine</l>
+            <l>✿ So leue we her here in this traine</l>
+            <l>For her loue mourning alwaye</l>
+            <l>and to the knight tourne we againe</l>
+            <l>which at Rodes abideth the day</l>
+            <l>¶ Of bataile, ſo whan the daie was come</l>
+            <l>The knightes armed them eche one</l>
+            <pb facs="tcp:2800:8"/>
+            <l>And out of the citie wente all and ſome</l>
+            <l>Strongly to fight with goddes fone</l>
+            <l>¶ Faire and ſemely was the ſight</l>
+            <l>To ſe them redy vnto the warre</l>
+            <l>there was many a man of might</l>
+            <l>That to that bataile was come full farre</l>
+            <l>✿ The knight of curteſy came into the felde</l>
+            <l>well armed right faſt did ride</l>
+            <l>Both knightes and barans him behelde</l>
+            <l>How comely he was on eche ſide</l>
+            <l>¶ Aboue the helme vpon his hede</l>
+            <l>was ſet with many a precious ſtone</l>
+            <l>The comely heare as golde ſo rede</l>
+            <l>Better armed than he was none</l>
+            <l>✿ Than the trumpettes began to ſounde</l>
+            <l>The ſperes ranne and brake the taye</l>
+            <l>the noiſe of gonnes did rebounde</l>
+            <l>In this metinge there was no plaie</l>
+            <l>¶ Great was the bataile on eueri ſide</l>
+            <l>the knight of curteſy was nat behinde</l>
+            <l>He ſmote all downe that wolde abide</l>
+            <l>His mache coulde he no where finde</l>
+            <l>✿ There was a Sarazin ſtronge &amp; wight</l>
+            <l>that at this knight had great enuye</l>
+            <l>He ran to him with all his might</l>
+            <l>and ſaid traitour I thee defie</l>
+            <l>¶ They ranne together with ſperes longe</l>
+            <l>anone the Sarazin lay on the grounde</l>
+            <l>The knight drew out his ſworde ſo ſtronge</l>
+            <l>and ſmote his head of in that ſtounde</l>
+            <pb facs="tcp:2800:8"/>
+            <l>¶ Than came twelue Sarazins in a tought</l>
+            <l>and the knight did ſore aſſaile</l>
+            <l>So they beſet him rounde aboute</l>
+            <l>There began a ſtronge bataile</l>
+            <l>¶ The knight keſt foure vnto the grounde</l>
+            <l>with foure ſtrokes by and by</l>
+            <l>the other gaue him many a wounde</l>
+            <l>For they did euer multeplie</l>
+            <l>¶ They laide on him on euery ſide</l>
+            <l>with cruell ſtrokes and mortall</l>
+            <l>They gaue him woundes ſo depe and wide</l>
+            <l>that to the grounde downe did he fall</l>
+            <l>¶ The Sarazins went and let him lye</l>
+            <l>with mortall woundes piteous to ſe</l>
+            <l>He called his page haſtely</l>
+            <l>and ſaid my time is come to die</l>
+            <l>¶ In mi herte is ſo depe a wounde</l>
+            <l>that I muſt dye without naye</l>
+            <l>But or thou me burye in the grounde</l>
+            <l>Of one thinge I thee praie</l>
+            <l>¶ Out of mi body to cut my herte</l>
+            <l>and wrappe it in this yelowe here</l>
+            <l>And whan thou doeſt from hence departe</l>
+            <l>Vnto my lady thou do it bere</l>
+            <l>¶ This promiſſe thou me without delay</l>
+            <l>to bere my lady this preſent</l>
+            <l>And burie mi body in the croſſe waie</l>
+            <l>the page was ſory and dolent</l>
+            <l>¶ The knight yelded vp the gooſt anone</l>
+            <l>the page him buried as he had him bad</l>
+            <pb facs="tcp:2800:9"/>
+            <l>And towarde Faguell is he gone</l>
+            <l>The herte, and here, with him he had</l>
+            <l>¶ Somtime he went ſomtime he ran</l>
+            <l>with wofull mone and ſory Ieſt</l>
+            <l>Till vnto Faguell he came</l>
+            <l>Nere to a caſtell in a foreſt</l>
+            <l>✿ The lorde of Faguell without let</l>
+            <l>was in the foreſt with his meyne</l>
+            <l>with this page anone he met</l>
+            <l>Page he ſaid what tidinges with thee</l>
+            <l>¶ With thi maiſter how is the caſe</l>
+            <l>Shew me lightli or thou go</l>
+            <l>Or thou ſhalt neuer out of this place</l>
+            <l>The page was a fearde whan he ſaid ſo</l>
+            <l>✿ The page for feare that he had</l>
+            <l>the herte vnto the lorde he toke tho</l>
+            <l>In his courage he was full ſad</l>
+            <l>He toke the herte to him alſo</l>
+            <l>¶ He tolde him trothe of eueri thinge</l>
+            <l>How that the knight in bataile was ſlaine</l>
+            <l>and howe he ſent his lady that thinge</l>
+            <l>For a ſpeciall token of loue certaine</l>
+            <l>⚜ The lorde therof toke good hede</l>
+            <l>And behelde the herte that high preſente</l>
+            <l>their loue he ſaid was hote in dede</l>
+            <l>they were bothe in great torment</l>
+            <l>¶ Than home is he to the kechin gone</l>
+            <l>Coke he ſaid herken vnto me</l>
+            <l>Dreſſe me this herte and that anone</l>
+            <l>In the deintieſt wiſe that may be</l>
+            <pb facs="tcp:2800:9"/>
+            <l>¶ Make it ſwere and delycate to eate</l>
+            <l>For it is for my lady bryght</l>
+            <l>If that ſhe wyſt what were the meate</l>
+            <l>Sothely her hert wolde not be lyght</l>
+            <l>✿ Therof ſayd the lorde full trewe</l>
+            <l>That meat was doleful and mortall</l>
+            <l>So though the lady whan ſhe it knewe</l>
+            <l>Than went the lorde into the hall</l>
+            <l>¶ Anone the lorde to meate was ſet</l>
+            <l>And this lady nat farre him fro</l>
+            <l>The hert anone he made be ſet</l>
+            <l>Wherof proceded muche wo</l>
+            <l>¶ Madame eate hereof he ſayd</l>
+            <l>For it is deynteous and pleſaunte</l>
+            <l>The lady eate and was not diſmayde</l>
+            <l>For of good ſpyce there dyd none wante</l>
+            <l>✿ Whan the lady had eaten wele</l>
+            <l>Anone to her the lorde ſayd there</l>
+            <l>His herte haue ye eaten euery dele</l>
+            <l>To whome you gaue your yelowe here</l>
+            <l>¶ Your knight is dead as you may ſe</l>
+            <l>I tell you lady certaynly</l>
+            <l>His owne herte eaten haue ye</l>
+            <l>Madame at the laſt we all muſt dye</l>
+            <l>✿ whan the lady herde him ſo ſay</l>
+            <l>She ſayd my herte for wo ſhall braſt</l>
+            <l>Alas that euer I ſawe this day</l>
+            <l>Now may my lyfe no lenger laſt</l>
+            <l>¶ Vp ſhe roſe wyth hert full wo</l>
+            <l>And ſtreight vp into her chambre wente</l>
+            <pb facs="tcp:2800:10"/>
+            <l>She confeſſed her deuoutly tho</l>
+            <l>And ſhortely receyued the ſacrament</l>
+            <l>¶ In her bed mournyng ſhe her layde</l>
+            <l>God wote ryght wofull was her mone</l>
+            <l>Alas myne owne dere loue ſhe ſayd</l>
+            <l>Syth ye be dead my ioye is gone</l>
+            <l>✿ Haue I eaten thy herte in my body</l>
+            <l>That meate to me ſhal be full dere</l>
+            <l>For ſorowe alas now muſt I dye</l>
+            <l>A noble knight withouten fere</l>
+            <l>¶ That herte ſhal certayne with me dye</l>
+            <l>I haue reciued theron the ſacrament</l>
+            <l>All erthly fode here I denye</l>
+            <l>For wo and paine my life is ſpente</l>
+            <l>✿ My lorde and huſbande full of cruelte</l>
+            <l>Why haue you done this curſed dede</l>
+            <l>Ye haue him ſlaine ſo haue ye me</l>
+            <l>The hee god graunte to you your mede</l>
+            <l>¶ Than ſayd the lorde my lady fayre</l>
+            <l>Forgiue me if I haue miſdone</l>
+            <l>I repent I was <gap reason="illegible" resp="#OXF" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ware</l>
+            <l>That ye wolde your herte oppreſſe ſo ſone</l>
+            <l>¶ The lady ſayd I you forgiue</l>
+            <l>A dew my lorde for euermore</l>
+            <l>My time is come I may not liue</l>
+            <l>The lorde ſayd I am wo therfore</l>
+            <l>✿ Great was the ſorowe of more and leſſe</l>
+            <l>Bothe lordes and ladyes that were there</l>
+            <l>Som for great wo ſwouned doubteleſſe</l>
+            <l>All other dethe full wofull were</l>
+            <pb facs="tcp:2800:10"/>
+            <l>Her complaynt pyteous was to here</l>
+            <l>A dieu my lorde nowe muſte we diſceuer</l>
+            <l>I dye to you huſbande a true wedded fere</l>
+            <l>As any in Faguell was found euer</l>
+            <l>¶ I am clene of the knight of curteſy</l>
+            <l>And wrongfully are we brought to confuſio<g ref="char:cmbAbbrStroke">̄</g>
+            </l>
+            <l>I am clene for hym and he for me</l>
+            <l>And for all other ſaue you alone</l>
+            <l>✿ My lorde ye were to blame truely</l>
+            <l>His herte to make me for to eate</l>
+            <l>But ſythe it is buryed in mi body</l>
+            <l>On it ſhall I neuer eate other meate</l>
+            <l>¶ Theron haue I recyued eternall fode</l>
+            <l>Erthly meate wyll I neuer none</l>
+            <l>Now Ieſu that was don on the rode</l>
+            <l>Haue mercy on me my lyfe is gone</l>
+            <l>✿ Wyth that the lady in all theyr ſyght</l>
+            <l>Yelded vp her ſpyrit makinge her mone</l>
+            <l>The hyghe god mooſt of myght</l>
+            <l>On vs haue mercy and vs echone</l>
+            <l>¶ And brynge vs to that gloryous trone</l>
+            <l>To ſe the ioye of Paradyſe</l>
+            <l>Whyche god graunte to vs echone</l>
+            <l>and to the reders &amp; herers of this treatyſe.</l>
+            <trailer>¶ Thus eneth this lytle treatyſe of the knyght of curteſy &amp; of the fayre lady of Faguell.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>¶ Imprynted at London by me Wyllyam Copland.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

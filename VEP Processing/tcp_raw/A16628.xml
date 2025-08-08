@@ -1,0 +1,962 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Physick for the sicknesse, commonly called the plague With all the particular signes and symptoms, whereof the most are too ignorant. Collected, out of the choycest authors, and confirmed with good experience; for the benefit and preservation of all, both rich and poore. By Stephen Bradwell, of London physician.</title>
+            <author>Bradwell, Stephen.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1636</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 101 KB of XML-encoded text transcribed from 31 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A16628</idno>
+            <idno type="STC">STC 3536</idno>
+            <idno type="STC">ESTC S106184</idno>
+            <idno type="EEBO-CITATION">99841906</idno>
+            <idno type="PROQUEST">99841906</idno>
+            <idno type="VID">6522</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A16628)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 6522)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1128:12)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Physick for the sicknesse, commonly called the plague With all the particular signes and symptoms, whereof the most are too ignorant. Collected, out of the choycest authors, and confirmed with good experience; for the benefit and preservation of all, both rich and poore. By Stephen Bradwell, of London physician.</title>
+                  <author>Bradwell, Stephen.</author>
+               </titleStmt>
+               <extent>[8], 53, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Beniamin Fisher, and are to bee sold at his shop, at the signe of the Talbot in Aldersgate-street,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1636.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Plague --  Treatment --  Early works to 1800.</term>
+               <term>Medicine --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-03</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2013-03</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:6522:1"/>
+            <pb facs="tcp:6522:1" rendition="simple:additions"/>
+            <p>PHYSICK FOR THE SICKNESSE, Commonly called the PLAGVE.</p>
+            <p>With all the Particular Signes and Symp<g ref="char:EOLhyphen"/>toms, whereof the moſt are too ignorant.</p>
+            <p>COLLECTED, Out of the Choyceſt Authors, and Con<g ref="char:EOLhyphen"/>firmed with good Experience; for the Benefit and Preſervation of All, both <hi>Rich and Poore.</hi>
+            </p>
+            <p>By STEPHEN BRADWELL, of LONDON PHYSICIAN.</p>
+            <p>LONDON, Printed for BENIAMIN FISHER, and are to bee ſold at his Shop, at the Signe of the <hi>Talbot</hi> in <hi>Alderſgate-ſtreet.</hi> 1636.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:6522:2"/>
+            <pb facs="tcp:6522:2"/>
+            <head>TO THE RIGHT HONOVRABLE, CHRYSTOPHER CLEYTHEROWE Lord Major, and to THE RIGHT WORSHIPFVL, THOMAS SOAME, and IOHN GAYER, <hi>Sheriffes of this Renowned Citie</hi> LONDON. STEPHEN BRADWELL, wiſheth continuance <hi>of all Earthly comforts, and aſſured Hope</hi> of Heavenly Happineſſe.</head>
+            <opener>
+               <salute>RIGHT HONOVRABLE, and RIGHT WORSHIPFVLL.</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">S</seg>ALOMON ſayes,<note place="margin">Eccleſ. 3.7.</note> 
+               <hi>There is a Time to keepe Silence, and a Time to Speake.</hi> From this Rule take I this boldneſſe, upon a juſt occaſion to
+<pb facs="tcp:6522:3"/> preſent this my duty &amp; care to this Fame-crown'd <hi>Citie,</hi> in <hi>You;</hi> who are indeed <hi>Her Three-fold facultie of life:</hi> I confeſſe my ſelfe to <hi>You</hi> a <hi>Stranger,</hi> but yet I am a <hi>Sonne</hi> of <hi>London:</hi> in her womb had I both Birth &amp; breeding. <hi>Her</hi> danger is apparent, Shee grows ſick; and <hi>I</hi> (having skil not only to ſee it, but alſo to do ſomething hopeful in it) dare not be ſilent; <hi>It is now my Time to ſpeak.</hi> Let your Noble favors then ſtreng<g ref="char:EOLhyphen"/>then this weak Hand which a Sons duty reaches forth to a Mothers ſupport. <hi>Grate<g ref="char:EOLhyphen"/>full Pitty</hi> commands me thus to do; and my knowledge both by <hi>Reading</hi> &amp; <hi>Experi<g ref="char:EOLhyphen"/>ence</hi> juſtifies the act. Yet ſuch is the nature of <hi>Detraction</hi> (who is grown a Giant in this Age) that if a man will ſeem to ſhew that he knows more in ſome things then ma<g ref="char:EOLhyphen"/>ny others; he ſhall thereby the more em<g ref="char:EOLhyphen"/>bolden thoſe that know leſſe to cry him down <hi>I</hi> have cauſe to ſpeak this, &amp; there<g ref="char:EOLhyphen"/>upo<g ref="char:cmbAbbrStroke">̄</g> have cauſe alſo to flie to the ſhelter of your <hi>Honored wings</hi> for protection; which obteyn'd (as from your <hi>farre-fam'd Goodnes I</hi> have aſſurance, <hi>I</hi> ſhall) <hi>I</hi> will remaino.</p>
+            <closer>
+               <signed>
+                  <hi>To your Honour and your Worſhips a moſt obliged Servant.</hi> STEPHEN BRADWELL.</signed>
+            </closer>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:6522:3"/>
+            <head>TO ALL THAT HAVE <hi>Cauſe to love</hi> LONDON.</head>
+            <p>
+               <seg rend="decorInit">F</seg>Lie not from <hi>Her,</hi> becauſe ſhe is <hi>falling ſicke;</hi> but rather joyne your <hi>hearts in Prayer,</hi> &amp; your <hi>hands in Bounty to</hi> cheere her up. You <hi>love her,</hi> or at leaſt have cauſe ſo to doe: for ſome of you have received <hi>Pleaſures,</hi> ſome <hi>Profits,</hi> ſome <hi>Prefer<g ref="char:EOLhyphen"/>ments.</hi> You have moreover a long time in her enjoy'd a <hi>ſecure Peace,</hi> that ſweetned the other <hi>Benefits. Prague</hi> cannot boaſt it, nor many other <hi>Cities</hi> beyond the Seas: You walke in <hi>Scarlet,</hi> when others have waded in <hi>Bloud:</hi> You wore Weapons onely for Faſhi<g ref="char:EOLhyphen"/>on, when others were armed perforce: You have ſeene with <hi>Pleaſure</hi> glorious <hi>Muſters,</hi> when others have with <hi>horror</hi> felt the <hi>Swords furie.</hi> And now be<g ref="char:EOLhyphen"/>cauſe the peaceful <hi>Dove</hi> has a few ſick feathers on her, will you leave her? Do not. In the laſt great Viſitation I found and ſaw it, that <hi>want</hi> was a main fewel to nou<g ref="char:EOLhyphen"/>riſh that infectious flame: It were deep <hi>Ingratitude</hi> to
+<pb facs="tcp:6522:4"/> let her ſuffer ſo any more. Your faire Houſes, rich Furniture, delicious Fare, and curious cloathing; yea your full content, and varietie of pleaſure will caſt it in your teeth, that <hi>London</hi> gaue yee all theſe. Stay then; you that are Rich, to helpe the Poore; and you that haue true skill in Phyſicke to helpe the ſicke. But <hi>Mountebancks goe quack in the Country among the contemners of Learning:</hi> Though Death can doe enough without you, yet you ſave her reputation, in often taking her office from her. And O <hi>London,</hi> and you that <hi>love her;</hi> ſuffer not the ſtayne of vnskil<g ref="char:EOLhyphen"/>fullneſſe to be ſtucke vpon our <hi>Natives: That you ſhould need the helpe of Strangers,</hi> to whom our conſtitutions are not ſo well knowne: A <hi>Spaniard</hi> (as they called him) had ſuch grace given him in the laſt great Viſitation, as if no <hi>Engliſhman</hi> could ſo well tell how to ſave the lives of his owne, <hi>Engliſh:</hi> but by his worke, his workemanſhip was knowne to other worke<g ref="char:EOLhyphen"/>men; And ſome now live that dare truely ſay, <hi>many died vnder his hand, that vnder ſome of ours might (in all likelyhood) have recovered.</hi> I have but my <hi>Mite</hi> to offer, but as much <hi>water</hi> as the <hi>palme of my hand</hi> will hold, to caſt into this new-kindled <hi>Fier.</hi> But even this (this little <hi>Booke</hi> I meane) may be ſo wel vſed, being added to others greater mea<g ref="char:EOLhyphen"/>ſures, that it may helpe to quench it, ere it riſe to a <hi>Flame,</hi> if the <hi>Heavenly Phiſitian</hi> ſee it ſo good. It is to that end I publiſh it. That others that had not like experience of the laſt great <hi>Sickneſſe</hi> (as there are but few living now, that tarried here then) may hereby receive ſome help, and inſtruction: eſpecially in know<g ref="char:EOLhyphen"/>ing the <hi>Plague</hi> by his true <hi>Signes;</hi> a thing much ſuſ<g ref="char:EOLhyphen"/>pected
+<pb facs="tcp:6522:4"/> in many that take it vpon the<g ref="char:cmbAbbrStroke">̄</g>. And for my <hi>Self,</hi> I will adde my hearty prayers to <hi>Almighty God</hi> to bee mercifull to this City, and (if it be his bleſſed will) to ſheath his <hi>Sword,</hi> and vnbend his <hi>Bow;</hi> that the dreaded afflictions of <hi>Peſtilence</hi> and <hi>Famine</hi> may be averted from vs.</p>
+            <p>
+               <hi>Graunt this O mercifull Father, for the bitter Sufferings of thy bleſſed Sonne IESVS CHRIST our onely Saviour</hi> Amen.</p>
+            <p>This ſhall be the continuall Prayer of <hi>Him,</hi>
+            </p>
+            <closer>
+               <signed>
+                  <hi>That truely loves, and tenderly pityes</hi> LONDON <hi>in her Calamitie, STEPHEN BRADWELL.</hi>
+               </signed>
+               <dateline>From my Study in Golding-lane, <date>May, <hi>17. 1636.</hi>
+                  </date>
+               </dateline>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:6522:5"/>
+            <pb n="1" facs="tcp:6522:5"/>
+            <head>PHYSICK FOR THE SICKNESSE.</head>
+            <p>
+               <seg rend="decorInit">T</seg>He word <hi>Plague</hi> in Engliſh, ſignifieth,<note place="margin">The Names of the Con<g ref="char:EOLhyphen"/>tagious Sick<g ref="char:EOLunhyphen"/>neſſe.</note> 
+               <hi>A Sharpe Puniſhment</hi> of what kind ſoever. As we may reade many were the <hi>Plagues</hi> in<g ref="char:EOLhyphen"/>flicted on the <hi>Egypti<g ref="char:EOLhyphen"/>ans:</hi> and ſome of us in Indignatio<g ref="char:cmbAbbrStroke">̄</g> wil threa<g ref="char:EOLhyphen"/>ten to <hi>plague</hi> thoſe that highly offend us. But it is uſually and moſt properly taken for that dreadfull affliction which in <hi>Latin</hi> is called <hi>Peſtis,</hi> or <hi>Peſtilentia;</hi> in <hi>Greeke</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, which ſignifies <hi>A Deadly Fretting,</hi> and it is the ſame with <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>a</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>quod efficiat Defectum Hominum.</hi> Or <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Pernities ſeu Exitium. Hippocrates</hi> gives it a name of diſtinction, calling it <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>Morbus Communis,</hi> a Common or popular Diſeaſe.</p>
+            <p>But we muſt underſtand that there are two ſorts<note place="margin">Two ſorts of Plagues.</note>
+               <pb n="2" facs="tcp:6522:6"/> of <hi>Plagues</hi> that be <hi>Epidemicall.</hi> Viz. <hi>A Simple, and a Putrid Plague.</hi>
+            </p>
+            <p>
+               <hi>The Simple Plague,</hi>
+               <note place="margin">The Sim<g ref="char:EOLhyphen"/>ple Plague.</note>] is <hi>The very Influence of the ſtriking Angell executing the vengeance of God upon the Bodies of Men.</hi> This kind of <hi>Plague</hi> ariſeth from no diſtemper of Blood, putri<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>action of Humo<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s, or influence of Starres; but falleth meerely from the immediate ſtroke of Gods puniſhing Angell (Such were the Plagues, <hi>Exod.</hi> 12 <hi>Num.</hi> 11.16.25. Alſo, 2 <hi>Sam.</hi> 24. and 2 <hi>Kings,</hi> 19.) whereof ſome dye ſuddenly without any precedent complaint or conceit of Infection. Others againe, though they be ſicke before they dye; yet their firſt ta<g ref="char:EOLhyphen"/>king hath beene after an extraordinary manner. For I obſerved in the laſt great <hi>Plague</hi> heere in <hi>London, (Anno</hi> 1625.) That ſome felt themſelves manifeſtly ſtricken, being ſenſible of a blow ſud<g ref="char:EOLhyphen"/>dainly given them, on the Head, necke, backe, or ſide: Sometime ſo violently, that they have been eyther almoſt, or altogether over-turned: and af<g ref="char:EOLhyphen"/>ter theſe and ſuch like ſtroakes ſome have dyed, and thoſe that recovered, eſcaped without humane helpe: For this kind of <hi>Plague,</hi> as it is rare, ſo it is alſo by all Art of Man incurable.<note place="margin">The Remedy</note> Therefore no Method but <hi>Repentance,</hi> no Medicine but <hi>Prayer,</hi> can avert, or heale this ſtroake: Of all <hi>Antidotes</hi> for the <hi>Body,</hi> that <hi>Triacle</hi> which is made o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>the Fleſh of earthly Serpents,</hi> is the beſt eſteemed: But for the <hi>Soule,</hi> that only which is made of <hi>the Bloud of that Brazen Serpent that was lifted vp on the Croſſe for our ſinnes.</hi> Hee that by a lively Faith applyeth the benefit of our Bleſſed SAVI<g ref="char:EOLhyphen"/>OURS
+<pb n="3" facs="tcp:6522:6"/> Sufferings to the ſickneſſe of his Soule, ſhall undoubtedly recover (if not health here) heaven hereafter.</p>
+            <p>
+               <hi>The Putrid Plague,</hi>
+               <note place="margin">The Putrid Plague.</note>] is <hi>a Popular Feavor vene<g ref="char:EOLhyphen"/>mous and Infectious, ſtriking chiefly at the Heart, and for the moſt part is accompanied with ſome Swelling, which is eyther called a Blayne, a Botch or a Carbun<g ref="char:EOLhyphen"/>cle, or elſe with Spots called GODS Tokens.</hi> This comes of Putrifaction of the Bloud and Humors in the Body, which it pleaſeth God ſometimes to make the Inſtrument of his puniſhing Iuſtice, mixing it with the <hi>Simple Plague</hi> before men<g ref="char:EOLhyphen"/>tioned.</p>
+            <p>This Putrifaction may be cauſed by the Influ<g ref="char:EOLhyphen"/>ence of the <hi>Starres,</hi>
+               <note place="margin">The Cauſes.</note> who doe undoubtedly worke upon all ſublunarie bodies. For Aſtrologers are of opinion, that if <hi>Saturne</hi> and <hi>Mars</hi> have domi<g ref="char:EOLhyphen"/>nion (eſpecially under <hi>Artes, Sagitarius,</hi>
+               <note place="margin">The Starres</note> and <hi>Ca<g ref="char:EOLhyphen"/>pricorn,)</hi> a <hi>Peſtilence</hi> is ſhortly to be expected. Or if theſe two (the moſt Malevolent) be in Op<g ref="char:EOLhyphen"/>poſition to the gentle Planet <hi>Iupiter;</hi> as the <hi>Poet</hi> ſingeth: —
+<q>
+                  <l>Caelitús imbuitur tabe <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ifflatilis aura</l>
+                  <l>Mars quando obijcitur Falcitenenſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> Iovi.</l>
+               </q>
+            </p>
+            <p>The <hi>Windes</hi>
+               <note place="margin">The Windes.</note> likewiſe are led into theyr moti<g ref="char:EOLhyphen"/>ons by the motions of the <hi>Starres;</hi> The <hi>Planets</hi> (eſpecially the <hi>Sunne</hi>) by extracting the earths ex<g ref="char:EOLhyphen"/>halations (which are the ſubſtance of the Winds) doe ſet them ſo on worke. And the <hi>Windes</hi> are ſome by nature wholſome, and ſome unwhol<g ref="char:EOLhyphen"/>ſome. The <hi>South-wind</hi> blowing from the <hi>Meridi<g ref="char:EOLhyphen"/>an</hi>
+               <pb n="4" facs="tcp:6522:7"/> is of nature hot and moyſt, and full of ſhow<g ref="char:EOLhyphen"/>ers. Now when by the influence of the <hi>Planets</hi> this <hi>Wind</hi> bloweth long and bringeth continuall raine, it cauſeth much moyſture in all Airie and Earthy bodies, and ſo much the more by how much the milder it is. This moyſture being in ſuch abundance cannot be digeſted nor attenuated by the <hi>Sunnes</hi> heat; and therefore ſetling together it muſt needs putrifie; and that ſo much the ſoo<g ref="char:EOLhyphen"/>ner, becauſe the heate of the <hi>Sunne</hi> (not being able to extract all) does inflame the remnant, by which inflamation the putrifaction becomes the greater. In this manner are the <hi>windes</hi> in cauſe: and more<g ref="char:EOLhyphen"/>over they doe ſometimes transferre the Contagi<g ref="char:EOLhyphen"/>on from one region to another; as <hi>Hippocrates</hi> af<g ref="char:EOLhyphen"/>firmes the <hi>Plague</hi> to be brought over the Sea from <hi>Aethiopia</hi> into <hi>Greece,</hi> by the <hi>South-wind.</hi>
+            </p>
+            <p>
+               <note place="margin">The Cure of theſe Cauſes is the ſame with the for<g ref="char:EOLhyphen"/>mer.</note>Now if the <hi>Starres</hi> be <hi>peſtilently</hi> bent againſt us, neyther <hi>Arts</hi> nor <hi>Armes, Perfumes nor Prayers,</hi> can prevaile with them, who have neyther pitie nor ſenſe, nor power to alter their appointed moti<g ref="char:EOLhyphen"/>ons. But <hi>Hee</hi> that commandeth their courſe, and altereth them at his pleaſure: <hi>Hee</hi> that made the <hi>Sunne</hi> and <hi>Moone</hi> to ſtand ſtill for <hi>Ioſuah,</hi> yea drew the <hi>Sunne</hi> tenne degrees backe for <hi>Hezekiah,</hi> and cauſed the <hi>Starres</hi> to fight in their courſes againſt <hi>Siſera. He,</hi> and <hi>He</hi> onely is able to heale all infec<g ref="char:EOLhyphen"/>tions that can ariſe from their influences. <hi>The Cure</hi> of this <hi>Cauſe</hi> therefore is the ſame with the former.</p>
+            <p>
+               <note place="margin">Common Cauſes.</note>Other <hi>Cauſes</hi> there be alſo of this <hi>Putrid Plague.</hi> Namely, corrupt and unwholſome Feeding, ſten<g ref="char:EOLhyphen"/>ches
+<pb n="5" facs="tcp:6522:7"/> of unſavorie and rotten Dung-hils, Vaults, Sinckes, Ditches and dead Carions; as the <hi>Poet</hi> affirmes; —
+<q>Corpora faeda iacent, vitiantur adoribus aurae.</q>
+            </p>
+            <p>Theſe are the <hi>Maintaining Cauſes</hi> of the <hi>Contagion</hi> after it is begun. So is likewiſe the unſeaſonable<g ref="char:EOLhyphen"/>neſſe of the <hi>Weather: Quum tempeſtiva intempeſti<g ref="char:EOLhyphen"/>vè redduntur:</hi> as ſayth <hi>Hippocrates,</hi> When the weather is unſeaſonable for the ſeaſon of the yeare; being hot when it ſhould be cold, moyſt when it ſhould be dry: and on the contrary.</p>
+            <p>This kind of <hi>Plague</hi> is by <hi>Art curable</hi> in as ma<g ref="char:EOLhyphen"/>ny as it pleaſeth GOD to ſend and ſanctifie the right meanes unto.</p>
+            <p>The former is moſt properly called <hi>The Plague,</hi>
+               <note place="margin">The Putrid Plague, is rightly cal<g ref="char:EOLhyphen"/>led the Sick<g ref="char:EOLhyphen"/>neſſe.</note> being the immediate <hi>Stroke of Gods hand. This, The Sickneſſe,</hi> becauſe infectious, and many times Curable.</p>
+            <p>For this therefore doe I intend to preſcribe a courſe of <hi>Phyſicke,</hi> ſuch as both my much rea<g ref="char:EOLhyphen"/>ding, and alſo my manifeſt Experience in the laſt great <hi>Viſitation,</hi> have preferred to my beſt appro<g ref="char:EOLhyphen"/>bation.</p>
+            <p>Wherein I will firſt open the way of <hi>Preſerva<g ref="char:EOLhyphen"/>tion,</hi>
+               <note place="margin">The Method of this Trea<g ref="char:EOLhyphen"/>tiſe.</note> after that, ſhew the <hi>Signes</hi> of being <hi>Infected,</hi> and then the <hi>Courſe of Cure.</hi>
+            </p>
+            <p>In the way of <hi>Preſervation,</hi>
+               <note place="margin">Preſerva<g ref="char:EOLhyphen"/>tion.</note> it is firſt neceſſary to be conſidered, whether it be <hi>Infectious</hi> or no: And then who are moſt or leaſt ſubject (according to naturall reaſon) to receive this Infection.</p>
+            <p>This <hi>Putrid Plague,</hi>
+               <note place="margin">The Plague is Venemous.</note> is (as I have ſayd i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he
+<pb n="6" facs="tcp:6522:8"/> Definition) <hi>venemous,</hi> which is granted of all both Phyſitians and Philoſophers. Now by <hi>Venom</hi> or <hi>Poyſon,</hi> we commonly underſtand ſome thing that has in it ſome dangerous ſubtle quality that is a<g ref="char:EOLhyphen"/>ble to corrupt the ſubſtance of a living body to the deſtruction or hazard of the life thereof. This working is apparent in this <hi>Sickneſſe,</hi> by his ſe<g ref="char:EOLhyphen"/>cret and inſenſible inſinuation of himſelf into the <hi>Vitall ſpirits,</hi> to which as ſoone as hee is gotten, he ſhewes himſelfe a mortall enemy, offering with ſuddaine violence to extinguiſh them. His ſubtle entrance, his ſlye crueltie, his ſwift deſtroying; the unfaithfulneſſe of his <hi>Criſis,</hi> and the other <hi>Prognoſtick ſignes;</hi> and the vehemencie, grievouſ<g ref="char:EOLhyphen"/>neſſe and ill behaviour of his <hi>Symptomes,</hi> all be<g ref="char:EOLhyphen"/>ing manifeſt proofes of his <hi>venemous quality.</hi> For in this Diſeaſe the <hi>Seidge, Vrine,</hi> and <hi>ſweat,</hi> have an abhominable ſavour, the breath is vile and noy<g ref="char:EOLhyphen"/>ſome: Ill coloured <hi>Spots, Puſtles, Bliſters, ſwel<g ref="char:EOLhyphen"/>lings,</hi> and <hi>vlcers</hi> full of filthy matter ariſe in the outward parts of the Body: Such as no ſuperflui<g ref="char:EOLhyphen"/>tie or ſharpneſſe of Humors, nor any putrifacti<g ref="char:EOLhyphen"/>on of matter (without a <hi>venemous qualitie</hi> joyned with it) can poſſibly produce.</p>
+            <p>But though it may thus by the Learned be ac<g ref="char:EOLhyphen"/>knowledged to be <hi>Venemous;</hi> yet is it by many of the <hi>Ignorant</hi> ſort conceited not to be <hi>Infectious.</hi>
+               <note place="margin">It is Infe<g ref="char:EOLhyphen"/>ctious.</note>
+            </p>
+            <p>To ſatisfie ſuch, I define <hi>Infection</hi> or <hi>Contagion</hi> to be <hi>That which infecteth another with his owne qualitie by touching it, whether the medium of the touch be Corporeall or Spirituall, or an Airie Breath.</hi> Of this kind there are divers <hi>Diſeaſes</hi> that are <hi>in<g ref="char:EOLhyphen"/>fectious,</hi>
+               <pb n="7" facs="tcp:6522:8"/> though not ſo <hi>deadly</hi> as the <hi>Plague.</hi> As for Example, <hi>Itch</hi> and <hi>Scabbineſſe, Warts, Meaſels, ſmall Pox, the Veneriall Pox;</hi> theſe by rubbing, and corporeall touches doe <hi>infect:</hi> Alſo <hi>ſoare Eyes</hi> doe by their <hi>Spirituous beames infect</hi> other eyes: And the <hi>Pthiſick</hi> or putrified Lungs doe by their corrupt breath infect the lungs of others. But the Plague infects by all theſe waye<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, and ſuch ſicke bodies infect the outward Aire, and that Aire again infects other Bodies. For there is a <hi>Seminarie Tincture</hi> full of a <hi>venemous quality,</hi> that being very thin and <hi>ſpirituous</hi> mixeth it ſelfe with the Aire, and piercing the pores of the <hi>Body,</hi> en<g ref="char:EOLhyphen"/>treth with the ſame <hi>Aire,</hi> and mixeth it ſelfe with the <hi>Humors</hi> and <hi>ſpirits</hi> of the ſame Body alſo.</p>
+            <p>For proofe of this, we ſee by daily experience, that Garments, Coffers, nay walls of Chambers will a long time retaine any ſtrong ſent, wherwith they have beene fumed. Now the <hi>Sent</hi> is meerly a <hi>Qualitie,</hi> and his <hi>ſubſtance</hi> is the <hi>Aire,</hi> which is al<g ref="char:EOLhyphen"/>ſo the <hi>Vehiculum</hi> wherein it is ſeated and con<g ref="char:EOLhyphen"/>veighed. So does the <hi>Peſtilent Infection</hi> take hold, though not ſenſibly (for the ſtrongeſt Poyſons have little taſte or ſmell) yet certainly; as experi<g ref="char:EOLhyphen"/>ence teſtifies: for <hi>Garments,</hi> and <hi>Houſhold-ſtuffe</hi> have beene infected, and have infected others. As <hi>Fracaſtorius</hi> tels of a <hi>Furred-Gowne,</hi> that was the death of 25. Men in <hi>Verona, Anno</hi> 1511. who one after another wore it, thinking ſtill they had ay<g ref="char:EOLhyphen"/>red it ſufficiently. And if <hi>Alexander Benedictus</hi> may be beleeved, <hi>Feather-beds</hi> will keepe the <hi>Con<g ref="char:EOLhyphen"/>tagion</hi> ſeaven yeares. Other experiences we have
+<pb n="8" facs="tcp:6522:9"/> alſo of <hi>live Poultry,</hi> which being applyed to the <hi>ſoares,</hi> are taken away dead, having not been woun<g ref="char:EOLhyphen"/>ded, cruſhed, nor hurt any whit at all. And ma<g ref="char:EOLhyphen"/>ny that have beene Infected, have plainly percei<g ref="char:EOLhyphen"/>ved where, and of whom they tooke it.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Object. </seg>
+               </label> But (ſay ſome) then why is not one infected as well as another? I have eaten of the ſame diſh, dru<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> in the ſame cup, and lyen in the ſame bed with ſuch ſicke ones, and that while their Soares were running: yet never had ſo much as my fin<g ref="char:EOLhyphen"/>ger aking after it.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Anſw. </seg>
+               </label> To this I anſwer, there may be Two ſpeciall <hi>Cauſes</hi> for this. The firſt and Principall <hi>Cauſe</hi> is the <hi>Protection of the Almighty,</hi> which preſerves ſome as miraculouſly as his <hi>Iuſtice</hi> ſtrikes others. Thus through his Mercy he often preſerves thoſe that with faithfull and conſcionable care doe Chriſtian offices about the Sicke; being warran<g ref="char:EOLhyphen"/>tably called thereto, and not thruſting them<g ref="char:EOLhyphen"/>ſelves eyther preſumptuouſly, or raſhly into the buſineſſe without a juſt, and reaſon-rendring Cauſe. For <hi>GOD has given his Angels charge over vs, to keepe vs in all our wayes,</hi> as the <hi>Pſal<g ref="char:EOLhyphen"/>mist</hi> ſings.</p>
+            <p>And ſecondly, every <hi>peſtilent Contagion</hi> is not of the ſame nature, nor hath equall conformity with every <hi>Conſtitution, Age,</hi> or <hi>manner of Living:</hi> For ſome <hi>Contagion</hi> is apt to infect onely the <hi>San<g ref="char:EOLhyphen"/>guin complexion,</hi> ſome the <hi>Cholericke,</hi> ſome the <hi>Phlegmaticke</hi> onely: Some <hi>Children,</hi> ſome <hi>Youths,</hi> ſome thoſe of <hi>Ripe age,</hi> ſome <hi>Antient peo<g ref="char:EOLhyphen"/>ple;</hi> ſome the <hi>Rich,</hi> and other the <hi>poore</hi> onely:
+<pb n="9" facs="tcp:6522:9"/> And where the <hi>Seminarie Tincture</hi> hath no <hi>Analo<g ref="char:EOLhyphen"/>gie,</hi> there is none, or verie flight <hi>Infection.</hi>
+            </p>
+            <p>And firſt thoſe are moſt apt to be <hi>Infected,</hi>
+               <note place="margin">Who are moſt apt to be Infected.</note> that have <hi>thin Bodyes</hi> and <hi>open pores;</hi> and whoſe <hi>hearts are</hi> ſo <hi>hot,</hi> that they need much attraction of Aire to coole them.</p>
+            <p>Alſo, they whoſe <hi>Veynes</hi> and <hi>Veſſels,</hi> are full of <hi>groſſe humors,</hi> and corrupt juyces (the <hi>venemous matter</hi> being thicke, and therefore unapt to breath through the pores) their <hi>putrefaction</hi> is increaſed by the inward heat, and ſo driven to <hi>malignitie;</hi> and thence onward to a <hi>Peſtilent qualitie.</hi> Hence thoſe bodies that are moiſt and full of <hi>Phlegma<g ref="char:EOLhyphen"/>ticke</hi> humors, whoſe veines are ſtraight (and there<g ref="char:EOLhyphen"/>fore apter to intercept then entertaine thoſe well well concocted juyces that would make the pureſt Bloud) and the thickneſſe of whoſe skin denies the tranſpiration of excrements: theſe are eaſily poluted and infected.</p>
+            <p>And ſuch are <hi>Women,</hi> eſpecially <hi>women with childe;</hi> for their bodies are full of excrementiti<g ref="char:EOLhyphen"/>ous humors, and much heat withall, which is as oile and flame put together. Alſo <hi>Virgins</hi> that are ripe for marriage, are apt to receive infection, and being once ſtricken, ſeldome or never eſcape with<g ref="char:EOLhyphen"/>out great meanes. <hi>Quia ſpirit<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>oſum ſemen in motu cùm ſit facilò ſuccenditur; vel quia intus detentum facilè corrumpitur, &amp; in veneni perniciem abit. Min<g ref="char:EOLhyphen"/>dererus de Peſtilen. c.</hi> 10.</p>
+            <p>Alſo <hi>young Children,</hi> in regard of their ſoft, ten<g ref="char:EOLhyphen"/>der, and moiſt bodies; and likewiſe becauſe they feed on moiſter meats, and feed with more appe<g ref="char:EOLhyphen"/>tite then judgment.</p>
+            <pb n="10" facs="tcp:6522:10"/>
+            <p>Likewiſe, the more <hi>Pure and delicace Complexi<g ref="char:EOLhyphen"/>ons,</hi> whoſe bloud is finer and thinner then others, is ſo much the more apt to receive mutation: and the <hi>Contagion</hi> inſinuates it ſelfe into all the hu<g ref="char:EOLhyphen"/>mors; But firſt and moſt eaſily into <hi>Bloud; Cho<g ref="char:EOLhyphen"/>ler</hi> next, more ſlowly into <hi>Phlegme,</hi> and moſt rare<g ref="char:EOLhyphen"/>ly into <hi>Melancholy.</hi>
+            </p>
+            <p>Thoſe that are <hi>fearefull</hi> likewiſe, as I ſhall prove anon, when I treat of <hi>Paſſions of the Minde.</hi>
+            </p>
+            <p>Thoſe that are very <hi>Coſtive,</hi> or have their <hi>wa<g ref="char:EOLhyphen"/>ter-ſtop'd;</hi> the noyſome vapours that are by theſe excrements engendred, make the body apt to in<g ref="char:EOLhyphen"/>fection. And ſuch as in former times have had cuſtomary <hi>evacuations</hi> by <hi>ſweat, Haemerrhoids, Vomitings, Menſtrua, Fontanels,</hi> or other like vents for noxious humours; and have them now ſtop<g ref="char:EOLhyphen"/>ped.</p>
+            <p>Thoſe that <hi>Fast</hi> too long (their bodyes being emptie) receive more ayre in then they let out: and (their ſpirits being weakned for want of due nouriſhment) they have leſſe ſtrength to reſiſt the contagion.</p>
+            <p>On the other ſide <hi>Gluttons</hi> and <hi>Drunkards</hi> (let them argue what they will for the filling of the veynes, as they uſe to ſay, to keepe out the evill ayre) can never be free from crudities and di<g ref="char:EOLhyphen"/>ſtemper'd bloud; which eaſily takes infection: As <hi>Hippocrates</hi> teſtifies, when he ſayes: <hi>Corpora impura quo magis aluntur; eò magis laeduntur.</hi> Impure bodyes the more they are nouriſhed the more they are endangered.</p>
+            <pb n="11" facs="tcp:6522:10"/>
+            <p>
+               <hi>Poore people</hi> (by reaſon of their great want) li<g ref="char:EOLhyphen"/>ving ſluttiſhly, and feeding naſtily and unwhol<g ref="char:EOLhyphen"/>ſomly, on any food they can with leaſt coſt pur<g ref="char:EOLhyphen"/>chaſe, have corrupted bodyes, and of all others are therefore more ſubject to this <hi>Sickneſſe.</hi>
+            </p>
+            <p>And yet the <hi>Rich</hi> are alſo as ſubject in too much pampering dyet, bringing themſelves thereby to an <hi>Athleticke habit,</hi> which <hi>Hippocrates in the third Aphoriſme of his firſt hooke,</hi> proves to be very dan<g ref="char:EOLhyphen"/>gerous at all times.</p>
+            <p>Furthermore, <hi>neareneſſe of Bloud or Kinred,</hi> by <hi>Sympathy</hi> of nature, is another aptneſſe.</p>
+            <p>And laſtly, thoſe that are continually <hi>conver<g ref="char:EOLhyphen"/>ſant with the ſicke,</hi> are in greateſt danger, though many eſcape through Gods mercifull protection.</p>
+            <p>But <hi>Old folkes,</hi> whoſe bodyes are cold and dry,<note place="margin">Who are leaſt ſubject to bee In<g ref="char:EOLhyphen"/>fected.</note> 
+               <hi>Confident Spirits,</hi> whoſe very courage is an <hi>Anti<g ref="char:EOLhyphen"/>dote,</hi> if they keepe their bodyes cleane by a regu<g ref="char:EOLhyphen"/>lar courſe of life. And thoſe that have <hi>the Gout,</hi> in whom the nobler parts of the body doe expell the noxious humors to the ignobler.</p>
+            <p>
+               <hi>Milch-Nurſes</hi> becauſe their Children ſucke the evill juyces from them with their milke. Theſe are in the way likely to eſcape: but if the Nurſe be infected, the childe cannot recover it.</p>
+            <p>Alſo thoſe that have <hi>Fontanels,</hi> or <hi>any</hi> other kinde of <hi>Iſſue;</hi> as <hi>Vlcers, Haemerrhoids,</hi> or plenty of other <hi>evacuations,</hi> whereby the hurtfull hu<g ref="char:EOLhyphen"/>mors are dreyned away.</p>
+            <p>And laſtly, thoſe <hi>that keepe themſelves private;</hi> uſing good <hi>Antidotes</hi> and meanes praeſervative: ſuch are leaſt ſubject to Infection. <hi>Diogenes Laer<g ref="char:EOLhyphen"/>tius
+<pb n="12" facs="tcp:6522:11"/> lib</hi> 2. ſayes, that <hi>Socrates</hi> (by temp<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rate and diſcreet <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> lived in <hi>Athens</hi> divers <hi>Plague-times,</hi> yet was never touched with it.</p>
+            <p>
+               <note place="margin">
+                  <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </note>Now what this <hi>Dyet Preſervative</hi> is, I will b i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>fly ſhew you.</p>
+            <list>
+               <head>Dyet conſiſts of Sixe Points. viz.</head>
+               <item>
+                  <hi>Ayre.</hi>
+               </item>
+               <item>
+                  <hi>Meate</hi> and <hi>Drinke.</hi>
+               </item>
+               <item>
+                  <hi>Repletion</hi> and <hi>Evacuation.</hi>
+               </item>
+               <item>
+                  <hi>Exerciſe</hi> and <hi>Reſt.</hi>
+               </item>
+               <item>
+                  <hi>Sleepe</hi> and <hi>Wa<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ching.</hi>
+               </item>
+               <item>
+                  <hi>Paſſions</hi> of the <hi>Minde.</hi>
+               </item>
+            </list>
+            <p>They are compoſed alſo in theſe two Verſes.</p>
+            <q>
+               <l>Aër, Eſca, Quies, Repletio, Gaudia, Somnus:</l>
+               <l>Haec moderata juvant, immoderata nocent.</l>
+            </q>
+            <p>Theſe indeed are the ſixe <hi>Strings</hi> of <hi>Apollo's Vi<g ref="char:EOLhyphen"/>all,</hi> wherein conſiſteth the whole harmonie of health. If theſe be in tune, the body is ſound: But any of th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſe too high wreſted, or too much ſlack<g ref="char:EOLhyphen"/>ned (that is immoderately uſed) makes a diſcord in nature, and puts the whole body out of tune.</p>
+            <p>For <hi>Ayre</hi> firſt.</p>
+            <p>
+               <note place="margin">
+                  <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Ayre <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>.</note>
+               <hi>Ayre</hi> is that which we draw in with our breath continually, and wee cannot live without it one minute; for it is the food of our Spirits, and therefore we had need take heed that the ayre we draw be pure and wholſome. The whol<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſtreame of Opinion runnes upon <hi>a cold and dry Aire,</hi> ſo commending the <hi>North</hi> and <hi>Eaſt windes,</hi> as moſt
+<pb n="13" facs="tcp:6522:11"/> wholſome:<note place="margin">What moſt unwholſom.</note> and condemning the <hi>Hot</hi> and <hi>Moiſt Aire</hi> engendred by the <hi>South</hi> and <hi>Weſt windes,</hi> as the fitteſt matter for infection, becauſe moſt apt to putrefaction. So <hi>Hippocrates (in the</hi> 2<hi rend="sup">d</hi>. <hi>of his Epidem.)</hi> ſaith, that <hi>in Cranon a Citie of Theſsalie, there aroſe putrid Vlcers, Puſtuls, and Carbuncles, through the hot and moyſt conſtitution of the ayre.</hi> And <hi>Galen (in</hi> 1. <hi>de Temperam. c.</hi> 4.) affirmeth, that <hi>the hot and moyſt conſtitution of the ayre, doth moſt of all breed peſtilent diſeaſes.</hi> And from theſe mouthes, a multitude of late Writers have learnt to ſpeake the ſame thing. Yet we know that the hot and dry weather alſo, may cauſe a contagious ayre. So ſaith <hi>Avenzoar in his</hi> 3. <hi>Booke,</hi> 3. <hi>Tract. and</hi> 1. <hi>chap.</hi> And <hi>Titus Livius (in lib.</hi> 1. <hi>decad.</hi> 4.) recordeth, that <hi>Rome</hi> was infected with the <hi>Plague by a Hot and Dry diſtemper of the Aire.</hi> Wee alſo may remember, that the <hi>Summer</hi> 1624 was an extreame dry and parching <hi>Summer:</hi> and we can<g ref="char:EOLhyphen"/>not forget that this laſt <hi>Summer</hi> was not much un<g ref="char:EOLhyphen"/>like like it. The <hi>Contagion</hi> indeed this yeare was be<g ref="char:EOLhyphen"/>gotten beyond Sea, and was rock'd hither in ſicke bodyes; but our <hi>Ayre</hi> I feare will prove a Nurſe though not a Mother to it: This <hi>Spring</hi> an<g ref="char:EOLhyphen"/>ſwering to the ſore-paſt <hi>Summer in heate and drouth.</hi>
+            </p>
+            <p>Now to avoyde the miſchiefes of unwhol<g ref="char:EOLhyphen"/>ſome ayre; <hi>Hippocrates</hi> the Prince of Phyſitians,<note place="margin">H w we may guard us fro<g ref="char:cmbAbbrStroke">̄</g> unwholſome Aires.</note> 
+               <hi>(in his Booke de Natura humana)</hi> gives this counſell. <hi>Providendum eſt ut quàm pauciſsimus aëris influxus corpus ingrediatur, &amp; ut ille ipſe quam peregrinus exiſtat: Regionum etiam locos in quibus morbus con<g ref="char:EOLhyphen"/>ſiſtat,
+<pb n="14" facs="tcp:6522:12"/> quantum ejus fieri poteſt permutare oportet.</hi>
+            </p>
+            <p>Others adviſe in threee words. <hi>Citò, Longè, Tardè,</hi> which <hi>Iordanus</hi> calls an <hi>Antidote made of</hi> 3. <hi>adverbs,</hi> thus verſifying upon them.</p>
+            <q>
+               <l>Haec tria tabificam pellunt adverbia Peſtem;</l>
+               <l>Mox, Longè, Tardè; Cede, recede, redi.</l>
+            </q>
+            <p>But I will not teach to flee; for too many with <hi>Dedalus</hi> put on wings the laſt great viſitation, that with <hi>Icarus</hi> dropt downe by the way. Onely my counſell is this.<note place="margin">The Au<g ref="char:EOLhyphen"/>thors coun<g ref="char:EOLhyphen"/>ſaile for without doores.</note> Let every one keepe himſelfe as priuate as he may: Shun throngs of people, and all wet, cloſe, and ſtinking places. Walke not a<g ref="char:EOLhyphen"/>broad before, nor after Sunne. Keep moderation between heat and cold in all things; yet rather encline to heate a little, becauſe of drying up ſu<g ref="char:EOLhyphen"/>perfluous moyſtures. Let the ſtreets bee kept cleane; waſhing the channels every morning and evening, and ſweeping away all durt, leaves, ſtalkes, and rootes of hearbes, and offals; leaving no dunghils nor other noyſome matter in the ſtreets.<note place="margin">But the wa<g ref="char:EOLhyphen"/>ter is moſt to be vſed in hot and dry, the fire in hot and moyſt weather chiefly.</note> Alſo in the evenings it is good to purifie the ayre with <hi>Bonefires,</hi> but eſpecially with <hi>Fire<g ref="char:EOLhyphen"/>workes:</hi> or rather with <hi>diſcharging of peeces:</hi> for <hi>Gunpowder</hi> is exceeding drying by reaſon of the <hi>Salt peeter</hi> and <hi>Sulphur</hi> with which it is made, and by the crackes that it gives, the Ayre is forcibly ſhaken and attenuated, and ſo opened to let in that purification, which is immediately made by the fire that goes along with it. This way is commen<g ref="char:EOLhyphen"/>ded by <hi>Levinus Lemnius, de Ocultis Naturae Mirac. lib.</hi> 2. <hi>cap.</hi> 10. Alſo by <hi>Crato in conſilio</hi> 275 By <hi>Ray<g ref="char:EOLhyphen"/>mundus
+<pb n="15" facs="tcp:6522:12"/> Mindererus lib. de Peſtilentia cap.</hi> 20. and all the late Writers.</p>
+            <p>
+               <hi>Within doores</hi> obſerve,<note place="margin">For within doores.</note> that little houſes muſt not be peſtered with many Lodgers, for it is beſt (for thoſe that are able) to have ſhift of <hi>Beds</hi> and <hi>Chambers</hi> to lie in, that the ayre in them may be kept free and ſweet. Keepe every roome daily very cleane, leaving no fluts corners. Let not <hi>Water</hi> ſtand ſo long in any veſſell as to putrifie; which in hot weather it will ſoone doe. Make <hi>Fires</hi> every day in everie roome, in quantitie ac<g ref="char:EOLhyphen"/>cording to the largeneſſe of the roome, and the temperature of the weather. Perfume them and all the houſhold-ſtuffe in cold and moiſt weather with <hi>Frankinſenſe, Storax, Benjamin, Pitch, Roſin, Lignum alöes, Lignum Rhodium, Iuniper-wood,</hi> or <hi>the Berries.</hi> In hot and drie weather with <hi>Roſe<g ref="char:EOLhyphen"/>water</hi> on a hot Fire-ſhovell, or ſome ſuch like coole fume in a perfuming-pot. Strew the Win<g ref="char:EOLhyphen"/>dowes and ledges with <hi>Rew, Wormwood, Lavender, Marjoram, Penyriall, Coſtmary,</hi> and <hi>ſuch like</hi> in cold weather; but in hot with <hi>Primroſes, Violets, Roſe<g ref="char:EOLhyphen"/>leaves, Borrage,</hi> and ſuch cooling ſcents.</p>
+            <p>For <hi>Garments,</hi>
+               <note place="margin">Garments beſt guar<g ref="char:EOLhyphen"/>ding the vi<g ref="char:EOLhyphen"/>tall parts.</note> avoide (as much as may bee) all leather, woollen, and furres: alſo velvets, pluſh, and ſhagge. Chooſe ſuch as may be <hi>watered,</hi> as <hi>chamlets, grograms, paropas, philip and chenyes,</hi> and ſuch like: for their gummineſſe excludeth the in<g ref="char:EOLhyphen"/>fectious aire beſt. Have ſhift, and ſhift often; and ſtill as cloathes are left off, perfume them well.</p>
+            <p>Beware of buying old clothes, Bedding or ſuch like ſtuffe: for if they have beene uſed by
+<pb n="16" facs="tcp:6522:13"/> the infected, they are verie dangerous, as I told you before in the authoritie of a <hi>furr'd Gowne,</hi> and <hi>Feather-beds.</hi>
+            </p>
+            <p>
+               <note place="margin">What to hold in the mouth</note>Carrie in your mouth a peece of <hi>Citron-pill,</hi> or for want of that, of <hi>Lemon pill; a Clove,</hi> or <hi>a peece of Tormentill Root.</hi> Or if any will reſort to me in <hi>Golding lane,</hi> I will ſoone provide for them <hi>Lozenges</hi> to hold in their mouth, ſit for their conſtitution, and ſuch as I have had good experi<g ref="char:EOLhyphen"/>ence of, the laſt great Plague time.</p>
+            <p>
+               <note place="margin">What to <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>.</note>Carry in your hand a <hi>Lemon ſtucke with cloves, ſweet Marjoram, Lavender, Balme, Rew,</hi> or <hi>Worm<g ref="char:EOLhyphen"/>wood;</hi> as the conſtitution of your braine ſhall re<g ref="char:EOLhyphen"/>quire. For beleeve by my experience, that many did enflame their braines, and ſo fell into the Sickneſſe they ſhunned in the laſt great Contra<g ref="char:EOLhyphen"/>gion, by ſmelling to, and carrying things in their mouthes too hot for their complexion.<note place="margin">Camphor.</note> 
+               <hi>Camphor</hi> alſo, though it be accounted an excellent coole fume for ill aires, yet thoſe that have <hi>cold and weake ſtomacks</hi> are very much weakned by the uſe of it.</p>
+            <p>But beware of <hi>unſavourie ſmels</hi> and ſtinking o<g ref="char:EOLhyphen"/>dours. For though <hi>Dioſcorides</hi> commends <hi>Galba<g ref="char:EOLhyphen"/>num,</hi> and <hi>Cardan</hi> the burning of <hi>Leather, Aver<g ref="char:EOLhyphen"/>roes</hi> a <hi>potion of Vrine,</hi> and others the ſmelling to <hi>Horſe-dung:</hi> yet I ſtand to it, that ſweet and plea<g ref="char:EOLhyphen"/>ſing odours are more proper; becauſe they di<g ref="char:EOLhyphen"/>late, reſtore and comfort the Spirits; whereas the contrary doe contract, and repugne them; and ſo weaken the faculties. <hi>I intend to have alſo preſervative waters to dip Spunges in for ſeverall
+<pb n="17" facs="tcp:6522:13"/> Conſtitutions, to be carried in Boxes to ſmell to:</hi> As alſo, <hi>preſervative Pomanders of choyſe ver<g ref="char:EOLhyphen"/>tue.</hi>
+            </p>
+            <p>The next point of <hi>Dyet,</hi> is <hi>Meat and Drinke.</hi>
+               <note place="margin">Meate and Drinke.</note> Let your meate be alwayes good and ſweet, tem<g ref="char:EOLhyphen"/>perate betwixt hot and cold, and not too moyſt or fl<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſhie: eaſie of digeſtion, and ſuch as makes the beſt Bloud.</p>
+            <p>Such are <hi>Beefe, Mutton, Lambe, Kid,</hi>
+               <note place="margin">Fleſh.</note> and <hi>Co<g ref="char:EOLhyphen"/>ny. Turkey, Capon, Pullet, Partridge, Pheaſant, Pigeons, Turtles, Larkes, Black-birds, Thruſhes,</hi> and <hi>Finches.</hi> All <hi>Water-fowles</hi> are naught. The <hi>Hearts</hi> of Red and Fallow <hi>Deere,</hi> are ſpeciall good: ſo alſo are thoſe of young <hi>Steeres, Calves, Kids,</hi> and <hi>Lambes:</hi> beeing cordiall, both by reaſon of <hi>Sympathy,</hi> and <hi>ſolidneſſe</hi> of the fleſh, which cau<g ref="char:EOLhyphen"/>ſeth them to be the leſſe corruptible.</p>
+            <p>Of <hi>Fiſh,</hi> (which ſhould be eaten but ſeldome,<note place="margin">Fiſh.</note> though it be of the beſt kinde) the elected are <hi>freſh Salmon, Trout, Barbell, Shrimps, Playſe</hi> and <hi>Floun<g ref="char:EOLhyphen"/>ders,</hi> (when they are firme, not flaſhy) <hi>Smelts, Ma<g ref="char:EOLhyphen"/>karell, Gudgion, Mullet, Soale, Gurnard, Lobſter,</hi> and <hi>Cray-fiſh.</hi> But <hi>Eeles, Lamperns,</hi> and <hi>Lampreys,</hi> with all ſuch as delight in Mud, are to bee avoy<g ref="char:EOLhyphen"/>ded.</p>
+            <p>
+               <hi>Egges</hi>
+               <note place="margin">Egges.</note> of <hi>Hennes</hi> and <hi>Turkeys,</hi> are good.</p>
+            <p>
+               <hi>Oyle</hi> and <hi>Butter,</hi>
+               <note place="margin">Oyle and Butter.</note> are kindes of <hi>Antidotes</hi> a<g ref="char:EOLhyphen"/>gainſt venome; and <hi>Butter-milke</hi> may now and then be uſed by hot Conſtitutions.</p>
+            <p>
+               <hi>Fruites</hi>
+               <note place="margin">Fruites.</note> muſt be eaten but ſparingly.</p>
+            <p>Thoſe that wee may be moſt bold withall, are
+<pb n="18" facs="tcp:6522:14"/> 
+               <hi>ſowre Cherries; Plums,</hi> and <hi>Gooſeberries</hi> before they be full ripe, having a ſowre taſte. Alſo <hi>Pea<g ref="char:EOLhyphen"/>ches, Quinces, Pomgranads, Oranges, Limons, Med<g ref="char:EOLhyphen"/>lars, Services, Mulberries, Raſpes, Strawberries,</hi> and <hi>Currans,</hi> which being not full ripe are aſtringent, but ripe doe looſen the body. But of <hi>Walnuts, Fil<g ref="char:EOLhyphen"/>bers,</hi> and <hi>Small-nuts,</hi> the elder are the better <hi>Dry<g ref="char:EOLhyphen"/>ed Fruits</hi> alſo are good, whether they bee <hi>Peares, Plums, Cherries, Figs, Raiſons,</hi> or <hi>Prunes.</hi> Moreover, <hi>Peaſe, Beanes,</hi> and <hi>Artichokes,</hi> may be uſed ſome<g ref="char:EOLhyphen"/>times by leane and ſpare Bodies. If other Fruits that are colder and moyſter bee longed for; eate after the man <hi>Orange</hi> with a little <hi>fennell</hi> and <hi>ſalt.</hi>
+            </p>
+            <p>The beſt <hi>Rootes</hi>
+               <note place="margin">Rootes.</note> are <hi>Onions, Leekes,</hi> and <hi>Radiſhes,</hi> for theſe are vertuous againſt venome. But they offend hot heads, and weake eyes.</p>
+            <p>Of <hi>Herbes;</hi>
+               <note place="margin">Hearbes.</note> 
+               <hi>Rue, Wormwood, Balme, Mints, Penny<g ref="char:EOLhyphen"/>ryall, Roſemary, Sage, ſweet Marjorum,</hi> and <hi>Time.</hi> For <hi>Sallets</hi> and <hi>Sauces, Burrage, Bugloſſe, Violets, Fennell,</hi> and eſpecially <hi>Sorrell; Olives</hi> alſo, and <hi>Capers.</hi>
+            </p>
+            <p>
+               <note place="margin">Sharp Sau<g ref="char:EOLhyphen"/>ces.</note>
+               <hi>Vineger, Verjuice, juice of Limons</hi> and <hi>Oranges;</hi> which for their dryneſſe reſiſt putrifaction, and for their coolneſſe, Feavors. But thoſe colder ſtomackes that are offended with them, may tem<g ref="char:EOLhyphen"/>per them with Wine and Spices. Yet there muſt be cautious uſage of hot <hi>ſpices,</hi> and <hi>all ſalt meates,</hi> leſt they inflame the Bloud; though in regard of their drying and heating quality they be uſefull in ſome bodies, and at ſome times; eſpecially for cold and wateriſh ſtomackes: Others muſt mixe them with Vineger, Verjuice, or the juice of Li<g ref="char:EOLhyphen"/>mons or Oranges.</p>
+            <pb n="19" facs="tcp:6522:14"/>
+            <p>Note here, That <hi>Vineger</hi>
+               <note place="margin">Vineger good.</note> is of a ſpeciall vertue againſt putrifaction, as AMBROSE PAREY in the 8. Chapter of his <hi>Booke of the Plague</hi> proveth, by the uſe of it in waſhing dead bodies with it be<g ref="char:EOLhyphen"/>fore they are Embalmed, that they may keepe ſweet the longer. But it is not ſo good for <hi>Wo<g ref="char:EOLhyphen"/>men,</hi>
+               <note place="margin">But not for Women.</note> becauſe it offends the <hi>Mother</hi> (as CRATO af<g ref="char:EOLhyphen"/>firmeth, <hi>Conſil.</hi> 275.) therefore they muſt allay it with white Wine and Sugar.</p>
+            <p>Note alſo, that <hi>Cabbages, Coleworts, Lettuce,</hi>
+               <note place="margin">Dangerous things.</note> 
+               <hi>Pompions, Musk-Mellons,</hi> and <hi>Coucumbers,</hi> are ve<g ref="char:EOLhyphen"/>ry dangerous meates in contagious times; nei<g ref="char:EOLhyphen"/>ther doe I approve of any other rootes, then <hi>Gar<g ref="char:EOLhyphen"/>licke,</hi> for ruſticke bodies; and for others <hi>Onions, Leekes,</hi> and <hi>Radiſhes</hi> (as I ſaid before) onely.</p>
+            <p>
+               <hi>Roaſting</hi> is the beſt way of dreſſing <hi>Fleſh,</hi>
+               <note place="margin">Dreſſing of Meates.</note> and <hi>Frying</hi> or <hi>Broyling</hi> of <hi>Fiſh.</hi>
+            </p>
+            <p>
+               <hi>Broths</hi>
+               <note place="margin">Broths.</note> are but for <hi>Sicke</hi> and <hi>weake ones</hi> fit: And then they muſt be ſharpned with a little Vineger, or juice of <hi>Lemmons.</hi> For (as MANARDUS ſayes, <hi>lib.</hi> 5. <hi>Epiſt.</hi> 3.) the body ought rather to be dried then moyſtened.</p>
+            <p>And ſo then for <hi>Drinke,</hi>
+               <note place="margin">Drinke.</note> it muſt be as little as may well be borne; good and pure, whether it be <hi>Beere, Ale,</hi> or <hi>Wine,</hi> (for <hi>Mede, Vſquba<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan>, Bragget, &amp;c.</hi> I account them rather Medicines then parts of Food) But neither heady, too ſweet, nor too ſmall. To a weake ſtomacke and a feeble Nature, <hi>Wine</hi> is an <hi>Antidote</hi> againſt all Poyſons;<note place="margin">Wine for whom fit.</note> as CEL<g ref="char:EOLhyphen"/>SUS <hi>lib.</hi> 8. <hi>de Re Medica cap.</hi> 27. affirmeth. And <hi>Senectutis ſumma eſt medicina,</hi> as A<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>TIUS teaches, <hi>Tetr.</hi> 1. <hi>ſerm.</hi> 4. <hi>cap.</hi> 30. But let not thoſe that
+<pb n="20" facs="tcp:6522:15"/> are young and ſtrong, make a common uſe of them in Contagious times: For it muſt needs breed Inflamation, after which followes Putri<g ref="char:EOLhyphen"/>faction, which is a fit hoſt to entertaine ſuch an ill gueſt as the <hi>Peſtilence.</hi>
+            </p>
+            <p>
+               <hi>Wheaten-Bread</hi>
+               <note place="margin">Bread.</note> of a Day old, and a little leave<g ref="char:EOLhyphen"/>ned is abſolutely the beſt for healthy people. <hi>Light Biskets</hi> alſo with <hi>Aniſe-ſeeds</hi> is very good.</p>
+            <p>
+               <note place="margin">Quantity of Meate and Drinke.</note>For the ſtrict <hi>Quantitie</hi> of Eating and Drin<g ref="char:EOLhyphen"/>king, I cannot ſtint every mans ſtomacke; but muſt conclude with HIPPOCRATES, <hi>Aph.</hi> 17. <hi>lib.</hi> 1. <hi>Concedendum eſt aliquid Tempori, Regioni, Aeta<g ref="char:EOLhyphen"/>ti, &amp; Conſuetudini.</hi> The Seaſon, Place and Cu<g ref="char:EOLhyphen"/>ſtome, muſt beare ſome ſway in theſe things. On<g ref="char:EOLhyphen"/>ly beware of Sacietie or Glutting: For the ſame <hi>Hippocrates</hi> in his 17th. <hi>Aphoriſme,</hi> in the 2, Booke. Sayes, that <hi>Meate and Drinke immoderately taken, cauſeth Sickneſſe.</hi> For <hi>from thence ariſe Crudities,</hi> which (ſayth GALEN, <hi>in Comm.</hi> 2. <hi>in Hippocr. de Natur. Humana</hi>) breed new Diſeaſes. Therefore hearken to AVICEN, <hi>Who adviſeth alwayes to riſe from Meate with ſome remainder of appetite: for within halfe an houre, or thereabouts, as ſoone as the meate firſt eaten beginneth to digest, our hunger cea<g ref="char:EOLhyphen"/>ſeth. lib.</hi> 1. <hi>Fen.</hi> 3. <hi>Doct.</hi> 2. <hi>cap</hi> 7. And hence it is, that ſome (greedily following the ſenſe of their appetite-onely) over-charge their ſtomackes e<g ref="char:EOLhyphen"/>ven to vomiting, before they feele themſelves ſa<g ref="char:EOLhyphen"/>tisfied: becauſe though the veſſell be over-full, yet appetite is not app<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>aſed till Concoction have begun her worke upon ſome part of that which is already received.</p>
+            <pb n="21" facs="tcp:6522:15"/>
+            <p>And here I cannot but juſtly taxe thoſe that give up themſelves to diſorderly <hi>Dyet.</hi>
+               <note place="margin">Gluttony &amp; Drunkeneſſe</note> For the lives of many are ſo monſtrous, that HELIOGA<g ref="char:EOLhyphen"/>BALVS was but a pingler to them.</p>
+            <p>The <hi>Dutch</hi> may yeeld up theyr ſeas of Drin<g ref="char:EOLhyphen"/>king, and ſtrike ſayle to the <hi>Engliſh.</hi> Men looſe theyr good names, and are faine to get new ones, as to bee called <hi>Blades</hi> and <hi>Roarers,</hi> as if they had beene begotten by drunken <hi>Cutlers,</hi> or <hi>bruitiſh Bulls.</hi> There was one DIOTEMVS of <hi>Athens,</hi> that was called the <hi>Tunnell,</hi> for his filthy delight in Drinke, and drinking in a Tunnell. What doe many in this Land (too too many in this Citie) but riſe to Drinke, drinke to fall, fall a ſleepe of ne<g ref="char:EOLhyphen"/>ceſſity, and ere they are halfe ſober, fall a drinking drunke againe. That as VALERIVS AVRELIA<g ref="char:EOLhyphen"/>NVS the Emperor was wont to ſay of BONOSVS, a <hi>Spaniard, Such are borne, not to live, but to drinke.</hi>
+            </p>
+            <p>If any of that Luxurious ſect beate this time ſober,<note place="margin">The dangers of Surfet<g ref="char:EOLhyphen"/>ting.</note> let them but liſten to the teſtimonies of learned Experience, and they will tell them into what bodily dangers they plunge themſelves by this deteſtable diſorder.</p>
+            <p>HIPPOCRATES has an <hi>Aphoriſme</hi> to this pur<g ref="char:EOLhyphen"/>poſe,<note place="margin">
+                  <hi>Lib.</hi> 2. <hi>Aph.</hi> 17.</note> that <hi>Meate and Drinke immoderately taken cauſeth Sickneſſe.</hi>
+            </p>
+            <p>PAVLVS AEGINETA goes yet further, ſaying;<note place="margin">De Re Me<g ref="char:EOLhyphen"/>dica lib. <hi>1.</hi> c. <hi>32.</hi>
+               </note> 
+               <hi>That the Veynes being filled too full, are afflicted, di<g ref="char:EOLhyphen"/>ſtended, or elſe broken: obſtructed, filled with winde and over-charged.</hi> And of all diſeaſes, hee affir<g ref="char:EOLhyphen"/>meth, That <hi>over-charging of the veſſels is the worst.</hi>
+            </p>
+            <pb n="22" facs="tcp:6522:16"/>
+            <p>
+               <note place="margin">In com. <hi>2.</hi> Hipp. de Na<g ref="char:EOLhyphen"/>tis. <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>.</note>GALEN affirmes, that <hi>Drunkenneſſe, and Cru<g ref="char:EOLhyphen"/>dities</hi> (which ariſe from intemperance) <hi>doe breed new diſeaſes.</hi>
+            </p>
+            <p>
+               <note place="margin">Li. de Cau<g ref="char:EOLhyphen"/>ſis Morbo<g ref="char:EOLhyphen"/>rum, cap. <hi>3.</hi>
+               </note>And in another place, he ſayes, <hi>Whereas Wine moderately taken increaſeth Naturall heate; as be<g ref="char:EOLhyphen"/>ing his proper aliment: by Drunkenneſſe commeth Aſtoniſhment of the Braine, Falling ſickneſſe, or ſome maime either to ſence or motion. And ſo, the beſt meates which afford moſt nouriſhment, being immode<g ref="char:EOLhyphen"/>rately eaten, ingender cold Diſeaſes.</hi>
+            </p>
+            <p>
+               <note place="margin">De R<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>mo<g ref="char:EOLhyphen"/>vendis No<g ref="char:EOLhyphen"/>cumentis in Regimina Sanitatis Tract. <hi>4.</hi> cap. <hi>1.</hi>
+               </note>But AVICEN more particularly layes downe the dangers that follow this over-repletion, in theſe words. <hi>Eating much nouriſheth not; but fills the Body with Crudities, and raw humors, ſtops the pores, weakens the powers of Nature; cauſes putrifaction, mixed feavors, ſhort breath, Sciatica and joynt Aches.</hi>
+            </p>
+            <p>
+               <note place="margin">Ibidem, cap. <hi>19.</hi>
+               </note>Againe, in another place hee ſpeakes <hi>Drinking,</hi> thus: <hi>Much drinking of Wine in Sanguine and Chol<g ref="char:EOLhyphen"/>lerick Complexions, over-heats the bloud, and cauſeth Choller to ſuperabound; and by too much repletion of the veynes and Veſſels, there may follow a hot Apo<g ref="char:EOLhyphen"/>plexie, and ſuddaine death. In Cold Complexions, it breeds diſeaſes of the Sinewes; and that for two cau<g ref="char:EOLhyphen"/>ſes. The firſt is the over-moyſtning of the Nerves; the other the turning of the drinke into Vineger before it it can paſſe through the Body. So the Nerves are by the former relaxed, and by the latter corroded, where<g ref="char:EOLhyphen"/>upon followes the cold Apoplexie, Aſtoniſhment, Senſleſneſſe, Lethargie, Palſey, Trembling of the Limbes, and convulſions of the Mouth.</hi>
+            </p>
+            <p>And what theſe have ſaid of <hi>Wine,</hi> the ſame is true likewiſe of all <hi>other ſtrong Drinkes.</hi> I hope
+<pb n="23" facs="tcp:6522:16"/> theſe lines will keepe ſuch men the ſoberer in this dangerous time; and in that ſober tune, the time may touch their hart ſtrings ſo, that <hi>Sobrietie</hi> may let in <hi>Religious meditations</hi> (which <hi>continuall Drunkeneſſe</hi> has lock'd out of doores.) And then <hi>Repentance</hi> may draw them to GOD, and him neerer to them; and ſo they may become new Creatures. <hi>Which the Father for his Sonnes ſake grant.</hi>
+            </p>
+            <p>In the meane time,<note place="margin">Reſtorative Diet for ſick ones.</note> let thoſe that are in health eate Fleſh; but the <hi>Sicke</hi> the <hi>Iuices</hi> of them rather, becauſe aliment muſt be made more eaſie and quicke for their ſupply. And for ſuch weake ones, <hi>Veale, Chicken, Caponet, Partridge, and Phea<g ref="char:EOLhyphen"/>ſant,</hi> are to be boyled till all the vertue of the meat be boyled out, and then the Broth to be ſtrained hard, that the fleſh may be left juiceleſſe, ſo will all the ſtrength of the meate be in the broth; which you may ſpice with ſome of theſe pow<g ref="char:EOLhyphen"/>ders following:</p>
+            <p>Take of <hi>Red Saunders</hi> halfe an ounce, <hi>Cynnamon</hi> iij. drains and halfe, <hi>Saffron</hi> halfe a dram. Make them into fine Powder.</p>
+            <p>
+               <hi>Or elſe</hi>
+            </p>
+            <p>Take of <hi>Cynamon</hi> halfe an ounce, <hi>Cloves</hi> and <hi>Saffron,</hi> of each halfe a dram, <hi>Red Corall</hi> ij. Scruples. And the weight of all in <hi>Sugar.</hi> Make of them a fine Powder.</p>
+            <p>But Women <hi>(dum Menſes ef fluunt)</hi> muſt not uſe <hi>Saffron</hi> ſo much. For ſuch therefore this Pow<g ref="char:EOLhyphen"/>der is better.</p>
+            <pb n="24" facs="tcp:6522:17"/>
+            <p>Take <hi>Harts-horne,</hi> red and yellow <hi>Saunders,</hi> of each ij. drams, <hi>Cloves</hi> and <hi>Cynamon,</hi> of each one dram.</p>
+            <p>Make a fine Powder.</p>
+            <p>Let all be more ſparing in Dyet now, then at other times: Eate little, and Drinke leſſe. But never goe out of doores Faſting.</p>
+            <p>Take therefore firſt of ſome <hi>Antidote,</hi>
+               <note place="margin">Antidotes.</note> of which kind the Apothecaries ſhops are (or ought to bee) alwayes ſtored with theſe: <hi>That is,</hi>
+               <list>
+                  <item>
+                     <hi>Theriaca Andromachi,</hi>
+                  </item>
+                  <item>
+                     <hi>Theriaca Londinenſis,</hi>
+                     <list>
+                        <item>
+                           <hi>Venice Triacle.</hi>
+                        </item>
+                        <item>
+                           <hi>London Triacle.</hi>
+                        </item>
+                        <item>
+                           <hi>Mitridate.</hi>
+                        </item>
+                     </list>
+                  </item>
+                  <item>
+                     <hi>Mithridatium Damocratis,</hi>
+                  </item>
+                  <item>
+                     <hi>Electuarium de Ovo Imperatoris,</hi>
+                  </item>
+                  <item>
+                     <hi>Antidotus magna Mathioli,</hi>
+                  </item>
+                  <item>
+                     <hi>Confectio Liberans,</hi>
+                  </item>
+               </list>
+            </p>
+            <p>
+               <hi>Dioſcordium.</hi> Of any of theſe, take the quan<g ref="char:EOLhyphen"/>tity of a <hi>Nutmeg.</hi>
+            </p>
+            <list>
+               <item>
+                  <hi>Confectio Alkernes,</hi>
+               </item>
+               <item>
+                  <hi>Confectio de Hiacyntho.</hi>
+               </item>
+            </list>
+            <p>Of eyther of theſe, take the quantitie of an <hi>Ha<g ref="char:EOLhyphen"/>zell nut.</hi>
+            </p>
+            <p>If you would chooſe to take a <hi>Powder</hi> rather; <hi>Pulvis Contra Peſtem Montagnanae.</hi> halfe a Dram.</p>
+            <p>Of <hi>Waters,</hi> there is —</p>
+            <p>
+               <hi>Aqua Angelicae,</hi>
+            </p>
+            <p>
+               <hi>Aqua Theriacalis.</hi> Of eyther of theſe halfe an Ounce, either with <hi>white Wine</hi> and a few drops of the <hi>juice of a Limon;</hi>
+            </p>
+            <pb n="25" facs="tcp:6522:17"/>
+            <p>Or, <hi>Aqua Bezoartica Langii. Aqua Caleſtis Ma<g ref="char:EOLhyphen"/>thioli,</hi> for the richer ſort, with a drop of <hi>Oyle of Vitriol,</hi> in halfe an ounce of eyther.</p>
+            <p>But for ſuch as abhorre the taſte of Phyſicke, and had rather take their Antidote in forme of <hi>Pills</hi> then otherwiſe; let a skilfull Apothecarie make this <hi>maſſe of Pills.</hi>
+            </p>
+            <floatingText xml:lang="lat" type="recipe">
+               <body>
+                  <head>Pillula Marſilii Ficini.</head>
+                  <p>
+                     <hi>Rs. Zadoariae, ligni aloes, agrimonia, croci, Ariſto<g ref="char:EOLhyphen"/>lochia rotunda, Dictamni, gentianae, cort. citri, ſem. citri, anaſcrup.</hi> 1. <hi>Coriandri praeper. tormen<g ref="char:EOLhyphen"/>tillae, ſantali rub. corallii, r<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>b. ſpodii, Myrobalan. Emblic. ana drach.</hi> 2. <hi>Terrae ſigill. drach. ij. Boli Armeni drach.</hi> 3. <hi>Cum Syrupo ex Acetoſitate ci<g ref="char:EOLhyphen"/>tri fiat Maſſa.</hi>
+                  </p>
+               </body>
+            </floatingText>
+            <p>Of which ten, fifteene, twenty, or two ſhillings graines may be taken at once in one, or two, or three <hi>Pills,</hi> as the party can ſwallow them in big<g ref="char:EOLhyphen"/>neſſe.</p>
+            <p>Thoſe that are offended with the heate of <hi>Tria<g ref="char:EOLhyphen"/>cle,</hi> or other of the hot Antidotes above named: may uſe this <hi>Opiate</hi> made by an Apothecarie; which is excellent for hot complexions.</p>
+            <floatingText xml:lang="lat" type="recipe">
+               <body>
+                  <head>Opiata frigida Palmarii:</head>
+                  <p>
+                     <hi>Rs. Flor. bugloſsi, borraginis, cariophyllorum, roſ<g ref="char:EOLhyphen"/>rub, horum ſeparatim conditorum ana. unc.</hi> 1. <hi>Terra Lemniae, boli Armeni, ſcobis cornu cer<g ref="char:EOLhyphen"/>vim, una drach. ij. Margarit. praepert. drach.</hi> 1. <hi>ambari griſei, ſcrup. ſs. Syr. de ſucco Bugl<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ſſi, q. ſ. Fiat Opiata, ſ. a.</hi>
+                  </p>
+               </body>
+            </floatingText>
+            <pb n="26" facs="tcp:6522:18"/>
+            <p>
+               <hi>The doſe</hi> is the quantity of a <hi>Nutmeg.</hi>
+            </p>
+            <p>
+               <note place="margin">For Women with childe.</note>Neither muſt women with childe be over-hea<g ref="char:EOLhyphen"/>ted with common <hi>Antidotes.</hi> Therefore theirs muſt be onely of <hi>Terra Lemnia, Bole Armoniack, Harts-horne; Conſerves and Syrups of Roſes, Violets,</hi> and <hi>Betony.</hi> Or a little <hi>Mithridate,</hi> with twice, as much <hi>conſerve of Borrage or Bugloſſe.</hi> Likewiſe, the <hi>ſpecies de gemmis frig.</hi> or of <hi>Diamargar. frig. in Borrage, Bugloſſe, and Carduus water.</hi> Or elſe ſuch may have this Antidote made for the<g ref="char:cmbAbbrStroke">̄</g>.</p>
+            <list>
+               <item>
+                  <hi>Rs. Cornu carvi, Cynamonni, nucis moſchatae, ſantalorum omnium, ana drach.</hi> 1.</item>
+               <item>
+                  <hi>Rad. Angelicae, tormentillae, Enulae, camp. ana drach. ſs. f. Pulvis ſubt.</hi>
+               </item>
+               <item>Dein. Accipè Conſervae bugloſsi, &amp; borraginis, ana drach. iij. cum aquali quantitate Syr. ê Limonibus &amp; roſis ſiccis. Fiat Conditu<g ref="char:cmbAbbrStroke">̄</g>. ſ. a.</item>
+            </list>
+            <p>For young <hi>Children,</hi>
+               <note place="margin">For young Children.</note> there is nothing better or fitter then <hi>Bole Armoniack,</hi> or <hi>Terra Lemnia,</hi> with a little <hi>Tormentill</hi> roote, or <hi>Citron pills,</hi> made into fine Powder, and mixed with their meates, but<g ref="char:EOLhyphen"/>ter, and broths; for their breakfaſts. And be<g ref="char:EOLhyphen"/>cauſe they are not much to be tampered with by internall medicines, annoint the region of their heart with oyle of <hi>Hypericon,</hi> every morning and evening: or with <hi>oleo Scorpionium,</hi> or <hi>oleo corcino:</hi> or elſe let them commonly weare next their skin over their heart, ſuch a <hi>Quilt</hi> as this.</p>
+            <list>
+               <item>
+                  <hi>Take of red Roſes</hi> 2. <hi>drams, red ſaunders, red cor<g ref="char:EOLhyphen"/>rall, &amp; ſpodium, of each one dram, Zedoarie,
+<pb n="27" facs="tcp:6522:18"/> lignum aloes, cynnamon, cloves, citron pill, ſaffron, of each halfe a dram.</hi>
+               </item>
+               <item>
+                  <hi>Sew it up in a peece of red Sarcenet or Calico, moy<g ref="char:EOLhyphen"/>ſten it with a little Roſe-vineger; ſo heat it and apply it warme. And when it waxeth dry moyſtit, and heate it ſo againe</hi>
+               </item>
+            </list>
+            <p>And take this note<note place="margin">Note.</note> by the way.</p>
+            <p>When you ſuſpect a <hi>Childe</hi> to have the wormes in a contagious time, uſe not <hi>Wormſeed,</hi> nor thoſe common trifles; but order him as in danger of Infection: for that diſeaſe comming of ſo much putrefaction as it does, is apt to receive conta<g ref="char:EOLhyphen"/>gion, as tinder to take fire. Give it (therefore) ten or twenty graines of this <hi>Powder</hi> following.</p>
+            <p>
+               <hi>Take of Harts-horne one dram, citron pill, rootes of Angelica, and Tormentill, Rheubarb, and Coralline, of each halfe a dram.</hi>
+            </p>
+            <p>
+               <hi>Make all into a fine powder;</hi> and give the afore<g ref="char:EOLhyphen"/>ſaid quantity in a little <hi>Carduus</hi> water, ſweetned with ſome ſugar.</p>
+            <p>After the taking of any of theſe <hi>Antidotes,</hi>
+               <note place="margin">Breakfaſts.</note> ab<g ref="char:EOLhyphen"/>ſtaine from all meat and drinke for two or three houres. And then eate a piece of <hi>Bread</hi> and <hi>butter</hi> ſtrewed with a little grated <hi>Nutmeg.</hi> Or <hi>Bread</hi> and <hi>Sallet-oyle,</hi> ſpiced with the powder of <hi>Tormentill</hi> rootes. Or a piece of <hi>Bread</hi> ſopped in <hi>White-wine,</hi> allayed with a little <hi>Vineger.</hi>
+            </p>
+            <p>Let your <hi>Dinner</hi> be about high noone,<note place="margin">Dinner and Supper.</note> and then eat not of above two or three ſeveral diſhes. Your <hi>Supper</hi> at five or ſixe a clocke in the evening, and then let one diſh ſuffice. For it is a pretty ſaying,
+<pb n="28" facs="tcp:6522:19"/> and worth the noting. <hi>In the Morning a little is e<g ref="char:EOLhyphen"/>nough, at Noone enough is but a little, but at Night, a little may be too much.</hi>
+            </p>
+            <p>
+               <note place="margin">Bed time.</note>Goe not to bed till three or foure houres after Supper, leſt ſleeping upon a full ſtomacke, you hinder digeſtion. And ſo I bid good night to the <hi>ſecond Point of Dyet.</hi>
+            </p>
+            <p>
+               <hi>The third Point, is Repletion,</hi> and <hi>Evacuation.</hi>
+               <note place="margin">Repletion &amp; Evacuatio<g ref="char:cmbAbbrStroke">̄</g>.</note> When you ariſe in the morning rub your ſides, armes, thighes, and legs downward gently, your clothes being on, combe your head and rub it. Hake, ſpit, and blow your noſe, to evacuate the excrements of your head and ſtomacke. Then aſ<g ref="char:EOLhyphen"/>ſay to make water, and to goe to ſtoole, and labor to bring your body to this dayly cuſtome. For <hi>The body ought eſpecially to bee kept free from ſuper<g ref="char:EOLhyphen"/>fluities:</hi> ſaith <hi>Galen. lib.</hi> 1. <hi>de Differ. Feb. cap.</hi> 4. Therefore if you be coſtive, uſe ſome <hi>ſuppoſiſtory</hi> or <hi>Clyſter;</hi> and ſuffer not two whole dayes to paſſe without ſuch evacuation.</p>
+            <p>It is neceſſary that every one that hath ſo much underſtanding, doe learne to know whether he be <hi>Phlethorick</hi>
+               <note place="margin">For Phletho<g ref="char:EOLunhyphen"/>ricke people.</note> or <hi>Cacochymick;</hi> If <hi>Phlethorick</hi> (that is full of bloud, as thoſe that live in high feeding) it will appeare by his high colour, full veynes, pulſe greater and more frequent then it uſed ordi<g ref="char:EOLhyphen"/>narily to be, purſineſſe, heavineſſe and dulneſſe of body, and ſuch like ſignes. If you bee coſtive, take a common <hi>Clyſter</hi> firſt; then be <hi>let bloud,</hi> ac<g ref="char:EOLhyphen"/>cording to the appointment of ſome skilfull <hi>Phy<g ref="char:EOLhyphen"/>ſitian,</hi> and ſo ordered afterwards according to Art.</p>
+            <pb n="29" facs="tcp:6522:19"/>
+            <p>If <hi>Cacochymick,</hi>
+               <note place="margin">For Caco<g ref="char:EOLhyphen"/>chymick.</note> that is, full of groſſe and cor<g ref="char:EOLhyphen"/>rupted humors, (which will appeare by the pale<g ref="char:EOLhyphen"/>neſſe and ill colour of the face, defective ſtrength, and the like. He muſt be well purged, which none but a <hi>Phyſitian</hi> can ſafely preſcribe, and that upon examination of his <hi>Body</hi> and <hi>Vrine.</hi>
+            </p>
+            <p>But as a generall<note place="margin">Generall purgings for all ſorts.</note> rule, all doe appoint ſome purging medicine twice or thrice in a weeke, to keepe the Body free from the increaſe of ſuperflu<g ref="char:EOLhyphen"/>ous humors. To this purpoſe the <hi>Pills of</hi> RUFFUS (which are common in every Shop) are very apt and good. Or, if you pleaſe uſe theſe of mine, whereof I had happy experience in the laſt great Viſitation.</p>
+            <list>
+               <item>
+                  <hi>Rs. Aloës Roſatae, unc.</hi> 1.<note place="margin">Bradwels <hi>Pilles.</hi>
+                  </note>
+               </item>
+               <item>
+                  <hi>Rhabarbari, Croci, ana drach.</hi> 3.</item>
+               <item>
+                  <hi>Myrrhae, drach.</hi> 6.</item>
+               <item>
+                  <hi>Santali citrini, drach.</hi> 1.</item>
+               <item>
+                  <hi>Ambari griſei, ſcrup.</hi> 1.</item>
+               <item>
+                  <hi>Cum ſyrupi de ſucco citri, q. ſ.</hi>
+               </item>
+               <item>
+                  <hi>fiat ſ. a. Maſſa Philularum.</hi>
+               </item>
+            </list>
+            <p>Make <hi>Pils</hi> of 8. 10. or 12. graines a piece; and take 2 or 3. at a time; either at bed time, or after the firſt ſleep: you may take them in <hi>Syrup of Roſes,</hi> or <hi>conſerve of Violets:</hi> or if you will, in the yolke of a reare egge. And it is good to drink after them when you riſe in the morning, in cold weather a little draught of <hi>white Wine</hi> mixed with <hi>Balme-water.</hi> In hot weather, <hi>white-Wine</hi> and <hi>Succorie-water,</hi> with a drop or two of <hi>oyle of Vitrioll</hi> in it.</p>
+            <p>But thoſe that cannot take <hi>Pills,</hi> may have this <hi>Syrup</hi> made for them. which for his excel<g ref="char:EOLhyphen"/>lent
+<pb n="30" facs="tcp:6522:20"/> vertue in this caſe, is called <hi>Syrupus Divinus, <hi>the Diuine Syrup.</hi>
+               </hi>
+            </p>
+            <p>
+               <note place="margin">Syrupus Di<g ref="char:EOLhyphen"/>vinus Sancti Ambroſii.</note>
+               <hi>Rs. Cort. citri, rad cappar. berber. ſantal. rub. &amp; citrin<g ref="char:punc">▪</g> ſpodii, ana drach.</hi> 1. <hi>Carryophyll. bor<g ref="char:EOLhyphen"/>rag. bugloſsi, melliſſae, cichorei, ana unc.</hi> 1. <hi>A<g ref="char:EOLhyphen"/>cetoſae, Hepaticae, marrubii, ana unc. ſs. Thy<g ref="char:EOLhyphen"/>mi, Epithymi, Scariolae, Rhabarb. fol. ſenae, rad. polypodii, ana drach.</hi> 1. <hi>Succorum abſynthii, fumariae, ebuli, Plantagenis, Myrobalanorum Chebul. &amp; citrin. ana. drach.</hi> 6. <hi>Cum ſacchari li.</hi> 2. <hi>ſs. fiat Syrupus ſ. a. &amp; Cum aceti ſucci cydoniorum q. ſ. reddatur dulcè acidus.</hi>
+            </p>
+            <p>Take two or three ſpoonefuls of this, more or leſſe as it workes: But keepe very warme, for it cauſeth ſweat as wel as ſeidge. In a Manuſcript of my Grandfather BANISTERS, I finde this cal<g ref="char:EOLhyphen"/>led St. AMBROSE <hi>his Syrup.</hi> The ſame a little al<g ref="char:EOLhyphen"/>tered is in RENODAEVS <hi>his Diſponſatorie;</hi> and hee hath added two drams of <hi>Diagredium.</hi> Let men of judgment doe as they pleaſe; I like it beſt as I have ſet it downe. RENODAEUS gives it this Title (not acknowledging any Author) <hi>Syrupus qui red<g ref="char:EOLhyphen"/>dit corpus mundum à ſuperfluitatibus; &amp; per conſe<g ref="char:EOLhyphen"/>quens, cor, cerebrum, hepar et omnia alia membrae confortat.</hi> Which commendations agrees with my Title: for it is worthy of all commenda<g ref="char:EOLhyphen"/>tions.</p>
+            <p>That Morning that you take your <hi>Purging Me<g ref="char:EOLhyphen"/>dicine,</hi> you muſt forbeare your other <hi>Antidote.</hi>
+            </p>
+            <p>
+               <hi>Women with childe,</hi>
+               <note place="margin">What Purge for women with Childe.</note> muſt be kept ſolluble onely
+<pb n="31" facs="tcp:6522:20"/> with mild <hi>Suppoſitories,</hi> and gentle <hi>Glyſters,</hi> where<g ref="char:EOLhyphen"/>in a little new drawne <hi>Caſſia</hi> is to be uſed. Or elſe a milde <hi>Potion</hi> made with ſome <hi>Pectorall Decoction,</hi> and a little <hi>Caſsia:</hi> for ſtronger purgatives, will endanger abortion. But theſe ought to be directed by a good <hi>Phyſitian.</hi>
+            </p>
+            <p>
+               <hi>Young children</hi>
+               <note place="margin">For young Children.</note> alſo with a <hi>Violet comfit,</hi> (for a <hi>Suppoſitory</hi>) dipped in ſweet ſallet oyle: or elſe a little <hi>Caſsia</hi> newly drawne, diſſolved in a ſmall draught of <hi>Chicken-broth;</hi> or a little <hi>Manna</hi> in the like broth, or in poſſet-drinke.</p>
+            <p>
+               <hi>Beware of Bathings,</hi>
+               <note place="margin">Bathings.</note> eſpecially in open ſtanding waters, within the Region of the Aire infected.</p>
+            <p>If <hi>Vrine</hi> or <hi>Menſtrua</hi> ſtop,<note place="margin">Courſes ſtopped.</note> repaire ſpeedily to the <hi>Phyſitian</hi> for counſaile.</p>
+            <p>Fly <hi>Venus</hi>
+               <note place="margin">Venus.</note> as farre as you may, for in theſe times ſhe has but an ill name.</p>
+            <p>
+               <hi>Sweat</hi>
+               <note place="margin">Sweat.</note> comming eaſily of it ſelfe; and within dores (the houſe being well aired) is good, ſo it exceed not. But abroad it is dangerous.</p>
+            <p>Laſtly, it is good to keepe open all <hi>Iſsues,</hi>
+               <note place="margin">Iſſues.</note> 
+               <hi>and running ſores;</hi> becauſe <hi>Nature</hi> will labour to expell any venom to ſuch a Common-ſewer.</p>
+            <div type="part">
+               <head>The fourth Point, is Exerciſe and Reſt.</head>
+               <p>Lazineſſe encreaſeth ſuperfluous humours, and over-violent labour, waſteth away the nouriſhing ones. But moderate exerciſe<note place="margin">Exerciſe how.</note> 
+                  <hi>(ad ruborem non ad ſu<g ref="char:EOLhyphen"/>dorem)</hi> ſtirreth up and nouriſheth <hi>Naturall heate,</hi> helping <hi>Concoction</hi> and <hi>Evacuation;</hi> if alſo it be u<g ref="char:EOLhyphen"/>ſed in ſeaſonable times and convenient places.<note place="margin">What.</note> The <hi>beſt Exerciſe</hi> is walking with a little ſtirring
+<pb n="32" facs="tcp:6522:21"/> of the armes.<note place="margin">Where.</note> The <hi>Time,</hi> in the morning: and the place, eyther in a pure ayre abroad, or in a purified ayre at home, in ſome large roome, where is little or no company, by the heate of their bo<g ref="char:EOLhyphen"/>dies and breaths, to diſtemper the Aire. But at all times beware of taking cold; for great colds and rheumes doe eaſily putrid Feavors, and they as eaſily prove <hi>Peſtilent.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <head>Sleepe and Watching is the fifth point.</head>
+               <p>
+                  <hi>Sleepe</hi> eyther immoderate or unſeaſonable, hin<g ref="char:EOLhyphen"/>dereth digeſtion, and cauſes crudities, quels the vitall and dulls the <hi>Animall Spirits. Watching</hi> alſo over-much, dries up and inflames the good Bloud, and weakens all the powers of Nature.</p>
+               <p>Let your <hi>ſleepe</hi> therefore be ſeaſonable, and not ſuperfluous. Not upon your dinner, unleſſe cu<g ref="char:EOLhyphen"/>ſtome commands it; and then take it but vap<g ref="char:EOLhyphen"/>ping for halfe an houre or ſo, ſitting in a Chaire upright.</p>
+               <p>Three houres at leaſt after a light Supper goe to Bed; where let five or ſixe houres ſuffice for ſleepe. Lye conveniently warme, the Chamber dores and windowes being ſhut to exclude the night ayre. But beware of ſleeping or lying on the ground or graſſe: for the nearer the earth the more deadly is the Aire. And the immediate ſtroake of the cold vapors riſing from the ground is dangerous at all times.</p>
+            </div>
+            <div type="part">
+               <head>The Sixt Point of Diet, is Paſsions of the Mind.</head>
+               <p>All kindes of <hi>Paſsion,</hi>
+                  <note place="margin">Paſſions.</note> if they be vehement, doe
+<pb n="33" facs="tcp:6522:21"/> offer violence to the Spirits; yea though they be of the better and more naturall ſort.</p>
+               <p>As <hi>Laughter</hi>
+                  <note place="margin">Laughter.</note> (if unbridled) doth runne even life out of breath, and greatly perplexeth the Bo<g ref="char:EOLhyphen"/>dy: in ſo much as the breſt and ſides are pained, the breath is ſtraitned, and ſometimes the Soule it ſelfe, is (as I may ſay) laughed out of her skin.</p>
+               <p>For ſo it is recorded of CHRYSIPPVS,<note place="margin">Examples.</note> That onely upon the ſight of an <hi>Aſſe</hi> eating Figges, he brake into ſuch an unmeaſurable laughter, that he fell downe and dyed.</p>
+               <p>And XE<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>XIS that excellent Painter (who made a moſt curious beautifull Picture of the <hi>Spartan</hi> HELEN) upon the ſight of a very ill-favoured old woman, burſt out into ſuch a profuſe laughter, that he laugh'd himſelfe to death.</p>
+               <p>Now this is a diſeaſe of the Spleene, called <hi>Ri<g ref="char:EOLhyphen"/>ſus Sardonius,</hi> with which I have knowne ſome of my acquaintance not long agoe grieved.</p>
+               <p>But ſometimes <hi>immoderate Ioy,</hi>
+                  <note place="margin">Ioy.</note> lives not to the age of <hi>Laughter,</hi> when it bindes the vitall Spirits ſo cloſe together that it choakes the heart inſtant<g ref="char:EOLhyphen"/>ly: For ſo SOPHOCLES the <hi>Tragedian,</hi> receiving a wonderfull applauſe of the people for the laſt Tragedy he wrote; was ſo over-joyed at it,<note place="margin">Examples.</note> that he became a Tragedy himſelfe and dyed upon it.</p>
+               <p>The like is recorded of one RHODIAS DIA<g ref="char:EOLhyphen"/>GORAS, who when he ſaw his three Sonnes all at one time crowned with victory at the Olympian games, ranne to meet them: And while hee em<g ref="char:EOLhyphen"/>braced them in his armes, and they planted theyr Garlands on his head, hee was ſo overcome with
+<pb n="34" facs="tcp:6522:22"/> joy, that he turned theyr Enſignes of victory into the penons of his Funerall.</p>
+               <p>
+                  <hi>Sorrow</hi>
+                  <note place="margin">Sorrow.</note> on the other ſide afflicts the Heart, di<g ref="char:EOLhyphen"/>ſturbes the Faculties, melts the Braine, vitiates the humours, and ſo weakens all the principall parts; yea, ſometimes ſinkes the Body into the grave.</p>
+               <p>
+                  <note place="margin">Examples.</note>As ADRASTVS King of the <hi>Argives,</hi> beeing told of the death of his Sonne, was taken with ſo violent a <hi>Sorrow,</hi> that he fell downe and dyed im<g ref="char:EOLhyphen"/>mediatly.</p>
+               <p>And ſo IULIA the Daughter of <hi>Iulius Caeſar,</hi> and wife to POMPEY, when ſhee heard the ty<g ref="char:EOLhyphen"/>dings of her Husbands death, made that houre the laſt witneſſe that ſhe had liv'd only to heare it.</p>
+               <p>
+                  <hi>Anger</hi>
+                  <note place="margin">Anger.</note> is alſo ſo furious a Paſſion, that it vio<g ref="char:EOLhyphen"/>lently diſturbes the Spirits and Faculties; as ap<g ref="char:EOLhyphen"/>peares by the ſhaking and toſſing of the Body too and fro; the fierie ſparkling of the Eyes, the co<g ref="char:EOLhyphen"/>lour comming and going, now red, now pale; ſo that all the humours appeare to be enflamed (eſpe<g ref="char:EOLhyphen"/>cially <hi>Choller,</hi>) and the Spirits hurried this way and that way: ſometimes thruſt outward, and preſently halled in againe. By which violent mo<g ref="char:EOLhyphen"/>tions an unnaturall heat in the Spirits, and corrup<g ref="char:EOLhyphen"/>tion in the humours are ingendered. Hereupon many times follow <hi>Burning Feavors, Palſies, vio<g ref="char:EOLhyphen"/>lent Bleedings, loſſe of Speech, and ſometimes Death it ſelfe.</hi>
+               </p>
+               <p>
+                  <note place="margin">Examples.</note>NERVA the Emperour being highly diſpleaſed with one REOVLVS, fell into ſuch a fury againſt him that he was ſtricken therewith into a <hi>Feavor,</hi> whereof he dyed within a few dayes after.</p>
+               <pb n="35" facs="tcp:6522:22"/>
+               <p>WENCESLAVS King of <hi>Bohemia,</hi> in a rage con<g ref="char:EOLhyphen"/>ceived againſt his <hi>Cup-bearer,</hi> would needs kill him preſently with his owne hand; but his endea<g ref="char:EOLhyphen"/>vour was his owne deaths man, ſtriking him with a <hi>Pa<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ſey,</hi> that ſhooke him ſhortly after into aſhes.</p>
+               <p>VALENTINIANVS the Emperour, in a fierce fury would needs deſtroy the whole Country of <hi>Sarmatia;</hi> but his unruly rage <hi>brake a veyne</hi> within him, and his owne <hi>life-bloud</hi> ended his bloudy de<g ref="char:EOLhyphen"/>ſigne.</p>
+               <p>In the yeare of our Lord 1523. A poore old man in the North part of <hi>Devonſhire</hi> (dwelling in a part of a little Village called <hi>Little Podderidge</hi>) came to a Worthy Knights houſe (Sir THOMAS MONKE by name) dwelling in the ſame Pariſh, (which was called St. <hi>Merton</hi>) in whoſe houſe I at that time was. And the old man ſtanding at the Buttery hatch to receive ſome Beere: becauſe the Buttery mayd did not preſently fill his Tan<g ref="char:EOLhyphen"/>kerd at his call, he fell into ſuch a fury againſt her, that with the very paſſion, hee preſently fell downe, was taken up for dead; was with much a doe by me recovered to life and ſence, but never ſpake againe, and dyed within two dayes after.</p>
+               <p>
+                  <hi>Feare</hi>
+                  <note place="margin">Feare.</note> likewiſe gathers the heat and Spirits to the heart, and diſſolves the Brayne, making the moyſture thereof ſhed and ſlide downe into the externall parts, cauſing a chilneſſe and ſhaking o<g ref="char:EOLhyphen"/>ver all the Body; and falling upon the gullet, makes one to ſwallow when they ſhould ſpeake: It abuſes the Fancie and Sences, brings a Lethar<g ref="char:EOLhyphen"/>gie
+<pb n="36" facs="tcp:6522:23"/> upon the Organs of motion, and condemnes the heart to deadly ſuffrings.</p>
+               <p>
+                  <note place="margin">Examples.</note>As CASSANDER the ſonne of <hi>Antipater</hi> upon the ſight of ALEXANDER <hi>the Great</hi>'s ſtatue, was ſtricken with ſuch a terrour, that he could hardly make his legs leave trembling ſo farre as to carrie him out of the place.</p>
+               <p>Nay to come nearer to our purpoſe. In the laſt great Plague-time here in <hi>London,</hi> in <hi>Anno Do<g ref="char:EOLhyphen"/>mini</hi> 1625. One <hi>George Bicker-ſtaffe</hi> a Taylor dwelling in <hi>Silver-Street,</hi> having charge of the houſe of the Right Honourable the Lord WIND<g ref="char:EOLhyphen"/>SOR in <hi>Mugwell-ſtreete,</hi> (where I then Lived) and comming thither one Evening in the twi<g ref="char:EOLhyphen"/>light; as he was ſtanding all alone in the Parlour, ſudainly a great noyſe came ratling downe the Stayres, from the upper roomes. At which (al<g ref="char:EOLhyphen"/>though my ſelfe have beene eye witneſſe of man<g ref="char:EOLhyphen"/>ly valour in him at other times) hee was ſo be<g ref="char:EOLhyphen"/>yond reaſon affrighted, that hee ran out of the houſe into the Street, halfe breathleſſe, and al<g ref="char:EOLhyphen"/>moſt ſpeechleſſe, looking very ghaſtly; which made many inquire the cauſe; which as ſoone as hee could make them underſtand, ſome boldly ventur'd in, and found nothing but a Fawne, that had been tyed up in the Garden, and was now got looſe, and (the Hall doore being left open) had got up into the great Chamber. The neighbours made themſelves merry with the Taylors man<g ref="char:EOLhyphen"/>hood: But hee went home (it being the Fifteenth day of <hi>October</hi>) fell into a <hi>Feavor,</hi> which turned within a few dayes into the <hi>Plague,</hi> whereof hee
+<pb n="37" facs="tcp:6522:23"/> dyed on the Six and twentieth day of the ſame moneth: having continued in perfect health from the beginning of the Contagion to this fore-mentioned houre of his miſ-informed feare. Now this Feare did not ariſe from danger of In<g ref="char:EOLhyphen"/>fection, and yet it drew it on. How much more then does the feare of the ſame cauſe worke it? I need bring no Examples for proofe: for in every place I heare living witneſſes of ſuch as dy<g ref="char:EOLhyphen"/>ed of the <hi>Plague,</hi> ſtricken onely with the feare of it: And therefore I cannot thinke any mans ig<g ref="char:EOLhyphen"/>norance can plead againſt it.</p>
+               <p>Yet I will give a reaſon for it;<note place="margin">How Feare brings Infe<g ref="char:EOLhyphen"/>ction.</note> becauſe of all Paſſions, <hi>Feare</hi> is the moſt peſtilently pernicious: <hi>And this it is:</hi> Feare enforces the vitall Spirits to retire inward to the heart: By which retyring they leave the outward parts infirme, as appeares plainly by the paleneſſe and trembling of one in great feare. So that the walls being forſaken (which are continually beſi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ged by the outward ayre) in comes the enemy boldly; the beſt ſpirits that ſhould expelled them having cowardly ſoun<g ref="char:EOLhyphen"/>ded retreat: In which with-drawing, they draw in with them ſuch evill vapours as hang about the outward pores; even as the Sunne drawes toward it the vapours of the Earth. And hence is it, that <hi>Feare</hi> brings <hi>Infection</hi> ſooner then any other oc<g ref="char:EOLhyphen"/>caſion.</p>
+               <p>This therefore;<note place="margin">The way of curing Paſſi<g ref="char:EOLhyphen"/>ons.</note> and all other <hi>Paſſions</hi> muſt (by a wiſe watching over our ſelves) be beaten off, whenſoever they but offer to ſet upon us. But theſe are diſeaſes of the <hi>Soule,</hi> whoſe <hi>Phyſicians</hi>
+                  <pb n="38" facs="tcp:6522:24"/> are <hi>Divines.</hi> They muſt <hi>Purge</hi> out the <hi>Love of this World, and the diſtrust of GODS Providence, miniſter the Cordials of Faith, Hope, Patience, and Contentedneſſe;</hi> and <hi>Ordaine the ſtrict Dyet of Holy Exerciſes.</hi> Wee that are <hi>Phyſitians</hi> to the <hi>Body,</hi> are but <hi>Chyrurgians</hi> to the <hi>Soule;</hi> wee can but talke of <hi>Topicall remedies;</hi> as to apply <hi>Mirth, Muſicke, delightfull buſineſſe, good Company, and lawfull Recreations;</hi> ſuch as may take up all time from carefull thoughts and paſſionate affections: Then have wee done. And ſo have I now with the ſixe Points of <hi>Dyet;</hi> and likewiſe with the firſt part of my <hi>Method,</hi> which is <hi>the way of Pre<g ref="char:EOLhyphen"/>ſervation.</hi>
+               </p>
+               <p>
+                  <note place="margin">The Man<g ref="char:EOLhyphen"/>ner of taking Sicke.</note>The ſecond Part (which now ſucceeds) diſco<g ref="char:EOLhyphen"/>vers the <hi>Manner</hi> and <hi>Signes</hi> of being In<g ref="char:EOLhyphen"/>fected.</p>
+               <p>
+                  <note place="margin">It ſtrikes firſt at the Heart.</note>The <hi>Manner</hi> is, that <hi>It ſtrikes chiefly at the Heart,</hi> (as I ſayd in the <hi>Definition:</hi>) which is apparent by this, that at the firſt Infection or inſtant of being taken, the <hi>vitall Faculty ſinkes,</hi> and languiſhes, the whole ſtrength of the Body is ſuddainly turned to weakneſſe; the <hi>vitall Spirits</hi> are greatly oppreſ<g ref="char:EOLhyphen"/>ſed and diſcouraged. Whereas the <hi>Animall Fa<g ref="char:EOLhyphen"/>cultie</hi> commonly remaines (for a while) in good plight, and perfect in the uſe of <hi>Senſe, Vnderſtan<g ref="char:EOLhyphen"/>ding, Iudgement, Memory,</hi> and <hi>Motion. The Natu<g ref="char:EOLhyphen"/>rall Facultie</hi> alſo is not ſo preſently hurt, but there is <hi>Concoction</hi> and all other functions perfor<g ref="char:EOLhyphen"/>med by the <hi>Liver, Stomacke, Guts, Reynes, Bladder,</hi> and other parts, as <hi>Nature</hi> requireth. Though
+<pb n="39" facs="tcp:6522:24"/> indeed in a little time (the <hi>Venome</hi> being very ſtrong) <hi>theſe</hi> and the <hi>Braine</hi> alſo are overcome. As appeares by the <hi>Symptomes</hi> that follow; as <hi>Le<g ref="char:EOLhyphen"/>thargies, Frenzies: Vomitings, Fluxes, &amp;c.</hi> which I ſhall reckon up in the Concluſion.</p>
+               <p>Take notice therefore, That as ſoone as the ve<g ref="char:EOLhyphen"/>nemous matter ſtrikes to the Heart; that the <hi>Con<g ref="char:EOLhyphen"/>tagion</hi> has now found out the Prince of the <hi>Vitall parts:</hi> who if hee want armour of proofe to re<g ref="char:EOLhyphen"/>ſiſt (eyther of Naturall ſtrength, or forged out by <hi>Arts Cyclops,</hi> the <hi>Phyſitian</hi>) is preſently taken pri<g ref="char:EOLhyphen"/>ſoner by his venemous enemy;<note place="margin">Signes and Symptomes.</note> who ſoone after takes poſſeſſion of the <hi>Arteries,</hi> and <hi>Veynes.</hi>
+               </p>
+               <p>In this conflict; the <hi>Pulſe</hi>
+                  <note place="margin">The Pulſe.</note> (which uſeth to be the trueſt intelligencer of the Hearts well of ill<g ref="char:EOLhyphen"/>fare) becomes now languiſhing, little, frequent, and unequall. <hi>Languiſhing,</hi> by reaſon that Na<g ref="char:EOLhyphen"/>tive heate leſſens, and a heate contrary to Nature increaſes: <hi>Little,</hi> becauſe oppreſſed: <hi>Frequent,</hi> from Natures ſtrife: <hi>Vnequall,</hi> partly from the Feavor, and partly from the Malignant vapour that beſiedgeth the Heart. Concerning the <hi>Pulſe</hi> alſo, <hi>Rodericus à Castro; de Peſte Hamburgenſi,</hi> has this Signe in theſe very words. <hi>Manus, dum Medico porrigunt Pulſum, quodam modo retrahun<g ref="char:EOLhyphen"/>tur cum tremore; quod à veneno fit cor ipſum pun<g ref="char:EOLhyphen"/>gente, &amp; Signum mihi diutina experientia indubi<g ref="char:EOLhyphen"/>tatum est, ut eo ſolo ſaepiſſimè Peſtilentem affectum cognoverim.</hi> This have I alſo tryed and found true.</p>
+               <p>And from this ground did I find another that
+<pb n="40" facs="tcp:6522:25"/> never fayled me; If in reaching out the hand the former ſigne appeared not; then if I ſuſpected it to be the <hi>Plague<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>,</hi> I would touch the Pulſe ſome<g ref="char:EOLhyphen"/>thing hard, and if it were the <hi>Plague</hi> it would not fayle <hi>Cum tremore manum retrahere.</hi> The reaſon is, the ſtopping of the courſe of the <hi>Pulſe</hi> drives the <hi>venome</hi> ſomething back to the heart, by which is cauſed a kind of ſuddaine Paſſion.</p>
+               <p>
+                  <note place="margin">The Eyes.</note>The next <hi>Signe</hi> is, the enemies Enſigne hung out at the windowes; The <hi>Eyes</hi> are various in turning, and ſometimes fiery ſhining; the lookes ſad, and the Face changing colour: which ſhew that the radicall humour begins to waſte, and the Spirits to waxe dry and enflamed.</p>
+               <p>Then followeth <hi>Lightneſſe or Giddineſſe of the Head;</hi>
+                  <note place="margin">Giddineſſe.</note> Drouth, and Bitter taſt in the mouth, which proceed from the ſuperfluitie of Choller, aggra<g ref="char:EOLhyphen"/>vated by the mixture of the <hi>venemous</hi> vapours.</p>
+               <p>
+                  <hi>Vomiting</hi>
+                  <note place="margin">Vomiting.</note> likewiſe of vitious matter, being (ac<g ref="char:EOLhyphen"/>cording to redundancie of any of the humours) ſometimes wateriſh, of <hi>Flegme;</hi> ſometime yel<g ref="char:EOLhyphen"/>low or greeniſh, of <hi>Choller;</hi> ſometimes leaden or blackiſh, of <hi>Melancholy.</hi> But this is from the viru<g ref="char:EOLhyphen"/>lencie of the <hi>Venome,</hi> vexing the veynes and fibres in the coate of the Stomacke: not from any ſtrength of Nature to expell the poyſon; as ap<g ref="char:EOLhyphen"/>peareth in that no eaſe, but increaſe of accidents ſucceedeth the exoneration.</p>
+               <p>After which, followes a painfull <hi>Hicket, or Yex<g ref="char:EOLhyphen"/>ing;</hi>
+                  <note place="margin">Hicket, or Convulſio<g ref="char:cmbAbbrStroke">̄</g> in the Stomack.</note> by the progreſſe of the <hi>venome</hi> working con<g ref="char:EOLhyphen"/>vulſively on the fibres of the Stomacke.</p>
+               <pb n="41" facs="tcp:6522:25"/>
+               <p>
+                  <hi>Shortneſse of breath</hi> alſo,<note place="margin">Short breath and ſighing.</note> and often <hi>ſighing</hi> ſhew the heart is enflamed, and would faine exchange the over-heated ayre within the body, for that which is coole without.</p>
+               <p>Then begin the <hi>Spirits to ſink,</hi>
+                  <note place="margin">Sinking of the Spirits, and Feaver.</note> through the fierce gripe of the venemous vapour that now inſults over the yeilding heart. The externall parts be<g ref="char:EOLhyphen"/>come cold and ſhake-ripe, while the inter<g ref="char:EOLhyphen"/>nall are over-hot with the inflammation of the Bowels.</p>
+               <p>By this time the venom is gotten up into the watriſh humors of the <hi>Braine,</hi> and infecting them,<note place="margin">Paines in the Head.</note> cauſeth <hi>Head ache:</hi> while the hot vapours (get<g ref="char:EOLhyphen"/>ting betwixt the two mother membranes) cauſe painefull prickings there, whereupon follow reſt<g ref="char:EOLhyphen"/>leſſeneſſe of the Body, and <hi>Lacke of Sleepe,</hi>
+                  <note place="margin">Lacke of Sleepe.</note> and up<g ref="char:EOLhyphen"/>on theſe <hi>Frenzie,</hi> except the Braine be full of moyſture; and then the head is over-heavie and <hi>Lethargick.</hi>
+                  <note place="margin">Extreame Drowſineſſe.</note>
+               </p>
+               <p>Sometimes alſo the Venom workes it ſelf from the ſubſtance of the Braine into the <hi>Sinewes,</hi> cau<g ref="char:EOLhyphen"/>ſing <hi>Cramps,</hi> and <hi>Convulſions.</hi>
+                  <note place="margin">Cramps and Convulſions</note>
+               </p>
+               <p>The <hi>Vrine</hi> is altogether untrue, therefore un<g ref="char:EOLhyphen"/>worthy the fellowſhip of faithfull ſignes.<note place="margin">Vrine utter<g ref="char:EOLhyphen"/>ly falſe.</note> And the moſt faithfull, are the <hi>Soares, and Spots</hi> (if they be right) called <hi>Gods Tokens.</hi>
+               </p>
+               <p>But before we deſcribe them,<note place="margin">The <hi>Au<g ref="char:EOLhyphen"/>thors</hi> obſer<g ref="char:EOLhyphen"/>vation.</note> let me expreſſe my ſorrow for what I had dayly obſervation of, in the laſt great Viſitation. Many undertooke the cure of the Plague then, who knew no more then to <hi>ſweat the Patient,</hi> and apply <hi>outward drawing medicines to the Soares:</hi> nay the <hi>Chyrurgerie worke</hi>
+                  <pb n="42" facs="tcp:6522:26"/> was well performed by ſome, and yet I dare ſay many dyed for the lacke of skill to encounter theſe ſymptomes now ſpecified. And yet there are many moe ſuch; all which I will reckon up, to ſee if I can ſhake the conſciences of ſuch impu<g ref="char:EOLhyphen"/>dent <hi>Quack-ſalvers,</hi> as dare without learning ven<g ref="char:EOLhyphen"/>ture to enrich themſelves by filling Graves.</p>
+               <p>There is commonly,
+<list>
+                     <item>1 <hi>Trembling of the heart, fainting or ſowning.</hi>
+                     </item>
+                     <item>2 <hi>A Feavor, though not eaſily diſcerned at firſt.</hi>
+                     </item>
+                     <item>3 <hi>Cardialgia, commonly called Heart-ache.</hi>
+                     </item>
+                     <item>4 <hi>Vomiting, and Loathing in the ſtomacke.</hi>
+                     </item>
+                     <item>5 <hi>Extreame Thirſt, and vile taſte in the Mouth.</hi>
+                     </item>
+                     <item>6 <hi>Head-ache, and pricking paines there.</hi>
+                     </item>
+                     <item>7 <hi>Swimming, or Vertigo.</hi>
+                     </item>
+                     <item>8 <hi>Loſſe of Memorie, and Fooliſh behaviour.</hi>
+                     </item>
+                     <item>9 <hi>Want of ſleepe.</hi>
+                     </item>
+                     <item>10 <hi>Delirium, or Frenzy.</hi>
+                     </item>
+                     <item>11 <hi>Convulſions, or Cramps.</hi>
+                     </item>
+                     <item>12 <hi>Lethargie, or extreame Drowſineſse.</hi>
+                     </item>
+                     <item>13 <hi>Sharp paines in the Eares.</hi>
+                     </item>
+                     <item>14 <hi>Opthalmia, or inflamation of the Eyes.</hi>
+                     </item>
+                     <item>15 <hi>Bleeding at the Noſe.</hi>
+                     </item>
+                     <item>16 <hi>The tongue and mouth enflam'd and furr'd.</hi>
+                     </item>
+                     <item>17 <hi>Spitting of Bloud.</hi>
+                     </item>
+                     <item>18 <hi>Squinanſie.</hi>
+                     </item>
+                     <item>19 <hi>Pleureſie.</hi>
+                     </item>
+                     <item>20 <hi>Very ſhort Breath, and continuall ſighing.</hi>
+                     </item>
+                     <item>21 <hi>Drye Cough.</hi>
+                     </item>
+                     <item>22 <hi>Iaundiſe.</hi>
+                     </item>
+                     <item>23 <hi>Swelling of the Belly with externall paine.</hi>
+                     </item>
+                     <item>24 <hi>Colick, and Iliak Paſſions.</hi>
+                     </item>
+                     <item>25 <hi>Extreame Coſtineſſe.</hi>
+                     </item>
+                     <item>26 <hi>Wormes.</hi>
+                     </item>
+                     <item>27 <hi>Flux of the Belly: eyther Lieuteria, or Diar<g ref="char:EOLhyphen"/>rhaea.</hi>
+                     </item>
+                     <item>28 <hi>Bloudy Flux.</hi>
+                     </item>
+                     <pb n="43" facs="tcp:6522:26"/>
+                     <item>29 <hi>Swelling of the Teſticles very painefully.</hi>
+                     </item>
+                     <item>30 <hi>Suppreſsion of Vrine.</hi>
+                     </item>
+                     <item>31 <hi>Extreame heate, and paine in the Backe.</hi>
+                     </item>
+                     <item>32 <hi>Swelling of the Feet and Legges with intollera<g ref="char:EOLhyphen"/>ble paine.</hi>
+                     </item>
+                     <item>33 And ſometimes, <hi>Such immoderate Sweat horribly ſtinking, that it affrights the Phyſitian from his courſe of ſweating the Patient, and yet for all this ſweat the deadly danger increaſeth.</hi>
+                     </item>
+                  </list>
+               </p>
+               <p>And not one of theſe <hi>Symptomes</hi> can bee cured by the common <hi>Method</hi> of ſuch caſes: Becauſe of the <hi>venemous quality</hi> that is mixed with them.</p>
+               <p>When I had well informed my ſelfe of theſe things, and ſaw how little they were regarded of others. I was ſtricken with wonder to ſee, with what peaceable conſciences ſome men went a kil<g ref="char:EOLhyphen"/>ling. And I began to doubt whether it were not better for a man to be at peace with Ignorance, then to carry his trembling heart in his hand, as I did al that time. Yet then it pleaſed God to bleſſe my labours and counſailes, and to let a very ſmall number faile under my advice.</p>
+               <p>But to goe forward,<note place="margin">The faithful Signes.</note> I muſt enlarge my ſelfe a little in the diſcovery of the moſt faithfull and apparent <hi>Signes</hi> (which are <hi>the Botch, the Blayne, the Carbuncle, and the Spots called Gods Tokens:</hi>) be<g ref="char:EOLhyphen"/>cauſe the <hi>Searchers</hi> doe ſometimes miſtake.</p>
+               <p>The <hi>Botch,</hi>
+                  <note place="margin">The Bubo, or Botch.</note> is a hard <hi>Tumor,</hi> riſing in the glandu<g ref="char:EOLhyphen"/>lous parts called the <hi>Emunctories:</hi> which are in three places on each ſide of the Body: viz. <hi>under each eare</hi> (or ſometimes under the <hi>Lawes or Chin</hi>) in the <hi>Arme-pits and in the Groynes.</hi> This <hi>Tumor</hi> lyes
+<pb n="44" facs="tcp:6522:27"/> ſometimes very deepe in the fleſh, onely to bee found by feeling, nay ſometimes alſo ſcarcely to be felt; but if you touch the place there is paine. But for the moſt part it ſwelleth out to the big<g ref="char:EOLhyphen"/>neſſe of a Nutmeg or a Wall-nut, yea even to the ſize of a mans fiſt, or a penny loafe. Alſo ſome<g ref="char:EOLhyphen"/>times it is round, ſometimes ovall; ſometimes long and ſlender as ones finger. I ſaw a Boy of ten yeares old in <hi>Seething-lane,</hi> that had one riſen in his left arme-pit, which ranne from thence backe<g ref="char:EOLhyphen"/>ward upon the ſhoulder blade, making a Semi<g ref="char:EOLhyphen"/>circle thereon, and ſo turning downward toward the backbone: as if under the skin had been layd a good big cord in the forme almoſt of a <hi>Sickle.</hi> The Boy was not heart-ſicke but at the firſt ta<g ref="char:EOLhyphen"/>king, and by Gods bleſſing and good meanes, this tumor ſunke againe, and vaniſhed without any ſuppuration.</p>
+               <p>But ſome againe are flat, broad, and ſpreading even over halfe the <hi>Thorax,</hi> (as I have ſeene one.) They are of colour various, according to the humour praedominant. At the firſt it is common<g ref="char:EOLhyphen"/>ly ſomthing moveable, but grows afterward more indurate and fixed. It riſes for the moſt part with a pricking paine; and as it growes greater is more dully painefull; and ſeemes to the Pati<g ref="char:EOLhyphen"/>ent as a weight or burthen.</p>
+               <p>It commeth of a venemous matter, putrifying and poyſoning the bloud which is thicke, groſſe, and excrementitious of it ſelfe, and ſomething flegmaticke. Nature therefore labours to drive forth this venom into the e<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>unctories, which
+<pb n="45" facs="tcp:6522:27"/> are the ſinkes and receptacles of excrementitious humours.</p>
+               <p>When they riſe under the <hi>Iawes</hi> they ſhew the ſtrength of the <hi>Braine;</hi> in the <hi>Arme-pits</hi> of the <hi>Heart;</hi> and in the <hi>Groines</hi> of the <hi>Liver.</hi> Accor<g ref="char:EOLhyphen"/>ding to the quantitie of the humors infected, ſo the Botches are bigger or leſſe, and moe or fewer in number; and according to the malignancie of the humour are their colours whiter, redder, more blewiſh or blackiſh; whereof the latter is ſtill the worſe.</p>
+               <p>
+                  <hi>The Blayne,</hi>
+                  <note place="margin">The Blayne.</note> is a kinde of <hi>Bliſter,</hi> ſomewhat like one of the <hi>Swine-pocks,</hi> of a Straw-colour for the moſt part; but ſometimes of a blewiſh or leaden colour, (but then it is apt to turne to a Carbun<g ref="char:EOLhyphen"/>cle) and when it runneth affords filthy matter of the like complexion. Round about the Bliſter, there is a red fierie circle (yet nothing ſo fiery as that of the <hi>Carbuncle</hi>) the whole taking up the breadth of a groat, ſixe pence, or nine-pence: I have ſeen the breadth of a large ſhilling; but very rarely. Theſe will riſe in any part of the Body or limbes; ſometimes one alone, ſometimes two or three, but never many. When the matter is runne out, the hoven skin falls and dryes up to a cruſty ſcab, and ſo falls off.</p>
+               <p>Theſe ſhew, that Nature is ſtrong to expell the venom ſpeedily, and that the humors infected are not ſuperaboundant. For many that have theſe, are not ſicke at all: and the moſt recover with good looking to.</p>
+               <p>
+                  <hi>The Carbuncle,</hi>
+                  <note place="margin">The Car<g ref="char:EOLhyphen"/>buncle.</note> is a little venemous puſtle with
+<pb n="46" facs="tcp:6522:28"/> a broad compaſſe of a deepe redneſſe about it, wonderfull angry, and burning like a fire-coale; thence comes his name <hi>Carbunculus.</hi> It riſes like a little Blyſter, producing an aſh-coloured, or elſe a blackiſh cruſt. Sometimes it riſes in many puſtles like burnt blyſters on the outer skin; which being broken and the matter runne out, the like cruſty eſcar growes over it till it fall off. It appeares in any <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>rt of the Body or Limbs; many times on the Breaſt, ſometimes in the face, I have ſeene one on the very tip of the noſe. With it goes alway theſe evill companions, <hi>Itching, Inflamation,</hi> and <hi>Irroſion;</hi> for it is ſo full of burning poyſon, that it conſumes the fleſh, and will in a ſhort time (if it be not well looked to) eate ſo deepe and large a hole, as if the fleſh were hollowed with a hot iron.</p>
+               <p>It ariſeth from the ſame cauſe with the <hi>Botch,</hi> but the Bloud is more hot, blacke, thicke, and faeculent; proceeding for burnt <hi>Choler,</hi> or <hi>aduſt Melancholly.</hi>
+               </p>
+               <p>
+                  <hi>The Spots</hi> (otherwiſe called <hi>Gods Tokens</hi>
+                  <note place="margin">The Tokens.</note>) are commonly of the bigneſſe of a flea-bitten ſpot: ſometimes much bigger. Their colour is accor<g ref="char:EOLhyphen"/>ding to the praedominancie of the humor in the body: namely <hi>Red, or reddiſh if Choler; Pale-blew</hi> or <hi>Darke-blew</hi> if <hi>Flegme;</hi> and <hi>Leaden or Blackiſh</hi> if <hi>Melancholy</hi> abound. But they have ever a circle a<g ref="char:EOLhyphen"/>bout them. The <hi>Red ones</hi> a <hi>purpliſh-circle,</hi> and the o<g ref="char:EOLhyphen"/>thers a <hi>rediſh circle.</hi> They appeare moſt common<g ref="char:EOLhyphen"/>ly on the the breaſt and backe: and ſometimes on the neck, armes, and thighes. <hi>On the Breaſt and Back,</hi>
+                  <pb n="47" facs="tcp:6522:28"/> becauſe the <hi>vitall Spirits</hi> ſtrive to breath out the venom the neareſt way. In ſome bodyes there will be very many, in ſome but one or two, or very few; according to the quantity of the venom, and the ſtrength of the Spirits to drive them out. They uſually ſhew themſelves on the 3. 4. 5. or 7. day; Sometimes not till death, the venom yet tyranni<g ref="char:EOLhyphen"/>zing over the dead carkas. Somtimes they appeare together with the ſores; but for the moſt part without. The cauſe is the venemous matter con<g ref="char:EOLhyphen"/>denſed and hardened in the act of penetrating the the pores of the skin; if they be skilfull diſſected in the dead body, you may finde ſome halfe way deep into the fleſh, &amp; ſome in muskles of the Breſt have bin followed with the inciſion knife even to the rib bones. The reaſon why they are thus con<g ref="char:EOLhyphen"/>gealed is, the thicknes of the venemous matter, and the coldneſſe of it: for it is the moſt <hi>Phlegmaticke</hi> part of the bloud, yet mixed alſo with the other humors according to the colors. They appeare in dead bodies moſt, becauſe <hi>Nature</hi> fainting in her labor to thruſt out the venom through the skin, lifes heat going out, the privation therof, and the nearneſſe of the outward aire do congeale the<g ref="char:cmbAbbrStroke">̄</g> pre<g ref="char:EOLhyphen"/>ſently: &amp; becauſe many times at the laſt gaſp nature gives the ſtouteſt ſtruggle, it comes to paſſe they are not ſo far thruſt forth as to appeare, til death.</p>
+               <p>All theſe Symptomes muſt be looked to very diligently and skilfully. As for the Sores, there are many good and known medicines, and hands skil<g ref="char:EOLhyphen"/>ful enough in <hi>Chyrurgical</hi> way. And I underſta<g ref="char:cmbAbbrStroke">̄</g>d the <hi>Colledge of Phyſitians</hi> have a Booke now comming
+<pb n="48" facs="tcp:6522:29"/> forth full of good Medicines.<note place="margin">Whether the Toke<g ref="char:cmbAbbrStroke">̄</g>s bring alwayes cer<g ref="char:EOLhyphen"/>tain Death, as is believ'd</note> Therefore I will here deſiſt. But me thinkes one puls mee by the ſleeve, and askes me what I meane, to ſay that all theſe <hi>Symptoms</hi> muſt be looked to; Doe I meane the <hi>Tokens?</hi> (for they were the laſt of them.) Yes, even the <hi>Tokens;</hi>
+                  <note place="margin">Mr. <hi>IOHN BANISTER.</hi>
+                  </note> my <hi>Grandfather</hi> in a Manuſcript of his of the <hi>Plague,</hi> affirmeth that he recovered ſome that had the beſt colored of them, and thoſe but few alſo. And I have often heard my Father (who was an honeſt true tongu'd man, and a skil<g ref="char:EOLhyphen"/>full full <hi>Phyſitian</hi>) ſay: that in the yeare 1593. my Mother (being then viſited with this ſickneſſe) had (beſides a <hi>Carbuncle</hi> under the tip of her left left eare) <hi>two Spots</hi> on her breaſt. And ſhee was recovered, and lived till the yeare 1629. yet <hi>the ſpots</hi> appeared together with the <hi>Carbuncle,</hi> which is accounted a prognoſticke to have no hope of curing the ſoare, or caring for the <hi>life of the Pa<g ref="char:EOLhyphen"/>tient.</hi> To this, let mee joyne an experience of mine owne, in <hi>the laſt dreadfull Viſitation, Anno</hi> 1625. My ſelfe did in <hi>Golding-lane</hi> recover <hi>a wo<g ref="char:EOLhyphen"/>man</hi> that was ſicke of the <hi>Plague in Childe-bed,</hi> (and that very caſe alone is rarely cured) who beſides other <hi>Symptomes,</hi> as her <hi>ſuddaine taking, faintings,</hi> and <hi>Peſtilent Feavor;</hi> had <hi>two Spots</hi> on her breaſt of a reddiſh colour with purple circles. I diſ<g ref="char:EOLhyphen"/>couraged not thoſe about her, becauſe I meant to try what might (by Gods aſſiſtance) be done, the Childe dyed, but ſhe recovered, and is alive at this day.</p>
+               <p>Now if any man ſhall ſay, theſe laſt were ſpots of a <hi>Malignant Feaver</hi> onely. I anſwer, they were
+<pb n="49" facs="tcp:6522:29"/> not Purple but Red ones, and circled with pur<g ref="char:EOLhyphen"/>ple Circles, ſo are not the faint Spots.</p>
+               <p>But if my skill in theſe <hi>Spots</hi> ſhall yet bee doubted. Know that this was when there dyed betwixt Foure and five Thouſand of the <hi>Plague</hi> that weeke: And I will beleeve no man that ſhall tell mee, that any Malignant Feavor muſt not needs turne to the <hi>Plague</hi> it ſelfe within the ayre of <hi>London</hi> at that time.</p>
+               <p>Thus much for the <hi>Signes</hi> of the <hi>Peſtilence</hi> in them that Live.</p>
+               <p>There remaine alſo ſome few other <hi>Signes</hi> be<g ref="char:EOLhyphen"/>ſides theſe,<note place="margin">Other ſignes of the dead of the Plague<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </note> by which you may know <hi>a Body to be dead of the Plague,</hi> though neyther <hi>Soare,</hi> nor <hi>Token</hi> appeare.</p>
+               <p>HEURNIUS ſayes,<note place="margin">
+                     <hi>Heurnius</hi> de Peſte.</note> they are knowne from o<g ref="char:EOLhyphen"/>thers that dye of the <hi>Plague,</hi> by theſe Markes. <hi>The Noſe lookes blew, ſometimes blackiſh blew, as if it had beene beaten or bruiſed. The like Colour is in the Eares and Nailes. And their Bodies are ever worſe coloured then other dead bodyes bee.</hi> But adde to this one Signe more, approved by Experience and ſtanding with good reaſon. <hi>viz.</hi> That where<g ref="char:EOLhyphen"/>as other dead Bodies muſt bee layed out ſtraight while they are warme, or elſe when they are cold they will bee too ſtiffe to be ſtreightned: In thoſe of the <hi>Plague</hi> (or Poyſoned eyther) the fleſh is ſoft, and the joynts limber and flexible, after the Body is cold. Which ſhewes the vile<g ref="char:EOLhyphen"/>neſſe of Putrifaction in all the humors, and moyſt parts of the Body.</p>
+               <pb n="50" facs="tcp:6522:30"/>
+               <p>And now having found out (by certain Signes) the way to know this <hi>Sickneſſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi> from all others: It will not be amiſſe out of learned Authoritie to teach you how to know, whether a man at the firſt taking or ſoone after, be likely to be recove<g ref="char:EOLhyphen"/>red or no.</p>
+               <p>
+                  <note place="margin">To know whether a man taken with the Sickneſſe, may be likely to recover or no.</note>If one be taken with the firſt Signes of <hi>Sinking of his Spirits, cauſleſſe Sadneſſe, ſhortneſſe of Breath</hi> on the ſuddaine, that hee cannot forbeare <hi>Sigh<g ref="char:EOLhyphen"/>ing,</hi> yet knowes no cauſe why; <hi>Sick heartedneſſe, &amp;c.</hi> If this happen at his Meate, or preſently af<g ref="char:EOLhyphen"/>ter; let him if hee can, <hi>Vomit:</hi> If he offer and cannot: Helpe him with a little <hi>Warme-water and Oyle:</hi> Or dip a feather in <hi>Linſeed oyle;</hi> or <hi>Oyle of Scorpions,</hi> and thruſt it into his throat. Then: or if he be taken betwixt Meales or Faſting. Make this <hi>Draught</hi> for him:
+<list>
+                     <item>Take of <hi>Bole-Armoniack, j. dram, powdred.</hi>
+                     </item>
+                     <item>
+                        <hi>Iuice of Oranges, halfe an ounce.</hi>
+                     </item>
+                     <item>
+                        <hi>White Wine, an ounce.</hi>
+                     </item>
+                     <item>
+                        <hi>Roſe-water,</hi> ij. <hi>ounces.</hi>
+                     </item>
+                  </list>
+               </p>
+               <p>Mixe them together, and give it.</p>
+               <p>If hee <hi>Vomit it vp againe,</hi> it is a Signe the <hi>ve<g ref="char:EOLhyphen"/>nome</hi> is aboundant, and has gotten great power o<g ref="char:EOLhyphen"/>ver the vitall parts. Therefore waſh his mouth with a little <hi>white Wine,</hi> and give him the ſame Potion againe. If hee againe caſt it up, repeat the Wine lotion, and this Potion againe, three times. This is taken out of the ſecond <hi>Canon of Avicen,</hi> by <hi>Guaynerius,</hi> who teſtifies upon his owne know<g ref="char:EOLhyphen"/>ledge,
+<pb n="51" facs="tcp:6522:30"/> that never any that at firſt kept it without Caſting it up againe, dyed of that <hi>Sickneſſe.</hi>
+               </p>
+               <p>GUANERIUS was an excellent skilfull <hi>Phyſi<g ref="char:EOLhyphen"/>tian;</hi> And AVICENNA was accounted a <hi>Prince of Phyſitians,</hi> they may therefore be beleeved. Yet I would have none ſo ſuperſtitious in the certainty of this ſafetie; as generally all are in the deadli<g ref="char:EOLhyphen"/>neſſe of the <hi>Tokens:</hi> Of which, I am perſwaded any might recover that have the beſt coloured of them; but that the cuſtome of Ignorance hath driven away all uſe of meanes upon the very ap<g ref="char:EOLhyphen"/>pearance of the <hi>Spots.</hi> This I durſt not hide; yet perhaps like <hi>Caſſandra,</hi> I may bee but laugh'd at for telling the truth. But this is no time to laugh, <hi>Let every Man</hi> rather bee to his owne Soule and Family <hi>an</hi> AARON, <hi>to take with ſpeed his Cenſor of Repentance, and fill it with fire from the Altar (of the exceeding great and precious Promiſes of</hi> CHRIST)<note place="margin">2. Pet. 1.4.</note> 
+                  <hi>and put the Incenſe of faithfull Prayer thereon; and runne quickly,</hi>
+                  <note place="margin">Num. 16.46.</note> 
+                  <hi>and make an Attone<g ref="char:EOLhyphen"/>ment: for there is wrath gone out from the Lord; The Plague is begun.</hi>
+               </p>
+            </div>
+         </div>
+         <div type="remedies">
+            <pb n="52" facs="tcp:6522:31"/>
+            <head>Jn the Great <g ref="char:V">Ʋ</g>iſitation, Anno, <hi>1625.</hi> I made theſe Preſervative Compoſitions.</head>
+            <p n="1">
+               <note place="margin">Preſerva<g ref="char:EOLhyphen"/>tives In<g ref="char:EOLhyphen"/>wardly.</note>1 <seg rend="decorInit">M</seg>Y <hi>Electuarie</hi> (which I call <hi>Anti<g ref="char:EOLhyphen"/>loymon.</hi>
+            </p>
+            <p>The price is 2. s. an <hi>Ounce.</hi>
+            </p>
+            <p>The <hi>Quantity</hi> one or 2. <hi>Drams</hi> on a knifes point.</p>
+            <p n="2">2 My <hi>Plague Powder,</hi> 9. d. a <hi>Dram.</hi>
+            </p>
+            <p>The quantitie, <hi>halfe a Dram,</hi> in <hi>White wine, Carduus water,</hi> or <hi>Poſſet-ale.</hi>
+            </p>
+            <p n="3">3 My <hi>Powder of Life.</hi> This is uſed onely in very weake bodies for <hi>Preſervation,</hi> and in <hi>Cure</hi> is beyond my modeſty of Ex<g ref="char:EOLhyphen"/>preſſion. But I reſerve to my ſelfe how it is to be uſed.</p>
+            <p>The price is 3. d. a <hi>Graine.</hi>
+            </p>
+            <p>And the ordinary <hi>doſe,</hi> is 8.10. or 12. <hi>graines.</hi>
+            </p>
+            <p n="4">4 For the more Ordinary ſort of People, I had (with happy ſucceſſe) alſo (I praiſe God) My <hi>Liquor of Life.</hi>
+            </p>
+            <p>The price 5. s. a <hi>Pinte.</hi>
+            </p>
+            <p>The quantitie at once, 2. 4. or. 6. <hi>ſpoonefuls;</hi> as the Age or ſtrength requireth.</p>
+            <pb n="53" facs="tcp:6522:31"/>
+            <p>But obſerve that theſe <hi>Quantities</hi> are for <hi>Preſer<g ref="char:EOLhyphen"/>vation</hi> onely: But in <hi>Cure</hi> of the <hi>Infected,</hi>
+               <note place="margin">Note.</note> they muſt be doubled.</p>
+            <list>
+               <item>1 Alſo, <hi>Lozenges,</hi>
+                  <note place="margin">Outward.</note> or <hi>Troe<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>isks</hi> to hold in the Mouth. At 12. pence an <hi>Ounce.</hi>
+               </item>
+               <item>2 <hi>Pomanders,</hi> 5. s. a peece.</item>
+               <item>3 <hi>Sweet Waters</hi> for <hi>Spunges,</hi> 3. s. 6. d. a <hi>pinte.</hi>
+               </item>
+               <item>4 <hi>Sweet Waters</hi> to be caſt on a hot Fire-ſhovell to <hi>perfume</hi> a Chamber, 3. s. a <hi>pinte.</hi>
+               </item>
+               <item>5 <hi>Perfumes to burne,</hi> wherewith to ayre <hi>Cloaths,</hi> — 16 pence an <hi>ounce.</hi>
+               </item>
+            </list>
+            <p>All theſe are <hi>temperate</hi> and <hi>Catholicall,</hi> that is generally fit for all <hi>Conſtitutions.</hi> And were <hi>All</hi> the Inventions of my Grand-father Mr. IOHN BANISTER that famous both <hi>Phyſitian</hi> and <hi>Chy<g ref="char:EOLhyphen"/>rurgion</hi> in this Citie. And now if any ſhall deſire them, I will quickly Prepare them againe. I will nor brag what they did, nor court mens beleefe like a <hi>Mountebanck.</hi> I am knowne to many, and the Iudious are like enough to truſt me by that I have written.</p>
+            <p>I live in <hi>Golden-Lane,</hi> over againſt the Signe of the Golden <hi>Flower de Luce.</hi>
+            </p>
+            <p>
+               <hi>The Lord of Heaven in mercie looke downe vpon this Citie.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>

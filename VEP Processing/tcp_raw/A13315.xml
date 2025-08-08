@@ -1,0 +1,663 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The A, B, C, of armes, or, An introduction directorie whereby the order of militarie exercises may easily bee vnderstood, and readily practised, where, when, and howsoeuer occasion is offered / by I.T. ...</title>
+            <author>I. T.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1616</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 44 KB of XML-encoded text transcribed from 23 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A13315</idno>
+            <idno type="STC">STC 23623</idno>
+            <idno type="STC">ESTC S1392</idno>
+            <idno type="EEBO-CITATION">19968432</idno>
+            <idno type="OCLC">ocm 19968432</idno>
+            <idno type="VID">23570</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A13315)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 23570)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1717:4)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The A, B, C, of armes, or, An introduction directorie whereby the order of militarie exercises may easily bee vnderstood, and readily practised, where, when, and howsoeuer occasion is offered / by I.T. ...</title>
+                  <author>I. T.</author>
+               </titleStmt>
+               <extent>[44] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by W. Stansby, for Iohn Helmes, and are to be sold at his shop in S. Dunstane Church-yard in Fleet-street,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1616.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Signatures: A⁸(-A1) B-C⁸ (last leaf blank).</note>
+                  <note>Reproduction of original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Infantry drill and tactics --  Early works to 1800.</term>
+               <term>Infantry --  Equipment --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-04</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-05</date>
+            <label>Lauren Proux</label>Sampled and proofread</change>
+         <change>
+            <date>2009-05</date>
+            <label>Lauren Proux</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:23570:1"/>
+            <pb facs="tcp:23570:1" rendition="simple:additions"/>
+            <p>THE A, B, C, OF ARMES, <hi>OR,</hi> An Introduction Directorie; whereby the order of Militarie ex<g ref="char:EOLhyphen"/>erciſes may eaſily bee vnderſtood, and readily practiſed, where, when, and howſoeuer occaſion is offered.</p>
+            <p>By I. T. Gent.</p>
+            <q>Nomen &amp; officium militiae dehoneſtant imperiti.</q>
+            <p>LONDON, Printed by <hi>W. Stansby,</hi> for <hi>Iohn Helmes,</hi> and are to be ſold at his ſhop in <hi>S. Dunſtane</hi> Church-yard in Fleet-ſtreet. 1616.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:23570:2"/>
+            <pb facs="tcp:23570:2"/>
+            <head>THE A, B, C, OF ARMES.</head>
+            <p>
+               <seg rend="decorInit">I</seg>T was <hi>(nec immeritò)</hi> obiected to <hi>Machia<g ref="char:EOLhyphen"/>nel,</hi> as a token of ex<g ref="char:EOLhyphen"/>treme folly (how<g ref="char:EOLhyphen"/>ſoeuer otherwayes he was too well ac<g ref="char:EOLhyphen"/>quainted with <hi>Policy</hi>) that being a pen-man by profeſſion, he aduentu<g ref="char:EOLhyphen"/>red ſo farre vpon reading, and heare-ſay: that he preſcribed rules, and da<g ref="char:EOLhyphen"/>red to giue direction to <hi>Mars</hi> and his followers: to free my ſelfe from like imputation; know all ſuch to whoſe knowledge, I deſire to bee endeard
+<pb facs="tcp:23570:3"/>(that is to ſouldiers and their louing friends) that howſoeuer at this time (the heauenly powers ſo directing it) I practiſe in the Schole of <hi>Peace</hi> and <hi>pro feodo</hi> puniſh others, <hi>qui vi &amp; <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rmis, &amp;c.</hi> yet heretofore I haue had a fellow-feeling of a Souldiers la<g ref="char:EOLhyphen"/>bour in the field: and for ſome yeers beene eye-witneſſe of warlike de<g ref="char:EOLhyphen"/>ſignes: learning the dutie of <hi>Obedi<g ref="char:EOLhyphen"/>ence,</hi> and practiſing the action of <hi>Re<g ref="char:EOLhyphen"/>ſolution (abſit arrogantia veritatem di<g ref="char:EOLhyphen"/>cere)</hi> aſwell in Campe beleagring, as in Citie beſieged. So that I need not doubt, but that I may without iuſt aſperſion repeate the letters, though now no profeſſed Souldier, ſince I preſume not to ioyne the ſyllables of Armes. And whereas
+<note n="*" place="margin">Firſt, it is curioſitie to know onely that they might know. <hi>2.</hi> Vanitie to know to be knowne. <hi>3.</hi> Lucre to know that they may ſell know<g ref="char:EOLhyphen"/>ledge. <hi>4</hi> Charitie to know that they may in<g ref="char:EOLhyphen"/>ſtruct. <hi>5.</hi> Wiſdome to know that their vnderſtan<g ref="char:EOLhyphen"/>ding may be bettered.</note> 
+               <hi>S. Bernard</hi> de<g ref="char:EOLhyphen"/>cyphering fiue ends of knowledge, onely approueth theſe two, <hi>wiſely</hi> or <hi>charitably,</hi> thereby to better them<g ref="char:EOLhyphen"/>ſelues or others: I haue <hi>(me iudice)</hi> ſquared ſome part of this vacation
+<pb facs="tcp:23570:3"/>ſtudie according to the leuell of this Directorie. And though in theſe <hi>Hal<g ref="char:EOLhyphen"/>tion</hi> dayes, wherein <hi>Peace</hi> and <hi>Plentie</hi> lull vs aſleepe in the lap of <hi>Securitie,</hi> Souldiers are out of requeſt, and my more profitable ſtudies, <hi>neceſsitatis gratia,</hi> otherwiſe chiefly beſtowed: and no hope left for mee this way to purchaſe either praiſe or profit: yet, that I might not vtterly forget, what formerly, not without ſome care and coſt, I learned: and that ſuch my friends, as in this faire peacefull ſun<g ref="char:EOLhyphen"/>ſhine will not altogether leaue behind them, the cloke of Martiall experi<g ref="char:EOLhyphen"/>ence, which might ſomewhat couer them, if a ſtorme chance (as heauen forfend it ſhould) to trouble them, in their iourny here: I ſay, that al might in ſomewhat partake of that poore mite of skill, which I formerly gay<g ref="char:EOLhyphen"/>ned: which, were it leſſe, might by communicating it, profit ſome, but preiudice none: I haue, and not with<g ref="char:EOLhyphen"/>out
+<pb facs="tcp:23570:4"/>ſome paines, contracted and briefly diſcouered, ſuch termes of mi<g ref="char:EOLhyphen"/>litarie diſcipline, and wordes of arte (whereof no one Gentle or other ſhould be meerely ignorant) as now in our moderne warres, are for the moſt part vſed; being no other in truth then what <hi>Caeſar,</hi> and the <hi>Ro<g ref="char:EOLhyphen"/>mans</hi> long ſince taught and practiſed.
+<q>
+                  <l>Aequè pauperibus proſit: locupletibus aequè:</l>
+                  <l>Aequè neglectum, pueris, ſenibuſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan>, nocebit.</l>
+               </q> And though it be to be wiſhed, that wee, which haue ſo long found the fruit of <hi>Peace,</hi> ſhould neuer feele the direfull effects of Warre: yet may it likewiſe be feared, that too much <hi>Se<g ref="char:EOLhyphen"/>curitie</hi> by lulling our ſenſes aſleepe, may open a paſſage to danger, if not further. The conſideration hereof, together with that precept of an an<g ref="char:EOLhyphen"/>cient Father,
+<note place="margin">Heu pati<g ref="char:EOLhyphen"/>mur longae pacis mala ſaeuior ar<g ref="char:EOLhyphen"/>mis luxuria incumbit.</note> 
+               <hi>Si non manu, mente tamen ſimus bellatores,</hi> (my naturall inclina<g ref="char:EOLhyphen"/>tion hauing euer been more prone to the <hi>Pike,</hi> then to the <hi>Pen</hi>) hath giuen
+<pb facs="tcp:23570:4"/>mee occaſion, to beſtow ſome few looſe houres, which ſome (I doubt not) will thinke, might haue beene better ſpent, to endeauour to rub off the ruſt, which eaſe hath bred vpon the ſwords of youth, and in ſhort time, might (if it haue not alreadie) eate off the edge of true courage And by reading ouer the <hi>A, B, C, of Armes,</hi> to a Souldier, to ſweep off thoſe cob<g ref="char:EOLhyphen"/>webs of careleſneſſe, that hang in e<g ref="char:EOLhyphen"/>uery corner of our thoughts, and haue of late ſo clouded the face of <hi>Reſolu<g ref="char:EOLhyphen"/>tion,</hi> that a <hi>Martialiſt</hi> which ſhould be in <hi>pace decus,</hi> in <hi>bello praeſidium,</hi> now walkes, <hi>tanquam piſcis in arida,</hi> vnre<g ref="char:EOLhyphen"/>guarded, and vnrewarded: whereby being forgotten (at leaſt ſlighted) they grow forgetfull, and faſhioning themſelues to the times, they retayne for the moſt part not ſo much as the remembrance of order, or habit, be<g ref="char:EOLhyphen"/>fitting a Souldier, but turne the Pike to the Pot, and the Speare to the Spin<g ref="char:EOLhyphen"/>dell,
+<pb facs="tcp:23570:5"/>
+               <q>
+                  <l>Conſuming all the day, nay, all the yeere,</l>
+                  <note place="margin">Loco galeae pilum caſto<g ref="char:EOLhyphen"/>rium acci<g ref="char:EOLhyphen"/>piunt.</note>
+                  <l>In Cypr<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> an d<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>lliance, and Belg<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ck cheere.</l>
+               </q> Leauing the Drum, for a Drab; the Sword and Dagger, for Drinke and Dice; ſo that now (I bluſh to report it) a Swaggerer, a Swearer, and a Souldier, are but appellations of one ſignification: <hi>Heu pudet dicere, Militia,</hi> which heretofore was accounted, <hi>Rei<g ref="char:EOLhyphen"/>publicae quies, &amp; firmitas, &amp; confirma<g ref="char:EOLhyphen"/>tio militis, ad robur, &amp; virtutem,</hi> is now in theſe neglectfull times by the abuſe of the meaner, and diſrepute caſt thereon by the vulgar ſort, accounted <hi>profeſſorum onus,</hi> not <hi>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>onos,</hi> yea a li<g ref="char:EOLhyphen"/>bertie of looſeneſſe: <hi>Venus</hi> Strumpets being more followed then <hi>Pallas</hi> Trumpets, good diſcipline militarie now marching vn-kiſt, becauſe vn<g ref="char:EOLhyphen"/>kent, ſtanding like the poore mens Boxe in Churches, with a particle of Scripture, inciting to <hi>Charitie,</hi> writ<g ref="char:EOLhyphen"/>ten ouer head, but nothing but neg<g ref="char:EOLhyphen"/>lect and contempt, I meane, duſt and
+<pb facs="tcp:23570:5"/>cob-webs within: <hi>Pride,</hi> and <hi>Epicu<g ref="char:EOLhyphen"/>riſme,</hi> the lees of lazineſſe, through want of imployment, ſo dulling the <hi>courage</hi> and <hi>reſolution</hi> of a Souldier, that <hi>Actuitie</hi> and <hi>Induſtrie,</hi> the eſſen<g ref="char:EOLhyphen"/>tiall parts of a good <hi>Martialiſt</hi> are weakened, and well-nigh worne out: And thereby all meanes almoſt taken away, whereby the knowledge of Armes, and principles of militarie diſcipline, might be preſerued in me<g ref="char:EOLhyphen"/>morie, and kept from obliuion. For redreſſe whereof, I haue, <hi>pro poſſe,</hi> vnder-taken to recollect ſuch obſer<g ref="char:EOLhyphen"/>uations in that kind, as in my yonger yeeres, following the warres, I got by example; and ſince the diſ-vſe of Armes, haue gathered by precept, out of ſuch Authors, as haue formerly treated of that ſubiect; <hi>Breue iter ad militiam per exempla, longum autem per praecepta.</hi> In which collection of mine, as a learned Writer of our time ſaid, though on another ſubiect, I may tru<g ref="char:EOLhyphen"/>ly
+<pb facs="tcp:23570:6"/>ſay, <hi>Omnia noſtra eſſe &amp; nihil.</hi> All things are mine, in reſpect of the ga<g ref="char:EOLhyphen"/>thering, or diſpoſition: nothing, or at leaſt very little, in regard of the inuen<g ref="char:EOLhyphen"/>tion of the things themſelues: <hi>nihil quod non prius.</hi> Yet ſuch as it is, for that if I flatter not my ſelfe, it may ſerue for the <hi>A, B, C, Darian Tiro,</hi> for ſome inſtruction, and ſtand to the <hi>ve<g ref="char:EOLhyphen"/>terane</hi> Souldier, and perfect <hi>Martialiſt,</hi> as a <hi>memento</hi> or remembrancer to re<g ref="char:EOLhyphen"/>uiſe what might for want of vſe bee forgotten: And to both in time of Muſters or Traynings (the frequent vſe whereof is much to bee deſired) may ſeeme both pleaſant and profi<g ref="char:EOLhyphen"/>table I offer and preſent to all ſuch as either deſire to deſerue the name or title of a <hi>Martialiſt.</hi> or delight to en<g ref="char:EOLhyphen"/>courage others (<hi>Age</hi> or <hi>Wedlock</hi> hauing crippled or with-drawne their proper inclinations) to practiſe diſcipline, and no others:
+<q>—Non egoventoſe plebis ſuffregia voenor:</q> For,
+<q>Odi profanum vulgus &amp; arceo.—</q>
+            </p>
+            <pb facs="tcp:23570:6"/>
+            <p>To you therefore, Heroick Brutes, and truly entitled Gentlemen, that ei<g ref="char:EOLhyphen"/>ther haue, or hereafter intend in the Academie of valour &amp; vertue (which <hi>Vigetius</hi> ſtileth the Campe) to beſtow your worthy to be termed honorable indeauours: <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>a poore,
+<note place="margin">Vnuſauiſ<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> fortunae ſuae faber.</note> but willing ad<g ref="char:EOLhyphen"/>mirer of Armes, offer ſand, in ſtead of ſiluer, and more acceptable and bene<g ref="char:EOLhyphen"/>ficiall matter towards the not buil<g ref="char:EOLhyphen"/>ding, but repaying the ruines of de<g ref="char:EOLhyphen"/>cayed Arte militarie,
+<q>
+                  <l>—Sit valuiſſe, ſat voluiſſe.</l>
+                  <l>Non quia poſſe fugit, me quo<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> velle ſugit.</l>
+               </q> To craue pardon, or intreate fa<g ref="char:EOLhyphen"/>uourable acceptance, were but to ſuſpect your generous diſpoſitions: aſſuming therefore the confidence, which <hi>Innocency</hi> armes <hi>reſolution</hi> with all: like a Souldier, vnwilling to pro<g ref="char:EOLhyphen"/>uoke, yet not daring to feare cenſure, I ſay, Either commend it, or, Come mend it; and ſo goe forward.</p>
+            <p>From the Pike, or the Pen, only pro<g ref="char:EOLhyphen"/>ceedeth true Gentilitie: for <hi>non genus,
+<pb facs="tcp:23570:7"/>ſed genius; non gens, ſed mens,</hi> proclay<g ref="char:EOLhyphen"/>meth the merit of the perſon.</p>
+            <p>Laying hold then of the Pike, a weapon for a Prince to practiſe, why ſhould not all young Gallants iumpe with the Poet,
+<q>Qui Veneri eſt habilis, b<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>llo quo<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> conueni aetas.</q> And hauing vigour and valour, en<g ref="char:EOLhyphen"/>able themſelues ſo farre to bee ac<g ref="char:EOLhyphen"/>quainted with the vſe of this diſci<g ref="char:EOLhyphen"/>pline, that what winde ſoeuer blow, they may bee freed from that aſperſi<g ref="char:EOLhyphen"/>on, which wiſe <hi>Vlyſſes</hi> caſt vpon <hi>Aiax;</hi>
+               <q>
+                  <l>Ne<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> enim clipei coelamina norit,</l>
+               </q>
+               <hi>Or from the like taxe,</hi>
+               <q>
+                  <l>Poſtulat vt capiat qui non intelligat Arma.</l>
+               </q> If they ſhould at any time, either for their own or countries good, attempt to vnder-take command, or expect preferment by the wars: if either they diſdain to be taught, or ſhame to ſeem to learne, let them but remember, that <hi>qui breui tempore diſciplinam no<g ref="char:cmbAbbrStroke">̄</g> patitur, omni tempore in pudore inſipientiae per<g ref="char:EOLhyphen"/>manebit.</hi> Let them therefore practiſe,
+<pb facs="tcp:23570:7"/>that they may be perfect: <hi>Paucos fortes natura procreat: quamplures bona inſtitu<g ref="char:EOLhyphen"/>tione reddit induſtria.</hi> It can be no diſ<g ref="char:EOLhyphen"/>paragement to bloud, nor diſgrace to birth, to manage or follow Armes: for truly it is ſaid, <hi>Virtus militaris prae<g ref="char:EOLhyphen"/>eſt caeteris omnibus:</hi> and, <hi>iter ad virtu<g ref="char:EOLhyphen"/>tem iſtam per artis regulas:</hi> Which as <hi>Vigetius</hi> preſcribeth, is, <hi>Militari gradu ambulare, celeriter &amp; aequaliter: locum de<g ref="char:EOLhyphen"/>ſtinatum non deſerere: ordinem non tur<g ref="char:EOLhyphen"/>bare: ſed ad nutum ducis, ſine tumultu reſpondere.</hi> All which may full well and eaſily be learned, by frequenting ſuch places where muſtring ſhall bee, and remembring ſuch termes of di<g ref="char:EOLhyphen"/>ſcipline, as are at this time chiefly in vſe. For as taſte cannot bee tryed by ſounds: no more can direction in tray<g ref="char:EOLhyphen"/>ning be vnderſtood by any, to whom the words of co<g ref="char:cmbAbbrStroke">̄</g>mand are vnknowne. It is therefore greatly to bee deſired, that all men would learne, how to re<g ref="char:EOLhyphen"/>ceiue direction, by acquainting them<g ref="char:EOLhyphen"/>ſelues
+<pb facs="tcp:23570:8"/>with the termes. And that mu<g ref="char:EOLhyphen"/>ſters might be often vſed, that euery one might practiſe publikely, what they haue priuately learned: And though ſome more curiouſly capti<g ref="char:EOLhyphen"/>ous, then conſiderably politike, ſeem to affirm, that it is dangerous as now, to diſquiet the times with trayning of Souldiers, or to awaken the ſecuritie of peace with rumours of warres: for that, as they ſay, it may giue occaſion of ſuſpect to our Neighbors, and may buzze conceits in greene heads <hi>(qui<g ref="char:EOLhyphen"/>bus bellum dulce)</hi> which may draw on further attempts, then ſtands with the quiet of our peacefull gouernement to admit, yet ſince it is <hi>aliud parare, a<g ref="char:EOLhyphen"/>liud exercere belium,</hi> if I may haue leaue to ſpeake my opinion as a parcell-guilt Scholer, and a pen and inke-horne Souldier, I doubt not but that it may ſtand with the policie of the State, to admit more then yeerely ſhewes of Armour to be made, yea, I
+<pb facs="tcp:23570:8"/>dare affirme with <hi>Lypſius, Salus rei<g ref="char:EOLhyphen"/>publicae, plus fortitudine quàm concordia conſiſtit:</hi> And how can there be <hi>forti<g ref="char:EOLhyphen"/>tudo,</hi> when a Souldier is little known, leſſe reſpected? And Martiall diſci<g ref="char:EOLhyphen"/>pline, without which a Souldier is no more valiant then bookes not vnder<g ref="char:EOLhyphen"/>ſtood, is learning, neither vſed nor remembred: wiſely he ſaid, that as in warre, peace; ſo in peace, war,
+<note place="margin">Bracton. l. <hi>t</hi> in Rege qui recte regit. <hi>2.</hi> ſunt ne<g ref="char:EOLhyphen"/>ceſſaria, ar<g ref="char:EOLhyphen"/>ma &amp; Le<g ref="char:EOLhyphen"/>ges.</note> is to be prouided for: the true knowledge of this, conſeruing the quiet of that, and the due obſeruance and execution of order in either, maintayning the ho<g ref="char:EOLhyphen"/>nor and eſtimation of both: And wor<g ref="char:EOLhyphen"/>thy the remembrance are thoſe prin<g ref="char:EOLhyphen"/>ciples of learned and iudicious maſter <hi>Caſe,</hi> where he maintayneth a neceſſi<g ref="char:EOLhyphen"/>tie in the time of ceſſation of warre, to exerciſe Militarie diſcipline,
+<note place="margin">Sphaera Ci<g ref="char:EOLhyphen"/>uitatis.</note> alleadge<g ref="char:EOLhyphen"/>ing, <hi>Opportunius res bellicas tractari non poſſe, quàm tempore pacis:</hi> affirming further, <hi>Non altis moenibus Ciuitatum, ſed expertis manibus militum, Imperij
+<pb facs="tcp:23570:9"/>ſalus, &amp; tutela continetur:</hi> their experi<g ref="char:EOLhyphen"/>ence being wonne by exerciſe in the time of peace, and made perfect in the time of warre: For as the multi<g ref="char:EOLhyphen"/>tude of Pleaders and Phyſicions, is an argument of a riotous and diſtempe<g ref="char:EOLhyphen"/>red Citie; ſo nothing, ſaith <hi>Vigetius, Firmius aut foelicius eſt Reipublicae, in qua milites abundant eruditi. Ars bellandi,</hi> ſaith <hi>Caſsio, ſi non pace praeluditur, quan do fuerit neceſſarium, non habetur: diſ<g ref="char:EOLhyphen"/>cat ergo miles otio, quod performare poſsit bello. Scientia rei bellicae,</hi> ſaith <hi>Vigetius, demicandi nutrit audaciam, nemo enim bello facile metuit, quod ſe pace didiciſſe bene confidit.</hi> The ſame Author goeth further, and ſaith, <hi>Qui deſider at pacem, praeparet bellum: qui victoriam cupit, mi<g ref="char:EOLhyphen"/>lites imbuat diligenter: qui ſecundos op<g ref="char:EOLhyphen"/>tat, euentus diſcat pace, vt dimicet arte, non caſu.</hi> And ſaith <hi>Seneca, Diu praepa<g ref="char:EOLhyphen"/>randum eſt bellum, vt vincas caelerius.</hi> And, <hi>Sub Clipeo tutius ſuccedit pacis ne<g ref="char:EOLhyphen"/>gotium: ac pace de bello melius conſulitur.</hi>
+               <pb facs="tcp:23570:9"/>If then it be not onely lawfull, but ex<g ref="char:EOLhyphen"/>pedient, to haue in peace expert Soul<g ref="char:EOLhyphen"/>diers, which can no waies be made ſo, but by thoſe ordinarie courſes which our Predeceſſors haue inuented:
+<note place="margin">Ars tritos, vſus promp<g ref="char:EOLhyphen"/>tos, imitatio reddit Artifices aptos.</note> and our bordering Neighbours doe put in practice: that is, by inſtruction, and co<g ref="char:cmbAbbrStroke">̄</g>uenient exerciſe, I hold it for gran<g ref="char:EOLhyphen"/>ted, that to train &amp; muſter Souldiers, and to inſtruct them with the termes of motion, and militarie principles, is a thing moſt neceſſarie, and in ſome ſort commanded: For wheras a Soul<g ref="char:EOLhyphen"/>dier is ſaid, to bee a <hi>Protector</hi> of his Prince, a <hi>Defender</hi> of liberall Arts, an <hi>Vp-holder</hi> of the ſeate of Iuſtice, a <hi>Reſiſter</hi> of Forrainers, and a <hi>Repreſ<g ref="char:EOLhyphen"/>ſer</hi> of domeſtick Enemies, a <hi>Maintay<g ref="char:EOLhyphen"/>ner</hi> of the Libertie, and quiet of his Countrie<g ref="char:punc">▪</g> It is to bee vnderſtood, of an expert valiant Souldier: for <hi>valour</hi> and <hi>diſcretion</hi> in a Souldier are inſepa<g ref="char:EOLhyphen"/>rable adiuncts: And without <hi>dire<g ref="char:EOLhyphen"/>ction</hi> and <hi>obedience,</hi> it is not poſſible
+<pb facs="tcp:23570:10"/>for any militarie or worthy attempt, to be ſucceſſefull: For he is no more a Souldier,
+<note place="margin">Miles quaſi vir ex mili<g ref="char:EOLhyphen"/>bus vnus.</note> that receiueth his pay, is inrolled in a companie, and weareth the abillime<g ref="char:cmbAbbrStroke">̄</g>t of war, without know<g ref="char:EOLhyphen"/>ledge of diſcipline, and obſeruance of order: then <hi>Pilate</hi> is a Saint, though he be named in our Creede. It behoueth therefore euery perſon that intendeth to leade the life of a Souldier, at the entring of his name in <hi>Bellonaes</hi> Regi<g ref="char:EOLhyphen"/>ſter, to put on the firſt habit of a Soul<g ref="char:EOLhyphen"/>dier, which is obedience: without which, whoſoeuer endeuoureth to learne the vſe of Armes, labours to make his skore the greater, by paying the reckoning with chalke: And will aſſoone ſuck milk from a flint, as true merit in martiall courſes: for hee can neuer be able to command wel, which hath not firſt laboured to obey: <hi>Sum<g ref="char:EOLhyphen"/>ma enim militiae laus, in obedientia conſi<g ref="char:EOLhyphen"/>ſtit.</hi> And this obedience, <hi>in reuerentiam exhibendo, in mandata ſuſcipiendo, &amp; in
+<pb facs="tcp:23570:10"/>iudicium ſubeundo, plerun<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ſita eſt.</hi> The Souldier ſheweth his loue, by v<g ref="char:EOLhyphen"/>ſing obedience to his Officer; perfor<g ref="char:EOLhyphen"/>meth his dutie, in doing what hee is commanded by his Officer, and pro<g ref="char:EOLhyphen"/>claymeth his modeſtie, in not expo<g ref="char:EOLhyphen"/>ſtulating the reaſon, but willingly vn<g ref="char:EOLhyphen"/>dergoeth the cenſure of his Officer or Captayne: For euery chiefe Com<g ref="char:EOLhyphen"/>mander, as Captayne and his Liefte<g ref="char:EOLhyphen"/>nant, Enſigne-bearer, Seriants, and Corporalls, either haue, or ought to haue in themſelues, authoritie reſpe<g ref="char:EOLhyphen"/>ctiuely to command, and procure re<g ref="char:EOLhyphen"/>uerence, and obedience, from others, and experience, and gouernement to direct, and cenſure themſelues, and o<g ref="char:EOLhyphen"/>thers: <hi>Miles</hi> (ſaith a Father) <hi>manda<g ref="char:EOLhyphen"/>tum ducis non procraſtinat, parat aures auditui, pedesitineri, manusoperi, &amp; ſe to<g ref="char:EOLhyphen"/>tum intus colligit, vt mandatum peragat imperantis:</hi> he ſaith not <hi>linguam voci:</hi> for ſilence is the firſt leſſon of obedi<g ref="char:EOLhyphen"/>ence: and how can he be ſaid to obey,
+<pb facs="tcp:23570:11"/>that will not ſilently attend when, &amp; what, he ſhall be commanded. <hi>Obe<g ref="char:EOLhyphen"/>dience</hi> hauing preſcribed <hi>Silence:</hi> the next leſſon a Souldier is to learne, is to apt himſelfe to manage and pra<g ref="char:EOLhyphen"/>ctiſe ſuch weapons, as by his Officer is appointed to him: for howſoeuer a naturall inclination is in ſome more then others, to vſe the Peece rather then the Pike, and ſo, &amp;c. And though that is ſooneſt lerned, to which a man by nature is moſt inclinable, yet the weapon is appointed to, not choſen by the Souldier; howſoeuer it is to be wiſhed, that all ſuch to whom the ap<g ref="char:EOLhyphen"/>pointment of weapon doth belong, would obſerue in his Souldier,
+<q>Quid valcant humeri fer<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e, &amp; quid ſer<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e recuſant.</q>
+            </p>
+            <p>Now hauing his Armes, which are the members of a Martialiſt, they muſt be alwaies carefully kept cleane from ruſt, both within and without, be it Peece or Corſlet, with all the fur<g ref="char:EOLhyphen"/>niture
+<pb facs="tcp:23570:11"/>thereunto belonging, that is to ſay, to a Musket, a Head-peece, a Sword and Dagger, a Musket carry<g ref="char:EOLhyphen"/>ing a Bullet, whereof ten make a pound: a Musket Reſt, Bandaleros, (the flaske being more cumberſome and ſubiect to firing, and therefore more dangerous) Bullet-bagge with Bullets, Poulder, and Match. To a Pike-man, a Pike, a Sword and Dag<g ref="char:EOLhyphen"/>ger, a Head-peece, a Gorget, a Breſt-plate, a Back, with powldrons to the elbow. I ſet downe theſe furnitures particularly, the rather for that <hi>Count Morrice, Anno</hi> 1598. gaue expreſſe order that none ſhould paſſe the mu<g ref="char:EOLhyphen"/>ſter, except thus furniſhed.</p>
+            <p>Being thus furniſhed, it is requiſite, that he acquaint his eye, and eare with ſuch ſignes and ſounds, termes and wordes, as his Leader or Comman<g ref="char:EOLhyphen"/>der ſhal vſe in his direction, or charge. And firſt, he muſt be perfect in euery particular ſound of the Drum, as
+<pb facs="tcp:23570:12"/>namely: firſt, a Call: ſecondly, a March: thirdly, a Troope: fourthly, a Charge: and fifthly, Retrait: For the <hi>Battali<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>,</hi> Reliefe, Batterie, Parlee, and ſuch like, I betray my ignorance to the World, I take to bee no other but one of the fiue firſt ſounds, and not by the eare eaſily to bee diſtin<g ref="char:EOLhyphen"/>guiſht, and therefore of no great im<g ref="char:EOLhyphen"/>portance to be obſerued.</p>
+            <p>The Drum (as a moſt iudicious and painefull Gentleman, whoſe induſtrie and experience diſcouereth by pra<g ref="char:EOLhyphen"/>ctick, what I partly gleane from him in the theorick, defineth it) is an inſtru<g ref="char:EOLhyphen"/>ment, deſigned for the exerciſe of foot Souldiers, reſounding the command of the Generall, the which euery ſoul<g ref="char:EOLhyphen"/>dier is obliged to obey, and follow, without delay, as well as the voice of his Co<g ref="char:cmbAbbrStroke">̄</g>mander: of the ſeuerall ſounds whereof, what Souldier ſoeuer is ig<g ref="char:EOLhyphen"/>norant, it is vnpoſſible hee ſhall per<g ref="char:EOLhyphen"/>forme his dutie in all points, and at all
+<pb facs="tcp:23570:12"/>times: for either hee muſt doe by the example of others, which perhaps at all times hee is not bound vnto; or elſe expect his Commanders directi<g ref="char:EOLhyphen"/>on, whoſe voice cannot extend to the hearing of all, &amp; ſo become culpable in his dutie: wherfore, as it is moſt ex<g ref="char:EOLhyphen"/>pedient, that euery companie excee<g ref="char:EOLhyphen"/>ding the number of a hundred, ſhould bee furniſhed with two ſufficient Drummers, ſuch as are able to beate perfectly: So is it moſt neceſſary that euery Souldier, at the firſt, and for the firſt principle, ſhould apply his eare, and ſtudie to apprehend, and learne to vnderſtand, thoſe ſeuerall ſounds: without the knowledge wherof, how doth any Souldier know of his owne meer motion, when to march, troope, charge, or retrait, &amp;c. except only by the Drums direction, who is alwayes at his Commanders elbow, readie by the ſound therof to denounce his wil?</p>
+            <p>As the eare by the Drum, ſo the eie
+<pb facs="tcp:23570:13"/>muſt bee directed by the Standard or Colours: the one deſigning of the time, the other the place, whither to repaire, and where he is to attend the command of his Officer.</p>
+            <p>The <hi>Enſigne</hi> is an ornament of Armes, firſt inuented for direction, and diſtinction. For direction, to the Souldier, whither vpon all occaſions to draw, and where to abide: for di<g ref="char:EOLhyphen"/>ſtinction to bee knowne from other Companies, and other Nations: The colours whereof are at the diſcretion of the Captayne: either his owne Co<g ref="char:EOLhyphen"/>lours, belonging to his houſe; if he be a Gentleman of Coate-Armour, or what other his inuention ſhal beſt like of. But alwayes hauing a red Croſſe therin, being the badge of an Engliſh<g ref="char:EOLhyphen"/>man: S<hi rend="sup">t</hi>. GEORGES Croſſe being pe<g ref="char:EOLhyphen"/>culiarly appropriated to that Nation: For as in old time: Phryſij <hi>ſuem,</hi> Ar<g ref="char:EOLhyphen"/>menij <hi>ariete<g ref="char:cmbAbbrStroke">̄</g>,</hi> Scythae <hi>fulgur,</hi> Perſi <hi>Ar<g ref="char:EOLhyphen"/>cu<g ref="char:cmbAbbrStroke">̄</g>,</hi> Scilices <hi>caput armatu<g ref="char:cmbAbbrStroke">̄</g>,</hi> Thraſes <hi>Mar<g ref="char:EOLhyphen"/>tem,</hi>
+               <pb facs="tcp:23570:13"/>Phoenices <hi>Herculem,</hi> Aegyptij <hi>Ibi<g ref="char:EOLhyphen"/>dem,</hi> Mileſij <hi>Leonem,</hi> Athemenſes <hi>no<g ref="char:EOLhyphen"/>ctuam,</hi> Corinthij <hi>Pegaſum,</hi> Pelopo<g ref="char:cmbAbbrStroke">̄</g>neſi <hi>teſtudine<g ref="char:cmbAbbrStroke">̄</g>,</hi> Itali <hi>Equum,</hi> Venetiae <hi>Leone<g ref="char:cmbAbbrStroke">̄</g> cum libro, diuo Marco conſecratum;</hi> Ge<g ref="char:EOLhyphen"/>noae <hi>ſanctu<g ref="char:cmbAbbrStroke">̄</g> Georgium equo inſidentem,</hi> Senenſes <hi>Lupam,</hi> Florentini <hi>Leonem, I<g ref="char:EOLhyphen"/>ta</hi> Angli <hi>crucem rubram pro inſigne ha<g ref="char:EOLhyphen"/>buerunt.</hi> And as M<hi rend="sup">r</hi>. <hi>Francis</hi> ſaith in his Treatiſe, <hi>De inſignibus libro primo: Inſignum ſingularis eſt vtilitas; ad gra<g ref="char:EOLhyphen"/>dus turmaſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> diſtinguendas. Vexilla,</hi> ſaith another, <hi>intuentur milites: ea ſequuntur, obſeruant, tuentur, &amp; corum ſignibus, vt nauis gubernaculo diriguntur.</hi> Being come to the Colours<g ref="char:punc">▪</g> that he may be able to performe what he ſhall be ap<g ref="char:EOLhyphen"/>pointed; he muſt be perfectly inſtru<g ref="char:EOLhyphen"/>cted with the true knowledge of <hi>Files,</hi> and <hi>Rankes, Fronts,</hi> and <hi>Flankes, Leaders,</hi> and <hi>Followers, Middle-men,</hi> and <hi>Bringers</hi> vp, and not be ignorant of the chiefe principles of Action, (that is to ſay) of <hi>Poſture, Diſtance,</hi>
+               <pb facs="tcp:23570:14"/>and orderly Motion, the knowledge of which warlike motions, may truly be ſaid to be the art of Warre.</p>
+            <p>By Poſture is vnderſtood the ma<g ref="char:EOLhyphen"/>nageing of Martiall weapons, either Standing, Marching, Chargeing, or Diſchargeing, the eaſieſt and readi<g ref="char:EOLhyphen"/>eſt way to offend or defend: <hi>Si do<g ref="char:EOLhyphen"/>ctrina ceſſat armorum, nihil Paganus di<g ref="char:EOLhyphen"/>ſtat a milite.</hi>
+            </p>
+            <list>
+               <item>Poſture conſiſteth of 
+<list>
+                     <item>Standing,</item>
+                     <item>Marching,</item>
+                     <item>Chargeing.</item>
+                  </list>
+               </item>
+            </list>
+            <list>
+               <item>Poſtures of the Pike, 
+<list>
+                     <item>In Standing are three,</item>
+                     <item>In Marching are ſixe,</item>
+                     <item>In Chargeing are three.</item>
+                  </list>
+               </item>
+            </list>
+            <list>
+               <item>Of the Mus<g ref="char:EOLhyphen"/>ket, in 
+<list>
+                     <item>Standing one,</item>
+                     <item>Marching one,</item>
+                     <item>Chargeing eighteene,</item>
+                     <item>Diſchargeing twelue.</item>
+                  </list>
+               </item>
+            </list>
+            <pb facs="tcp:23570:14"/>
+            <p>All which in ſight are reduced to three.</p>
+            <list>
+               <item>Poſtures of the Pike ſtanding, 
+<list>
+                     <item>Lay downe your Pike.</item>
+                     <item>Take vp your Pike.</item>
+                     <item>Order your Pike.</item>
+                  </list>
+               </item>
+            </list>
+            <list>
+               <item>Thereof march<g ref="char:EOLhyphen"/>ing, 
+<list>
+                     <item>Aduance your Pike.</item>
+                     <item>Shoulder your Pike.</item>
+                     <item>Leuell your Pike.</item>
+                     <item>Slope your Pike.</item>
+                     <item>Cheeke your Pike.</item>
+                     <item>Trayle your Pike.</item>
+                  </list>
+               </item>
+            </list>
+            <list>
+               <item>Poſture there<g ref="char:EOLhyphen"/>of, chargeing, 
+<list>
+                     <item>Port your Pike.</item>
+                     <item>Charge your Pike.</item>
+                     <item>Couch at the foot, your Pike.</item>
+                  </list>
+               </item>
+            </list>
+            <p>Of all foot weapons this is eſtee<g ref="char:EOLhyphen"/>med the moſt honourable, for that it can bee accounted no diſparagement to a Commander, to traile his Pike vnder his fellow-Captaynes Colours.</p>
+            <pb facs="tcp:23570:15"/>
+            <list>
+               <item>Poſture of the Musket, ſtanding, Reſt your Musket.</item>
+            </list>
+            <p>Your Musket ſhouldred,
+<list>
+                  <item>Poſture thereof, march<g ref="char:EOLhyphen"/>ing, 
+<list>
+                        <item>Cleere your Pan,</item>
+                        <item>Prime your Pan,</item>
+                        <item>Cloſe your Pan,</item>
+                        <item>Caſt off the looſe poulder,</item>
+                        <item>Blow your Pan,</item>
+                        <item>Caſt about, and traile your Reſt,</item>
+                        <item>Open your charges,</item>
+                        <item>Charge with poulder.</item>
+                     </list>
+                  </item>
+               </list>
+               <list>
+                  <item>Poſture thereof, charge<g ref="char:EOLhyphen"/>ing, 
+<list>
+                        <item>Draw out your skowring ſticke,</item>
+                        <item>Shorten your ſticke,</item>
+                        <item>Ram in your poulder,</item>
+                        <item>Draw out your ſticke,</item>
+                        <item>Charge with buller,</item>
+                        <item>Ram in your bullet,</item>
+                        <item>Draw out your ſticke,</item>
+                        <item>Shorten your ſtick and put it vp,</item>
+                        <pb facs="tcp:23570:15"/>
+                        <item>Bring your musket forward with the left hand.</item>
+                        <item>Hold it vp with the right, and recouer your Reſt.</item>
+                     </list>
+                  </item>
+               </list>
+            </p>
+            <p>Of which poſtures it is but idle to giue aduertiſement, that the foure, af<g ref="char:EOLhyphen"/>ter the chargeing with poulder, <hi>viz.</hi> to charge with bullet, is rather to bee conceited, how then practiſed at theſe times, where to doe it.</p>
+            <list>
+               <item>Poſtures of the Musket, diſchar<g ref="char:EOLhyphen"/>ging, 
+<list>
+                     <item>Carry your Reſt in the left hand,</item>
+                     <item>Reſt your Musket,</item>
+                     <item>Take your match in the right hand,</item>
+                     <item>Hold the match &amp; blow it,</item>
+                     <item>Cocke it,</item>
+                     <item>Try it,</item>
+                     <item>Guard the Pan and blow it,</item>
+                     <item>Open the Pan,</item>
+                     <item>Preſent the Musket,</item>
+                     <item>Giue fire,</item>
+                     <pb facs="tcp:23570:16"/>
+                     <item>Diſmount it,</item>
+                     <item>Vncocke the match, &amp; hold it twixt your fingers.</item>
+                  </list>
+               </item>
+            </list>
+            <list>
+               <item>In fight onely 
+<list>
+                     <item>Make readie,</item>
+                     <item>Preſent,</item>
+                     <item>Giue fire.</item>
+                  </list>
+               </item>
+            </list>
+            <p>It is generally to be obſerued, that when you charge with your Pike, or diſcharge your Musket, you place your left leg forward; but when you martch, you begin with the right.</p>
+            <p>
+               <hi>The next thing that is to bee obſerued,
+<note place="margin">Ordo eſt pa<g ref="char:EOLhyphen"/>rium, diſpa<g ref="char:EOLhyphen"/>rium<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> re<g ref="char:EOLhyphen"/>rum diſtri<g ref="char:EOLhyphen"/>butio.</note> is, diſtince of order.</hi>
+            </p>
+            <p>By diſtance is meant a certain ſpace betweene File and File, Ranke and Ranke, in ſuch order, &amp; to that mea<g ref="char:EOLhyphen"/>ſure, as pleaſeth the Commander to nominate. The which if Souldiers obſerue not, then is that Companie or Troope ſo exerciſed out of order and diſcipline, more like men in rout &amp; diſorcer, then to a perfect <hi>Battalia.</hi>
+               <pb facs="tcp:23570:16"/>Therefore, this diſtance ought to bee ſuch a competent ſpace, as is meet and conuenient for <hi>motion</hi> For the <hi>ſtati<g ref="char:EOLhyphen"/>on</hi> of Souldiers is not alwayes ſtea<g ref="char:EOLhyphen"/>die and certaine, but that they all in<g ref="char:EOLhyphen"/>terchange mutually one with ano<g ref="char:EOLhyphen"/>ther: it conſiſts of order in Files, and Rankes, of which diſtances the <hi>Ro<g ref="char:EOLhyphen"/>manes</hi> onely obſerued theſe three.</p>
+            <list>
+               <item>1. <hi>Ordinatus miles.</hi>
+               </item>
+               <item>2. <hi>Denſatus ordo.</hi>
+               </item>
+               <item>3. <hi>Conſtipatus ordo.</hi>
+               </item>
+            </list>
+            <p>But at this day wee generally practiſe foure:
+<list>
+                  <item>Open order.</item>
+                  <item>Order.</item>
+                  <item>Cloſe order.</item>
+                  <item>Cloſeſt order.</item>
+               </list>
+            </p>
+            <p>Open order, ſixe foote diſtant from his ſide-man, and reare-man.</p>
+            <p>Order, diſtant three foote.</p>
+            <p>Cloſe order, a foote and a halfe.</p>
+            <p>Cloſeſt powldron to powldron with his ſide-men, and to the Swords point of the proceeding Ranke.</p>
+            <p>There is to be kept the like diſtance of Files, as of Rankes.</p>
+            <pb facs="tcp:23570:17"/>
+            <p>After the knowledge of your <hi>di<g ref="char:EOLhyphen"/>ſtance,</hi> you muſt with diligent care marke the <hi>motions</hi> of <hi>Files</hi> &amp; <hi>Rankes</hi> ſeuerall; &amp; of both conioyned, which <hi>motion</hi> is the actual operation of that bodie, which is moueable, whereof in this exerciſe long ſince, and at this time there are foure remarkeable cir<g ref="char:EOLhyphen"/>cumſtances:
+<list>
+                  <item>1. <hi>Ante.</hi>
+                  </item>
+                  <item>2. <hi>Retro.</hi>
+                  </item>
+                  <item>3. <hi>Dextrorſum.</hi>
+                  </item>
+                  <item>4. <hi>Siniſtrorſum.</hi>
+                  </item>
+               </list> Either by mouing forwards, as char<g ref="char:EOLhyphen"/>ging to the <hi>Front,</hi> back-wards by <hi>Re<g ref="char:EOLhyphen"/>trait,</hi> ſide-waies by <hi>Cloſing, Opening,</hi> or <hi>Doubling</hi> of <hi>Files</hi> to the <hi>right</hi> or <hi>left</hi> hand, by <hi>Wheeling</hi> or <hi>Conuerſing</hi> to either hand, the which is performed as occaſion preſents, according to the will &amp; direction of the Co<g ref="char:cmbAbbrStroke">̄</g>man<g ref="char:EOLhyphen"/>der, obſeruing it in <hi>Order,</hi> true <hi>Pace,</hi> true <hi>Diſtance,</hi> and perfect <hi>Poſture.</hi>
+            </p>
+            <p>For any other kinde of motion in a <hi>Battalia,</hi> or groſſe body, breeds both diſorder and confuſion:
+<pb facs="tcp:23570:17"/>
+               <q>Vbinullus eſt ord<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, certus eſt horror.</q> where on the other ſide; Order is the <hi>Beautie</hi> of nature, <hi>Ornament</hi> of arte, and <hi>Harmony</hi> of the World.</p>
+            <p>
+               <hi>Motion</hi> is in <hi>forme</hi> of <hi>Files</hi> and <hi>Rankes conioyned.</hi>
+            </p>
+            <p>
+               <hi>Motion</hi> of <hi>Files</hi> in proportion apart, are fiue.</p>
+            <p>Of <hi>Rankes</hi> apart, ſi<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e.</p>
+            <p>Of both conioyned, two.</p>
+            <p>
+               <hi>Motion</hi> in forme of <hi>Files</hi> ſeuerall, may be comprehended in foure, how<g ref="char:EOLhyphen"/>ſoeuer: ſome by ſhortning &amp; length<g ref="char:EOLhyphen"/>ning, and ſuch like phraſes of inuen<g ref="char:EOLhyphen"/>tion doe make nine.</p>
+            <p>
+               <hi>Motion</hi> in forme of <hi>Rankes</hi> ſeue<g ref="char:EOLhyphen"/>rall, are fiue: of <hi>both Rankes</hi> and <hi>Files</hi> conioyned, <hi>are eight.</hi>
+            </p>
+            <p>A whole companie, as one body, being perfect by inſtruction and vſe herein, and hereof, as occaſion ſhall require, may bee turned into diuers different formes, for the more offence, of the aſſayling Enemie, and defence of themſelues and abettors.</p>
+            <pb facs="tcp:23570:18"/>
+            <list>
+               <item>
+                  <hi>Motion</hi> in diffe<g ref="char:EOLhyphen"/>rent diſtances of <hi>Files</hi> cloſe. 
+<list>
+                     <item>Cloſe your files to the left hand.</item>
+                     <item>Cloſe your files.</item>
+                     <item>Cloſe your files to the right hand.</item>
+                  </list>
+               </item>
+            </list>
+            <list>
+               <item>
+                  <hi>Motion</hi> in diſtances of files open 
+<list>
+                     <item>Open to the right hand.</item>
+                     <item>Open to the left hand.</item>
+                  </list>
+               </item>
+            </list>
+            <list>
+               <item>
+                  <hi>Motion</hi> in diſtances of Rankes cloſe. 
+<list>
+                     <item>Cloſe Your Rankes from the Front to the Reare.</item>
+                     <item>Cloſe From the Reare to the Front.</item>
+                  </list>
+               </item>
+            </list>
+            <list>
+               <item>
+                  <hi>Motion</hi> in diſtances of Rankes open.
+<list>
+                     <item>Open Your Rankes From the Reare forward.</item>
+                     <item>Open Your Rankes From the Front Reareward.</item>
+                  </list>
+               </item>
+            </list>
+            <list>
+               <item>
+                  <hi>Motion</hi> in diſtances of ranks &amp; files conioyned, 
+<list>
+                     <item>Cloſe.</item>
+                     <item>Open.</item>
+                  </list>
+               </item>
+            </list>
+            <pb facs="tcp:23570:18"/>
+            <list>
+               <item>
+                  <hi>Motion</hi> in forme of <hi>Files.</hi> 
+                  <list>
+                     <item>Double your Files to the right hand</item>
+                     <item>Double your Files to the left hand</item>
+                  </list>
+               </item>
+            </list>
+            <list>
+               <item>Aduance your <hi>Files</hi> to the 
+<list>
+                     <item>Left hand.</item>
+                     <item>Right hand.</item>
+                  </list>
+               </item>
+            </list>
+            <list>
+               <item>By diuiſion to the 
+<list>
+                     <item>Right hand.</item>
+                     <item>Left hand.</item>
+                  </list>
+               </item>
+            </list>
+            <list>
+               <item>
+                  <hi>Files</hi> ranke by con<g ref="char:EOLhyphen"/>uerſion to the 
+<list>
+                     <item>Right hand.</item>
+                     <item>Left hand.</item>
+                  </list>
+               </item>
+            </list>
+            <list>
+               <item>
+                  <hi>Files</hi> counter<g ref="char:EOLhyphen"/>march to the 
+<list>
+                     <item>Right hand.</item>
+                     <item>Left hand.</item>
+                  </list>
+               </item>
+            </list>
+            <list>
+               <item>After the manner of the 
+<list>
+                     <item>
+                        <hi>Macedonians.</hi>
+                     </item>
+                     <item>
+                        <hi>Lacedaemonians.</hi>
+                     </item>
+                     <item>
+                        <hi>Perſians.</hi>
+                     </item>
+                  </list>
+               </item>
+            </list>
+            <p>Theſe ſeuerall manners of coun<g ref="char:EOLhyphen"/>ter-marching, I finde often cited by ſeuerall Authors by this terme, <hi>Euo<g ref="char:EOLhyphen"/>lutio
+<pb facs="tcp:23570:19"/>Macedonica, Laconica, Dorica:</hi> but confeſſe my ignorance, know not the difference, <hi>Ideo quaere.</hi>
+               <list>
+                  <item>
+                     <hi>Motion</hi> in forme of <hi>Ranks</hi> 
+                     <list>
+                        <item>double to the right hand.</item>
+                        <item>double to the left hand.</item>
+                     </list>
+                  </item>
+               </list>
+            </p>
+            <p>
+               <hi>File</hi> by conuerſion, <hi>vt ſupra.</hi> Ranke 7. 5. 9. &amp;c.</p>
+            <p>
+               <list>
+                  <item>Middlemen, double your <hi>Front</hi> to the 
+<list>
+                        <item>right hand.</item>
+                        <item>left hand.</item>
+                     </list> 
+                  </item>
+               </list>
+               <hi>To both</hi> by diuiſion.</p>
+            <p>Counter-march from the right to the left hand, and by <hi>conuerſion, vt ſupra.</hi>
+            </p>
+            <list>
+               <item>
+                  <hi>Motion</hi> in forme of co<g ref="char:cmbAbbrStroke">̄</g>ioyned <hi>Files</hi> and <hi>Rankes,</hi> Faces to the 
+<list>
+                     <item>Right hand.</item>
+                     <item>Left hand.</item>
+                  </list>
+               </item>
+            </list>
+            <pb facs="tcp:23570:19"/>
+            <p>
+               <hi>To both</hi> by Diuiſion.</p>
+            <p>
+               <hi>Faces to the</hi> Reare.</p>
+            <p>Wheele by <hi>Conuerſion.</hi>
+            </p>
+            <list>
+               <item>
+                  <hi>Charge</hi> to the 
+<list>
+                     <item>Right hand.</item>
+                     <item>Left hand.</item>
+                  </list>
+               </item>
+            </list>
+            <p>
+               <hi>To both</hi> by Diuiſion.</p>
+            <list>
+               <item>
+                  <hi>Charge</hi> to the 
+<list>
+                     <item>Front.</item>
+                     <item>Reare.</item>
+                  </list>
+               </item>
+            </list>
+            <p>
+               <hi>To both</hi> by Diuiſion.</p>
+            <p>A perfect <hi>File</hi> is a ſequence of men ſtanding one behinde another; backe to belly, and ſubſiſting commonly of ten in depth, according to the mo<g ref="char:EOLhyphen"/>derne vſe of the Warres of the Ne<g ref="char:EOLhyphen"/>therlands, it was by the <hi>Romans</hi> ter<g ref="char:EOLhyphen"/>med <hi>Series, Ordinatio, Decurio,</hi> it conſi<g ref="char:EOLhyphen"/>ſteth of Leaders, &amp; Followers, where<g ref="char:EOLhyphen"/>in the <hi>Decurio &amp; Tergi ductor,</hi> amongſt the <hi>Latines,</hi> but in our <hi>drilling</hi> the <hi>Leader, Middle-men,</hi> and <hi>Bringer</hi> vp, are principally to be regarded.</p>
+            <p>The <hi>Middle-man</hi> is either the <hi>fifth,</hi> or <hi>ſixth</hi> man, vncertaine which be<g ref="char:EOLhyphen"/>fore
+<pb facs="tcp:23570:20"/>the motion bee commanded: <hi>vt poſtea.</hi>
+            </p>
+            <p>A perfect <hi>Ranke</hi> is a ſtand or row of men, placed powldron to powl<g ref="char:EOLhyphen"/>dron, their faces being directed al one way, which by the <hi>Romanes</hi> was ſtiled <hi>Ordo.</hi>
+            </p>
+            <p>But when it is the firſt ranke com<g ref="char:EOLhyphen"/>poſed of <hi>Leaders</hi> of many Files, it was by them termed <hi>Fro<g ref="char:cmbAbbrStroke">̄</g>s &amp; Acies,</hi> but now vſually the Front <hi>Van</hi> or <hi>Voward.</hi>
+            </p>
+            <p>A <hi>Battalio</hi> is the connexion of ma<g ref="char:EOLhyphen"/>ny <hi>Files</hi> together: whereof the firſt <hi>Ranke</hi> is termed the <hi>Front:</hi> the right ſide, the right hand <hi>Flanke:</hi> the left ſide, the left hand <hi>Flanke:</hi> the laſt ranke in depth, the <hi>Reare:</hi> the fifth, and ſixth <hi>Rankes, Middle-men:</hi> and all the remainder, <hi>Side-men:</hi> ſo that where the faces are directed, one way ſtands the <hi>Front,</hi> the <hi>Reare</hi> is where the backs are turned: the two out<g ref="char:EOLhyphen"/>moſt <hi>Files,</hi> the right and left <hi>Flankes.</hi>
+            </p>
+            <p>In a <hi>Battalio</hi> likewiſe you muſt ob<g ref="char:EOLhyphen"/>ſerue,
+<pb facs="tcp:23570:20"/>that from the <hi>Leader,</hi> to the <hi>Bringer</hi> vp, the whole diſtance be<g ref="char:EOLhyphen"/>tweene is called the breadth and <hi>Depth</hi> of <hi>Ranke</hi> and <hi>File.</hi>
+            </p>
+            <p>It is requiſite that in your martch and ſtand, you regard your <hi>Leader,</hi> and <hi>Side-men,</hi> ſuch as in <hi>Ranke</hi> ſhall be placed on your right &amp; left hands, ſo that alwaies in File and Ranke you may bee found in the ſame <hi>Diſtance,</hi> wherein you are commanded.</p>
+            <p>It is to be obſerued, that by theſe wordes <hi>(as you were)</hi> it is intended to reduce the Souldier to the ſame place of <hi>order,</hi> wherin he ſtood before.</p>
+            <p>It is likewiſe to bee remembred, that when you double your <hi>Files</hi> to any hand, by doubling your <hi>Rankes</hi> to the contrary hand, they are as they were, and ſo of <hi>Rankes, vt ſupra.</hi>
+            </p>
+            <p>It is further to be remembred, that in chargeing with Pikes, only the firſt fiue Ranks doe charge: for the length of the longeſt Pike being but eigh<g ref="char:EOLhyphen"/>teene
+<pb facs="tcp:23570:21"/>foot long: the Pikes of the firſt Ranke, can but reach ouer the ſhoul<g ref="char:EOLhyphen"/>ders of the Front; ſo that if they ſhould bee driuen to Retreat, all the Rankes chargeing: the Subdiuiſion (which are the fiue Rankes on the Reare) rather hinder, and hurt their Leaders, then doe any ſeruice. It is therefore conuenient that the ſubdi<g ref="char:EOLhyphen"/>uiſion, hold their <hi>Pikes ported,</hi> or ad<g ref="char:EOLhyphen"/>uanced, for then they are readie vpon all occaſions, to charge without any difficultie, or preiudice to their fel<g ref="char:EOLhyphen"/>lowes: for it is to be vnderſtood, that the moſt exquiſite Captains do hold in theſe dayes, what <hi>Caeſar</hi> in his time practiſed, which is to martiall the Companies in <hi>ſquare manuples</hi> of <hi>hundreds,</hi> eſpecially Pikes, ſo that ne<g ref="char:EOLhyphen"/>uer or very ſeldome, they file their men but ten in depth.</p>
+            <p>If any ſhall queſtion why in this <hi>A, B, C,</hi> I ſet downe <hi>poſtures</hi> onely for two <hi>weapons,</hi> let him bee pleaſed
+<pb facs="tcp:23570:21"/>to receiue this for ſatisfaction, all ſhort weapons as <hi>Targateers, Bill<g ref="char:EOLhyphen"/>men,</hi> or <hi>Holbardeers,</hi> are in theſe times meerely out of vſe; and <hi>Arche<g ref="char:EOLhyphen"/>rie</hi> is ſo much controuerted by diffe<g ref="char:EOLhyphen"/>rent opinions, whether <hi>ſeruiceable</hi> or not <hi>neceſſarie</hi> for vſe, and is ſo <hi>ſtrong<g ref="char:EOLhyphen"/>ly,</hi> and <hi>ſtrangely</hi> oppoſed, and ſo <hi>weakely,</hi> &amp; <hi>waueringly</hi> defended; That were it not for thoſe two euer memo<g ref="char:EOLhyphen"/>rable victories, next vnder God, won by them, I meane <hi>Creſsy</hi> and <hi>Agincourt:</hi> It would grow queſtionable, whether euer it were in vſe amongſt Engliſh<g ref="char:EOLhyphen"/>men; But leauing that queſtion vnde<g ref="char:EOLhyphen"/>cided, I onely affirme, as in all other things, ſo in warre there is a viciſſi<g ref="char:EOLhyphen"/>tude of weapons, whereof I may tru<g ref="char:EOLhyphen"/>ly ſay, as one of words: <hi>Multa renaſ<g ref="char:EOLhyphen"/>cuntur? quaeiam cecidere, cadent<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan>: quae nunc ſunt in honore,</hi> many weapons and inſtruments of war, which were heretofore much praiſed and practi<g ref="char:EOLhyphen"/>ſed, are by change of times, and bene<g ref="char:EOLhyphen"/>fit of freſher inuention, either caſt
+<pb facs="tcp:23570:22"/>cleane out of doores, or at leaſt per<g ref="char:EOLhyphen"/>mitted to hang in houſes, like <hi>monu<g ref="char:EOLhyphen"/>menta adorandae rubiginis,</hi> retayning the bare name of furnitures, without <hi>praiſe</hi> or <hi>practice.</hi>
+            </p>
+            <p>And for your <hi>bare Pike,</hi> and <hi>Harcu<g ref="char:EOLhyphen"/>buz,</hi> or ſmall ſhot, they are included in the tractate of <hi>Pike,</hi> and <hi>Musket,</hi> and excepting the vſe or practice of the <hi>Musket rest,</hi> the <hi>Harcubuz</hi> and <hi>Musket,</hi> haue<g ref="char:punc">▪</g> one and the ſame <hi>Po<g ref="char:EOLhyphen"/>ſtures,</hi> and <hi>fruſtra fit per plura quod fie<g ref="char:EOLhyphen"/>ripoſsit per pauciora.</hi>
+            </p>
+            <q>
+               <l>—Amphora cepi</l>
+               <l>Inſtitui: currente rota, nunc vrceus exit.</l>
+            </q>
+            <p>
+               <hi>Opus &amp; vſus,</hi> my more then ordi<g ref="char:EOLhyphen"/>nary viſiters, knock at my ſtudy-dore and co<g ref="char:cmbAbbrStroke">̄</g>mand me (and the rather ſince in this vngratefull age, and amongſt thankleſſe Plebeians all paines in this kind merit but mocks) to attend pro<g ref="char:EOLhyphen"/>fit priuate, not publike, <hi>more magiſtro<g ref="char:EOLhyphen"/>rum:</hi> Therefore, what I begun with iumps and by fits, I end with, &amp;c. &amp;c.</p>
+            <q>Lingua in Conſilio valet, in Certamine dextra.</q>
+            <div type="part">
+               <pb facs="tcp:23570:22"/>
+               <head>Ad Lectores prorſus indignos.</head>
+               <p>THere are ſome whom Nature be<g ref="char:EOLhyphen"/>gun, but neuer finiſht, whoſe heat<g ref="char:EOLhyphen"/>leſſe and heartleſſe trunkes, like ouer-growne Thiſtles in a fertile ſoyle, heaue vp their vnprofitable heads, aboue the reach of better deſeruing perſons, and like Dogs in mangers, neither doe, nor ſuffer to be done. But ſquaring all other mens indeuours, by the crooked leuell of their pſeudopoliticall conceits, condemne what is moſt commendable in others, yet neither doe nor ſay any thing themſelues worthy co<g ref="char:cmbAbbrStroke">̄</g>menditions: Theſe Gallinaceus muſhrumps, <hi>qui fungino genere ſe to<g ref="char:EOLhyphen"/>tum caput tegunt:</hi> all head and no heart, lye ſnarling at Souldiers, and the profeſ<g ref="char:EOLhyphen"/>ſion militarie, and not hauing grace e<g ref="char:EOLhyphen"/>nough to make a prologue to a reaſonable breake-faſt, nor heart enough to oppoſe a Ginny-Hen, if her feathers ruffle; doe moſt of all, being ſenſible in nothing but blowes, traduce as vnchyiſtia<g ref="char:cmbAbbrStroke">̄</g>, the practice
+<pb facs="tcp:23570:23"/>of militarie diſcipline, and terme the Profeſſors thereof bloudie and barbarous, ſuch puſillanimous Plebeians, I <hi>bar by &amp; mayne, procul hinc procul ite pro<g ref="char:EOLhyphen"/>fani.</hi> Yet if any ſuch meticulous Buffone chance to beſmeare my well intended pre<g ref="char:EOLhyphen"/>uention of idleneſſe, with the ſlime of his calumny; let him be aſſured, that I rather pitty his want of wit, then feare his will or skill in rayling, or reaſoning againſt the man or the matter, <hi>quod decuit tantos, cur mihi turpe putem? &amp;c.</hi> I know the force of his circumſtances can neuer infer the concluſion hee will labour for, but as he begins with <hi>A.</hi> he will get but the ad<g ref="char:EOLhyphen"/>dition of double <hi>S.</hi> and ſo I leaue him, and reſt</p>
+            </div>
+            <closer>
+               <signed>A Friend to the Friend of a Souldier.
+I. T.</signed>
+            </closer>
+            <pb facs="tcp:23570:23"/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,609 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The good mans grace. Or His stay in all distresse. By Ric. Bernard</title>
+            <author>Bernard, Richard, 1568-1641.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1621</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 41 KB of XML-encoded text transcribed from 30 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A09114</idno>
+            <idno type="STC">STC 1942</idno>
+            <idno type="STC">ESTC S115314</idno>
+            <idno type="EEBO-CITATION">99850533</idno>
+            <idno type="PROQUEST">99850533</idno>
+            <idno type="VID">15742</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A09114)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 15742)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1437:18)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The good mans grace. Or His stay in all distresse. By Ric. Bernard</title>
+                  <author>Bernard, Richard, 1568-1641.</author>
+               </titleStmt>
+               <extent>[58] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Felix Kingston,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1621.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>On the Lord's prayer.</note>
+                  <note>Signatures: A-B¹²  C⁶ (-A1, blank?).</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Lord's prayer --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-11</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-01</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2013-01</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:15742:1"/>
+            <pb facs="tcp:15742:1"/>
+            <p>THE GOOD MANS GRACE. OR HIS STAY IN ALL DISTRESSE.</p>
+            <p>
+               <hi>BY</hi> RIC. BERNARD.</p>
+            <figure/>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>Felix Kingſton.</hi> 1621.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:15742:2"/>
+            <pb facs="tcp:15742:2"/>
+            <head>TO THE RIGHT WORSHIPFVLL HIS VERY GOOD <hi>Lady, the Lady</hi> SVSANNA BILLINGSLEY, and to the Vertuous and Chriſtianly affected Gentlewoman, Miſtris REBECCA STROWDE, <hi>all ſauing graces, with dayly increaſe and practice</hi> thereof vnto the end.</head>
+            <opener>
+               <salute>Madame,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">I</seg> Cannot but make account that I am bound to returne thankes, where I finde fauour and acceptance: acknowledgement is the leaſt part of my duty. He that will not confeſſe a debt, neuer
+<pb facs="tcp:15742:3"/> meanes to pay it: ſome ſuch there be: And others againe, will inge<g ref="char:EOLhyphen"/>nuouſly confeſſe, but not pay; not for that they will not, but becauſe they cannot. And inability gi<g ref="char:EOLhyphen"/>ueth an acquittance, though the debt be neuer ſo great: and the greatneſſe of a debt, is to be iudg<g ref="char:EOLhyphen"/>ed not alwayes in the value of the thing, but after the free diſpoſition of the one, and the little deſeruing of any ſuch fauour of the other. Thus is it with me. I haue found your Ladyſhip my louing friend, and this Vertuous Gentlewoman very Chriſtianly reſpectiue to<g ref="char:EOLhyphen"/>wards mee: to whom, as alſo to her ſecond ſelfe, I acknowledge my ſelfe deeply ingaged. It is not a hard matter to finde friends, though in theſe dayes few enow,
+<pb facs="tcp:15742:3"/> but to finde a faithfull friend, one that will know a man in aduerſity, is not ſo eaſie. Complementall are obuious euery where: but ſub<g ref="char:EOLhyphen"/>ſtantiall friends be rare: a face of fauour is in thoſe, and that onely in proſperity, but the force of loue is onely ſeene in theſe; when a friend needeth them, they fayle not, they faynt not. True loue, as Saint <hi>Iohn</hi> ſpeakes, driueth away feare. I am bold to preſent you both with this little Manual. It is thus little of purpoſe, that it may be often read ouer, to helpe onely for matter of meditation, to fur<g ref="char:EOLhyphen"/>ther you in prayer. I beſeech you to accept it in lieu of payment, and it ſhall bind mee to pray for the bleſſing of our God, ſtill vpon you, to whoſe gracious guidance
+<pb facs="tcp:15742:4"/> and protection, I commit you, and humbly take leaue.</p>
+            <closer>
+               <signed>Your Ladyſhips, and yours (my very good friend) euer to be commanded, RIC. BERNARD.</signed> 
+               <dateline>Batcombe, <date>Feb. 27.</date>
+               </dateline>
+            </closer>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:15742:4"/>
+            <head>THE PREFACE.</head>
+            <p>
+               <seg rend="decorInit">I</seg>T is a ſaying of the Pſalmiſt, <hi>The foole hath ſaid in his hart, there is no God:</hi> this is an Atheiſticall foole; and amongst other markes, hee is knowne by this, that this wicked foole <hi>calleth not vpon God.</hi> He doth not pray, for he cannot pray, is not a gift of nature: but a worke of Grace. Wee know not how to pray as we ought, but as the Spirit helpeth our infirmities, to pray with groanes that cannot be expreſſed. <hi>Iohn</hi> taught his Diſciples to pray: this Chriſts Diſciples obſer<g ref="char:EOLhyphen"/>ued,
+<pb facs="tcp:15742:5"/> and alſo ſaw their owne want, and therefore deſired the Lord to teach them to pray. Wherevpon hee gaue them, and in them to vs, a perfect pa<g ref="char:EOLhyphen"/>terne and forme of prayer. After this all our prayers are to be directed. It is then neceſsary that this ſhort prayer be well vnderſtood: for which cauſe I haue made this ſhort expoſition, and drawne out briefly manyfold obſer<g ref="char:EOLhyphen"/>uations, the better to acquaint ſuch as know it not, with the meaning there<g ref="char:EOLhyphen"/>of. It will adminiſter ſufficient mat<g ref="char:EOLhyphen"/>ter for meditation, at all times, and vpon any occaſion, to enlarge our thoughts in prayer: the practice wher<g ref="char:EOLhyphen"/>of is the ſpeciall grace of a Chriſtian. It is the fruit of Faith, ſo as hee that beleeueth, prayeth; and ſo excellent a duty is this, as Saint <hi>Paul</hi> ſayth, <hi>Pray continually,</hi> as if mans life conſiſted
+<pb facs="tcp:15742:5"/> in it. And Chriſt ſayth, <hi>Watch, and Pray,</hi> It is a meanes of our pre<g ref="char:EOLhyphen"/>ſeruation from euill, and a conſer<g ref="char:EOLhyphen"/>uation of vs in an eſtate which is good. Wo<g ref="char:cmbAbbrStroke">̄</g>derfull is the effect of prayer. <hi>Moſes</hi> by it makes way thorow the Red ſea, ouercame the Amalekites, and ob<g ref="char:EOLhyphen"/>tained pardo<g ref="char:cmbAbbrStroke">̄</g> for the people. By this, <hi>Io<g ref="char:EOLhyphen"/>ſua</hi> had the Sun ſtanding ſtill the ſpace of a day, waiting vpon him in the pur<g ref="char:EOLhyphen"/>ſute of his enemies; by this, <hi>Hezekiah</hi> reuerſed the ſentence of death, and had his life prolonged; by this, <hi>Peter</hi> eſca<g ref="char:EOLhyphen"/>ped the hands of <hi>Herod; Ionah</hi> gate out of the Whales belly. By this, <hi>Eliah</hi> ſhut heauen three yeeres; and againe brought raine from heauen. By this <hi>E<g ref="char:EOLhyphen"/>liſha</hi> raiſed one from the dead, &amp; got ſight to <hi>Gehezi</hi> to ſee viſion of An<g ref="char:EOLhyphen"/>gels. Incredible is the power of prayer; the prayer of faith auaileth much, if
+<pb facs="tcp:15742:6"/> it be feruent. Let therfore here in euery good Chriſtian exerciſe himſelfe, and this let him know; that it is a great honour to be admitted into Gods pre<g ref="char:EOLhyphen"/>ſence, to put vp his requeſts vnto ſo high a Maieſty. The due eſteeme of prayer, will make vs exerciſe our ſelues in prayer: for as wee prize a thing, ſo we practiſe, ſo we employ our ſelues about it. Therefore little pray<g ref="char:EOLhyphen"/>ing argueth, we make little account thereof: but the leſſe we eſteeme and practiſe it, the leſſe grace wee haue, and the more corruption of heart is in vs. The truth of this is cleared in ſuch as wee ſee to make no conſcience of this duty. But this euill be farre from the faithfull, in whom the gift of prayer is euer found, as a peculiar property of them that ſhall inherit Glory.</p>
+         </div>
+         <div type="exposition">
+            <pb facs="tcp:15742:6"/>
+            <head>A BRIEFE EXPOSI<g ref="char:EOLhyphen"/>tion with obſeruations vpon the <hi>Lords Prayer.</hi>
+            </head>
+            <div type="preface">
+               <head>The Preface.</head>
+               <lg>
+                  <head>Our</head>
+                  <l>IN brotherly communion.</l>
+                  <l>By the Grace of adoption.</l>
+                  <l>And ſealed by holy vnction.</l>
+               </lg>
+               <lg>
+                  <head>Father,</head>
+                  <l>Tender in louing.</l>
+                  <l>Carefull in prouiding.</l>
+                  <l>Liberall in beſtowing.</l>
+               </lg>
+               <lg>
+                  <head>Which art in Heauen,</head>
+                  <l>The place of thy Maieſty.</l>
+                  <l>The Throne of thy Glory.</l>
+                  <l>The fulneſſe of Felicity.</l>
+               </lg>
+            </div>
+            <div n="1" type="petition">
+               <head>The firſt Petition.</head>
+               <lg>
+                  <head>Hallowed</head>
+                  <l>In heart be thou feared.</l>
+                  <l>In ſpeech reuerenced.</l>
+                  <pb facs="tcp:15742:7"/>
+                  <l>In our liues honoured.</l>
+               </lg>
+               <lg>
+                  <head>Be thy Name.</head>
+                  <l>Thy attributes ſo glorious.</l>
+                  <l>Thy workes ſo maruelous.</l>
+                  <l>Thy heauenly Word ſo Gracious.</l>
+               </lg>
+            </div>
+            <div n="2" type="petition">
+               <head>The ſecond Petition.</head>
+               <lg>
+                  <head>Thy Kingdome</head>
+                  <l>Of Power generall.</l>
+                  <l>Of Grace ſpeciall.</l>
+                  <l>Of Glory Celeſtiall.</l>
+               </lg>
+               <lg>
+                  <head>Come.</head>
+                  <l>With power to defend vs.</l>
+                  <l>With Grace to conuert vs.</l>
+                  <l>With glory to crowne vs.</l>
+               </lg>
+            </div>
+            <div n="3" type="petition">
+               <head>The third Petition.</head>
+               <lg>
+                  <head>Thy Will</head>
+                  <l>In thy holy Word reuealed.</l>
+                  <l>In workes of prouidence ſhewed.</l>
+                  <l>In good examples confirmed.</l>
+               </lg>
+               <lg>
+                  <pb facs="tcp:15742:7"/>
+                  <head>Be done,</head>
+                  <l>In our true beleeuing.</l>
+                  <l>In our Godly liuing.</l>
+                  <l>In our patient ſuffering.</l>
+               </lg>
+               <lg>
+                  <head>In Earth</head>
+                  <l>The Wickeds beſt heritage,</l>
+                  <l>The place of our Pilgrimage.</l>
+                  <l>And here to Heauen our paſſage.</l>
+               </lg>
+               <lg>
+                  <head>As it is in Heauen.</head>
+                  <l>By holy Angels moſt faithfully.</l>
+                  <l>By the bleſſed Saints moſt cheerfully.</l>
+                  <l>By all of them there moſt conſtantly.</l>
+               </lg>
+            </div>
+            <div n="4" type="petition">
+               <head>The fourth Petition.</head>
+               <lg>
+                  <head>Giue vs this day</head>
+                  <l>By thy prouident hand mercifully.</l>
+                  <l>By the labour of our calling honeſtly.</l>
+                  <l>By all good meanes proſperouſly.</l>
+               </lg>
+               <lg>
+                  <head>Our dayly bread.</head>
+                  <l>Neceſſary for liues ſuſtentation.</l>
+                  <l>Conuenient for ſtates preſeruation.</l>
+                  <l>Sufficient for Needies conſolation.</l>
+               </lg>
+            </div>
+            <div n="5" type="petition">
+               <pb facs="tcp:15742:8"/>
+               <head>The fift Petition.</head>
+               <lg>
+                  <head>And forgiue vs</head>
+                  <l>Of thy mercy freely.</l>
+                  <l>In Chriſt deſeruedly.</l>
+                  <l>In our hearts aſſuredly.</l>
+               </lg>
+               <lg>
+                  <head>Our treſpaſſes,</head>
+                  <l>In nature originally polluted.</l>
+                  <l>In euils wilfully committed.</l>
+                  <l>In dueties careleſly omitted.</l>
+               </lg>
+               <lg>
+                  <head>As we forgiue them,</head>
+                  <l>From our hearts moſt vnſeignedly.</l>
+                  <l>Expreſſed in words moſt louingly.</l>
+                  <l>And ſhewed by deeds moſt cheerefully.</l>
+               </lg>
+               <lg>
+                  <head>That treſpaſſe againſt vs,</head>
+                  <l>In heart maliciouſly.</l>
+                  <l>In tongue ſlanderouſly.</l>
+                  <l>By deeds iniuriouſly.</l>
+               </lg>
+            </div>
+            <div n="6" type="petition">
+               <head>The ſixth Petition.</head>
+               <lg>
+                  <head>And lead vs not.</head>
+                  <l>By laying obiects before vs.</l>
+                  <pb facs="tcp:15742:8"/>
+                  <l>In the danger ſo leauing vs.</l>
+                  <l>And by withdrawing grace from vs.</l>
+               </lg>
+               <lg>
+                  <head>Into temptation,</head>
+                  <l>Satans powerfull ſuggeſtion.</l>
+                  <l>Natures wretched corruption.</l>
+                  <l>This preſent worlds pollution.</l>
+               </lg>
+               <lg>
+                  <head>But deliuer vs</head>
+                  <l>By thy Diuine inſpiration.</l>
+                  <l>By inward fanct fication.</l>
+                  <l>By a holy conuerſation.</l>
+               </lg>
+               <lg>
+                  <head>From euill,</head>
+                  <l>Paſt, by freely remitting.</l>
+                  <l>Preſent, by powerfull protecting.</l>
+                  <l>Future, by grace preuenting.</l>
+               </lg>
+            </div>
+            <div type="conclusion">
+               <head>The concluſion.</head>
+               <lg>
+                  <head>For thine is the Kingdome,</head>
+                  <l>Externall, in the Church apparent.</l>
+                  <l>Internall, in the Church militant.</l>
+                  <l>Eternall, in the Church triumphant.</l>
+               </lg>
+               <lg>
+                  <head>Thy power</head>
+                  <l>Of ſubduing ſinne victoriouſly.</l>
+                  <l>Of renewing grace continually.</l>
+                  <pb facs="tcp:15742:9"/>
+                  <l>Of beſtowing glory eternally.</l>
+               </lg>
+               <lg>
+                  <head>And thy Glory,</head>
+                  <l>Due from all in liuing to thee.</l>
+                  <l>Seene by thine in dying for thee.</l>
+                  <l>Known by all in iudgements from thee.</l>
+               </lg>
+               <lg>
+                  <head>For euer,</head>
+                  <l>Before time, without begininng.</l>
+                  <l>In time, and that without changing.</l>
+                  <l>And after time, without ending.</l>
+               </lg>
+               <lg>
+                  <head>Amen.</head>
+                  <l>As thou doſt ſay.</l>
+                  <l>So we doe pray.</l>
+                  <l>Lord, ſay not nay.</l>
+                  <l>
+                     <hi>Euen ſo be it,</hi>
+                  </l>
+               </lg>
+               <closer>Amen.</closer>
+            </div>
+         </div>
+      </front>
+      <body>
+         <div type="exposition">
+            <pb facs="tcp:15742:9"/>
+            <head>A BRIEFE EX<g ref="char:EOLhyphen"/>POSITION WITH <hi>obſeruations vpon the Lords Prayer.</hi>
+            </head>
+            <p>
+               <seg rend="decorInit">T</seg>He prayer conſiſts of a Preface, of ſixe Pe<g ref="char:EOLhyphen"/>titions, and of the concluſion.</p>
+            <div type="preface">
+               <head>The Preface.</head>
+               <p>In making a Preface, wee learne, that preparation is to bee made before prayer: raſhly to ruſh into Gods preſence be<g ref="char:EOLhyphen"/>commeth not vs, neither is meet
+<pb facs="tcp:15742:10"/> we ſhould doe it to ſo high a Ma<g ref="char:EOLhyphen"/>ieſty.</p>
+               <div type="phrase">
+                  <head>Our</head>
+                  <p>Thus wee begin, not with <hi>My,</hi> but <hi>Our Father:</hi> to teach,</p>
+                  <p n="1">1. That God is the common Father of all the elect.</p>
+                  <p n="2">2. That prayer is to be made in brotherly loue.</p>
+                  <p n="3">3. That he which prayeth, is to be one of Chriſts myſticall Body, and in the communion of Saints.</p>
+               </div>
+               <div type="phrase">
+                  <head>Father</head>
+                  <p>This is the Title of Honour, and the Name importing the greateſt loue; thus Chriſt willeth vs to pray, and thus to call God, Father: to teach,</p>
+                  <p n="1">1. That prayer is to be made
+<pb facs="tcp:15742:10"/> in faith and aſſurance of mercy.</p>
+                  <p n="2">2. In the Spirit of adoption, as the requeſt of a Child to a Father.</p>
+                  <p n="3">3. In the Name of Chriſt; be<g ref="char:EOLhyphen"/>cauſe in him he is our Father.</p>
+                  <p n="4">4. In diſtinct knowledge of the Trinity.</p>
+               </div>
+               <div type="phrase">
+                  <head>Which art in Heauen.</head>
+                  <p>Here God is ſaid to be, who yet filleth Heauen and earth: to teach,</p>
+                  <p n="1">1. That prayer is to be made with a heauenly mind, without any earthly repreſentation, or any carnall affection.</p>
+                  <p n="2">2. With all reuerence, deuoti<g ref="char:EOLhyphen"/>on, becauſe God is in heauen; not to be raſh, to vtter any thing haſti<g ref="char:EOLhyphen"/>ly before God. The wiſe mans rea<g ref="char:EOLhyphen"/>ſon, <hi>Eccle.</hi> 5. 2.</p>
+                  <p n="3">3. That prayer is to be made
+<pb facs="tcp:15742:11"/> to God alone; for he is the onely Father in Heauen.</p>
+                  <p n="4">4. Therefore not to Saint, Angel, nor to the Virgin <hi>Mary,</hi> becauſe none of theſe are our Fa<g ref="char:EOLhyphen"/>ther in Heauen.</p>
+                  <p n="5">5. That Heauen is the true home of all the elect; for there our Father is.</p>
+                  <p n="6">6. That God ſeeth all things, and doth whatſoeuer hee will; for he is in Heauen, as the Prophet ſpeaketh.</p>
+               </div>
+            </div>
+            <div n="1" type="petition">
+               <head>The firſt petition.</head>
+               <p>This concerneth Gods Glory, and is therefore in the firſt place: to teach, that Gods glory chiefly is to be preferred in our deſires, 1. Cor. 10. 31.</p>
+               <div type="phrase">
+                  <pb facs="tcp:15742:11"/>
+                  <head>Hallowed be thy Name.</head>
+                  <p>In this petition we be taught to deſire to acknowledge, aſcribe and to procure holineſſe, to be gi<g ref="char:EOLhyphen"/>uen to the Lord in thoſe things, by which hee maketh himſelfe knowne vnto vs, as by a Name, that is, his Titles, Attributes, Words and Workes; whence we learne,</p>
+                  <p n="1">1. That God hath made him<g ref="char:EOLhyphen"/>ſelfe knowne vnto vs.</p>
+                  <p n="2">2. That holineſſe belongeth vnto him.</p>
+                  <p n="3">3. That ſuch things are to be thought of, ſpoken and done by vs, as his Name may receiue glory.</p>
+                  <p n="4">4. That therefore ſuch things are to be auoyded, as may cauſe his Name to be blaſphemed, and
+<pb facs="tcp:15742:12"/> polluted among the wicked.</p>
+                  <p n="5">5. That ſorrow ſhould poſſeſſe our hearts, to ſee God diſhonou<g ref="char:EOLhyphen"/>red; for as our deſire ſhould be to ſee his Name glorified: ſo griefe ſhould ariſe in vs, to ſee his Name abuſed.</p>
+               </div>
+            </div>
+            <div n="2" type="petition">
+               <head>The ſecond Petition.</head>
+               <p>This followeth the former, as the meanes to hallow Gods Name: teaching this, that if hee rule in vs, he ſhall be honoured of vs.</p>
+               <div type="phrase">
+                  <head>Thy Kingdome come.</head>
+                  <p>In this we are taught to beg of God, that he would take the rule and reigne of all things, and to ſhew it according to his power, grace, and glory. Hence we learne</p>
+                  <p n="1">
+                     <pb facs="tcp:15742:12"/>1. That God our Father hath a Kingdome.</p>
+                  <p n="2">2. That it is the deſire of his children, that this ſhould come, that is, that he ſhould reigne ouer all, and rule all.</p>
+                  <p n="3">3. That it is not in our power to bring men vnder the rule of God, but the Kingdome, that is, the Lords ſupremacy and domi<g ref="char:EOLhyphen"/>nion commeth from him. It com<g ref="char:EOLhyphen"/>meth vpon vs, it ariſeth not from within vs, or from among vs.</p>
+                  <p n="4">4. That to haue God to rule and reigne, is a mercy to be craued at his hands.</p>
+                  <p n="5">5. That Gods Kingdome doth but in part here come vpon vs, be<g ref="char:EOLhyphen"/>cauſe we deſire whilſt we liue, that it may come.</p>
+               </div>
+            </div>
+            <div n="3" type="petition">
+               <pb facs="tcp:15742:13"/>
+               <head>The third petition.</head>
+               <p>This followeth as the manife<g ref="char:EOLhyphen"/>ſtation of our ſubiection to God; teaching, that the doing of Gods will is the euidence of his rule and dominion ouer vs.</p>
+               <div type="phrase">
+                  <head>Thy will be done</head>
+                  <p>Here we are taught to deſire of God, that what his pleaſure and will is, may be performed of vs. Hence we learne,</p>
+                  <p n="1">1. That God hath his will, de<g ref="char:EOLhyphen"/>cree and purpoſes.</p>
+                  <p n="2">2. That this is onely to bee knowne and obſerued, and ſub<g ref="char:EOLhyphen"/>mitted vnto.</p>
+                  <p n="3">3. That wee are to beg of God this his grace to be obedient.</p>
+                  <p n="4">
+                     <pb facs="tcp:15742:13"/>4. That it is not in vs of our ſelues to ſubmit to his will.</p>
+                  <p n="5">5. That it is not enough to know the will of God, to haue good deſires and hearts, but to be doers of Gods will and to ſhew forth good workes.</p>
+               </div>
+               <div type="phrase">
+                  <head>In Earth,</head>
+                  <p>Whereſouer wee dwell, and whatſoeuer wee poſſeſſe, and ſo long as wee here liue on earth, Gods will muſt be done. Whence we learne,</p>
+                  <p n="1">1. That whereſoeuer we abide in great or meane families, among Chriſtians or heathe<g ref="char:cmbAbbrStroke">̄</g>, Gods will is to be our rule, and wee are to re<g ref="char:EOLhyphen"/>ſigne our ſelues to it.</p>
+                  <p n="2">2. That no earthly thing is to withdraw our obedience from
+<pb facs="tcp:15742:14"/> Gods will.</p>
+                  <p n="3">3. That ſo long as wee be on earth, his will is to be done of vs.</p>
+               </div>
+               <div type="phrase">
+                  <head>As it is in Heauen.</head>
+                  <p>The manner of doing Gods will is here ſet forth: teaching,</p>
+                  <p n="1">1. That God requireth as well the right manner of doing, as the very doing of the deed it ſelfe.</p>
+                  <p n="2">2. That onely in Heauen, and not on Earth, are patternes of per<g ref="char:EOLhyphen"/>fection, and of perfect obedience.</p>
+                  <p n="3">3. That in obedience the per<g ref="char:EOLhyphen"/>fecteſt examples are to be ſet be<g ref="char:EOLhyphen"/>fore vs for imitation.</p>
+                  <p n="4">4. That we are to ſtriue to per<g ref="char:EOLhyphen"/>fection, to liue here an heauenly life, the life of Angels, if it were poſſible.</p>
+                  <p n="5">5. That the doing of Gods
+<pb facs="tcp:15742:14"/> will well, is his gift, and not of our ſelues.</p>
+               </div>
+            </div>
+            <div n="4" type="petition">
+               <head>The fourth petition.</head>
+               <p>The former petitions concerne Gods glory, the reſt following the good of our ſelues; teaching, that Gods glory, his Kingdome and Will are to bee preferred before our owne liues and ſaluation, in our deſires.</p>
+               <div type="phrase">
+                  <head>Giue vs this day, our dayly bread.</head>
+                  <p>Wee bee here taught to aske earthly bleſſings of God our Fa<g ref="char:EOLhyphen"/>ther. Hence we learne,</p>
+                  <p n="1">1. That its lawfull to aske tem<g ref="char:EOLhyphen"/>porall bleſſings, &amp; bodily meanes of life.</p>
+                  <p n="2">2. That all theſe things are his
+<pb facs="tcp:15742:15"/> meere gift and of his goodneſſe to vs.</p>
+                  <p n="3">3. That none can get them but as God is pleaſed to giue them.</p>
+                  <p n="4">4. That therefore enioying them he is to be praiſed, or wan<g ref="char:EOLhyphen"/>ting of them, we are to learne pa<g ref="char:EOLhyphen"/>tience.</p>
+                  <p n="5">5. That preſent prouiſion ſhould content vs, and not be trou<g ref="char:EOLhyphen"/>bled with diſtruſtfull cares for the time to come.</p>
+                  <p n="6">6. That our deſire is to be mo<g ref="char:EOLhyphen"/>derate and to reſt with that which is neceſſary.</p>
+                  <p n="7">7. That the bread, that is, the meanes which wee liue vpon is to be our owne.</p>
+                  <p n="8">8. That we are euery day to depend on God for theſe outward things.</p>
+                  <pb facs="tcp:15742:15"/>
+                  <p>9. That care of prouiſion is to be had of our brethren, as well as of our ſelues.</p>
+               </div>
+            </div>
+            <div n="5" type="petition">
+               <head>The fift petition.</head>
+               <p>The former petition was for the body, ſo Chriſt deſcendeth to our weakeneſſe, to let vs begin there firſt, with the care whereof we be moſt troubled: this petiti<g ref="char:EOLhyphen"/>on is for ſoules ſafety: teaching, that with care of bodies welfare, the ſoules danger ſhould be ſeene vnto.</p>
+               <div type="phrase">
+                  <head>And forgiue vs our treſpaſſes,</head>
+                  <p>We be here taught to beg of God pardon of ſinnes. Out of which we learne,</p>
+                  <p n="1">1. That all and euery one are of<g ref="char:EOLhyphen"/>fenders
+<pb facs="tcp:15742:16"/> againſt God: for all are to aske forgiueneſſe.</p>
+                  <p n="2">2. That we offend, not in one, but in many things: we are to ac<g ref="char:EOLhyphen"/>knowledge not a treſpaſſe, but treſpaſſes.</p>
+                  <p n="3">3. That therefore euery mans ſanctification is weake to reſiſt ſin, and imperfect here.</p>
+                  <p n="4">4. That God onely can and doth forgiue ſinnes.</p>
+                  <p n="5">5. That Gods pardon is a free pardon, we get it not by ſatisfacti<g ref="char:EOLhyphen"/>on, but beg forgiueneſſe of his mercy.</p>
+                  <p n="6">6. That all the children of God doe obtaine pardon of their ſins, and are aſſured thereof. Elſe Chriſt would not bid them aske pardon, if their ſinnes were not pardona<g ref="char:EOLhyphen"/>ble, and to be pardoned, when
+<pb facs="tcp:15742:16"/> they aske forgiueneſſe being truly penitent.</p>
+                  <p n="7">7. That repentance is dayly to be renewed for our dayly ſlips: for this requeſt muſt be dayly put vp to God.</p>
+                  <p n="8">8. That wee are to pray that God would forgiue our brethren, as well as our ſelues.</p>
+                  <p n="9">9. That therefore we are not to prouoke men to ſinne, nor make a ſport of their ſinning.</p>
+               </div>
+               <div type="phrase">
+                  <head>As we forgiue them, that treſpaſſe against vs.</head>
+                  <p>Here is the ſigne of forgiuenes, by which we may know to whom remiſſion belongeth, and it is for ſtrengthning of our faith, in the aſſurance of pardon. The words are not a compariſon; nor any ſam<g ref="char:EOLhyphen"/>pler
+<pb facs="tcp:15742:17"/> to God how he ſhould for<g ref="char:EOLhyphen"/>giue vs: Nor doe they plead any cauſe, to moue God, but are as a witneſſe from this grace and mer<g ref="char:EOLhyphen"/>cy to others, that God will be mer<g ref="char:EOLhyphen"/>cifull to vs. If we that haue ſo lit<g ref="char:EOLhyphen"/>tle mercy yet can forgiue, how much more our Father the God of mercy, yea and mercy it ſelfe? Hence may we learne,</p>
+                  <p n="1">1. That our forgiuing one an<g ref="char:EOLhyphen"/>other, is not of the ſinne, but of the iniury and damage againſt our owne perſons.</p>
+                  <p n="2">2. They that looke for pardon of their owne ſinnes from God, are to remit the treſpaſſes done a<g ref="char:EOLhyphen"/>gainſt themſelues to their bre<g ref="char:EOLhyphen"/>thren.</p>
+                  <p n="3">3. That the mercifull may aſ<g ref="char:EOLhyphen"/>ſure themſelues that they ſhall
+<pb facs="tcp:15742:17"/> obtaine mercy.</p>
+                  <p n="4">4. That though men doe treſ<g ref="char:EOLhyphen"/>paſſe one another; yet are they to forgiue one another.</p>
+               </div>
+            </div>
+            <div n="6" type="petition">
+               <head>The ſixth petition.</head>
+               <p>The laſt petition concerneth the ſafety of body and ſoule. The diſtinct care of the one and of the other, maketh vs care for the good of both together.</p>
+               <div type="phrase">
+                  <head>And lead vs not into temptation.</head>
+                  <p>This is the petition, in which wee be taught to deſire, as in the laſt place, Gods aide and aſſiſtance againſt our ſpirituall enemies, to teach vs,</p>
+                  <p n="1">1. That the Godly are here ſubiect to temptations. They may
+<pb facs="tcp:15742:18"/> not thinke to liue ſecurely.</p>
+                  <p n="2">2. That no temptation can or doth befall vs, without the will and guidance of God.</p>
+                  <p n="3">3. That God will not ſuffer vs to be tempted aboue our power; ſeeing he willeth vs to pray thus vnto him.</p>
+                  <p n="4">4. That it is in Gods power, and not in vs to preuent tempta<g ref="char:EOLhyphen"/>tions.</p>
+                  <p n="5">5. That we ſhould tender our brethren in their ſpirituall tempta<g ref="char:EOLhyphen"/>tions.</p>
+                  <p n="6">6. That therefore wee ſhould not be tempters our ſelues, to draw them to euill.</p>
+               </div>
+               <div type="phrase">
+                  <head>But deliuer vs from euill.</head>
+                  <p>This is as the explanation, ſhewing how farre we deſire not
+<pb facs="tcp:15742:18"/> to be led into temptation, to wit, ſo farre, as wee bee not left in the danger and deſtruction thereof. Whence we learne,</p>
+                  <p n="1">1. That wee are not to pray ſimply not to be tempted at all, but reſpectiuely as it may be euill and ſinfull to vs.</p>
+                  <p n="2">2. That euill is the thing wee are to deſire to be freed from.</p>
+                  <p n="3">3. That it is not in mans power to free himſelfe from euill in time of temptation.</p>
+                  <p n="4">4. That God onely can and will free his from euill: for what we are willed to aske, that we may looke to obtaine of God.</p>
+                  <p n="5">5. That wee are to pray for our brethren that euill ſeaze not vpon them, that they be not ouercome in temptation.</p>
+               </div>
+            </div>
+            <div type="conclusion">
+               <pb facs="tcp:15742:19"/>
+               <head>The concluſion.</head>
+               <p>Which is in part a reaſon why we aske all theſe of God, partly a confirmation of our faith, with an acknowlegement of the things herein, which is a prayſing of God: which teacheth vs, that our requeſts ſhould be grounded vp<g ref="char:EOLhyphen"/>on good reaſons, and ſuch as God affordeth vs. And in that the con<g ref="char:EOLhyphen"/>cluſion followeth the ſixe petiti<g ref="char:EOLhyphen"/>ons, we learne that theſe containe all things needfull to be asked of God, either for his glory, or our ſafety; elſe would Chriſt haue ad<g ref="char:EOLhyphen"/>ded more.</p>
+               <div type="phrase">
+                  <pb facs="tcp:15742:19"/>
+                  <head>For thine is Kingdome, power and glory for euer.</head>
+                  <p>Wee are taught here what to make the grounds of our requeſts, and what to aſcribe vnto God.</p>
+                  <p>Whence we learne,</p>
+                  <p n="1">1. That ſoueraginty, power and glory, belong onely to God, and to him to be aſcribed.</p>
+                  <p n="2">2. That theſe three, with the conſideration of the eternity ther<g ref="char:EOLhyphen"/>of, are ſtrong confirmations of our faith in prayer.</p>
+                  <p n="3">3. That Gods Kingdome, pow<g ref="char:EOLhyphen"/>er and glory are endleſſe.</p>
+                  <p n="4">4. That praiſes as well as pray<g ref="char:EOLhyphen"/>ers are our duty to God.</p>
+               </div>
+            </div>
+            <div type="conclusion">
+               <head>Amen.</head>
+               <p>It is an aſſeueration or wiſh,
+<pb facs="tcp:15742:20"/> and an earneſt longing to haue what we pray for. And hence note two things,</p>
+               <p n="1">1. That the deſire is to be in<g ref="char:EOLhyphen"/>flamed after thoſe things which we beg of God. So muſt we be feruent in prayer.</p>
+               <p n="2">2. That we are to be perſwa<g ref="char:EOLhyphen"/>ded, that what we aske, according to this holy forme of prayer, wee ſhall obtaine.</p>
+               <p>Honour and glory, and power, and prayſes, and dominion ouer all, be aſcribed to God our Father, in Chriſt Ieſus, by the operation of the Spirit now and euer.</p>
+               <closer>Amen.</closer>
+            </div>
+         </div>
+         <div type="prayer">
+            <pb facs="tcp:15742:20"/>
+            <head>A PRAYER FOR A Family at all times.</head>
+            <p>
+               <seg rend="decorInit">O</seg>Bleſſed Lord God, and <hi>Our Father which art in Heauen,</hi> thou that lo<g ref="char:EOLhyphen"/>uingly tendreſt the wel<g ref="char:EOLhyphen"/>fare of thy people, care<g ref="char:EOLhyphen"/>fully prouiding for them, and liberally beſtowing thy bleſſings vpon them, we thy poore children by adoption in Chriſt Ieſus, aſſured hereof by thy holy Spirit, doe, in the brotherly fellowſhip of loue, with the reſt of thy Saints, moſt humbly ſue vnto thy Diuine Maieſty, for thy heauenly grace, that wee may ſerue thee. <hi>Hallowed (O Father) be thy Name;</hi> let ſuch feare and reuerence poſ<g ref="char:EOLhyphen"/>ſeſſe our hearts, that by our words and workes, we may ſet forth thy praiſe and glory, according as thou haſt and doeſt
+<pb facs="tcp:15742:21"/> make thy ſelf known to vs in thy Word and in thy Workes. We know (O Fa<g ref="char:EOLhyphen"/>ther) that wee owe this duty vnto thee, for our election, for our naturall being, for our heauenly vocation, for our iuſti<g ref="char:EOLhyphen"/>fication, ſanctification and our happy preſeruation both bodily and ghoſtly: but we are not of our ſelues able to glo<g ref="char:EOLhyphen"/>rifie thy Name by well-doing, but as thou thy ſelfe ſhalt inable vs therevnto: for it is thou (O Father and Author of all goodneſſe) that workeſt in vs both the will and the deed. Let therefore, <hi>Thy Kingdome come,</hi> ſend forth thy Word to teach vs, thy Spirit to conuert vs more &amp; more; ſubdue the kingdome of ſin &amp; Satan, &amp; do thou take the rule and gouernment ouer vs into thy owne hands; and by thy power ſo defend vs, and by thy eſpeciall grace make vs ſuch faithfull, ſuch loyall ſubiects to thee alwayes and in all things, in this King<g ref="char:EOLhyphen"/>dome of Grace, that at the length of thy Fatherly mercy, we might attaine to the Kingdome of Glory.</p>
+            <pb facs="tcp:15742:21"/>
+            <p>And becauſe our hearts be deceitfull through too much ignorance, ſelf-loue, and hidden hypocriſie, that we may be thereby eaſily deceiued, in liuing onely in an outward bare profeſſion of thy Name, and onely in an outward for<g ref="char:EOLhyphen"/>mall worſhip and ſeruice to thy Maie<g ref="char:EOLhyphen"/>ſty, giue grace (O heauenly Father) that by vs <hi>thy Will</hi> may <hi>be done in earth, as it is in Heauen.</hi> Make vs in this our pil<g ref="char:EOLhyphen"/>grimage, while we here liue from home, mingled among Aliens and ſtrangers from the life of God, ſo faithfull in be<g ref="char:EOLhyphen"/>lieuing, ſo conſcionable in liuing, ſo patient in ſuffering for wel-doing, as hereby our hearts by thy Spirit may aſ<g ref="char:EOLhyphen"/>certaine vs that wee be truely the chil<g ref="char:EOLhyphen"/>dren of regeneration and grace. Worke in vs this good worke, that wee may wholy renounce our owne wills, dye to our ſelues and to the world, ſubmit to thee, and to thy will in euery condition, and ſay, It is the Lord, let him doe what ſeemeth him good. What thou com<g ref="char:EOLhyphen"/>mandeſt,
+<pb facs="tcp:15742:22"/> that put into our harts to pra<g ref="char:EOLhyphen"/>ctiſe, and whom we ſee to be examples of wel-doing before vs, giue vs grace to follow them, and to ſtriue euen to imi<g ref="char:EOLhyphen"/>tate the holy Angels of heauen in doing thy will, readily without lingering, cheerefully without murmuring, faith<g ref="char:EOLhyphen"/>fully without adding or diminiſhing, ſincerely without ſiniſter reſpect, and conſtantly without wauering, and ne<g ref="char:EOLhyphen"/>uer bee weary of weldoing. What though we haue croſſes and many diſ<g ref="char:EOLhyphen"/>contentments, yet let it neuer repent vs, that wee haue repented, denyed our ſelues, and renounced the world to fol<g ref="char:EOLhyphen"/>low thee, euen in the ſtraight way which leadeth to life and immortality in the end.</p>
+            <p>And now (O Lord) for that we liue in theſe decaying Tabernacles, in theſe bodies of clay, needing dayly ſuſtenta<g ref="char:EOLhyphen"/>tion, wee beſeech thee <hi>giue vs this day our dayly bread;</hi> of thy goodneſſe, put forth thy liberall hand towards vs, in
+<pb facs="tcp:15742:22"/> granting vs what is neceſſary for life, and conuenient for our preſent eſtate and calling, in which wee liue. Afford vs health and peace, if it be thy will, and ſuch abilities of body and minde, as may inable vs to walke painfully in our vocations. Bleſſe the diligent labour of our hands, and ſo guide vs, that our get<g ref="char:EOLhyphen"/>tings may be in iuſtice and honeſty, our keeping in commendable frugality, and our expending in wiſedome and charity. If we haue but little, let it con<g ref="char:EOLhyphen"/>tent vs; if much, make vs thankfull and mercifull. And whatſoeuer we poſſeſſe of theſe outward things, Lord, grant that with a good conſcience we may enioy them, and make a good vſe of them, that they may be bleſſed to vs and ours. And if it pleaſe thee to trie vs in any loſſe, let not our inward peace be troubled, nor our hearts fret, or be any way diſquieted there with; but ſay con<g ref="char:EOLhyphen"/>tentedly. The Lord giueth, and the Lord taketh away, bleſſed bee his Name for
+<pb facs="tcp:15742:23"/> euer. We know (ô Almighty Lord God) that thy hand is not ſhortned, thy good<g ref="char:EOLhyphen"/>nes is not leſſened, nor the fountaine of thy mercies drawne dry, but that thou canſt giue vs all theſe things, and what<g ref="char:EOLhyphen"/>ſoeuer wee ſtand in need of in a moſt plentifull manner: but alaſſe, alaſſe, we looking vpon our vnworthineſſe, and our wretchedneſſe, doe acknowledge that wee haue many wayes ſinned a<g ref="char:EOLhyphen"/>gainſt thee, of ignorance, of knowledge, of infirmity, and ſometimes wilfully: we are borne in ſin, we haue broken forth into treſpaſſes againſt thee. Oh how do we dayly commit one euill or another, in thought, word, &amp; deed againſt thee, and againſt our brethren! Oh how vſu<g ref="char:EOLhyphen"/>all a thing is it with vs to omit our du<g ref="char:EOLhyphen"/>ties to thee and our neighbours, and ne<g ref="char:EOLhyphen"/>uer to be grieued at it! What other thing therefore may wee looke for at thy hands, than thy deſerued wrath? But (O our Father, the God of mercy, that art infinite in goodneſſe, and ta<g ref="char:EOLhyphen"/>keſt
+<pb facs="tcp:15742:23"/> no pleaſure in the death of a ſinner, we humbly beſeech thee to be merci<g ref="char:EOLhyphen"/>full vnto vs, <hi>to forgiue vs our treſpaſſes, as we forgiue them that treſpaſſe againſt vs.</hi> Wee that be by corruption of na<g ref="char:EOLhyphen"/>ture mercileſſe, through thy loue pow<g ref="char:EOLhyphen"/>red into our hearts, do freely forgiue our brethren their offences and iniuries done vnto vs; we therefore truſt that thou being our Father, a mercifull God, yea mercy it ſelfe, wilt freely remit our ſins, and neuer lay them vnto our charge in this life, nor in the life to come. Wee beg this forgiuenes at thy hands for Ie<g ref="char:EOLhyphen"/>ſus ſake our Sauiour, in whom thou art well pleaſed. He is our atonement ac<g ref="char:EOLhyphen"/>cept him for vs, by his death hee hath payd our debt, thy iuſtice therefore is ſatisfied, of thy mercy be reconciled vnto vs. And here of (good Father) per<g ref="char:EOLhyphen"/>ſwade vs by thy good Spirit that wee may be comforted againſt deſpaire; and that the dread of thy wrath doe not in<g ref="char:EOLhyphen"/>terrupt our prayers, nor breake off our
+<pb facs="tcp:15742:24"/> dayly acceſſe vnto the throne of Grace. Be fauourable, and not fearefull vnto vs thy children and ſeruants: for wee are ſorry for our offences; the remembrance of them is greeuous vnto vs, &amp; we doe deſire more carefully hereafter to pleaſe thee, and euer to walke before thee, as it becommeth thy Saints. But (ô Lord our God, thou that beholdeſt al things) doſt know y<hi rend="sup">e</hi> we are very weak of our ſelues, and are compaſſed about with enemies; our nature is corrupted, and playeth the Traytor; the whole world lyeth pollu<g ref="char:EOLhyphen"/>ted in wickednes, &amp; Satan ſeeketh reſt<g ref="char:EOLhyphen"/>leſly whom he may deuoure; we cannot preuent temptations; wee cannot free ourſelues from the euils thereof. And therefore (Holy Father) tender vs in mercy, haue compaſſion vpon vs, <hi>and lead vs not into temptation, but deliuer vs from euill.</hi> Hold vs vp by diuine inſpi<g ref="char:EOLhyphen"/>ration againſt Satans ſuggeſtion: by in<g ref="char:EOLhyphen"/>ward ſanctification againſt natures cor<g ref="char:EOLhyphen"/>ruption, and by a holy conuerſation
+<pb facs="tcp:15742:24"/> againſt the worlds pollution, that al<g ref="char:EOLhyphen"/>though we be tempted, we may not be ouercome, and though through infir<g ref="char:EOLhyphen"/>mity we fall, yet helpe thou to raiſe vs vp againe. O thou God of ſtrength and power, goe before vs we pray thee, and enter into this ſpirituall battell with vs; in danger leaue vs not, and doe not withdraw thy good grace from vs. And if in the multitude of thy mercies thou wilt be pleaſed to pardon what is paſt, to watch ouer vs for the time preſent, and to preuent vs by thy grace for the time to come, we will acknowledge, as thy due praiſes, from moſt thankfull harts, that <hi>thine is Kingdome, power, and glory for euer. Amen.</hi>
+            </p>
+            <p>Let thy Almighty hand be with vs in our defence againſt the Diuell, the world and the fleſh. Thy tender mer<g ref="char:EOLhyphen"/>cy in Ieſus Chriſt ſaue vs: and let not our ſins be a wall of ſeparation betweene thee and vs. Thy true and holy Word inſtruct vs, and giue vs grace to caſt off
+<pb facs="tcp:15742:25"/> al vaine inuentions of man, ſuperſtition, wil-worſhip and idolatry. Thy graci<g ref="char:EOLhyphen"/>ous Spirit comfort vs, by the ſweet pro<g ref="char:EOLhyphen"/>miſes of the Goſpell, and free pardon in Chriſt, and not by the idle conceit of our owne merits and workes of ſatis<g ref="char:EOLhyphen"/>faction, wee being altogether thy vn<g ref="char:EOLhyphen"/>profitable ſeruants. Thy holy Angels pitch their Tents about vs, and about all belonging to vs, that we may be pre<g ref="char:EOLhyphen"/>ſerued both in body and ſoule, from all perils and dangers of this preſent life, through our onely Lord and Sauiour Ieſus Chriſt. To whom with thee (O Father) and that bleſſed Spirit, be all Honour, Glory, Praiſe, Maieſty, and Dominion for al thy bleſſings and mer<g ref="char:EOLhyphen"/>cies towards vs, and towards thy whole Church, henceforth and for euermore.</p>
+            <closer>Amen.</closer>
+         </div>
+         <div type="conclusion">
+            <pb facs="tcp:15742:25"/>
+            <head>AN ADMONITORY <hi>Concluſion.</hi>
+            </head>
+            <epigraph>
+               <bibl>2. Tim. 2. 19.</bibl>
+            </epigraph>
+            <p>
+               <hi>
+                  <seg rend="decorInit">L</seg>Et euery one that nameth the Name of Chriſt, depart from iniquity.</hi> God will not heare ſuch as come in their ſinnes, Eſay. 1. Such as deſpiſe the Word of reproofe, and will not be refor<g ref="char:EOLhyphen"/>med, Pro. 1. 24, 25, 28. Therefore if we looke that God ſhould heare our prayers, let vs vnfainedly re<g ref="char:EOLhyphen"/>pent
+<pb facs="tcp:15742:26"/> of ſinne, and depart from ini<g ref="char:EOLhyphen"/>quity.</p>
+            <p>Firſt, from <hi>Atheiſme,</hi> which is the denying of a God, either ſecretly or openly.</p>
+            <p>We depart from this iniquity, when we renounce Atheiſme, and doe know, and acknowledge that there is a God. <hi>They that come to God, muſt beleeue that he is, and that he is a rewarder of them that diligent<g ref="char:EOLhyphen"/>ly ſeeke him,</hi> Heb. 11. 6.</p>
+            <p>The ſecond is <hi>Gentiliſme,</hi> which is the acknowledging of many falſe gods, and the taking of them for God, which are no gods.</p>
+            <p>We depart from this iniquity, when we proteſt againſt Gentiliſme, and do know &amp; acknowledge but onely one God, and the ſame alſo the true and euerliuing God.</p>
+            <pb facs="tcp:15742:26"/>
+            <p>The third is <hi>Turciſme,</hi> which is the profeſſion of one God, euen that God which made Heauen and Earth, but not as he hath manife<g ref="char:EOLhyphen"/>ſted himſelfe in his Word, nor ac<g ref="char:EOLhyphen"/>knowledging God in Chriſt.</p>
+            <p>We depart from this iniquity, when we deteſt this Turciſme, and when wee know and acknowledge God in Chriſt reconcyling the world, the Trinity in vnity, and the vnity in Trinity, as he hath made himſelfe manifeſt vnto vs in his holy Word.</p>
+            <p>The fourth is <hi>Iudaiſme,</hi> which is the ſeruing of the true God, after the ceremoniall law of <hi>Moſes,</hi> reiecting Chriſt the true <hi>Meſsiah</hi> already come, and vainely expect<g ref="char:EOLhyphen"/>ing another to come.</p>
+            <p>We depart from this iniquity,
+<pb facs="tcp:15742:27"/> when we diſclaim ſaluation by the law, and doe know and acknow<g ref="char:EOLhyphen"/>ledge Ieſus Chriſt to be the true <hi>Meſsiah,</hi> by whom we looke to be ſaued, ſeruing God in ſpirit and truth, according to the doctrine of the Goſpell.</p>
+            <p>The fift is <hi>Will-worſhip,</hi> which is (vnder what ſhew and pretence ſoeuer) a volu<g ref="char:cmbAbbrStroke">̄</g>tary worſhipping of God, in and by ſuch meanes, as man inuenteth, either againſt or without the warrant of Gods own reuealed will, in his written Word.</p>
+            <p>We depart from this iniquity, when wee forſake our owne wiſe<g ref="char:EOLhyphen"/>dome and wills in his worſhip, and doe know, and acknowledge how, wherein, and after what man<g ref="char:EOLhyphen"/>ner God hath commanded him<g ref="char:EOLhyphen"/>ſelfe to be worſhipped, &amp; then do
+<pb facs="tcp:15742:27"/> ſtrictly obſerue the ſame.</p>
+            <p>The ſixth is <hi>Hereſie,</hi> which is an obſtinate maintaining of any er<g ref="char:EOLhyphen"/>ror, to the ouerthrowing of any fundamentall point of our Chri<g ref="char:EOLhyphen"/>ſtian profeſſion.</p>
+            <p>We depart from this iniquity, when wee willingly diſclaime our errors, when they be made knowne to vs; and when we know and rea<g ref="char:EOLhyphen"/>dily acknowledge the verity and truths of God, according to our meaſure of knowledge giuen vnto vs.</p>
+            <p>The ſeuenth is <hi>Schiſme,</hi> which is an vncharitable diſvnion, and an vnlawfull ſeparation from the true Church of Chriſt, or any true member of the ſame, forſaking the fellowſhip of the Saints wilfully in a factiouſneſſe of ſpirit making
+<pb facs="tcp:15742:28"/> vnlawfull aſſemblies within and among themſelues.</p>
+            <p>We depart from this iniquity, when wee condemne ſuch an vn<g ref="char:EOLhyphen"/>chriſtian diuiſion, and doe know and acknowledge the true congre<g ref="char:EOLhyphen"/>gations of Gods people, abyding with them, keeping among you the vnity of the ſpirit, in the bond of peace.</p>
+            <p>The eighth is <hi>Prophaneneſſe,</hi> which is to liue vnworthy the ho<g ref="char:EOLhyphen"/>ly profeſſion of a Chriſtian, after the liberty of the fleſh; not reſpe<g ref="char:EOLhyphen"/>cting religion for the pleaſures, the profits, and honours of this preſent euill world; but in com<g ref="char:EOLhyphen"/>pariſon of theſe, valewing nothing of religion, being the children of <hi>Belial,</hi> children of diſobedience, and wrath. By whom Chriſtianity
+<pb facs="tcp:15742:28"/> is ſtained, and God himſelfe great<g ref="char:EOLhyphen"/>ly diſhonoured.</p>
+            <p>We depart from this iniquity, when we deny ourſelues, flie from the company of ſuch, hauing no fellowſhip with the vnfruitfull workes of darkeneſſe, but repro<g ref="char:EOLhyphen"/>uing them rather, and endeuoring to liue godly, righteouſly and ſo<g ref="char:EOLhyphen"/>berly in this preſent world, being zealous of good workes.</p>
+            <p>The ninth is <hi>Hypocriſie,</hi> which is the ſhadow onely of piety, and ſhew of wel-doing before men, without any power or conſcience of religion before God in the heart, ſeruing the times, and ma<g ref="char:EOLhyphen"/>king profeſſion of religion for ad<g ref="char:EOLhyphen"/>uantage.</p>
+            <p>We depart from this iniquity, when we hate this ſinne, and doe
+<pb facs="tcp:15742:29"/> take dayly an examination of our hearts by a well informed iudge<g ref="char:EOLhyphen"/>ment, ſetting our ſelues before God, and making conſcience the Iudge of all our doings, ſo as wee dare appeale to the Alſeeing God of Heauen, concerning our vp<g ref="char:EOLhyphen"/>rightneſſe in that which outward<g ref="char:EOLhyphen"/>ly we make ſhew of.</p>
+            <p>The tenth is <hi>Papiſme,</hi> which is mans ſuperſtitious inuention, a counterfet Chriſtianity, vnchriſti<g ref="char:EOLhyphen"/>anly Iudaizing, and wickedly imi<g ref="char:EOLhyphen"/>tating the heatheniſh idolaters, teaching old hereſies, and the pro<g ref="char:EOLhyphen"/>feſſors thereof practiſing, by Ma<g ref="char:EOLhyphen"/>chiauillian policies, all deceit, trechery, treaſon, and mercileſſe cruelties to vphold the ſame.</p>
+            <p>We depart from this iniquity of the bottonleſſe pit, when wee
+<pb facs="tcp:15742:29"/> diſclaim that Antichriſt of Rome as the Head, &amp; y<hi rend="sup">t</hi> Romiſh Church, as now it ſtands, as the whore of Babylon, and being come out from her, ſhall zealouſly vphold and maintaine this truth, and faith which wee now ſtand in, vnto the end, which God grant. Amen.</p>
+            <p>Thus we ſee theſe ten heads of iniquity (to which may be referred all other ſinnes) which wee muſt depart from, and all the particular branches thereof, if we euer draw neere vnto God, with hope to be heard of him; for he is a God that hateth wickedneſſe: and if in our hearts wee delight in it, the Lord (as the Pſalmiſt ſpeaketh) will not regard vs. And therefore vvhen vve come before our God let it be in vnfained repentance,
+<pb facs="tcp:15742:30"/> faith and aſſurance of Gods mer<g ref="char:EOLhyphen"/>cie, to be accepted in Chriſt Ieſus, in vvhom our God is euer vvell pleaſed: to vvhom be Glory and Prayſe for euer<g ref="char:EOLhyphen"/>more.</p>
+            <closer>Amen.</closer>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:15742:30"/>
+         </div>
+      </body>
+   </text>
+</TEI>

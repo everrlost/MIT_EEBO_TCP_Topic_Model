@@ -1,0 +1,1524 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The praise, of cleane linnen With the commendable vse of the laundresse. By Iohn Taylor.</title>
+            <author>Taylor, John, 1580-1653.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1624</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 30 KB of XML-encoded text transcribed from 15 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A13488</idno>
+            <idno type="STC">STC 23787</idno>
+            <idno type="STC">ESTC S111361</idno>
+            <idno type="EEBO-CITATION">99846723</idno>
+            <idno type="PROQUEST">99846723</idno>
+            <idno type="VID">11710</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A13488)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 11710)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1036:19)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The praise, of cleane linnen With the commendable vse of the laundresse. By Iohn Taylor.</title>
+                  <author>Taylor, John, 1580-1653.</author>
+               </titleStmt>
+               <extent>[24], 4 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by E: All-de for Hen. Gosson,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1624.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Mostly in verse.</note>
+                  <note>Signatures: A-B (-A1,B8).</note>
+                  <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Clothing and dress --  Poetry --  Early works to 1800.</term>
+               <term>Laundry --  Poetry --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-02</date>
+            <label>Kayla Ondracek</label>Sampled and proofread</change>
+         <change>
+            <date>2011-02</date>
+            <label>Kayla Ondracek</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:11710:1"/>
+            <pb facs="tcp:11710:1" rendition="simple:additions"/>
+            <p>¶ The Praiſe, of Cleane <hi>Linnen.</hi> With The Commendable vſe of the <hi>Laundreſſe.</hi>
+            </p>
+            <p>By <hi>John Taylor.</hi>
+            </p>
+            <figure>
+               <head>
+                  <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </head>
+               <figDesc>printer's or publisher's device</figDesc>
+            </figure>
+            <p>
+               <hi>LONDON</hi> Printed by <hi>E: All-de</hi> for <hi>Hen. Goſſon.</hi> 1624.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:11710:2"/>
+            <pb facs="tcp:11710:2"/>
+            <head>
+               <hi>The Epiſtle dedicatorie.</hi> To the moſt Mundifying, <hi>Clarifying, Purifying, and Repurifying,</hi> Cleanſer, Clearer, and Reformer of De<g ref="char:EOLhyphen"/>formed and polluted Linnen, <hi>Martha Legge</hi> Eſquireſſe, tranſparent, vnſpotted, Snow-Lilly<g ref="char:EOLhyphen"/>white Laundreſſe to the Right worſhipfull and generous the <hi>Innes</hi> of <hi>Court,</hi> of the middle <hi>Temple,</hi> with diuers others in the rancke of Nobilitie, Gen<g ref="char:EOLhyphen"/>tilitie, and tranquilitie, your poore and vnknowne Poeticall Oratour <hi>Iohn Taylor,</hi> in humilitie and ſeruilitie, craues your Patronages abilitie, in defence of his imbecilitie.</head>
+            <p>
+               <seg rend="decorInit">M</seg>Oſt cleanely and profeſt <hi>An<g ref="char:EOLhyphen"/>tagoniſt</hi> to vermine, dirte, and filth, as <hi>Dragmatus</hi> the Dia<g ref="char:EOLhyphen"/>gorian Stigmatiſt very wor<g ref="char:EOLhyphen"/>thily wrot in his treatiſe of the antiquity of Shapparoones and careleſſe Bands; <hi>Ruſhto<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ton tumeron ſmolenſco whiſh wherlibumque.</hi> Which is in Engliſh, That to conſerue and keepe cleane, is as much or more then to make cleane: and I knowing by long experience that your
+<pb facs="tcp:11710:3"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> for our health <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> vpon thoſe g<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>e <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> I haue p<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eſumed to <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> to your <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>. No<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> doubting <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> of your I ennity <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> fault<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> as are not <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ough <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ant of igno<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Sta<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>h of your <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> will ſtiff<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n the wea<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ſſe <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>eble and limber labours, <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ee able to ſtand like a ſtoute <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> D<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>gge, againſt the oppoſition of <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Mungerels: I haue in this <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>, ſet forth the praiſe and <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> of <hi>Cleane Linnen,</hi> with <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> pa<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nes of the <hi>Laundreſſe:</hi> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <hi>Lawndres</hi> I finde to bee both <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> de<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>gat<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ry to your comly, <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> near, ſweete and <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> for the Annagram of
+<pb facs="tcp:11710:3"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 line">
+                  <desc>〈1 line〉</desc>
+               </gap> F<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſh<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> moſt <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> your glory <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> to be termed <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> of Lawne, <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> dreſſe, Lawnd<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eſſe, <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> lesdreſſe, <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> which <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> for you are the <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Cap a pea <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Socke, to the <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> and from the <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> and well beloued <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> in I am ſtrucke <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> daunted <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> accompany <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> chaſt<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>. For <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> enter a Gen<gap reason="illegible" resp="#PDCC" extent="5 letters">
+                  <desc>•••••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+               <pb facs="tcp:11710:4"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> of his ſoule <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> in his bed, to <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> h<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>m <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> your bare and naked mercy, <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>, in pitty <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> you put <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> cleaue <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> leauing him in a clea<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n you found <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> doub<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> bu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſuch objects <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> pro<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="4 letters">
+                  <desc>••••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> temptations to fraile fleſh and <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> as I ſaid before, your courage <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> conſtancy alwayes brings you fairely of and on, though thouſands weaker yeſ<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> would be cra<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> in theſe <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> As for your good <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> who <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <hi>L<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>gge</hi> by name, my poore <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> makes a legge in courteſie to him &amp; <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> both. Some Cobling Coxcombes in <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> and <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>udgement, will terme him a <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>, w<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>eſt good manners entitles <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Tratiſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ator When I thinke vpon the <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> correſpondency of both your <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> approue i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>tune for a wiſe <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> chapping ſuch a con<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> a mender, and <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>, ſpeake truth
+<pb facs="tcp:11710:4"/>you <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> both <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> how many will <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> mond your <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> (were and cleare, <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> our wicked and <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> vpright the is <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> and wayeth much of <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> worke is ſild <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> ſhewes the true <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Name: and <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> more <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> whereof, <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> houſe, doth good <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> be<g ref="char:EOLhyphen"/>tweene the Legges, <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> husband may <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Poetically make an H<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>merez Legges are the ſup<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ters <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> holds and <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> A gool Legge<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>a grea<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> grace <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> creetlyeſſex<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> to the ca<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e, me not too much <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>indled in the <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> wo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e Tranſlot knowes that a <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> mourfo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> go<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ogge, we a <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> or viſor for bad <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>.
+<pb facs="tcp:11710:5"/>mens many a Gentleman vſher will ſay <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>hatu<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> eſt</hi> of all parts of the Body the Legge beares the prick and praiſe It is embrodered with veines, inlaid with Ar<g ref="char:EOLhyphen"/>teries, enchaſed with Nerues, interlac'd with Muſcles, ennamel'd with Sinewes, interwouen with Membranes, intermixt with Te<g ref="char:cmbAbbrStroke">̄</g>nons, emboſt with Ankles, hauing a Neate <hi>Foote</hi> for a <hi>Man,</hi> and fiue Toes for Pages to attend it. More for the honour of Legges; what is better meate then the Legges of Beife, Mutton, Lambe, Porke, Capon, Turkey, Gooſe or Woodcocke? Nay, there is ſuch vertue in them, that any reaſonable Cooke with a Stooles Legge (&amp; ſomething elſe) wil make good broath. To finiſh my prolixious ſhort briee, and tedious dedication, I wiſh that you and your Husband in coniugall combintion, in the way of Procreation, may mul<g ref="char:EOLhyphen"/>tiplie and make Legges, whic<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> is a part of good Manners and Corteſie, whereof theſe vnmannerly times almoſt barren. Thus referring my <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſe and
+<pb facs="tcp:11710:5"/>my labours to be accepted and cenſured according to the purity and integrity of both your reforming functions, with my prayers for the cleane amendment of all ſoulers of <hi>Linnen,</hi> and the reforming of all bad Legges for the better ſupportation of Waſhers, Starchers and Tranſlaters I remaine,</p>
+            <closer>
+               <signed>
+                  <hi>He whoſe ſinfull ſo<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rs <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> bumbl<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> at the m<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>r<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>y of your waſhing Bo<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>te,</hi> 
+                  <gap reason="illegible" resp="#UOM" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>a T<gap reason="illegible" resp="#UOM" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap>a.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="part">
+            <pb facs="tcp:11710:6"/>
+            <pb facs="tcp:11710:6"/>
+            <head>The Praiſe of Cleane Laennen.</head>
+            <l>MY M<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſe <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>ydings beings <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>ſter <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </hi>
+            </l>
+            <l>Nor from the <hi>Fridg<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>de</hi> or the <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </hi>
+            </l>
+            <l>She hath not ſea<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>: <hi>Amer<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>aſ</hi> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ounds,</l>
+            <l>Nor forag'd ouer <hi>A<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ces</hi> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>co<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ned grounds;</l>
+            <l>For this here vnder W<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nt <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>ueld <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>or</l>
+            <l>Vnto the Welch, the Ir<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſh <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the Scot</l>
+            <l>To Towne nor C<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e did I make repu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e,</l>
+            <l>Nor did I buy in Market or <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n Faire</l>
+            <l>This L<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nnen Treaſure; but <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ed none.</l>
+            <l>Where (Cares except, Be<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>fellowe <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ad <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>one</l>
+            <l>My drowſie M<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> ſtraight he nee<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>:</l>
+            <l>This welbeloued ſub<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ect <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>wixt me <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hee<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>es.</l>
+            <l>Yet, though not farre <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> mu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e for <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ome.</l>
+            <l>I did accept <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> when ſhe <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ougnt<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>r <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ome.</l>
+            <l>And taking Pe<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+            </l>
+            <l>What you may <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> and <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>.</l>
+            <l>And O ſweete I <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+            </l>
+            <l>(Though of thee <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>)</l>
+            <l>Yet, for I <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+            </l>
+            <l>And with my <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+            </l>
+            <pb facs="tcp:11710:7"/>
+            <l>Aſſiſt thy Poet, neuer let him lacke</l>
+            <l>A comely cleanly Shirt vnto his backe.</l>
+            <l>Cleane Linnen, is my Miſtris, and my Theame</l>
+            <l>Flowes, like an ouer-flowing plenteous ſtreame,</l>
+            <l>But firſt I will diſcouer what I meane</l>
+            <l>By this ſame ſeemly word, which men call <hi>Cleane:</hi>
+            </l>
+            <l>As <hi>Titans</hi> light's offenciue to the <hi>Owle,</hi>
+            </l>
+            <l>So <hi>Cleane</hi> is oppoſite to what is <hi>fowle:</hi>
+            </l>
+            <l>Yet (in the Ayre) ſome flying Fowle there are,</l>
+            <l>Which tane, &amp; cleanly dreſt, are Fowle cleane fare,</l>
+            <l>But fowly dreſt, when it is fairely tooke:</l>
+            <l>Foule is that <hi>Fowle,</hi> a foule ill take that Cooke.</l>
+            <l>But to the worde cald <hi>Cleane,</hi> it is allotted,</l>
+            <l>The admirable Epithite <hi>Vnſpotted,</hi>
+            </l>
+            <l>From whence all ſoylde pollution is exiled,</l>
+            <l>And therefore <hi>Cleane</hi> is called <hi>vndefiled:</hi>
+            </l>
+            <l>'Tis faire, 'tis clarified, 'tis mundifide,</l>
+            <l>And from impuritye is purifide.</l>
+            <l>But to be truely <hi>Cleane</hi> is ſuch a ſtate</l>
+            <l>As gaines the Noble Name immaculate:</l>
+            <l>And I wiſh all mankinde the grace might win</l>
+            <l>To be (as here I meane) all <hi>Cleane</hi> within.</l>
+            <l>As 'tis no grace a man a man to bee,</l>
+            <l>If outward forme want inward honeſty:</l>
+            <l>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o <hi>Linnen</hi> if with <hi>(Cleane)</hi> it be not grac'd,</l>
+            <l>Tis noyſome, loathſome, and it giues diſtaſte.</l>
+            <l>A<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>Virtue</hi> man or woman doth adorne,</l>
+            <l>So <hi>(Cleane)</hi> is Linnens vertue; and is wome</l>
+            <pb facs="tcp:11710:7"/>
+            <l>For pleaſure, proffit, and for ornament,</l>
+            <l>Throughout the Worlds moſt ſpacious continent.</l>
+            <l>Much more of this word <hi>(Cleane)</hi> might here be writ,</l>
+            <l>But tediouſneſſe is enemy to wit,</l>
+            <l>
+               <hi>Cleane Linnen</hi> now my verſe deſcends to thee,</l>
+            <l>Thou that preordinated wert to be</l>
+            <l>Our Corps firſt Couer, at our naked Birth:</l>
+            <l>And our laſt Garment when we turne to Earth.</l>
+            <l>So that all men <hi>Cleane Linnen</hi> ſhould eſpie,</l>
+            <l>As a <hi>memento</hi> of mortallitie:</l>
+            <l>And that a Sheete vnto the greateſt State,</l>
+            <l>Is th' <hi>Alpha</hi> and <hi>Omega</hi> of his Fate.</l>
+            <l>As at our Births <hi>Cleane Linnen</hi> doth attend vs;</l>
+            <l>So doth it all our whole liues Race befriend vs,</l>
+            <l>Abroade, at home, in Church or common-wealth;</l>
+            <l>At bed, or Boord, in ſickneſſe and in health.</l>
+            <l>It figures forth the Churches puritie,</l>
+            <l>And Spotleſſe Doctrine, and integritie:</l>
+            <l>Her State Angellicall, whate innocence;</l>
+            <l>Her Nurſing loue, and bright magnificence.</l>
+            <l>Yet ſome for linnen doe the Church forſake,</l>
+            <l>And doe a Surplice for a <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> beare take.</l>
+            <l>But alwaies to the Chur<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> bring mine eares.</l>
+            <l>Not eyes, to note what Robes Churchme<g ref="char:cmbAbbrStroke">̄</g> weares.</l>
+            <l>Now from the Church let vs returne but home,</l>
+            <l>And there the Cloth is laid againſt you come,</l>
+            <l>Though raging hunger make the Stomack wroath</l>
+            <l>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>is halfe aſſwaged by laying of the Cloath.</l>
+            <pb facs="tcp:11710:8"/>
+            <l>For in the warres of eating, 'tis the vſe</l>
+            <l>A Table of cloth is hungers flagge of Truce:</l>
+            <l>Whilſt in the fight the Napkins are your friends</l>
+            <l>And waite vpon you, at your fingers endes.</l>
+            <l>Your Dinner and your Supper ouer-paſt</l>
+            <l>By <hi>Linnen</hi> in your beds, you are embrac'd,</l>
+            <l>Then, twixt the ſheetes refreſhing reſt you take,</l>
+            <l>And turne from ſide to ſide, and ſleepe, and wake:</l>
+            <l>And ſure the ſheetes in euery Chriſtian Nation</l>
+            <l>Are walles or limites of our generation,</l>
+            <l>For where deſire, and loue, combined meetes</l>
+            <l>Then ther's braue doings twixt a paire of ſheetes:</l>
+            <l>But where a Harlots luſt doth entertaine,</l>
+            <l>There one ſheetes pennance, bides the ſhames of twaine</l>
+            <l>To all degrees my counſaile here is ſuch</l>
+            <l>That <hi>of the Lower ſheete, take not too much.</hi>
+            </l>
+            <l>As from our beds we ofte doe caſt our eyes,</l>
+            <l>
+               <hi>Cleane Linnen</hi> yields a ſhirt before we rife,</l>
+            <l>Which is a garment <hi>Shifting</hi> in condition</l>
+            <l>And in the Canting tongue is a <hi>Commiſſion:</hi>
+            </l>
+            <l>In weale or woe, in joy or dangerous drifts</l>
+            <l>A <hi>ſhirt</hi> will put a man vnto his <hi>ſhifts.</hi>
+            </l>
+            <l>For vnto it belongs this fatall lot</l>
+            <l>It makes him <hi>ſhift</hi> that hath or hath it not.</l>
+            <l>The man that hath a <hi>ſhirt</hi> doth <hi>ſhift</hi> and chaunge</l>
+            <l>And he that hath no ſhirt doth ſhift and raunge,</l>
+            <l>So the concluſion of this pointe muſt fall,</l>
+            <l>He ſhifteth moſt that doth not ſhift at all.</l>
+            <pb facs="tcp:11710:8"/>
+            <l>Beſides, a <hi>ſhirt,</hi> moſt magically can</l>
+            <l>Tell if it's owner be an honeſt man:</l>
+            <l>The waſhing will his honeſty bewraye,</l>
+            <l>For, <hi>the leſſe ſoape will waſh his ſhirt</hi> they ſaye,</l>
+            <l>Moſt men, <hi>Cleane ſhirts</hi> at ſuch eſteeme do priſe</l>
+            <l>That the poor'ſt theefe who at the gallowes dyes</l>
+            <l>If but his <hi>ſhirt</hi> is <hi>Cleane,</hi> his mind is eaſ'd,</l>
+            <l>He hanges the hanſomer, and better pleaſ'd.</l>
+            <l>Next at the <hi>ſmocke</hi> I needes muſt haue a flirte</l>
+            <l>(which is indeede the ſiſter to a <hi>ſhirt</hi>)</l>
+            <l>'Tis many a females Linnen tenement,</l>
+            <l>Whilſt twixt the quarters ſhe receaue herrent.</l>
+            <l>A <hi>ſmock's</hi> her ſtore-houſe, or her ware-houſe ra<g ref="char:EOLhyphen"/>ther</l>
+            <l>where ſhe her co<g ref="char:cmbAbbrStroke">̄</g>mings in doth take &amp; gather.</l>
+            <l>Hit gaines by it are more then can be told,</l>
+            <l>'Tis her reuenue, and her coppy-hold,</l>
+            <l>Her owne fee ſimple, ſhe alone hath power</l>
+            <l>To let and ſet at pleaſure euery hower.</l>
+            <l>'Tis a commodity that giues no day,</l>
+            <l>'Tis taken vp, and yet yeelds ready paye,</l>
+            <l>But for moſt other wares, a man ſhall be</l>
+            <l>Allow'd for payment dayes three months &amp; three.</l>
+            <l>Yet hath a ſmocke this great preheminence</l>
+            <l>(Where honour's mix'd with modeſt Innocence)</l>
+            <l>It is the Robe of maryed chaſtitie,</l>
+            <l>The vaile of Heauen-belou'd Virginitie,</l>
+            <l>The chaſte concealeme<g ref="char:cmbAbbrStroke">̄</g>t of thoſe fruits cloſe hidde<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+            </l>
+            <l>Which to vnchaſte affections are forbidden,</l>
+            <pb facs="tcp:11710:9"/>
+            <l>It is the Casket or the Cabinet</l>
+            <l>where <hi>Nature</hi> hath her chiefeſt Jewels ſet:</l>
+            <l>For what ſo ere men toyle for, farre and nere</l>
+            <l>By ſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>a or land, with danger, coſt, and feare,</l>
+            <l>Warres wrinkled brow, &amp; the ſmooth face of peace</l>
+            <l>Are both to ſerue the <hi>Smocke,</hi> and its encreaſe.</l>
+            <l>The greateſt Kings, and wiſeſt Counſellours,</l>
+            <l>Stout Souldiers, and moſt ſage Philoſophers:</l>
+            <l>The welthieſt Merchants, and Artificers,</l>
+            <l>Pleibeians, and Plough-toyling labourers,</l>
+            <l>All theſe degrees, &amp; more haue woo'd and praide,</l>
+            <l>And alwayes to the <hi>Smocke</hi> their tributes paide.</l>
+            <l>Beſides, 'tis taken for a fauour great,</l>
+            <l>(When one his miſtris kindly doth entreate)</l>
+            <l>He holds theſe words as Iewels dropt from hir,</l>
+            <l>
+               <hi>You firſt ſhall doe as doth my</hi> Smocke <hi>ſweete Sir.</hi>
+            </l>
+            <l>This Theame of <hi>Smocke</hi> is very large and wide,</l>
+            <l>And might (in Verſe) be further amplifide:</l>
+            <l>But I thinke beſt a ſpeedy end to make</l>
+            <l>Leaſt for a <hi>Smel-ſmocke</hi> ſome ſhould me miſtake,</l>
+            <l>I firſt began it with a <hi>flirt</hi> or <hi>floute</hi>
+            </l>
+            <l>And ending, with a mocke, I will goe out.</l>
+            <l>The An<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>gram of SMOCKE I finde is MOCKES,</l>
+            <l>And I conclude a pox of all ſtrait <hi>Smockes.</hi>
+            </l>
+            <l>Now vp aloft I mount vnto the Ruffe,</l>
+            <l>W<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ch into fooliſh mortals pride doth puffe:</l>
+            <l>Yet Ruffes antiquity is here but ſmall,</l>
+            <l>Within this eightie yeares, not one at all,</l>
+            <pb facs="tcp:11710:9"/>
+            <l>For th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ighth <hi>Henry,</hi> (as I vnderſtand)</l>
+            <l>Was the firſt King that euer wote a Band,</l>
+            <l>And but a falling Band, plaine with a hem,</l>
+            <l>All other people knew no vſe of them,</l>
+            <l>Yet Imitation in ſmall time began</l>
+            <l>To growe, that it the Kingdome ouer-ran:</l>
+            <l>The little Falling-bands encreac'd to Ruffes,</l>
+            <l>
+               <hi>Ruffes</hi> (growing great) were waited on by Cuffes,</l>
+            <l>And though our frailties ſhould awake our care,</l>
+            <l>We make our <hi>Ruffes</hi> as <hi>careles</hi> as we are:</l>
+            <l>Our <hi>Ruffes</hi> vnto our faults compare I may,</l>
+            <l>Both careles, and growne greater euery day.</l>
+            <l>A <hi>Spaniards Ruffe</hi> in follio, large and wide,</l>
+            <l>Is th'abſtract of Ambitions boundles pride,</l>
+            <l>For roundnes 'tis the Embleme, as you ſee</l>
+            <l>Of the terreſtriall Globes rotunditie,</l>
+            <l>And all the world is like a Ruffe to <hi>Spaine,</hi>
+            </l>
+            <l>Which doth encircle his aſpiring braine,</l>
+            <l>And his vnbounded pride doth ſtill perſiſt,</l>
+            <l>To haue it ſet, and poaked as he liſt.</l>
+            <l>The ſets to Organ-pipes, compare I can</l>
+            <l>Becauſe they doe offend the Puritan,</l>
+            <l>Whoſe zeale doth call it ſuperſtition</l>
+            <l>And Badges of the Beaſt of <hi>Babilon.</hi>
+            </l>
+            <l>Ruffes onely at the firſt were in requeſt</l>
+            <l>With ſuch as of abilitie were beſt:</l>
+            <l>But now the plaine, the ſtich'd, the lac'd, &amp; ſhagge,</l>
+            <l>Are at all priſes wome by tagge, and Ragge.</l>
+            <pb facs="tcp:11710:10"/>
+            <l>So Spain (who all the world would weare) ſhal ſee</l>
+            <l>Like <hi>Ruffes,</hi> the world from him ſhall ſcatred bee.</l>
+            <l>A<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> for the Cuffe 'tis pretily encreac'd</l>
+            <l>(Since it began two hand-fuls at the leaſt)</l>
+            <l>At firſt 'twas but a girdle for the wriſt</l>
+            <l>Or a ſmall circle to encloſe the fift,</l>
+            <l>Which hath by little and by little crept.</l>
+            <l>And from the wriſt vnto the elboe leap't,</l>
+            <l>Which doth reſemble ſawcy perſons well:</l>
+            <l>For giue a Knaue an inch, heele take an ell.</l>
+            <l>
+               <hi>Ruffes</hi> are to <hi>Cuffes,</hi> as 'twere the breeding mothers</l>
+            <l>And <hi>Cuffes</hi> are twinnes in pride, or two prowd bro<g ref="char:EOLhyphen"/>thers,</l>
+            <l>So to conclude, <hi>Pride</hi> weares them for abuſe</l>
+            <l>
+               <hi>Humilitie,</hi> for omament and vſe,</l>
+            <l>A <hi>Night-cap</hi> is a garment of high ſtate,</l>
+            <l>which in <hi>captiuitie</hi> doth <hi>captiuate</hi>
+            </l>
+            <l>The braine, the Reaſon, wit, and ſence and all;</l>
+            <l>And euery <hi>night</hi> doth beare ſway capitall.</l>
+            <l>And as the horne aboue the head is worne.</l>
+            <l>So is the <hi>Night-cap</hi> worne aboue the horne,</l>
+            <l>And is a <hi>Sconce</hi> or <hi>Blocke-houſe</hi> for the <hi>head,</hi>
+            </l>
+            <l>wherein much matter is conſidered,</l>
+            <l>And therefore (when too much we ſucke the tap)</l>
+            <l>'Tis truely called a conſidering <hi>Cap.</hi>
+            </l>
+            <l>By day it waytes on Agues, Pluriſies,</l>
+            <l>Conſumptions and all other malladies,</l>
+            <l>A day worne <hi>Night-cap,</hi> in our Common-wealth</l>
+            <l>Doth ſhewe the wearer is not well in health,</l>
+            <pb facs="tcp:11710:10"/>
+            <l>Yet ſome mens folly makes my muſe to ſmile</l>
+            <l>When for a kib'de heele, broken ſhin, or bile,</l>
+            <l>Scab'd hams, cut fingers, or a little ſcarr,</l>
+            <l>A Groyne Bumpe, or a Gooſe from <hi>Wincheſter,</hi>
+            </l>
+            <l>When I ſee <hi>Night-caps</hi> worne for theſe poore vſes</l>
+            <l>It makes my worſhip laugh at their abuſes.</l>
+            <l>Thus is a <hi>Night-cap</hi> moſt officious,</l>
+            <l>A <hi>Captaine, Captious,</hi> and <hi>Capritio<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>u,</hi>
+            </l>
+            <l>And though vnmaried young men may forbeare it</l>
+            <l>Yet age, and wedlocke makes a man to weare it.</l>
+            <l>A <hi>Handkercheife</hi> may well be cald in breife</l>
+            <l>Both a perpetuall leacher, and a theefe,</l>
+            <l>About the lippes it's kiſſing, good and ill</l>
+            <l>Or elſe 'tis diuing in the pocket ſtill,</l>
+            <l>As farre as from the pocket to the mouth</l>
+            <l>So is it's pilgrimage with age or youth.</l>
+            <l>At Chriſtning-banquets and at funerals</l>
+            <l>At weddings (Comfite-makers feſtiuals)</l>
+            <l>A <hi>Handkercheife</hi> doth filch moſt manifold,</l>
+            <l>And ſharke and ſteale as much as it can hold.</l>
+            <l>'Tis ſoft, and gentle, yet this I admire at</l>
+            <l>At ſweete meates 'tis a tyrant, and a pyrat.</l>
+            <l>Moreouer 'tis a <hi>Handkercheifes</hi> high place</l>
+            <l>To be a Scauenger vnto the face,</l>
+            <l>To clenſe it cleane from ſweat and excrements,</l>
+            <l>Which (not auoyded) were vnſauoury ſents;</l>
+            <l>And in our grieifes it is a truſty friend</l>
+            <l>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>or in our ſorrow it doth confort lend:</l>
+            <pb facs="tcp:11710:11"/>
+            <l>It doth pertake our ſighes, our plaintes &amp; feares,</l>
+            <l>Receaues our ſobs, and wipes away our teares.</l>
+            <l>Thus of our good and bad it beares a ſhare</l>
+            <l>A friend in mirth a conforter in care.</l>
+            <l>Yet I haue often knowne vnto my coſt</l>
+            <l>A <hi>Handkercheife</hi> is quickly found, and loſt.</l>
+            <l>Like loue where true affection hath no ground,</l>
+            <l>So is it ſlightly loſt, and lightly found;</l>
+            <l>But be it tentimes loſt, this right Ile doe it,</l>
+            <l>The fault is his or hers that ſhould looke to it.</l>
+            <l>Should I of euery ſort of <hi>Linnen</hi> write</l>
+            <l>That ſerues vs at our neede, both day and night,</l>
+            <l>Dayes, months and yeares, I in this Theame might ſpend,</l>
+            <l>And in my life time ſcarcely make an end.</l>
+            <l>Let it ſuffice that when 'tis fretted out</l>
+            <l>And that a cloth is worne into a clout,</l>
+            <l>Which though it be but thin and poore in ſhape</l>
+            <l>A Surgeon into lint the ſame will ſcrape,</l>
+            <l>O<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>r l<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>es<g ref="char:punc">▪</g> or bolſters, or with plaſter ſpreade,</l>
+            <l>To dreſſ and cure, all hurts from heele to heade,</l>
+            <l>For gangrenes, vlcers, or for wound<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> new hack'd</l>
+            <l>For cuttes, &amp; ſlaſhes, and for Coxcombes crack'd</l>
+            <l>Thus many a Gallant that dares ſtab and ſwagger</l>
+            <l>And gainſt a Iuſtice lifte his fiſte or dagger:</l>
+            <l>And being mad perhaps<g ref="char:punc">▪</g> and hot pot-ſhot,</l>
+            <l>A crazed Crowne or broaken-pate hath got;</l>
+            <l>Then ouer him old <hi>Linnen</hi> domineeres,</l>
+            <l>And <gap reason="illegible" resp="#UOM" extent="2+ letters">
+                  <desc>••…</desc>
+               </gap>ht of s teeth it <hi>cloutes</hi> him bout the eares</l>
+            <pb facs="tcp:11710:11"/>
+            <l>Thus new or old, it hath theſe good effects</l>
+            <l>To cure our hurts, or couer our defects:</l>
+            <l>And when it ſelfe's paſt <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>elpe, with age &amp; rending</l>
+            <l>Quite paſt ſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>lfe me<g ref="char:cmbAbbrStroke">̄</g>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ing, 'tis our meanes <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>f me<g ref="char:cmbAbbrStroke">̄</g>ding.</l>
+            <l>The ſh<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t &amp; ſteele will ſtrike bright ſparkling fire,</l>
+            <l>But how can we haue fire at our deſire,</l>
+            <l>Except old <hi>Linnen</hi> be to tinder burnd,</l>
+            <l>Which by the ſteele and flint to fire is turnd?</l>
+            <l>Thus all Cleane Linnen that a Laundreſſe waſhes,</l>
+            <l>My Muſe hath worn to clowtes, or turnd to aſhes.</l>
+            <l>And ther's the end on't. Now I muſt purſue</l>
+            <l>(The old conſumed) how to purchaſe newe.</l>
+            <l>Now of the louely <hi>Laundreſſe,</hi> whoſe cleane trade</l>
+            <l>Is th'onely cauſe that <hi>Linnens</hi> cleanely made:</l>
+            <l>Her liuing is on two extreames relying,</l>
+            <l>She's euer wetting, or ſhe's euer drying.</l>
+            <l>As all men dye to liue, and liue to dye,</l>
+            <l>So doth ſhe dry to waſh, and waſh to drye.</l>
+            <l>She runnes like <hi>Luna</hi> in her circled ſpheare,</l>
+            <l>As a perpetuall motion ſh<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> doth ſteare.</l>
+            <l>Her courſe in compaſſe ro<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd and endleſſe ſtill,</l>
+            <l>Much like a horſe that labours in mill:</l>
+            <l>To ſhew more plaine how ſhee her worke doth frame,</l>
+            <l>Our Linnen's foule ere ſhe doth waſh the ſame:</l>
+            <l>From waſhing further in her courſe ſhe marches,</l>
+            <l>She wrings, ſhe folds<g ref="char:punc">▪</g> ſhe pleites, ſhe ſmooths, ſhe ſtarches,</l>
+            <l>She ſtiffe<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s, poakes, &amp; ſets &amp; dry againe,</l>
+            <l>And fold: thus end of paine begins her paine.</l>
+            <pb facs="tcp:11710:12"/>
+            <l>Round like a whirligigge or lenten Top</l>
+            <l>O<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> a moſt plenteous ſpring, that ſtill doth drop</l>
+            <l>The Suddes vnto the Sea I may compare</l>
+            <l>The Reake or ſmocke, the wind, the fiſhes Linnen are</l>
+            <l>The <hi>Laun<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>reſſe</hi> fiſhes, foaming froth doth lighten,</l>
+            <l>T<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e w<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ſt her tongue doth thunder &amp; affrighten.</l>
+            <l>The totall is a tempeſt full of chiding</l>
+            <l>
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>t no man in the houſe hath quiet byding,</l>
+            <l>For <hi>Laundreſſes</hi> are teſty and full of wroth,</l>
+            <l>When they are lathering in their bumble broth,</l>
+            <l>No<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> can I blame the<g ref="char:cmbAbbrStroke">̄</g> though they brawle &amp; talke,</l>
+            <l>M<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> there haue naught to do, they may go walke:</l>
+            <l>Yet commonly their worke this profit brings</l>
+            <l>T<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e g<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>od-wife waſheth, and her husband wrings.</l>
+            <l>B<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t though my vearſe thus merrily doth ſtraye,</l>
+            <l>Yet giue the <hi>Laundreſſe</hi> ſtill her due I praye:</l>
+            <l>What were the painefull Spinner, or the Weauer</l>
+            <l>B<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t for hir labour, and her good endeauour,</l>
+            <l>W<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>at were the function of the <hi>Linnen</hi> Draperye,</l>
+            <l>Or Sempſters admirable skill in Naperye?</l>
+            <l>They all might turne and wind, and liue by loſſe</l>
+            <l>But that the <hi>Laundreſſe</hi> giues their worke a gloſſe,</l>
+            <l>All <hi>Linn n</hi> that we vſe to weare, 'tis plaine,</l>
+            <l>The <hi>Laundreſſe</hi> labour giues it grace and gaine,</l>
+            <l>Without her 'tis moſt loathſome in diſtaſte</l>
+            <l>A<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d onely by her paines and toyle 'tis grac'd,</l>
+            <l>She is the ornamentall Inſtrument</l>
+            <l>That makes it taſtefull to the ſight and ſent:</l>
+            <pb facs="tcp:11710:12"/>
+            <l>All you man-monſters, monſtrous Linnen ſoilers,</l>
+            <l>You ſhirt polluting tyrants, you ſheetes ſpoilers,</l>
+            <l>Robuſti<gap reason="illegible" resp="#UOM" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> rude Ruffe rending <hi>raggamentoyes</hi>
+            </l>
+            <l>
+               <hi>Terratritorian tragma Troynouantoyes</hi>
+            </l>
+            <l>Remember that your <hi>Laundreſſe</hi> paines is great,</l>
+            <l>Whoſe labours onely keepes you ſweet and neate:</l>
+            <l>Conſider this, that here is writ, or ſaide</l>
+            <l>And paye her, (not as was the Sculler payde)</l>
+            <l>Call not your <hi>Laundreſſe</hi> ſlut or ſlabb'ring queane,</l>
+            <l>It is her ſlabb'ring that doth keepe thee cleane,</l>
+            <l>Nor call her not <hi>Drye-waſher</hi> in diſgrace</l>
+            <l>For feare ſhe caſt the ſuddes into thy face:</l>
+            <l>By her thy Linnen's ſweete and cleanely dreſt,</l>
+            <l>Elſe thou would'ſt ſtink aboue ground like a beaſt.</l>
+            <l>There is a bird which men <hi>Kings fiſher call,</hi>
+            </l>
+            <l>Which in foule weather hath no ioy at all,</l>
+            <l>Or ſcarce abroade into the ayre doth peepe</l>
+            <l>But in her melancholy neſt doth keepe:</l>
+            <l>Till <hi>Tytans</hi> glory from the burniſh'd Eaſt,</l>
+            <l>Rich Bridegroome-like in gold and purple dreſt</l>
+            <l>Guilds, and enamels mountaines, woods &amp; hillles,</l>
+            <l>And the rotundious Globe with ſplendor filles,</l>
+            <l>In theſe braue Bukſome merry Halcion dayes,</l>
+            <l>The<g ref="char:cmbAbbrStroke">̄</g> this moſt bewteous bird her plumes diſplaies.</l>
+            <l>So doth a <hi>Lauudreſſe,</hi> when the Sun doth hide</l>
+            <l>His head, when skies weep raine &amp; thunder chide,</l>
+            <l>When powting, lowring ſ<gap reason="illegible" resp="#UOM" extent="4 letters">
+                  <desc>••••</desc>
+               </gap>ering ſ<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eete &amp; nowe,</l>
+            <l>From foggy Auſters bluſhing jawes doth blowe,</l>
+            <pb facs="tcp:11710:13"/>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 line">
+                  <desc>〈1 line〉</desc>
+               </gap>
+            </l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> by g<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>de <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>
+            </l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 line">
+                  <desc>〈1 line〉</desc>
+               </gap>
+            </l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> doth the ski<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e</l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <hi>A<gap reason="illegible" resp="#UOM" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap>
+               </hi> bluſh</l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>ple ſluſh.</l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> w<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſted <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ll their</l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 line">
+                  <desc>〈1 line〉</desc>
+               </gap>
+            </l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> an bles.</l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> b<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>an bles,</l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 line">
+                  <desc>〈1 line〉</desc>
+               </gap>
+            </l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> draw<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+            </l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> a<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d ſhuttes,</l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> puttes.</l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> hye,</l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> to dry,</l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <hi>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>aun<gap reason="illegible" resp="#UOM" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap>
+               </hi> praiſe &amp; pa<gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e,</l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> beg<gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> worke againe:</l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> they w<gap reason="illegible" resp="#UOM" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> all conclude.</l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> ingra<gap reason="illegible" resp="#UOM" extent="6 letters">
+                  <desc>••••••</desc>
+               </gap>:</l>
+            <l>Bu<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> haue <gap reason="illegible" resp="#UOM" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>creede,</l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> wan<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> at <gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap>y <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eed.</l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> I comend them,</l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> may attend them.</l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> of mine,</l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 line">
+                  <desc>〈1 line〉</desc>
+               </gap>
+            </l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 line">
+                  <desc>〈1 line〉</desc>
+               </gap>
+            </l>
+            <l>
+               <gap reason="illegible" resp="#UOM" extent="1 line">
+                  <desc>〈1 line〉</desc>
+               </gap>
+            </l>
+         </div>
+         <div type="part">
+            <pb facs="tcp:11710:13"/>
+            <head>The Prin<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>pall <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>aſions why th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> was written.</head>
+            <p>
+               <seg rend="decorInit">I</seg>T was at that <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> that the worlds terrour, a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d wa<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>es Thunder <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>olt <hi>A<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ari<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ke</hi> King of the <hi>G<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>thes</hi> waſte <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ck<g ref="char:EOLhyphen"/>ed <hi>Rome,</hi> and ſtooke all the Kingdomes of the earth into a I<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>er <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>, when there was inhabiting <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> D<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>kedome of <hi>Tuſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>anye</hi> a valiant Captaine named <hi>Ca<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſs,</hi> deſcended from the Roy all houſe of <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>gus</hi> the firſt King of the <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>tag<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ans.</hi> This <hi>Catſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> being driuen <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> ſh<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s in theſe <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o<g ref="char:EOLhyphen"/>buſtuous brekeri<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>gs of the <hi>G<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>hes,</hi> fled f<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t ſafety to the I<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e of <hi>S<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>n<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>a,</hi> where for <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>; good parts and free b<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>u<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>our, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ee was entertained by the <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Madam <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> the <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> daughte<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> and <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>le <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> of <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+               <pb facs="tcp:11710:14"/>although <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> place was chiefe <hi>Gentleman</hi> of the <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>,</hi> his high pu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ht reſo<g ref="char:EOLhyphen"/>lution was <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>lenated and crec<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ed, for tra<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ll and houre<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ces So (with much <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> to the Lady) hee tooke his leaue, and ſayling through the <hi>ſtr<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ts</hi> of <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>br<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lt<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>,</hi> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd the gulph of <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>an<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>,</hi> hee paſt the <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> Eſpe<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>an<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e,</hi> as farre as <hi>China,</hi> where be ſta<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d certaine dayes at <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </hi> then hee determined to progreſſe it by land, and paſſing by the great Citty of <hi>Tarſus</hi> in <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>,</hi> by long iourneys he came to <hi>Gal<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>,</hi> where ne<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> the <hi>G<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>ne</hi> he was in hot ſeemee, and came off <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oru<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ewhat ſcorch<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d, with fireworkes in a <hi>mine:</hi> paſſing from thence be came into <hi>France</hi> where he was well well com<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d at <hi>Breſt,</hi> &amp; at the Towne of <hi>Deip<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>,</hi> was made great prouiſion for his comming; but for ſome reaſons he would neuer came there. In briefe after hee had approu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d himſelfe a hot, valiant and ad<g ref="char:EOLhyphen"/>uenturous Soldier abroad, and a peace<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>er at home, hee came into <hi>Ireland,</hi> where at <hi>Dubblin</hi> he was ſtrucke lame; but
+<pb facs="tcp:11710:14"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>coue<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ing new<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſtrength and courage, he <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ip<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d himſelfe for <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap>and,</hi> la<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ded at <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ſt Cheſter,</hi> whence taking poſte to<g ref="char:EOLhyphen"/>wards <hi>London</hi> he lodg<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d at <hi>Ho<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ey in the <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ole,</hi> in his way, at laſt being corne to the Citty, he made many merry and mad va<g ref="char:EOLhyphen"/>g<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>es betwixt <hi>Turne<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ull-ſtreete</hi> and <hi>Brunt-prood,</hi> ſpending freely, and faring deli<g ref="char:EOLhyphen"/>ciouſly; hauing a ſtiffe ſtomacke to digeſt all diſhes except <hi>Winche<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ter Geeſe,</hi> and <hi>Newmarket</hi> Turkies: thus with much dan<g ref="char:EOLhyphen"/>ger and difficulty hauing trauailed far<g ref="char:EOLhyphen"/>ther then euer man ſawe, and paſſed his time with much loue amongſt Ladyes and Gentlewomen, hauing beene a great withſtander of many deſperate oppoſi<g ref="char:EOLhyphen"/>tions, and a rare Muſitian for his long practiſe in <hi>Pricke-ſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ng.</hi> He againe paſt the Sea in a <hi>Frigget</hi> to <hi>C<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ſt<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>tin <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>le,</hi> where he fell into a moody melane <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oly like <hi>Tymon</hi> of <hi>Athenes</hi> and ſcorned to <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>and</hi> at any <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>me, although hee was charged in the name of the <hi>Graund S<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>g<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>r.</hi> This Gallant hauing beene all his time a great vſer
+<pb n="4" facs="tcp:11710:15"/>wearer<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, and taker vp of Napery, did moſt bountifully bequeath to any Poe<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> that would write a Poeme in the praiſe o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>Cleane <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>innen,</hi> as many ſhirts of the pureſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <hi>Holland</hi> as might bee waſh'd in <hi>Hellicon,</hi> and dryed on the two topt hill of <hi>Parnaſ<g ref="char:EOLhyphen"/>ſus.</hi> To performe whoſe commaund, and receaue the bequeathed Legacie, I vnder<g ref="char:EOLhyphen"/>tooke this great taske, and perform'd it accordingly.</p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:11710:15"/>
+         </div>
+      </body>
+   </text>
+</TEI>

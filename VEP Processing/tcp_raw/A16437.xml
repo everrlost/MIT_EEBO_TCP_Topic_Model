@@ -1,0 +1,783 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A booke of soueraigne approued medicines and remedies as well for sundry diseases within the body as also for all sores, woundes, ... Not onely very necessary and profitable, but also commodious for all suche as shall vouchsafe to practise and vse the same.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1577</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 67 KB of XML-encoded text transcribed from 37 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A16437</idno>
+            <idno type="STC">STC 3356</idno>
+            <idno type="STC">ESTC S116179</idno>
+            <idno type="EEBO-CITATION">99851396</idno>
+            <idno type="PROQUEST">99851396</idno>
+            <idno type="VID">16667</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A16437)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 16667)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 309:07)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A booke of soueraigne approued medicines and remedies as well for sundry diseases within the body as also for all sores, woundes, ... Not onely very necessary and profitable, but also commodious for all suche as shall vouchsafe to practise and vse the same.</title>
+               </titleStmt>
+               <extent>[72] p.   </extent>
+               <publicationStmt>
+                  <publisher>Nigh vnto the three Cranes in the Vintree, by Thomas Dauson, and Thomas Gardyner,</publisher>
+                  <pubPlace>Imprinted at London :</pubPlace>
+                  <date>Nouembre 24. 1577.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Signatures: A-D E⁴.</note>
+                  <note>Imperfect as filmed; title page too light, affecting text.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Medicine --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-08</date>
+            <label>Susie Lorand</label>Sampled and proofread</change>
+         <change>
+            <date>2012-11</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-02</date>
+            <label>Susie Lorand</label>Sampled and proofread</change>
+         <change>
+            <date>2013-02</date>
+            <label>Susie Lorand</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:16667:1"/>
+            <pb facs="tcp:16667:1"/>
+            <p>A booke of ſo<g ref="char:EOLhyphen"/>ueraigne approued medicines and remedies, as well for ſundry diſ<g ref="char:EOLhyphen"/>eaſes within the body, as alſo for all ſores, woundes, goutes, and other griefes whatſoeuer, that greeue <hi>or moleſte the bodye, or any parte thereof: with other proper experimentes.</hi>
+            </p>
+            <p>
+               <hi>Not onely very neceſſary and pro<g ref="char:EOLhyphen"/>fitable, but alſo commodious for all ſuche as ſhall vouchſafe to practiſe and uſe the ſame.</hi>
+            </p>
+            <p>
+               <g ref="char:leaf">❧</g> 
+               <hi>Imprinted at London,</hi> nigh vnto the three Cranes in the Vintree, by Thomas <hi>Dau<g ref="char:EOLhyphen"/>ſon, and Thomas Gardyner,</hi> Nouembris. 24. 1577.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:16667:2"/>
+            <pb facs="tcp:16667:2" rendition="simple:additions"/>
+            <head>¶ Soueraigne medicines and remedies for ſundry purpoſes.</head>
+            <div type="recipe">
+               <head>To make Flos vnguentorum.</head>
+               <p>TAke Roſen and Perroſen, of eche halfe a pounde, Virgyn waxe and frankinſence, of ech a quarter of a pound, Maſtick an ounce, Harts talow a quarter of a pounde, Camphere two drammes: melt that is to be molten, and beate into fine poulder, that which is to be poudred, that don, ſearce it, and boyle them all together, ſaue the Camphere, then ſtrayne them into a pottel of white wyne, through a Canuas cloth, &amp; ſo let them boyle together: when it is boyled, ſet it a cooling, vntil it be blood warme, then put into it your Camphere, and a quarter of an ounce of Turpentine, and keepe it with ſtyrryng vntil it be thorow cold: when it is cold, make it into roules, <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd ſo keepe them to your vſe, for one of <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he pureſt ſalues that can be made. For
+<pb facs="tcp:16667:3"/>thys oyntment or ſalue is moſt excellent for al the dyſeaſes vnder written. Wher<g ref="char:EOLhyphen"/>fore ye muſt haue reſpect in makyng it, that ye put not the Camphere and Tur<g ref="char:EOLhyphen"/>pentyne into the reſt, before it be as cold as blood, for then it is all loſt. Theſe be the dieaſes that it is good agaynſte: viz. for old wounds, it clenſeth and gendreth good fleſhe, it healeth faſter then any o<g ref="char:EOLhyphen"/>ther, for it wyll ſuffer no corruption or dead fleſhe to be in a wounde. Alſo it is good for the head ache, &amp; ſyngyng in the brayne, and for al maner of impoſtumes in the head or body, for blowyng in the eares &amp; cheekes, for ſinues ſprong, ſtarke or ſhronke: it wyl drawe out any thorne or broken bone, it is good againſt the bi<g ref="char:EOLhyphen"/>ting or ſtinging of any venemous beaſt, it wyl rot &amp; heale al maner of botches, &amp; it is good for a Feſter or Canker. Alſo it wyl drawe all maner of aches out of the Lyuer, ſplene, or Reynes. It is good for houlyng in the members. Alſo it beyng
+<pb facs="tcp:16667:3" rendition="simple:additions"/>layd vpon a womans Nauell as a play<g ref="char:EOLhyphen"/>ſter, it wyl ſeaſe the flyre of menſtrues, it healeth the Hemerhoides, and is ſpecial good to make a Searcloth for the gout, ache, botche, or peſtilence. Thys Intret is called <hi>Flos vnguentorum,</hi> for that it is ſuppoſed for hys vertues to haue come to knowledge by reuelation.</p>
+            </div>
+            <div type="recipe">
+               <head>An other for ſhrinking of ſinues.</head>
+               <p>TAke March Malowes one handful, of Roſemary toppes as muche, and ſtampe them together; that done, myn<g ref="char:EOLhyphen"/>gle there with May butter molten, &amp; ſo let it ſtand ten dayes. then ſeeth it on a ſoft fyre vntill the ſtrength of the hearbs be gone, when it is well ſodden, ſtraine it through a canuas cloth into an earthe<g ref="char:cmbAbbrStroke">̄</g> pot, and ſo keepe it cloſe.</p>
+            </div>
+            <div type="recipe">
+               <head>A ſoueraigne oyntment for an ache or bruiſe.</head>
+               <p>TAke a pounde of Sage, a pounde of Rue, halfe a pound of Wormewoode,
+<pb facs="tcp:16667:4"/>and halfe a pounde of Bay leaues, then cut them ſmal, and after beat them in a morter, that done, take three pounde of ſweet ſheepes ſuet, yf ye can, of a ſheepe new kylled, &amp; mynce it ſmall, then beate it with the hearbes in the morter, vntyl the hearbs haue drunke vp the ſuet, and be of colour grene: when ye haue ſo don, take it out, and put it into a baſon, with a pottel of oyle Oliue, &amp; ſo worke it with your hands into the hearbes, tyl it be al of one ſoftnes, &amp; then put it into an ear<g ref="char:EOLhyphen"/>then pot, and ſo kepe it eight dayes cloſe couered: at the eyght dayes end, ſeeth it in a Braſſe Pot with a ſoft fyre, tyll the ſtrength of the hearbes be gone. And to proue it to be enough, take a ſpoonefull therof, &amp; put it into a new canuas cloth, and wryng the iuiſe from the hearbes, yf in y<hi rend="sup">e</hi> end there come any licor like broune water, it is not ſoden enough. If it be enough, there wyll come nothyng but oyntment. In like maner proue al other
+<pb facs="tcp:16667:4" rendition="simple:additions"/>oyntments. When ye haue ſo done, kepe them in a fayre ſtone pot or veſſell very cloſe, not forgetting to ſtraine them into the veſſel wherin ye preſerue it. When ye haue need to occupy it, you muſt anoynt the pacient therewith euenyng &amp; mor<g ref="char:EOLhyphen"/>nyng very warme, where the payne is, and beyng wel annoynted, lay thereto a fayre lynnen cloth very hot, &amp; yf ye can, keepe it to the griefe with a Rouler.</p>
+            </div>
+            <div type="recipe">
+               <head>An oyntment for the ſtone, and Collike, to be made in Maye</head>
+               <p>TAke the buddes of Broome flowers neare the ſhuttyng, halfe a pounde cleane pyked from the ſtalkes, and beate them in a morter very ſmall, that done, myngle them with claryfyed May but<g ref="char:EOLhyphen"/>ter, as much as ye ſhall thynke meete, &amp; ſo keepe it cloſe in a veſſell eyght dayes, then ſeeth it and ſtrayne it, as the other oyntments before: &amp; therwith annoynt the pacients grief very warme, euening and mornyng.</p>
+            </div>
+            <div type="recipe">
+               <pb facs="tcp:16667:5"/>
+               <head>An oyntment for all maner of lameneſſe, or ſwellynges.</head>
+               <p>TAke an handful of Time, an handful of Lauender Cotten, an handfull of runnyng Strawberyes that be lyke to a ſtryng, and cut them ſmall, then beate the<g ref="char:cmbAbbrStroke">̄</g> in a morter, with foure or fyue yong Swallowes taken out of the neaſt very fleg, &amp; quicke beat them together vntyll ye ſee neuer a fether or pece of the<g ref="char:cmbAbbrStroke">̄</g> whole: that done, take a. i.d. of Maye Butter clarifyed, &amp; myngle it in the morter with the hearbs, and ſo let it ſtand. <hi>24.</hi> houres before ye ſeth it: When you haue ſodden it, vſe it as before ye are taught, as well in preſeruyug of it, as alſo in vſyng it.</p>
+            </div>
+            <div type="recipe">
+               <head>A ſoueraigne playſter for a burnyng or ſcalding, the fyre being out.</head>
+               <p>TAke of Roſen in fyne polder a pound, a pound of vnwrought ware minced ſmal, a pounde &amp; halfe of clarifyed May butter, and put the<g ref="char:cmbAbbrStroke">̄</g> all into a braſſe pan, &amp; ſet it vpon the fyre tyll it begyn to ryſe,
+<pb facs="tcp:16667:5" rendition="simple:additions"/>alway ſtirring it: then take it of the fyre, and incontinent put it into a veſſel with fayre cold water, and ſtyrre it together, &amp; ſo let it ſtand a day or a nyght: when ye haue ſo don, make it vp in roules, &amp; kepe them tyll your neede, makyng thereof a playſter with a knyfe vpon a ſoft lynnen cloth, dreſſyng the ſore twiſe a day.</p>
+            </div>
+            <div type="recipe">
+               <head>A ſoueraigne bath for al lameneſſe.</head>
+               <p>TAke a blacke ſheepes heade with the wool on it, and doo out the braynes &amp; tongue, &amp; wipe the head cleane, then put it into two gallons of fayre water, with a pecke of Culuerage, otherwiſe cal<g ref="char:EOLhyphen"/>led Arſe ſmart, beyng fyrſte cleane py<g ref="char:EOLhyphen"/>ked and waſhed, and ſo ſeeth them al to<g ref="char:EOLhyphen"/>gether, tyl the bones fal from the fleſh, &amp; ſcum it cleane in the ſeethyng, that don, take out the bones, and the reſt put into a cloſe earthen pan, or pot, and ſo keepe it, takyng at once as much of the broth, fleſh, and hearbes, as ſhal ſuffice to bath
+<pb facs="tcp:16667:6"/>the lame place withal, vſyng it euenyng and mornyng, as hot as it may be ſuffe<g ref="char:EOLhyphen"/>red, keping the place warme with a lin<g ref="char:EOLhyphen"/>nen cloth betwixt the bathyngs.</p>
+            </div>
+            <div type="recipe">
+               <head>To breake any ſickneſſe, ſore, or felon.</head>
+               <p>TAke the greaſe leaues of a barow hog and pyl of the ſkyn, &amp; beate the greaſe in a morter tyll it be enough, whiche ye ſhal know by the whytenes therof, then put it into a fayre ſtone pot, not an ear<g ref="char:EOLhyphen"/>then pot, and ſo keepe it cloſe tyll Maye, when ye ſhall gather Stabies &amp; ſtampe it, and ſtrayne it, and to one quart of the greaſe colde, put a pottell of the iuiſe of Stabies, &amp; in lyke ſort more or leſſe: that done, worke the greaſe tyl it haue drunk vp the iuiſe, with your handes, then co<g ref="char:EOLhyphen"/>uer it, and let it ſtand tenne dayes: then preſſe the water out of it with your han<g ref="char:EOLhyphen"/>des, and after with as much of the ſame iuiſe worke it agayne, tyl it hath drunke it vp, &amp; ſo let it ſtande ten dayes. In lyke
+<pb facs="tcp:16667:6" rendition="simple:additions"/>maner vſe it at the end of euery .x. dayes, duryng May and Iune. In the end pre<g ref="char:EOLhyphen"/>ſerue it tyl need require, and as you need take therof aſ much as wyl make a thick playſter, to the bygnes of the ſore, &amp; laye it therto .xxiiii. houres, and it wyl breake it: and beyng broken, heale it with a dra<g ref="char:EOLhyphen"/>wyng playſter.</p>
+            </div>
+            <div type="recipe">
+               <head>A ſoueraigne proued medicine for the pin and web in the eye, to be made in May.</head>
+               <p>TAke the toppes or crops of the hearbe Chriſtopher, with the ſtalks &amp; leaues thereon, of a fynger length, yf they be ſo farre tender, a good quantitie, &amp; ſtampe the<g ref="char:cmbAbbrStroke">̄</g> very ſmal, that done, myngle it with a good quantitie of Maye butter, and in a fayre platter, or ſuch lyke veſſel ſtampe them together, and vſe to ſet it in the hot ſun euery day, when the ſunne ſhyneth clearly, the ſpace of .ii. or .iii. monethes, tyll it be rotten, &amp; yf it be ſooner rotten, then ſtrayne it through a cleane lynnen
+<pb facs="tcp:16667:7"/>cloth, when as it hath molten in the ſun the ſpace of a whole day: that whiche is ſtrayned out, is the medicine whiche ye muſt keepe, taking as much as a meane pynnes head, &amp; put it into the eye of the pacie<g ref="char:cmbAbbrStroke">̄</g>t lying vpright, the ſpace of a quar<g ref="char:EOLhyphen"/>ter of an houre. Thys medicine may ne<g ref="char:EOLhyphen"/>uer be made nor myngled, but in May. It may be ſtrayned in Iune, Iuly, or Auguſt.</p>
+            </div>
+            <div type="recipe">
+               <head>A ſpeciall good ſalue for any old ſore, alſo good for a greene wound, called Salue Robert.</head>
+               <p>TAke a pound of weathers ſuet beyng fyrſt molten, and clarified into a cake, &amp; ſcrape it into a braſſe Pan or Poſtnet, then take a pound of virgin waxe, &amp; in lyke maner ſcrape it into y<hi rend="sup">e</hi> pan or other veſſell, that done, ſtrayne a pound of Ro<g ref="char:EOLhyphen"/>ſen beyng beaten into fyne polder, &amp; ſo with ſtyrryng, boyle them vpon a fyre of coales, vntyl it be molte<g ref="char:cmbAbbrStroke">̄</g> al into one like<g ref="char:EOLhyphen"/>nes, then put to it two ounces of blacke
+<pb facs="tcp:16667:7" rendition="simple:additions"/>ſope, &amp; ſtyrre it a while after, then whe<g ref="char:cmbAbbrStroke">̄</g> it begynneth to ryſe, take it of, &amp; ſet it aſide tyl it be through colde: then cut it in pee<g ref="char:EOLhyphen"/>ces, and ſo worke it vp into ſmal roules, ſo as ther be no knots in the roules: that ye may the better worke it, anoynt your handes with ſoft greace or oyle, &amp; it ſhall not cleaue to your fyngers, hauing thus done, keepe them in a cloſe boxe.</p>
+            </div>
+            <div type="recipe">
+               <head>A water to be vſed with this ſalue to waſh the ſore, before ye lay to the playſter, as often <hi>as ye dreſſe it: good to clenſe the ſore, and to abate proud fleſhe.</hi>
+               </head>
+               <p>TAke a good handful of Sage, waſh it cleane, and ſeeth it in a quart of ſtale ale, or ſtrong beere, and in the ſeethyng ſcum it, and put therto a peece of Roche Alam as byg as a Walnut, and ſo let it ſeeth halfe away: that done, keepe it in a ſtone pot cloſe, and as ye need take a ſau<g ref="char:EOLhyphen"/>cer ful thereof with ſome of the leaues, &amp; luke warme bath the wou<g ref="char:cmbAbbrStroke">̄</g>d or ſore ther<g ref="char:EOLhyphen"/>with, then wype the ſore dry with a ſoft
+<pb facs="tcp:16667:8"/>lynnen cloth, &amp; afterwarde lay to a play<g ref="char:EOLhyphen"/>ſter of the ſayd ſalue Robert; and if neede be, put in a tent made of Lint &amp; the ſalue together, before ye lay on the plaiſter. In thys maner dreſſe the ſore twiſe a day, til ye thinke it waxeth almoſt whole: after<g ref="char:EOLhyphen"/>ward if ye liſt, once a day wil be enough, becauſe it may els heale too faſt.</p>
+            </div>
+            <div type="recipe">
+               <head>A ſoueraigne medicine for a burnyng or ſcalding, called Mother Cammockes me<g ref="char:EOLhyphen"/>dicine, to be made in May.</head>
+               <p>TAke Dayſy leaues, rootes, &amp; flowers, and the inner barke of Elder, of eche an handful, of the leaues of Bryers, ſuch as beare the beryes, a quarter of a hand<g ref="char:EOLhyphen"/>ful, &amp; bruſe them wel together in a mor<g ref="char:EOLhyphen"/>ter, then put therto a pound of clarifyed Maye butter, &amp; myngle them together, and ſo boyle them vntyll the ſtrength be out of the hearbes: then ſtrayne it tho<g ref="char:EOLhyphen"/>row a fayre lynnen cloth into the veſſell wherin ye meane to keepe it, as before.
+<pb facs="tcp:16667:8" rendition="simple:additions"/>When you wyll occupye this oyntment, ye muſt, after ye haue annointed the pa<g ref="char:EOLhyphen"/>cient, lay ouer the place anointed a peece of the ſkyn of hogges greace, or the filme of ſheepes ſuet, to keepe the clothe from cleauyng to the ſore. For a neede thys oyntment maye be made in any other moneth wherin the Dayſies may be ga<g ref="char:EOLhyphen"/>thered.</p>
+            </div>
+            <div type="recipe">
+               <head>For a Canker.</head>
+               <p>TAke hearbs Robert, red Sage, hearb Grace, of ech lyke much, ſtampe them in a morter with good ale. Whe<g ref="char:cmbAbbrStroke">̄</g> ye haue ſo done, put the hearbes in a lynne<g ref="char:cmbAbbrStroke">̄</g> cloth and wet your cloth wel in the iuiſe, then laye the cloth with the hearbes to your tooth at nyght &amp; in the mornyng in lyke maner, and by the grace of God it wyll draw out the Canker.</p>
+            </div>
+            <div type="recipe">
+               <head>A playſter for all maner of ſores, and ſpecially for greene ſores.</head>
+               <p>Take of fyne Suger and Burnet, of
+<pb facs="tcp:16667:9"/>ech lyke much, and bruſe them in a mor<g ref="char:EOLhyphen"/>ter, and waſh the wound with the iuiſe of the ſame, then take the hearbes fynly-beaten, &amp; myngle with them &amp; the iuiſe a qua<g ref="char:cmbAbbrStroke">̄</g>titie of engliſh hony &amp; vnwrought waxe, ſo boyle them together tyl it be all of one colour: then take them from the fyre, and let them ſtand a while, the<g ref="char:cmbAbbrStroke">̄</g> put it into a baſon of fayre water, &amp; ſo worke it out into roules, as before is taught, in ordring the wound. <hi>Prob. per T. Colby.</hi>
+               </p>
+            </div>
+            <div type="recipe">
+               <head>An other medicine for a Canker.</head>
+               <p>Take Sage, Rue, Woodbine leaues, Peneryall, &amp; of Filbert leaues or buddes of ech an handfull, if neyther can be got<g ref="char:EOLhyphen"/>ten, then take of the inner barke of the yongeſt boughes, one handful, and ſeeth it with the reſt in a quart of good ale o<g ref="char:EOLhyphen"/>uer a ſoft fyre, til halfe be conſumed: wha<g ref="char:cmbAbbrStroke">̄</g> it is halfe ſoden, put thereto three ſpone<g ref="char:EOLhyphen"/>fuls of hony, and as much Roche Alam <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> thre<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Walnuts. When it is conſumed
+<pb facs="tcp:16667:9"/>take it of, and keepe it as your other wa<g ref="char:EOLhyphen"/>ters: if you neede hereof, take a ſaucer ful and warme it, then wet a lynnen clothe therein, and ſo waſhe the ſore, after that lay the cloth to the griefe.</p>
+            </div>
+            <div type="recipe">
+               <head>For a ſwellyng or bruiſe.</head>
+               <p>Make a Poulteſſe of Wheate bran &amp; water, and when it is wel ſodden, put to a diſh ful of it, a ſaucer ful of oyle of Rue, and ſtyrre them well together, and ſo lay it to the ſwellyng or bruiſe, as warme as may be ſuffred, ſhifting it twiſe a day.</p>
+            </div>
+            <div type="recipe">
+               <head>For a ſore breſt.</head>
+               <p>Take a handful of fygges and ſtampe them tyl the kernels be broke<g ref="char:cmbAbbrStroke">̄</g>; then take a litle freſhe greaſe &amp; temper it with the fygs: then make a playſter therof, and as hot as the pacient may ſuffer it, lay it to their breſt, and it wyl take away the an<g ref="char:EOLhyphen"/>guiſh &amp; ſwellyng, &amp; if it be apt to breake, it wyl breake it, els not.</p>
+            </div>
+            <div type="recipe">
+               <pb facs="tcp:16667:10"/>
+               <head>For a ſore leg.</head>
+               <p>Take Lye made of the aſhes of cleane aſhe wood, alſo take a litle Alam and as much Maddar and ſeeth it, then ſtraine it, &amp; waſh the ſore therwith. This water is good to cleare a ſore, moderating your Allam and Maddar to the qualitie of the ſore, and alſo it wyll further the hea<g ref="char:EOLhyphen"/>ling of it, vſing therwith a good healing playſter.</p>
+            </div>
+            <div type="recipe">
+               <head>To take the fyre out of a burning or ſcalding.</head>
+               <p>Take a quantitie of reſtye Bacon, &amp; burne it with fyre, hauing a Baſon of water vnder it, that the dropping ther<g ref="char:EOLhyphen"/>of may fal into it, then take the dropping fro<g ref="char:cmbAbbrStroke">̄</g> the water with a fether, &amp; put it in a diſhe with the iuiſe of Singrue, other<g ref="char:EOLhyphen"/>wiſe called Houſlik, a conuenient quan<g ref="char:EOLhyphen"/>titie to your Bacon, the ſaid iuiſe beyng ſtrayned into it: alſo put thereto a yolke of an eg hard roſted, then beat them to<g ref="char:EOLhyphen"/>gether vntyll you haue made a perfecte
+<pb facs="tcp:16667:10" rendition="simple:additions"/>myxture therof, and annoynt the pacie<g ref="char:cmbAbbrStroke">̄</g>t therewith as oft as the heate of the fyre ſhal drinke it vp, or dry it, and it wyl take away the heate of the fyre, and heale the ſore. This was proued by M. White, beyng ſore burned with Gun poulder, who before the vſe hereof, dypped that part of his body that was ſo burned, in<g ref="char:EOLhyphen"/>to cold Bryne, to aſſwage the griefe.</p>
+            </div>
+            <div type="recipe">
+               <head>To aſſwage the ſtinging of an Adder, or other venemous beaſt.</head>
+               <p>Take ſhel Snailes which in ſommer tyme keepe in Gardens, and in Wynter in old houſes, breake the ſhelles, and lay the Snayles in a peauter diſhe, &amp; pricke them with a pynne, and there wyl come an oyle out of them, with the whiche ye ſhall annoynt the pacient with a fether, and as it dryeth in, ſtyl lay on more with your fether, tyl you may perceiue where the ſtyng ſtycketh: then take one of the Snailes vnpricked, &amp; lay it to the griefe.
+<pb facs="tcp:16667:11"/>To keepe the ſwellyng from the harte, you muſte laye that parte of the bodye ſo ſtong, higher the<g ref="char:cmbAbbrStroke">̄</g> the hart. Alſo betwixt the hart, and the place ſo ſtong, bynde a playſter of Triacle vpon a lynnen clothe an ynche broade, &amp; it wyl dryue the ſwel<g ref="char:EOLhyphen"/>inge from the hart.</p>
+            </div>
+            <div type="recipe">
+               <head>An other remedie to take out the fyre of a burninge or ſcaldinge.</head>
+               <p>Take the yolkes of .xx. or mo hard ro<g ref="char:EOLhyphen"/>ſted egges, and fry them in a frying pan, breaking them all to peeces, &amp; in the fry<g ref="char:EOLhyphen"/>ing there wil ryſe a frothe, and after the frothe there will alſo ryſe an oyle, which oyle ye ſhall take out of the panne, and wth a fether annoynt the ſore as faſt as the fyre ſhall drynke it vp, and in a ſmal tyme it wyll both kyll the fire, and alſo heale the ſore.</p>
+            </div>
+            <div type="recipe">
+               <head>To heale a greene wounde.</head>
+               <p>Take the hearbe Salindine &amp; Houſe<g ref="char:EOLhyphen"/>lyke
+<pb facs="tcp:16667:11" rendition="simple:additions"/>equal quantitie, then bruſe them in a morter, and take the iuiſe of them, and put it in the wound, &amp; annoynt the ſame therwith: that done, fyl the wound with part of the bruſed hearbs, and ſo bynde it vp, &amp; in ſhort tyme it wil heale the ſore: as by proofe hath bene ſeene.</p>
+            </div>
+            <div type="recipe">
+               <head>For watering eyes.</head>
+               <p>Take Bittanie, &amp; eate it, or drinke it, whether ye lyſt, &amp; it will take awaye the watering of the eyes.</p>
+            </div>
+            <div type="recipe">
+               <head>For a womans ſore breſt.</head>
+               <p>TAke &amp; temper cleane wheate flower with yolkes of egges, and make thereof a plaiſter &amp; lay thereto, ſhifting it twyſe a daye, and it will heale the ſore</p>
+            </div>
+            <div type="recipe">
+               <head>To kil the worme that bredeth in a mans eye</head>
+               <p>Take Rewe otherwiſe herbe grace, &amp; ſtampe it, and temper it with the vrine of the ſame man, that done, geue it him
+<pb facs="tcp:16667:12"/>to drynke, &amp; it ſhal kill the ſayd worme.</p>
+            </div>
+            <div type="recipe">
+               <head>An other medicine for ſore eyes.</head>
+               <p>Take the oyle of Egges, the iuyſe of ſtamped Dayſes. &amp; the oyle of blacke Snayles, whiche you muſte get in this maner: Bray them in a morter, then put them into a fayre linen clothe, holdyng it ouer a ſauſer, that it maye drop into the ſauſer: that done, take the ſayd drops with the other things before wrytten, &amp; boyle them altogether with ſkymming: then put it in lyke veſſell as your other oyntments, and as ye neede therof, take a feather, and dip it in the vyall, or other veſſell, wherein it remayneth, and ſo annoynte ſore eyes ſo often as neede re<g ref="char:EOLhyphen"/>quireth.</p>
+            </div>
+            <div type="recipe">
+               <head>To ſtaunch a wound of bleeding.</head>
+               <p>Fyll the wounde full of Orpin chau<g ref="char:EOLhyphen"/>fed in, or betwixt your hands, and it wil ſtaunche.</p>
+               <pb facs="tcp:16667:12" rendition="simple:additions"/>
+               <p>Alſo fyll the wounde full of the blades of Engliſh Safforne, and it ſhal ſtanche.</p>
+               <p>Oyle of Exiter poured into a wound, wil alſo ſtaunche the ſame.</p>
+               <p>This oyle of Exiter will alſo heale a bruſe, yf it be annoynted therwith, and after rowled vp with a warme rowler, &amp; ſo ſhifted once in .xxiiii. houres.</p>
+            </div>
+            <div type="recipe">
+               <head>An other to ſtaunch a wound.</head>
+               <p>Take Veruin made in fine poulder, &amp; put therof in the wound, &amp; it wil ſtanch.</p>
+            </div>
+            <div type="recipe">
+               <head>To ſtaunch bleeding at the noſe.</head>
+               <p>Take the iuiſe of red Nettles, &amp; good red wyne, of eche lyke quantity, putting thereto the poulder of white Chalke as much as halfe a Haſel nut ſhel wil hold: that done, warme it luke warme, &amp; geue it the pacient to drinke.</p>
+            </div>
+            <div type="recipe">
+               <head>A proued medicine for the goute.</head>
+               <p>Take a prety quantitie of greene flyes
+<pb facs="tcp:16667:13"/>called <hi>Cantarides</hi> which the Apothecary doth ſeke, and twyſe as much crummes of ſower Rye bread, and ſtampe them in a morter with a litle vineger, ſo as ye may make therof a playſter the breadth of a groute, then lay it vpo<g ref="char:cmbAbbrStroke">̄</g> the ſore place, that is, where the moſte griefe is, for the ſpace of ſire or feuen houres: then lift vp the playſter with the poynt of a knife, &amp; ſo let it lye halfe an houre. When you haue ſo done, pull it of, and you ſhal ſee a blyſter gathered vnder it, which with a needle you muſt pricke in the loweſt part therof, and with your fynger thruſt out the water ſoftly, and yf the water be cold it wyll be yellowe, yf the payne be out, it wyl be white lyke the gelly of a Pyg: ha<g ref="char:EOLhyphen"/>uyng thus don, take a ſeare Oken leafe, &amp; cuttyng out of it all hys vaynes, pricke it ful of holes, and lay it to the bliſter, let<g ref="char:EOLhyphen"/>tyng it remayne there vntyl it be whole. The blyſter beyng broken, the payne of the diſeaſe is gone, notwithſtanding the
+<pb facs="tcp:16667:13" rendition="simple:additions"/>leafe muſt heale the ſkyn anewe, and al<g ref="char:EOLhyphen"/>ſo you muſte make the blyſter beneath the ioynt, as yf it wer on the knee, the<g ref="char:cmbAbbrStroke">̄</g> to make it a litle beneath it, or els where in lyke maner.</p>
+            </div>
+            <div type="recipe">
+               <head>An other for a bruiſe or ſwelling.</head>
+               <p>Take the rootes of March Mallows three handfuls and cut them ſmal, &amp; one handfull of wylde Mallowes, and ſeeth them in a gallon of fayre water, vntyll the rootes be ſoft, and the water almoſt conſumed: then take out the rootes and leaues, and draine them through a fayre cloth, and ſtampe them: Then bath the bruiſe or ſwellyng with the ſame water wherein the rootes were ſodden, a good while together, with a lynnen cloth dip<g ref="char:EOLhyphen"/>ped therein, for the more eaſe to the ſore. When you haue ſo bathed the ſore, take your roots and leaues wel ſtamped, and myngle them with a good handefull of Line ſeede fynely beaten, &amp; a good quan<g ref="char:EOLhyphen"/>titie
+<pb facs="tcp:16667:14"/>of Bores greaſe, and make thereof a playſter of great thyckneſſe, and heate it very hot, and ſo lay it to the ſore, &amp; with<g ref="char:EOLhyphen"/>in foure or fyue dayes it wyl heale it.</p>
+            </div>
+            <div type="recipe">
+               <head>A proued medicine for a Fellon.</head>
+               <p>Take the iuiſe of Smallage, the iuiſe of Fetherfue, of eche lyke quantitie, and myngle them with Wheat flowre, to the quantitie of a peauter dyſhe full, and put therto as much blacke ſope as the quan<g ref="char:EOLhyphen"/>titie of a Walnut: the<g ref="char:cmbAbbrStroke">̄</g> worke it with your hands vntyl the Sope can not be ſeene, then make therof a playſter, and lay it to the Fellon very warme.</p>
+            </div>
+            <div type="recipe">
+               <head>A medicine for all maner of Goutes.</head>
+               <p>Take a lapfull of Rue, of Hyſope as much, of water Mint as much that gro<g ref="char:EOLhyphen"/>weth in the water, of Arſmart as much, and boyle them together in a gret veſſell tyll the colour of the hearbs be changed: Then hauyng a baine tub ready, with a
+<pb facs="tcp:16667:14" rendition="simple:additions"/>rounde ſtoole in it, and therein a hole as byg as the palme of an hande, and a ſoft ſtoole to ſet his foot vpon, and put in the water ſeethyng hot, the bayne beyng cloſe couered that the ayre get not out: and let the diſeaſed ſet hym downe as yf he were at hys ſtoole of eaſement, wyth hys feet vpon the other, ſo as no parte of hys bodye be touched with the water, &amp; ſo let hym ſweate an houre, yf he can en<g ref="char:EOLhyphen"/>dure it, and in ſweating let him rub him with hys handes where moſte griefe is. If he be conſtrayned by fayntneſſe or o<g ref="char:EOLhyphen"/>therwiſe to drynke, geue hym ſtale Ale with a toſte, but it is beſt to abſtaine. Af<g ref="char:EOLhyphen"/>ter thys let hym lye downe in a warne bed, and when he is dry, geue hym halfe an ounce of <hi>Caſſia Fiſtula</hi> drawen with a water that longeth to a Laſke, and after let hym ſleepe, and by Gods grace it ſhal helpe hym.</p>
+            </div>
+            <div type="recipe">
+               <head>For to knyt a vayne.</head>
+               <p>Take the hearb called Bledith Buſta<g ref="char:EOLhyphen"/>porus,
+<pb facs="tcp:16667:15"/>the iuiſe of Bayes, and bray them together, &amp; geue it the pacient to drynke in warme Poſſet ale.</p>
+            </div>
+            <div type="recipe">
+               <head>For the Siatica paſſio.</head>
+               <p>Take Deares ſuet, Roſen, and ſtone Tarre ſomwhat more in quantitie, and boyle altogether tyl al be moulten, then ſpreade it on a lynnen cloth in maner of a playſter, &amp; pricke the cloth very thicke with a knyfe, and lay it where the paine is as hot as may be ſuffred, It hath ben proued.</p>
+            </div>
+            <div type="recipe">
+               <head>Stubbes medicine for the Goute.</head>
+               <p>Take a quart of red wyne lees, a quar<g ref="char:EOLhyphen"/>ter of a pounde of Beane flower, halfe a quarter of a pou<g ref="char:cmbAbbrStroke">̄</g>d of Cummyn fyne bea<g ref="char:EOLhyphen"/>ten, a ſponeful of bole Armianake, halfe an ounce of Camphere, whiche muſt be put in at twiſe, and beyle them altoge<g ref="char:EOLhyphen"/>ther tyll they be ſomewhat thicke, then make it playſter wiſe, and laye it to the payne.</p>
+            </div>
+            <div type="recipe">
+               <pb facs="tcp:16667:15" rendition="simple:additions"/>
+               <head>R. Oſbornes medicine for the Goute.</head>
+               <p>Take three pyntes of fayre runnyng water from a ſpryng, and put to it three handfuls of red Roſe leaues that be new dryed, but not diſtylled, &amp; ſeeth them to<g ref="char:EOLhyphen"/>gether tyl the leaues be very tender, and the water more then halfe waſted: then put therto halfe a pynt of good Roſe wa<g ref="char:EOLhyphen"/>ter, and let them boyle together a greate whyle after. When the leaues be as ten<g ref="char:EOLhyphen"/>der as may be, and the water wel conſu<g ref="char:EOLhyphen"/>med, put to it of tarteſt leauened white bread crummes finely grated, and ſtyre it with a ſticke tyl it be as thicke as may be poſſible: then make thereof a playſter vpon a lynnen cloth, and as hot as may be ſuffered, bynde it to the place greeued with roulers. In this maner vſe it twiſe a day.</p>
+            </div>
+            <div type="recipe">
+               <head>Stubbes playſter for the Goute.</head>
+               <p>Take <hi>Occicronu<g ref="char:cmbAbbrStroke">̄</g> Galbanum,</hi> and <hi>Me<g ref="char:EOLhyphen"/>litonum,</hi> of eche. i.d. and ſtyl them: then
+<pb facs="tcp:16667:16"/>take a pound of ſtone Pitche, an other pound of fine Roſen: one halfe ounce of Camphere, one quarter of Deeres ſuet, halfe a quarter of a pound of Cummyn, and boyle them on a ſofte fyre together, &amp; therof make a playſter vpon a peece of lether: vſing it as the other.</p>
+            </div>
+            <div type="recipe">
+               <head>An other for the Goute:</head>
+               <p>Take the Gall of an Oxe, and <hi>Aqua compoſita,</hi> of ech lyke quantitie, and put therto as much oyle of Exiter, as of both the other, &amp; labour them al together in a pot with a ſticke, by the ſpace of halfe an houre: when you haue ſo done, annoynt your paine therwith, then wet a lynnen cloth therein, and as hot as ye can ſuffer it, bynd it to the ſore.</p>
+            </div>
+            <div type="recipe">
+               <head>A proued water to heale as well newe woundes, as olde ſores.</head>
+               <p>Take of Camphere. vi.d. of white Co<g ref="char:EOLhyphen"/>poras. iiii.d. and boyle them together in
+<pb facs="tcp:16667:16" rendition="simple:additions"/>an earthen pot for ſuche a purpoſe vpon a chafyn diſh of coales tyll they be moul<g ref="char:EOLhyphen"/>ten, and alſo tyll it be hardened agayne. When it is hard, take it of, and beat it in a morter with .ii.d. of Bole Armoniake into fyne poulder: then take a pan with a quart of fayre runnyng water, and ſo ſet it on the fyre tyl it begyn to ſeeth, and then take it of, and put into it two ſpon<g ref="char:EOLhyphen"/>fuls of the ſame poulder, and againſt the fyre let it boyle a litle together. When it hath boyled a whyle before the fyre, take it of, and ere it be cold, put it into a ſtone pot to keepe, as your other waters or oyntmentes, ſtoppyng it very cloſe. Whe<g ref="char:cmbAbbrStroke">̄</g> ye neede to occupye thereof, take two or three ſponfuls of it, &amp; in a ſaucer warme it on the fyre, and wetting a linnen cloth therin, lay it to the wound or ſore, and ſo roule it harde with roulers, vſyng it on this maner. And if it heale ouer faſt, the<g ref="char:cmbAbbrStroke">̄</g> dreſſe it with the water beyng cold, once or twiſe, and it wyl cauſe that it ſhal not
+<pb facs="tcp:16667:17"/>heale too faſt, and in this manner vſe it as your iudgement, and diſcretion ſhall ſeeme beſt.</p>
+            </div>
+            <div type="recipe">
+               <head>The L. Capels ſalue for cuts or ranklyngs, comming of rubbing. It is alſo a good lyp ſalue.</head>
+               <p>Take a pounde of Maye butter, &amp; cla<g ref="char:EOLhyphen"/>rifye it, then take the pureſt thereof, alſo take .iii. ounces of Engliſh waxe, and .ii. ounces of Roſen, &amp; clarifie them by the<g ref="char:cmbAbbrStroke">̄</g> ſelues: then boyle them altogether vpon a ſoft fyre with ſtyrryng that it burne not, and when it is boyled, coole it, and after keepe it in the cake or otherwiſe, as your other ſalues.</p>
+            </div>
+            <div type="recipe">
+               <head>To eate out the dead fleſh in any wounde.</head>
+               <p>Take Henbane, &amp; eggeſhels, &amp; burne them together: then ſtampe them into fine pouder: Put thereof ſuche quantitie into the wounde, as ſhall ſeeme needful: and it wyll eate oute the deade fleſhe.</p>
+            </div>
+            <div type="recipe">
+               <pb facs="tcp:16667:17" rendition="simple:additions"/>
+               <head>To heale a wounde within ten dayes, as by proofe hath beene ſeene.</head>
+               <p>Stampe Camphere with Barrowes greace, and put it into the wound, and it wil heale it.</p>
+            </div>
+            <div type="recipe">
+               <head>To ripe and breake botches.</head>
+               <p>Dip Dragon leaues in oyle, and laye it vpon the botch, and it wil breake it.</p>
+            </div>
+            <div type="recipe">
+               <head>To cleare the ſyght of eyes.</head>
+               <p>Take as many red Snayls as ye can get, which in raine or hayle crepe about, &amp; ſeeth them throughly in well water, &amp; in the ſeething, gather or ſkym of the fat that wil come out of them, and preſerue it as the other oyntments, and when ye need, take &amp; anoynt your eyes therwith.</p>
+            </div>
+            <div type="recipe">
+               <head>An other remedye for ſore eyes.</head>
+               <p>Take the iuiſe of Fenell and drop ther<g ref="char:EOLhyphen"/>of into the ſore eyes euenyng and mor<g ref="char:EOLhyphen"/>nyng, &amp; it ſhall heale the griefe &amp; payne.</p>
+            </div>
+            <div type="recipe">
+               <pb facs="tcp:16667:18"/>
+               <head>To aſſwage the ſwelling of the gignitors.</head>
+               <p>Take coorſe meale and melte yt with hony, that don, ſtamp it with Cummin tyll it be well myngled: then make ther<g ref="char:EOLhyphen"/>of a playſter, and lay it to the ſore, and it wil take a waye the ſwelling.</p>
+            </div>
+            <div type="recipe">
+               <head>An other medicine to breake a byle.</head>
+               <p>Take branne and womans mylke, &amp; put them together, when it is through<g ref="char:EOLhyphen"/>ly ſoken, laye of it to the ſore, and it will breake.</p>
+            </div>
+            <div type="recipe">
+               <head>To make oyle of Exiter.</head>
+               <p>Take one poounde of Cowſlips in the moneth of May, and ſteepe them in oyle Oliue in as much quantity as they may eaſily be ſteeped in, and let them lye tyll Iune, when you muſte gather of Cala<g ref="char:EOLhyphen"/>mint, hearbe Iohn, Sage, Ambroſe, wylde Sage, Egremont, Sothernwod, Penerial, Lauender, Peritory, Roſema<g ref="char:EOLhyphen"/>ry Camamil, Hearif called Sliuers, Pe<g ref="char:EOLhyphen"/>ritory
+<pb facs="tcp:16667:18" rendition="simple:additions"/>of Spaine, Laurel leaues, floures of Lylly, of ech of theſe an handfull: then grynde the<g ref="char:cmbAbbrStroke">̄</g> in a morter as ſmal as Gren<g ref="char:EOLhyphen"/>ſing, that don, take the Cowſlip floures, aboue ſayd, &amp; wring them out of the oyle, &amp; put them into a morter with the oher hearbes, &amp; grynd them all into one lyke<g ref="char:EOLhyphen"/>nes: when ye haue ſo done, put it into as muche whyte wyne as may eaſyly ſteepe it in a daye and a nyght: then take the hearbes with the wyne, and boyle them together with the oyle Oliue, wherein the Cowſlyps were ſteeped fyrſte, and ſo let them ſeeth together tyl the wyne and water be waſted away. To knowe if it be enough, take out of the neathermoſt of it a ſpoonefull, and yf there be no wa<g ref="char:EOLhyphen"/>ter in the ſpoone, it is enough. If it be enough, take it of, &amp; put it into a ſtrong lynnen bag, and ſtrayne it betwixt two ſtaues, and ſo keepe it in a veſſel either of Tynne or Glaſſe, for no other wil hold it.</p>
+               <p>Thys oyntment or oyle is very good a<g ref="char:EOLhyphen"/>gaynſt
+<pb facs="tcp:16667:19"/>all maner of maladyes that be in the ſynues or other place, taken thorow cold: as goutes, Palſies, and olde bruiſes of the bones and ioyntes, and muſt be v<g ref="char:EOLhyphen"/>ſed in thys maner. In the Sommer tyme the place ſo greued ſhalbe annoyn<g ref="char:EOLhyphen"/>ted agaynſt the ſunne, and in Wynter a<g ref="char:EOLhyphen"/>gainſt the fyre, and after the annointing the ſore muſte be ouer layde with blacke wooll vn waſhed, beyng warmed very hot, and ſo bound to with roulers. Alſo thys oyntment, otherwiſe called oyle O<g ref="char:EOLhyphen"/>liue keepeth hys vertue or ſtrength three yeares, and is not to be made, but as be<g ref="char:EOLhyphen"/>fore is ſayd, in May, and Iune.</p>
+            </div>
+            <div type="recipe">
+               <head>A proued medicine for the bleeding at the noſe, called the L. Maryes medicine.</head>
+               <p>Take the ſhel of an egge, the meate be<g ref="char:EOLhyphen"/>ing very cleane out, and put it in the fyre vntyl it be burnt very blacke, and ready to breake: then take it out, &amp; make therof fyne poulder, whereof ye ſhal blowe tho<g ref="char:EOLhyphen"/>row
+<pb facs="tcp:16667:19" rendition="simple:additions"/>a quyl part therof into the noſe that bleedeth, and it ſhall ſtaunch.</p>
+            </div>
+            <div type="recipe">
+               <head>For the Migrue in the eyes.</head>
+               <p>Seeth new mylke, and when it is ſo<g ref="char:EOLhyphen"/>den, poure it into a Baſon, and couer the baſon with a peauter platter, and with the water that commeth of the Baſon, waſhe the ſore eyes and browes, and in fewe dreſſynges of them in thys maner, you ſhalbe holpen.</p>
+            </div>
+            <div type="recipe">
+               <head>To kyll the Palſie.</head>
+               <p>Drynke the roote of Valerion in pol<g ref="char:EOLhyphen"/>der, and it wyl deſtroy the Palſie, ſo that ye eate no hogges fleſh.</p>
+            </div>
+            <div type="recipe">
+               <head>A remedye for the Dropſie.</head>
+               <p>Scrape an Elder roote very cleane, &amp; breake it in many peeces, or ſhred it into white wine, and let it ſteepe therin, then drynke the wyne, and it wyll heale your diſeaſe.</p>
+            </div>
+            <div type="recipe">
+               <pb facs="tcp:16667:20"/>
+               <head>An other for the ſame.</head>
+               <p>Take the hearbe called <hi>Arnogloſa,</hi> and ſeeth it in white wine, and vſe to drinke therof faſting, and it wyll helpe you of the dropſye.</p>
+            </div>
+            <div type="recipe">
+               <head>An other for the ſame diſeaſe.</head>
+               <p>Take the poulder of Smallage and Fenel roots, and the iuiſe of Fenitory, &amp; clenſe it with ſuger, then make a Sicop therof, and geue the pacient to drinke, and with Gods helpe he ſhall recouer.</p>
+            </div>
+            <div type="recipe">
+               <head>For ache in the backe.</head>
+               <p>Take Egremont and Mugwort both leaues and roots, and ſtampe them ſmal then myngle them wel with old Deeres ſuet, then ſmere or annoynt thy greeued place therwith very warme, &amp; after roul it vp hard.</p>
+            </div>
+            <div type="recipe">
+               <head>An other for the Palſye, called Eſbe pater.</head>
+               <p>Take and ſtyll the Primeroſes with
+<pb facs="tcp:16667:20" rendition="simple:additions"/>their leaues, and drinke thereof faſting, and within thryſe drinking it wil helpe you: alſo it is good agaynſt the head ach or other aches.</p>
+            </div>
+            <div type="recipe">
+               <head>Agaynſt the Crampe.</head>
+               <p>Take and beate Brymſton, and Ver<g ref="char:EOLhyphen"/>uin together, &amp; ſo bynde it to your arme or other place greeued, and it ſhall kyll it for hauing the payne agayne.</p>
+            </div>
+            <div type="recipe">
+               <head>An other medicine to breake any ſore vpon the breſt.</head>
+               <p>Take of Mallowes one handful, and of Wormewood as much, and ſeth them in runnyng water vpon a ſoft fire tyll they be tender: then take them cleane from the water, and chop them vpon a bord with Barrows greaſe, to the quan<g ref="char:EOLhyphen"/>titie of halfe the hearbes, and therof laye to the ſore as much as you thinke meete for it, as hot as ye may ſuffer it, and once in .xxiiii. houres chaunge it, &amp; when it is
+<pb facs="tcp:16667:21"/>broken, dreſſe it with a drawing plaiſter.</p>
+            </div>
+            <div type="recipe">
+               <head>For the bloody Flixe.</head>
+               <p>Seeth mylke, and in the ſeething put in a peece of Roche Allam, whiche will cauſe a curd, which curd being cleane ta<g ref="char:EOLhyphen"/>ken from the whay, you muſt drynke the ſayd whay as hot as is poſſible: alſo yf your ſtomacke can poſſible beare it, you muſt eate the curd, and with Gods help you ſhal recouer.</p>
+            </div>
+            <div type="recipe">
+               <head>An other to ſtoppe the bloody Flixe:</head>
+               <p>Take of the pureſt redde Roſe leaues dryed, &amp; make them in fine polder, then take halfe as much fyne Sinamone: that done, take fyne whyte bread, and make toſtes of them, and being toſted, ſoke them in good red wyne, and when they are ſoked, take them out &amp; ſtrayne the polders vpon the<g ref="char:cmbAbbrStroke">̄</g>, one or two of theſe toſtes be ſufficient at one tyme, vſe them faſting, and alſo at your going to bedde,
+<pb facs="tcp:16667:21" rendition="simple:additions"/>beyng new made, but ye may not drinke in two or three houres after: yf you haue not Roſes ready dryed, drye ſome in an Ouen, or before the fyre, and thys by the helpe of God ſhal helpe you within fewe eatynges.</p>
+            </div>
+            <div type="recipe">
+               <head>A proued medicine for a Stiche.</head>
+               <p>Grate a good quantitie of Setwell, &amp; halfe as muche Gynger, then take .vi. or vii. ſpoonefuls of water Aſcabies, &amp; put them together, ſhakyng them well toge<g ref="char:EOLhyphen"/>ther in the pot or glaſſe, and ſo drinke it of beyng warmed before, then laye you downe, and ſweate, if you can.</p>
+            </div>
+            <div type="recipe">
+               <head>An other for the ſame.</head>
+               <p>Take an handfull of hearbe Grace, a quarter of a pounde of Cummyn well bruſed, then take a pottle or a quart of the dregges of good ale, &amp; boyle all theſe together, puttyng into it cru<g ref="char:cmbAbbrStroke">̄</g>mes of lea<g ref="char:EOLhyphen"/>uened
+<pb facs="tcp:16667:22"/>breade ſufficient to make the reſt very thicke, the<g ref="char:cmbAbbrStroke">̄</g> put it into a very ſtrong lynnen bag, and ſo lay it to the griefe, yf the paine remoue, remoue alſo your bag euer with the payne, refreſhing it with warmth, and it ſhall helpe.</p>
+            </div>
+            <div type="recipe">
+               <head>An other for the ſame, proued.</head>
+               <p>Annoynt your ſyde with the Oyle of Melilote, then make a playſter of the ſame Melilote vpon a peece of Leather, and lay it to your ſyde, and change it not but once in a weeke.</p>
+            </div>
+            <div type="recipe">
+               <head>A proued medicine to cauſe ſleepe.</head>
+               <p>Take foure ſpoonefuls of good vine<g ref="char:EOLhyphen"/>ger, and as much Roſe water, &amp; of oyle of Roſes two ſponfuls, and of crummes of coorſe leauened breade made of cleane Wheat, with an handfull of Roſe leaues dryed, as you ſhal thynke wyll make the licour thicke to lay vpon a lynnen cloth: theſe beyng boyled together vpon a cha<g ref="char:EOLhyphen"/>fyndiſh
+<pb facs="tcp:16667:22" rendition="simple:additions"/>of coales. When it is enough, lay it vpon the foreheade and temples from the one eare to the other, and ſo let hym lye vpon a bed, making no noyſe, and by the grace of God he ſhall ſleepe within one quarter of an houre.</p>
+            </div>
+            <div type="recipe">
+               <head>An other for the ſame.</head>
+               <p>Stampe Lettiſe ſeed and Smallage ſeede together in a morter, then temper it with the white of an egge, and ſo bynd it to the forehead, and he ſhal ſleepe.</p>
+            </div>
+            <div type="recipe">
+               <head>For the head ach, and clenſing therof.</head>
+               <p>Chawe Pellitorye of Spayne in thy mouth, and it wyll clenſe the head, &amp; alſo take away the ache or payne.</p>
+            </div>
+            <div type="recipe">
+               <head>An other for the head ache.</head>
+               <p>Take the iuiſe of Byttanie, Veruin, Wormwood, Colodine, greene Mal<g ref="char:EOLhyphen"/>lowes, and Sage, claryfyed Hony, and fine Pepper corne beaten in poulder, and
+<pb facs="tcp:16667:23"/>ſeth al theſe wel in fayre water as much as by your indgement ſhall be ſufficient for to drink the other compounds before, which muſt be in equal quantities, vſe this drinke faſting as you fynd paine, &amp; it ſhall helpe.</p>
+            </div>
+            <div type="recipe">
+               <head>An other medicine to cauſe ſleepe.</head>
+               <p>Take a ſpoonfull of oyle of Roſes, a ſponful of Roſe water, and halfe a ſpon<g ref="char:EOLhyphen"/>ful of red Vyneger, and temper them all together, then with a fine lynnen clothe annoynt the pacients head.</p>
+            </div>
+            <div type="recipe">
+               <head>To purge and clenſe the head.</head>
+               <p>Take a pint of white vineger .i. d. of the poulder of Spemial, and .i. d. of the pol<g ref="char:EOLhyphen"/>der of Pellitorye, which is lyke to ſmall ſtyckes .ii. d. of good ſtone Honnye, then ſeeth them altogether, and whe<g ref="char:cmbAbbrStroke">̄</g> it hath ſoden ſomething, take it of the fyre, and put to it a ſponful of good Muſtard ſtyr<g ref="char:EOLhyphen"/>ring it wel together, and in that maner
+<pb facs="tcp:16667:23" rendition="simple:additions"/>preſerue it as before ye be taught in the others. Vſe one or two houres after din<g ref="char:EOLhyphen"/>ner, to put of thys water or medicine in<g ref="char:EOLhyphen"/>to your mouth, roulyng it vp and down with your tongue, keepyng cloſe your lippes, and beware that none go downe your throate. In lyke maner vſe therof to the number of .ix. ſpoonefuls one after an other, alwayes puttyng them out in<g ref="char:EOLhyphen"/>to a peauter baſon, or ſuch lyke veſſel, the better to peruſe that whiche wyll come out of your head by the operation therof. And in vſyng thys medicine three dayes together, you ſhal fynd remedy.</p>
+            </div>
+            <div type="recipe">
+               <head>An other for al maner diſeaſes in the head.</head>
+               <p>Take .iiii. peny worth of the roote of Pellitory of Spayne, which is the ſame in the other before mentioned, with half a peny worth of Spilonard, &amp; beat them into poulder: then boyle them as the o<g ref="char:EOLhyphen"/>ther, with good red vineger, if you haue not whyte, and beyng boyled and colde,
+<pb facs="tcp:16667:24"/>put to it a ſauſer full of clarifyed hony, &amp; an other of good muſtard, with ſtyrryng as you dyd the other. Alſo let hym vſe it in iyke maner &amp; quantitie, as the other, eyther after dynner or ſupper, whether he lyſt, and in few tymes vſyng thys, you ſhal perceyue the diſeaſe to weare a way: mary he muſt vſe euery ſpoonfull a good whyle in hys mouth, though ſome what to hys payne.</p>
+            </div>
+            <div type="recipe">
+               <head>A proued medicine for paine in the head.</head>
+               <p>Seeth Alehofe in fayre water, and be<g ref="char:EOLhyphen"/>yng ſodden, bind the hearbes to the nod<g ref="char:EOLhyphen"/>dle of the head hot, and it ſhal helpe.</p>
+            </div>
+            <div type="recipe">
+               <head>A prooued medicine for the coughe, and ach in the breſt by reaſon thereof.</head>
+               <p>Boyle Stabies in fayre water, &amp; with the water bathe or waſhe the breſt, then laye the hearbes thereto in manner of a playſter, as hot as you can ſuffer it. This muſt be done at your goyng to bed, &amp; in
+<pb facs="tcp:16667:24" rendition="simple:additions"/>once or twiſe ſo doyng, you ſhal recouer.</p>
+            </div>
+            <div type="recipe">
+               <head>For payne in the ſtomacke.</head>
+               <p>Take Woormewoode, Fetherfewe, Mynts, crummes of browne bread, and Frankinſence, or Cummyn beate<g ref="char:cmbAbbrStroke">̄</g> to fine poulder, by equal portions, and boile the<g ref="char:cmbAbbrStroke">̄</g> al in Malmeſey very thicke, as you are taught before, puttyng it when it is ſod<g ref="char:EOLhyphen"/>den, into a thicke lynnen bag, and verye warme lay it to thy ſtomacke.</p>
+            </div>
+            <div type="recipe">
+               <head>An other for the cough.</head>
+               <p>Take a handfull of good Fygges, and ſeeth them in Ale or Beere tyll they be ſomewhat tender: then ſlyt them a ſun<g ref="char:EOLhyphen"/>der, and in a lynnen bag for the purpoſe laye them as hot as ye can ſuffer vpo<g ref="char:cmbAbbrStroke">̄</g> the ſtomake, &amp; when it is cold, warme them with the bag in the licor that before they were boyled in, and thus doyng you ſhal by Gods helpe be healed.</p>
+            </div>
+            <div type="recipe">
+               <head>An other for the ſame.</head>
+               <p>Take like quantitie of great Rayſons
+<pb facs="tcp:16667:25"/>as you dyd of the Figges, or twiſe as ma<g ref="char:EOLhyphen"/>ny, and boyle them in Claret wyne, the ſtones beyng fyrſt taken out of them, &amp; whe<g ref="char:cmbAbbrStroke">̄</g> they be tender, vſe them as you dyd the Fygges, to your breſt, warmyng the<g ref="char:cmbAbbrStroke">̄</g> as they coole, in theyr hot licour.</p>
+            </div>
+            <div type="recipe">
+               <head>A very good drinke for the ſaid cough.</head>
+               <p>Take a quart of white wyne, &amp; boyle it with Licoras, Aniſe ſeedes, and Su<g ref="char:EOLhyphen"/>ger Candy, of ech like quantitie, putting therin ten Fygs of the beſt, tyl it be halfe conſumed, &amp; ſo preſerue it to drink therof euenyng and mornyng three or foure ſpoonefuls warme.</p>
+            </div>
+            <div type="recipe">
+               <head>For the Murre or poſe.</head>
+               <p>Take Sticcadoſe, or for wante hereof halfe a handful of Spyke, of <hi>Nigella Ro<g ref="char:EOLhyphen"/>mana</hi> halfe a handefull, of Roſe leaues halfe an handful, &amp; of Maſticke as much with a quarter of an handful of Cloues. theſe beyng beaten into fyne poulder,
+<pb facs="tcp:16667:25" rendition="simple:additions"/>make a fyne quilte of Syndale, and put<g ref="char:EOLhyphen"/>tyng them into it, lay it to the moulde of your head.</p>
+            </div>
+            <div type="recipe">
+               <head>For the Migrue.</head>
+               <p>Take halfe a pint of Knit Madde<g ref="char:cmbAbbrStroke">̄</g>, an ounce of Cummyn ſeede, &amp; a handfull of Sengrue, then braye them all together ſmal in a morter, &amp; then boyle them in the mylke of a cowe of one colour, thick<g ref="char:EOLhyphen"/>nyng it with Wheate meale, and being very thicke, lay it playſter wiſe to your forehead and temples.</p>
+            </div>
+            <div type="recipe">
+               <head>An other medicine for the headache.</head>
+               <p>Take the iuiſe of Walworte, Salt, Hony, Waxe, and Incenſe, of as equall portions as you can geſſe them, &amp; boyle them together: being boyled preſerue it as you doe other oyntments, and as you fynde paine, annoynte your head ther<g ref="char:EOLhyphen"/>with, &amp; it ſhal help you: alſo it is writte<g ref="char:cmbAbbrStroke">̄</g> that if ye weare the hearbe Bittanye
+<pb facs="tcp:16667:26"/>about your necke, then it will aſſwage the ache.</p>
+            </div>
+            <div type="recipe">
+               <head>An other drynke for the coughe.</head>
+               <p>Take a handful of Rew, and of So<g ref="char:EOLhyphen"/>thernwood as much, with lyke qua<g ref="char:cmbAbbrStroke">̄</g>titie of Roſemary, a quart of claryfied Hony, and a quart of whyte wyne, then ſeethe as theſe together, and being ſod, put out the licour and ſtampe the hearbes in a morter, that done, put them againe into the licour, &amp; ſo let it boyle a while: when ye haue ſo done, ſtraine your licour tho<g ref="char:EOLhyphen"/>row a fine ſtrayner or cloth, into a veſſel wherin you ſhall kepe it cloſe, and vſe to drinke therof in the morning colde, and at night hot, ſuch quantitie as ye thinke good.</p>
+            </div>
+            <div type="recipe">
+               <head>An other drinke for the ſame.</head>
+               <p>Take Hyſope, Roſemary, Cerfloure, Plantine, Elrentaure, &amp; Rediſh roote, of eche lyke quantitie, and ſeethe them in
+<pb facs="tcp:16667:26" rendition="simple:additions"/>white wyne from a pottle to a quarte, &amp; being ſodden, put out the licour from the hearbes, and beate them in a morter, the<g ref="char:cmbAbbrStroke">̄</g> put them together, and myngle it with ſtyrryng: then ſtrayne them into an o<g ref="char:EOLhyphen"/>ther pot, puttyng thereto halfe a pounde of clarifyed hony, and a prety deale of cla<g ref="char:EOLhyphen"/>rifyed Maye butter: then ſeeth them the ſpace of a quarter of an houre, the<g ref="char:cmbAbbrStroke">̄</g> ſtrayn it, and when it is cold, put it into a fayre glaſſe, and ſo keepe it cloſe, geuyng ther<g ref="char:EOLhyphen"/>out ſo often as the diſeaſed ſhall drynke thereof .vi. ſpoonefulles, beyng warmed with as much ſtale ale.</p>
+            </div>
+            <div type="recipe">
+               <head>For boyling of the ſtomacke.</head>
+               <p>Take of Fennell and Aſhe rootes lyke quantitie beaten into fyne poulder, and drynke therof in white wyne, and it wyl helpe you.</p>
+            </div>
+            <div type="recipe">
+               <head>To cleare the pypes.</head>
+               <p>Take the rootes of <hi>Elena Campana,</hi>
+                  <pb facs="tcp:16667:27"/>two handfuls of Hyſope, and one hand<g ref="char:EOLhyphen"/>ful of Lycoras fyne beaten in a morter, then ſeeth the<g ref="char:cmbAbbrStroke">̄</g> in a pottle of white wine, to a pynt, then keepe it in a cloſe veſſell, &amp; drynke therof in the mornyng colde, and at euenyng warme.</p>
+            </div>
+            <div type="recipe">
+               <head>Againſt the ſtopping of the pypes.</head>
+               <p>Take Hyſope, Myntes, Roſemarye, Dayſies, and Conſond, of ech like quan<g ref="char:EOLhyphen"/>titie, and ſeeth them in ale with Licoras and vſe it as the other before.</p>
+            </div>
+            <div type="recipe">
+               <head>Agaynſt horſeneſſe.</head>
+               <p>Take a good qua<g ref="char:cmbAbbrStroke">̄</g>titie of Veruine and ſeeth it with Licoras in fayre water, the<g ref="char:cmbAbbrStroke">̄</g> ſtrayne the water, &amp; vſe no other drynke with your meate, vntyll ye fynd remedy.</p>
+            </div>
+            <div type="recipe">
+               <head>A broth to coole the ſtomacke and Lyuer, and to make one ſollible.</head>
+               <p>Take a Capon, or a leg of Veale, or a ſhoulder, whether be eaſieſt to be gotten
+<pb facs="tcp:16667:27" rendition="simple:additions"/>and ſeeth it in an earthe<g ref="char:cmbAbbrStroke">̄</g> pot, with ſkim<g ref="char:EOLhyphen"/>myng, then take a handfull of Endiffe, a handfull of Violet leaues, a handfull of Dandelio<g ref="char:cmbAbbrStroke">̄</g>, of white Beets halfe a hand<g ref="char:EOLhyphen"/>full, and halfe a handfull of Mallowes, with three Succory rootes, the pyth be<g ref="char:EOLhyphen"/>ing taken out of them, alſo halfe a hand<g ref="char:EOLhyphen"/>full of Burrage, and as muche Borage, halfe a pou<g ref="char:cmbAbbrStroke">̄</g>d of great Raiſons, the ſtones taken out, a pound of Prunes, and halfe a doſen ſlyps of wyld Margerome, with a fewe whole Maces, and a litle Salt, then boyle all theſe together to a Gellye, and after ſtraine it through a fayre cloth into an earthen pot, without any com<g ref="char:EOLhyphen"/>pulſion, then keepe it as your others, warmyng thereof ſo often as ye lyſt to drynke.</p>
+            </div>
+            <div type="recipe">
+               <head>A ſoueraigne and prooued medicine for heate in the ſtomacke, commyng by an ague, or otherwiſe.</head>
+               <p>Take a peece of Scarlet in Grayne,
+<pb facs="tcp:16667:28"/>cut after the proportion of the knotte of the ſtomacke, and ſeeth it in a lytle vine<g ref="char:EOLhyphen"/>ger and Saunders, vntyll the lycour be conſumed, and ſo lay the Scarlet as hot as can be endured, to the ſtomacke, then couer it cloſe with lynnen very thicke of foldes, to keepe in the heate, and when it is cold, heate it in lyke licour as before, twiſe or thriſe together. Vſe thys as oft as ye fynd payne, and it ſhal helpe you.</p>
+            </div>
+            <div type="recipe">
+               <head>Two proued medicines to ſtop vomiting.</head>
+               <p>Geue the pacient to drynke a draught of warme ale or beere, a quantitie of fine Synamome, and it ſhall ſtaye the vomi<g ref="char:EOLhyphen"/>tyng: yf it do not, then take three ſpoon<g ref="char:EOLhyphen"/>fuls of the water of Mynts, and geue it the pacient to drynke, with a draught of ale or beere, as the other. Both haue ben wel proued.</p>
+            </div>
+            <div type="recipe">
+               <head>To cauſe good taſting of meate.</head>
+               <p>Drinke wine ſodden with Sentorye,
+<pb facs="tcp:16667:28" rendition="simple:additions"/>and Plantine, euening and morning, &amp; it ſhall ſoone helpe thee.</p>
+            </div>
+            <div type="recipe">
+               <head>A very wholſome water to be drunke all the moneth of May.</head>
+               <p>Take Ribwort, Endiffe, Violet leaues, Buglas, Synkfoyle, and Mercurye, of eche of theſe hearbes a greate handful, &amp; ſeeth them in a pottle of morning whay halfe an houre, &amp; ſo keepe it being ſtray<g ref="char:EOLhyphen"/>ned, or rather drayned through a fayre clothe into a veſſell, wherein it ſhall re<g ref="char:EOLhyphen"/>mayne, and geue a draught hereof luke warme to drynk euery morning, during that moneth, to as many as ye wyll, as wel in health, as otherwyſe, and it ſhal preſerue their healthe. The more that ye make, if your number be greate, the bet<g ref="char:EOLhyphen"/>ter it is for the age therof, vſing the qua<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>titie after this rate.</p>
+            </div>
+            <div type="recipe">
+               <head>To auoyde fleame.</head>
+               <p>Seeth Sloſe in fayre water a good
+<pb facs="tcp:16667:29"/>quantitie, and being ſodden, draine out the water cleane, and put the Sloſe into a veſſel of .iii. gallons of good ale, letting them ſtand ſo .iiii. or .v. dayes cloſe, as ye vſe to kepe Ale, after the ſtanding let the diſeaſed drinke therof euening and mor<g ref="char:EOLhyphen"/>ning.</p>
+            </div>
+            <div type="recipe">
+               <head>An other to driue fleame downe<g ref="char:EOLhyphen"/>warde, and to clenſe one.</head>
+               <p>Take y<hi rend="sup">e</hi> root of floure de Bawte, other<g ref="char:EOLhyphen"/>wyſe Lyllye clades, and ſtampe it, then wring out as much iuiſe as wil fyl an eg ſhell, then take in any other veſſell as much fine Suger as wil fil the lyke ſhel, &amp; firſt ſtraine halfe the Suger in a boule or ſuch lyke cup, &amp; after put into it the li<g ref="char:EOLhyphen"/>cour, or iuiſe, and then ſtraine the other halfe of Suger vpon the licour, and ſo let hym, or her drink it of at one draught, and it ſhall helpe by Gods grace.</p>
+            </div>
+            <div type="recipe">
+               <head>To prouoke a good ſtomacke or appetite.</head>
+               <p>Take a handful of hearbe Grace, and
+<pb facs="tcp:16667:29" rendition="simple:additions"/>as much Hyſope, and ſeeth them in a po<g ref="char:EOLhyphen"/>tel of Vineger, and a pottell of runnyng water, vntyl it be al but one quart, then ſtrayne it, and keepe it as the others, v<g ref="char:EOLhyphen"/>ſyng as oft as neede requireth faſtyng to drinke therof foure ſpoonfuls.</p>
+            </div>
+            <div type="recipe">
+               <head>To cauſe one to perbrake.</head>
+               <p>Take two ſpoonfuls of red vineger, &amp; one of Muſtarde, and boyle them toge<g ref="char:EOLhyphen"/>ther, with a litle Triacle, and when it is boiled, coole it, and ere it be altogether cold, drinke it of, and it ſhal helpe you.</p>
+            </div>
+            <div type="recipe">
+               <head>To make laxatiue pottage.</head>
+               <p>Pare the rootes of Eladine, and waſh them cleane, and ſeeth the<g ref="char:cmbAbbrStroke">̄</g> in fayre wa<g ref="char:EOLhyphen"/>ter tyll they be tender: then chop them with Borage, Parſely, Violets, Mercu<g ref="char:EOLhyphen"/>ry, Mallowes, and ſuche other hearbes as be good for pottage, and make thereof pottage, with other freſhe broth, &amp; geue the diſeaſed as much of the ſame pottage as he can wel eate, &amp; it ſhal helpe hym.</p>
+            </div>
+            <div type="recipe">
+               <pb facs="tcp:16667:30"/>
+               <head>For one that is coſtiffe.</head>
+               <p>Stampe Maleworth, and ſtraine the iuiſe into a pretye quantitie of Honye, of ech lyke muche, then melt or heate them together, and beying molten, drynke it, &amp; ye ſhal haue eaſe.</p>
+            </div>
+            <div type="recipe">
+               <head>An other for the ſame.</head>
+               <p>Steepe Line ſeede in water, &amp; when it is well ſteeped, ſeeth it in other water, and beyng ſodden, and the water cleane drayned from the ſeede, eate of the ſeede as ye may, and it ſhal helpe you.</p>
+            </div>
+            <div type="recipe">
+               <head>For one that is looſe bodyed.</head>
+               <p>Geue hym Perſely ſeedes beaten into fyne poulder to drynke in warme ſtrong ale, and it ſhal helpe hym.</p>
+            </div>
+            <div type="recipe">
+               <head>An other for the ſame.</head>
+               <p>Seeth cleane red wheate tyl it be bro<g ref="char:EOLhyphen"/>ken, then take it fro<g ref="char:cmbAbbrStroke">̄</g> the water, &amp; ſtampe it, and after ſtrayne it, then take the beſt of it, and ſtrayne it into a Poſtnet with a litle Salt in it, and ſo ſeeth it agayne a whyle in other water, and beyng ſoden,
+<pb facs="tcp:16667:30" rendition="simple:additions"/>ſtrayne it agayne, and geue the diſeaſed to eate, and by Gods helpe he ſhall reco<g ref="char:EOLhyphen"/>uer.</p>
+            </div>
+            <div type="recipe">
+               <head>An other for the ſame.</head>
+               <p>Take the mylke of a Cowe that hath not had a calfe in one yeare before, and mingle it with like quantitie of good old red wyne, of both as muche as maye be drunke at a good draught, and geue the pacient to drynke, and he ſhal be healed.</p>
+            </div>
+            <div type="recipe">
+               <head>Againſt Conſumption in man or woman.</head>
+               <p>Take Smallage, Growedſwel, chik<g ref="char:EOLhyphen"/>wede, of altogether one handfull, but of Smallage moſt part, then take a legge of Beofe, and cut the fleſh from the bone, and the fat from the leane, and after hack the fleſh, or fyl it full of cuts, ſo that it may hange together, and in that ma<g ref="char:EOLhyphen"/>ner ſeethe it vntil it be almoſt enough, &amp; in the ſething ſkym away the fat cleane as it ryſeth, then put in the hearbes, and ſo let them ſeeth together with ſuch
+<pb facs="tcp:16667:31"/>quantitie of water as ſhalbe ſufficients for that fleſh: when it is ſodden enough that wil be lyke a gelly, then take and ſtraine it through a gelly bag, that done take a chicken, and boile it in fayre wa<g ref="char:EOLhyphen"/>ter vntl it be enoughe, and then ſtampe the chicken in a morter, and ſtrayne it with the gelly made of the beofe, &amp; ſo pre<g ref="char:EOLhyphen"/>ſerue it, geuing the pacient thereof as oft as he can be content to take it, foure or fiue ſponefuls at once milke warme. In thus doing the pacient ſhal recouer with gods helpe, for it is a ſpeciall reme<g ref="char:EOLhyphen"/>die wel proued, by recouering ſome diſ<g ref="char:EOLhyphen"/>eaſed herewith.</p>
+            </div>
+            <div type="recipe">
+               <head>For the blacke Iaundiſe.</head>
+               <p>Take Wormes of the earth called of ſome Heſes, otherwiſe Maddes, in the mornings at ſuch tyme as they appeare aboue grounde, and ſlit them, and being wel cienſed within, frye them vntil they be thorough dryed, that done, make the<g ref="char:cmbAbbrStroke">̄</g>
+                  <pb facs="tcp:16667:31" rendition="simple:additions"/>into fyne poulder in a morter, and ſo pre<g ref="char:EOLhyphen"/>ſerue your poulder in a boxe, and as ye neede take thereof as much as ye thinke mete, and giue it the diſeaſed to drynke with a little fyne Saffrone in Beere, Ale, or Wyne, and within three or foure dayes drynking thereof, he ſhal recouer.</p>
+            </div>
+            <div type="recipe">
+               <head>For the yellowe Iaundiſe</head>
+               <p>Take the reddeſt Docke rootes that ye can get, and being waſhed cleane, put them into a veſſel of good Ale, and when it is ſtale, let the diſeaſed drynk no other drynk to his meate but of Ale, and it ſhal helpe hym.</p>
+            </div>
+            <div type="recipe">
+               <head>Remedies againſt the Collicke, ſtone, and ſtrangulion, firſt called Doctour Corſons medicine againſt the ſtone.</head>
+               <p>Scrape the quantitie of two ſponfulls of white Caſtel Sope into a pint of ſtale Ale, and heate them together in a God<g ref="char:EOLhyphen"/>dard, or other lyke potte, or veſſel tyll the
+<pb facs="tcp:16667:32"/>Sope be conſumed: vſe to drinke of this faſting as warme as ye can abyde it, ab<g ref="char:EOLhyphen"/>ſtayning two houres after from meat &amp; drink, ſtering about in that ſpace: in lyke maner at nyght two houres before ye go to bedd, &amp; in thus doing .ix. dayes toge<g ref="char:EOLhyphen"/>ther ye ſhal fynde recouerie, or as occa<g ref="char:EOLhyphen"/>ſion ſhal ſerue, more or leſſe.</p>
+            </div>
+            <div type="recipe">
+               <head>Doctor Argintines medicine for the Stone.</head>
+               <p>Take the red Barke of Yewe tree dry<g ref="char:EOLhyphen"/>ed and beaten into fine poulder, and af<g ref="char:EOLhyphen"/>ter ſearce it through a fine Searcer, alſo take a lyke quantitie of Black Iette beaten, and ſearced in lyke maner, and being mingled together, drynke thereof with wyne or Ale blood warme fiue or ſixe times, as the other before.</p>
+            </div>
+            <div type="recipe">
+               <head>Another to breake the Stone in the bladder.</head>
+               <p>Take Alexander, Loueache, &amp; water Creſſes; of ech lyke much, and boyle the<g ref="char:cmbAbbrStroke">̄</g> in a gallon and halfe of fayre water, be<g ref="char:EOLhyphen"/>yng
+<pb facs="tcp:16667:32" rendition="simple:additions"/>boyled put thereto for want of Li<g ref="char:EOLhyphen"/>coras, a portion of claryfied Suger, vſe to drinke thereof euenyng and morning xxi. dayes, &amp; it wyl without fayle breake the ſtone.</p>
+            </div>
+            <div type="recipe">
+               <head>An other medicine to be vſed after this, or other that breaketh the ſtone, which being vſed a certaine tyme, wyll cauſe the ſtone broken, neuer after to harden in the bladder.</head>
+               <p>Take a pound of Gromwel, a pou<g ref="char:cmbAbbrStroke">̄</g>d of Saxafrage ſeede, and a pound of Coli<g ref="char:EOLhyphen"/>ander, with a quarter of a pound of So<g ref="char:EOLhyphen"/>ras whyte, and redde, &amp; grynde all theſe in a morter very ſmal, &amp; ſo kepe it vſyng to eate therof in your pottage euery day a ſpoonefull.</p>
+            </div>
+            <div type="recipe">
+               <head>An other proued medicine for the ſtone.</head>
+               <p>Take Tyme, Ramſons, Beane cods, Pellitory of the wal, and Saxifrage like quantities, and ſteepe them one night in white wyne, then diſtyl them, and vſe to drynke therof.</p>
+            </div>
+            <div type="recipe">
+               <pb facs="tcp:16667:33"/>
+               <head>An other proued medicine to breake the ſtone in the bladder, and to void it in the vrine.</head>
+               <p>Take Sampiere, and Pellitory of the wal diſtylled together, and drinke therof foure ſpoonfuls at once, with lyke much white wyne, or for wante hereof, of the ſtrongeſt ale you can get, and for want of Sampiere, take Camamile, Alexanders and Perſely, and diſtyl them with Pelli<g ref="char:EOLhyphen"/>tory, vſyng it as before, in your drinke.</p>
+            </div>
+            <div type="recipe">
+               <head>An other remedie for the ſtone, and to cauſe the voydance of vrine.</head>
+               <p>Take Pellitorye of the wall, and So<g ref="char:EOLhyphen"/>thern wood, and ſeeth them in water or white wine, with a quantitie of ſheepes ſuet tyl it be tender, then put the hearbs and tallow in a lynnen bag, and warme laye it to the bottome of the belly, vſing this you ſhall finde remedie.</p>
+            </div>
+            <div type="recipe">
+               <head>To make an oyle for the ſtone, that laſteth one yeare, alſo good to prouoke vrine.</head>
+               <p>Seeth Perſely, Sothern wood, and
+<pb facs="tcp:16667:33"/>Pelitory of the wal with ſwines greaſe, til it be al very grene, and in the boyling kepe it with ſtyrryng that it burne not, and when it is ſo ſodden, put it in lyke veſſel, as ye before are taught, by the o<g ref="char:EOLhyphen"/>ther oyntments, and as oft as ye occupy thereof, annoynt the pacient therewith very warme vpon the nauel and ſmall of the belly.</p>
+            </div>
+            <div type="recipe">
+               <head>Another for the Stone, and to prouoke vrine.</head>
+               <p>Take of Perſely .iii. handfulles .ii. of Tyme, of Sentory .iii. and .iiii. of Sam<g ref="char:EOLhyphen"/>pier .ii. of Alexander leaues, and one of Camamel, and ſeeth them together in a pottel of fayre water to a quarte. But beter is white wyne, then put to it two ſpoonefuls of <hi>Aqua vitae,</hi> and after ſtrayne, or rather drayne out the water or lycour, and geue thereof preſently to the ſicke to drynke, that done, laye the hearbes ſo ſtrained to the belly of a ſicke very warme, and it wil breake the ſtone, &amp; alſo boyd it, with the helpe of the drink
+<pb facs="tcp:16667:34"/>being drunken .iiii. dayes together.</p>
+            </div>
+            <div type="recipe">
+               <head>A very good medicine for the Collicke and ſtone.</head>
+               <p>Take Parſely ſeede a quarter of an ounce, Broome ſeede, Gromwell ſeede, Fe<g ref="char:cmbAbbrStroke">̄</g>nel ſeede, Anyſe ſeede, Plantine ſeede, or Coliander ſeede, of ech of theſe a quar<g ref="char:EOLhyphen"/>ter of an ounce, Nutmegs halfe an ou<g ref="char:cmbAbbrStroke">̄</g>ce beaten very fine, Suger .iiii. ounces bea<g ref="char:EOLhyphen"/>ten fine, &amp; ſearced through a Searcer, &amp; mingle al theſe together, then take .viii. ſpoonfuls of whyte Wine, and put to it halfe a Walnut ſhel ful of thoſe mingled poulders, and geue the ſicke to drinke, &amp; within twiſe drinking it ſhal helpe him.</p>
+               <p>But yf the payne be verye ſore, take an oyntment called <hi>Altea,</hi> and oyle of Roſes of eche one ounce, &amp; annoynte the place moſt greeued agaynſt the ſore ſo hot as is poſſible to ſuffer, and it will cauſe the ſtone to voyde.</p>
+            </div>
+            <div type="recipe">
+               <head>For the collicke in the belly.</head>
+               <p>Take a pint of Malmeſy, and of Saf<g ref="char:EOLhyphen"/>fron
+<pb facs="tcp:16667:34" rendition="simple:additions"/>one halfe peny worthe, &amp; two Nut<g ref="char:EOLhyphen"/>megges, and bray them bothe in a mor<g ref="char:EOLhyphen"/>ter, then take as much of the Wine war<g ref="char:EOLhyphen"/>med, as ye may wel drinke at a draught, with as muche of the poulder as you thinke meete for the wyne, &amp; geue it the pacient at ſuch tyme as the feruent pain commeth on hym, and it ſhall in ſhorte tyme helpe hym.</p>
+            </div>
+            <div type="recipe">
+               <head>An other for the Collicke.</head>
+               <p>Take Muſtard, Fygges, and vineger ſtamped together, and lay to the belly of the diſeaſed colde, in maner of a playſter, and it ſhal helpe.</p>
+            </div>
+            <div type="recipe">
+               <head>Fenel rootes in ſyrrop be good againſt the Collicke, being made in this maner.</head>
+               <p>Waſh Fe<g ref="char:cmbAbbrStroke">̄</g>nel rootes cleane in fayre wa<g ref="char:EOLhyphen"/>ter, &amp; ſlyce them ſmall the whole length of the roote, yf ye can, and ſeeth them in fayre water, not breakyng them, &amp; when they be almoſt ſoden, put to them a pou<g ref="char:cmbAbbrStroke">̄</g>d of clarifyed Suger, with a quarter of a pound of Hony, and ſo let them boyle to<g ref="char:EOLhyphen"/>gether
+<pb facs="tcp:16667:35"/>a whyle ſoftly, as the Suger ryſe not muche in the boylyng. You ſhall perceyue them to be enough by the ten<g ref="char:EOLhyphen"/>derneſſe of the rootes. Beyng thus ſod<g ref="char:EOLhyphen"/>den, reſerue them in an earthen pot, and eate thereof as oft as ye thinke good and needefull.</p>
+            </div>
+            <div type="recipe">
+               <head>A proued medicine ro auoyde vrine, that hath bene long ſtopped. Alſo for the ſtone.</head>
+               <p>Take Radiſh roots, one if it be of big<g ref="char:EOLhyphen"/>neſſe and ſtrong, is ſufficient, and ſcrape it very cleane, and lay it in white wyne a nyght in ſteepe, then ſtrayne the wine, and geue the pacient to drynke, &amp; he ſhal voyde water.</p>
+            </div>
+            <div type="recipe">
+               <head>An other to prouoke vrine, proued.</head>
+               <p>Take of Tyme one handful, of Parſely foure handfuls, the<g ref="char:cmbAbbrStroke">̄</g> ſeeth them in whyte wyne tyll they be tender, then put to the<g ref="char:cmbAbbrStroke">̄</g> three or foure ſpoonefuls of <hi>Aqua vitae,</hi> &amp; ſo ſtrayne or drayne the licour from the hearbes, and geue the diſeaſed to drinke. Alſo ye muſt lay the hearbes to the belly
+<pb facs="tcp:16667:35" rendition="simple:additions"/>of the pacient very warme, in a lynnen cloth or bag, and he ſhal make water.</p>
+            </div>
+            <div type="recipe">
+               <head>An other proued medicine for the ſtone, to be vſed once in a moneth, at ſuch tyme as is beſt to take a purgation, before the receyt of the medicine.</head>
+               <p>Take Gromwell ſeede, Parſely ſeede, Alexander ſeede, the harde rowe of a red Hearyng, dryed, and beaten into polder, the leaues of ſhee Holly dryed, and beate<g ref="char:cmbAbbrStroke">̄</g> into poulder, whiche be thoſe that haue no prickes and graines, of ech like quan<g ref="char:EOLhyphen"/>titie beaten into fyne poulder, and then myngled together, takyng hereof halfe a ſpoonfull in a draught of Malmeſey, ta<g ref="char:EOLhyphen"/>kyng before an eaſye Purgation. Pro<g ref="char:EOLhyphen"/>ued by maiſtreſſe Blage.</p>
+            </div>
+            <div type="recipe">
+               <head>An other to looſe, and purge the vrine ſtopped in a man.</head>
+               <p>Take of Englyſh Saffron beaten to fyne poulder, and of pure blacke Sope equall portions, and being well ming<g ref="char:EOLhyphen"/>led together, ſpreade it vpon a playſter of
+<pb facs="tcp:16667:36"/>Le<gap reason="illegible" resp="#UOM" extent="5 letters">
+                     <desc>•••••</desc>
+                  </gap> and that vpon <gap reason="illegible" resp="#UOM" extent="2 words">
+                     <desc>〈◊◊〉</desc>
+                  </gap> ſide, then lay it vpon the Nauell of the ſicke, and it <gap reason="illegible" resp="#UOM" extent="2+ letters">
+                     <desc>••…</desc>
+                  </gap>ll helpe the auoydaunce of the vrine <gap reason="illegible" resp="#UOM" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>hin an houre.</p>
+            </div>
+            <div type="recipe">
+               <head>An other to breake the ſtone.</head>
+               <p>Take a Hare flead, and put it into an <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> then potte, couering the ſame with <gap reason="illegible" resp="#UOM" extent="3+ letters">
+                     <desc>•••…</desc>
+                  </gap>cke paſte, then vpon the fyre, or in an ouen bake it vntill it be both fleſhe and bones, ſo dryed, as ye may beate it into fyne poulder, the beſt is vpon fyre, for it wil of it ſelfe caſt licour, and alſo it wil aſke a great fyre and time ere that it be throughly dryed alſo ye muſt put it in without waſhing it, when it is thus dryed, and beaten to fyne poulder, as wel bones as fleeſh, kepe it as other poulder, and as ye nede, geue of it to the ſycke in drynke, and it wyll in fewe tymes drin<g ref="char:EOLhyphen"/>king breake the ſtone.</p>
+            </div>
+            <div type="recipe">
+               <head>An other, which maye be called a mar<g ref="char:EOLhyphen"/>uelous ſtraunge experience.</head>
+               <p>Take the blood of an Vrchin, other<g ref="char:EOLhyphen"/>wiſe
+<pb facs="tcp:16667:36" rendition="simple:additions"/>quart, then keepe it, vſing to drink a litle therof warme at nyght, the ſpace of .<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>. dayes, and it wyll helpe.</p>
+            </div>
+            <div type="recipe">
+               <head>For a ſaucy viſage.</head>
+               <p>Mortifie quicke ſyluer, and myngle it with Brimſton <hi>viuif.</hi> of ech half an ou<g ref="char:cmbAbbrStroke">̄</g>ce, of Roſe water an ou<g ref="char:cmbAbbrStroke">̄</g>ce, of <hi>Exungia,</hi> other<g ref="char:EOLhyphen"/>wiſe ſwines greace halfe a quarter of an ounce, &amp; myngle al together: the<g ref="char:cmbAbbrStroke">̄</g> preſerue it in a boxe, &amp; as ye occupy it, take thereof with a ſlice or knife, &amp; ſpread it vpo<g ref="char:cmbAbbrStroke">̄</g> a litle peece of Scarlet, &amp; ſmere thy face there<g ref="char:EOLhyphen"/>with at thy going to bed, wher it is ſore, &amp; in the mornyng waſhe thy face with a peece of Scarlet wet in warme water, &amp; then wype it with a fayre lynnen cloth.</p>
+            </div>
+            <div type="recipe">
+               <head>A proued medicine for a woman that hath her throwes before her tyme.</head>
+               <p>Seeth a good handful of whole Cher<g ref="char:EOLhyphen"/>uil in a quart of Claret wyne, &amp; whe<g ref="char:cmbAbbrStroke">̄</g> the hearbes be wel ſodden, wring them into the wyne, and clenſe it: then make ther<g ref="char:EOLhyphen"/>with an Hypocras, with Suger, Sy<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+                  <pb facs="tcp:16667:37"/>
+                  <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> Gynger of Synomome, &amp; geue <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> warme at tymes needful, and <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> the payne.</p>
+            </div>
+            <div type="recipe">
+               <head>For the falling euyll.</head>
+               <p>
+                  <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> diſeaſed in a draught of drink <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> of a Bee, he not knowing ther<g ref="char:EOLhyphen"/>of <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd he ſhal haue eaſe.</p>
+            </div>
+            <div type="recipe">
+               <head>To aſſwage ſweatyng.</head>
+               <p>
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Line ſeede and Lettiſe together and laye it to thy ſtomacke, and it ſhall helpe.</p>
+            </div>
+            <div type="recipe">
+               <head>For the pockes.</head>
+               <p>Take the iuiſe of Peneryal and yong Tanſie, and geue the ſicke to drinke.</p>
+            </div>
+            <div type="recipe">
+               <head>To increaſe a womans mylke.</head>
+               <p>Geue her the iuiſe of Veruine &amp; Fenel to drinke, and it ſhal increaſe her mylke.</p>
+               <trailer>FINIS.</trailer>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>¶ <hi>Imprinted at London, nigh</hi> vnto the three Cranes in the Vintree, by Thomas Dauſon, <hi>and Thomas Gardyner.</hi>
+            </p>
+            <pb facs="tcp:16667:37"/>
+         </div>
+      </back>
+   </text>
+</TEI>

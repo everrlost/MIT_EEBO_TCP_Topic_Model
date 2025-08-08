@@ -1,0 +1,905 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mercy to a beast A sermon preached at Saint Maries Spittle in London on Tuseday in Easter-weeke. 1612. By Iohn Rawlinson Doctor of Divinitie.</title>
+            <author>Rawlinson, John, 1576-1630.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1612</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 125 KB of XML-encoded text transcribed from 30 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A10498</idno>
+            <idno type="STC">STC 20773A</idno>
+            <idno type="STC">ESTC S115700</idno>
+            <idno type="EEBO-CITATION">99850918</idno>
+            <idno type="PROQUEST">99850918</idno>
+            <idno type="VID">16157</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A10498)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 16157)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1253:17)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Mercy to a beast A sermon preached at Saint Maries Spittle in London on Tuseday in Easter-weeke. 1612. By Iohn Rawlinson Doctor of Divinitie.</title>
+                  <author>Rawlinson, John, 1576-1630.</author>
+               </titleStmt>
+               <extent>[6], 52, [2] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Ioseph Barnes,</publisher>
+                  <pubPlace>Oxford :</pubPlace>
+                  <date>1612.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>The last leaf is blank.</note>
+                  <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-02</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-02</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-03</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2011-03</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:16157:1"/>
+            <pb facs="tcp:16157:1"/>
+            <p>MERCY TO A BEAST.</p>
+            <p>
+               <hi>A</hi> SERMON PREACHED AT SAINT MARIES SPITTLE IN London on Tuſeday in <hi>Eaſterweeke.</hi> 1612.</p>
+            <p>BY IOHN RAWLINSON DOCTOR <hi>OF DIVINITIE.</hi>
+            </p>
+            <p>
+               <hi>AT OXFORD,</hi> Printed by Ioſeph Barnes. 1612.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:16157:2"/>
+            <pb facs="tcp:16157:2"/>
+            <head>
+               <hi>TO THE RIGHT HONORABLE THOMAS Lord Elleſmere, Lord High</hi> Chancelour of England, and Chan<g ref="char:EOLhyphen"/>celour of the Vniverſitie of Oxford.</head>
+            <p>
+               <seg rend="decorInit">R</seg>Ight Honorable; vnworthy (I know) are theſe my endevours either to bee honoured with your worthy patro<g ref="char:EOLhyphen"/>nage, or but offered to your iudici<g ref="char:EOLhyphen"/>ous view. Yet your goodnes, as it doth exceed your <hi>Greatnes,</hi> ſo will it alſo (I truſt) excuſe my boldneſſe, while I humbly begge of your Right Honourable Lordſhip, that as the<note n="a" place="margin">Cael Rhodo<g ref="char:EOLhyphen"/>gin. lect. ant. lib. 20. cap 5.</note> 
+               <hi>Oſtrich,</hi> is ſaid to hatch her egges not (as doe other birds) by ſitting on them, but by the effectuall rayes of her eies: ſo you will deigne, by the comfortable raies of a gratious aſ<g ref="char:EOLhyphen"/>pect, to animate and hatch (if I may ſo ſpeake) this <hi>egge</hi> of your owne laying; which peradventure will otherwiſe be in no better caſe than<note n="b" place="margin">Iob. 39.17.</note> 
+               <hi>the Oſtriches egges in the wildernes,</hi> ob<g ref="char:EOLhyphen"/>vious to the incurſion of every wilde beaſt.</p>
+            <q>
+               <l>—<note n="c" place="margin">Virg.</note> Etiam Parnaſſia laurus</l>
+               <l>Parva, ſub ingenti matris ſe ſubijcit vmbrâ.</l>
+            </q>
+            <p>The Lawyers ſay, that <hi>Annulo alieno ſignans id in ſub<g ref="char:EOLhyphen"/>ſcriptione debet exprimere: He that ſignes with another mans ring, meete it is that he ſhould ſignifie ſo much in his ſubſcripti<g ref="char:EOLhyphen"/>on;</hi> And I hold it a point of good ingenuity, in this my <hi>prae<g ref="char:EOLhyphen"/>ſcription,</hi>
+               <note n="d" place="margin">Plin, ad Veſ<g ref="char:EOLhyphen"/>paſian. praefat.</note> 
+               <hi>Fateriper quem profecerim,</hi> to acknowledge that it is <hi>your grane of muſtard ſeed</hi> which by the bleſſing of God
+<pb facs="tcp:16157:3"/>is growne to ſo great a <hi>tree,</hi> in whoſe branches not<note n="e" place="margin">Mat. 13 32.</note> 
+               <hi>the fowles of heaven,</hi> but the ſoules of all ſorts of men here on earth may make their neſts.</p>
+            <p>If any ſhal take this to be <hi>ſymptoma indicatorium</hi> (as Phy<g ref="char:EOLhyphen"/>ſitions ſpeake) whereby they ſhall iudge me ſicke of the worlds <hi>diſeaſe, ſcribendi cacoethes,</hi> that it ching cuſtome of ſetting their paines a ſunning, which hath poſſeſſed al ſortes of men, learned and vnlearned, in theſe voluminous daies of ours, becauſe moſt men being like <hi>Pilate,</hi> vniuſt Iudges of their own doings, will never reverſe their ſentence of<note n="f" place="margin">Ioan. 19.22.</note> 
+               <hi>quod ſcripſi, ſcripſi;</hi> I will not alleadge the <hi>rarity</hi> (I thinke I might ſay <hi>nullity</hi>) of ſermons in this argument, which might haply be a tolerable, if not plauſible, apologie: but will rather ex<g ref="char:EOLhyphen"/>cuſe my ſelfe (as I iuſtly may) by a <hi>longing deſire</hi> I had to pre<g ref="char:EOLhyphen"/>ſent to your Lordſhip, as did<note n="g" place="margin">Gen. 27.19.</note> 
+               <hi>Iacob</hi> to <hi>Iſaak</hi> his aged father, <hi>a meate that your ſoule loveth;</hi> a <hi>ſermon</hi> vpon <hi>this text,</hi> where in your ſoule ſo much delighteth. And no merveile; ſeeing it is <hi>a text of mercifull iuſtice,</hi> which is no leſſe the ioy of your heart, than the dayly exerciſe of your whole life. If my art be not ſuch as <hi>Rebecca's</hi> was to make a ſavourie meate of this <hi>kid of your owne flocke,</hi> ſo pleaſing to your Lordſhips palate, that when you eate of it, your ſoule might bleſſe me: yet my heart (I am ſure) is ſuch as<note n="h" place="margin">Ber. in Feſt. omn ſanct. ſerm. 1.</note> 
+               <hi>S. Bernards</hi> was, when he wiſht vpon like occaſion; <hi>Vtinam ego fidelis coquus, vtinam anima mea coquina vtilis videatur! O that my ſelfe were a skilfull Cooke to dreſſe it! o that my ſoule were a fit kitchin to dreſſe it in!</hi> But ſle<g ref="char:cmbAbbrStroke">̄</g>derly cookt as it is, my hope is that your Lordſhip wil not vtterly reiect it, who in the time of my nearer atten<g ref="char:EOLhyphen"/>dance, did ſo often vouchſafe mee a gratious hearing of my more raw and rude meditations: but that you will favoura<g ref="char:EOLhyphen"/>bly accept if not of what I offer, yet of what I would offer, aſwell becauſe<note n="i" place="margin">Aquin.</note> 
+               <hi>Voluntas eſt menſura actionum;</hi> as becauſe <hi>Impotentia excuſat legem.</hi> It is enough for<note n="k" place="margin">Aelian.</note> 
+               <hi>little birds</hi> to be <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>ovipara;</hi> it is for beaſts that are bigger to be <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>vivipara.</hi> And for poore men that were not able to ſacri<g ref="char:EOLhyphen"/>fice a <hi>living bull,</hi> it was thought ſufficient by the Gentiles, if they did but<note n="l" place="margin">Suid. in. voc <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>Tauru<g ref="char:cmbAbbrStroke">̄</g> è farinâ fingere: offer vp a bul of meale,
+<pb facs="tcp:16157:3"/>a bakers bull.</hi>
+            </p>
+            <p>He that ſhould but know, what incredible favours &amp; en<g ref="char:EOLhyphen"/>couragements I haue from time to time receiued of your Lordſhip (ſuch as neither can I mention without note of ar<g ref="char:EOLhyphen"/>rogancy, nor forget without impiety, but to deſerue them is no leſſe than an abſolute impoſſibility) would never blame mee to be more than zealous, euen ambitious, to giue ſome (howſoever ſlender) teſtimony of my vnfeigned thankfulnes for them.</p>
+            <p>All the requitall I can make your Lordſhip for this your ſo great, ſo manifold goodnes towardes me, is (as <hi>thouſands more</hi> do, and haue cauſe to do) firſt to praiſe God for you, who hath giuen you ſo heroïcall an heart, and then dayly to pray vnto him, that as for <hi>eloquence</hi> he hath made you a ſe<g ref="char:EOLhyphen"/>cond<note n="m" place="margin">Homer.</note> 
+               <hi>Neſtor, from whoſe tongue flowed speach ſweeter than hony,</hi>
+               <q>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>:</q>
+            </p>
+            <p>So he would <hi>lengthen</hi> your yeares, as the yeares of <hi>Neſtor,</hi> who becauſe he lived <hi>three ages</hi> of men, was called<note n="n" place="margin">Gell Noct, Att. l. 19. c 7.</note> 
+               <hi>Triſae<g ref="char:EOLhyphen"/>cliſenex:</hi> yea and <hi>ſweeten</hi> them too, as he hath done your ſpeach: And, that as hee hath gloriouſly enriched you with gifts both of <hi>nature</hi> and <hi>grace,</hi> wherein none can equal you, but your ſelfe, like as <hi>Deo nihil niſi Deus aequale:</hi> ſo the glo<g ref="char:EOLhyphen"/>rie of your Right Honourable Lordſhip, adorned by the Right Noble Counteſſe your deareſt conſort, and dayly propagated in your honorable poſterity, may outline both you and them, and not end, but in that life of glory which ſhall haue none end.</p>
+            <p>While my heart is thus enditing of a good matter (for<note n="o" place="margin">Pſal. 147.1.</note> 
+               <hi>a ioyfull and pleaſant thing it is to be thankefull</hi>) I muſt adde yet one thing more; namely, that as your LP. is—<note n="p" place="margin">Hor lib 2. Od. 17.</note> 
+               <hi>mearum</hi>
+               <q>Grande decus columen<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> rerum;</q>
+So ſhall you ever be <hi>my terreſtriall trinity;</hi>
+               <q>
+                  <note n="q" place="margin">Theognis ſub init.</note>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>,</q>
+the <hi>beginning, middle</hi> and <hi>end</hi> of all my travailes: and as to your Lordſhip I haue long ſince ſacrificed both my ſelfe &amp; my whole liues ſeruice; ſo would I alſo bee ready (if it were
+<pb facs="tcp:16157:4"/>poſſible) to performe in act what<note n="r" place="margin">Sen. de bre<g ref="char:EOLhyphen"/>vit. vit. c. 8.</note> the ancient were wont to profeſſe in word to thoſe whom they did moſt vehemently affect, <hi>Paratos ſe partem annorum ſuorum dare:</hi> even by ſhor<g ref="char:EOLhyphen"/>tening mine owne yeares to lengthen yours: and will there<g ref="char:EOLhyphen"/>fore end with that<note n="ſ" place="margin">Tertullian.</note> 
+               <hi>devout acclamation,</hi> wherewith they were wont to honor their triumphant Emperours:</p>
+            <q>De noſtris annis tibi Iupiter augeat annos!</q>
+            <closer>
+               <signed>Your Right Honorable Lordſhips most bounden Chaplaine <hi>IOHN RAWLINSON.</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:16157:4"/>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>PROVERB. 12.10.</hi>
+                  </bibl>
+                  <p>A righteous man reguardeth the life of his beaſt.</p>
+                  <p>
+                     <hi>Or, according to the Septuagint;</hi>
+                  </p>
+                  <p>A iuſt man is mercifull to the life of his beaſt.</p>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">W</seg>HAT care the Lord charged his Prophet to take for preſerving that <hi>fiue-worded name</hi> of Chriſt,<note n="a" place="margin">Eſa. 8.1.</note> 
+               <hi>Velociter ſpolia detrahe, feſtina prae<g ref="char:EOLhyphen"/>dari: Make ſpeed to the ſpoile, haſte to the prey;</hi> The like, let me beſeech you (right Honorable, right wor<g ref="char:EOLhyphen"/>ſhipfull, right deare and Chriſtian brethren) to take of this <hi>fiue-worded text</hi> of mine: (for the words, though in <hi>Engliſh</hi> the articles make them ſwell to a greater num<g ref="char:EOLhyphen"/>ber, yet in <hi>Latine</hi> they are but only <hi>fiue; Novit iuſtus iu<g ref="char:EOLhyphen"/>mentorum ſuorum animas:</hi> and in <hi>Greeke</hi> iuſt as many, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>) namely, to take vnto you not two or three looſe papers, but <hi>Volumen,</hi> a <hi>booke;</hi> and not a little petty book, but <hi>Grande volumen, a great book;</hi> and to write in it, not with lead, which will ſoone bee obliterated and blotted out, but <hi>Stylo, with a pen;</hi> &amp; not with the pen of a curious ſcribe, whoſe writing few or none but the learned can read, but <hi>ſtylo vulgari,</hi> or <hi>ſtylo hominis plebeij</hi> (as M<hi rend="sup">r</hi>. <hi>Calvin</hi> hath it) <hi>with the penne of a vulgar Scribe,</hi> whoſe writing may bee familiar to the meaneſt reader. And what is my deſire herein, but that<note place="margin">b Calvin. in Eſa. 8.</note>
+               <pb n="2" facs="tcp:16157:5"/>which is alſo the meaning of the holy Ghoſt in that place (as<note n="c" place="margin">Ad. Saſbout ibid.</note> 
+               <hi>Adam Sasbout</hi> hath well obſerved) to giue you to vnderſtand, that the wordes though but fiue in number, yet are they of very great weight and conſe<g ref="char:EOLhyphen"/>quence; and that vnder them is veiled ſuch varietie of myſteries, that if any ſhould take vpon him to reveale them, he ſhould never be able to doe it, no not in the largeſt volume; That therefore they are not lightly to be reguarded, but carefully to be regiſtred &amp; kept vpon record.</p>
+            <p>
+               <hi>A righteous man is mercifull to the life of his beaſt.</hi> The ſacred fire of this ſweete affection of mercy is ſo kindled within the bowels of a righteous man, that ſmothered it cannot, it will not be; it muſt &amp; will break forth. And therefore it is not only <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>miſeretur,</hi> in the <hi>Septuagint;</hi> which noteth his <hi>inward affection:</hi> but (as the <hi>vulgar Latine</hi> hath it) <hi>Novit,</hi> he <hi>knoweth,</hi> or <hi>re<g ref="char:EOLhyphen"/>guardeth:</hi> (as <hi>Tremelius</hi>) <hi>Curat, he careth for</hi> the life of his beaſt; which argueth the <hi>manifeſtation of it in outward action.</hi>
+            </p>
+            <p>Firſt, <hi>Novit,</hi> he <hi>knoweth,</hi> or <hi>reguardeth.</hi> The phraſe may ſeeme ſomewhat ſtrange to the ignorant; yet (ſtrange as it is) yee haue it in many other paſſages of holy writ. I will name but onely <hi>two,</hi> which haue beſt correſpondence with my text. <hi>The one</hi> is<note n="d" place="margin">Pſal. 1.6.</note> Pſal. 1. <hi>Nouit Dominus viam iuſtorum: The Lord knoweth the way of the righteous;</hi> as here, <hi>Novit iuſtus vitam iumentorum: A righteous man knoweth the life of his beaſt. The other</hi> is<note n="e" place="margin">Eſa. 1.3.</note> Eſa, 1. <hi>Novit bos poſſeſſorem ſuum: The oxe knoweth his owner;</hi> as here, <hi>Novit poſſeſſor bovem ſuum: The owner knoweth or reguardeth his oxe, or his beaſt.</hi>
+            </p>
+            <p n="2">
+               <pb n="3" facs="tcp:16157:5"/>
+2. Yea, hee ſo reguardeth it, that his <hi>Novit</hi> is al<g ref="char:EOLhyphen"/>ſo a <hi>Curat.</hi> He makes it ſome part of his care and labor, to intend the preſervation and welfare of his beaſt.</p>
+            <p>There is firſt <hi>Intenſio,</hi> the <hi>Intenſion</hi> of a righteous mans mercy.</p>
+            <p>Then ſecondly <hi>Extenſio,</hi> the <hi>Extenſion</hi> of it appeareth in the <hi>obiect,</hi> in that it ſtretcheth it ſelfe ſo far, as to his beaſt. For a beaſt is not (as we ſay in ſchooles) <hi>Obiectum adaequatu<g ref="char:cmbAbbrStroke">̄</g>, the adaequate obiect,</hi> but <hi>Partiale,</hi> one <hi>particular obiect</hi> of a righteous mans mercy. The meaning is; that he reguardeth not only the life of men, which is ever in the firſt place to be reguarded, as being a thing ſo preti<g ref="char:EOLhyphen"/>ous, that of all other things it beſt deſerues reguard (for it's a truth though it were ſpoken by the father of vn<g ref="char:EOLhyphen"/>truths, the Divel;<note n="f" place="margin">Iob. 2.<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> 
+               <hi>Skin for skin, and all that ever a man hath will he giue for his life</hi>) but his bowels are ſo enlar<g ref="char:EOLhyphen"/>ged with pitty, that hee will not wrong, no not a brute beaſt; nay more, he will be ſure to doe it right, and the more right, the leſſe able it is to right it ſelfe: and that he may doe it right indeed (as he muſt, if he wil be righ<g ref="char:EOLhyphen"/>teous) he is ever ready to afford it ſuch neceſſary helps, as may any way conduce to the mainteinance of life.</p>
+            <p>Neither ſtands he thus affected to ſome <hi>one beaſt</hi> on<g ref="char:EOLhyphen"/>ly, becauſe peradventure he hath in all but one; which was the caſe of<note n="g" place="margin">2. Sam. 12.3.</note> the poore man in the parable which <hi>Nathan</hi> propounded to <hi>David,</hi> who having but onely <hi>one little ſheepe,</hi> hee ſo cheriſht it, that <hi>it ate of his owne morſels, and dranke of his cup, &amp; ſlept in his boſome, &amp; was vnto him as his daughter:</hi> but, bee hee never ſo rich in beaſts, to <hi>all</hi> of them doth hee ſtand ſo humanely affec<g ref="char:EOLhyphen"/>ted, that he will not ſuffer any one of them to periſh
+<pb n="4" facs="tcp:16157:6"/>for want of tending. And therefore the Septuagint read it not <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, the <hi>life,</hi> but <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, the <hi>liues;</hi> not <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, of his <hi>beaſt,</hi> but <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, of his <hi>beaſts</hi> in the plurall. <hi>A righ<g ref="char:EOLhyphen"/>teous man is mercifull to the liues of his beaſts.</hi>
+            </p>
+            <p>Having briefely illightened the <hi>letter</hi> of my text, I come now to the <hi>parts;</hi> which are principally two:
+<list>
+                  <item>1 The <hi>one;</hi> a <hi>generall Theſis. A iuſt mans is mercifull.</hi>
+                  </item>
+                  <item>2 The <hi>other; a particular Hypotheſis. He is mercifull to the life of his beaſt.</hi>
+                  </item>
+               </list>
+            </p>
+            <p>In the <hi>Theſis,</hi> there is
+<list>
+                  <item>1 <hi>The Subiect; Iuſtus, a righteous man.</hi>
+                  </item>
+                  <item>2 And then, the <hi>Affection</hi> of that ſubiect: <hi>Miſere<g ref="char:EOLhyphen"/>tur: is mercifull.</hi>
+                  </item>
+               </list>
+            </p>
+            <p>In the <hi>Hypotheſis,</hi> there is
+<list>
+                  <item>1 The <hi>Obiect</hi> of that affection: <hi>The life of his beaſt.</hi>
+                  </item>
+                  <item>2 And the<g ref="char:cmbAbbrStroke">̄</g>, in the <hi>Obiect</hi> (couertly implied) a <hi>three-fold reaſon</hi> of his affection therevnto.</item>
+               </list>
+            </p>
+            <p>So that, firſt we are to co<g ref="char:cmbAbbrStroke">̄</g>ſider <hi>(How)</hi> then <hi>(Why) a righ<g ref="char:EOLhyphen"/>teous man is mercifull to the life of his beaſt.</hi> The <hi>(How)</hi> is <hi>ſixe fold:</hi> the <hi>(Why) three-fold,</hi> as yee ſhall heare anon.</p>
+            <p>
+               <hi>Firſt</hi> then to begin with the <hi>Theſis.</hi>
+               <note place="margin">1 THESIS.</note> 
+               <hi>A righteous man is mercifull:</hi> and therein, <hi>firſt</hi> with the <hi>Subiect; Iuſtus, a righteous man.</hi>
+            </p>
+            <p>This one word <hi>Iuſtus,</hi>
+               <note place="margin">1 Iuſtus.</note> 
+               <hi>a righteous man,</hi> yeildes <hi>three</hi> things worthy your obſervation.</p>
+            <p n="1">
+               <note place="margin">
+                  <hi>1.</hi> Scarſity of righ<g ref="char:EOLhyphen"/>teous men.</note>1 The <hi>firſt,</hi> that there is a very greate <hi>ſcarſity</hi> of righ<g ref="char:EOLhyphen"/>teous men. I deny not, but that <hi>Iuſtus, a righteous man,</hi> may here ſtand for <hi>Iuſti, righteous men,</hi> by an <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, or <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, which is the <hi>ſurrogation</hi> of the ſingular num<g ref="char:EOLhyphen"/>ber for the plural, (a <hi>figure</hi> very frequent thorowout the whole booke of God) yet, conſidering that in the
+<pb n="5" facs="tcp:16157:6"/>clauſe next enſuing, (viz. <hi>Viſcera impiorum crudelia; the bowels of the wicked are cruell</hi>) the <hi>oppoſite word</hi> to <hi>Iuſtus,</hi> a <hi>righteous man,</hi> is not <hi>Impius,</hi> a <hi>wicked man,</hi> but <hi>Impij, wicked men;</hi> I doubt not, but I may hence no leſſe fitly, than truely obſerue, that there is a very great <hi>penury</hi> &amp; <hi>paucity</hi> of righteous men: as on the other ſide there is <hi>Meſsis multa; a great provent</hi> &amp; <hi>harveſt</hi> of wicked men.</p>
+            <q>
+               <l>Rari quippe boni, numero vix ſunt totidem quot</l>
+               <l>Thebarum portae, vel divitis oſtia Nili:</l>
+            </q>
+            <p>For <hi>good men</hi> (ſaith<note n="h" place="margin">Iuven. Sa<g ref="char:EOLhyphen"/>tyr. 13.</note> the <hi>Satyriſt</hi>) <hi>are very ſcarſe; equall in number to the gates of Thebes, or to the mouths of Nilus, which were but ſeaven.</hi> So ſcarſe; that<note n="i" place="margin">1. Cor. 9.24.</note> the Apoſtle 1 <hi>Cor.</hi> 9. comprehends them all vnder <hi>one; Vnus accipit branium: One receiueth the price. One;</hi> yet not ſimply one &amp; no more; but <hi>One</hi> (ſaith<note n="k" place="margin">Lyran. ibid.</note> 
+               <hi>Lyranus</hi>) by a Synecdoche, for a <hi>very few.</hi> In token whereof, in all the olde world (which yet (I feare) was ſomwhat better tha<g ref="char:cmbAbbrStroke">̄</g> this new) there was but <hi>one</hi> righteous <hi>Noah,</hi> &amp; ſeave<g ref="char:cmbAbbrStroke">̄</g> more of his family, that were ſaved fro<g ref="char:cmbAbbrStroke">̄</g> periſhing in the waters; yet of thoſe 7 one a curſed <hi>Cham.</hi> And of all the 10 le<g ref="char:EOLhyphen"/>pers that were clenſed by our Saviour Chriſt,<note n="l" place="margin">Luc. 17 15.</note> 
+               <hi>Luc.</hi> 17. there was but onely <hi>one</hi> that returned to giue thankes. As for the other <hi>nine,</hi> they might very well be ſumm'd vp, and figured with a <hi>cypher.</hi>
+            </p>
+            <p>Yea, ſuch a <hi>dearth</hi> is there of iuſt men, that in Scrip<g ref="char:EOLhyphen"/>turephraſe the iuſt are leſſe than one, even <hi>iuſt none: Pe<g ref="char:EOLhyphen"/>rijt iuſtus de terrâ, &amp; rectus in homine non eſt:</hi>
+               <note n="m" place="margin">Mich. 72.</note> Mich. 7. <hi>The iuſt man is periſhed from the earth, and there is none righteous among men.</hi> And the Prophet <hi>David</hi> hath told vs foure times (for failing) that,<note n="n" place="margin">Pſal 13 24.</note> 
+               <hi>there is none that doth good, no not one.</hi> Twice, <hi>Pſal.</hi> 13. and<note n="o" place="margin">Pſal. 52.2.4.</note> twice more, <hi>Pſ.</hi> 53.</p>
+            <p n="2">
+               <pb n="6" facs="tcp:16157:7"/>
+2 A <hi>ſecond</hi> thing to be obſerved in the <hi>Subiect,</hi>
+               <note place="margin">
+                  <hi>2.</hi> Religion the roote of righte<g ref="char:EOLhyphen"/>ouſneſſe.</note> is this; that the <hi>roote</hi> of righteouſneſſe, is <hi>religion,</hi> as <hi>irreligion</hi> is the <hi>roote</hi> of vnrighteouſneſſe and iniuſtice. This I ga<g ref="char:EOLhyphen"/>ther <hi>ex vi vocis,</hi> out of the <hi>ſignification</hi> of the word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>irreligious,</hi> which in the next clauſe is oppoſed to <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>righteous.</hi> For if the <hi>wicked</hi> be therefore <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>vn<g ref="char:EOLhyphen"/>righteous,</hi> becauſe they are <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>irreligious,</hi> then ſure<g ref="char:EOLhyphen"/>ly <hi>à contrario,</hi> by an argument from the <hi>contrary,</hi> the <hi>godly</hi> is therefore <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>righteous,</hi> becauſe he is <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>religious,</hi> hauing ever the feare of God before his eyes.</p>
+            <p>No <hi>true iuſtice</hi> the<g ref="char:cmbAbbrStroke">̄</g> without <hi>true religion.</hi> For though ſome of the <hi>heathen</hi> men were <hi>morally iust</hi> in an emi<g ref="char:EOLhyphen"/>nent manner, as was <hi>Ariſtides,</hi> who was therevpon ſurnamed <hi>Iuſtus,</hi> the <hi>Iuſt:</hi> yet could none of them pro<g ref="char:EOLhyphen"/>perly be tearmed <hi>iuſt.</hi> For both their iuſtice and what<g ref="char:EOLhyphen"/>ſoever other virtues they had (becauſe not ſeaſoned with religion) were (by<note n="p" place="margin">Auſtin.</note> 
+               <hi>St</hi> 
+               <hi>Auſtins</hi> verdict) at the beſt but <hi>ſplendida peccata goodly and glorious ſinnes.</hi>
+            </p>
+            <p>Learne wee therefore (as in <hi>Zacharies</hi> ſong wee are taught<note n="q" place="margin">Luc. 1.75.</note> 
+               <hi>Luc.</hi> 1. to <hi>ſerue God in holines and righteouſneſſe all the daies of our life.</hi> Not in <hi>righteouſneſſe</hi> without <hi>ho<g ref="char:EOLhyphen"/>lineſſe</hi> (for no better can that be than a painted righte<g ref="char:EOLhyphen"/>ouſneſſe) but in <hi>holineſſe</hi> and <hi>righteouſneſse</hi> both toge<g ref="char:EOLhyphen"/>ther, elſe can we ſerue him in neither: becauſe (as<note n="r" place="margin">Theoph. ib.</note> 
+               <hi>The<g ref="char:EOLhyphen"/>ophylact</hi> noteth vpon that place) <hi>Sanctitas eſt iuſtitia er<g ref="char:EOLhyphen"/>ga Deum: iuſtitia verò ſanctitas erga homines. Holineſſe is righteouſneſſe towards God: and righteouſneſſe is holineſſe towards men.</hi>
+            </p>
+            <p n="3">
+               <note place="margin">
+                  <hi>3.</hi> What kinde of righteouſneſſe here denomina<g ref="char:EOLhyphen"/>teth a righteous man.</note>3 A <hi>third</hi> thing to be obſerved in the <hi>Subiect,</hi> is this; what <hi>kinde</hi> of righteouſneſſe it is, that here denomina<g ref="char:EOLhyphen"/>teth a righteous man! Not to recount thoſe <hi>many ſe<g ref="char:EOLhyphen"/>verall
+<pb n="7" facs="tcp:16157:7"/>ſorts</hi> of righteouſneſſe which both <hi>Divines</hi> and <hi>Philoſophers</hi> teach; I take it, that the <hi>obligation</hi> or <hi>bond</hi> of righteouſnes wherein a righteous ma<g ref="char:cmbAbbrStroke">̄</g> ſtands bound to his beaſt, is (if we properly ſpeake) a <hi>bond</hi> of <hi>Oecono<g ref="char:EOLhyphen"/>micall</hi> or <hi>houſhold-righteouſneſſe,</hi>
+               <note place="margin">Occonomicall righteouſneſſe.</note> which bindeth him to an honeſt care and reguard not only <hi>Familiae,</hi> of his <hi>family,</hi> but <hi>Rei familiaris,</hi> of his <hi>cattell,</hi> and of <hi>all things elſe,</hi> that apperteine to the good and welfare of his family.</p>
+            <p>Howbeit, becauſe wee are now in the <hi>booke of Para<g ref="char:EOLhyphen"/>bles,</hi> and my text is not ſo much <hi>literally</hi> ſpoken, as in a <hi>parable;</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> (as<note n="ſ" place="margin">Heb. 11.19.</note> the Apoſtle ſpeaketh of <hi>A<g ref="char:EOLhyphen"/>brahams</hi> oblation of <hi>Iſaak</hi>) I ſay, in a <hi>parable</hi> or <hi>ſimilitude</hi> of that <hi>reguard,</hi> which a righteous man hath, as of his <hi>beaſt,</hi> ſo much more of <hi>men,</hi> though among men of <hi>thoſe eſpecially,</hi> that more eſpecially belong to his care and cuſtodie; not vnfitly may we reduce it to that <hi>vni<g ref="char:EOLhyphen"/>verſall Morall righteouſneſſe,</hi> which duly diſtributeth to every one his owne. To every one his owne; that is,<note place="margin">Morall righte<g ref="char:EOLhyphen"/>ouſneſſe.</note> (faith<note n="t" place="margin">Anſelm.</note> 
+               <hi>Anſelmus</hi>) <hi>Maiori reverentiam, pari concordiam, minori diſciplinam &amp;c: Reverence to our Superiour, con<g ref="char:EOLhyphen"/>cord to our equall, diſcipline to our inferiour, obedience to God, ſanctimonie to our ſelues, patience to our enemie, works of mercy to the poore;</hi> I may adde out of my text; even to <hi>our poore beaſt.</hi> For ſo general muſt be the <hi>extent</hi> &amp; <hi>ema<g ref="char:EOLhyphen"/>nation</hi> of righteouſnes, diſpe<g ref="char:cmbAbbrStroke">̄</g>ſing to every one his due, that it muſt not exclude, no not <hi>beaſtes</hi> themſelues, and therefore much leſſe <hi>men:</hi> yea, by ſo much the leſſe, by how much a man is more worth, tha<g ref="char:cmbAbbrStroke">̄</g> a world of beaſts; though it's rufully true, that many men, (ſo deboſhed and depraved is their condition of life) might better be
+<pb n="8" facs="tcp:16157:8"/>ſpared than ſome one beaſt.</p>
+            <p>Let no man then of what eſtate or qualitie ſoever thinke to ſhift off this duty of <hi>diſtributiue righteouſnes,</hi> as if it concern'd him not; For no leſſe doth it concerne every man, than doth the very nature of man: ſo that to ſhift off righteouſneſſe, is to ſhift off humanitie and all. <hi>Vir à virtute:</hi> a <hi>man</hi> (ſaith<note n="u" place="margin">Cicer.</note> the <hi>Orator</hi>) <hi>hath his name of virtue:</hi> but <hi>vir à iuſtitia:</hi> a ma<g ref="char:cmbAbbrStroke">̄</g> (ſay J) hath his <hi>nature,</hi> that is, the perfection of his nature, from this virtue of <hi>iu<g ref="char:EOLhyphen"/>ſtice.</hi> For (to ſay nothing of that <hi>outward rectitude and vprightneſſe of mans body,</hi> which yet ought to teach vs an <hi>inward rectitude and vprightneſſe of minde;</hi>
+               <note n="*" place="margin">Bernard.</note> 
+               <hi>Nihil e<g ref="char:EOLhyphen"/>nim indecentius, quàm in recto corpore curvum animum gerere: For there is nothing more vndecent, than to carry a crooked minde in a ſtreight body</hi>) what elſe, I pray you, is that <hi>purer part of conſcience,</hi> which the <hi>Schoolemen</hi> call <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, ſeated in the vpper portion of the reaſonable ſoule of man, but <hi>Inflexibilis mentis rectitudo,</hi> an <hi>inflexi<g ref="char:EOLhyphen"/>ble rectitude, or vprightneſſe of minds,</hi> which cannot poſ<g ref="char:EOLhyphen"/>ſibly be ſwaied to anie kinde of iniuſtice,<note n="x" place="margin">Aquia.</note> 
+               <hi>Quia inſtigat ad bonum, &amp; murmurat de malo: becauſe it prickes a man forward to good, and checkes him for evill?</hi> So that, as<note n="y" place="margin">Auſtin.</note> S<hi rend="sup">t</hi> 
+               <hi>Auſtin</hi> ſaith of <hi>ſinne,</hi> that <hi>Omne peccatum eſt volun<g ref="char:EOLhyphen"/>tarium, at<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> it a voluntarium, vt ſi non ſit voluntarium, no<g ref="char:cmbAbbrStroke">̄</g> ſit peccatum: Every ſin is voluntary, yea ſo voluntary, that ſinne is no ſinne, vnleſſe it be voluntary:</hi> ſo may I alſo tru<g ref="char:EOLhyphen"/>ly ſaie of <hi>man;</hi> that <hi>Every man is naturally iuſt, yea ſo iuſt, that man is no man, vnleſſe he bee iuſt.</hi> The truth hereof hath<note n="z" place="margin">Eccleſ. 12.13</note> 
+               <hi>Salomon</hi> ſealed and delivered vnto vs, <hi>Eccleſ.</hi> 12. <hi>Let vs heare the end of all: feare God, and keep his comman<g ref="char:EOLhyphen"/>dements:</hi> (there is <hi>vniuerſall righteouſneſſe</hi>) <hi>for this</hi> (ſaith
+<pb n="9" facs="tcp:16157:8"/>he) <hi>is the whole duty of man.</hi> So our <hi>Engliſh</hi> tranſlations haue it: but, the vulgar <hi>Latine; Hoc eſt omnis homo: this is whole man,</hi> or, <hi>pefit man.</hi> Out of which place<note n="a" place="margin">Hugo de Sa<g ref="char:cmbAbbrStroke">̄</g>ct. Victore.</note> 
+               <hi>Hugo de Sancto Victore</hi> reaſoneth thus: <hi>Siomnis homoeſt, qui De<g ref="char:EOLhyphen"/>um timet, &amp; mandata cius obſeruat, conſtat quod ille homo noneſt, qui hoc non facit, if he be whole man, or perfit man that feareth God and keepeth his commandements, why then it's cleare and out of controverſie, that whoſo feareth not God, nor keepeth his commandements, is no man.</hi> For it hee know God &amp; his commandements, &amp; yet neither feare the one, nor obſerue the other, hee is a contemner of both, and is <hi>magis Diabolus, quàm homo; rather a Diuell, than a man:</hi> but if he knowe not God, not his comman<g ref="char:EOLhyphen"/>dements, hee is blind, and is <hi>magis beſtia, quàm homo; ra<g ref="char:EOLhyphen"/>ther a beaſt, then a man:</hi> but if he knowe, and feare God, and keepe his commandements, <hi>verè homoeſt,</hi> why then he is a <hi>man indeed</hi> (ſaith <hi>Hugo</hi>) that is, a <hi>whole,</hi> a <hi>perfit man.</hi>
+            </p>
+            <p>Yee ſhall ſee this note made good out of the very letter of my text For it is not here ſaid, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, in the <hi>Greek;</hi> or <hi>vir iuſtus,</hi> in the <hi>Latin;</hi> though the <hi>Engliſh</hi> phraſe enforce the additament of <hi>(man)</hi> to <hi>iuſt:</hi> but <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>iuſtus; iuſt,</hi> without the addition of <hi>man:</hi> as if it were all one to ſay, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, or, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>; <hi>Iuſtus,</hi> or <hi>vir iuſtus; iuſt,</hi> or, a <hi>iuſt man;</hi> becauſe either a man muſt bee <hi>iuſt,</hi> or elſe no <hi>man;</hi> that is, no whole, no perfit man.</p>
+            <p>And ſo from the <hi>former part</hi> of the <hi>Theſis,</hi> which is the <hi>Subiect; iuſtus,</hi> a <hi>iuſt man,</hi> which muſt be (as yee haue heard) <hi>euery man</hi> that will be a <hi>man indeed;</hi> I come now to the <hi>later,</hi> which is the <hi>affection,</hi>
+               <note place="margin">2. Miſeretur.</note> or <hi>attribute</hi> of that ſubiect: <hi>Miſeretur, is mercifull.</hi> As the <hi>roote</hi> of his righ<g ref="char:EOLhyphen"/>teouſnes
+<pb n="10" facs="tcp:16157:9"/>is <hi>piety,</hi> ſo the <hi>fruite</hi> of it is <hi>pitty:</hi> which is <hi>Pro<g ref="char:EOLhyphen"/>prium quarto modo: a proper paſsion</hi> ſo inſeparably atten<g ref="char:EOLhyphen"/>ding the righteous man, that it agreeth <hi>Omni, ſoli, &amp; ſemper: to every righteous man, to a righteous man only, &amp; alway to the righteous.</hi> And therefore it is not here ſaid, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>; <hi>Ille iuſtus; that iuſt man, per excellentiam;</hi> a man in the ſuperlatiue degree of iuſtice iuſt, as if it were poſſi<g ref="char:EOLhyphen"/>ble for a man to be iuſt in ſome inferiour degree, &amp; yet not mercifull: but <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>indefinitely; a iuſt man,</hi> a man that hath but any iot of iuſtice in him, it cannot be but that ſuch a man will be mercifull. So that, as before I noted, that every <hi>man</hi> (truly and properly ſo called) is <hi>iuſt,</hi> yea ſo iuſt, that if hee bee not iuſt, he is no man: ſo may I alſo truly averre, that every <hi>iuſt man</hi> is <hi>mercifull,</hi> yea ſo mercifull, that if he bee not mercifull hee cannot be iuſt. For ſo inviolably are all virtues ioin'd together, that <hi>all</hi> of them make but as it were <hi>one chaine,</hi> like that <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, or <hi>golden chaine</hi> in<note n="b" place="margin">Homer. Ili<g ref="char:EOLhyphen"/>ad. θ. ſub init.</note> 
+               <hi>Homer,</hi> reaching from earth to heaven: ſo that if yee breake but any one link, that is, if yee lacke but anie one virtue, the whole chain will preſently be diſſolued and fall in ſunder. <hi>Vnaquae<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> enim virtus tanto minor eſt, quanto deſunt caeterae:</hi> For <hi>e<g ref="char:EOLhyphen"/>very virtue</hi> (ſaith<note n="c" place="margin">Greg. Moral l. 22. c. 1.</note> S<hi rend="sup">t</hi> 
+               <hi>Gregory</hi>) <hi>is ſo much the leſſe, the leſſe it is accompanied with other virtues: and if any virtue bee ſingle or ſolitarie from other, it is either none at all, or at the beſt but vnperfit.</hi> Now if ſuch bee the affinity and con<g ref="char:EOLhyphen"/>iunction of all virtues, that no one of them may be di<g ref="char:EOLhyphen"/>vorced or ſequeſtred from other: much leſſe may two ſo neare friends, two ſuch <hi>Alter Ego's</hi> as are mercy and iuſtice be diſſociated or diſunited one from the other.</p>
+            <p>I know it to be the erroneous conceit of the <hi>vulgar
+<pb n="11" facs="tcp:16157:9"/>ſort,</hi> that of all other virtues theſe two are moſt incom<g ref="char:EOLhyphen"/>patible, and are oppoſed, as it were at <hi>croſſe-angles,</hi>
+               <note place="margin">Mercy and iu<g ref="char:EOLhyphen"/>ſtice are not co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>trary.</note> one to the other.</p>
+            <p>But ſee, I pray you, the inconſequence and abſurdi<g ref="char:EOLhyphen"/>ty of that conceit. For, <hi>firſt,</hi>
+               <note place="margin">
+                  <hi>1.</hi> One virtue is not contrary to another.</note> If wee graunt them to bee contraries; then ſhall wee bee enforced to deny at the leaſt one, if not both of them, to bee virtues; becauſe though one vice may be contrary to another vice, yet one virtue is never contrary to another virtue, but on<g ref="char:EOLhyphen"/>ly to vice. <hi>Againe;</hi> If wee admit them to bee contraries,<note place="margin">
+                  <hi>2.</hi> God is not ca<g ref="char:EOLhyphen"/>pable of contra<g ref="char:EOLhyphen"/>riety.</note> then may wee not in any caſe ſuppoſe them to bee in God, becauſe God being ever vnchangeably one, and the ſame, is not capable of any contrariety what<g ref="char:EOLhyphen"/>ſoever. And if we ſuppoſe them not to be in God, then where ſhall bee that <hi>bountifulneſſe, and ſeverity of God,</hi> ſpoken of by<note n="d" place="margin">Rom. 11.22</note> S<hi rend="sup">t</hi> 
+               <hi>Paul, Rom. 11?</hi> Or how ſhall it bee true that<note n="e" place="margin">Pſal. 25.10.</note> 
+               <hi>David</hi> ſaith, <hi>Pſal. 25? All the waies of the Lord are mercy, and truth:</hi> Where <hi>veritas,</hi> is put for <hi>ſeveritas: truth,</hi> for <hi>iuſtice.</hi>
+            </p>
+            <p>
+               <note place="margin">Mercy and iu<g ref="char:EOLhyphen"/>ſtice are the ve<g ref="char:EOLhyphen"/>ry eſſence of God.</note>Diue but yet a little deeper into this point, and yee ſhall finde, that the <hi>mercy,</hi> and <hi>iuſtice</hi> of God, are ſo farre from croſſing, or contradicting one the other, that they are the very eſſence of God: according to that ancient rule of the <hi>Schooles: Quic quid eſt in Deo, De<g ref="char:EOLhyphen"/>us eſt: whatſoever is in God, is God himſefe:</hi> and therefore both of them as great as himſelfe: both infinite, as hee is infinite. Whence it is, that God, in that his gratious proclamation of mercy;<note n="f" place="margin">Eſa 43.25.</note> 
+               <hi>I, even I am he, that putteth a<g ref="char:EOLhyphen"/>way thine iniquities;</hi> addeth; <hi>Propter me for mine own ſake.</hi>
+               <note n="g" place="margin">Zanch de attrib. l. 1. c. 1.</note> His meaning was for his mercies ſake, not for any merit of ours; yet hee ſaith not <hi>Propter miſericordiam;
+<pb n="12" facs="tcp:16157:10"/>meam; for my mercies ſake;</hi> but, <hi>Propter me; for mine owne ſake;</hi> to ſhew, that his mercy is not in him, as ours is in vs, a thing different from his eſſence, but that <hi>himſelfe,</hi> in the ſimplicitie of his owne eſſence, is <hi>mercy it ſelfe.</hi> Now,<note n="h" place="margin">Mart. Bucer in Rom. 9.</note> the ſame which wee call the <hi>mercy</hi> of God, is alſo his <hi>iuſtice,</hi> becauſe it is his <hi>nature</hi> (as is his <hi>iuſtice</hi>) whereof wee haue no knowledge, or apprehenſion, ſaue only by his workes. And of all his works, whither of mercy, or iuſtice, he hath none other <hi>reaſon</hi> ſaue on<g ref="char:EOLhyphen"/>ly his <hi>will.</hi>
+            </p>
+            <q>—Stat pro ratione voluntas.</q>
+            <p>As therefore it is true, that <hi>Cuius vult, miſeretur: He hath mercy, on whom hee will haue mercy;</hi> neither hath hee any other cauſe of extending his mercy to any, ſaue only his will: ſo it is as true, that <hi>Deus nihil poteſt facere iniqui, dum facit pro ſuâ voluntate: God can doe no iniu<g ref="char:EOLhyphen"/>ſtice, becauſe he ever workes according to his owne will;</hi> and iniuſtice he cannot will, his will being iuſtice it ſelfe, &amp; that generall rule of iuſtice, which only of all other can ſuffer no exception.</p>
+            <p>Seeing then, both the <hi>mercy</hi> &amp; <hi>iuſtice</hi> of God is <hi>God</hi> himſelfe; far be it from any Chriſtian heart, to ſeeke to ſet God at ods with himſelfe, by oppoſing his mercy a<g ref="char:EOLhyphen"/>gainſt his iuſtice, as if they were <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, and could not ſtand togither: or, to denie that to our <hi>Iehovah,</hi> which the <hi>heathen</hi> attributed to their <hi>Ioue;</hi> to wit, that hee is <hi>Optimus Maximus; the Beſt</hi> and <hi>the Greateſt:</hi> the <hi>Beſt,</hi> for his mercy; and the <hi>Greateſt,</hi> for his iuſtice.</p>
+            <p>But are theſe two virtues (<hi>mercy</hi> and <hi>iuſtice</hi>) thus re<g ref="char:EOLhyphen"/>conciled in the <hi>Divine nature</hi> only, as being eſſentiall vnto it? No;<note n="i" place="margin">Pſal. 85.18.</note> the Pſalmiſt tels vs, <hi>Pſal. 85.</hi> that in the <hi>per<g ref="char:EOLhyphen"/>ſon of Chriſt,</hi> conſiſting of two natures, <hi>Divine,</hi> and <hi>Hu<g ref="char:EOLhyphen"/>mane:
+<pb n="13" facs="tcp:16157:10"/>Mercy and truth are met togither;</hi>
+               <note place="margin">Mercy and iu<g ref="char:EOLhyphen"/>ſtice in Chriſt.</note> 
+               <hi>righteouſneſſe and peace haue kiſſed each other.</hi> For,<note n="k" place="margin">Auſtin. l. de Spir. &amp; liter. c. 9.</note> 
+               <hi>Legem &amp; miſericordi<g ref="char:EOLhyphen"/>am in linguâ portat Chriſtus: legem, quâ reos faciat ſuper<g ref="char:EOLhyphen"/>bos: miſericordiam, quâ iuſtificet himiliatos. Christ carries in his tongue, both a Law of iuſtice, and a Goſpell of mercy: a Law of iuſtice, wherewith to convince the proud, of ſin: and a Goſpell of mercy, whereby to iuſtifie thoſe that are humbled.</hi> And<note n="l" place="margin">Bernard. de adven. ſerm. 2</note> S<hi rend="sup">t</hi> 
+               <hi>Bernard</hi> compares our Saviour Chriſt to a <hi>Bee,</hi> which flying into the city <hi>Nazareth</hi> (which by in<g ref="char:EOLhyphen"/>terpretation ſignifieth a <hi>flowre</hi>) there allighted vpon the ſweeteſt <hi>flowre of virginitie,</hi> that ever the earth yeilded. The <hi>Pſalmiſt</hi> (ſaith<note n="m" place="margin">Pſal. 101.1.</note> hee) knewe well, that this <hi>Bee</hi> had <hi>Mel &amp; Aculeum; hony and ſting both,</hi> when hee ſaid <hi>Pſal. 101. My ſong ſhall bee of mercy and iudgement; vnto thee, o Lord, will I ſing.</hi> And<note n="n" place="margin">Pſalm. 25.8.</note> againe, <hi>Pſal. 25. Dulcis, &amp; rectus Dominus. The Lord is ſweet, and righteous.</hi>
+               <note n="o" place="margin">Bernard. in tract. de 12. grad. humil.</note> 
+               <hi>Dul<g ref="char:EOLhyphen"/>cis, quia perire non patitur: rectus, quia punire non obliviſ<g ref="char:EOLhyphen"/>citur. Sweet, becauſe he doth not ſuffer vs to periſh &amp; righ<g ref="char:EOLhyphen"/>teous, becauſe he doth not forget to puniſh. Sweet</hi> in his firſt comming; <hi>righteous</hi> in his ſecond: <hi>ſweet</hi> in his promiſes; <hi>righteous</hi> in his iudgements: <hi>ſweet</hi> in his mercy; <hi>righte<g ref="char:EOLhyphen"/>ous</hi> in his iuſtice. And whoſoever hee is that will not taſte of the <hi>hony</hi> of his mercy, ſhall be ſure to feele the <hi>sting</hi> of his iuſtice. So<note n="p" place="margin">Cant. 5.10.</note> 
+               <hi>Cant. 5.</hi> he is ſaid to be <hi>Candidus, &amp; rubicundus; white, and red. White</hi> in his <hi>right hand, Ra<g ref="char:EOLhyphen"/>tione influxuum gratiae &amp; miſericordiae; in reguard of the ſweet influences of his grace and mercy:</hi> and <hi>Red</hi> in his <hi>left, Reſpectu defluxuum iustitiae &amp; punitionis: in reſpect of the bloudy fluxes of iuſtice &amp; vengeance deſcending from him.</hi> And it is<note n="q" place="margin">Cant. 8.3.</note> the <hi>Spouſes</hi> wiſh, <hi>Cant. 8.</hi> that hee would put his <hi>left hand</hi> of iuſtice vnder her head; that ſo, re<g ref="char:EOLhyphen"/>membring
+<pb n="14" facs="tcp:16157:11"/>his iudgements, ſhee may the rather apply herſelfe to divine things; and that hee would embrace her with his <hi>right hand</hi> of mercy, of which it is written,<note n="r" place="margin">Pſalm 16. v. vlt.</note> 
+               <hi>Pſal.</hi> 16. <hi>At thy right hand there is pleaſure for euermore.</hi> Thus are <hi>mercie</hi> &amp; <hi>iuſtice</hi> wel agreed, both in <hi>God,</hi> &amp; his <hi>Chriſt.</hi> But yet withal it would be obſerved, that <hi>Oleum ſupernatat vino:</hi>
+               <note place="margin">Gods mercy ex<g ref="char:EOLunhyphen"/>ceeds his iuſtice.</note> the <hi>oyle of Gods mercy doth ſwimme a<g ref="char:EOLhyphen"/>bone the wine of his iuſtice.</hi> A man would haue thought, that if ever the iuſtice of God ſhoulde haue gotten the victory over his mercy, it ſhould haue bin in triumph over thoſe cruel perſecutors, that ſo grievouſly tormen<g ref="char:EOLunhyphen"/>ted Chriſt at his paſſion, yet Chriſt not only prayed for them, but (as<note n="ſ" place="margin">Auſtin. de vtilit poenit.</note> 
+               <hi>S. Auguſtin</hi> ſweetly ſpeaks) his mercy left them not, <hi>Quouſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> eius iam ſanguinem nôſsent bibere cre<g ref="char:EOLhyphen"/>dentes, quem fuderant ſaeuientes: till they knew how to drink that bloud of his as belieuers, which they had ſpilt as bloudy perſecutours.</hi>
+            </p>
+            <p>Iuſtly then may it be queſtioned, what the Pſalmiſt might meane, <hi>Pſal. 150.</hi> when he ſaith<note n="t" place="margin">Pſal. 150.2.</note> 
+               <hi>Laudate domi<g ref="char:EOLhyphen"/>num, ſecundùm multitudinem magnitudinis eius: Praiſe ye the Lord; according to the multitude of his greatnes.</hi> The multitude of his greatnes? what's that? Surely, the <hi>mul<g ref="char:EOLhyphen"/>titude</hi> of God, if we conſider him according to his <hi>Di<g ref="char:EOLhyphen"/>vine eſsence,</hi> is the <hi>number of perſons</hi> in the Godhead, which is <hi>finite,</hi> becauſe but <hi>three:</hi> But the <hi>magnitude</hi> of the divine eſſence is not finite, but <hi>infinite.</hi> Wherefore <hi>David</hi> willeth vs to praiſe God, not according to the <hi>greatnes of his multitude,</hi> that is, ſomuch as his greatnes is to be praiſed (for that's impoſſible:) but according to the <hi>multitude of his greatnes,</hi> even the multitude of <hi>three perſons</hi> in the divine <hi>greatnes,</hi> which is but <hi>one:</hi> for that<note place="margin">c 1. &amp; tractar. 31. in Ioan.</note>
+               <pb n="15" facs="tcp:16157:11"/>we both may, and muſt do. But if we conſider the <hi>mul<g ref="char:EOLhyphen"/>titude,</hi> &amp; <hi>magnitude</hi> of God, according to his <hi>attributes</hi> of <hi>goodnes; ſweetnes,</hi> and <hi>mercy,</hi> then impoſſible it is that we ſhould praiſe him according to the <hi>multitude of his greatnes.</hi> For both his<note n="u" place="margin">Pſal. 147.5.</note> 
+               <hi>multitude is without number,</hi> Pſal. 147. and<note n="x" place="margin">Pſal. 145.3.</note> 
+               <hi>there is no end of his greatnes,</hi> Pſal. 145. The <hi>multitude</hi> of his mercies ſuch, that no <hi>Arithmetike</hi> can number the<g ref="char:cmbAbbrStroke">̄</g>: the <hi>magnitude</hi> ſuch, <hi>that</hi> no <hi>Geometry</hi> can meaſure them: both of them ſuch, that<note n="y" place="margin">Pſal. 31.21.</note> 
+               <hi>David</hi> can<g ref="char:EOLhyphen"/>not but admire them, Pſ. 31. <hi>Quàm magna multitudo dul<g ref="char:EOLhyphen"/>cedinis tuae, domine! Ohox great is the multitude of thy good<g ref="char:EOLunhyphen"/>nes, O Lord, which thou haſt laid vp for them that feare thee!</hi> And this <hi>admiration</hi> he afterwards turnes into<note n="z" place="margin">Pſal. 51.1.</note> a <hi>petition,</hi> Pſal. 51. <hi>Haue mercy vpon me, ô God, ſecundùm magnam miſericordiam tuam: after thy great mercy; Et ſecundùm multitudinem miſerationum tuarum: and accor<g ref="char:EOLhyphen"/>ding to the multitude of thy mercies do away mine offenſes.</hi>
+            </p>
+            <p>Wherefore, ô thou drooping and ſoule ſicke ſinner, perplexed and affrighted with the dread and horrour of thy ſins (thy many,<note place="margin">Application.</note> and great ſinnes) ſtill threatening thee a preſent precipitation into that dangerous down fal of deſpaire; <hi>O taſte and ſee, how gratious the Lord is!</hi> If thou haue the <hi>multitude</hi> of thy <hi>ſinnes</hi> to amate thee, behold here the <hi>multitude</hi> of Gods <hi>mercies</hi> to recom<g ref="char:EOLhyphen"/>fort thee: or, if thou haue the <hi>magnitude</hi> of thy <hi>ſinnes</hi> to apal thee, behold here, the <hi>magnitude</hi> of Gods <hi>mercies</hi> to refreſh thee: ſo that, now thou may'ſt ſafely reſolue with<note n="a" place="margin">Hilar. in Pſ. 129.</note> 
+               <hi>S. Hilary: Ad ſpem omne tempus eſt liberum, &amp; mercedem non operis, ſedmiſericordiae, vndecimae horae ope<g ref="char:EOLhyphen"/>rarij conſequentur. All time is free for hope, and the laborers even of the eleuenth houre ſhall receiue a reward not of their
+<pb n="16" facs="tcp:16157:12"/>owne merit, but of Gods mercy.</hi>
+            </p>
+            <p>Thus, though mercy and iuſtice go hand in hand both in <hi>God,</hi> &amp; his <hi>Chriſt,</hi> yet hath mercy the <hi>right hand,</hi> that is, the <hi>vpper hand</hi> of their iuſtice: and though mer<g ref="char:EOLhyphen"/>cy overtop, yet it never overturnes their iuſtice.</p>
+            <p>
+               <note place="margin">Mercy and iu<g ref="char:EOLhyphen"/>ſtice in Gods liefetenents.</note>As it is in <hi>God</hi> the <hi>King</hi> and <hi>Iudge</hi> of all the earth: ſo ſhould it alſo be with <hi>Gods Liefe-tenents,</hi> the <hi>Kings</hi> and <hi>Iudges</hi> of the earth: who though they be called <hi>Dij terrae; Gods of the earth;</hi> yet muſt they remember, that they are but <hi>Dij terrei; Gods made of earth: Vice-Gods,</hi> &amp; <hi>pety-Gods,</hi> and <hi>vnder-Gods,</hi> and <hi>men-Gods.</hi> And as they are <hi>Reguli; li<g ref="char:EOLhyphen"/>tle kings</hi> here on earth vnder that <hi>Great King</hi> of heaven; ſo muſt they alſo be <hi>Regulae; liuing Rules</hi> of iuſtice; Not<note n="a" place="margin">Cael. Rho<g ref="char:EOLhyphen"/>dogin. lect. antiq. l. 7. c. 22</note> 
+               <hi>Regulae Leſbiae; Leſbian, leaden rules,</hi> flexible with the clamours, or importunities of whomſoever: but <hi>Regulae rectae; Rules</hi> no leſſe <hi>ſtreight,</hi> than <hi>inflexible, infallible;</hi> mi<g ref="char:EOLhyphen"/>niſtring to every one a true and a right meaſure of iu<g ref="char:EOLhyphen"/>ſtice. For the old rule is, <hi>Regula per quam alia regulantur, debet neceſsariò eſse recta: A rule by which other things are to be ruled, had need be right and ſtreight it ſelfe.</hi>
+            </p>
+            <p>There muſt therefore be in <hi>them,</hi> as in <hi>God</hi> there is, a bleſſed <hi>medley</hi> and <hi>mixture</hi> of <hi>iuſtice</hi> &amp; <hi>mercy.</hi> Mercy to mollifie iuſtice, and iuſtice to qualifie mercy, that nei<g ref="char:EOLhyphen"/>ther the one, nor the other grow too-ranke. For <hi>iuſtice</hi> without mercy is not iuſtice, but <hi>tyranny;</hi> &amp; <hi>mercy</hi> with<g ref="char:EOLhyphen"/>out iuſtice is not mercy, but <hi>fatuity.</hi> And what elſe (ſaith<note n="c" place="margin">Gregor.</note> 
+               <hi>S. Gregory</hi>) was meant, by annointing the Kings of old with <hi>oyle out of a horne,</hi> but that there muſt be a <hi>due tem<g ref="char:EOLhyphen"/>per</hi> of <hi>rigor</hi> and <hi>clemencie? Vt ſicut cornu fodiantur, it a oleo foveantur:</hi> that, <hi>as ſome are to be goared with the horne of iuſtice, ſo others are to be annointed and cheriſhed with the</hi>
+               <note n="b" place="margin">Chryſoſt. in Matt.</note>
+               <pb n="17" facs="tcp:16157:12"/>
+               <hi>oyle of mercy.</hi> But moſt notable is<note n="d" place="margin">Pet. Bleſen<g ref="char:EOLhyphen"/>ſis. ſer. 16.</note> 
+               <hi>Bleſenſis</hi> his illuſtra<g ref="char:EOLhyphen"/>tion of this point. He tels vs, <hi>there are two kinds of let<g ref="char:EOLhyphen"/>ting bloud: The one, by diminution of the quality, when the bloud is corrupt: the other, by diminution of the quantity, when the bloud is too-abundant. Nec minùs periculoſa eſt ſuperfluitas, quàm corruptela: and no leſse dangerous to the ſtate of the body is the ſuperfluity, than the corruption of it.</hi> Yet what more ſweete and pleaſing to the nature of man, than bloud? Wherefore, as it is ſometimes expe<g ref="char:EOLhyphen"/>dient, that there ſhould be a <hi>diminution of bloud</hi> in the body: ſo is it ſometimes meete, that there ſhould be a <hi>diminution of virtue it ſelfe</hi> in the ſoule. It was<note n="e" place="margin">Eccl 7.16.17.</note> a skilful Phyſition that ſaid in the time of the law, <hi>Noli nimis iu<g ref="char:EOLhyphen"/>ſtus eſse: Be not too iuſt: there is a iuſt man that periſheth in his iuſtice.</hi> And there was another, of better skill than he, in the time of grace, that would haue<note n="f" place="margin">Rom 12 3.</note> 
+               <hi>no man pre<g ref="char:EOLhyphen"/>ſume to be wiſe aboue that which is meete to be wiſe; but that every man be wiſe according to ſobriety.</hi> Rom. 12. And if <hi>iuſtice</hi> and <hi>wiſdome</hi> (two ſuch capital virtues) had neede of diminution, <hi>Cui putas venae virtutum parcendum eſt? What one veine of virtues is there (trow yee) that would not be let bloud?</hi>
+            </p>
+            <p>If the <hi>Iudge</hi> be <hi>too-iuſt,</hi> though it be in a caſe againſt a rich man; what's that, but to turne<note n="g" place="margin">Amos, 6.12.</note> 
+               <hi>Fructum iuſtitiae in abſynthium? the fruit of righteouſnes into wormewood?</hi> Amos. 6. And if he bee <hi>too mercifull,</hi> though it be in a caſe for a poore man; what's that, but to turne <hi>Mel in toxicum? hony into deadly poyſon?</hi> For<note n="h" place="margin">Prov. 25 27.</note> 
+               <hi>Nimium mel non eſt bonum: Too-much hony is not good.</hi> Prov. 25. And there<g ref="char:EOLhyphen"/>fore God, though otherwiſe a father to the poore, yet becauſe men naturally (if <hi>nature</hi> be not corrupted by
+<pb n="19" facs="tcp:16157:13"/>the <hi>are</hi> of bribing) are more enclined to pity the poore, than the rich, hath given an expreſſe charge concer<g ref="char:EOLhyphen"/>ning the poore,<note n="i" place="margin">Exod. 23.3.</note> Exod 23. <hi>Pauperis non miſcreberis in iudicio: Thou ſhalt not pity, no not a poore man, to the preiu<g ref="char:EOLhyphen"/>dice of iuſtice.</hi> So that, <hi>Iuſtice</hi> is a pure intemerate <hi>Virgin,</hi> that muſt not be corrupted by either of thoſe two vn<g ref="char:EOLhyphen"/>chaſt, or vniuſt Suitors, <hi>Nimium,</hi> or <hi>Parum; too-much,</hi> or <hi>too-little:</hi> becauſe <hi>too-much</hi> iuſtice is <hi>too little</hi> iuſtice: and <hi>too-little</hi> iuſtice is <hi>too much</hi> iniuſtice. And for a Iudge either way to commit iniuſtice, by being either <hi>too-long</hi> or <hi>too-ſhort handed</hi> in the adminiſtration of iuſtice, is an argument of very great <hi>impotencie</hi> of affection. There<g ref="char:EOLhyphen"/>fore well hath<note n="k" place="margin">Sirac. 20.3.</note> the ſon of <hi>Sirac,</hi> c. 20. compared ſuch a Iuſticer to an <hi>impotent Eunuch; Concupiſcentia ſpado<g ref="char:EOLhyphen"/>nis deuirginavit iuuenculam &amp;c. As when a guelded man through luſt would defile a Virgin, ſo is hee that vſeth vto<g ref="char:EOLhyphen"/>lence in iudgement.</hi> And <hi>both are abhomination to the Lord</hi> (ſaith<note n="l" place="margin">Prov. 17.15</note> the wiſe man <hi>Prov. 17.</hi>) <hi>Et qui iuſtificat im<g ref="char:EOLhyphen"/>pium, &amp; qui condemnat iuſtum: aſwell hee that iuſtifieth the wicked,</hi> through too-much favour and clemencie, as <hi>hee that condemneth the iust</hi> through too-much rigor and extremity.</p>
+            <p>Let a Iudge then (ſaith one) carry in his <hi>right hand,</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, a <hi>bloud-ſtone,</hi> wherewith to ſtaunch innocent bloud, and in his <hi>left hand, Gladium,</hi> a <hi>ſword,</hi> wherewith (if need be) to ſmite malefactors to death. And ſurely, great reaſon haue Iudges being themſelues (as<note n="m" place="margin">Greg. Naz</note> 
+               <hi>Gre<g ref="char:EOLhyphen"/>gory Nazianzen</hi> tearmes them) <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>living lawes,</hi> and many of them alſo living by the law, to ſup<g ref="char:EOLhyphen"/>port mercy and iuſtice, becauſe mercy and iuſtice ſup<g ref="char:EOLhyphen"/>port the law, as did<note n="n" place="margin">Exod. 17 12</note> 
+               <hi>Aaron</hi> and <hi>Hur</hi> ſupport the hands
+<pb n="19" facs="tcp:16157:13"/>of <hi>Moſes. Exod. 17.</hi> Whence I take it to bee, that<note n="o" place="margin">Prov. 3.16.</note> the wiſeman, <hi>Prov. 3. v. 16.</hi> (for ſo the 70 haue it, though the words be not at all ſet downe in the <hi>Engliſh</hi>) hath placed <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, the <hi>Law,</hi> betweene <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, and <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: <hi>righ<g ref="char:EOLhyphen"/>teouſneſſe,</hi> and <hi>mercy.</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. <hi>Out of her mouth</hi> (viz. out of the mouth of wiſdome) <hi>goeth forth righteouſneſſe, and ſhee carrieth law, and mercy in her tongue.</hi> There is <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, the <hi>Law,</hi> betweene <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, &amp; <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>righteouſnes,</hi> and <hi>mercy.</hi> And no leſſe reaſon haue <hi>Kings</hi> to preſerue mercy and truth; becauſe (as the wiſe King<note n="p" place="margin">Prov. 20.28</note> 
+               <hi>Salomon</hi> tels vs, <hi>Pro. 20.</hi>) <hi>Mercy &amp; truth preſerue the King.</hi> With<g ref="char:EOLhyphen"/>out <hi>theſe two,</hi> what are all thoſe good and wholſome <hi>Lawes;</hi> which by ſincere and righteous lawgivers haue beene ſpun out of the bowels of their compaſſionate care of the weale publike, as is the ſiders web out of her bowels, but (as<note n="q" place="margin">Laert. l. 1.</note> 
+               <hi>Solon</hi> once complain'd) even as <hi>ſpiders webs indeed,</hi> which every <hi>great Droane,</hi> or <hi>Hum<g ref="char:EOLhyphen"/>ble bee,</hi> will breake thorow at his pleaſure; when the <hi>poore ſeely fly,</hi> ſhall be caught and entangled in them to his overthrow? Nay, without theſe two, what will <hi>Iudges</hi> themſelues be, but as <hi>Greater thieues,</hi> ſending <hi>leſſe thieues</hi> to execution? Nay, without theſe (ſaith<note n="r" place="margin">Auſtin. de civit l. 4. c. 4.</note> 
+               <hi>Auſtin</hi>) <hi>Quid ſunt regna, niſi magna latrocinia? quia latro<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>inia quid ſunt niſi parva regna? What are kingdoms themſelues, but as great robberies? For what elſe are robberies, but lit<g ref="char:EOLhyphen"/>tle kingdomes?</hi>
+            </p>
+            <p>
+               <note place="margin">Mercy muſt bee aboue iuſtice in the Magiſtrato.</note>Howbeit, as before I noted, that though <hi>God</hi> be both <hi>mercy,</hi> and <hi>iuſtice it ſelfe;</hi> yet <hi>mercy</hi> hath the predomina<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>cie, and preeminence over his iuſtice: So I hold it a good caveat, to all <hi>Magiſtrates;</hi> that<note n="ſ" place="margin">Margarita decreti.</note> 
+               <hi>Rationem praelati
+<pb n="20" facs="tcp:16157:14"/>tutiùs reddent de miſcricordiâ, quàm de crudelitate.</hi> When the righteous Iudge of all the world, ſhall call Iudges themſelues to the bar of his iudgement, more eaſily will he diſpenſe with their <hi>overmuch lenity,</hi> than with their <hi>overmuch crueltie.</hi> For God, who loveth <hi>mer<g ref="char:EOLhyphen"/>cy</hi> ſo well, that he hath made her as it were a <hi>Queene;</hi> gi<g ref="char:EOLhyphen"/>ving her the ſupremacy, and ſoveraigntie<note n="t" place="margin">Pſal. 145.9.</note> 
+               <hi>over all his workes, Pſal. 145.</hi> and hath ſo inſerted, and ingraffed her within the very bowels of man, that when hee would ſpeak to mans capacitie, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>after the maner of men,</hi> and would inſinuate his owne mercifull affection to man, he is wont to expreſſe it, by calling himſelfe <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>a man;</hi> as in that parable, <hi>Luc. 14.</hi> 
+               <note n="u" place="margin">Theophil. in Luc. 14.</note>where it is ſaid; <hi>A certeine man made a great ſupper, &amp;c.</hi> no doubt, but as himſelfe is abundant in mercy; ſo will his mercy a<g ref="char:EOLhyphen"/>bound to thoſe that abound in mercy: but <hi>there ſhall bee iudgement mercileſse, to him that ſheweth no mercy; and mercy reioiceth againſt iudgement.</hi> as it is,<note n="*" place="margin">Iames. 2.13.</note> 
+               <hi>Iames, 2.</hi>
+            </p>
+            <p>Be it then, that our <hi>Engliſh lawes</hi> be not alwaies writ<g ref="char:EOLhyphen"/>ten in <hi>bloud,</hi> but ſomtimes in <hi>oyle;</hi> providing for ſome malefactors of better hope, ſome eaſier penaltie than death; as the <hi>Pylorie,</hi> rather than the <hi>Galowes;</hi> or, perhaps a note of <hi>invſtion</hi> in the <hi>eare,</hi> or in the <hi>hand,</hi> or <hi>whip<g ref="char:EOLhyphen"/>ping,</hi> or <hi>ſlitting</hi> of the <hi>noſe,</hi> or the like: ſhall they there<g ref="char:EOLhyphen"/>fore be condemned as partiall, becauſe they would in iuſtice puniſh <hi>ſinne,</hi> and yet in mercy ſpare the <hi>Sinner?</hi> No, no: there muſt bee that which the Morall Phi<g ref="char:EOLhyphen"/>loſophers call <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, an <hi>aequity,</hi> that muſt allay and lenify <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>the ſeverity of iuſtice. Re<g ref="char:EOLhyphen"/>verend</hi>
+               <pb n="21" facs="tcp:16157:14"/>
+               <note n="x" place="margin">Ioh. Gerſon</note> 
+               <hi>Gerſon,</hi> ſometimes <hi>Chancelour of Paris,</hi> cals it <hi>Iuſtitiam interpretativam,</hi> a <hi>iuſtice</hi> that will make a favourable, yet a conſcionable conſtruction of law; reſpecting that intent and meaning, which the Law<g ref="char:EOLhyphen"/>giver had, or of likelyhood would haue had, in this or that particular caſe, each circumſtance thereof being duly and rightly pondered. Wel and wiſely therefore hath it been provided, that there ſhould be a <hi>conſciona<g ref="char:EOLhyphen"/>ble Court of Chancery</hi> to mitigate the rigid auſterity of o<g ref="char:EOLhyphen"/>ther Courts, becauſe (as<note n="y" place="margin">Cicer.</note> the <hi>heathen</hi> man ſaith, <hi>Summu<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLunhyphen"/>ius, ſumma iniuria: Extremity of right, is no better than extremity of wrong.</hi> And truely,<note place="margin">The occaſion of this text.</note> I ſhould do my <hi>text</hi> but right, if I ſhould terme it a <hi>Chancery-text.</hi> For (to confeſſe a truth) that which cauſed me to faſten my me ditations vpon it, was this; that I haue often heard it fal from the lips of my moſt honourable Lord, <hi>the Lord Chancelor;</hi> as <hi>great,</hi> as <hi>graue,</hi> as <hi>wiſe,</hi> as <hi>noble,</hi> as <hi>iudicious,</hi> as <hi>mercifull</hi> a <hi>Iuſticer,</hi> as ever this kingdome had; &amp; that, with ſuch ſweete complacency of affection, that he hath ſometimes profeſſed, that, were he a <hi>Preacher,</hi> this ſhould be <hi>His Text;</hi>
+            </p>
+            <p>
+               <hi>A righteous man is mercifull to the life of his beaſt.</hi> As is the ſong of the <hi>Civill Magiſtrate;</hi>
+               <note place="margin">Mercy and iu<g ref="char:EOLhyphen"/>ſtice in the Mi<g ref="char:EOLhyphen"/>niſter.</note> ſuch muſt alſo be the ſong of the <hi>Spiritual magiſtrate,</hi> which is the <hi>Miniſter.</hi> It muſt be a <hi>ſong bipartite:</hi> of <hi>mercy</hi> and <hi>iudge<g ref="char:EOLhyphen"/>ment. Mercy,</hi> in applying the ſweet promiſes of the <hi>Go<g ref="char:EOLhyphen"/>ſpel:</hi> &amp; <hi>iudgement,</hi> in delivering the feareful threats of the <hi>Law.</hi> A thing, not obſcurely ſignified vnto vs<note n="z" place="margin">Act. 2.3.</note> in thoſe <hi>Linguae diſpertitae,</hi> or <hi>cloven tongues,</hi> wherein the holy Ghoſt appeared to the Apoſtles, <hi>Act. 2. Cloven tongues,</hi> to teach them, that their ſong muſt be both of <hi>mercy</hi> &amp;
+<pb n="22" facs="tcp:16157:15"/>
+               <hi>iudgement.</hi> Not alwaies of <hi>mercy,</hi> for feare of <hi>preſumpti<g ref="char:EOLhyphen"/>on;</hi> nor yet alwaies of <hi>iudgement,</hi> for feare of <hi>deſperation:</hi> but of <hi>mercy and iudgement both;</hi> for thats <hi>good diſcreti<g ref="char:EOLhyphen"/>on:</hi> becauſe either of them without the other, is like a good medicine ill applyed, which rather hurts, than helps the wound.</p>
+            <p>
+               <note place="margin">Mercy aboue iuſtice in the Miniſter.</note>But ô let the <hi>ſmoaking flaxe</hi> never be quenched! ſo long as the <hi>paenitent ſinner</hi> can but ſend forth <hi>ſmoaky ſighes</hi> and <hi>ſobs</hi> for his ſinnes, and ſo long as there is any <hi>light</hi> or <hi>ſparke</hi> of grace in him, let him never want che<g ref="char:EOLhyphen"/>riſhing. But when with the ſharpe <hi>ſhare</hi> of the law, we haue made as it were deepe <hi>furrowes</hi> of ſorrow in the hearts of our hearers, then let vs ſow the comfortable <hi>ſeed</hi> of the goſpell; following the example of God him ſelfe, who firſt ſaid to <hi>Adam,</hi>
+               <note n="a" place="margin">Gen. 2.17.</note> 
+               <hi>Morte moriêris; thou ſhalt dy the death;</hi> there is the <hi>furrow</hi> of the law: &amp; then comes with<note n="b" place="margin">Gen. 3.15.</note> 
+               <hi>Semen mulieris; the ſeed of the woman ſhall break the head of the ſerpent;</hi> there is the <hi>ſeed</hi> of the goſpell.</p>
+            <p>But, muſt iuſtice and mercy reſt only vpon the heads of <hi>Moſes,</hi> &amp; <hi>Aaron;</hi> the <hi>magiſtrate,</hi> and the <hi>minister?</hi> No (beloved) they muſt be like that <hi>pretious ointment,</hi>
+               <note place="margin">Mercy and iu<g ref="char:EOLunhyphen"/>ſtice in all ſorts of men.</note> which being powred vpon <hi>Aarons</hi> head, ran downe to his beard, and ſo to the very skirts of his garments: they muſt deſcend to the very <hi>loweſt</hi> &amp; <hi>meaneſt of</hi> the <hi>people.</hi> And ſo deare muſt they be to <hi>all ſorts</hi> of men, that<note n="c" place="margin">Prov. 3.3.</note> 
+               <hi>Sa<g ref="char:EOLhyphen"/>lomon,</hi> Prov. 3. not content to haue ſaid, <hi>Let not mercy &amp; truth forſake thee;</hi> addeth further; <hi>Bind them on thy necke,</hi> or, <hi>weare them, vt torquem aureum, as a chaine of golde a<g ref="char:EOLhyphen"/>bout thy necke, and write them in the tables of thy heart.</hi> He afterward giues the reaſon,<note n="d" place="margin">Prov. 21.21.</note> Prov. 21. <hi>He that followeth after righteouſnes and mercy ſhall finde life and glory.</hi>
+            </p>
+            <p>
+               <pb n="23" facs="tcp:16157:15"/>
+               <note place="margin">2. HYPOTHESIS.</note>And ſo from my <hi>firſt generall part,</hi> which is the <hi>The<g ref="char:EOLhyphen"/>ſis; A iuſt man is mercifull;</hi> I now deſcend to the <hi>ſecond,</hi> which is the <hi>Hypotheſis;</hi> that, in particular, <hi>he is mercifull to the life of his beaſt.</hi> Wherin (I told you) we are to note firſt <hi>(How)</hi> then <hi>(Why)</hi> he is to reguard it. In the handling whereof, becauſe I am not to teach you <hi>husbandry,</hi> but <hi>divinity;</hi> I will briefly make particular <hi>application</hi> of each ſeveral point, that ſhal occur; according as each of them ſhal miniſter occaſion. Which (I hope) I may the more boldly and ſafely do, having the warrant, not only of<note n="e" place="margin">1. Cor. 9.9.</note> 
+               <hi>S. Paul.</hi> 1. Cor 9. <hi>Numquid de bobus cura Deo? Doth God</hi> (ſaith he) <hi>take care for Oxen? Either is it not alto<g ref="char:EOLhyphen"/>gither for our ſakes? For our ſakes, no doubt, it is written:</hi> but of<note n="f" place="margin">Mat. 6.26.</note> 
+               <hi>Chriſt himſelfe, Mat. 6.</hi> where to induce his diſ<g ref="char:EOLhyphen"/>ciples to caſt away all anxiety of care for meate, drinke, and cloath; and, wholy to rely vpon Gods providence, after hee had firſt willed them to conſider the <hi>foules of the aër, and the lilies of the field,</hi> how God provides for them, his inference is this;<note n="g" place="margin">V. 30.</note> 
+               <hi>ſhall he not do much more vn<g ref="char:EOLhyphen"/>to you, ô yee of little faith?</hi>
+            </p>
+            <p>Vpon theſe, and the like <hi>warrants</hi> of holy ſcripture, why may not I alſo, by like conſequence, inferre; If the righteous man do <hi>thus</hi> and <hi>thus,</hi> or, for <hi>theſe</hi> &amp; <hi>theſe rea<g ref="char:EOLhyphen"/>ſons</hi> reguard the life of his <hi>beaſt,</hi> ought hee not much more to reguard the life of his <hi>brethren?</hi> For how much more worth are they, than many beaſts?</p>
+            <p>
+               <note place="margin">
+                  <hi>I. HOW</hi> a iuſt man is merciful to his beaſt.</note>Firſt then let vs examine <hi>How</hi> a righteous man is merciful to the life of his beaſt. The <hi>How</hi> ſtands vpon <hi>ſixe</hi> braunches.</p>
+            <p>The <hi>firſt braunch</hi> of his mercy, is In <hi>Paſcendo:</hi> in <hi>feeding</hi> his beaſts. For as men,<note place="margin">1. In Paſcendo.</note> ſo beaſts
+<pb n="24" facs="tcp:16157:16"/>alſo droope and faint, if they want their foode. There<g ref="char:EOLhyphen"/>fore is it, that both <hi>cattell</hi> are called <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, of <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>; &amp; <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, of <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, both ſignifying to <hi>feed,</hi> or <hi>nouriſh:</hi> and <hi>thoſe</hi> that feede them likewiſe haue their names of <hi>fee<g ref="char:EOLhyphen"/>ding.</hi> For a <hi>ſhepheard</hi> is call'd in <hi>Greeke,</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, of <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: and <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, of <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: and in <hi>Latin, Paſtor,</hi> of <hi>Paſco: all</hi> ſig<g ref="char:EOLhyphen"/>nifying to feede; to remember him, that his <hi>office</hi> is to feede.</p>
+            <q>
+               <l>—<note n="h" place="margin">Virg. Eclog 6.</note>Paſtorem, Tityre, pingues</l>
+               <l>Paſcere oportet oves.</l>
+            </q>
+            <p>
+               <hi>A ſhepheard muſt haue a care to feede fat his ſheepe.</hi> He muſt not <hi>Paſcigrege,</hi> but <hi>gregem paſcere:</hi> not be a <hi>paſsiue,</hi> but an <hi>actiue feeder:</hi> not <hi>feede vpon</hi> his flocke, but <hi>feede</hi> his flocke. For,<note n="i" place="margin">Ezech. 34.2.</note> 
+               <hi>Vae paſto<g ref="char:EOLhyphen"/>ribus, qui paſcunt ſemetipſos,</hi> ſaith God, Ezech. 34. <hi>Wo be vnto the ſhepeards of Iſraell that feede themſelues: ſhoulde not the ſhepheards feede the flockes? Ye eate the fat, and ye cloath you with the wooll: ye kill them that are fed, but ye feed not the ſheepe.</hi> Such <hi>ſhepheards</hi> are thoſe retchleſſe and careleſſe <hi>miniſters,</hi> who when they are charged with a cure of ſoules, will neither preach themſelues, nor pro<g ref="char:EOLhyphen"/>vide a ſufficient preacher.</p>
+            <p>Now, if ye aske me, as one asked the <hi>Perſian</hi> in<note n="k" place="margin">Ariſt Oe<g ref="char:EOLhyphen"/>conom. l. 1. c. 6.</note> 
+               <hi>Ari<g ref="char:EOLhyphen"/>ſtotle;</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>; <hi>what it is that will moſt fatten the horſe, the ſheepe, or any other cattell?</hi> I muſt anſwere, as he did; <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: <hi>It is the eie, or care of the Maiſter.</hi> For, if they be wholy left to the care of ſervants, they can tell how to be ſlacke and negligent enough.</p>
+            <p>And, as the Maiſters care muſt be to feede them, not to feede vpon them: ſo muſt it alſo bee his care, ſo to feede them, as that they feed not vpon his neighbours: that is to ſay, that hee feed them with his <hi>owne,</hi> not with <hi>other mens</hi> paſtures. But it's now growne to a pra<g ref="char:EOLhyphen"/>ctiſe
+<pb n="25" facs="tcp:16157:16"/>no leſſe common, than lamentable; (if I ſpeak not a truth, let <hi>Encloſers</hi> confute me) <hi>ſunt qui paſcunt oves &amp; boves, &amp; occidunt homines: There are that thinke their ſheepe and oxen are never fed fat enough, till they haue ea<g ref="char:EOLhyphen"/>ten vp all their neighbours round about them;</hi> and that they never thriue, and proſper ſufficiently, ſo long as they graze but within their owne tedder. Theſe men haue forgotten<note n="l" place="margin">Prov. 5.15.</note> the wiſemans rule, <hi>Prov. 5. Drinke the water of thine owne ciſterne, and of the rivers out of the midſt of thine owne well.</hi>
+            </p>
+            <p>
+               <note place="margin">2. In Parcendo.</note>2 A <hi>ſecond braunch,</hi> of a righteous mans mercy to his beaſt, muſt be <hi>In Parcendo,</hi> in <hi>ſparing</hi> his beaſt. Hee will not exact more of his beaſt, than the ſtrength of it is well able to beare. Hee will not take too much of a free-horſe; —<note n="m" place="margin">Horat.</note> 
+               <hi>ne</hi>
+               <q>Peccet ad extremum ridendus, &amp; ilia ducat:</q>
+leſt he haue his skin in ſteed of his ſervice: and leſt it fare with him, as<note n="n" place="margin">Gen. 33.13.</note> 
+               <hi>Iacob</hi> ſaid it would with his cattell, which with one daies <hi>over-driving,</hi> would dy. <hi>Gen. 33.</hi> For, ſo neceſſarie is reſt, for <hi>labouring,</hi> or <hi>travailing</hi> beaſts, that<note n="o" place="margin">Exod. 20.10</note> one clauſe of the commandement for the due obſervance of the Sabbath, provideth for their reſt, as if the Sabbath had beene made for beaſts alſo, aſwell as men. <hi>Exod,</hi> 20. Much leſſe then will a righteous man make good the <hi>Italian</hi> proverb; <hi>Bonus ſervus, bonus aſi<g ref="char:EOLhyphen"/>nus: A good ſervant ſhall be a good aſſe:</hi> that is, make his <hi>ſervant</hi> fare the worſe, becauſe his ſervice is good.</p>
+            <p n="2">2. As beaſts muſt not be <hi>over-travailed,</hi> ſo neither muſt they be <hi>over-burdened.</hi> For a <hi>ſtrong aſse,</hi> if he haue two burdens at once laid vpon him; that is, more than hee can weld; may hap to faint and ſinke vnder them, as ap<g ref="char:EOLhyphen"/>peareth
+<pb n="26" facs="tcp:16157:17"/>in<note n="p" place="margin">Gen 49 14.</note> 
+               <hi>Iſſakars</hi> bleſſing, <hi>Gen. 49.</hi>
+            </p>
+            <p n="3">3 As beaſts muſt not be <hi>over-burden'd;</hi> no more are thoſe that haue <hi>milk,</hi> to be <hi>over-milkt.</hi> For, <hi>as</hi>
+               <note n="q" place="margin">Prov. 30.33</note> 
+               <hi>when one churneth milk, he bringeth forth butyre; and hee that wrin<g ref="char:EOLhyphen"/>geth his noſe, cauſeth bloud to come out, Prov. 30.</hi> ſo hee that brings his beaſt too oft to the milk pale; ſhall in the end, in ſted of milke, haue nothing but bloud. And<note n="r" place="margin">Pomponius Laetus.</note> 
+               <hi>Qui totum lac ex vberibus ouium emulſerit, agnos frau<g ref="char:EOLhyphen"/>dans cibo, praedo eſt, non paſtor; ſaith Pomponius Laetus: Hee that will haue all the milke out of the teats of the ſheepe, and ſo deceiue the poore lambs of their food, hee is a thiefe, not a ſheepheard.</hi>
+            </p>
+            <p n="4">4 As thoſe that haue milke, are not to bee <hi>over-milkt,</hi> ſo neither is milke to bee <hi>ſought,</hi> where it is not to bee had: according to that, of<note n="f" place="margin">Greg. Naz.</note> 
+               <hi>Gregory Nazianzen;</hi>
+               <q>
+                  <l>
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>:</l>
+                  <l>
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>.</l>
+               </q>
+A <hi>goat heard</hi> (ſaith hee) <hi>if hee will, may take vpon him to milke his hee goats: but if he doe inſted of milke, hee ſhall haue nothing but ſtreames of blood.</hi>
+            </p>
+            <p n="5">5 In a word; As milke muſt not be <hi>exacted,</hi> where it is not to be had; and where it is, it muſt not too abun<g ref="char:EOLhyphen"/>dantly be <hi>exhauſted:</hi> ſo where a <hi>fliece</hi> is to bee had, there muſt not <hi>fleying</hi> goe for <hi>fliecing:</hi> much leſſe is the <hi>fleſh</hi> it ſelfe to be taken for the <hi>fliece;</hi> a whole ſheep to bee de<g ref="char:EOLhyphen"/>voured, and no boanes to bee made of it; according to that excellent ſaying of <hi>Tiberius</hi> the Emperour (in<note n="t" place="margin">Dion Caſſ. l. 57.</note> 
+               <hi>Dion</hi>) <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: <hi>I will haue my ſheep</hi> (ſaith he) <hi>to be ſhorne, not to bee ſhaven.</hi> Hee ſaid his <hi>ſheepe;</hi> but he meant, his <hi>people:</hi> like as<note n="u" place="margin">Homer. Il. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>; &amp; <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>Homer</hi> calls a good <hi>King,</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: <hi>the ſhepheard of his people.</hi>
+               <pb n="27" facs="tcp:16157:17"/>But <hi>Suetonius</hi> hath it thus: <hi>Bont paſtoris eſt, tondere pecus, non deglubere. It is the part of a good ſhepheard, to ſheare, not to eate vp his ſheepe.</hi>
+               <note n="*" place="margin">Suetonius.</note>
+            </p>
+            <p n="3">
+               <note place="margin">3. In Pat endo.</note>3 A <hi>third braunch</hi> of a righteous mans mercy to his beaſts, muſt be, <hi>In Patiendo:</hi> in <hi>patiently ſuffering and pardoning</hi> their infirmities. For if thou pitie not, rather than puniſh the infirmities of thy beaſt, which through thine owne ſin is become leſſe plyant and tractable, than otherwiſe it was, &amp; would haue beene; what do'ſt thou elſe, but teach God, not to pardon, but puniſh thine offenſes, who by thy ſin, art now degenerated in<g ref="char:EOLhyphen"/>to a <hi>beaſt?,</hi> and art become<note n="x" place="margin">Pſal. 32.10.</note> 
+               <hi>like horſe and mule without vnderſtanding.</hi> Yea,<note n="y" place="margin">Ier. 10.14.</note> 
+               <hi>euery man is a beaſt by his own know<g ref="char:EOLhyphen"/>ledge, Ier. 10.</hi>
+            </p>
+            <p>If then thou ſee thy horſe trip or ſtumble, break not out into<note n="z" place="margin">Num. 22 29</note> 
+               <hi>Balaams</hi> phrenetike paſſion, <hi>Num. 22.</hi> to ſay, as he did to his aſſe, when he would not goe forward; <hi>I would there were aſword in mine hand, for now would I kill thee:</hi> But rather, remember that of<note n="2" place="margin">Horat.</note> the <hi>Poet;</hi> which yet he never ſpake in ſo good a ſenſe;
+<q>—Cave ne titubes, mandata<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> frangas.</q>
+               <hi>Beware leſt thou alſo trip, and break Gods commandements.</hi> It's a rare thing in a beaſt,<note n="b" place="margin">Suidas.</note> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> (as <hi>Suidas</hi> hath it) <hi>to ſtumble twice at the ſame ſtone.</hi> Yet ſuch beaſts for the moſt part are men; they are wont to make amends for a lapſe with a relapſe, and to ſtumble more than a thouſand times, at the ſame ſtone: even at the ſame ſtony tables of Gods law. Yea,<note n="c" place="margin">Prov. 24.16.</note> 
+               <hi>Septies in die cadit iuſtus, Pro. 24. Aguſt man</hi> more than ſtumbleth; for he <hi>falleth, ſeaven times a day. Septiès, id eſt, ſaeptùs: ſeuen times,</hi> that is, <hi>many times.</hi> If a iuſt man fall <hi>himſelfe</hi> ſo
+<pb n="28" facs="tcp:16157:18"/>oft, then (me thinkes) it is but reaſon, that hee ſhould pardon <hi>his beaſt,</hi> eſpecially when he doth leſſe than fall. And, if his <hi>beaſt;</hi> then much more his <hi>brother.</hi> And ther<g ref="char:EOLhyphen"/>fore, when <hi>Peter</hi> asked, how oft hee ſhould <hi>forgiue his brother treſpaſsing againſt him; whither vnto ſeven times?</hi> Chriſt tels him,<note n="d" place="margin">Mat. 18.21.</note> 
+               <hi>Not vnto ſeven times, but vnto ſeven<g ref="char:EOLhyphen"/>tie times ſeven times: Matt. 18.</hi>
+            </p>
+            <p n="4">
+               <note place="margin">4. In Compati<g ref="char:EOLhyphen"/>endo.</note>4 A <hi>fourth braunch</hi> of a righteous mans mercy to his beaſt, is <hi>In compatiendo; in compaſsionating</hi> the needs and diſtreſſes of his beaſts.</p>
+            <p>As firſt, If they wander, by <hi>reducing</hi> them to their <hi>owne</hi> home: yea, though they bee not his owne, but his enemies. For ſo runnes<note n="e" place="margin">Exod. 23.4.</note> 
+               <hi>Moſes</hi> his charge, <hi>Exod. 23. If thou meet thine enemies Ox, or his Aſſe, going aſtray, thou ſhalt bring him to him again.</hi> If thine <hi>enemies,</hi> then much more thine <hi>owne.</hi> For, <hi>how thinke yee? If a man haue a 100 ſheep, and one of them be gon aſtray: doth he not leaue 99, and go into the mountaines, and ſeeke that which is gon aſtray? And if ſo be that he finde it; verily I ſay vnto you, hee re<g ref="char:EOLhyphen"/>ioiceth more of that ſheepe, than of the 99 which went not a<g ref="char:EOLhyphen"/>ſtray.</hi> It's a parable thus applied by<note n="f" place="margin">Luc. 15.7.</note> our Saviour Chriſt, <hi>Luc. 15. I ſay vnto you, that likewiſe ioy ſhall bee in heaven for one ſinner that converteth; more than for 99 iuſt men, which need none amendment.</hi> If ſuch be the ioy in <hi>heauen,</hi> ſuch alſo ſhould be our ioy here on <hi>earth;</hi> whom<note n="g" place="margin">Matt. 6.10.</note> our Saviour hath taught to pray, <hi>Matt. 6. Thy will bee done in earth, as it is in heaven.</hi>
+            </p>
+            <p>Secondly, If they fall into a ditch, or a pitte; by <hi>relie<g ref="char:EOLhyphen"/>ving</hi> them. For, <hi>which of you ſhall haue an Ox, or an Aſſe fallen into a pit, and will not ſtreight way pull him out; yea, though it be vpon the Sabbath day?</hi> ſaith<note n="h" place="margin">Luc. 14.5.</note> our Saviour
+<pb n="29" facs="tcp:16157:18"/>Chriſt, <hi>Luc. 14.</hi> as who ſhould ſay; No man, if hee bee a man indeed, and haue the bowels of a man, but will. It's there applied by our Saviour, as a <hi>reply</hi> to a <hi>Phariſa<g ref="char:EOLhyphen"/>icall quaeſtion,</hi> made by certeine expounders of the Law; whither it were lawfull to heale on the Sabbath day, or no?</p>
+            <p>Thirdly, If they be ſick, or wounded, by ſeeking to <hi>helpe,</hi> and <hi>heale</hi> them. And this indeed (if ought elſe) is, <hi>Curare iumentum,</hi> (which, I told you, was one reading of my text) <hi>ſo to reguard thy beaſt, as to cure it.</hi> For in ſuch caſe, if thy beaſt be left alone, <hi>ſine curâ, without care,</hi> it will ſoone bee <hi>ſine curâ, paſt cure.</hi> I will apply this none otherwiſe, than I finde it applyed by<note n="i" place="margin">Ezech. 343.</note> God him<g ref="char:EOLhyphen"/>ſelfe, to the <hi>ſpirituall ſhepheards</hi> of Iſrael; againſt whom, he complaineth, <hi>Ezech. 34. The weake haue yee not ſtreng<g ref="char:EOLhyphen"/>thned, the ſicke haue yee not healed; neither haue yee bound vp the broaken; but with rigor, and with crueltie, haue yee ruled them.</hi>
+            </p>
+            <p n="5">
+               <note place="margin">5. In Compeſ<g ref="char:EOLhyphen"/>cendo.</note>5 A <hi>fift braunch</hi> of a righteous mans mercy to his beaſt, muſt be, <hi>In compeſcendo:</hi> in <hi>guiding</hi> &amp; <hi>ruling</hi> them. A thing, as neceſſary for them, as is their <hi>meate</hi> &amp; <hi>drinke:</hi> which the <hi>Greekes</hi> haue well expreſt in this one word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, which ſignifieth, both <hi>Paſcere,</hi> &amp; <hi>Compeſcere;</hi> to <hi>feed,</hi> and to <hi>guide.</hi> For it's true of beaſts, which wee are wont to ſay of <hi>fire, water,</hi> and <hi>money;</hi> that they are, <hi>Boni ſervi, mali Domini; Good ſervants,</hi> but <hi>bad Maiſters.</hi> As it is in <hi>beaſts,</hi> right ſo is it in <hi>men.</hi> By diſcipline, <hi>wilde</hi> beaſts are ſometimes made tame: <hi>Impunè à Magiſtris le<g ref="char:EOLhyphen"/>onum ora tractantur: The mouths of Lions</hi> (ſaith<note n="k" place="margin">Sen de be<g ref="char:EOLhyphen"/>nef. l. 1.</note> 
+               <hi>Seneca</hi>) <hi>are ſafely handled by thoſe that are their keepers.</hi> And, for want of diſcipline, <hi>tame</hi> beaſtes many times become
+<pb n="30" facs="tcp:16157:19"/>
+               <hi>wild.</hi> Elſe, why did God commaund<note n="l" place="margin">Ezech. 19.2.</note> his Prophet, to take vp this lamentation for the Princes of Iſraell, <hi>E<g ref="char:EOLhyphen"/>zech.</hi> 19. <hi>Wherefore lay thy mother as a Lyoneſſe among the Lyons? Shee nouriſhed her young ones among the Lyons whelps: and ſhee brought vp one of her whelps, and it be<g ref="char:EOLhyphen"/>came a Lyon; and it learned to catch the prey, and it devou<g ref="char:EOLhyphen"/>red men.</hi>
+            </p>
+            <p>If then there be any <hi>Canes rabidi, mad Dogs,</hi> that haue in their tongues, that which<note n="m" place="margin">Greg. Naz.</note> 
+               <hi>Gregory Nazianzen</hi> cals <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, or <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, the <hi>dog-worme,</hi> which will make them, if not barke, yet bite at every one they meete with (yea, they care not though it be their owne Maiſter) it were good that they were <hi>wormed,</hi> not only for the good of others, but of themſelues too, leſt hereafter they proue to be of the number of thoſe<note n="n" place="margin">Apoc. 22.15</note> 
+               <hi>Foris Canes, Dogs that ſhall ſtand without,</hi> even without that heavenly Ie<g ref="char:EOLhyphen"/>ruſalem, whereinto ſhall enter none vncleane thing, <hi>A<g ref="char:EOLhyphen"/>poc. 22.</hi>
+            </p>
+            <p>If there be any <hi>vntamed Buls,</hi> that are enraged and <hi>horne-mad</hi> (as they ſay) at the ſight of purple, that is, (as<note n="o" place="margin">Iud. Ep. v. 8.</note> 
+               <hi>S. Iude</hi> ſpeaks) that <hi>deſpiſe governement, and ſpeake evill of them that are in authority: Sons of Belial,</hi> which is in<g ref="char:EOLhyphen"/>terpreted, <hi>Sine iugo, without a yoake,</hi> it were good that they were brought vnder the <hi>yoake of obedience.</hi>
+            </p>
+            <p>If there be any <hi>lazy Oxen</hi> (which yet are <hi>Animalia na ta labori: beaſts borne to labour</hi>) I meane, <hi>lazy</hi> and <hi>sturdy Roagues,</hi> and <hi>vagrant perſons:</hi> ſuch as<note n="p" place="margin">Theocrit.</note> 
+               <hi>Theocritus</hi> ſpeaks of,— <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>; <hi>who keepe holy-day all the yeare long:</hi> I ſay, if there be any ſuch (I might ſay, if there be ſwarmes of ſuch) either in your city, or in your ſuburbs, it were good that there were <hi>ſtimulus,</hi> a <hi>goade</hi> provided for
+<pb n="31" facs="tcp:16157:19"/>them, to pricke them forward to their labour.</p>
+            <p>If there be any fierce &amp; fiery <hi>Horſes,</hi> which are<note n="q" place="margin">Deut. 32.15</note> 
+               <hi>In<g ref="char:EOLhyphen"/>eraſsati, impinguati, dilatati,</hi> Deut. 32. <hi>Made ſat, &amp; groſſe, and even laden with fatneſſe,</hi> I meane, <hi>Papiſts,</hi> that haue beene over-fed &amp; fild with his Maieſties favors, it were good, that he would in time <hi>Equis laſciuientibus pabu<g ref="char:EOLhyphen"/>lum ſubtrahere: hold theſe fat and high-fed horſes to hard<g ref="char:EOLhyphen"/>meate,</hi> leſt they begin to recalcitrate and kicke, and per<g ref="char:EOLhyphen"/>haps, in the end throw their Rider: and, that he would alſo provide both <hi>Fraenum,</hi> &amp; <hi>Calcar;</hi> a <hi>bridle,</hi> &amp; a <hi>ſpurre.</hi> A <hi>bridle,</hi> to refreine their forwardneſſe where they ſhould be backward; and a <hi>ſpurre,</hi> to incite their backe<g ref="char:EOLhyphen"/>wardnes, where they ſhould be forward.</p>
+            <p>In a word; If <hi>thine owne body,</hi> which is (as<note n="r" place="margin">Bernard.</note> 
+               <hi>S. Bernard</hi> cals it) <hi>Aſina animae, the aſse of the ſoule,</hi> the aſſe that muſt cary it either to heaven, or to hell, be either ſo <hi>dull</hi> in the ſoules ſervice, or rather, in Gods, as to droope in the waies of Chriſtianity; or ſo <hi>wanton,</hi> as to rebell againſt the ſpirit, it were good there were provided <hi>Flagellum,</hi> a <hi>whip,</hi> both to <hi>quicken</hi> it, as alſo to bring it into <hi>ſubiecti<g ref="char:EOLhyphen"/>on.</hi> For,<note n="ſ" place="margin">Sirac. 33.27.</note> 
+               <hi>Servo maleuolo tortura &amp; compedes: Torture and fetters belong to the evill ſeruant.</hi> Sirac. 33.</p>
+            <p>
+               <note place="margin">6. In Conſer<g ref="char:EOLhyphen"/>vando.</note>6 The <hi>ſixt and laſt braunch</hi> of a righteous mans mercy to his beaſts muſt be <hi>In Conſervando: in protecting &amp; de<g ref="char:EOLhyphen"/>fending</hi> them. For if a ſhepheard ſhould leaue his ſheep to themſelues, what were <hi>they</hi> elſe, but a <hi>common prey</hi> to the teeth of Lyons, Wolues, &amp; the like? Or, what were <hi>he,</hi> but (as one ſaith) <hi>Pro paſtore mercenarius, pro mercena<g ref="char:EOLhyphen"/>rio lupus, pro lupo diabolus? In ſted of a ſhepheard a hireling,</hi> (who when he ſeeth the Wolfe comming, he flyes; and perhaps, before too) <hi>nay, not a hireling, but a wolfe; nay,
+<pb n="32" facs="tcp:16157:20"/>not a wolfe, but a divell.</hi> As therefore a good ſhepheard muſt haue<note n="t" place="margin">Bernard. de<g ref="char:EOLhyphen"/>clamat.</note> 
+               <hi>Virgam, qua dirigat oves;</hi> a <hi>rod,</hi> wherewith to <hi>keepe</hi> his ſheepe: ſo he muſt haue <hi>Baculum, quo abigat lupos;</hi> a <hi>ſtaffe,</hi> wherewith to <hi>keepe away</hi> the wolfe. Both, mentioned by<note n="u" place="margin">Pſal. 23.4.</note> 
+               <hi>David,</hi> Pſal. 23. thus ſpeaking to the Lord his ſhepheard: <hi>The Lord</hi> (ſaith he) <hi>is my ſhepheard, therefore ſhall I lacke nothing. Though I walke thorow the valley of the ſhadow of death, I will feare none evill: for thou art with me; thy rod, and thy ſtaffe comfort me.</hi>
+            </p>
+            <p>Yea, ſo farre wil a good ſhepheard venture himſelfe for the reſcue of his ſheepe, that he will<note n="*" place="margin">Amos, 3.12</note> 
+               <hi>take out of the mouth of the Lyon, if it be but two legs, or a piece of an eare,</hi> Amos. 3. Nay, (as our Saviour himſelfe witneſſeth Ioan. 10.) <hi>The good ſhepheard giues his life for his ſheepe.</hi> And this did he alſo make good in his owne perſon, as vpon <hi>Good Friday:</hi> when, to redeeme the liues of vs, his poore ſheep, from the iawes of death, and hell, he layd downe his owne life; which yet, more than manfully (e<g ref="char:EOLhyphen"/>ven by the power of his divinity) he reſumed and tooke vp againe, as vpon <hi>Eaſterday.</hi> Had he not ſo done, wee had all of vs beene but <hi>Oves occiſionis, as ſheepe for the ſlaughter;</hi> and<note n="y" place="margin">Pſal. 49.14.</note> 
+               <hi>Oves in inferno,</hi> Pſal. 49. <hi>as ſheepe lying in hell,</hi> where both firſt, and ſecond death had everlaſting<g ref="char:EOLhyphen"/>ly gnawne vpon vs. Wherefore,<note n="z" place="margin">1. Cor. 15.57</note> 
+               <hi>thankes be vnto God, who hath given vs the victory, through our Lord and Savi<g ref="char:EOLhyphen"/>our Ieſus Chriſt.</hi> 1. Cor. 15.</p>
+            <p>Thus yee haue heard <hi>(How)</hi> a righteous man is to re<g ref="char:EOLhyphen"/>guard the life of his beaſt. Let me now ſhew you <hi>(Why)</hi> he is to reguard it.<note place="margin">
+                  <hi>2. WHY</hi> a righ<g ref="char:EOLhyphen"/>teous man is mercifull to the life of his beaſt.</note>
+            </p>
+            <p>The <hi>(Why)</hi> I told you, is three-fold. Every one of theſe 3 words; <hi>Animam, iumenti, ſui; The life, of his, beast;</hi> cary<g ref="char:EOLhyphen"/>ing<note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Ioan. 10, 11</note>
+               <pb n="33" facs="tcp:16157:20"/>in it a <hi>ſeuerall reaſon</hi> of his mercy to his beaſt.</p>
+            <p n="1">1 For <hi>firſt, Nouit animam, quia animam. He reguardeth life, becauſe it is life:</hi> that is, <hi>Propter myſterium; becauſe of the myſtery of ſauing life.</hi> Saue a beaſts life, and ſaue a mans.</p>
+            <p n="2">2 <hi>Nouit animam iumenti, quia iumenti. He reguardeth the life of a beaſt, becauſe it is commodious and helpfull to him.</hi> The very <hi>name</hi> of it importeth aſmuch. For its cald <hi>Iumentum, quaſi iuvamentum,</hi> ſaith<note n="a" place="margin">Iſidor.</note> 
+               <hi>Iſidor;</hi> that is, <hi>Propter miniſterium; becauſe of the ſervice, vſe, and benefit he hath of it.</hi>
+            </p>
+            <p n="3">3 <hi>Nouit animam iumenti ſui, quia ſui. He reguardeth the life of his beaſt, becauſe it is his:</hi> that is, <hi>Propter magiſteri<g ref="char:EOLhyphen"/>um; becauſe of his dominion and Lordſhip over his beaſt.</hi>
+            </p>
+            <p>
+               <note place="margin">1. Animam, qui<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> animam.</note> 
+               <hi>Firſt</hi> then, he reguardeth <hi>life,</hi> becauſe it is <hi>life.</hi> So no<g ref="char:EOLhyphen"/>ble and pretious a thing is life, that<note n="b" place="margin">Eccl. 9.4.</note> 
+               <hi>better is a liuing dogge, than a dead lyon,</hi> Eccl. 9. Yea, a <hi>worme,</hi> though the <hi>baſeſt</hi> of all living creatures, yet becauſe it is <hi>animated,</hi> &amp; hath <hi>life</hi> in it, is by philoſophers ſaid to be a <hi>nobler</hi> crea<g ref="char:EOLhyphen"/>ture, than the <hi>heauens.</hi> Howbeit, I cannot approue of <hi>Pythagoras</hi> his too too pitifull philoſophy, which would not allow, that the life of any either <hi>plant,</hi> or <hi>beaſt</hi> ſhould be violated.<note n="c" place="margin">Ovid. Met. l. 15.</note> The Poët brings him in thus exclaiming againſt thoſe that feede vpon the fleſh of beaſts;
+<q>
+                  <l>Heu quantum ſcelus eſt, in viſcere viſcera condi,</l>
+                  <l>Congeſto<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> auidum pingueſcere corpore corpus,</l>
+                  <l>Alterius<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> animantem animantis viuere letho!</l>
+               </q>
+               <hi>O what a ſhame &amp; a ſin is it</hi> (ſaith he) <hi>that bowels ſhould be buried in bowels; (the bowels of beaſts, in the bowels of men) that one body ſhould be crammed fat with another body; and
+<pb n="34" facs="tcp:16157:21"/>that one liuing creature ſhould liue by the death of another!</hi> No. I haue learned of<note n="d" place="margin">Ariſt. Polit. l. 1 c. 5.</note> 
+               <hi>Ariſtotle,</hi> that <hi>the earth was made to feed plants, and plants to feed beaſts, and beaſts to feed men.</hi> But what do I ſpeake of <hi>Ariſtotle?</hi> Did not <hi>God</hi> himſelfe immediatly after the ſloud, becauſe (as it may be probably coniectured) the waters had much impared the natiue iuice and virtue of herbs and fruite, which before were the only food of man, given him as it were a <hi>Licenſe</hi> to eate fleſh? Gen 9. ſaying,<note n="e" place="margin">Gen 9 3.</note> 
+               <hi>Everie thing that liueth and moueth ſhallbe meate for you: as the greene herbe haue I giuen you all things.</hi> But yet, behold, I ſhew vnto you a <hi>myſtery</hi> out of the words following: <hi>Fleſh with the life thereof, I meane, with the bloud thereof, ſhall yee not eate.</hi> Where, though the vſe of <hi>fleſh</hi> be per<g ref="char:EOLhyphen"/>mitted, yet the eating of the <hi>bloud</hi> is interdicted, leſt by accuſtoming themſelues to eating the <hi>bloud of beaſts,</hi> they ſhould make light of ſpilling the <hi>bloud of men.</hi>
+            </p>
+            <p>It hath therefore ben a prudent <hi>caution</hi> of our Law<g ref="char:EOLhyphen"/>givers, that <hi>Butchers</hi> (men acquainted with ſhedding the bloud of <hi>beaſts</hi>) ſhould not be admitted for <hi>Iurors</hi> in caſes of <hi>life, and death:</hi> it being a ſtrong and violent preſumption, that he that hath no pity vpon the life of <hi>beaſts,</hi> will not haue ſo much as he ought to haue vpon the life of men.</p>
+            <p>It is noted by ſome interpretours vpon<note n="f" place="margin">Gen. 4.23.</note> 
+               <hi>Gen. 4.</hi> that when <hi>Lamech</hi> vnadviſedly ſlew his Great grandfather <hi>Cain,</hi> he thought he had ſlaine a <hi>beaſt,</hi> not a man: &amp; yet (for all that) he was puniſht as an <hi>Homicide;</hi> either, that it might appeare, how heinous a thing in Gods ſight it is, to kill a <hi>man:</hi> or, that therefore he was puniſht, be<g ref="char:EOLhyphen"/>cauſe he did not more adviſedly co<g ref="char:cmbAbbrStroke">̄</g>ſider, whither it were
+<pb n="35" facs="tcp:16157:21"/>a <hi>man,</hi> or a <hi>beaſt</hi> that he ſlew. And, ſo much was he per<g ref="char:EOLhyphen"/>plexed with this fact, when he had done it, that his owne mouth not only brings in the <hi>evidence,</hi> but like<g ref="char:EOLhyphen"/>wiſe paſſeth the <hi>ſentence</hi> againſt him: <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: (as the 70 read it:) <hi>I haue ſlaine a man to the wounding of my ſelfe.</hi> If <hi>Cain ſhall be avenged ſevenfold,</hi> to wit, for ſlaying his brother <hi>Abel, truly Lamech 70 times ſevenfold,</hi> to wit, for ſlaying <hi>Cain.</hi>
+            </p>
+            <p>O conſider this, and tremble, yee bloud-thirſting <hi>Pa<g ref="char:EOLhyphen"/>piſts,</hi> who yet haue had no leſſe than 8 of your <hi>Holy Fa<g ref="char:EOLhyphen"/>thers,</hi> the <hi>Popes,</hi> that haue named themſelues <hi>Clements,</hi> which ſignifieth <hi>Mercifull. Clements</hi> haue beene their names: but yet <hi>crueltie</hi> hath been with <hi>them,</hi> as it is with <hi>you.</hi> (Iudge the while, how glorious a virtue <hi>Clemency</hi> is; when very <hi>Crueltie</hi> it ſelfe deſires to mask, &amp; ſhrowd it ſelf vnder the name of <hi>Clemency</hi>) I ſay, conſider this, &amp; tremble, yee who like <hi>vulturs,</hi> are ſtill expecting, and gaping for a <hi>carcaſe,</hi> even <hi>Cadaveroſam eccleſiam, &amp; rem<g ref="char:EOLhyphen"/>publicam: the carcaſe both of our Church, &amp; Commonwealth:</hi> while yee thirſt after the <hi>life-bloud,</hi> not of a curſed <hi>Cain,</hi> but of a bleſſed <hi>King,</hi> whoſe life is the life and ſoule of them both. And, ſo yee may bee <hi>Hoſticidae, killers of your enemies,</hi> yee care not to be <hi>Homicidae, killers of men:</hi> nay, ſo yee may be <hi>Regicidae, killers of the King,</hi> yee care not to be, <hi>Regnicidae, killers of his kingdome:</hi> I had almoſt ſaid <hi>Deicidae, killers of God himſelfe;</hi> while yee labour to ex<g ref="char:EOLhyphen"/>tinguiſh the true <hi>religion,</hi> and <hi>worſhip</hi> of God, and his Chriſt. And, as for all true profeſſours, ſuch as cannot either halt downe-right, or, at the leaſt, limp a little in their religion; your deſire is to bereaue them not of <hi>one life,</hi> but of <hi>three in one;</hi> the life of <hi>nature,</hi> the life of <hi>grace,</hi> and the life of <hi>glory.</hi>
+            </p>
+            <p>
+               <pb n="36" facs="tcp:16157:22"/>
+O conſider this alſo, and tremble, yee the <hi>noble Ruf<g ref="char:EOLhyphen"/>fians;</hi> or, <hi>ruffianly Nobles</hi> of theſe daies, who as if yee could no way ſhew the nobilitie of your bloud, but by your manful ſhedding (as yee deeme it) of the bloud of others, are apt, vpon every light occaſion, to challenge a duel, or ſingle-combate. With you, it's no more but a word, and a wound: with you nothing can expiate the <hi>ly-giving,</hi> but the <hi>life-taking.</hi>
+            </p>
+            <p>O conſider this alſo, and tremble, yee <hi>wanton ſtrum<g ref="char:EOLhyphen"/>pets,</hi> who by ſmothering your poore, and innocent in<g ref="char:EOLhyphen"/>fants, are wont to ſmother your fornication. And ſo far are yee from<note n="g" place="margin">Gen. 30.15.</note> 
+               <hi>Rahels</hi> minde, who asked <hi>mandrakes</hi> of <hi>Leah,</hi> to make her fruitfull, <hi>Geneſ. 30.</hi> that yee rather ſeeke <hi>Savin,</hi> or <hi>Coloquintida,</hi> to make an <hi>abortion:</hi> Or, if yee ſuffer them to ſee light; yee doe the office of<note n="h" place="margin">Exod. 1.16.</note> the <hi>Aegyptian Midwiues, Exod. 1.</hi> to make them away with the ſooneſt. I would not haue touched this vlcer, but that it's now growne to ſuch a head, that needs it muſt be launced.</p>
+            <p>Thus, the <hi>wicked</hi> doe <hi>Patrizare:</hi> they are of their <hi>fa<g ref="char:EOLhyphen"/>ther, the divell;</hi> who was<note n="i" place="margin">Ioh. 8.44.</note> a <hi>Homicide from the beginning, Io. 8.</hi> and in <hi>Greeke,</hi> he is named<note n="k" place="margin">Apoc. 9.11.</note> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> a <hi>Deſtroyer, Apoc. 9.</hi> And well may hee ſo bee named: for, hee ſpares neither <hi>man,</hi> nor <hi>beaſt.</hi> In <hi>Matt. 8,</hi> the Divels begg'd leaue of Chriſt, that if he caſt them out of the <hi>men,</hi> who before were poſſeſſed with them, they might enter in<g ref="char:EOLhyphen"/>to the <hi>heard of ſwine:</hi> which, no ſooner had they obtei<g ref="char:EOLhyphen"/>ned, but they preſently entred into the ſwine, and ran them headlong into the ſea, and ſo <hi>deſtroyed them.</hi> Whence yee may learne, whoſe children and of what ſpirit <hi>Witches</hi> are, who when they cannot haue power<note place="margin">l Matt. 8.32.</note>
+               <pb n="37" facs="tcp:16157:22"/>over the <hi>perſons</hi> themſelues, will bewitch and torment their poore <hi>cattell.</hi> But on the other ſide, the <hi>godly,</hi> they alſo doe <hi>Patrizare:</hi> for they are like <hi>God, their heavenly father.</hi>
+               <q>
+                  <note n="m" place="margin">Virg.</note>—Pan curat oves, ovium<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> magiſtros.</q>
+Our Great God <hi>Pan,</hi> who is<note n="n" place="margin">1. Cor. 15.</note> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>; <hi>All in all, 1. Cor. 15:</hi> he ſaueth both <hi>man,</hi> and <hi>beaſt.</hi>
+               <note n="o" place="margin">Pſal. 36.7.</note> 
+               <hi>Homines &amp; iumenta ſaluabis Deus: Pſal. 36. Thou (o God) ſaveſt both man, and beaſt.</hi>
+            </p>
+            <p>
+               <note place="margin">2. Iumenti, quia jumenti.</note>2 A <hi>ſecond reaſon,</hi> why <hi>a righteous man reguardeth the life of his beaſt;</hi> is, becauſe it is <hi>Iumentum,</hi> a <hi>ſerviceable and helpfull creature.</hi> For, though God did iuſtly pu<g ref="char:EOLhyphen"/>niſh mans <hi>diſobedience</hi> to that <hi>Primum, &amp; magnum mandatum; that firſt, and great commandement,</hi> which he gaue him in Paradiſe, by abridging, and leſſening the <hi>o<g ref="char:EOLhyphen"/>bedience</hi> of all his creatures towards him (for over all of them had he the rule given him, if hee could haue kept it;<note n="p" place="margin">Gen. 1.26.</note> 
+               <hi>Praeſit;</hi> ſaith God; <hi>Let him beare rule over them all, Gen. 1.</hi>) yet did hee not vtterly aboliſh mans dominion over them: but ſo tempered the ſeverity of his iuſtice, with mercy, that ſome of them he turned <hi>Ad Supplici<g ref="char:EOLhyphen"/>um,</hi> to the <hi>puniſhment</hi> of man; and thoſe are call'd <hi>Ferae,</hi> or <hi>Beſtiae; wild,</hi> and <hi>ſavage Beaſts;</hi> as <hi>Lyons, Beares,</hi> and <hi>the like,</hi> which teare, and devoure men: Others, <hi>Ad Remedi<g ref="char:EOLhyphen"/>um;</hi> to the <hi>cure,</hi> and <hi>remedy</hi> of man; and thoſe are call'd <hi>Reptilia; creeping things,</hi> as are <hi>all kind of ſerpents;</hi> which though they bee <hi>venemous</hi> creatures, yet Phyſitions knowe howe to make <hi>ſoveraigne medicines</hi> of them: Others, <hi>Ad Obſequium;</hi> to the <hi>vſe</hi> and <hi>ſervice</hi> of man; &amp; thoſe are <hi>properly</hi> call'd <hi>Iumenta, à iuvando,</hi> of <hi>helping;</hi> as <hi>Horſes, Oxen, Sheep,</hi> and <hi>the like;</hi> which are <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>living inſtruments</hi> of <hi>Oeconomie,</hi> or <hi>houſe-keeping. All
+<pb n="38" facs="tcp:16157:23"/>three ſorts</hi> mentioned togither in<note n="q" place="margin">Gen. 1.25.</note> one verſe, <hi>Gen. 1.25.</hi> where it is ſaid, that God made <hi>Beſtias terrae,</hi> the <hi>ſavage beaſts</hi> of the earth, according to their kind; and <hi>Iumen<g ref="char:EOLhyphen"/>ta,</hi> the <hi>Cattell,</hi> according to their kinde; and <hi>Omne Repti<g ref="char:EOLhyphen"/>le, Every creeping thing</hi> of the earth, according to their kinde. But <hi>Iumenta,</hi> the <hi>Cattell,</hi> or, <hi>helpfull beaſts, thoſe</hi> bee the beaſts to which a righteous man is ſaid to bee mer<g ref="char:EOLhyphen"/>cifull.</p>
+            <p>And ſurely, great reaſon hath he ſo to be; ſeeing they are <hi>ſo many waies helpfull</hi> vnto man; <hi>Some</hi> of them<note n="r" place="margin">Ariſt. Polit. l. 4. c. 3.</note> hel<g ref="char:EOLhyphen"/>ping him in <hi>warre;</hi> where beſides the other helpe, and ſervice they do him, they did alſo firſt help him, to that Honorable, &amp; Worſhipful name of <hi>Knight.</hi> For at firſt, <hi>Knights</hi> were called <hi>Equites,</hi> of <hi>Equi,</hi> that <hi>Knights ſer<g ref="char:EOLhyphen"/>vice,</hi> which they did in <hi>warre,</hi> by the help of their <hi>Hor<g ref="char:EOLhyphen"/>ſes.</hi> But <hi>all</hi> of them helping him in <hi>peace; Some, Ad cuſto<g ref="char:EOLhyphen"/>diendum,</hi> to <hi>keepe</hi> the houſe, as <hi>Dogges: Others, Ad co<g ref="char:EOLhyphen"/>lendum,</hi> to <hi>till</hi> the ground, as <hi>Oxen.</hi> For, of ſuch neceſſary vſe are they for <hi>husbandry,</hi> that<note n="ſ" place="margin">Ariſt. Oe<g ref="char:EOLhyphen"/>con. l. 1. c. 2.</note> 
+               <hi>Ariſtotel</hi> makes them a maine foundation of houſe-keeping; and, to that pur<g ref="char:EOLhyphen"/>poſe, cites the verſe of the old <hi>Greeke</hi> Poët,<note n="t" place="margin">Heſiod.</note> 
+               <hi>Heſiod:</hi>
+               <q>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</q>
+Let a man (ſaith hee) that meaneth to keepe a familie, firſt, get him a <hi>houſe;</hi> then, a <hi>wife;</hi> and then, <hi>Oxen</hi> for til<g ref="char:EOLhyphen"/>lage. Yea, <hi>Plus valent iumentorum ſtercora, quàm quorun<g ref="char:EOLhyphen"/>dam hominum corpora:</hi> The <hi>dung</hi> of ſome <hi>beaſtes,</hi> is of more vſe, than the <hi>whole bodies</hi> of ſome <hi>men.</hi> For, the dung of ſome beaſts, is good to <hi>fatten</hi> the ground; but ſome idle perſons are good for nothing. <hi>Others,</hi> hel<g ref="char:EOLhyphen"/>ping him <hi>Ad vehendum,</hi> to <hi>carrie</hi> both himſelfe, &amp; other burdens. <hi>Others, Ad veſcendum,</hi> in their life time to <hi>feed</hi>
+               <pb n="39" facs="tcp:16157:23"/>him with milke, butire, and cheeſe: and at their death, with their fleſh it ſelfe. <hi>Others, Ad veſtiendum,</hi> to <hi>cloath</hi> him, both with their wool, and with their pell.
+<q>
+                  <l>Sic vos, non vobis vellera fertis, oues.</l>
+                  <l>Sic vos, non vobis fertis aratra, boues.</l>
+               </q>
+So do ye <hi>ſheepe</hi> beare your fleece, ſo do yee <hi>oxen</hi> beare the yoake; neither of you for your ſelues, but for <hi>vs.</hi>
+            </p>
+            <p>Adde herevnto, that <hi>they</hi> do both <hi>Compati,</hi> and <hi>Pati.</hi> Firſt, they do <hi>Compati, compaſsionate</hi> the caſe of diſtreſ<g ref="char:EOLhyphen"/>ſed man. For, did not<note n="u" place="margin">Luc. 16.21.</note> the <hi>dogs come, and licke the ſoares of Lazarus lying at the rich mans gate;</hi> Luc. 16. when nei<g ref="char:EOLhyphen"/>ther the rich man, nor any of his ſervants would ſuc<g ref="char:EOLhyphen"/>cour him? Had not the <hi>dogges</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>bowels focompaſsion,</hi> when the <hi>richman</hi> had, (as hath the <hi>cru<g ref="char:EOLhyphen"/>el man</hi> in the words following my text) <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>bowels without mercy?</hi> In a word, was not <hi>Canis homini homo; the dogge, a man to a man,</hi> when the rich<g ref="char:EOLhyphen"/>man was but <hi>Homo homini canis; a man, a dogge to a man?</hi>
+            </p>
+            <p>Againe; they do <hi>Pati, ſuffer</hi> for man; Not only looſe their liues, to <hi>mainteine the life</hi> of man: ſo that, they (could they ſpeake) might ſay to man, as the holy Mar<g ref="char:EOLhyphen"/>tyrs ſay to God,<note n="*" place="margin">Pſal. 44.22.</note> Pſal 44. <hi>For thy ſake are we killed all the day long, and are counted as ſheepe appointed to be ſlaine:</hi> but they many times alſo ſmart <hi>for the ſin</hi> of man, &amp; more groane vnder the burden of mans ſin, than vnder anie other burden that is laid vpon them. For, beſides that they were comprehended vnder that generall curſe, which was laid vpon the earth, for the ſin of man,<note n="x" place="margin">Gen. 3.17.</note> Ge. 3. <hi>Curſed is the earth for thy ſake:</hi> they alſo<note n="y" place="margin">Gen. 7.21.</note> periſhed in the waters of the floud with the men of the old world,
+<pb n="40" facs="tcp:16157:24"/>excepting only a little remnant of them that were ſa<g ref="char:EOLhyphen"/>ved in the Arke, <hi>Gen. 7.</hi> And,<note n="z" place="margin">Exod. 9.3.</note> the fift of thoſe tenne plagues, wherwith the Lord ſmote <hi>Aegypt,</hi> Exod. 9. for the hardnes of <hi>Pharao's</hi> heart in oppreſſing the <hi>Iſraelits,</hi> was a <hi>mighty great moraine vpon the horſes, the aſſes, the camels, the cattel, and the ſheepe of Aegypt.</hi> And ye know, that in the Leviticall law, <hi>beaſts</hi> were killed and offered vp in ſacrifice to God, as <hi>ſin-offerings;</hi> as if thoſe beaſts were ſlaine in place of ſinners, &amp; for expiation of their ſins, who otherwiſe deſerved to be ſlaine, as were thoſe beaſts. And, vpon the <hi>Niniuites</hi> converſion at the prea<g ref="char:EOLhyphen"/>ching of <hi>Ionas,</hi>
+               <note n="a" place="margin">Ion. 3.7.</note> the <hi>King</hi> of <hi>Niniueh</hi> commanded a pro<g ref="char:EOLunhyphen"/>clamation to be made, <hi>Ion. 3.</hi> that <hi>neither man, nor beaſt, bullock, or ſheepe ſhould taſte any thing, neither feede, nor drinke water: but that both man, and beaſt ſhould put on ſacke cloath, and cry mightily vnto God.</hi> So that, there the very beaſts became fellow-mourners with them for their ſinnes.</p>
+            <p>Now, if beaſts be ſo many waies ſerviceable &amp; <hi>help<g ref="char:EOLhyphen"/>full</hi> to man, ought not man then <hi>Legetalionis,</hi> or <hi>lege debiti, by law of requitall,</hi> or <hi>due compenſation</hi> to bee beneficiall and <hi>helpfull</hi> to them? For, <hi>to him that worketh</hi> (ſaith<note n="b" place="margin">Rom. 4.4.</note> the Apoſtle) <hi>the wages is not counted by favor, but by debt.</hi> Rom. 4. And, <hi>dignus eſt operarius mercede ſuâ: the labourer is worthy of his hire,</hi> ſaith<note n="c" place="margin">Luc. 10.7.</note> Chriſt to his diſci<g ref="char:EOLhyphen"/>ples, <hi>Luc. 10.</hi>
+            </p>
+            <p>
+               <hi>Balaams Aſſe,</hi> though but an Aſſe, yet when hee was iniuriouſly ſmitten by his Maiſter, three times togither, for not going forward, when yet his progreſſe was hindered by the angell of the Lord, ſtanding with a na<g ref="char:EOLhyphen"/>ked ſword in his way,<note n="d" place="margin">Num. 22.30.</note> 
+               <hi>Num. 22.</hi> God himſelfe put ſo
+<pb n="41" facs="tcp:16157:24"/>much language into him, as to plead the right of his cauſe: to wit, that he had been an old ſervant of his, and had never before at any time failed in his ſervice, and therefore now deſerved better wages at his hands, than vndeſerved blowes. <hi>Am not I thine Aſſe</hi> (ſaith he) <hi>which thou haſt ridden vpon ſince thy firſt time vnto this day? haue I vſed at any time to do thus vnto thee?</hi>
+            </p>
+            <p>If then theſe <hi>Iumentairrationalia, vnreaſonable hel<g ref="char:EOLhyphen"/>pers,</hi> even brute <hi>beaſts,</hi> may iuſtly exact and chalenge at our hands a due reguard of their ſervice; how much more may our <hi>houſhold ſervants,</hi> being <hi>Iumenta rationa<g ref="char:EOLhyphen"/>lia, reaſonable helpers,</hi> ſuch as haue the vſe of reaſon, ex<g ref="char:EOLhyphen"/>pect a due reward of their ſervice? that we allow them thoſe <hi>Tria neceſſaria,</hi> three things that are neceſſary for a <hi>ſervant,</hi> mentioned by<note n="e" place="margin">Ariſt. Oeco. l. 1. c. 5.</note> 
+               <hi>Ariſtotel, Oecon. l.</hi> 1. <hi>c. 5.</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: <hi>worke, correction,</hi> and <hi>meate. Worke,</hi> to main<g ref="char:EOLhyphen"/>teine ſtrength; <hi>correction,</hi> to reteine nurture; and <hi>meate,</hi> to ſuſteine nature: becauſe (as a learned writer noteth) <hi>Cibus ſine opere, poreum; opus ſine cibo, aſinum; caſtigatio ſi<g ref="char:EOLhyphen"/>ne vtro<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan>, canem ex ſervo facit. Meate without worke, will make thy ſervant a hagge: worke without meate, will make him an aſſe: and correction without both, will make him a dogge.</hi> Firſt therefore thou muſt allow him a compe<g ref="char:EOLhyphen"/>tent portion of meate, &amp; then if he faile in his buſines, ſpare not to chaſtiſe him. For,<note n="f" place="margin">Prov. 26.8.</note> 
+               <hi>to the horſe belongs a whip, to the aſſe a bridle, &amp; a rod to the fooles back.</hi> Pro. 26.</p>
+            <p>The <hi>Divell</hi> himſelfe is not ſo vniuſt, but that hee will truely pay his <hi>ſeruants,</hi> that is, <hi>ſinners,</hi> the wages due vn<g ref="char:EOLhyphen"/>to them. Now, what's the <hi>wages</hi> due vnto ſin, and ſin<g ref="char:EOLhyphen"/>ners?<note n="g" place="margin">Rom. 6.23.</note> The Apoſtle tels vs, <hi>Rom. 6.</hi> that <hi>the wages of ſin is death.</hi> And becauſe he will be ſure to pay them home,
+<pb n="42" facs="tcp:16157:25"/>he will double their wages. Their wages ſhalbe not only a firſt, but a ſecond death. Why then, he that will defraude the <hi>labourer</hi> of his hire, whither it be his <hi>beaſt,</hi> or his <hi>man,</hi> or <hi>maide-ſervant,</hi> or his <hi>day-labourer,</hi> or the <hi>Miniſter,</hi> who is alſo<note n="h" place="margin">2. Cor. 4.5.</note> 
+               <hi>his ſeruant, for Ieſus ſake,</hi> 2. Cor. 4. (and ſomuch doth the <hi>Latin</hi> word, <hi>Miniſter,</hi> imply) he is worſe than the divel himſelfe: for he duly payeth his <hi>ſervants</hi> their wages.<note n="i" place="margin">Iac. 5.4.</note> 
+               <hi>S. Iames</hi> tels vs, c. 5. that to de<g ref="char:EOLhyphen"/>teine the <hi>wages of the hireling</hi> is a fearefull and crying ſin, and the <hi>cry of it enters into the eares of the Lord of hoſts.</hi> And for the <hi>Miniſter,</hi>
+               <note n="k" place="margin">1. Cor. 9.9.</note> 
+               <hi>S. Paul, 1. Cor. 9.</hi> citeth<note n="l" place="margin">Deut. 25, 4.</note> that place out of Deut. 25. <hi>Non ligabis os boui trituranti: Thou ſhalt not muſſell the mouth of the Oxe that treadeth out the corne: Boui trituranti:</hi> that is, (ſaith<note n="m" place="margin">Sedulius Hibernienſ<g ref="char:EOLhyphen"/>in 1, Cor. 9.</note> 
+               <hi>Sedulius Hiberni<g ref="char:EOLhyphen"/>enſis</hi>) <hi>Doctori triticum virtutum a paleâ vitiorum ſeparan<g ref="char:EOLhyphen"/>ti: the Oxe that treadeth out the corne: that is,</hi> (ſaith hee) <hi>the teacher, or, the miniſter, that ſevereth the wheate of vir<g ref="char:EOLhyphen"/>tues from the chaffe of vices.</hi>
+            </p>
+            <p n="2">
+               <note place="margin">2. Iumenti; <hi>not</hi> Ferae; <hi>or,</hi> Reptilis.</note>2 <hi>Againe;</hi> A righteous man is mercifull to the life <hi>Iu<g ref="char:EOLhyphen"/>menti, quia tumenti:</hi> of his <hi>beaſt,</hi> becauſe it is a <hi>helpfull</hi> creature. Not <hi>Ferae,</hi> or <hi>Reptilis;</hi> not of <hi>wilde,</hi> or <hi>ſavage beaſts;</hi> not of <hi>venemous,</hi> or <hi>noxious beaſts.</hi> For the fewer of them, the better becauſe, though ſome of them, after their death, by skilfull Phyſitions may be made <hi>medici<g ref="char:EOLhyphen"/>nable;</hi> as <hi>ſerpents:</hi> others, <hi>edible;</hi> as <hi>wilde beaſts:</hi> yet, in their life time, they are not <hi>helpfull,</hi> but <hi>hurtfull</hi> to man.<note n="n" place="margin">Herodot. in Thalia. l. 3.</note> 
+               <hi>He<g ref="char:EOLhyphen"/>rodotus</hi> (in his <hi>Thalia</hi>) delivers it as an argument of the providence, and mercy of God to mankinde, that, thoſe beaſts which are timorous, and fit to be eaten, hee hath made to be <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>numerous</hi> and <hi>fruitfull;</hi> leſt, by mans dayly vſe of them, their ſtore ſhould be conſumed: but,
+<pb n="43" facs="tcp:16157:25"/>thoſe which are of ſavage, and malignant nature, hee hath made to be <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, to haue but <hi>few at a birth,</hi> leſt by their number they ſhould get the maiſtery of man, and conſume him. It is therefore, rather crueltie, than mercy to ſpare them, becauſe they are ſo cruell, as not to ſpare man.</p>
+            <p>Beloued; Are there not alſo ſuch <hi>wild,</hi> and <hi>venemous</hi> and <hi>noxious</hi> creatures among <hi>men? Man,</hi> when hee is at his beſt, is<note n="o" place="margin">Pſa. 4<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>.</note> 
+               <hi>Comparatus iumentis inſipientibus, Pſal, 49. compared to the fooliſh beaſts, without vnder ſtanding: foo<g ref="char:EOLhyphen"/>liſh;</hi> but yet <hi>Iumentis; helpfull beaſts.</hi> But, take him at his worſt; and then, neither Lyon, nor Tygre, nor Wolfe, nor Beare, nor Fox, nor ſerpent, nor any other crea<g ref="char:EOLhyphen"/>ture, that for malice may bee compared to him. For, <hi>Quid beſtialius homine rationem habente, &amp; ratione non vtente?</hi> (ſaith<note n="p" place="margin">Bernard.</note> S. <hi>Bernard:</hi>) <hi>What beaſt more beaſtly than a man that hath reaſon, and yet will play the beaſt beyond all reaſon?</hi>
+            </p>
+            <p>Here could I tell you of diverſe ſorts of <hi>beaſtes,</hi> that had neede bee hunted out of this Kingdome, by thoſe that ſit in the ſeat of authority, and ſhould therefore be <hi>Nimrods, mighty hunters</hi> of ſuch kinde of beaſts be<g ref="char:EOLhyphen"/>fore the Lord. But I ſhall now bee faine, only to point at <hi>two</hi> of them; which (in my opinion) had moſt neede of hunting.</p>
+            <p n="1">1 <hi>The one,</hi> are thoſe <hi>drunken beaſts,</hi> who when they are intoxicated with ſtrong drinkes, <hi>tanquam poculo Circeo;</hi> as with that inchaunting <hi>cup of Circe,</hi> which transformed men that dranke of it, into <hi>ſwine;</hi> then are they preſently like <hi>wild boares,</hi> foaming, and vomiting out their owne ſhame: then who is hee, that ſhall bee
+<pb n="44" facs="tcp:16157:26"/>free from the danger of their tuskes? Yea, when once they haue drunke all the money out of their purſe, all the wit out of their braine, all good thoughts out of their minde, and all religion out of their ſoule, were it not then better to meete with a <hi>wild boare,</hi> or with a <hi>ſhee-beare robbed of her whelps,</hi> than with one of them?</p>
+            <p n="2">2 <hi>The other,</hi> are thoſe<note n="q" place="margin">Cant. 2.15.</note> 
+               <hi>foxes, and little foxes,</hi> that ſpoile Gods vineyard, <hi>Cant. 2.</hi> I meane, <hi>Papiſts;</hi> who, if ever for theſe many yeares togither, they had neede to be hunted, now is the time. For it's too too true, that<note n="r" place="margin">Mat 8.20.</note> 
+               <hi>Foveas habent,</hi> theſe <hi>foxes haue hoales,</hi> as it is <hi>Matt. 8.</hi> Yea, and <hi>Fouentes habent,</hi> they haue <hi>friends too,</hi> both in Court, and Countrey. I had called them <hi>Cubbs</hi> of <hi>Sam<g ref="char:EOLhyphen"/>ſons foxes,</hi> ſaue that they, though they were <hi>Caudis ig<g ref="char:EOLhyphen"/>niconiunctis, ioined togither with</hi>
+               <note n="ſ" place="margin">Iudic. 15.4.</note> 
+               <hi>firebrands in their tailes, Iudic. 15.</hi> yet were they <hi>Vultibus diſiunctis:</hi> their <hi>faces lookt contrary waies.</hi> But theſe agree both <hi>In Capite,</hi> and <hi>in Caudâ:</hi> in <hi>head,</hi> and <hi>taile</hi> too. They all agree in one <hi>Head,</hi> which is the <hi>Pope;</hi> and in one <hi>taile,</hi> one <hi>ende,</hi> which (I feare) if they be not better lookt to, will bee the <hi>combuſtion,</hi> and burning vp of all, both the <hi>reekes, and ſtanding corne in the fielde</hi> of Gods Church. Yee know, how likely they were, not many yeares ſince, to haue giuen vs a deadly flap with their fierie tailes. And yet, for all that, we wil not be warned. I know not, whi<g ref="char:EOLhyphen"/>ther we receiue them to ſuch nearenes, and familiarity, becauſe we take them to be good Phyſicke againſt the <hi>palſey,</hi> I meane, the <hi>commotion,</hi> &amp; ſhaking of the whole State of our Land: but ſure I am, that the <hi>rankeneſſe</hi> of them, both for <hi>ſent,</hi> and <hi>number,</hi> is very offenſiue to al true Profeſſors. And, it cannot be, but that their <hi>Foveae,</hi>
+               <pb n="45" facs="tcp:16157:26"/>the <hi>deepe hoales</hi> of their vndermining ſubtilty, ſhould be very dangerous both to Prince, and people. What though it be a common practiſe among them (as the manner of <hi>foxes</hi> is) <hi>Venatores ſuos vrinâ reſpergere; to fill their buſhie tailes with vrine, wherewith they beſprinkle thoſe that hunt them:</hi> that is, to fill their followers with ſtinking ſlaunderous reports, whereby they defame them that purſue them? Yet, let not, ô let not the Magi<g ref="char:EOLhyphen"/>ſtrate, whom it concerneth, either feare, or forbeare to vnearth, and hunt <hi>theſe</hi> foxes, leſt a worſe thing happen both to them, and the whole kingdome. It is noted by<note n="t" place="margin">Aurel. Vict.</note> 
+               <hi>Aurelius Victor,</hi> that when the <hi>Roman</hi> ſouldiers had flaine <hi>Maximinus</hi> the tyrant, they made inquiſition for his <hi>Son,</hi> and ſlew him alſo: ſaying, <hi>E peſsimo genere ne catulum quidem relinquendum:</hi> that, <hi>of a vile litter not ſomuch as one whelp is to be ſaved aliue.</hi> For,<note n="u" place="margin">Margarit. Decrec.</note> 
+               <hi>Crudelis eſt miſericordia parcere vni in diſcrimen multorum: Cruell is that pity, which ſpareth one, or few, to the endangering of many.</hi> and, <hi>Qui parcit Zizaniae, non amat frumentum,</hi> ſaith<note n="*" place="margin">Gloſ. in Matt. 5.</note> the <hi>Gloſſe in</hi> Mat. 5. <hi>He that ſpareth the ſtinking weed, is no friend to the good corne.</hi> For, while the Iudge is too-too melting, and pitifull to thieues, and malefactours, he is too-too cruell and mercileſſe to good and honeſt men. In a word; to let goe one of <hi>theſe</hi> foxes, may hap to proue a greater fault, than to kill a lamb in the flock. Theſe are not <hi>Iumenta,</hi> but <hi>Bestiae; helpfull,</hi> but <hi>hurtfull beaſts:</hi> and therefore no pitie to be had of them.</p>
+            <p n="3">
+               <note place="margin">3. Sui, quia ſui.</note>3 A <hi>third reaſon,</hi> why <hi>a righteous man reguardeth the life of his beaſt,</hi> is, becauſe it is <hi>Iumentum ſuum, his owne beaſt.</hi> For, <hi>Suum cui<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> curare innatum eſt. It's naturally in<g ref="char:EOLhyphen"/>cident to every man to reguard that which is his owne:</hi> yea,
+<pb n="46" facs="tcp:16157:27"/>though it be of little, or no vſe. Ought not then, a righ<g ref="char:EOLhyphen"/>teous man to reguard <hi>his owne</hi> beaſt, becauſe it is his <hi>owne;</hi> eſpecially, it being obſequious, &amp; ſerviceable vn<g ref="char:EOLhyphen"/>to him? It is therefore the counſaile of<note n="x" place="margin">Sirac. 7.22.</note> 
+               <hi>Siracides,</hi> c. 7, <hi>If thou haue cattell, looke well to them, and if they bee for thy profit, keepe them with thee.</hi> And, of<note n="y" place="margin">Prov. 27.23.</note> 
+               <hi>Salomon,</hi> Prov. 27. <hi>Diligenter agnoſce vultum pecoris tui: Be diligent to know the face, or ſtate of thy flocke, and take heed to the heards.</hi> For, of them hath God made vs <hi>Dominos vſufructuari<g ref="char:EOLhyphen"/>os,</hi> as <hi>Lords to haue the fruit, and vſe of them:</hi> but himſelfe is <hi>Dominus proprietarius;</hi> the <hi>property, and royaltie of them all, hath he kept in his owne hands.</hi> Peradventure, ſome few there are that may ſaie with him in<note n="z" place="margin">Virg.</note> the Poët, <q>Mille mei Siculis errant in montibus agni.</q>
+               <hi>A thouſand cattel vpon the hils are mine:</hi> but there is none but God alone, that can ſaie; as it is<note n="a" place="margin">Pſal. 50.10.</note> 
+               <hi>Pſalm. 50. All the beaſts of the forreſt are mine, and ſo are all the cattell vpon a thouſand hils.</hi> His then they be <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>in right of poſſeſsi<g ref="char:EOLhyphen"/>on:</hi> yet <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>in fruit and vſe they are ours. Our fellow-ſer<g ref="char:EOLhyphen"/>vants;</hi> as they, and we both ſerue one Lord,<note n="b" place="margin">Pſal. 119.91.</note> 
+               <hi>whome all things ſcrue,</hi> Pſal. 119. but <hi>our vnder-ſervants;</hi> as they haue relation only to vs. And, being <hi>ours,</hi> we are to re<g ref="char:EOLhyphen"/>guard them, becauſe they are <hi>ours;</hi> Elſe, ſhall wee bee worſe to our beaſts, than our beaſts are to vs. <hi>The dogge</hi> (ſaith<note n="c" place="margin">Herodot.</note> 
+               <hi>Herodotus</hi>) is <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: <hi>a beaſt that is kinde, and loving to his Maiſter:</hi> And,<note n="d" place="margin">Ioan. 10.4.</note> our Saviour tels vs, Ioan. 10. that <hi>ſheepe knowe the voice of their owne ſhep<g ref="char:EOLhyphen"/>heard, but will not follow a ſtranger.</hi> If <hi>our</hi> beaſts reguard <hi>vs,</hi> becauſe we are <hi>their Maiſters;</hi> ought not <hi>we</hi> then to reguard <hi>our</hi> beaſts, becauſe they are <hi>our ſervants?</hi>
+            </p>
+            <p>Yet (beloved) God forbid we ſhould ſo reguard our
+<pb n="47" facs="tcp:16157:27"/>
+               <hi>beaſts,</hi> becauſe they are <hi>our owne,</hi> as to preferre them be<g ref="char:EOLhyphen"/>fore our <hi>Chriſtian brethren,</hi> as the manner of ſome is, who are rather <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>louers of horſes,</hi> or other <hi>beaſts,</hi> than <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>louers of men.</hi> If their <hi>horſe</hi> (forſooth) be but to runne a race, he muſt haue finer bread than is made of wheat, diet-bread made of (I wot not what) coſtly ingredients. And to their <hi>dogs</hi> which they keepe but to hunt with for paſtime, they will make that al<g ref="char:EOLhyphen"/>lowa<g ref="char:cmbAbbrStroke">̄</g>ce, which, by<note n="e" place="margin">Mat. 15.26.</note> our ſaviours teſtimony, is not meer, <hi>Mat.</hi> 15. They will <hi>take the childrens bread, and caſt it to their dogs.</hi> Their dogs, which many times conſume and eate vp their maiſters, as <hi>Actaeons dogs</hi> did him, ſhalbe fed with mans-meate, when <hi>the poore</hi> ſhal not taſte, no not ſomuch as of that which the<note n="f" place="margin">Matt. 15.2<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> woman of <hi>Canaan</hi> cals dogs-meat, even the crums, that fal fro<g ref="char:cmbAbbrStroke">̄</g> their tables.</p>
+            <p>Yea, if it be but an ill favoured <hi>ape,</hi> which yet is not <hi>Iumentum,</hi> a <hi>helpfull creature,</hi> but <hi>Ludibrium &amp; delecta<g ref="char:EOLhyphen"/>mentum naturae,</hi> the <hi>ſcorne and play-game of nature,</hi> they wil many times be at the coſt of cloathing him; though that proverbiall ſpeach of<note n="g" place="margin">Lucian.</note> 
+               <hi>Lucian</hi> be true, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: <hi>An ape willbee but an ape, though you cloath him in gold, or purple.</hi> But, as for their poore naked <hi>brethren,</hi> whom God hath made to <hi>their</hi> owne image, nay rather to <hi>his</hi> owne, they can be con<g ref="char:EOLhyphen"/>tent to ſuffer them to ly and periſh with cold for want of clothing. Thus are they <hi>Humani in belluas, &amp; belluini in homines: as men to beaſts, and as beaſts to men.</hi> Of ſuch did<note n="h" place="margin">Ambroſ.</note> 
+               <hi>S. Ambroſe</hi> in his time complaine; <hi>Birds</hi> (ſaith hee) <hi>aſſociate themſelues with birds, fiſhes with fiſhes, and beaſts with beaſts. Solus tu (homo) conſortem excludis, &amp; feras in<g ref="char:EOLhyphen"/>cludis: Thou onely (ô man) excludeſt man, &amp; receiueſt beaſts
+<pb n="48" facs="tcp:16157:28"/>for thy conſorts. Parietem veſtis auro, &amp; pauperem nudas veſtimento: thou cloathest thy wals with golden hangings, and robbeſt the poore of his rayment. Pauper panem petit, &amp; non accipit; equus tuus ſub dentibus aurum mandit: The poore beggeth bread of thee, and cannot haue a bit, when yet thy horſe, if he would eate gold, he ſhould haue it: he hath a golden bit betweene his teeth to bite on.</hi>
+            </p>
+            <p>I feare, I haue already been too-bold with your ho<g ref="char:EOLhyphen"/>norable and Chriſtian patience, and my weake body will not giue me leaue to be much bolder. Wherefore, now a word, or two, for <hi>application,</hi> and ſo I will leaue you, with all that hath beene ſpoken, to the bleſſing of God Almighty.<note place="margin">Application.</note>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1 If a righteous man reguard the life of <hi>his</hi> beaſt, becauſe it is <hi>his:</hi> yea, if an vnrighteous man alſo re<g ref="char:EOLhyphen"/>guard the ſuperfluous and wanton welfare of <hi>his</hi> beaſt, becauſe it is <hi>his;</hi> ought not a righteous man much more to reguard the neceſſities of <hi>his</hi> brethren, becauſe they are <hi>his?</hi>
+               <note n="i" place="margin">Remigius, <hi>in</hi> Matt. 5.</note> 
+               <hi>Remigius</hi> noteth, <hi>in Mat. 5,</hi> that <hi>Miſericors dici<g ref="char:EOLhyphen"/>tur, quaſi miſerum cor habens, quia alterius miſeriam, quaſi ſuam reputat. A mercifull man is ſo called, as if you woulde ſay, a man that hath a miſerable heart, becauſe he eſteemes a<g ref="char:EOLhyphen"/>nothers miſery, as if it were his owne, &amp; grieues for anothers griefe, as for his owne.</hi> But ſo farre are moſt men from grieving for others, that they are never well, but when they are grieving others: ſo farre from ſhedding teares for the miſeries of others, that they cauſe others to ſhed teares for the miſeries they bring vpon them: ſo farre from cloathing the naked, that they ſpoile the poore of their garments: ſo farre from lodging the harborleſſe, that they diſlodge and turne the poore out
+<pb n="49" facs="tcp:16157:28"/>of their owne homes? In a word; ſo farre from perfor<g ref="char:EOLhyphen"/>ming the will of the deceaſed, (which yet, thinke world<g ref="char:EOLhyphen"/>lings what they will, is a ſpeciall point of mercy) I ſay, ſo farre from performing the will of the deceaſed, which <hi>being once confirm'd,</hi>
+               <note n="k" place="margin">Gal 3.15.</note> 
+               <hi>S. Paul</hi> thought no man ſo impi<g ref="char:EOLhyphen"/>ous as to abrogate, <hi>Gal.</hi> 3. that, though it ayme at never ſo good &amp; charitable vſes, yet if they haue but ſomuch wit, and ſo litle conſcience as to picke a quarell with it, all is hazarded. It was therefore a wiſe, and bleſſed re<g ref="char:EOLhyphen"/>ſolution of him, who intending to haue the poore fare the better by him, ſaid, <hi>hee would not ſtand to the curte<g ref="char:EOLhyphen"/>ſie of Executors,</hi> &amp; <hi>Overſeers, after his death; but, in his life time, would make his owne hands, his executors;</hi> &amp; <hi>his owne eyes, his overſeers.</hi>
+            </p>
+            <p>O that this were alſo the common care and reſoluti<g ref="char:EOLhyphen"/>on of you the worthy <hi>Almoners</hi> of this honorable city; whom the Lord in the riches of his mercy, hath annoin<g ref="char:EOLunhyphen"/>ted with <hi>the oyle of gladneſse,</hi> aboue your fellows, that at leaſt ſome part of it might run downe, to the chearing and cheriſhing of the poore diſtreſſed members of Ie<g ref="char:EOLhyphen"/>ſus Chriſt. Yee are <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> (as<note n="l" place="margin">Laërt. l 6.</note> the Philoſo<g ref="char:EOLhyphen"/>pher ſometime ſpake) <hi>ſheepe cloathed with golden fleeces:</hi> &amp; <hi>Oues faetoſae, ſheepe great with yong,</hi> even with great ſtore of yong, poore, and fatherleſſe <hi>Orphans, Qui ſuxerunt vbera, &amp; ſenſerunt vellera; who haue ſucked the paps of your bounty, &amp; felt the warme fleece of your charity.</hi> And though <hi>many glorious things be ſpoken of thee, ô thou city of God,</hi> yet among them all, nothing ſo glorious, as that thou ſo a<g ref="char:EOLhyphen"/>boundeſt with piety and mercy: that thou filleſt ſo ma<g ref="char:EOLhyphen"/>ny empty <hi>bellies,</hi> cloatheſt ſo many naked <hi>backes,</hi> lodgeſt ſo many houſeleſſe <hi>ſtrangers,</hi> relieveſt ſo many maimed
+<pb n="50" facs="tcp:16157:29"/>
+               <hi>ſouldiers,</hi> provideſt for ſo many impotent <hi>creeples,</hi> and mainteineſt ſo many fatherleſſe <hi>Orphans.</hi>
+            </p>
+            <p>Into theſe and many other the like <hi>channels,</hi> do the <hi>ſylver-ſtreames</hi> of your mercifull devotion runne. But yet giue me leaue to ſpeake freely, what I may truely ſpeake. The <hi>fountaines</hi> from which <hi>theſe ſtreames</hi> flow, are, for the moſt part, <hi>dying,</hi> not <hi>liuing</hi> fountains. A bleſ<g ref="char:EOLhyphen"/>ſed thing (no doubt) it is, thus to do good, though it be but <hi>at your death.</hi> But, much more bleſſed ſhould ye be in your work, not only in the ſight of men, but of God himſelfe, if <hi>in your life time</hi> ye would deale &amp; diſtribute with your owne hands, that which ye cannot tell whi<g ref="char:EOLhyphen"/>ther ye ſhall hold till your death, which indeed is to do good, rather as <hi>ſheepe,</hi> than as <hi>ſwine;</hi>
+               <q>—vitâ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> magis, quàm morte iuvare:</q>
+(as<note n="m" place="margin">Ovid. Met. l. 15.</note> the Poët ſpeaks of <hi>ſheepe;</hi>) to benefite others rather by your life, than by your death. So ſhould ye be well aſſured, that no <hi>poſthumous fraude or cunning</hi> ſhould be able to diſap<g ref="char:EOLhyphen"/>point your religious purpoſes. And I doubt not, but ye would ſoone fall to a godly <hi>vy</hi> and <hi>aemulation</hi> one with another, which of you ſhould haue the precedency in this kinde of mercy (being both the ſureſt, &amp; the trueſt kinde of mercy) if ye could but perſwade your ſelues, as the<note n="n" place="margin">Prov. 11.17</note> 
+               <hi>wiſeman</hi> doth, Prov. 11. that, <hi>Benefacit animae ſuae vir miſericors: He that is a benefactor to others, is a bene<g ref="char:EOLhyphen"/>factor to his owne ſoule:</hi> or (as ſome of our <hi>Engliſh</hi> tran<g ref="char:EOLhyphen"/>ſlations haue it) <hi>He that is mercifull rewardeth his owne ſoule.</hi>
+            </p>
+            <p n="2">
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2 If a righteous man reguard the life of <hi>his</hi> beaſt, becauſe it is <hi>his:</hi> ought not then every righteous <hi>Mini<g ref="char:EOLhyphen"/>ſter</hi> to provide for the good and welfare of <hi>his flocke,</hi> be
+<pb n="51" facs="tcp:16157:29"/>cauſe they are <hi>his?</hi> And every righteous <hi>Magiſtrate,</hi> for the good and welfare of <hi>his people,</hi> becauſe they are <hi>his?</hi> Are not theſe<note n="o" place="margin">Rom. 13.4.</note> 
+               <hi>the miniſters of God,</hi> ordeined by him, <hi>for the wealth of thoſe that are vnder them?</hi> Rom. 13.</p>
+            <p n="3">
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> 3 Againe: If a righteous man reguard the life of <hi>his</hi> beaſt, becauſe it is <hi>his;</hi> ought he not then much more to reguard both <hi>Vitam, &amp; victum;</hi> the <hi>life,</hi> and <hi>li<g ref="char:EOLhyphen"/>ving</hi> (the <hi>Greeks</hi> haue expreſt <hi>both</hi> in this <hi>one</hi> word, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>) both <hi>Eſſe,</hi> and <hi>Benè eſſe;</hi> the <hi>being,</hi> and <hi>well-being,</hi> of <hi>his wife,</hi> becauſe ſhee is <hi>his?</hi> of <hi>his children,</hi> becauſe they are <hi>his?</hi> of <hi>his ſervants,</hi> becauſe they are <hi>his?</hi> Knowing, that as<note n="p" place="margin">1. Tim. 5.8.</note> the Apoſtle teacheth, 1. Tim. 5. <hi>If there be any that provideth not for his owne, and namely, for them of his hou<g ref="char:EOLhyphen"/>ſhold, he denieth the faith, and is worſe than an infidell.</hi> And, if he ought to provide for their <hi>corporall</hi> welfare; ought he not then much more to provide for their <hi>ſpirituall</hi> welfare? And to ſay with good<note n="q" place="margin">Ioſu. 24.15.</note> 
+               <hi>Ioſuah, c.</hi> 24. <hi>Ego, &amp; do<g ref="char:EOLhyphen"/>mus mea: I, and my houſe will ſerue the Lord?</hi>
+            </p>
+            <p n="4">
+               <milestone type="tcpmilestone" unit="unspecified" n="4"/> 4 Laſtly, &amp; in a word; If a righteous man reguard the life of <hi>his beaſt,</hi> becauſe it is <hi>his;</hi> ought he not then much more to reguard the life of <hi>his owne naturall bo<g ref="char:EOLhyphen"/>dy?</hi> Not to be <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>to lay violent hands vpon him<g ref="char:EOLhyphen"/>ſelfe,</hi> as ſome in a deſperate fit of male-contentedneſſe haue done, whom the Apoſtle deemeth <hi>monſters,</hi> ra<g ref="char:EOLhyphen"/>ther than <hi>men.</hi> For,<note n="r" place="margin">Eph. 5.29.</note> 
+               <hi>no man</hi> (ſaith he) <hi>euer yet hated his owne fleſh, but nouriſheth, and cheriſheth it,</hi> Eph. 5. And, if the <hi>life of his naturall body;</hi> how much more then <hi>his ſpi<g ref="char:EOLhyphen"/>rituall life,</hi> the <hi>life of his ſoule;</hi> which is ſo <hi>his owne,</hi> as that without <hi>it, himſelfe</hi> were not his owne? What a mad<g ref="char:EOLhyphen"/>neſſe then is it (ſaith one) <hi>Plorare beſtiam amiſſam, &amp; non plorare animam? To mourne for the loſſe of thy beaſt, and not
+<pb n="52" facs="tcp:16157:30"/>to mourne for the loſſe of thine owne ſoule?</hi> It is therefore the counſaile of<note n="ſ" place="margin">Sirac. 30.23</note> 
+               <hi>Siracides, c. 30. Miſerere animae tuae, pla<g ref="char:EOLhyphen"/>cens Deo: Haue pity vpon thine owne ſoule, pleaſing God.</hi> Pleaſe him better thou canſt not, than if thou haue pity vpon thine own ſoule. And, it is the rule of the ſchoole; <hi>Charitas ordinata incipit àſeipſâ: Regular charity begins with it ſelfe.</hi> And, as it begins with it ſelfe, ſo will I end with it; Beſeeching God, even the Father of our Lorde and Saviour Ieſus Chriſt, for his ſake to giue a bleſſing to that which hath ben ſpoken in your outward eares, that it may inwardly fructifie, &amp; bring forth <hi>much fruit of mercy</hi> in your hearts; in ſome 30, in ſome 60, in ſome an hundreth-fold; that ſo, when that great day of refre<g ref="char:EOLhyphen"/>ſhing ſhall come, ye may (every one of you) receiue ſe<g ref="char:EOLhyphen"/>ven-fold into your boſome &amp;c.</p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:16157:30"/>
+         </div>
+      </body>
+   </text>
+</TEI>

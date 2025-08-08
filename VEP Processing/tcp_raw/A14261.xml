@@ -1,0 +1,897 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Foure sea-sermons, preached at the annuall meeting of the Trinitie Companie, in the parish church of Deptford: by Henry Valentine vicar</title>
+            <author>Valentine, Henry, d. 1643.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1635</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 133 KB of XML-encoded text transcribed from 39 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A14261</idno>
+            <idno type="STC">STC 24574</idno>
+            <idno type="STC">ESTC S103489</idno>
+            <idno type="EEBO-CITATION">99839241</idno>
+            <idno type="PROQUEST">99839241</idno>
+            <idno type="VID">3644</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A14261)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 3644)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1158:18)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Foure sea-sermons, preached at the annuall meeting of the Trinitie Companie, in the parish church of Deptford: by Henry Valentine vicar</title>
+                  <author>Valentine, Henry, d. 1643.</author>
+               </titleStmt>
+               <extent>[6], 70 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by M. Flesher, for Iohn Marriot, and are to be sold at his shop in S. Dunstans Church-yard in Fleetstreet,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>MDCXXXV. [1635]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>The last three leaves contain prayers to be used at sea.</note>
+                  <note>Reproduction of the original in Harvard University. Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Sermons, English --  17th century.</term>
+               <term>Prayers --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-12</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-02</date>
+            <label>Colm MacCrossan</label>Sampled and proofread</change>
+         <change>
+            <date>2012-02</date>
+            <label>Colm MacCrossan</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:3644:1" rendition="simple:additions"/>
+            <pb facs="tcp:3644:1" rendition="simple:additions"/>
+            <p>FOVRE SEA-SERMONS, PREACHED At the Annuall Meeting of the TRINITIE COMPANIE, in the PARISH CHURCH of DEPTFORD: BY HENRY VALENTINE <hi>VICAR.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>M. Fleſher,</hi> for IOHN MARRIOT, and are to be ſold at his Shop in S. <hi>Dunſtans</hi> Church-yard in Fleetſtreet.</p>
+            <p>
+               <hi>MDCXXXV.</hi>
+            </p>
+         </div>
+         <div type="imprimatur">
+            <pb facs="tcp:3644:2"/>
+            <p>PErlegi librum hunc, cui titulus, <hi>[Foure Sea-Sermons]</hi> in quo nihil reperio, quò minùs cum utilitate publita Imprimatur.</p>
+            <p>
+               <hi>Ex Aedi: Fulham. Sept. 8. 1634.</hi>
+            </p>
+            <p>
+               <hi>SA: BAKER. R.P.D. Epiſc. Lond. Cap. Do<g ref="char:EOLhyphen"/>meſt.</hi>
+            </p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:3644:2"/>
+            <head>TO THE RIGHT WORSHIPFVL The MASTER, WARDENS, and BRETHREN of the Trinity Company, <hi>H. V.</hi> wiſheth Grace here and Glory hereafter.</head>
+            <p>
+               <seg rend="decorInit">T</seg>Heſe Sermons both in their preaching &amp; printing acknow<g ref="char:EOLhyphen"/>ledge the<g ref="char:cmbAbbrStroke">̄</g>ſelves yours. For your ſakes they were firſt made, and it is not for their owne they are now made common. I was put upon
+<pb facs="tcp:3644:3"/>two evils, either to print that which was bad, or elſe by tranſcribing ſuf<g ref="char:EOLhyphen"/>fer it to be made worſe. I have cho<g ref="char:EOLhyphen"/>ſen the leſſe, and God may bring good out of it. Diſcourſes of this na<g ref="char:EOLhyphen"/>ture are few, yet great need have Sea-men of them, debarred for the moſt part from the ſweet comforts, and many helpes which our Church at home affordeth; Hee that conſi<g ref="char:EOLhyphen"/>ders the one will not condemne theſe Sermons for Waſt: and hee that is ſenſible of the other will not aske to what purpoſe are they? Yet though others ſhould caſt dead flyes into this ointment, my hope is you
+<pb facs="tcp:3644:3"/>will approve it for <hi>bonum opus,</hi> and afford it your Patronage. And ſo I commit it to you, and you to the protection of him that is able to keepe you, God bleſſed for evermore.</p>
+            <closer>
+               <signed>
+                  <hi>Yours in Chriſt</hi> Henry Valentine.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb facs="tcp:3644:4"/>
+            <pb n="1" facs="tcp:3644:4"/>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>PSAL. 107.23.</hi>
+                  </bibl>
+                  <p>They that goe downe into the Sea in Ships, and doe their buſineſſe in great waters.</p>
+               </q>
+            </epigraph>
+            <p>AS the <hi>Power</hi> of God in the beginning laid the foundation of the world,<note place="margin">Nihil de nobis curare Deum di<g ref="char:EOLhyphen"/>cunt Epicuraei, Dei providenti<g ref="char:EOLhyphen"/>am uſq, ad Lu<g ref="char:EOLhyphen"/>nam deſcend re aſſerit <hi>Ariſtot.</hi> putat<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Deum ſuis contentum eſſe finibus <hi>Am<g ref="char:EOLhyphen"/>broſ. l. 1. offic. cap. 13.</hi>
+               </note> ſo his <hi>Pro<g ref="char:EOLhyphen"/>vidence</hi> ever ſince hath borne up the pil<g ref="char:EOLhyphen"/>lers of it. Yet the <hi>Epicureans,</hi> and <hi>Ariſtotle</hi> him<g ref="char:EOLhyphen"/>ſelfe (as S. <hi>Ambroſe</hi> witneſſeth) chained up God as it were, and confined Him, and his provi<g ref="char:EOLhyphen"/>dence to the circle of the Heavens. And as <hi>Mo<g ref="char:EOLhyphen"/>ſes</hi> was perſwaded by his father in Law to <hi>Admit</hi> into his conſideration none but weighty and im<g ref="char:EOLhyphen"/>portant affaires, and to <hi>tranſmit</hi> ordinary buſi<g ref="char:EOLhyphen"/>neſſe to the deliberation of inferiour Magi<g ref="char:EOLhyphen"/>ſtrates: So theſe fooliſhly perſwaded themſelves that God would not diſquiet, nor trouble him<g ref="char:EOLhyphen"/>ſelfe with the government and adminiſtration of the world,<note place="margin">
+                  <p>Scilicet his ſupe<g ref="char:EOLhyphen"/>ris labor eſt, ea cura quietos ſolli<g ref="char:EOLhyphen"/>citat!</p>
+                  <p>— ſed Te nos facimus For<g ref="char:EOLhyphen"/>tuna Deum, coelo<g ref="char:EOLhyphen"/>que locamus, <hi>Ju<g ref="char:EOLhyphen"/>venal.</hi>
+                  </p>
+                  <p>Cum turpiter, &amp; flagitioſe vive<g ref="char:EOLhyphen"/>rent, ne perpetuo metu ſupplicio<g ref="char:EOLhyphen"/>rum cruciare<g ref="char:cmbAbbrStroke">̄</g>uer, hanc ſibi conſul<g ref="char:EOLhyphen"/>tatienem excogi<g ref="char:EOLhyphen"/>tare volucrunt. <hi>Pet. Mart. c. 13. loc. commun.</hi>
+                  </p>
+               </note> which is one of thoſe <hi>Res exiguae</hi> which the <hi>Poet</hi> ſayes <hi>Iupiter</hi> is not at leiſure to looke after; but rather that the world, and all the events and paſſages in it are committed to <hi>Fortune.</hi> But whatſoever they pretended, <hi>Peter Martyr</hi> ſayes well, that they advanced this opini<g ref="char:EOLhyphen"/>on that they might ſinne with more <hi>freedome,</hi> and leſſe <hi>feare,</hi> as the whoriſh woman tooke ad<g ref="char:EOLhyphen"/>vantage from her huſbands abſence, to admit a ſtranger into her boſome, and to fill her ſelfe with dalliance till the morning.</p>
+            <p>But as for us we know that God is preſent in
+<pb n="2" facs="tcp:3644:5"/>all places, and that the golden chaine of his pro<g ref="char:EOLhyphen"/>vidence reaches unto the <hi>leaſt</hi> and <hi>loweſt</hi> of his creatures, for can God bee aſhamed to <hi>care</hi> for that which he was not aſhamed to <hi>create? No, he hath made the ſmall,</hi>
+               <note place="margin">Wiſd. 6.7.</note> 
+               <hi>and the great, and careth for all alike.</hi>
+            </p>
+            <p>The <hi>haires</hi> of our <hi>heads,</hi>
+               <note place="margin">
+                  <hi>Mat. 10.29, 30.</hi> Ad culicem &amp; pulicem, Provi<g ref="char:EOLhyphen"/>dentiâ mundus adminiſtratur uſ<g ref="char:EOLhyphen"/>que ad folia vo<g ref="char:EOLhyphen"/>latica. <hi>Auguſt. conf. l. 7. c. 6.</hi>
+               </note> the <hi>fowles</hi> of the <hi>aire,</hi> the <hi>flowers</hi> of the <hi>field,</hi> nay, ſayes S. <hi>Auguſtine,</hi> the <hi>Gnat</hi> and <hi>Flea,</hi> and the <hi>flying leaves,</hi> which are toſſed to and fro with the wind, are all with<g ref="char:EOLhyphen"/>in the compaſſe of it. And <hi>David</hi> in this Pſalme tels us that the traveller meets it in the <hi>wilder<g ref="char:EOLhyphen"/>neſſe,</hi> the <hi>Captive</hi> in the <hi>priſon,</hi> the <hi>ſick man</hi> in his <hi>bed,</hi> and the <hi>Sea-man</hi> in the <hi>deepe waters,</hi> for there is no place where God is not. Now becauſe I am to ſpeake to you of the <hi>Tribe</hi> of <hi>Zebulun,</hi> who are here met together to offer up your anniver<g ref="char:EOLhyphen"/>ſary ſacrifice of praiſe and thankſgiving, I will ſingle out the laſt inſtance, and God make theſe Sermons as <hi>profitable</hi> to you, as they are <hi>fit</hi> for you.</p>
+            <p>The whole frame, and building ſtands upon foure pillers.</p>
+            <list>
+               <item>1. The Mariners <hi>Profeſsion.</hi>
+               </item>
+               <item>2. The <hi>danger</hi> of that profeſſion.</item>
+               <item>3. The <hi>deliverance</hi> from that danger.</item>
+               <item>4. The <hi>duty</hi> after that deliverance.</item>
+            </list>
+            <p>The Mariners <hi>Profeſsion</hi> is to goe downe to the Sea in Ships, and to doe buſineſſe in great waters. Wherein we will conſider theſe two things:</p>
+            <p>Firſt, that Mariners, and all other men have a
+<pb n="3" facs="tcp:3644:5"/>
+               <hi>worke,</hi> and a <hi>buſineſſe</hi> to doe.</p>
+            <p>Secondly, that Mariners have a worke of their <hi>owne</hi> in <hi>Ships,</hi> and in the <hi>deepe waters,</hi> and <hi>what</hi> that is.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> Firſt, here is a <hi>worke</hi> and <hi>buſineſſe</hi> to be done. The Angels of what order ſoever have a buſi<g ref="char:EOLhyphen"/>neſſe aſſigned them, for they are all <hi>miniſtring ſpirits,</hi> and are ſent abroad for the good of thoſe that ſhall be heires of ſalvation. And the Scrip<g ref="char:EOLhyphen"/>ture deſcribes them with winges, becauſe they doe their worke, which is the will of God, with all readineſſe and alacrity. And therefore wee deſire in the Lords prayer, that his will may bee done in <hi>earth,</hi> as it is in <hi>Heaven.</hi>
+            </p>
+            <p>Man in <hi>Paradiſe</hi> muſt not be idle, God im<g ref="char:EOLhyphen"/>ployes him, and ſets him a worke, which was to dreſſe the garden. And we that are the <hi>Sons</hi> and <hi>Daughters</hi> of <hi>Adam,</hi> muſt not eate a morſell of bread, till we have earnd it with the ſweat either of our <hi>Browes,</hi> or of our <hi>Braines. He that</hi> will not worke let him not eate ſayes the <hi>Apoſtle:</hi> which Law if it was put in execution, I thinke there would more die in a week of <hi>idleneſſe,</hi> then does in a whole yeare of all other diſeaſes.</p>
+            <p>It is an old and true ſaying,<note place="margin">Otia dant vitia.</note> that <hi>ſloth</hi> is the cauſe of <hi>ſinne,</hi> and <hi>idleneſſe</hi> the fruitfull mother of <hi>wickedneſſe,</hi> for by doing <hi>nothing</hi> we learne to doe <hi>ill.</hi> Our Saviour couples them together:<note place="margin">Mat. 25.26.</note> Thou <hi>wicked</hi> and <hi>ſlothfull</hi> ſervant.</p>
+            <p>And <hi>Salomon</hi> ſayes that the <hi>field, i.e.</hi> the <hi>ſoule</hi> of the ſluggard is all growne over with thornes, and the face thereof covered with nettles.<note place="margin">Prov. 24.31.</note> 
+               <hi>Wa<g ref="char:EOLhyphen"/>ters</hi>
+               <pb n="4" facs="tcp:3644:6" rendition="simple:additions"/>that ſtand ſtill and have no current, putrifie and breed venemous creatures. <hi>Bodies</hi> that have no exerciſe grow obſtructed with groſſe humors. Dead <hi>carcaſſes</hi> that have neither ſenſe, nor moti<g ref="char:EOLhyphen"/>on are devoured with crowes and ravens. Cer<g ref="char:EOLhyphen"/>taine it is, that when we are moſt <hi>lazie,</hi> the de<g ref="char:EOLhyphen"/>vill is moſt <hi>buſie,</hi> for he watches his opportunity, and ſowes the tares of his Temptations when men <hi>ſleepe. David</hi> tarries at home, and takes a nap upon his bed in the day time, and then ſuns himſelfe upon the battlements of the houſe, when he ſhould have beene in the field fighting the Lords battels, and then hee that had trium<g ref="char:EOLhyphen"/>phed over his 10000. Philiſtins is van quiſhed by a naked woman.<note place="margin">Semper aliquid operis facito, ut te diabolus inveniat occupatum; non enim facilè capi<g ref="char:EOLhyphen"/>tur à diabolo qui bono vacat exer<g ref="char:EOLhyphen"/>citio. <hi>Jeron. in epiſt. ad Ruſt.</hi>
+               </note> The counſell therefore that S. <hi>Ierom</hi> gives <hi>Ruſticus</hi> is good, <hi>Alwayes (ſayes hee) be doing ſomething, that the devill may not find thee idle, for he cannot eaſily prevaile againſt him who is well occupied.</hi> So then, as in <hi>Iacobs</hi> ladder ſome Angels <hi>aſcended,</hi> and ſome <hi>deſcended,</hi> but none ſtood <hi>ſtill;</hi> let us be either <hi>aſcending</hi> in the duties of our <hi>generall</hi> callings, <hi>hearing, reading, praying, meditating:</hi> or <hi>deſcending</hi> in the duties of our <hi>particular</hi> callings, in a competent proviſion of ſuch things as concerne our families, and the outward man; but let us not ſtand ſtill; Chriſt cannot indure that, as appeares by his reprehen<g ref="char:EOLhyphen"/>ſion of thoſe he found in the market place, <hi>why ſtand you here idle all the day?</hi> In a word. God will have no <hi>cyphers</hi> in his <hi>Arithmetique,</hi> no <hi>tru<g ref="char:EOLhyphen"/>ants</hi> in his <hi>Schoole,</hi> no <hi>blankes</hi> in his <hi>Almanacke,</hi> no <hi>barren trees</hi> in his <hi>Orchard,</hi> no <hi>loyterers</hi> in his
+<pb n="5" facs="tcp:3644:6"/>
+               <hi>Vineyard,</hi> my Text charges every man with a <hi>worke,</hi> and <hi>buſineſſe.</hi>
+            </p>
+            <p>But now the <hi>Apoſtle</hi> tels us that there are <hi>di<g ref="char:EOLhyphen"/>verſities,</hi> and <hi>diſtinctions</hi> of operations,<note place="margin">1 Cor. 12.6.</note> and ſo there hath beene from the beginning. <hi>Cain</hi> was a <hi>tiller</hi> of the ground, but <hi>Abel</hi> a <hi>keeper</hi> of ſheepe. <hi>Iubal</hi> was a <hi>Muſitian,</hi> but <hi>Tubal</hi> an <hi>artificer</hi> in braſſe and iron. <hi>Reuben</hi> delighted in his <hi>flockes</hi> of ſheepe, and heards of cattell, but <hi>Dan</hi> and <hi>Aſhur</hi> applyed themſelves to the <hi>Sea.</hi> For as the body could not ſtand without a diſtinction both of <hi>members</hi> and <hi>offices:</hi> ſo neither could a common<g ref="char:EOLhyphen"/>wealth ſubſiſt if there was not a difference both of <hi>perſons,</hi> and alſo of <hi>Profeſsions.</hi>
+               <note place="margin">
+                  <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. 1 Theſ. 4.11.</note> Hence is that of the <hi>Apoſtle,</hi> let every man doe his <hi>owne</hi> buſineſſe, or thoſe things which properly belong to his <hi>owne</hi> calling. So then, a man muſt have a buſi<g ref="char:EOLhyphen"/>neſſe of his owne, the buſineſſe of the <hi>Husband<g ref="char:EOLhyphen"/>man</hi> is to till the ground, the buſineſſe of the <hi>ſol<g ref="char:EOLhyphen"/>dier</hi> is to fight for his countrey, the buſineſſe of the <hi>Miniſter</hi> is to inſtruct the people, and the buſineſſe of the <hi>Mariner</hi> is to goe to ſea in ſhips, and what he is to do there I ſhall now ſhew you, which is the ſecond part of the text.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> I confeſſe that in this buſineſſe of the great waters, is comprehended whatſoever belongs to the art of <hi>Navigation,</hi> as the hoyſting of <hi>ſailes,</hi> the caſting and weighing of <hi>Anchor, &amp;c.</hi> But yet the <hi>buſineſſe</hi> of the Seaman may bee reduced to theſe two heads, <hi>Fiſhing</hi> and <hi>Merchandiſe.</hi>
+            </p>
+            <p>As for <hi>fiſhing, Muſculus</hi> will have this the bu<g ref="char:EOLhyphen"/>ſineſſe intended in the text,<note place="margin">Muſcul. in loc.</note> and in the old Te<g ref="char:EOLhyphen"/>ſtament
+<pb n="6" facs="tcp:3644:7"/>we reade of it in many places,<note place="margin">Eccleſ. 9.12. Amos 4.2. Job 41.7.</note> and of all the inſtruments that appertaine, and belong to it. As of <hi>fiſh nets,</hi> of <hi>fiſh. hookes,</hi> of <hi>fiſh-ſpeares.</hi> And in the new Teſtament we finde it much ho<g ref="char:EOLhyphen"/>noured by our Saviour, who choſe but twelve Apoſtles out of the whole world, and <hi>foure</hi> of thoſe twelve were of this profeſſion. <hi>Simon Pe<g ref="char:EOLhyphen"/>ter</hi> and <hi>Andrew</hi> his brother, and the two ſons of <hi>Zebedee Iames</hi> and <hi>Iohn.</hi> And the reaſon it may be why he made ſo many <hi>fiſhermen</hi> Apoſtles, is the proportion and reſemblance that is betwixt theſe two callings.<note place="margin">
+                  <hi>Revelat. 4.6. Mat. 13.47.</hi> Et tu piſcis es qui viſera inva<g ref="char:EOLhyphen"/>disaliena, qui de<g ref="char:EOLhyphen"/>mergis infirmum, qui cedentem per<g ref="char:EOLhyphen"/>ſequeris in pro<g ref="char:EOLhyphen"/>fundum. Cave ne dumillum ſeque<g ref="char:EOLhyphen"/>ris, ipſe incidas in validiorem. <hi>Ambr. Hexam. lib. 5. cap. 5.</hi>
+               </note> The one are <hi>Fiſhermen,</hi> and the other <hi>fiſhers</hi> of <hi>men.</hi> This world is the <hi>Sea,</hi> and the men that inhabite it are <hi>fiſhes,</hi> for the greater devoure the leſſe, as <hi>Ahab</hi> ſwallowed downe the Vineyard of <hi>Naboth</hi> and made no bones of it. The Goſpell is the caſt <hi>net,</hi> for as <hi>Baſil</hi> obſerves well, it hath both corks and leads annexed to it. The <hi>corkes</hi> are the comfortable <hi>promiſes</hi> of mercy that we <hi>deſpaire</hi> not: and the <hi>leads</hi> are thoſe heavy <hi>threatnings,</hi> and <hi>comminati<g ref="char:EOLhyphen"/>ons</hi> of judgement that we <hi>preſume</hi> not. The <hi>fiſher<g ref="char:EOLhyphen"/>men</hi> which caſt this net are the <hi>Miniſters</hi> of the Goſpell, with whom it fares for the moſt part as it did with <hi>Peter,</hi> they caſt out the net all the day long and catch nothing.<note place="margin">Noli O hone piſ<g ref="char:EOLhyphen"/>cis Petri hamum timere, non occi<g ref="char:EOLhyphen"/>dit ſed conſecrat. <hi>Ambr. Hexam. lib. 5. cap. 6.</hi>
+               </note> 
+               <hi>But O good fiſh (ſayes S. Ambroſe) doe not feare the hooke of S. Peter, for it will not kill, but conſecrate thee.</hi> The other buſi<g ref="char:EOLhyphen"/>neſſe is that of <hi>Merchandiſe</hi> by <hi>exportation</hi> of thoſe commodities wherein we abound, and <hi>im<g ref="char:EOLhyphen"/>portation</hi> of thoſe neceſſaries, and conveniences wherein we are defective.
+<pb n="7" facs="tcp:3644:7"/>
+            </p>
+            <p>It hath pleaſed the manifold wiſdome of God to inrich ſeverall <hi>countries</hi> with ſeverall <hi>commodi<g ref="char:EOLhyphen"/>ties.</hi>
+               <note place="margin">Nihileſt ex om<g ref="char:EOLhyphen"/>ni parte beatum <hi>Horat.</hi> Non omnis fert omnia tellus.</note> 
+               <hi>Gilead</hi> was famous for <hi>balme, Sheba</hi> for <hi>in<g ref="char:EOLhyphen"/>cenſe</hi> and ſweet <hi>ſpices, Ophir</hi> for <hi>gold</hi> and precious <hi>ſtones, Tyre</hi> for <hi>Firre trees</hi> and <hi>Cedars.</hi> Now ſuch is the uſe of <hi>merchandize,</hi> and benefit of <hi>navigati<g ref="char:EOLhyphen"/>on,</hi>
+               <note place="margin">India mittit e<g ref="char:EOLhyphen"/>bur, molles dant thura Sabaei, to<g ref="char:EOLhyphen"/>taque thuriferis Panchaïa dives arenis. <hi>Virgil.</hi>
+               </note> that by a ſtrange kinde of conveiance it car<g ref="char:EOLhyphen"/>ries and tranſports one countrey into another, and like the <hi>Bee</hi> brings that into our owne <hi>hive,</hi> which was ſuckt out of the <hi>flowers</hi> growing in anothers garden. And theſe two conſtitute and make up the Sea-mans buſineſſe; as for them that goe to ſea neither to trade, nor fiſh unleſſe it be for the lives, and goods of other men, they are without the compaſſe of my Text, and con<g ref="char:EOLhyphen"/>ſequently not within the compaſſe of Gods pro<g ref="char:EOLhyphen"/>vidence, and protection. And now let me clothe and adorne the Seamans buſineſſe in ſome cir<g ref="char:EOLhyphen"/>cumſtances, and adjuncts which tend both to the <hi>advancement</hi> of the worke, and the <hi>incouragement</hi> of ſuch as undertake it.</p>
+            <p>Firſt it is a <hi>lawfull,</hi> and a <hi>warrantable</hi> buſineſſe, and it is no ſmall matter for a man to be aſſured that hee lives in a warrantable calling. Many profeſſions there are ſtart up, which are but of yeſterday, and wee may well ſuſpect that the pride, wantonneſſe, luxury, and curioſitie of theſe laſt, and worſt times invented them. But as for this we need not doubt it,<note place="margin">Geneſ. 49.13.</note> it was the por<g ref="char:EOLhyphen"/>tion which <hi>Iacob</hi> at his death bequeathed his ſon <hi>Zebulun,</hi> and the <hi>bleſsing</hi> which <hi>Moſes</hi> the man of God beſtowed afterwards upon that <hi>Tribe.</hi> The lawful<g ref="char:EOLhyphen"/>nes
+<pb n="8" facs="tcp:3644:8"/>of it will appeare if we conſider how much the <hi>Church</hi> and <hi>Commonwealth</hi> are indebted to it.</p>
+            <p>As for the <hi>Church</hi> the time was when it was folded up in a little roome, <hi>God was knowne no where but in Iury, he had no Tabernacle but at Salem.</hi> That nation like <hi>Gideons</hi> fleece was moiſtned and bedewed with the <hi>Sermons</hi> of the <hi>Prophets,</hi> with the <hi>Doctrine</hi> and <hi>Miracles</hi> of <hi>Chriſt</hi> and his <hi>Apoſtles,</hi> when all other nations were dry, that nation like the inhabitants of <hi>Goſhen</hi> had light in their dwellings, when the <hi>Gentiles</hi> lay wrapt, and muffled up in more then <hi>Egyptian</hi> darkneſſe. But this was but for a time, a prophecy there was that God would enlarge <hi>Iaphet,</hi> and per<g ref="char:EOLhyphen"/>ſwade him to dwell in the tents of <hi>Shem.</hi> And there was a promiſe too, that in the laſt dayes the Law ſhould goe forth from <hi>Zion,</hi> and the word from <hi>Ieruſalem,</hi> that it might runne from the one end of the world unto the other, ſo that no Nation ſhould bee hid from the heat, or de<g ref="char:EOLhyphen"/>prived of the comfort of it. Now then, howſo<g ref="char:EOLhyphen"/>ever <hi>Chriſt</hi> and his <hi>Goſpell</hi> might be conveyed to many Nations of the ſame <hi>Continent</hi> without the helpe of the Sea, or benefit of ſhipping; yet we that inhabite the <hi>Iſlands,</hi> which God hath moa<g ref="char:EOLhyphen"/>ted about, and ſurrounded with a girdle of wa<g ref="char:EOLhyphen"/>ters, had for ever ſate in darknes, and in the ſha<g ref="char:EOLhyphen"/>dow of death. But now let the multitude of the <hi>Iſles</hi> rejoyce ſayes <hi>David;</hi> let them give glory unto God;<note place="margin">Eſay 42.12. Ezek. 30.9.</note> and praiſe him in the <hi>Iſlands</hi> ſayes <hi>Eſay.</hi> For now that of <hi>Ezekiel</hi> is fulfilled, <hi>In that day I will ſend my Meſſengers unto them in Ships.</hi>
+               <pb n="9" facs="tcp:3644:8"/>Who the meſſenger was that was firſt imployed and bound for <hi>this Iſland</hi> with that rich and in<g ref="char:EOLhyphen"/>valuable lading of the Goſpell is uncertaine. Some ſay it was the <hi>Apoſtle S. Paul,</hi> that great Doctour of the Gentiles.<note place="margin">Theodor. de c<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>rand. Graecorun<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> affect. <hi>l. 9.</hi>
+               </note> Others ſay it was <hi>Si<g ref="char:EOLhyphen"/>mon Zelotes,</hi> who was crucified and buried here. But moſt are of opinion it was that honourable Senatour <hi>Ioſeph</hi> of <hi>Arimathea,</hi>
+               <note place="margin">Niceph. <hi>l. 2. c. 40</hi> Doroth. in Synops</note> who with twelve others was ſent over by S. <hi>Philip</hi> out of <hi>France</hi> into <hi>Britaine,</hi> who dyed here and was buried at <hi>Glaſtonbury.</hi> Whoſoever it was wee are much bound to Almighty God, that notwithſtanding the diſtance of the place, and danger of the Sea, he arrived ſafely with the Goſpell, and with that Chriſt on whom we <hi>beleeve,</hi> in whom wee <hi>truſt,</hi> to whom we <hi>pray,</hi> and by whom we looke to be everlaſtingly <hi>ſaved.</hi>
+            </p>
+            <p>As for the <hi>Common-wealth,</hi>
+               <note place="margin">Caput underobur &amp; nervi manant in Rempub. <hi>Laur. Med.</hi>
+               </note> ſhipping is the ve<g ref="char:EOLhyphen"/>ry <hi>nerves,</hi> and <hi>ſinewes,</hi> the ſtrength and ſecurity of a nation, and our ſhips are (and ſo they may well be) called the walls of our Kingdome. And next to the protection of Almighty God, the wiſdome of a gracious King, and the unanimity of the people, they are the lockes of <hi>Sampſon</hi> wherein our ſtrength conſiſteth.</p>
+            <p>Moreover by this meanes the want,<note place="margin">Diſſepti faederae mundi traxit in unum Theſſala pinus. <hi>Seneca in Medea.</hi>
+               </note> and <hi>indi<g ref="char:EOLhyphen"/>gence</hi> of our country is ſupplyed with the wealth and <hi>abundance</hi> of another. For God hath diſpo<g ref="char:EOLhyphen"/>ſed the parts of the world, as the <hi>members</hi> of the body, and hath ſo tyed them together in mutuall and reciprocall offices, that no part of the whole univerſe can ſay to another, <hi>I have no need of thee.</hi>
+               <pb n="10" facs="tcp:3644:9"/>As for this countrey wherein we live, I may ſay of it as the Scripture doth of the plaine of <hi>Ior<g ref="char:EOLhyphen"/>dan,</hi> behold it is even as the garden of God, it may as well ſtand upon its bottome, and boaſt an <hi>Autarchie,</hi> and <hi>ſelfe ſufficiencie,</hi> as any place whatſoever, and yet we are beholding to others for their <hi>Mineralls, Spices,</hi> and that which is moſt neceſſary, their <hi>Drugges.</hi>
+            </p>
+            <p>Secondly, the buſineſſe of the merchant is an <hi>honourable</hi> buſineſſe and imployment,<note place="margin">Eſay 23.8.</note> as we read of the merchants of <hi>Tyre</hi> that they were <hi>Princes,</hi> &amp; her traffiquers the <hi>honorable</hi> of the earth. This is that which hath advanced the heads of thoſe three flouriſhing States in <hi>Chriſtendome, Venice, Genoa,</hi> and the <hi>Low-countries,</hi> who by their ſtrength in ſhipping, &amp; induſtrie in <hi>Navigation,</hi> are arrived at ſuch a degree of honour, and emi<g ref="char:EOLhyphen"/>nency that many <hi>envy</hi> it, and all <hi>admire</hi> it. The time was when this was the peculiar honour, and glorious prerogative of this nation as <hi>Keckerman</hi> confeſſes,<note place="margin">Hoc certum eſt omnibus hodiè gentibus navi<g ref="char:EOLhyphen"/>gandi induſtria &amp; peritia ſuperi<g ref="char:EOLhyphen"/>ores eſſe Anglos, &amp; poſt Anglos Hollandos. <hi>Keckerm.</hi>
+               </note> for (ſaith he) <hi>It is certaine that the Eng<g ref="char:EOLhyphen"/>liſhmen are the beſt ſea-men, no nation in the world can compare with them either for art or induſtrie, and next to them are the Hollanders.</hi> But I feare I may ſay as the daughter of <hi>Eli</hi> did when the <hi>Arke</hi> was taken, where is the glory? or the glory is depar<g ref="char:EOLhyphen"/>ted from our <hi>Iſrael,</hi> or if not departed, yet much eclypſed. Such is our ſloth and negligence, ſuch our tenderneſſe and delicacie that wee cannot brooke the dangers of the Sea, nor the confine<g ref="char:EOLhyphen"/>ment of a <hi>Cabbin.</hi>
+            </p>
+            <p>Thirdly, the buſineſſe of the merchant is a
+<pb n="11" facs="tcp:3644:9"/>
+               <hi>gainefull</hi> buſineſſe. And hence is it that <hi>Salomon</hi> compares his good <hi>huswife</hi> to a Merchants <hi>Ship,</hi>
+               <note place="margin">Prov. 31.14.</note> which brings in riches from a farre countrey. Such was the riches of <hi>Salomon</hi> that all his drink<g ref="char:EOLhyphen"/>ing veſſels were of gold, and all the veſſels of the houſe of the forreſt of <hi>Lebanon</hi> were of pure gold, none were of ſilver; it was not any thing accounted of in the dayes of <hi>Salomon.</hi> And the reaſon of this wealth is given in the next verſe,<note place="margin">2 Chron. 9.20, 21, 22.</note> 
+               <hi>For the Kings ſhips went to Tarſhiſh with the ſer<g ref="char:EOLhyphen"/>vants of Huram; every three yeares once came the ſhips of Tarſhiſh bringing gold and ſilver, yvorie, and apes, and peacocks, ſo that King Salomon paſſed all the Kings of the earth in riches, and wiſdome.</hi> It is ſaid of <hi>Tyre</hi> that by her traffique ſhee had increa<g ref="char:EOLhyphen"/>ſed her riches, and through the multitude of her merchandiſe lived in ſuch plenty and abundance as if ſhee lived in <hi>Eden</hi> the garden of God, being <hi>covered</hi> with gold and precious ſtones. I make no queſtion but ſome of you which heare mee this day, will confeſſe with <hi>Iacob,</hi> that when you firſt paſſed over <hi>Iordan,</hi> when you went firſt to Sea your portion was not great, yet now behold God hath inriched you with the <hi>bleſsings</hi> of the <hi>deepe,</hi> and the <hi>treaſures</hi> hid in the <hi>ſands;</hi> take heed therefore that your hearts be not lifted up, doe not <hi>ſacrifice</hi> to your nets, and ſhips, as though by them your portion was plenteous, and your morſels fat, doe not <hi>kiſſe</hi> your owne hands, ſay not it is your owne <hi>wiſdome,</hi> or <hi>underſtanding,</hi> your owne <hi>art</hi> or <hi>induſtry</hi> that hath gotten you this wealth, but confeſſe that it is the Lord your
+<pb n="12" facs="tcp:3644:10"/>God that hath given you power to gather ri<g ref="char:EOLhyphen"/>ches, and that it is his <hi>bleſsing</hi> that maketh rich. And then there wants but one thing to make up all, and that is when God proſpers you with rich voyages, and ſafe returnes, you have a care to pay him his <hi>Cuſtome,</hi> (I exclude not the Kings). for if you ſteale that you may forfeit all. And Gods <hi>Cuſtome</hi> is your <hi>charity</hi> to his poore mem<g ref="char:EOLhyphen"/>bers, for whatſoever you doe to one of them, he takes it as done to himſelfe. As you get your wealth by the waters, ſo caſt your bread upon the <hi>waters,</hi> upon the weeping cheekes of com<g ref="char:EOLhyphen"/>fortleſſe widdowes, of <hi>fatherleſſe</hi> children, and their <hi>prayers</hi> will bee the beſt <hi>gale</hi> to waft your ſoules through the <hi>waves</hi> of this troubleſome world unto your deſired <hi>haven</hi> the Kingdome of <hi>Heaven. Whither he bring us all that hath ſo dearely purchaſed it for us, Ieſus Chriſt the righteóus: To whom with the Father, and the Holy Ghoſt, bee all Honour and praiſe, might and Majeſty now, and for ever: Amen.</hi>
+            </p>
+            <p>
+               <g ref="char:dtristar">*⁎*</g>
+            </p>
+         </div>
+         <div type="sermon">
+            <pb n="13" facs="tcp:3644:10"/>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>PSAL. 107.24.</hi>
+                  </bibl>
+                  <p>Theſe ſee the workes of the Lord, and his won<g ref="char:EOLhyphen"/>ders in the Deepe.</p>
+               </q>
+            </epigraph>
+            <p>YOu have ſeene before that the <hi>buſineſſe</hi> of the Seaman is <hi>warrantable, honourable,</hi> and <hi>profitable,</hi> and yet there is another <hi>adjunct</hi> waites upon it, and that is, that it is a pleaſant and <hi>delightfull</hi> buſineſſe, for they ſee thoſe <hi>works</hi> and <hi>wonders</hi> of the Lord in the deep, which they could not ſee upon dry land. If you put the ſame queſtion to mariners that our <hi>Sa<g ref="char:EOLhyphen"/>viour</hi> did to the multitude,<note place="margin">Mac. 11.8.</note> 
+               <hi>What went you out for to ſee?</hi> The text anſwers for them, that they ſee the workes of the Lord, and not his <hi>ordinary</hi> and every dayes workes, as reeds ſhaken with the winde, or men clothed in ſoft raiment; (for this is too common to be a wonder,) but they ſee things that are <hi>indeed</hi> ſtrange, rare, admirable, and wonderfull.</p>
+            <p>In which verſe there are two things to be con<g ref="char:EOLhyphen"/>ſidered.</p>
+            <p>Firſt, the <hi>object,</hi> or things that may be ſeene, and they are of two ſorts, the <hi>works,</hi> and the <hi>won<g ref="char:EOLhyphen"/>ders</hi> of the Lord.</p>
+            <p>Secondly, the <hi>ſubject,</hi> or place where they may be ſeen, and that is the <hi>deep waters.</hi>
+            </p>
+            <p>But I had rather reſolve the text into theſe three concluſions.</p>
+            <p>Firſt, God is a <hi>working</hi> God, for here are the
+<pb n="14" facs="tcp:3644:11"/>
+               <hi>workes</hi> of the Lord.</p>
+            <p>Secondly, among the workes of God ſome are more wonderfull and admirable then others, for here are the <hi>wonders</hi> of the Lord.</p>
+            <p>Thirdly, the <hi>Sea</hi> is a place wherein wee may ſee both his <hi>workes</hi> and <hi>wonders.</hi>
+            </p>
+            <p>For the firſt, ſome have beene ſo tranſcen<g ref="char:EOLhyphen"/>dently preſumptuous as to enquire how God imployed himſelfe in that vaſt ſpace of <hi>eternitie,</hi> and what he did before hee created the world, which is not yet of ſixe thouſand yeares ſtand<g ref="char:EOLhyphen"/>ing.<note place="margin">Quid faciebat Deus antequam faceret coelum &amp; terram? Alta (inquit) ſcrutantibus ge<g ref="char:EOLhyphen"/>hennam parabat. <hi>Aug. conf. lib. 11. cap. 12.</hi>
+               </note> To them I ſay as the Angell did to <hi>Mano<g ref="char:EOLhyphen"/>ah, Aske not after it for it is ſecret.</hi> Or as <hi>David: Such knowledge is too wonderfull for thee:</hi> or as he in S. <hi>Auguſtine, God was making hell to torment ſuch as will pry into the Arke of his myſterious and reſer<g ref="char:EOLhyphen"/>ved ſecrets.</hi>
+            </p>
+            <p>The firſt worke of God <hi>ad extra</hi> was the <hi>Crea<g ref="char:EOLhyphen"/>tion,</hi> which conſiſts of many faire, and noble pieces.</p>
+            <p>Some were of opinion that God created the <hi>Angels,</hi> and then the <hi>Angels</hi> as his inſtruments created inferiour natures.<note place="margin">Job. 38.7.</note> Indeed the Angels were created firſt, and are the firſt fruits of Gods wayes, and they did ſing together, and ſhout for joy when the foundations of the world were faſtened; but they did not lay ſo much as one ſtone in that building. It may be <hi>Moſes</hi> in the hiſtory of the Creation makes no mention of the <hi>Angels,</hi> leaſt deſcribing the glory and excel<g ref="char:EOLhyphen"/>lencie of their natures, wee might joyne them in <hi>Commiſsion</hi> with God, and make them his
+<pb n="15" facs="tcp:3644:11"/>
+               <hi>aſſociates,</hi> and ſo rob him of the glory.</p>
+            <p>Another errour there was, and that amongſt the Jewes;<note place="margin">Putabant Deum poſt laborem fa<g ref="char:EOLhyphen"/>bricati mundi uſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ad hunc di<g ref="char:EOLhyphen"/>em quaſi dormi<g ref="char:EOLhyphen"/>re. <hi>Aug. in c. 5. Joann. Iohn 7.15.</hi>
+               </note> that God after hee had finiſhed the worke of the Creation ſate downe, and ever ſince hath kept a <hi>Sabbath,</hi> and made it <hi>holy day.</hi> But our Saviour confutes this, for ſayes he, <hi>My Father worketh hitherto,</hi> governing and conſer<g ref="char:EOLhyphen"/>ving what he hath made that they ſlide not back againe into their firſt <hi>nothing.</hi>
+               <note place="margin">Deus agens qui<g ref="char:EOLhyphen"/>eſcit, quieſcens agit. <hi>Auguſt.</hi>
+               </note> There is no day wherein God doth not <hi>create</hi> new ſoules which he infuſes into theſe bodies which are daily con<g ref="char:EOLhyphen"/>veyed in the womb, there is no day wherein he does not <hi>juſtifie</hi> ſome ſinner;<note place="margin">Agit animas ra<g ref="char:EOLhyphen"/>tionales quotidiè creando, impios juſtificando, pur<g ref="char:EOLhyphen"/>gatos ab omni re<g ref="char:EOLhyphen"/>atu in coelis bea<g ref="char:EOLhyphen"/>tificando. <hi>Carth. in 5. Ioann.</hi>
+               </note> and to juſtifie a ſin<g ref="char:EOLhyphen"/>ner is a greater worke then to create one juſt, there is no day wherein hee does not <hi>glorifie</hi> ſome Saints who lived in his <hi>feare</hi> and dyed in his <hi>favour.</hi>
+            </p>
+            <p>Nay, let me tell you that thoſe workes which we call our <hi>owne,</hi> are of <hi>his</hi> working, witneſſe the Prophet, <hi>Thou haſt wrought all our workes in us:</hi>
+               <note place="margin">Eſay 26.12. Phil. 2.13.</note> witneſſe the Apoſtle, <hi>It is God that worketh in us both to will and to doe of his good pleaſure.</hi> Witneſſe our Saviour, <hi>Without me yee can doe nothing.</hi>
+               <note place="margin">Iohn 15.</note> The Apoſtle therefore uſes this correction, <hi>Not I but the grace of God that was in me.</hi>
+            </p>
+            <p>Now as man is the image of his Maker ſo he ſhould affect conformity and reſemblance to his patterne, and be a worker together with God. The maine worke of a Chriſtian is the worke of <hi>Salvation; Worke out your ſalvation with feare and trembling,</hi> ſaith the Apoſtle. A worke which if we diſpatch not before we die, we are undone
+<pb n="16" facs="tcp:3644:12"/>for ever. And therefore our Saviour quickens us,<note place="margin">Iohn 9.4.</note> and calls upon us to ply it hard whileſt it is day; So long as wee are in this world it is <hi>day</hi> with us, and we may worke; and it is the <hi>day</hi> of <hi>ſalvation</hi> too, ſo that we may worke out our ſal<g ref="char:EOLhyphen"/>vation;<note place="margin">2 Cor. 6.2.</note> but when we dye it is <hi>night</hi> with us, (and who knowes whether it may not be this night?) and then we cannot worke.</p>
+            <p>But beſides this we have a worke to doe, and that is the worke of our particular callings. S. <hi>Paul</hi> would have every man eate his <hi>owne</hi> bread, and his owne it is not till his <hi>head,</hi> or his <hi>hand</hi> hath wrought for it. <hi>Salomon</hi> hath appointed a time to every buſineſſe, but he allowes no time for idleneſſe,<note place="margin">Minimam vitae portionem dabat ſomno, minorem cibo, nullam otio. in vita <hi>Ieron.</hi>
+               </note> and <hi>Eraſmus</hi> reports of S. <hi>Ierome, that hee allowed but little time to ſleepe, leſſe to meat, but none to ſloth.</hi> But of this we have heard more in the former Sermon.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> The ſecond part of the Text, is, that amongſt the workes of God ſome are more wonderfull and admirable then others, for here are <hi>wonders</hi> as well as <hi>workes.</hi>
+            </p>
+            <p>I confeſſe with the Prophet that God is a wonderfull and excellent workeman:<note place="margin">Eſay 28.29.</note> and that all his works are admirable. For they were made of <hi>nothing.</hi> It is true in Philoſophy that out of nothing can nothing be made; but it is true in Divinity that out of <hi>nothing</hi> were all things made that are made. So the Poet.</p>
+            <q>
+               <l>Nothing but nothing had the Lord Almighty</l>
+               <l>Whereof,<note place="margin">Du Bartas.</note> wherewith, whereby to make this City.</l>
+            </q>
+            <p>Againe, all the workes of the Lord are won<g ref="char:EOLhyphen"/>derfull
+<pb n="17" facs="tcp:3644:12"/>if wee conſider the <hi>manner</hi> of their ma<g ref="char:EOLhyphen"/>king.</p>
+            <p>If you aſke what tooles, what leavers,<note place="margin">Quis humeris ſa<g ref="char:EOLhyphen"/>xa convexit? quis congeſſit im<g ref="char:EOLhyphen"/>penſas? quis la<g ref="char:EOLhyphen"/>boranti Deo ſu<g ref="char:EOLhyphen"/>am operam mini<g ref="char:EOLhyphen"/>ſtravit? <hi>Ambr. in orat. de fid, reſurr.</hi>
+               </note> what engines, what inſtruments, what labourers God uſed in ſo great a worke, <hi>Moſes</hi> tells you he did but ſay let it be ſo, and it was ſo; and <hi>David</hi> ſayes <hi>He ſpake the word and they were made, he comman<g ref="char:EOLhyphen"/>ded and they were created.</hi> So that the creation of the world, was like the building of the <hi>Temple,</hi> there was no noyſe of any toole, or hammer heard in it; but like <hi>Ionas</hi> his gourd though it was not planted, nor watered grew up on a ſo<g ref="char:EOLhyphen"/>daine, even in the ſhort ſpace of ſixe dayes, and this is another wonder.<note place="margin">
+                  <hi>John 2 20.</hi> Sex diebus fae<g ref="char:EOLhyphen"/>ctus mundus. Non quod Deus tempore indigue<g ref="char:EOLhyphen"/>rit ad conſtitutio<g ref="char:EOLhyphen"/>nem ejus, cui in<g ref="char:EOLhyphen"/>tra momentum ſuppetit ſacere quae velit: ſed quiaea quae fiunt ordinem quaerum <hi>Ambr. in ep. ad Horont.</hi> Iſta eſt cauſa ad<g ref="char:EOLhyphen"/>mirationis cum res aut fingularis eſt, cutrara. <hi>Aug in ep. ad Evod.</hi> Perſeverantia conſisetudinis a<g ref="char:EOLhyphen"/>miſit ad miratio<g ref="char:EOLhyphen"/>nem. <hi>Aug. de Trin. l. 3. c. 2.</hi> Quam multa uſi<g ref="char:EOLhyphen"/>tata calcantur, quae conſiderata ſlupentur.</note> The <hi>Temple</hi> of <hi>Ieruſalem</hi> was a ſtately and magnificent building, yet it was not built in leſſe time then forty and ſixe <hi>yeares,</hi> notwithſtanding many hands went to it; but the whole fabricke of heaven and earth was finiſhed in the ſpace of ſixe <hi>dayes:</hi> and hee that made it in ſo few dayes, could (if he had pleaſed) have made it in as few minutes. Thus then are al the workes of the Lord wonderfull; yet as the Apoſtle ſayes of the ſtarres, <hi>One ſtarre is more glo<g ref="char:EOLhyphen"/>rious then another:</hi> ſo ſay I of Gods workes, ſome are more admirable and wonderfull then others, as being either leſſe <hi>common,</hi> or more <hi>curious.</hi>
+            </p>
+            <p>Firſt, that which makes ſome of them more wonderfull then others is, becauſe they are leſſe <hi>frequent</hi> and <hi>common.</hi> The people marvelled at the multiplication of the loaves, and fiſhes, and were ſo affected with the ſtrangeneſſe of the miracle, that they would have made <hi>Chriſt</hi> a
+<pb n="18" facs="tcp:3644:13"/>King for it:<note place="margin">Quid non mirum facit Deus in om<g ref="char:EOLhyphen"/>mbus creaturae motibus niſi con<g ref="char:EOLhyphen"/>ſuetudine quoti<g ref="char:EOLhyphen"/>diana viluiſſent? <hi>Aug. in epiſt. ad Voluſian. Pſal. 19.</hi>
+               </note> yet we wonder not at the increaſe of harveſt, and multiplication of the ſeed though in ſome grounds it brings forth twenty, in ſome thirty, and in ſome an hundred fold. We won<g ref="char:EOLhyphen"/>der not at the Sunne though it be the <hi>beauty</hi> and <hi>bridegroome</hi> of nature as <hi>David</hi> calls it: yet wee wonder at the faint light of a <hi>Comet</hi> becauſe the one we ſee every day, and the other but ſeldome.</p>
+            <p>Secondly, ſome are more wonderfull, and ad<g ref="char:EOLhyphen"/>mirable becauſe more <hi>curious</hi> and <hi>exquiſite.</hi> In ſome creatures wee have onely <hi>veſtigium,</hi> the print of his foot: but in others <hi>imaginem,</hi> his i<g ref="char:EOLhyphen"/>mage. Some are the workes of his <hi>fingers,</hi> ſome of his <hi>hand,</hi> ſome of his <hi>arme,</hi> and the more pow<g ref="char:EOLhyphen"/>er or wiſdome God hath expreſſed in their for<g ref="char:EOLhyphen"/>ming, the more wonderfull are they in our eyes.</p>
+            <p>And becauſe I would not loſe my ſelfe in this field of <hi>Zoan,</hi>
+               <note place="margin">Eunt homines mirari alta mon<g ref="char:EOLhyphen"/>rium, &amp;c. &amp; re<g ref="char:EOLhyphen"/>linquunt ſeipſos, nec mirantur. <hi>V. Auguſt. conf. l. 10. cap. 8.</hi> In homine princi<g ref="char:EOLhyphen"/>patus eſt omnium animantium, &amp; ſumma quaedam univerſitatis, &amp; omnis mundanae gratia creaturae. <hi>Ambr. Hexam. lib. 6. cap. 10. Mark. 16.15.</hi> Cura divini inge<g ref="char:EOLhyphen"/>mi. <hi>Tertul.</hi>
+               </note> this field of wonders; I will determine you to the conſideration of <hi>your ſelves</hi> firſt. S. <hi>Auguſtine</hi> taxes ſuch of folly that admired the height of mountaines, the waves of the Sea, the windings of rivers, &amp;c. yet never wondered at <hi>themſelves,</hi> who are Gods <hi>Maſter<g ref="char:EOLhyphen"/>piece,</hi> and the <hi>abridgement</hi> and <hi>Epitome</hi> of the whole creation, for man hath <hi>being</hi> with ſtones, <hi>life</hi> with trees, <hi>ſenſe</hi> with beaſts, and <hi>underſtand<g ref="char:EOLhyphen"/>ing</hi> with Angels; and hence is it that he is called <hi>every creature.</hi> In the making of other things God did but ſay let this or that be ſo, and ſo, and it was ſo; but when he came to make man, all the perſons in the <hi>Trinity</hi> conſult and adviſe a<g ref="char:EOLhyphen"/>bout it, <hi>Let us make man after our likeneſſe.</hi> The
+<pb n="19" facs="tcp:3644:13"/>Sunne, Moone, and Starres are glorious crea<g ref="char:EOLhyphen"/>tures,<note place="margin">Pſal. 3.3.</note> yet are they but the workes of Gods <hi>fin<g ref="char:EOLhyphen"/>gers;</hi>
+               <note place="margin">Pſal. 119.73.</note> but man is the work of his <hi>hands, Thy hands have made mee, and faſhioned me.</hi> I need ſay no more but what the <hi>Pſalmiſt</hi> does,<note place="margin">Pſal. 139.14.</note> 
+               <hi>I will praiſe thee for I am fearefully and wonderfully made, marvellous are thy workes, and that my ſoule knowes right well, yea I am curiouſly wrought in the loweſt parts of the earth,</hi>
+               <note place="margin">Compono hic can<g ref="char:EOLhyphen"/>ticum in laudem creatoris noſtri, &amp;c. <hi>V. Galen. l. 3. de uſu parti<g ref="char:EOLhyphen"/>um.</hi>
+               </note> and the word in the originall ſignifies ſuch art and curioſitie as is uſed in <hi>needleworke,</hi> and <hi>imbroidery.</hi>
+            </p>
+            <p>And as <hi>Man</hi> is more wonderfull then other creatures, ſo ſome <hi>parts</hi> of man are more admi<g ref="char:EOLhyphen"/>rable and artificiall then others.<note place="margin">
+                  <hi>In ep. ad Volu<g ref="char:EOLhyphen"/>ſian.</hi> quod ſol &amp; luna in coelo, hoc oculi in homine. <hi>Ambr. Hexam. lib. 6. cap. 9.</hi>
+               </note> S. <hi>Auguſtine</hi> wonders moſt at the <hi>eye</hi> which though it bee but a ſmall member, yet in an inſtant runs from one ſide of the heavens to the other. And thus ha<g ref="char:EOLhyphen"/>ving a little diſcovered you to your ſelves, let me lead you abroad into the world and ſee what wonders we can there meet with.</p>
+            <p>If we climbe up into <hi>heaven,</hi> we ſhall finde it as full of <hi>wonders</hi> as it is of <hi>ſtarres,</hi> for euery ſtar is a wonder; being as <hi>Aſtronomers</hi> obſerve (if truly) of a greater magnitude then the body of the whole earth. If we deſcend a little lower, who is able to ſatisfie theſe queſtions?<note place="margin">Job. 38.</note> 
+               <hi>Haſt thou entred into the treaſures of the ſnow? or haſt thou ſeene the treaſures of the haile? Hath the raine a fa<g ref="char:EOLhyphen"/>ther? and who hath begotten the drops of dew? out of whoſe wombe comes the ice? and the hoary froſt who hath gendred it?</hi>
+            </p>
+            <p>If we goe downe yet lower, from the <hi>aire</hi> to
+<pb n="20" facs="tcp:3644:14"/>the <hi>earth,</hi>
+               <note place="margin">Quid enumerem ſuccos herbarum ſalubres? quid virgultomem, ac ſoliorum remedi<g ref="char:EOLhyphen"/>a? &amp;c. <hi>V. plura in Amb. Hex. cap. 8. de die<g ref="char:EOLhyphen"/>tertio.</hi>
+               </note> we ſhall finde that plants, and trees, and mineralls have wonderfull vertues, nay that the <hi>earth</hi> it ſelfe is a wonder, for it hangs as a ball in the midſt of heaven, and though it have no pillers to uphold it, nor but treſſes to compre<g ref="char:EOLhyphen"/>hend it, yet it <hi>ſtands faſt for ever and ſhall never be removed.</hi> Looke (ſayes <hi>Tertullian</hi>) upon the <hi>buil<g ref="char:EOLhyphen"/>dings</hi> of the <hi>Bee,</hi>
+               <note place="margin">Imitare ſi potes apis aediſicia, formicae ſtabula, araneae retia, hombycis flamina <hi>Tertul. l. 1. ad<g ref="char:EOLhyphen"/>verſ. Marcion.</hi>
+               </note> or the <hi>lodgings</hi> of the <hi>Ant,</hi> or the <hi>webs</hi> of the <hi>Spider,</hi> or the <hi>threds</hi> of the <hi>ſilkeworme,</hi> and imitate them if thou canſt. And thus we ſee the point cleared.</p>
+            <p>Now our duty is when we ſee theſe wonders to breake out in an acknowledgement of God, of his <hi>excellencies,</hi> and glorious <hi>Attributes</hi> which are diſplayed in theſe creatures. <hi>O the depth of the riches both of the wiſdome,</hi>
+               <note place="margin">Rom 11.33.</note> 
+               <hi>&amp; knowledge of God! O Lord our Lord how excellent is thy name in all the earth!</hi>
+               <note place="margin">Pſal. 8.1.</note> 
+               <hi>Among the gods there is none like unto thee O Lord,</hi>
+               <note place="margin">Pſal. 86.8.10.</note> 
+               <hi>neither are there any workes like thy workes: for thou art great and doſt wondrous things, thou art God alone. O that men would therefore praiſe the Lord for his goodneſſe, and declare his wonders to the ſonnes of men.</hi>
+            </p>
+            <p>Little children, and ignorant perſons when they ſee a curious picture, gaze upon it, and pleaſe themſelves in the beauty of the <hi>colours,</hi> but they conſider not the <hi>art,</hi> and ſkill of that hand which limmed it: ſo we <hi>ſee</hi> the wonders of God with our <hi>eyes,</hi> we <hi>heare</hi> of them with our <hi>eares,</hi> wee <hi>taſte</hi> them with our <hi>mouthes,</hi> wee <hi>feele</hi> them with our <hi>hands,</hi> yet our hearts are not affected with them as they ſhould be; neither doe we conſider
+<pb n="21" facs="tcp:3644:14"/>thoſe glorious <hi>Attributes</hi> of <hi>power, wiſdome, good<g ref="char:EOLhyphen"/>neſſe,</hi> and <hi>mercy</hi> laid open in them. If we did, the conſideration of his <hi>power</hi> would make us <hi>feare</hi> him; the meditation of his goodneſſe would make us love him; the contemplation of his <hi>wiſ<g ref="char:EOLhyphen"/>dome</hi> would make us <hi>praiſe</hi> him, according to that of the <hi>Pſalmiſt, Declare his glory among the heathen,</hi>
+               <note place="margin">Pſal. 96.3.4.</note> 
+               <hi>&amp; his wo<g ref="char:cmbAbbrStroke">̄</g>ders amo<g ref="char:cmbAbbrStroke">̄</g>g all the people, for the Lord is great. &amp; greatly to be praiſed, he is to be feared above al gods.</hi>
+            </p>
+            <p>Secondly, if the Lord hath made ſuch won<g ref="char:EOLhyphen"/>derfull and admirable things for us in this <hi>world</hi> which is but our <hi>cottage,</hi> how excellent and ad<g ref="char:EOLhyphen"/>mirable are thoſe things which hee hath provi<g ref="char:EOLhyphen"/>ded, and prepared for us in <hi>heaven</hi> which is our <hi>palace.</hi> If I was the ſweeteſt ſinger in all <hi>Iſrael,</hi> if I had the tongues of <hi>men,</hi> and <hi>Angels;</hi> I ſhould not be able to expreſſe the leaſt part of them. S. <hi>Paul ſpoke with tongues more then all the reſt of the Apoſtles,</hi> and the <hi>Barbarians</hi> called him <hi>Mercury</hi> the god of eloquence; yet theſe things are ſo ad<g ref="char:EOLhyphen"/>mirable and tranſcendent, that the ſtrength of his expreſſions, and the ſtraines of his eloquence could not reach them. And therefore he telleth us not what they are, but what they are not. <hi>Eye hath not ſeene, nor eare heard,</hi>
+               <note place="margin">1 Cor. 2.9.</note> 
+               <hi>neither hath it en<g ref="char:EOLhyphen"/>tred into the heart of man to conceive the things which God hath prepared for them that love him.</hi> The <hi>eye</hi> of man ſees much, yet the <hi>eare</hi> heares of many things which the eye never ſaw. I never faw <hi>Salomons</hi> Temple in its <hi>beautie,</hi> nor <hi>Rome</hi> in her <hi>glory,</hi> nor <hi>Chriſt</hi> in the <hi>fleſh,</hi> yet my <hi>eare</hi> hath heard much of them. But if there be any thing
+<pb n="22" facs="tcp:3644:15"/>which my <hi>eare</hi> hath not heard, yet my <hi>heart</hi> is a<g ref="char:EOLhyphen"/>ble to conceive it. I never heard the <hi>thunders</hi> that were upon mount <hi>Sinai;</hi> I never heard <hi>Paul</hi> in the <hi>pulpit,</hi> yet I conceive how <hi>terrible</hi> was the one, and how <hi>powerfull</hi> was the other. But theſe things are ſo high, and admirable, that I can nei<g ref="char:EOLhyphen"/>ther <hi>perceive</hi> them by the <hi>ſenſe,</hi> nor <hi>conceive</hi> them by the <hi>underſtanding.</hi> When the Queene of <hi>Sheba</hi> came to the Court of <hi>Salomon</hi> ſhe was raviſhed with the wonders ſhe ſaw there: when we come to heaven the Court of him that was greater then <hi>Salomon,</hi> how ſhall we be raviſhed to heare the <hi>Hymnes</hi> and <hi>Hallelujahs</hi> of <hi>Angels,</hi> to ſee the <hi>face</hi> of <hi>God,</hi> the <hi>body</hi> of <hi>Chriſt</hi> our Saviour, the <hi>beauty</hi> of the new <hi>Ieruſalem,</hi> and our <hi>vile</hi> bodies made like his <hi>glorious</hi> body? But who is fit for theſe things? I leave therefore theſe wonders which God hath provided for us in <hi>Coelo</hi> in hea<g ref="char:EOLhyphen"/>ven, and come to thoſe which are in <hi>Salo</hi> in the Sea, for this is our third and laſt part, That the <hi>workes</hi> and <hi>wonders</hi> of the Lord may be ſeene in the <hi>Sea,</hi> and <hi>deep waters.</hi>
+            </p>
+            <p>God who is wonderfull in all his workes,<note place="margin">
+                  <hi>3.</hi> Part.</note> is moſt wonderfully wonderfull in the <hi>Sea,</hi> for it is as full of <hi>wonder,</hi> as it is of <hi>water.</hi> Some reſtraine my Text too ſtrictly to thoſe wonders which God ſhewed in the red-ſea, which was a <hi>Cauſie</hi> to the <hi>Iſraelites,</hi> but a <hi>grave</hi> to the <hi>Egyptians.</hi> Or to thoſe which he ſhewed in the Sea when the Prophet <hi>Ionas</hi> was caſt into it, as the ſodaine calme, and the reſtitution of his Prophet from the belly of the whale. But our <hi>Proſpect</hi> will be
+<pb n="23" facs="tcp:3644:15"/>more faire, and delightfull if wee inlarge it in theſe particulars following.</p>
+            <p>Firſt the <hi>ſituation</hi> of this <hi>Element</hi> is wonder<g ref="char:EOLhyphen"/>full. I will not here diſpute the queſtion whe<g ref="char:EOLhyphen"/>ther the Water or the Earth be higher; ſure I am that the <hi>elevations,</hi> and <hi>ſwellings</hi> of the Sea are wonderfull; and were it not that the Lord on high is mightier then the noiſe of many waters, it would breake out (as once it did) into an uni<g ref="char:EOLhyphen"/>verſall <hi>Deluge,</hi> and <hi>Inundation.</hi>
+               <note place="margin">Job. 38.8, 9, 10.</note> But <hi>God hath ſhut up the Sea with doores, he hath ſwadled it with dark<g ref="char:EOLhyphen"/>neſs, he hath ſet it bounds, ſaying, Hitherto ſhalt thou come, but no further; and here ſhall thy proud waves be ſtayed.</hi> I reade of one <hi>Canutus</hi> ſometimes a king of this <hi>Iſland,</hi> that ſtanding by the <hi>Thames</hi> at a flowing water, commanded the waves to come no nearer: But the River for all this kept its courſe, and if the King had not given ground, would have drowned him: with which (ſaies the ſtory) hee was ſo much affected, that he hanged up his Crowne in <hi>Weſtminſter,</hi> and would never after weare it. To command the Elements is his <hi>prerogative</hi> that made them. <hi>Feare you not me,</hi>
+               <note place="margin">Ierem. 5.22.</note> 
+               <hi>ſaith the Lord? Will yee not tremble at my preſence? which hath placed the Sand for the bound of the Sea, by a perpetuall decree that it cannot paſſe it, and though the waves thereof toſſe themſelves,</hi>
+               <note place="margin">Infirmiſſimo em<g ref="char:EOLhyphen"/>nium vilis ſabuli pulvere vis maris etiam in tempe<g ref="char:EOLhyphen"/>ſtate cohibetur. <hi>Ambr. Hexam. c. 2. de die 3.</hi> 
+                  <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <hi>yet they cannot prevaile; though they roare, they cannot paſſe over it.</hi> And <hi>Heſychius</hi> ſaies that the Sea is as afraid of the banke of <hi>ſand,</hi> as we are of <hi>thunder.</hi>
+            </p>
+            <p>Secondly, the <hi>Motion</hi> of the Sea is as ſtrange and wonderfulles the former. It is reported of
+<pb n="24" facs="tcp:3644:16"/>
+               <hi>Ariſtotle</hi> that great <hi>Secretary</hi> of Nature, that not being able to conceive the reaſon of the <hi>ebbing</hi> and <hi>flowing</hi> of the Sea, he threw himſelfe into it, uſing theſe words, <hi>Becauſe I cannot comprehend thee, thou ſhalt comprehend mee.</hi> And howſoever this hath received many ſubtile and curious diſ<g ref="char:EOLhyphen"/>cuſſions, yet all confeſſe it a wonder, and ſecret of Nature. For ſuppoſe it be the naturall inclina<g ref="char:EOLhyphen"/>tion of this Element, which at the firſt cover<g ref="char:EOLhyphen"/>ed the face of the Earth, and does as it were la<g ref="char:EOLhyphen"/>bour to recover its ancient <hi>Inheritance;</hi> Or ſup<g ref="char:EOLhyphen"/>poſe the <hi>Moone</hi> to be the cauſe of it, as moſt de<g ref="char:EOLhyphen"/>termine, (for this Planet hath a regencie, and dominion over moiſt bodies) yet it is a wonder ſtill. It is as admirable that the <hi>Influence</hi> of the <hi>Moone</hi> ſhould cauſe ſuch an elevation, and agita<g ref="char:EOLhyphen"/>tion of the waters, as if God had imprinted this <hi>qualitie</hi> in the Element it ſelfe. For my part, I ſhall ever ſay with the Pſalmiſt, <hi>Thy way is in the Sea, and thy path in the great waters, and thy foot<g ref="char:EOLhyphen"/>ſteps are not knowne.</hi>
+            </p>
+            <p>Thirdly, the <hi>Multitude</hi> and <hi>Variety</hi> of creatures that live,<note place="margin">Pſal. 104.24, 25</note> and move in it, is very wonderfull. <hi>O Lord, how manifold are thy works! in wiſedome haſt thou made them all: the earth is full of thy ri<g ref="char:EOLhyphen"/>ches: So is the great, and wide Sea, wherein are things creeping innumerable, both ſmall, and great beaſts.</hi>
+               <note place="margin">Quicquid naſci<g ref="char:EOLhyphen"/>tur in parte na<g ref="char:EOLhyphen"/>turae ullà, &amp; in marieſſe, praeter<g ref="char:EOLhyphen"/>quam multa quae nuſquam alibi. <hi>Nat. hiſt. l. 9. cap. 2.</hi>
+               </note>
+            </p>
+            <p>
+               <hi>Pliny</hi> is of opinion, that there is no creature upon the earth, but there is ſomething in the ſea that reſembles it; and ſo the <hi>Poet</hi> elegantly:
+<pb n="25" facs="tcp:3644:16"/>
+               <q>
+                  <l>As many fiſhes of ſo many features,<note place="margin">Du Bartas.</note>
+                  </l>
+                  <l>That in the waters one may ſee all creatures,<note place="margin">Adverte O home quanto plura in mari, quam in terris ſunt. <hi>Amb. Hex. l. 5. c. 2. Geneſ. 1.11.20.</hi>
+                     </note>
+                  </l>
+                  <l>And all that in this All is to be found</l>
+                  <l>As if the world within the Deepes were drown'd.</l>
+               </q>
+            </p>
+            <p>When God bleſſed the earth, hee ſaid let it bring forth: but when he bleſſed the waters hee ſaid let them bring forth <hi>abundantly.</hi>
+               <note place="margin">Dag. a Dagah.</note> And the He<g ref="char:EOLhyphen"/>brew word which ſignifies a <hi>fiſh,</hi> comes of a root which ſignifies to <hi>increaſe,</hi> and <hi>multiply.</hi> Now to diſcourſe of the ſeverall creatures in the Sea, would be as hard a taſke as to count the <hi>waves,</hi> or number the <hi>ſands,</hi> and therefore I will follow <hi>David,</hi> and ſingle out only the <hi>Leviathan</hi> a crea<g ref="char:EOLhyphen"/>ture ſo ſtrange, and admirable, that <hi>Iob</hi> ſayes,<note place="margin">Job 41.33.</note> 
+               <hi>upon the earth there is not his like.</hi>
+            </p>
+            <p>In the hiſtory of the <hi>Creation</hi> it is obſervable, that God does not mention any <hi>beaſt,</hi> or <hi>fowle,</hi> or <hi>fiſh,</hi> but this onely. It is ſaid that God created the fowles of the ayre, but there is no mention of the <hi>Dove,</hi> or <hi>Eagle.</hi> It is ſaid that he created the beaſts of the field, but neither the <hi>Horſe</hi> nor <hi>Elephant</hi> is named.<note place="margin">Geneſ. 1.21.</note> But in the worke of the fifth day it is ſaid God created the great <hi>Whales.</hi> Great they are indeed, for ſome have appeared in the waters as if they had beene <hi>Iſlands. Plinie</hi> writes,<note place="margin">Aequalia momi<g ref="char:EOLhyphen"/>bus corpora habe<g ref="char:EOLhyphen"/>re praedicantur. <hi>Hexam. l. 5. c. 10</hi>
+               </note> that in the <hi>Indian</hi> ſea they are found of three or foure <hi>acres</hi> or <hi>furlongs</hi> long. S. <hi>Ambroſe</hi> ſayes they are reported to have bodies as big as <hi>mountaines.</hi> That they are very great appeares by the Scripture, for their <hi>jawes</hi> are likened to
+<pb n="26" facs="tcp:3644:17"/>
+               <hi>doores,</hi>
+               <note place="margin">Job 41.5.6.22.</note> their <hi>Scales</hi> to <hi>ſheilds,</hi> and they are ſaid to make the Sea <hi>boile</hi> like a pot or caldron. And this fiſh being of ſo ſtupendious a magnitude was na<g ref="char:EOLhyphen"/>med for the declaration of Gods power, and al<g ref="char:EOLhyphen"/>ſo of his goodneſſe, who gave us dominion over it.<note place="margin">Magnus parvo, vaſtus &amp; immen<g ref="char:EOLhyphen"/>ſas imbecilli fit praeda. <hi>Baſ. hom. 10. in Hexam.</hi>
+               </note> S. <hi>Baſil</hi> ſpeaking of the manner of catching them in his time, wonders that ſo <hi>vaſt,</hi> and <hi>im<g ref="char:EOLhyphen"/>menſe</hi> a creature, ſhould be taken by ſo weake a thing as man is. I come now unto the <hi>laſt</hi> yet not the <hi>leaſt</hi> wonder, and that is the <hi>Art</hi> of <hi>Navigati<g ref="char:EOLhyphen"/>on,</hi>
+               <note place="margin">Pſal. 104 26.</note> for <hi>David</hi> hath joyned both theſe together, <hi>There goes the ſhips, there is that Leviathan.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="4"/> Howſoever a <hi>Ship</hi> be the work of the <hi>Canpen<g ref="char:EOLhyphen"/>ter,</hi> yet I may truely call it one of Gods wonders. The firſt ſhip that ever I read of was the <hi>Arke,</hi> and howſoever it was built by <hi>Noah</hi> and others, yet the truth is that <hi>Noah</hi> was but Gods <hi>Foreman,</hi> God himſelfe was the Maſter <hi>Ship-wright</hi> that drew the mould, and gave directions, and there<g ref="char:EOLhyphen"/>fore a ſhip is, and may well be called <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> a <hi>di<g ref="char:EOLhyphen"/>vine thing.</hi>
+               <note place="margin">
+                  <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Jam. 3.4.</note> S. <hi>Iames</hi> wonders much at the <hi>Helme</hi> which being but a ſmall piece of wood is able to turne, and command the whole veſſell. Who does not wonder at the <hi>compaſſe,</hi>
+               <note place="margin">Acus Magnetica.</note> and <hi>needle?</hi> whether the invention of the needle be new, or knowne unto <hi>Salomon</hi> is a great queſtion. But why might he not know the vertue of <hi>this</hi> ſtone as well as of others, eſpecially ſeeing there was great ſtore of it in <hi>Arabia,</hi> and in that part which bordered upon him? And ſurely if it was not knowne to <hi>Salomon,</hi> he was ignorant of the moſt <hi>polite,</hi> and <hi>pleaſant</hi> ſecret of all Nature.
+<pb n="27" facs="tcp:3644:17"/>They that would be ſatisfied in this may reade what <hi>Pineda,</hi>
+               <note place="margin">Pined. de reb. Salom. l. 4. c. 15. Lemnius de occult. naturae mirac. l. 3. c. 4.</note> and <hi>Levinus Lemnius</hi> have written of it. To cloſe up all then, when we goe to Sea we muſt not onely intend the advancement of our owne profit, but wee muſt make a <hi>ſpirituall</hi> uſe of the deepe waters, we muſt ſee, and conſi<g ref="char:EOLhyphen"/>der, and meditate upon theſe wonders, &amp; thoſe <hi>Attributes</hi> which are infolded in them, that ſo they may ſtrike us with an awfull reverence, and imprint upon us a religious reſpect to the Di<g ref="char:EOLhyphen"/>vine power.<note place="margin">Hexam. cap. 5. de die tertio.</note> Hence it is that S. <hi>Ambroſe</hi> calls the Sea the <hi>incentive of devotion,</hi> and <hi>ſchoole</hi> of <hi>pietie,</hi> for there is nothing in it but doth adminiſter to a ſpirituall minde matter of pious and heavenly <hi>meditation.</hi> For example, the <hi>ſhip</hi> wherein you ſaile, is a remembrancer of the <hi>ſwiftneſſe</hi> and <hi>ſhortneſſe</hi> of your dayes, <hi>My dayes (ſaith Iob) are ſwifter then a Poſt, they are paſſed away as the ſwift ſhips.</hi> And as in a <hi>ſhip</hi> whatſoever a man is doing he ſtill ſailes on to the end of his voyage: ſo whether we eate, or drinke, or ſleepe, or ſinne, or whatſoever wee doe wee haſten to the <hi>grave,</hi> which is the end of all fleſh.</p>
+            <p>As for the <hi>Sea</hi> it is an <hi>embleme</hi> of the <hi>world,</hi> for the world is compared to it, and the <hi>people</hi> to the waters. Here as in the Sea we have our <hi>calmes</hi> of <hi>peace,</hi> and our <hi>ſtormes</hi> of <hi>perſecution;</hi> our <hi>faire-weather</hi> of <hi>proſperity,</hi> and <hi>health;</hi> and our <hi>foule-weather</hi> of <hi>adverſity</hi> and <hi>ſickneſſe.</hi> Here ſome are ſwallowed up in the <hi>gulfe</hi> of deſpaire,<note place="margin">Aliquid ſubin<g ref="char:EOLhyphen"/>trabit. <hi>Auguſt.</hi>
+               </note> ſome are ſplit upo<g ref="char:cmbAbbrStroke">̄</g> the <hi>rocks</hi> of preſumptio<g ref="char:cmbAbbrStroke">̄</g>, &amp; the beſt men are a little <hi>leakie.</hi> For as a ſhip cannot paſſe tho<g ref="char:EOLhyphen"/>row
+<pb n="28" facs="tcp:3644:18"/>the waves of the Sea, but ſome water will ſinke through: ſo the beſt men paſſing through the world will taſte a little of the corruptions that are in it,<note place="margin">Habemus pro mari mundum, pro navi eccleſi<g ref="char:EOLhyphen"/>am, pro velo pae<g ref="char:EOLhyphen"/>niteutiam, pro gu<g ref="char:EOLhyphen"/>bernaculo cruce<g ref="char:cmbAbbrStroke">̄</g>, pro nauta<g ref="char:cmbAbbrStroke">̄</g> Chri<g ref="char:EOLhyphen"/>ſtum, pro vento Spiritum San<g ref="char:EOLhyphen"/>ctum. <hi>Chryſoſt. Super Math.</hi>
+               </note> but S. <hi>Auguſtine</hi> adviſes us in this caſe to ply the <hi>pump</hi> of <hi>Repentance,</hi> and then there is no danger of ſinking, or periſhing <hi>everlaſtingly.</hi>
+            </p>
+            <p>In a word, the <hi>world</hi> is the <hi>Sea,</hi> the <hi>Church</hi> is the <hi>ſhip,</hi> our <hi>ſoules</hi> are the <hi>paſſengers, Chriſt</hi> is our <hi>Pilet,</hi> the <hi>word</hi> is our <hi>compaſſe, Faith</hi> is our <hi>Helme, Hope</hi> is our <hi>anchor, Charity</hi> our <hi>ſailes, Perſeverance</hi> our <hi>ballaſt,</hi> the <hi>Holy Ghoſt</hi> our <hi>Gale,</hi> and <hi>Heaven</hi> our <hi>haven, whither he bring us that hath purchaſed it for us, Ieſus Chriſt the righteous, To whom with the Father, &amp;c.</hi>
+            </p>
+         </div>
+         <div type="sermon">
+            <pb n="29" facs="tcp:3644:18"/>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>PSAL. 107.25.</hi>
+                  </bibl>
+                  <p>For he commandeth, and raiſeth the ſtormy wind, which lifteth up the waves thereof.</p>
+               </q>
+            </epigraph>
+            <p>WEE have done with the Seamans <hi>Profeſsion,</hi> and now come to thoſe <hi>Dangers</hi> which attend, and accom<g ref="char:EOLhyphen"/>pany this profeſſion. For a <hi>victualler</hi> cannot be without <hi>ſinne,</hi> nor a <hi>merchant</hi> without <hi>danger.</hi>
+               <note place="margin">Eccleſ. 26.37.</note> The <hi>dangers</hi> are here laid downe in their <hi>cauſes;</hi> principall and efficient, Gods <hi>commandement:</hi> in<g ref="char:EOLhyphen"/>ſtrumentall and ſubſervient the <hi>blowing</hi> of the windes, and the <hi>flowing</hi> of the waves. This text may bee reſolved into theſe three <hi>Concluſions.</hi>
+            </p>
+            <p>Firſt, that the <hi>commandement</hi> of God reaches, and extends even to ſenſeleſſe, and inanimate creatures.</p>
+            <p>Secondly, that the winde is not alwayes <hi>ſtill,</hi> but ſometime <hi>ſtormy:</hi> and the Sea not alwayes <hi>calme,</hi> but ſometimes <hi>tempeſtuous.</hi>
+            </p>
+            <p>Thirdly, that there is no <hi>Commotion</hi> in the ayre, nor <hi>Concitation</hi> in the waters, but it is the Lords <hi>doing. For he commandeth.</hi>
+            </p>
+            <p>For the firſt, God is an <hi>univerſall Biſhop,</hi> all the places, and pariſhes in the world, are within his <hi>Dioceſſe</hi> and <hi>Iuriſdiction.</hi> His title is,<note place="margin">Mat. 11.25.</note> 
+               <hi>Lord of Hea<g ref="char:EOLhyphen"/>ven and Earth,</hi> ſo that all creatures from an <hi>Angel</hi> to an <hi>Ant,</hi> from a <hi>ſtarre</hi> in the <hi>Firmament,</hi> to a <hi>ſtone</hi> in the <hi>Pavement,</hi> are within his Territories and Dominions.</p>
+            <pb n="30" facs="tcp:3644:19"/>
+            <p>
+               <hi>All are thy ſervants</hi> ſaith the Pſalmiſt:<note place="margin">Pſal. 119.91.</note> and it is not <hi>omnes,</hi> for then it muſt bee reſtrained to <hi>Men</hi> and <hi>Angels;</hi> but <hi>omnia,</hi> a word of ſuch lati<g ref="char:EOLhyphen"/>tude, and comprehenſion that all things <hi>viſible</hi> and <hi>inviſible, rationall</hi> and <hi>irrationall, animate</hi> and <hi>inanimate,</hi> and in a word, the <hi>Kingdome</hi> of all cre<g ref="char:EOLhyphen"/>ated nature is concluded in it.<note place="margin">Pſal. 135.6.</note> 
+               <hi>Whatſoever the Lord pleaſeth that doth he in heaven and earth, in the ſeas and all deepe places.</hi>
+               <note place="margin">Pſal. 148.8.</note> 
+               <hi>And fire and haile, ſnow and vapours, ſtormes and winde fulfill his word.</hi> And the lightnings ſay unto him,<note place="margin">Iob 38, 35.</note> 
+               <hi>Here we are.</hi>
+            </p>
+            <p>The creatures beſide their <hi>naturall</hi> inclinati<g ref="char:EOLhyphen"/>ons have an <hi>obedientiall</hi> power,<note place="margin">Etiamſi Deus contraria juſſerit, hîc tamen magna eſt obedientia. <hi>Chryſ. Hom. in Pſal. 148.</hi>
+               </note> whence it comes to paſſe (ſaith <hi>Chryſoſtome</hi>) that though God com<g ref="char:EOLhyphen"/>mand them things contrary to their particular natures, yet they obey him.</p>
+            <p>
+               <hi>David</hi> aſkes the queſtion; <hi>What ayled thee O Sea that thou fleddeſt?</hi>
+               <note place="margin">Pſal. 114.5.</note> 
+               <hi>and thou Iordan that thou waſt driven backe?</hi> Had the Sea, or the River a <hi>tongue</hi> to ſpeake to us, as well as they have an <hi>eare</hi> when God ſpeakes to them, they would tell us that <hi>Vox Domini ſuper aquas,</hi>
+               <note place="margin">Pſal. 29.3.</note> 
+               <hi>the voice of the Lord was upon the waters,</hi> and ſo ſoone as they heard they were <hi>afraid.</hi> Or as it is in another Pſalme,<note place="margin">Pſal. 77.16.</note> 
+               <hi>The waters ſaw thee O God, the waters ſaw thee: they were afraid, the depths alſo were trou<g ref="char:EOLhyphen"/>bled.</hi> And as the <hi>commandement</hi> of God divided the waters, and controuled their courſe; ſo it di<g ref="char:EOLhyphen"/>vides the very flames of <hi>fire.</hi>
+               <note place="margin">Pſal. 29.7.</note> It is the property of fire to <hi>ſhine</hi> and to <hi>burne,</hi> our Saviour alludes to it when he ſayes <hi>Iohn Baptiſt</hi> was a <hi>ſhining</hi> &amp; a <hi>burning</hi> light; yet ſometime the fire <hi>burnes</hi> and
+<pb n="31" facs="tcp:3644:19"/>does not <hi>ſhine,</hi> and ſometimes it <hi>ſhines</hi> and doth not <hi>burne;</hi>
+               <note place="margin">Flamma Dei mandato dulciſſe<g ref="char:EOLhyphen"/>mam in ſe recipi<g ref="char:EOLhyphen"/>ens auram, ſua<g ref="char:EOLhyphen"/>vem pueris reſpi<g ref="char:EOLhyphen"/>rationem veluti ſub umbra qua<g ref="char:EOLhyphen"/>dam tranquillo in ſtatu conſtitu<g ref="char:EOLhyphen"/>tis praebuit. <hi>Baſil. m. in Pſal. 29.</hi>
+               </note> and ſo the Lord divideth the flames of fire. The fire in the fornace of Babylon ſhi<g ref="char:EOLhyphen"/>ned, for by the <hi>light</hi> thereof <hi>Nebuchadnezzar</hi> ſaw the three children, &amp; another with them like the Sonne of God; but as S. <hi>Chryſoſtome</hi> ſayes it did not <hi>urere,</hi> but <hi>irrorare,</hi> it did not <hi>burn</hi> them, but <hi>bedew</hi> them.</p>
+            <p>The fire in hell <hi>burnes,</hi> for it is a place of ex<g ref="char:EOLhyphen"/>treame <hi>heat,</hi> and a drop of water would be pur<g ref="char:EOLhyphen"/>chaſed at any rate; yet it <hi>ſhines</hi> not for it is a place of utter <hi>darkneſſe.</hi>
+               <note place="margin">Ipſe poteſt Solis currus inhibere volantes, Ipſe ve<g ref="char:EOLhyphen"/>lut ſcopulos flu<g ref="char:EOLhyphen"/>mina ſtare jubet.</note> By which inſtances we ſee, that as all things were created by God, ſo they are commanded by him, for the <hi>Potter</hi> hath power over his <hi>clay,</hi> and <hi>God</hi> over the <hi>workes</hi> of his owne hands.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> Muſt we not here needs breake out into thoſe words of wonderment and admiration; <note place="margin">Mat. 8.27.</note> 
+               <hi>Quis eſt iſte? Who is this, whom even the winde, and the Seas obey?</hi> Surely ſuch an one, <hi>beſides whom there is not ſuch another.</hi>
+               <note place="margin">Eſay 45.21.</note>
+            </p>
+            <p>Where is the <hi>Monarch</hi> that dare ſet down his foot upon the ſhore, and in the word of a King command the Sea to flow thus farre, and no fur<g ref="char:EOLhyphen"/>ther? <hi>Xerxes</hi> could not preſerve his bridge from the fury of the <hi>Helleſpont,</hi> for which cauſe hee co<g ref="char:cmbAbbrStroke">̄</g>manded it ſhould have three hundred ſtripes. Where is the man that in the time of drought, can lift up his voice unto the clouds, and wring one <hi>drop</hi> of raine out of their bottels?<note place="margin">Iob 38.34.</note> Where is he that can binde the ſweet influences of <hi>Pleia<g ref="char:EOLhyphen"/>des,</hi> or looſe the bands of <hi>Orion,</hi> or bring forth
+<pb n="32" facs="tcp:3644:20"/>
+               <hi>Mazzarath</hi> in his ſeaſon, and guide <hi>Arcturus</hi> and his ſonnes? Indeed <hi>Ioſhua</hi> the Captaine of <hi>Iſrael</hi> ſtayed the Sun in <hi>Gibeon,</hi> and the Moone in the valley of <hi>Aialon,</hi>
+               <note place="margin">Non imperavit, ſed impetravit.</note> till he was avenged of his ene<g ref="char:EOLhyphen"/>mies; but not by his <hi>command</hi> but by his <hi>confi<g ref="char:EOLhyphen"/>dence,</hi> not by his <hi>power</hi> but by his <hi>prayer.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> And ſhall we not now feare him that is the Lord of Hoſts, and hath the command of all the creatures? He can command the <hi>fire</hi> and it ſhall conſume us as it did <hi>Sodome,</hi> and her Cities. Hee can command the <hi>ayre</hi> and it ſhall ſpit upon our heads blaſtings, mildewes, peſtilent defluxions, and deſtroy us with thunder, lightening, or hail<g ref="char:EOLhyphen"/>ſtones as it did the <hi>Amorites.</hi> Hee can command the <hi>earth</hi> and it ſhall open her mouth, and ſwal<g ref="char:EOLhyphen"/>low us up quicke as it did <hi>Corah</hi> and his compa<g ref="char:EOLhyphen"/>ny. He can command the <hi>water</hi> to overflow us as it did the <hi>old</hi> world. Let us therefore ſancti<g ref="char:EOLhyphen"/>fie the Lord of Hoſts,<note place="margin">Eſay 8.13.</note> 
+               <hi>Let him be our feare, and let him be our dread.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> And ſhall we not alſo in all our neceſſities de<g ref="char:EOLhyphen"/>pend upon his providence? God can command the <hi>cloudes</hi> and they ſhall raine <hi>Quailes</hi> and <hi>Man<g ref="char:EOLhyphen"/>na</hi> as they did upon the <hi>Iſraelites.</hi> God can com<g ref="char:EOLhyphen"/>mand the <hi>rocke</hi> and it ſhall give thee <hi>water.</hi> God can command the <hi>Ravens</hi> and they ſhall feed thee. God can command a <hi>ſtone</hi> and it ſhall be<g ref="char:EOLhyphen"/>come <hi>Bread.</hi>
+            </p>
+            <p>Art thou caſt upon the bed of ſickneſſe? God can command a lumpe of figges to <hi>recover</hi> thee, nay he can <hi>rebuke</hi> thy diſeaſe, and it ſhall imme<g ref="char:EOLhyphen"/>diately leave thee.</p>
+            <pb n="33" facs="tcp:3644:20"/>
+            <p>Art thou at Sea and in danger of drowning? God can rebuke the windes, and waves. And if he ſuffer thee to ſhipwrack, he can prepare a fiſh to ſwallow thee, or a <hi>planke</hi> of the ſhip to con<g ref="char:EOLhyphen"/>vey thee to ſhore, as it fared with <hi>Paul</hi> and his company.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="4"/> And does not the obedience of the <hi>ſenſeleſſe,</hi> and <hi>inanimate</hi> creatures upbraid <hi>our</hi> diſobedi<g ref="char:EOLhyphen"/>ence,<note place="margin">Non mediocris pudor eſt, imperie Dei inſenſibilia elementa parere, &amp; homines non obedire. <hi>Ambr. Hexam. c. 1. de die 3.</hi>
+               </note> and rebellion? It is no ſmall ſhame, that the very inſenſible elements ſhould obey God, and men not obey him, ſaith S. <hi>Ambroſe.</hi> And as it is no ſmall <hi>ſhame,</hi> ſo no ſmall <hi>ſinne</hi> neither. One ſpeaking of the windes and waves when Chriſt rebuked them and allayed the Tempeſt, ſayes that it is to bee lamented with teares of <hi>blood,</hi> that all creatures ſhould be obedient, and man only rebellious, who hath <hi>reaſon</hi> to <hi>perſwade</hi> it,<note place="margin">Chemnit. har. Evangel.</note> 
+               <hi>religion</hi> to <hi>regulate</hi> it, and the <hi>promiſe</hi> of heaven to <hi>reward</hi> it.<note place="margin">Pſal. 148.6.</note> Heaven and earth have received or<g ref="char:EOLhyphen"/>dinances, and decrees from God and they doe not paſſe them. Man onely runnes ſnuffing up and downe like the wilde Aſſe, ſaying,<note place="margin">Pſal. 2.3.</note> 
+               <hi>Let us breake his bands, and caſt away his cords from us.</hi>
+            </p>
+            <p>God promiſes his people in the Prophet that he would take away from them their hearts of <hi>ſtone,</hi> and give them hearts of <hi>fleſh.</hi>
+               <note place="margin">Bonaventure.</note> But one in a ſtrange exaltation of devotion, deſires rather to <hi>keepe</hi> his heart of ſtone then to <hi>change</hi> it for an heart of fleſh. The Tables of <hi>ſtone</hi> received the impreſſion of the Law, when the hearts of <hi>fleſh</hi> would not. Nay the <hi>ſtones</hi> flew in pieces at the paſſion of our <hi>Saviour,</hi> when the hearts of <hi>fleſh</hi>
+               <pb n="34" facs="tcp:3644:21"/>relented not at ſo ſad a ſpectacle. God hath ſent us to ſchoole to ſome creatures to learne the leſ<g ref="char:EOLhyphen"/>ſon of <hi>diligence,</hi>
+               <note place="margin">Prov. 6.6.</note> 
+               <hi>Goe to the Ant thou ſluggard, con<g ref="char:EOLhyphen"/>ſider her wayes, and be wiſe.</hi> To ſome creatures to learne the leſſon of <hi>thankfulneſſe,</hi>
+               <note place="margin">Eſay 1.3.</note> 
+               <hi>The Ox knoweth his owner, and the Aſſe his Maſters crib.</hi> To ſome creatures to learne the leſſon of timely and ſea<g ref="char:EOLhyphen"/>ſonable <hi>repentance, The ſtorke in the heaven know<g ref="char:EOLhyphen"/>eth her appointed time,</hi>
+               <note place="margin">Jerem. 3.7.</note> 
+               <hi>and the Turtle, and the Crane, and the ſwallow obſerve the time of their comming.</hi> To ſome creatures to learne the leſſon of <hi>obedi<g ref="char:EOLhyphen"/>ence,</hi> as here to the windes and waves; <hi>For hee commandeth and raiſeth up the ſtormy windes, which lift up the waves thereof.</hi>
+            </p>
+            <p>The <hi>ſecond</hi> concluſion was this.<note place="margin">Second part.</note> The winde is not alwayes <hi>ſtill</hi> but ſometimes <hi>ſtormie;</hi> the Sea not alwayes <hi>calme,</hi>
+               <note place="margin">Quocun<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> aſpici<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> nihil eſt niſi pontus &amp; aether, Fluctibus hic tu<g ref="char:EOLhyphen"/>midus, nubibus ille minax. <hi>Ovid. I 1. Triſt. eleg. 2. Amos 4.13. Iohn 3.8.</hi>
+               </note> but ſometimes <hi>tempeſtuous.</hi> The <hi>winde</hi> is one of Gods workes for he createth it, and one of his wonders too, <hi>For it bloweth where it liſteth, and thou heareſt the ſound thereof, but doſt not know whence it comes, nor whither it goes.</hi> He that would know the commodities and con<g ref="char:EOLhyphen"/>veniences of this creature, let him read S. <hi>Chry<g ref="char:EOLhyphen"/>ſoſtome,</hi> or <hi>Seneca</hi> in his naturall queſtions,<note place="margin">Chryſan Pſal. 135. Sen. lib. 5. cap. 18.</note> who tell us that the winde <hi>purgeth</hi> the ayre, <hi>divides</hi> and diſperſeth the clouds, <hi>ripens</hi> the fruits of the earth, <hi>maintaines</hi> the traffique and commerce of thoſe nations that are rent one from the other by the deep waters, &amp;c. but my Text determines me only to <hi>ſtormes</hi> and <hi>tempeſts.</hi>
+            </p>
+            <p>True is it which <hi>Salomon</hi> ſaith, <hi>God hath made every thing beautifull in its ſeaſon.</hi>
+               <note place="margin">Eccleſ. 3.11.</note> And even
+<pb n="35" facs="tcp:3644:21"/>
+               <hi>ſtormes</hi> and <hi>tempeſts</hi> are <hi>arguments</hi> of Gods <hi>power, inſtruments</hi> of his <hi>vengeance,</hi> and <hi>documents</hi> of our <hi>lives.</hi>
+            </p>
+            <p>Firſt, they are <hi>Arguments</hi> of his <hi>power,</hi>
+               <note place="margin">
+                  <hi>1</hi> Argumenta di<g ref="char:EOLhyphen"/>vinae potentiae.</note> and ſo ſerve to imprint upon us not an <hi>acknowledge<g ref="char:EOLhyphen"/>ment</hi> onely, but an <hi>awe</hi> of a Deity.<note place="margin">Coelo tonantem credimus Jo<g ref="char:EOLhyphen"/>vem segnare. <hi>Horat. l. 3. Car. ode 5.</hi>
+               </note>
+            </p>
+            <p>When God delivered the Law upon mount <hi>Sinai,</hi> the mountaine burned with fire, and the ayre was troubled with ſuch claſhing and colli<g ref="char:EOLhyphen"/>ſion of the clouds, and with ſuch thunders and lightenings, that the <hi>feare</hi> of God fell upon the people, and they promiſe religiouſly to obſerve his ſtatutes, and to keepe his commandements.</p>
+            <p>When God paſſed by his Prophet <hi>Elijah,</hi> a great and a ſtrong winde went before him, ren<g ref="char:EOLhyphen"/>ding the mountaines, and breaking the rocks in pieces, and <hi>Elijah</hi> was ſo affected with the ap<g ref="char:EOLhyphen"/>prehenſion of Gods Majeſtie that hee wrapped his <hi>face</hi> in his mantle.</p>
+            <p>When God talked with his ſervant <hi>Iob</hi> it was <hi>è turbine,</hi> out of the whirlewinde,<note place="margin">Iob 40.6. et 42.2.</note> and then <hi>Iob</hi> breakes out into the confeſſion of his owne vile<g ref="char:EOLhyphen"/>neſſe, and Gods power. <hi>I know thou canſt doe eve<g ref="char:EOLhyphen"/>ry thing.</hi> And indeed what cannot hee doe that maketh a thin <hi>exhalation</hi> which is of ſo ſubtile a ſubſtance that no eye can diſcerne it, to bee ſo vehement and impetuous, that many times it o<g ref="char:EOLhyphen"/>verthrowes houſes, and turnes up the Cedars of <hi>Libanus</hi> by the roots? That tempeſt in the pro<g ref="char:EOLhyphen"/>phecy of <hi>Ionas</hi> produced the ſame effect in the Mariners, for they were <hi>afraid,</hi> and <hi>cryed</hi> every man upon his God, and were juſtly angry with
+<pb n="36" facs="tcp:3644:22"/>the Prophet who was upon his <hi>pillow,</hi> when hee ſhould have beene at his <hi>prayers.</hi> And I make no queſtion but many of you here preſent will con<g ref="char:EOLhyphen"/>feſſe ingenuouſly, that the <hi>roaring</hi> windes, and the <hi>raging</hi> Seas have made ſuch deepe impreſſi<g ref="char:EOLhyphen"/>ons of feare and terrour in you, that you are much the better for it, more humble, more de<g ref="char:EOLhyphen"/>vout, and your ſoules faſter tied to God by vows, and promiſes of new obedience.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> Secondly, <note place="margin">Inſtrumenta di<g ref="char:EOLhyphen"/>vinae vindictae.</note> 
+               <hi>ſtormes</hi> and <hi>tempeſts</hi> in the ayre and waters, are <hi>inſtruments</hi> of divine <hi>vengeance.</hi> It is the opinion of <hi>Epiphanius</hi> that it was a ſtorme that overthrew the proud tops of <hi>Babel</hi> and blew that vaſt building into an heape of confuſion. Sure I am <hi>God</hi> uſed this whip to ſcourge the diſ<g ref="char:EOLhyphen"/>obedience of <hi>Ionas,</hi> for when he fled from the preſence of the Lord, a great winde was ſent out after him,<note place="margin">
+                  <hi>Tanquam fidele mancipium.</hi> in hom. de Jona.</note> which as a faithfull ſervant or purſi<g ref="char:EOLhyphen"/>vant ſaith S. <hi>Chryſoſtome</hi> arreſted the run-away Prophet, and returned him backe againe to his <hi>Maſter.</hi> When <hi>Iehoſhaphat</hi> had joyned himſelfe with <hi>Ahaziah</hi> that wicked King of <hi>Iſrael,</hi> his navie which he had provided was broken in pie<g ref="char:EOLhyphen"/>ces with foule weather,<note place="margin">2 Chron. 20.37.</note> ſo that it could not goe to <hi>Tarſhiſh.</hi>
+            </p>
+            <p>How many goodly tall ſhips which have born the names of Lyons,<note place="margin">Quamvis Pon<g ref="char:EOLhyphen"/>tica pinus, ſylve fila nobilis, ja<g ref="char:EOLhyphen"/>ctes &amp; genus, &amp; nomen inutile. <hi>Horat. l. 1. Car. ode 14.</hi>
+               </note> Beares, Leopards and ſuch terrible creatures, have beene ſwallowed and ſuckt up of a tempeſt, as a ſtraw of a whirlepoole. I cannot but remember that <hi>Navie</hi> which was ſent to invade us in the yeare 88. which they chriſtned <hi>invincible,</hi> but we in this have played
+<pb n="37" facs="tcp:3644:22"/>the <hi>Anabaptiſts:</hi> and chriſtned it againe with <hi>Lu<g ref="char:EOLhyphen"/>dibrium ventorum,</hi> the ſcorne of the windes,<note place="margin">Tu niſi ventis de<g ref="char:EOLhyphen"/>bes Ludibrium, cave, <hi>Horat. ib.</hi>
+               </note> a fit<g ref="char:EOLhyphen"/>ter name for it. For the windes and waves conſpired ſo happily together for our ſafety and their deſtruction, that one of their owne (and upon him bee the boldneſſe of the phraſe) con<g ref="char:EOLhyphen"/>feſſes <hi>God</hi> in that buſineſſe declared himſelfe to be a <hi>Lutheran.</hi> How fitly may that of the <hi>Pſal<g ref="char:EOLhyphen"/>miſt</hi> be applyed to our purpoſe.<note place="margin">Pſal. 8.3.</note> 
+               <hi>They took crafty counſel together, &amp; conſulted againſt thy people; come ſaid they let us cut them off from being a nation, that the name of England may be no more in reme<g ref="char:cmbAbbrStroke">̄</g>brance; yea let us take to our ſelves the houſes of God in poſ<g ref="char:EOLhyphen"/>ſeſsion. But thou O God diddeſt perſecute them with thy tempeſt, and madeſt them afraid with thy ſtorme; thou filledſt their faces with ſhame, ſo that they were confounded, and troubled for ever, and now men may know, that thou whoſe name alone is Iehovah, art the moſt high over all the earth.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> Thirdly <hi>ſtormes</hi> and <hi>tempeſts</hi> are the <hi>documents</hi> and <hi>inſtructions</hi> of our <hi>lives,</hi> 
+               <note place="margin">Documenta hu<g ref="char:EOLhyphen"/>manae vitae.</note> for in their loud ac<g ref="char:EOLhyphen"/>cent they read us this <hi>Lecture,</hi> that we muſt not alwayes expect a <hi>ſerenity</hi> of <hi>peace,</hi>
+               <note place="margin">Saeculum hoc tibi mare eſt: habet diuerſos fluctus, undas graves, ſaevas tempeſtates <hi>Ambr. l. 3. de ſa<g ref="char:EOLhyphen"/>cram. cap. 1. Acts 27.13.14.</hi>
+               </note> but ſometimes a <hi>ſtorme</hi> of <hi>Perſecution:</hi> nor alwayes enjoy a <hi>calme</hi> of <hi>content,</hi> but ſometimes bee exerciſed with a <hi>tempeſt</hi> of <hi>Tribulation.</hi>
+            </p>
+            <p>
+               <hi>Paul</hi> and his company when they firſt looſed from the Haven had as faire weather as could blow, but <hi>non multò poſt</hi> ſayes the text, <hi>not long after,</hi> there aroſe a te<g ref="char:cmbAbbrStroke">̄</g>peſtuous winde w<hi rend="sup">ch</hi> toſſed them ſo exceedingly that all hope of being ſaved was taken away from them. <hi>Iob</hi> in the morning
+<pb n="38" facs="tcp:3644:23"/>was the richeſt man in the Eaſt, yet <hi>non multò poſt</hi> not long after a tempeſt was raiſed, and the meſ<g ref="char:EOLhyphen"/>ſengers come in like the waves of the Sea one in the necke of another, and of all his ſheepe and oxen he hath not ſo much as a <hi>Lambe</hi> left to offer for a <hi>ſacrifice.</hi>
+            </p>
+            <p>If the ayre was not ſometimes fanned, and ventilated with <hi>tempeſts,</hi> it would <hi>corrupt,</hi> and become full of unwholeſome, and contagious vapours.</p>
+            <p>If a <hi>Chriſtian</hi> was not ſometime exerciſed with croſſes and afflictions, and duckt over head and eares in ſalt water; pride, ſecurity, and an immoderate love of the world would grow up<g ref="char:EOLhyphen"/>on him. Iron though it be never ſo bright, yet if it be not uſed will <hi>ruſt;</hi> Ground be it never ſo good, yet if it be not tilled and plowed will bee overgrowne with <hi>weedes;</hi> The body be it never ſo luſty, yet if it want exerciſe will be obſtructed with <hi>groſſe</hi> and <hi>ill</hi> humours. Let a Chriſtian be never ſo well weighed, and the frame of his ſoule never ſo well moulded, yet if the waves and bil<g ref="char:EOLhyphen"/>lowes of afflictions goe not ſometimes over him, he will contract ſoyle and corruption. See how the ſoule of that wiſe King <hi>Salomon</hi> melted, and thawed into a wanton <hi>effeminateneſſe,</hi> and <hi>decli<g ref="char:EOLhyphen"/>nation</hi> in religion: and a wiſe man may ſpell ſomething out of thoſe words,<note place="margin">1 King. 5.4.</note> 
+               <hi>He had no adver<g ref="char:EOLhyphen"/>ſary, nor evill occurrent;</hi> and therefore God rai<g ref="char:EOLhyphen"/>ſes up a ſtorme of war, and ſtirres up an adverſa<g ref="char:EOLhyphen"/>ry unto <hi>Salomon.</hi>
+               <note place="margin">1 King. 11.14.</note>
+            </p>
+            <p>Againe as ſtormes at Sea exerciſe the abilities,
+<pb n="39" facs="tcp:3644:23"/>and experience of a Mariner: ſo doe croſſes the graces of a Chriſtian. What tryes the valour of a <hi>ſouldier?</hi> The <hi>battle.</hi> What tryes the ſkill of a <hi>Pilot?</hi> A <hi>tempeſt.</hi> What tryes the graces of a <hi>Chriſtian? Adverſity. Iob</hi> you know had loſt all but his <hi>wife,</hi> and his <hi>life;</hi> and if his wiſe was no better then the Tranſlation makes her, it had beene no matter if he had loſt her too; now ſee how he ſtood to his <hi>tacklings,</hi> and how bravely he <hi>rid</hi> out this ſtorme, <hi>The Lord</hi> (ſayes hee) <hi>hath given, and the Lord hath taken away, bleſſed be the name of the Lord. Yea though the Lord kill me, yet will I truſt in him.</hi>
+            </p>
+            <p>Laſtly, a ſtorme makes the weather-beaten Mariner deſire nothing ſo much as his <hi>haven,</hi> therefore is it in this Pſalme called the <hi>deſired ha<g ref="char:EOLhyphen"/>ven.</hi>
+               <note place="margin">verſe 3.</note> And ſurely were not our life <hi>inroughed</hi> with ſome <hi>tempeſts</hi> and <hi>imbittered</hi> with ſome <hi>troubles,</hi> we ſhould ſay as <hi>Peter</hi> did upon mount <hi>Tabor, It is good for us to be here,</hi> and ſo love our <hi>way</hi> inſtead of our <hi>countrie,</hi> and never deſire to make that <hi>Port</hi> of peace, and <hi>Haven</hi> of all happineſſe the Kingdome of <hi>Heaven.</hi> When <hi>David</hi> lay under a ſtorme of perſecution, his ſoule breakes out into theſe deſires, and wiſhes;<note place="margin">Pſal. 55.6.8.</note> 
+               <hi>O that I had wings like a Dove, then would I flee away and be at reſt: yea I would haſten my eſcape from the ſtormy winde, and tempeſt.</hi>
+            </p>
+            <p>And ſo we come to the third and laſt part of the Text, which is this; There is no ſtorme in the ayre, nor tempeſt in the Sea: no <hi>commotion</hi> in the one, nor <hi>concitation</hi> in the other,<note place="margin">Third part.</note> but it is
+<pb n="40" facs="tcp:3644:24"/>the Lords <hi>doing,</hi> for <hi>ipſe dinit,</hi> hee commandeth.</p>
+            <p>A Chriſtian acknowledges no other <hi>Aeolus</hi> for the windes, nor <hi>Neptune</hi> for the waters, then God.<note place="margin">Ionas 1.4.</note> That great winde which arreſted <hi>Ionas</hi> was of Gods ſending, for <hi>Dominus injecit,</hi> ſaith the Text, the Lord hurld it upon them.</p>
+            <p>The blaſts of winde are called the <hi>breath</hi> of his <hi>noſtrils.</hi>
+               <note place="margin">Pſal. 18.15.</note> 
+               <hi>David</hi> tels us there are certain ſtore<g ref="char:EOLhyphen"/>houſes or <hi>treaſuries</hi> of the winde, (and well may the winde be compared to treaſure, for it brings it in) and the <hi>treaſurer</hi> or <hi>ſtorekeeper</hi> is the Lord. <hi>He cauſeth the vapours to aſcend from the ends of the earth,</hi>
+               <note place="margin">Pſal. 135.7.</note> 
+               <hi>hee maketh lightnings for the raine, he bringeth the winde out of his treaſuries,</hi> and diſ<g ref="char:EOLhyphen"/>patches this winged meſſenger into all quar<g ref="char:EOLhyphen"/>ters.</p>
+            <p>And as he is the God of the <hi>windes,</hi> ſo of the <hi>waters</hi> too. <hi>His way is in the Sea, and his path in the great waters.</hi>
+               <note place="margin">Pſal. 77.19.</note> His <hi>mandate</hi> is the <hi>Mace</hi> or <hi>Tri<g ref="char:EOLhyphen"/>dent,</hi> which can allay the waves, or make them ſwell to ſuch an height as if they would quench the very lights of heaven.</p>
+            <p>
+               <note place="margin" type="runSum">Object.</note> But that great Tempeſt which overthrew the houſe wherein <hi>Iobs</hi> children were feaſting was raiſed by the devill. And travellers affirme that in <hi>Lapland</hi> and ſome other countries a man may buy a winde, and purchaſe a ſpeedy paſſage. <hi>Sui<g ref="char:EOLhyphen"/>das</hi> reports that in <hi>Corinth</hi> there was a family which could allay the windes,<note place="margin">
+                  <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Veutis opii.</note> for which cauſe they were much reverenced, and eſteemed of Mariners. And if at any time the ayre bee trou<g ref="char:EOLhyphen"/>bled with extraordinary tompeſts, the opinion
+<pb n="41" facs="tcp:3644:24"/>and ſpeech of people is that ſome <hi>witch</hi> or <hi>conju<g ref="char:EOLhyphen"/>rer</hi> is ſtirring.</p>
+            <p>
+               <note place="margin" type="runSum">Anſw.</note> It cannot bee denyed but the devill who is Prince of the ayre can doe ſtrange things in that element; And that witches and conjurers who have an intereſt in his <hi>power,</hi> as he hath in their <hi>ſoules</hi> can do more then ordinary. Yet co<g ref="char:cmbAbbrStroke">̄</g>cerning the winde that oppreſſed <hi>Iobs</hi> children, the text does not ſay the devill raiſed it, but onely that it came out of the wilderneſſe. God did raiſe it, though the devill made uſe of it when it was rai<g ref="char:EOLhyphen"/>ſed. Or if wee ſay that the devill raiſed it, then <hi>Chryſoſtome</hi> and <hi>Origen</hi> deny that it was a true winde, but an ayre like unto it.<note place="margin">
+                  <hi>Ae<g ref="char:cmbAbbrStroke">̄</g>rvento ſimills</hi> v. etiam Pined, in Iob 1.</note> The <hi>Sorcerers</hi> could not doe the <hi>ſame</hi> miracles that <hi>Moſes</hi> did, yet they could doe in <hi>like</hi> manner: So the de<g ref="char:EOLhyphen"/>vils I beleeve cannot make a winde, yet they can counterfeit and come very neare it. If a man have a fan in his hand he may ventilate, and agi<g ref="char:EOLhyphen"/>tate the ſtill ayre into a winde: how much more may the devils by the greatneſſe of their <hi>power,</hi> and ſwiftneſſe of their <hi>motion,</hi> ſo compreſſe and agitate the ayre as to throw downe houſes. And I thinke the windes that are bought and ſold are no other. What the ſtrength of the ayre is when it is compreſſed, and moved violently wee may ſee in the breath of a bullet, which ſometimes, kills that man it never touches. It is an eaſie mat<g ref="char:EOLhyphen"/>ter for the devill then if God ſuffer it, to drive a ſhip at Sea which way he pleaſes, whoſe motion is more ſwift, and violent then that of a bullet. And God ſuffers much for the triall of our faith,
+<pb n="42" facs="tcp:3644:25"/>and bringing about the paſſages of his ſecret, but moſt juſt providence.</p>
+            <p>So then, no true winde is raiſed but by God, for <hi>he it is that formeth the mountaines, and createth the winde:</hi>
+               <note place="margin">Amos 4.13.</note> nor nothing like a winde but by his <hi>permiſsion,</hi> for hee hath the devill as a dog in a chaine, and this dog cannot ceaze upon a ſwine without leave. I dare ſay that if the devill could raiſe a tempeſt when, and where he pleaſed, he would ſtrike the foure corners of our <hi>Temples,</hi> and bury us all in their ruines, when we meet to<g ref="char:EOLhyphen"/>gether to offer up our ſacrifice of praiſe, and prai<g ref="char:EOLhyphen"/>ers to Almighty God.</p>
+            <p>Now is it thus that ſtormes and tempeſts are the Lords <hi>doing,</hi> and the <hi>ſinger</hi> of God, were not the heathen <hi>Philoſophers</hi> in an errour thinke you that chained up God in the circle of the heavens and confined him, and his providence to the Sphere of the Moone, ſuppoſing him either too <hi>lazie,</hi> or too <hi>buſie</hi> to intend ſublunary affaires? The ſoule informes all the members of the bo<g ref="char:EOLhyphen"/>dy, the foot, or finger as well as the head: So <hi>God</hi> who is the <hi>ſoule</hi> of this great body the world rules and governes every part, and limbe of it, how little, or remote ſoever. In heaven he is a <hi>Glorious</hi> God, in earth he is a <hi>Gracious</hi> God, in the ayre he is an <hi>angry</hi> God, in the Sea hee is a <hi>terrible</hi> God, in hell he is a <hi>juſt</hi> God, ſo that God is every where, and whereſoever he is, he is God <hi>bleſſed for evermore.</hi> But you of the tribe of <hi>Ze<g ref="char:EOLhyphen"/>bulon</hi> may hence learne, to whom to <hi>direct</hi> your prayers, and <hi>addreſſe</hi> your devotions when
+<pb n="43" facs="tcp:3644:25"/>ſtormes, and tempeſts threaten you with deſtru<g ref="char:EOLhyphen"/>ction. We muſt not with the Heathen invocate the ſtarre of <hi>Venus,</hi> or the two brethren <hi>Caſtor</hi> and <hi>Pollux,</hi> or <hi>Aeolus</hi> the father of the windes, as <hi>Horace</hi> did for his friend <hi>Virgil</hi> when he ſailed to <hi>Athens;</hi> nor with the ſuperſtitious Papiſt muſt we invocate S. <hi>Nicholas;</hi> but with the diſciples we muſt goe unto Chriſt and awaken him with our prayers, ſaying, <hi>Maſter ſave us or elſe we pe<g ref="char:EOLhyphen"/>riſh,</hi> for he it is that <hi>raiſes</hi> the ſtorme, and he on<g ref="char:EOLhyphen"/>ly it is that can <hi>rebuke</hi> it. <hi>O Lord God of hoſts,</hi>
+               <note place="margin">Pſal. 89.8, 9.</note> 
+               <hi>who is a ſtrong Lord like unto thee? for thou ruleſt the ra<g ref="char:EOLhyphen"/>ging of the Sea, and when the waves thereof ariſe thou ſtilleſt them. The floods have lifted up O Lord,</hi>
+               <note place="margin">Pſal. 93.3, 4.</note> 
+               <hi>the floods have lifted up their voice, the floods have lifted up their waves; But the Lord on high is mightier then the noiſe of many waters, yea then the mighty waves of the Sea.</hi>
+            </p>
+            <p>And then be not diſcouraged with thoſe dan<g ref="char:EOLhyphen"/>gers which attend your profeſſion, ſith nothing befalls you but what comes by Gods <hi>commande<g ref="char:EOLhyphen"/>ment,</hi> and providence. I am not of his opinion that ſayes that God made the Sea onely for the beauty of the element, not for the art of Navi<g ref="char:EOLhyphen"/>gation. True it is that many have been drown<g ref="char:EOLhyphen"/>ed at <hi>Sea,</hi> and as true that far more have dyed in their <hi>beds. Moſes</hi> when he bleſſed <hi>Zabulon,</hi> bade him <hi>Rejoyce in his going out;</hi> and that you may doe ſo, conſider that no ſtorme is raiſed by the <hi>malignity</hi> of the ſtarres by the <hi>miſchiefe</hi> of For<g ref="char:EOLhyphen"/>tune, or by the <hi>malice</hi> of the devill, but by the <hi>power</hi> and <hi>appointment</hi> of a good God.</p>
+            <pb n="44" facs="tcp:3644:26"/>
+            <p>Looke up to the <hi>croſſe</hi> in your Flagges, and re<g ref="char:EOLhyphen"/>member him who was the beloved Sonne of his Father, yet <hi>David</hi> prophecyed of him, that <hi>all the waves and billowes ſhould goe over him,</hi>
+               <note place="margin">Pſal. 42.7.</note> not the bil<g ref="char:EOLhyphen"/>lowes of <hi>waters,</hi> but of Gods <hi>wrath.</hi> And remem<g ref="char:EOLhyphen"/>ber that the <hi>Church</hi> your <hi>Mother</hi> is mindefull of you, and commends the eſtate of all ſuch as tra<g ref="char:EOLhyphen"/>vell by land, or water to Gods care, cuſtody, pro<g ref="char:EOLhyphen"/>vidence, and protection. Now that God which led his people through the red Sea into the land of <hi>Canaan,</hi> lead you through the dangers of the deepe, and the waves of this world into the land of reſt, the Kingdome of Heaven. <hi>Amen.</hi>
+            </p>
+         </div>
+         <div type="sermon">
+            <pb n="45" facs="tcp:3644:26"/>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>PSAL. 107.26, 27.</hi>
+                  </bibl>
+                  <p>They mount up to heaven, they goe downe again to the depths, their ſoule is melted becauſe of trouble. They reele to and fro, and ſtagger like a drunken man, and are at their wits end.</p>
+               </q>
+            </epigraph>
+            <p>WEE have already ſeene the Sea<g ref="char:EOLhyphen"/>mans dangers in their cauſes, both principal which is Gods command; and inſtrumentall, the windes and the waves.</p>
+            <p>Now when all theſe meet together at Sea, as they did but lately in the Text, it muſt needs be foule weather, and both <hi>Ships,</hi> and <hi>Saylours</hi> in great danger. For what can <hi>man</hi> doe when <hi>God</hi> hath once given the word, or how can a piece of wood hold out when it is aſſaulted on all ſides with two furious Elements the wind, and water? The parts of the Text are as the Verſes, two.</p>
+            <p>
+               <hi>Firſt,</hi> the <hi>danger</hi> it ſelfe in a violent, and con<g ref="char:EOLhyphen"/>trary motion of <hi>elevation,</hi> and <hi>depreſsion:</hi> for the ſhip riding upon the backe of a vaſt, and moun<g ref="char:EOLhyphen"/>tainous billow ſeemes to faile in the cloudes; but the treacherous and deceitfull billow ſliding from it, throwes it into ſuch depths,<note place="margin">Vix eminet ae<g ref="char:EOLhyphen"/>quore malus.</note> that the top maſt is hardly diſcerned.</p>
+            <p>The <hi>ſecond,</hi> are the ſad conſequences, and at<g ref="char:EOLhyphen"/>tendants of this danger, and they are <hi>three.</hi>
+            </p>
+            <pb n="46" facs="tcp:3644:27"/>
+            <list>
+               <item> 
+                  <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1. <hi>Exanimation,</hi> and Feare. <hi>Their ſoule is mel<g ref="char:EOLhyphen"/>ted.</hi>
+               </item>
+               <item> 
+                  <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2. <hi>Vacillation,</hi> and ſtaggering, illuſtrated from the <hi>ſimile</hi> of a drunken man.</item>
+               <item> 
+                  <milestone type="tcpmilestone" unit="unspecified" n="3"/> 3. <hi>Stupefaction</hi> and aſtoniſhment. <hi>They are at their wits end.</hi> And indeed many times they are ſo, before they be halfe way in their <hi>voy<g ref="char:EOLhyphen"/>age.</hi>
+               </item>
+            </list>
+            <p>Firſt of the danger, <hi>They mount up to heaven, they goe downe againe to the depths.</hi> The Jewes de<g ref="char:EOLhyphen"/>rided the Goſpell of S. <hi>Iohn</hi> becauſe they read in it, that if every thing that Chriſt did was writ<g ref="char:EOLhyphen"/>ten, the world it ſelfe could not containe the Bookes that ſhould be written.<note place="margin">lib. 2. epiſtol. ep. 99.</note> But <hi>Iſidore Peluſ.</hi> juſtifies S. <hi>Iohn</hi> by many expreſſions of the like nature.</p>
+            <p>God promiſed <hi>Abraham</hi> that he would make his ſeed as the duſt of the earth.<note place="margin">Gen. 13.16.</note> Yet who ſees not ſaith S. <hi>Auguſtine</hi> but the graines of duſt are incomparably more numerous then all the ſons of men;<note place="margin">l. 16. de civit. Dei. c. 21.</note> yet God ſpeaks not of the whole world, but of ſuch onely as ſhould deſcend from the loynes of <hi>Abraham,</hi> and ſuch as ſhould bee ac<g ref="char:EOLhyphen"/>counted his children as he was the <hi>Father</hi> of the faithfull.</p>
+            <p>It is ſaid of the Cities of the <hi>Amorites</hi> that they were walled up to heave<g ref="char:cmbAbbrStroke">̄</g>;<note place="margin">Deut. 1.28.</note> but he that would raiſe a wall ſo high muſt lay the foundation as low as the Center of the earth, and we ſee in the ſtorie of <hi>Nimrod</hi> that God would not ſuffer ſuch bold undertakings.<note place="margin">Exod. 3.17.</note>
+            </p>
+            <p>It is reported of the land of <hi>Canaan</hi> that it was
+<pb n="47" facs="tcp:3644:27"/>a land flowing with milk and honie; and yet I be<g ref="char:EOLhyphen"/>leeve there were no ſuch rivers in <hi>Paradiſe.</hi> And it is here ſaid that ſuch ſometimes is the violence of the windes, and the elevation of the waters, that ſhips are mounted to heaven, and caſt down to hell, and <hi>David</hi> ſayes no more then what ma<g ref="char:EOLhyphen"/>ny have ſaid after him.</p>
+            <q>
+               <lg>
+                  <l>
+                     <hi>Tollimur in coelum curvato gurgite,</hi>
+                     <note place="margin">Virg. Aeneid. 3.</note> 
+                     <hi>&amp; iidem</hi>
+                  </l>
+                  <l>
+                     <hi>Subductâ ad Manes imos deſcendimus undâ.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>We mount to heaven, or dive to hell</hi>
+                  </l>
+                  <l>
+                     <hi>As wanton billowes ſinke, or ſwell.</hi>
+                  </l>
+               </lg>
+            </q>
+            <q>
+               <lg>
+                  <l>
+                     <hi>Me miſerum quanti montes volvuntur aquarum!</hi>
+                     <note place="margin">Ovid. l. 1. Triſt. eleg. 2.</note>
+                  </l>
+                  <l>
+                     <hi>Iamjam tacturos ſyder a ſumma putes:</hi>
+                  </l>
+                  <l>
+                     <hi>Quantae diducto ſubſidunt aequore valles!</hi>
+                  </l>
+                  <l>
+                     <hi>Iamjam tacturas Tartara nigraputes.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Wretch that I am ſuch hills of water riſe</hi>
+                  </l>
+                  <l>
+                     <hi>As ſeeme to touch the heavens, and waſh the skies:</hi>
+                  </l>
+                  <l>
+                     <hi>And in a trice ſuch gaping gulfes appeare,</hi>
+                  </l>
+                  <l>
+                     <hi>As if that way to hell a paſſage were.</hi>
+                  </l>
+               </lg>
+            </q>
+            <q>
+               <lg>
+                  <l>
+                     <hi>Nubila tanguntur velis, &amp; terra carina.</hi>
+                     <note place="margin">Lucan. l.5.</note>
+                  </l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>The top-ſailes touch the clouds, the keele the ſands.</hi>
+                  </l>
+               </lg>
+            </q>
+            <p>Now theſe and the like <hi>hyperbolicall</hi> expreſſi<g ref="char:EOLhyphen"/>ons are not to be underſtood preciſely according to the <hi>ſound,</hi> but according to the <hi>ſenſe;</hi> and they intimate thus much, that the miracles of Chriſt
+<pb n="48" facs="tcp:3644:28"/>were very <hi>many,</hi> that the ſeed of <hi>Abraham</hi> was very <hi>numerous,</hi> that the walls of the <hi>Amorites</hi> were very <hi>high,</hi> that the fruitfulneſſe of <hi>Canaan</hi> was very <hi>much,</hi> and that the dangers of the Sea are very <hi>great;</hi> and indeed ſuch a <hi>Poeticall</hi> and <hi>ſuperlative</hi> expreſſion was the fitteſt for this <hi>Ar<g ref="char:EOLhyphen"/>gument.</hi>
+            </p>
+            <p>The <hi>Poet</hi> will not be perſwaded but he had an heart of oake,<note place="margin">Ille robur, &amp; aes triplex circa pe<g ref="char:EOLhyphen"/>ctus erat, &amp;c. <hi>Horat. l. 1. Car. ode 3.</hi> Aut inſanit, aut mori cupit, aut mendicus eſt. <hi>Alex. in Stob.</hi> I nunc &amp; ventis animam commit<g ref="char:EOLhyphen"/>te, dolato confiſus ligne, digitis a morte remotus quatuor, aut ſep<g ref="char:EOLhyphen"/>tem, ſi ſit latiſſi<g ref="char:EOLhyphen"/>ma taeda. <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Nam propè tam lethum, quam propè cernit a<g ref="char:EOLhyphen"/>quam. <hi>Ovid. l. 2. de Ponto. Acts 27.18.</hi>
+               </note> or braſſe that firſt adventured to Sea, and truſted himſelf in a wooden veſſell with that mercileſſe element. And another will not beleeve but hee that goes to Sea is either a <hi>mad</hi> man, or a <hi>beggar,</hi> or deſirous to <hi>die.</hi>
+            </p>
+            <p>
+               <hi>Anacharſis</hi> be aſked whether the number of the dead, or the living was the greater; anſwered that he knew not in what number to reckon ma<g ref="char:EOLhyphen"/>riners, and having learnt that the thickneſſe of a ſhip was but foure fingers, ſaid, there was no more diſtance betwixt them and death. Let a ſhip bee built as ſtrong as art can poſſibly make her, let her bee laden with gold, ſilver, and the moſt precious commodities, let her cary never ſo many guns, let her beare the name of ſome dreadfull and hideous monſter, yet the winde playes with it as a toy, and the waves toſſe it as a tennis ball, as S. <hi>Paul</hi> ſaith of the ſhip wherein he ſailed, <hi>that ſhe was exceedingly toſſed.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> Now if the danger bee ſo great that you are mounted up to heaven and throwne downe a<g ref="char:EOLhyphen"/>gaine into the depths, dare any of you venture to Sea, till you have <hi>mounted</hi> up to heaven on the wings of <hi>prayer,</hi> that Gods power, and protecti<g ref="char:EOLhyphen"/>on
+<pb n="49" facs="tcp:3644:28"/>would goe along with you, and gone downe into the <hi>depths</hi> of your own hearts by <hi>repentance,</hi> and <hi>confeſsion</hi> of your ſinnes?</p>
+            <p>S. <hi>Ieromes</hi> counſell is that we ſhould not ſtirre abroad till we have armed our ſelves with pray<g ref="char:EOLhyphen"/>er,<note place="margin">Egredientes de hoſpitio armet oratio. <hi>in ep. ad Euſtoch.</hi>
+               </note> for <hi>Leo in via,</hi> there is a Lion in the way, and danger in all places. It may bee ſome incenſed <hi>Lamech,</hi> or unnaturall <hi>Cain</hi> may meet thee, and kill thee. It may be ſome looſe tile, or unjoyn<g ref="char:EOLhyphen"/>ted piece of timber may fall upon thee, and brain thee. And if it be thus in the <hi>fields,</hi> or <hi>ſtreets</hi> of the City what is it at <hi>Sea,</hi> which is as full of <hi>dan<g ref="char:EOLhyphen"/>ger</hi> as it is of <hi>water,</hi> every wave and puffe of winde threatning deſtruction; nay though the Sea be never ſo calme, and the winde never ſo ſtill, yet there is but the thickneſſe of a plank be<g ref="char:EOLhyphen"/>twixt you and ruine. Pitty it is that when men goe to Sea they are carefull to have their num<g ref="char:EOLhyphen"/>ber of <hi>men,</hi> their proviſion of <hi>victuals,</hi> their tire of <hi>guns,</hi> and whatſoever elſe is neceſſary for their voyage, yet the <hi>one</hi> thing that is neceſſary for the moſt part is leaſt regarded. The Church of <hi>Rome</hi> teaches her diſciples to cary with them to Sea the relique of ſome <hi>Saint,</hi> as an <hi>antidote</hi> and preſervative againſt all dangers, or to invocate ſome <hi>commentitious</hi> Patron; <hi>But call upon mee,</hi> ſayes God, and there is good reaſon wee ſhould doe ſo, for <hi>the Sea is his and he made it,</hi> and he that made it can rule it be the waves thereof never ſo unquiet.</p>
+            <p>S. <hi>Paul</hi> intending a voyage to <hi>Ieruſalem,</hi> would not enter into the ſhip till he had kneeled down
+<pb n="50" facs="tcp:3644:29"/>upon the ſhore, and commended himſelfe to Gods protection. The <hi>gravell</hi> I confeſſe was but a hard cuſhion, and it may be the mariners called upon him to come aboard becauſe the tide was far ſpent, or the winde ready to alter, or elſe they would hoiſe ſayles and leave him, yet for all this he will <hi>pray</hi> before hee will <hi>ſaile;</hi> and commit himſelfe to <hi>God,</hi> before he commit himſelfe to the <hi>deepe</hi> waters, and goe thou and doe likewiſe. And prayer if it ſave not thy <hi>ſhip,</hi> will ſave thy <hi>ſoule;</hi> if it keepe not thy <hi>body</hi> from the <hi>water</hi> (for all things happen alike to all men) it will keepe thy <hi>ſoule</hi> from the <hi>fire</hi> which is the greater deli<g ref="char:EOLhyphen"/>verance.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> Againe, are the dangers of the Sea ſo great, and dare any of you when you are at Sea behave and demeane your ſelves prophanely, and irreli<g ref="char:EOLhyphen"/>giouſly? S. <hi>Peter</hi> diſcourſing of the diſſolution of the world, when the heavens ſhall be rouled up like ſkins of parchment, and the elements melt with fervent heat, makes this inference; <hi>What manner of men ought we to bee in all holy con<g ref="char:EOLhyphen"/>verſation and godlineſſe?</hi> And truly when I con<g ref="char:EOLhyphen"/>ſider how you are ſometimes <hi>mounted</hi> up to hea<g ref="char:EOLhyphen"/>ven where <hi>God</hi> is ready to <hi>judge</hi> you, and ſome<g ref="char:EOLhyphen"/>times <hi>throwne</hi> downe into the depths where <hi>hell</hi> is ready to <hi>ſwallow</hi> you, I cannot but ſay, <hi>What manner of men ought ye to be?</hi>
+            </p>
+            <p>Doubtleſſe a Seaman that is profane is as pro<g ref="char:EOLhyphen"/>digious a monſter, as a <hi>poore</hi> man that is <hi>proud,</hi> or a <hi>rich</hi> man that is a <hi>lyer,</hi> or an <hi>old</hi> man that is <hi>wan<g ref="char:EOLhyphen"/>ton,</hi> and the Lord abhorres him as well as any of
+<pb n="51" facs="tcp:3644:29"/>the other. S. <hi>Ambroſe</hi> calls the Sea the <hi>ſchoole</hi> of temperance, chaſtity, and ſobriety,<note place="margin">Secretiem tempe<g ref="char:EOLhyphen"/>rantiae, exerciti<g ref="char:EOLhyphen"/>um continentiae mundi hu<g ref="char:EOLhyphen"/>jus ſobrietas. <hi>Hexam. l. 3.</hi>
+               </note> and there<g ref="char:EOLhyphen"/>fore ſuch as will not be ruled on land we ſend to Sea, that being diſciplined with the ſpectacles of Gods power, and the ſtrong apprehenſions of death, and danger they may be reformed; and yet ſuch is the invincible, and incorrigible wic<g ref="char:EOLhyphen"/>kedneſſe of our hearts, that men come out of a ſhip as the beaſts out of <hi>Noahs</hi> Arke, as very beaſts and as uncleane as when they went firſt in; and like the <hi>Catadupi</hi> continually hearing the falls of <hi>Nilus,</hi> grow deafe and heare nothing. And if at any time the extremity of a ſtorme ex<g ref="char:EOLhyphen"/>tort from them a vow of amendement, it is for the moſt part blowne over with the foule wea<g ref="char:EOLhyphen"/>ther, and like <hi>Manna</hi> melts with the next Sun<g ref="char:EOLhyphen"/>ſhine. I remember a merry ſtory of one who in a tempeſt vowed he would offer our Lady a wax light as big as his maine maſt if he eſcaped: and being reproved by one of his fellowes for vow<g ref="char:EOLhyphen"/>ing a thing impoſſible, peace foole ſayes he, we muſt ſpeake our Lady faire now, but if I get to ſhore one of eight in the pound ſhall ſerve her. Much better did a company of mariners who vowed if they eſcaped the tempeſt to build a Church to S.<note place="margin">Heylin.</note> 
+               <hi>Iohn di Malvatia</hi> whoſe morter ſhould be tempered with malmeſey, and accor<g ref="char:EOLhyphen"/>dingly they paid it. Which Church is in <hi>Zara</hi> or <hi>Iudera</hi> a City in <hi>Dalmatia,</hi> for the poſſeſſion of which towne there have beene great warres betwixt the <hi>Hungarians</hi> and <hi>Venetians.</hi> Vow therefore unto the Lord, and pay it, and ſay as
+<pb n="52" facs="tcp:3644:30"/>the <hi>Pſalmiſt,</hi>
+               <note place="margin">Pſal. 66.13.</note> 
+               <hi>I will goe into thine houſe with burnt offerings, I will pay thee my vowes which my lips have uttered, and my mouth hath ſpoken when I was in trouble.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> Againe, are the dangers of the Sea ſo great, and can you forget God when he hath delivered you from them? muſt not you needs ſay with the Apoſtle, <hi>Thankes be unto God who hath deliver<g ref="char:EOLhyphen"/>ed me?</hi> muſt not you needs confeſſe with <hi>Da<g ref="char:EOLhyphen"/>vid, that if the Lord had not helped you, the waters had overwhelmed you, yea the proud waters had gone over your ſoule?</hi> But becauſe I ſhall hereafter have occaſion to ſpeak of your <hi>duty</hi> after your <hi>delive<g ref="char:EOLhyphen"/>rance;</hi> which is, to praiſe the Lord and declare the wonders which he doth for the ſons of men, I will here paſſe it over.</p>
+            <p>We have now ſeene the <hi>literall</hi> ſenſe of the words, as for <hi>allegories</hi> and alluſions Expoſitours are full of them.<note place="margin">Muſculûs in Io.</note> A ſhip thus mounted up to hea<g ref="char:EOLhyphen"/>ven, and throwne downe to hell is the embleme of a <hi>proud</hi> man, who lifting up his heart as high as heaven, meets with a God which refiſts the proud, and beates him into the depths againe, for <hi>he that exalteth himſelfe ſhall be humbled. Lu<g ref="char:EOLhyphen"/>cifer ſaid in his heart that he would aſcend into hea<g ref="char:EOLhyphen"/>ven, and exalt his throne above the ſtarres of God, that he would aſcend above the height of the cloudes, and be like the moſt high:</hi> you heare his mounting up to heaven:<note place="margin">Aſcendit Ange<g ref="char:EOLhyphen"/>lus, deſeendit diaboſus. <hi>Aug. Soliloq. c. 28.</hi>
+               </note> but God tells him when hee had done ſo, he ſhould <hi>be brought downe to hell, to the ſides of the pit,</hi> there is his going downe into the depths againe. <hi>Edom</hi> having made his habitati<g ref="char:EOLhyphen"/>on
+<pb n="53" facs="tcp:3644:30"/>high <hi>ſaid in the pride of his heart, who ſhall bring me dawne to the ground?</hi> one undertakes it that was able to doe it,<note place="margin">Obediah 3.4.</note> for <hi>though Edom exalt himſelfe as an eagle, and though he ſet his neſt among the ſtars, yet thence will I bring him down ſaith the Lord.</hi>
+               <note place="margin">Luke 10.15.</note> And ſo <hi>Capernaum</hi> which was exalted to heaven, was thruſt downe to hell, for of a proud, and popu<g ref="char:EOLhyphen"/>lous City there remaines but ſeven or eight fiſhermens cottages.<note place="margin">Stella. in loc.</note> 
+               <hi>Aeſope</hi> being aſked how God was imployed,<note place="margin">
+                  <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. <hi>Diog. Laërt. l. t. in Chilon.</hi> Dominare tumi<g ref="char:EOLhyphen"/>dus, ſpiritus al<g ref="char:EOLhyphen"/>tos gere, Sequitior ſuperbos ultor à tergo Deus. <hi>Sen. in Herc.</hi>
+               </note> anſwered that his buſineſſe was <hi>to hu<g ref="char:cmbAbbrStroke">̄</g>ble ſuch as are prond, &amp; to exalt ſuch as are humble. Arnobius</hi> applyes this unto S. <hi>Peter</hi> who when he ſaid he would <hi>die</hi> for Chriſt rather then <hi>deny</hi> him, and <hi>follow</hi> him though all <hi>forſooke</hi> him, ſeemed in the conceit of his owne ſtrength, and ability to be mounted up to heaven: but when he denied him at the voice of a ſilly maide hee went downe into the depths, nay hee went yet lower for he did not only <hi>deny</hi> him, but <hi>forſweare</hi> him, yet after all this he went out and wept bit<g ref="char:EOLhyphen"/>terly, and ſo as it followes in the text, <hi>his ſoule was melted in him.</hi> And ſo wee come to the ſad <hi>conſequences</hi> and attendants of this danger, the firſt whereof is expreſſed in an elegant metaphor of <hi>melting</hi> and <hi>liquefaction; Their ſoules are mel<g ref="char:EOLhyphen"/>ted in them becauſe of thetrouble.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> A tempeſt is here called a <hi>trouble,</hi> and howſo<g ref="char:EOLhyphen"/>ever in the Hebrew the word be in the ſingular, yet S. <hi>Ierome</hi> renders it in the plurall number;<note place="margin">In malis.</note> for indeed many are the <hi>troubles</hi> that conſtitute and make up this <hi>trouble.</hi> Is not the ayre <hi>troubled</hi> with the claſhing and colliſion of the clouds,<note place="margin">Eſay 57.20.</note> and
+<pb n="54" facs="tcp:3644:31"/>conflicts of the windes being let looſe out of their treaſuries? Doe we not read of a <hi>troubled</hi> Sea in the prophet, which being diſquieted by its neighbour element cannot reſt? nay does not S. <hi>Iude</hi> tells us,<note place="margin">Jude 13.</note> that the Sea is ſo troubled that the waves thereof are mad, and raging? And now muſt not the hearts of the mariners, and paſſen<g ref="char:EOLhyphen"/>gers be <hi>troubled</hi> with the apprehenſion of death, which is the King of <hi>feares,</hi>
+               <note place="margin">Praeſentem<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> vi<g ref="char:EOLhyphen"/>ris intentant om<g ref="char:EOLhyphen"/>nia mortem. <hi>Virg</hi>
+               </note> and of all things in the world the moſt <hi>terrible.</hi> when they ſee it ap<g ref="char:EOLhyphen"/>proach in every <hi>billow,</hi> and heare it threaten in every <hi>blaſt?</hi> The diſciples in the ſtorme thought of nothing but of periſhing. S. <hi>Paul</hi> ſpeaking of the tempeſt that lay upon them, ſayes <hi>that all hope of being ſaved was taken away from them;</hi>
+               <note place="margin">Acts 27.20.</note> and can you blame fleſh and blood if it change coun<g ref="char:EOLhyphen"/>tenance, and be troubled in ſuch a caſe?</p>
+            <p>Yet <hi>ſecondly,</hi> though we be naturally troubled with the ſenſe, and apprehenſion of death, yet <hi>ſome kindes</hi> of death there are which trouble us more then others. And I know not how it comes to paſſe, but <hi>drowning</hi> hath ever been accounted a miſerable, and inglorious death, as appeares by that of the <hi>Poet.</hi>
+            </p>
+            <q>
+               <lg>
+                  <l>
+                     <note place="margin">Ovid. l. 1. Triſt. eleg. 2.</note>Non let hum timeo: genus eſt miſerabile lethi;</l>
+                  <l>Demite naufragium mors mihi munus erit.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <note place="margin">Et non aequoreis piſcibus eſſe ci<g ref="char:EOLhyphen"/>bum.</note>I feare not death, death is the thing I wiſh,</l>
+                  <l>And yet I would not drowne, and feed the fiſh.</l>
+               </lg>
+            </q>
+            <p>And the reaſon hereof it may be was becauſe
+<pb n="55" facs="tcp:3644:31"/>they thought the ſoule,<note place="margin">Ignava fortes ſa<g ref="char:EOLhyphen"/>ta conſument vi<g ref="char:EOLhyphen"/>ros? <hi>Sen. in A<g ref="char:EOLhyphen"/>gam.</hi>
+               </note> which they ſuppoſed to be fire, was extinguiſhed in the waters: or elſe becauſe it is a death wherein a man can give no teſtimony of his valour.<note place="margin">Maximè deteſta<g ref="char:EOLhyphen"/>ban urfortes hee mortis genus qui cum a rimam ig<g ref="char:EOLhyphen"/>neam eſt cenſeret, aquis illam prop<g ref="char:EOLhyphen"/>ſus extingui pu: tabant, &amp; in quo mortis genere non poteſt quis ſuae ſortitudinis ſpeci<g ref="char:EOLhyphen"/>men dare. <hi>Far<g ref="char:EOLhyphen"/>nab. annot. in loc.</hi>
+               </note> Something I confeſſe it is for a man to die in his owne countrey, to kiſſe his wife, to bleſſe his children, and to have the ho<g ref="char:EOLhyphen"/>nour of a decent buriall, which they cannot have that are caſt away at Sea. And hence it was that <hi>Aeneas</hi> being toſſed with a tempeſt and in danger of drowning cryed out, happy, yea thrice happy they that dyed in the ſight of their friends, and under the walls of their owne city.</p>
+            <p>Yet <hi>thirdly,</hi> as ſome kindes of death are more troubleſome then others,<note place="margin">Eſt aliquid fato<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ſuo, ferro<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ca<g ref="char:EOLhyphen"/>dentem, in ſolita moriens ponere cor pus humo. Et mandare ſuis ali<g ref="char:EOLhyphen"/>qua, &amp; ſperare ſepulebrum. <hi>Ovid.</hi>
+               </note> ſo <hi>ſome men</hi> are more troubled and affrighted with the apprehenſion of it then others are. Death is not very trouble<g ref="char:EOLhyphen"/>ſome to a man that hath languiſhed a long time upon the bed of his ſicknes, afflicted with paines and diſeaſes, for he is as it were mellowed and prepared for it, and that which other men <hi>feare</hi> he <hi>wiſhes;</hi> but it muſt needs bee very bitter and terrible to a man that hath his breaſts full of milke, and his bones full of marrow, and ſuch is the caſe of Seamen who dye before they be ſick, and are arreſted with the ſtroke of death before age or diſeaſes gave them warning to prepare for it.<note place="margin">Tabeſcit. Conſumitur. Diſſolvitur. Colliqueſcit. &amp;c.</note> And thus we ſee that a tempeſt may well be called a trouble, and ſuch a trouble as may well melt us.<note place="margin">Significatur eya<g ref="char:EOLhyphen"/>nimatio quae<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>am navigantium prae metu, et magnitudine pe<g ref="char:EOLhyphen"/>riculi. <hi>Lorin. in loe.</hi>
+               </note> The word is diverſly rendred by Expo<g ref="char:EOLhyphen"/>ſitours, yet as <hi>Lorinus</hi> obſerves well, ſtill there is ſignified an exanimation of the mariners, and a powring or a running out of their ſoules like
+<pb n="56" facs="tcp:3644:32"/>molten mettall becauſe of the greatneſſe of the danger.</p>
+            <p>A ſect of <hi>Philoſophers</hi> there was that deveſted the ſoule of all <hi>paſsions,</hi>
+               <note place="margin">Stoicorum inde<g ref="char:EOLhyphen"/>lentia.</note> as inconſiſtent with the habits of wiſdome and vertue. But our <hi>Saviour</hi> ſayes of himſelfe that his <hi>ſoule was ſorrowfull:</hi> and the <hi>Evangeliſt</hi> ſayes of him that <hi>he began to be af<g ref="char:EOLhyphen"/>fraid,</hi> and <hi>feare</hi> and <hi>heavineſſe</hi> are paſſions of the minde, yet Chriſt was the wiſedome of his Fa<g ref="char:EOLhyphen"/>ther. S. <hi>Paul</hi> confeſſes of himſelfe, and <hi>Barnabas</hi> (men whom the <hi>Barbarians</hi> thought worthy of the names of their gods, and divine honours) that they were ſubject to the ſame <hi>paſsions</hi> that others were. I would not I confeſſe have a man ſo fearefull,<note place="margin">Eripiunt ſubitò nubes coelum<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> diem<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Teucro<g ref="char:EOLhyphen"/>rum ex oculis: ponto nox incubat atra.</note> and timerous as to ſhake with the reed at every winde, for feare does not become a Chriſtian who is acquainted with the <hi>power</hi> of God, and may claime a <hi>ſpeciall</hi> intereſt in his <hi>pro<g ref="char:EOLhyphen"/>vidence;</hi>
+               <note place="margin">Intonuere poli, et crebris micat ig<g ref="char:EOLhyphen"/>nibus aether. <hi>Virg. Aeneid. 1.</hi> Mundum revelli ſedibus totum ſuis, ipſoſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> rupto crederes coelo De<g ref="char:EOLhyphen"/>os decidere, et atrum rebus in<g ref="char:EOLhyphen"/>duci chaos. <hi>Sen. in Agam.</hi> Extemplo Ae<g ref="char:EOLhyphen"/>neae ſolvuntur frigore membra, ingemit.</note> but when it comes to this paſſe, that nei<g ref="char:EOLhyphen"/>ther ſunne nor moone appeares for many dayes, that the ayre is filled with thunders, and light<g ref="char:EOLhyphen"/>nings, that the deepe boyles like a Caldron, that the foundations of the earth cracke, as if every thing would returne backe to its former <hi>Chaos,</hi> whoſe heart would not faile for feare, and give againe though it was an heart of ſtone at ſuch foule weather? <hi>Virgil</hi> tells us that his <hi>Aeneas</hi> in a tempeſt grew pale, and his members chill, and his ſides ſore with ſighing. And <hi>Seneca</hi> reports as much of his <hi>Agamemnon.</hi> And one of the three things whereof the wiſe <hi>Cato</hi> repented himſelfe was, that he went to any place by Sea when hee
+<pb n="57" facs="tcp:3644:32"/>might have gone by land.<note place="margin">Catonom paenituit arcana ſaeminae credidiſſe, die<g ref="char:cmbAbbrStroke">̄</g>ſibi abſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> fructu ef<g ref="char:EOLhyphen"/>fluxiſſe, et ſi quopiam vectus navigio eſſet, quò pervenire pede<g ref="char:EOLhyphen"/>ſtri itinere potu<g ref="char:EOLhyphen"/>iſſet. <hi>Noct. Attic. l. 19. c. 1.</hi>
+               </note> Nay the diſciples themſelves when the ſhip was covered with waves grew very fearefull, notwithſtanding they had Chriſt aboard with them, a better pledge of ſafety then <hi>Caeſar</hi> and all his <hi>fortunes.</hi> Let meè cloſe up this with the ſtory which <hi>Aulus Gellius</hi> tells, that ſailing from <hi>Caſsiopeia</hi> to <hi>Brunduſium</hi> they had a <hi>Philoſopher</hi> in their company of the fect of <hi>Stoicks;</hi> and being in danger to be caſt a<g ref="char:EOLhyphen"/>way by a violent ſtorm, I obſerved (ſaith he) how the <hi>Stoick</hi> behaved himſelf, and though (ſaith the Author) he did not cry out as ſome did, yet his countenance changed;<note place="margin">Coloris et vultus turbatione non multum a caeteris differebat.</note> and his colour went and came, ſo that hee ſeemed to differ but a little from others. And <hi>Muſculus</hi> hath well obſerved upo<g ref="char:cmbAbbrStroke">̄</g> this place, that it is fit we ſhould be affected, and affrighted with theſe dangers, for otherwiſe we would neither <hi>pray</hi> to God to be delivered, nor <hi>praiſe</hi> him when we are delivered. Had the diſciples beene inſenſible of the danger they had not cryed out <hi>Maſter ſave us:</hi> or had the people beene inſenſible of the benefit, they would not have marvelled, and magnified our Saviour with a <hi>Quis eſt iſte? Who is this for even the Sea and windes obey him?</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> The <hi>ſecond</hi> effect of a tempeſt is the <hi>vacillation,</hi> ſtaggering, and trepidation of their bodies, illu<g ref="char:EOLhyphen"/>ſtrated by a <hi>ſimile</hi> taken from a drunken man, in theſe words; <hi>They reele to and fro, and ſtagger like a drunken man.</hi>
+            </p>
+            <p>
+               <hi>Salomon</hi> compares a <hi>drunken</hi> man to a <hi>mariner,</hi>
+               <note place="margin">Prov. 23.34.</note> and <hi>David</hi> compares a <hi>mariner</hi> to a <hi>drunken</hi> man;
+<pb n="58" facs="tcp:3644:33"/>ſo that it ſeemes there is a neare reſemblance though the one trade in <hi>wine,</hi> and the other in <hi>water.</hi>
+            </p>
+            <p>So neare that many times they are the ſame: for howſoever the Sea be a place of temperance and ſobriety, yet the Seamans <hi>farewell</hi> and his <hi>welcome</hi> home are many times more reeling and giddy then the ſtorme; and I am ſure more dan<g ref="char:EOLhyphen"/>gerous; for the one many times turnes a devill into a <hi>Saint,</hi> but the other transformes a man in<g ref="char:EOLhyphen"/>to a <hi>Beaſt.</hi> A mariner and a drunken man are <hi>alike</hi> in their ſtomackes, both ſick and inforced to vo<g ref="char:EOLhyphen"/>mit. They are <hi>alike</hi> in their eyes, for both ſup<g ref="char:EOLhyphen"/>poſe things that are faſt and immoveable to flit out of their places. But eſpecially they are <hi>alike</hi> in their feet, for the feet of both croſſe and en<g ref="char:EOLhyphen"/>terfeire, and fall foule one with the other as if they did not belong to the ſame body, and this the text cals <hi>reeling,</hi> and <hi>ſtaggering.</hi>
+            </p>
+            <p>
+               <hi>Lucretius</hi> reckoning up the effects of drunken<g ref="char:EOLhyphen"/>neſſe makes this one,<note place="margin">—praepediuntur crura vacillanti.</note> the feet and legges cannot performe their office being oppreſſed with the burthen of a ſurcharged body. There are certain paſſages betwixt the head and the feet, for if the feet dabble in <hi>water</hi> it ſtrikes up to the head: and if the head dabble in <hi>wine</hi> it ſtrikes downe to the feet, ſo that a man may ſay of the drunkard as the Prophet did of the corrupt ſtate of the Jewes, <hi>From the crowne of the head to the ſole of the foote there is no right part in him.</hi>
+            </p>
+            <p>
+               <hi>Salomon</hi> calls our legs the ſtrong men of the houſe, yet in a ſtorme they cannot ſtand their
+<pb n="59" facs="tcp:3644:33"/>ground, but bow and buckle under us. Men in ſuch a caſe are like balls in a Tennis court toſſed from one ſide of the ſhip unto the other, and ſometimes banded cleane over. It may be ſaid of mariners what the Jews ſaid of <hi>Cain,</hi> and (<hi>Cle<g ref="char:EOLhyphen"/>mens Alexandr.</hi> ſeemes to follow the tradition) that whereſoever they ſet their foot the floore trembles under them, and many times with that violence that they knock their heads one againſt another.</p>
+            <p>Now as a ſhip was the embleme of the Church, and the Sea an embleme of the world, ſo is a ſtorme of <hi>perſecution;</hi> and in nothing more then in this, that it ſtaggers the faith and profeſſion of ſo many Chriſtians. Some there are that heare the word of God, and receive it with joy, yet when tribulation or perſecution doth ariſe be<g ref="char:EOLhyphen"/>cauſe of the word, by and by they are offended. And ſuch are compared to an houſe built upon the ſands which cannot indure the weather, for when the raine deſcended, and the floods came, and the windes blew and beat upon it, it fell; and the fall thereof was great. Every ſin is <hi>lapſus</hi> a ſlipping, or ſliding: ſome ſins are <hi>Caſus,</hi> a falling to the ground, but the ſinne of Apoſtacy and re<g ref="char:EOLhyphen"/>cidivation is <hi>Caſus magnus</hi> a great fall, for the <hi>latter end of that man is worſe then the beginning.</hi> We read of the children of <hi>Ephraim</hi> that they were harneſſed and caryed bowes;<note place="margin">Pſal. 78.9.</note> but when it came to bee <hi>Tempus pralii,</hi> a day of battle they turned their backs: even ſo, many there are who ſeeme to ſtand as faſt as mount <hi>Zion</hi> ſo long as
+<pb n="60" facs="tcp:3644:34"/>the Church is becalmed with peace, and plenty; their profeſſion makes as great a flouriſh as a ci<g ref="char:EOLhyphen"/>ty company upon a training day, ſo that a man would thinke they would fight and die for their faith; but if once it prove ſoul weather, &amp; their lands, liberties, or lives be in danger, God bleſſe their conſtancy and ſtrengthen their faith, that they doe not then begin to thinke that the diffe<g ref="char:EOLhyphen"/>rences of religion are but circumſtantiall; and that it is no wiſdome to loſe a <hi>ſubſtance</hi> for a <hi>cir<g ref="char:EOLhyphen"/>cumſtance,</hi> and that there is a greater <hi>latitude</hi> in the way to heaven then before they dreamt of, and thus ſtaggering with the ſpirit of giddineſſe, at laſt fall, and make <hi>ſhipwrack of faith and a good conſcience.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> The <hi>third</hi> and laſt effect is <hi>ſtupefaction</hi> and a<g ref="char:EOLhyphen"/>ſtoniſhment in theſe words, <note place="margin">1 Theſ. 5.23.</note> 
+               <hi>They are at their wits end.</hi> Man is divided by S. <hi>Paul</hi> into three parts, the <hi>ſoule,</hi> the <hi>body,</hi> and the <hi>ſpirit.</hi> What the im<g ref="char:EOLhyphen"/>preſſion of a ſtorme is upon the ſoule you heard in theſe words, <hi>Their ſoules are melted in them be<g ref="char:EOLhyphen"/>cauſe of the trouble;</hi> and what upon the body in theſe, <hi>They reele to and fro, and ſtagger like a drun<g ref="char:EOLhyphen"/>ken man;</hi> Now let us ſee what impreſſion it makes upon the <hi>ſpirit,</hi> or underſtanding in theſe words, <hi>They are at their wits end,</hi> and ſo I ſhall be at my workes end.</p>
+            <p>Some there are that read the place thus, <hi>omnis ſubſtantia corum deverate eſt;</hi> and then it is not that they are at their <hi>wits</hi> end, but at their wealths end. I confeſſe indeed much wealth hath been ſwallowed up by the Sea, and as it is a
+<pb n="61" facs="tcp:3644:34"/>
+               <hi>Mine</hi> to ſome, ſo is it a <hi>grave</hi> to others. Some ſhips like <hi>Noahs Dove</hi> goe forth into the waters, and returne backe againe with advantage, as ſhe did with an olive branch; but ſome like the <hi>crow</hi> are ſent out, and never returne. But the beſt rea<g ref="char:EOLhyphen"/>ding is <hi>omnis ſapientia</hi> as S. <hi>Ierom</hi> renders it, all their wit and wiſdome is ſwallowed up;<note place="margin">
+                  <gap reason="foreign" resp="#OXF">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> or <hi>omnis eorum peritia</hi> as <hi>Tremell:</hi> all their skill and expe<g ref="char:EOLhyphen"/>rience is at an end. Or as <hi>Apollinarius,</hi> They for<g ref="char:EOLhyphen"/>get the art of navigation, and their ſkill failes them. And the like expreſſions have wee in the Poets:</p>
+            <q>
+               <lg>
+                  <l>
+                     <note place="margin">Lucan.</note>Artis opem vicere metus: neſcit<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> magiſter</l>
+                  <l>Quam frangat, cui cedat aquae.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <note place="margin">May. Nil ratio et uſus audet: Ars ceſſit maelis. <hi>Son. in Agam.</hi>
+                     </note>Feare conquers art: the maſter does not know</l>
+                  <l>Which wave to breake, which wave to yeeld unto.</l>
+               </lg>
+            </q>
+            <p>We ſee then our induſtry and endeavour, our wit and underſtanding cannot helpe us when God ſtands in our way as the Angel did in <hi>Bala<g ref="char:EOLhyphen"/>ams;</hi> but the power and wiſdome of God ſwal<g ref="char:EOLhyphen"/>lowes up the power and wiſdome of the crea<g ref="char:EOLhyphen"/>ture, as <hi>Aarons</hi> rod ſwallowed up the rods of the <hi>Egyptians,</hi> or as the <hi>croſſe</hi> of <hi>Chriſt</hi> ſwallowed up the idols of the heathen, or as the <hi>joy</hi> of the <hi>Ho<g ref="char:EOLhyphen"/>ly Ghoſt</hi> which is glorious, and unſpeakable, ſwal<g ref="char:EOLhyphen"/>lowes up all other delights, and comforts. So true is that of the <hi>Pſalmiſt, except the Lord build the houſe they labour in vaine that build it: Except the Lord keepe the city the watchman waketh but in
+<pb n="62" facs="tcp:3644:35"/>vaine.</hi> In that ſtorme in the Acts of the Apoſtles the mariners did what was poſſible to ſave them<g ref="char:EOLhyphen"/>ſelves, and the ſhip, for the text ſaith they under<g ref="char:EOLhyphen"/>girded the ſhip, and heaved their tackling and lading over board, and caſt anchors out of the ſterne, yet all was to no purpoſe. It is ſaid of the mariners in the Prophet,<note place="margin">Ionas 1.13.</note> that they rowed hard to bring their ſhip to land, but they could not, becauſe the Sea wrought and was tempeſtuous. In the booke of <hi>Geneſis</hi> we finde a <hi>Parliament</hi> and councell aſſembled,<note place="margin">Geneſ. 11.</note> many laying their heads and wits together to find out a way to ſecure the<g ref="char:cmbAbbrStroke">̄</g> fro<g ref="char:cmbAbbrStroke">̄</g> the feare of another deluge; at laſt it is reſolved upo<g ref="char:cmbAbbrStroke">̄</g> to build a Towre whoſe tops ſhold reach up to heaven. But what will they doe for materials? Their wit can furniſh them thus far, for by bur<g ref="char:EOLhyphen"/>ning the earth throughly they bake it into brick, and uſe flime for morter, and now they are very buſie in raiſing of it. But God who reſiſts the proud, lookes down from heaven, and confounds their language, and now they have not ſo much underſtanding left them, as to underſtand one anothers ſpeech, and their <hi>wit</hi> was at an end, be<g ref="char:EOLhyphen"/>fore their <hi>building</hi> was well begun.</p>
+            <p>Thus the power of God doth as it were play and ſport it ſelfe in humane affaires,<note place="margin">Ludit in huma<g ref="char:EOLhyphen"/>nis divina poten<g ref="char:EOLhyphen"/>tia rebus.</note> and does whatſoever it pleaſes in heaven, in earth, and in all places.</p>
+            <p>And therefore let not the wiſeman glory in his <hi>wiſdome</hi> for God can <hi>infatuate</hi> it; nor the ſtrong man in his <hi>ſtrength</hi> for he can <hi>infeeble</hi> it, nor the rich man in his <hi>wealth</hi> for he can <hi>impove<g ref="char:EOLhyphen"/>riſh</hi>
+               <pb n="63" facs="tcp:3644:35"/>it, nor the mariner in his <hi>skill</hi> for he can <hi>con<g ref="char:EOLhyphen"/>found</hi> it; but let us in every thing we put our hand unto, implore his bleſſing, without the <hi>in<g ref="char:EOLhyphen"/>fluence,</hi> and <hi>concurrence</hi> whereof all our workes, endeavours, and devices are to no purpoſe. <hi>Help us therefore O God of our ſalvation; to whom in the Trinity of perſons, and unity of eſſence be aſcribed all power, praiſe, might and majeſtie now and for ever<g ref="char:EOLhyphen"/>more. Amen.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+         </div>
+         <div type="prayer">
+            <pb facs="tcp:3644:36"/>
+            <pb n="65" facs="tcp:3644:36"/>
+            <head>A Prayer to be uſed by the Mariner be<g ref="char:EOLhyphen"/>fore he goe to Sea.</head>
+            <p>OAlmighty and moſt glorious God who haſt diſpoſed of the ſons of men in thoſe callings which ſeeme meeteſt to thy di<g ref="char:EOLhyphen"/>vine Wiſedome, and haſt appointed me to goe downe into the Sea in Ships, and aſſigned mee my buſineſſe in the great waters: I thy creature, and the worke of thine hands doe with all hu<g ref="char:EOLhyphen"/>mility and thankfulneſſe embrace the order of thy good providence, who art a God which doeſt whatſoever pleaſes thee in heaven, in earth, in the Sea and in all places. And foraſmuch as I am now ready to commit my ſelfe unto the wa<g ref="char:EOLhyphen"/>ters, I moſt humbly beſeech thee of thy goodnes to pardon and forgive me all my ſins: caſt them into the bottomeleſſe Sea of thy mercy, drown them in the red Sea of thy Sons blood as thou didſt the Egyptians in the waters, leſt they cauſe thee to vexe me with thy ſtormes, and perſecute me with thy tempeſts.</p>
+            <p>And ſith the dangers of the Sea are great and many, and a ſhip is counted but a vaine thing to ſave a man: O let thy preſence and protection goe along with me to ſave me from the hands of Pirates, from the fury of the windes and waves, from bondage and captivity amongſt infidels who are enemies to the croſſe of thy Sonne, and howſoever it ſhall pleaſe thee to diſpoſe of my body, be mercifull to my ſoule for thy Names ſake.</p>
+            <pb n="66" facs="tcp:3644:37"/>
+            <p>Keepe me alſo ô God of my ſalvation from the ſnares, and infections of the devil who is rea<g ref="char:EOLhyphen"/>dy in all places to devoure me, make mee con<g ref="char:EOLhyphen"/>ſtant in my religion, juſt and true in all my dea<g ref="char:EOLhyphen"/>lings, and give mee grace in all places where I come to demeane my ſelfe as one that profeſſes the name of Chriſt, leſt I give occaſion to the adverſary to ſpeake evill of it.</p>
+            <p>And becauſe the iſſue and ſucceſſe of every buſineſſe depends onely upon thy bleſſing, bleſſe this voyage to mee thy ſervant; bleſſe it to my ſoule, let thoſe wonders wherewith thou haſt repleniſhed the deepe waters affect mee with a due conſideration of thy glorious attributes, and imprint upon my ſoule a ſenſe of thy power, an acknowledgement of thy wiſdome, an awe of thy Majeſty, that ſo my heart may be filled with thy feare, and my mouth with thy praiſes. Bleſſe it alſo to my outward man, and as my calling hath thy warrant ſo let it not want thy benedi<g ref="char:EOLhyphen"/>ction, that I may bee inabled by my ſubſtance to honour thee, and helpe others.</p>
+            <p>Finally ô God I commend unto thy fatherly goodneſſe this Church, and Kingdome whereof I am a member; my friends, kindred, &amp; acquain<g ref="char:EOLhyphen"/>tance: beſeeching thee (if it be thy bleſſed will) to returne mee ſafe unto theſe comforts. Heare my prayers for them, and theirs for me, and thy Son Chriſt Jeſus for us all; in whoſe moſt bleſ<g ref="char:EOLhyphen"/>ſed name and words I come unto thee, and call upon thee ſaying. O our Father which art in heaven, &amp;c.</p>
+         </div>
+         <div type="prayer">
+            <pb n="67" facs="tcp:3644:37"/>
+            <head>A Prayer to be uſed at Sea.</head>
+            <p>O Moſt mighty and moſt mercifull God who haſt commanded us to call upon thee in the day of trouble, and haſt promiſed to deliver us: I thy ſervant doe in obedience to thy command, and confidence in thy promiſe flee to thee for ſuccour ô God moſt holy, for trouble is at hand and there is none to deliver me.</p>
+            <p>Behold me now ô God in the dangers of the Deep, my life is continually in thy hand, and I am ready to periſh every moment. O thou that didſt heare the prayers of thy Prophet from the bottome of the Sea, thou that didſt awaken at the cryes of thy diſciples, thou that leddeſt thy people through the red Sea, thou that didſt ſave <hi>Noah</hi> and his family in the Arke from periſhing by water, ſave and deliver me, my King and my God, rebuke the ſtormy windes, locke them up in thy treaſuries, and command the proud waves of the Sea to be ſtill, that I may arrive ſafe at my deſired haven, for the Sea is thine and thou haſt made, it &amp; though the floods lift up their voice, yet thou Lord on high art mightier then the noyſe of many waters, yea then the mighty waves of the Sea.</p>
+            <p>I confeſſe ô Lord if thou ſhouldſt deale with me after my deſervings, thou mighteſt make the Sea my ſepulchre, and cover me with the deepe waters as thou didſt the old world for their ſe<g ref="char:EOLhyphen"/>curity, and <hi>Pharaoh</hi> and his hoaſt for their obſti<g ref="char:EOLhyphen"/>nacy;
+<pb n="68" facs="tcp:3644:38"/>I have multiplyed my ſinnes above the ſands upon the ſhore, and my heart is as full of wickedneſſe as the Sea is of water: But ſpare me O God, good Lord ſpare me who haſt not ſpa<g ref="char:EOLhyphen"/>red thine owne Son to redeeme me. Pardon my ſins, blot out my offences, forgive me my treſpaſ<g ref="char:EOLhyphen"/>ſes, and let the light of thy countenance ſhine upon me through thoſe pretious wounds which thy Son and my Saviour ſuffered in his body up<g ref="char:EOLhyphen"/>on the Croſſe for me.</p>
+            <p>And now O God I reſigne, and give up my ſelfe wholly unto thy good pleaſure, ſaying with thy ſervant <hi>David,</hi> Here I am do with me what<g ref="char:EOLhyphen"/>ſoever ſeemeth good in thine eyes. I know thou art a God able alike to ſave in all places, I know that the windes and waves obey thee, I beleeve that the haires of my head are numbred, and that the Sea ſhall give up her dead at the laſt day, thy will therefore O God bee done in hea<g ref="char:EOLhyphen"/>ven, in earth, in the Sea, and in all places; if thou haſt appointed me for life, grant that I may live in thy feare, if thou haſt appointed me for death (for my times are in thy hands) grant that I may die in thy favour: ſo long as I live guide mee with thy grace, and ſo ſoone as I die receive mee into thy glory, and all this for Jeſus Chriſt his ſake in whoſe moſt bleſſed name, &amp;c.</p>
+         </div>
+         <div type="prayer">
+            <head>A Prayer after our returne from Sea.</head>
+            <p>O Moſt great, and moſt gratious God, I have called upon thee in the day of trouble, and
+<pb n="69" facs="tcp:3644:38"/>thou haſt heard me, thou haſt ſent from above and drawne me out of many waters, thou haſt delivered me from all my feares, thou haſt con<g ref="char:EOLhyphen"/>ſidered my trouble, and knowne my ſoule in ad<g ref="char:EOLhyphen"/>verſities, ſo that the water-flood hath not over<g ref="char:EOLhyphen"/>flowne me, neither hath the Deep ſwallowed me up: And now what ſhall I render unto thee ô God of my ſalvation for all thy benefits to<g ref="char:EOLhyphen"/>wards me? I will ſacrifice unto thee with the voice of Thankſgiving, and pay that that I vow<g ref="char:EOLhyphen"/>ed when I was in trouble. And here I offer up my ſoule and body a holy and a living ſacrifice to thee ô thou preſerver of men, and let it be as that ſacrifice which <hi>Noah</hi> offered when he came out of the Arke, a ſacrifice of a ſweet ſmelling favour. I confeſſe I am unworthy of the leaſt of thy mercies, but the more unworthy I am of them, the more thankfull I will be for them; and therefore bleſſe the Lord ô my ſoule, and all that is within mee praiſe his holy name, bleſſe the Lord ô my ſoule and forget not all his benefits, for he hath redeemed my life from deſtruction, and ſatisfied my mouth with good things. And further I confeſſe to the glory of thy mercy that it was not the ſtrength of the ſhip, nor our art and ſkill that ſaved us, but thy mighty hand, and outſtretched arm; not unto us therfore, not unto us, but unto thy Name be all the glory, for who amongſt the ſonnes of men can bee likened unto thee ô Lord? and amongſt the Gods there is none that can doe as thou doeſt; thou art great and doeſt wondrous things, thou art God alone,
+<pb n="70" facs="tcp:3644:39"/>thou ruleſt the raging of the Sea, and when the waves thereof ariſe thou ſtilleſt them.</p>
+            <p>And now ô Lord as thy mercy hath preſer<g ref="char:EOLhyphen"/>ved me from drowning and ſhipwrack, ſo let it preſerve thy ſervant from the deluge of intem<g ref="char:EOLhyphen"/>perance, and from making ſhipwrack of faith and a good conſcience; leſt having eſcaped the Sea thy vengeance ſuffer me not to live: and grant that I may expreſſe my thankfulneſſe by walking humbly, ſaithfully; and obediently be<g ref="char:EOLhyphen"/>fore thee in the land of the living, for, for this end thou haſt delivered mee that I might ſerve thee without feare in holineſſe and righteouſnes all the dayes of my life: and ſo thy bleſſing ſhall be ſtill upon mee, thy providence ſtill over mee, and thou ſhalt never be weary to doe me good.</p>
+            <p>And laſtly, as thou haſt put an end unto this perilous voyage, and brought me ſafe to the comforts of mine owne countrey: So when I ſhall have runne my courſe through the waves of this troubleſome world, bring mee to my hea<g ref="char:EOLhyphen"/>venly countrey the new Jeruſalem, and gather my ſoule into the boſome of <hi>Abraham</hi> that place of peace, and haven of true happineſſe, even for thy deare Sons ſake Jeſus Chriſt the righteous, in whoſe name and merits, mediation and words I call upon thee, ſaying. O our Father which art in heaven, &amp;c.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>

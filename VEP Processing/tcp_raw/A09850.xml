@@ -1,0 +1,757 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A looking-glasse for the soule, and a definition thereof. Written by Edward Popham Gentleman</title>
+            <author>Popham, Edward, gentleman.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1619</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 38 KB of XML-encoded text transcribed from 35 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A09850</idno>
+            <idno type="STC">STC 20115</idno>
+            <idno type="STC">ESTC S102083</idno>
+            <idno type="EEBO-CITATION">99837883</idno>
+            <idno type="PROQUEST">99837883</idno>
+            <idno type="VID">2230</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A09850)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 2230)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1426:06)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A looking-glasse for the soule, and a definition thereof. Written by Edward Popham Gentleman</title>
+                  <author>Popham, Edward, gentleman.</author>
+               </titleStmt>
+               <extent>[20], 48 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by T. S[nodham] for Nathanael Newbery, and are to be sold at the signe of the Star in Popes-head Alley, and vnder S. Peters Church in Corne-hill,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1619.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Printer's name from STC.</note>
+                  <note>Quire A misbound.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Soul --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-11</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-12</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2010-12</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:2230:1"/>
+            <p>
+               <pb facs="tcp:2230:1"/> A <hi>Looking-glaſſe for the</hi> SOVLE,
+<hi>AND</hi> A DEFINITION thereof.</p>
+            <p>
+               <hi>WRITTEN By</hi> Edward Popham <hi>Gentleman.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>T. S.</hi> for <hi>Nathanael
+Newbery,</hi> and are to be ſold at the ſigne of the Star in Popes-head
+Alley, and vnder S. <hi>Peters</hi> Church in <hi>Corne-hill</hi> 1619.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:2230:2"/>
+            <pb facs="tcp:2230:2"/>
+            <head>TO HIS BEST, worthy, and moſt endee<g ref="char:EOLhyphen"/>red Friend, M<hi rend="sup">r</hi>. <hi>Iohn
+de Hem,</hi> Merchant of this Honourable Cittie of <hi>London, Edward
+Popham</hi> wiſheth all terreſtriall bleſſings in this world, and the
+fulneſſe of all celeſtiall bleſſings in the Life to come.</head>
+            <p>
+               <seg rend="decorInit">M</seg>Y moſt loued and beſt eſtee<g ref="char:EOLhyphen"/>med Friend, I haue read, that
+mongst that little labo<g ref="char:EOLhyphen"/>rious
+<pb facs="tcp:2230:3"/> Common-wealth of Bees, they haue a law, that if a
+Drone hauing loſt his ſting (which gaue him ſpirit to labour, becauſe
+being ar<g ref="char:EOLhyphen"/>med with that hee was able to encounter with his aduer<g ref="char:EOLhyphen"/>ſary) &amp;
+now giuing himſelfe to ſloth, and ſucke the honey from the reſt, he is
+(by a ge<g ref="char:EOLhyphen"/>nerall conſent) preſently thruſt out, and baniſht, or put to
+death, as an vnprofi<g ref="char:EOLhyphen"/>table member: To auoyde which imputation, I haue
+<pb facs="tcp:2230:3"/> gathered vp ſome remnants of time, to meditate vpon
+an euerlaſting ſubiect (which is the <hi>Soule)</hi> a ſubiect be<g ref="char:EOLhyphen"/>ing
+created to ſerue her im<g ref="char:EOLhyphen"/>mortall King, and euerla<g ref="char:EOLhyphen"/>ſting, becauſe a
+bleſſed euer<g ref="char:EOLhyphen"/>laſting life is her reward if ſhe perſeuere in her
+Creators ſeruice to the end. I confeſſe it is a large field, whereon in
+expert Artiſt may frame and build a goodly Cittie;
+<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ut I being but a ſimple
+la<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ourer, dare not preſume
+to
+<pb facs="tcp:2230:4"/> ſpeake of <hi>Coloſſus,</hi> or build pyramides
+(wonders of the world) leſt in piercing too high, I meete with
+<hi>Ba<g ref="char:EOLhyphen"/>bell,</hi> and ſo fall to ruine. Yet as the poore widdow in the
+Goſpell, amongst the ma<g ref="char:EOLhyphen"/>ny great ſuperfluous gifts did not doubt but her
+mite would be accepted; ſo I doubt not but mongst thoſe many huge vollumes
+that ſwarme in the world, ſome well-iudging Chriſtian may caſt his eye
+on my poore
+<pb facs="tcp:2230:4"/> worke, &amp; ſo may giue a gen<g ref="char:EOLhyphen"/>tle concluſion,
+ſaying, this poore man hath caſt in his Mite into the treaſury, and
+brought one little stone to the eternall building. To giue a better gloſſe
+to my ſmall commodity, I haue thought good (my deere Friend) to patronize it
+vn<g ref="char:EOLhyphen"/>der your protection, coniu<g ref="char:EOLhyphen"/>ring you by all the lawes of friendſhip, not to
+refuſe the guardiance of this poore In<g ref="char:EOLhyphen"/>fant, but nouriſh it with
+<pb facs="tcp:2230:5"/> your beſt loue, for which you ſhall be ſure to
+finde double requitall; firſt, you ſhal bind my poore loue and labour to
+your ſeruice; and laſt, (which is beſt) you ſhall find Gods bleſsing
+to your ſoule and body; to whoſe prote<g ref="char:EOLhyphen"/>ction I leaue you, and reſt yours,
+euer deuoted</p>
+            <closer>
+               <signed>Edward Popham.</signed>
+            </closer>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:2230:5"/>
+            <head>THE PREFACE, <hi>OR Introduction.</hi>
+            </head>
+            <p>
+               <seg rend="decorInit">T</seg>He ſoueraigne decree of God, enacted by the <hi>Father</hi> of
+Hea<g ref="char:EOLhyphen"/>uen, ratified by his <hi>Sonne,</hi> and daily repea<g ref="char:EOLhyphen"/>ted by the inſtinct
+of the <hi>Ho<g ref="char:EOLhyphen"/>ly Ghoſt,</hi> bindeth euery good
+<pb facs="tcp:2230:6"/> Chriſtian to diſtribute accor<g ref="char:EOLhyphen"/>ding to their
+meaſure lent, be it more or leſſe, ſo it may any waies profit,
+following that ſaying of <hi>Plato, Non ſolum no<g ref="char:EOLhyphen"/>bis nati ſumus.</hi> For
+it is a mo<g ref="char:EOLhyphen"/>tiue that alloweth of no ex<g ref="char:EOLhyphen"/>cuſe, but of neceſſity
+preſſeth euery good mind to the per<g ref="char:EOLhyphen"/>formance of dutie. <hi>Nature</hi> by
+grace is not aboliſhed but perfected, not murthered but manured; neither are
+her im<g ref="char:EOLhyphen"/>preſſions quite raſed or anul<g ref="char:EOLhyphen"/>led, but ſuted to the colours of
+faith and vertue.</p>
+            <p>And if <hi>Natures</hi> affections be ſo forcible, that euen
+<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n Hell (where rankor and
+<gap reason="illegible" resp="#OXF" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>
+               <pb facs="tcp:2230:6"/> ſpight raineth, and all feeling of Gods
+goodneſſe is ouer<g ref="char:EOLhyphen"/>whelmed in mallice) it mo<g ref="char:EOLhyphen"/>ued the rich glutton by
+expe<g ref="char:EOLhyphen"/>rience of his owne miſery, to carry a deſire of admonition to his
+friends; much more in the Church of God, where grace quickeneth, charity
+in<g ref="char:EOLhyphen"/>flameth, and <hi>Natures</hi> incli<g ref="char:EOLhyphen"/>nation (directed by ſuperna<g ref="char:EOLhyphen"/>turall
+grace) prouoketh ought the dutie of piety to preuaile.</p>
+            <p>And who but more merci<g ref="char:EOLhyphen"/>leſſe then damned Creatures, could
+ſee their Chriſtian Bre<g ref="char:EOLhyphen"/>thren, almoſt plunged in like perill, and not be
+wounded
+<pb facs="tcp:2230:7"/> with deep remorſe, of their la<g ref="char:EOLhyphen"/>mentable &amp;
+imminent hazard. If in beholding a mortall ene<g ref="char:EOLhyphen"/>my, wrung and tortured with
+deadly pangs, the tougheſt heart ſoftneth with ſome <hi>Sor<g ref="char:EOLhyphen"/>row.</hi> If
+the moſt fierce mind cannot but thaw &amp; melt with pitty, when it ſeeth
+the worſt <hi>Miſcreant</hi> ſuffer his deſerued torments? how much
+leſſe can a Chriſtian heart conſider the number of ſuch which daily
+fall into farre more bitter ex<g ref="char:EOLhyphen"/>treamities, and not bleed in griefe for their
+vncomfortable caſe; nay, rather imploy all their cares, ſtudies, and
+indea<g ref="char:EOLhyphen"/>uours to winne and reclaime them from that dangerous
+<pb facs="tcp:2230:8"/> brincke of perdition?</p>
+            <p>Surely, though I challenge not the prerogatiue of the beſt
+diſpoſition; yet my de<g ref="char:EOLhyphen"/>ſire is, with young <hi>Tobias,</hi> to trauell
+and bring home ſpiri<g ref="char:EOLhyphen"/>tuall ſubſtance, and medicina<g ref="char:EOLhyphen"/>ble receits to cure
+ſuch ghoſt<g ref="char:EOLhyphen"/>ly malladie, as euidently at this day is to be ſeene, and did
+in no former <hi>Age</hi> more ex<g ref="char:EOLhyphen"/>ceedingly abound. I haue with <hi>Eſau</hi>
+prouided Veniſon which may procure a bleſſing, and bread, with
+<hi>Ioſeph,</hi> for the repaſt of their ſoules, which moſt careleſly
+they oppreſſe with famine in time of plenty. Let it not therfore be thought
+
+<pb facs="tcp:2230:9"/> any diſhonor to men of more grauity, or
+diſparagemement to any perſon whatſoeuer that I, in all humility, offer
+my aduiſe in a caſe ſo much to be pittied, and a time ſo dange<g ref="char:EOLhyphen"/>rous.
+One man cannot be per<g ref="char:EOLhyphen"/>fect in all faculties, neither is it any diſgrace to
+the <hi>Gold<g ref="char:EOLhyphen"/>ſmith</hi> if he be ignorant of the <hi>Millers</hi> trade. Many
+are deepe Lawyers, but ſhallow Di<g ref="char:EOLhyphen"/>uines, and are farre to ſeeke in
+religious actions.</p>
+            <p>If therefore I offer the fruits of my labours, and make you
+apreſent of my zealous indea<g ref="char:EOLhyphen"/>uours, I hope you will cen<g ref="char:EOLhyphen"/>ſure thereof,
+rather as of the
+<pb facs="tcp:2230:7"/> part of a dutifull Chriſtian, then of any poynt of
+pre<g ref="char:EOLhyphen"/>ſumption. And ſo I humbly refer you to the reſt, as follow<g ref="char:EOLhyphen"/>eth.</p>
+            <epigraph>
+               <q>Demidium facti qui bene coepit habet.</q>
+            </epigraph>
+         </div>
+         <div type="epigraph">
+            <pb facs="tcp:2230:8"/>
+            <p>
+               <pb facs="tcp:2230:9"/> 
+               <hi>Jbi res humanae nunquàm proſperè
+ſuccedunt vbi negliguntur diuinae.</hi>
+            </p>
+         </div>
+         <div type="definition">
+            <pb facs="tcp:2230:10"/>
+            <pb facs="tcp:2230:10"/>
+            <head>A DEFINITION <hi>OF The Soule.</hi>
+            </head>
+            <p>
+               <hi>
+                  <seg rend="decorInit">F</seg>IRST, it is an im<g ref="char:EOLhyphen"/>materiall ſubſtance: While it doth
+re<g ref="char:EOLhyphen"/>uiue the body, it is the</hi> Soule; <hi>when it willeth or chooſeth any
+thing, it may (though improperly) be called
+<pb facs="tcp:2230:11"/> the</hi> Minde: <hi>While is knoweth any thing, it
+may be called (though improperly againe) the</hi> Vnderſtanding: <hi>While it
+iudgeth, ſome haue tearmed is</hi> Reaſon: <hi>While it doth breath or
+contemplate, a</hi> Spirit: <hi>While it calls any thing to minde, the</hi>
+Memorie: <hi>While it thinketh any thing (though more groſe<g ref="char:EOLhyphen"/>ly) the</hi>
+Sence. <hi>But to ſpeake of the</hi> Soule <hi>as it is, it is an
+imma<g ref="char:EOLhyphen"/>teriall ſubſtance, and Reaſon, Memory, Sence, &amp;c. are the
+ſe<g ref="char:EOLhyphen"/>uerall faculties and diuers oppe<g ref="char:EOLhyphen"/>rations thereof.</hi>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:2230:11"/>
+            <head>
+               <hi>A Looking-glaſſe for the</hi> Sovle.</head>
+            <p>
+               <seg rend="decorInit">M</seg>Oſt neceſſary and behoouefull it is for euery good
+Chriſtian humbly and heartily to beſeech God for his Sonne Chriſt his
+ſake, the honour of his glorious Name, our dutie towards the Church, and the
+comfort of our <hi>Soules,</hi> that wee may
+<pb n="2" facs="tcp:2230:12"/> ſeriouſly conſider the termes of our
+preſent eſtate wherein we ſtand, and weigh our ſelues in a Chriſtian
+ballance, taking for our counterpoyze the Iudgements of God.</p>
+            <p>Let vs take heede in time that the word <hi>Tekel,</hi> written
+<note place="margin">Dan 5. 25.</note> of old againſt
+<hi>Baltazar,</hi> and interpreted by <hi>Daniel,</hi> be not verified in vs,
+whoſe expoſiti<g ref="char:EOLhyphen"/>on was; <hi>You haue beene poyzed in the Ballance, and found
+of too light waight.</hi> Let vs remember that we are in the waine, and the
+date of our <hi>Pilgrimage</hi> is well-neare expired. Now therefore it
+behooueth vs to looke to our Countrey; our
+<pb n="3" facs="tcp:2230:12"/> forces languiſh, our ſenſes impaire, our
+bodies droope, and on euery ſide the ruinous <hi>Cottage</hi> of our faint
+and feeble fleſh threatneth fall.</p>
+            <p>Hauing then ſo many har<g ref="char:EOLhyphen"/>bingers of death for to pre<g ref="char:EOLhyphen"/>moniſh vs
+of our end, O let vs then with all care indea<g ref="char:EOLhyphen"/>uour our ſelues to be prepa<g ref="char:EOLhyphen"/>red
+for ſo dreadfull a ſtranger. The young may die quickely, but the old cannot
+liue long; young mens liues may by ca<g ref="char:EOLhyphen"/>ſualties be abridged, but the old mens
+can by no phiſicke be long adiourned: If then green years ought to be
+mind<g ref="char:EOLhyphen"/>full of the graue, the thoughts
+<pb n="4" facs="tcp:2230:13"/> of ſeere <hi>Age,</hi> muſt continually
+dwell in the ſame: Whereby we may ſee that old and yong of what eſtate
+and condition ſoeuer, are ſeriouſly to pro<g ref="char:EOLhyphen"/>uide for the intertainment of
+ſo feareful a ſtranger. The prerogatiue of Infancy is in<g ref="char:EOLhyphen"/>nocency, of
+Childehoode re<g ref="char:EOLhyphen"/>uerence, of Man-hoode ma<g ref="char:EOLhyphen"/>turity, and of <hi>Age</hi> wiſedome:
+the chiefe properties of wiſe<g ref="char:EOLhyphen"/>dome are to be mindfull of things paſt,
+carefull of things preſent, and prouident of things to come. Let vs vſe
+then the priuiledge of <hi>Natures</hi> tallent to the benefit of our
+<hi>Soules,</hi> and indeauour hereaf<g ref="char:EOLhyphen"/>ter to be wiſe, and delight in
+<pb n="5" facs="tcp:2230:13"/> well-doing, and watchfull in foreſight of
+future harmes: for to continue our courſe in ſeruice of the world we haue
+little cauſe, ſeeing it yeeldeth but an vnhappy welcome, a churliſh
+entertainement, and doth abandon vs with an vn<g ref="char:EOLhyphen"/>fortunate farewell. Who then
+would ſowe in ſuch a flinty field, where we ſhall reape no<g ref="char:EOLhyphen"/>thing but a
+crop of cares, and affliction of ſpirit, rewarding our labours with
+remorſe, and affording vs for gaine eternall dammage?</p>
+            <p>It is now more then a ſeaſo<g ref="char:EOLhyphen"/>nable time to alter the courſe
+of ſo vnthriuing a huſbandry,
+<pb n="6" facs="tcp:2230:14"/> and enter into the field of Gods
+<hi>Church,</hi> in which ſow<g ref="char:EOLhyphen"/>ing the ſeeds of repentant ſor<g ref="char:EOLhyphen"/>row, and
+watering them with the teares of humble contriti<g ref="char:EOLhyphen"/>on, we may haue a more
+be<g ref="char:EOLhyphen"/>neficiall harueſt, and gather the fruits of euerlaſting com<g ref="char:EOLhyphen"/>fort. Let vs
+remember that our ſpring is ſpent, our Som<g ref="char:EOLhyphen"/>mer ouer-paſt, and wee are now
+arriued at the fall of the leafe. And that S. <hi>Auguſtine</hi> ſaith,
+<hi>Though our louing Lord beare long with offenders, be not careles, for the
+longer he ſtaieth, not finding amendment, the ſo<g ref="char:EOLhyphen"/>rer will he ſcourge when
+he com<g ref="char:EOLhyphen"/>meth to iudgement, and his pati<g ref="char:EOLhyphen"/>ence in long expecting is onely to
+<pb n="7" facs="tcp:2230:14"/> lend vs reſpite to repent, and not any way to
+inlarge our lea<g ref="char:EOLhyphen"/>ſure to ſinne.</hi>
+            </p>
+            <p>He that is toſſed with vari<g ref="char:EOLhyphen"/>ety of ſtormes, and cannot come
+to his deſired port, ma<g ref="char:EOLhyphen"/>keth not much way, but is turmoiled; So he that hath
+paſſed many yeares, and pur<g ref="char:EOLhyphen"/>chaſed little profit, hath had a long being
+but a ſhort life: for life is more to be meaſured, by goodneſſe then
+number of daies, ſeeing moſt men by ma<g ref="char:EOLhyphen"/>ny daies doe but procure ma<g ref="char:EOLhyphen"/>ny
+deaths; and others in ſhort ſpace of time doe attaine the life of infinite
+<hi>Ages.</hi>
+            </p>
+            <p>
+               <pb n="8" facs="tcp:2230:15"/> What is the body without the <hi>Soule,</hi>
+but a corrupt car<g ref="char:EOLhyphen"/>kaſſe? And what is the <hi>Soule</hi> without God, but a
+Sepulchre of ſinne? If God be the way, the truth, and the life, he that goeth
+without him ſtrayeth, he that liueth without him di<g ref="char:EOLhyphen"/>eth, and he that is not
+taught by him erreth, Well ſaid S. <hi>Auguſtine, God is our true and
+chiefe life, reuolting from whom is falling, to whom returning is riſing, in
+whom ſtaying is ſure ſtanding. God is he, from whom to depart is to dye,
+in whom to dwell is to liue.</hi> Be not there<g ref="char:EOLhyphen"/>fore like to thoſe that
+beginne not to liue, vntill they be rea<g ref="char:EOLhyphen"/>dy to dye; and after a foes
+<pb n="9" facs="tcp:2230:15"/> deſert, come to craue of God a friendly
+entertainment.</p>
+            <p>Some thinke to ſnatch hea<g ref="char:EOLhyphen"/>uen in a moment, which the beſt
+could ſcarce doe in the continuance of many yeares: and when they haue
+glutted themſelues with many de<g ref="char:EOLhyphen"/>lights, they would iumpe from <hi>Diues</hi>
+dyet to <hi>Lazarus</hi> Crowne, and from the ſeruice of <hi>Sathan,</hi> to
+the ſollace of <hi>Saints;</hi> But let them be wel aſ<g ref="char:EOLhyphen"/>ſured, that God is
+not ſo pen<g ref="char:EOLhyphen"/>nurious of friends, as to hold himſelfe &amp; kingdome
+ſaleable for the reuerſion &amp; refuſe of their liues, who haue
+ſacrificed the principall part thereof to
+<pb n="10" facs="tcp:2230:16"/> his enemies, and their owne brutiſh
+appetites, then onely ceaſing to offend, when abili<g ref="char:EOLhyphen"/>ty of offending is taken
+away.</p>
+            <p>And true it is a <hi>Theefe</hi> may be ſaued vpon the
+Croſſe, and mercy found at the laſt gaſpe: But well ſaid S.
+<hi>Auguſtine, Though with God it be poſsible, yet is it ſcarce credible,
+that his death ſhould finde fauour, whoſe whole life hath earned wrath; And
+that his</hi> Repentance <hi>ſhould be accep<g ref="char:EOLhyphen"/>ted that more for feare of Hell,
+and loue of himſelfe, then for the loue of God cryeth for mercie.</hi>
+Wherefore let vs make no longer delay, but being ſo nigh the breaking vp of
+our mortall houſe, take time be<g ref="char:EOLhyphen"/>fore
+<pb n="11" facs="tcp:2230:16"/> extreamity, to appeaſe Gods iuſtice.</p>
+            <p>Though wee haue ſuffered the bud to be blaſted, and the flower
+to fade, and though wee haue permitted the fruit to periſh, and the body of
+the <hi>Tree</hi> to decay, yet let vs keepe life in the roote, for feare
+leſt the whole become fewell for hell fire: for ſurely whereſo<g ref="char:EOLhyphen"/>euer the
+<hi>Tree</hi> falleth, there ſhall it be, whether to the <hi>South</hi> or
+<hi>North, Hell</hi> or <hi>Heauen.</hi> Such ſap as it yeeldeth, ſuch
+fruit ſhall it euer beare.</p>
+            <p>And now ſeeing wee are left vnto the remiſals of our
+<pb n="12" facs="tcp:2230:17"/> weariſh and dying dayes, the remainder
+whereof as it can<g ref="char:EOLhyphen"/>not be long, ſo it doth warne vs ſpeedily to returne, and
+to ranſome our former loſſes, that againſt the approaching of our
+deſolution and period of our courſe, we may not be vnprouided of ſuch
+appurte<g ref="char:EOLhyphen"/>nances as are behoouefull in ſuch a perillous and perplex<g ref="char:EOLhyphen"/>ed a
+iourney.</p>
+            <p>
+               <hi>Death</hi> in it ſelfe is very feare<g ref="char:EOLhyphen"/>full, but much more
+terrible in reſpect of the iudgement it ſummoneth vs vnto. If we were laid
+on our departing Bed, burdened with the load of our former treſpaſſes,
+and
+<pb n="13" facs="tcp:2230:17"/> goared with the ſting and pricke of a
+feſtered conſci<g ref="char:EOLhyphen"/>ence, if we felt the crampe of death wreſting our
+heart<g ref="char:EOLhyphen"/>ſtrings, and ready to make the ruefull diuorce betweene bo<g ref="char:EOLhyphen"/>dy and
+<hi>Soule.</hi> If we lay pan<g ref="char:EOLhyphen"/>ting for breath, and ſwim<g ref="char:EOLhyphen"/>ming in a cold &amp;
+fatall ſweat, wearied with ſtrugling againſt our deadly pangs. How much
+would wee giue for an houre of repentance? At what rate would we value a daies
+con<g ref="char:EOLhyphen"/>trition? Then worlds would be worthleſſe in reſpect of a little
+reſpite, a ſhort truce would ſeeme more pretious then all the treaſures
+of <hi>Em<g ref="char:EOLhyphen"/>piers,</hi> nothing would be ſo
+<pb n="14" facs="tcp:2230:18"/> much eſteemed as a trice of time, which now
+by moneths and yeares, is lauiſhly ſpent. How deepe it would wound our
+hearts, when looking back into our liues, we conſider ſo many faults
+committed and not repented of, many good workes omitted and not reco<g ref="char:EOLhyphen"/>uered, our
+ſeruice to God promiſed, and not perfor<g ref="char:EOLhyphen"/>med. How inconſolable were our
+caſe, our friends being fled, our ſenſes frighted, our thoughts amazed,
+and our memory decayed, our whole mindes agaſt, and no part able to performe
+that it ſhould, but onely our guilty conſci<g ref="char:EOLhyphen"/>ences peſtered with
+<hi>Sinne,</hi>
+               <pb n="15" facs="tcp:2230:18"/> that would continually vp<g ref="char:EOLhyphen"/>braid vs with moſt
+bitter ac<g ref="char:EOLhyphen"/>cuſation.</p>
+            <p>What would wee thinke when ſtripped out of our mortall weede,
+and turned out of the ſeruice &amp; houſe-roome of this world, we were
+forced to enter into vncouth and ſtrange pathes; and with vn<g ref="char:EOLhyphen"/>knowne,
+ſtrange, and ougly <hi>company,</hi> be convented before a moſt ſeuere
+Iudge, carrying in our conſciences our iudge<g ref="char:EOLhyphen"/>ment written, and a perfect
+regiſter of our miſdeeds, when wee ſhould ſee him prepared to paſſe
+ſentence vpon vs, a<g ref="char:EOLhyphen"/>gainſt whom wee haue grie<g ref="char:EOLhyphen"/>uouſly
+<pb n="16" facs="tcp:2230:19"/> tranſgreſſed; and the ſame to be our
+<hi>Vmper,</hi> whom by many offences we haue vr<g ref="char:EOLhyphen"/>ged to be our aduerſary,
+when not onely the Diuells but <hi>An<g ref="char:EOLhyphen"/>gels</hi> ſhould plead againſt vs;
+and our ſelues maugre our wills ſhould be our ſharpeſt appeachers: What
+ſhould we doe in theſe dreadful exigents, when we ſaw that gaſtly
+<hi>Dun<g ref="char:EOLhyphen"/>geon,</hi> and huge gulfe of Hell, breaking out with moſt dread<g ref="char:EOLhyphen"/>full
+flames? when wee ſhould ſee the weeping, howling, and gnaſhing of teeth,
+the rage of helliſh <hi>Monſters,</hi> the horrour of the place, the rigour
+of the paine, the terrour of the com<g ref="char:EOLhyphen"/>pany, and eternity of the
+<pb n="17" facs="tcp:2230:19"/> puniſhment, wee would not thinke it time to
+delay ſuch weighty matters, and idly to play away the time allotted to
+preuent thoſe intollerable puniſhments.</p>
+            <p>And would we then thinke it ſecure to nurſe in our bo<g ref="char:EOLhyphen"/>ſomes
+as many <hi>Serpents</hi> as ſinnes, or to foſter in our <hi>Soules</hi>
+ſo many malitious accuſers, as mortall faults, would we not thinke one life
+too little to doe pennance for ſo many <hi>Sinnes?</hi> Why then doe we not
+deuote theſmall remnant of our time, and ſurpluſſage of our daies to
+make Attonement with God by the blood of Ieſus Chriſt?</p>
+            <p>
+               <pb n="18" facs="tcp:2230:20"/> What haue wee gotten by being ſo long a
+cuſtomer to the world, but falſe ware, ſu<g ref="char:EOLhyphen"/>table to the ſhoppe of ſuch
+a <hi>Marchant,</hi> whoſe trafficke is toyle, &amp; wealth is traſh; and
+whoſe gaine is miſery? What intereſt haue we got that may equal our
+detrements in grace and vertue? Or what could wee finde in a <hi>Vale</hi> of
+teares proportionable to the fauour of God, with the loſſe where<g ref="char:EOLhyphen"/>of we were
+contented to buy it?</p>
+            <p>Let vs not ſtill be inueagled with the paſſions of
+<hi>youth,</hi> which make a partial eſtimate of things, ſetting no
+difference
+<pb n="19" facs="tcp:2230:20"/> betweene currant and coun<g ref="char:EOLhyphen"/>terfeit. But let
+ſuch paſſions either now be worne out of force by tract of time, or fall
+into reproofe by the triall of folly.</p>
+            <p>If this carnal ſecurity be but an vngrounded preſumption of
+the mercy of God, and the flattring hope of his aſſiſtance at the laſt
+plunge, but the ordi<g ref="char:EOLhyphen"/>nary Lure of the Diuell to re<g ref="char:EOLhyphen"/>claime <hi>Sinners</hi> from
+the pur<g ref="char:EOLhyphen"/>ſuite of vertue, (as it is with many) it were too palpable a
+colluſion to miſlead ſound ſen<g ref="char:EOLhyphen"/>ſible people, howſoeuer it pre<g ref="char:EOLhyphen"/>uaile
+with ſicke and infected Iudgements. For who would
+<pb n="20" facs="tcp:2230:21"/> relye eternal affaires vpon the gliding
+ſlipperineſſe, and run<g ref="char:EOLhyphen"/>ning ſtreame of our vncertain life? Or who but
+of diſtempe<g ref="char:EOLhyphen"/>red wits, would offer fraud, to the decipherer of al thoughts?
+With whom diſſemble wee may to our coſts, but to de<g ref="char:EOLhyphen"/>ceiue him it is
+vnpoſſiible. Shal wee eſteeme it cunning to rob the time from him &amp;
+beſtow it on his enemies? who kee<g ref="char:EOLhyphen"/>peth a talle of the leſt minutes of our
+life, and will examine in the end, how each moment hath beene imployed.</p>
+            <p>It is a prepoſterous pollicy, in any wiſe conceit, to fight
+a<g ref="char:EOLhyphen"/>gainſt <hi>God,</hi> till our weapons
+<pb n="21" facs="tcp:2230:21"/> be blunted, our forces conſu<g ref="char:EOLhyphen"/>med, our limbs
+impotent, and our beſt time ſpent; and when we fall for faintnes, and haue
+fought our ſelues almoſt dead, to preſume of his mer<g ref="char:EOLhyphen"/>cie; The wounds of
+his ſacred <hi>Bodie</hi> ſo often rubbed and re<g ref="char:EOLhyphen"/>nued by our ſinnes, and
+e<g ref="char:EOLhyphen"/>uery parcell of our owne ſo ſundry wayes abuſed, being ſo many
+whetſtones to edge and exaſperate his reuenge a<g ref="char:EOLhyphen"/>gainſt vs; why ſhould
+we then preſume of mercy?</p>
+            <p>It were a ſtrange peece of <hi>Art,</hi> and a very exorbitant
+courſe while the <hi>Ship</hi> is ſound, the <hi>Pylot</hi> well, the
+<hi>Sailers</hi>
+               <pb n="22" facs="tcp:2230:22"/> ſtrong, and the <hi>Gale</hi> forcible, to
+lye idly at <hi>Roade,</hi> burning ſo ſeaſonable weather; and when the
+<hi>Ship</hi> leaketh, the <hi>Py<g ref="char:EOLhyphen"/>lot</hi> is ſick, the <hi>Marriners</hi>
+faint, the ſtorme boyſterous, and the <hi>Sea</hi> a turmoile of
+outra<g ref="char:EOLhyphen"/>gious ſurges; to hoiſe vp ſailes and ſet out for a farre voyage
+into a ſtrange Countrey. Such is the skill of theſe euening
+<hi>Repenters,</hi> who though in the ſoundneſſe of health, and per<g ref="char:EOLhyphen"/>fect
+vſe of reaſon, they cannot endeauour to cut the Cables, and weigh the
+Anchors that withhold them from God. Neuertheles, they feed them<g ref="char:EOLhyphen"/>ſelues with
+a ſtrong perſwa<g ref="char:EOLhyphen"/>ſion, that when their ſenſes
+<pb n="23" facs="tcp:2230:22"/> are aſtonied, their wits diſtra<g ref="char:EOLhyphen"/>cted,
+their vnderſtanding duſ<g ref="char:EOLhyphen"/>ked, and both body and mind racked, &amp; tormented
+with the throbs and gripes of a mortall ſickneſſe. Then forſooth they
+will thinke of the weightieſt matters, and become ſodaine <hi>Saints,</hi>
+when they are ſcarce a<g ref="char:EOLhyphen"/>ble to behaue themſelues like reaſonable
+creatures.</p>
+            <p>If neither the <hi>Cannon, Ciuill,</hi> nor <hi>Common Law</hi>
+alloweth that a man periſht in iudge<g ref="char:EOLhyphen"/>ment ſhall make any Te<g ref="char:EOLhyphen"/>ſtament or
+bequeſt of his tem<g ref="char:EOLhyphen"/>porall ſubſtance, being then thoughtto beleſſe
+then a man: How can he that is turmoiled
+<pb n="24" facs="tcp:2230:23"/> with inward garboiles of an vnſetled
+<hi>Conſcience,</hi> diſtrained with the wringing fits of his dying
+fleſh, maimed in all his abilities, and circled in with ſo ſtrange
+incumbrances, be<g ref="char:EOLhyphen"/>thought of due diſcretion to diſpoſe of his chiefeſt
+treaſure (which is his <hi>Soule)</hi> and to diſ<g ref="char:EOLhyphen"/>patch the whole mannaging
+of eternity, and the treaſures of heauen in ſo ſhort a ſpace of time.
+No, no, they that loi<g ref="char:EOLhyphen"/>ter in ſeed time, and beginne onely to ſowe when
+others reape, they that will ryot out their health, and caſt their ac<g ref="char:EOLhyphen"/>counts
+when they can ſcarce ſpeake, they that doe ſlumber out the day, and enter
+their
+<pb n="25" facs="tcp:2230:23"/> iourney, when the light doth faile them; let
+them thanke their owne folly if they dye in debt, and eternall beggary, and
+fall headlong into the lapſe of euerlaſting perdition. Let ſuch hearken
+vnto S. <hi>Cy<g ref="char:EOLhyphen"/>prians</hi> leſſon, who ſaith, <hi>Let the grieuouſnes
+of our ſinne, be the meaſure of our ſorrow: let a deepe wound haue a
+diligent cure, let no mans contrition be leſſe then his crime.</hi>
+            </p>
+            <p>Thinke wee that our <hi>Lord,</hi> can ſo ſoone be appeaſed,
+whom with perditious words we haue offended? No, wee muſt fall proſtrate on
+the ground, humbling our ſeiues
+<pb n="26" facs="tcp:2230:24"/> in <hi>Sackclothe</hi> and <hi>Aſhes,</hi>
+and hauing forced our ſtomackes with the ſurfet of the Diuell, wee muſt
+now deſire to faſt from all earthly foode, apply<g ref="char:EOLhyphen"/>ing our ſelues to good
+works inſtead of offences, and in ſin<g ref="char:EOLhyphen"/>gleneſſe of heart effect our
+Chriſtian duties, to auoide the death of our <hi>Soules,</hi> that Chriſt
+may receiue that which the perſecuter would haue ſpoyled.</p>
+            <p>Euery ſhort ſigh will not be a ſufficient ſatisfaction,
+nor euery knocke a warrant to get in, many cry <hi>Lord, Lord,</hi> and are not
+accepted, the fooliſh <hi>Virgins</hi> knocked, and were not
+<pb n="27" facs="tcp:2230:24"/> admitted, <hi>Iudas</hi> had ſome ſorrow,
+and yet died deſpe<g ref="char:EOLhyphen"/>rate: forſlowe not the time ſaith the <hi>Holy
+Ghoſt</hi> to be con<g ref="char:EOLhyphen"/>uerted to God, linger not off from day to day, for
+ſodaine<g ref="char:EOLhyphen"/>ly will his wrath come, and in his reuenge, hee will deſtroy
+thee.</p>
+            <p>Let vs not ſoiourne long in ſinnefull ſecurity, nor
+paſſe ouer <hi>Repentance</hi> till feare in<g ref="char:EOLhyphen"/>force vs to it, let vs frame
+our premiſes, as wee would finde our concluſion, and indeauor to liue, as
+wee deſire to dye. Shall we offer the maine crop to the diuell, and ſet
+<hi>God</hi> to gleane the remainder of the
+<pb n="28" facs="tcp:2230:25"/> harueſt, or gorge the diuell with the
+faireſt fruits, &amp; turne God to feede on the filthy ſcraps of his
+leauings?</p>
+            <p>How great a folly were it, when a man pyneth away in perillous
+languor, to prouide gorgious Apparell, and take order for the rearing of
+ſtate<g ref="char:EOLhyphen"/>ly buildings, and neuer thinke of his owne recouery, but let the
+diſeaſe take roote in him?</p>
+            <p>
+               <hi>Chryſoſtome</hi> ſaith, <hi>When mans</hi> Soule
+<hi>hath ſurfeited in all kinde of ſinne, and is drenched in manifold
+diſeaſes, they pam<g ref="char:EOLhyphen"/>per the body, with all poſsible de<g ref="char:EOLhyphen"/>light: Where as
+the</hi> Soule <hi>ſhould
+<pb n="29" facs="tcp:2230:25"/> haue the ſoueraignty, and the body follow
+the ſway of her di<g ref="char:EOLhyphen"/>rections; but ſeruile ſences and lawleſſe
+appetites, rule her as ſu<g ref="char:EOLhyphen"/>periour, and ſo make her as a</hi> Vaſſall,
+<hi>or ſeruile in her owne dominions.</hi>
+            </p>
+            <p>
+               <hi>What is there</hi> (ſaith S. <hi>Au<g ref="char:EOLhyphen"/>guſtine) in thy
+meaneſt neceſſa<g ref="char:EOLhyphen"/>ries, that thou wouldeſt not haue good; Thou wouldſt
+haue a good houſe, good furniture, good ap<g ref="char:EOLhyphen"/>parell, good fare, good cattell,
+and not ſo little as thy Hoſe and Shooes, but thou wouldſt haue it good,
+onely thy Life and poore</hi> Soule; <hi>thy principall charge, &amp; of other
+things the moſt worthi<g ref="char:EOLhyphen"/>eſt, thou art content ſhould be
+<pb n="30" facs="tcp:2230:26"/> nought, by cankering and ruſting in all
+kinde of euill.</hi>
+            </p>
+            <p>Oh vnſpeakeable blindnes, to preferre our ſhooes before our
+<hi>Soules,</hi> refuſing to weare an vnſeemely ſhooe, and not caring to
+carry an vgly <hi>Soule!</hi> Alas, let vs not ſet ſo light by that which
+God prized ſo high, let vs not rate our ſelues at ſo baſe a worth,
+being bought to ſo peereleſſe a dig<g ref="char:EOLhyphen"/>nity. The <hi>Soule</hi> is ſuch,
+that all the gold in the world, nor any thing leſſe worth then the body,
+bloud and death of the Sonne of God, was able to buy it. If not all the
+treaſures of the world, nor any thing
+<pb n="31" facs="tcp:2230:26"/> that wit can deuiſe, but onely Gods owne
+pretious body, was by him deemed, a fit repaſt to feede it; If not all the
+creatures of the world, nor <hi>Millions</hi> of worlds, if ſo many were
+created, but one<g ref="char:EOLhyphen"/>ly the illimitable <hi>Maieſty</hi> and goodneſſe of God
+can ſatisfie the deſire, and fill of the capa<g ref="char:EOLhyphen"/>city of it, who but one of
+lame iudgement or peruerſe will; yea, who but of incredulous minde, and
+pittileſſe ſpirit, could ſet more by his olde ſhoes then by his
+<hi>Soule,</hi> and ſuffer ſo noble a <hi>Paragon</hi> ſo long time to be
+channelled in ordure, and myred in ſinne.</p>
+            <p>
+               <pb n="32" facs="tcp:2230:27"/> If wee ſee our ſeruant ſicke wee allow
+him a <hi>Phiſition,</hi> if our Horſe be diſeaſed, we ſend for a
+<hi>Leach,</hi> nor our garment torne, but we ſeeke to amend it; and yet
+maligne our own <hi>Soule,</hi> and let it dye for want of Cure, and being
+mingled with ſo many vices, neuer ſeek meanes to reſtore it to the former
+integritie.</p>
+            <p>If any ſhould call vs <hi>Epi<g ref="char:EOLhyphen"/>cures, Atheiſts,</hi> or
+<hi>Rebells,</hi> wee ſhould take it a reproach and thinke it a moſt
+diſgracefull and approbrious calumniati<g ref="char:EOLhyphen"/>on, yea but to liue
+<hi>Epicures,</hi> to finne like <hi>Atheiſts,</hi> or like vio<g ref="char:EOLhyphen"/>lent
+<hi>Rebells</hi> to ſcorne Gods
+<pb n="33" facs="tcp:2230:27"/> commandements, and daily with damnable wounds
+bar<g ref="char:EOLhyphen"/>barouſly to ſtabbe in our vn<g ref="char:EOLhyphen"/>fortunate <hi>Soules,</hi> we account no
+contumelie, but rather re<g ref="char:EOLhyphen"/>giſter it in the vaunt of our chiefe praiſes.
+<hi>O yec ſonnes of</hi> Men, <hi>how long will you carry this
+careleſneſſe of heart, following</hi> Vanity <hi>and ſeeke after</hi>
+Lyes? <hi>how long will Children loue the follies of</hi> Infancy, <hi>and
+ſinners run wilfully to their owne ruine and deſtruction?</hi>
+            </p>
+            <p>You keepe your <hi>Chickens</hi> from the <hi>Kite,</hi> your
+<hi>Lambs</hi> from the <hi>Wolfe;</hi> you will not ſuffer a <hi>Spider</hi>
+in your bo<g ref="char:EOLhyphen"/>ſome; nay, ſcarce in your
+<pb n="35" facs="tcp:2230:28"/> houſe: And yet neſtle in your
+<hi>Soule</hi> ſo many <hi>Vipers</hi> as vices, and ſuffer it to be long
+chew<g ref="char:EOLhyphen"/>ed with the poyſoned Iawes and Tuskes of the Diuell. And is your
+<hi>Soule</hi> ſo vaine a ſubſtance, as to be had in ſo little
+eſtimation? Had Chriſt made ſhipwracke of his wiſe<g ref="char:EOLhyphen"/>dome? Or was he but
+in a fit of paſſion? when hee be<g ref="char:EOLhyphen"/>came a wandering <hi>Pilgrime,</hi>
+exiling as it were himſelfe from the comfort of his god<g ref="char:EOLhyphen"/>head, and paſſing
+three and thirty yeares in paine &amp; penu<g ref="char:EOLhyphen"/>ry for the behoofe of our
+<hi>Soules?</hi> Or was he ſurpriſed with a diſtempered ſpirit, when in
+the <hi>Tragedie</hi> of his
+<pb n="34" facs="tcp:2230:28"/> 
+               <hi>Paſsion</hi> ſo grieuouſly in
+flicted, &amp; patiently endured, he made his body as a cloud to diſolue into
+ſhowers of moſt innocent blood, and ſuffered the dea<g ref="char:EOLhyphen"/>reſt vaines of his
+heart to be launced, to giue full iſſue to the prize of our <hi>Soules</hi>
+re<g ref="char:EOLhyphen"/>demption.</p>
+            <p>But if (as indeed) Chriſt did not ere, or deeme amiſſe when
+it pleaſed him to re<g ref="char:EOLhyphen"/>deeme vs with ſo exceſſiue a ranſome. Then what
+ſhall we deeme of our moſt monſtrous abuſes, that ſell our
+<hi>Soules</hi> to the Diuell for euery vaine delight, and rather venture the
+hazard thereof, then the
+<pb n="36" facs="tcp:2230:29"/> ſilly pittance of worldly pelfe.</p>
+            <p>Oh that a creature of ſo in<g ref="char:EOLhyphen"/>comparable a price ſhould be in
+the demaine of ſo vnnatu<g ref="char:EOLhyphen"/>rall keepers; and that which in it ſelfe is ſo
+gratious and amiable, that the <hi>Angels</hi> and <hi>Saints</hi> delight to
+behold it; a<g ref="char:EOLhyphen"/>las, if the care of our owne <hi>Soule</hi> moue vs no more, but
+that we remaine negligent of the better portion of our ſelues, let vs at
+leaſt feare to doe iniury to an other very careful &amp; iealous ouer it, who
+will neuer indure ſo deepe an impeachment of his intereſt to paſſe
+vnreuenged.</p>
+            <p>
+               <pb n="37" facs="tcp:2230:29"/> Wee muſt remember that our <hi>Soule</hi> is
+not onely a part of vs, but alſo the <hi>Temple,</hi> the <hi>Paradice</hi>
+and <hi>Spouſe</hi> of Al<g ref="char:EOLhyphen"/>mighty <hi>God,</hi> by him in <hi>Bap<g ref="char:EOLhyphen"/>tiſme</hi>
+garniſhed, ſtored, and endowed with moſt gratious ornaments. And how
+(thinke ye) he can brooke to ſee his <hi>Temple</hi> prophaned, and tur<g ref="char:EOLhyphen"/>ned
+into a den of Diuels; his <hi>Paradice</hi> diſplanted, &amp; chan<g ref="char:EOLhyphen"/>ged into a
+wilderneſſe of <hi>Ser<g ref="char:EOLhyphen"/>pents;</hi> his <hi>Spouſe</hi> defloured, and
+become an Adultereſſe to his vtter Enemie?</p>
+            <p>If Man, offering ſuch vſage to one of meane eſtate, for
+feare of the law and popular
+<pb n="38" facs="tcp:2230:30"/> ſhame, forbeareth to effect the ſame;
+ſhall not then the reuerend Maieſty of <hi>God,</hi> and the vnabated
+iuſtice of his an<g ref="char:EOLhyphen"/>gry ſword terrifie vs from of<g ref="char:EOLhyphen"/>fring the like to his owne
+<hi>Spouſe,</hi> ſhall wee thinke God either ſo impotent, that hee
+cannot, or ſo baſe and ſottiſh that hee will not, or ſo weake witted
+that hee knoweth not how for to wreake himſelfe on ſuch daring offenders?
+Will he ſo neglect and looſe his ho<g ref="char:EOLhyphen"/>nour, which of all things hee claimeth
+as his chiefe peculi<g ref="char:EOLhyphen"/>ar? Will he that for the <hi>Soules</hi> ſake keepeth a
+reckoning of our very haires, which are but the excrements of our earth<g ref="char:EOLhyphen"/>ly
+<pb n="39" facs="tcp:2230:30"/> weed, ſee himſelfe ſo much wronged in
+the principall, &amp; paſſe by it without demon<g ref="char:EOLhyphen"/>ſtration of his iuſt
+indigna<g ref="char:EOLhyphen"/>tion.</p>
+            <p>Oh let vs remember that the <hi>Scripture</hi> termeth it a
+fearefull thing to fall into the hands and iuſtice of <hi>God,</hi> who is
+able to cruſh the proud ſpi<g ref="char:EOLhyphen"/>rit of the obſtinate, and make his enemies
+his foote-ſtoole. Let vs then wraſtle no longer with the cries of our owne
+conſcience, and the forcible inſpirations of the <hi>Holy Ghoſt.</hi>
+            </p>
+            <p>Let vs, I ſay, embrace his mercy before the time of ri<g ref="char:EOLhyphen"/>gour,
+<pb n="40" facs="tcp:2230:31"/> and like penitent chil<g ref="char:EOLhyphen"/>dren returne to the
+obedience of his will, leſt hee debarre vs of his <hi>Kingdome:</hi> And as
+the members of one body <hi>(wher<g ref="char:EOLhyphen"/>of</hi> Chriſt <hi>is the head)</hi> let vs
+liue in humble obedience of the Church millitant heere on earth, that wee may
+atchieue to the Church triumphant in Heauen; knowing that wee haue beene long
+aliants in the <hi>Tabernacles</hi> of ſinners, and ſtraied too long from
+the fold of Gods flocke.</p>
+            <p>Let vs now turne the biace of our hearts towards the
+<hi>Sanctuary</hi> of <hi>Saluation,</hi> and <hi>Citie</hi> of refuge,
+ſeeking to
+<pb n="41" facs="tcp:2230:31"/> recompence our wandring ſteps troden in
+ſinne and wic<g ref="char:EOLhyphen"/>kedneſſe, with a ſwift gate, and zealous progreſſe to
+Chriſtian perfection, redeeming the time becauſe the daies be euil.</p>
+            <p>The fall of our ſpring is paſt, and the ſtreame of our life
+runneth at a lowe rate or ebbe, our tyred <hi>Ship</hi> begin<g ref="char:EOLhyphen"/>neth to leake,
+and grateth on the grauell of our graue; it is high time for vs to ſtrike
+ſaile and put in harbour, leſt remai<g ref="char:EOLhyphen"/>ning in the ſcope of wicked winds
+and weather, ſome vn<g ref="char:EOLhyphen"/>expected gulfe and ſodaine ſtorme, daſh vs vpon
+the <hi>Rock</hi> of eternall ruine.</p>
+            <p>
+               <pb n="42" facs="tcp:2230:32"/> Let vs tender the pittifull eſtate of our
+diſtreſſed <hi>Soules,</hi> and be hereafter more feare<g ref="char:EOLhyphen"/>ful of Hell, and
+more deſirous of <hi>Heauen,</hi> then worldly re<g ref="char:EOLhyphen"/>poſe, that at the great
+day of our <hi>Lord, Chriſt Ieſus</hi> may ac<g ref="char:EOLhyphen"/>knowledge vs to be his; and
+that our <hi>Soules</hi> and bodies may inioy the fruition of his moſt
+glorious death and paſ<g ref="char:EOLhyphen"/>ſion; vnto which God for his mercie ſake, ſay
+yea, and <hi>A<g ref="char:EOLhyphen"/>men.</hi>
+            </p>
+            <div type="conclusion">
+               <head>The Concluſion.</head>
+               <p>IF <hi>God</hi> the Father had beene the indighter heereof,
+<hi>God</hi> the Sonne the ſender, and <hi>God</hi>
+                  <pb n="43" facs="tcp:2230:32"/> the holy Ghoſt the Scribe and writer of
+the ſame; If he had dipped his pen in the wounds of our <hi>Sauiour</hi> and
+vſed his pretious blood in liew of Inke? If one of the higheſt
+<hi>Seraphins</hi> had beene formed into ſome viſible perſonage, and come
+in moſt ſolemne embaſſage for to deliuer this vnto you, would it not
+ſtraine your hearts and enforce your thoughts to fulfill the con<g ref="char:EOLhyphen"/>tents, and
+alter your courſes according to the Tennor of it; Oh I beſeech you let it
+take a proportionable effect, knowing that the <hi>Scripture</hi> teacheth vs,
+that God reuea<g ref="char:EOLhyphen"/>leth to little ones, that which
+<pb n="44" facs="tcp:2230:33"/> he oft times concealeth from the wiſeſt
+<hi>Sages,</hi> and his truth is not abaſed by the meanes of the ſpeaker,
+for if men ſhould be ſilent, hee would cauſe the very ſtones to cry out
+in theſe times, wherein ſin and wickednes ſo exceeding<g ref="char:EOLhyphen"/>ly aboundeth.</p>
+               <p>Wherefore I humbly pray and exhort you, for to ſurren<g ref="char:EOLhyphen"/>der your
+Aſſents that we may yeeld our ſelues happie <hi>Cap<g ref="char:EOLhyphen"/>tiues</hi> to Gods
+mercifull inſpi<g ref="char:EOLhyphen"/>rations. That hee may in the temptations of our three
+ghoſtly enemies the <hi>World,</hi> the <hi>Fleſh,</hi> and the
+<hi>Diuell,</hi> (euen for his Sonnes ſake) ſhrowd
+<pb n="45" facs="tcp:2230:33"/> vs vnder the ſhadow of his mercifull
+wings, and cloſe vp the day of our life with a cleare <hi>Sun-ſet;</hi>
+that leauing all darkneſſe behinde vs, and carrying in our conſciences
+the light of grace, wee may e<g ref="char:EOLhyphen"/>ſcape the horrour of an eter<g ref="char:EOLhyphen"/>nall Night, and
+paſſe from a Mortall day, to an euerlaſting Morrow.</p>
+               <p>The God of peace who hath brought againe from the dead our
+<hi>Lord Ieſus,</hi> the great ſhepheard of the ſheepe, through the blood
+of the e<g ref="char:EOLhyphen"/>uerlaſting couenant, make vs perfect in all good workes to doe his
+will, working in vs
+<pb n="46" facs="tcp:2230:34"/> that which is pleaſant in his ſight,
+through <hi>Ieſus Chriſt our Lord, Amen.</hi>
+               </p>
+            </div>
+            <div type="prayer">
+               <head>The Prayer.</head>
+               <p>
+                  <hi>VVHat was I Lord? what am I? what ſhall I be? I was
+nothing, I am now nothing worth, and am (without thy grace) in hazard to be
+worſe then nothing. I was conceiued in originall ſinne, now full of actuall
+ſinne, and (but for thy goodneſſe) may hereafter feele the eternall
+ſmart for ſinne. I was in my mother a loathſome ſubſtance. I am in
+the world a ſacke of corruption, and I ſhall be in the</hi> Graue <hi>a
+prey for ver<g ref="char:EOLhyphen"/>mine:
+<pb n="47" facs="tcp:2230:34"/> when I was nothing I was without hope to be
+ſaued, or feare to be damned: I am now (if I looke upon my ſelfe rightly)
+in no hope of the one, and in ma<g ref="char:EOLhyphen"/>nifeſt danger of the other. I was ſo that
+I could not then be dam<g ref="char:EOLhyphen"/>ned; and now ſuch are my ſins, that in thy
+inſtice I cannot be ſa<g ref="char:EOLhyphen"/>ued: But I know (ſweet</hi> Ieſus) thy grace is
+ſufficient for me. <hi>Wherefore I humbly beſeech thy Maieſtie to turne
+from me thoſe plagues which my ſinnes cry out for. I confeſſe (oh
+Sauiour</hi> Ie<g ref="char:EOLhyphen"/>ſus) <hi>that my ſinnes are excee<g ref="char:EOLhyphen"/>ding many, and fearefull;
+yet thy</hi> Mercie <hi>is farre greater, for thou art infinite in mercy, but I
+cannot be infinite in ſinning, and
+<pb n="48" facs="tcp:2230:35"/> thy righteouſnes is more for mee, then my
+owne unrighteouſneſſe can be againſt my ſelfe. I beſeech thee
+therefore ſtrengthen my weakneſſe, correct my ſinneful<g ref="char:EOLhyphen"/>neſſe,
+direct my future frailty, and through thy pretious</hi> Bloud <hi>and</hi>
+Paſſion <hi>conuert my paſſed euils to preſent good, and fu<g ref="char:EOLhyphen"/>ture
+ioyes in thy eternall and moſt glorious</hi> Kingdome.</p>
+               <closer>Amen.</closer>
+            </div>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:2230:35"/>
+         </div>
+      </body>
+   </text>
+</TEI>

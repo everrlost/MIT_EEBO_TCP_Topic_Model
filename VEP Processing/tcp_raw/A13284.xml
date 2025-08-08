@@ -1,0 +1,811 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A spirituall posie for Zion. Or Two decades of observations, theologicall and philosophicall. By Archibald Symmer, preacher of Gods word at Great-Oakley in Northhampton-shire</title>
+            <author>Symmer, Archibald.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1629</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 102 KB of XML-encoded text transcribed from 25 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A13284</idno>
+            <idno type="STC">STC 23588</idno>
+            <idno type="STC">ESTC S118075</idno>
+            <idno type="EEBO-CITATION">99853284</idno>
+            <idno type="PROQUEST">99853284</idno>
+            <idno type="VID">18655</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A13284)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 18655)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1190:11)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A spirituall posie for Zion. Or Two decades of observations, theologicall and philosophicall. By Archibald Symmer, preacher of Gods word at Great-Oakley in Northhampton-shire</title>
+                  <author>Symmer, Archibald.</author>
+               </titleStmt>
+               <extent>[6], 42 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed [by Miles Flesher] for W. Sheares,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1629.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Printer's name from STC.</note>
+                  <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-02</date>
+            <label>Jayanthi Reddy</label>Sampled and proofread</change>
+         <change>
+            <date>2012-02</date>
+            <label>Jayanthi Reddy</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:18655:1"/>
+            <pb facs="tcp:18655:1"/>
+            <p>A SPIRITVALL POSIE FOR ZION. OR Two Decades of Obſervations, <hi>Theologicall</hi> and <hi>Philoſophicall.</hi>
+            </p>
+            <p>BY ARCHIBALD SYMMER, Preacher of Gods word at <hi>Great-Oakley</hi> in <hi>North<g ref="char:EOLhyphen"/>hampton-ſhire.</hi>
+            </p>
+            <p>
+               <hi>Virus ero, ſime carnalis aranea carpat, Sed mel, ſiqua legat ſpiritualis apes.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>W. Sheares.</hi> 1629.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:18655:2"/>
+            <pb facs="tcp:18655:2"/>
+            <head>TO THE RIGHT WORSHIPFVLL, <hi>Sir</hi> THOMAS BROOKE of <hi>Great-Oakley</hi> Knight, one of his Majeſties Iu<g ref="char:EOLhyphen"/>ſtices of Peace in <hi>North-hampton-ſhire,</hi> and my very gratious Patron. Grace in this world, and glory in the world to come.</head>
+            <opener>
+               <salute>Right Worſhipfull,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">W</seg>Onderfull is the power of the Al<g ref="char:EOLhyphen"/>mighty in the ſenſe of Smelling, and powerfull is his providence in the object of the ſame, whether corporall or ſpirituall: for as the firſt object is double; naturall and artiſiciall, ſo is it a double demouſtration of that vigilant care. The firſt part of this ocular argument is this goodly Theatre, the earth garniſhed with her glo<g ref="char:EOLhyphen"/>rious garment of <hi>Flora's</hi> fertilities, that admirable di<g ref="char:EOLhyphen"/>verſitie of fragrant flowers, The ſecond part is appa<g ref="char:EOLhyphen"/>rent by that <hi>acumen hominis,</hi> which God hath inſtil<g ref="char:EOLhyphen"/>led into his reaſonable creature, for the refreſhment of
+<pb facs="tcp:18655:3"/>the ſpirits through the noſtrils: for the witty induſtry of man about the procurement of artificiall ſmels, is great, as appeareth by his diligence about the Moſchat, Sivet,<note place="margin">Conradus Geſner. Hiſt, of foure footed beaſts.</note> &amp;c. But as the ſpirituall ſmell of the ſoule is farr more pretious, ſo is the Divine Love &amp; Providence in this, farre more great and gratious; the impregnable proofe &amp; pregnant trueth wher of is his eternall word, whence the Redeemed of the Lord doe gather odorife<g ref="char:EOLhyphen"/>rous flowers, to prevent the noyſome and loathſome ſmell of impietie; the contemplative ſmelling of which gratious garlands is the continuall delight of <hi>Davids</hi> Bleſſed man, Pſal <hi>1.2.</hi> &amp; the practique a ſweet ſavour unto the Lord, as in the example of <hi>Noah,</hi> Gen <hi>8.21.</hi> Now out of this ſacred Garden (by the bleſsing of that ever. bleſſed Gardener) I have gathered a few ſpirituall flowers, which I preſent unto your Worſhip in teſtimo<g ref="char:EOLhyphen"/>nie of my thankſulnes for all your conſtant loves, ear<g ref="char:EOLhyphen"/>neſtly craving that theſe firſt fruits of my poore La<g ref="char:EOLhyphen"/>bours may paſſe into the world under the ſhelter of your gratious acceptation; which patronage if I obtaine, then ſhall this Tuzzimuzzie have its wiſhed and ex<g ref="char:EOLhyphen"/>pected ſmell. Though thereſore the mighty <hi>Apolloes</hi> of this Learned generation could have dedicated vnto your W. a farre more odoriferous Noſegay, yet re<g ref="char:EOLhyphen"/>ject not this ſimple one.</p>
+            <q>
+               <l>The Perſian Prince tooke in good part</l>
+               <l>The water of the well,</l>
+               <l>Becauſe he ſaw the giuers heart</l>
+               <l>The givers gift excell.</l>
+            </q>
+            <p>So let it pleaſe your W. to reſpect, <hi>Non quid, ſed quo animo:</hi> for what I can, I offer.</p>
+            <pb facs="tcp:18655:3"/>
+            <q>
+               <l>For loe I offer at your kindneſſe ſhrine</l>
+               <l>This little Incenſe, or this flower of mine.</l>
+            </q>
+            <p>And ſo I humbly take my leave, commending both your ſelfe, and all yours to the effectuall bleſsing and grace of the Lord, and to the power of his word, where<g ref="char:EOLhyphen"/>by hee is able to build you up further, and to give you an incorruptible inheritance among thoſe that are cal<g ref="char:EOLhyphen"/>led, and ſanctiſied through faith in the Lord Ieſus.</p>
+            <closer>
+               <signed>Your Worſhips ever to command, ARCHIBALD SYMMER.</signed>
+            </closer>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:18655:4"/>
+            <head>To the Chriſtian Reader.</head>
+            <p>
+               <seg rend="decorInit">I</seg>T may come to paſſe (Chriſtian Reader) that ſome affe-ear'd <hi>Midas</hi> will miſconſtrue theſe words of the Wife-man:<note place="margin">Heekſ. 12.12.</note> 
+               <hi>Of making many bookes there is no end, and much read<g ref="char:EOLhyphen"/>ing is a wearineſſe of the fleſh:</hi> and ſome Cynicke <hi>Momus</hi> will mutter with the CO<g ref="char:EOLhyphen"/>micke: <hi>Niljam dictum, quod non ſit dictum priur;</hi> all this therefore is but <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. But let thy Chriſtianity canſe thee to conſider the truth of that tryed Poſition: <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: <hi>Nil tam facile quàm otioſum &amp; dormientem de alioram labore &amp; vigilijs diſputare.</hi>
+               <note place="margin">Hieron in Hoſ.</note> 
+               <hi>Martial</hi> ſhall ſooner finde <hi>Lelius</hi> carping his verſes then publiſhing his owne. <hi>Sed tu vide, et ſide.</hi> The drift of my labours is thy good, the information of the ignorant, and refor<g ref="char:EOLhyphen"/>mation of the rebellious. If I obtaine this thing, bleſſed is my deſire. If thou attaine this end, bleſſe God the Beginner, and finiſher of the ſame: and ſo let carping <hi>Theon</hi> bite till his gums ake, and vi<g ref="char:EOLhyphen"/>perous <hi>Zoilus</hi> ſpider-like conſume his owne bow<g ref="char:EOLhyphen"/>els through vnregarded malice: but thou</p>
+            <p>Vive, vale, ſiquid noviſti rectius iſt is,</p>
+            <p>Candidus imperti, ſi non, his utere meeum.</p>
+            <p>And ſo I commend thee to the grace of the Al<g ref="char:EOLhyphen"/>mightie, and reſt</p>
+            <closer>
+               <signed>Thine in the Lord Ieſus A.S.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:18655:4"/>
+            <head>A SPIRITVALL Poſie for ZION.</head>
+            <div n="1" type="decade">
+               <head>The firſt Decad.</head>
+               <div n="1" type="part">
+                  <head>
+                     <hi>Fl.</hi> 1. <hi>Of</hi> CHARITIE.</head>
+                  <p>
+                     <hi>
+                        <seg rend="decorInit">I</seg>Ehova</hi> Alpha and Ome<g ref="char:EOLhyphen"/>ga,<note place="margin">
+                        <hi>Invocatio.</hi> Gen. 15.1. Pſ. 18.2.</note> thou All ſufficient Shield to thy Saints, who out of the mouth of babes,<note place="margin">Pſalm, 8.2.</note> and ſucklings haſt ordained ſtrength, and perfected thy prayſe, di<g ref="char:EOLhyphen"/>rect, and protect, I hum<g ref="char:EOLhyphen"/>ble intreat thee, both the minde and pen of thy poore ſervant, that what<g ref="char:EOLhyphen"/>ſoever ſhall proceed from hence may bee accor<g ref="char:EOLhyphen"/>ding to the Analogie of faith, and tend to the declaration of thy moſt orthodoxall will, through Chriſt our Immor<g ref="char:EOLhyphen"/>tall Redeemer. Amen.</p>
+                  <p>And thou (Gentle Reader) becauſe I would have thee uſe me, and peruſe my labours in Love, and Iudgement, I have begun with thee in <hi>Love,</hi> and of <hi>Charitie,</hi> and <hi>Sebrietie.</hi>
+                  </p>
+                  <pb n="2" facs="tcp:18655:5"/>
+                  <p>
+                     <hi>Ariſtotle</hi> entereth into the treatiſe of his Demonſtra<g ref="char:EOLhyphen"/>tiue Syllogiſme in his <hi>Poſterior Analytikes</hi> with the conſi<g ref="char:EOLhyphen"/>deration of the theſe three Queſtions principally:<note place="margin">Cap. <hi>1.</hi>
+                     </note> 
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>: ſo (to borrow the Aegyptian ſpoile) wee will beginne our Love, the Infallible Demonſtration of unfained Chriſtia<g ref="char:EOLhyphen"/>nitie.</p>
+                  <p>
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>,<note place="margin">
+                        <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap> 2 Cor. 13.11.</note> that there is Brotherly Love even among the Militant Saints of God, is queſtienleſſe: for as <hi>Ichova</hi> the true God is the God of Love, ſo the true Chrulian the man of God is the man of Love, as were <hi>Abraham, Gen.</hi>
+                     <note place="margin">Rom. 9.3. Col. 1.4.1 Theſſ. 1.3. Philem. 5. Heb. 6.10. Apoc. 2.19.</note> 45.15. <hi>Moſes, Exod.</hi> 32.32. <hi>Paul,</hi> the <hi>Coloſſians,</hi> the <hi>Theſſalonians, Philemon,</hi> the <hi>Hebrewes,</hi> and the Angel and Paſtor of the Church in Thyattia. Neither indeed is it poſſible to be otherwiſe: for as the Apoſtle ſaith, 1. <hi>Cor.</hi> 13.1. <hi>Though I ſpeake with the tongue of men and of Angels, and haue not Charitie I am become as ſounding braſſe, or a tinckling cymball.</hi> And as by faith the Redeemed of the Lord poſſeſſe Chriſt leſus their Immortall Husband, <hi>Gal.</hi> 3.26. and by patience their owne ſoules, <hi>Luke.</hi> 21.19. ſo by the eternall bond of Chriſtian Amitie they enjoy one another,<note place="margin">1 Cor. 13.13.</note> 
+                     <hi>Pſ.</hi> 133.1.</p>
+                  <p>Though therefore, as the Lord leſus ſaith, <hi>Matth.</hi> 24.12. Among the wicked, becauſe iniquity ſhall abound, the Love of many ſhall waxe cold, yet the Love of the Elect ſhall continue; and whoſoever denieth this, ſhall of neceſſitie inferre, and averre this monſtrous and redi<g ref="char:EOLhyphen"/>culous abſurditie; that there is no treu Congregation on the earth; which flatly contradicteth that trueth of the holy Ghoſt, <hi>Pſalm.</hi> 97.10. <hi>The Lord preſerveth the ſoules of his Saints.</hi> Then take away Charitie, &amp; take away the Congregation of Charitie:<note place="margin">Eph. 1.23. and 5.30.</note> for this Myſticall Body of Chriſt is the Church of the God of Love, and Kingdome of Amitie; elſe ſhould it bee divided, and as the Lord ſaith:<note place="margin">Matth. 12.25.</note> 
+                     <hi>Every Kingdome aivided againſt it ſelfe, is brought to deſolation.</hi> So certaine then &amp; amiable is the admirable reſi<g ref="char:EOLhyphen"/>dence of this ſacred affection in the ſanctified hearts of the godly, that they need not aske, <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, is there Charitie?
+<pb n="3" facs="tcp:18655:5"/>All this therefore is written for the information and refer<g ref="char:EOLhyphen"/>mation (if it be poſſible) of theſe prodigious and mali<g ref="char:EOLhyphen"/>tious monſters of men, who being deſtitute of this heaven<g ref="char:EOLhyphen"/>ly grace; like the <hi>Salamander</hi> love to live in the fire of viperous contention; that at the laſt they may bee brought to a ſenſe and ſight of their tragicall eſtate and lamentable condition, that they are yet in their ſinnes, in the gall of bitterneſſe and bond of iniquitie, they are ſtrangers from the life of God, and aliens from the Common-wealth of Hrael. Now ſince this Love is ſo lovely, and this Chari<g ref="char:EOLhyphen"/>tie is ſo charitable, <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, what is it?</p>
+                  <p>
+                     <hi>Anſw.</hi>
+                     <note place="margin">
+                        <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap> Deſinition of Charitie.</note> It is that regenerated affection of the ſanctified will, whereby the true Chriſtian embraceth his ſellow<g ref="char:EOLhyphen"/>faint with glorious exultation, and triumphing gladneſſe, <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, Charitie is that Ecernall Tie, whereby the members of Chriſts Myſticall Spouſe are inſeparably united, and con<g ref="char:EOLhyphen"/>joyned, by the meanes of which intire Obligation is ſet a worke, that brave and noble fire of Chriſtian Zeale, that <hi>Zelus amicitiae,</hi> which is a compounded aſſection, of loy and grieſe, loy for the proſperitie of the Righteous, and Griefe for their adverſitie, The firſt was in <hi>David,</hi>
+                     <note place="margin">2 Sam. 6.14.</note> which made him dance before the Lord w<hi rend="sup">th</hi> al his might, becauſe of the ſpirituall tranquilitie of Iſrael, The ſecond was in <hi>Phine ths</hi> wife, wherefore ſhe named her childe,<note place="margin">1 Sam. 5.21.</note> 
+                     <hi>Ichabod,</hi> and ſaid: <hi>The glorie is gone from Iſrael,</hi> becauſe the <hi>Phi<g ref="char:EOLhyphen"/>liſtines</hi> tooke the Arke of God from them. Thus the Saints of God are both the Subiect, and Obiect of this celeſtiall affection. Of the firſt alreadie; now of the ſecond, and that for the illuſtration of our definition.</p>
+                  <p>The Spirit of God, <hi>Heb.</hi> 13.1.<note place="margin">The object of Charitie.</note> calleth this renued motion of the heart, <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>; ſo then <hi>materin obiecti</hi> is <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, according to the notation of the word, <hi>frater uterinus,</hi> but in ſenſe more, that is, the party beloved is our Germane brother, not onely by carnall and naturall gene<g ref="char:EOLhyphen"/>ration, but likewiſe, yea more, by ſpirituall and ſupernatu<g ref="char:EOLhyphen"/>rall regeneration, whereby <hi>Iehoua</hi> is our Father,<note place="margin">1 Iohn 3. <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap> Gal. 4.16.</note> and the new <hi>Hieruſalem</hi> our Mother.</p>
+                  <pb n="4" facs="tcp:18655:6"/>
+                  <p>But the extendure of this Fraternity and Brotherhood is more perſpicuous,<note place="margin">Gal. 4.26.</note> 
+                     <hi>Gal.</hi> 6.10. <hi>As we have opportunity, let us doe good unto all men, but eſpecially unto them, who are of the houſhold of faith.</hi> And which is S<hi rend="sup">t</hi>. <hi>Pauls Houſhold of faith,</hi>
+                     <note place="margin">Deut. 5.16, 17, 18, 19, 20, 21.</note> and his <hi>all men?</hi> Euen <hi>Moſes Neighbour, Eocod.</hi> 20. from <hi>verſ.</hi> 12. to 18. the epiteme and ſumme whereof, is: <hi>Thou ſhalt love thy neighbour as thy ſelfe, Luke</hi> 10.27. If ſome tempting Lawyer, or luſticiarie Phariſee aske, who is my neighbour? the Lord Ieſus himſelfe anſwers there: <hi>A certaine man in his journey from Hieruſalem to Iericho was wounded of theeues,</hi>
+                     <note place="margin">
+                        <gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>uke 10.30.</note> 
+                     <hi>and left halfe dead;</hi> The Prieſt and the Leuite that paſſed by, ſhut up their bowels of com<g ref="char:EOLhyphen"/>paſſion from him; but a certaine Samparitane as hee iour<g ref="char:EOLhyphen"/>neyed that way, came where the poore diſtreſſed wight, and oppreſſed ſoule lay, he was touched with a ſympathie, and fellow-felling of his miſerie, and extended his warch<g ref="char:EOLhyphen"/>full paines, his loving cre, and mercifull liberalitie unto him, and all to procure his comfortable recoverie: <hi>Which now f theſe three was neighbour unto him that fell among the robbers?</hi> Let the Lawyer anſwere: <hi>Hee that ſhewed mercie an him.</hi>
+                  </p>
+                  <p>Herein appeareth the trueth of the Apoſtles <hi>Allmen,</hi> and the equitie of his vniuerſall loue, and that by an argu<g ref="char:EOLhyphen"/>ment <hi>a minori:</hi> If a ſtranger be a neighbour, then much more our domeſtikes, fellow-citizens, &amp;c. but the firſt is true, <hi>ergo,</hi> the laſt, at leaſt ſhould be ſo, if this ba<g ref="char:EOLhyphen"/>ſtard generation, would no more degenerate.</p>
+                  <p>The propoſition is plaine, the aſſumption is prooued out of the Lawyers anſwer to Chriſt: The Samaritane that ſhewed mercie on the robbed man, ws neighbour unto him. Now that the Samaritanes in generall, and ſo conſequentlie this mercifull one, were all ſtrangers to the Iewes, is euident: for our bleſſed Redeemer calleth the thankfull Samatitane Leper, whom he had clenſed, <hi>A ſtran<g ref="char:EOLhyphen"/>ger,</hi> Luke 17, 18. &amp; the woman of <hi>Samaria</hi> marvelled that Chriſt, (<hi>as concerning the fleſh,</hi> Rom. 9.5.) being a <hi>Iew,</hi> would aske drinke of her which was a woman of <hi>Samaria: For
+<pb n="5" facs="tcp:18655:6"/>the Iewes,</hi> ſaid ſhe, <hi>have no dealings with the Samaritanes,</hi> Iohn 4.9. Therefore, as the Apoſtle ſaith:<note place="margin">Gal. 3.28.</note> 
+                     <hi>There is nei<g ref="char:EOLhyphen"/>ther Iew nor Greske, there is neither bond nor free, there is neither male nor female, for ye are all one in Chriſt leſus:</hi> ſo there is neither <hi>American,</hi> nor <hi>Indian,</hi> neither <hi>Barbarian</hi> of <hi>Morocco,</hi> nor In habitant of <hi>Monomotapa,</hi> but all are bre<g ref="char:EOLhyphen"/>thren, whom, as we haue opportunitie, wee muſt embrace with Charitie; thoſe that are true Saints, with joy for their ſanctification; thoſe that are not, in the iudgement of Charitie, with heartie, and earneſt ſupplications to the Lord for their true and timely conuerſion.</p>
+                  <p>Wherefore, to concluded this paſſage with that noble practiſe of <hi>Plato:</hi> It is written of that <hi>Moſes Atticiſſans,</hi> that when he did give almes to a poore profligate wretch, his friends admired that <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> 
+                     <hi>Plato</hi> that diuine Philoſopher would take pittie on ſuch a miſereant; but he anſwered: <hi>Do bumanitati, non homini,</hi> I ſhew mercy on this man, not as he is wicked, but as, and becauſe he is a man of mine owne nature. And indeed his reaſon was good; for as <hi>Tullie</hi> ſaith, <hi>Sanguinis conjunctio devincit homines charitate,</hi> Conſanguinitie is a neceſſaries bond, and naturall mo<g ref="char:EOLhyphen"/>tive to Charitie. And if wee conſider our firſt Parents, wee ſhall find our ſelues bound (though <hi>è longinquo</hi>) by the ſame obligation: for as Saint <hi>Paul</hi> ſaith to the too ſuperſtitious <hi>Athenians:</hi>
+                     <note place="margin">Acts 17.26.</note> 
+                     <hi>The Lord hath made <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap> of one blood all nations of men, &amp;c.</hi> Wherefore,<note place="margin">Exod. 23.4.</note> 
+                     <hi>If thou meet thy enemies Oxe, or his Aſſe going aftay, thou ſhalt ſurely bring it backe to him againe, &amp;c.</hi> And, <hi>If thine enemie hunger, ſeed him, if he thirſt, give him drinke;</hi>
+                     <note place="margin">Rom. 12.20.</note> 
+                     <hi>for in ſo doing thou ſhalt heape coales of fire on his head.</hi> And if thou wilt not obey, that heathen ſhall riſe vp at the day of Iudgment, and condemne thee, w ho art but a baſtard Chriſtian.</p>
+                  <p>Now ſince this <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, this definition of lone ſhews,<note place="margin">
+                        <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap> The cauſe of Charitie,</note> what a bleſſed affection it is, it may be demanded in the third roome <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, what is the cauſe of it? for as the Poet ſaith, <hi>Foelix qui potuit rerum cognoſcere auſas.</hi> Charitie is an hea<g ref="char:EOLhyphen"/>venly agitation both in and on the ſanctified heart,
+<pb n="6" facs="tcp:18655:7"/>whence then is it? from the earth? no: for all that is of the earth, is both earthie, and earthly, but brotherly loue is heavenly, therefore it muſt needs come from the Lord of heaven, heavenly.</p>
+                  <p>This fire then is kindled from the Empyrell Paradiſe of God, and this love is enlived, and cauſed after this manner: The God of Love, yea the Lord of Love it ſelfe hath loved us,<note place="margin">2 Cor. 13.11.1 Iohn 4.16. Zeph. 2.1. Epheſ. 1.4.</note> when we were not worthy to bee loved, yea before we were at all <hi>in rerum natura,</hi> which divine, &amp; ſupreame love moved and procured him to chuſe us in Chriſt before the foundation of the world, <hi>That we ſhould be holy, and blameleſſe before him in love.</hi> This love of the Lord to his Saints, kindleth in their hearts this their deare love to their loving God againe, which is a finall cauſe of that ſempiternall love. So then that <hi>archetypus &amp; pri<g ref="char:EOLhyphen"/>migenius amor,</hi> that un ſearchable love of IEHOVA is the efficient cauſe, <hi>hujus amoris ectypi,</hi> of this our love to our Maker: for as the ſeale imprinteth into the waxe that image and character that is ingraven firſt into it ſelfe; ſo the Love of God to us, imprinteth into our hearts our love to him againe. And of this love of ours to the Lrd ariſeth our bounden Charity to our Brethren.</p>
+                  <p>The Faithfull love one another, becauſe they love the Lord. Neither is it poſſible to be otherwiſe: for the Spirit ſaith, <hi>If a man ſay, I love God, and hateth his Brother, be is a lyar, for hee that loveth not his Brother whom hee hath ſeene, how can he love God, whom he hath not ſeene?</hi> 1 Iohn 4.20. The neceſſity then of the connexion of thoſe two loves of God and man, is great, yea abſolute, and the equity of of the dependencie of the latter upon the former, is in<g ref="char:EOLhyphen"/>fringible: becauſe man is the Image of God, created after the ſame;<note place="margin">Calvin. Iuſt. <hi>1.2.</hi> c. <hi>8.</hi> ſect. <hi>40.</hi>
+                     </note> 
+                     <hi>Gen.</hi> 1.27. and the Samts recreated and renu<g ref="char:EOLhyphen"/>ed in knowledge, &amp;c. <hi>Coloſ.</hi> 3.10. whence it followes, that whoſever loves the Lord dearely with <hi>Danid,</hi>
+                     <note place="margin">Pſ. 18.1.</note> can<g ref="char:EOLhyphen"/>not chooſe but love his children ſincerely. Wee doe not ſpeak of that mercenary love, wherewith the ſervile <hi>Mam<g ref="char:EOLhyphen"/>moniſts,</hi> and ſlaviſh drudges of this periſhing world, with
+<pb n="7" facs="tcp:18655:7"/>the Iewes, doe love God for his Wine, his Oyle, and ſuch tranſitories, nor of that evaniſhing ſhadow of ſ<gap reason="illegible" resp="#UOM" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ming Charity, wherewith the Hypocrites of this ſubtile gene<g ref="char:EOLhyphen"/>ration favour the righteous for by-reſpects, and ſiniſter ends; but we treat of that true love wherewith we love our bleſſed God for his owne moſt ſweet and gracious ſelfe, and of that upright Charity, by the meanes whereof, in trueth of heart we may ſay one to another, as <hi>Paul</hi> to his <hi>Corinths, It is not yours, but you that I ſeeke.</hi>
+                     <note place="margin">a Cor. 12.14.</note> And ſo this Bro<g ref="char:EOLhyphen"/>therly love is that <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, that infallible ſigne of true ſa<g ref="char:EOLhyphen"/>ving grace planted in that ſanctified heart that enjoyes it, whereby ſuch a noble, faithfull, and loving Brother may moſt certainly perſwade his owne ſoule, that hee truely loveth his God, and was firſt beloved of him, and that before the <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>oundation of the world, ſo that now all things worke together for his beſt, his Bliſſe,<note place="margin">Rom. 8.28.</note> even his eternall Ioy, being called according to the purpoſe of God, which is his ſweeteſt conſolation. For never did, yea never could there any man love the choſen Darlings of God, but onely he, who was firſt beloved eve<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>laſtingly, and mer<g ref="char:EOLhyphen"/>ciſully choſen of God.</p>
+                  <p>O then let us labour for the reall practiſe,<note place="margin">Application.</note> true exer<g ref="char:EOLhyphen"/>ciſe of this moſt joyfull and bleſſed affection. The woman of <hi>Samaria</hi> when ſhee knew that gift of God, namely the excellencie of the water of Life, ſhee entreated the Lord to give it her, that ſhe might thirſt no more; <hi>Iohn</hi> 4.15. So behold and conſider the dignity of this fire of Love and Life, and be raviſhed with a ſervent deſire of it.<note place="margin">Motives to Charity.</note> And that we may be moved unto the amiable perfor<g ref="char:EOLhyphen"/>mance of this moſt acceptable obedience; let us liſten to theſe two mightie motives: the firſt is the ſoeveraigne will and imperious precept of the Lord of hoſtes; the ſe<g ref="char:EOLhyphen"/>cond is the fruitfulneſſe and gracious bounty of this libe<g ref="char:EOLhyphen"/>rall Grace.</p>
+                  <p>Concerning the firſt; we are moſt frequently comman<g ref="char:EOLhyphen"/>ded to love our neighbour, <hi>Exod.</hi> 23.4. <hi>L<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>uit.</hi> 19.18: <hi>D<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ut.</hi> 22.1. <hi>Proverb.</hi> 15.17. <hi>Eſay</hi> 1.17. <hi>Matth.</hi> 19.19.
+<pb n="8" facs="tcp:18655:8"/>
+                     <hi>Luke</hi> 11.42. <hi>Iohn</hi> 13.34, 35. <hi>c.</hi> 15.12. <hi>&amp;</hi> 17. <hi>Rom.</hi> 12.9. <hi>&amp;</hi> 10. <hi>c.</hi> 13.8.1 <hi>Cor</hi> 1.2.2 <hi>Cor.</hi> 2.8. <hi>Gal.</hi> 5.6.13, 14. <hi>&amp;</hi> 22. <hi>Epheſ.</hi> 3.17. <hi>c.</hi> 4.2.15. <hi>&amp;</hi> 32. <hi>Phil.</hi> 1.9. <hi>c.</hi> 2.2. <hi>Coloſ.</hi> 2.2.1 <hi>Theſſ.</hi> 3.12. <hi>c.</hi> 4.9. <hi>&amp;c</hi> 5.8.1 <hi>Timoth.</hi> 1.5. <hi>c.</hi> 2.15. <hi>c.</hi> 4.12. <hi>&amp;c.</hi> 6.11.2 <hi>Timoth.</hi> 1.13. <hi>&amp;</hi> 2.22. <hi>Tit.</hi> 2.2. <hi>Heb.</hi> 10.24. <hi>Iam.</hi> 1.27.1 <hi>Pet.</hi> 1.22. <hi>c.</hi> 2.27. <hi>c.</hi> 3.8. <hi>c.</hi> 4.8. <hi>&amp;c.</hi> 5.14.2 <hi>Pet.</hi> 1.7.1 <hi>Iohn</hi> 2.10. <hi>c.</hi> 3.11.14.16, 18. <hi>&amp;</hi> 23. <hi>&amp;c.</hi> 7.11. <hi>&amp;</hi> 21.2 <hi>Iohn</hi> 5. <hi>Iude</hi> 2. So frequent is the pre<g ref="char:EOLhyphen"/>cept, becauſe the duty is ſo neceſſary.</p>
+                  <p>Concerning the ſecond motive; great is the utility and bounty of love, for firſt it cauſeth that amiable and quiet peace of aſſotiation, which the Pſalmiſt declareth, with the bleſſings that accompany the ſame, in this manner: <hi>Behold how good, and how comely, and pleaſant a thing it is for Brethren to dwell together in unity.</hi>
+                     <note place="margin">Pſal. 133.</note> 
+                     <hi>It is like the precious oynt<g ref="char:EOLhyphen"/>ment upon the head, that ran downe upon the beard, even An<g ref="char:EOLhyphen"/>rons beard, that went downe to the skirts of his garments: as the deaw of Hermon, and as the deaw that deſcended upon the Mountaines of Sion; for there the Lord commanded the bleſ<g ref="char:EOLhyphen"/>ſing, even life for evermore.</hi> Charitie is the exerciſe of the faithfull,<note place="margin">Cal. 5.6.</note> 1 <hi>Cor.</hi> 16.14. Whence it comes to paſſe, that as the ungodly bury many good giſts in others, under that one infirmity of malice;<note place="margin">
+                        <gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>rov. 10.12.</note> ſo Gods Children cover many in<g ref="char:EOLhyphen"/>firmities in others, under that one good giſt of Charity: for as S<hi rend="sup">t</hi>. <hi>Hierome</hi> ſaith, <hi>Non aequè audiunt Inimici, &amp; Amici; qui Inimicus eſt, etiam in ſcirpo nodum quaerit.</hi> Envie hath the yellow laundies:<note place="margin">1 Cor. 13.5.6.</note> but Charity is not eaſily provoked, thin<g ref="char:EOLhyphen"/>keth no evill, rejoy ceth not in iniquitie, but rejoyceth in the truth: for Charitie is not ſuſpitious, but beareth all things, beleeueth all things, hopeth all things, endureth all things.<note place="margin">Chap. 8.2. Chap 13.4.</note> Charitie edifieth. Wherein? in many things; for it worketh longanimitie and patience, kindneſſe, bene<g ref="char:EOLhyphen"/>volence, and humilitie. Vnto theſe Charity addeth ſpiri<g ref="char:EOLhyphen"/>tuall magnanimitie; 1 <hi>Iohn</hi> 4.18.</p>
+                  <p>By the vertue of Charitie the Saints live in the light of the Lord, and are blameleſſe, 1 <hi>Iohn</hi> 2.10. By Charitie we are perſwaded of the ſanctifying grace of God in this
+<pb n="9" facs="tcp:18655:8"/>world,<note place="margin">Chap 3.14.</note> and of his crowning glorie in the world to come.</p>
+                  <p>Finally, Charitie is <hi>the bond of perfection, Coloſſ.</hi> 3.14. <hi>and the fulfilling of the law, Rom.</hi> 13.8. And if perpetuity and eternity can conciliate condigne commendation to any of Gods Graces, then behold the worthie praiſe of Chari<g ref="char:EOLhyphen"/>tie, even above faith and hope: <hi>And now abideth Faith,</hi>
+                     <note place="margin">1. Cor. 13.13.</note> 
+                     <hi>Hope, and Charitie, theſe three: but the greateſt of theſe is Charity.</hi> Therefore Ho, everie one that liſteth, and long<g ref="char:EOLhyphen"/>eth to eate of this peaceable fruit, deſire of God, and la<g ref="char:EOLhyphen"/>bour that this fruitfull Tree of Charitie may be planted in your hearts; for it is the gift of God, 2 <hi>Tim.</hi> 1.7.<note place="margin">1. Iohn 4.7.2. Cor. 5.2.4.</note> and eve<g ref="char:EOLhyphen"/>ry one that groaneth earneſtly, deſiring with the Apoſtle to be cloathed upon with that eternall building of God, which is from heaven, that mortalitie might be ſwallow<g ref="char:EOLhyphen"/>ed up of immortality; let him nouriſh, and cheriſh this heavenly Plant, that it may bee fruitfull and eternall; ſo ſhall he be like <hi>Davids</hi> tree planted by the Rivers of water,<note place="margin">Pſal. 1.3.</note> that bringeth forth his fruit in due ſeaſon, <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> even in his owne appointed ſeaſon: his leaſe alſo ſhall not wi<g ref="char:EOLhyphen"/>ther, and whatſoever he doeth, it ſhall proſper.</p>
+               </div>
+               <div n="2" type="part">
+                  <head>
+                     <hi>Fl.</hi> 2. <hi>Of</hi> SOBRIETY.</head>
+                  <p>
+                     <seg rend="decorInit">S</seg>O BRIETIE is a moderation, and refrai<g ref="char:EOLhyphen"/>ning of ſenſualtiei, and unruly affections.<note place="margin">Defin.</note> This Vertue is taken two wayes; ſometimes in a larger ſenſe, and ſometimes in ſtricter ſignification: Sobrietie in the larger ſenſe, is that Vertue whereby a man reſiſteth and conquereth foure mightie monſters of darkneſſe, <hi>Comus, Bacchus, Venus,</hi> and <hi>Nemeſis;</hi> he refraineth, and abſtaineth from gluttonie and drunkenneſſe, chambering and wan<g ref="char:EOLhyphen"/>tonnoſſe, ſtrife, and envie; and it is twofold, Philoſophi<g ref="char:EOLhyphen"/>call
+<pb n="10" facs="tcp:18655:9"/>call and Chriſtian:<note place="margin">Offic. lib. <hi>1.</hi>
+                     </note> Philoſophicall Sobrietie is <hi>Tullics</hi> fourth Cardinall vertue: Chriſtian Sobrietie is that <hi>Sancta abſtinentia,</hi> wherewith the Saints of God in former times,<note place="margin">Exod. 24.18.</note> as <hi>Moſes, David, Iob, Ezekiel, Daniel, Iohn Baptiſt,</hi> and the Apoſtles, were ſingulatlie endued Sobrietie in the ſtricter ſignification,<note place="margin">2 Sam 16.10. Iob. 31.1. Ezek 4.9, 10, 11 Dan. 18. &amp;c. 10.3. Matth. 11.18. Luke 10.7.</note> is <hi>Virtus ebrictatis fugax,</hi> a ſhunner of drunkenneſſe, for if we reſpect the notation of the word, ſo much doth the erymologie of the ſame import, that is, <hi>ſine ebrietate;</hi> and ſo doth <hi>Martial</hi> take it:
+<q>Ebrius es, nec exim, ſaceres haec ſobrius unquam.</q>
+                  </p>
+                  <p>With this Sobrietie was <hi>Dauid</hi> endued, when he refuſed to drinke of the water of the Well of <hi>Bethlehem,</hi> 2 <hi>Sam.</hi> 23.16. ſo were the <hi>Rechabites, Ierem.</hi> 35.6. &amp; 14. Of this Sobrietie in ſobriety, by the bleſſing of the Almightie, will we ſpeake; which grace that it may the more evidently appeare, and ſhine forth in its' orien: <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, and moſt gracious beautie, let us a little, in deriſion, with the <hi>Lacedaemonians,</hi>
+                     <note place="margin">Silenus</note> view that old drunken aſſe rinding on his Aſſe,
+<q>
+                        <l>—Quibacnlo titubantes ebrius artus</l>
+                        <l>Suſtinet, &amp; pando non fortiter baeret aſello.</l>
+                     </q>
+                  </p>
+                  <p>Behold the chidiſh and ſottiſh countenance, the ſwiniſh and helliſh behaviour of monſtrous, and Bedlem Ebriery: for, <hi>Contraria juxta ſe oppoſita clarius cluceſeunt. Marcilins Ficinus</hi> ſpeaketh of two kinds of drunkenneſſe, one above the Moone; that is, celeſtiall and heavenly, ſtitred up by ſpirituall and immortall drinke, whereby the minde be<g ref="char:EOLhyphen"/>ing ſet above it ſelfe, forgettech all mortall diſeaſes, and onely conſidereth divine things. <hi>Muſaus</hi> calleth this the reward of vertue; and <hi>Orpheus</hi> ſaith, that this metaphori<g ref="char:EOLhyphen"/>call drunkenneſſe was ſignified by the holy ceremonies of <hi>Dionyſius.</hi> Of this ſpeaketh <hi>Salomen, Proverh.</hi> 9.5. and Chriſt <hi>Matth.</hi> 26.29. The other kinde of drunkenneſſe is under the Moone, and worldly, which is ſtirred up of drinke taken of the infernall fountaine Lethe, that is, car<g ref="char:EOLhyphen"/>nall
+<pb n="11" facs="tcp:18655:9"/>drinke, whereby the minde being ſet without, and un<g ref="char:EOLhyphen"/>der it ſelfe, forgetteth diving things, and doteth; as ap<g ref="char:EOLhyphen"/>peareth by <hi>Alexander the Great,</hi> who being drunke killed <hi>Clitus</hi> one of his deareſt friends, for rebuking his laſeivious behaviour, and ſo periſhed himſelfe at laſt by the fatall cup of <hi>Hercules.</hi> This drunkenneſſe doe I declare, which is a moſt brutiſh work of darkueſſe; for of a man <hi>ſynony<g ref="char:EOLhyphen"/>
+                        <gap reason="illegible" resp="#UOM" extent="3 letters">
+                           <desc>•••</desc>
+                        </gap>,</hi> is maketh a man <hi>homonym<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>s,</hi> of a man indeed, it maketh a man but in ſhew, yea hardly ſo much, but ra<g ref="char:EOLhyphen"/>ther an Ape in a mans ſhape, which is worſe then <hi>Apu<g ref="char:EOLhyphen"/>leius</hi> his golden Aſſe: for as the Prophet faith, <hi>Whoreaome,</hi>
+                     <note place="margin">Apul. <hi>de auren Aſino.</hi> Iſa. 5.11.1 Cor. 6.10.</note> 
+                     <hi>wine, and new wine take away the heart.</hi> Hoſ 4.11. Drun<g ref="char:EOLhyphen"/>kenneſſe cauſeth everlaſting woe, and miſerie, <hi>Prov.</hi> 23.29. and all other vices; as ſaith the Peet?</p>
+                  <q>Ebrietas in ſeculpas complectitur omnes.</q>
+                  <p>It is the <hi>Metropolitane</hi> City of the Province of all vices, for it is the Devils liquout, wherein having ſteep<g ref="char:EOLhyphen"/>ed the Drunkard, hee formeth him like ſoft clay, into whatſoeuer ſhape he liſteth, and ſo drunkenneſſe expel<g ref="char:EOLhyphen"/>leth grace from his heart, and debareth him from the kingdome of grace in this world, and of glory in the world to come.<note place="margin">2. Sam. 13.25.1 King. 16.9.10. <hi>Conr. Geſn Hiſt.</hi> of ſoure footed beaſts.</note> Behold the truth of theſe things in <hi>Am<g ref="char:EOLhyphen"/>non, Ela,</hi> &amp;c. The Ape is an ironicall, ridiculour, and un<g ref="char:EOLhyphen"/>profitable Beaſt, whoſe ſleſh is not good for meat, as a Sheepe; neither his backe for burthen, as an Aſſe, nor yet commodious to keepe a houſe like a Dogge, but of the <hi>Greciuns</hi> is called, <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, a Beaſt made for laughter: ſo is the Drunkard, <hi>Telluris inutile pondus, fun<g ref="char:EOLhyphen"/>gus, &amp; teſtudo,</hi> good for nothing but to bee the Devils foole. But <hi>the night is farre ſpent, the day is at hand:</hi>
+                     <note place="margin">Rom. 13.12, 13, 14. <hi>The vſe.</hi>
+                     </note> 
+                     <hi>let us therefore caſt off the workes of darkneſſe, and put on the armour of light. Let us walke honeſtly as in the day, not in rioting, and drunkenneſſe, not in chambering and wantonneſſe, not in ſtrife and envying: but put ye on the Lord Ieſus Chriſt, and make not proviſion for the fleſh to fulfill the luſts therof.</hi> We may behold the beautifull face of Sobrietie in this mirrour of drunken<g ref="char:EOLhyphen"/>neſſe,
+<pb n="12" facs="tcp:18655:10"/>whoſe <hi>guardarobba</hi> Heaven would have us to put on,<note place="margin">Luk. 21.43.1 Theſſ. 5.6.</note> Therefore, let us not ſleepe as doe others, but watch and be ſober:<note place="margin">Iob 1.7. &amp;c. 2.2.1. Pet. 5.8.</note> for the Devill our common inveterate adverſarie walketh about as a roating Lyon ſeeking whom he may devoure. But what are the meanes of this ſingu<g ref="char:EOLhyphen"/>lar vertue? Sobriety of minde: wherefore lee us ſtudie, <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>,<note place="margin">Rom. 12.3.</note> not to thinke of our ſelues more highly theu we ought to thinke, but to thinke according to Sobrietie.</p>
+               </div>
+               <div n="3" type="part">
+                  <head>
+                     <hi>Fl.</hi> 3. <hi>Of</hi> DIVINE PROVIDENCE.</head>
+                  <p>
+                     <hi>
+                        <seg rend="decorInit">I</seg>Bi incipit Divinum auxiliu<g ref="char:cmbAbbrStroke">̄</g> ubi deſinit huma<g ref="char:EOLhyphen"/>nu<g ref="char:cmbAbbrStroke">̄</g>,</hi> the Saints extreuntie sare Gods oppor<g ref="char:EOLhyphen"/>tunities, which is evidently proved, by his gracious dealing with his choſen darlings from time to time;<note place="margin">Exod. 14.</note> as with <hi>Moſes,</hi> and Iſrael at the red Sea: for incamping before <hi>Pihahi<g ref="char:EOLhyphen"/>roth</hi> betweene <hi>Migdol,</hi> over againſt <hi>Baal-zephon,</hi> when they were incloſed of the <hi>Aegyptians,</hi> ſo that the bleare eye of carnall reaſon could not lee any iſſue, or way to eſ<g ref="char:EOLhyphen"/>cape that imminent exterminion, but that <hi>Pharaoh</hi> would root the out of the Land of the I ving; then did deſt thou O powerfull Provident IEHOVA, divide the Sea, and thy people paſſed through as by dry land, which their Adverſaries aſſaying to do,<note place="margin">Heb. 11.29.</note> were drowned: and ſo thine In<g ref="char:EOLhyphen"/>heritance ſaw thy joyous alvation, O Lord our ſtrength and our Redeemer. Thus of Preſervation, now of Previſion.</p>
+                  <p>The Pſalmiſt reſtifieth by daily experience, that in all the courſe of his dayes he <hi>never ſaw the righteous forſaken, nor his ſeed beg ging bread:</hi>
+                     <note place="margin">1 King. 17.6.</note> Pſal. 37.25. <hi>Eliyah,</hi> though he was in adverſitie, yet did he not ſterve: for God commanded the Ravens to bring him bread and fleſh in the morning,
+<pb n="13" facs="tcp:18655:10"/>and bread and fleſh in the Evening; and he dranke of the brooke. What hope of earthly helpe was there left for the poore Widdow of <hi>Zarephath?</hi> for the famine was ſo great among the <hi>Zidonians,</hi>
+                     <note place="margin">verſ. 12.</note> that ſhee had but an handſull of Meale in a barrell, and a little Oyle in a Cruſe, and was gathering two ſticks, when the Prophet came to her, that ſhe might goe in, and dreſſe it for her, and her ſonne, that they might eate it and die. But behold the timely ver<g ref="char:EOLhyphen"/>tuous preſence of Gods Providence.<note place="margin">verſe 16.</note> The barrell of meale waſted not, neither did the Cruſe of Oyle faile, untill the day that the Lord ſent Raine, and plenty upon the earth.</p>
+                  <p>There be a muleitude of facred paſſages touching this di<g ref="char:EOLhyphen"/>vine vigilant care, but for brevities ſake, we will meaſure <hi>Hercules</hi> on <hi>Olympus</hi> by his foor, and by the ſweetneſſe of theſe few, lee us eſteeme of the reſt accordingly. Now this reverent eſteeme and high valuation of our bountifull Fathers unceſſant care ouer his Elect, it is both contem<g ref="char:EOLhyphen"/>plative, and practique: for as the theorique ſpeculation and knowledge of a thing is perfected by the practiſe of the ſame, ſo fareth it with this point of Chriſtianity. It is an eaſie matter for a man in proſperitie, and the comfor<g ref="char:EOLhyphen"/>table ſenſe of the Lords palpable Providence, to know, and conſeſſe his divine bountie; but he only maketh the right uſe of this knowledge, who in the dolorous dayes of bit<g ref="char:EOLhyphen"/>ter griefe, and cutting claimitie, can relie upon his God for releaſe and conſolation. Such an upright Chriſtian proved <hi>David,</hi> who in the Agonic of his deepeſt diſtreſſe,<note place="margin">Pſ. 1301.</note> when deepe called unto deepe by the noiſe of the wat er<g ref="char:EOLhyphen"/>ſpoutes of the Almightie, yea when all his billowes were gone over him, then cried he unto the Lord,<note place="margin">v. 5.</note> even out of the depthes: for in Gods word was his hope. So in thy moſt deplored adverſitie, truſt in thy Redeemer:<note place="margin">Iob 13.15.</note> 
+                     <hi>Though the Lord would kill me, yet will I truſt in him:</hi> and the Lord will make thee a triumphant Champion over all thine ene<g ref="char:EOLhyphen"/>mies. I am perſwaded by joyfull experience, that al<g ref="char:EOLhyphen"/>though thou wer'ſt as it were at the verie brinke of death,
+<pb n="14" facs="tcp:18655:11"/>yet the Lord would never faile thee, nor forſake thee: for the ſeven eyes of the Lord runne too and fro through the whole earth.<note place="margin">Zeph. 4.10.</note>
+                  </p>
+               </div>
+               <div n="4" type="part">
+                  <head>
+                     <hi>Fl.</hi> 4. <hi>Of</hi> SINCERITY.</head>
+                  <p>
+                     <hi>
+                        <seg rend="decorInit">G</seg>OD is a Spirit, (ſaith the holy Ghoſt, Iohn</hi> 4.24.) <hi>and they that worſhip him, muſt worſhap him in ſpirit ana intruth.</hi> Therefore ſarth the Wiſe man, <hi>Prov.</hi> 23.<note place="margin">Of the hypo<g ref="char:EOLhyphen"/>uite.</note> 26. <hi>Myſonne, give me thue heart.</hi> What ſhall wee ſay then of the Hy<g ref="char:EOLhyphen"/>poenite, that will give unto God but the body? <hi>O dignum Thebano anigmate monſtrum!</hi> a pro<g ref="char:EOLhyphen"/>digious monſter, as moſtrous as <hi>
+                        <g ref="char:V">Ʋ</g>irgils fama;</hi> whereſore we will anſwer, even as <hi>Diogeres</hi> did concerning the flat<g ref="char:EOLhyphen"/>terer: Amng wlde beaſts, the biting of the back biter and ſlanderer is moſt dangerous: and among the tamer fort, that of the ſiattering Hypocrite. He may ſitly be like<g ref="char:EOLhyphen"/>ned to the Heathens <hi>Centaurus,</hi> halſe a man, and halſe a horſe; or to the Poers <hi>Chimara,</hi> which had the head, and breaſt like a Lyon, and the hellie like a Goate, and the taile like a Dragon: ſo the Hypocrite in formall oſtenta<g ref="char:EOLhyphen"/>tion hath the bodie of a Saint,<note place="margin">Matth, 25.33.</note> but in truth the ſoule of a reprobate Goate, and heart of a Devill, whole end ſhall be as the red Dragons. The Gentiles <hi>Ianus</hi> had two laces, the one behind, and the other before; even ſo hath the Formaliſt, one to God, and another to the Devill. The Partridges of <hi>Paphlagonia</hi> have two hearts,<note place="margin">Flin. Nat. Hiſt. lib. <hi>11.</hi> c. <hi>37.</hi>
+                     </note> ſo hath this For<g ref="char:EOLhyphen"/>mall Proſeſſor; for as the Pſalmiſt ſaith, <hi>Pſal.</hi> 12.2. <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>. i. With a heart, and a heart, with a double heart doeth he ſpeake: and this his double heart makes him to be of a double Religion, as the Poet reports of <hi>Artemi<g ref="char:EOLhyphen"/>dorus.</hi>
+                  </p>
+                  <pb n="15" facs="tcp:18655:11"/>
+                  <q>
+                     <l>Pinxiſti Venerem, colis Artemindore Minervam,</l>
+                     <l>Et miraris opus diſplicuiſſe tuum?<note place="margin">Mart;</note>
+                     </l>
+                  </q>
+                  <p>So with his mouth he worſhips, with the Iewes, the living God, but with his heart ſome Idoll, as that of <hi>Mammon,</hi>
+                     <note place="margin">Iſa. 29.13.</note> ſwiniſh ſenſualtie, or terreſtraiall glorie, &amp;c. and ſo with the carnall I fraelites his bodie marches on toward the land of Promiſe, but his minde is the fleſh-pots of <hi>Aegypt.</hi>
+                     <note place="margin">Exod. 16.3.</note> He is in the Chureh, as the Devill in ſomer times was in an Enterlude, or Stage-play: for as Sathan, not withſtan<g ref="char:EOLhyphen"/>ding his dexterious hiſtrionicall acting of his part of the Comedie, was no true reall man, as were the reſt of the Actors: ſo the Hypocrite, not withſtanding his apiſh for<g ref="char:EOLhyphen"/>mall ſhew of Pietie and devotion, is no true man of God, as are the actors of his honour. Therefore Cardinall <hi>Cu<g ref="char:EOLhyphen"/>ſan</hi> calleth the whole Body and Company of all them that be called Chriſtians, reck oned univerſally together, <hi>Ec<g ref="char:EOLhyphen"/>cleſia conjecturalis,</hi> a Church conjecturall, becaute we know it not by certainty, but by conjecture; for in this Church they that ſeem Predeſtinate before men, are oſte<g ref="char:cmbAbbrStroke">̄</g>times re<g ref="char:EOLhyphen"/>probare before God:<note place="margin">Act. 1.24.2. Tim. 2.19.</note> and that Omniſeient <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> 
+                     <hi>Ie<g ref="char:EOLhyphen"/>hova</hi> he only knoweth them that are his, and will one day ſinde out the Hypocrite to his immortall ſhame and conſuſion.</p>
+                  <p>To whom then doth hee appertaine? to his Infernall father that taught him this apiſh tricke of diſſimulation. For firſt that old Dragon transformeth himſelf into an An<g ref="char:EOLhyphen"/>gell of light, and then he traines up this Mimique,<note place="margin">2 Cor. 11.14.</note> his firſt<g ref="char:EOLhyphen"/>borne in the art of this ſervile formalitie. Avant then, O Sathan, away with hypocriſie, and thrice-welcome, O moſt ſaithfull Sinceritie. This is a bleſſed companion, the moſt gratious of ten thouſand: for the heart that is gar<g ref="char:EOLhyphen"/>niſhed with this gift of grace, is ever graced with the pre<g ref="char:EOLhyphen"/>ſence of God the giver; ſo that the workes of ſuch a <hi>Natha<g ref="char:EOLhyphen"/>nael,</hi> though imperfect, yet are they pleaſing &amp; acceptable unto him. The Lord that worketh both the wil &amp; the deed, will accept the affect for the effect, &amp; the wil, for the deed,<note place="margin">Phila, 13.</note>
+                     <pb n="16" facs="tcp:18655:12"/>And finally,<note place="margin">2 King. 10.15.</note> as <hi>Iohn</hi> ſaid to <hi>Iehonadab; If thy heart be right, as my heart is with thine, then give me thine hand, and come up into my Charet:</hi> ſo if our hearts be right, as the Lords heart is with ours,<note place="margin">Pſal 4.3.</note> then will he ſay; Aſcend now into my holy Mountaine of Grace, and ſo ſhall yee ſit hereafter in my triumphant Charet of Glory world without end.</p>
+               </div>
+               <div n="5" type="part">
+                  <head>
+                     <hi>Fl.</hi> 5. <hi>Of</hi> TRVE BLESSEDNESSE.</head>
+                  <p>
+                     <seg rend="decorInit">A</seg>LL things (ſaith <hi>Ariſtotle</hi> in the beginning of his Moral Philoſophie) deſire ſome Good;<note place="margin">Ethic. Lib. <hi>1.</hi> c. <hi>1.</hi>
+                     </note> but all things, yea even man neither knows which is that Good, nor the way how to at<g ref="char:EOLhyphen"/>taine unto it; and therefore he ſhall never finde it out, as long as he leanes to the ſubtiltie of humane wiſedome, and phantaſticall quirkes of corrupt reaſon. The profound Philoſophers of the Gentiles, who glori<g ref="char:EOLhyphen"/>ed of their ſurmounting knowledge; laboured hard for the underſtanding of this ſecret, but never could they reach their intended ſcope. The Iewes alſo travelled herein, but went not all one way in ſearching this, as may appeare by their divers ſects that aroſe about one hundred and thirty yeares before the Incarnation of Chriſt.<note place="margin">Gualt. in Luc. c. <hi>6</hi>
+                     </note> Many held that True Happineſſe did conſiſt in terreſtriall, and earthly goods, even tranſitory trifles and Childiſh nifles: ſome in Riches, ſome in Honour and flouriſhng Pompe, and ſome in ſenſuall pleaſures, &amp;c. But they were al moſt groſ<g ref="char:EOLhyphen"/>ly deceived;<note place="margin">1 Sam 16.7, 9, 10, 12.</note> for as among the ſons of <hi>Ieſſe,</hi> neither <hi>Eliab,</hi> nor <hi>Abinadab,</hi> nor <hi>Sha<g ref="char:cmbAbbrStroke">̄</g>ma,</hi> nor any of the ſeven, but <hi>David</hi> was anoynted King of Iſrael, ſo neither plenty, nor popular applauſe, nor any ſuch fading vanity, but onely that glori<g ref="char:EOLhyphen"/>ous Immortalitie in the loyfull Paradiſe of God, and his unchangeable Love in Chriſt Ieſus, this is poore mans True Foelicity.</p>
+                  <pb n="17" facs="tcp:18655:12"/>
+                  <p>But ſuppoſe they had hit the marke, and one of theſe things had beene that True Bleſſedneſſe, yet had they beene ſtill in an errour, becauſe they miſtooke their <hi>Sum<g ref="char:EOLhyphen"/>mum bonum,</hi> the chiefe good of a man, and confounded it with foelicity, as though they were one and the ſame thing, whereas indeed they are divers: for,<note place="margin">Polan. Synt.</note> 
+                     <hi>Beatitudo non eſt Summum Bonum, ſed fruitio Summi Boni;</hi> Happineſſe is not the Chiefe Good, but the uſe, and enjoyment of it; as the Mammoniſt his riches are his <hi>Summum Bonum,</hi> not his ſoelicitie, but the cauſe thereof; for his imagi<g ref="char:EOLhyphen"/>narie Happineſſe, is the uſe and effect of his riches, as ſaith the Poët:
+<q>Pauper enim non eſt, cui rerum ſuppetit uſus.</q>
+                     <note place="margin">Hor.</note> So the Saint; Chiefe Good, is God, but their Bleſſedneſſe is the fruition of this ſupreme moſt Bleſſed Good God, w<hi rend="sup">ch</hi> is his ſaving Grace in this liſe, and crowning Glorie in the life to come. Now albeit the Tenents of all theſe naturall men were moſt erroneous,<note place="margin">
+                        <hi>Ariſt.</hi> Foelicitie.</note> yet I may preferre <hi>Ariſtotle</hi> to the reſt of them, for his Foelicitie, as being more civill and morall then theirs: for <hi>Epicurus</hi> his foelicitie is moſt ſenſuall, and beaſtiall, and ſo fit onely for ſwine; but of all theſe, <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>; is, <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>; for that is vertue, which hee defineth after this manner; Foelicitie is the chieſe Action of a mans mind, ariſing of the moſt excellent Vertue. But herem he faileth, for this <hi>Genus</hi> is erroneous. Though the principall Action, even of the moſt Vertuous regenerate minde, (whereof naturall <hi>Ariſtotle</hi> never drea<g ref="char:EOLhyphen"/>med) as that ſerious meditation of <hi>Davids</hi> Bleſſed man,<note place="margin">Pſ. 1, 2.</note> in <hi>Iehovaes</hi> Law both day and night be true Happineſſe, yet that onely is not the True, nor chiefe bleſſedneſſe of a man, but beſide, yea before action, there is Reconciliation and Acceptation with God, whereby the Elect, both <hi>Iewes</hi> and <hi>Gentiles</hi> are Iuſtified, and Bleſſed in his ſight.<note place="margin">Rom. 4.6, 7, 8.</note> Even as <hi>David</hi> deſcribeth the Bleſſedneſſe of the man, unto whom God imputeth righteouſneſſe without workes, ſaying. <hi>Bleſſedare they whoſe iniquities are forgiven, and
+<pb n="18" facs="tcp:18655:13"/>whoſe ſinnes are covered: Bleſſed is the man to whom the Lord will not impute ſinne.</hi> Pſalm. 32.1, 2. Iuſtification then by the faith of the Sonne of God, is True bleſſedneſſe indeed, yea in an high degree both unſpeakeable and glorious. And this doth the Originall Language punctually declare; for ſaith the Pſalmiſt <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> 
+                     <hi>O ter<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> quater<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> beati</hi> Moſt bleſſed is that poor man,<note place="margin">Verſ 2.</note> &amp;c. O divine Paradox. here, <hi>miſer, &amp; miſerabilis Adam,</hi> a piece of red earth, but duſt and aſhes,<note place="margin">Gen. 3.19. &amp; 18.27.</note> a ſinfull poore wretched ſoule, a Child of the Devill, an heire of eternall indignation by nature, be<g ref="char:EOLhyphen"/>comes a friend of God, and by grace a Sonne of the Moſt High: a moſt curſed Caitife, is made a moſt Bleſſed Saint; for, <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> is a noune of the plurall number onely, though <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> 
+                     <hi>de quo praedicatur</hi> 
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> be <hi>ſub jectum ſingulare,</hi> and it is as much in ſignificatio<g ref="char:cmbAbbrStroke">̄</g> as <hi>Beati;</hi> as <hi>Rabbs David Kimhi</hi> interpreteth,<note place="margin">Munſterus.</note> becauſe ſuch a one is bleſſed, not with one, but with a pluralitie of foelicities,<note place="margin">Rom. 8.32.</note> and benedictions: for Chriſt is his, and ſo all that is Chriſts, is his.</p>
+                  <p>Now Chriſt is rich in Bleſſings, for in him are hid all the treaſures of the wiſedome and knowledge of God, who of God the Father, is made unto us both Wiſedome, and Righteouſneſſe,<note place="margin">1 Cor. 1.30.</note> Sanctification, and Redemption. Wherefore, to conclude, this man is Truely Bleſſed, this man is onely Bleſſed, and cannot poſſibly any more bee curſed, even as he that hath the Philoſophers ſtone, how can he chuſe but be rich? <hi>Ho then, every one that thirſt<g ref="char:EOLhyphen"/>eth, come ye to the waters of Bliſſe,<note place="margin">Iſa 55.1. Pſal. 118.22. Match. 21.41. Act. 4.11. Rom 9.13. 1 Pet. 2.6. Pſ. 4.6, 7.</note> and let him that would bee rich in God. get this Tried, Elect, precious Corner-ſtone in Zion. There bee many that ſay, who will ſhew us any good? but Lord lift thou up the lovely light of thy joyfull countenance upon us:</hi> for then ſhalt thou put more joy and gladneſſe in our hearts thereby, then all prophane Eſaues that embrace the dung of this world in their armes for their inheritance, and happineſſe, cais poſſibly injoy, even in the time that their Corne &amp; their Wine do moſt abundantly increaſe: for this is that ſwecteſt ſecret voyce of God from heaven ſaying unto our wearie ſoules,<note place="margin">Iſa. 40.1.</note> that this comfort belongs unto us,
+<pb n="19" facs="tcp:18655:13"/>our iniquitie is pardoned: for <hi>Hieruſalem</hi> hath received of the Lords hand doable for all her ſinnes.<note place="margin">Rom. 5, 1, 2, 3, 4, 5.</note> 
+                     <hi>Therefore being juſtified by faith, we have peace with God; through our Lord Ieſus: Chriſt: by whom alſo we have acceſſe by faith into this grace, wherein we ſtand, and rejoyce in the hope of the glory of God: and not onely ſo, but we glory in tribulations alſo, knowing that tribulation worketh pationce, and patience experience, and experience hope: and hope maketh not aſhamed, becauſe the love of God is ſpred abroad in our hearts by the holy Ghoſt, which is given unto us.</hi> Therefore, <hi>Solon,</hi> thou art deceived with thy naturall Motto:
+<q>
+                        <l>—Silicet ultima ſemper</l>
+                        <l>Expectanda dies homini eſt,<note place="margin">
+                              <hi>Ovid</hi> Metam</note> dicique beatus</l>
+                        <l>Ante obitum nemo, ſupremdque funera debet.</l>
+                     </q>
+                  </p>
+                  <p>The true Saints and ſervants of God, are Truely Bleſſed and ought ſo to be eſteemed, even in this life, as the very precious darlings, of the Lord of life, infranchized deniſens of the Subuibs of that immortall Kingdome of glorie, en<g ref="char:EOLhyphen"/>joying heaven upon earth,<note place="margin">Prov. 15.5</note> and continually feaſted of the Lord God of Sabbath with ſuch internall ſupernall dain<g ref="char:EOLhyphen"/>ties, as the world can neither underſtand, give, nor take from them: Their condition farre ſurmounteth that of <hi>Croeſus;</hi> for no <hi>Cyrus</hi> can deſpoyle them of their Bleſſed riches, and moſt durable inheritance. <hi>For if God bee for us who can be againſt us? Wherefore neither tribulation,</hi>
+                     <note place="margin">Rom. 8 31. verſ. 35, 38.39.</note> 
+                     <hi>nor na<g ref="char:EOLhyphen"/>kedneſſe, nor perall, nor ſword, nor death, nor life, nor Angels, nor Principalities, nor powers, nor things preſent, nor things to come, nor height, nor depth, nor any other creature ſhall bee able to ſeparate us from the love of God, which is in Chriſt Ieſus our Lord, but in all theſe things we are more then Conquerours through him that loved us.</hi>
+                  </p>
+               </div>
+               <pb n="20" facs="tcp:18655:14"/>
+               <div n="6" type="part">
+                  <head>
+                     <hi>Fl.</hi> 6. <hi>Of</hi> THE LOVELINESSE OF MESSIAHS SPOVSE.</head>
+                  <p>
+                     <seg rend="decorInit">T</seg>Here bee two motiues, and impulſive cauſes of love, namely Beautie, and Bountie, which is manifeſt by the fre<g ref="char:EOLhyphen"/>quent procurement of carnall affecti<g ref="char:EOLhyphen"/>on, <hi>Oculis &amp; digitis,</hi> as we ſay, in ma<g ref="char:EOLhyphen"/>ny. Now both theſe are in the Church, the Bride and the Lambes wiſe:<note place="margin">Apoc. 21.2. &amp; 9 The Churches Beautie.</note> there<g ref="char:EOLhyphen"/>fore ſhee is lovely. Concerning the firſt: <hi>Ieruſalem is buil<g ref="char:EOLhyphen"/>ded as a Citie that is compact together in it ſe le.</hi> Pſal. 122.3. <hi>And the gates thereof are after the names of the Tribes of I<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>rael,</hi> Ezek. 48.31. <hi>Though ſhe be blacke in the eyes and eſteeme of the world, yet ſhee is comely to the ſight of the Lord her Redee<g ref="char:EOLhyphen"/>mer, even as the tents of Kedar, and as the Curtaines of Salo<g ref="char:EOLhyphen"/>mon,</hi> Cant. 1.5. <hi>The Kings Daughter is all glorious within,</hi> Pſalm. 45.13. <hi>Like a Lilly among the Thornes, ſo is the Love of Chriſt among the daughters.</hi>
+                     <note place="margin">Cant. 2.2. Chap. 7.4.</note> Her eyes are like the fiſh-pooles in Heſbon by the gate of Beth rabbim: her noſe is as the Tewer of Lebanon that looketh toward Damaſcus.<note place="margin">Verſ. 7. Verſe 5. <hi>Ariſt.</hi> Cat.</note> 
+                     <hi>Her ſtature is like a Palme tree, and her breaſts like cluſters. The King is tied in her raſters.</hi> Now of the qualitie is the denomination of a thing. Beautie maketh beautifull: who then is ſo beauti<g ref="char:EOLhyphen"/>full as the Iſrael of God? for the never fading beautie of holineſſe,<note place="margin">Pſal. 90.17.</note> and the glorious Majeſty of the Lord their God is upon them.<note place="margin">The Churches bountie.</note> And as touching the ſecond: The mem<g ref="char:EOLhyphen"/>bers of Meſſiah being united together by the indiſſoluble obligation of love, cannot poſſibly chuſe but bee truely liberall: for true love is liberall. <hi>Cornelius</hi> gave much almes to the people, <hi>Act.</hi> 10.2. At <hi>Antiochia</hi> when <hi>Aga<g ref="char:EOLhyphen"/>bus</hi> had ſignified by the Spirit, that there ſhould be great famine throughout all the world, which alſo came to paſſe
+<pb n="21" facs="tcp:18655:14"/>under <hi>Claudius Caeſar:</hi> then the Diſciples everie man ac<g ref="char:EOLhyphen"/>cording to his abthtie, purpoſed to ſend ſuccour unto the brethren, which dwelt in <hi>Iudea;</hi> which thing they alſo did, and ſent it to the Elders by the hands of <hi>Barnabas</hi> and <hi>Saul, Act.</hi> 11.28, 29, 30. The Churches of <hi>Macedonit,</hi> to their power, yea beyond their power they were willing, and prayed <hi>Paul</hi> with great inſtance, and entreatie, that hee would receive their liberality, and ſee to the diſtri<g ref="char:EOLhyphen"/>bution thereof, among the ſame poore Saints, 2 <hi>Cor.</hi> 8 3, 4. What <hi>Iupiter Hoſpitalis</hi> was ever ſo bountifull to his gueſts as was that reverent <hi>Gaius,</hi> whom that beloved Diſciple lo<g ref="char:EOLhyphen"/>ved in the truet<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> 3 <hi>Ioh.</hi> 1 &amp; 5.<note place="margin">Iohn 13.23</note> ſo amiable is the congrega<g ref="char:EOLhyphen"/>tion of the faithfull; <hi>Pray for the peace of Ieruſalem, let them proſper that love thee: peace be within thy wals and proſperity within thy Palaces For my brethren and neighbours ſakes I wiſh thee now proſperitie: becauſe of the houſe of the Lord our God, I will procure thy wealth,</hi> Pſalme 122.6, 7, 8, 9. The like affection bare the upright Chriſtians one to another under the tyra<g ref="char:cmbAbbrStroke">̄</g>
+                     <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>izing Emperours, as witneſſeth <hi>Tertullianus in Apologetico.</hi> But as the Magnet and Loadſtone, though it draw yron unto it,<note place="margin">Plin. Nat. biſt. lib. <hi>36.</hi> c. <hi>16.</hi>
+                     </note> yet the ſtone <hi>Theamedes</hi> abhorreth yron, rejecteth and driveth the ſame from it; ſo the godly have many mortall inveterate enemies, yea from the very beginning of the Primitive, and Originall world:
+<q>
+                        <l>(—Quis talia fando</l>
+                        <l>Myrmidonum, Dolopumve, aut durimiles Vliſſei</l>
+                        <l>Temperet à lachrymis?)—</l>
+                     </q>
+                  </p>
+                  <p>They have beene moſt frequently infeſted with the martial horrour of hell, and annoyed with the boyſterous floods of <hi>Belial. Caine</hi> ſlew his brother, <hi>Gen.</hi> 4.8 and wherfore ſlew he him? becauſe his workes were evill, and his brothers righteous, 1 <hi>Iohn</hi> 3.12. and his infernall poſteritie oppo<g ref="char:EOLhyphen"/>ſed themſelves to the religious Progenie of <hi>S<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>th,</hi> and ſo barbarouſls maligned them from time to tune, that they decreaſed, and many degenerated, whileſt the other increa<g ref="char:EOLunhyphen"/>ſed, and flouriſhed by the building of Cities, and inven<g ref="char:EOLhyphen"/>ting
+<pb n="22" facs="tcp:18655:15"/>of trades, ſo that all the holy fathers being dead, one<g ref="char:EOLhyphen"/>ly <hi>Noah</hi> with ſeven ſoules were preſerved in the Arke,<note place="margin">Gen. 7.13.</note> was the Seminatie of the ſubſequent Church. So fared the people of God in the dayes of <hi>Abraham. Iſmael</hi> mocked and perſecuted <hi>Iſaac, Gen.</hi> 21.9. <hi>Gal</hi> 4.29. Neither were the Prophets and their Diſciples any better then their Fa<g ref="char:EOLhyphen"/>thers:<note place="margin">Matt 5.12.</note> for the Prophet <hi>Iſaiah</hi> was ſawen aſunder with a wooden Saw by blood thirſty <hi>Manaſſeth. Ieremiah</hi> after that he had beene perſecuted even by his owne fellow-ci<g ref="char:EOLhyphen"/>t zens, his evill neighbours of <hi>Anathoth,</hi>
+                     <note place="margin">Ier. 11.21. c. 12.14.</note> in the end was ſto<g ref="char:EOLhyphen"/>ned of the Iewes in <hi>Aegypt. Amus</hi> was killed with a barre of yron.<note place="margin">Iewal. apolog.</note> And the Lord of hoſtes <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>elieth <hi>Iehoſhua</hi> the high Prieſt, that his fellowes that ſi. before him, are contemned in the world, and eſteemed as monſtrous perſons, <hi>Zechar.</hi> 3.8. even as the Children whom the Lord had given <hi>Iſay</hi> were <hi>inſtar Portenti,</hi> as ſignes and wonders in <hi>Iſrael, Iſa.</hi> 8 18.</p>
+                  <p>As touching the perſecution and tribulation of the Apo<g ref="char:EOLhyphen"/>ſtles; the Lord Ieſus himſelfe propheſieth that they ſhould be hated,<note place="margin">Luke 6.22.</note> &amp; ſeparated from their Synagogues for the Son of mans ſake, which alſo came to paſſe on the Primitive Church, namely the Apoſiles, and their diſeiples, who en<g ref="char:EOLhyphen"/>ded their Pilgrimage under <hi>Trajan;</hi> and ſo continued on the Succeſſive Church under the burchering <hi>Roman</hi> Em<g ref="char:EOLhyphen"/>perours during the ſpace of three hundred yeares almoſt, even unto the time of <hi>Conſtantme</hi> the Great. The Philoſo<g ref="char:EOLhyphen"/>phers,<note place="margin">Act. 17.18.</note> 
+                     <hi>Epicureans</hi> and <hi>Steikes</hi> of <hi>Athens</hi> called S. <hi>Paul</hi> 
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, <hi>Seminivorbius,</hi> a babler: and after many tri<g ref="char:EOLhyphen"/>bulations <hi>Nero</hi> beherded him. <hi>Marke</hi> was burned at <hi>A<g ref="char:EOLhyphen"/>lexandria.</hi> And as <hi>Iuſiin Martyr</hi> witneſſeth, all Chriſti<g ref="char:EOLhyphen"/>ans were called,<note place="margin">Apolog.</note> 
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, a Godieſſe people: and Chriſtian Re<g ref="char:EOLhyphen"/>ligion as <hi>Euſebius</hi> writeth, for very ſpight was called <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>: yea ſaith <hi>Plinie,</hi>
+                     <note place="margin">Eib. <hi>1.</hi> c. <hi>4.</hi>
+                     </note> It is <hi>Contemptus omniam Numinum.</hi> And as touching the anguiſh and diſtreſſe of the Lords poore Inheritance, and the malice of the wicked againſt them ever ſince, who can expreſſe the ſame but with teares of blood?<note place="margin">Gen. 49.18.</note> 
+                     <hi>O Lord, wee have waited for thy ſalvation all the
+<pb n="23" facs="tcp:18655:15"/>day long: Come thou therefore, O God, from Teman,</hi>
+                     <note place="margin">Hab. 3.3.</note> 
+                     <hi>and thou Holy One of Iſrael from mount Paran.</hi> Thus is the love<g ref="char:EOLhyphen"/>ly City of the God of Love hated: But behold the ſpiri<g ref="char:EOLhyphen"/>tuall madneſſe of the intoxicated braines of their oppo<g ref="char:EOLhyphen"/>ſers. The hatred is no more ſtrong and malicious, then ſtrange and marvellous. Certainly ſome <hi>Circe,</hi> or <hi>Proſer<g ref="char:EOLhyphen"/>piua</hi> hath given them a Stygian potion, elſe they could ne<g ref="char:EOLhyphen"/>ver prove ſuch boiſtrous bedlams, and ravening Woolues among the poore Sheepe of the Lord leſus. For it is one<g ref="char:EOLhyphen"/>ly for the love of the Lord to his deare Children, that theſe ingrate Rebels receive any good. But for the Churches ſake, the Sunne ſhould beturned into darkneſſe, the Moone into blood, and the Starres ſhould withdraw their ſhining, yea the ground would cleave aſunder, that is under them,<note place="margin">Num. 16.31, 32.33.</note> and the earth would open her mouth, and ſwallow them up as it did <hi>Korah, Dathan,</hi> and <hi>Abiram,</hi> ſo that they, and all that they have ſhould goe downe alive into the dole<g ref="char:EOLhyphen"/>full pit of endleſſe perdition. But as corke cauſeth yron to ſwim, and keepeth it from ſinking while they are joy<g ref="char:EOLhyphen"/>ned together, ſo by the meanes of the Elect the Repro<g ref="char:EOLhyphen"/>bate are preſerved (for a while) from ſinking and deſtru<g ref="char:EOLhyphen"/>ction.</p>
+                  <p>Whileſt righteous <hi>Lot</hi> continued in <hi>Sodom</hi> it was ſafe,<note place="margin">Gen. 19.24.</note> but as ſoone as <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> it, the Lord rained upon it both fire and brimſtone from <hi>Iehova</hi> out of heaven.<note place="margin">Exod. 14.22.</note> No ſooner had Iſrael paſſed through the red Sea, but the waters returned, and overthrew the <hi>Aegyptians,</hi> ſo that <hi>Pharao,</hi>
+                     <note place="margin">Ver. 28 &amp; 15.10. Heb. 11.29.</note> and all his hoſte ſanke as leade in the great depths. So at the conſummation of the world, when the number of the Elect ſhall be pertected, and they ready for the Lord, and their bleſſed immortalitie; then ſhall the heavens at the bright<g ref="char:EOLhyphen"/>neſſe, and terrour of that dreadfull Iudge of the world, paſſe away with a great noyſe, and the Elements ſhall melt with ſervent heate, the earth alſo, and the workes that are therein ſhall be burnt up, 2 <hi>Pet.</hi> 2.10. where then ſhall the wicked appeare? then ſhall they confeſſe, that as God bleſſed <hi>Obed Edom,</hi> and all his houſhold while the
+<pb n="24" facs="tcp:18655:16"/>Arke continued with him, 2 <hi>Sam</hi> 6.11. ſo they injoyed the bleſſings of God while his Saints continued with them. And as the ſoes of the Church are fooliſh and mad, ſo are they accurſed of God for their furie and malice againſt his children, and their end tragicall and lamen<g ref="char:EOLhyphen"/>table. For they (like <hi>Ovids</hi> Giants) warre againſt God himſelfe.<note place="margin">Met. lib. <hi>1.</hi>
+                     </note> when they hate and perſecute his deareſt ſer<g ref="char:EOLhyphen"/>vants. <hi>What doe yee againſt the Lord?</hi> ſaith the Spirit, <hi>Nah.</hi> 1.9. The machination and enterpriles of the <hi>Aſ<g ref="char:EOLhyphen"/>ſyrians</hi> there againſt <hi>Iudah</hi> and <hi>Iſrael,</hi> were againſt the Lord God himſelfe.</p>
+                  <p>Whoſoever ſpoyleth the members of Chriſt upon earth; let him feare that dreadfull complaint of their vindictive Head from heaven:<note place="margin">Act. 9.4.5.</note> 
+                     <hi>Saul, Saul, why perſecuteſt thou met? it is hard for thee to kicke againſt the prickes.</hi> Wherefore un<g ref="char:EOLhyphen"/>to all ſuch belongeth the moſt juſt vengeance of the Lord of hoſtes. They ſhall all be conſumed and turned backe that hate Zion, they ſhall be as the graſſe upon the houſe tops: which withereth afore is groweth up: wherewith the mower filleth not his hand, nor the gleaner his lap: neither doe they which goe by, ſay; The bleſſing of the Lord be upon you, we bleſſe you in the name of the Lord, <hi>Pſal.</hi> 129.5, 6, 7, 8.</p>
+                  <p>What was the end of <hi>Antiochus Epiphanes?</hi> moſt woe<g ref="char:EOLhyphen"/>full: for after that he had ſudued both <hi>Aegypt</hi> and <hi>Iudea,</hi> 1 <hi>Maecab.</hi> 1.18, 19. ſpoyled the Temple, and waſted the Citie of <hi>Iernſalem,</hi>
+                     <note place="margin">1 Mac. 1.23. Dan. 8.9, to 15.</note> erected an Idoll upon the Altar of the Lord, and purpoſing to ranſacke the Cities of <hi>Elimais</hi> and <hi>Perſepolis,</hi>
+                     <note place="margin">1 Mac. 6.1.3.4. 2 Mac. 9.5. to 12. 1 Mac. 6.13.16. 2 Mac. 9.9. &amp; 28.</note> he was repulſed by the Citizens: and be<g ref="char:EOLhyphen"/>ing ſtricken with an incurable diſeaſe, he dyed an igno<g ref="char:EOLhyphen"/>minious death, and that in a ſtrange land, in the moun<g ref="char:EOLhyphen"/>taines: for the wormes roſe up out of his owne bodie, and whiles he lived in ſorrow and paine, his fleſh fell a<g ref="char:EOLhyphen"/>way, and the filthineſſe of his ſmell was noyſome to him<g ref="char:EOLhyphen"/>ſelfe, and all his Army. Wherefore (as ſaith diſcomfi<g ref="char:EOLhyphen"/>ted <hi>Senacheribs</hi> inſcription) <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>. Learne by the tragicall ruine of this mercileſſe monſter to feare
+<pb n="25" facs="tcp:18655:16"/>God, and love his Saints: for they that recieve theſe his Darlings, receive Chriſt himſelfe,<note place="margin">Matth. 10.40.</note> and they that receive Chriſt, receive the Father that ſent him.</p>
+               </div>
+               <div n="7" type="part">
+                  <head>
+                     <hi>Fl.</hi> 7. <hi>Of</hi> CONIVG ALL AMITY.</head>
+                  <p>
+                     <seg rend="decorInit">I</seg>N humane ſocietie there bee divers kindes of Loves, as Fatherly, Filiall, Brotherly vnitie, &amp;c. but as <hi>Salomon</hi> ſaith of the Vertuous Wiſe:<note place="margin">Prov. 31.29.</note> 
+                     <hi>Many daughters have done vertuouſly, but thou excelleſt them all:</hi> ſo I ſay of Cordiall A<g ref="char:EOLhyphen"/>mitie betweene Husband and Wife: many Lovers have beene loyall, but thou ſurmounteſt them all. Love is the mightieſt and moſt imperious affe<g ref="char:EOLhyphen"/>ction of the whole heart, and nature of man, and this is the moſt durable and conſtant of all loves.</p>
+                  <p>Slender trifles can quickly deſtroy other amities, which are meerely improper to this; but this Divine and Intire affection being ſealed and ratified by the power of that ſupreame prerogatiue, cannot be ſeparated,<note place="margin">Gen. 2.22.</note> neither by tribulation, nor anguiſh, famine, nor nakedneſſe. No<g ref="char:EOLhyphen"/>thing but death can bee the divider. For <hi>Love is ſtrong as death, Iealouſie is cruell as the grave: the coales thereof are coales of fire, which hath a moſt vebement flame.</hi> Many waters cannot qnench Love, neither can the floods drowne it; If a man would giue all the ſubſtance of his houſe for Love, it would vtterly be contemned. Which appeareth by the practiſe even of ſundrie Gentiles. <hi>Quintus Curtius</hi> writeth that <hi>Darius</hi> being conquered by <hi>Alexander the Great,</hi>
+                     <note place="margin">Darius.</note> ſuſtained that diſparagement and bitter diſtreſſe with couragious patience: but when newes was brought him, that his faire Queene <hi>Roxana</hi> was dead, to ſhew that hee affected her more then all his royall dignitie; he
+<pb n="26" facs="tcp:18655:17"/>wrung his hands, and wept bitterly. <hi>Baptiſta Fulg.</hi> repor<g ref="char:EOLhyphen"/>teth, that a poore labouting man in <hi>Naples,</hi> being bereſt of his Wiſe by a foyſt of <hi>Moores,</hi> threw himſelfe into the Sea, and ſwum after them, till they tooke him up into the Gally. Afterward they were both brought before the King of <hi>Thunis,</hi> who being moved with compeſſion at the relation of his love,<note place="margin">Plin. Nat. hiſt. lib. <hi>36.</hi> c. <hi>5.</hi>
+                     </note> ſent them both home againe. <hi>Artemiſia</hi> bare ſuch a love to her Husband <hi>Mauſolus,</hi> that ſhe buil<g ref="char:EOLhyphen"/>ded a Sepulcher for him, and called it <hi>Mauſolaeum,</hi> after his name, which was ſo glorious, that it was ranked among thoſe marchleſſe Monumens, which are termed, The ſeven wonders of the world, and that next unto the Temple of <hi>Diana</hi> in <hi>Epheſus;</hi> ſo that the great Coloſſe of the Sunne at <hi>Rhodes,</hi> the ſtatue of <hi>Iupiter Olympius</hi> the wals of <hi>Babylon,</hi> the <hi>Aegyptian Pir mides,</hi> and the Obe<g ref="char:EOLhyphen"/>liske of <hi>Semiramis,</hi> were reckoned thereafter.</p>
+                  <p>Howbeit there be many, alas, in the ſtate of wedlocke, that have lived, and doe live, or rather dye deſtitute of this ſweeteſt Amitie. Such unnaturall monſters were thoſe obſtinate Iewes,<note place="margin">Dent. 24.1. Matth. 19.7, 8.</note> whoſe he arts were ſo hard, that <hi>Moſes</hi> was faine to permit them to write their Wives a Bill of di<g ref="char:EOLhyphen"/>vorcement, and to put them away. But of all ſuch beaſts moſt beaſtiall was <hi>Calphurnius Beſtia,</hi>
+                     <note place="margin">Plin. Nat. hiſt. 1.<hi>27</hi> c. <hi>2.</hi>
+                     </note> who (as <hi>Plinius Se<g ref="char:EOLhyphen"/>cundus</hi> reporteth) killed two of his Wives aſleepe by his ſide, with the poyſon <hi>Aconite,</hi> as appeareth by that chal<g ref="char:EOLhyphen"/>lenge, and declaration, which <hi>M. Coelius</hi> his accuſer, made againſt him.<note place="margin">Iude v. 13.</note> Now to all ſuch is reſerved the black<g ref="char:EOLhyphen"/>neſſe of darkneſſe, even a wofull ſeparation from the mem<g ref="char:EOLhyphen"/>bers of the Bride and the Lambes wiſe, and from their joy<g ref="char:EOLhyphen"/>full communion for ever more.<note place="margin">
+                        <hi>The Vſe.</hi> Eph 5.25, to tho end.</note> Wherefore, <hi>Huſbands love your Wives, even as Chriſt loved the Church, and gave him<g ref="char:EOLhyphen"/>ſelfe for it, that he might ſanctifie it, &amp; cleanſe it by the waſhing of water through the word, that he might make it unto himſelf a glorious Church, not having ſpot or wrickle, or any ſuch thing, but that it ſhould be holy without blame.</hi> So ought men to love their wives, as their owne bodies: he that loveth his wife, loveth himſelfe. For never man yet hated his owne
+<pb n="27" facs="tcp:18655:17"/>fleſh, but nouriſheth &amp; cheriſheth it even as the Lord doth the Church. For we are members of his body, of his fleſh, and of his bones,<note place="margin">Gen. 2.24. Matth. 19.5. Marke 10.7. 1 Cor. 6.16. Col. 3.18.</note> 
+                     <hi>For this cauſe ſhall a man leave father and mother, and ſhall cleave to his wife, and they twaine ſhall bee one fleſh.</hi> This is <hi>a great ſecret, but I ſpeake concerning Chriſt, and the Church. Therefore every one of you doe yee ſo: Let every one love his wife even as himſelfe, and let the wife ſee that ſhe feare her huſband, and ſubmit her ſelfe unto him, as it is comely in the Lord.</hi>
+                  </p>
+               </div>
+               <div n="8" type="part">
+                  <head>
+                     <hi>Fl.</hi> 8. <hi>Of</hi> CONTINENCY.</head>
+                  <p>
+                     <seg rend="decorInit">T</seg>He Apoſtle <hi>Paul</hi> (ſaith <hi>Calvin Inſtit. lib.</hi> 2.<note place="margin">1 Cor. 7.34.</note> 
+                     <hi>c.</hi> 8. <hi>ſect.</hi> 43.) defineth <hi>Pudicitiam, conjunctam cum caſtitate corporis, antmi puritatem. The unmarried woman careth for the things of the Lord, that ſhe may be holy both in body and in Spirit.</hi> The Subject then of this chaſte vertue, is both the body and the loule. Wherefore ſpeculative wantonneſſe and Incontinencie of the minde is condemned of the Lord Ieſus, Matth. 5.28. <hi>Whoſoever looketh on a woman to luſt af<g ref="char:EOLhyphen"/>ter her, hath committed adulterie with her already in his heart.</hi> Saint <hi>Auguſtine</hi> commendeth three ſorts of Chaſtitie; <hi>
+                        <g ref="char:V">Ʋ</g>irginalem, Conjugalem, &amp; <g ref="char:V">Ʋ</g>idualem.</hi>
+                     <note place="margin">Three ſorts of Chaſtitie, <hi>Lib.</hi> 3. <hi>c.</hi> 19. <hi>de Lamiis.</hi>
+                     </note> Concerning the firſt, the ſame fatner ſaith? <hi>Nulla carnis foecunditas ſanctae Virginitaeti carnis etram comparari poteſt.</hi> And as <hi>Wierus</hi> ſaith:
+<q>Eſt magnum crimen Perrumpere virginis hymen.</q>
+                  </p>
+                  <p>And it is ſtiled by divers of the ancient fathers to bee the Queene of Vertues, ſiſter of Augels, Heavens gravitie, and divine Chaſtitie.<note place="margin">The dignity of Virginitie.</note> The ſecond is co<g ref="char:cmbAbbrStroke">̄</g>mended of the holie Ghoſt, <hi>Heb.</hi> 3.4. Whereby the honourable eſtate of Mar<g ref="char:EOLhyphen"/>riage is bleſſed, and the bed kept pure and undefiled. And
+<pb n="28" facs="tcp:18655:18"/>the Apoſtle calleth her, that is graced with viduall chaſti<g ref="char:EOLhyphen"/>ty, a <hi>widow indeed,</hi> who being left alone, truſteth in God, and continueth in ſupplications, and prayers night and day, but ſhe which liveth in pleaſure, <hi>is dead while ſhee li<g ref="char:EOLhyphen"/>veth,</hi> 1 Tim 5.5, 6.</p>
+                  <p>Admirable was the Chaſtitie of divers Heathens When <hi>Scipio Aſricanus</hi> entred by force of armes into <hi>Carthage,</hi> among the Captives,<note place="margin">
+                        <hi>Scipios</hi> Conti<g ref="char:EOLhyphen"/>nencie.</note> there was a young gentle-woman of wonderful beautie preſented unto him, who, though he was in the prime of his youth, yet conquered his owne af<g ref="char:EOLhyphen"/>fections, and would commit no act of diſhonour with the Virg<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ine.<note place="margin">Q. Curtius.</note> When <hi>Alexander the Great</hi> conquered <hi>Darius,</hi> notwithſtanding his Queene was of ſuch exqui<g ref="char:EOLhyphen"/>ſito beautie, that all <hi>Aſia</hi> could not equalize her, and that mightie Conquerour was of like yeares to this <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>oyall La<g ref="char:EOLhyphen"/>die, &amp;c. yet would he not entertaine a wicked thought towards her,<note place="margin">Pedro Mexi<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>.</note> but ſent <hi>Leonatus</hi> one of his favorites to comfort her. It is reported of <hi>Francis Sforſa,</hi> Count, Co<g ref="char:EOLhyphen"/>ronell of the <hi>Florentines,</hi> that (during the ſackage of <hi>Caſa<g ref="char:EOLhyphen"/>nova</hi>) whenſome of his ſouldiers had taken Priſoner a very beautiful yong woman, who ſubmitted her ſelf unto him, he would not touch nor know her after any uncivill man<g ref="char:EOLhyphen"/>ner whatſoever. Now if theſe vncircumciſed <hi>Gentiles</hi> were ſo continent,<note place="margin">Gen. 39.8. 2 Sam. 13.12, Iob. 31.1. Exod. 18.19.</note> what ſhall we ſay of the ſanctified continen<g ref="char:EOLhyphen"/>cie of <hi>Ioſeph, Thamar,</hi> and <hi>Iob?</hi> wherefore let every pure<g ref="char:EOLhyphen"/>hearted member of Chriſt, unceſſan<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ly imitate theſe bleſſed patternes of modeſtie. And as <hi>Iethro</hi> the Midianite coun<g ref="char:EOLhyphen"/>ſelled <hi>Moſes,</hi> ſo let the chaſt practiſe of theſe heathe<g ref="char:cmbAbbrStroke">̄</g>, incite and incourage Chriſtians to honeſtie and puritie of living.</p>
+                  <p>For Continencie, it is a fruit of the Spirit, againſt which there is no law; <hi>Gal.</hi> 5.2; And <hi>this is the will of God, even your ſanctification,</hi>
+                     <note place="margin">1 Theſſ. 4.3, 4.</note> 
+                     <hi>that yee ſhould abſtaine from fornication: that <gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>verie one of you ſhould know how to poſſeſſe his veſſell in holineſſe, and <gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>onour, &amp;c.</hi> for whereas everie ſinne that a man committeth,<note place="margin">1 Cor. 6.18. v. 5. Iam. 1.5.</note> is without the bodie; the fornicator ſin<g ref="char:EOLhyphen"/>neth againſt his owne bodie, and without true repentance ſhall not inherit the Kingdome of God. Therefore if any
+<pb n="29" facs="tcp:18655:18"/>man lacke this wiſedome of abſtinence, let him <hi>aske of God, which giveth to all men liberally, and reproacheth no man,</hi>
+                     <note place="margin">Matth. 9.11.</note> 
+                     <hi>and it ſhall be given him:</hi> It ſhall alſo be manifeſted in him: for a modeſt man dwelleth at the ſigne of a modeſt counte<g ref="char:EOLhyphen"/>nance, and an honeſt woman, at the ſigne of an honeſt face; which may be ſitly compated to <hi>Salomons</hi> Temple, whoſe gate was called <hi>Beautifull,</hi>
+                     <note place="margin">Acts 3 2.</note> ſhewing that if the entrie be ſo beautifull, within is exquiſite Beautie.</p>
+               </div>
+               <div n="9" type="part">
+                  <head>
+                     <hi>Fl.</hi> 9. <hi>Of</hi> LABOVR.</head>
+                  <p>
+                     <hi>
+                        <seg rend="decorInit">H</seg>E that gàthereth by labor,</hi>
+                     <note place="margin">Prov. 13.11. c. 14.13. Eccl. 7.15.</note> (ſait hthe Wiſe-ma<g ref="char:cmbAbbrStroke">̄</g>) <hi>ſhall increaſe;</hi> and, <hi>In all labour there is abun<g ref="char:EOLhyphen"/>dance.</hi> And <hi>Ieſus Siracides</hi> praiſeth it in this manner: <hi>Hate not laborious worke, neither Huſbandrie, which the moſt High hath ordai<g ref="char:EOLhyphen"/>ned for therich bleſſing of the Almightie accom<g ref="char:EOLhyphen"/>panieth the diligent hand, Iſaac</hi> ſowed in the land of <hi>Gerar,</hi>
+                     <note place="margin">Iob 42.10. Prov. 10.3.6.</note> and received in the ſame yeare an hundred fold, and the Lord bleſſed him, <hi>Gen.</hi> 26.12. And the Poct attrlbuteth great force, and might to induſtrious paines:
+<q>
+                        <l>—Labor omnia vincit</l>
+                        <l>Improbus, &amp; duris urgens in rebus egeſtas.<note place="margin">Georg.</note>
+                        </l>
+                     </q>
+                  </p>
+                  <p>There is no difficultie, but laborious Travelis of power to conquer, which is evident by that univerſall conqueſt of that Mightie <hi>Maccdouian,</hi>
+                     <note place="margin">Alexander the Great.</note> and thoſe twelve notable la<g ref="char:EOLhyphen"/>bours, (which as Poëts write) <hi>Hercules</hi> performed. And <hi>Plinie</hi> in his Hiſtorie of Nature recordeth,<note place="margin">
+                        <hi>Lib.</hi> 11. <hi>c.</hi> 30.</note> that the Piſ<g ref="char:EOLhyphen"/>mires weare the verie flint and pibble ſtoneswith their or<g ref="char:EOLhyphen"/>dinarie and continuall paſſage too and fro, ſo that one may ſee a verie path-way made, where they uſe to goe about their worke. If Heatheniſh,<note place="margin">The Vſe.</note> and naturall induſtrie bee ſo forcible, how mightie is ſanctiſied Chriſtian labour? the
+<pb n="30" facs="tcp:18655:19"/>fruit thereof, ſaith <hi>Salomon,</hi> is ſweet; yea, ſaith the ſonne of <hi>Sirach,</hi>
+                     <note place="margin">Ecclus. 11.15.</note> 
+                     <hi>It is wiſedome, knowledge, and underſtanding of the law from the Lord.</hi> What is the ſtate then of the ſluggard, the lazie Lizzard, and the luskiſh Lubby? It is moſt la<g ref="char:EOLhyphen"/>mentable, and to be deplored even with teares of blood: for his povertie ſhall come,<note place="margin">Prov. 6.11.</note> as one that travelleth, and his want as an armed man: and in the field of tentation hee ſtands unarmed, and unfenſed: and ſo in this his lethargi<g ref="char:EOLhyphen"/>call drowſineſſe the Devill ſerveth him (ſaith Saint <hi>Am<g ref="char:EOLhyphen"/>broſe</hi>) even as the <hi>Crab</hi> doth the <hi>Oyſters;</hi>
+                     <note place="margin">Pet. Martyr.</note> for as the <hi>Crab</hi> by putting a ſtone into the mouthes of <hi>Oyſters,</hi> whileſt they open themſelves to the Sunne, and gape to take the Aire, then thruſteth in his clawes, and eates the meate of them; ſo when men be given to Idleneſſe, and open their mindes to pleaſures; then the Devill putteth in filthy co<g ref="char:EOLhyphen"/>gitations, ſo that when they are not able to draw backe their ſhell, as it were, wherewith they were armed before, they are devoured.</p>
+                  <p>
+                     <hi>Hannibals</hi> idleneſſe at <hi>Capua</hi> was the onely cauſe of the <hi>Romanes</hi> victorie againſt him. <hi>Aegiſtus</hi> his litherneſſe was the cauſe of his Adulterie.<note place="margin">Ovid.</note> What moved <hi>Arbactus</hi> and <hi>Belochus</hi> to conſpire againſt <hi>Sardanapalus?</hi> his ſtrange ſenſualitie, and effeminate wantonneſſe. Goe therefore to the Ant,<note place="margin">Prov. 6.6, 7, 8.</note> thou ſluggard, conſider her wayes, and bee wiſe: which having no Guide, Overſeer, or Ruler provideth her meate in the Summer, and gathereth her ſood in the Harveſt.</p>
+               </div>
+               <div n="10" type="part">
+                  <pb n="31" facs="tcp:18655:19"/>
+                  <head>
+                     <hi>Fl.</hi> 10. <hi>Of</hi> PATIENCE.</head>
+                  <p>
+                     <seg rend="decorInit">T</seg>He Greekes call this Patient Vertue, <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, becauſe it ſuſtaineth, and ſup<g ref="char:EOLhyphen"/>porteth the wearie ſoule in the day of calamitie, <hi>Luke</hi> 21.19. It is like thoſe two couragious Searchers that ſpied out the land of promiſe.<note place="margin">
+                        <hi>Caleb</hi> and <hi>Ioſhua.</hi> Num. 13.17, 28, 30, 33.</note> Though the <hi>Canaanites</hi> were ſtrong, and there they ſaw the Giants, the ſonnes of <hi>Anak,</hi> which came of the Giants, ſo that they were in their ſight as graſhoppers, and the cities were walled up to the middle Region of the aire: never theleſſe they pronounced their ſuture triumph; vn<g ref="char:EOLhyphen"/>doubtedlie we ſhall conquer them: So the patient man, albeit deepe call unto deepe by the noyſe of the Lords water-ſpoutes, and ſquadrons of cares doe ſound their freſh alarme, yet like a brave invincible Champion, he anſwers their martiall Taratantara with noble <hi>Nehemiah:</hi>
+                     <note place="margin">Nehem 6.11: Rom. 8.37.</note> 
+                     <hi>Shall ſuch a man as I, flie? I am well able to overcome tribulation and diſtreſſe.</hi> It is nothing to endure perſecution, it is nothing to endure famine; it is nothing to abide nakedneſſe, re<g ref="char:EOLhyphen"/>proach, and toyleſome labour, or any ſuch things, through Chriſt that loved us. O then
+<q>
+                        <l>Nobile vincendi genus eſt Patientia: vincit,</l>
+                        <l>Qui patitur: ſi vis vincere, diſce pati.</l>
+                     </q>
+                  </p>
+                  <p>Noble is the grace of victorious Patience, and therefore commended unto the Saints both by Precept, and pra<g ref="char:EOLhyphen"/>ctiſe: by precept, <hi>Iam</hi> 5 8. <hi>Bee patient, ſtabliſh your hearts for the comming of the Lord draweth nigh.</hi> And 1 <hi>Peter</hi> 5.6. <hi>Humble your ſelves under the mightie hand of God that he may exalt you in due time.</hi> And the practiſe of the Re<g ref="char:EOLhyphen"/>deemed is frequent, as of <hi>Iſaac, Gen.</hi> 22.9. of <hi>Ioſeph, c.</hi> 50.17.
+<pb n="26" facs="tcp:18655:20"/>of <hi>Moſes,</hi>
+                     <note place="margin">Iob 1.20. &amp;. 2.10. Pſ 38.13: Acts 5.41. &amp; 7.60. 1. Cor 4.3. Heb. 10.34. Apoc. 1 9. c. 2.19.</note> 
+                     <hi>Numb.</hi> 16.46. of <hi>Iob, David,</hi> the Apoſtles, <hi>Steven, Paul,</hi> the <hi>Hebrewes, Iohn,</hi> and the Angel of the Church in <hi>Thyatira.</hi>
+                  </p>
+                  <p>
+                     <hi>The end of the firſt Dec.</hi>
+                  </p>
+               </div>
+            </div>
+            <div n="2" type="decade">
+               <head>Decad. 2.</head>
+               <div n="1" type="part">
+                  <head>
+                     <hi>Fl.</hi> 1. <hi>Of</hi> TIME.</head>
+                  <p>
+                     <hi>
+                        <seg rend="decorInit">O</seg>Ccaſio</hi> (ſaith <hi>Hippocrates</hi>) <hi>eſt momentanea, &amp; momentoſa.</hi> The <hi>Curetes</hi> had a buſh of haite on the hinder part of the head; but golden Opportunity hath it onely on the fore part; whence is the Poets Motto: <hi>Fugit irrevocabi<g ref="char:EOLhyphen"/>le Tempus:</hi>
+                     <note place="margin">Ovid met. l. <hi>7.</hi>
+                     </note> all the gold of <hi>Opbir</hi> cannot re<g ref="char:EOLhyphen"/>call one minute of Time, as the Poets fable of <hi>Aeſon.</hi> The Sunne by his anniverſary revolution maketh the day and the yeare;<note place="margin">The glorious meanes, and ſecondarie cau<g ref="char:EOLhyphen"/>ſes of Time.</note> the Moone by her monethly courſe the Moneths and Quarters; the Pleiades, and Hyades make the ſeaſons, and the Dogge-ſtarre the heate of the Sum<g ref="char:EOLhyphen"/>mer: all theſe celeſtiall Spheres, and Rounds doe labour by their ordinarie paſſages to bring us this moſt precious Occaſion. O then, with what Prudencie and Providence ought we to catch,<note place="margin">Grimſt.</note> and embrace it? Merchants bring us precious ſtones from <hi>Brama,</hi> and Rubies from <hi>Pegu,</hi> and with us they are of great value and account: but laborious <hi>Phoebus</hi> bringeth a dearer lewell from a more remote re<g ref="char:EOLhyphen"/>gion, even from the end of Heaven;<note place="margin">Pſal. 19.6.</note> but alas we doe not regard it. And of all the parts of this orient<note n="*" place="margin">The bright luſter of the Eaſtern <hi>O pals</hi> doeth figure, and repreſent the livelieſt colours of all precious ſtones: in it you ſhall ſee the burning fire of the Carbuncle, or Rubiethe glorious pur<g ref="char:EOLhyphen"/>ple of the Amethyſt, the greene Sea of the Emerald, &amp;c. <hi>Plin. Nat. biſt. lib.</hi> 37. c. 9. So doth the diligent uſe of Time ſhew you the excelle ney of many vertues and bleſſings.</note> 
+                     <hi>Opall,</hi> and pre<g ref="char:EOLhyphen"/>cious
+<pb n="33" facs="tcp:18655:20"/>
+                     <note n="*" place="margin">
+                        <hi>Pantaurus</hi> drawes all other ſ<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ones unto it, as the <hi>Cal<gap reason="illegible" resp="#UOM" extent="2 letters">
+                              <desc>••</desc>
+                           </gap>ite</hi> doth ſteele, ſo doth the diligent uſe of time bring great riches.</note> 
+                     <hi>Pantaure,</hi> 
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, onely this preſent minute is ours, wherefore it is extreame doltiſhneſſe to deferre the practiſe of Wiſedome untill the next, and to procraſtinate repentance by the groundleſſe hope of a few uncertaine dayes. Howbeit in the nature of Time note wee this pri<g ref="char:EOLhyphen"/>viledge; Though that which is paſt, cannot be recalled, yet it may bee redeemed by the double diligence of the wiſe, <hi>Eph.</hi> 5.16. wherefore the penitent Redeemer of Time, may be pourtrayed out in colours like <hi>Medea,</hi> with two contrary affections appearing in his face, in the one ſide ſorrow for the lamentable loſſe of that occaſion which is paſt, and in the other ſide joy for the redemption of Opportunitie preſent.</p>
+               </div>
+               <div n="2" type="part">
+                  <head>
+                     <hi>Fl.</hi> 2. <hi>Of</hi> THE BREVITIE OF MANS LIFE.</head>
+                  <p>
+                     <hi>
+                        <seg rend="decorInit">M</seg>AN that is borne of a woman</hi> (ſaith <hi>Iob</hi>) <hi>is of few dayes,</hi>
+                     <note place="margin">Iob. 14.1.</note> 
+                     <hi>and <gap reason="illegible" resp="#UOM" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>ll of trouble.</hi> The 969 yeares of <hi>Methuſhelah,</hi>
+                     <note place="margin">Gen. 5.27.</note> and the extraordinarie age of <hi>Triſeclis Neſtor,</hi> were but <hi>ſpithamaei dies,</hi>
+                     <note place="margin">Pſal. 39.5:</note> as a ſpanne, remooved as a Shepheard, Tent, what was the life of <hi>Barzillai,</hi>
+                     <note place="margin">2 Sam. 19.32.</note> but <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, a dreame, and the dayes of <hi>Cato Major,</hi> but <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, the verie dreame of a ſhaddow?<note place="margin">Cic. de Senect.</note> for the life of every man hath its period, and terme, as ſaith the holy Ghoſt, <hi>Gen.</hi> 3.18. <hi>Heb.</hi> 9.2.7. which the Poet could averre by o<g ref="char:EOLhyphen"/>cular evidence:
+<q>Soriùs aut citiùs ſedem properamus ad unam.</q>
+                  </p>
+                  <p>But everie ones period is not ſemblable, not the ſame for there is a naturall Period, and there is a period of di<g ref="char:EOLhyphen"/>vine Preſcience. If a man reach to his naturall Period,<note place="margin">Titelman, Nat. Philoſ. lib. <hi>8.</hi> c. <hi>20.</hi> &amp;. <hi>21.</hi>
+                     </note>
+                     <pb n="34" facs="tcp:18655:21"/>then the dayes of his yeeres (ſaith <hi>Moſes,</hi> Pſal. 90.10) are but threeſcore yeeres and ten, and if by reaſon of ſtrength they be foureſcore yeeres, yet is his ſtrength then but Labour and ſorrow. An aged man is but a moo<g ref="char:EOLhyphen"/>ving Anatomie, or a Living mortuarie. But ſcarcely doth one of a thouſand reach vnto this end, yea of Gods owne Inheritance, according to the vulgar Poſition: <hi>Optimi quique minimè diurnant;</hi>
+                     <note place="margin">Camb. Brit.</note> but they finiſh their dayes at the terme of Divine preſcience, which they cannot paſſe. <hi>La<g ref="char:EOLhyphen"/>cheſis</hi> is weary of ſpinning the difficult threed of our ſinfull life. By our rioting and drunkenneſſe, chambering and wantonneſſe, ſtrife and envying, Fatall <hi>Atropos</hi> is enforced as it were to cut it. This is our miſery, let us be warned of it; but it is the Lord that muſt deliver us from it, and teach vs to <hi>number our dayes,</hi>
+                     <note place="margin">Pſal. 90.1<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>.</note> 
+                     <hi>that wee may apply our hearts unto wiſedome.</hi> So ſhall the truth of the <hi>Gymnoſophiſts</hi> Motto ap<g ref="char:EOLhyphen"/>peare in us; The day of death is the Birth-day of vertu<g ref="char:EOLhyphen"/>ous ſoules.</p>
+               </div>
+               <div n="3" type="part">
+                  <head>Fl. <hi>3.</hi> Of the <hi>SOVLES</hi> Immortalitie.</head>
+                  <p>
+                     <seg rend="decorInit">I</seg>N all things naturall, there is one thing or other which is the ſpoile of it: as is the canker to the Roſe, the worme to the Apple, and the Cater<g ref="char:EOLhyphen"/>piller to the leaſe: but the ſoule of man, not be<g ref="char:EOLhyphen"/>ing compounded of Phyſicall principley, is not ſubject to the diſſolution of the ſame.<note place="margin">Eccles 12.6 7.</note> When the ſilver coard is leng<g ref="char:EOLhyphen"/>thened, and the Golden ewer, and the pitcher broken at the well, and the wheele at the crikeme, and duſt return<g ref="char:EOLhyphen"/>eth to the earth, as it was, then the <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>pirit returneth to God, that gaue it. <hi>Plato</hi> doth frequently ternie <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, i. of kinne unto God, and conſeqaenely, <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>. i. everlaſting, and of one ſelfe ſame nature with the immortall ones. And that which <hi>
+                        <g ref="char:V">Ʋ</g>irgil</hi> writeth in his
+<pb n="35" facs="tcp:18655:21"/>ſecond Eclog. concerning the Drug, or Spice of Aſſytia, and the growing thereof every where:
+<q>— (Aſſyrium, vulgò naſcetur Amonum)</q>
+                  </p>
+                  <p>it is interpreted of ſome men to be meant of the Immorta<g ref="char:EOLhyphen"/>litie of the Soule, whereof <hi>Phocylides</hi> ſpeaketh.</p>
+                  <q>
+                     <l>
+                        <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>:</l>
+                     <l>The Soule of man Immortall is, and never weares away</l>
+                     <l>With any age, or length of time, but liveth freſh foray.</l>
+                  </q>
+                  <p>Damnable then is that Atheiſticall Tenent of <hi>Plinie</hi> the Naturaliſt, that The Soule is ſubject to Mortality: And deſperate was that dying ſpeech of Pope <hi>Paul</hi> the third, Now at length I ſhall trie three things, whereof I haue much doubted all my Life: 1. Whether there bee a God? 2. Whether there be any hell? 3. Whether Soules be immortall? O thrice-barbarous ſtupiditie, and mon<g ref="char:EOLhyphen"/>ſtrous Incredulitie! More tollerable was poore <hi>Cleombro<g ref="char:EOLhyphen"/>tus;</hi> that beleeved <hi>Platoes</hi> report concerning the Soules Immortalitie: Thus Immortall is the Spirit, and Immor<g ref="char:EOLhyphen"/>tall is its condition. O then aſpire wee unto that onely proper and bleſſed Immortalitie in the Boſome of the Im<g ref="char:EOLhyphen"/>mortall God bleſſed for ever.<note place="margin">Mat. 6.20.</note> 
+                     <hi>Let vs lay vp treaſures for our ſelves in heaven, where neither the moth nor canker corrup<g ref="char:EOLhyphen"/>teth, and where theeves neither dig through, nor ſteals.</hi>
+                  </p>
+                  <q>
+                     <l>
+                        <g ref="char:V">Ʋ</g>t corpus redimas, quicqnam toler are negabis?</l>
+                     <l>At pretium pars hac corpore majus habet.</l>
+                  </q>
+                  <p>For our backes wee provide <hi>Luxurious</hi> apparell, for our bellies <hi>delicious</hi> dainties, and for our beaſtes hay, and pro<g ref="char:EOLhyphen"/>vender. Are not our ſoules much better then theſe?<note place="margin">Luke. 10.40.</note> Chuſe therefore with <hi>Marie</hi> the better part for this bet<g ref="char:EOLhyphen"/>ter part, which ſhall never be taken from vs.</p>
+               </div>
+               <div n="4" type="part">
+                  <pb n="36" facs="tcp:18655:22"/>
+                  <head>
+                     <hi>Fl.</hi> 4. <hi>Of</hi> KNOVVLEDGE.</head>
+                  <p>
+                     <seg rend="decorInit">L</seg>Iſe without Lea<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ning (ſaith <hi>Cato</hi>) is like the Image of death.<note place="margin">Hominis mens diſcendo alitar. <gap reason="illegible" resp="#KEYERS" extent="2 words">
+                           <desc>〈◊◊〉</desc>
+                        </gap> lib. <hi>1.</hi>
+                     </note> A Lord without Let<g ref="char:EOLhyphen"/>ters is as a trce without fruits, a day with<g ref="char:EOLhyphen"/>out Sunne, and a night without Moone or ſtarres. For this cauſe Literature hath beene of great value and eſteeme from time to time even among <hi>Ethnickes.</hi> The <hi>Athenians</hi> choſe <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> to bee the Patron of their Citie, and preferted <hi>Minerva,</hi> becauſe of her knowledge, to <hi>Neptune;</hi> for they knew there could be no greater glorie then to have a Learned Patron; therefore they preferred her peaceable Olive to his martiall ſword, and her dragon to his Triton, and that in wiſedome; for <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>; No riches ſo noble as divine Inſtruction.</p>
+                  <p>It is recorded of <hi>Philip</hi> King of <hi>Maecedony,</hi> that he rejoy<g ref="char:EOLhyphen"/>ced, notſo much becauſe <hi>Alexander</hi> was borne vnto him, as that he was borne in the dayes of <hi>Ariſtotle:</hi>
+                     <note place="margin">
+                        <hi>Alexander</hi> the Great.</note> for of his fa<g ref="char:EOLhyphen"/>ther hee received but his ſimple <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, but of his Maiſter his <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, his happy Philoſophicall Beeing, by the meanes whereof he ſpared <hi>Ariſtotles</hi> Natiue Citie. And when he found among the ſpoyle taken from <hi>Darius,</hi> the Kings Casket of Perſumes, he made of it a Caſe for <hi>Ho<g ref="char:EOLhyphen"/>mers Iliades. Pindarus</hi> for his Learning was ſpared, and with his whole family eſcaped deſtruction. <hi>Ptolemeus Phi<g ref="char:EOLhyphen"/>ladelphus,</hi> notwithſtanding he had already made a great Librarie containing 50000. bookes, yet he reſted not con<g ref="char:EOLhyphen"/>tented therewith, till he procured the Septuagints Tranſ<g ref="char:EOLhyphen"/>lation, which with him was of higheſt value So. doe all they love the joyous beames of knowledge,<note place="margin">2 Cor 4.6. Gen. 1.3.</note> in whoſe hearts God, that co<g ref="char:cmbAbbrStroke">̄</g>manded the light to ſhine out of darke<g ref="char:EOLhyphen"/>neſſe, hath ſhined, to gine the light of the knowledge of the Glory of God in the face of Ieſus Chriſt. For an Igno<g ref="char:EOLhyphen"/>rant man (as the <hi>Grecians</hi> ſay) ſeeth nothing, although he
+<pb n="37" facs="tcp:18655:22"/>have eyes. Now Ignorance is twofold; Poſitive and negative. The firſt is wilfull, and damnable blindneſſe: the ſecond againe is twofold, including either <hi>negationem infinitantem,</hi> ſimply denying knowledge, or any aptitude to Learning, as in native ſooles, and beaſtes;<note place="margin">Pravae diſpolſtionis, et purae negationis.</note> or <hi>negationem Privantem,</hi> which is ſubdivided into <hi>Irrationalem, &amp; ra<g ref="char:EOLhyphen"/>tionalem: Irrationalis</hi> is brutiſh Ignorance, ſuch as was in vs, and is in our Children being firſt borne, and it is called by <hi>Iunius, Ignorantia miſerabilis. Rationalis Ig<g ref="char:EOLhyphen"/>norantia</hi> is that whereby a man may be ignorant of many things, the knowledge whereof is not expedi<g ref="char:EOLhyphen"/>ent for him. For although we ought to labour for know<g ref="char:EOLhyphen"/>ledge, yet muſt it be with diſer<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>tion, which <hi>Plinie</hi> wan<g ref="char:EOLhyphen"/>ted, in ſearching to know by reaſon, why the hill <hi>
+                        <g ref="char:V">Ʋ</g>eſuvi<g ref="char:EOLhyphen"/>us</hi> burned ſo as it did? wherefore he reaped the due <hi>guer<g ref="char:EOLhyphen"/>don</hi> of vntimely death. But what the Na<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>maliſt wanted, the Pſalmiſt had: <hi>Lord, my heart is not haughty,</hi>
+                     <note place="margin">Pſal. 131.1.</note> 
+                     <hi>nor mine eyes loſty: neither doe Lexerciſe my ſelfe in great matters, or in things too high for me.</hi> But of thoſe things we are bound to know, the voluntaire &amp; rebellious Ignorance condem<g ref="char:EOLhyphen"/>neth. Let vs therefore firſt be <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, deſir<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>us of know<g ref="char:EOLhyphen"/>ledge, and then we ſhall be <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> learned indeed, yea, <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, even taught of God.</p>
+               </div>
+               <div n="5" type="part">
+                  <head>
+                     <hi>Fl.</hi> 5. <hi>Of</hi> RIGHTEOVSNES.</head>
+                  <p>
+                     <seg rend="decorInit">I</seg>Vſtice in generall is <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, a Confor<g ref="char:EOLhyphen"/>mitie with the Law of God: and it is twofold, uncreated, which is Sempiternall <hi>Iehova,</hi> that <hi>Iuſtitia Arch<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>typa;</hi>
+                     <note place="margin">Polan. Syatag.</note> and crea<g ref="char:EOLhyphen"/>ted, <hi>Inſtioa Ectypa,</hi> which is twofold, Legall, and Evangelicall; Legall is two<g ref="char:EOLhyphen"/>fold, Vniverſall, and Particular: Vniverſall is twofold, Philoſophicall, and Chriſtian. The beſt Philoſophicall Righteouſneſſe, and the moſt plauſible workes of morali<g ref="char:EOLhyphen"/>tſe, are but <hi>ſplendida peccata,</hi> gliſtering ſinnes, gilded a<g ref="char:EOLhyphen"/>bominations,
+<pb n="38" facs="tcp:18655:23"/>as the Iuſtice of <hi>Ariſtides,</hi> the wiſedome of <hi>Xenophon,</hi> the Muſe of <hi>Athens,</hi> the rare Loyalty and admi<g ref="char:EOLhyphen"/>rable fidelitie of <hi>Attilius Regulus:</hi> for they were not of faith.<note place="margin">Rom. 14.23.</note> But Chriſtian Righteouſneſſe, though imperfect, is pleaſing to God through Chriſt, of whom we are made Chriſtians. Particular luſtice is twofold, Commutative, and diſtributive: Commutative Iuſtice is that Common Equity, which ſhould be practiſed in our civill Commerce, and Humane Converſation,<note place="margin">Iuſtinian.</note> whereof <hi>Iuſtinian</hi> noteth ten particulars; as the Obſervation, of right in traffique, of reaſon in Contracts, and of equalitie in exchanging of one thing for another, &amp;c. By diſtributive Iuſtice the Ma<g ref="char:EOLhyphen"/>giſtrate aſſigneth unto every one his fit order and functi<g ref="char:EOLhyphen"/>on in the Republique.<note place="margin">Gal. 3.11.</note> All theſe <hi>ſpecies</hi> of Righteouſneſſe are not able to juſtifie a ſinner in the ſight of God: For when wee have done all thoſe things which are com<g ref="char:EOLhyphen"/>manded us, we muſt confeſſe, we are unprofitable ſervants: for wee have done but that which was our duty to doe: And if thou,<note place="margin">Pſal. 130.3.4.</note> ſhouldeſt ſtraitlie marke what is done amiſſe, who could ſtand before thee? But, Lord, there is mercie with thee, that thou mayeſt be feared. Where<g ref="char:EOLhyphen"/>fore wee flie to the ſhelter of the Lords ſoveraigne bounty. to the ſupreame Sanctuarie of that Evangelicall Iuſtice, the Immortall Merits of the Sonne of God;<note place="margin">Phil. 3.9.</note> even that Righte<g ref="char:EOLhyphen"/>ouſneſſe, which is through the faith of Chriſt, whereby we are Iuſtified.<note place="margin">Gal. 6.14.15.16.</note> God forbid then that we <hi>ſhould glorie, ſave in the Croſſe of our Lord Ieſus Chriſt, by whom the world is crucified unto us, and we unto the world. For in Chriſt Ieſus neither circumciſion availeth any thing, nor uncircumci<g ref="char:EOLhyphen"/>ſion, but a new creature: And as many as walke according to this rule, peace be on them, &amp; mercie, &amp; upon the Iſrael of God.</hi>
+                  </p>
+               </div>
+               <div n="6" type="part">
+                  <head>
+                     <hi>Fl.</hi> 6. OF HVMILITIE.</head>
+                  <p>
+                     <hi>CLementia eſt</hi> 
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>,<note place="margin">
+                        <hi>Paſer.</hi> Prov. 15.33. Iam. 4.6</note> Meekeneſſe is the glory of the minde, the grace of the whole man, and har<g ref="char:EOLhyphen"/>binger of his honour. For <hi>God reſiſteth the proud, and giveth grace to the humble.</hi>
+                  </p>
+                  <pb n="39" facs="tcp:18655:23"/>
+                  <p>
+                     <hi>Iehova</hi> talked with <hi>Elijah,</hi>
+                     <note place="margin">1. King. 12.13.</note> neither out of the bluſtering winde, nor out of the boyſterous carth-quake, nor out of the furious fire, but the ſtill and ſoft voyce ſpake unto him: ſo with thoſe that Chamoeleon-like are puffed up with the winde of pride, and with the Salamander liue in the fire of contention, the God of peace will not dwell,<note place="margin">2. Cor. 13.11. Iſa. 57.15.</note> but ontly with the contrite humble peaceable Spirit. When the men of Ephraim murmured againſt <hi>Gidcon;</hi> becauſe he did not call them, when hee went to fight with the <hi>Midianites,</hi> he anſwered:<note place="margin">Iudg. 8.1.2.3.</note> 
+                     <hi>What have I done now in com<g ref="char:EOLhyphen"/>pariſn of your? Is not the gleaning of the grapes of Ephraim better then the Vintage of Abiezer?</hi> Your laſt act, which have ſlaine two princes Ored and Zeeb, is more famous, then my whole enterpriſe; and ſo by Humilitie he appea<g ref="char:EOLhyphen"/>ſed them, Iudge. 8. <hi>Agathocles</hi> King of <hi>Sicilia</hi> garniſhed his palace with earthen Veſſels, in memorie that he was but a potters ſonne, and ſo by his Humilitie he embroy<g ref="char:EOLhyphen"/>dered the baſeneſſe of his birth. <hi>Humble thy ſelfe there<g ref="char:EOLhyphen"/>fore under the mightie hand of God,</hi>
+                     <note place="margin">1 Pet. 5.6.</note> 
+                     <hi>that in due time he may exalt thee.</hi> For thou ſeeſt no juſt cauſe of Arrogancy in why ſelfe.</p>
+                  <q>
+                     <l>Vnde ſuperbit homo, cujus conceptio culpa eſt,<note place="margin">Text.</note>
+                     </l>
+                     <l>Naſci poena, labor vita, neceſſe mori?</l>
+                  </q>
+                  <p>Let Chriſt be thine Examplar, and his lowlineſſe thine <hi>Exemplum,</hi> or Patterne, who waſhed the Diſciples ſeet. Learne of him to be meeke and lowly in heart, and thou ſhalt finde reſt unto thy ſoule.</p>
+               </div>
+               <div n="7" type="part">
+                  <head>
+                     <hi>Fl.</hi> 7. OF THE PEACE OF CONSCIENCE.</head>
+                  <p>
+                     <hi>SPecioſum nomen Pacis,</hi> (ſaith Hilarie) beautifull is the name of Peace; where of there be foure ſorts,<note place="margin">Ioh. 13.52. Matth. 11, 29 2 Cor. 13.116</note> Exter<g ref="char:EOLhyphen"/>nall, Internall, Suprnall, Eternall. Externall Peace is the Civile Quiet of aſſociation, and is injoyned,
+<pb n="40" facs="tcp:18655:24"/>Rom. 12.18. Supernall Peace is that Ioyfull Liberty of Reconciliation, whereby we are reconciled and made at one with our God againe, and is men<gap reason="illegible" resp="#UOM" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>oned. <hi>Iſa.</hi> 40.1. Eternall Peace is that Perfect caſe and reſt of Glerification, &amp; is cemmended.<note place="margin">1. Cor. 2.5.</note> 
+                     <hi>Apo<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </hi> 21.4. Internall peace is that un<g ref="char:EOLhyphen"/>ſpeakable tranquilitie of mande <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> paſſeth all naturall underſta<g ref="char:cmbAbbrStroke">̄</g>nding,<note place="margin">Prov. 15.15.</note> which the peaceable King calleth a <hi>continu<g ref="char:EOLhyphen"/>all ſeaſt,</hi>
+                     <note place="margin">c. 18.14. Iob. 1.21.13.15. and 19.25</note> which will Laſtaine all the infinacies of the body. This made <hi>Iob</hi> a triumphant conquerer over all his croſſes: and by the power of this Inward Victorie the Righteous can rejoyce even in <hi>Phalaris</hi> Bull. <hi>But a wounded Spirit who can beare it?</hi> The paine of the body is but the body of paine, but the ſorrow of the Sould is the Soule of ſorrow. When the heart,<note n="*" place="margin">Primum vi<g ref="char:EOLhyphen"/>wens, et ulti num morieas.</note> which is the fountaine of Life, faileth, then death prevaileth: ſo when the Conſcience is appaled, Infirmitie conquereth, tlibulation hath the vpper-hand over the whole man. This ſoule of ſorrow and quin<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>eſ<g ref="char:EOLhyphen"/>ſence of paine ſelt <hi>Nero,</hi> whiles (as <hi>Suctonius</hi> writeth) the Internall ſuries ſcourged his naked COnſcience for the monſtious murther of his mothr.</p>
+                  <q>Felix quem faciunt aliena pericula cautuns.</q>
+                  <p>Happie are they whom this Miſcreants miſerie can per<g ref="char:EOLhyphen"/>ſwade to ſeeke for mercy;<note place="margin">1 Cor. 1.12.</note> In all things with the Bleſſed Apoſtle to keepe a good Conſeience.</p>
+                  <q>
+                     <l>— Hic murus akeneus eſto</l>
+                     <l>Nil conſcire ſili,<note place="margin">Prov. 28.11</note> n<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ll<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> palleſ<gap reason="illegible" resp="#UOM" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ere culpa.</l>
+                  </q>
+                  <p>So while the wicked flie, when none purſueth, we ſhall be bold as a Lion.</p>
+               </div>
+               <div n="8" type="part">
+                  <head>
+                     <hi>Fl.</hi> 8. <hi>Of</hi> SPIRITVALL IOY</head>
+                  <p>THY Thone, O God, is an everlaſting Throne, <hi>The ſcepter of thy kingdome is a ſcepter of righteouſnes: thou loveſt righteouſneſſe,</hi>
+                     <note place="margin">Pſ. 45.6, 7.</note> 
+                     <hi>and hateſt iniquity, therefore God, even thy God hath anoynted thee with the oyle of
+<pb n="41" facs="tcp:18655:24"/>gladnes above thy fellowes.</hi>
+                     <note place="margin">1 Ioh 2.27. v. 20.</note> This ſame Anoynting &amp; Balme of Ioy, w<hi rend="sup">ch</hi> the faithfull have received of that Holy One, abi<g ref="char:EOLhyphen"/>deth in the<g ref="char:cmbAbbrStroke">̄</g>: how the<g ref="char:cmbAbbrStroke">̄</g> can they chuſe but evermore rejoice? for this unction teacheth them of all things;<note place="margin">1. Theſ. 5.16. Rom. 8.15, 16, 17. v. 28.</note> that they are the redeemed of the Lord, and Adopted ſonnes of the Fa<g ref="char:EOLhyphen"/>ther, that they are helies of God, and joint-heires with Chriſt, ſo that all things worke together for their true and ever laſting Happineſſe. Onely theſe are the men that have true cauſe of ſolid gladneſſe: for the joy of the wie<g ref="char:EOLhyphen"/>ked, is but ſuperficiall, like the noyſe of thornes under a pot: for even in the midſt of laughter the heart is ſorrow<g ref="char:EOLhyphen"/>full. Wherefore as the <hi>Perſians</hi> became <hi>Iewes,</hi> that they might be participant of the light and gladneſſe of the <hi>Iews;</hi> ſo let Atheiſts become Chriſtians,<note place="margin">Eſter. 8.17. Rom. 14.17.</note> that they may be parta<g ref="char:EOLhyphen"/>kers of the joy and honour of Chriſtians. For all true peace and joy proceedeth of the holy Ghoſt.</p>
+               </div>
+               <div n="9" type="part">
+                  <head>
+                     <hi>Fl.</hi> 9. <hi>Of</hi> THE RESVRRECTION OF THE IVAT.</head>
+                  <p>
+                     <seg rend="decorInit">B</seg>Ehold the noble practiſe, honourable condi<g ref="char:EOLhyphen"/>tion, and invicible hope of the Righteous. They ſet the Lord dwaies before their faces,<note place="margin">Pſ. 16.8, 9, 10.</note> becauſe he is at their right hand, they ſhal not be moved: therefore their hearts are glad, and their tongues rejoyce, their fleſh alſo ſhall reſt in hope: for the Father hath not left the ſoule of his Sonne Chriſt their head in hell, neither did he ſuffer that his Holy One to ſee corruption, but now is Chriſt riſen from the dead,<note place="margin">1 Cor. 15. Col. 3.4.</note> and become the firſt fruits of them that ſleepe: and when Chriſt, who is their life, ſhall appeare, then ſhall they al<g ref="char:EOLhyphen"/>ſo appeare with him in glory. This will the boundleſſe po<g ref="char:EOLhyphen"/>wer of <hi>Iohova</hi> perſorme: for if weake ſimple man can make of the duſt of the earth, the carious glaſſe, then can the Omnipotent Wiſe God reforme our corruptible bo<g ref="char:EOLhyphen"/>dies
+<pb n="42" facs="tcp:18655:25"/>out of the duſt.<note place="margin">1 Cor. 15.19. v. 57.</note> This will his mindefull mercy alſo bring to paſſe: for here our Ioyes are deferred untill that day: for if in this life onely we have hope in Chriſt, wee are of all men moſt miſerable. Therefore be we <hi>ſtedfaſt, un<g ref="char:EOLhyphen"/>moveable, alwayes abounding in the worke of the Lord, for as much as yee know that our labour is not in vaine in the Lord.</hi> So,<note place="margin">Apoc. 22.20.</note> 
+                     <hi>Come Lord Ieſus, come quickly, Amen.</hi>
+                  </p>
+               </div>
+               <div n="10" type="part">
+                  <head>
+                     <hi>Fl.</hi> 10. <hi>Of</hi> ETERNALL LIFE.</head>
+                  <p>
+                     <seg rend="decorInit">I</seg>N the Kingdome of Glory (ſaith <hi>Caſſio<g ref="char:EOLhyphen"/>dorus</hi>) there is no croſſe,<note place="margin">In Pſal. <hi>6.</hi>
+                     </note> no calamitie, never ma<g ref="char:cmbAbbrStroke">̄</g> failed on the raging ſea of this turbulent world in ſo great a calme, that ſometime hath not bin toſſed too &amp; fro w<hi rend="sup">th</hi> the tempeſtuous wind of adverſity, and Euroclidon of calamitie; but there is <hi>ſinus maris,</hi> and <hi>ſinus matris,</hi> the haven of endleſſe reſt. This is that <hi>Arabia foelix,</hi> that aboundeth in the ſpirituall plentie of all delectations. So great is that glory, that the Scripture deſcribeth it in allegoricall, and ſigurative phra<g ref="char:EOLhyphen"/>ſes, as <hi>Apoc. c.</hi> 21. <hi>&amp;</hi> 22. As we account this world a better manſion then the wombe; ſo ſhall we account the world to come a better dwelling place then this valley of teares; even as they that ſtand on the top of the <hi>Alpes,</hi> judgè the Cities of <hi>Campania</hi> to be but low cottages. The refore as the watch of a Diall touched with the Calamite, moveth alwayes, and trembleth, till it be turned toward the Pole-Articke; ſo we muſt never reſt, but walke continually from ſtrength to ſtrength, till every one of us appeare before the Lord our God in <hi>Zion.</hi> Amen.</p>
+                  <pb facs="tcp:18655:25"/>
+               </div>
+            </div>
+            <trailer>FINIS. Laus Chriſtoneſcia Finis</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,765 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gods arrowe of the pestilence. By John Sanford Master of Artes, and chapleine of Magdalen Colledge in Oxford</title>
+            <author>Sanford, John, 1564 or 5-1629.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1604</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 98 KB of XML-encoded text transcribed from 34 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A11483</idno>
+            <idno type="STC">STC 21734</idno>
+            <idno type="STC">ESTC S102391</idno>
+            <idno type="EEBO-CITATION">99838176</idno>
+            <idno type="PROQUEST">99838176</idno>
+            <idno type="VID">2540</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A11483)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 2540)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1080:05)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Gods arrowe of the pestilence. By John Sanford Master of Artes, and chapleine of Magdalen Colledge in Oxford</title>
+                  <author>Sanford, John, 1564 or 5-1629.</author>
+               </titleStmt>
+               <extent>[8], 55, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Ioseph Barnes and are to be sold in Paules Churchyard at the signe of the Crowne by Simon Waterson,</publisher>
+                  <pubPlace>At Oxford :</pubPlace>
+                  <date>1604.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>A sermon.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-04</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-05</date>
+            <label>Holly Beeman</label>Sampled and proofread</change>
+         <change>
+            <date>2011-05</date>
+            <label>Holly Beeman</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:2540:1" rendition="simple:additions"/>
+            <pb facs="tcp:2540:1" rendition="simple:additions"/>
+            <pb facs="tcp:2540:2" rendition="simple:additions"/>
+            <pb facs="tcp:2540:2" rendition="simple:additions"/>
+            <p>
+               <hi>GODS ARROWE</hi> Of the PESTILENCE. By <hi>JOHN SANFORD Maſter of Artes, and Chapleine of Magdalen</hi> Colledge in Oxford.</p>
+            <q>
+               <bibl>
+                  <hi>PSAL. 64.7.</hi>
+               </bibl>
+               <p>God will ſhoote an arrowe at <hi>the evill doers</hi> ſuddenly; their ſtroke ſhall be at once.</p>
+            </q>
+            <p>
+               <hi>AT OXFORD,</hi> Printed by Ioſeph Barnes and are to be ſold in Paules Churchyard at the ſigne of the Crowne by Simon Waterſon. <hi>1604.</hi>
+            </p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:2540:3"/>
+            <pb facs="tcp:2540:3"/>
+            <head>
+               <hi>TO THE RIGHT WOR<g ref="char:EOLhyphen"/>ſhipful the Vicechancelour, the</hi> Do<g ref="char:EOLhyphen"/>ctours, Proctours, and Heades of Hou<g ref="char:EOLhyphen"/>ſes, and to the reſt of the Students of the moſt famous Vniverſity of Oxford Grace and Peace be multiplied.</head>
+            <p>
+               <seg rend="decorInit">R</seg>Everend &amp; Right Worſh: Fathers and Brethren, be<g ref="char:EOLhyphen"/>loved in our Lord &amp; Saviour Chriſt Ieſus. Having of late been induced &amp; perſwaded (vp<g ref="char:EOLhyphen"/>on former triall of my ſtrength in privat exerciſe) to haue delivered ſome part of this Treatiſe in publike place; and after<g ref="char:EOLhyphen"/>wardes finding my ſelfe prevented by that infirmitie which at other times had overtaken me in your hearing, to my no
+<pb facs="tcp:2540:4"/>
+ſmall diſcouragement, and the griefe of many my good friendes; I was enforced to forbeare the place, and to leaue the exerciſe vnperformed; yet ſuppoſing this to be an honeſt and lawfull kinde of <hi>Vorſura,</hi> to borrow of my hand, to pay my tongues debt, I haue preſumed to preſent it to your graue iudgements in writing, and vnder your Worſh: names to publiſh it to the world. What the wil and purpoſe of God is, in this ma<g ref="char:cmbAbbrStroke">̄</g>ner to put me to ſilence, I do not buſy my ſelfe to inquire, neither would I haue other raſhly and curiouſly to iudge;<note place="margin">Exod: 29:29: 2. Tim: 4:5:</note> 
+               <hi>Secret things belong to God.</hi> In that I co<g ref="char:cmbAbbrStroke">̄</g>tinued thus vnſerviceable <hi>for the work of an E<g ref="char:EOLhyphen"/>vangeliſt,</hi> in ſpeech and vtterance, I re<g ref="char:EOLhyphen"/>ſolued with a Reverend man among vs, <hi>Evangelizare manu &amp; ſcriptione</hi> to preach (according to my poore ability) <hi>by my hand and by writing.</hi>
+               <note place="margin">
+                  <hi>D.</hi> Rainolds Epiſt. ad Com Eſſex.</note> Let no man thinke that I pretend infirmity as a co<g ref="char:EOLhyphen"/>vert for Idleneſſe, for I haue heretofore offered and preſented my labours, of a
+<pb facs="tcp:2540:4"/>
+willing and ready minde, when I might haue withdrawne my ſelfe. And I feare to truant in this buſines vnder any ſuch coulourable excuſe, leaſt that ſhold be<g ref="char:EOLhyphen"/>fall mee, which happened vnto <hi>Caelius,</hi> who to avoide the <hi>Ave potentiorum,</hi> to giue his attendance earely and late vp<g ref="char:EOLhyphen"/>on the great ones of his times, faigned himſelfe ſicke of the gowt, ſo cunning<g ref="char:EOLhyphen"/>ly, that his hypocriſie came home to him, and he fel ſicke of the gowt indeed, <q>
+                  <l>Tantum cura poteſt &amp; ars doloris,<note place="margin">Martial. l. 7 Epig. 38.</note>
+                  </l>
+                  <l>Deſit fingere <hi>Caelius</hi> podagram.</l>
+               </q>
+            </p>
+            <p>What my infirmity is I cannot well tell you, becauſe <hi>Galen</hi> ſaith <hi>it hath no name;</hi> yet I finde that it effecteth that which there he ſaith, <hi>loquelam,</hi>
+               <note place="margin">De Sympt, Cauſis lib. 2 cap. 2.</note> 
+               <hi>quae vo<g ref="char:EOLhyphen"/>luntatis no<g ref="char:cmbAbbrStroke">̄</g> leve eſt opus, prorſus adimit,</hi> it cleane depriveth &amp; bereaveth a man of ſpeech, which is the principall worke and the moſt noble Action of his will.<note place="margin">Iam. 3:2. Enarrat. in Pſal. 37. qui in lingua non pecca<g ref="char:EOLhyphen"/>vit, &amp;c.</note> Saint <hi>Iames</hi> faith, according to S<hi rend="sup">t</hi>. <hi>Au<g ref="char:EOLhyphen"/>gustines</hi> reading, <hi>that hee that offendeth not in his tongue is a perfect man,</hi> it is
+<pb facs="tcp:2540:5"/>
+ment that ſenſe according to which the <hi>Paroemiaſt</hi> ſpeaketh <hi>in multiloquio ſtul<g ref="char:EOLhyphen"/>tiloquium;</hi>
+               <note place="margin">Prov. 10.19</note> where <hi>Auſten</hi> ſaith <hi>Non fru<g ref="char:EOLhyphen"/>ſtra lingua in vdo est,</hi>
+               <note place="margin">Aug. ibid.</note> 
+               <hi>quia facilè labitur.</hi> The tongue may as well offend in too much ſilence, as in laviſhnes of wordes. For to be wilfully ſile<g ref="char:cmbAbbrStroke">̄</g>t in Gods meſſadge, in which the <hi>neglect</hi> is attended on with a <hi>vae,</hi>
+               <note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. Cor. 9.16 Ier: 48:10.</note> &amp; <hi>neglige<g ref="char:cmbAbbrStroke">̄</g>ce</hi> with a <hi>curſe,</hi> is to faile of a Miniſters active perfection, the chiefe complements whereof, are the right vſe of his hand and to<g ref="char:cmbAbbrStroke">̄</g>gue. If I haue wilfully neglected, or negligently hand<g ref="char:EOLhyphen"/>led the worke of the Lord,<note place="margin">Pſa. 137.5.6</note> 
+               <hi>then let my tongue ever cleaue to the roofe of my mouth, and let my right hand alſo forget her cunning;</hi>
+               <note place="margin">Mark. 7:35. Luke 1:64: Motus lin<g ref="char:EOLhyphen"/>guae vitia<g ref="char:EOLhyphen"/>tur per ſep<g ref="char:EOLhyphen"/>timam ner<g ref="char:EOLhyphen"/>vorum con<g ref="char:EOLhyphen"/>iugatione<g ref="char:cmbAbbrStroke">̄</g>. Gal. de lo<g ref="char:EOLhyphen"/>cis affectis lib. c: 2.</note> But ſeeing it hath pleaſed God not to <hi>looſe the ſtrings of my tongue</hi> for vttera<g ref="char:cmbAbbrStroke">̄</g>ce, as to <hi>Zacharias,</hi> but rather by ſolution of the co<g ref="char:cmbAbbrStroke">̄</g>iugation of nerves to diſable my ſpeech; J muſt learn with Saint <hi>Paule</hi> even in this alſo <hi>to bee con<g ref="char:EOLhyphen"/>tent. Philip.</hi> 4.11. Eſpecially ſeeing that Gods worthieſt ſervantes haue
+<pb facs="tcp:2540:5" rendition="simple:additions"/>
+complained of like infirmities.<note place="margin">Ser: 44. in Cant.</note> Saint <hi>Bernarde</hi> ſaith, <hi>that weaknes of bodie of<g ref="char:EOLhyphen"/>tentimes inioyned him ſilence, and infor<g ref="char:EOLhyphen"/>ced him to pauſe in the midſt of his ſer<g ref="char:EOLhyphen"/>mons, and abruptly to breake off his Diſpu<g ref="char:EOLhyphen"/>tations and Lectures.</hi> Concerning this preſent diſcourſe; as I conceived it vpo<g ref="char:cmbAbbrStroke">̄</g> occaſion of the daunger of theſe times, and ſince haue inlardged it with a Sum<g ref="char:EOLhyphen"/>mary collection of that, which at other times I had delivered elſewhere touch<g ref="char:EOLhyphen"/>ing the ſame matter; I thought it good to ſhoot it abroad like one of <hi>Ionathans Arrowes,</hi>
+               <note place="margin">1. Sam. 20.22.</note> to giue men warning of Gods diſpleaſure, beſeeching him to guide it to the marke wherevnto it was level<g ref="char:EOLhyphen"/>led, namely to worke in vs all, a trem<g ref="char:EOLhyphen"/>bling feare of his wrathfull indignation, &amp; our true &amp; harty converſion, which I pray God to graunte vnto vs. And I humbly beſeech your Wor: to accept this my ſilly labour with that wo<g ref="char:cmbAbbrStroke">̄</g>ted fa<g ref="char:EOLhyphen"/>vour, wherewith I haue alwaies founde my indeavours to haue beene accepted
+<pb facs="tcp:2540:6"/>
+and intertained of you. God of his mer<g ref="char:EOLhyphen"/>cie double his Spiritual graces vpo<g ref="char:cmbAbbrStroke">̄</g> you, giving you <hi>a large heart,</hi>
+               <note place="margin">1. King. 4.29.</note> to vnderſtande and to comprehende the riches of his goodnes and the wonderfull thinges of his law, and repleniſh you with godly zeale ſeaſoned with diſcretion, truely to ſeekc the advancement of his glory &amp; ſincere worſhip, and the good of his Church. From Magdalen Colledge this 13. of <hi>March,</hi> 1603.</p>
+            <closer>
+               <signed>Your worſhips in all Chriſtian duty. <hi>JOHN SANFORD.</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:2540:6" rendition="simple:additions"/>
+            <head>Gods Arrow of the Peſtilence.</head>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>Pſal. 38.2.</hi>
+                  </bibl>
+                  <p>For thine arrowes have light vpon me, and thine hand lieth vpon mee &amp;c.</p>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">T</seg>HAT which <hi>Tullie</hi> ſometimes ſaide of <hi>Crantors</hi> booke <hi>de luctu: Eſt non magnus,</hi>
+               <note place="margin">In lucullo ſive lib: 2: Acad: Queſt.</note> 
+               <hi>verùm aureolus libel<g ref="char:EOLhyphen"/>lus.</hi> The ſame may more cruely be ſpoke<g ref="char:cmbAbbrStroke">̄</g> of this booke of the Pſalmes, that it is but a ſmal volume, but in deed a golden booke, both for the ſtuffe and the matter thereof, as containing in it the true and vndoubted word of God which as the Pſalmiſt ſaith is pure <hi>&amp; to be deſired <hi>ſuper aurum obrizum</hi> even be<g ref="char:EOLhyphen"/>fore fine golde:</hi>
+               <note place="margin">Pſal. 19:10:</note> as alſo for the multiplicity of Argument, fitted to yeeld comfort &amp; inſtructi<g ref="char:EOLhyphen"/>on to all eſtates of men in their ſeverall occur<g ref="char:EOLhyphen"/>rences and diſtreſſes, and therein alſo is more cordiall &amp; medicinable then the <hi>Paracelſians <hi>aurum potabile</hi>
+               </hi> ſo much commended by <hi>Iohan<g ref="char:EOLhyphen"/>nes Franciſcus Picus Mirandula.</hi>
+               <note place="margin">Lib. 1: de au<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o ca. 4:</note> 
+               <hi>Saint Baſill</hi> in his preface to the firſt Pſalme ſaith, that the
+<pb n="2" facs="tcp:2540:7" rendition="simple:additions"/>
+whole body of y<hi rend="sup">e</hi> Scriptures inſpired by God, was therfore purpoſely indighted by the holie Ghoſt, that every man might there finde a me<g ref="char:EOLhyphen"/>dicine and confection for his particular diſ<g ref="char:EOLhyphen"/>eaſe, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,<note place="margin">Baſil: in Pſalme 1.</note> as it were in a com<g ref="char:EOLhyphen"/>mo<g ref="char:cmbAbbrStroke">̄</g> Apothecaries ſhoppe. The Prophets teach one thing the Hiſtoricall bookes another, the Law a third thing. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, but the booke of the Pſalmes, containeth whatſoe<g ref="char:EOLhyphen"/>ver is compriſed in them all; for it propheſieth of things to come, it recordeth matter of ſtory, it giveth lawes and precepts for the well or<g ref="char:EOLhyphen"/>dering of a mans life, in a word, ſaith hee, it is <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> a common ſtorehouſe and treaſurie of all good learning. Out of this ſtorehouſe y<hi rend="sup">e</hi> Saints of God haue at al times furniſhed their ſpiritual wants, &amp; out of this Chirurgions or Apothecaries ſhop, haue taken medicine for the comforte of their ſoules.<note place="margin">Camerari<g ref="char:EOLhyphen"/>us in Cata<g ref="char:EOLhyphen"/>logo Epiſ<g ref="char:EOLhyphen"/>coporum:</note> 
+               <hi>Babylas</hi> the good Biſhop of <hi>Antioch</hi> when hee was drawne to his execution by the commandement of <hi>Numerianus,</hi> or as others ſay, of <hi>Decius</hi> the tyrant, repeated that ſaying out of the <hi>116.</hi> Pſalme <hi>Returne vnto thy reſt o my ſoule for the Lord hath bin beneficiall vnto thee.</hi> In like manner the good Empe<g ref="char:EOLhyphen"/>rour <hi>Mauricius,</hi>
+               <note place="margin">Niceph. lib. 18: cap. 40:</note> when he had beene inforced to behold the ſlaughter and butcherie of his wife
+<pb n="3" facs="tcp:2540:7"/>
+and children, by the co<g ref="char:cmbAbbrStroke">̄</g>mandement of <hi>Phocas</hi> vſurper of the Empire, &amp; himſelfe laſtly being drawne to the ſcaffold and to the blocke, quie<g ref="char:EOLhyphen"/>ted his ſoule with that godly confeſſion out of the <hi>119.</hi> Pſal. <hi>I know o Lord that thy iudg<g ref="char:EOLhyphen"/>ments are right &amp; that thou doeſt afflict me iuſtly.</hi> Finally the laſt words which our Sa<g ref="char:EOLhyphen"/>viour ſpake when he gave vp the ghoſt vpo<g ref="char:cmbAbbrStroke">̄</g> the croſſe, were thoſe out of the <hi>31.</hi> Pſalm.<note place="margin">Luk. 23:46.</note> 
+               <hi>Father into thine ha<g ref="char:cmbAbbrStroke">̄</g>ds I co<g ref="char:cmbAbbrStroke">̄</g>mend my ſpirit.</hi> So that as Saint <hi>Baſill</hi> truly ſaith, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.<note place="margin">Pacis ca<g ref="char:EOLhyphen"/>duceus, vt <hi>reddidit volater:</hi>
+               </note> A Pſalme of David fit<g ref="char:EOLhyphen"/>ly and aptly applied, is as a faire calme and as an herauld or Embaſſadour of peace to a trou<g ref="char:EOLhyphen"/>bled ſoule.</p>
+            <p>The conſideration hereof moved and endu<g ref="char:EOLhyphen"/>ced mee to make choice of this paſſadge of holy writt, as of a Scripture well befitting theſe times, in which the hand of God hath for a long time layen heavie vpon vs, in this his grievous viſitation of our land by plague and peſtile<g ref="char:cmbAbbrStroke">̄</g>ce, which hath much waſted and diſpeopled many of our cities and villadges abroad.<note place="margin">The Diviſi<g ref="char:EOLhyphen"/>on:</note> The parts of the whole Pſalme (as I conceive of it with<g ref="char:EOLhyphen"/>out any curious Analyſis) I propoſe general<g ref="char:EOLhyphen"/>ly to bee two, firſt a praier conſiſting of two <milestone type="tcpmilestone" unit="unspecified" n="1"/> branches to wit, a deprecation of the rigour of Gods puniſhing hand in the firſt verſe wherin
+<pb n="2" facs="tcp:2540:8"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="3" facs="tcp:2540:8"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="4" facs="tcp:2540:9"/>
+the Prophet beſeecheth Almightie God not to exaſperate his anger againſt him in furie and diſpleaſure. Secondly an imploring of Gods helpe and aſſiſtance, that he be not overborne with the extremity of his ſickneſſe to murmur againſt God or to diſpaire of his providence <milestone type="tcpmilestone" unit="unspecified" n="2"/> in the two laſt verſes. The ſeco<g ref="char:cmbAbbrStroke">̄</g>d general part wherein the greateſt parte of the Pſalme is ſpent, is a vehement complainte of the grie<g ref="char:EOLhyphen"/>vouſneſſe of his ſickneſſe, from the ſecond verſe to the ende of the <hi>20.</hi> amplified by many cir<g ref="char:EOLhyphen"/>cumſtances, and interlaced with great variety of paſſion and affection; for firſt hee bewraieth his humane infirmity, whe<g ref="char:cmbAbbrStroke">̄</g> being vnder Gods ferular &amp; vnder the laſh, hee doth that which is vnſeemely &amp; vncomely for a man to do, he <hi>cri<g ref="char:EOLhyphen"/>eth &amp; roareth out</hi> verſ. <hi>8.</hi> &amp; all along aggra<g ref="char:EOLhyphen"/>vateth the greatnes of his paine &amp; puniſhment, though not through impaciencie, yet through an impotencie of mind, which hath likwiſe bin fou<g ref="char:cmbAbbrStroke">̄</g>d in the reſt of Gods Saints <hi>Iob, Ieremy,</hi> &amp; the like.<note place="margin">Iob: 3:3: Ier: 20:14:</note> Secondly he ſheweth his affiance &amp; confident truſt in God, notwithſtanding the ſharpnes of Gods correction laid vpon him; <hi>on thee o Lord do I wait</hi> verſ. <hi>15.</hi> as <hi>Iob</hi> likwiſe ſaith that <hi>although God ſhould ſlay him yet he would truſt in him.</hi>
+               <note place="margin">Iob: 13:15:</note> In the third place hee ingenuouſly confeſſeth that y<hi rend="sup">e</hi> primitive &amp; fu<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>dame<g ref="char:cmbAbbrStroke">̄</g>tal
+<pb n="5" facs="tcp:2540:9"/>
+cauſe of this his affection was his ſin v. <hi>3. there is no reſt in my bones by reaſo<g ref="char:cmbAbbrStroke">̄</g> of my ſin.</hi> Laſtly the pain of his diſeaſe outward<g ref="char:EOLhyphen"/>lye in his bodye, was increaſed by the inward griefe of his hart, of w<hi rend="sup">t</hi> he ſetteth downe <hi>2.</hi> ac<g ref="char:EOLhyphen"/>ceſſory cauſes; <hi>1.</hi> the defectio<g ref="char:cmbAbbrStroke">̄</g> of his frinds <hi>who now ſtood aſide from his plague &amp; his kinſ<g ref="char:EOLhyphen"/>me<g ref="char:cmbAbbrStroke">̄</g> ſtood afar off</hi> v. <hi>11.</hi> Seco<g ref="char:cmbAbbrStroke">̄</g>dly y<hi rend="sup">e</hi> barbarous inhumanity of his enemies v. <hi>12.</hi> who were ſo far fro<g ref="char:cmbAbbrStroke">̄</g> co<g ref="char:cmbAbbrStroke">̄</g>doling with him in this his adver<g ref="char:EOLhyphen"/>ſity, as that they did rather reioice at it &amp; inſult over him, moſt iniuriouſly rendring him evil for good, &amp; hating him, as the manner of ſuch miſcreants is, for no other cauſe, but becauſe hee deſired to live a godly life, and <hi>follovved goodnes</hi> as it is verſ. <hi>20.</hi>
+            </p>
+            <p>The matter and ſubiect which at this time I purpoſe to inſiſt on, omitting the reſt, is the Nature and kind of our Prophets diſeaſe, to<g ref="char:EOLhyphen"/>gither w<hi rend="sup">t</hi> thoſe two metaphorical Attributes by which it is deſcribed &amp; deciphered verſ. <hi>2.</hi> where it is called the ſtroke of Gods ha<g ref="char:cmbAbbrStroke">̄</g>d &amp; his arrow; <hi>Thine arrowes, ô</hi> God, <hi>have light vpo<g ref="char:cmbAbbrStroke">̄</g> me, and thine hand lyeth vpon me.</hi>
+            </p>
+            <p>What kind of diſeaſe it was, that our Pro<g ref="char:EOLhyphen"/>phet was ſicke of, it is not here mentioned nor expreſſed, The Hebrewes ſuppoſe that it was an vlcer ſo vile and loathſome that y<hi rend="sup">e</hi> Prophet
+<pb n="6" facs="tcp:2540:10"/>
+was abaſhed and in a manner aſhamed to name it in this his holy Ditty and Spirituall ſong; this they gather, becauſe hee vſeth the Adiectiue <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>foule and abominable,</hi> but ſuppreſſeth the ſubſtantiue; ſome render it <hi>foe<g ref="char:EOLhyphen"/>ditate</hi> or <hi>re abominabili, <hi>my loynes are filled with filthy and abominable corruption.</hi>
+               </hi> The circumſtances and particularities laid downe in the text, ſhew it to haue beene ſome fowle pe<g ref="char:EOLhyphen"/>ſtilent and contagious botch or ſoare: the In<g ref="char:EOLhyphen"/>terpretours doe ſomewhat differ aboute the place where this diſeaſe made his iſſue. The word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> is by ſome rendred <hi>Ilia,</hi>
+               <note place="margin">Bucerus in hunc locu<g ref="char:cmbAbbrStroke">̄</g>:</note> by others <hi>Lumbi</hi> or <hi>renes</hi> which our Engliſh tranſlati<g ref="char:EOLhyphen"/>ons following ſay, <hi>my reines</hi> or <hi>loines are fil<g ref="char:EOLhyphen"/>led with a ſore diſeaſe.</hi> If this interpretation be admitted and allowed of, then it ſeemeth to import, that his maladie was either the ach of the reines by a fit of the ſtone, or one of thoſe pa<g ref="char:cmbAbbrStroke">̄</g>gues which <hi>Tully</hi> calleth <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>
+difficultie of vrine,<note place="margin">Lib: 7: Epiſt Fam: 26:</note> and griping and wringing in the bowels and entrailes; For theſe are the paſſions which vſually fall into theſe partes. Which maladies though they bring with them a very ſharpe &amp; ſenſible pain, yet they proceeede not to that loathſomeneſſe, which here is mentioned, namely to putrifie corrupt and ſtincke, for ſo <hi>Auſten</hi> readeth <hi>com<g ref="char:EOLhyphen"/>putruerunt
+<pb n="7" facs="tcp:2540:10"/>
+&amp; putuerunt livores mei.</hi>
+            </p>
+            <p>Others who gheſſe more properly and nee<g ref="char:EOLhyphen"/>rer to the diſeaſe,<note place="margin">Calvinus &amp; Bucerus.</note> ſay that the word deſigneth a place beneath the reines, betweene the thigh and the belly or bowels, which is the flancke or groine, into which place the confluence of vicious corrupt and malignant humours doe moſt commonly betake themſelues, as beeing one of Natures Emunctories, as Phyſitions ſpeake, and a part fitly qualified and prepared for evacuation of impoſtumation &amp; the courſe and fluxe of humours, by reaſon of the tender<g ref="char:EOLhyphen"/>nes &amp; raritie of the skin and other paſſagdes as <hi>Galen</hi> hath obſerued and deliuered vnto vs.<note place="margin">Raritas &amp; teneritas axillaru<g ref="char:cmbAbbrStroke">̄</g> &amp; inguinum. De Oculis particula 6. ca. 1. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> Eſay 1.6. Exod. 28.27</note> So that finding there reſidence, they do impo<g ref="char:EOLhyphen"/>ſtumate and puſh out into ſome blaine and vl<g ref="char:EOLhyphen"/>cer, ſuch a one was this diſeaſe, for the worde which here is vſed, ſignifieth a collection of hu<g ref="char:EOLhyphen"/>mours impoſtumated, which <hi>Eſay</hi> calleth a <hi>ſwelling ſoreful of corruption,</hi> and in <hi>Exodus</hi> is tearmed the <hi>botch of Egypt. Nicolaus Sel<g ref="char:EOLhyphen"/>neccerus</hi> diſcourſing of thoſe paſſions &amp; ma<g ref="char:EOLhyphen"/>ladies which growe and ariſe <hi>in membris ex<g ref="char:EOLhyphen"/>plantatis</hi> that is,<note place="margin">In Phyſio<g ref="char:EOLhyphen"/>log fol. 597</note> in the out branches &amp; limmes of the body, the armes, thighes, &amp; leggs; among the reſt he reckoneth the <hi>Carbuncle,</hi> which may not vnprobably bee coniectured to haue beene our Prophets diſeaſe, &amp; that for theſe reaſons
+<pb n="8" facs="tcp:2540:11"/>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> as I conceiue: Firſt becauſe it commonly a<g ref="char:EOLhyphen"/>riſeth in the flancke or groine, which was the place and ſeate of our Prophets diſeaſe, as the learned in the Hebrew obſerue out of the pro<g ref="char:EOLhyphen"/>priety <milestone type="tcpmilestone" unit="unspecified" n="2"/> of the word, as before I ſhewed. Seco<g ref="char:cmbAbbrStroke">̄</g>d<g ref="char:EOLhyphen"/>ly becauſe the names of <hi>Carbu<g ref="char:cmbAbbrStroke">̄</g>culus</hi> in Latin, &amp; <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> in Greek, ſignifying a burning coal, deſ<g ref="char:EOLunhyphen"/>cribe an inflammation ſo ſenſibly grievous &amp; painefull, as that it doeth vexe a man as if his fleſh were ſeared and cauterized with a bur<g ref="char:EOLhyphen"/>ning coale: agreeing altogither with the word here vſed,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> tor<g ref="char:EOLhyphen"/>rere com<g ref="char:EOLhyphen"/>burere.</note> which comming fro<g ref="char:cmbAbbrStroke">̄</g> a <hi>Radix</hi> which ſignifieth to burne, is rendred <hi>ardore</hi> or <hi>combu<g ref="char:EOLhyphen"/>ſtione,</hi> which the <hi>Geneva</hi> tranſlation following ſaith, my reines are full of <hi>burning,</hi> according as in Engliſh we cal ſuch ſoares <hi>boiles</hi> becauſe they boile with the extreame heat of the bloud <milestone type="tcpmilestone" unit="unspecified" n="3"/> and other inflamed feculent matter. Thirdly, becauſe the Carbu<g ref="char:cmbAbbrStroke">̄</g>cle is a very lothſome blain or ſore, and as we commonly ſay of it, it is cou<g ref="char:EOLhyphen"/>ſin germane to the boile of the Plague. I will not vtter it as my Authour deſcribeth it be<g ref="char:EOLhyphen"/>cauſe it would be offenſiue to the hearing.<note place="margin">Vlcus cum <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>iuſtâ.</note> Cer<g ref="char:EOLhyphen"/>taine it is that it is an vlcer very odious and loathſome, &amp; in this reſpect alſo agreeth with the nature of our Prophets diſeaſe, which ſome call <hi>plagam contemptibilem,</hi> a botch or plague abhorred of all men, for his very friendes and
+<pb n="9" facs="tcp:2540:11" rendition="simple:additions"/>
+kinſmen fled from him and ſtood a loofe off for feare of infection as it is not vnlikely. Say we then that it was this Carbuncle; or bee it ra<g ref="char:EOLhyphen"/>ther that it was that boile and blaine of which king <hi>Ezechias was ſicke vnto the death,</hi>
+               <note place="margin">2. Kings 26 Eſay 38.</note> which Diuines think to haue bin the very plague im<g ref="char:EOLhyphen"/>mediatly ſent from God, neither ariſing from naturall cauſes, nor to bee cured by naturall &amp; ordinary meanes. For ſo <hi>Iunius</hi> ſaith, <hi>morbi na<g ref="char:EOLhyphen"/>tura indomita erat à medijs naturalibus,</hi>
+               <note place="margin">Annot. in 2. Reg. 20.</note> &amp; there<g ref="char:EOLhyphen"/>fore God challendgeth the cure therof to him<g ref="char:EOLhyphen"/>ſelfe, <hi>ſaying, I haue healed thee.</hi> The applying of the <hi>lumpe of dry figs to his boile, Maſculus</hi> thin<g ref="char:EOLhyphen"/>keth to haue bin vſed for a ſigne to confirme <hi>E<g ref="char:EOLhyphen"/>zechias</hi> his faith rather the<g ref="char:cmbAbbrStroke">̄</g> any ordinary cure.<note place="margin">Calvin in Eſay 38. Hug. Card. in 2. Reg. 20</note> Howbeit <hi>Calvin</hi> and <hi>Hugo Cardinalis</hi> ſay that Phyſitions now a daies doe apply the ſame to ripen the ſore, and that it hath a naturall force to draw the corruption outward. Concerning our Prophets diſeaſe <hi>Bucer, Muſculus</hi> and o<g ref="char:EOLhyphen"/>thers thinke it to haue beene the plague. And therevpon <hi>Maſculus</hi> vpon this <hi>2.</hi> verſe, mo<g ref="char:EOLhyphen"/>ueth this queſtion, whether it bee lawful to flie from them that are infected with the plague. Adde herevnto this reaſon, that ſeeing that the prophet confeſſeth this his ſicknes to haue bin laid vpon him for his ſins,<note place="margin">In Argum in Pſal. 38.</note> which <hi>Ianſenius</hi> col<g ref="char:EOLhyphen"/>lecteth to haue bin his crying ſinnes of Adulte<g ref="char:EOLhyphen"/>rie
+<pb n="10" facs="tcp:2540:12"/>
+and murther, it is not vnprobable, but that God for exemplary iuſtice, did afflict him with that diſeaſe which he threatneth againſt them that tranſgreſſe againſt his law, namely that he <hi>would ſmite them</hi> in the <hi>knees</hi> &amp; in <hi>the thighes</hi> with <hi>a ſore botch that ſhoulde not bee healed,</hi>
+               <note place="margin">Deut: 28:35 &amp; 59</note> 
+               <hi>and with a plague of long continuance.</hi> All which very conſonantly agreeth, to our Prophets diſeaſe, for the place which this malady affected was <hi>the thigh. Faemora mea occupat ardens vlcus</hi> ſaith <hi>Muſculus,</hi> and it was a diſeaſe alſo of long co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>tinuance vpon him, for in the next Pſalme hee co<g ref="char:cmbAbbrStroke">̄</g>plaineth,<note place="margin">Pſal. 39.10.</note> that <hi>he was almoſt co<g ref="char:cmbAbbrStroke">̄</g>ſumed by means of Gods heavy hand and of his plague.</hi> This may further appear, by thoſe ſharpe acce<g ref="char:cmbAbbrStroke">̄</g>ts of griefe which he vttereth in his complaint. Firſt he ſaith, there was <hi>no ſounde part in all his fleſh nor any reſt in his bones,</hi>
+               <note place="margin">verſe 3.</note> as if the whole frame of his limmes inwardly had been lurate and diſioin<g ref="char:EOLhyphen"/>ted, &amp; as if outwardly by reaſon of the anguiſh of his vlcer, which now had made a rupture in his fleſh, all his ſkin had bin bliſtred over. For when he ſaith, <hi>nihil eſt integri in carne meâ,</hi> hee alludeth to the name and nature of an vlcer, which comming from the Greeke word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, and ſignifying in the primitiue to draw a ſun<g ref="char:EOLhyphen"/>der, it importeth that an vlcer is a diſioyning of the continued fleſh or ſkin, as <hi>Friſchlin</hi> vpon
+<pb n="11" facs="tcp:2540:12"/>
+that verſe of <hi>Triphiodore,</hi>
+               <note place="margin">Nicodem: Friſ. Annot in Triphiod</note> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, that <hi>Aiax</hi> by ſtabbing of himſelfe, brake open the cheſt and coffin of his body with a deepe gaſh and gaping wound, he ſaith that a wounde or vlcer is <hi>ſolutio continui,</hi> a breach of the whole ſkin: now both theſe his paines ſeem to be implyed togither in the <hi>8.</hi> verſe, where he ſaith, <hi>I am weakned and ſore broken.</hi> Secondly he goeth crooked and bended togither, <hi>incurva<g ref="char:EOLhyphen"/>tus ſum</hi> verſe <hi>6.</hi> his face is heauy, ſwarty, and diſcoloured; not with repining ſullennes, but through his languiſhment, fainting, &amp; waſting away through ſickneſſe. Adde heereunto that which followeth in the <hi>10.</hi> verſe, that his hart was overthrowne in his body, beating &amp; pan<g ref="char:EOLhyphen"/>ting through the anguiſh of his malady, as if it had laboured and gaſped for breath and life. His eies were ſunke into his heade and waxen dim, and his ſight failed him, and his ſtrength was cleane decayed through feebleneſſe, or as elſewhere he ſpeaketh,<note place="margin">Pſal. 22.15. &amp; 32:4:</note> 
+               <hi>his ſtrength was dryed vp like a potſheard, &amp; his moiſture was as the drought in Summer;</hi> Al which are the very <hi>Symptomata</hi> &amp; Accidentes which vſually follow after any extremity of ſicknes.</p>
+            <p>Thus haue I bin induced to co<g ref="char:cmbAbbrStroke">̄</g>iecture, that the diſeaſe here meant though not mentioned, was either the Carbuncle, or the very botch &amp;
+<pb n="12" facs="tcp:2540:13"/>
+boile of the plague, not ſo much becauſe it is ex<g ref="char:EOLunhyphen"/>preſly called the plague, <hi>verſe <hi>17.</hi>
+               </hi> in our vul<g ref="char:EOLhyphen"/>gar Engliſh, <hi>I truely am ſet in the plague;</hi> &amp; yet more plainely, <hi>Pſal. 39.10. <hi>Take thy plague a way from mee, &amp;c.</hi>
+               </hi> for the worde which is there rendred <hi>a plague,</hi>
+               <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> pla<g ref="char:EOLhyphen"/>ga, verber</note> ſignifieth <hi>a ſtripe,</hi> or <hi>ſcourge;</hi> as elſewhere in Scripture, diſeaſes are called ſcourges, as in the ſtory of the woman that had her iſſue of bloud dryed vp &amp; healed by Chriſt, it is ſaide, that ſhee felt in her body, that ſhee was healed <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, of that ſcourge <hi>or of that plague,</hi>
+               <note place="margin">Mark. 5.29. Luke. 7.21.</note> as our Engliſh hath it. And in S. <hi>Luke</hi> it is ſaid, that Chriſt cured many <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, of their ſickneſſes and <hi>plagues.</hi> But I rather ſuppoſe it to haue bin the plague for the reaſons before alleadged.</p>
+            <p>The vſe of this point, is to teach and to leſ<g ref="char:EOLhyphen"/>ſen vs,<note place="margin">The vſe of the 1. part.</note> to vnderſtand the right vſe and ende of this and all other afflictions wherewith God doth exerciſe his children; to wit, that howſoe<g ref="char:EOLhyphen"/>ver they be inflicted vpon all, as puniſhmentes for ſin, and to the wicked &amp; vngodly which re<g ref="char:EOLhyphen"/>maine incorrigible, are teſtimonies of Gods vengeance to conſume them; yet to the godly, they are his fatherly chaſtiſements &amp; correc<g ref="char:EOLhyphen"/>tions, for their amendment. And whe<g ref="char:cmbAbbrStroke">̄</g> we ſhal ſee the hand of God, to lie heavy vpon his dea<g ref="char:EOLhyphen"/>reſt children,<note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. Sam: 23:1</note> as here it doth vpon <hi>David,</hi> that
+<pb n="13" facs="tcp:2540:13"/>
+               <hi>ſweete finger of Iſraell,</hi>
+               <note place="margin">Act: 13:22:</note> &amp; <hi>the man after Gods owne heart,</hi> as that it brake &amp; bruiſed his body, with a co<g ref="char:cmbAbbrStroke">̄</g>tuſion of his limmes; yea and vpon his on<g ref="char:EOLhyphen"/>ly ſonne too, our Savior <hi>Chriſt,</hi> who<g ref="char:cmbAbbrStroke">̄</g> he caſt in<g ref="char:EOLhyphen"/>to an agony and fit of ſorrowe ſo extreame and vehement, as that <hi>he ſweat drops of bloud therat;</hi>
+               <note place="margin">Luke 22:44</note> Let this be our comfort in the day of our afflic<g ref="char:EOLhyphen"/>tion, and in the depth of our ſorrows, that how ſoeuer Gods hand ſeeme to preſſe vs ſore, yet he will not caſt vs away in diſpleaſure, as hee doth the veſſels of wrath, but euen then when he puniſheth, he will remember mercy.<note place="margin">Pſal: 32:11:</note> 
+               <hi>Greate plagues</hi> indeed <hi>are ordained and reſerved in ſtore for the vngodly, but whoſoever putteth his truſt in the Lord, mercy embraceth him on every ſide.</hi> And therefore though God doe differre our delive<g ref="char:EOLhyphen"/>rance, yet we muſt not ſuffer our ſelues to bee caſt downe with too great conſternation, as to be ſwallowed vp of impatiency or deſpaire, but patiently to tarry the Lords leaſure, as heere our <hi>David</hi> doth, who beeing likely in this his extreame ſicknes to rot away peece-meale, is not diſcouraged or diſcomforted, nor mooved for his recovery either to put confidence, or re<g ref="char:EOLhyphen"/>lie his hope vpon Phyſitions,<note place="margin">2. Chro. 16.12.</note> as did <hi>Aſa</hi> in his ſicknes; or to repaire to Idols &amp; Witches, as did king <hi>Ahaziah;</hi> but as himſelfe ſpeaketh <hi>verſe <hi>15.</hi> Hee waiteth on God;</hi>
+               <note place="margin">2. King. 1.16</note> knowing that to
+<pb n="14" facs="tcp:2540:14"/>
+bee true which <hi>Hoſea</hi> hath, <hi>that it is God that woundeth, and healeth againe;</hi>
+               <note place="margin">Hoſea 6:1:</note> &amp; this is his reſt, <hi>vna eadem<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> manus vulnus opem<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> feret. Popilius Laenas</hi> beeing ſent embaſſadour to <hi>Antiochus,</hi>
+               <note place="margin">Veleius Pa<g ref="char:EOLhyphen"/>terculus l: 1:</note> from young <hi>Ptolemie</hi> whom he had beſiedged, &amp; hauing deliuered his meſſadge, expected the kings anſwere, which he deferring to doe, <hi>cir<g ref="char:EOLhyphen"/>cu<g ref="char:cmbAbbrStroke">̄</g>ſcripſit virgula,</hi> he drew a circle in the grou<g ref="char:cmbAbbrStroke">̄</g>d round about the king with his wand, adiuring him, to giue him anſwer before he went out of the circle; we muſt not ſo capitulate with God; nor article with him vpon conditions, as did the men of <hi>Bethulia,</hi> to yeelde vp their citty to the Aſſyrians if God did not deliver them with in fiue daies; <hi>but let vs waite for deliverance fro<g ref="char:cmbAbbrStroke">̄</g> him,</hi>
+               <note place="margin">Iudith: 8:</note> as <hi>Iudith</hi> there adviſeth her people, <hi>and not binde the counſels of the Lord, for he hath power to ſaue vs when he well,</hi> And this pacient attenda<g ref="char:cmbAbbrStroke">̄</g>ce on Gods wil and pleaſure, is an excellent fruit &amp; effect of faith, according to that of <hi>Eſay, Quo credit non praefeſtinabit,</hi>
+               <note place="margin">Cap: 28:16:</note> hee that beleeueth with a true faith, will not bee ouerhaſty with God, but will patiently waite his Lords leaſure.</p>
+            <p>Having thus laid downe our Prophets diſ<g ref="char:EOLhyphen"/>eaſe, and proved by all likelihood, that it was the botch of the plague, or ſome other peſtilen<g ref="char:EOLhyphen"/>tiall diſeaſe. I come nowe to the handling of this <hi>2.</hi> verſe; wherein hee calleth his Vlcers
+<pb n="15" facs="tcp:2540:14"/>
+               <hi>Gods arrowes,</hi> &amp; the ſtroke of his <hi>hand.</hi> And becauſe it is the hand of God that ſhooteth and ſcattereth theſe arrowes abroad, I wil (ſome<g ref="char:EOLhyphen"/>what inverting the order intreate firſt of the hand of God:</p>
+            <p>Heere then it is to bee conſidered, that the Phraſe heere vſed of the hand of God, cannot be vnderſtood literally and in a true propriety of ſpeech. For that were with the <hi>Anthropo<g ref="char:EOLhyphen"/>morphites</hi> to conceiue God to be as man, and to haue the bodily parts of a man, and who ſo ſhall thinke theſe things truely to bee in God, <hi>proculdubiò in corde ſuo idôla fabricat,</hi> doubtles,<note place="margin">Tom. 4: lib. de me<g ref="char:cmbAbbrStroke">̄</g>bris Dei:</note> ſaith <hi>Ierome,</hi> he maketh an Idol of God in his hart. But the Scripture, when it doth attri<g ref="char:EOLhyphen"/>bute vnto God, Anger and Diſpleaſure, as in the <hi>1.</hi> verſe of this Pſal. though not as paſſi<g ref="char:EOLhyphen"/>ons, ſeing that he is impaſſible as Saint, <hi>Am<g ref="char:EOLhyphen"/>broſe</hi> ſpeaketh vpon this pſalme, according to that of <hi>Lucretius, <hi>nec Deus affectu capitur, nec tangitur irâ.</hi>
+               </hi> And when it doth give eies, and hands, and fingers, and feete vnto God, it doth it by a metaphore and Anthropopathie <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>,<note place="margin">Baſil: in Pſ: 38.</note> ſpeaking vnto vs ſaith <hi>Baſill,</hi> after the manner of men, and ſtooping and deſcending to the quality and ca<g ref="char:EOLhyphen"/>pacity of the hearers. God, ſaith <hi>Bernard,</hi>
+               <note place="margin">Serm: 4, in Cantic.</note> hath a mouth, by which he teacheth man Wiſdome,
+<pb n="16" facs="tcp:2540:15"/>
+he hath <hi>an hand,</hi>
+               <note place="margin">Serm. 4. in Cantic.</note> by which he giveth food vnto all fleſh, and he hath feete, by which he treadeth vpon this earth as vpon his footeſtoole; And how hath he all theſe <hi>per effectum,</hi> ſaith <hi>Ber<g ref="char:EOLhyphen"/>nard, <hi>non per naturam:</hi>
+               </hi> he hath them not by na<g ref="char:EOLhyphen"/>ture Organically, as men haue; but he is ſaide to haue them, for that variety of effects, which he bringeth forth in the courſe of nature, and in the policie and governance of mankind vpo<g ref="char:cmbAbbrStroke">̄</g> earth.</p>
+            <p>But becauſe this metaphore is taken from man, to whom the vſe of the hand is chiefly gi<g ref="char:EOLhyphen"/>ven in token of his perfection; let vs ſomewhat examine the reaſon hereof, and ſee by what A<g ref="char:EOLhyphen"/>nalogie and proportio<g ref="char:cmbAbbrStroke">̄</g>, the Scripture doth at<g ref="char:EOLhyphen"/>tribute an hand vnto God.</p>
+            <p>
+               <note place="margin">Lib. de Fra<g ref="char:EOLunhyphen"/>ter amore.</note>
+               <hi>Anaxagoras,</hi> as <hi>Plutarch</hi> telleth vs, ſaide that the hand in man is the cauſe of wiſedome and knowledge, becauſe that by the vſe of the hand, a man can draw letters and characters; hee can deſcribe Geometricall figures &amp; Dia<g ref="char:EOLhyphen"/>grammes, by meanes whereof we attaine the knowledge of Sciences. And not ſo onely, but by expreſſing of ſignes, a man is able to ſpeak with his hand if neede be,<note place="margin">Act. 21.40. Perſ. Saty. 4.</note> as <hi>Paule by becke<g ref="char:EOLhyphen"/>ning with his hand</hi> procured ſilence and au<g ref="char:EOLhyphen"/>dience among the people, <hi>maieſtate manus,</hi> as the Poet ſaith. Adde heerevnto the wonderful
+<pb n="17" facs="tcp:2540:15"/>
+skill of cunning artiſans and handicrafts men in their curious workmanſhippe, in ſuch ſort, that a man would thinke (as the Italians ſay of the Duch-men) that their wittes dwell in their fingars ends.<note place="margin">j Tedeſch hanno L'ingegno nelli n<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ani</note> So that it is not without good cauſe that <hi>Anaxagoras</hi> ſaid, that man for having the vſe of his hands, was <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, y<hi rend="sup">e</hi> wiſeſt of al creatures. For howſoever ſome brute beaſtes, may ſeeme to participate with man in the vſe of reaſon, yet they want <hi>ſpeech,</hi> which is reaſons broker and interpre<g ref="char:EOLhyphen"/>ter, as <hi>Democritus</hi> ſaide,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> Epiſt. ad Hipp<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>cra<g ref="char:EOLhyphen"/>tem de na<g ref="char:EOLhyphen"/>tura Hum<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> and <hi>the hand</hi> alſo w<hi rend="sup">t</hi> is reaſons factour and agent. For although apes, and marmoſites, &amp; Babons, haue hands, by which as in other parts &amp; lineaments they haue ſome reſembla<g ref="char:cmbAbbrStroke">̄</g>ce to a man; yet they haue them after a more rude and vnfaſhionable fea<g ref="char:EOLhyphen"/>ture, as being rather made for feete, then for hands; in regard whereof the Poet ſaith,<note place="margin">Ovid. lib: 12 M<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ta: De Divin. lib. 2:</note> 
+               <hi>Diſ<g ref="char:EOLhyphen"/>ſimiles poſſunt homine ſimileſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> videri. <hi>Tullie</hi>
+               </hi> out of <hi>Ennius <hi>Simia quam ſimilis turpiſſima beſtia nobis;</hi>
+               </hi> How like are theſe Anticks &amp; baſe crea<g ref="char:EOLhyphen"/>tures to vs men in body; and yet how vnlike in the comely and exact vſe of the partes of their bodies. Wherefore <hi>Ariſtotle,</hi> correcting as it were the ſaying of <hi>Anaxagoras,</hi> affirmeth that a man is not therefore to be accounted the wi<g ref="char:EOLhyphen"/>ſeſt becauſe he hath hands, but therefore hee
+<pb n="18" facs="tcp:2540:16"/>
+hath hands, becauſe he is the wiſeſt; in aſmuch as the wiſer a ma<g ref="char:cmbAbbrStroke">̄</g> is, the more inſtrume<g ref="char:cmbAbbrStroke">̄</g>ts doth he require for his vſe, and the better can he vſe them. Hence then appeareth the reaſon of this Metophore,<note place="margin">Rom. 16.27</note> that ſeing that God is <hi>only wiſe,</hi> as the Apoſtle ſpeaketh, he is imagined to vſe theſe parts, (though not materially, but by way of proportion) which man vſeth to ſhewe forth his wiſedome, to wit the hands, and he<g ref="char:cmbAbbrStroke">̄</g>ce it is, that the Pſalmiſt ſaith, that the firmame<g ref="char:cmbAbbrStroke">̄</g>t ſheweth Gods <hi>handy worke;</hi>
+               <note place="margin">Pſal. 19.1.</note> not onely for the curious workmanſhippe, in regard whereof Gods hands may be called, as <hi>Homer</hi> called <hi>Iupiters</hi> handes,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>; handes whoſe praiſe cannot ſufficiently be ſpoken; but alſo for the orderly and powerful governing of the ſame,<note place="margin">Spo<g ref="char:cmbAbbrStroke">̄</g>danus fol. 24.</note> in which reſpect they may be called, as ſome reade that place, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, hands in<g ref="char:EOLhyphen"/>acceſſible &amp; vnreſiſtable for ſtrength; <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, all the Gods in heaven cannot ward a blow of that hand. The hand of God the<g ref="char:cmbAbbrStroke">̄</g> ordinarily in Scripture, ſig<g ref="char:EOLhyphen"/>nifieth his power,<note place="margin">Lib. de. memb. Dei.</note> and ſo ſaith <hi>Ierome</hi> in the place before mentioned; But Saint <hi>Bernard</hi> more pertinently to our purpoſe ſaith, y<hi rend="sup">e</hi> God hath two hands; the one is called <hi>Latitudo, quâ tribuit affluenter;</hi>
+               <note place="margin">Ser. 8. in Cantic.</note> this is the <hi>hand of his bou<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>ty</hi> by which he beſtoweth his larges, &amp; <hi>giveth
+<pb n="19" facs="tcp:2540:16"/>
+guiftes vnto men.</hi> The other is his hand <hi>For<g ref="char:EOLhyphen"/>titudo, quâ defendit potenter,</hi> this is the <hi>hand of his power,</hi> ſtretched out over all his creatures to protect them &amp; defend them; and not ſo only, but to puniſh them alſo when they ſhall offend him; and ſo ſaith Saint <hi>Ierome,</hi>
+               <note place="margin">Ibid.</note> 
+               <hi>manus Deo flagellum,</hi> the <hi>hand of God</hi> ſometime ſignifi<g ref="char:EOLhyphen"/>eth a whip or ſcourge; with the one hand,<note place="margin">Deut. 11.29</note> God ſeemeth (as ſtanding vppon <hi>mount Ger<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>z<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m</hi>) to deale abroade his bleſſings;<note place="margin">Iliad. 24.</note> &amp; like <hi>Homers Iupiter,</hi> out of one of thoſe tunnes, and greate veſſels which ſtand in the entrance of his pal<g ref="char:EOLhyphen"/>lace, he ſetteth abroach his favours vnto men; with the other, as ſtanding vpon <hi>mount E<g ref="char:EOLhyphen"/>bal,</hi> he ſcattereth his curſings; &amp; as out of the other tunne he drentcheth me<g ref="char:cmbAbbrStroke">̄</g> with afliction, &amp; <hi>giveth them plenty of teares to drinke,</hi>
+               <note place="margin">Pſal. 80.5.</note> as the <hi>Pſalmiſt</hi> ſaith.</p>
+            <p>Now <hi>David</hi> had very comfortable expe<g ref="char:EOLhyphen"/>rience of both theſe handes of God, For with his hand <hi>Latitudo,</hi> the hand of his <hi>Bounty;</hi> hee had give<g ref="char:cmbAbbrStroke">̄</g> him a kingdome, and ſet a Diademe and a crowne of pure golde vppon his head, he had given him <hi>pro pedo ſceptrum</hi> a ſcepter for a ſheepe-hooke,<note place="margin">Pſal. 78.71.</note> 
+               <hi>taking him from following the ewes great with yonge, to make him a ruler over his people:</hi> with his hand <hi>Fortitudo,</hi> God had as mightely defended him; <hi>Saule</hi> had pur<g ref="char:EOLhyphen"/>ſued
+<pb n="20" facs="tcp:2540:17"/>
+him &amp; <hi>hunted him as a man would hunt a Partridge in the mountaines,</hi>
+               <note place="margin">1. Sam. 26.20.</note> as himſelfe complaineth; and had brought him into thoſe wonderfull ſtraites, that he telleth <hi>Ionathan</hi> in the bitternes of his Soule, that verely <hi>there was but a ſteppe betweene him and death;</hi>
+               <note place="margin">1. Sam. 20.3.</note> yet God had alwaies broken the ſnare of the fowler, and had wrought his deliverance mi<g ref="char:EOLhyphen"/>raculouſly. But now this hand of God for his ſinnes was turned againſt him; Sicknes by a loathſome and contagious diſeaſe; Diſcom<g ref="char:EOLhyphen"/>forte for the loſſe of his friends, and griefe of hearte becauſe of the malicious hatred of his enemies; theſe were now become his porti<g ref="char:EOLhyphen"/>on, this was the handſell that GOD had given him.</p>
+            <p>By the hand of God then in this place, I vnderſtand,<note place="margin">In Pſal. 38.</note> with Saint <hi>Ambroſe, virtutem punie<g ref="char:cmbAbbrStroke">̄</g>di,</hi> his vnreſiſtable power, in puniſhing, by which he keepeth corrections, as it were a<g ref="char:EOLhyphen"/>mong kinges themſelues, who are as Gods among men, <hi>Haec manus Dei regem Aegyptia<g ref="char:EOLhyphen"/>rum flageſlauit,</hi> this is that hand of God, ſaith <hi>Ambroſe,</hi>
+               <note place="margin">Gen. 20.</note> which ſcourged <hi>Abimelech</hi> kinge of <hi>Aegypt,</hi> or of <hi>Gerar,</hi> and al his people with a ſore diſeaſe, becauſe of <hi>Sarah Abraha<g ref="char:cmbAbbrStroke">̄</g>s</hi> wife: This is the hand, that puniſhed king <hi>pharaoh,</hi> with thoſe manifold plagues mentioned in the
+<pb n="21" facs="tcp:2540:17"/>
+booke of <hi>Exodus</hi> &amp; this is that hand, which heere puniſhed <hi>David,</hi> with this diſeaſe in his body &amp; in his perſon. I know that <hi>Saint Baſil,</hi> expoundeth it otherwiſe, vnderſta<g ref="char:cmbAbbrStroke">̄</g>ding it thus, that the hande of GOD was heavie vppon <hi>David,</hi> not as vppon his perſon, but vppon his houſe and vppon his familie, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, it had ſhaken his houſe from the very foundation, by the manifold diſ<g ref="char:EOLhyphen"/>orders of his children, firſt by <hi>Ammons</hi> inceſt with his ſiſter <hi>Thamar,</hi>
+               <note place="margin">2. Sam. 13.14. verſ. 28.</note> then by <hi>Abſoloms</hi> kil<g ref="char:EOLhyphen"/>ling of him for the ſame; Afterwards by <hi>Ab<g ref="char:EOLhyphen"/>ſoloms</hi> defiling of his fathers concubines, and his ambitious aſpiring to the Crowne; And after that againe, by <hi>Adoniiahs</hi> vſurping of the kingdome. But it appeareth al along,<note place="margin">2. Sam. 16:21. 1. King. 1.5:</note> both by this expoſition, &amp; by that other alſo, where hee calleth GODS arrowes, nothing elſe but Gods commination &amp; threatnings, with the terrour whereof, <hi>Davids</hi> Soule and con<g ref="char:EOLhyphen"/>ſcience was wounded, that <hi>Baſill</hi> had a morall and Allegorical conceite of the whole Pſalm; The beſt of our late and moderne writers, vn<g ref="char:EOLhyphen"/>derſtand it of a diſeaſe inflicted vppon <hi>David</hi> in his perſo<g ref="char:cmbAbbrStroke">̄</g>, w<hi rend="sup">t</hi> the Prophet calleth Gods <hi>ha<g ref="char:cmbAbbrStroke">̄</g>d,</hi>
+               <note place="margin">Bucer. Muſc:</note> as deriving it from the principall efficient cauſe of all our miſery and affliction as for example; <hi>Overthrow in battaile,</hi> is Gods <hi>ha<g ref="char:cmbAbbrStroke">̄</g>dy <milestone type="tcpmilestone" unit="unspecified" n="1"/>
+                  <pb n="22" facs="tcp:2540:18"/>
+                  <hi>worke;</hi>
+               </hi> when Iſraell forſooke God and ſerued <hi>Baal</hi> &amp; <hi>Aſtaroth,</hi>
+               <note place="margin">Iudg. 2:5.</note> it is ſaide that whither ſoeuer they went, the hande of the Lorde was ſore a<g ref="char:EOLhyphen"/>gainſt them, and ſtill deliuered them into the hands of their enemies.<note place="margin">Pſal. 127.3.</note> 
+               <hi>Children and the fruite <milestone type="tcpmilestone" unit="unspecified" n="2"/> of the wombe, as they are a bleſſing that commeth from the Lord,</hi> as the Pſalmiſt ſpeaketh; ſo on the contrary, <hi>orbitas liberorum,</hi> loſſe of children and barrennes of the wombe, are the ſtroke of Gods hand. <hi>Naomi</hi> bewailing the death of her two ſonnes the huſbandes of <hi>Ruth</hi> and <hi>Orpah,</hi> and conſidering that God <hi>had ſhut vp her womb</hi> and that it <hi>ceaſed to be with her after the manner of wome<g ref="char:cmbAbbrStroke">̄</g>,</hi>
+               <note place="margin">Ruth. 1.13.</note> ſo that ſhee was without further hope of hauing any more children, ſhee ſaid, <hi>it grie<g ref="char:EOLhyphen"/>veth me my daughters for your ſakes, that the ha<g ref="char:cmbAbbrStroke">̄</g>d <milestone type="tcpmilestone" unit="unspecified" n="3"/> of the Lord is gone out againſt me.</hi> Blindneſſe is likewiſe the ſtroke of Gods <hi>hand;</hi> when <hi>Elymas</hi> the ſorcerer was ſtroken blinde, <hi>Paule</hi> telleth him,<note place="margin">Act. 13.11.</note> y<hi rend="sup">t</hi> it was the hand of God, <hi>behold the hande <milestone type="tcpmilestone" unit="unspecified" n="4"/> of the Lord is vpon thee, thou ſhalt bee blinde and ſhalt not ſee the ſunne for a ſeaſon, Sickneſſe and Diſeaſes</hi> are the <hi>hand</hi> of God. For when the <hi>Philiſtines</hi> were ſmitten with Emeroides, it is there ſaid as here <hi>David</hi> ſpeaketh, <hi>that the ha<g ref="char:cmbAbbrStroke">̄</g>d of the Lord was heavy vpon them.</hi>
+               <note place="margin">1. Sam. 5.6.</note>
+            </p>
+            <p>
+               <note place="margin">The vſe of the 2. part.</note>The Doctrines which hence ariſe for our inſtructions are theſe. Firſt in that hee ſaith,
+<pb n="23" facs="tcp:2540:18"/>
+               <hi>thine hand</hi> lyeth heauy vpon me,<note place="margin">Victori: Strigel. in hunc locu<g ref="char:cmbAbbrStroke">̄</g>.</note> it is very em<g ref="char:EOLhyphen"/>phatical, it is as if he had ſaid, I do not fear the hand of the <hi>Aſſyrians</hi> or the <hi>Philiſtines,</hi> or any of the inhabitants of <hi>Paleſtina.</hi> for againſt them I could oppoſe mine own hand, by which I haue gotten many notable victories ouer them, I could fortifie my ſelfe with ſtrong munition, of warre, I coulde muſter and preaſe forth many thouſandes of thoſe ſtrong men of <hi>Iſraell,</hi> that draw ſwords; I haue many worthies, valiant men, who for my ſake will carry their liues in their hands, and will defie mine enemies, and ſmite them till their hand cleaue to the ſword, as did <hi>Eleazer</hi> the ſon of <hi>Dodo;</hi>
+               <note place="margin">2 Sam. 23:<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>0.</note> but all this wil not now ſerue the turne, it wil nothing availe; for it is thy <hi>hand</hi> O God, that preſſeth &amp; pur<g ref="char:EOLhyphen"/>ſueth me. Againe; the chardge and weight of a mans blow, is but weak, according to the force and pulſe of his arme, as the two princes of the Midianites <hi>Zeba</hi> and <hi>Zalmana</hi> ſaid to <hi>Gedeon,</hi> when he bid his ſonne <hi>Iether</hi> to try his arme &amp; the dint of his ſword vpon them; No ſaid they; <hi>Ariſe thou and fall vpon vs, for as the man is ſo is his ſtrength.</hi>
+               <note place="margin">Iudg 8.21.</note> But the hand of God it falleth not lightly where it lighteth; but with an heavy loade, and it breaketh and bruiſeth; what<g ref="char:EOLhyphen"/>ſoeuer maketh reſiſtaunce againſt it, as be<g ref="char:EOLhyphen"/>fore I told you out of <hi>Homer,</hi> that all the gods
+<pb n="24" facs="tcp:2540:19"/>
+could not ward a blow of <hi>Iupiters</hi> hand. This is the <hi>hand</hi> that now combatted <hi>David,</hi> againſt which he fenceth himſelfe, not with ſhielde or target, but with his praiers and teares, teach<g ref="char:EOLhyphen"/>ing vs thereby, to be carefull that we do not by our prouocatio<g ref="char:cmbAbbrStroke">̄</g>s cauſe God to lift vp his hand againſt vs,<note place="margin">Pſal. 39.10.</note> 
+               <hi>leaſt we be co<g ref="char:cmbAbbrStroke">̄</g>ſumed by the ſtroke ther<g ref="char:EOLhyphen"/>of,</hi> as our Prophet ſpeaketh; and when at any time he is incenſed againſt vs, that with <hi>Da<g ref="char:EOLhyphen"/>vid</hi> we ſeeke to pacifie him by our humble con<g ref="char:EOLhyphen"/>verſion. For howſoeuer <hi>David</hi> choſe to fall in<g ref="char:EOLhyphen"/>to the handes of God,<note place="margin">2. Sam. 23.14.</note> 
+               <hi>becauſe his mercies are great;</hi> yet whe<g ref="char:cmbAbbrStroke">̄</g> his wrath is kindled though but a little, ſo that hee lay aſide his golden ſcepter of mercy, and take <hi>his cruſhing rod of yron</hi> into his hand, then as the Apoſtle ſpeaketh <hi>horren<g ref="char:EOLhyphen"/>dum eſt,</hi>
+               <note place="margin">Heb. 10.31.</note> 
+               <hi>it is a fearefull thing to fall into the handi of the living God.</hi> And if hee thus ware fierce a<g ref="char:EOLhyphen"/>gainſt them of his owne family, and begin cor<g ref="char:EOLhyphen"/>rection &amp; iudgement at <hi>his owne houſe,</hi> as heere he doth with <hi>David,</hi>
+               <note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. Pet 4.17.</note> 
+               <hi>What will be the end of the<g ref="char:cmbAbbrStroke">̄</g>, which obey not the Gospell:</hi> and if this be done in <hi>virente ligno,</hi> in the greene timber, as S. <hi>Luke</hi> ſpeaketh,<note place="margin">Luke 23.31</note> 
+               <hi>quid fiet in arido?</hi> What will become of the dry woode? But that it ſhould bee <hi>meate for the fire,</hi>
+               <note place="margin">Eſay 9.19.</note> &amp; fewel for the fornace of his wrath.</p>
+            <p>Secondly, in that he ſaith, that his ſickneſſe was Gods hand lying vpo<g ref="char:cmbAbbrStroke">̄</g> him, it teacheth vs,
+<pb n="25" facs="tcp:2540:19"/>
+that affliction and calamity come not vpon vs by chance or fortune, but by the hande of Gods prouidence. Which while men ignorant of the true God conſidered not, they framed to them<g ref="char:EOLhyphen"/>ſelues a new goddeſſe of caſuall events, <hi>For<g ref="char:EOLhyphen"/>tune, <hi>te facimus Fortuna Deam.</hi>
+               </hi>
+               <note place="margin">Iuve. Sat. 14. 1. Sam. 6.9.</note> The South<g ref="char:EOLhyphen"/>ſayers tell the <hi>Eckronites</hi> &amp; the men of <hi>Aſhdod,</hi> that if the Arke which they ſent home vpon a new cart, drawne with two milch kine, tooke vp the way to its owne coaſt to Bethſhemeſh, that then ſurely it was God that had done the<g ref="char:cmbAbbrStroke">̄</g> that euill; if not, then ſhall we know, ſay they, that it was not his hand that ſmote vs, but that it was <hi>a chance</hi> that happened vnto vs. No no, things come not to paſſe by chance; <hi>David</hi> in the true ſearch and ſurveigh of his ſicknes, findeth that it is <hi>God hande</hi> and his <hi>arrowe</hi> that had wounded him, as <hi>Iob</hi> likewiſe ſaith, <hi>manus domini <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>tigit me,</hi>
+               <note place="margin">Cap. 19.21 Iob. 2.7.</note> and yet it is ſaid in the ſecond Chapter, that it was Sathan that had ſmitten him with boiles, but the holy man knewe that the Deuil and wicked men who are his inſtru<g ref="char:EOLhyphen"/>me<g ref="char:cmbAbbrStroke">̄</g>ts, are Gods agents; as <hi>David</hi> likewiſe re<g ref="char:EOLhyphen"/>plyed not againſt the reproaches of his revi<g ref="char:EOLhyphen"/>ling enemies, becauſe it <hi>was Gods doing.</hi>
+               <note place="margin">Pſal. 39.9.</note> But of this more heereafter; The godly then wiſely conſider, that whatſoeuer miſery befalleth the<g ref="char:cmbAbbrStroke">̄</g> in this life, it is al Gods doing; <hi>There is no evil</hi>
+               <pb n="26" facs="tcp:2540:20"/>
+of affliction <hi>in the citty, which the Lord hath not done,</hi> ſaith the Prophet <hi>Amos. I forme the light and create darknes,</hi>
+               <note place="margin">Amos 3.6. Eſay 45.7.</note> 
+               <hi>I make peace and create evill, I the Lord do all theſe things,</hi> ſaieth God by his Prophet <hi>Eſay. Amos</hi> in his fourth chapter, gi<g ref="char:EOLhyphen"/>ueth inſtance of the particulars, where God telleth y<hi rend="sup">e</hi> houſe of Iſrael. <hi>I haue give<g ref="char:cmbAbbrStroke">̄</g> you clean<g ref="char:EOLhyphen"/>neſſe of teeth in all your citties, and ſkarcenes of bread in all your places.</hi>
+               <note place="margin">Amos 4.6.</note> 
+               <hi>I haue withholde<g ref="char:cmbAbbrStroke">̄</g> the raine from you whe<g ref="char:cmbAbbrStroke">̄</g> there were yet three moneths to the harveſt. I haue ſmitten you with blaſting and mil<g ref="char:EOLhyphen"/>dew. Peſtilence haue I ſent amonge you after the manner of Egypt, yet haue you not returned vnto me ſaith the Lord:</hi> The certainety of this Doc<g ref="char:EOLhyphen"/>trine, teacheth the godly when they are exerci<g ref="char:EOLhyphen"/>ſed with any croſſe of affliction, to looke vp to the hand that ſmiteth them; and as <hi>David</hi> aſ<g ref="char:EOLhyphen"/>ked the woman of <hi>Tekoah,</hi>
+               <note place="margin">2. Sam. 14.19</note> whether the hand of <hi>Ioab</hi> were not with her in her plot and deviſe; ſo they examine, whether the hand of God bee not with the wicked, in thoſe thinges which they attempt and practiſe againſt them, or in any other calamity whatſoeuer elſe commeth vpon them.</p>
+            <p>It is apparent by the whole courſe of the Story, that <hi>Ioſephs</hi> brethre<g ref="char:cmbAbbrStroke">̄</g> had ſold him to the <hi>Iſhmeelits,</hi> for hatred and of enuy, and that the <hi>Medianites</hi> or <hi>Iſhmeelits</hi> to make their gaine,
+<pb n="27" facs="tcp:2540:20"/>
+had ſold him againe at the ſecond hand to <hi>Poti<g ref="char:EOLhyphen"/>phar</hi> king <hi>Pharaohs</hi> chiefe, ſtewarde, to bee a <hi>ſlaue and bondman</hi> as it is in the Pſalme:<note place="margin">Pſa. 105.17</note> But <hi>Ioſeph</hi> he eſpied <hi>Gods hand</hi> working in that ac<g ref="char:EOLhyphen"/>tion, and he telleth his brethren,<note place="margin">Gen. 50.20</note> that <hi>when they thought and intended evil againſt him, God dispo<g ref="char:EOLhyphen"/>ſed it to good; for God ſaith hee, ſent me into Egypt before hand for your preſervation.</hi> But the exam<g ref="char:EOLhyphen"/>ple of our <hi>Savior Chriſt,</hi>
+               <note place="margin">Gen, 45.5.</note> is very excelle<g ref="char:cmbAbbrStroke">̄</g>t to this purpoſe. See what a rabble of miſcreants co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>bined and co<g ref="char:cmbAbbrStroke">̄</g>federated themſelues togither, to worke the deſtruction of that innocent lambe of God; and every one of them propoſed to him ſelfe a particular end of his doing. <hi>Sathan</hi> the chiefe Agent, he ſaw that his kingdome coulde not ſtand, if Chriſts kingdome were erected, and therfore he beginneth to plaie the pioner; but yet he would not openly ſhew himſelfe in the Action, (which is the manner of the great Politicians of our age) but he ſuborneth ano<g ref="char:EOLhyphen"/>ther to play the traitour, <hi>Iudas</hi> one of Chriſtes owne followers, and he put into the hearte of <hi>Iudas</hi> to betray Chriſt, ſaith Saint <hi>Iohn.</hi>
+               <note place="margin">Ioh. 13.8:</note> 
+               <hi>Iudas</hi> then hauing through the throate of covetouſ<g ref="char:EOLhyphen"/>nes, which inlardgeth it ſelfe as wide as hell, ſwallowed downe the Diuell and all togither with the ſop, as it followeth in the chapter, hee commeth to the Prieſts to proffer his ſeruice,
+<pb n="28" facs="tcp:2540:21"/>
+perfidiouſly to betray his Lord &amp; Maſter, ſay<g ref="char:EOLhyphen"/>ing, <hi>Quid dabitis?</hi> what wil you giue me? Here is his end; for thirty pence he will ſell him that was worth all the world beſide, for he was the Ranſome of the whole world. The <hi>Prieſts</hi> wil<g ref="char:EOLhyphen"/>lingly condeſcend therevnto, mooued through an ambitious deſire of vpholding and maine<g ref="char:EOLhyphen"/>tayning their eſtates and dignities, againſt the proceedings of ſo baſe an vpſtart, as Chriſt ſee<g ref="char:EOLhyphen"/>med to be,<note place="margin">Ioh: 11.47. &amp; 48:49.</note> marke their ſpeeches; <hi>What perceiue you not that wee pervaile nothing, beholde all the world goeth after him, and if we let him thus alone all men vvill beleeue to him, and the Romaines wil come and take away both our place and the na<g ref="char:EOLhyphen"/>tion.</hi> And thervpon they trudge to Pilate, who makes vp the match. And the end which he pro<g ref="char:EOLunhyphen"/>poſed to himſelfe, was the retaining of <hi>Caeſars</hi> fauour, leaſt he ſhoold haue bin ſtript out of all his offices &amp; preferme<g ref="char:cmbAbbrStroke">̄</g>ts; for y<hi rend="sup">e</hi> Prieſts had told him that if he did deliuer Chriſt,<note place="margin">Ioh. 19:12. Luke 23.23</note> 
+               <hi>he was not Ca<g ref="char:EOLhyphen"/>ſars friend,</hi> &amp; therfore <hi>their inſtant &amp; clamarous voices prevailed</hi> againſt him, as <hi>S. Luke</hi> teſtifi<g ref="char:EOLhyphen"/>eth; inſomuch y<hi rend="sup">t</hi> through puſiſtanimity of mind not fit to be fou<g ref="char:cmbAbbrStroke">̄</g>d in a iudge, co<g ref="char:cmbAbbrStroke">̄</g>trary to his own knowledge,<note place="margin">Luke 23.22</note> 
+               <hi>for he fou<g ref="char:cmbAbbrStroke">̄</g>d no fault in him worthie of death,</hi> againſt his own co<g ref="char:cmbAbbrStroke">̄</g>ſcience, againſt the ad<g ref="char:EOLunhyphen"/>monitio<g ref="char:cmbAbbrStroke">̄</g> ſent vnto him fro<g ref="char:cmbAbbrStroke">̄</g> his wife, who willed him <hi>to haue nothing to doe with that Iuſt man,</hi>
+               <note place="margin">Math. 27.19</note> 
+               <hi>for
+<pb n="29" facs="tcp:2540:21"/>
+ſhe had ſuffered many things that day in a dreame by reaſon of him;</hi> yet he, notwithſta<g ref="char:cmbAbbrStroke">̄</g>ding all this, cauſleſly &amp; without any ſuſpicio<g ref="char:cmbAbbrStroke">̄</g> of crime, con<g ref="char:EOLhyphen"/>de<g ref="char:cmbAbbrStroke">̄</g>ned to death <hi>the Lord of life.</hi> Here is now the <hi>Gordian</hi> knot of the very powers of darkeneſſe made faſt. But what; had God forgotte<g ref="char:cmbAbbrStroke">̄</g> or for<g ref="char:EOLhyphen"/>ſake<g ref="char:cmbAbbrStroke">̄</g> his beloued ſo<g ref="char:cmbAbbrStroke">̄</g>ne al this while? no, y<hi rend="sup">e</hi> ſcrip<g ref="char:EOLhyphen"/>ture doth not diſſe<g ref="char:cmbAbbrStroke">̄</g>ble it, but y<hi rend="sup">t</hi> the hand of God was mainly in this whole actio<g ref="char:cmbAbbrStroke">̄</g>, &amp; wrought w<hi rend="sup">t</hi> every particular age<g ref="char:cmbAbbrStroke">̄</g>t, though not <hi>in</hi> every one; according to that of the Schoolemen,<note place="margin">Beza quaeſt. fol. 91.</note> 
+               <hi>Deus a<g ref="char:EOLhyphen"/>git quide<g ref="char:cmbAbbrStroke">̄</g> in bonis, &amp; per bonos, per males verò tan<g ref="char:EOLhyphen"/>tùm agit, ſed no<g ref="char:cmbAbbrStroke">̄</g> in malis,</hi> ſee the<g ref="char:cmbAbbrStroke">̄</g> how the Scrip<g ref="char:EOLhyphen"/>ture doth determin of it; doubtles ſay the Apo<g ref="char:EOLhyphen"/>ſtles, <hi>Peter</hi> &amp; <hi>Iohn,</hi> doubtles both <hi>Herode,</hi>
+               <note place="margin">Act. 4.27.</note> &amp; <hi>Po<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>tius Pilate, with the Ge<g ref="char:cmbAbbrStroke">̄</g>tiles &amp; the people of Iſrael gathered themſelues togither, to doe vvhatſoever thine hand &amp; thy counſel, O God, had determined before to bee done.</hi> The place is very pregna<g ref="char:cmbAbbrStroke">̄</g>t to the purpoſe which we haue in hand, namely to ſhew, y<hi rend="sup">t</hi> whatſoeuer afflictio<g ref="char:cmbAbbrStroke">̄</g> befalleth vs, it co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>meth not to paſſe by <hi>cha<g ref="char:cmbAbbrStroke">̄</g>ce,</hi> but by Gods provi<g ref="char:EOLhyphen"/>de<g ref="char:cmbAbbrStroke">̄</g>ce, &amp; as we co<g ref="char:cmbAbbrStroke">̄</g>mo<g ref="char:cmbAbbrStroke">̄</g>ly ſay, <hi>Gods ba<g ref="char:cmbAbbrStroke">̄</g>d hath a ſtroke in it.</hi> Therfore in al our miſeries we may truly ſay, as <hi>David</hi> here doth, <hi>that it is the hand of God that preſſeth vs.</hi> Let vs not behaue our ſelues frowardly in this day of our viſitatio<g ref="char:cmbAbbrStroke">̄</g>, by mur<g ref="char:EOLhyphen"/>muring againſt God for afflicting vs in this measure,
+<pb n="30" facs="tcp:2540:22"/>
+or in this kinde of puniſhmente by plague and Peſtilence, like curſt Dogs which bite at the chaines wherewith they be tyed. But let vs learne with <hi>David, to humble our ſelues vnder the mightie hand of God,</hi>
+               <note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Pet. 5.6.</note> as Saint <hi>Peter</hi> exhor<g ref="char:EOLhyphen"/>teth; the way to avoide the weight of his blow, is to yeeld vnder it, for it breaketh &amp; bruiſeth whatſoeuer maketh reſiſtance againſt it. And ſeeing that it is vndoubtedly Gods hande that ſmiteth vs, let vs co<g ref="char:cmbAbbrStroke">̄</g>ſtrue it to be for our good, namely that God in ſeeking to reclaime vs fro<g ref="char:cmbAbbrStroke">̄</g> thoſe by-paths of ſin, into which we haue ſtrai<g ref="char:EOLhyphen"/>ed, he ſheweth that he hath a care of vs as of his children, as of thoſe who are not yet paſt hope of recovery.<note place="margin">Magna eſt ira quando Deus non i<g ref="char:EOLhyphen"/>raſcitur. Auguſt.</note> Deſperat is the caſe of thoſe, who neuer feele any touch of Gods hande, nor of his diſpleaſure; and it is a ſigne of his greateſt an<g ref="char:EOLhyphen"/>ger, when he doth not ſhew himſelfe to bee an<g ref="char:EOLhyphen"/>gry with vs at all.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> Having thus diſcourſed of the ha<g ref="char:cmbAbbrStroke">̄</g>d of God, I will now proceede to this other metaphore here vſed, where the Prophet calleth his Vl<g ref="char:EOLhyphen"/>cers and ſoares, <hi>Gods arrowes. Thine arrows ô God ſticke faſt in me. The Lord,</hi> ſaith Mo<g ref="char:EOLhyphen"/>ſes, <hi>is a ma<g ref="char:cmbAbbrStroke">̄</g> of warre.</hi>
+               <note place="margin">Exod. 15.3.</note> The Scripture elſwhere deſcribeth his furniture and his armour; For his armour of defence he is ſaid in <hi>Eſay,</hi>
+               <note place="margin">Eſay. 59.17.</note> to <hi>put on Righteouſnes as an habergeon, and the
+<pb n="31" facs="tcp:2540:22"/>
+helmet of Salvation vppon his head;</hi> &amp; with theſe he defendeth this church: For his wea<g ref="char:EOLhyphen"/>pons of offence,<note place="margin">Ibid.</note> 
+               <hi>he putteth on the garments of vengeance for cloathing, and is clad with zeale as with a cloake.</hi> And in the Pſalmes, he is ſaid to <hi>girde his ſword vpon his thigh</hi> &amp; to <hi>whette it,</hi>
+               <note place="margin">Pſal. 7.12: &amp; 4<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> 
+               <hi>to bend his bow and to prepare his deadly arrowes.</hi> Neither is God a co<g ref="char:cmbAbbrStroke">̄</g>mon ſouldier vnder pay, <hi>gregarius miles,</hi> but hee is the Lord high Marſhall and great comma<g ref="char:cmbAbbrStroke">̄</g>der of all the forces and armies in the world, and therefore is very truly called y<hi rend="sup">e</hi> 
+               <hi>Lord of hoſtes</hi> he hath in heaven a band of ten thouſand thou<g ref="char:EOLhyphen"/>ſands of Angels,<note place="margin">Eſay. 1.24.</note> which are his ſwift archers and his winged poſts,<note place="margin">Dan. 7.1.10.</note> and theſe <hi>ſtand before him</hi> to attend his command. Who are proper<g ref="char:EOLhyphen"/>ly called <hi>the hoſt of heaven,</hi>
+               <note place="margin">1. King. 22.19. Iob. 26.3.</note> and in <hi>Iob Gods armies;</hi> and are by him appointed <hi>to incampe and to pitch their tents about his Saints:</hi> as the Pſalmiſt ſpeaketh. He hath alſo a <hi>Legion</hi> of wicked and vncleane Spirits,<note place="margin">Pſal. 34.7. 1. Cor. 10.10.</note> 
+               <hi>deſtroying Angels,</hi> as the Apoſtle calleth them, and theſe haue a leader and commander whoſe conduct they follow, whoſe name in Hebrew is <hi>Abad<g ref="char:EOLhyphen"/>don,</hi> &amp; in Greeke <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, that is, a deſtroier,<note place="margin">Apoc. 9.11. 2: Sam: 23:</note> theſe are mightier then the <hi>Worthies of Da<g ref="char:EOLhyphen"/>vid</hi> ſo much famouſed and comme<g ref="char:cmbAbbrStroke">̄</g>ded,<note place="margin">2. King. 12.</note> for one of them in one night ſpace <hi>ſlewe an hundred
+<pb n="32" facs="tcp:2540:23"/>
+fowreſcore and five thouſands in Sennacha<g ref="char:EOLhyphen"/>ribs hoſt.</hi> God hath his hoſt and armie in the orbes and Arches of heaven,<note place="margin">Iudg. 5:20:</note> 
+               <hi>for the ſtarres in their courſes fought againſt Siſera.</hi> Hee hath his garriſons in the lower Elementarie regi<g ref="char:EOLhyphen"/>ons;<note place="margin">Pſal. 135.7 Pſal. 147.16.</note> thence he bringeth <hi>his ſwift winds as out of a treaſurie, giveth ſnowe like wooll; and ſcattereth his yce like morſels;</hi> Thence he ſmiteth the corn with blaſtings, and mildewes; Thence he <hi>de<g ref="char:EOLhyphen"/>ſtroied the Aegyptians vines and mulberie trees with the froſt,</hi>
+               <note place="margin">Pſal. 78:47.48.</note> 
+               <hi>and their flockes with hotte thun<g ref="char:EOLhyphen"/>derboltes;</hi> Thence he ſlewe the <hi>Amorites</hi> with prodigious <hi>hailſtones;</hi>
+               <note place="margin">Ioſua. 10.11.</note> And thence wil he ſhoote his irefull arrowes againſt the wicked; &amp; <hi>vvill raine vpon their ſnares,</hi>
+               <note place="margin">Pſal. 11.6.</note> 
+               <hi>fire and brimſtone, ſtorme and tempeſt, this ſhall be the portion of their cuppe.</hi> Nay out of the leaſt and the loweſt and moſt contemptible creatures: God muſtereth foorth an army to deſtroy mighty natio<g ref="char:cmbAbbrStroke">̄</g>s:<note place="margin">Exod. 8.</note> 
+               <hi>Frogges, flies and lice,</hi> the <hi>Catterpiller, and the palmer worme,</hi> are ſent out againſt Aegypt; and God ſeemeth to bragge of them in the <hi>2.</hi> of <hi>Ioell,</hi>
+               <note place="margin">Ioel. 2.25.</note> calling the<g ref="char:cmbAbbrStroke">̄</g> 
+               <hi>his great best.</hi> Againſt thoſe ſeaven mighty na<g ref="char:EOLhyphen"/>tions the inhabitants of Canaan, God ſent <hi>an armie of Hornets</hi> to deſtroe them.<note place="margin">Ioſua. 24.12.</note> Againſt the houſe of David. God ſaith that <hi>hee will hiſſe for the flie of Aegypt, &amp; the bee of the land of Aſhur,</hi> as it is in Eſay;<note place="margin">Eſay. 1.18.</note> but by theſe are properlye vn<g ref="char:EOLhyphen"/>derſtood
+<pb n="33" facs="tcp:2540:23" rendition="simple:additions"/>
+the armies of the <hi>Aegyptians,</hi> and the <hi>Aſſyrians.</hi> Nay a man findeth an hoſt of <hi>ene<g ref="char:EOLhyphen"/>mies amongſt them of his owne houſe,</hi>
+               <note place="margin">Math. 10.36.</note> as our Sa<g ref="char:EOLhyphen"/>viour ſpeaketh in another ſence; for eve<g ref="char:cmbAbbrStroke">̄</g> in this <hi>houſe of clare</hi> which we carrie about with vs,<note place="margin">Iob. 4.19.</note> &amp; in this body of ours, the very humours yeelde matter and occaſion of ſundry ſtrange and in<g ref="char:EOLhyphen"/>curable diſeaſes, as puniſhments for our offen<g ref="char:EOLhyphen"/>ces, for ſince the time that man firſt fell awaye from God his Creator by ſinful tranſgreſſion, <hi>Maecies &amp; nova febrium terris incubuit cohors;</hi>
+               <note place="margin">Horat. lib. 1. odo 2.</note> as the Poet ſpeaketh, hee ſtill hath bin and yet is aſſaulted, with a new armie of burning Fe<g ref="char:EOLhyphen"/>vers and peſtile<g ref="char:cmbAbbrStroke">̄</g>t Agues, with botches, blaines, and ſoares, &amp; other maladies, which the Pro<g ref="char:EOLhyphen"/>phet <hi>verſ. 5.</hi> calleth the ſtripes of Gods rod, <hi>vi<g ref="char:EOLhyphen"/>bîces meae computruerunt,</hi> and in this place hee calleth them the ſtroke of Gods ſharpe &amp; wou<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>ning <hi>arrowes, <hi>Sagettae tuae in me deſcenderunt,</hi> Thine arrowes, ô God, ſticke faſt in mee.</hi>
+            </p>
+            <p>The Metaphore of <hi>a ſword, a bowe, and ar<g ref="char:EOLhyphen"/>rowes,</hi> attributed to God, ſeemeth to be bor<g ref="char:EOLhyphen"/>rowed from the cuſtome of the Eaſterne and Southerne nations, whoſe armour in battaile were the <hi>bow</hi> to wound a farre off, &amp; y<hi rend="sup">e</hi> 
+               <hi>ſworde</hi> to be vſed in cloſe fight. Thus the <hi>Black-more</hi> and the <hi>Lybian,</hi> are ſaide to beare ſhields, and the <hi>Lydians to handle and bend the bowe.</hi>
+               <note place="margin">Ier, 46, 9.</note>
+               <pb n="34" facs="tcp:2540:24"/>
+Now God this great and terrible archer, hath his quiver fraught w<hi rend="sup">t</hi> divers kinds of arrows. <milestone type="tcpmilestone" unit="unspecified" n="1"/> Firſt, the Prophet and the Preacher who by denouncing Gods iudgments againſt ſinne, la<g ref="char:EOLhyphen"/>boureth &amp; indeavoureth to make a breach into the conſciences of vngodly men, hee is one of <milestone type="tcpmilestone" unit="unspecified" n="2"/> Gods arrowes. Such a one was <hi>Moſes;</hi> and ſuch a one was Saint <hi>Peter,</hi>
+               <note place="margin">Moſes in quo locu<g ref="char:EOLhyphen"/>tus eſt deus dei eſt ſa<g ref="char:EOLhyphen"/>gitta. Ori<g ref="char:EOLhyphen"/>gen in. Pſ. 36 Hom 3: Act: 2:37. Eſay: 49.</note> at whoſe preach<g ref="char:EOLhyphen"/>ing it is ſaid y<hi rend="sup">t</hi> the hearers <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>
+               <hi>were pricked in heart.</hi> according whervnto y<hi rend="sup">e</hi> Prophet <hi>Eſay</hi> ſaith of himſelf, <hi>that God had made him a choſen ſhafte, and had hid him in his quiver;</hi> Some read, <hi>poſuit me ſagitta<g ref="char:cmbAbbrStroke">̄</g> mu<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>da<g ref="char:cmbAbbrStroke">̄</g>,</hi> a cleane, a ſmooth &amp; a bright arrow, to teach vs, that a Miniſter in his iudgment and Opi<g ref="char:EOLhyphen"/>nions, ſhould indeavour to be free from errour and falſhood, And that his reprehenſions alſo, ſhould not be cankered with the ruſt of Affec<g ref="char:EOLhyphen"/>tion, of hatred or malice, or the like; but that he ſhould ſpeake ſaith <hi>Oecolampadius,<note place="margin">Ioh. OEco<g ref="char:EOLhyphen"/>lampad: in 49: Eſay:</note> 
+                  <hi>Eloquia Dei,</hi>
+               </hi> the true, pure and ſincere worde of God, which is as ſilver, that hath bin tried, purified, <milestone type="tcpmilestone" unit="unspecified" n="2"/> and refined in the fier: Secondly the tongues of malicious and vngodly men, are after a ſort Gods arrowes; whence it is, that <hi>Iob</hi> calleth the wicked,<note place="margin">Iob: 16:13: Ier 8 3: Pſal: 11:2:</note> 
+               <hi>Gods archers.</hi> There is a genera<g ref="char:EOLhyphen"/>tion, ſaith <hi>Ieremie, who bende their tongues like bowes,</hi> and theſe are they, of whome the
+<pb n="35" facs="tcp:2540:24"/>
+Pſalmiſt ſaith, that <hi>they ſhoote out their ar<g ref="char:EOLhyphen"/>rowes, even bitter words, againſt the<g ref="char:cmbAbbrStroke">̄</g> which are true of heart.</hi> Which <hi>Origen</hi> thus expou<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>deth,<note place="margin">Origen: Ibid:</note> that their Quiver, is the heart, their ar<g ref="char:EOLhyphen"/>rowes are the Counſels and intentions of the heart, their bowes, are their tongues &amp; lippes; by which they caſt foorth their virulencie, to wound the good name of their brethren. Agre<g ref="char:EOLhyphen"/>able heerevnto, is that ſpoken of <hi>Ioſeph,</hi> that the <hi>Archers grieved him and ſhotte againſt him, but his bowe abode ſtrong,</hi>
+               <note place="margin">Gen: 49:23</note> 
+               <hi>&amp; the ha<g ref="char:cmbAbbrStroke">̄</g>ds of his armes were ſtre<g ref="char:cmbAbbrStroke">̄</g>gthened by the migh<g ref="char:EOLhyphen"/>ty God of Iacob,</hi>
+               <note place="margin">Hom. 66: in Gen:</note> which <hi>Chryſoſtome</hi> vnder<g ref="char:EOLhyphen"/>ſtandeth of his brethrens conſpiracy againſt him, and accuſing him with ioynt conſent vn<g ref="char:EOLhyphen"/>to their father, but God defeated their practi<g ref="char:EOLhyphen"/>ſes. Thirdly the Devill and thoſe whom he re<g ref="char:EOLhyphen"/>taineth <milestone type="tcpmilestone" unit="unspecified" n="3"/> in vaſſaladge to his ſervice, they are Gods <hi>rod,</hi> his <hi>ſworde,</hi> and his <hi>arrowe.</hi> Thus <hi>Aſhur</hi> or <hi>Nebuchadnezzar,</hi>
+               <note place="margin">Eſay: <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>0.5: Ier: 50.23: Vide Petru<g ref="char:cmbAbbrStroke">̄</g> Meſiam var: lect: part 1: cap: 32:</note> is called <hi>the rod of Gods wrath,</hi> and his <hi>hammer,</hi> as <hi>Tamber<g ref="char:EOLhyphen"/>lan</hi> and <hi>Totilas</hi> called the<g ref="char:cmbAbbrStroke">̄</g>ſelues <hi>Flagella Dei</hi> Gods ſcourges. In the <hi>17.</hi> Pſalme <hi>verſ. <hi>13.</hi>
+               </hi> y<hi rend="sup">e</hi> wicked are called <hi>Gods ſword; Deliver my ſoule from the vngodly which is a ſword of thine.</hi> So when God caſt vpon the <hi>Aegyptia<g ref="char:cmbAbbrStroke">̄</g>s</hi> the furiouſnes of his wrath, by ſtormes and tempeſt of haileſtones, thunder, and lightning,
+<pb n="36" facs="tcp:2540:25"/>
+which <hi>Pſal. 18.14.</hi> and <hi>Pſal. 144.6.</hi> are called Gods arrowes) and by giving their lives over to the <hi>peſtilence,</hi> which in this place is called <hi>Gods arrowe;</hi> it is expreſly ſaid <hi>Pſal. 78.</hi> that <hi>he ſent evill Angels amongſt the<g ref="char:cmbAbbrStroke">̄</g>.</hi> And here<g ref="char:EOLhyphen"/>vnto agreeth <hi>Saint Ambroſe; <hi>Cum Diabolus vulnerat,</hi>
+                  <note place="margin">Pſal. 78.49. Ambroſ. in hunc lo cu<g ref="char:cmbAbbrStroke">̄</g>:</note> 
+                  <hi>Domini ſunt ſagittae, qui vulnerandi po<g ref="char:EOLhyphen"/>teſtatem dedit;</hi>
+               </hi> when the Devill doth wounde any man either by himſelfe or by his inſtru<g ref="char:EOLhyphen"/>ments and miniſters, they are <hi>Gods arrowes</hi> that wound, becauſe it is God, that giveth the<g ref="char:cmbAbbrStroke">̄</g> power, and ability to hurte. <hi>Fourthly</hi> thoſe great and famous <hi>worthies</hi> of olde, and in for<g ref="char:EOLhyphen"/>mer adges, whom God vſed as Inſtruments, to bring his purpoſes to paſſe, and to ſubdue kingdomes &amp; countries; they were his ſtrong, his ſwift, and victorious arrowes, Thus God calleth <hi>Cyrus</hi> and <hi>Darius,</hi>
+               <note place="margin">Eſay. 13.3. &amp; 5.</note> his <hi>Sanctified ones, and his mighty gyants, and</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, the veſſells or the <hi>weapons of his wrath,</hi> as our Engliſh hath it. Of <hi>Cyrus,</hi> whoſe <hi>right hande God had holden vp to ſubdue nations be<g ref="char:EOLhyphen"/>fore him,</hi>
+               <note place="margin">Eſay. 45.1.<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> he ſpeaketh thus; <hi>I will weaken the loynes of kinges, and open the dores before him; I will breake the braſen gates and burſt the yron barres, and giue him the treaſures of darknes, &amp; the things hid in ſecret places,</hi> &amp; yet <hi>Cyrus</hi> knew not all this while, y<hi rend="sup">t</hi> he was
+<pb n="37" facs="tcp:2540:25"/>
+Gods <hi>ſanctified</hi> champion nor his <hi>weapon</hi> or arrowe, and therefore God ſaith to him,<note place="margin">Verſ. 5.</note> 
+               <hi>I gir<g ref="char:EOLhyphen"/>ded thee, though thou haſt not knowne me. Alexander</hi> the <hi>Great,</hi> was another of theſe arrowes, who beeing ſhotte off with great ſtrength, flewe without reſiſtance a conque<g ref="char:EOLhyphen"/>rer of the worlde; ſubduing kingdomes, faſter then a man could pace them over; and there<g ref="char:EOLhyphen"/>fore <hi>Daniel</hi> co<g ref="char:cmbAbbrStroke">̄</g>pareth him to a <hi>Leopard, which had fower winges vpon his backe.</hi>
+               <note place="margin">Dan. 7.6.</note> 
+               <hi>Iulius Cae<g ref="char:EOLhyphen"/>ſar,</hi> was another of Gods arrowes, hee won<g ref="char:EOLhyphen"/>dreth himſelfe at his owne ſucceſſe; <hi>veni, vidi,</hi>
+               <note place="margin">Sueton in Iul. num: 37: more ſul<g ref="char:EOLhyphen"/>minis venit percuſſit, abſceſſit. Florus. lib. 4. cap. 2. Lucan: l: 1<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 2. King. 9:20:</note> 
+               <hi>vici,</hi> and as another ſaith of him <hi>Omnia ei prova;</hi> all the worlde lay coutched before him at his feete. <hi>Lucan</hi> doth fully <hi>expreſſe and inter<g ref="char:EOLhyphen"/>pret</hi> my meaning when he ſaith of him that he was <hi>Ductor Impigor, &amp; torto Balearis ver<g ref="char:EOLhyphen"/>bere funda ocyor, &amp; miſſâ Parthi poſt terga ſagittâ,</hi> Hee was a leader and commaunder ſuddeine in his expedition, hee Marched <hi>fu<g ref="char:EOLhyphen"/>riouſly like Iehu,</hi> and ſwifte as a <hi>Parthian arrowe.</hi>
+            </p>
+            <p>Theſe were indeed Gods principall &amp; cho<g ref="char:EOLhyphen"/>ſen ſhaftes. Hee hath yet other <hi>arrowes</hi> prepa<g ref="char:EOLhyphen"/>red for deſtruction. <hi>Thunder and lighte<g ref="char:EOLhyphen"/>ning,</hi> are called <hi>GODS arrowes;</hi>
+               <note place="margin">Pſ. 18.15.</note> with theſe arrowes GOD ſcattered and diſcom<g ref="char:EOLhyphen"/>fited the Philiſtims, at the praier and petitio<g ref="char:cmbAbbrStroke">̄</g>
+               <pb n="38" facs="tcp:2540:26"/>
+of <hi>Samuel.</hi>
+               <note place="margin">1 Sam: 7:10</note> Out of his <hi>bow in the clowd,</hi> he ſhot a<g ref="char:EOLhyphen"/>gainſt the old world, raine and waters, that <hi>all fleſh periſhed that moved vpon the earth.</hi>
+               <note place="margin">Zanch. de Operib. Creat. l: 3: c. 3: de Iride, 9 Theſ: 3: Lamen. 4.6</note> Againſt <hi>Sodome,</hi> he ſhot arrowes feathered with fire, <hi>&amp; it was deſtroied as in a moment, and none pitched campes againſt her,</hi> as <hi>Ieremie</hi> ſpeaketh; Al theſe arrowes he ſhooteth, and yet his quiver is not emptyed, nor ſpent, I haue yet other arrowes to ſpeak of <hi>Zoſimus</hi> telleth vs, that in that bat<g ref="char:EOLhyphen"/>taile that was fought betweene <hi>Conſtantius</hi> &amp; <hi>Magnentius</hi> neere vnto the city <hi>Murſa,</hi>
+               <note place="margin">Lib. <hi>2.</hi> in fine</note> there was one <hi>Menelaus</hi> Colonell of the band of the <hi>Armenian</hi> archers, in <hi>Conſtantius</hi> his army, a bow-man ſo ſkilful and cunning, that he could, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, at one looſe, ſhoote of three arrowes at once, not as againſt one man, but he woulde be ſure <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, to ſtick his ſhaftes, in three men at once. Almighty God, when beeing provoked to anger, hee commeth forth to battaile againſt ſinfull men; he draw<g ref="char:EOLhyphen"/>eth out of his quiver his three arrowes, which are his <hi>deadly weapons;</hi> like <hi>Philoctetes</hi> arrows, in <hi>Sophocles;</hi>
+               <note place="margin">In Philo<g ref="char:EOLhyphen"/>ctete.</note> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, the meſſengers and fore-runners of death, <hi>Et habent ſunt arun<g ref="char:EOLhyphen"/>dine plumbum;</hi> they are ſtemd and headed with heavy vengeance, and feathered with ſwift de<g ref="char:EOLhyphen"/>ſtruction.</p>
+            <p>The firſt of theſe arrowes; is his <hi>Arrowe of
+<pb n="39" facs="tcp:2540:26"/>
+Famine.</hi> This is the arrow which hee threat<g ref="char:EOLhyphen"/>neth againſt his rebellious people, when hee ſaith; I will ſend vpon them <hi>the evil arrowes of Famine,</hi> which ſhall be for their deſtruction,<note place="margin">Ezech: 5:16</note> &amp; I wil breake their ſtaffe of bread. The ſecond, is the <hi>Arrow of battaile,</hi> for this is alſo levelled &amp; directed by him. <hi>Michaiah</hi> told <hi>Ahab,</hi>
+               <note place="margin">1: King: 22:34:</note> that if he went to battaile againſt the king of <hi>Ara<g ref="char:cmbAbbrStroke">̄</g>,</hi> he <hi>ſhould not returne in peace;</hi> the euent proued the prediction true, for a certain man drew a bow ignora<g ref="char:cmbAbbrStroke">̄</g>tly, or in his ſimplicity, or as <hi>Ierome</hi> rea<g ref="char:EOLhyphen"/>deth; <hi>in incertu<g ref="char:cmbAbbrStroke">̄</g> ſagitta<g ref="char:cmbAbbrStroke">̄</g> dirigens, caſu percuſſit re<g ref="char:EOLhyphen"/>gem,</hi> he ſhot at a venture, and he hit the king by chance; but it was not vy chance, for God ſo di<g ref="char:EOLhyphen"/>rected the arrow, that it ſmote the K of <hi>Iſraell,</hi> betweene <hi>the ioints of his brigandine, &amp; hee dyed at eue<g ref="char:cmbAbbrStroke">̄</g>. Iehoram</hi> had receiued wou<g ref="char:cmbAbbrStroke">̄</g>ds in the bat<g ref="char:EOLhyphen"/>taile,<note place="margin">2: King: 9:15</note> which he fought in <hi>Ramoth Gilead</hi> againſt <hi>Hazael</hi> K. of <hi>Ara<g ref="char:cmbAbbrStroke">̄</g>,</hi> but hee was in way of reco<g ref="char:EOLhyphen"/>very, &amp; to be cured of thoſe wou<g ref="char:cmbAbbrStroke">̄</g>ds; afterwards when <hi>Iehu</hi> was annointed K. ouer <hi>Iſrael,</hi> &amp; ap<g ref="char:EOLhyphen"/>pointed to ſmite the houſe of <hi>Ahab,</hi> God direc<g ref="char:EOLhyphen"/>ted his hand in the battaile, &amp; he tooke a bow, &amp; ſmote <hi>Iehora<g ref="char:cmbAbbrStroke">̄</g>
+               </hi> betweene the ſhoulders,<note place="margin">verſ: 24:</note> that the <hi>arrow went through his hart, &amp; he fel down deade in his charet. Iulia<g ref="char:cmbAbbrStroke">̄</g>,</hi> as <hi>Sozomen</hi> reporteth,<note place="margin">
+                  <hi>Lib:</hi> 9: <hi>cap:</hi> 2:</note> being wou<g ref="char:cmbAbbrStroke">̄</g>ded to death by a Perſia<g ref="char:cmbAbbrStroke">̄</g> arrow, <hi>intellexit,</hi> ſaith mine Authour, he knew it to be Gods ar<g ref="char:EOLhyphen"/>row,
+<pb facs="tcp:2540:27"/>
+&amp; therfore receiuing the bloud that guſh<g ref="char:EOLhyphen"/>ed out of his wound, into the palme of his ha<g ref="char:cmbAbbrStroke">̄</g>d; he threw it vp diſpitefully into the aire,<note place="margin">Zonara. Tom. 3. in Iuliano,</note> crying out, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. <hi>Satiate thy ſelfe vvith my bloud, ô Chriſt of Nazareth.</hi> The third &amp; laſt Arrowe, is his arrow of <hi>Peſtilence;</hi> this is indeed a fearefull arrowe,<note place="margin">Muſc, in Pſalm. 38,</note> &amp; it is, as one cal<g ref="char:EOLhyphen"/>leth it, <hi>grandis terror mort al<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>um</hi> the greate ter<g ref="char:EOLhyphen"/>rour of men; as being <hi>Deathes</hi> chiefe Purſui<g ref="char:EOLhyphen"/>vant and Sumner,<note place="margin">Iob, 18 18,</note> who in <hi>Iob,</hi> is called <hi>Rex terrorum, <hi>the king of feare.</hi>
+               </hi> Theſe three ar<g ref="char:EOLhyphen"/>rowes, God had laid vpon his bow, &amp; had fitted them to the ſtring, when he came againſt Da<g ref="char:EOLhyphen"/>vid for nombring the people,<note place="margin">2. Sam. 24,</note> but he gaue Da<g ref="char:EOLhyphen"/>vid his choice, whether he would endure the <hi>arrowe</hi> of <hi>Famine 7. yeeres;</hi> or the <hi>arrowe of battaile 3.</hi> monthes, or the <hi>arrow of the peſti<g ref="char:EOLhyphen"/>lence 3.</hi> daies: he made choice of the laſt, of w<hi rend="sup">t</hi> I will deliver a word more particularly.<note place="margin">Cu<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> huiuſ<g ref="char:EOLhyphen"/>modi vlce<g ref="char:EOLhyphen"/>ra Domini ſagittae vo<g ref="char:EOLhyphen"/>centur no<g ref="char:cmbAbbrStroke">̄</g> video.</note>
+            </p>
+            <p>
+               <hi>Muſculus</hi> ſaith, y<hi rend="sup">t</hi> he doth not well co<g ref="char:cmbAbbrStroke">̄</g>ceaue y<hi rend="sup">e</hi> reaſon, why y<hi rend="sup">e</hi> Prophet ſhould cal his Vlcers <hi>Gods arrowes,</hi> vnleſſe it bee becauſe that the body being ſuddenly ſtroken with them, they kill a man downe right, as doth an arrowe or darte ſhotte into the body. I ſuppoſe it to bee an Hebrewe phraſe, by which they call ſuch blaines and ſoares, <hi>Arrowes;</hi> becauſe that the impoſtume, the rupture &amp; abſceſſion (as Phy<g ref="char:EOLhyphen"/>ſitions
+<pb n="41" facs="tcp:2540:27"/>
+cal it) which they cauſe in the body, ma<g ref="char:EOLhyphen"/>keth the fleſh and skinne to goe a ſunder,<note place="margin">à <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>dimidians</hi> Pagn:</note> as in Hebrew <hi>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n arrow</hi> is ſo called, becauſe it divi<g ref="char:EOLhyphen"/>deth a thinge into two partes; or becauſe the paine &amp; ache which they cauſe, is like vnto the piercing of an arrow. Other languadges in o<g ref="char:EOLhyphen"/>ther ſores haue tearmes not vnlike; The tu<g ref="char:EOLhyphen"/>mour and ſwelling inflamation, called <hi>Eryſipe<g ref="char:EOLhyphen"/>las,</hi>
+               <note place="margin">In Phiſiol. fol. 195. lin. 1.</note> or <hi>Saint Anthonies fier,</hi> is by <hi>Selneccerus</hi> (belike out of the propriety of his country lan<g ref="char:EOLhyphen"/>guadge) called <hi>Spina</hi> a thorne, becauſe y<hi rend="sup">e</hi> ſmart which it cauſeth, is like y<hi rend="sup">e</hi> pricking of a thorne. <hi>Boiles</hi> are in another languadge called <hi>n<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>iles,</hi> and this is from the Latine;<note place="margin">Gallicè <hi>clout.</hi> lib. 3 Ep. 7. erat illi na<g ref="char:EOLhyphen"/>tus inſana<g ref="char:EOLhyphen"/>buis clavus, cuius toedio admortem irrevocabi<g ref="char:EOLhyphen"/>li conſtan<g ref="char:EOLhyphen"/>tiâ decuc<g ref="char:EOLhyphen"/>rit.</note> 
+               <hi>Plinie</hi> writing to <hi>Caninius Rufus,</hi> of the death of <hi>Silius Italicus,</hi> telleth him that he had <hi>a boile</hi> or <hi>a naile</hi> riſen in his body, w<hi rend="sup">t</hi> put him to y<hi rend="sup">e</hi> extremity of paine, that he, to rid himſelf out of the torme<g ref="char:cmbAbbrStroke">̄</g>t, pined, and ſtarved himſelfe to death. But to omitte the phraſe; I come briefly to ſhew you in what reſpect the <hi>Plague</hi> may be called <hi>Goat arrowe.</hi>
+            </p>
+            <p>In an <hi>Arrow</hi> then I obſerue theſe proper<g ref="char:EOLhyphen"/>ties; Firſt, it flieth very <hi>ſwiftly;</hi> whe<g ref="char:cmbAbbrStroke">̄</g>ce as one pretely noteth, the <hi>Italians</hi> from their word <milestone type="tcpmilestone" unit="unspecified" n="1"/>
+               <hi>Frezza,</hi>
+               <note place="margin">Pierius Hi<g ref="char:EOLhyphen"/>er lib. 42.</note> which ſignifieth an arrow haue for<g ref="char:EOLhyphen"/>med the verve <hi>Affrezzolare,</hi> which ſignifieth to make haſt about any matter;<note place="margin">Pſal 9.11.5.</note> So the Peſti<g ref="char:EOLhyphen"/>lence which is GOD arrowe, it is called
+<pb n="42" facs="tcp:2540:28" rendition="simple:additions"/>
+by the Pſalmiſt, <hi>Sagitta volans, <hi>a flying arrovv,</hi>
+               </hi> this arrowe in three daies ſpace, flew throughout all the coaſtes of the lande of <hi>Iſra<g ref="char:EOLhyphen"/>el,</hi>
+               <note place="margin">2. Sam. 24:</note> from <hi>Dan</hi> to <hi>Beerſheba,</hi> and ſlewe of the people <hi>70000.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> Secondly, an <hi>Arrowe</hi> flieth <hi>ſilently,</hi> with<g ref="char:EOLhyphen"/>out making any great noiſe,<note place="margin">Wiſd. 5.12:</note> it gently <hi>parteth the aire, which immediatly commeth togi<g ref="char:EOLhyphen"/>ther againe, ſo that a man cannot knowe where it went through.</hi> In like manner this arrowe of God, <hi>the arrowe of Peſtilence,</hi> it is called <hi>terror nocturnus,</hi>
+               <note place="margin">Pſal. 91.</note> 
+               <hi>ambulans in tene<g ref="char:EOLhyphen"/>bris,</hi> it ſtealeth vpon men oftentimes ſud<g ref="char:EOLhyphen"/>denly in the night, in their moſt private and ſecrete bed-chambers, and aſſaileth them with wonderfull terrour.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> Thirdly, an <hi>Arrowe reacheth a marke that is farre off,</hi>
+               <note place="margin">Ovid. lib. 9: Meta: fab. 2</note> as <hi>Hercules</hi> tolde <hi>Neſſus</hi> when hee ranne awaie with his <hi>Deianira,</hi> that al<g ref="char:EOLhyphen"/>though hee coulde not come to him, yet hee woulde ſende after him; <hi>
+                  <g ref="char:V">Ʋ</g>ulnere non pedibus te conſequar;</hi> and hee made it good too, <hi>fu<g ref="char:EOLhyphen"/>gientia terga ſagittâ-traijcit,</hi> hee ſped an ar<g ref="char:EOLhyphen"/>rowe cleane through his loines. In like man<g ref="char:EOLhyphen"/>ner the <hi>Arrowe</hi> of the <hi>Peſtilence</hi> it is called a <hi>walking arrowe,</hi>
+               <note place="margin">Sagitta ambulans.</note> it roveth dp and downe to markes farre and neere, from city to villadge, to the great terror of men. <hi>Qui longè abeſt peſte
+<pb n="43" facs="tcp:2540:28"/>
+morietur; qui propè, gladie cadet,</hi>
+               <note place="margin">Ezech. 6.12.</note> He that is afarre off, he ſhal be a marke for the arrowe of the pe<g ref="char:EOLhyphen"/>ſtilence, and hee that is neere at hand hee ſhall fall by the ſword. <hi>Euſebius</hi> ſheweth,<note place="margin">Lib 9 c: 8.</note> how ma<g ref="char:EOLhyphen"/>ny, who had made ſhifte to eſcape the <hi>arrovve</hi> of Famine, coulde not keepe themſelves out of the reach of this <hi>Arrowe,</hi> but that they died of the Plague.</p>
+            <p>Fourthly, an Arrowe <hi>pierceth and woun<g ref="char:EOLhyphen"/>deth <milestone type="tcpmilestone" unit="unspecified" n="4"/> deeply &amp; dangerouſly,</hi>
+               <note place="margin">Pſal: 127:5:</note> eſpecially from the hand <hi>of a gyant,</hi> as the Pſalmiſt ſpeaketh. The <hi>Indian</hi> archers ſhott arrowes of two cu<g ref="char:EOLhyphen"/>bitts of length, with ſuch ſtrength, that as one writeth, <hi>non clypeus non thorax ſummae firmitu<g ref="char:EOLhyphen"/>dinis,</hi>
+               <note place="margin">Caelius Rhodig. lib. 23:9: In Pſal. 91.</note> neither target nor corſſet of armour of proofe, were able to reſiſt the ſtroke of them. The <hi>Peſtilence</hi> Gods <hi>Arrowe</hi> is of like force, as <hi>Muſculus</hi> ſaith, <hi>perniciſſemè volat &amp; exiti<g ref="char:EOLhyphen"/>aliter ferit,</hi> it flieth ſwiftlie, and it woundeth deadly. No age is exempted from the ſtroke &amp; infection of it; no, not yonge men by their luſty and ſtrong bodies: for as <hi>Seneca</hi> ſaieth,<note place="margin">De Ira. lib. 3: cap: 5:</note> 
+               <hi>Ad<g ref="char:EOLhyphen"/>verſus peſtilentiam nihil prodeſt firmitas cor<g ref="char:EOLhyphen"/>poris &amp;c.</hi> it little availeth a man againſt the plague, to be of a ſtrong conſtitution of body, or to vſe diligent care in preſeruing his health, for the Plague ſeiſeth vppon weake and ſtronge both alike. Olde men are not
+<pb n="44" facs="tcp:2540:29"/>
+ſuperannuated nor priviledged fro<g ref="char:cmbAbbrStroke">̄</g> it, howſoe<g ref="char:EOLhyphen"/>ver <hi>Plinie</hi> be bold to avouch the co<g ref="char:cmbAbbrStroke">̄</g>trary;<note place="margin">Lib. 7: c: 50.</note> 
+               <hi>Senet minimè ſent<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>re peſtilentiam,</hi> that old men are ne<g ref="char:EOLhyphen"/>ver tainted with the plague: It is not the ſea<g ref="char:EOLhyphen"/>ſon nor the coldneſſe of the winter, that can ſtop the courſe of it;<note place="margin">De rebus Moſcoviti<g ref="char:EOLhyphen"/>cis fol. 11.</note> 
+               <hi>Poſſevinus</hi> telleth vs that at what time hee was Embaſſadour for the Pope in <hi>Moſcovia,</hi> the plague w<hi rend="sup">t</hi> had ſcarce e<g ref="char:EOLhyphen"/>ver bin heard of before in that country, <hi>ob inte<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>ſiſſima frigora,</hi> by reaſon of the extreame cold; yet it then killed many thouſands. And hence is this <hi>arrow</hi> called <hi>Exterminium,</hi>
+               <note place="margin">Pſal. 91.6.</note> a rooting out and a deſtroying arrowe.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="5"/> Laſtly, an <hi>arrow</hi> beeing guided by a ſteddy hand, and leveled by a quicke caſt &amp; iuſt ayme of the eie, it flieth ſtraight and miſſeth not its marke. The dexterity of ſome men in theſe ſl<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ights hath bin wonderfully excellent; there were brought before <hi>Alexander</hi> at ſeverall times two men, notably famous for their Ac<g ref="char:EOLhyphen"/>tivity in diverſe kindes:<note place="margin">Sine fru<g ref="char:EOLhyphen"/>ſtratione.</note> the one could caſt mil<g ref="char:EOLhyphen"/>lett ſeede through the eie of a needle, without miſſing the king wondring at his vanity, ra<g ref="char:EOLhyphen"/>ther then admiring any excellencie, rewarded him,<note place="margin">Quintil. l: 2 cap. 21.</note> 
+               <hi>eius leguminis modio,</hi> with a buſhell of the ſame pulſe, to finde him plaie, and to keepe his ha<g ref="char:cmbAbbrStroke">̄</g>d in vre. The other was an archer, ſo skil<g ref="char:EOLhyphen"/>full and cunning through longe practiſe, that
+<pb n="45" facs="tcp:2540:29"/>
+hee coulde ſhoote his arrowes through a ring.<note place="margin">Cael. Rho. dig: lib. 23.9.</note> In the <hi>20.</hi> of <hi>Iudges</hi> it is ſaide, that of the childre<g ref="char:cmbAbbrStroke">̄</g> of <hi>Beniamin</hi> there were <hi>7.</hi> hu<g ref="char:cmbAbbrStroke">̄</g>dred cho<g ref="char:EOLhyphen"/>ſen men,<note place="margin">Iud 20.16. Au<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>el. vi<g ref="char:EOLhyphen"/>ctor. &amp; Su<g ref="char:EOLhyphen"/>eton in do<g ref="char:EOLhyphen"/>mit. nu<g ref="char:cmbAbbrStroke">̄</g>. 19.</note> that <hi>could ſlinge ſtones at an haires bredth and not faile.</hi> The like is reported of <hi>Domitian,</hi> that hee could ſhoote his arrowes betweene the fingers of a mans hand a farre off, without doing him any hurte. But the hand of God is much more cunning to handle the bowe, and his arrowes flie more ſteddelie and miſſe not. They are more certaine and ſure then the Arrowe of <hi>Cephalus,</hi>
+               <note place="margin">Ovid. met: lib. 7. Fab. 27.</note> of which the Poet ſaith <hi>Conſequitur quodcun<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> petit,</hi> it hitte whatſoeuer it was aymed at; They are more Fortunate then <hi>Hercules</hi> his bowe and arrowes,<note place="margin">In Here <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>taeo verſ. 1655.</note> which as hee telleth <hi>Philoctetes</hi> in <hi>Seneca; <hi>Non fallet vnquam dexteram hic arcus tuam librare telum didicit &amp; certam dare-fugam ſagittis:</hi>
+               </hi> my bowe is a knocker, it will never faile thy hand, it keepeth alwaies one ſcantling, and myne arrowes; <hi>ipſa non fal<g ref="char:EOLhyphen"/>lunt iter-Emiſſa nervo tela:</hi> they never glaunce wide from the marke. GODS bowe is like <hi>Ionathans</hi> bowe,<note place="margin">2. Sam. <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.22.</note> 
+               <hi>which never returned emptie from the bloude of the ſlaine, nor from the fatte of the mightie,</hi> and this his ar<g ref="char:EOLhyphen"/>rowe of the Peſtilence, though it walke in the darkenes, and bee ſhott off as in the night, yet
+<pb n="46" facs="tcp:2540:30"/>
+it is not carried caſually by chaunce, but is guided and leveled by the hand of Gods Pro<g ref="char:EOLhyphen"/>vidence.</p>
+            <p>Nowe this is the arrowe, or ſome other of this kinde that had wounded <hi>David,</hi>
+               <note place="margin">The vſe of the 3, part,</note> as out of the comperts and evidences of the texte, &amp; out of the iudgment of learned Interpreters, I have deduced more at lardge. For our inſtruc<g ref="char:EOLhyphen"/>tion; The Emphaſis which he vſeth, is worth the obſerving. Firſt, he ſaith <hi>thine arrowes ô God,</hi>
+               <note place="margin">
+                  <hi>Exod. 14.18.</hi> Lento gradu ad vindicta<g ref="char:cmbAbbrStroke">̄</g> divina pro<g ref="char:EOLhyphen"/>cedit ira, ſed tarditatem gravitate ſupplicij co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>penſat. Val: Max. l. <hi>1,</hi> cap, <hi>2,</hi>
+               </note> 
+               <hi>have light vpon mee,</hi> or as another Tranſlation readeth, <hi>ſticke faſt in me. God is ſlowe to wrath</hi> and ſlow to puniſh; but when he is prouoked, he recompenceth his ſlownes, with the greatnes of his puniſhment; as <hi>Euri<g ref="char:EOLhyphen"/>pides truely ſaith;</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. which is the reaſon why <hi>David</hi> ſaith, that God threw his dartes &amp; his arrowes impetuouſly againſt him; <hi>Sagittae tua confortae, dimiſſae, depreſſae ſunt, <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rruerunt in me,</hi> the Interpreters ſtrive to finde a worde to ex<g ref="char:EOLhyphen"/>preſſe the Emphaſis of the Hebrewe; they were whirled at him with violent furie, GOD let drive at him, as at his enemie, his arrowes ſuncke into his bodie, and hidde themſelues in his fleſhe;<note place="margin">Pſ. 103.8.9.10.</note> 
+               <hi>Our GOD is a GGD of patience, and long-ſuffering;</hi> yet when hee is prouoked, <hi>hee is a conſuming
+<pb n="47" facs="tcp:2540:30"/>
+fire.</hi> In the booke of <hi>Iob;</hi>
+               <note place="margin">Iob, 20, 29,</note> 
+               <hi>Zophar</hi> the <hi>Naama<g ref="char:EOLhyphen"/>thite</hi> enforceth a very firme and true concluſi<g ref="char:EOLhyphen"/>on; that howſoever the wicked man, doth bath himſelfe in pleaſure for a time, yet God will ſende vpon him his fierce wrath, and al<g ref="char:EOLhyphen"/>though he eſcape the yron weapons, that is, the ſworde of man, yet hee ſhall not eſcape the hande of God, for <hi>his bowe of ſteele,</hi>
+               <note place="margin">Iob: 20, 24,</note> 
+               <hi>ſaieth hee, ſhall ſtrike him through, his arrowe ſhall drentch it ſelfe in his very gall.</hi> And againſt the wicked GOD threatneth and ſpeaketh thus in the <hi>32.</hi> of <hi>Deuteronomie;</hi>
+               <note place="margin">Deut, 32, 23</note> 
+               <hi>I will ſpend plagues vpon them, I will beſtow mine arrowes vpon them; If I whet my glit<g ref="char:EOLhyphen"/>tering ſword, and mine hand take holde on iudgment, I wil execute vengance on mine enemies, and wil reward them that hate me, I wil make mine arrows drunke with blood. and my ſword ſhall eate fleſh.</hi>
+            </p>
+            <p>Secondly, our Prophet calleth the <hi>Plague</hi>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> GODS <hi>Arrowe. thine arrowe, ô GOD, ſticketh faſt in mee;</hi> it is not then <hi>Apollos</hi> ar<g ref="char:EOLhyphen"/>rowe, as <hi>Homer</hi> affirmeth,<note place="margin">Iliad, 1.</note> when deſcribing the Plague that deſtroied in the <hi>Graecian</hi> ar<g ref="char:EOLhyphen"/>mie, hee ſaith <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, for <hi>9.</hi> daies togither, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. the Arrows of God <hi>A<g ref="char:EOLhyphen"/>pollo</hi> walked vp &amp; downe the armie, but this is but a Poeticall fiction. It is God alone that
+<pb n="48" facs="tcp:2540:31"/>
+ſhooteth this arrow among vs; &amp; it is he alone that ca<g ref="char:cmbAbbrStroke">̄</g> ſalue &amp; cure the wound that it maketh, &amp; therefore vaine is it for vs to ſeeke for helpe from any other, and conſequently fooliſh &amp; ſu<g ref="char:EOLhyphen"/>perſtitious are thoſe praiers, which the Pa<g ref="char:EOLhyphen"/>piſts make to their Saints, whither it be to <hi>our Lady,</hi>
+               <note place="margin">In. Breviar. ad vſum Sa<g ref="char:EOLhyphen"/>ru<g ref="char:cmbAbbrStroke">̄</g>, parte Ae<g ref="char:EOLhyphen"/>ſtivali fol. <hi>128.</hi>
+               </note> as in the Maſſe appointed for the plague.</p>
+            <q>
+               <l>Virgo mater, maris ſtella,</l>
+               <l>Fons ortorum, <hi>verbi</hi> cel<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>a,</l>
+               <l>Ne nos peſtis aut procella</l>
+               <l>Peccatores obruant</l>
+            </q>
+            <p>
+               <note place="margin">D. Rainold. de Idololat. lib. <hi>1.</hi> cap <hi>6.</hi> Sect. <hi>7.</hi>
+               </note>Or to Saint <hi>Rochus</hi> moſt prophanely,
+<q>
+                  <l>Tu qui Deo es tam ch<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rus,</l>
+                  <l>Et in luce valdè clarus.</l>
+                  <l>Sana tuos famulos;</l>
+                  <l>Et à peſte nos defende,</l>
+                  <l>Opem nobis ac impende,</l>
+                  <l>Contra morbi ſtimulos.</l>
+               </q>
+Theſe are their ſhameleſſe and impious blaſphemies, which I finde alſo publiſhed for the vſe of the vulgar &amp; common people, in a litle Manuall of Spaniſh praiers.</p>
+            <p>Thirdly, in that it is called Gods arrow, it teacheth vs that it commeth not vpon vs by chance, or fortune, but by the hand of Gods pro<g ref="char:EOLunhyphen"/>vidence, as before I haue ſhewed; for howſoe<g ref="char:EOLhyphen"/>uer it may ſeeme to make hauocke of the peo<g ref="char:EOLhyphen"/>ple, and to deſtroy without difference men of
+<pb n="49" facs="tcp:2540:31"/>
+all ſorts, yet the godly ma<g ref="char:cmbAbbrStroke">̄</g>, hath a comfortable promiſe of deliuera<g ref="char:cmbAbbrStroke">̄</g>ce,<note place="margin">Pſal. 91.7.</note> 
+               <hi>a thouſand ſhall fal beſide him, &amp; ten thouſand at his right hand; but it ſhall not come nigh him nor nigh his dwelling.</hi> God wil ſo <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>edge him in on euery ſide, with his protec<g ref="char:EOLhyphen"/>tion, that neither an haire of his head, nor a bri<g ref="char:EOLhyphen"/>ſtle of his Swine, ſhall fall to the ground. And this is it, that <hi>Sathan</hi> ſtormeth at, that he could not hurte <hi>Iob,</hi>
+               <note place="margin">Iob. 1.10.</note> 
+               <hi>becauſe God had made an hedge a<g ref="char:EOLhyphen"/>bout him, and about all that he poſſeſſed on everie ſide.</hi> But here we muſt carefully obſerue theſe two caveats.</p>
+            <p>Firſt, that in a Chriſtian charity towardes <milestone type="tcpmilestone" unit="unspecified" n="1"/> other we do not raſhly iudge of their fall, nor ce<g ref="char:cmbAbbrStroke">̄</g>ſure their liues by the ma<g ref="char:cmbAbbrStroke">̄</g>ner of their deaths For <hi>the wiſe man dieth as doth the foole,</hi>
+               <note place="margin">Eccl. 2.16.</note> not on<g ref="char:EOLhyphen"/>ly by the ſame neceſſity of death, but ofte<g ref="char:cmbAbbrStroke">̄</g>times alſo by the ſame diſgracefull and diſhonorable meanes, that other men do,<note place="margin">Pſal. 34.21.</note> 
+               <hi>that as miſfortune ſlayeth the vngodly,</hi> as the Pſalmiſt ſpeaketh, ſo the godly ſomtimes come to their ends by ſud<g ref="char:EOLhyphen"/>daine &amp; vnexpected deathes. I ſhewed you be<g ref="char:EOLhyphen"/>fore how two wicked kings, <hi>Ahab</hi> &amp; <hi>Iehoram,</hi> were ſlaine by an arrow; and you ſhall finde in the booke of <hi>Cronicles,</hi>
+               <note place="margin">2. Chro. 35.</note> y<hi rend="sup">e</hi> good king <hi>Ioſiah</hi> was likewiſe ſlaine by an arrowe, for going to bat<g ref="char:EOLhyphen"/>taile againſt <hi>Pharao Necho</hi> king of <hi>Egypt.</hi> And in this place you ſee, how God made this good
+<pb n="50" facs="tcp:2540:32"/>
+king <hi>David</hi> a But to ſhoot his arrows againſt and holy <hi>Iob</hi> likewiſe complaineth,<note place="margin">Iob 16 12:13 item ca. 6.4</note> that <hi>God had ſet him as a marke to ſhoote at, that his arrowes were in him, the venome whereof drunke vp his ſpirites;</hi> and <hi>Ieremy</hi> yet more plainely,<note place="margin">Lament. 3.12.13.</note> ſaith of God, <hi>He hath bent his bowe and made me a marke for the arrow, he hath cauſed the arrowes of his quiver to enter in<g ref="char:EOLhyphen"/>to my reines.</hi> Thus we ſee that the godly are plagued like other men but yet God taketh a more ſpecial notice of them; for <hi>the foundatio<g ref="char:cmbAbbrStroke">̄</g> of God remaineth ſure,</hi>
+               <note place="margin">2: Tim: 2:19</note> 
+               <hi>&amp; hath this ſeale, the Lord knoweth who are his.</hi>
+               <note place="margin">Pſa: 116:15</note> And therfore <hi>pre<g ref="char:EOLhyphen"/>cious in the ſight of the Lord is the death of his Saints,</hi> by what means, or by what kind of death ſoeuer they fall.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> The ſecond Caueat concerneth our ſelues, in our owne particular; namely that we do not vpon too great prefidence of Gods protection, neglect the good meanes of our preſeruation, and through overbolde preſumption, audaci<g ref="char:EOLhyphen"/>ouſly thruſt our ſelues into places and compa<g ref="char:EOLhyphen"/>nies of dangerous infection; and ſo become ho<g ref="char:EOLhyphen"/>micides and wilfull murtherers of our ſelues: I know that <hi>Muſculus</hi> vpon this place, from this Metaphore of an arrow heere vſed, ſee<g ref="char:EOLhyphen"/>meth thus to argue that the vſe of an <hi>Arrowe,</hi> is not to bee flurted out at randon, or to bee
+<pb n="51" facs="tcp:2540:32"/>
+ſhot at a venture; but to bee aymed and direc<g ref="char:EOLhyphen"/>ted to a ſet marke, And therefore me<g ref="char:cmbAbbrStroke">̄</g> do amiſſe, to thinke that the Plague infecteth anye by chaunce or fortune, but rather by Gods ſpeci<g ref="char:EOLhyphen"/>all meſſadge, and conſequently that it procee<g ref="char:EOLhyphen"/>deth <hi>from weakenes of Faith,</hi> for me<g ref="char:cmbAbbrStroke">̄</g> to flie.<note place="margin">Infirmitas Fidei, in Pſal: 86:2:</note> The ſworde likewiſe in battaile, ſaith hee, though it be lifted vp &amp; brandiſhed by the hand of ma<g ref="char:cmbAbbrStroke">̄</g>, yet it killeth not but by Gods diſpenſatio<g ref="char:cmbAbbrStroke">̄</g>, as God himſelfe ſaith, <hi>I will number you to the ſworde;</hi>
+               <note place="margin">Eſay 65:12:</note> I knowe that the Generall is true, that nei<g ref="char:EOLhyphen"/>ther the ſworde in battaile, nor this Arrowe of the <hi>Peſtilence,</hi> doeth kill any but thoſe that are appointed thereunto: But whether a man may thereupon inferre, that it is not lawfull at all to flie from the one nor the other,<note place="margin">Calvin epiſt 362. faceſ<g ref="char:EOLhyphen"/>ſant Para<g ref="char:EOLhyphen"/>doxa. Zanchius ad Philip. cap: 2.30: Ovid. 7. me<g ref="char:EOLhyphen"/>ta Fab. 25.</note> it ſee<g ref="char:EOLhyphen"/>meth in Diuinity an harſh ſequell and Argu<g ref="char:EOLhyphen"/>ment; but I will not take vpon me to deter<g ref="char:EOLhyphen"/>mine this Queſtion. I know great Diuines, learned, and iudicious, to bee of another minde. And certaine it is, and woe-full experience teacheth that to bee too true, which the Poet hath,
+<q>
+                  <l>Quo propior quiſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> eſt, ſervit<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> fideliùs aegro,</l>
+                  <l>In partem laethi citiùs venit.</l>
+               </q>
+By how much y<hi rend="sup">e</hi> neerer me<g ref="char:cmbAbbrStroke">̄</g> come about infected perſons, by ſo much y<hi rend="sup">e</hi> ſooner they come by their own deaths
+<pb n="52" facs="tcp:2540:33"/>
+I know <hi>that there is a time to be borne,</hi>
+               <note place="margin">
+                  <hi>Eccleſ. 3:2: Iob 14:5:</hi> Seneca Her: Fur. Act: <hi>1:</hi> in choro Luth. in cap: <hi>2:</hi> Ec<g ref="char:EOLhyphen"/>cleſiaſtae.</note> 
+               <hi>&amp; a time to die</hi> &amp; as <hi>Iob</hi> ſaith, <hi>mans daies are determined, the nomber of his moneths are with God, who hath ſet him his bou<g ref="char:cmbAbbrStroke">̄</g>ds that he cannot paſſe. Nulli iuſſo ceſſare licet, nulli ſcriptum proferre die<g ref="char:cmbAbbrStroke">̄</g>.</hi> Ma<g ref="char:EOLhyphen"/>ny men, ſaith <hi>Luther,</hi> haue bin deepely &amp; dead<g ref="char:EOLhyphen"/>ly wounded, who haue recouered &amp; ſurvived, &amp; yet many on the contrary ſide, haue dyed of ve<g ref="char:EOLhyphen"/>ry ſmall hurtes; Aſtrologers aſcribe it to the ſtars and planets; others impute it to chance &amp; fortune, the ſcriptures referre it to Almigh<g ref="char:EOLhyphen"/>ty God <hi>apud que<g ref="char:cmbAbbrStroke">̄</g> ſunt vitae &amp; mortis noſtrae mo<g ref="char:EOLhyphen"/>menta poſita,</hi> who hath ſkored vp the minutes &amp; moments of our life &amp; death, and he, as he hath ſet the laſt howre &amp; period of our daies, ſo hath hee appointed the meanes and the manner of death, to bring vs to our ends: yet muſt we not therefore behaue our ſelues careleſly, wilfully to expoſe our ſelues to apparent dangers. <hi>Ma<g ref="char:cmbAbbrStroke">̄</g> is not Lord over his own Spirit or life to reteine it,</hi>
+               <note place="margin">Eccleſ: 8:8:</note> ſaith the wiſe man; And it is a good note to this purpoſe, that our Bibles haue vpon that place; that a ma<g ref="char:cmbAbbrStroke">̄</g> hath no power to ſaue his own life, &amp; therefore he ſhould not raſhly caſt him<g ref="char:EOLhyphen"/>ſelfe into danger.</p>
+            <p>To ſhut vp al in a word: Almighty God af<g ref="char:EOLhyphen"/>ter the floud, he hung vp his bow in the clowd, in token of reconciliation vnto men; for if you
+<pb n="53" facs="tcp:2540:33"/>
+marke it, the bend and the arch of the bowe is turned from vs, as <hi>Zanchius</hi> obſerueth:<note place="margin">Lib: <hi>3.</hi> de o<g ref="char:EOLhyphen"/>perib: creat: cap: <hi>3:</hi> Lib: de Noe &amp; Arca: cap: <hi>27:</hi>
+               </note> But he hunge vp <hi>his bow,</hi> ſaith <hi>Ambroſe,</hi> not his <hi>ar<g ref="char:EOLhyphen"/>row: Arcus habet vulneris indicium, non v<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>lne<g ref="char:EOLhyphen"/>ris effectum;</hi> the bow maketh a ſhew of hurting but it doth not hurt, it is y<hi rend="sup">e</hi> arrow that wou<g ref="char:cmbAbbrStroke">̄</g>deth But now God ſeemeth for our ſins to haue ta<g ref="char:EOLhyphen"/>ken downe his bow againe; And hee hath ſhot his arrowes againſt our whole land, w<hi rend="sup">t</hi> to vſe the Prophets words,<note place="margin">Ioel: 2:3.</note> 
+               <hi>lay before him like the Gar<g ref="char:EOLunhyphen"/>den of Eden,</hi> but hee hath <hi>left it waſt and deſolate</hi> where hee hath gone, <hi>like a wilderneſſe.</hi> The Queene city of our land, and the glory of the kingdome, which to ſpeake with the Prophet <hi>Zephanie,</hi> as ſhee <hi>dwelt careleſſe;</hi>
+               <note place="margin">Cap. 3:15.</note> and <hi>ſate attired in fine ſcarlet,</hi> ſo had ſhee her ſinnes alſo <hi>red as ſcarlet;</hi> and therefore God hath made her an enſample of his wrath, to her ſiſter cities of the land, and ſhee mourneth in her deſolations, for the loſſe of her inhabitants. And now God hath changed his markes, and hee ſhooteth his arrowes all abroad, to cities and villadges far and neere; he cannot ſhoote amiſſe, ſin is a faire marke for the arrow of vengance to hit. Con<g ref="char:EOLhyphen"/>cerning our ſelues of this place; almighty God as if at the firſt, he had miſſed his ayme, he ſhot wide firſt on the one ſide of the city, and then on the other; of late it began to be feared, that ha<g ref="char:EOLhyphen"/>ving
+<pb n="54" facs="tcp:2540:34"/>
+found the iuſt length, hee had ſhot his ar<g ref="char:EOLhyphen"/>rowes into the midſt of our city, &amp; that his ar<g ref="char:EOLhyphen"/>rowes ſtucke faſt in her very flancks. What remained? but that we ſhould betake our ſelus to <hi>Davids</hi> preſeruatiues againſt the Plague, <hi>Praiers</hi> &amp; <hi>Teares.</hi>
+               <note place="margin">A<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>undines vulnera per nicioſa fe<g ref="char:EOLhyphen"/>rentes. Ammian: Marcell. lib 25: Lib: 2: ca: 8:</note> The Perſian bow-men, are by all Hiſtorians commended for excellent ar<g ref="char:EOLhyphen"/>chers, and their arrowes are ſaid to haue wou<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>ded deadly; yet in the battaile that was fought betweene <hi>Scipio</hi> and <hi>Antiochus,</hi> they were wo<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>derfully foiled; but mark how it came to paſſe; <hi>imber ſuperfuſus Perſicos arcus corruperat,</hi> a ſhowre of raine, ſaith <hi>Florus,</hi> falling in time of the battaile, ſo ſlacked their bowes, that they could not ſhoot an arrow. The way for vs to ſlacke<g ref="char:cmbAbbrStroke">̄</g> Gods bow, is by a <hi>ſhowre of tears</hi> falling fro<g ref="char:cmbAbbrStroke">̄</g> the eies of penitent ſinners. <hi>Let the Prieſts,</hi> ſaith <hi>Ioel,</hi>
+               <note place="margin">Ioel: 2:17:</note> the <hi>Miniſters of the Lorde, weepe be<g ref="char:EOLhyphen"/>tweene the portch &amp; the Altar, and let them ſay, Spare thy people, O Lord; then wil the Lord be iea<g ref="char:EOLhyphen"/>lous over his land, and spare his people.</hi> And as <hi>Teares</hi> muſt worke vpo<g ref="char:cmbAbbrStroke">̄</g> Gods vow, to ſlacken it;<note place="margin">Plin: l: 26: c: 14 Dictam<g ref="char:EOLhyphen"/>num pota ſagittas pellit.</note> ſo <hi>Praier</hi> is the true <hi>Dyctamnum,</hi> that pluc<g ref="char:EOLhyphen"/>keth out his arrowes when they ſticke faſt in vs. Theſe are the Sacrifices with which God is wel pleaſed and pacified; theſe were <hi>David;</hi> &amp; <hi>Ezechias</hi> his amulets, counterpoiſons, &amp; pre<g ref="char:EOLhyphen"/>ſeruatiues againſt the plague; for ſo God tel<g ref="char:EOLhyphen"/>leth
+<pb n="55" facs="tcp:2540:34"/>
+               <hi>Ezechias.</hi> I <hi>haue heard thy praier,</hi>
+               <note place="margin">2. Kings: 20.5:</note> 
+               <hi>and ſeene thy teares, behold I haue healed thee.</hi> Now God of his mercy giue vs grace, to make an holy vſe of this and all other his viſitations, and to make a conſcience of vſing all holſome meanes for our preſeruatio<g ref="char:cmbAbbrStroke">̄</g>, that ſo his heauy hand may be remoued from vs, &amp; his arrowes which yet ſticke faſt in the flancks of many of our diſtreſ<g ref="char:EOLhyphen"/>ſed brethren, may be plucked out, through Ie<g ref="char:EOLhyphen"/>ſus Chriſt our Lord, to whom with the Father and the holy Ghoſt, three perſons and one euer liuing God, be all honour and glory, worlde without ende, <hi>Amen.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>

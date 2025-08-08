@@ -1,0 +1,913 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A short treatise of death in sixe chapters Together with the ænigmatick description of old age and death written Ecclesiastes 12 chap. exponed and paraphrased in English meetre. Written by Mr. William Morray minister of Gods word.</title>
+            <author>Morray, William.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1631</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 61 KB of XML-encoded text transcribed from 28 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A07790</idno>
+            <idno type="STC">STC 18167</idno>
+            <idno type="STC">ESTC S121485</idno>
+            <idno type="EEBO-CITATION">99856666</idno>
+            <idno type="PROQUEST">99856666</idno>
+            <idno type="VID">22279</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A07790)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 22279)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 681:08)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A short treatise of death in sixe chapters Together with the ænigmatick description of old age and death written Ecclesiastes 12 chap. exponed and paraphrased in English meetre. Written by Mr. William Morray minister of Gods word.</title>
+                  <author>Morray, William.</author>
+               </titleStmt>
+               <extent>[8], 41, [5] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Iohn Wreittoun,</publisher>
+                  <pubPlace>Edinburgh :</pubPlace>
+                  <date>Anno Dom. 1631.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Death --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-05</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-09</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2010-09</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:22279:1"/>
+            <pb facs="tcp:22279:1"/>
+            <p>A SHORT TREATISE <hi>OF DEATH IN SIXE</hi> CHAPTERS.</p>
+            <p>Together with the aenigmatick <hi>de<g ref="char:EOLhyphen"/>ſcription of old age and death</hi> written <hi>Eccleſiaſtes</hi> 12 Chap. <hi>exponed and paraphraſed in</hi> Engliſh Meetre.</p>
+            <p>Written by M<hi rend="sup">r</hi>. WILLIAM MORRAY <hi>Minister of GODS Word.</hi>
+            </p>
+            <q>
+               <bibl>
+                  <hi>PSAL. 90.12.</hi>
+               </bibl>
+               <p>
+                  <hi>LORD teach vs to number our dayes.</hi>
+               </p>
+            </q>
+            <figure>
+               <figure>
+                  <figDesc>hourglass</figDesc>
+               </figure>
+               <figure>
+                  <figDesc>skull</figDesc>
+               </figure>
+               <figDesc>memento mori</figDesc>
+            </figure>
+            <q>
+               <hi>
+                  <g ref="char:V">Ʋ</g>ive memor lethi, fugit hora.</hi>
+            </q>
+            <p>EDINBVRGH. Printed by Iohn Wreittoun. <hi>Anno DOM.</hi> 1631.</p>
+         </div>
+         <div xml:lang="eng" type="dedication">
+            <pb facs="tcp:22279:2"/>
+            <pb facs="tcp:22279:2"/>
+            <head>TO THE RIGHT HONORABLE AND <hi>WORTHIE LADY, DAME</hi> AGNES MORRAY, <hi>MISTRESSE OF</hi> STORMONTH.</head>
+            <opener>
+               <salute>MADAME,</salute>
+            </opener>
+            <p>AFter that I had receaved <hi>ſome woundes in<gap reason="illegible" resp="#OXF" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> the houſe of my friends,</hi>
+               <note place="margin">Zach 13.6</note> I contracted much me<g ref="char:EOLhyphen"/>lancholy, which brought vpon me ſo great ſickneſſe and weakneſſe,<note place="margin">2 Cor. 1.9</note> that I <hi>receaved in my ſelfe the ſentence of death:</hi> In the which estate your L. may eaſily conſider, that ſuch a man as I, both ſhould and would haue deepe meditation of death, and ſo indeede I had, being reſolved to die at that tyme: yet it was the goodwill of GOD to continue my life, which hath con<g ref="char:EOLhyphen"/>tinued ſince that tyme, ſome ſixe yeares or more: therefore I thought it was good for me to make better preparation against the next aſſault of that enemie, which to <pb facs="tcp:22279:3"/>all true Christians (as witneſſeth the A<g ref="char:EOLhyphen"/>poſtle) is <hi>the laſt enemie:</hi>
+               <note place="margin">1 Cor. 15.26</note> and ſo I ſet my ſelfe to recognoſce both my terrours and conſolations in that firſt conflict, for remedie againſt the one, and confirmation of the other. I read in Scripture, in good Chriſtian mens works, and in Heathen writers, ſo much as could come to my hand concerning death; and gathered the ſame together as I thought meete for my purpoſe mixing them in this treatiſe, as you may ſee: The trueth is, my firſt intention in writing, was only to reviſe the ſame for mine owne vſe: but after that I did let ſome of mine acquaintance ſee it, men lear<g ref="char:EOLhyphen"/>ned and fearing GOD, who told me, I did not well to obſcure it, ſeing it might doe good to others, I gaue way to their coun<g ref="char:EOLhyphen"/>ſell, and remembered the common axiome, <hi>Bonum quo communius eo melius.</hi> The naturall gift that I haue of vtterance<g ref="char:punc">▪</g> be<g ref="char:EOLhyphen"/>ing more Laconick than Atticke, I haue vſed in writting heereof: yea, the ſhort<g ref="char:EOLhyphen"/>neſſe not only of ſentences; but of purpoſe alſo I purpoſely affectate in treating of this ſubject <hi>Death,</hi> yet labouring to bee plaine: for I thinke, if either information, <pb facs="tcp:22279:3"/>or conſolation concerning death might be well contryved in as few ſhort aphoriſmes, as there be letters in an <hi>A, B, C:</hi> it were the better both for the mynd and memory of the patient in that agonie.</p>
+            <p>Now the reaſons wherefore I haue de<g ref="char:EOLhyphen"/>dicated this little treatiſe to your L: are: first, becauſe I haue this honour to be your L. kinſeman, and of your ſurname. Se<g ref="char:EOLhyphen"/>condly, becauſe for honour, vertue;
+<hi>viz.</hi> Pietie, charitie, ſobrietie, I eſteeme more of your L. than any one of my kinsfolk and ſurname. Thirdly, becauſe your L. is not aſhamed to profeſſe, I was the man who firſt taught you the rudiments of re<g ref="char:EOLhyphen"/>ligion, to make you thinke of the way how to liue well. Now I pray GOD that the reading, and meditation of this treatiſe may be a meane to helpe your L. to die well, I thinke it needleſſe to put a lon<g ref="char:EOLhyphen"/>ger Epistle before ſo little a Booke, least the head ſhould bee bigger than the bo<g ref="char:EOLhyphen"/>die, and ſo the birth monſtrous. So I reſt,</p>
+            <closer>
+               <signed>Your H. Couſine to ſerue you in the LORD,
+<hi>M<hi rend="sup">r</hi>. WILLIAM MORRAY.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div xml:lang="lat" type="encomium">
+            <pb facs="tcp:22279:4"/>
+            <head>
+               <hi>AD</hi> GVLIELMVM MORAVIVM <hi>VERBI DIVINI APVD CARA<g ref="char:EOLhyphen"/>LIENSES</hi> PRAECONEM, APPRIME ILLVSTREM.</head>
+            <l>BIS denos cum laude gregem, &amp; ſex inſuper annos</l>
+            <l>Paviſti, illuſtris praeco, liquore ſacro.</l>
+            <l>Optima trivisti celebris ſic tempora vitae</l>
+            <l>Iucieio ambiguum major an ingenio.</l>
+            <l>Neſcio quis maeror pullum statione graviſ<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan>
+            </l>
+            <l>Invaſit morbus, detinuit<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> diu.</l>
+            <l>Hinc excita tibi prodit meditatio mortis</l>
+            <l>Seria, poſt cineres non peritura tuos.</l>
+            <l>Si languor, morbi<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> graves producere fructus</l>
+            <l>Hos valeant; quales ederet ergo ſaluit</l>
+            <closer>
+               <signed>
+                  <hi>ROB. CRAFORDUS, alias</hi> Lunnaeus.</signed>
+            </closer>
+         </div>
+         <div xml:lang="lat" type="to_the_reader">
+            <pb facs="tcp:22279:4"/>
+            <head>AD EVNDEM, ET <hi>LECTOREM,</hi>
+            </head>
+            <l>HIC liber eſt cultus labor vtilis, optimus Author,</l>
+            <l>Sancta verecundo verba lepore refert.</l>
+            <l>Perlege, &amp; invenies quâ tu ſis morte beatus,</l>
+            <l>Morte docet vitam vivere, morte viam.</l>
+            <l>Si cupias mortis ſanctae ſimulachra tenere,</l>
+            <l>Quae Domino placeant, collige monstrat iter.</l>
+            <l>
+               <g ref="char:V">Ʋ</g>t legi, obstupui, perpendens ſingula mente,</l>
+            <l>Inveni, Ambroſio rore &amp; odore fragrant.</l>
+            <l>Et cellas inopum, turres regum<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> ſuperbas</l>
+            <l>Pallida mors pulſat, limina nulla timet.</l>
+            <l>Aſt hâc morte potes, non mortis vincta timere,</l>
+            <l>Si bene, ſi ſanctè ſingula corde premas.</l>
+            <l>
+               <g ref="char:V">Ʋ</g>ndas majoris ſomni, ſtygis at<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> perennis</l>
+            <l>Tu fluctus spernes, cum legis hunc <hi>Mora vum.</hi>
+            </l>
+            <l>Haec paucis docuit, rimeniur ſingula, dices</l>
+            <l>Stigmare quam ſancto, condere mente vola.</l>
+            <l>Macte diu felix, qui vitae limina luſtras,</l>
+            <l>Per mortis varios, per vada pura gradus.</l>
+            <l>
+               <g ref="char:V">Ʋ</g>ade liber <hi>Moravi,</hi> preconia funde per orbem</l>
+            <l>Laudis, quae ſcripſit dicere ne pudeat.</l>
+            <l>Buccina ſi <hi>Buchanani</hi> eſſet, ſi vena
+<hi>Maronis,</hi>
+            </l>
+            <l>Encomium nequeo quod meret exprimere.</l>
+            <l>Qui<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> To<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>em carpſit, quod tauri cornua fronti</l>
+            <l>Impoſuit, non is quod reprehendat habet.</l>
+            <closer>
+               <signed>DAVID MAXUELLIUS.</signed>
+            </closer>
+         </div>
+         <div xml:lang="eng" type="table_of_contents">
+            <pb facs="tcp:22279:5"/>
+            <head>The contents of this treatiſe.</head>
+            <list>
+               <item>
+                  <label>CHAP. 1.</label> Of the meditation of death.</item>
+               <item>
+                  <label>Chap. 2.</label> What death is, and of the cauſes of naturall death.</item>
+               <item>
+                  <label>Chap. 3.</label> Of the feare of death.</item>
+               <item>
+                  <label>Chap. 4.</label> Remedies and comforts a<g ref="char:EOLhyphen"/>gainſt the feare of naturall death.</item>
+               <item>
+                  <label>Chap. 5.</label> Remedies and comforts a<g ref="char:EOLhyphen"/>gainſt the feare of death, which proceedeth from ignorance, infidelitie, or deſpaire.</item>
+               <item>
+                  <label>Chap. 6.</label> Of the deſire of death, and how we may die both peaceably and well.</item>
+            </list>
+         </div>
+      </front>
+      <body>
+         <div xml:lang="eng" type="treatise">
+            <pb n="1" facs="tcp:22279:5"/>
+            <head>A SHORT TREA<g ref="char:EOLhyphen"/>TISE OF DEATH.</head>
+            <div n="1" type="chapter">
+               <head>The first Chapter, Of the meditation of death.</head>
+               <p>
+                  <seg rend="decorInit">T</seg>HE oft meditation of death is both neceſſare, and profitable to make vs liue well, and die well. Firſt, becauſe there is no<g ref="char:EOLhyphen"/>thing more ſure than that we muſt once die: and it is moſt vncer<g ref="char:EOLhyphen"/>taine, how, when, or where we ſhall die. An Auncient ſayeth well,
+<pb n="2" facs="tcp:22279:6"/>
+                  <q>
+                     <l>Nemo tam divos habuit faventeis,</l>
+                     <l>
+                        <note place="margin">Seneca in Traged.</note>Crastinum vt poſſit ſibi polliceri.</l>
+                  </q>
+               </p>
+               <p>That is to ſay,
+<q>
+                     <l>The Gods to none ſuch favour giue,</l>
+                     <l>They promiſe may the morne to liue.</l>
+                  </q>
+               </p>
+               <p>Therefore wee ſhould meditate often of death, alwayes preparing vs for it, ac<g ref="char:EOLhyphen"/>cording to the counſell of the Poet,
+<q>
+                     <l>Inter spem, curam<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan>, timores inter &amp; iras,</l>
+                     <l>Omnem crede diem tibi diluxiſſe ſupremu<g ref="char:cmbAbbrStroke">̄</g>.</l>
+                  </q>
+               </p>
+               <p>That is to ſay.</p>
+               <q>
+                  <l>Amidst thy hope,<note place="margin">Horat. Epiſt. 1.</note> thy care, thy feare, thy wrath,</l>
+                  <l>Thinke everie day thy laſt, looke for thy death.</l>
+                  <l>Qui non vult hodie, cras minus aptus erit,</l>
+               </q>
+               <p>That is,
+<q>
+                     <l>
+                        <hi>This day who is not readie,</hi>
+                     </l>
+                     <l>
+                        <hi>the morne ſhall leſſe bee.</hi>
+                        <note place="margin">Ovid.</note>
+                     </l>
+                  </q>
+               </p>
+               <p>In actions which are both of diffi<g ref="char:EOLhyphen"/>cultie and weight, we draw to perfe<g ref="char:EOLhyphen"/>ction by often vſe. It is an hard mat<g ref="char:EOLhyphen"/>ter to die either willingly or well: the errors whereof may turne vs to the tor<g ref="char:EOLhyphen"/>ments of hels fire, for that which com<g ref="char:EOLhyphen"/>meth laſt is everlaſting. Wee ought therefore both tymelie and diligently to ſearch the ſtep of the dark and ſto<g ref="char:EOLhyphen"/>nie <pb facs="tcp:22279:6"/>way of death, that by often medi<g ref="char:EOLhyphen"/>tation of death, dying often, we may in end die both eaſily and well.</p>
+               <p>
+                  <hi>Cicero</hi> ſayeth, that the whole life of wiſe men is the meditation of death.<note place="margin">Somnium Scip.</note> And it is recorded of the <hi>Macedoni<g ref="char:EOLhyphen"/>an</hi> King, that he commanded his Page once everie day to come, and ſay to him. <hi>Remember thou art mortall.</hi> That holy man <hi>Hieronimus</hi> had alwayes in his ſtudie beſides him a dead mans skull, and running glaſſe, to keepe him in mynd of ſhortneſſe of his life, and certaintie of his death.</p>
+               <p>Secondly: the often meditation of death is neceſſare and profitable, to make vs liue and die well, becauſe it is a ſtrong bitte and bridle againſt ſinne. Remem<g ref="char:EOLhyphen"/>ber thy death, (ſayeth <hi>Ierome</hi>) and thou ſhall not ſinne: and GOD ſpeaking by <hi>Moſes</hi> of his people
+<hi>Iſraell,</hi> ſayeth,<note place="margin">Deuter. 32.29</note> 
+                  <hi>O that they were wiſe, then would they vn<g ref="char:EOLhyphen"/>derstand this, they would conſider their latter end:</hi> and IEREMIE,<note place="margin">Lament. 1.9.</note> 
+                  <hi>Her filthineſſe is in her ſkirts ſhe remembered not her laſt end:</hi>
+                  <note place="margin">Eccleſ. 11.9</note> and SALOMON (ſcorning the folly of youth) ſayeth, <hi>Rejoyce O young man <pb n="4" facs="tcp:22279:7"/>in thy youth, and let thy heart cheare thee in the dayes of thine youth, and walke in the wayes of thine heart; and in the ſight of thine eyes:</hi> then he addeth, (as water to their wyne) <hi>but know thou, that for all theſe things GOD will bring thee to judgement.</hi>
+               </p>
+               <p>Thirdly: often meditation of death cauſeth vs to contemne this ſhort vaine life, wherein <hi>all is vanitie and vexation of Spirit,</hi> which is like to a dreame, a ſhaddow, a vapour: like to the way of a ſhip in the ſea, or like to an arrow ſhot foorth of a bow, which both, when they are paſt, their trace is no more ſeene: and man in this life is like the flower of the field, which ſor a tyme is greene, but afterwards withereth and falleth downe: ſo I may ſay with one,
+<q>
+                     <l>
+                        <g ref="char:V">Ʋ</g>ita quid eſt hominum, niſi vallis plena malorum.</l>
+                     <l>Principio, medio, fine dolenda ſuo.</l>
+                  </q>
+               </p>
+               <p>That is to ſay,
+<q>
+                     <l>What is mans life? a valley full of ill,</l>
+                     <l>Beginning, mids, and end lamenting ſtill.</l>
+                  </q>
+               </p>
+               <p>
+                  <hi>And with an other,</hi> 
+                  <pb n="5" facs="tcp:22279:7"/>
+                  <q>
+                     <l>What if a day, or a month, or a yeare,</l>
+                     <l>Crowne thy delights with a thouſand wiſht contentings?<note place="margin">Eſſex la<g ref="char:EOLhyphen"/>ment.</note>
+                     </l>
+                     <l>Can not the chaunce of a night, or an houre</l>
+                     <l>Croſſe thy delights with as ma<g ref="char:EOLhyphen"/>ny ſad tormentings?</l>
+                  </q>
+               </p>
+               <p>Finally: this often meditation of death prepareth vs for it, and armeth vs againſt it, ſo that it commeth not to vs vnawars, as a thiefe in the night: but wee looke for it, wee watch and pray for ſtrength and comfort in the houre of it: and when it commeth, will ſay with old <hi>Simeon,</hi> Now LORD thou letteſt thy ſervant de<g ref="char:EOLhyphen"/>part in peace: and alſo with
+<hi>David</hi> and CHRIST, In thy hands O LORD I com<g ref="char:EOLhyphen"/>mend my Spirit; and with the firſt Chriſtian Martyre <hi>Stephen,</hi> LORD IE<g ref="char:EOLhyphen"/>SUS receaue my Spirit.</p>
+            </div>
+            <div n="2" type="chapter">
+               <head>The ſecond Chapter. What death is, and of the cau<g ref="char:EOLhyphen"/>ſes of naturall death.</head>
+               <p>IN holy Scripture death is taken in diverſe ſenſes: as firſt, and moſt pro<g ref="char:EOLhyphen"/>perly for the diſſolution of ſoule and bo<g ref="char:EOLhyphen"/>dy.
+<pb n="6" facs="tcp:22279:8"/>Secondly: for the ſeparation of ſoule from GOD his grace and favour. Third<g ref="char:EOLhyphen"/>ly, for the ſeparation both of bodie and ſoule from GOD his grace and glorie eternallie.</p>
+               <p>Death then beeing taken into the firſt ſenſe, is commoun to all mankynd, ſince the fall of <hi>Adam</hi> and <hi>Evah,</hi> our firſt Parents, as witneſſeth the Apoſtle, ſaying, <hi>As by one man, ſinne entered in the world,</hi>
+                  <note place="margin">Rom. 5.12</note> 
+                  <hi>and by ſinne death;</hi> and ſo death went over all men, <hi>for all men haue ſinned.</hi>
+               </p>
+               <p>In the ſecond ſenſe, death ſince the fall of our firſt Parents is alſo common to all mankind, vntill they be quickned againe by the Spirit of regeneration: as teſti<g ref="char:EOLhyphen"/>fieth this ſame Apoſtle, ſaying,
+<hi>And you hath he quickned, who were dead in ſinnes and treſpaſſes.</hi>
+                  <note place="margin">Epheſ. 2.1.</note>
+               </p>
+               <p>In the third ſenſe: Death is only pro<g ref="char:EOLhyphen"/>per to the Reprobate: and it is called in holy Scripture <hi>the ſecond death,</hi> as po<g ref="char:EOLhyphen"/>ſterior to the firſt, which wee call na<g ref="char:EOLhyphen"/>turall death, from this death, there is a promiſe of GOD, that all ſuch ſhall bee delivered,<note place="margin">Revel 20<g ref="char:punc">▪</g> 6</note> 
+                  <hi>who are partakers of the firſt
+<pb n="7" facs="tcp:22279:8"/>reſurrection,</hi> that is, of true faith and repentance.</p>
+               <p>Now in order of time, death in finne is firſt, that is to ſay, the ſeparation of ſoule and body from GOD his grace and favour: Naturall death which is the ſeparation of ſoule and body is next: E<g ref="char:EOLhyphen"/>verlaſting death which is the ſeparation of both ſoule and body from the grace and glory of GOD for ever, laſt. The firſt ſort of death is verie fearefull, (but the feare of it apprehended by few) be<g ref="char:EOLhyphen"/>cauſe it floweth from the wrath of GOD, and is a death in ſinne, a ſpirituall death: yet it is not deſperate, for <hi>Christ died for vs,</hi>
+                  <note place="margin">Rom.
+4.25</note> 
+                  <hi>and roſe againe to justifie and ſan<g ref="char:EOLhyphen"/>ctifie vs:</hi> And GOD for his ſake freely forgiues our ſinne, who beleeue in his Sonne: his Spirit is given vs with his word and Sacraments, to regenerate and quicken, and at laſt to <hi>perfectly ſancti<g ref="char:EOLhyphen"/>fie vs.</hi>
+                  <note place="margin">2 Cor.
+3.18</note>
+               </p>
+               <p>The ſecond ſort of death is alſo feare<g ref="char:EOLhyphen"/>full, becauſe in the owne nature of it, it is the puniſhment of ſinne: Alſo becauſe in this diſſolution of ſoule and body, that haue beene ſtraitly and long joyned to<g ref="char:EOLhyphen"/>gether, <pb n="8" facs="tcp:22279:9"/>and acquaint one with other, as two neare and deare friends, they are loath to ſunder: So nature abhorreth and feareth this very naturall death: but faith and grace overcommeth this horror and feare, and maketh the true Chriſtians to triumph over death. As witneſſeth the Apoſtle, when hee ſaid, <hi>O wretched man that I am, who ſhall deliver mee from this body of death!</hi>
+                  <note place="margin">Rom. 7
+24.25</note> 
+                  <hi>I thanke GOD through Ie<g ref="char:EOLhyphen"/>ſus Chriſt:</hi> And in an other place, <hi>O death where is thy sting?</hi>
+                  <note place="margin">
+                     <hi>1</hi> Cor.
+<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>5 55.56.57</note> 
+                  <hi>The ſting of death is ſinne, and the ſtrength of ſinne is the Law:</hi> But ihanks bee to GOD, who giveth vs the victorie, through our LORD IE<g ref="char:EOLhyphen"/>SVS CHRIST.</p>
+               <p>The third ſort of death is moſt terrible, becauſe from it there is no redemption, nor delyverie, if once wee bee plunged therein: It is therefore called the ſecond death, the wrath to come, everlaſting fire, everlaſting paine, everlaſting de<g ref="char:EOLhyphen"/>ſtruction, from the which, both living and dying wee ſhould labour, and pray to bee delivered, ſeeing wee are war<g ref="char:EOLhyphen"/>ned to <hi>flie from the wrath to come:</hi>
+                  <note place="margin">Math.
+37</note> And IESUS CHRIST hath delivered all <pb n="9" facs="tcp:22279:9"/>true Chriſtians from thence.</p>
+               <p>This much of the diverſe ſorts of death,<note place="margin">1 Theſſ 1.10</note> whereof the holy Scripture maketh mention.</p>
+               <p>Now I minde chiefly to ſpeake of na<g ref="char:EOLhyphen"/>turall death which I define: The diſſo<g ref="char:EOLhyphen"/>lution of ſoule and body: The cauſes there of are theſe following: Firſt, the effici<g ref="char:EOLhyphen"/>ent cauſe of death is ſinne; for if man and woman had not ſinned, they ſhould not haue died: Thus GOD did ſignifie to our firſt Parents, by the tree of life, and the tree of the knowledge of good and evill, which grew in the midſt of the Garden in
+<hi>Eden.</hi>
+               </p>
+               <p>The firſt was to him a Sacrament or ſigne, that ſo long as they continued in GODS obedience they ſhould liue hap<g ref="char:EOLhyphen"/>pily: The ſecond was to them a Sacra<g ref="char:EOLhyphen"/>ment or ſigne, that ſo ſoone as they ſhould tranſgreſſe GODS commande<g ref="char:EOLhyphen"/>ment they ſhould die: This is evident of GODS owne words to them, which contained a command or permiſſion, when hee ſaid: <hi>Of every tree in the Gar<g ref="char:EOLhyphen"/>den you ſhall freely eate:</hi>
+                  <note place="margin">Geneſ. 2 16.17</note> and an inhibiti<g ref="char:EOLhyphen"/>on with a threatning, when hee ſaid, <pb n="10" facs="tcp:22279:10"/>
+                  <hi>But of the tree of the knowledge of good and evill, thou ſhall not eate of it: for in the day thou eateſt thereof, dying, thou ſhall die:</hi> Alſo the holy Apoſtle affirmeth, ſinne to bee the efficient cauſe of death,<note place="margin">Rom. 5.12</note> even that which provocked GOD to pu<g ref="char:EOLhyphen"/>niſh mankynd with death.</p>
+               <p>Materiall cauſe death hath none, nei<g ref="char:EOLhyphen"/>ther properly formall: As no privation hath either matter or forme, as darkneſſe is the privation, or abſence of light, ſick<g ref="char:EOLhyphen"/>neſſe the privation or abſence of health: ſo death is the privation or abſence of lyfe from the bodie.</p>
+               <p>The finall cauſes of death are chiefly two: The firſt is, the manifeſtation of GODS juſtice and trueth: His juſtice in puniſhing ſinne; His trueth in executing his owne threatning. In the day thou eateſt thereof, (to wit of the forbidden tree) dying, thou ſhalt die: Now albeit this death in the ſame day, when they eate of the fruite of the forbidden tree, was not conſummat: yet that ſame very day it ſeaſed vpon them: Therefore <hi>Se<g ref="char:EOLhyphen"/>neca</hi> ſayeth truely,<note place="margin">Epiſt.
+24</note> Wee part this ſame verie day of our life with death: As the
+<pb n="11" facs="tcp:22279:10" rendition="simple:additions"/>laſt drop ſpoiles not the running Glaſſe, but that alſo which runne before; ſo our laſt houre, wherein wee ceaſe to liue, maketh not death alone, but perfiteth it alone.</p>
+               <p>The other finall cauſe of death was to humble man and woman, whoſe firſt principall ſinne was pryde: therefore GOD told them after they had waxed proude, and rebellious:<note place="margin">Geneſ. 3.19</note>
+                  <hi>Dust thou art and vnto dust ſhalt thou returne:</hi> The con<g ref="char:EOLhyphen"/>ſideration heereof made <hi>Abraham</hi> humble, when hee ſaid,<note place="margin">Gen 18
+27</note> 
+                  <hi>Shall duſt and aſhes speake to my LORD?</hi> And <hi>Iob</hi> when hee ſaid,<note place="margin">Iob. 17.14</note> 
+                  <hi>I haue ſaid to corruption thou art my father.</hi>
+               </p>
+               <p>The conſideration of death, and of the cauſes thereof, ſhould teach vs, firſt, not to marvaile that death is fearefull to all fleſh, it being the ſeparation of the ſoule from the bodie: This made our LORD IESUS CHRIST naturally to feare death, yet without ſinne<g ref="char:punc">▪</g> when he prayed:<note place="margin">
+                     <gap reason="illegible" resp="#OXF" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </note> 
+                  <hi>Fa<g ref="char:EOLhyphen"/>ther let this cuppe depart from mee:</hi> But to vs death is the mo<gap reason="illegible" resp="#OXF" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> fearefull, becauſe in the owne nature of it, it is the juſt pu<g ref="char:EOLhyphen"/>niſhment of ſinne, as teſtifieth the A<g ref="char:EOLhyphen"/>poſtle, <pb n="12" facs="tcp:22279:11"/>ſaying, <hi>The wages of ſinne is death.</hi>
+               </p>
+               <p>Secondly,<note place="margin">Rom. 6.23</note> This conſideration of death, and of the cauſes thereof, ſhould teach vs, not to murmure or grudge againſt GOD, when our laſt houre commeth, but meditate vpon GODS juſtice and trueth foreſaid. And ſay with David, <hi>I was ſilent becauſe thou did it,</hi>
+                  <note place="margin">Pſal. 39
+<hi>9</hi>
+                  </note> which words that godly man M<hi rend="sup">r</hi>. <hi>Calvin</hi> had alwayes in his mouth,<note place="margin">Vide Cal<g ref="char:EOLhyphen"/>vini vitam.</note> in the extreame paines of ſickneſſe and death.</p>
+               <p>Thirdly: this conſideration of death, and of the cauſes thereof, ſhould teach vs to abhorre pride, and to bee humble, following the example of <hi>Abraham, Iob, David, Hezekiah;</hi> and other holy men of GOD.</p>
+               <p>Fourthly: this conſideration of death and the cauſes thereof ſhould teach vs to follow the counſell of <hi>Salomon, Remem<g ref="char:EOLhyphen"/>ber now thy Creator in the dayes of thy youth,</hi>
+                  <note place="margin">Eccleſ. 12.1</note>
+                  <hi>whiles the evill dayes come not, nor the yeares approch, wherein thou ſhall ſay I haue no pleaſure in them:</hi> that is, before ſickneſſe, old age, and death come vpon vs, as afterwards hee expoundeth.</p>
+            </div>
+            <div n="3" type="chapter">
+               <pb n="13" facs="tcp:22279:11" rendition="simple:additions"/>
+               <head>The third Chapter.<note place="margin">CHAP. 3.</note> Of the feare of death.</head>
+               <p>THere is a twofold feare of death, wherevnto wee are ſubject: one na<g ref="char:EOLhyphen"/>turall, when wee abhorre the ſeparation of the ſoule from the body: and this feare of death may bee without ſinne: for our LORD IESUS CHRIST, who knew no ſinne, was ſubject therevnto, when hee prayed ſundrie tymes, and ſaid, <hi>Father let this cuppe depart from mee:</hi> and hee prayed to him who was able to ſaue him from death,<note place="margin">
+                     <gap reason="illegible" resp="#OXF" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </note> and was heard in that which he feared, as the Apoſtle te<g ref="char:EOLhyphen"/>ſtifyeth. Alſo when wee feare it, as it is the puniſhment of ſinne, that feare is good, that we may repent, hope for mer<g ref="char:EOLhyphen"/>cie, and be comforted. This feare of death was in <hi>Paul,</hi> when he ſaid,<note place="margin">
+                     <gap reason="illegible" resp="#OXF" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>
+                  </note> 
+                  <hi>O miſerable man that I am! Who ſhall delyver mee from this body of death?</hi> Againſt which immediately hee was comforted, by me<g ref="char:EOLhyphen"/>ditation of GODS mercie in CHRIST: and ſaid, <hi>I thanke GOD through IESVS <pb n="14" facs="tcp:22279:12"/>CHRIST our LORD, &amp;c.</hi>
+               </p>
+               <p>We may alſo lawfully feare death, be<g ref="char:EOLhyphen"/>cauſe thereby we are depryved of com<g ref="char:EOLhyphen"/>fort, in Church, or Common-wealth, which, living, we our ſelfe had, or did communicate to others. Thus did <hi>Da<g ref="char:EOLhyphen"/>vid</hi> feare death,<note place="margin">Pſal. 6.5</note> when he ſaid, <hi>In death there is no rememberance of thee O Lord! in the graue who ſhall giue thee thankes?</hi> And in an other place,<note place="margin">Pſal. 30.9</note>
+                  <hi>What profite is there in my blood, when I goe downe to the pit? Shall the duſt praiſe thee O LORD? Shall it declare thy trueth?</hi> This ſame feare of death was in <hi>Hezekiah,</hi> when hee ſaid,<note place="margin">Iſa. 38.11</note> 
+                  <hi>I ſhall not ſee the LORD, even the LORD in the land of the living. I ſhall behold man no more with the inhabi<g ref="char:EOLhyphen"/>tants of the world:</hi> and this much of the lawfull feare of death.</p>
+               <p>There is an other kynd of feare of death, which is vnlawfull and ſinfull, and therefore to be corrected, ſtriven a<g ref="char:EOLhyphen"/>gainſt, and reſiſted: this feare of death proceedeth of ignorance, infidelitie, or of deſpaire.</p>
+               <p>Ignorance: when a man thinking v<g ref="char:EOLhyphen"/>pon death, knoweth not what ſhall be<g ref="char:EOLhyphen"/>come <pb n="15" facs="tcp:22279:12"/>of his ſoule, departing from his bodie.</p>
+               <p>This feare of death was in <hi>Adrian</hi> the Empreour, who a little before his death ſpake theſe verſes,
+<q>
+                     <l>Animula, vagula, blandula,</l>
+                     <l>Hospes, comeſ<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> corporis:</l>
+                     <l>Quae nunc abibis in loca?</l>
+                     <l>Pallidula, rigida, nudula,</l>
+                     <l>Nec ut ſoles dabis jocos.</l>
+                  </q>
+               </p>
+               <p>That is to ſay,
+<q>
+                     <l>Litle, vaging, merrie ſoule,</l>
+                     <l>Body's companion, and gueſt:</l>
+                     <l>Now to what places ſhalt thou goe?</l>
+                     <l>Pale, alriſh, naked, in this haſt;</l>
+                     <l>Neither ſhall any more,</l>
+                     <l>Make ſports as before,</l>
+                  </q>
+               </p>
+               <p>The feare of death which commeth of infidelitie, is, when a man thinking vpon death, or dying; belieues not in GOD through IESUS CHRIST, for re<g ref="char:EOLhyphen"/>miſſion of his ſinnes, and deliverance from the ſecond death which is Hell: To this feare the children of GOD may bee, and haue beene ſubject; yet it is an vn<g ref="char:EOLhyphen"/>lawfull, and ſinfull feare, and commeth by Sathan his tentation, the conſcience <pb n="16" facs="tcp:22279:13"/>of ſinne, and weakneſſe of faith: This feare was in <hi>David,</hi>
+                  <note place="margin">Pſal.
+22.1</note> when hee cryed out <hi>My GOD! my GOD! why haſt thou forſaken mee?</hi> And in <hi>Hezekiah,</hi> when he ſaid,<note place="margin">Iſaiah
+38 12.13.</note> 
+                  <hi>From day even to night will thou make an end of mee, &amp;c.</hi>
+               </p>
+               <p>To this feare all thoſe are ſubject who know there is a GOD, a Heaven, a Hell, ever while they get the ſaving know<g ref="char:EOLhyphen"/>ledge of CHRIST, and belieue in him, that hee died for them, and roſe againe to deliver them from the bondage of Sa<g ref="char:EOLhyphen"/>than, ſinne, and death: As teſtifieth the Apoſtle, ſaying, (CHRIST) <hi>Hee alſo tooke part of the ſame,</hi> (fleſh and blood) <hi>that through death he might destroy him,</hi>
+                  <note place="margin">Hebr. 2 14.15</note> 
+                  <hi>that had the power of death, that is the Devill: And deliver them who through feare of death were all their lifetime ſub<g ref="char:EOLhyphen"/>ject to bondage.</hi>
+               </p>
+               <p>The feare of death that commeth of deſperation, of all ſorts of feare of death is worſt, for there is no remedie againſt it, if it bee totall: And finall: yea, it is a haynous ſinne, for it denyeth both Gods power and mercie to ſaue a ſinner, and the trueth of his promiſes thereanent: <pb n="17" facs="tcp:22279:13"/>And it is a fooliſh feare for oft times men and women, giving place to this feare, for feare of death and Hell, precipitate themſelfe in both, as the examples of <hi>Saul, Achitophel, Iudas,</hi> and many o<g ref="char:EOLhyphen"/>thers proue.</p>
+            </div>
+            <div n="4" type="chapter">
+               <head>The fourth Chapter. Remedies and comforts against the feare of naturall death.</head>
+               <p>ALbeit (as I haue ſaid in the former chapter) there bee a ſort of feare of death, which may bee without ſinne, yet there is no ſort of feare of death with out paine and trouble to the patient, as witneſſeth the Apoſtle <hi>Iohn,</hi>
+                  <note place="margin">1 Iohn 4.18</note> ſaying in<g ref="char:EOLhyphen"/>definitly or generally of feare, <hi>feare hath torment:</hi> Therefore conſolations and re<g ref="char:EOLhyphen"/>medies are to bee ſought againſt all ſorts of feare of death.</p>
+               <p>Conſolations and remedies againſt that feare of death, which I called natu<g ref="char:EOLhyphen"/>rall, wherevnto all mankynd haue beene, or ſhall be ſubject, (CHRIST IESUS our LORD not excepted) are theſe following.</p>
+               <pb n="18" facs="tcp:22279:14"/>
+               <p>The firſt and moſt ſoveraine remedie againſt the naturall feare of death, is to haue faith and confidence in GODS loue mercie and trueth, according to his pro<g ref="char:EOLhyphen"/>miſes. Thus did <hi>David</hi> comfort him<g ref="char:EOLhyphen"/>ſelfe againſt this ſort of feare of death, when hee ſaid,
+<hi>Though I ſhould walke though the valey of the ſhadow of death,</hi>
+                  <note place="margin">Pſal. 23.4</note> 
+                  <hi>I will feare no evill: for thou art with mee: thy rode and thy ſtaffe, they comfort mee.</hi> So did
+<hi>Simeon</hi> comfort himſelfe, when hee ſaid, <hi>LORD, now lettest thou thy ſervant depart in peace,</hi>
+                  <note place="margin">Luke 2 29.30</note>
+                  <hi>according to thy word: For mine eyes haue ſeene thy ſalvation.</hi> So did CHRIST IESUS our LORD,<note place="margin">Luke 22 42</note> when hee ſaid,
+<hi>Not my will but thy will be done:</hi> And <hi>Father in thy hands I commend my spirit:</hi> which prayers of his the Apoſtle expoundeth thus:
+<hi>In the dayes of his fleſh he offered vp prayers and ſupplications, with ſtrong crying &amp; teares vnto him,</hi>
+                  <note place="margin">Heb. 5 7</note>
+                  <hi>that was able to ſaue him from death, and was alſo heard in that which hee feared.</hi>
+               </p>
+               <p>The ſecond comfort and remedie a<g ref="char:EOLhyphen"/>gainſt the feare of death naturall, is to meditate: Firſt, That the day of death is <pb n="19" facs="tcp:22279:14"/>better nor the day of birth, as <hi>Salomon</hi> ſayeth, <hi>For by death ſinne is aboliſhed,</hi>
+                  <note place="margin">Eccleſ. 7.10</note>
+                  <hi>and after it wee ſhall ſinne no more.</hi> But by birth wee enter into a ſinfull life: and by death the body is fred from all ſenſe of miſerie, and is no more an inſtrument actiue or paſſiue of ſinne: but by birth our bodies are ſubject to the ſenſe of many miſeries, and
+<hi>the members thereof made weapons of vnrighteouſneſſe to ſerue ſin.</hi>
+                  <note place="margin">Rom. 6.13</note> By death our ſoule entereth vnto an hap<g ref="char:EOLhyphen"/>pie and eternall life: by birth it entereth vnto a miſerable and mortall life; there<g ref="char:EOLhyphen"/>fore death not only is not to be feared by a Chriſtian, but in ſome reſpects is rather to bee wiſhed, and hoped for with joy, for by death wee goe out of this pilgrimage home to our father in Heaven, from baniſhment vnto a King<g ref="char:EOLhyphen"/>dome, from priſon to a palace, from dark<g ref="char:EOLhyphen"/>neſſe to light, from death to life, from dangers vnto ſecuritie, from labour to reſt, from all manner of miſerie to e<g ref="char:EOLhyphen"/>verlaſting felicitie.</p>
+               <p>Next: we ſhould meditate, that it is as great folly to feare death, as to feare old age: for as old age followeth after <pb n="20" facs="tcp:22279:15"/>youth, ſo death followeth after old age, and the failed tabernacle of the bodie falleth: therefore, as they who dwell in ruinous houſes, ſtudie not ſo much vpon the falling of the houſe, as how with diligence to get out; ſo we ſhould be al<g ref="char:EOLhyphen"/>wayes readie to die, and not ſtand ama<g ref="char:EOLhyphen"/>zed with the feare of death.</p>
+               <p>If therefore we will feare death, wee muſt ever feare it, for there is nothing more certaine than that once wee ſhall die: and nothing more vncertaine than how, where, or when we ſhall die: ſo it is a great folly to vs, to hold our ſelues in the continuall torment of the feare of death: Things doubtfull are to be feared, but things certaine (as death) to bee exſpected.</p>
+               <p>Thirdly: we ſhould meditate, that our life is like vnto a ſhip in voyage by ſea, wherein when wee haue outſailed our bairne-age, our youth, our old yeares, and the beſt yeares of old age, then the commoun end of all fleſh beginneth to kyth, which is death: we take it to bee a rock to make ſhipwrack vpon, wee are deceaved, it is not ſo, but a moſt
+<pb n="21" facs="tcp:22279:15" rendition="simple:additions"/>quyet port, harborough, or haven, there<g ref="char:EOLhyphen"/>fore he that dyeth ſooneſt, hath no more cauſe to complaine, then he who hath ſoone plyed his voyage: yea, he ſhould rejoyce, for <hi>hee dyeth young whom God loveth,</hi> ſayeth <hi>Meander:</hi> and the Pro<g ref="char:EOLhyphen"/>phet ſayeth,<note place="margin">
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> 57.1</note>
+                  <hi>Now conſider that righteous men are taken away from the evill to come.</hi>
+               </p>
+               <p>Fourthly: wee ſhould meditate, that the day of death is the birth day of eter<g ref="char:EOLhyphen"/>nall life. In our firſt birth, our mother with great paine and preaſing, put vs foorth to this life, and wee did cry and weepe: no mervaile then, though in this ſecond birth of death, we haue griefe and paine, but feare we neede not, more than wee did at our firſt birth.</p>
+               <p>Fiftlie: we ſhould meditate, that death is commoun to all:<note place="margin">Heb. 9, 2</note> It is appointed to all once to die: and the Poet ſayeth,
+<q>
+                     <l>Pallida mors aequo pulſat pede</l>
+                     <l>Pauperum tabernas, regum<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> turres.</l>
+                  </q>
+               </p>
+               <p>That is to ſay.</p>
+               <q>
+                  <l>With equall foote, death knocks at doores</l>
+                  <l>Of poore mens ſhoppes, and Princes towres.</l>
+               </q>
+               <p>Why then ſhould wee grudge, when death comes to our doore? Why ſhould <pb n="22" facs="tcp:22279:16"/>wee ſeeke a priviledge to our ſelues that is granted to none? Nay rather wee ſhould conſider, that death after old age is the gathering of ripe fruite falling, or ripe corne,<note place="margin">Iob
+5.26</note> vnto the barne firſt, and then to the girnall of God: I goe out of this life as out of an Inne,<note place="margin">De ſenect.</note> (ſaith
+<hi>Cicero</hi>) not as out of my houſe, for it was given me to abide in, not to dwell in. By death our ſoule go<g ref="char:EOLhyphen"/>eth out of priſon to liberty,<note place="margin">In epiſt.</note> ſayeth <hi>Seneca,</hi> and whatſoever we leaue behind vs after death, is as the Pilgrims baggage, left behind him when hee haſteneth home.</p>
+               <p>Finaly, Wee ſhould meditate vpon the reſurrection of our bodies: So did <hi>Iob</hi> comfort himſelfe againſt the feare of death,<note place="margin">Iob. 19.26</note> when hee ſaid, <hi>Though after my skinne wormes destroy this body, yet ſhall I ſee GOD in my fleſh.</hi> And the Martyres were tormented,<note place="margin">Heb. 11</note> and would not bee de<g ref="char:EOLhyphen"/>livered from death, that they might ob<g ref="char:EOLhyphen"/>taine a better reſurrection.</p>
+               <p>Then ſhall wee ſing that ſong of tri<g ref="char:EOLhyphen"/>umph, <hi>O death! where is thy ſting? O graue!</hi>
+                  <note place="margin">2 Cor. 15.55</note>
+                  <hi>where is thy vistorie? Seneca</hi> al<g ref="char:EOLhyphen"/>ſo comforteth vs againſt the feare of death, by this ſame argument taken from <pb n="23" facs="tcp:22279:16"/>the reſurrection, ſaying, The day ſhall come againe, which ſhall repone vs in light: and the Apoſtle <hi>Paul</hi> ſaying <hi>IE<g ref="char:EOLunhyphen"/>SVS CHRIST ſhall change our vile bodies,</hi>
+                  <note place="margin">Philip. 3</note> 
+                  <hi>that it may bee faſhioned lyke vnto his glorious bodie.</hi>
+               </p>
+            </div>
+            <div n="5" type="chapter">
+               <head>The fifth Chapter. Remedies and comforts againſt the feare of death, procee<g ref="char:EOLhyphen"/>ding from ignorance, in<g ref="char:EOLhyphen"/>fidelity, or deſpaire.</head>
+               <p>
+                  <hi>ADrian</hi> the Emperour (of whom I ſpake in the ſecond Chapter) was affrayed of death, becauſe he knew not what ſhould become of his ſoule after death. <hi>Clement</hi> the ſeventh of that name, when hee was dying, ſaid,<note place="margin">In ſpeculo Pontifie.</note> Hee ſhould ſhortly try that which all his lyfetime he doubted off, whether there were any life after this: doubtleſſe this doubting was joyned with feare, proceeding from ig<g ref="char:EOLhyphen"/>norance, if not from worſe. <hi>Salomon</hi>
+                  <pb n="24" facs="tcp:22279:17" rendition="simple:additions"/>ſpeaking in the perſon of the Atheiſt, ac<g ref="char:EOLhyphen"/>cording to the judgement of a naturall man, ſaid, <hi>Who hath marked the Spirit of man, which hath aſcended vp, and the Spirit of the beaſt,</hi>
+                  <note place="margin">Eccleſ. 3.21</note> 
+                  <hi>which hath deſcended beneath the earth:</hi> And a little before hee ſayeth, <hi>As the one dyeth, ſo dy<g ref="char:EOLhyphen"/>eth the other.</hi>
+               </p>
+               <p>This ignorance in a man dying, muſt bee joyned with feare: the remedies of this feare, is the certaine perſuaſion of that which is revealed to vs in holy Scripture: namely, that the ſoule of man is immortall and eternall, and that the ſoules of good men goe to Heaven, that is ſo: namely, firſt that the ſoule is im<g ref="char:EOLhyphen"/>mortall, theſe holy places of Scripture teſtifie: <hi>Geneſ.</hi> 1.27. So GOD created man in his owne image, in the image of GOD created he him, which words put a difference betweene mankynd, and all living creatures mentioned, created be<g ref="char:EOLhyphen"/>fore, as more excellent than they, be<g ref="char:EOLhyphen"/>cauſe of this immortall ſoule in their comelie bodyes, which even the Eth<g ref="char:EOLhyphen"/>nick Poet acknowledgeth, when that hee ſayeth.</p>
+               <pb n="25" facs="tcp:22279:17"/>
+               <q>
+                  <lg>
+                     <l>Sanctius his animal mentiſ<expan>
+                           <am>
+                              <g ref="char:abque"/>
+                           </am>
+                           <ex>que</ex>
+                        </expan> ca<g ref="char:EOLhyphen"/>pacius altae</l>
+                     <l>Deerat adhuc, &amp; quod domina<g ref="char:EOLhyphen"/>ri in caetera poſſet,</l>
+                  </lg>
+               </q>
+               <p>That is to ſay,
+<q>
+                     <lg>
+                        <l>A creature living more holy than the reſt,</l>
+                        <l>More capable alſo of a high<g ref="char:EOLhyphen"/>er mynd,</l>
+                        <l>Was wanting yet, even one to rule the reſt.</l>
+                     </lg>
+                  </q>
+               </p>
+               <p>And againe hee ſayeth,
+<q>
+                     <lg>
+                        <l>Pronaque cum spectent animan<g ref="char:EOLhyphen"/>tia caetera terram,</l>
+                        <l>Os homini ſublime dedit, Coelum<expan>
+                              <am>
+                                 <g ref="char:abque"/>
+                              </am>
+                              <ex>que</ex>
+                           </expan> tueri,</l>
+                        <l>Iuſſit, &amp; erectos ad ſidera tollere vultus.</l>
+                     </lg>
+                  </q>
+               </p>
+               <p>That is to ſay.</p>
+               <q>
+                  <lg>
+                     <l>While other living hang downe their head to dust,</l>
+                     <l>To man hee gaue high countenance, and ſaid:</l>
+                     <l>Looke vp to Heaven, where once abide thou must,</l>
+                     <l>Behold the Starres aboue, which I haue made.</l>
+                  </lg>
+               </q>
+               <p>And GOD ſaid to <hi>Abraham, Thou ſhalt goe to thy fathers in peace:</hi>
+                  <note place="margin">Gen. 15.15</note> that is to
+<pb n="26" facs="tcp:22279:18"/>ſay, Thy Spirit ſhall goe to the company of the Spirits of the faithfull, thy forbears, when it departs from thy body by death. In that ſame booke it is ſaid after, And <hi>Abraham gaue vp the ghoſt,</hi>
+                  <note place="margin">Gen. 25.8</note> 
+                  <hi>and died and was gathered to his people,</hi> this muſt bee vnderſtood of his ſoule, for his body was not buried among his forbears, but in the buriall place, which he bought in the land of
+<hi>Canaan:</hi> and ſo this ſpeach in holy Scripture, ſpoken of godly men, that when they died, they were gathered to their fathers is to be vnderſtood. David ſayeth,<note place="margin">Pſal. 16.10 Pſal.
+26.9</note> 
+                  <hi>Thou wilt not leaue my ſoule in the graue:</hi> And in an other place: <hi>Gather not my ſoule with ſinners:</hi> And in an other place,<note place="margin">Pſal. 31.6</note> 
+                  <hi>Into thy hands I commit my ſpirit:</hi> And in an other:<note place="margin">Pſal. 49 15</note> 
+                  <hi>GOD will redeeme my ſoule from the power of the graue, for hee ſhall receiue mee.</hi>
+               </p>
+               <p>
+                  <hi>Salomon</hi> ſpeaking of death,<note place="margin">Eccleſ
+12.7</note> ſayeth, <hi>Then ſhall the duſt returne to the earth as it was, and the spirit ſhall returne to God who gaue it,</hi>
+                  <note place="margin">Mat. 10.28</note> CHRIST ſayeth, <hi>Feare not them who kill the bodie, but are not able to kill the ſoule:</hi> And in an other place, citing this place of Scripture, <hi>I am <pb n="27" facs="tcp:22279:18"/>the God of Abraham, of Iſaac,</hi>
+                  <note place="margin">Math. 22.32</note> 
+                  <hi>and of Iacob:</hi> ſubjoyneth theſe words, <hi>GOD is not the God of the dead, but of the living:</hi> which words import, that although the bodies of theſe Patriarchs were dead, &amp; buried, yet their ſoules were living: And it is ſaid
+<hi>Lazarus</hi> ſoule when hee dyed,<note place="margin">Luke. 16</note>
+                  <hi>was caried</hi> by Angels to <hi>Abrahams bo<g ref="char:EOLhyphen"/>ſome:</hi> And CHRIST ſaid to the penitent Thiefe, crucified with him:<note place="margin">Luke. 23
+33</note> 
+                  <hi>To day thou ſhalt bee with mee in Paradiſe:</hi> And a lit<g ref="char:EOLhyphen"/>tle after, hee Himſelfe dying, ſaid, <hi>Fa<g ref="char:EOLhyphen"/>ther into thy hands I commend my Spirit. Stephen</hi> dying ſaid,<note place="margin">Act 5.59 Philip. 1.23</note> 
+                  <hi>LORD IESVS re<g ref="char:EOLhyphen"/>ceaue my spirit:</hi> And <hi>Paul</hi> ſaid. <hi>I deſire to bee diſſolved and bee with CHRIST:</hi> And it is ſaid.<note place="margin">Heb. 12, 33</note> 
+                  <hi>Yee are come to the spirits of just men and perfect,</hi> theſe Scriptures and others, proue the ſoules of men and women to bee immortall.</p>
+               <p>The immortalitie of the ſoule verie Ethnicks did acknowledge,<note place="margin">Numb. 23 10.</note> with <hi>Bala<g ref="char:EOLhyphen"/>am,</hi> when hee ſaid, <hi>Let my ſoule die the death of the righteous, and my latter end bee as his. Socrates</hi> being condemned to die,<note place="margin">Vita Socra.</note> before his death diſputed much and well of the immortalitie of the ſoule, a<g ref="char:EOLhyphen"/>mongſt <pb n="28" facs="tcp:22279:19"/>his ſpeaches, this was one to his friends: My children GOD will care for, who gaue them to me: when I ſhall goe hence, I ſhall finde friends before mee, like vnto you, or better. When
+<hi>Crito</hi> his friend asked him after hee had drunk his poiſon, if hee deſired to bee buried. Hee anſwered, Alas what labour haue I loſt; that could not perſuade <hi>Crito</hi> that I ſhall flee away from hence all whole. <hi>Plato</hi> wrote a booke of the immortality of the ſoule, And hee believed, that after this world ended mens ſoules ſhould returne to their owne bodies. The Sto<g ref="char:EOLhyphen"/>ickes ſaid, this ſhould bee after the con<g ref="char:EOLhyphen"/>ſummation of the world by fire. <hi>Cleom<g ref="char:EOLhyphen"/>brotus</hi> when he had read over
+<hi>Plato</hi> his booke of the immortalitie of the ſoule,<note place="margin">Cicero Tuſculan. quaeſt. lib. 1</note> precipitated himſelfe into the ſea, being filled with the deſire of that better life after this,<note place="margin">Plut. in vi<g ref="char:EOLhyphen"/>ta Catonis.</note> which <hi>Plato</hi> deſcribed. <hi>Cato</hi> being reſolved to ſlay himſelfe, red all the day &amp; night before that ſame booke of <hi>Plato.</hi>
+                  <note place="margin">Epiſt. 103</note> 
+                  <hi>Seneca</hi> in one of his Epiſtles, hath many notable ſpeaches concerning the immortalitie of the ſoule: amongſt the which the feare: I ſhall leaue the bo<g ref="char:EOLhyphen"/>dy <pb n="29" facs="tcp:22279:19" rendition="simple:additions"/>where I found it, I ſhall deliver my ſelfe to GOD: A great and generous thing to the ſoule of man, it can ſuffer no bounds to bee preſcribed to it, but with GOD. When <hi>Socrates</hi> had drunke the poyſon forced vpon him, and had de<g ref="char:EOLhyphen"/>livered his garment to his ſervant, as readie to die, jeſting with cry to his friend ſaid: I pray thee remember to ſacrifice a cocke to
+<hi>Aeſculapius:</hi> which was then vſuall when a man had drunke a wholeſome drinke; thereby there was in him no feare of death.</p>
+               <p>Chriſtians then ſhould bee aſhamed to feare death through ignorance, What ſhall become of the ſoule after death? ſe<g ref="char:EOLhyphen"/>ing death is inevitable: the feare of it argues want of fortitude. And this much of the feare of death, which proceeds of ignorance,</p>
+               <p>Now follow remedies and comforts againſt the feare of death, which pro<g ref="char:EOLhyphen"/>ceede from infidelitie or deſpaire: Let ſuch as feare death, through infidelitie or deſpaire, imitate the counſell follow<g ref="char:EOLhyphen"/>ing: Acknowledge all good, helpe, com<g ref="char:EOLhyphen"/>fort to come from GOD: Repent, and be
+<pb n="30" facs="tcp:22279:20"/>ſorie for all thy ſinnes in geuerall, and for everie one in particulare, as thou canſt remember them, confeſſe them to GOD, and forſake them,<note place="margin">Pro 28.19 Pſal. 32.5 Iſa.
+28.17</note> then ſhall thou ſind mercie. Bee oft and earneſt in prayer to GOD for mercie and comfort, and deſiſt not, albeit thou get no anſwere; but ra<g ref="char:EOLhyphen"/>ther inſiſt the more,<note place="margin">Luke. 18</note> remembering the doctrine of CHRIST by parables that we ſhould doe ſo:<note place="margin">Iames. 5</note> Deſire the counſell and prayers of the faithfull; aboue all things ſtudie to know CHRIST, and the power of his reſurrection,<note place="margin">Philip. 3.10</note> and the fellowſhip of his ſufferings: for CHRIST hath ſwal<g ref="char:EOLhyphen"/>lowed vp death in victorie,<note place="margin">Iſa.
+25, 8</note> ſo that after this digeſtion of death, it hath loſt the ſting of it againſt all true Chriſtians: yea, CHRIST changed the name of death, and called it a ſleepe, to teach vs that the nature of death is changed to thoſe that beleeue in him,<note place="margin">Iohn. 11.11</note> ſaying to his Diſciples, <hi>Lazarus our friend ſleepeth.</hi>
+               </p>
+               <p>In the true knowledge of CHRIST is our comfort,<note place="margin">Iohn 17.3 Act. 4.12</note> both in life and death: The two Cherubims looked to the Mer<g ref="char:EOLhyphen"/>cie-ſeare: the two Teſtaments looked vnto CHRIST: Hee is the propitiatorie <pb n="31" facs="tcp:22279:20"/>that covereth the Law, the Pillar of fire to giue light in darkneſſe; the clowde to comfort and refreſh in all temptations: Rely vpon the mercie of GOD in IESUS CHRIST, and reſolue to ſay with IOB, in thy greateſt terrours,<note place="margin">Iob.
+13.15</note> 
+                  <hi>Though he ſlay mee, yet will I truſt in him.</hi> Reade often the holy Scripture, and meditate there<g ref="char:EOLhyphen"/>vpon: Bee never idle, not too ſolitarie. If melancholie trouble thee, take phy<g ref="char:EOLhyphen"/>ſicke from a skilfull and godly phyſitian: reade and meditate vpon GODS pro<g ref="char:EOLhyphen"/>miſes of mercie to penitent ſinners; and conſider his dealing with them, how many ſinners hee hath made righteous, and enemies friends; &amp; oft read and me<g ref="char:EOLhyphen"/>ditate vpon theſe places of Scripture. <hi>Exod.</hi> 34 4. <hi>Deuter.</hi> 4.31.
+<hi>Proverb.</hi> 28.3. 2 <hi>Chron.</hi> 7.14. <hi>Iſaiah</hi> 1.18.19.20.
+<hi>Ezek.</hi> 18.27. <hi>Hoſea</hi> 14.3.4.5. <hi>Pſal.</hi> 103.13.
+<hi>Math.</hi> 5 6. and 11.28. <hi>Iohn.</hi> 3.14. <hi>Rom.</hi> 5.20. 2
+<hi>Cor.</hi> 12.9 <hi>Rom.</hi> 16.20. 1. <hi>Timoth.</hi> 2.4.</p>
+               <p>Meditate likewayes vpon the mercie of GOD to penitent ſinners: as <hi>Moſes, Aaron, Iob, David Salomon, Manaſſes, Hezekiah, Ioſiah, Marie Magdalene,</hi> the <pb n="32" facs="tcp:22279:21"/>forlorne ſonne, <hi>Peter,</hi> the thiefe vpon the Croſſe with CHRIST, <hi>Paul:</hi> for theſe examples may ſerue to teach vs, though wee ſinne, yet not to goe on ſtill, and proceede in wickedneſſe; alſo not to deſpaire of GODS mercie more than they:<note place="margin">Rom. 10.12</note> for the LORD is rich over all that call vpon him, and repent: therefore no man ought to deſpaire: for this is a true ſaying, and by all meanes worthie to bee receaved,<note place="margin">1 Tim. 1 15.16.</note> that CHRTST IESUS came in the world to ſaue ſinners, whereby ma<g ref="char:EOLhyphen"/>ny haue obtained mercie,<note place="margin">Math. 9.15</note> vnto the ex<g ref="char:EOLhyphen"/>ample of them which ſhall in tyme to come belieue in him vnto eternall lyfe.<note place="margin">Mark. 2.17</note>
+               </p>
+               <p>If Sathan or thy owne conſcience trouble thee with theſe doubts and ob<g ref="char:EOLhyphen"/>jections following, anſwere thus.</p>
+               <div n="1" type="objection">
+                  <head>Object. 1.</head>
+                  <p>My ſinne is ſo great, that it can not bee pardoned.</p>
+                  <div type="answer">
+                     <head>Anſwere.</head>
+                     <p>No ſinne in it ſelfe is ſo great but it is pardonable, to everie one that can repent: No cryme ſo great, but GODS mercie is greater: yea, the ſinne againſt the holy Ghoſt can not bee forgiven, only becauſe <pb n="33" facs="tcp:22279:21"/>theſe that fall therein, can not repent.
+<hi>Hebr.</hi> 6.</p>
+                  </div>
+               </div>
+               <div n="2" type="objection">
+                  <p>Object. 2.</p>
+                  <p>I ſinne dayly, and often fall in one and the ſelfe ſame ſinne.</p>
+                  <div type="answer">
+                     <head>Anſwere.</head>
+                     <p>If thou ſinne dayly, repent dayly: if thou ſinne once, twiſe, 100, 1000 tymes, repent as oft. He who ſaid, if thy bro<g ref="char:EOLhyphen"/>ther offend thee ſeventie tymes ſeven tymes, forgiue him, will forgiue thee all thy ſinnes, if thou repent.</p>
+                  </div>
+               </div>
+               <div n="3" type="objection">
+                  <head>Object. 3.</head>
+                  <p>I can not repent, my heart is ſo hard. An. GOD calleth all men to repentance, ſo long as they liue in this world, ſo doeth he thee: and ſo long as thou liveſt, (if thou deſpiſe not his bountifulneſſe and patience) hee will giue thee repentance before thou die. As for the hardneſſe of thine heart, becauſe thou feeleſt it, it is an argument of ſpirituall lyfe: for death corporall or ſpirituall maketh vs loſſe all feeling.</p>
+               </div>
+               <div n="4" type="objection">
+                  <head>Object. 4.</head>
+                  <p>I can neither belieue, repent, nor ceaſe from ſinne, albeit I would gladly.</p>
+                  <div type="answer">
+                     <head>Anſwere.</head>
+                     <p>Pray with the man ſpoken of in the <pb n="34" facs="tcp:22279:22"/>Ghoſpell. LORD helpe my vnbeliefe. Know alſo that thy deſire is acceptable to GOD if it be vnfeined and conſtant.</p>
+                  </div>
+               </div>
+               <div n="5" type="objection">
+                  <head>Object. 5.</head>
+                  <p>I am forced now and then to thinke evill thoughts and blaſphemies againſt GOD, even againſt my will.</p>
+                  <div type="answer">
+                     <head>Anſwere.</head>
+                     <p>Theſe are not from thee, but from Sa<g ref="char:EOLhyphen"/>than: they are his ſinnes, but thy croſſes: thou ſhall bee forgiven, hee ſhall be re<g ref="char:EOLhyphen"/>buked, and puniſhed for them.</p>
+                  </div>
+               </div>
+               <div n="6" type="objection">
+                  <head>Object. 6.</head>
+                  <p>I can not be perſwaded that I am one of theſe whom GOD hath choſen to life.</p>
+                  <div type="answer">
+                     <head>Anſwere.</head>
+                     <p>Farre leſſe can thou bee aſſured that thou art a reprobate: for GOD may giue thee aſſurance of thine election at thy laſt houre, and wee liue more by faith than feeling: therefore ſay with JOR,
+<hi>Though hee ſlay mee, yet will I trust in him.</hi>
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div n="6" type="chapter">
+               <pb n="35" facs="tcp:22279:22"/>
+               <head>The ſixth Chapter. Of the deſire of death, and how that wee may die both peace<g ref="char:EOLhyphen"/>ablie, and likewayes well.</head>
+               <p>THere bee only two cauſes for the which wee may lawfully deſire to die: The firſt is, a longing to bee with IESUS CHRIST our Saviour: this cauſe moved <hi>Paul</hi> to deſire to die,<note place="margin">Philip. 3.23</note> when hee ſaid, <hi>I deſire to depart, and that I may bee with CHRIST.</hi> The other cauſes why wee may lawfully deſire to die, is, that wee may ceaſe altogether from ſinning againſt GOD, which we can not doe, ſo long as we are in this body of ſinne, and of death. This alſo moved <hi>Paul</hi> to de<g ref="char:EOLhyphen"/>ſire to die, when hee ſaid,<note place="margin">Rom. 7.24.</note> 
+                  <hi>O miſerable man that I am! who ſhall delyver me from this body of death?</hi> All deſire of death, flowing from other cauſes, as griefe, trouble, paine, povertie, miſcontent<g ref="char:EOLhyphen"/>ment, &amp;c. are all vnlawfull: for GOD hath put vs in a warrefare, and hath ap<g ref="char:EOLhyphen"/>pointed everie one of vs a ſtation, which
+<pb n="36" facs="tcp:22279:23"/>wee ſhould keepe as obedient Souldiers, vntill GOD, our great Captaine, and commander call vpon vs, and remoue vs. Wherefore are wee to follow the exam<g ref="char:EOLhyphen"/>ple of <hi>Elias,</hi>
+                  <note place="margin">1 King. 19.14</note> who out of great griefe ſaid: <hi>Now LORD take away my life:</hi> Nor the example of <hi>Ionas,</hi> when he ſaid, <hi>It is bet<g ref="char:EOLhyphen"/>ter to mee to die than to liue:</hi>
+                  <note place="margin">Ion 4.6</note> But rather the example of
+<hi>David,</hi>
+                  <note place="margin">Pſal. 101.2</note> who ſaid: <hi>I will behaue my ſelfe wiſely, in a perfect way, vntill thou come to mee:</hi> And aboue al we ſhould follow the example of CHRIST our Saviour,<note place="margin">Heb. 12</note> 
+                  <hi>Who for the joy ſo ſet before him, indured the croſſe, despiſed the ſhame; and is ſet at the right hand of the Throne of GOD.</hi>
+               </p>
+               <p>Therefore thoſe Ethnicks who com<g ref="char:EOLhyphen"/>monly are accounted
+<hi>magnanimus,</hi> that for miſcontentment ſlew themſelues, as
+<hi>Dido, Lucrotia, Cato,</hi> and others, are truely to bee accounted verie cowards, that left their ſtation, not keeping their place, vntill hee that had placed them there had called them from it. Albeit <hi>Seneca</hi> giveth too great way to a man to kill himſelfe; yet hee was better adviſed when hee ſaid: I eſteeme moſt of them <pb n="37" facs="tcp:22279:23"/>who come to death, without hatred of life, and admitteth death when it com<g ref="char:EOLhyphen"/>meth, but draweth it not vpon them</p>
+               <p>Now that wee may die peacablie and well: Firſt, let vs often meditate vpon death, following the counſell of <hi>Seneca:</hi>
+                  <note place="margin">In epiſt.</note> Thinke ever of death, ſo ſhall thou not bee affrayed of it: the Poet giveth a rea<g ref="char:EOLhyphen"/>ſon heereof, ſaying,
+<q>Nam levius laedit, quicquid praevi<g ref="char:EOLhyphen"/>dimus ante.</q>
+               </p>
+               <p>That is to ſay,
+<q>The leſſe is everie ſore, that we haue ſeene before.</q>
+               </p>
+               <p>And <hi>Gregorie</hi> ſaid well: Death when it commeth is overcome, if before it come it bee feared: And <hi>Seneca,</hi>
+                  <note place="margin">In epiſt.</note> No man receiveth death gladly, but he who hath prepared himſelfe a long time before it. And in an other place: The entrie of the doore of death is troubleſome. if wee make it troubleſome with torment of minde, and a troubled ſpirit with fleeting thoughts, comming to it without reſo<g ref="char:EOLhyphen"/>lution; by the contrare, if we come with a calme ſpirit, death is moſt like to a ſleepe when wee feare not.</p>
+               <pb n="38" facs="tcp:22279:24"/>
+               <p>Next that wee may die peaceablie and well, follow the counſell of <hi>Salomon: Re<g ref="char:EOLhyphen"/>member thy Creator in the dayes of thy youth,</hi>
+                  <note place="margin">Eccleſ. 12.1</note> 
+                  <hi>before the dayes of olde age and death come.</hi>
+               </p>
+               <p>Thirdly; that thou may die peaceably and well, ſtryue to walke with GOD, while thou art living, follow the exam<g ref="char:EOLhyphen"/>ple of <hi>Enoch, Noah, Abraham,</hi> ſo death when it commeth ſhall doe no harme; but thereby ſhalt thou bee gathered to thy Father in peace.</p>
+               <p>Striue to bee godly and righteous, and follow the example of
+<hi>Simeon,</hi> and the LORD ſhall let thee depart in peace.</p>
+               <p>Bee not like <hi>Balaam,</hi> who wiſhed to die the death of the righteous, but would not liue the life of the righteous: for hee received not his wiſh. But lay thy ac<g ref="char:EOLhyphen"/>count, that thou liueſt now that thou may die, and art content to die when GOD pleaſeth, that thou may liue happi<g ref="char:EOLhyphen"/>ly for ever: liue now the life of the righ<g ref="char:EOLhyphen"/>teous, and keepe a good conſcience ſo farre as thou can, and thou ſhall <hi>die in the LORD, bee bleſſed, reſt from thy la<g ref="char:EOLhyphen"/>bours,</hi>
+                  <note place="margin">Rev. 14.13</note> 
+                  <hi>&amp; thy good workes ſhall follow thee.</hi>
+               </p>
+               <pb n="39" facs="tcp:22279:24"/>
+               <p>Now if thou ſinne, (as no man living ſinnes not) and bee ſenſible of thy ſinnes and manyfold infirmities, and imperfe<g ref="char:EOLhyphen"/>ctions: then be inſtant in prayer to GOD, in the name of his Sonne IESUS CHRIST that hee would forgiue thee thy ſinnes, which thou haſt committed, ſupplie that which thou haſt omitted, reſtore what thou haſt loſt, heale what is ſicke in thee, cleanſe what is vncleane in thee, inlighten what is darke in thee, aſſwage that which ſwelleth in thee, inflame that which is quenched in thee, repare that which is broken in thee, recover what is neglected by thee, amend what is gone aſtray in thee, make plaine which is rugged in thee, reſtraine that which is curious in thee, call home againe that which wandereth, place aright all which is out of order, ſanctifie that which is whole by his holy Spirit, vntill hee crowne grace in thee with glorie heereafter.</p>
+               <p>To conclude this point, one ſayeth truely,<note place="margin">Kemps i<g ref="char:EOLhyphen"/>mitation of CHRIST.</note> he who hateth the world per<g ref="char:EOLhyphen"/>fitely, and followeth godlineſſe zea<g ref="char:EOLhyphen"/>louſlie, and will bee admonniſhed wil<g ref="char:EOLhyphen"/>lingly: <pb n="40" facs="tcp:22279:25" rendition="simple:additions"/>and indevoureth to mend his lyfe ſeriouſlie, and can obey his Supe<g ref="char:EOLhyphen"/>riours gladly, and deny himſelfe through<g ref="char:EOLhyphen"/>lie; and take affliction for CHRIST IESUS ſake patiently, giveth notable tokens he will die a good man.</p>
+               <p>Finallie, that thou mayeſt die both peaceablie and well: In the midſt of the agonie of death,<note place="margin">Pſal. 51.5</note> ſay with that Princelie Prophet DAVID, <hi>Into thine hands O LORD 1 commend my Spirit:</hi>
+                  <note place="margin">Luke 23 46</note> and with our Saviour IESUS CHRIST, <hi>Father in thine hands 1 commend my Spirit;</hi>
+                  <note place="margin">Act. 7.59</note> and with STEVEN, <hi>LORD IESVS receaue my Spirit.</hi> If at that tyme Sathan, or thine owne conſcience trouble thee, in reſpect of thy guiltie<g ref="char:EOLhyphen"/>neſſe of ſinnes, and of GODS juſtice, cloſe thine eares at theſe cryes in the agony of death, and anſwere nothing, but commend thy cauſe vnto GOD: Cloſe lykewayes thine eyes in the houre of death, and CHRIST ſhall ſend his Angels to convoy thy ſoule.</p>
+               <p>This is the counſell of M<hi rend="sup">r</hi>. <hi>Luther,</hi> If thou feele great paine in thy bodie before thy diſſolution, then ſay with
+<pb n="41" facs="tcp:22279:25" rendition="simple:additions"/>the Prophet DAVID, <hi>I will hold my tongue O LORD,</hi>
+                  <note place="margin">Pſal. 36.9</note> 
+                  <hi>becauſe thou hast done it:</hi> This was M<hi rend="sup">r</hi>. <hi>Calvins</hi> practiſe, when hee was dying.</p>
+               <closer>GOD grant we may ſo liue, that in the houre of death we may rejoice, through CHRIST IESUS our LORD. AMEN.</closer>
+               <trailer>
+                  <figure>
+                     <figDesc>olive tree</figDesc>
+                  </figure> 
+               </trailer>
+            </div>
+         </div>
+         <div type="excursus_on_old_age">
+            <pb facs="tcp:22279:26"/>
+            <head>An Aenigmaticke deſcription of old age, and death, taken out of <hi>ECCLESIASTES 12.</hi>
+            </head>
+            <div type="quotation">
+               <head>The Text.</head>
+               <q>
+                  <lg>
+                     <l>
+                        <seg rend="decorInit">T</seg>He Sunne the Moone the Starres darkned.</l>
+                     <l>The Clowds returne after the raine.</l>
+                     <l>The Keepers of the houſe tremble.</l>
+                     <l>The ſtrong Men bow themſelues.</l>
+                     <l>The Grinders ceaſe, becauſe they are few.</l>
+                     <l>They that looke out at the window are darkned.</l>
+                     <l>The doores are ſhut in the ſtreets.</l>
+                     <l>The ſound of the grinding is low.</l>
+                     <l>Hee ſhall ryſe vp at the voice of the Bird.</l>
+                     <l>All the daughters of muſicke are brought low.</l>
+                     <l>They feare that which is high, &amp; feare in the way.</l>
+                     <l>The Almond tree ſhall flooriſh.</l>
+                     <l>The Graſhopper ſhall be a burden and deſire
+<gap reason="illegible" resp="#OXF" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap> fall.</l>
+                     <l>Man goeth to his long home.</l>
+                     <l>The mourners goe about the ſtreets.</l>
+                     <l>The ſilver cord is looſed.</l>
+                     <l>The golden bowle is broken.</l>
+                     <l>The Pitcher is broken at the fountaine.</l>
+                     <l>The Wheele is broken at the ciſterne.</l>
+                     <l>Duſt returneth to the earth as it was, and the Spirit to GOD who gaue it.</l>
+                  </lg>
+               </q>
+            </div>
+            <div type="commentary">
+               <pb facs="tcp:22279:26"/>
+               <head>The Expoſition.</head>
+               <p>
+                  <list>
+                     <item>
+                        <seg rend="decorInit">O</seg>VR ſight faile.</item>
+                     <item>Diſeaſes follow, one after another, for<g ref="char:EOLhyphen"/>runners of death.</item>
+                     <item>The hands become feeble.</item>
+                     <item>The legs bow vnder the body.</item>
+                     <item>The teeth faile, lowſing, conſumng or falling out.</item>
+                     <item>The opticke veine faile, ere the eye ſtrings breake.</item>
+                     <item>The ſpeach faileth.</item>
+                     <item>The teeth ſerue not for chawing of meate.</item>
+                     <item>Hoſt, leaſt din, the crowing of a cock wakens him.</item>
+                     <item>The voyce is hoarſe, the breath weake.</item>
+                     <item>They can not goe, and feare at everie ſtep to fall.</item>
+                     <item>White haires cover the head.</item>
+                     <item>Appetite or vſe of luſt faile.</item>
+                     <item>Man goeth to the graue.</item>
+                     <item>His friends and neighbours attend the bringing out of his corps.</item>
+                     <item>All the ſinnews of the bodie ſtreatched out.</item>
+                     <item>Both head and heart haue no function.</item>
+                     <item>
+                        <hi>Vena cava</hi> which receaued blood from the liver hath no vſe.</item>
+                     <item>The head draweth no exhalations from ſtomacke or liver.</item>
+                     <item>The body made of duſt, after death returnes to duſt</item>
+                     <item>The ſoule inſpired by GOD, returneth to GOD.</item>
+                  </list>
+               </p>
+            </div>
+            <div type="paraphrase">
+               <pb facs="tcp:22279:27" rendition="simple:additions"/>
+               <head>The paraphraſe of this Text, and ex<g ref="char:EOLhyphen"/>poſition thereof in Meater.</head>
+               <lg>
+                  <l>DEath when it comes, it ſo benummes, and overcomes,</l>
+                  <l>Our bodie, and their members everie one.</l>
+                  <l>That the Sunne bright, Moone and Starres light, doe from our ſight,</l>
+                  <l>Obſcure themſelues, and darkned are anone:</l>
+                  <l>The Clowds returne againe,</l>
+                  <l>Though raine runne out,</l>
+                  <l>Vpon vs meakle paine</l>
+                  <l>Is powred out</l>
+                  <l>And then our hands, with all their bands</l>
+                  <l>That did before our Tabernacle keepe:</l>
+                  <l>Tremble and ſhake, and wee doe quaike,</l>
+                  <l>For feare of comming of ſo long a ſleepe.</l>
+               </lg>
+               <lg>
+                  <l>Our limmes that bure, our body ſure, cannot endure,</l>
+                  <l>But then bow downe themſelues, though ſtrong before:</l>
+                  <l>Our teeth which were, as Milſtones faire, gin then to ſpaire,</l>
+                  <l>As broken, looſe, and in part loſt their
+<gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>
+                  </l>
+                  <l>Alſo our Opticke vaines,</l>
+                  <l>That looked throw</l>
+                  <l>Our eyes broken with paines,</l>
+                  <l>Leaue their window.</l>
+                  <l>Then faile our ſpeach, whereby wee teach,</l>
+                  <l>Our hearers for to vnderſtand our minde,</l>
+                  <l>That doore is cloſe where throw came voice,</l>
+                  <l>And wee of dumbe men made another kynd.</l>
+               </lg>
+               <lg>
+                  <l>The grinding din, our mouth within, doth then beginne,</l>
+                  <l>to bee ſo low, that none can heare it, when we ſeeme to eate</l>
+                  <pb facs="tcp:22279:27"/>
+                  <l>For why the crew, of teach to chew, are then ſo few,</l>
+                  <l>That little they can ſerue to breake our meate,</l>
+                  <l>Then doth a little hoſt,</l>
+                  <l>Or pituite:</l>
+                  <l>Or voice of birds boſt,</l>
+                  <l>Our ſleepe ſo ſweete.</l>
+                  <l>And then our voice, which made ſweete noyſe,</l>
+                  <l>And inſtruments of muſicke everie one,</l>
+                  <l>Doe holde their peace, and haue no grace,</l>
+                  <l>So weake and hoarſe they are, and all vndone.</l>
+               </lg>
+               <lg>
+                  <l>Hee who would gang, doth feare the wrang, &amp; the leaſt pang</l>
+                  <l>Of ſtone, of ſtocke, or blocke, is in his way:</l>
+                  <l>Hee is ſo weake, the ſmalleſt ſtraike, makes him to quaike,</l>
+                  <l>Leaſt hee ſhould fall, even in the middle day,</l>
+                  <l>Then buds the Almond tree,</l>
+                  <l>With flooriſh faire:</l>
+                  <l>Mans head then may wee ſee,</l>
+                  <l>Full of whyte haire.</l>
+                  <l>And even iuſt as the Locuſt,</l>
+                  <l>Is ſhaken off for weakneſſe, and downe fall,</l>
+                  <l>So filly duſt, hath loſt all luſt,</l>
+                  <l>No more deſire, nor pleaſure for it call,</l>
+               </lg>
+               <lg>
+                  <l>Man goeth home, vnto his tombe, the dead among,</l>
+                  <l>Where hee muſt bide for many dayes and yeares;</l>
+                  <l>His Kinsfolke deare, and Neighbours neare do then appeare,</l>
+                  <l>To carie foorth his corps, and then it beares.</l>
+                  <l>The ſilver cord is broken,</l>
+                  <l>The bodys band,</l>
+                  <l>The ſinnews all are ſtroken,</l>
+                  <l>Hee cannot ſtand.</l>
+                  <pb facs="tcp:22279:28" rendition="simple:additions"/>
+                  <l>The bowle for gold would not beene ſold.</l>
+                  <l>The head or heart (I meane) is broken quite:</l>
+                  <l>The liver vaine, at his fountaine,</l>
+                  <l>Like broken pitchers, skaile; the blood perfite.</l>
+               </lg>
+               <lg>
+                  <l>And that round Wheele, which once did reele, as we now feel</l>
+                  <l>Is broken downe, even right aboue the Well:</l>
+                  <l>I meane the head, when wee are dead, ſtands in no ſtead,</l>
+                  <l>To draw vp foode from livers ſtell.</l>
+                  <l>Earth doth then to earth returne,</l>
+                  <l>Even man to duſt;</l>
+                  <l>His Spirit to GOD is borne,</l>
+                  <l>Who is moſt iuſt.</l>
+                  <l>Remember man, thy Maker then,</l>
+                  <l>When thou art young and ſtrong, before theſe dayes:</l>
+                  <l>For thou wilt wearie, and cannot tarry,</l>
+                  <l>To ſerue thy God, and ſorrow for thy ſinnes alwayes.</l>
+               </lg>
+               <trailer>FINIS.</trailer>
+            </div>
+         </div>
+         <div type="colophon">
+            <p>
+               <figure>
+                  <head>VICISSITVDINI OMNIA SVBIACENT</head>
+                  <p>SOLA VIRTVS CADERE NON POTEST</p>
+                  <figDesc>nine-spoked wheel device</figDesc>
+               </figure> 
+            </p>
+            <pb facs="tcp:22279:28"/>
+         </div>
+      </body>
+   </text>
+</TEI>

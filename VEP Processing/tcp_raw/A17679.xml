@@ -1,0 +1,1547 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Farmer, 1614]</title>
+            <author>Farmer, William, fl. 1587-1614.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1613</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 27 KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A17679</idno>
+            <idno type="STC">STC 443.7</idno>
+            <idno type="STC">ESTC S593</idno>
+            <idno type="EEBO-CITATION">21986214</idno>
+            <idno type="OCLC">ocm 21986214</idno>
+            <idno type="VID">24917</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A17679)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 24917)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1761:41)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>[Farmer, 1614]</title>
+                  <author>Farmer, William, fl. 1587-1614.</author>
+               </titleStmt>
+               <extent>14 + p.   </extent>
+               <publicationStmt>
+                  <publisher>For the Companie of Stationers,</publisher>
+                  <pubPlace>Imprinted at London :</pubPlace>
+                  <date>1613.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>T.p. lacking; running title: Farmer. 1614.</note>
+                  <note>Attributed to William Farmer by STC (2nd ed.).</note>
+                  <note>Imprint from colophon.</note>
+                  <note>Imperfect: lacking all before signature B5.</note>
+                  <note>Reproduction of original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Almanacs, English.</term>
+               <term>Ephemerides --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2007-08</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-02</date>
+            <label>John Latta</label>Sampled and proofread</change>
+         <change>
+            <date>2010-02</date>
+            <label>John Latta</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="prognostication">
+            <pb facs="tcp:24917:1"/>
+            <pb facs="tcp:24917:2"/>
+            <head>Farmer. 1614.</head>
+            <p>Cut or Prime Vines in Februarie, or March, the Moone in<g ref="char:EOLhyphen"/>creaſing in light, and in <hi>Taurus, Virgo,</hi> or <hi>Libra.</hi>
+            </p>
+            <p>Geld Cattell in the Wane of the Moone, chiefly if ſhe be in <hi>Aries, Sagittarius,</hi> or in <hi>Capricome.</hi>
+            </p>
+            <p>Sheare Sheepe from the Change to the Full.</p>
+            <p>Poule thy Head, and Shaue thy Beard, when the Moone is in <hi>Libra, Sagittarius, Aquarius,</hi> or <hi>Piſces,</hi> chiefly from the firſt Quar<g ref="char:EOLhyphen"/>ter to the Full Moone.</p>
+         </div>
+         <div type="registry_of_routes">
+            <head>Here doth follow a compendious Regi<g ref="char:EOLhyphen"/>ſter of all the moſt principall High-waies throughout Ireland; very meete &amp; neceſſarie for all that ſhall haue occaſion to trauell into any place of this Kingdome: and firſt of the way from Dublin to Waterford by the Sea ſide, and ſo from thence to Corke.</head>
+            <p>FRom Dublin to Brey x. myles, From Brey to New Caſtle viii. myles, from Newcaſtle to Wicklow vi. myles, from Wicklow to Arcklow xii myles, from Arcklow to Glaſca<g ref="char:EOLhyphen"/>rig xii. myles, from Glaſcarig to Weirford xii. myles, from Weir<g ref="char:EOLhyphen"/>ford to Roſſe xiiii myles, from Roſſe to Waterford viii. myles: In all from Dublin <hi>82.</hi> myles.</p>
+            <p>From Waterford to Kil-macktomas xii. myles, from Kil-ma<gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>tomas to Dungaruan viii. myles, from Dungaruan to Yoghell x. myles, from Yoghell to Cor-abbey xviii. myles, from Cor-abbey to Corke x. myles: In all from Dublin <hi>132.</hi> myles.</p>
+            <div type="route">
+               <head>The way from Dublin to Gowran, and ſo from thence to all the chiefe places in Munſter.</head>
+               <p>FRom Dublin to the Naſe xii. myles, from the Naſe to Kil-cullin vi. myles, from Kil-cullin to Caſtell Dearmot ix. myles,
+<pb facs="tcp:24917:1" rendition="simple:additions"/>
+from Caſtell-Dearmot to Carlagh v. myles, from Carlagh to Laghlin v. miles, from Laghlin to Gowran v. miles: in all from Dublin <hi>42.</hi> miles.</p>
+               <p>
+                  <hi>This Paragraffe ¶ ſhall giue notice of the way to many other places in Mounſter. And firſt to Waterford.</hi>
+               </p>
+               <p>¶ FRom Gowran to Thomaſtowne v. miles, from Thoma<g ref="char:EOLhyphen"/>ſtowne to Waterford xv. miles: in all from Dublin <hi>62.</hi> miles.</p>
+            </div>
+            <div type="route">
+               <head>The way from Gowran to Yoghell.</head>
+               <p>¶ FRom Gowran to Knock-togher viii. miles, from Knock-togher <gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o Carrig viii. miles, from Carrig to Dungaruan xii. miles, from Dungaruan to Yoghell x. miles: in all from Dublin <hi>80.</hi> miles.</p>
+            </div>
+            <div type="route">
+               <head>The way from Gowran to Corke, and ſo to Baltimore and further Weſt.</head>
+               <p>¶ FRom Gowran to B<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nnets Bridge iii. miles, from Bennets. Bridge to Kelles iii. miles, from K<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lles to C<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>alagh iiii. miles, from C<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ala<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>h to K<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lchaſhell <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>. miles, from <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> ſh<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ll to Cloa<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>m<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ll o<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> m<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>les<g ref="char:punc">▪</g> from Cloanemell to L<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſhmore xii. miles, from Liſhmore <gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o Caſtel-L<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ha<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e viii miles, from Ca<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>el Lehane to Cor<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e xii. miles: in all from Dublin <hi>92.</hi> miles<g ref="char:punc">▪</g> From Corke to Mahowne-bridge x. m<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>les, from Mahowne-bridge to Ty<g ref="char:EOLhyphen"/>molegue viii. m<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>les, from Tymolegue <gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o Roſſe viii. miles, from Roſſe to Baltimore viii miles, from B<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ltimore to Caſt<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>l-hauen viii. miles, from Caſt<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>l-hauen to Leamig<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>l<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>a<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e viii. miles: in all from Dublin <hi>140.</hi> miles.</p>
+            </div>
+            <div type="route">
+               <pb facs="tcp:24917:2" rendition="simple:additions"/>
+               <head>
+                  <hi>The way from Gowran to Caſhell, and ſo</hi> to Dinghan I. couſhe.</head>
+               <p>¶ From Gowran to Benne<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s. Bridge iii. miles, fr<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m Benne<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s. Bridge to Call<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n vi. miles, from Callon to Killan<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>le vii. in les, from <gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>llanale to C<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſhill vii. wiles. from Caſhell to Typ<g ref="char:EOLhyphen"/>prrarie vi. m<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>les from T<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ppererie to Emil<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> vi. m<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>les. from Emi<g ref="char:EOLhyphen"/>be to kilmallacke vi m<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>les, from Kilm<g ref="char:punc">▪</g> 
+                  <gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ocke to Bollingarute <gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> mil<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s, from Ballingarr e<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o New-Caſtell vi. in les, fr<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m N<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>w-Caſtell to Bruſtina<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>h viii. in l<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s, from Bruſtinagh to Iland<g ref="char:EOLhyphen"/>ltierie vii miles, from Iland-kier<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e to Ea<gap reason="illegible" resp="#APEX" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>-maine viii m<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>les, from Catel-maine to Ding<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>an Ico<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſhe <gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>vi. miles: in a<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>l from Dlib<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n 133 miles.</p>
+            </div>
+            <div type="route">
+               <head>the way from Gowran to Limbricke, and ſo againe to Dinghan lcouſhe.</head>
+               <p>¶ FRom Gowran to Caſhill, as before xriii. miles, from Ca<g ref="char:EOLhyphen"/>ſhe<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>l to Sallahode viii. mil<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s, from Sallahode to Balli<g ref="char:EOLhyphen"/>ni<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>i<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> miles, from Balli-ni<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e ro Car<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ighkenbſh vii in les, from Car<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>igkenl<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſh to Limbricke v. miles: in all from D<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>bl<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 89. miles.</p>
+               <p>From Limbricke to Adare vii. miles, from Adare <gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o Raki<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>l<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. mile, from R. k<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e to Ardah iii. miles. from Ardah to Moniſter<g ref="char:EOLhyphen"/>fea<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> ix miles from Maniſter<g ref="char:EOLhyphen"/>ea<gap reason="illegible" resp="#APEX" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>o Trali<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> xii. nules, fro<g ref="char:cmbAbbrStroke">̄</g> Tralie to D<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nghan Icouſhe xxi. miles: in all from Limbricke 50. miles.</p>
+            </div>
+            <div type="route">
+               <head>Aſoorter way from Dublin to Limbricke, not much vſed.</head>
+               <p>From Dublin to Ma<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>noth x. miles, from Maynotb to Cian<g ref="char:EOLhyphen"/>currie v miles, from Cla<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>c<gap reason="illegible" resp="#APEX" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap> to Caſ<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>el-Carberi<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> v m<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>les, from Caſ<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rl-Catherie to Phliptowne <gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. miles, from Philp<g ref="char:EOLhyphen"/>towne to Be<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>bay-cer<gap reason="illegible" resp="#APEX" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap>ll xiiii. m<gap reason="illegible" resp="#APEX" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>s, from B<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſhbuy-<gap reason="illegible" resp="#APEX" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>rec<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ll to Bir vi miles, from Birro Ballinggarrie <gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>iii. myles, from Bal<g ref="char:EOLhyphen"/>lingar<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ie to Ennagh-more viii. miles, from Engi-mor<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> to Lim<g ref="char:EOLhyphen"/>brikce xvi. miles: in all from Dublin 82. miles.</p>
+            </div>
+            <div type="route">
+               <pb facs="tcp:24917:3"/>
+               <head>The way from Kinſale to Limbricke, and ſo to Galway.</head>
+               <p>FRom Kinſale to Corke x. myles, from Corke to Mallow xii. myles, from Mallow to Kil-mallocke xii. myles, from Kil-mallocke to Limbricke xii. myles, from Limbricke to Quin xii. myles, from Quin to Barnacoyle vi. myles, from Barnacoyle to Gortinchigorie vi. myles, from Gortinchigorie to Kilcolgan vi. myles, from Kilcolgan to Galway vi. myles: in all from Kin<g ref="char:EOLhyphen"/>ſale <hi>82.</hi> myles.</p>
+            </div>
+            <div type="route">
+               <head>The way from Waterford to Limbricke, and ſo to Galway.</head>
+               <p>FRom Waterford to Carrig xii. myles, from Carrig to Cloane<g ref="char:EOLhyphen"/>mell viii. myles, from Cloanemell to the Bridge of Goalin x. myles, from Goalin to Sallahode vi. myles, from Sallahode to Limbricke, as aboue in the way from Gowran to Limbricke: and ſo to Galway, as aboue in the way from Kinſale: In all from Waterford <hi>88.</hi> myles.</p>
+            </div>
+            <div type="route">
+               <head>The way from Dublin to Aloane, and ſo to Galway.</head>
+               <p>FRom Dublin to Trim xx. myles, from Trim to Abuye v. miles, from Abuye to Mullengar xv. myles, from Mullengar to Bal<g ref="char:EOLhyphen"/>limore x. m<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>les, from Ballimore to Aloane x<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. myles, from Aloane to Ballenſtoe x. myles, from Ballenſtoe to Kilconell vi. myles, from Kilconell to Athenrie xii. myles, from Athenrie to Galway viii. myles.</p>
+            </div>
+            <div type="route">
+               <head>Another ſhorter way from Dublin to Aloane, and ſo to Balliſhennan, and to the Derrie.</head>
+               <p>TAke the ſhotcer way from Dublin to Limbricke, as before, vn<g ref="char:EOLhyphen"/>till you come to Caſtel-Carbetie, then from thence to Eden<g ref="char:EOLhyphen"/>derr<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e <gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>i. myles, fro<g ref="char:cmbAbbrStroke">̄</g> E<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>enderrie to Moniſter-orie one myle, from Moniſter-orie to Togher-Croghan iiii. myles, from Togher-Croghan to Cloan-Iriell ii. myles, from Cloan-Iriell to Barnan one myle, from Barnan to Kil-Cloanfart one myle, from Kil-Cloanfart
+<pb facs="tcp:24917:3"/>
+ouer the Enian to Kil-beggan iiii. myles, from Kil-beggan to Aloane xiiii. myles, from Aloane to Roſcomon xii. myles, from Roſcomon to Tulſke viii. myles, ☞ from Tulſke to the Abbey of Boyle xii. myles, from the Abbey of Boyle to Ballimote x. myles, from Ballimote to Slygo x. myles, from Slygo to Bundrowes xv. myles, from Bundrowes to Balli-ſhemian v. myles, ſrom Balli-ſhemian to Downagall x. myles, from Dow<g ref="char:EOLhyphen"/>nagall to Caſtel-lifford xrv. myles, from Caſtel-lifford to Derrie x. myles: in all from Dublin <hi>162.</hi> myles.</p>
+            </div>
+            <div type="route">
+               <head>The way from Galway to Balliſhenan, and to the Derrie.</head>
+               <p>FRom Galway to Clare iiii myles, from Clare to the Bridge of Ballimoy xvii. myles, from the Bridge of Ballimoy to Tulſke viii miles, from the Tulſke to Balliſhenan, and the Derrie, as a<g ref="char:EOLhyphen"/>boue at this marke ☞ from Tulſke. &amp;c.</p>
+            </div>
+            <div type="route">
+               <head>The way from Dublin, directly to Balliſhenan.</head>
+               <p>FRom Dublin to Nauan xx. miles, from Nauan to Kelles vii. miles, from Kelles to Cauan xx. miles. ¶ from Cauan to Bal<g ref="char:EOLhyphen"/>terbert vii miles, from Balterbert to Balliſhenan by Water xxx. miles<g ref="char:punc">▪</g> in all from Dublin <hi>84.</hi> miles. But if you will trauell all by land, then goe from Cauan to Clunneys xii. miles, from Clunneys to Liſh neſkeaghe viii. miles, from Liſh neſkeaghe to Iumſkilling ix. miles, from Iumſkilling to Balliſhenan xx. miles: in all from Dublin this way <hi>96.</hi> miles.</p>
+            </div>
+            <div type="route">
+               <head>The way from Dublin to the Derrie.</head>
+               <p>FRom D<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>bl<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n to Swords vi m<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>les, from Swords to Balrud<g ref="char:EOLhyphen"/>d<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rie vi. m<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>les, from Balrudderie to Droghedah viii. miles<g ref="char:punc">▪</g> f<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>om Dr<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>gh<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ah to D<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>leare vi. miles, from Dunleare to Dun<g ref="char:EOLhyphen"/>d<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lke x. miles, from Dun<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>lke to the Newrie viii. miles, ¶ from Newrie to Mount-Nerreis viii. miles, from Mount-Norreis to A<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>dmagh <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>. miles, from Ardmagh to Cha<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>l<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>mount v. miles, from Cha<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>l<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>unt to Dunganan v. miles, from Dunganan to Omey xvi<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. miles, from Omey to Newtowne vi. Miles, from New<g ref="char:EOLhyphen"/>towne
+<pb facs="tcp:24917:4"/>
+to Lifford vi. miles, from Lifford to D<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>r<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>fex. miles: in all from D<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>blm <hi>110.</hi> miles.</p>
+            </div>
+            <div type="route">
+               <head>The way from Newrie to Carigfergus.</head>
+               <p>¶ FRom Newrie to D<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ummore xvi. miles, from D<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>mmore to Liſh-negat viii. miles, from L<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſh-negar to H<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lſ<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>orow vi. miles, from H<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſborow to Belfaſt two miles, from Belfaſt to Car<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>igf<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>gus viii. miles.</p>
+            </div>
+            <div type="route">
+               <head>From Newrie to Carigfergus through Locale.</head>
+               <p>¶ FRom Newrie to Dundrum xvi. miles, from Dundrum to Downe v. miles, from Downe to <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> v. miles, ouer the Water i. miles, from the Wate<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s ſi<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e to Blackſtaffe vi miles, from Blackſtaffe to Gray Abbey v. miles, from Gray Abbey to Newtowne iiii miles, from Newtowne to the Foord of B<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lfaſt vii. miles, from thence to Carrigfergus vi<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>i. miles.</p>
+            </div>
+            <div type="route">
+               <head>The way from Newrie to Colerane.</head>
+               <p>¶ FRom Newrie to Inniſ-langhlin xvi. m<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>les, from Inniſ<g ref="char:EOLhyphen"/>langhlin to Autrim xii. miles, from Au<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>im to Kelles vi. miles, from K<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lles to Cloghmahharigonie vi. miles<g ref="char:punc">▪</g> from Clogh<g ref="char:EOLhyphen"/>mahharigonie to B<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>lly-monie vi. miles, from Bally-monie to Celerane.</p>
+            </div>
+            <div type="route">
+               <head>The way from Carrigfergus to Colerane.</head>
+               <p>FRom Carrigfergus to K<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ll<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s xi. miles, from Kelles as be<g ref="char:EOLhyphen"/>fore<g ref="char:punc">▪</g> &amp;c.</p>
+            </div>
+            <div type="route">
+               <head>The Way from Carrigfergus to Colerane by the Sea ſide.</head>
+               <p>FRom Carrigfergus to Gl<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>arme <gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ii. miles, from Gl<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>arme to D<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>wnanenie x. miles, from <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> to Downluce viii. miles, from Downl<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ce v. miles to Co<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ane.</p>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+         <div type="list_of_fairs">
+            <pb facs="tcp:24917:4" rendition="simple:additions"/>
+            <head>Of the moſt principall Fayres and Marts, as they are vſually holden in this King<g ref="char:EOLhyphen"/>dome of Ireland; and alſo of many new Fayres, lately erected by Patent, added in this yeare.</head>
+            <p>
+               <table>
+                  <head>In lanuarie.</head>
+                  <row>
+                     <cell cols="2">Dayes.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi>
+                           <gap reason="illegible" resp="#APEX" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>1</hi>
+                     </cell>
+                     <cell>At Feames, Countie Waixford.</cell>
+                     <cell>
+                        <hi>S. Brides Euen.</hi>
+                     </cell>
+                  </row>
+               </table>
+               <table>
+                  <head>Fayres in Februarie.</head>
+                  <row>
+                     <cell rows="3">
+                        <hi>1</hi>
+                     </cell>
+                     <cell>At Mollaghege, Countie Croſſe.</cell>
+                     <cell rows="3">
+                        <hi>S. Brides day.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at Brigowne, White Knights Countrie.</cell>
+                  </row>
+                  <row>
+                     <cell>at Kildare, countie K<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>lda<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>e.</cell>
+                  </row>
+               </table>
+               <table>
+                  <head>Fayres in March.</head>
+                  <row>
+                     <cell>
+                        <hi>
+                           <gap reason="illegible" resp="#APEX" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>
+                        </hi>
+                     </cell>
+                     <cell>at Carrigtowhill, countie Corke.</cell>
+                     <cell>
+                        <hi>S. Dauids day.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell rows="10">
+                        <hi>17</hi>
+                     </cell>
+                     <cell>At Knockpatricke, countie Limbrick.</cell>
+                     <cell rows="10">
+                        <hi>S. Patricke.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at Adare, count. Limbricke.</cell>
+                  </row>
+                  <row>
+                     <cell>at Weixford, count. Weixford.</cell>
+                  </row>
+                  <row>
+                     <cell>at G<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>aſſe Carrig, count. Weixford.</cell>
+                  </row>
+                  <row>
+                     <cell>at Caſhall, count. Tippe<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>arie.</cell>
+                  </row>
+                  <row>
+                     <cell>at A<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>dmagh, count Ardmagh.</cell>
+                  </row>
+                  <row>
+                     <cell>at Skartan patricke, count. Weſtmeth.</cell>
+                  </row>
+                  <row>
+                     <cell>at Narrow more, count. Kildare.</cell>
+                  </row>
+                  <row>
+                     <cell>at Lowthe, Eaſt methe.</cell>
+                  </row>
+                  <row>
+                     <cell>at Kelliſtowne, count. Carlaghe.</cell>
+                  </row>
+               </table>
+               <table>
+                  <pb facs="tcp:24917:5"/>
+                  <head>Faires in Aprill.</head>
+                  <row>
+                     <cell>
+                        <hi>23.</hi>
+                     </cell>
+                     <cell>Da<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> at Sallabode, Countie Croſſe.</cell>
+                     <cell>
+                        <hi>S George.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi>25.</hi>
+                     </cell>
+                     <cell>at Mahowne Bridge, countie Corke.</cell>
+                     <cell>
+                        <hi>S. Marke.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell rows="2">
+                        <hi>30. at</hi>
+                     </cell>
+                     <cell>Holy Croſſe, countie Tipporarie.</cell>
+                     <cell rows="2">
+                        <hi>May Euen.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>B<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>nchronocke Immiſhowene.</cell>
+                  </row>
+               </table>
+               <table>
+                  <head>Faires in May.</head>
+                  <row>
+                     <cell rows="9">
+                        <hi>1</hi>
+                     </cell>
+                     <cell>at Alk<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>iten, countie Limbricke.</cell>
+                     <cell rows="9">
+                        <hi>Philip &amp; Iacob.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at Mallow, countie Corke.</cell>
+                  </row>
+                  <row>
+                     <cell>at Afane, countie Waterford.</cell>
+                  </row>
+                  <row>
+                     <cell>at Ardagh, countie Limeric.</cell>
+                  </row>
+                  <row>
+                     <cell>at Abbey of Roſcoman.</cell>
+                  </row>
+                  <row>
+                     <cell>at Kildare count. Kildare.</cell>
+                  </row>
+                  <row>
+                     <cell>at A<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>harie, count. D<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>nganan.</cell>
+                  </row>
+                  <row>
+                     <cell>at Bangar, count. Do<gap reason="illegible" resp="#APEX" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>a.</cell>
+                  </row>
+                  <row>
+                     <cell>at Strabawne, count. Tirone.</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi>2</hi>
+                     </cell>
+                     <cell>at Glannoure, count. Corke.</cell>
+                     <cell>
+                        <hi>S. Wolſtane.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell rows="3">
+                        <hi>3</hi>
+                     </cell>
+                     <cell>at Cauan, count Cauan.</cell>
+                     <cell rows="3">
+                        <hi>Inuentio. crucis.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at Toactoggin, count. Li<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>bricke.</cell>
+                  </row>
+                  <row>
+                     <cell>at Laghlin, count. Carlogh.</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">
+                        <hi>14</hi>
+                     </cell>
+                     <cell>at K<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>l<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ur<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ie Corkenaſky.</cell>
+                     <cell rows="2">
+                        <hi>S. Brandon.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at Cloane, count L<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ytom.</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi>24</hi>
+                     </cell>
+                     <cell>at Abbey of Stagh, count. Longford.</cell>
+                     <cell> </cell>
+                  </row>
+               </table>
+               <table>
+                  <head>Faires in Iune.</head>
+                  <row>
+                     <cell>
+                        <hi>1</hi>
+                     </cell>
+                     <cell>at Galb<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>llie, count. Limbricke.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi>6</hi>
+                     </cell>
+                     <cell>at Kilbeggan W<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ſtmeth.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi>9</hi>
+                     </cell>
+                     <cell>at Louth, count. Louth.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell rows="4">
+                        <hi>11</hi>
+                     </cell>
+                     <cell>at Shanag<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>lin, count Limbr<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>cke.</cell>
+                     <cell rows="4">
+                        <hi>S. Barnaby.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at <gap reason="illegible" resp="#APEX" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap>, Kings coun<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ie.</cell>
+                  </row>
+                  <row>
+                     <cell>at Kilcallme, count. Kildare.</cell>
+                  </row>
+                  <row>
+                     <cell>at Droghedah, count. Droghedah.</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi>15.</hi> or <hi>17.</hi>
+                     </cell>
+                     <cell>at S. Malines, count. Carlagh.</cell>
+                     <cell> </cell>
+                  </row>
+                  <pb facs="tcp:24917:5"/>
+                  <row>
+                     <cell cols="2">
+                        <hi>Dayes.</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell rows="11">
+                        <hi>24</hi>
+                     </cell>
+                     <cell>at Tymoloigue, countie Catherie.</cell>
+                     <cell rows="11">
+                        <hi>Mid<gap reason="illegible" resp="#APEX" extent="2 letters">
+                              <desc>••</desc>
+                           </gap>mer day.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at Cloane Vltagh, connt. Cr<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ſſe.</cell>
+                  </row>
+                  <row>
+                     <cell>at Waterford, count. Waterford.</cell>
+                  </row>
+                  <row>
+                     <cell>at Newcaſtell, count. Wiklow.</cell>
+                  </row>
+                  <row>
+                     <cell>at Diſert, Queenes countie.</cell>
+                  </row>
+                  <row>
+                     <cell>at Mullegat, Weſt meath.</cell>
+                  </row>
+                  <row>
+                     <cell>at Slygo, count. Slygo.</cell>
+                  </row>
+                  <row>
+                     <cell>at Ballagherie, count. Louth.</cell>
+                  </row>
+                  <row>
+                     <cell>at Mary Borrow, Queenes countie.</cell>
+                  </row>
+                  <row>
+                     <cell>at Dirrin,</cell>
+                     <cell rows="2">count. Farnamanagh.</cell>
+                  </row>
+                  <row>
+                     <cell>at Claby,</cell>
+                  </row>
+                  <row>
+                     <cell rows="8">
+                        <hi>29</hi>
+                     </cell>
+                     <cell>at Hoſpitall, count. Limbricke.</cell>
+                     <cell rows="8">
+                        <hi>S. Peters day.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at Grayes towne,</cell>
+                     <cell rows="2">count. Tipperarie.</cell>
+                  </row>
+                  <row>
+                     <cell>at Kil-fea<gap reason="illegible" resp="#APEX" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>o,</cell>
+                  </row>
+                  <row>
+                     <cell>at Tully, count. Ca<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>lah.</cell>
+                  </row>
+                  <row>
+                     <cell>at Weixford count. Weixford.</cell>
+                  </row>
+                  <row>
+                     <cell>at Dunboyno, count. Dublin.</cell>
+                  </row>
+                  <row>
+                     <cell>at Downagall<g ref="char:punc">▪</g> count. Downagall.</cell>
+                  </row>
+                  <row>
+                     <cell>at Longwood, Brinnnghams countie.</cell>
+                  </row>
+               </table>
+               <table>
+                  <head>Fayres in Iuly.</head>
+                  <row>
+                     <cell rows="2">
+                        <hi>15</hi>
+                     </cell>
+                     <cell>at Tarmomnackragh, count Fernam.</cell>
+                     <cell rows="2">
+                        <hi>S. Swithen.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at Lurgan, count. Lowth.</cell>
+                  </row>
+                  <row>
+                     <cell rows="4">
+                        <hi>20</hi>
+                     </cell>
+                     <cell>at Aſkeiten, count. Limbricke.</cell>
+                     <cell rows="4">
+                        <hi>S. Margets.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at S. Margets, count. Dublin.</cell>
+                  </row>
+                  <row>
+                     <cell>at S. Margets, count. Weirford.</cell>
+                  </row>
+                  <row>
+                     <cell>at Tempelhouſe, count. Slygo.</cell>
+                  </row>
+                  <row>
+                     <cell rows="5">
+                        <hi>25</hi>
+                     </cell>
+                     <cell>at Caſtell Dearmot, count. Kildare.</cell>
+                     <cell rows="5">
+                        <hi>S. Iamea.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at Abuy, count. Meath.</cell>
+                  </row>
+                  <row>
+                     <cell>at Ballihacke, count. Weixford.</cell>
+                  </row>
+                  <row>
+                     <cell>at Dublin, count. Dublin.</cell>
+                  </row>
+                  <row>
+                     <cell>at Limbricke, count. Limbricke.</cell>
+                  </row>
+                  <pb facs="tcp:24917:6"/>
+                  <row>
+                     <cell rows="5">25</cell>
+                     <cell>at Whitchurch, count. Waterford.</cell>
+                     <cell rows="5">
+                        <hi>S. Iames.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at Iland Kierie, count. Kierie.</cell>
+                  </row>
+                  <row>
+                     <cell>at Ballanrobe, count. Mayo.</cell>
+                  </row>
+                  <row>
+                     <cell>at Newtowne, at Omye.</cell>
+                  </row>
+                  <row>
+                     <cell>at Dund<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>nouan, count. Corke.</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">26</cell>
+                     <cell>at Tomhaggard, count. Weixford.</cell>
+                     <cell rows="2">
+                        <hi>S. Annes day.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at Galballie, count. Limbrick.</cell>
+                  </row>
+               </table>
+               <table>
+                  <head>Fayres in Auguſt.</head>
+                  <row>
+                     <cell rows="15">1</cell>
+                     <cell>at Belfaſt, count. Antrim.</cell>
+                     <cell> </cell>
+                     <cell rows="15">
+                        <hi>
+                           <gap reason="illegible" resp="#APEX" extent="1 span">
+                              <desc>〈…〉</desc>
+                           </gap>
+                        </hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell cols="2">at Ballikillie, Queenes countie.</cell>
+                  </row>
+                  <row>
+                     <cell cols="2">at Knocke Anie, count. Limbricke.</cell>
+                  </row>
+                  <row>
+                     <cell cols="2">at Wicklow, count Wiclow.</cell>
+                  </row>
+                  <row>
+                     <cell cols="2">at Kil-cocke, count Kildare.</cell>
+                  </row>
+                  <row>
+                     <cell cols="2">at Carrig-dramruſke, count. Letrim.</cell>
+                  </row>
+                  <row>
+                     <cell cols="2">at Kil-kemic, count. Weſtmeath.</cell>
+                  </row>
+                  <row>
+                     <cell>at Afaune, count.</cell>
+                     <cell rows="3">Waterford.</cell>
+                  </row>
+                  <row>
+                     <cell>at Tallow, count.</cell>
+                  </row>
+                  <row>
+                     <cell>at Kil-macktomas, count.</cell>
+                  </row>
+                  <row>
+                     <cell>at Slygo, count. Slygo.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell cols="2">at Killiſhanan, count. Dun<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>agall.</cell>
+                  </row>
+                  <row>
+                     <cell cols="2">at Inchiloghie, count. Farnamanay.</cell>
+                  </row>
+                  <row>
+                     <cell cols="2">at Bryes, count. Mayo.</cell>
+                  </row>
+                  <row>
+                     <cell cols="2">at Muckarcke, count. Typ.</cell>
+                  </row>
+                  <row>
+                     <cell>2</cell>
+                     <cell cols="2">at S. Tannaues greene, count. Weixford.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>3. or 4.</cell>
+                     <cell>at Iuniſkilling.</cell>
+                     <cell> </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell rows="4">10</cell>
+                     <cell cols="2">at Knocklong, count. Limbricke.</cell>
+                     <cell rows="4">
+                        <hi>S. Laurence.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell cols="2">at Palmerſtowne count. Dublin.</cell>
+                  </row>
+                  <row>
+                     <cell>at Ardee, count. Lowth<g ref="char:punc">▪</g>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell cols="2">at Moy-more, count. Weſtmeath.</cell>
+                  </row>
+                  <pb facs="tcp:24917:6"/>
+                  <row>
+                     <cell rows="11">15</cell>
+                     <cell>at Rakeele, countie Limericke.</cell>
+                     <cell rows="11">
+                        <hi>Firſt Lady day.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at Goalin-bridge, count. Tip.</cell>
+                  </row>
+                  <row>
+                     <cell>at Inniſcorfie, count. Weixford.</cell>
+                  </row>
+                  <row>
+                     <cell>at Slane, count. Weſtmeath.</cell>
+                  </row>
+                  <row>
+                     <cell>at Benneth-bridge, count. Kilkennie.</cell>
+                  </row>
+                  <row>
+                     <cell>at Carelagh, count. Carelagh.</cell>
+                  </row>
+                  <row>
+                     <cell>at Downa-brooke, count. Dublin.</cell>
+                  </row>
+                  <row>
+                     <cell>at Balli-more, countie of Dublin,</cell>
+                  </row>
+                  <row>
+                     <cell>at Rathangan, count. Kildare.</cell>
+                  </row>
+                  <row>
+                     <cell>at Roſconell, count. Kil-kenie.</cell>
+                  </row>
+                  <row>
+                     <cell>at Kerneteyl<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>, count. Tirone.</cell>
+                  </row>
+                  <row>
+                     <cell rows="7">24</cell>
+                     <cell>at Innis, count. Clare.</cell>
+                     <cell rows="7">
+                        <hi>S. Bartholomew</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at Gort-Inchigorie, Thomond.</cell>
+                  </row>
+                  <row>
+                     <cell>at Atloaue, Weſtmeath.</cell>
+                  </row>
+                  <row>
+                     <cell>at Shanagolin, count. Limeric.</cell>
+                  </row>
+                  <row>
+                     <cell>at Caſtelmaigne, count. Kierie.</cell>
+                  </row>
+                  <row>
+                     <cell>at Ballenure, count Antrim.</cell>
+                  </row>
+                  <row>
+                     <cell>at Ardah, count. Limeric.</cell>
+                  </row>
+                  <row>
+                     <cell>25</cell>
+                     <cell>at Bangor, countie Downe.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>28</cell>
+                     <cell>at Ardnerie. count. Slygo.</cell>
+                     <cell>
+                        <hi>S. Auguſtine.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>31</cell>
+                     <cell>at Buncronocke, Iniſhowene.</cell>
+                     <cell>
+                        <hi>S. Aydan.</hi>
+                     </cell>
+                  </row>
+               </table>
+               <table>
+                  <head>Fayres in September.</head>
+                  <row>
+                     <cell>1</cell>
+                     <cell>At Antrim, countie Antrim.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell rows="9">8</cell>
+                     <cell>at Magherie-Vancrie, Kings county.</cell>
+                     <cell rows="9">
+                        <hi>2. Lady day.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at Rakeele, count. Limeric.</cell>
+                  </row>
+                  <row>
+                     <cell>at Cahire, count. Tip.</cell>
+                  </row>
+                  <row>
+                     <cell>at Inuiſcorphie, count. Wexford.</cell>
+                  </row>
+                  <row>
+                     <cell>at Kildare, count. Kildare.</cell>
+                  </row>
+                  <row>
+                     <cell>at Ken-arde, count. Ardmah.</cell>
+                  </row>
+                  <row>
+                     <cell>at Roſe, in Carberie.</cell>
+                  </row>
+                  <row>
+                     <cell>at Ballie Logh-mack.</cell>
+                  </row>
+                  <row>
+                     <cell>at Kearne-teyle, count. Tirone.</cell>
+                  </row>
+                  <pb facs="tcp:24917:7"/>
+                  <row>
+                     <cell cols="2">
+                        <hi>Da<gap reason="illegible" resp="#APEX" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>es.</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell rows="4">
+                        <hi>14</hi>
+                     </cell>
+                     <cell>At Toahcloggin, count. Limeric.</cell>
+                     <cell rows="4">
+                        <hi>Exalt. Crucis.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at Holy Croſſe, count. Typ.</cell>
+                  </row>
+                  <row>
+                     <cell>at Canan, count. Canan.</cell>
+                  </row>
+                  <row>
+                     <cell>at Laghlin-bridge, count. Carlagh.</cell>
+                  </row>
+                  <row>
+                     <cell rows="4">
+                        <hi>21</hi>
+                     </cell>
+                     <cell>at Abbey of Boyle, count Roſcomon.</cell>
+                     <cell rows="4">
+                        <hi>S. Matthew.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at Ballikerage, countie Waterford.</cell>
+                  </row>
+                  <row>
+                     <cell>at Corke, count. Corke.</cell>
+                  </row>
+                  <row>
+                     <cell>at Port-Tumnagh, count. Galway.</cell>
+                  </row>
+                  <row>
+                     <cell rows="8">
+                        <hi>29</hi>
+                     </cell>
+                     <cell>At A<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>hye, countie Kildare.</cell>
+                     <cell rows="8">
+                        <hi>Michaell Archa<g ref="char:cmbAbbrStroke">̄</g>.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at Cl<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>rahan, countie Croſſe Typ.</cell>
+                  </row>
+                  <row>
+                     <cell>at Aſkeiton, countie Limeric.</cell>
+                  </row>
+                  <row>
+                     <cell>at Slygo, countie Slygo.</cell>
+                  </row>
+                  <row>
+                     <cell>at Ballenſloe, count. Roſſcomon.</cell>
+                  </row>
+                  <row>
+                     <cell>at Downaman, count. Mayo.</cell>
+                  </row>
+                  <row>
+                     <cell>at Tallow. count. Waterford.</cell>
+                  </row>
+                  <row>
+                     <cell>at Greene Caſtell, Iuniſhowene.</cell>
+                  </row>
+               </table>
+               <table>
+                  <head>Faires in October.</head>
+                  <row>
+                     <cell rows="3">
+                        <hi>5</hi>
+                     </cell>
+                     <cell>at Battimore, Weſtmeath.</cell>
+                     <cell rows="3">
+                        <hi>S. Francis day.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at Ada<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>e, count. Limric.</cell>
+                  </row>
+                  <row>
+                     <cell>at Buſtiſante, count. Corke.</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi>6</hi>
+                     </cell>
+                     <cell>at Kelles, E<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>meath.</cell>
+                     <cell>
+                        <hi>S. Fayth.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi>10</hi>
+                     </cell>
+                     <cell>at Ahhabo, in Offorie.</cell>
+                     <cell>
+                        <hi>S. Canitius.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell rows="4">
+                        <hi>18</hi>
+                     </cell>
+                     <cell>at Drohedagh, count. Drohedagh.</cell>
+                     <cell rows="4">
+                        <hi>S. Luke.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at Mallow, count. Corke.</cell>
+                  </row>
+                  <row>
+                     <cell>at Trignehinch. Queenes countie.</cell>
+                  </row>
+                  <row>
+                     <cell>at Kiltkeggan, Weſtmeath.</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi>20</hi>
+                     </cell>
+                     <cell>at Drounge, in Iuniſhowen.</cell>
+                     <cell>
+                        <hi>S. Egbinus.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell rows="2">
+                        <hi>28</hi>
+                     </cell>
+                     <cell>Mahowne Bridge.</cell>
+                     <cell rows="2">
+                        <hi>Simon &amp; Iude.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at Knock ordin, countie Croſſe Typ.</cell>
+                  </row>
+               </table>
+               <table>
+                  <pb facs="tcp:24917:7"/>
+                  <head>Faires in Nouember.</head>
+                  <row>
+                     <cell cols="2">
+                        <hi>Dayes.</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell rows="6">
+                        <hi>1</hi>
+                     </cell>
+                     <cell>At Carrigfergus, count. Carrigfer.</cell>
+                     <cell rows="6">
+                        <hi>All Saintes.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at Mullengar, Weſtmeath.</cell>
+                  </row>
+                  <row>
+                     <cell>at Clare, countie Clare.</cell>
+                  </row>
+                  <row>
+                     <cell>at Cloan-Vltagke, countie Croſſe.</cell>
+                  </row>
+                  <row>
+                     <cell>at Lurgan, count. Louth.</cell>
+                  </row>
+                  <row>
+                     <cell>at Strabawne, count. Tirone.</cell>
+                  </row>
+                  <row>
+                     <cell rows="6">
+                        <hi>11</hi>
+                     </cell>
+                     <cell>At Afunne, count. Waterford.</cell>
+                     <cell rows="6">
+                        <hi>S. Martine.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at Bruffe, count. Limeric.</cell>
+                  </row>
+                  <row>
+                     <cell>at Fedder, count. Croſſe.</cell>
+                  </row>
+                  <row>
+                     <cell>at S. Martines, count. Kilkennie.</cell>
+                  </row>
+                  <row>
+                     <cell>at Naſe, count. Kildare.</cell>
+                  </row>
+                  <row>
+                     <cell>at Bangor, count. Downe.</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">
+                        <hi>25</hi>
+                     </cell>
+                     <cell>at Newcaſtell, count. Wickloe.</cell>
+                     <cell rows="2">
+                        <hi>S. Katherine.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at Kilmarcktomas, count. Waterford.</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">
+                        <hi>30</hi>
+                     </cell>
+                     <cell>at Typperarie, count. Typ.</cell>
+                     <cell rows="2">
+                        <hi>S. Andrew.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>at Kilti-leagh, count. Downe.</cell>
+                  </row>
+               </table>
+            </p>
+            <p>
+               <table>
+                  <head>Of ſuch Fayres as are guided onely by the moueable Feaſtes of the yeare.</head>
+                  <row>
+                     <cell>At</cell>
+                     <cell>Imis, countie Clare.</cell>
+                     <cell>
+                        <hi>Low Sunday.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell rows="5">At</cell>
+                     <cell>Kelles, Eaſtmeth.</cell>
+                     <cell rows="5">
+                        <hi>Aſcention day.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Athloane Weſtmeth.</cell>
+                  </row>
+                  <row>
+                     <cell>Naſe, count. Kildare.</cell>
+                  </row>
+                  <row>
+                     <cell>Knock-long, count. Limeric.</cell>
+                  </row>
+                  <row>
+                     <cell>Bruffe, countie Limeric.</cell>
+                  </row>
+                  <pb facs="tcp:24917:8"/>
+                  <row>
+                     <cell rows="6">At</cell>
+                     <cell>Kil mallocke, countie Limeric.</cell>
+                     <cell rows="6">
+                        <hi>Whitſon holidayes.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Clare, countie Clare.</cell>
+                  </row>
+                  <row>
+                     <cell>Liſh-more, countie Waterford</cell>
+                  </row>
+                  <row>
+                     <cell>Diſert, Queenes countie.</cell>
+                  </row>
+                  <row>
+                     <cell>Fieldſtone, countie Dubl<gap reason="illegible" resp="#APEX" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>n.</cell>
+                  </row>
+                  <row>
+                     <cell>Caſtel-lehane, countie Corke.</cell>
+                  </row>
+                  <row>
+                     <cell rows="4">At</cell>
+                     <cell>Kilcork macke, Kings countie.</cell>
+                     <cell rows="4">
+                        <hi>Trinity Sunday</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Tallow, countie Waterford.</cell>
+                  </row>
+                  <row>
+                     <cell>Fedder, countie Croſſe.</cell>
+                  </row>
+                  <row>
+                     <cell>Corke, countie Corke.</cell>
+                  </row>
+                  <row>
+                     <cell rows="2">At</cell>
+                     <cell>Kil-kennie, countie Kill.</cell>
+                     <cell rows="2">
+                        <hi>Corpus Chriſti.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>Shrawell, countie Longford,</cell>
+                  </row>
+                  <row>
+                     <cell>At</cell>
+                     <cell>Killi-leaghe, countie Downe.</cell>
+                     <cell>
+                        <hi>Monday after Trinity Sunday.</hi>
+                     </cell>
+                  </row>
+               </table>
+            </p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>
+               <hi>Imprinted at London for the Companie of Stationers.</hi>
+            </p>
+            <p>
+               <hi>1613.</hi>
+            </p>
+            <pb facs="tcp:24917:8"/>
+         </div>
+      </back>
+   </text>
+</TEI>

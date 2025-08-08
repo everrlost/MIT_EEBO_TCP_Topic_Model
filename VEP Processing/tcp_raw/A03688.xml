@@ -1,0 +1,1226 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The scourge of drunkennes. By William Hornby Gent</title>
+            <author>Hornby, William.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1618</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 43 KB of XML-encoded text transcribed from 16 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A03688</idno>
+            <idno type="STC">STC 13815</idno>
+            <idno type="STC">ESTC S106238</idno>
+            <idno type="EEBO-CITATION">99841958</idno>
+            <idno type="PROQUEST">99841958</idno>
+            <idno type="VID">6580</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A03688)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 6580)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1384:02)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The scourge of drunkennes. By William Hornby Gent</title>
+                  <author>Hornby, William.</author>
+               </titleStmt>
+               <extent>[32] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by G. Eld, for Thomas Baylie, and are to be solde at his shop, in the Middle-Row in Holborne, neere vnto Staple-Inne,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1618.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>With a title-page woodcut.</note>
+                  <note>Signatures: A-D⁴.</note>
+                  <note>Running title reads: The scourge of drunkennesse.</note>
+                  <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Temperance --  Poetry.</term>
+               <term>Temperance --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-02</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-03</date>
+            <label>Scott Lepisto</label>Sampled and proofread</change>
+         <change>
+            <date>2009-03</date>
+            <label>Scott Lepisto</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:6580:1"/>
+            <pb facs="tcp:6580:1"/>
+            <p>THE SCOVRGE OF DRVNKENNES.</p>
+            <p>By <hi>William Hornby</hi> Gent.</p>
+            <figure>
+               <figDesc>depiction of andunsavory man-beast with scourge and pipe</figDesc>
+            </figure>
+            <p>
+               <hi>LONDON,</hi> Printed by G. ELD, for <hi>Thomas Bay<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ie,</hi> and are to be ſolde at his Shop, in the Middle-Row in Holborne, neere vnto <hi>Staple-Inne.</hi> 1618.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:6580:2"/>
+            <pb facs="tcp:6580:2"/>
+            <head>TO HIS LOVING Kinſman, and approued Friend, M<hi rend="sup">r</hi>. HENRY CHOLMELY Eſquire: WILLIAM HORNBY wiſheth all health and happineſſe.</head>
+            <lg>
+               <l>
+                  <seg rend="decorInit">I</seg> Haue preſum'd to Dedicate this Booke</l>
+               <l>Vnto your ſelfe (Kinde Sir,) vouchſafe to looke</l>
+               <l>Into the ſame: and with indicious eyes</l>
+               <l>View here the difference twixt the foole and wiſe.</l>
+               <l>I count them fooles, which night by night doe ſit</l>
+               <l>In Tauernes for to foolifie their wit;</l>
+               <l>Suffring ſtrong wine to domineire and braue,</l>
+               <l>And ſo make Reaſon a poore captiue ſlaue:</l>
+               <l>Who with Hell-ſmoaking vapours doe delight</l>
+               <l>To turne night into day, day into night:</l>
+               <l>In which they Time, Wealth, Wit, and all doe waſt,</l>
+               <pb facs="tcp:6580:3"/>
+               <l>Becauſe to beggery they ſoone would haſt.</l>
+               <l>I deeme them wiſe which can this ſinne eſchew,</l>
+               <l>And bleſſe themſelues from ſuch a damned crew</l>
+               <l>Of hate full hell-hounds, in all ſinnes growne ripe,</l>
+               <l>Which daily daunce before the Diuels Pipe:</l>
+               <l>There's not a vice, but they'r expert in all,</l>
+               <l>And ready into Hels wide mouth to fall.</l>
+               <l>At <hi>Bacchus</hi> Altars they their ſinnes deplore:</l>
+               <l>And <hi>Venus</hi> for their Goddeſſe doe adore.</l>
+               <l>All vertuous thoughts they from their hearts expell,</l>
+               <l>And neuer thinke of Iudgement, Heauen, or Hell.</l>
+               <l>Then bleſt are they (I ſay) which ſober liue,</l>
+               <l>And not an eare to their inticements giue:</l>
+               <l>Which keepe <hi>decorum</hi> euer in their wayes,</l>
+               <l>Both to Gods glory, and their endleſſe praiſe:</l>
+               <l>By this they ſhall preſerue their wealth and name</l>
+               <l>From preiudice, from ſcandall and from ſhame:</l>
+               <l>By this they ſhall be honor'd and renown'd,</l>
+               <l>Where ſpeciall vertues in them ſo abound,</l>
+               <l>'Tis euer beſt a golden meane to keepe,</l>
+               <l>And not to cl<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>mbe too high, nor wade too deepe,</l>
+               <l>Leſt climbing high, the greater be their fall,</l>
+               <l>And by deepe wading they be drown'd withall.</l>
+               <l>To keepe vs then from falling eyther way,</l>
+               <l>Vpon this ſtaffe let our affections ſtay</l>
+               <pb facs="tcp:6580:3"/>
+               <l>Of bleſſed Golden Meane, there let vsreſt;</l>
+               <l>So liue, ſo dye; and dying ſo, be bleſt.</l>
+               <l>Thus hoping you will kindely this receiue,</l>
+               <l>The reſt vnto your generous thoughts I leaue.</l>
+            </lg>
+            <closer>
+               <signed>Your Kinſman to be commanded, WILLIAM HORNBY.</signed>
+            </closer>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:6580:4"/>
+            <head>TO ALL THE IMPIOVS, and relentleſſe-harted RVFFIANS and ROYSTERS vnder <hi>Bacchus</hi> Regiment: <hi>Cornu-apes</hi> wiſheth remorſe of Conſcience, and more increaſe of Grace.</head>
+            <lg>
+               <l>YOu Roaring-boyes, which vſe to drink and ſweare</l>
+               <l>As if you ſtraight would cauſe the Diuell appeare</l>
+               <l>Amongſt you, for your execrable crimes,</l>
+               <l>To fetch you vnto hell before your times:</l>
+               <l>View here the farewell of my youths-greene folly,</l>
+               <l>Which breedes my ioy, but your ſad melancholy.</l>
+               <l>'Tis ioy to mee, becauſe I now doe leaue them:</l>
+               <l>But griefe to you, that I no more receiue them.</l>
+               <l>Thus 'tis my onely comfort, but your ſadneſſe,</l>
+               <l>That ſtill I <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ill not follow you in badneſſe:</l>
+               <l>For they which be compoſed of all euill,</l>
+               <l>Care not how many goe vnto the Diuell;</l>
+               <l>That as on earth they all alike doe fare,</l>
+               <l>Euen ſo in hell like torments they may ſhare.</l>
+               <l>Once I was vaine, yet now I doe abhorre it:</l>
+               <l>But I may blame ſuch wicked tempters for it.</l>
+               <l>Now by the light of Grace my faults I ſee,</l>
+               <l>How vaine, how vilde, and how corrupt they be.</l>
+               <l>I feele within my breſt continuall iarres,</l>
+               <l>My Fleſh and Spirit are at mortall warres,</l>
+               <l>By reaſon of my ſinnes ſo extreame vilde,</l>
+               <l>As hard it is to haue them reconcilde.</l>
+               <pb facs="tcp:6580:4"/>
+               <l>But now Repentance comes, and ſhee makes peace,</l>
+               <l>And ſo the Combitants their warres doe ceaſe.</l>
+               <l>Shee bids me boldly write againſt that ſinne,</l>
+               <l>And horrid wickedneſſe, I long liu'd in.</l>
+               <l>She bids me ſpit in Drunkenneſſe foule face,</l>
+               <l>Deny, defie, and doe it all diſgrace:</l>
+               <l>With ſharpe inuectiues bitterly to rate it,</l>
+               <l>Reuile, deteſt, and vtterly to hate it.</l>
+               <l>Thus I of <hi>Bacchus</hi> ſeruice am aſham'd,</l>
+               <l>Let mee a Coward therefore be proclaim'd</l>
+               <l>At drinking healths: to drinke ſo out of health</l>
+               <l>They are vilde members in a Common-wealth.</l>
+               <l>Let Drunkards publiſh this for their owne grace</l>
+               <l>In euery Towne and Corporation place,</l>
+               <l>That where I ſee pots ſtand in battle-ray,</l>
+               <l>They make me Coward-like to runne away:</l>
+               <l>With this loud clamour I am well content,</l>
+               <l>'Twill be my praiſe, but their diſparagement.</l>
+               <l>Then they which filthy be, ſo ſtill remaine,</l>
+               <l>Who toucheth pitch, muſt needes his finger<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſtaine.</l>
+               <l>I will proceede euen as I haue begun,</l>
+               <l>Vertue ſhall be the race I meane to run.</l>
+               <l>And ſo baſe Drunkards all, I you defie,</l>
+               <l>Thus I will liue, and thus I hope to dye.</l>
+            </lg>
+            <closer>
+               <signed>
+                  <hi>Yours if you will turne to Grace, elſe not;</hi>
+CORNV-APES.</signed>
+            </closer>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:6580:5"/>
+            <lg>
+               <l>COme Drunkenneſſe, vntruſſe,</l>
+               <l>and naked ſtrip thee:</l>
+               <l>For without mercy</l>
+               <l>I will ſoundly whip thee.</l>
+               <l>I haue prepar'd a Scourge</l>
+               <l>I hope will ſmart,</l>
+               <l>Becauſe I doe abhorre thee</l>
+               <l>with my heart.</l>
+               <l>Then will I pinch, nip, ſeare,</l>
+               <l>and brand thy skinne,</l>
+               <l>To make thee (if thou canſt)</l>
+               <l>to feele thy ſinne.</l>
+               <l>So ſerue thee in thy kinde,</l>
+               <l>and let thee paſſe,</l>
+               <l>For the moſt vildeſt Rogue</l>
+               <l>that euer was.</l>
+               <l>Ile vſe thee like a Dogge, a Iew, a Slaue.</l>
+               <l>Expect no mercy from my hands to haue.</l>
+            </lg>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:6580:5"/>
+            <head>THE SCOVRGE Of DRVNKENNES.</head>
+            <p>CORNV-APES his Farewell to <hi>Folly, or his Metamorphoſis, wherein hee doth ſhew</hi> his vnfaigned hatred to euill Company ſuch as bee <hi>Drunkards, Swearers, and ſuch like; which God</hi> doth hate: And alſo, where hee doth briefly diſplay the effects of Drunkenneſſe, with <hi>his Deteſtation of frequenting Ale<g ref="char:EOLhyphen"/>houſes: profitable to all, and</hi> hurtfull to none.</p>
+            <lg>
+               <l>
+                  <seg rend="decorInit">B</seg>Itter ſweete pleaſing</l>
+               <l>vanities adue,</l>
+               <l>Yee ſubtill <hi>Syrens</hi>
+               </l>
+               <l>ſing vnto your ſelues,</l>
+               <l>For from your ſongs,</l>
+               <l>much preiudice enſue,</l>
+               <l>I liſt no longer</l>
+               <l>for to truſt ſuch Elues,</l>
+               <l>Sing, play, pipe, dance, your Granſires Galliard round,</l>
+               <l>Swagger and ſweare, dice, drab, and drinke profound.</l>
+            </lg>
+            <pb facs="tcp:6580:6"/>
+            <lg>
+               <l>The Crowing Cocke which ſharply checked <hi>Peter,</hi>
+               </l>
+               <l>The Scriech-Owles hideous notes giue more content,</l>
+               <l>The croaking night-Rau'n yeeldeth tunes much ſweeter</l>
+               <l>Then the vaine muſicke your vild breaths haue ſpent:</l>
+               <l>Theſe are and haue beene ominous to ſome,</l>
+               <l>But yours preſage a diſmall end to come.</l>
+            </lg>
+            <lg>
+               <l>To damp and quench the heat of all your ſport,</l>
+               <l>Let me but tell you the true end of all,</l>
+               <l>You that to brothell houſes doe reſort,</l>
+               <l>And vnto Dicing and to Drinking fall.</l>
+               <l>I will bee plaine the very truth to tell,</l>
+               <l>Such be the highwayes and the gates to hell.</l>
+            </lg>
+            <lg>
+               <l>Your eager ſports <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o eaſeleſſe griefe doe tend,
+<note place="margin">
+                     <hi>Sweet meat muſt haue ſower ſance.</hi>
+                  </note>
+               </l>
+               <l>Your mirth in mourning, and your bliſſe in bane,</l>
+               <l>Your weale in woe, your wealth in wrack ſhall end,</l>
+               <l>Your ſweet in ſower, your pleaſure all in paine:</l>
+               <l>This is the ſong my dolefull Muſe begins,</l>
+               <l>Which doth declare the ſtipend of foule ſins.</l>
+            </lg>
+            <lg>
+               <l>Then ſuck Tobacco, and ſwell vp your iawes,</l>
+               <l>And make your noſtrills like to Chimneyes ſmoake,</l>
+               <l>Still bee rebellious to your makers lawes,</l>
+               <l>If that you will his anger ſo prouoke:</l>
+               <l>For be you ſure though he be ſlow to ire,</l>
+               <l>His wrath will come, as a conſuming fire.</l>
+            </lg>
+            <lg>
+               <l>Be as you are, if you will not amend,</l>
+               <l>As I haue beene, I will no more bee ſo,</l>
+               <l>As I haue beene, I was not my owne friend,</l>
+               <l>But to my ſelfe a very deadly foe:</l>
+               <l>Then as I was, I doe my ſelfe deny,</l>
+               <l>And all the follies of my youth defie.</l>
+            </lg>
+            <pb facs="tcp:6580:6"/>
+            <lg>
+               <l>In bearing of my name, I beare my ſhame,</l>
+               <l>My name is ſpotted with my ſinnes offence,</l>
+               <l>But true repentance yet will cleare the ſame,</l>
+               <l>And make for it (I hope) a recompence,</l>
+               <l>Then farewell all the follyes of my youth,</l>
+               <l>Which haue beene Traytors for too worke my ruth.</l>
+            </lg>
+            <lg>
+               <l>Moſt vaine delights haue hurt me all they can,</l>
+               <l>In doing to me vild and great diſgrace,</l>
+               <l>I now will mortifie a ſinfull man,</l>
+               <l>Repentance doth thruſt folly out of place:</l>
+               <l>Folly therefore for euer fare thee well,</l>
+               <l>For true Repentance in my heart doth dwell.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Bacchus</hi> thou God of all ebriety,</l>
+               <l>Which doſt obtuce and blunt the edge of wit,</l>
+               <l>Thou enemy vnto ſobriety,</l>
+               <l>Which mak'ſt ſome rage as in a franticke fit,</l>
+               <l>Who ſo frequents thy Court ſhall not bee wiſe,</l>
+               <l>To thee therefore no more Ile ſacrifice.</l>
+            </lg>
+            <lg>
+               <l>Thou which doſt cauſe the liquid iuyce of Grape,
+<note place="margin">
+                     <hi>The diuerſity and contra<g ref="char:EOLhyphen"/>riety of pret<g ref="char:EOLhyphen"/>ty drunken trickes and qualities. That is dance like Alexanders great horſe.</hi>
+                  </note>
+               </l>
+               <l>For to poſſeſſe mens ſeuerall heads with rage,</l>
+               <l>Some for to dance the Anticke like an ape,</l>
+               <l>And ſome to ſing as twere a Bird in Cage:</l>
+               <l>Some Maudlin-drunke doe ſtraight diſtill downe teares,</l>
+               <l>And ſome like great <hi>Bucephalus,</hi> carreares,</l>
+            </lg>
+            <lg>
+               <l>Some, fall to ſweare, blaſpheme, to cogge and lye,</l>
+               <l>And ſome will rattle pots againſt the wall,</l>
+               <l>Some in Pot valour will his man-hood trye,</l>
+               <l>And ſome to other pretty feats will fall:</l>
+               <l>Some then will run through fire and water deepe,</l>
+               <l>And ſome be ſilent and fall faſt aſleepe.</l>
+            </lg>
+            <pb facs="tcp:6580:7"/>
+            <lg>
+               <l>Some, arm'd in Ale, will ſtoutly prate of Warres,</l>
+               <l>And ſome will in an Ale-houſe draw his dagger,</l>
+               <l>Some will ore looke the Moone and all the ſtarres,</l>
+               <l>And ſome will in a beaſtly humor ſwagger,</l>
+               <l>And ſome will offer to no Creature wrong,</l>
+               <l>Becauſe the Crampe is in his legges and tongue.</l>
+            </lg>
+            <lg>
+               <l>Some, like an Ape, will featly mumpe and mow,</l>
+               <l>When Drinke hath much deformd his formall face,</l>
+               <l>And ſome will reele when as hee cannot goe,</l>
+               <l>And ſome will run and ride the wild-gooſe chaſe:</l>
+               <l>And ſome will ſhout and hallow like madmen,</l>
+               <l>And ſome will roare like Lyons in a Den.</l>
+            </lg>
+            <lg>
+               <l>Some valiant <hi>Hercules</hi> will imitate,
+<note place="margin">
+                     <hi>Drinke makes Cow<g ref="char:EOLhyphen"/>ards valiant.</hi>
+                  </note>
+               </l>
+               <l>To fetch the triple-headed Dog from Hell,</l>
+               <l>And ſome of great atchiuements then will prate,</l>
+               <l>As if their deeds ſhould <hi>Hercules</hi> excell:</l>
+               <l>And ſome will fight vp to the knees in blood,</l>
+               <l>For his friends ſake if it will doe him good.</l>
+            </lg>
+            <lg>
+               <l>Some like an Adiectiue doe props require,</l>
+               <l>For to ſupport their ill diſtemperd bodies,</l>
+               <l>And ſome like Swine doe wallow in the mire:</l>
+               <l>And ſome goe gazing heere and there like noddies,</l>
+               <l>Some hath the ach ſo grieuous in his head,</l>
+               <l>That hee wants helpe to carry him to bed.</l>
+            </lg>
+            <lg>
+               <l>Some diſobedient rake-hell voyd of grace,</l>
+               <l>When Drinke hath got the maiſtery of his wit,</l>
+               <l>Will call his father foole before his face,</l>
+               <l>And cheeke by iole by him will boldly ſit.</l>
+               <l>And ſome in drinke will giue a deſperate ſtab,</l>
+               <l>And ſome not ſtick to call his mother Drab.</l>
+            </lg>
+            <pb facs="tcp:6580:7"/>
+            <lg>
+               <l>Some hath his face moſt curiouſly bedeckt,
+<note place="margin">
+                     <hi>Moſt admi<g ref="char:EOLhyphen"/>rable rich fa<g ref="char:EOLhyphen"/>ces.</hi>
+                  </note>
+               </l>
+               <l>With Carbuncles and buttry buttons fine,</l>
+               <l>And ſome will haue his face moſt ſtrangely ſleckt</l>
+               <l>Like Creame and ſtrawberies or Claret wine:</l>
+               <l>And ſome will haue his noſe moſt rich beſpred,</l>
+               <l>With Pearles and Crinkoms mixt with crimſon red.</l>
+            </lg>
+            <lg>
+               <l>Some to maintaine his huge red bottle noſe,</l>
+               <l>Leaſt that the fire ſhould bee extinct and dye,</l>
+               <l>Ere hee want caſh to drinke heele paune his cloaths,</l>
+               <l>So make his back, out of his belly crye,</l>
+               <l>And bitterly the ſame to ban and curſe,</l>
+               <l>That by his paunch his back ſhould fare the worſe.</l>
+            </lg>
+            <lg>
+               <l>Some ere he want his quenchleſſe thirſt to ſlake,</l>
+               <l>Will Conicatch, and cheat, ſo liue by's wit;</l>
+               <l>And ſome nere greatly care a purſe to take,</l>
+               <l>If opportunity their purpoſe fit:</l>
+               <l>Thus may wee ſee, this ſin Ebriety</l>
+               <l>Doth linke together much impiety.</l>
+            </lg>
+            <lg>
+               <l>All theſe are <hi>Bacchus</hi> prentiſes free made</l>
+               <l>Of that foule trade of filthy Drunkenneſſe,</l>
+               <l>His Liuery is on their fronts diſplaid,</l>
+               <l>And true deuotion they to him expreſſe,</l>
+               <l>At's Altars they Tobacco ſacrifice,</l>
+               <l>And honor him in all due quaffing wiſe.</l>
+            </lg>
+            <lg>
+               <l>He traines them vp and frames them, makes them fit,</l>
+               <l>For death, deſtruction, and eternall woe,</l>
+               <l>Their finnes will ſinke them to th'infernall pit,</l>
+               <l>Where Drunkards all without Repentance goe:</l>
+               <l>Beſides all earthly bleſſings quite forſake them,</l>
+               <l>And ſhame and Beggery doe ouertake them.</l>
+            </lg>
+            <pb facs="tcp:6580:8"/>
+            <lg>
+               <l>Who euer knew but that ſome fearefull end,</l>
+               <l>At vnawares theſe Malt-wormes did ſurprize,</l>
+               <l>In which God doth his Iuſtice right extend,</l>
+               <l>As hee is all-vpright, all-iuſt, all-wiſe,</l>
+               <l>His menaces they neuer feare at all,</l>
+               <l>Vntill his iudgements on their heads doe fall.</l>
+            </lg>
+            <lg>
+               <l>But firſt, being loath for euer they ſhould dye,</l>
+               <l>He warnes them faire, (as warned folkes may liue)</l>
+               <l>And with delayes he likewiſe them doth trye,</l>
+               <l>Deferring ſtill due puniſhment to giue:</l>
+               <l>But when he ſees they will not turne to grace,</l>
+               <l>His Iudgement ſtraight doth mercy quite diſplace.</l>
+            </lg>
+            <lg>
+               <l>Then grim-facd Death comes with his Mace in's fiſt,</l>
+               <l>And at Gods ſuit doth ſuddaine them arreſt,
+<note place="margin">
+                     <hi>There is not reſisting a<g ref="char:EOLhyphen"/>gainſt Death</hi>
+                  </note>
+               </l>
+               <l>When tis in vaine to reſcue, or reſiſt,</l>
+               <l>His conquering hand doth euer get the beſt:</l>
+               <l>He is Gods Sargeant, and no kind of baile</l>
+               <l>Can any whit in all the world preuaile.</l>
+            </lg>
+            <lg>
+               <l>Not all the coſtly rich Arabian gold,</l>
+               <l>Can ranſome them from Deaths ſtrong Priſon place,</l>
+               <l>Nor all the treaſure that our eyes behold,</l>
+               <l>No bonds, no baile, can helpe them in this caſe:</l>
+               <l>No ſtrength of men, no pollicies, no lawes</l>
+               <l>Can once redeeme them out of deaths ſtrong clawes.</l>
+            </lg>
+            <lg>
+               <l>Thus on theſe lawleſſe liuers hee makes ſeaſure,</l>
+               <l>Not by one way, but by a ſundry kind,</l>
+               <l>Which is at Gods appointment, will and pleaſure,</l>
+               <l>By his decree their liues are ſo reſign'd,</l>
+               <l>As by examples often doe appeare,</l>
+               <l>Which is enough to ſtrike our hearts with feare.</l>
+            </lg>
+            <pb facs="tcp:6580:8"/>
+            <lg>
+               <l>One in the midſt of quaffing ends his dayes,</l>
+               <l>Euen by a ſuddaine ſtab which he receiues,</l>
+               <l>Such Accidents doe happen many wayes:</l>
+               <l>Another in a ditch lies drunke, and leaues</l>
+               <l>His liueleſſe Corpes there, grieuous to bee found,</l>
+               <l>To witneſſe he was drunke ere hee was drownd.</l>
+            </lg>
+            <lg>
+               <l>Another doth receiue a wofull check,</l>
+               <l>His braines round whirling with diſtempering drinke,</l>
+               <l>Downe from his horſe doth fall and breake his neck,</l>
+               <l>All theſe are heauy Iudgements we may thinke,</l>
+               <l>Another ſurfetting in great exceſſe,</l>
+               <l>Dyes ſuddaine in the midſt of Drunkenneſſe.</l>
+            </lg>
+            <lg>
+               <l>Another hauing ſpent his onely meanes,</l>
+               <l>In a moſt drunken looſe laſciuious vaine,</l>
+               <l>Vpon baſe Panders, filthy Whores and Queanes,</l>
+               <l>Which wealth might well him elſe in age ſuſtaine:</l>
+               <l>Hauing thus vainely ſpent a good eſtate,</l>
+               <l>By a ſad ſwing his dayes doe end their date.
+<note place="margin">
+                     <hi>He depart<g ref="char:EOLhyphen"/>eth out of this World in a halter.</hi>
+                  </note>
+               </l>
+            </lg>
+            <lg>
+               <l>Oh are not theſe faire warnings to take heed!</l>
+               <l>And yet alas men cannot warned bee,</l>
+               <l>For ſtill they doe in drunkenneſſe exceed,</l>
+               <l>Wee are ſo blind our faults wee cannot ſee:</l>
+               <l>Drunkards, each where doe ſwarme as thick, at leaſt,</l>
+               <l>As flyes on ſome dead putrified beaſt.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Sodome</hi> did not in greater ſin abound,</l>
+               <l>Then doth this wicked world wee now enioy,</l>
+               <l>Whereas ten righteous men could not be found,</l>
+               <l>For which the Lord with fire did it deſtroy:</l>
+               <l>That in ſo much we now may plainly ſee,</l>
+               <l>
+                  <hi>Sodome</hi> was burn'd, her ſinnes eſcaped be.</l>
+            </lg>
+            <pb facs="tcp:6580:9"/>
+            <lg>
+               <l>For he which will not take his Lap downe free,
+<note place="margin">
+                     <hi>The Drunk<g ref="char:EOLhyphen"/>ards terme their Drinke Lap, a good curriſh com<g ref="char:EOLhyphen"/>pariſon fit e<g ref="char:EOLhyphen"/>nough for ſuch dogges as they bee.</hi>
+                  </note>
+               </l>
+               <l>Lap, ſo they terme it, ſuch as dogs doe vſe,</l>
+               <l>And dogs with ſuch indeed doe beſt agree,</l>
+               <l>Becauſe Gods Creatures they ſo vild abuſe:</l>
+               <l>Hee's a baſe fellow that will this denye,</l>
+               <l>When as moſt baſenes in themſelues doth lye.</l>
+            </lg>
+            <lg>
+               <l>And he that will not drinke off his whole ſcowre,</l>
+               <l>Is a Bench-whiſtler, and a peaſant ſlaue,</l>
+               <l>Oh they will raile vpon him euery hower,</l>
+               <l>And tell him hees not worthy for to haue</l>
+               <l>A boone companion or good fellowes name,</l>
+               <l>If that he rightly cannot ſhew the ſame.</l>
+            </lg>
+            <lg>
+               <l>But hee which brauely will carouſe and quaffe,</l>
+               <l>And drinke downe-drunke euen to the depth of Hell,</l>
+               <l>And ſpend his money, as it were but chaffe,</l>
+               <l>Oh thats the man that beares away the bell,</l>
+               <l>He ſhall be praiſd, for taking of his due,</l>
+               <l>And call'd a Captaine of the Drunken crew.</l>
+            </lg>
+            <lg>
+               <l>But if to pledge a ſlaſh hee doth refuſe;</l>
+               <l>They'l take the pot, and throw the drinke in's face,</l>
+               <l>And with broad ſcoffs, moſt groſſely him abuſe,</l>
+               <l>Thus will they vrge him to his great diſgrace:</l>
+               <l>So vpon this, they muſt goe try their tooles,</l>
+               <l>Then out they goe to fight like drunken fooles,</l>
+            </lg>
+            <lg>
+               <l>When as they cannot goe, nor ſtand alone.</l>
+               <l>Then moſt of all their hearts with fury ſwell,</l>
+               <l>They'l make great brags to haue their valour ſhowne,</l>
+               <l>That they will fight euen with the Diuell of Hell:</l>
+               <l>Whilſt that their reputation quite doth ſinke,</l>
+               <l>Baſe is the quarrell that begins in drinke.</l>
+            </lg>
+            <pb facs="tcp:6580:9"/>
+            <lg>
+               <l>But of all other he is truely wiſe,</l>
+               <l>That from theſe ill-good-fellowes can refraine,</l>
+               <l>Though ſcoffingly they ſay he is preciſe,</l>
+               <l>Yet Drunkards tongues his credit cannot ſtaine:</l>
+               <l>For bleſt are they which haue an euill report,</l>
+               <l>By them which are right of the Diuells conſort.</l>
+            </lg>
+            <lg>
+               <l>'Tis great impeachment to a generous mind,</l>
+               <l>A baſe and paltry Ale-houſe to frequent,</l>
+               <l>It beſt befits a Tinker in his kinde,</l>
+               <l>Then any man of vertues eminent,</l>
+               <l>Goe to an Ale-houſe to quaffe and carouſe,</l>
+               <l>Tis Couſin German to a Baudy-houſe.</l>
+            </lg>
+            <lg>
+               <l>It is the receptacle of all vices,
+<note place="margin">
+                     <hi>An Ale-houſe rightly decyphered.</hi>
+                  </note>
+               </l>
+               <l>Where Tinkers and their Tibs do oft repaire,</l>
+               <l>Where theeues and Iugglers with their ſleight deuiſes,</l>
+               <l>Their falſe got booties, at a night doe ſhare,</l>
+               <l>Where Rogues and Runagates doe ſtill reſort,</l>
+               <l>And euery Knaue which is of euill report.</l>
+            </lg>
+            <lg>
+               <l>It is a Cage of all baſe Villany,</l>
+               <l>Where Swearers, Dicers, Cutpurſes and Cheators,</l>
+               <l>Bull-wards and Beare-wards with like company,</l>
+               <l>Of Fidlers, Farriers, Conycatching creatures,</l>
+               <l>Bauds, Pedlers, Panders, and ſuch Bride-well ſtuffe,</l>
+               <l>As Miſtris <hi>Meritrix</hi> with t'flaunting Ruffe.</l>
+            </lg>
+            <lg>
+               <l>It is a harbor for iniquity,</l>
+               <l>It is the very ſinke of horrid ſin,</l>
+               <l>It is a Den of all impiety,</l>
+               <l>And well is he that doth not fall therein:</l>
+               <l>It is a place of pleaſure bitter-ſweet,</l>
+               <l>Where Knaues and Whores doe oft together meet.</l>
+            </lg>
+            <pb facs="tcp:6580:10"/>
+            <lg>
+               <l>There euery ſaucy Iack will haue his Gyll,</l>
+               <l>And euery knaue will with his mate be bold,</l>
+               <l>Naught euermore with naught frequenteth ſtill,</l>
+               <l>Birds of a feather will together hold:</l>
+               <l>Where ſtinking carion doth corrupted lye,</l>
+               <l>There greedy Kytes doe all together flye.</l>
+            </lg>
+            <lg>
+               <l>Thus where an Ale-houſe is decyphered right,</l>
+               <l>Me thinke a Gentleman ſhould ſcorne to ſtaine,</l>
+               <l>His vertues, which might elſe giue ſplendor bright,</l>
+               <l>So baſely in an Ale-houſe to remaine:</l>
+               <l>Goe to an Ale-houſe, why then goe to Hell;</l>
+               <l>For there all ſin and villany doth dwell.</l>
+            </lg>
+            <lg>
+               <l>There euery vpſtart, baſe-condition'd ſlaue,</l>
+               <l>If that he haue but money in his bagge,</l>
+               <l>A Gentleman vnto his teeth will braue,</l>
+               <l>And in his pots moſt malapertly bragge:</l>
+               <l>Confront him too with termes moſt groſſe and vild:</l>
+               <l>Who toucheth pitch of force ſhall be defilde.</l>
+            </lg>
+            <lg>
+               <l>Oh is't not pitty Gentlemen ſhould drownd</l>
+               <l>Their wealth, their wits, and vertues, all in drinke,</l>
+               <l>When ſuch good qualities in them are found,</l>
+               <l>They ſhould (alas) ſo much i'th wetting ſhrinke?</l>
+               <l>For though they be well read, and highly borne,</l>
+               <l>Yet th'are but held in baſe contempt and ſcorne.</l>
+            </lg>
+            <lg>
+               <l>How much, Oh how much, doe they dimme I ſay</l>
+               <l>Their Orient vertues which might elſe appeare,</l>
+               <l>As bright as <hi>Cynthia</hi> in her glorious ray,</l>
+               <l>When gentle windes the night from Clouds do cleare:</l>
+               <l>Ay me, that Vertue ſhould lie ſo obſcure,</l>
+               <l>And Priſoner-like ſuch pennance great indure.</l>
+            </lg>
+            <pb facs="tcp:6580:10"/>
+            <lg>
+               <l>Then Gentlemen let me you this perſwade,</l>
+               <l>From what you be doe not degenerate,</l>
+               <l>God a degree you aboue others made,</l>
+               <l>That chiefely Vertue you might imitate:</l>
+               <l>For Gentlemen from Swains ſhould differ farre,</l>
+               <l>As doth the Moone from the leaſt twinkling ſtarre.</l>
+            </lg>
+            <lg>
+               <l>As for the vulgar let them ſtill be vicious,</l>
+               <l>Let them be drunke and altogether vaine,</l>
+               <l>Let them be wicked Swearers and malicious,</l>
+               <l>If no perſwaſions can their wills reſtraine:</l>
+               <l>A ruſticke humour fits a ruſticke mind,</l>
+               <l>Onely be you from ſuch groſſe ills refinde.</l>
+            </lg>
+            <lg>
+               <l>Once did I ſee, I would I had not ſo,</l>
+               <l>A thing not ſtrange, yet ſtrange I would it were,</l>
+               <l>A Vicar was ſo drunke hee could not goe,</l>
+               <l>With drinking of Tobacco, Ale, and Beere:</l>
+               <l>Needs muſt the People then goe far aſtray,</l>
+               <l>When as the guide doth reele out of the way.</l>
+            </lg>
+            <lg>
+               <l>Another time I ſaw as bad a ſight,</l>
+               <l>A Iuſtice that did rule a corporation,</l>
+               <l>Would to the people bid at noone good-night,</l>
+               <l>By reaſon of ſtrong liquors operation:</l>
+               <l>Ill can hee keepe a Towne in good ſubiection,</l>
+               <l>When as he cannot rule his owne affection.</l>
+            </lg>
+            <lg>
+               <l>And is not this a lamentable caſe,</l>
+               <l>They which ſhould be as Lanthornes ſhining bright,</l>
+               <l>To guide each one to run a vertuous race,</l>
+               <l>Doe more eclipſe their wayes then make them light,</l>
+               <l>Vnreuerend Sirs, your places fit you ill,</l>
+               <l>Becauſe you cheriſh Vice and Vertue kill.</l>
+            </lg>
+            <pb facs="tcp:6580:11"/>
+            <lg>
+               <l>I knew a Vicar was as free a man,
+<note place="margin">
+                     <hi>Behold a ſwaggering <g ref="char:V">Ʋ</g>icar.</hi>
+                  </note>
+               </l>
+               <l>As euer to this day Tobacco noſed:</l>
+               <l>He would not ſticke to drinke off his whole Can,</l>
+               <l>If in an humour he was ſo diſpoſed:</l>
+               <l>For a full cup he would be no mans debter,</l>
+               <l>Ther's not a Roaring-boy could pledge him better.</l>
+            </lg>
+            <lg>
+               <l>A Conſtable which lack't both wit and law,</l>
+               <l>(As of them ſuch <hi>Lack-iudgements</hi> there be many)</l>
+               <l>Would drinke himſelfe as witleſſe as a Daw,</l>
+               <l>So breake the peace and braule and fight with any,</l>
+               <l>Infringe his oath, and oft be changing knockes,</l>
+               <l>Iudge then if he deſerue not beſt the Stockes.</l>
+            </lg>
+            <lg>
+               <l>Act<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nke Attourney likewiſe I haue knowne,</l>
+               <l>Which would carouſe as deepe as any other,</l>
+               <l>Vntill by drinke he would be ouerthrowne:</l>
+               <l>For to good fellowſhip he was ſworne brother:</l>
+               <l>But may not he euen for an Ideot paſſe,</l>
+               <l>Will truſt his Caſe with ſuch a drunken Aſſe.</l>
+            </lg>
+            <lg>
+               <l>Thus they which ſhould ciuillity imbrace,</l>
+               <l>Obſerue good order, and preſerue the peace,</l>
+               <l>Doe altogether erre in ſuch a caſe,</l>
+               <l>Which doth their endleſſe infamy increaſe:</l>
+               <l>For when ſuch faults by theſe, men vnderſtand,</l>
+               <l>Who'le put a ſword into a mad mans hand.</l>
+            </lg>
+            <lg>
+               <l>Thus they which ſhould be perfect preſidents</l>
+               <l>Of glorious vertue and a godly life,</l>
+               <l>Doe euen become accurſed inſtruments,</l>
+               <l>To foſter drunkenneſſe now growne too riſe.</l>
+               <l>The Cleargy do<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> inſtruct, admoniſh, preach,</l>
+               <l>Yet ſeldome follow that which they doe teach.</l>
+            </lg>
+            <pb facs="tcp:6580:11"/>
+            <lg>
+               <l>But though their hearts be vaine, prophane and vilde,</l>
+               <l>And for Gods word too bad and baſe a place</l>
+               <l>To dwell in; yet moſt ſure t'is vndefilde,</l>
+               <l>Nor can it dimne the luſtre of it's grace:</l>
+               <l>'Tis farre vnfit indeed, becaue ſo pure,</l>
+               <l>In ſuch foule filthy veſſels to indure.</l>
+            </lg>
+            <lg>
+               <l>So ne'retheleſſe their doctrine may be ſound,</l>
+               <l>Though they two maiſters, God and Bacchus ſerue:</l>
+               <l>But this in ſacred Writ is certaine found,</l>
+               <l>Who ſerues two Maiſters needs from one muſt ſwerue:</l>
+               <l>Then where in ſuch foule hearts ſuch vices breeds,</l>
+               <l>Reſpect their doctrine, but reiect their deeds.</l>
+            </lg>
+            <lg>
+               <l>But by the way, before I further goe,</l>
+               <l>Though I affirme the Cleargy to be nought,</l>
+               <l>In gen rall yet I doe not taxe them ſo,</l>
+               <l>Oh God forbid I ſhould haue ſuch a thought,</l>
+               <l>No, there be ſome moſt ſacred and diuine,</l>
+               <l>Whoſe light aright like glorious ſtarres doe ſhine.</l>
+            </lg>
+            <lg>
+               <l>Theſe cheriſh vertues, vices doe ſuppreſſe,</l>
+               <l>Theſe are vnfaigned haters of foule ſinne:</l>
+               <l>Theſe ſharpely doe reproue vile drunkenneſſe,</l>
+               <l>And other wickedneſſe that men liue in,</l>
+               <l>Yea theſe be they which onely do endeauour,</l>
+               <l>To cure ſicke ſoules that they may liue for euer.</l>
+            </lg>
+            <lg>
+               <l>God graunt their doctrine I may right imbrace,</l>
+               <l>And imitate the liues which they doe lead:</l>
+               <l>Then ſhall I gaine an euer-bleſſed place,</l>
+               <l>VVhich is deuoid of ſorrow, griefe and dread:</l>
+               <l>God graunt (I ſay) I ſuch may imitate,</l>
+               <l>Vntill my lateſt dayes doe end their date.</l>
+            </lg>
+            <pb facs="tcp:6580:12"/>
+            <lg>
+               <l>I onely this and nothing more deſire,</l>
+               <l>For the Worlds follyes I haue knowne too long,</l>
+               <l>And doe repent, recant, and quite retire</l>
+               <l>From thoſe vaine wayes in which I haue gone wrong?</l>
+               <l>A better taske I now will vndergoe,</l>
+               <l>With hearty ſorrow for my erring ſo.</l>
+            </lg>
+            <lg>
+               <l>And as I did begin, I heere conclude,</l>
+               <l>To vaine delights, I now doe bid farewell,</l>
+               <l>And to the raſcall drunken multitude,</l>
+               <l>Whoſe portions for them are reſeru'd in Hell,</l>
+               <l>For theſe God hath ordained endleſſe terrours,</l>
+               <l>If that they ſoone doe not repent their errors.</l>
+            </lg>
+            <lg>
+               <l>Vertue is ſhe which aboue all I loue,</l>
+               <l>Vertue that leads vnto eternall bliſſe,</l>
+               <l>Vertue my faith and loyalty ſhall proue,</l>
+               <l>For her I doe adore, imbrace and kiſſe:</l>
+               <l>She is my comfort and my onely pleaſure,</l>
+               <l>My Loue my Doue, ineſtimable treaſure.</l>
+            </lg>
+            <lg>
+               <l>She is my ſolace, and my ſweet delight,</l>
+               <l>She is my ioy euen in my great extreames,</l>
+               <l>With her I will conuerſe both day and night,</l>
+               <l>Shee'l baniſh all vaine thoughs, and idle dreames</l>
+               <l>Quite from my heart, for vertue is moſt pure,</l>
+               <l>And can no filthy wickedneſſe indure.</l>
+            </lg>
+            <lg>
+               <l>Thus with this reſolution I doe end,</l>
+               <l>No more to be by folly ſo miſled,</l>
+               <l>The remnant of my dayes Ile better ſpend,</l>
+               <l>To Vertue onely I am truely wed,</l>
+               <l>Shee is my Spouſe Ile haue no other wife,</l>
+               <l>Till death doth come and take away my life.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:6580:12"/>
+            <head>A MEDITATION OF the FLESH and SPIRIT.</head>
+            <lg>
+               <l>OH what ſtrong oppoſitions doe ariſe,</l>
+               <l>Within my fraile, weake and vnſtable breſt!</l>
+               <l>My Fleſh and Spirit are mortall enemies,</l>
+               <l>Excluding peace, procuring my vnreſt:</l>
+               <l>I like, diſlike, I hate and yet I loue</l>
+               <l>Thoſe ſins which to me doe ſalſe Traytors proue.</l>
+            </lg>
+            <lg>
+               <l>Which doe betray my Soule to endleſſe woe,</l>
+               <l>With all deceitfull pleaſures vilde and vaine,</l>
+               <l>I faine would leaue this ſin yet on I goe,</l>
+               <l>Surceaſe a while and then returne againe,</l>
+               <l>My Spirit's willing often for to leaue it,</l>
+               <l>But then my Fleſh againe bids her receiue it.</l>
+            </lg>
+            <lg>
+               <l>My Spirit freely longeth after grace,</l>
+               <l>And doth by grace in Heauen deſire to dwell,</l>
+               <l>Yet ſtubborne Fleſh would intercept the place,</l>
+               <l>Of my Soules reſt, to caſt it downe to Hell,</l>
+               <l>Thus they within me ſtriue like thoſe two twins,</l>
+               <l>
+                  <hi>Iacob</hi> and <hi>Eſau:</hi> yet cannot be friends.</l>
+            </lg>
+            <lg>
+               <l>Rebellious Fleſh doth ſore it ſelfe oppoſe,</l>
+               <l>Againſt my Spirit fraught with fearefulneſſe,</l>
+               <l>And enters armes with ſinnes inſulting foes,</l>
+               <l>Weake nature downe by violence to preſſe:</l>
+               <l>Feare of Gods wrath doth make me ceaſe from ſin,</l>
+               <l>Then that forgot, a new I doe begin.</l>
+            </lg>
+            <lg>
+               <l>Three mighty Gyants doe my ſoule aſſaile,</l>
+               <l>(Great ods, my poore weake ſpirit to reſiſt)</l>
+               <l>The World, the Fleſh, the Diuell, all theſe preuaile</l>
+               <l>And by their force doe conquer as they liſt:</l>
+               <l>To kill and rob me of each vertuous thought,</l>
+               <l>Plots of falſe pleaſure they haue howerly wrought.</l>
+            </lg>
+            <pb facs="tcp:6580:13"/>
+            <lg>
+               <l>When as good motions enter in my breſt,</l>
+               <l>And I bethinke me of the ſtate of Man,</l>
+               <l>How farre through ſin I am from being bleſt,</l>
+               <l>And that my life is ſhort and but a ſpan,</l>
+               <l>The Diuell he then doth to falſe doctrine fall,</l>
+               <l>And ſayth, Sin on; thy ſinnes are Veniall.</l>
+            </lg>
+            <lg>
+               <l>The World, it's fraught with execrable ſin,</l>
+               <l>And doth ſtirre vp my Appetite to luſt,</l>
+               <l>Vnto alluring baites it doth me win,</l>
+               <l>Seducing vnto vanities vniuſt:</l>
+               <l>And careleſſe ſaith, let Melancholly flye,</l>
+               <l>
+                  <hi>Eate, drinke and ſleepe, to morrow thouſhalt dye.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The Fleſh to pleaſures doth it ſelfe betake,</l>
+               <l>And ſteales good motions from my heart away,</l>
+               <l>So Grace and Goodneſſe it doth quite forſake,</l>
+               <l>Vaine Pride and Luxury, for to obay,</l>
+               <l>Accounting ſin no ſin, and deeming hell,</l>
+               <l>To be a tale, which ſome old wiue, doe tell.</l>
+            </lg>
+            <lg>
+               <l>It ſaith, that Pride is but a decent thing,</l>
+               <l>And Auarice, is good frugality,</l>
+               <l>It ſaith that Swearing doth from valour ſpring,</l>
+               <l>Which doth declare mans Magnanimity:</l>
+               <l>It ſaith to quaffe is fellowſhip, right good</l>
+               <l>To maintaine friendſhip, and to nouriſh blood.</l>
+            </lg>
+            <lg>
+               <l>It tels me bounty argues a braue mind,</l>
+               <l>And <hi>Venus</hi> ſport is but a youthfull tricke,</l>
+               <l>Whilſt penury comes poſting faſt behind,</l>
+               <l>And with wants ſpurs doth touch me to the quick:</l>
+               <l>Thus ſtill the fleſh doth make my ſinnes ſeeme ſmall,</l>
+               <l>By falſe opinion for to worke my fall.</l>
+            </lg>
+            <pb facs="tcp:6580:13"/>
+            <lg>
+               <l>Fond fleſh, why doſt thou thus thy ſelfe abuſe?</l>
+               <l>(Which art the onely Manſion of thy Soule,)</l>
+               <l>All gratious proffers dayly to refuſe,</l>
+               <l>By raſh repulſe, and rigorous controule;</l>
+               <l>Yeeld ſinfull Fleſh, yeeld for thy after good,</l>
+               <l>And liue in peace, in loue, in brother-hood.</l>
+            </lg>
+            <lg>
+               <l>Reſiſt not ſtill, for feare of future ſmart,</l>
+               <l>Delayes breed danger, as experience proue,</l>
+               <l>One time the Spirit from the Fleſh ſhall part,</l>
+               <l>How loth wilt thou be then it ſhould remoue:</l>
+               <l>And ſuch a deare companion to forſake,</l>
+               <l>When as Death comes away thy ſoule to take.</l>
+            </lg>
+            <lg>
+               <l>For Soule and Body cannot euer hold</l>
+               <l>Together, but muſt needs a parting make,</l>
+               <l>Th'one to the Earth to be inclos'd in mold,</l>
+               <l>Tho'other to reſt or vnreſt doth betake,</l>
+               <l>Vntill the laſt and dreadfull day of doome,</l>
+               <l>When quick and dead ſhall vnto iudgement come.</l>
+            </lg>
+            <lg>
+               <l>Each Soule her body then ſhall repoſſeſſe,</l>
+               <l>And they that haue done well ſhall Heauen inherit,</l>
+               <l>But they which ſtill Gods ſacred Lawes tranſgreſſe,</l>
+               <l>They ſhall haue Hell, iuſt ſtipend for their merit.</l>
+               <l>For God doth all mens ſecret ſinnes behold,</l>
+               <l>Which are in's Booke of great accompts inrold.</l>
+            </lg>
+            <lg>
+               <l>Then how ſhall I (poore wormes meat, wretched Man)</l>
+               <l>Be able for to ſtand before his ſight,</l>
+               <l>Who me like Chaffe will winnow with his Fanne,</l>
+               <l>From the pure Wheat his choſen and delight:</l>
+               <l>Is no hope left me from deſpaire to keepe?</l>
+               <l>Yes ſure; for <hi>Chriſt is Shepheard of his Sheepe.</hi>
+               </l>
+            </lg>
+            <pb facs="tcp:6580:14"/>
+            <lg>
+               <l>Oh, there's a Iewell for my Soules content,</l>
+               <l>Since it is ſo, I neuer will diſtruſt:</l>
+               <l>My Sauiour puts Deſpayre to baniſhment,</l>
+               <l>Hee dy'd for mee, a ſinner and vniuſt:</l>
+               <l>And by his Death and Paſſion, I belieue,</l>
+               <l>That vnto mercy he will me receiue.</l>
+            </lg>
+            <lg>
+               <l>Although my ſinnes, were euen as Scarlet, red;</l>
+               <l>And with vaine thoughts my heart was filled full;</l>
+               <l>Though in corruption I was borne and bred;</l>
+               <l>By Chriſt I yet am made as white as wooll:</l>
+               <l>So dearely hee hath all the world eſteem'd,</l>
+               <l>That by his death the (faithfull) hee redeem'd.</l>
+            </lg>
+            <lg>
+               <l>Chriſt is the onely Shepheard of renowne,</l>
+               <l>Who loue's his ſheepe ſo truely and ſo deare,</l>
+               <l>That for their ſakes his life he did lay downe,</l>
+               <l>That they by him might Crownes of Glory weare</l>
+               <l>In that celeſtiall place, prepar'd for thoſe</l>
+               <l>Which true Repentance from their hearts diſcloſe.</l>
+            </lg>
+            <lg>
+               <l>(Sweet Ieſus) I haue often gone aſtray,</l>
+               <l>And erred both in thought, in word, and deed:</l>
+               <l>O, lead me now into the perfect way!</l>
+               <l>Though great my ſinnes, thy mercies great exceed.</l>
+               <l>With mercy (Lord) me ſtraying ſheepe behold,</l>
+               <l>And bring me backe againe into thy Fold.</l>
+            </lg>
+            <lg>
+               <l>Grant (gracious Father) I thy Lawes may keepe,</l>
+               <l>And that thy Statutes I may right obey:</l>
+               <l>That when the Goates are ſeuer'd from the Sheepe,</l>
+               <l>At thy right hand I may with comfort ſtay,</l>
+               <l>Where I ſhall heare that bleſſed voyce <hi>Venite,</hi>
+               </l>
+               <l>So neuer feare that curſed ſentence <hi>Ite.</hi>
+               </l>
+            </lg>
+            <pb facs="tcp:6580:14"/>
+            <lg>
+               <l>In Iuſtice (Lord) doe not behold my ſinne,</l>
+               <l>To take thereof a ſtrict and ſtrait accompt:</l>
+               <l>Nor in iuſt iudgement doe not once begin</l>
+               <l>To puniſh mee, becauſe my ſinnes ſurmount</l>
+               <l>All other ſinners, whatſoere they be;</l>
+               <l>In Mercy, not in Iuſtice looke on mee.</l>
+            </lg>
+            <lg>
+               <l>Lord keepe mee euer from preſumptuous ſinne,</l>
+               <l>So guide, direct, and order all my wayes,</l>
+               <l>That I regenerate may a new begin</l>
+               <l>To ſerue thee right, and giue thee perfect prayſe:</l>
+               <l>For who can magnifie thee in the pit?</l>
+               <l>Or giue thee praiſe which doe in darkneſſe ſit?</l>
+            </lg>
+            <lg>
+               <l>O Lord, to thee I ſue, I beg, intreat,</l>
+               <l>Not for my merits, but thy mercies ſake,</l>
+               <l>To grant me mercy from thy mercy ſeate:</l>
+               <l>For my deſeruings me accurſed make;</l>
+               <l>Which if thou ſhouldſt no better me regard,</l>
+               <l>Death and Hell-fire would be my iuſt reward.</l>
+            </lg>
+            <lg>
+               <l>With Sinne and Shame I am inuiron'd round;</l>
+               <l>Sinne at my right hand, Shame ſtands at my left,</l>
+               <l>And vice and folly in me ſo abound,</l>
+               <l>That of thy graces I am quite bereft:</l>
+               <l>I ſinne, ſtill ſhame at ſinne; I leeſe and win:</l>
+               <l>Thus daily walke I circuler in ſinne.</l>
+            </lg>
+            <lg>
+               <l>I leeſe heauens bleſſed and all-glorious place,</l>
+               <l>In running head-long into ſinne and errour:</l>
+               <l>I winne Prince <hi>Plutoes</hi> Court of blacke diſgrace,</l>
+               <l>All fraught with dread, with torment and with terrour:</l>
+               <l>This is my iuſt deſert, my due, my meede,</l>
+               <l>If thou (O Lord) in Iuſtice ſhould'ſt proceede.</l>
+            </lg>
+            <pb facs="tcp:6580:15"/>
+            <lg>
+               <l>Since then I am ſo wicked and ſo vaine,</l>
+               <l>So vilde, ſo wretched in thy gracious fight:</l>
+               <l>My impure heart, which filthy ſinne doth ſtaine,</l>
+               <l>Make pure (O Lord,) and ſo reforme aright</l>
+               <l>The inward man; that being dead to ſinne,</l>
+               <l>I may to righteouſneſſe anew begin.</l>
+            </lg>
+            <lg>
+               <l>And ſo to liue; and liuing ſo, to dye;</l>
+               <l>That dying ſo, I ſo may liue againe;</l>
+               <l>And ſo to liue, to all eternitie</l>
+               <l>Amongſt thy glorious Saints in heauen to raigne.</l>
+               <l>A ſinners death thou (Lord) doſt not deſire,</l>
+               <l>If he repent, and from his ſinnes retyre.</l>
+            </lg>
+            <lg>
+               <l>Repentance then ſhall be the onely courſe</l>
+               <l>To bring me into fauour with my God:</l>
+               <l>From Folly quite I will my ſelfe deuorce,</l>
+               <l>To which I haue beene wed twelue yeares and odde:</l>
+               <l>Twelue yeares and odde, I haue beene vainely led,</l>
+               <l>More oft then there be hayres vpon my head.</l>
+            </lg>
+            <lg>
+               <l>I will begin my <hi>nunquam ſera</hi> now,</l>
+               <l>And ſpend the remnant of my dayes in grace:</l>
+               <l>I haue confirm'd it with a ſolemne vow,</l>
+               <l>A life more godly euer to imbrace:</l>
+               <l>For God hath ſaid; from's word he will not flee,</l>
+               <l>Who true repents, ſhall truely pardon'd bee.</l>
+            </lg>
+            <lg>
+               <l>To this, by word, be firme himſelfe hath tide,</l>
+               <l>Which ſtronger is then couenant, bond or bill;</l>
+               <l>Yea, better farre then all the world beſide:</l>
+               <l>For hee all-faithfull is, and euer will:</l>
+               <l>Then ſinke Deſpayre into the depth of hell,</l>
+               <l>Ile truſt in God, with whom I hope to dwell.</l>
+            </lg>
+         </div>
+      </body>
+      <back>
+         <div type="poem">
+            <pb facs="tcp:6580:15" rendition="simple:additions"/>
+            <head>A PRAYER AGAINST <hi>TEMPTATION.</hi>
+            </head>
+            <lg>
+               <l>
+                  <seg rend="decorInit">I</seg> Now haue vow'd</l>
+               <l>from vanitie to flee,</l>
+               <l>To dedicate</l>
+               <l>my life and loue to thee,</l>
+               <l>O (gracious God) grant</l>
+               <l>I my vow may keepe,</l>
+               <l>Till Death cloſe vp mine eyes</l>
+               <l>with his dead ſleepe:</l>
+               <l>For vnleſſe thou</l>
+               <l>be an aſſiſtant to it,</l>
+               <l>I, of my ſelfe,</l>
+               <l>vnable am to doe it.</l>
+               <l>My nature is</l>
+               <l>ſo ſinfull, weake, and fraile,</l>
+               <l>That when that Sathan doth</l>
+               <l>my thoughts aſſayle,</l>
+               <l>Hee oft of me</l>
+               <l>the Victory doth winne,</l>
+               <l>So beares me head-long</l>
+               <l>into grieuous ſinne,</l>
+               <l>With Sathans boyſtrous</l>
+               <l>and contagious blaſt</l>
+               <l>Of great temptations</l>
+               <l>here and there I'me caſt,</l>
+               <pb facs="tcp:6580:16"/>
+               <l>Vpon the Rockes</l>
+               <l>of Feare, Diſtreſſe, and Woe,</l>
+               <l>Hope and Deſpayre</l>
+               <l>doe oft to warring goe:</l>
+               <l>Sometimes I ſay</l>
+               <l>that I will ceaſe from ſinne,</l>
+               <l>And yet through weakneſſe</l>
+               <l>I againe begin.</l>
+               <l>Sometimes, this ſinne I doe,</l>
+               <l>and then abhorre it:</l>
+               <l>And ſometimes that,</l>
+               <l>then ſtraight craue pardon for it.</l>
+               <l>I ſinne, and for my ſinnes</l>
+               <l>doe begge remiſſion:</l>
+               <l>As if to ſinne ſtill</l>
+               <l>I would haue commiſſion.</l>
+               <l>Thus Sathan doth</l>
+               <l>againſt my ſoule conſpire,</l>
+               <l>In making of mee</l>
+               <l>to my ſinnes retyre;</l>
+               <l>Thy gracious aide</l>
+               <l>I therefore doe deplore,</l>
+               <l>(Good God) that I</l>
+               <l>may euer thee adore,</l>
+               <l>With feruent zeale</l>
+               <l>and with an vpright heart,</l>
+               <l>Laying foule vice</l>
+               <l>and vanity apart:</l>
+               <l>Infuſe into my minde</l>
+               <l>thy holy grace,</l>
+               <l>Make it for thee</l>
+               <l>a ſacred manſion place.</l>
+               <pb facs="tcp:6580:16"/>
+               <l>With holy weapons arme</l>
+               <l>my breſt within,</l>
+               <l>That I of Sathan may</l>
+               <l>the conqueſt winne.</l>
+               <l>With Faith in thee,</l>
+               <l>with Hope and Confidence.</l>
+               <l>Let all theſe weapons</l>
+               <l>(Lord) be my defence:</l>
+               <l>For what am I</l>
+               <l>without thy gracious aide,</l>
+               <l>But euen a filthy,</l>
+               <l>loathſome ſinner made?</l>
+               <l>What ſtrength haue I</l>
+               <l>the Diuell to withſtand,</l>
+               <l>If thou be wanting</l>
+               <l>with thy powerfull hand?</l>
+               <l>For that ſame great</l>
+               <l>old enemy to man,</l>
+               <l>Goes ſtill about</l>
+               <l>to murther whom he can:</l>
+               <l>Defend mee (Lord)</l>
+               <l>from his deuouring iawes,</l>
+               <l>And make me truely</l>
+               <l>to obſerue thy Lawes.</l>
+               <l>And as thy ſelfe</l>
+               <l>mine onely maker art;</l>
+               <l>So frame my minde,</l>
+               <l>and ſo direct my heart,</l>
+               <l>That alway ſtill</l>
+               <l>may harbour in my breſt</l>
+               <l>Vnfained hate</l>
+               <l>of that I now deteſt.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </back>
+   </text>
+</TEI>

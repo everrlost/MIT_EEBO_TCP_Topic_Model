@@ -1,0 +1,692 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A short instruction for all such as are to be admitted to the Lords Supper</title>
+            <author>Gawton, Richard.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1612</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 31 KB of XML-encoded text transcribed from 15 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A01566</idno>
+            <idno type="STC">STC 11692</idno>
+            <idno type="STC">ESTC S114903</idno>
+            <idno type="EEBO-CITATION">99850125</idno>
+            <idno type="PROQUEST">99850125</idno>
+            <idno type="VID">15310</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A01566)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 15310)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1271:11)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A short instruction for all such as are to be admitted to the Lords Supper</title>
+                  <author>Gawton, Richard.</author>
+               </titleStmt>
+               <extent>[32] p.   </extent>
+               <publicationStmt>
+                  <publisher>Imprinted by William Hall for Iohn Hedgets,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1612.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Dedication signed: Richard Gawton.</note>
+                  <note>Running title reads: A short catechisme.</note>
+                  <note>Last leaf blank?.</note>
+                  <note>Signatures: A-B.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Catechisms, English --  Early works to 1800.</term>
+               <term>Lord's Supper --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-11</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2012-11</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:15310:1" rendition="simple:additions"/>
+            <pb facs="tcp:15310:1" rendition="simple:additions"/>
+            <p>A SHORT INSTRVCTI<g ref="char:EOLhyphen"/>ON FOR ALL ſuch as are to be admit<g ref="char:EOLhyphen"/>ted <hi>to the Lords</hi> SVPPER.</p>
+            <p>LONDON Imprinted by <hi>William Hall</hi> for <hi>Iohn Hedgets,</hi> 1612.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:15310:2"/>
+            <pb facs="tcp:15310:2"/>
+            <head>TO THE PEO<g ref="char:EOLhyphen"/>PLE of REDBVRNE in the <hi>Countie of Hartford.</hi>
+            </head>
+            <p>
+               <seg rend="decorInit">B</seg>Rrethren, as heretofore I furniſhed you with a ſhort Catechiſme: ſo now for your further pro<g ref="char:EOLhyphen"/>fiting in the means of your ſaluation, I haue reuiew<g ref="char:EOLhyphen"/>ed the ſame, and added to it a briefe ex<g ref="char:EOLhyphen"/>poſition of the ten Commandements, &amp; of the Articles of the Faith, and the Lords Prayer: hoping that as my care is to do you good, ſo you will endeuour to pro<g ref="char:EOLhyphen"/>fite by my labours: that as in mine old age, my deſire is to bring forth more fruits, as one pla<g ref="char:cmbAbbrStroke">̄</g>ted in the houſe of God:<note place="margin">Pſal 92.13 14.</note> ſo I may ſee you to walke worthy of the Lord, and pleaſe him in all things, be<g ref="char:EOLhyphen"/>ing
+<pb facs="tcp:15310:3"/> fruitfull in all good works,<note place="margin">Coloſ. 1.10</note> and en<g ref="char:EOLhyphen"/>creaſing in the knowledge of God. And that when I ſhall examine you before you come to the Lords Table, I may not find you ſo ignorant, as formerly I found you, &amp; your families: but that I may ſee the care you haue had to ſhew your ſelues worthy of that fauour which God hath extended to you, by the preaching of the Goſpell hitherto:<note place="margin">Heb. 13.17</note> that ſo I watching ouer your ſoules, as one that muſt giue accounts vnto God, may doe it with ioy, and not with griefe. And albeit that ho<g ref="char:EOLhyphen"/>nourable Lady, the Lady <hi>Anne Bacon</hi> be ſince departed this life, hauing finiſhed her courſe,<note place="margin">2. Tim 4 7.</note> and fought that good fight, &amp; kept the faith, and now reſteth with Chriſt; yet you may acknowledge her Chriſtian care to doe you good, hath taken effect in ſome meaſure amongſt you, in placing mee ouer you, as your Paſtor, by whoſe painefull labours you enioy that which many want. And that when I am gone hence to the Lord, as I attend dayly the time of my diſſolution: that worthy and right Noble Gentleman Sir <hi>Frances Bacon</hi> her ſonne may ſhew the like care, in placing ouer you a lear<g ref="char:EOLhyphen"/>ned,
+<pb facs="tcp:15310:3"/> godly, and painefull Paſtor, that may build you vp further till you grow to an holy Temple in the Lord. To whom with my continuall prayers for you, to keepe you vnſpotted of this wicked world, I commit you all, <hi>Redburn</hi> this 20. of March, 1611.</p>
+            <closer>
+               <signed>Your louing Paſtor in Chriſt Ieſus, <hi>RICHARD GAWTON.</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:15310:4"/>
+            <pb facs="tcp:15310:4"/>
+            <head>A SHORT INSTRVCTI<g ref="char:EOLhyphen"/>ON FOR ALL SVCH AS are to be admitted to the Lords Supper.</head>
+            <p>
+               <hi>
+                  <seg rend="decorInit">W</seg>Hat is the chiefeſt thing euery one ſhould be moſt carefull of?</hi>
+            </p>
+            <p>
+               <hi>Anſ.</hi> How to ſerue God in this world, <hi>Luke 1.75. Epheſ. 1.4.</hi> and to be ſaued at the day of iudgement. <hi>Matt. 16.26. Luke 21.36. 1. Pet. 1.9.</hi>
+            </p>
+            <p>
+               <hi>Queſt. How ſhall we know theſe two things?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> By the Law of God, and the Goſ<g ref="char:EOLhyphen"/>pell. <hi>Rom. 3.20. &amp; 7.7.8.9. &amp;c. 1. Tim. 1.19. Rom. 1.16.</hi>
+            </p>
+            <p>
+               <hi>Q. Where haue wee a briefe ſumme of the Law?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> In the <hi>Decalogue,</hi> or ten comman<g ref="char:EOLhyphen"/>dements.</p>
+            <p>
+               <hi>Q. Rehearſe the ten commandements.</hi>
+            </p>
+            <pb facs="tcp:15310:5"/>
+            <p>
+               <hi>A.</hi> God ſpake all theſe words &amp;c. <hi>Exo. 20.2. Deut. 5.6.</hi>
+            </p>
+            <p>
+               <hi>Q. How many parts are there of this morall law?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Two parts or tables.</p>
+            <p>
+               <hi>Q. How many commandements are there in the firſt part?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Four, which concerne our duties towards God.</p>
+            <p>
+               <hi>Q: How many in the ſecond part?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Sixe, which concerne our duties to our neighbour.</p>
+            <p>
+               <hi>Q. Which is the firſt commandement?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> I am the Lord thy God &amp;c. <hi>Exo. 20.2.3. Deut. 5.6.7.</hi>
+            </p>
+            <p>
+               <hi>Q. How many things are contained in this firſt commandement?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Two.</p>
+            <p>
+               <hi>Q. Which be they?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Firſt, a preface, <hi>Ex. 20.2.</hi> declaring vnto vs who is the true and only God.</p>
+            <p>
+               <hi>Q. Whereby doth he declare who is the true and onely God?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Saying, I am the Lord thy God, who choſe the people of Iſrael to bee his people. And ſecondly in putting them in mind, how he had wonderfully deliuered them from Idolatrie, and from the bodi<g ref="char:EOLhyphen"/>ly ſeruitude, they had endured vnder the
+<pb facs="tcp:15310:5"/> tyranny of <hi>Pharo</hi> in Egypt. <hi>Exod. 20.2. Deut. 5.6.</hi>
+            </p>
+            <p>
+               <hi>Q. What is the ſecond thing contai<g ref="char:EOLhyphen"/>ned in this firſt commandement?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> A prohibition in theſe words, Thou ſhalt haue none other Gods before my face. <hi>Exod. 20.3.</hi>
+            </p>
+            <p>
+               <hi>Q. What is contained in this prohibi<g ref="char:EOLhyphen"/>tion?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> As hee forbids the ſeruice and wor<g ref="char:EOLhyphen"/>ſhip of any other falſe God, ſo hee com<g ref="char:EOLhyphen"/>mands vs to ſerue and worſhip him.</p>
+            <p>
+               <hi>Q. Wherein ſtandeth his ſeruice and worſhip?</hi>
+            </p>
+            <p>
+               <hi>A. Moſes</hi> ſheweth vs, <hi>Deut. 6.4.</hi> Heare O Iſrael, the Lord our God is Lord one<g ref="char:EOLhyphen"/>ly. <hi>5.</hi> And thou ſhalt loue the Lord thy God with al thine heart, and with all thy ſoule, and with all thy might.</p>
+            <p>
+               <hi>Q. What is here required at our hands?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> That all the powers and faculties both of our ſoules &amp; bodies, ſhould wholy bee dedicated, to the ſeruice and worſhip of this our Lord God, in all dutifull obe<g ref="char:EOLhyphen"/>dience.</p>
+            <p>
+               <hi>Q. What is the ſecond commandement?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Thou ſhalt make thée no grauen I<g ref="char:EOLhyphen"/>mage, &amp;c. <hi>Deut. 5.8.9. Exod. 20.4.5.6.</hi>
+            </p>
+            <p>
+               <hi>Q. How many things are contained in
+<pb facs="tcp:15310:6"/> this ſecond commandement?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Two things: Firſt, all making of Images or likeneſſes of God, and the worſhipping of them, or of God by them, is heere forbidden. Secondly, it ſheweth how ſeuerely God will puniſh all falſe worſhippers, and their Idolatrie; and how hee will bleſſe his true worſhippers, and their true worſhip.</p>
+            <p>
+               <hi>Q. What is the third commandement?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Thou ſhalt not take the name of the Lord thy God in vaine, for the Lord wil not hold him guiltleſſe that taketh his name in vaine. <hi>Ex. 20.7. Deut. 5.11.</hi>
+            </p>
+            <p>
+               <hi>Q. How many things are contained in this third commandement?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Two. Firſt the abuſing of Gods name is forbidden, either in profeſſing his religion, and not liuing accordingly; or to thinke or ſpeake of God vnreue<g ref="char:EOLhyphen"/>rently. <hi>Mat. 15.18.19. Eccleſ. 5.1. 1. Chro. 13.1<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</hi> Secondly a threatning, that God will certainely puniſh the diſhonouring of his name. <hi>1. Chron. 13.10.</hi>
+            </p>
+            <p>
+               <hi>Q. What is the fourth commandement?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Remember the Sabbath to kéep it holy, &amp;c. <hi>Ex. 20.8.9.10.11. Deu. 5.12.13.</hi> &amp;c,</p>
+            <p>
+               <hi>Q. How many things are contained in this commandement?</hi>
+            </p>
+            <pb facs="tcp:15310:6"/>
+            <p>
+               <hi>A.</hi> Two things: Firſt, we are com<g ref="char:EOLhyphen"/>manded to ſanctifie the Sabbath day, as peculiar vnto the Lord; both I and all mine, repayring to the publike aſſembly of Gods people, and with them to heare the word of God preached and taught, <hi>Act. 13.27. Act. 15.21. Act. 13.15.16. &amp;c.</hi> &amp; to ioine in praier with the reſt of Gods people, <hi>Act. 16.13.</hi> and at the times ap<g ref="char:EOLhyphen"/>pointed to participate in the vſe of the Sacraments, <hi>Act. 20.7.</hi> and priuately to ſpend that day religiouſly in holy exerci<g ref="char:EOLhyphen"/>ſes, <hi>Act. 2.42.</hi> and not to prophane that day, <hi>Nehem. 13.17.18.19.20.21.</hi> Second<g ref="char:EOLhyphen"/>lie, to remember how God appointed the Sabbath day for vs to meditate in, of his creation and gouernment of the world, and to follow his example, in ceaſing from our works, as God did from his. <hi>Gen. 2.2. Hebr. 4.10.</hi>
+            </p>
+            <p>
+               <hi>Q. What is the fifth commandement, or firſt of the ſecond Table?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Honor thy father &amp; thy mother, that thy daies may be long, &amp;c. <hi>Exod. 20.12. Deu. 5.16.</hi>
+            </p>
+            <p>
+               <hi>Q. How many things are contained in this commandement?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Two things: Firſt, the honoring of our naturall parents, &amp; all ſuch as are to vs in ſtead of parents, as Kings and in<g ref="char:EOLhyphen"/>feriour
+<pb facs="tcp:15310:7"/> Magiſtrates vnder them, <hi>1. Tim. 2.2. 1. Pet. 2.17.</hi> our ſpirituall Paſtors &amp; Teachers, <hi>Heb. 13.8. &amp; 17.</hi> our Maſters and Rulers, <hi>Epheſ. 6.5. Col. 3.22.</hi> and the ancient and gray headed perſons is heere commanded, <hi>Leuit. 19.32.</hi> Secondly a promiſe of reward, with long life to them that are obedient, &amp; a threatning of cut<g ref="char:EOLhyphen"/>ting off the daies of the diſobedient.</p>
+            <p>
+               <hi>Q. What is the ſixth commandement?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Thou ſhalt not kill. <hi>Exod. 20.13. Deut. 5.17. Gen. 9.6.</hi>
+            </p>
+            <p>
+               <hi>Q. How many things are contained in this commandement?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Two things: Firſt, all killing and murthering are forbidden: Secondly we are commanded to cheriſh and preſerue life. <hi>Rom. 12.19.20. Prou. 25.21.22.</hi>
+            </p>
+            <p>
+               <hi>Q. What is the ſeuenth co<g ref="char:cmbAbbrStroke">̄</g>mandment?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Thou ſhalt not commit adulterie. <hi>Exod. 20.14. Deut. 5.18.</hi>
+            </p>
+            <p>
+               <hi>Q. How many things are co<g ref="char:cmbAbbrStroke">̄</g>tained in it?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Two things: Firſt, all vncleaneſſe of the fleſh, and all prouocations thereun<g ref="char:EOLhyphen"/>to are forbidden; as pride, chambering, wantonneſſe, idleneſſe, riot, gluttony, drunkenneſſe, &amp;c. <hi>Rom. 13.13. Luk. 21.34. 1. Theſſ. 4.3.4.5. Hebr. 13.4.</hi> Secondlie all chaſt and honeſt behauiour, in thought,
+<pb facs="tcp:15310:7"/> word, and déed, is commanded. <hi>Tit. 2.12.</hi>
+            </p>
+            <p>
+               <hi>Q. What is the eight commandement?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Thou ſhalt not ſteal. <hi>Ex. 20.15 De. 5.19</hi>
+            </p>
+            <p>
+               <hi>Q. How many things are co<g ref="char:cmbAbbrStroke">̄</g>tained in it?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Two things: Firſt, all outward acts are forbidden, wherby ſtealth is com<g ref="char:EOLunhyphen"/>mitted, and all outward occaſions of ſtealth; as idleneſſe, and waſtfull ſpen<g ref="char:EOLhyphen"/>ding, craft and cozening. Secondly, all inward ſtealth of the heart. And wee are commanded to labor faithfullie, in a law<g ref="char:EOLhyphen"/>full calling, and to be ſparing of that wee get, that wee may giue to others that want. <hi>Epheſ. 4.28. Leuit. 19.11.</hi>
+            </p>
+            <p>
+               <hi>Q. What is the ninth commandement?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Thou ſhalt not beare falſe witnes a<g ref="char:EOLhyphen"/>gainſt thy neighbor. <hi>Ex. 20.16. Deut. 5.20.</hi>
+            </p>
+            <p>
+               <hi>Q. How many things are co<g ref="char:cmbAbbrStroke">̄</g>tained in it?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Two things: Firſt, all periury and falſe witneſſe bearing is forbidden, &amp; all falſe reports, lies, ſlandering, &amp; backbi<g ref="char:EOLhyphen"/>ting, <hi>Pro. 14.5. &amp; 25. Pro. 19.5. Deut. 19.16 17.18.19. Leu. 19.16.</hi> Secondly we are co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLunhyphen"/>manded to further righteous cauſes, and to ſpeak the truth fro<g ref="char:cmbAbbrStroke">̄</g> our harts. <hi>Pr. 31.8.9</hi>
+            </p>
+            <p>
+               <hi>Q What is the tenth commandement?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Thou ſhalt not couet thy neighbors houſe, &amp;c. <hi>Exod. 20.17. Deut. 5.21.</hi>
+            </p>
+            <p>
+               <hi>Q. How many things are co<g ref="char:cmbAbbrStroke">̄</g>tained in it?</hi>
+            </p>
+            <pb facs="tcp:15310:8"/>
+            <p>
+               <hi>A.</hi> Two: Firſt, all purenes in nature, and vprightneſſe in heart, are heere com<g ref="char:EOLhyphen"/>manded, <hi>Rom. 7.12. Deut. 6.5.</hi> Secondly, all inward luſts and ſinfull motions of the heart are forbidden. <hi>Rom. 7.7.</hi>
+            </p>
+            <p>
+               <hi>Q. Is any man able to keep theſe com<g ref="char:EOLhyphen"/>mandements?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No: for by nature we are prone to hate God and breake all his Laws. <hi>Rom. 7.15. &amp; 23. Rom. 8.3. Gal. 3.11.</hi>
+            </p>
+            <p>
+               <hi>Q. Will God in iuſtice require man to fulfill his law, knowing it is not in his po<g ref="char:EOLhyphen"/>wer to fulfill it? And will hee yet con<g ref="char:EOLhyphen"/>demn him for not doing of that which he is not able to doe?</hi>
+            </p>
+            <p>
+               <hi>A</hi> God in iuſtice doth not reſpect what man is now able to doe, but what he was able to doe, when God created him after his owne Image, in righteouſneſſe and true holineſſe, and able to do what he wil<g ref="char:EOLhyphen"/>led him. <hi>Gen. 1.26.</hi>
+            </p>
+            <p>
+               <hi>Q. How comes our nature to bee ſo corrupted, as no man is now able to keepe Gods commandements?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> By <hi>Adams</hi> tranſgreſſion, whereby we are all of vs conceiued in ſinne, and carie about in vs carnall concupiſcence, and are bondſlaues to ſin &amp; Sathan. <hi>Iob. 14.4. Pſalm. 51.5. Rom. 8.3. Iam. 1.14.15.</hi>
+            </p>
+            <pb facs="tcp:15310:8"/>
+            <p>
+               <hi>Q. What puniſhment is there due to the breakers of Gods Law?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> All plagues and miſeries in this life, and eternall damnation of ſoule and body in the laſt day. <hi>Deut. 28.15. Gal. 3.10 Mat. 10.28. &amp; 25.41.</hi>
+            </p>
+            <p>
+               <hi>Q. How then ſhall you eſcape damna<g ref="char:EOLhyphen"/>tion, ſince you breake Gods commande<g ref="char:EOLhyphen"/>ments daily?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Onely by Ieſus Chriſt, my Lord and Sauiour. <hi>Rom. 8.1. &amp; 10.4. Ioh. 1.17.</hi>
+            </p>
+            <p>
+               <hi>Q. What hath Chriſt then done for you?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Firſt, hee béeing eternall God, be<g ref="char:EOLhyphen"/>came alſo man for me, <hi>Phil. 2.6.7.8.</hi> taking my nature in the wombe of the Virgin Mary, <hi>Luke. 1.31. Rom. 1.3.</hi> that ſo hee might be the promiſed ſéed of the woman that ſhould breake the head of the ſerpent that is the Diuell. <hi>Gen. 3.15. Gal 3.16.</hi>
+            </p>
+            <p>
+               <hi>Q. And what did hee heere in earth for thee?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Firſt, hee beeing conceiued by the holy Ghoſt, <hi>Luk. 1.30.</hi> ſanctified my na<g ref="char:EOLhyphen"/>ture in his owne perſon, that by him it might bee purged from all naturall cor<g ref="char:EOLhyphen"/>ruption, <hi>Ioh. 17.19.</hi> and indued it with righteouſneſſe and holineſſe. And he ful<g ref="char:EOLhyphen"/>filled the whole Law for me, that in him I may fulfill it. <hi>Rom. 8.3.4.</hi>
+            </p>
+            <pb facs="tcp:15310:9"/>
+            <p>
+               <hi>Q. And what did hee more here for you?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> He willingly laid downe his life for you, <hi>Iohn 10.17.18.</hi> and became a ſlaine ſacrifice, <hi>Heb. 10.12. 2. Cor. 5.21.</hi> ſuffering the curſed death of the Croſſe. <hi>Gal. 3.13.</hi> to deliuer me from the curſe of God, and to make mee partakers of the bleſſing promiſed to <hi>Abraham,</hi> and to his ſeed, <hi>Gal. 3.14.</hi> Hee alſo conquered Sathan in his Kingdome, as appeared by his riſing againe from the dead the third day, <hi>Iohn 2.19 Math. 28.6. Marke 16.9.</hi> And is aſcended into Heauen, <hi>Mar. 16.19 Act 1.9.</hi> and ſits at the right hand of God. <hi>Heb. 12.2.</hi> gouerning all things both in heauen and earth. <hi>Mat. 28.18.</hi>
+            </p>
+            <p>
+               <hi>Q. VVhat benefite haue you by his aſcending into heauen?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Firſt he appeares continually in the preſence of God the Father, as our Mediator, Aduocate, and Interceſſor. <hi>Heb. 9.24.</hi> And ſecondly by his holy ſpi<g ref="char:EOLhyphen"/>rit rules in the hearts of all his elect, to bring them to eternall glory. <hi>Eph. 3.17. 1 Pet. 1.3 4 5.</hi>
+            </p>
+            <p>
+               <hi>Q. Shall all men then bee ſaued by Chriſt as they were loſt in <hi>Adam.</hi>
+               </hi>
+            </p>
+            <p>
+               <hi>A.</hi> All that lay hold on Chriſt with a
+<pb facs="tcp:15310:9"/> liuely faith ſhall be ſaued. <hi>Iohn 3.16. &amp; 18 &amp; 36.</hi>
+            </p>
+            <p>
+               <hi>Q. What call you a liuely faith?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> A full perſwaſion of my heart grounded vpon the promiſes of God in the Scriptures of my ſaluation by Chriſt onely. <hi>Heb. 11.1. Act. 16.14. Rom. 4.18.19.20.21.</hi>
+            </p>
+            <p>
+               <hi>Q. How come you by this faith?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The holy Ghoſt worketh it in<g ref="char:EOLhyphen"/>wardly in my heart by the outward prea<g ref="char:EOLhyphen"/>ching of the Goſpell. <hi>Act. 16.14. 1. Cor. 2.13. 1. Cor. 12.9.</hi>
+            </p>
+            <p>
+               <hi>Q. Rehearſe the Articles of your faith.</hi>
+            </p>
+            <p>
+               <hi>A.</hi> I beleeue in God the Father, &amp;c.</p>
+            <p>
+               <hi>Q. What is the ſum of theſe Articles?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Two things. Firſt, what I am to beleeue concerning God, and ſecondlie concerning his Church.</p>
+            <p>
+               <hi>Q. VVhat are you taught to beleeue concerning God?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Firſt, that there is but one true and eternall God, and that in the God<g ref="char:EOLhyphen"/>head, are three diſtinct perſons, the Fa<g ref="char:EOLhyphen"/>ther, the Sonne, and the holy Ghoſt.</p>
+            <p>
+               <hi>Q VVhat are you taught to beleeue concerning God the Father, the firſt per<g ref="char:EOLhyphen"/>ſon in the Godhead?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Firſt, that hee is an immortall,
+<pb facs="tcp:15310:10"/> and euerlaſting Spirit, <hi>Iohn 4.24. 1. Tim. 1.17.</hi> who hy his onely word cre<g ref="char:EOLhyphen"/>ated the Heauens and the Earth. <hi>Gen. 1.1.</hi> and all things therein contained. <hi>Gen. 1.3.</hi> &amp;c. to the <hi>26. verſe.</hi> And man after his owne Image. <hi>Gen. 1.26.27.</hi> And ſe<g ref="char:EOLhyphen"/>condly, that by his diuine prouidence he vpholdeth, ruleth, and gouerneth all things according to his will. <hi>Math. 6.26.28.32.</hi>
+            </p>
+            <p>
+               <hi>Q What are you taught to beleeue concerning the Sonne of God, the ſecond perſon in the God-head?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> I am taught to beleeue three things: Firſt his Incarnation, by ta<g ref="char:EOLhyphen"/>king our humane nature, hee being con<g ref="char:EOLhyphen"/>ceiued by the holy Ghoſt. <hi>Luke 1.35.</hi> in the wombe of the virgine <hi>Mary,</hi> ha<g ref="char:EOLhyphen"/>uing his name Ieſus giuen him by the Angell, for that hee ſhall ſaue his people from their ſinnes. <hi>Math. 1 21.</hi> And Chriſt for that he is the Meſſias annoin<g ref="char:EOLhyphen"/>ted of God to be our King, our Prieſt, and our Prophet. <hi>Heb 1 1. &amp; 2. &amp; 3</hi> who vniting our manhood to his glorious Godhead, is become God and man in one perſon. <hi>Iohn 14.10.</hi> Secondly, his humiliation to the death of the Croſſe in our humane nature. <hi>Math. 27.24.25.26.
+<pb facs="tcp:15310:10"/> &amp;c. Mar. 15.15. &amp;c, Luke 23.24, &amp;c. Iohn 19.1. &amp; 16.17.18. &amp;c.</hi> Thirdly, his exaltation by conquering the power of ſinne, death and hell, as appeared by his riſing from death the third day. <hi>Luk. 24.20.21, &amp;c.</hi> and aſcending into Heauen. <hi>Act. 1.9. Luk. 24 26</hi> and ſitting at the right hand of God the Father. <hi>Heb 12.2.</hi> hauing all power giuen vnto him both in heauen and earth. <hi>Math. 28.18.</hi> from whence wee are taught to be<g ref="char:EOLhyphen"/>leeue that hee ſhall come againe at the laſt day <hi>Act. 1.11.</hi> in glory to iudge both thoſe that then liue, and thoſe that haue beene taken away by death ſince the be<g ref="char:EOLhyphen"/>ginning of the world. <hi>1. Theſ. 4.15.16.17.</hi>
+            </p>
+            <p>
+               <hi>Q. VVhat are you taught to beleeue concerning the holy Ghoſt?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> That the holy Spirit is the third perſon in the Godhead. <hi>1. Iohn 5.7.</hi> pro<g ref="char:EOLhyphen"/>céeding from the Father and the Son. <hi>Iohn 14<g ref="char:punc">▪</g> 16.17. &amp; 26.</hi> the Comforter. <hi>Ioh. 14.26</hi> and Sanctifyer of all the Elect. <hi>Rom. 8.11.</hi>
+            </p>
+            <p>
+               <hi>Q VVhat are you taught to beleeue concerning the Church?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> I am taught thrée things. Firſt, that God hath a Church or company of
+<pb facs="tcp:15310:11"/> people, whom he hath gathered to him<g ref="char:EOLhyphen"/>ſelfe by the preaching of the Goſpell through all the world. <hi>Iohn 17.6. &amp; 20.</hi> and therefore is called Catholike or V<g ref="char:EOLhyphen"/>niuerſall, and Holy; for that as God him<g ref="char:EOLhyphen"/>ſelfe is holy, ſo holineſſe becommeth his houſe. <hi>1. Pet 1 <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>6.</hi> Secondly, that this Church is the Spouſe of Chriſt, who gaue himſelfe for it, that he might ſanc<g ref="char:EOLhyphen"/>tifie it, &amp;c. <hi>Eph 5 25 26.27</hi> And thirdly, that in this Church there is a communi<g ref="char:EOLhyphen"/>on, or ſpirituall partaking of all gifts &amp; graces both of ſoule and body. <hi>1 Cor. 12.4.5.6.</hi> And that onely the true mem<g ref="char:EOLhyphen"/>bers of this Church are aſſured of the forgiueneſſe of their ſinnes by Chriſt. <hi>Act. 1.38.</hi> and that after their bodies bee by death ſeuered from their ſoules, they ſhall riſe againe, <hi>Iohn 5:28.29</hi> and ſoule and body ſhal liue for euer in glory with Chriſt their head. <hi>Iohn 17.24.</hi>
+            </p>
+            <p>
+               <hi>Q How is faith increaſed in you?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> By continuall hearing of Gods Word preached. <hi>Ro. 10.17</hi> and by pray<g ref="char:EOLhyphen"/>er. <hi>Luke 17.5 Marke 9.20.</hi> and vſe of the Sacraments. <hi>Rom. 4.11. 1. Cor. 10.16.</hi>
+            </p>
+            <p>
+               <hi>Q. VVhat is neceſſary in prayer?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> A liuely féeling of our wants in
+<pb facs="tcp:15310:11"/> the things wee pray for. <hi>Rom 8.26.</hi> and aſſurance by faith that God will heare our prayers, and grant our requeſtes, which wee craue of him in the name of Chriſt agreeable to his Will. <hi>1. Iohn. 5.14 15.</hi>
+            </p>
+            <p>
+               <hi>Q. How ſhall wee know what to pray for?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> By that forme of prayer which Chriſt hath taught vs in the Goſpell. <hi>Mat 6 9 Luk. 11.2.</hi>
+            </p>
+            <p>
+               <hi>Q. Rehearſe the Lords Prayer.</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Our Father which art in Hea<g ref="char:EOLhyphen"/>uen, &amp;c.</p>
+            <p>
+               <hi>Q. What doth this forme of prayer containe?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Three things. Firſt, a Preface, Secondly, the Prayer it ſelfe in ſix pe<g ref="char:EOLhyphen"/>titions, and thirdly, the concluſion of the Prayer.</p>
+            <p>
+               <hi>Q. VVhich is the Preface?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Our Father which art in heauen.</p>
+            <p>
+               <hi>Q VVhat learne you in this Pre<g ref="char:EOLhyphen"/>face?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Three things. Firſt, to pray to none but the only true God, the Father of our Lord Ieſus Chriſt. Secondly, to aſſure vs, that God is our mercifull Father in Chriſt, and therefore will
+<pb facs="tcp:15310:12"/> heare our prayers, hee being Almighty, and therefore from heauen extending the tokens of his mercy to all that call vpon him in truth. <hi>Pſal. 115.3. Pſal. 135.6. Pſal. 145.18.</hi> And thirdly, I am to ſay our Father, and not my Father alone, the better to aſſure mee that God will heare my prayers, ſince I pray as one that is a true member of his Church, as all the reſt of the ſame members pray for mee, wee all louing one another as our ſelues. <hi>Iames 5.16.</hi>
+            </p>
+            <p>
+               <hi>Q. VVhich is the firſt Petition?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Hallowed bee thy name.</p>
+            <p>
+               <hi>Q. VVhat deſire wee in this Peti<g ref="char:EOLhyphen"/>tion?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Firſt, that God will inlighten vs with the knowledge of his holineſſe, and ſecondly, as God is holy in himſelfe, ſo hee may be glorified of all men, as the onely fountaine of all true holineſſe. And thirdly, that his power, wiſdom, good<g ref="char:EOLhyphen"/>neſſe, mercy, iuſtice and truth may be communicated to vs, and all the reſt of his people, and that the fruites thereof may appeare in our holy liues and conuerſations.</p>
+            <p>
+               <hi>Q VVhat is the ſecond Petition?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Thy Kingdome come.</p>
+            <pb facs="tcp:15310:12"/>
+            <p>
+               <hi>Q. VVhat deſire wee in this Petiti<g ref="char:EOLhyphen"/>on?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Firſt, that God will ſet vp his ſpirituall Kingdome in the hearts of vs, and all the Elect. Secondly, that wee may ſhew our ſelues Citizens of this heauenly Kingdome, in being ru<g ref="char:EOLhyphen"/>led and gouerned by his heauenly laws. And thirdly, that hee will protect his Church from all iniuries, and ouer<g ref="char:EOLhyphen"/>throw all the enemies thereof. And in the end glorifie all his elect in his euer<g ref="char:EOLhyphen"/>laſting Kingdome of glory.</p>
+            <p>
+               <hi>Q. VVhat is the third Petition?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Thy will be done in earth, as it is in heauen.</p>
+            <p>
+               <hi>Q. VVhat deſire wee in this Petition?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Firſt that wee and all the elect may haue our wils conformed vnto the will of God, wee renouncing our own corrupt affections and luſts, and being ready to doe our duties in our ſeuerall callings, that ſo God may proſper the things we take in hand according to his will. Secondly, albeit wee cannot at<g ref="char:EOLhyphen"/>taine to performe this as we ſhould, that yet wee ſet before vs the holy Angels, and labour to imitate them, that our vnperfect obedience in this world may
+<pb facs="tcp:15310:13"/> bee perfited in the world to come.</p>
+            <p>
+               <hi>Q. Rehearſe the fourth Petition?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Giue vs this day our dayly bread.</p>
+            <p>
+               <hi>Q. VVhat deſire wee in this Petiti<g ref="char:EOLhyphen"/>on?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> As in the three firſt Petitions we aſked things ſpirituall, and the ſetting forth of Gods glory: So the other three Petitions concerne our ſelues, and therefore in this Petition, vnder the name of our daily bread, wee aſke all things neceſſary for corporall food, and maintenance of our liues in this world, and doe caſt off all miſtruſtfull care, and deſire of worldly things, depending on the prouidence of God, and his fatherlie bleſſing of vs in our ſeuerall vocati<g ref="char:EOLhyphen"/>ons.</p>
+            <p>
+               <hi>Q. Rehearſe the fifth petition.</hi>
+            </p>
+            <p>
+               <hi>A.</hi> And forgiue vs our treſpaſſes, &amp;c.</p>
+            <p>
+               <hi>Q. What deſire we in this petition?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The frée pardon and remiſſion of all our ſinnes, which otherwiſe might be as a cloud betwéene God and vs, to hin<g ref="char:EOLhyphen"/>der vs from receiuing any benefit at his hands, <hi>Eſa. 59.2.</hi> And it puts vs in mind, that as wee continually ſin againſt God, ſo wee had néed continually to aſke par<g ref="char:EOLhyphen"/>don for our ſinnes.</p>
+            <pb facs="tcp:15310:13"/>
+            <p>
+               <hi>Q. Why is this added, as we forgiue them that treſpaſſe againſt vs?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> To teach vs, that we muſt be ready to forgiue others, if we will haue God to forgiue vs. <hi>Mat. 6.14.</hi>
+            </p>
+            <p>
+               <hi>Q. Rehearſe the ſixth petition.</hi>
+            </p>
+            <p>
+               <hi>A.</hi> And lead vs not into temptation, but deliuer vs from euill.</p>
+            <p>
+               <hi>Q. What deſire we in this petition?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> That God will not permit vs to bee further tempted, eyther by the Di<g ref="char:EOLhyphen"/>uell or wicked men, then hee giues vs ſtrength to reſiſt their wicked tempta<g ref="char:EOLhyphen"/>tions.</p>
+            <p>
+               <hi>Q. Rehearſe the words of the conclu<g ref="char:EOLhyphen"/>ſion of this Prayer.</hi>
+            </p>
+            <p>
+               <hi>A.</hi> For thine is the Kingdome, and the power, and the glory for euer.</p>
+            <p>
+               <hi>Q. VVhat learne you by this conclu<g ref="char:EOLhyphen"/>ſion?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> It ſerueth for the confirmation of my Faith, that God both can and wil grant the things I haue prayed for.</p>
+            <p>
+               <hi>Q. VVhereby is your faith ſo confir<g ref="char:EOLhyphen"/>med?</hi>
+            </p>
+            <p>
+               <hi>A</hi> For that firſt I beleeue, that God being our King, is both able and wil<g ref="char:EOLhyphen"/>ling to grant our requeſts. And ſecond<g ref="char:EOLhyphen"/>ly, for that it ſerueth to extoll and ad<g ref="char:EOLhyphen"/>uance
+<pb facs="tcp:15310:14"/> the power and glory of God, in that he heares the humble petitions of his Children, and grants their requeſts. <hi>Pſal. 32.8 Pſal. 65.2.</hi>
+            </p>
+            <p>
+               <hi>Q VVhy is this word Amen added?</hi>
+            </p>
+            <p>
+               <hi>A</hi> To ſhew that wee reſt wholly vpon God, as vpon our mercifull and louing Father in Ieſus Chriſt, and therefore doubt not, but hee will do, as we haue prayed.</p>
+            <p>
+               <hi>Q Hauing heard that the continuall hearing of Gods word preached, prayer, and the vſe of the Sacraments are the meanes to encreaſe in vs a liuely faith: let me heare now what you call Sacraments?</hi>
+            </p>
+            <p>
+               <hi>A</hi> Sacraments are outward Signes, ordained of God to be vnto vs as ſeales of the inward and inuiſible graces hee beſtowed vpon vs for the confirming of our faith in the aſſurance of our ſaluati<g ref="char:EOLhyphen"/>on by Chriſt. <hi>Gen. 17.11. Rom. 4.11.</hi>
+            </p>
+            <p>
+               <hi>Q How many ſuch Sacraments are there?</hi>
+            </p>
+            <p>
+               <hi>A</hi> Two: to wit, Baptiſme, and the Supper of the Lord. <hi>1. Cor. 10.1.2.3. Math. 28 19. 1. Cor. 11.23.24 25.26.</hi>
+            </p>
+            <p>
+               <hi>Q VVhat is the outward Sign in Bap<g ref="char:EOLhyphen"/>tiſme?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Water. <hi>Act. 8.36. Mat. 3, 11. Iohn. 1. 31.33.</hi>
+            </p>
+            <pb facs="tcp:15310:14"/>
+            <p>
+               <hi>Q VVhat is the inuiſible grace ſigni<g ref="char:EOLhyphen"/>fied?</hi>
+            </p>
+            <p>
+               <hi>A</hi> The waſhing of our ſinnes, <hi>Act. 2.28 Reu. 1.5. Mat 3.11.</hi> And our ingraf<g ref="char:EOLhyphen"/>ting into Chriſt. <hi>Rom. 6.4.</hi> And our dy<g ref="char:EOLhyphen"/>ing vnto ſinne, and liuing vnto righte<g ref="char:EOLhyphen"/>ouſneſſe. <hi>Rom. 6 5 &amp; 11.</hi>
+            </p>
+            <p>
+               <hi>Q. VVhy are Infants baptized?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> For that the couenant of eternall life, pertaineth not onely to beleeuing Parents, but alſo to their ſeed. <hi>Gen. 17 7. 1 Cor. 7.14</hi>
+            </p>
+            <p>
+               <hi>Q VVhy is Baptiſme adminiſtred but once in our liues?</hi>
+            </p>
+            <p>
+               <hi>A</hi> For that our Regeneration, wher<g ref="char:EOLhyphen"/>of Baptiſme is a ſeale, continueth for e<g ref="char:EOLhyphen"/>uer. <hi>Rom. 6.9.10.11.</hi>
+            </p>
+            <p>
+               <hi>Q VVhat is the outward Signe in the Lords Supper?</hi>
+            </p>
+            <p>
+               <hi>A</hi> Bread and Wine, put apart to that holy vſe. <hi>1. Cor. 11.23 &amp; 25.</hi>
+            </p>
+            <p>
+               <hi>Q VVhat be the inuiſible graces ther<g ref="char:EOLhyphen"/>by ſignified?</hi>
+            </p>
+            <p>
+               <hi>A</hi> Our ſpirituall nouriſhment by the body and bloud of Chriſt. <hi>1. Cor. 10.16. Iohn 6.53.54 55 56.</hi>
+            </p>
+            <p>
+               <hi>Q VVhy is the Supper of the Lord ad<g ref="char:EOLhyphen"/>miniſtred often?</hi>
+            </p>
+            <p>
+               <hi>A</hi> To put vs in remembrance of the
+<pb facs="tcp:15310:15"/> death and paſſion of Chriſt, and to aſſure vs, that the benefit thereof pertaines to vs, <hi>Luk. 22.19. 1. Cor. 11.24 &amp; 26.</hi>
+            </p>
+            <p>
+               <hi>Q What is to bee required of ſuch as offer themſelues to bee partakers of the Lords Supper?</hi>
+            </p>
+            <p>
+               <hi>A</hi> That they examine themſelues what meaſure of knowledge they haue in all the principles of Chriſtian Religion, <hi>1 Cor. 11.28.</hi> and ſpecially of the Sacra<g ref="char:EOLhyphen"/>ments. <hi>1. Cor. 10 15 16.</hi>
+            </p>
+            <p>
+               <hi>Q Is that knowledge ſufficient?</hi>
+            </p>
+            <p>
+               <hi>A</hi> This will teach them, that without faith it is impoſſible to pleaſe God, <hi>Heb. 11.6.</hi> and therefore that they come not without faith &amp; the fruits thereof, with an vnfeigned repentance and charity. <hi>Phil. 1 9. &amp; 11 1 Cor. 13.13. Matth 5.25. Luk. 15.8. Galat. 5 6.</hi>
+            </p>
+            <p>
+               <hi>Q Wherein ſtands true repentance?</hi>
+            </p>
+            <p>
+               <hi>A</hi> In two things: Firſt an vnfained ſorrow and remorſe of conſcience for our former ſinnes, <hi>2 Cor. 7.10 Pſal. 51.2.3. &amp; 17.</hi> Secondly a true conuerſion and tur<g ref="char:EOLhyphen"/>ning to God, in an holy life and conuer<g ref="char:EOLhyphen"/>ſation. <hi>Ro. 6.19. Eph 4.22.23. Tit. 2.11.12</hi>
+            </p>
+            <p>
+               <hi>Q. Wherein ſtands charity?</hi>
+            </p>
+            <p>
+               <hi>A</hi> In two things: Firſt to loue God, who hath loued vs ſo deerely, as to giue
+<pb facs="tcp:15310:15"/> his only ſonne Chriſt to be our Sauiour &amp; Redéemer. <hi>2. Cor. 5.14 15. Gal. 5.22.23.</hi>
+            </p>
+            <p>
+               <hi>Q What is the ſecond thing?</hi>
+            </p>
+            <p>
+               <hi>A</hi> To loue all men vnfainedly, euen our enemies, <hi>Ro. 12 10. &amp; 20</hi> and there<g ref="char:EOLhyphen"/>fore wee are to cut off all occaſions of diſ<g ref="char:EOLhyphen"/>cord and diſſention, by reconciling our ſelues to all ſuch as wee haue offended, <hi>Mat 5 25. &amp; 44</hi> and fréely forgiuing all thoſe who any way offended vs, euen as God fréely for Chriſts ſake forgaue vs. <hi>Coloſ. 3.12.13.14.</hi>
+            </p>
+            <p>
+               <hi>Q What danger is there in comming vnworthilie to the table of the Lord?</hi>
+            </p>
+            <p>
+               <hi>A</hi> The vnworthy receiuer is guilty of the body and bloud of Chriſt, and eat<g ref="char:EOLhyphen"/>eth and drinketh his owne damnation. <hi>1. Cor 11.17. &amp; 29.</hi>
+            </p>
+            <p>
+               <hi>Q What benefit hath the worthy re<g ref="char:EOLhyphen"/>ceiuer?</hi>
+            </p>
+            <p>
+               <hi>A</hi> Firſt his faith is confirmed, <hi>Rom. 4.11.</hi> he is filled with ioy in the holy Ghoſt, <hi>A &amp; 4.31. &amp; 2 38.</hi> and gets new ſtrength againſt ſinne and Sathan. Secondly he hath peace of conſcience, béeing aſſured of Gods fatherly loue and protection in this world, and of eternall glorie after this life.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>

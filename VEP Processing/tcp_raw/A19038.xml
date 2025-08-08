@@ -1,0 +1,627 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Cocke Lorelles bote.]</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1518</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 20 KB of XML-encoded text transcribed from 11 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A19038</idno>
+            <idno type="STC">STC 5456</idno>
+            <idno type="STC">ESTC S109064</idno>
+            <idno type="EEBO-CITATION">99844714</idno>
+            <idno type="PROQUEST">99844714</idno>
+            <idno type="VID">9550</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A19038)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 9550)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 32:06)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>[Cocke Lorelles bote.]</title>
+               </titleStmt>
+               <extent>[20+] p. : ill.  </extent>
+               <publicationStmt>
+                  <publisher>In the flete strete at the sygne of the sonne by Wynkyn de Worde,</publisher>
+                  <pubPlace>[Inpry[n]ted at London :</pubPlace>
+                  <date>1518?]]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Title and imprint from colophon; publication date conjectured by STC.</note>
+                  <note>B1r line 1: She had a desyre ofte to be wedde.</note>
+                  <note>B3r catchword: Cocke Lorell.</note>
+                  <note>Signatures: B⁶ C⁴+.</note>
+                  <note>Imperfect; all before B1 lacking.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Satire, English --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-06</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-07</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2012-07</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="fragment_of_Cocke_Lorelles_Bote">
+            <pb facs="tcp:9550:1"/>
+            <pb facs="tcp:9550:1" rendition="simple:additions"/>
+            <lg>
+               <l>She had a deſyre ofte to be wedde</l>
+               <l>And alſo to lye in an other mannes bedde</l>
+               <l>Lytell rought ſhe therfore</l>
+               <l>She is as ſofte as a lamme yf one do her meue</l>
+               <l>And lyke to y<hi rend="sup">e</hi> deuyll wan a ma<g ref="char:cmbAbbrStroke">̄</g> dothe her greue</l>
+               <l>So well is ſhe ſette</l>
+               <l>O good condycyon to her houſbonde</l>
+               <l>Yf he call her calat ſhe calleth hy<g ref="char:cmbAbbrStroke">̄</g> knaue agayne</l>
+               <l>She ſhyll not dye in his dette</l>
+               <l>By ſaynt Jone ſayd Cocke than</l>
+               <l>Theſe be fayre vertues in a woman</l>
+               <l>Thou ſhalte be my launder</l>
+               <l>To waſſhe and kepe clene all my gere</l>
+               <l>Our two beddes to gyder ſhall be ſette</l>
+               <l>Without ony lette</l>
+               <l>The nexte that came was a coryat</l>
+               <l>And a cobeler his brother</l>
+               <l>As ryche as a newe ſhorne ſhepe</l>
+               <l>They offred Cocke a blechynge pot</l>
+               <l>Other Iewelles they had not</l>
+               <l>Scant ſhoes to theyr ſete</l>
+               <l>The coryer dreſſeth ſo well his lether</l>
+               <l>That it wolde drynke water in fayre weder</l>
+               <l>Therfore he hath many a cryſtes curſe</l>
+               <l>And the cobeler for his clourynge</l>
+               <l>The people bleſſeth hym with euyll cheuynge</l>
+               <l>To knytte faſt in his purſe</l>
+               <l>Aſhomaker came to theſe other two</l>
+               <l>Bytweue them two was moche a do</l>
+               <l>For a pyeſe of lether</l>
+               <pb facs="tcp:9550:2"/>
+               <l> They togged with theyr teth &amp; gnewe it there</l>
+               <l>And pulde as it had ben grehondes at a hare</l>
+               <l>It was a ſhepes ſkyne of a wether</l>
+               <l>And than they tanned it whan they had done</l>
+               <l>To make lether to hym with mennes ſhone</l>
+               <l>And all for theyr auayle</l>
+               <l>For as ſone as the hemme is tore</l>
+               <l>The ſho is loſt for euer more</l>
+               <l>And it is lytell meruayle</l>
+               <l>A tanner for euyll tannynge of leder</l>
+               <l>They foure with ſorowe Cocke dyde ſet togyder</l>
+               <l>And never a good without fayle</l>
+               <l>Than came one w<hi rend="sup">t</hi> two bolddogges at his tayle</l>
+               <l>And that was a bocher without fayle</l>
+               <l>All be gored in reed blode</l>
+               <l>In his hande he bare a flap for flyes</l>
+               <l>His hoſen greſy vpon his thyes</l>
+               <l>That place for magottes was very good</l>
+               <l>On his necke he bare a cole txe logge</l>
+               <l>He had as moche pyte as a dogge</l>
+               <l>And he were ones wrothe</l>
+               <l>He loked peryſſhe and alſo rowe</l>
+               <l>A man wolde take hym for a ſhrewe I trowe</l>
+               <l>And of his company be lothe</l>
+               <l>Than came a gonge fermourer</l>
+               <l>Other wyſe called a maſſer ſcourer</l>
+               <l>With hym a canyell taker</l>
+               <l>Theyr preſence made Cocke &amp; his me<g ref="char:cmbAbbrStroke">̄</g> to ſpewe</l>
+               <l>For as ſwete was they brethe as henka<g ref="char:cmbAbbrStroke">̄</g> or reme</l>
+               <l>To waſſhe them they laked water</l>
+            </lg>
+            <pb facs="tcp:9550:2" rendition="simple:additions"/>
+            <p>
+               <figure/>
+            </p>
+            <lg>
+               <l>On theſe Iryſihe cople I wyll not tare</l>
+               <l>Cocke dyde ſet the<g ref="char:cmbAbbrStroke">̄</g> there as knaues ſholde be</l>
+               <l>Amonge the ſlouenly ſorte</l>
+               <l>Than came two falſe towlers in nexte</l>
+               <l>He ſet them by pykers of the beſt</l>
+               <l>For there ſholde they abyde</l>
+               <l>But before y<hi rend="sup">t</hi> they were plonged in the ryuer</l>
+               <l>To ſearche theyr bodyes fayre and clere</l>
+               <l>Therof they had good ſporte</l>
+               <l>A myller duſtypoll than dyde come</l>
+               <l>A Ioly felowe with a golden thome</l>
+               <l>On his necke a ſacke was</l>
+               <l>Many ſayd that he with reprefe</l>
+               <pb facs="tcp:9550:3"/>
+               <l> Of all craftes was nexte a thefe</l>
+               <l>In that Cocke founde no lacke</l>
+               <l>He ſayd that the touled twys for forgetynge</l>
+               <l>And ſtele floure and put chauke therin</l>
+               <l>Be ſhere we hym that taught hym that</l>
+               <l>Cocke bad hym grynde cheryſtones &amp; peſon</l>
+               <l>To make his men brede for a ſeaſon</l>
+               <l>By cauſe whete was very dere</l>
+               <l>Than came a pardoner with his boke</l>
+               <l>His quaterage of euery man he toke</l>
+               <l>But Cocke wolde theyr names here</l>
+               <l>The pardoner ſayd I wyll rede my roll</l>
+               <l>And ye ſhall here the names poll by poll</l>
+               <l>There of ye nede not fere</l>
+               <l>Here is fyrſt Cocke Lorell the knyght</l>
+               <l>And ſymkyn emery mayntenau<g ref="char:cmbAbbrStroke">̄</g>ce agayne ryght</l>
+               <l>With ſlyngethryfte fleſhemonger</l>
+               <l>Alſo fabyane flaterer</l>
+               <l>And feſty claterer</l>
+               <l>With adam auerus flayle ſwenger</l>
+               <l>And frau<g ref="char:cmbAbbrStroke">̄</g>ces flaperoche of ſtewys captayne late</l>
+               <l>With gylys vnyeſte mayer of newgate</l>
+               <l>And lewes vnluſty the leſynge monger</l>
+               <l>Here alſo baude baudyn boller</l>
+               <l>And his brother copyn coler</l>
+               <l>With mathew marchaunte of ſhoters hyll</l>
+               <l>Cry ſtoter catche poll a cryſtes courſe gaderer</l>
+               <l>And wat welbelyne of ludgate Iayler</l>
+               <l>With laurence lorell of clerken well</l>
+               <l>Here is gylys Iogeler of ayebery</l>
+            </lg>
+            <pb facs="tcp:9550:3"/>
+            <p>
+               <figure/>
+            </p>
+            <lg>
+               <l>And hym ſougelder of lothe bery</l>
+               <l>With wallys the wrangler</l>
+               <l>Pers potter of brydge water</l>
+               <l>Saunder fely the muſtarde maker</l>
+               <l>With Ielyan Iangeler</l>
+               <l>Here is Ienkyne berwarde of Barwycke</l>
+               <l>And tom tombler of war wyke</l>
+               <l>With Phyllyp fletcher of fernam</l>
+               <l>Here is wyll wyly the mylpeker</l>
+               <l>And patrycke peuyſſhe heerbeter</l>
+               <l>With luſty hary hange man</l>
+               <l>Alſo mathewe tothe drawer of London</l>
+               <l>And ſybly ſole mylke wyfe of Iſlyngton</l>
+               <l>With dauy drawelache of rokyngame</l>
+               <pb facs="tcp:9550:4"/>
+               <l> Here is maryone marchauntes at all gate</l>
+               <l>Her huſbo<g ref="char:cmbAbbrStroke">̄</g>de dwelleth at y<hi rend="sup">e</hi> ſygne of y<hi rend="sup">e</hi> cokeldes pate</l>
+               <l>Nexte houſe to Robyn renawaye</l>
+               <l>Alſo hycke crokenec the rope maker</l>
+               <l>And ſteuen meſyll mouthe muſkyll taker</l>
+               <l>With Iacke baſket ſeler of alwelay</l>
+               <l>Here is george of podynge lane carpenter</l>
+               <l>And patrycke peuyſſhe a conynge dyrte dauber</l>
+               <l>Worſhy pfull wardayn of ſlouens In</l>
+               <l>There is maryn peke ſmall fremaſon</l>
+               <l>And pers peuterer that knocketh a baſyn</l>
+               <l>With gogle eyed tomſon ſhepſter of lyn</l>
+               <l>Here is glyed wolby of gylforde ſquyere</l>
+               <l>Andrewe of habyngedon apell byer</l>
+               <l>With alys eſy a gay tale teller</l>
+               <l>Alſo peter paten maker</l>
+               <l>With gregory loue good of rayſton mayer</l>
+               <l>And hary halter ſeler at tyborn the ayer</l>
+               <l>Here is kate with the croked fote</l>
+               <l>That is colſys doughter the dronken koke</l>
+               <l>A luſty pye baker</l>
+               <l>Here is faunder ſadler of froge ſtrete corner</l>
+               <l>With Ielyan Ioly at ſygne of the bokeler</l>
+               <l>And mores moule taker</l>
+               <l>Alſo anuys angry with the croked buttocke</l>
+               <l>That dwelled at y<hi rend="sup">e</hi> ſygne of y<hi rend="sup">e</hi> dogges hede in y<hi rend="sup">e</hi> pot</l>
+               <l>By her crafte a breche maker</l>
+               <l>Cocke ſayd pardoner now ho and ſeaſe</l>
+               <l>Thou makeſte me wery holde thy peaſe</l>
+               <l>A thynge tell thou me</l>
+               <pb facs="tcp:9550:4"/>
+               <l> What profyte is to take thy pardon</l>
+               <l>Shewe vs what mede is to come</l>
+               <l>To be in this fraternyte</l>
+               <l>Syr this pardon is newe founde</l>
+               <l>By ſyde London brydge in a holy grounde</l>
+               <l>Late called the ſtewes banke</l>
+               <l>Ye knowe well all that there was</l>
+               <l>Some relygyous women in that place</l>
+               <l>To whome men offred many a franke</l>
+               <l>And by cauſe they were ſo kynde and lyberall</l>
+               <l>A merueylous auenture there is be fall</l>
+               <l>Yf yelyſt to here how</l>
+               <l>There came ſuche a wynde from wyncheſter</l>
+               <l>That blewe theſe women ouer the ryuer</l>
+               <l>In wherye as I wyll you tell</l>
+               <l>Some at ſaynt Kateryns ſtroke a grounde</l>
+               <l>And many in holborne were founde</l>
+               <l>Some at ſaynt Gyles I trowe</l>
+               <l>Alſo in aue maria aly and at weſtmenſter</l>
+               <l>And ſome in ſhordyche drewe theder</l>
+               <l>With grete lamentacyon</l>
+               <l>And by cauſe they haue loſt that fayre place</l>
+               <l>They wyll bylde at colman hedge in ſpace</l>
+               <l>A nother noble manſyon</l>
+               <l>Fayrer and euer the halfe ſtrete was</l>
+               <l>For euery houſe newe paued is with gras</l>
+               <l>Shall be full of fayre floures</l>
+               <l>The walles ſhall be of hauthorne I wote well</l>
+               <l>And hanged w<hi rend="sup">t</hi> whyte motly y<hi rend="sup">t</hi> ſwete doth ſmell</l>
+               <l>Grene ſhall be the coloures</l>
+               <pb facs="tcp:9550:5"/>
+               <l> And as for this olde place theſe wenches holy</l>
+               <l>They wyll not haue it called the ſtewys for foly</l>
+               <l>But maketh it ſtrabery banke</l>
+               <l>And there is yet a chapell ſaue</l>
+               <l>Of whiche ye all the pardon haue</l>
+               <l>The ſaynt is of ſymme trollanke</l>
+               <l>I wyll reherſe here in generall</l>
+               <l>The indulgences that ye haue ſhall</l>
+               <l>Is theſe that foloweth with more</l>
+               <l>At the oure of deth whan ye haue nede</l>
+               <l>Ye ſhall be aſſoyled of euery good dede</l>
+               <l>That you haue done before</l>
+               <l>And ye ſhall be parte taker of as many good dedde</l>
+               <l>As is done euery nyght a bedde</l>
+               <l>And alſo ferthermore</l>
+               <l>At euery tauerne in the yere</l>
+               <l>A ſolempne dyryge is ſonge there</l>
+               <l>With a grete drynkynge</l>
+               <l>At all ale houſes trewely</l>
+               <l>Ye ſhall be prayed for hertely</l>
+               <l>With a Ioyefull wepynge</l>
+               <l>And the pope darlaye hath grau<g ref="char:cmbAbbrStroke">̄</g>ted in his byll</l>
+               <l>That euery brother may do what he wyll</l>
+               <l>Whyle that they be wakynge</l>
+               <l>And the pardone gyueth you that hath the poſe</l>
+               <l>On your owne ſleue to wype your noſe</l>
+               <l>Without rebuke takynge</l>
+               <l>Alſo pope nycoll graunteth you all in this texte</l>
+               <l>The coughe and the colyke the gout and the flyxe</l>
+               <l>With the holſome tothe ache</l>
+               <pb facs="tcp:9550:5" rendition="simple:additions"/>
+               <l> Alſo it is graunted by our bulles of lede</l>
+               <l>That whan ony brother is dede</l>
+               <l>To the chyrche dogges ſhall cary hym</l>
+               <l>A ryche pal to ly on y<hi rend="sup">e</hi> corſe late fro rome is come</l>
+               <l>Made of an olde payre of blewe medly popley hoſone</l>
+               <l>For y<hi rend="sup">e</hi> worſhyppe of all y<hi rend="sup">e</hi> bretherne.</l>
+            </lg>
+            <p>
+               <figure>
+                  <q xml:lang="lat">Gaudeamꝰ oe<g ref="char:cmbAbbrStroke">̄</g>s</q>
+               </figure>
+            </p>
+            <lg>
+               <pb facs="tcp:9550:6" rendition="simple:additions"/>
+               <l>Theyr knylles ſhall be ro<g ref="char:cmbAbbrStroke">̄</g>ge in y<hi rend="sup">e</hi> myddes of te<g ref="char:cmbAbbrStroke">̄</g>ſe</l>
+               <l>And theyr maſſe ſonge at ſhoters hyll amonge the elmes</l>
+               <l>With grete deuocyon in dede</l>
+               <l>And many thynges elles ſhall be done</l>
+               <l>The reſydewe I wyll reherſe ſoone</l>
+               <l>For drynke fyrſt muſt I nede</l>
+               <l>Than Cocke caſt a ſyde his hede</l>
+               <l>And ſawe the ſtretes all ouer ſprede</l>
+               <l>That to his bote wolde come</l>
+               <l>Of all craftes there were one or other</l>
+               <l>I wyll ſhewe how many or I paſſe ferther</l>
+               <l>And reken them one by one</l>
+               <l>The fyrſt was golde ſmythes &amp; grote clyppers</l>
+               <l>Multyplyers and clothe thyckers</l>
+               <l>Called fullers euerychone</l>
+               <l>There is taylers / tauerners and / drapers</l>
+               <l>Potycaryes / ale brewers / and bakers</l>
+               <l>Mercers / fletchers / and ſporyers</l>
+               <l>Boke prynters / peynters / bowers</l>
+               <l>Myllers / carters / and botyll makers</l>
+               <l>Waxechaundelers / clothers / and grocers</l>
+               <l>Wolle men vynteners / and fleſſhemongers</l>
+               <l>Salters / Iowelers / and habardaſhers</l>
+               <l>Drouers / cokes / and pulters</l>
+               <l>Yermongers / pybakers / and waferers</l>
+               <l>Fruyters / cheſe mongers / and mynſtrelles</l>
+               <l>Talowe chaundelers / hoſtelers / and glouers</l>
+               <l>Owchers / ſkynners / and cutlers</l>
+               <l>Blade ſmythes / foſters / and ſadelers</l>
+               <l>Coryers / cordwayners / and cobelers</l>
+               <pb facs="tcp:9550:6" rendition="simple:additions"/>
+               <l> Gyrdelers / forborets / and weboers</l>
+               <l>Quylte makers / ſhermen / and armorers</l>
+               <l>Borlers / tapſtry workemakers / and dyers</l>
+               <l>Brouderers / ſtrayners and carpyte makers</l>
+               <l>Sponers / torners / and hatters</l>
+               <l>Lyne webbers / ſetters with lyne drapers</l>
+               <l>Roke makers / coper ſmythes / and lorymers</l>
+               <l>Brydelbytters / blacke ſmythes / and ferrars</l>
+               <l>Bokell ſmythes / horſe leches / and golde betters</l>
+               <l>Fyners / plommers / and penters</l>
+               <l>Bed makers / fed<expan>
+                     <am>
+                        <g ref="char:aber"/>
+                     </am>
+                     <ex>er</ex>
+                  </expan>bed makers / &amp; wyre drawers</l>
+               <l>Founders / laten workers / and broche makers</l>
+               <l>Pauyers / bell makers / and braſyers</l>
+               <l>Pynners / nedelers / and glaſyers</l>
+               <l>Bokeler makers / dyers / and lether ſellers</l>
+               <l>Whyte tanners / galyors / and ſhethers</l>
+               <l>Maſones / male makers / and merbelers</l>
+               <l>Tylers / brycke leyers / harde hewers</l>
+               <l>Parys plaſterers / daubers / and lyme borners</l>
+               <l>Carpenters / coupers / and Ioyners</l>
+               <l>Pype makers / wode mo<g ref="char:cmbAbbrStroke">̄</g>gers / &amp; orgyn makers</l>
+               <l>Coferers / carde makers / and caruers</l>
+               <l>Shyppe wryghtes / whele wryghtes / &amp; ſowers</l>
+               <l>Harpe makers / leches / and vpholſters</l>
+               <l>Porters / feſy cyens / and corſers</l>
+               <l>Parchemente makers / ſkynners / and plowers</l>
+               <l>Barbers / boke bynders / and lymners</l>
+               <l>Repers / faners / and horners</l>
+               <l>Pouche makers / belowfarmes / &amp; cage ſellers</l>
+               <l>Lanterners / ſtryngers / grynders</l>
+               <pb facs="tcp:9550:7"/>
+               <l> Arowe heders / malte men and corne mongers</l>
+               <l>Balancers / tynne caſters / and ſkryueners</l>
+               <l>Stacyoners / veſtyment ſwoers / and ymagers</l>
+               <l>Sylke women / purſers / and garnyſſhers</l>
+               <l>Table makers / ſylke dyers / and ſhepſters</l>
+               <l>Golde ſheres / keuerchef laund<expan>
+                     <am>
+                        <g ref="char:aber"/>
+                     </am>
+                     <ex>er</ex>
+                  </expan>s / &amp; rebe<g ref="char:cmbAbbrStroke">̄</g> makers</l>
+               <l>Tankarde berers / bouge men / &amp; ſpere planers</l>
+               <l>Spynſters / carders and cappe knytters</l>
+               <l>Sargeauntes / katche pollys and ſomners</l>
+               <l>Carryers / carters / and horſkepers</l>
+               <l>Courte holders / bayles / and honters</l>
+               <l>Conſtables / hede borowes / and katers</l>
+               <l>Butlers / ſterchers / and muſterde makers</l>
+               <l>Harde waremen / mole ſekers / and ratte takers</l>
+               <l>Bewardes / brycke borners / and canelrakers</l>
+               <l>Potters / bromeſellers / pedelers</l>
+               <l>Shepherdes / cowe herdes / and ſwyne kepers</l>
+               <l>Broche makers / glas blowers ca<g ref="char:cmbAbbrStroke">̄</g>delſtycke caſts</l>
+               <l>Hedgers / dykers / and mowers</l>
+               <l>Gonners maryners / and ſhyp mayſters</l>
+               <l>Chymey ſwepers / and coſtede mongers</l>
+               <l>Lode men / and bere brewers</l>
+               <l>Fyſſhers of the ſee / and muſkeltakers</l>
+               <l>Schouyll chepers / gardeners / &amp; rake fetters</l>
+               <l>Players / purſe cutters money batters</l>
+               <l>Golde waſhers / tomblers Iogelers</l>
+               <l>pardoners ky<g ref="char:cmbAbbrStroke">̄</g>ges be<g ref="char:cmbAbbrStroke">̄</g>che gatherers &amp; lether dyers</l>
+               <l>There were theues hores &amp; baudes w<hi rend="sup">t</hi> mortherers</l>
+               <l>Exakers / facers and chylderne queſters</l>
+               <l>Spyes / lyers and grete ſclaunderers</l>
+               <pb facs="tcp:9550:7" rendition="simple:additions"/>
+               <l> Curſers chyders &amp; grete vengeaunce cryers</l>
+               <l>Dyſſy mulynge beggers hede breakers borders</l>
+               <l>Nette makers and harlote takers</l>
+               <l>Swerers and outragyons laughers</l>
+               <l>Surmowſers yll thynkers and make braſers</l>
+               <l>With lollers lordaynes and fagot berers</l>
+               <l>Luſkes ſlouens and kechen knaues</l>
+               <l>Barge men whery rowers and dyſers</l>
+               <l>Tyburne collopes and peny pryckers</l>
+               <l>Bowlers mas ſhoters and quayters</l>
+               <l>Flaterers and two face berers.</l>
+               <l>Sluttes drabbes and counſelyll why<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>e<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ers</l>
+               <l>With ſmoggy colyers &amp; ſty<g ref="char:cmbAbbrStroke">̄</g>ky<g ref="char:cmbAbbrStroke">̄</g>ge go<g ref="char:cmbAbbrStroke">̄</g>ge fermers</l>
+               <l>Of euery crafte ſome there was</l>
+               <l>Shorte or longe more or laſſe</l>
+               <l>All theſe reherſed here before</l>
+               <l>In Cockes bote eche man had an ore</l>
+               <l>All tho that offyces had</l>
+               <l>Some wou<g ref="char:cmbAbbrStroke">̄</g>de at y<hi rend="sup">e</hi> capſtayne as Cocke the<g ref="char:cmbAbbrStroke">̄</g> bad</l>
+               <l>Some ſtode at y<hi rend="sup">e</hi> ſly<g ref="char:cmbAbbrStroke">̄</g>ge ſome dyde truſſe &amp; thry<g ref="char:cmbAbbrStroke">̄</g>ge</l>
+               <l>Some pulde at the beryll ſome ſprede y<hi rend="sup">e</hi> mayne myſſyll</l>
+               <l>Some howyſed th<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ayne ſayle</l>
+               <l>Some veryed ſho<gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap> a very ſlayle</l>
+               <l>Some roped y<hi rend="sup">e</hi> hoke ſome y<hi rend="sup">e</hi> po<g ref="char:cmbAbbrStroke">̄</g>pe &amp; ſome y<hi rend="sup">e</hi> lau<g ref="char:cmbAbbrStroke">̄</g>ce</l>
+               <l>Some y<hi rend="sup">e</hi> lo<g ref="char:cmbAbbrStroke">̄</g>ge bote dyde lau<g ref="char:cmbAbbrStroke">̄</g>ce ſome me<g ref="char:cmbAbbrStroke">̄</g>de y<hi rend="sup">e</hi> corſe</l>
+               <l>Mayne corfe toke in a refe byforce</l>
+               <l>And they that were abyll drewe at the cab<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ll</l>
+               <l>Some the anker layde ſome at the plo<g ref="char:cmbAbbrStroke">̄</g>pe a ſayll ſwepe</l>
+               <l>One kept y<hi rend="sup">e</hi> ꝯpas &amp; watched y<hi rend="sup">e</hi> our glaſſe</l>
+               <l>Some y<hi rend="sup">e</hi> lodyſſheſto<g ref="char:cmbAbbrStroke">̄</g>e dyd ſeke ſome y<hi rend="sup">e</hi> bote dyd</l>
+               <pb facs="tcp:9550:8" rendition="simple:additions"/>
+               <l> Some made knottes of lykes endes</l>
+               <l>Some the ſtay rope ſuerly byndes</l>
+               <l>Some a ſatte borte ſtare borde</l>
+               <l>Some the ſtande<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>des out dyde brynge</l>
+               <l>Some one the ſhrowedes dyde clyme</l>
+               <l>Some couched a hogges heed vnder a hatche</l>
+               <l>Some threwe out bayte fyſſhe to catche</l>
+               <l>Some pulled vp the bonauenture</l>
+               <l>Some to howes the tope ſayle dyde entre</l>
+               <l>Some ſtered at the helme behynde</l>
+               <l>Some whyſteled after the wynde</l>
+               <l>There was non that there was</l>
+               <l>But he had an offyce more or laſſe</l>
+               <l>Than Cocke Lorell dyde his whyſtell blowe</l>
+               <l>That all his men ſholde hym knowe</l>
+               <l>With that the<g ref="char:cmbAbbrStroke">̄</g>y cryed and made a ſhoute</l>
+               <l>That the water ſhoke all aboute</l>
+               <l>Than men myght here the ores claſſhe</l>
+               <l>And on the water gaue many a daſſhe</l>
+               <l>They ſprede theyr ſayles as voyde of ſorowe</l>
+               <l>For he they rowed ſaynt George to borowe</l>
+               <l>For Ioye theyr tru<g ref="char:cmbAbbrStroke">̄</g>pet<gap reason="illegible" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap> dyde they blowe</l>
+               <l>And ſome ſonge heue and howe rombelowe</l>
+               <l>They ſayled fro garlyke hede to knaues in</l>
+               <l>And a pele of gonnes gan they rynge</l>
+               <l>Of colman hedge a ſyght they had</l>
+               <l>That made his company very glad</l>
+               <l>For there they thought all to play</l>
+               <l>Bytwene tyborne and chelſay</l>
+               <l>With this man was a luſty company</l>
+               <pb facs="tcp:9550:8" rendition="simple:additions"/>
+               <l> For all raſkyllers fro them they dyde trye</l>
+               <l>They banyſſhed prayer peas and ſadnes</l>
+               <l>And toke with them myrthe ſporte &amp; gladnes</l>
+               <l>They wolde not haue vertune yet deuocyon</l>
+            </lg>
+            <p>
+               <figure>
+                  <q xml:lang="lat">Gaudeamꝰ oe<g ref="char:cmbAbbrStroke">̄</g>s</q>
+               </figure>
+            </p>
+            <lg>
+               <pb facs="tcp:9550:9" rendition="simple:additions"/>
+               <l>But ryotte and reuell with Ioly rebellyon</l>
+               <l>They ſonge and daunſed full merely</l>
+               <l>With ſwerynge and ſtarynge heuen hye</l>
+               <l>Some ſayd y<hi rend="sup">e</hi> they were ge<g ref="char:cmbAbbrStroke">̄</g>tyl m<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> of grete myght</l>
+               <l>That ther purſes were ſo lyght</l>
+               <l>And ſome wente in fured gownes &amp; gaye ſhone</l>
+               <l>That had no mo faces than had the mone</l>
+               <l>Of this daye gladde was many a brothell</l>
+               <l>That myght haue an ore with Cocke Lorell</l>
+               <l>Thus they daunſed with all theyr myght</l>
+               <l>Tyll that phebus had loſt his lyght</l>
+               <l>But than came lucyna with all her pale hewe</l>
+               <l>To take her ſporte amonge the cloudes blewe</l>
+               <l>And marcury he trewe downe his golde<g ref="char:cmbAbbrStroke">̄</g> bemes</l>
+               <l>And ſperus her ſyluer ſtremes</l>
+               <l>That in the worlde gaue ſo grete lyght</l>
+               <l>As all the erth had be paued with whyte</l>
+               <l>Tha<g ref="char:cmbAbbrStroke">̄</g> Cocke wayed anker and houſed his ſayle</l>
+               <l>And forthe he rowed without fayle</l>
+               <l>They ſayled Englande thorowe and thorowe</l>
+               <l>Vyllage towne cyte and borowe</l>
+               <l>They bleſſyd theyr ſhyppe whan they had done</l>
+               <l>And dranke aboute ſaynt Iulyans torne</l>
+               <l>Than euery man pulled at his ore</l>
+               <l>With that I coude ſe them no more</l>
+               <l>But as they rowed vp the hyll</l>
+               <l>The bote ſwayne blewe his whyſtell full ſhryll</l>
+               <l>And I wente homwarde to mowe ſhame ſtere</l>
+               <l>With a company dyde I mete</l>
+               <l>As ermytes monkes and freres</l>
+            </lg>
+            <pb facs="tcp:9550:9" rendition="simple:additions"/>
+            <p>
+               <figure/>
+            </p>
+            <lg>
+               <l>Chanons chartores and Inholders</l>
+               <l>And many whyte nonnes with whyte vayles</l>
+               <l>That was full wanton of theyr tayles</l>
+               <l>To mete with Cocke they aſked how to do</l>
+               <l>And I tolde them he was a go</l>
+               <l>Than were they ſad euerychone</l>
+               <l>And went agayne to theyr home</l>
+               <pb facs="tcp:9550:10" rendition="simple:additions"/>
+               <l> But my counſeyll I gaue them there</l>
+               <l>To mete with Cocke another yere</l>
+               <l>No more of Cocke now I wryte</l>
+               <l>But mery it is whan knaues done mete</l>
+               <l>Cocke had in his hande a grete route</l>
+               <l>The thyrde perſone of Englande</l>
+               <l>Thus of Cocke Lorell I make an ende</l>
+               <l>And to heuen god your ſoules ſende</l>
+               <l>That redeth this boke ouer all</l>
+               <l>Chryſt couer you with his mantell perpetuall.</l>
+            </lg>
+            <closer>AMEN</closer>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>Here endeth Cocke Lorelles bote. Inpry<g ref="char:cmbAbbrStroke">̄</g>ted at London in the Flete ſtrete at the ſygne of the ſonne by Wynkyn de Worde.</p>
+            <pb facs="tcp:9550:10" rendition="simple:additions"/>
+            <pb facs="tcp:9550:11"/>
+            <p>
+               <figure>
+                  <figDesc>printer's device of Wynkyn de Worde</figDesc>
+                  <p>W <figure>
+                        <figDesc>intertwined 7 and 4, to indicate 1474, the date of Caxton's first printed book</figDesc>
+                     </figure> C</p>
+               </figure>
+            </p>
+            <pb facs="tcp:9550:11"/>
+         </div>
+      </back>
+   </text>
+</TEI>

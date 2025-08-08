@@ -1,0 +1,790 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Christmas carols]</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1528</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 16 KB of XML-encoded text transcribed from 10 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A18696</idno>
+            <idno type="STC">STC 5204.3</idno>
+            <idno type="STC">ESTC S290</idno>
+            <idno type="EEBO-CITATION">22220351</idno>
+            <idno type="OCLC">ocm 22220351</idno>
+            <idno type="VID">25242</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A18696)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 25242)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1748:31)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>[Christmas carols]</title>
+               </titleStmt>
+               <extent>[19] p. : ill.  </extent>
+               <publicationStmt>
+                  <publisher>P.Treveris,</publisher>
+                  <pubPlace>[Southwark :</pubPlace>
+                  <date>1528?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Title suggested by STC (2nd ed.).</note>
+                  <note>Imprint suggested by STC (2nd ed.).</note>
+                  <note>Signatures: A¹⁰.</note>
+                  <note>Without music.</note>
+                  <note>Imperfect: torn, with slight loss of print.</note>
+                  <note>Reproduction of original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Carols, English.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-06</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-07</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2012-07</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="illustration">
+            <pb facs="tcp:25242:1"/>
+            <p>
+               <figure>
+                  <figDesc>depiction of the risen Christ</figDesc>
+               </figure>
+            </p>
+         </div>
+         <div type="carol">
+            <pb facs="tcp:25242:1"/>
+            <head>¶
+<q>
+                  <l>Gaudeamꝰ ſynge we i<g ref="char:cmbAbbrStroke">̄</g> hoc ſacro tꝑe</l>
+                  <l>Puer nobis natus e<g ref="char:cmbAbbrStroke">̄</g> ex Maria virgine</l>
+               </q>
+            </head>
+            <lg>
+               <l>¶Mary moder come and ſe</l>
+               <l>Thy ſone is nayled on a tre</l>
+               <l>Hande and fote he may not go</l>
+            </lg>
+            <lg>
+               <l>His body is wrapped all in wo</l>
+               <l>¶ Vpon a tre nayled he is</l>
+               <l>To brynge vs all to heuen blyſſ</l>
+               <l>For Adam that dyde amyſſe</l>
+            </lg>
+            <lg>
+               <l>For an aple that was ſo fre</l>
+               <l>¶ From his heed vnto his too</l>
+               <l>His ſkynne is torne and fleſſke alſo</l>
+               <l>His body is bothe wanne and blo</l>
+            </lg>
+            <lg>
+               <l>And nayled he is on a tre</l>
+               <l>¶ Thy louely ſone that thou haſt borne</l>
+               <l>Is crowned with a crowne of thorne</l>
+               <l>To ſaue mankynde that was but lorne</l>
+            </lg>
+            <lg>
+               <l>And brynge man but to his liberte</l>
+               <l>¶ whan Iohan this tale began to tell</l>
+               <l>Mary wolde no lenger dwell</l>
+               <l>But went amonge the Iewes fell</l>
+            </lg>
+            <lg>
+               <l>where ſhe myght her ſone ſe</l>
+               <pb facs="tcp:25242:2"/>
+               <l> ¶ My ſwete ſone that arte me dere</l>
+               <l>why hangeſt thou on rode here</l>
+               <l>Thy hede is wrythen all in a brere</l>
+            </lg>
+            <lg>
+               <l>Louely ſone what may this be.</l>
+               <l>¶ Moder to Iohan I the betake</l>
+               <l>Iohan kepe this woman for my ſake</l>
+               <l>On rode I am emendes to make</l>
+            </lg>
+            <lg>
+               <l>For ſynfull man as ye may ſe.</l>
+               <l>¶ This game of loue I muſt play</l>
+               <l>For mannes ſoule it is no nay</l>
+               <l>There is no man that goth by the way</l>
+            </lg>
+            <lg>
+               <l>But on my body he may haue pyte</l>
+               <l>¶ This payne y<hi rend="sup">t</hi> men haue me wrought</l>
+               <l>For ſynfull ſoules I haue it bought</l>
+               <l>Of all this ſmerte yet rewe I nought</l>
+            </lg>
+            <lg>
+               <l>If man wolde be kynde to me.</l>
+               <l>¶ My blode coleth my fleſhe doth fall</l>
+               <l>I am athryſt after drynke I call</l>
+               <l>They gyue me eylyll menged with gall</l>
+            </lg>
+            <lg>
+               <l>A wors drinke may there be none.</l>
+               <l>¶ Fader my ſoule to the I betake.</l>
+               <l>My body dyeth for mannes ſake</l>
+               <pb facs="tcp:25242:2"/>
+               <l> To hell I muſt without en make</l>
+            </lg>
+            <lg>
+               <l>Mankynde for to make fre</l>
+               <l>¶ God that deyed for vs all</l>
+               <l>Borne of a mayde in an oxe ſtall</l>
+               <l>Graunt vs his realme celeſtyall</l>
+               <l>Amen / amen / for charyte.</l>
+            </lg>
+            <trailer>Finis.</trailer>
+         </div>
+         <div type="carol">
+            <head>¶ Of ſaynt Steuen</head>
+            <lg>
+               <l>¶ To ſaynt Steue<g ref="char:cmbAbbrStroke">̄</g> wyll we pray</l>
+               <l>To pray for vs bothe nyght and day</l>
+            </lg>
+            <lg>
+               <l>OF ſaynt Steuen goddes knyght</l>
+               <l>That preched y<hi rend="sup">e</hi> fayth day &amp; nyght</l>
+               <l>He tolde the Iewes as it was ryght</l>
+            </lg>
+            <lg>
+               <l>That Chryſt was borne of a may.</l>
+               <l>¶ The Iewes ſayd in grete ſcorne</l>
+               <l>That Chriſt was not of a mayde borne</l>
+               <l>Than ſayd Steuen ye are but lorne</l>
+            </lg>
+            <lg>
+               <l>¶ And all that beleue in your lay.</l>
+               <l>¶ Now is ſpronge the welle of lyfe</l>
+               <l>Of Mary moder mayde and wyfe</l>
+               <l>Therfore the Iewes fell at ſtryfe</l>
+            </lg>
+            <lg>
+               <l>¶ And with ſteue<g ref="char:cmbAbbrStroke">̄</g> tha<g ref="char:cmbAbbrStroke">̄</g> dyſpu<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ed they.</l>
+               <pb facs="tcp:25242:3"/>
+               <l> ¶ The wycked Iewes at the laſt</l>
+               <l>Stones at Steuen they gan caſt</l>
+               <l>His hed and armes they all to braſt</l>
+            </lg>
+            <lg>
+               <l>And made his body in foule aray.</l>
+               <l>¶ Steuen that was full mylde of mode</l>
+               <l>Thought he were all reed in blode</l>
+               <l>In his prayers ſtyll he ſtode</l>
+            </lg>
+            <lg>
+               <l>And cryeng to good thus he dyde ſay</l>
+               <l>¶ Lorde god for thy myghtfull grace</l>
+               <l>Forgyue the Iewes theyr treſpace</l>
+               <l>And gyue theym grace to ſe thy face</l>
+            </lg>
+            <lg>
+               <l>In the Ioye that laſteth aye.</l>
+               <l>¶ To heuen he loketh ſoone on hye</l>
+               <l>To the father and ſone truly</l>
+               <l>And to the holy gooſt he gan cry</l>
+            </lg>
+            <lg>
+               <l>Receyue my ſoule I the pray.</l>
+               <l>¶ God receyued his boone anone</l>
+               <l>Downe came aungeles many one</l>
+               <l>They toke his ſoule &amp; to heue<g ref="char:cmbAbbrStroke">̄</g> dyd gone</l>
+            </lg>
+            <lg>
+               <l>To blyſſedneſſe that laſteth ay.</l>
+               <l>¶ To that blyſſe that is ſo goode</l>
+               <l>Them that dyed vpon the roode</l>
+               <pb facs="tcp:25242:3"/>
+               <l> Graunt vs for his precyous bloode</l>
+               <l>Our ſaluacyon at domes day.</l>
+            </lg>
+            <trailer>¶ Finis.</trailer>
+         </div>
+         <div type="carol">
+            <head>¶ Of ſaynt Iohn<g ref="char:cmbAbbrStroke">̄</g>.</head>
+            <lg type="opener">
+               <l>¶ Pray for vs to god on hye</l>
+               <l>Blyſſed ſaynt Iohan and our lady.</l>
+            </lg>
+            <lg>
+               <l>O Bleſſyd Iohan t<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e euangelyſt</l>
+               <l>Ryght dere beloued of Ieſu cryſt</l>
+               <l>The preuyte of heue<g ref="char:cmbAbbrStroke">̄</g> in erthe thou wyſt</l>
+            </lg>
+            <lg>
+               <l>As touchynge to the trynyte.</l>
+               <l>¶ That prynce that is withouten pere</l>
+               <l>To Iohan he toke his mode dere</l>
+               <l>All whyle <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he lyued in erthe here</l>
+               <l>That vyrgyns were bothe he and ſhe.</l>
+               <l>¶ This noble Iohan that we of rede</l>
+               <l>Informed vz of Chryſtes dede</l>
+               <l>The whyle that he on erthe yede</l>
+            </lg>
+            <lg>
+               <l>In his goſpell ſo fynde we.</l>
+               <pb facs="tcp:25242:4"/>
+               <l> ¶ whan Chryſton croſſe hanged ſo hy</l>
+               <l>He ſayd vnto his moder Mary</l>
+               <l>Lo there thy ſone ſtandynge the by</l>
+            </lg>
+            <lg>
+               <l>¶ And ſe thy moder Iohan ſayd he</l>
+               <l>¶ Nowe pray we to this ſaynt echone</l>
+               <l>For vs to pray to god in trone</l>
+               <l>Out of this lyfe whan we ſhall gone</l>
+               <l>To ſe hym in his mayeſte</l>
+            </lg>
+            <trailer>¶ Finis.</trailer>
+         </div>
+         <div type="carol">
+            <head>¶ A caroll of the Innocentes.</head>
+            <lg>
+               <l>¶ Marke this ſonge for it is trewe</l>
+               <l>For it is trewe as clerkes tell.</l>
+            </lg>
+            <lg>
+               <l>In olde tyme ſtrau<g ref="char:cmbAbbrStroke">̄</g>g thyngꝭ cam to pas</l>
+               <l>Grete wonder &amp; grete meruayll was</l>
+               <l>In Iſraell.</l>
+            </lg>
+            <lg>
+               <l>¶ There was one Octauyan</l>
+               <l>Octauyan of Rome Emperour.</l>
+               <l>As bokes olde doth ſpecyfye</l>
+               <pb facs="tcp:25242:4"/>
+               <l> Of all the wyde worlde trulye.</l>
+               <l>He was lorde and gouernour.</l>
+            </lg>
+            <lg>
+               <l>¶ The Iewes that tyme lackyd a kyng</l>
+               <l>They lackyd a kyng to gyde them well</l>
+               <l>The Emperour of power and myght</l>
+               <l>Choſe one Herode agaynſt all ryght</l>
+               <l>In Iſraell.</l>
+            </lg>
+            <lg>
+               <l>This Herode tha<g ref="char:cmbAbbrStroke">̄</g> was kyng of Iewys</l>
+               <l>was kyng of Iewys &amp; he no Iewe</l>
+               <l>For ſothe he was a panym borne</l>
+               <l>wherfore on fayth it may be ſworne</l>
+               <l>He reygned kynge vntrewe.</l>
+            </lg>
+            <lg>
+               <l>¶ By propheſye one Iſay</l>
+               <l>One I ſay / at leſt dyd tell</l>
+               <l>A chylde ſholde come wo<g ref="char:cmbAbbrStroke">̄</g>derous newys</l>
+               <l>y<hi rend="sup">t</hi> ſhold be borne trewe kyng of Iewys</l>
+               <l>In Iſraell.</l>
+            </lg>
+            <lg>
+               <l>This Herode knew one borne ſhold be</l>
+               <l>One borne ſholde be of trewe lenage</l>
+               <l>That ſholde be ryght herytour</l>
+               <l>For he but by the Emperour</l>
+               <l>was made by vſurpage.</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:25242:5" rendition="simple:additions"/>
+               <l>wherfore of throught this kyng Herode</l>
+               <l>This kynge Herode in grete fere fell</l>
+               <l>For all the days moſt in his myrth</l>
+               <l>Euer he fered Chryſtes byrth</l>
+               <l>In Iſrahell.</l>
+            </lg>
+            <lg>
+               <l>¶ The tyme came it pleaſed god</l>
+               <l>It pleaſed god ſo to come ſo pas</l>
+               <l>For mannes ſoule in dede</l>
+               <l>His blyſſed ſone was borne wyth ſpede</l>
+               <l>As his wyll was</l>
+            </lg>
+            <lg>
+               <l>¶ Tydynges came to kynke Herode</l>
+               <l>To kynge Herode / and dyd hym tell</l>
+               <l>That one borne forſoth is he</l>
+               <l>whiche lorde and kynge of all ſhall be</l>
+               <l>In Iſraell.</l>
+            </lg>
+            <lg>
+               <l>¶ Herode tha<g ref="char:cmbAbbrStroke">̄</g> raged as he were woode</l>
+               <l>As he were wode of this tydynge</l>
+               <l>And ſent for all his ſerybes ſure</l>
+               <l>yet wolde he not truſt the ſcrypture</l>
+               <l>Nor of theyr councellynge.</l>
+            </lg>
+            <lg>
+               <l>¶ Than this was the concluſyon</l>
+               <l>The concluſyon of his councell</l>
+               <pb facs="tcp:25242:5"/>
+               <l> To ſende vnto his knyghtes anone</l>
+               <l>To ſle the chylderne euerychone</l>
+               <l>In Iſraell.</l>
+            </lg>
+            <lg>
+               <l>¶ This cruell kynge this tyranny</l>
+               <l>This tyranny dyd put in vre</l>
+               <l>Bytwene a day and yeres too</l>
+               <l>All men chylderne he dyd ſloo</l>
+               <l>Of Cryſt for to be ſure.</l>
+            </lg>
+            <lg>
+               <l>¶ Yet Herode myſſed his cruell pray</l>
+               <l>His cruell pray as was goddes wyll</l>
+               <l>Ioſeph with Mary than dyd fle</l>
+               <l>with Chryſt to Egypt gone was ſhe</l>
+               <l>From Iſraell.</l>
+            </lg>
+            <lg>
+               <l>¶ All this whyle this tyrantes</l>
+               <l>This tyrantes wolde not co<g ref="char:cmbAbbrStroke">̄</g>uert</l>
+               <l>But innocentes yonge</l>
+               <l>That lay ſokynge</l>
+               <l>They thryſt to the herte.</l>
+            </lg>
+            <lg>
+               <l>¶ This Herode ſought the chyldren</l>
+               <l>This chyldren yonge with corage fell</l>
+               <l>But in doynge thys vengeaunce</l>
+               <l>His owne ſone was ſlayne by chaunce</l>
+               <l>In Iſraell.</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:25242:6" rendition="simple:additions"/>
+               <l>¶ Alas I thynke the moders were wo</l>
+               <l>The moders were wo it was grete ſkyl</l>
+               <l>what motherly payne</l>
+               <l>To ſe them ſlayne</l>
+               <l>In cradels lyeng ſtyll:</l>
+            </lg>
+            <lg>
+               <l>¶ But god hym ſelfe hath theym electe</l>
+               <l>Hath theym electe / in heuyn to dwell.</l>
+               <l>For they were bathed in theyr blode</l>
+               <l>For theyr baptym for ſoth it ſtode</l>
+               <l>In Iſraell.</l>
+            </lg>
+            <lg>
+               <l>¶ Alas agayne what hartes had they</l>
+               <l>what hartꝭ had they thoſe babes to kyll</l>
+               <l>with ſwerdes whan they hym caught</l>
+               <l>In cradels they lay and laught</l>
+               <l>And neuer thought yll.</l>
+            </lg>
+            <trailer>¶ Finis.</trailer>
+         </div>
+         <div type="fragment_of_carol">
+            <pb facs="tcp:25242:6" rendition="simple:additions"/>
+            <lg>
+               <l>This was the tenour of her talkynge</l>
+               <lg type="refrain">
+                  <l>Timor morris conturbat me.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>¶ I aſked that byrde what ſhe ment</l>
+               <l>I am a <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>et fayre &amp; gent</l>
+               <l>For fere of deths I am all ſhent</l>
+               <lg type="refrain">
+                  <l>Timor morris conturbat me</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>¶ Whan I ſhall dye I know no day</l>
+               <l>Contrey nor place I can not ſay</l>
+               <l>Wherfore this longe ſynge I may</l>
+               <lg type="refrain">
+                  <l>Timor mortis conturbat me.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>¶ Ieſu chryſte whan he ſholde dye</l>
+               <l>To his father gan he crye</l>
+               <l>Father he ſayd in trynyte</l>
+               <lg type="refrain">
+                  <l>Timor mortis conturbat me</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>¶ All chryſten people beholde &amp; ſe</l>
+               <l>This worlde is but a vauyte</l>
+               <l>For therin is but neceſſyte</l>
+               <lg type="refrain">
+                  <l>Timor mortis conturbat me.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>¶ Wake or ſlepe / eat or drynke</l>
+               <l>whan I on my laſt ende do thynke</l>
+               <l>For great fere my ſoule doth ſynke</l>
+               <lg type="refrain">
+                  <l>Timor mortis conturbat me.</l>
+               </lg>
+            </lg>
+            <trailer>¶ Finis.</trailer>
+         </div>
+         <div type="fragment_of_carol">
+            <pb facs="tcp:25242:7" rendition="simple:additions"/>
+            <head>¶
+<q>
+                  <lg type="refrain">
+                     <l>Bleſſyd Stephan we the praye</l>
+                     <l>Pro nobis preres funde</l>
+                  </lg>
+               </q>
+            </head>
+            <lg>
+               <l>
+                  <hi>I</hi> Shall you tell this ylke nyght</l>
+               <l>Of ſaynt Stephan goddes knyght</l>
+               <l>He tolde the Iewes that it was ryght</l>
+               <l>That Cryſt was borne of a mayde</l>
+               <lg type="refrain">
+                  <l>Bleſſyd Stephan. &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>¶ Then ſayd the Iewes w<hi rend="sup">t</hi> grete ſcorne</l>
+               <l>That goddes ſone myght not be borne</l>
+               <l>Stephan ſayd ye be forlorne</l>
+               <l>And all that byleueth on that lay</l>
+               <lg type="refrain">
+                  <l>Bleſſyd Stephan. &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>¶ This Stepha<g ref="char:cmbAbbrStroke">̄</g> wha<g ref="char:cmbAbbrStroke">̄</g> he was moſtꝑfyte</l>
+               <l>In Cryſtes lawe illumynate</l>
+               <l>The Iewes hym toke with grete dyſpyte</l>
+               <l>without the towne to lapidate</l>
+               <lg type="refrain">
+                  <l>Bleſſyd Stephan. &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>¶ The curſyd Iewes at the laſt</l>
+               <l>Stones at Stephan they gan caſt</l>
+               <l>They bette hym and bounde hym faſt</l>
+               <l>And made his body in foule aray</l>
+               <lg type="refrain">
+                  <l>Bleſſyd Stephan. &amp;c.</l>
+               </lg>
+            </lg>
+         </div>
+         <div type="fragment_of_carol">
+            <pb facs="tcp:25242:7" rendition="simple:additions"/>
+            <lg>
+               <l>¶ Whan the aungell Aue began</l>
+               <l>Fleſſhe and blode togyder ran</l>
+               <l>Mary bare bothe god and man</l>
+               <l>Through the vertue of benygnyte.</l>
+            </lg>
+            <lg>
+               <l>¶ So ſayth the goſpell of ſaynt Iohan<g ref="char:cmbAbbrStroke">̄</g>
+               </l>
+               <l>God and man is made bothe one</l>
+               <l>In fleſſhe and breed-blode and bone</l>
+               <l>One god in perſones thre.</l>
+            </lg>
+            <lg>
+               <l>¶ And the prophete Ieremy</l>
+               <l>Tolde in his prophecy</l>
+               <l>That the ſone of Mary</l>
+               <l>For vs ſholde dye on tree.</l>
+            </lg>
+            <lg>
+               <l>¶ He hath Ioye to you graunted</l>
+               <l>And in erth peace hath plaunted</l>
+               <l>whan yborne was that faynted</l>
+               <l>In the londe of Galilee</l>
+            </lg>
+            <lg>
+               <l>¶ Mary graunte vs the blyſſe</l>
+               <l>Where thy ſone dwellynge is</l>
+               <l>And of that we haue done amyſſe</l>
+               <l>Thou pray for vs for charyte.</l>
+            </lg>
+            <trailer>¶ Finis.</trailer>
+         </div>
+         <div type="fragment_of_carol">
+            <pb facs="tcp:25242:8" rendition="simple:additions"/>
+            <head>
+               <g ref="char:leaf">❧</g>
+               <q xml:lang="lat">
+                  <lg type="refrain">
+                     <l>Salue regina mater miſericordie.</l>
+                     <l>Vita dulcedo et ſpes noſtra ſalue.</l>
+                  </lg>
+               </q>
+            </head>
+            <lg>
+               <l>O Very lyfe of ſwetnes and hope</l>
+               <l>Of thy mercy ſende vs a drope</l>
+               <l>As thou bare Ieſu y<hi rend="sup">t</hi> our kynd dyd grop</l>
+               <lg type="refrain">
+                  <l>Salue regina mater mi<g ref="char:cmbAbbrStroke">̄</g>e. vita. &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>¶ Vnto our helth thou bare that chyld</l>
+               <l>With ſpot of ſyn thou were neuer defyld</l>
+               <l>Mary mother bothe meke and myld</l>
+               <lg type="refrain">
+                  <l>Salue regina mater mie. vita. &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>¶ We ſynners lady to the we crye</l>
+               <l>In this world to haue mercy</l>
+               <l>we ſynge to the yet or we dye</l>
+               <lg type="refrain">
+                  <l>Salue regina mater mie. vita. &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>¶ To the we call euer at our nede</l>
+               <l>A frende ſpecyall for all mannes nede</l>
+               <l>Thou floure on felde of Adams ſede</l>
+               <lg type="refrain">
+                  <l>Salue regina mater mi<g ref="char:cmbAbbrStroke">̄</g>e. vita. &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>¶ Thy eyen of pyte from vs not hyde</l>
+               <l>Whyle we here in this world abyde</l>
+               <l>Thou gouerne vs and be our guyde</l>
+            </lg>
+         </div>
+         <div type="fragment_of_carol">
+            <pb facs="tcp:25242:8" rendition="simple:additions"/>
+            <lg>
+               <l>THis voyce both ſharp &amp; alſo</l>
+               <l>Shalbe herd from heuen to h.</l>
+               <l>All mydle erthe it ſhall fulfyll</l>
+               <l>Venite ad iudicium.</l>
+               <lg type="refrain">
+                  <l>A voyce. &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>¶ Venite is a blyſſed ſong</l>
+               <l>For them that for ioye dooth longe</l>
+               <l>And ſhall forſake paynes ſtrong</l>
+               <l>Venite ad iudicium.</l>
+               <lg type="refrain">
+                  <l>A voyce. &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>¶ Glad in hert may they be</l>
+               <l>Whan Chryſt ſayeth Venite</l>
+               <l>ye blyſſed chyldren come to me</l>
+               <l>In to vitam eternam</l>
+               <lg type="refrain">
+                  <l>A voyce. &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>¶ whan I hongred ne gaue me meat</l>
+               <l>ye clothed me agaynſt the weat</l>
+               <l>In trouble ye dyde me not forgeat</l>
+               <l>Venite ad iudicium</l>
+               <lg type="refrain">
+                  <l>A voyce. &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>¶ ye ſocoured me at your doore</l>
+               <l>And for my ſake gaue to the poore</l>
+               <pb facs="tcp:25242:9" rendition="simple:additions"/>
+               <l> 
+                  <gap reason="illegible" extent="1 chunk">
+                     <desc>…</desc>
+                  </gap>rfore wyll I you ſocoore</l>
+               <l>Venite ad iudicium.</l>
+               <lg type="refrain">
+                  <l>A voyce. &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>¶ Sory in hert may they be</l>
+               <l>That hereth this heuy worde, Ite</l>
+               <l>ye curſed chyldren go fro me</l>
+               <l>Into ignem eternum</l>
+               <lg type="refrain">
+                  <l>A voyce. &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>¶ Whan for nede that I dyde crye</l>
+               <l>Confortleſſe ye lete me dye</l>
+               <l>Therfore now I you deny</l>
+               <l>Venite ad iudicium</l>
+               <lg type="referain">
+                  <l>A voyce. &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>¶ For by me ye ſet no ſtore</l>
+               <l>ye ſhall abye ryght dere therfore</l>
+               <l>In hell with deuyls for euermore</l>
+               <l>Venite ad iudicium</l>
+               <lg type="refrain">
+                  <l>A voyce. &amp;c.</l>
+               </lg>
+            </lg>
+            <trailer>Finis.</trailer>
+         </div>
+         <div type="carol">
+            <pb facs="tcp:25242:9" rendition="simple:additions"/>
+            <head>¶
+<q xml:lang="lat">
+                  <lg type="refrain">
+                     <l>Ieſu Chriſte fili dei viui miſe<g ref="char:EOLhyphen"/>bis. Alleluya.</l>
+                  </lg>
+               </q>
+            </head>
+            <lg>
+               <l>MOoſt ſouerayn lorde Chryſ<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+                  <g ref="char:punc">▪</g>
+               </l>
+               <l>Born of a mayd y<hi rend="sup">t</hi> euer was true</l>
+               <l>With grace and goodneſſe y<hi rend="sup">u</hi> vs endue</l>
+               <l>That now ſingeth this. <abbr>Miſere</abbr> nobis.</l>
+            </lg>
+            <lg>
+               <l>Ieſu chriſte fili dei viui.</l>
+               <l>¶ Lorde of mercy by propre condycion</l>
+               <l>That of mankynd made the redemption</l>
+               <l>Graunt vs now this petycion</l>
+               <l>That now ſyngeth this. <abbr>Miſere</abbr> nobis.</l>
+               <lg type="refrain">
+                  <l>Ieſu chriſte fili dei viui. &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>¶ Ieſu preſerue vs / and be our ſpede</l>
+               <l>With grace to ſocour vs at our nede</l>
+               <l>To do thy pleaſure in worde and dede</l>
+               <l>That now ſyngeth this. <abbr>Miſere</abbr> nobis.</l>
+               <lg type="refrain">
+                  <l>Ieſu chriſte. &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>¶ Puny<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſh not ſynners by thy myght</l>
+               <l>But with mercy medled with ryght</l>
+               <l>So that we may lyue in thy ſyght</l>
+               <l>That now ſyngeth this. <abbr>Miſere</abbr> nobis.</l>
+               <lg type="refrain">
+                  <pb facs="tcp:25242:10" rendition="simple:additions"/>
+                  <l>Ieſu chriſte fili dei viui. &amp;c.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>od graunt vs repentaunce</l>
+               <l>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd ſpace for to do penaunce</l>
+               <l>And good lyfe to haue contynuaunce</l>
+               <l>That we may ſyng this. <abbr>Miſere</abbr> nobis</l>
+            </lg>
+            <trailer>
+               <g ref="char:leaf">❧</g> Finis. <g ref="char:leaf">❧</g>
+            </trailer>
+         </div>
+         <div type="illustration">
+            <p>
+               <figure>
+                  <figDesc>depiction of the risen Christ</figDesc>
+               </figure>
+            </p>
+            <epigraph>
+               <q>¶ A voyce from heuen to erth ſhall com Venite ad iudicium.</q>
+            </epigraph>
+         </div>
+      </body>
+   </text>
+</TEI>

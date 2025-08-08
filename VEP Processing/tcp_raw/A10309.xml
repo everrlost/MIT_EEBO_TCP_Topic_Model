@@ -1,0 +1,729 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A treatise of the sacrament of the confirmation wherein is shewed the necessary spirituall profit, and excellencie of this sacrament. Composed by W.R.</title>
+            <author>Smith, Richard, 1566-1655.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1629</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 95 KB of XML-encoded text transcribed from 74 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A10309</idno>
+            <idno type="STC">STC 20594</idno>
+            <idno type="STC">ESTC S100410</idno>
+            <idno type="EEBO-CITATION">99836251</idno>
+            <idno type="PROQUEST">99836251</idno>
+            <idno type="VID">510</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A10309)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 510)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1359:04)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A treatise of the sacrament of the confirmation wherein is shewed the necessary spirituall profit, and excellencie of this sacrament. Composed by W.R.</title>
+                  <author>Smith, Richard, 1566-1655.</author>
+               </titleStmt>
+               <extent>[12], 134 p.   </extent>
+               <publicationStmt>
+                  <publisher>By Gerard Pinchon, at the signe of the Coleyn,</publisher>
+                  <pubPlace>Printed at Doway :</pubPlace>
+                  <date>1629.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>W.R. = Richard Smith, Bp. of Chalcedon.</note>
+                  <note>Errata on verso of I3, final page.</note>
+                  <note>Some print faded and show-through and some pages stained.</note>
+                  <note>Reproduction of original in the Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Confirmation --  Catholic church --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-07</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-11</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2011-11</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:510:1" rendition="simple:additions"/>
+            <pb facs="tcp:510:1" rendition="simple:additions"/>
+            <p>A TREATISE OF THE SACRAMENT OF CONFIRMATION WHEREIN <hi>IS SHEWED THE NECESSITIE, ſpirituall profit, and excellencie of this Sacrament. Compoſed by W<g ref="char:punc">▪</g> 
+                  <gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:punc">▪</g>
+               </hi>
+            </p>
+            <q>
+               <bibl>S. Melchiades <hi>Epiſt.</hi> 2.</bibl> Albeit to thoſe that are ſtraightwaies to die the benefite of Baptiſme doe ſuffice, yet to thoſe that are to liue the helpe of Confirmation is neceſſarie.</q>
+            <p>Printed at Doway by GERARD PINCHON, at the figne of Coleyn, 1629.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:510:2" rendition="simple:additions"/>
+            <pb facs="tcp:510:2"/>
+            <head>THE PREFACE TO THE READER.</head>
+            <opener>
+               <salute>
+                  <seg rend="decorInit">G</seg>ENTLE READER</salute>
+            </opener>
+            <p>I was induced to compoſe this short treatiſe of the Sacrament of Confirmatio<g ref="char:cmbAbbrStroke">̄</g> for two Cauſes: The one was to ſupplie the Bishop of Chalcedon his want of opportunitie ſuffi<g ref="char:EOLhyphen"/>ciently
+<pb facs="tcp:510:3"/> to inſtruct thoſe to whome hee miniſtreth this Sacrament; For the holy Councell of Trent com<g ref="char:EOLhyphen"/>maunding Bishops, that at what times they adminiſter this Sacrament, they should declare to the people the dig<g ref="char:EOLhyphen"/>nitie and profits thereof, that thereby they may come more worthely to receiue it, and that hee hath ſeldome opportunitie to make any ſuch ſufficient declaration: I thought it fit to ſupplie the want of his Speech, by this my writing. The other was to inſtruct both thoſe who had receiued this Sacrament
+<pb facs="tcp:510:3"/> how greate a benefite they had receiued; that thereby they may bee the more grate<g ref="char:EOLhyphen"/>full vnto Almighty God, and more carefull not to re<g ref="char:EOLhyphen"/>ceiue the grace of God in vaine, but to make vſe there<g ref="char:EOLhyphen"/>of to theire greater glorie and happines; and alſo to let thoſe who haue not yet re<g ref="char:EOLhyphen"/>ceiued, knowe, what obliga<g ref="char:EOLhyphen"/>tion they haue to receiue it, and what a greate good they want, that thereby they may doe theire beſt to procure it. And becauſe I write onely to Catholicks, I proue not that either it is a Sacrament, or that it giueth grace, or im<g ref="char:EOLhyphen"/>printeth
+<pb facs="tcp:510:4" rendition="simple:additions"/> a ſpirituall Charac<g ref="char:EOLhyphen"/>ter in our Soules; but ſuppo<g ref="char:EOLhyphen"/>ſing all theſe points (which the Catholicke faith teacheth vs) I onely attend to shewe the neceſſitie, ſpirituall pro<g ref="char:EOLhyphen"/>fit, and excellencie of this Sacrament: and this I doe not ſo fully as perhaps the learned would expect, and the matter requireth, nor as perchance I could, If I had more leaſure or more ſtore of bookes, but ſo farre as may giue the learned occa<g ref="char:EOLhyphen"/>ſion to thinke of more, and ſo to profect this treatiſe, and as may ſuffice to the vn<g ref="char:EOLhyphen"/>learned to knowe theire du<g ref="char:EOLhyphen"/>tie
+<pb facs="tcp:510:4"/> towards this Sacrament, as by diuers good treatiſes in our English tounge, they learne theire dutie concer<g ref="char:EOLhyphen"/>ning the Sacraments of Con<g ref="char:EOLhyphen"/>feſſion and of the holy Altar: And I wish they had the like Treatiſes of all the other Sa<g ref="char:EOLhyphen"/>craments, that thereby they might better knowe the bou<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>tie of Allmightie God, the ſpi<g ref="char:EOLhyphen"/>rituall riches and treaſure of the Catholicke Church, and theire owne happines and fe<g ref="char:EOLhyphen"/>licitie in beeing Catholicks; Farewell the 24. of Iune 1629.</p>
+         </div>
+         <div type="table_of_contents">
+            <pb facs="tcp:510:5"/>
+            <head>A TABLE OF THE CHAPTERS Contained in this Treatiſe.</head>
+            <list>
+               <item>
+                  <hi>Chap.</hi> I. <seg rend="decorInit">H</seg>Ow it is cer<g ref="char:EOLhyphen"/>taine, that the Sacra<g ref="char:EOLhyphen"/>ment of Confirmation is ne<g ref="char:EOLhyphen"/>ceſſarie, or not neceſſarie: and how it is doubtfull. <hi>pag.</hi> 1.</item>
+               <item>
+                  <hi>Chap. II.</hi> That it was the gene<g ref="char:EOLhyphen"/>rall Cuſtome of Chriſts Church euen from her beginning, that Chriſtians should bee confir<g ref="char:EOLhyphen"/>med. <hi>pag.</hi> 12.</item>
+               <item>
+                  <hi>Chap. III.</hi> That there was a Lawe or Commaundement in
+<pb facs="tcp:510:5"/> the Church of God, that Chri<g ref="char:EOLhyphen"/>ſtians should bee confirmed. <hi>pag.</hi> 30.</item>
+               <item>
+                  <hi>Chap. IV.</hi> That there was an Eccleſiaſticall precept of Con<g ref="char:EOLhyphen"/>firmation, proued out of diuers other ſayings of the holy Fa<g ref="char:EOLhyphen"/>thers. <hi>pag.</hi> 40.</item>
+               <item>
+                  <hi>Chap. V.</hi> That in England Chri<g ref="char:EOLhyphen"/>ſtians are bound to bee confir<g ref="char:EOLhyphen"/>med by an expreſſe Commaund of diuers Prouinciall Coun<g ref="char:EOLhyphen"/>cells. <hi>pag.</hi> 48.</item>
+               <item>
+                  <hi>Chap. VI.</hi> The neceſsitie of Con<g ref="char:EOLhyphen"/>firmation proued by the au<g ref="char:EOLhyphen"/>thoritie of Diuines &amp; Cano<g ref="char:EOLhyphen"/>niſts. <hi>pag.</hi> 57.</item>
+               <item>
+                  <hi>Chap. VII.</hi> Of the effects of Confirmation common to all
+<pb facs="tcp:510:6"/> that receiue it. <hi>pag.</hi> 79.</item>
+               <item>
+                  <hi>Chap. VIII.</hi> Of the effects which Confirmation worketh in thoſe that worthily receiue it. <hi>p.</hi> 88.</item>
+               <item>
+                  <hi>Chap. IX.</hi> Of the Prerogatiues of the Sacrament of Confirma<g ref="char:EOLhyphen"/>tion. <hi>pag.</hi> 100.</item>
+               <item>
+                  <hi>Chap. X.</hi> What Ceremonies are required in the adminiſtra<g ref="char:EOLhyphen"/>tion of the Sacrament of Con<g ref="char:EOLhyphen"/>firmation. <hi>pag.</hi> 121.</item>
+               <item>
+                  <hi>Chap. XI.</hi> What diſpoſition is required in thoſe that receiue the Sacrament of Confirma<g ref="char:EOLhyphen"/>tion. <hi>pag.</hi> 125.</item>
+               <item>
+                  <hi>Chap. XII.</hi> How one may knowe whether hee hath worthily re<g ref="char:EOLhyphen"/>ceiued the Sacrament of Con<g ref="char:EOLhyphen"/>firmation. <hi>pag.</hi> 128.</item>
+            </list>
+         </div>
+         <div type="approbation">
+            <pb facs="tcp:510:6"/>
+            <head>APPROBATIO.</head>
+            <p>EGo infraſcriptus Sacrae Theo<g ref="char:EOLhyphen"/>logiae Doctor &amp; Collegij An<g ref="char:EOLhyphen"/>glorum Duaceni Praeſes teſtor me legiſſe libellu<g ref="char:cmbAbbrStroke">̄</g> cui titulus, <hi>A Trea<g ref="char:EOLhyphen"/>tiſe of the Sacramente of Confirmation;</hi> nihilque in eo deprehendiſſe quod fidei Catholicae aut bonis moribus vllatenus ad<g ref="char:EOLhyphen"/>uerſatur: quinimo vtiliſsimam ac ſaluberrimam doctrinam conti<g ref="char:EOLhyphen"/>nere qua populus Chriſtianus in<g ref="char:EOLhyphen"/>ſtrui poteſt de vtilitate &amp; neceſsi<g ref="char:EOLhyphen"/>tate ſuſcipiendi Sacrame<g ref="char:cmbAbbrStroke">̄</g>tum Con<g ref="char:EOLhyphen"/>firmationis; nec non de modo con<g ref="char:EOLhyphen"/>ſeruandigratiam per illud accep<g ref="char:EOLhyphen"/>tam. Datum Duaci. <hi>IV.</hi> Non. Sept. <hi>M. DC. XXIX.</hi>
+            </p>
+            <closer>
+               <signed>MATTHAEVS KELLISONVS.</signed>
+            </closer>
+         </div>
+         <div type="approbation">
+            <pb facs="tcp:510:7"/>
+            <p>
+               <hi>Viſa hac approbatione Ex. Do<g ref="char:EOLhyphen"/>mini M. N.</hi> Matthaei Kelli<g ref="char:EOLhyphen"/>ſoni, <hi>&amp; mihi probè perſpecta eiuſdem probitate &amp; eruditione; hunc tractatum</hi> de Sacramen<g ref="char:EOLhyphen"/>to Confirmationis, <hi>vtiliter praelo committi poſſe Cenſui. Duaci</hi> 3. <hi>Septembris</hi> 1629.</p>
+            <closer>
+               <signed>GEORGIVS COLVENERIVS Sacrae Theologiae Doctor &amp; regius ordinariuſque Profeſſor, Col<g ref="char:EOLhyphen"/>legiatae Eccleſiae S. Petri Prae<g ref="char:EOLhyphen"/>poſitus &amp; Canonicus, Acade<g ref="char:EOLhyphen"/>miae Duacenae Cancellarius, &amp; librorum Cenſor.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:510:7"/>
+            <head>OF THE NECESSITIE, SPIRITVALL PROFIT, AND EXCEL<g ref="char:EOLhyphen"/>lencie of the Sacr<hi rend="sup">ent</hi>. of Confirmation.</head>
+            <div n="1" type="chapter">
+               <head>CHAPTER. I. <hi>How it is certaine, that the Sa<g ref="char:EOLhyphen"/>crament of Confirmation is ne<g ref="char:EOLhyphen"/>ceſſarie, or not neceſſa<g ref="char:EOLhyphen"/>rie: and how it is doubtfull.</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">E</seg>VERY thing that is neceſſarie, is ne<g ref="char:EOLhyphen"/>ceſſarie to ſome end or purpoſe. Now there bee two ends, to
+<pb n="2" facs="tcp:510:8"/> which one may thinke that Confirmation is neceſſarie: The one is <hi>Salus,</hi> (as diuines <note place="margin">Two ends to which Confirma<g ref="char:EOLhyphen"/>tion may bee thought neceſſarie</note> ſpeake) that is, Chriſtianitie or Saluation: The other is <hi>Perfectio Salutis,</hi> that is perfe<g ref="char:EOLhyphen"/>ction or Co<g ref="char:cmbAbbrStroke">̄</g>plement of Chri<g ref="char:EOLhyphen"/>ſtianitie or of Saluation; For as in our corporall life, wee bee firſt Children, and after perfect or compleate men: So in our ſpirituall life wee bee firſt Children and (as S. Peeter ſpeaketh, <hi>Like Infants</hi> 
+                  <note place="margin">1. <hi>Petr.</hi> 2.</note> 
+                  <hi>new borne,</hi> weake and imper<g ref="char:EOLhyphen"/>fect, and after by ſpirituall growth and ſtrenght we be<g ref="char:EOLhyphen"/>come perfect and compleate Chriſtians.</p>
+               <pb n="3" facs="tcp:510:8"/>
+               <p> And as there are theſe two ends, to which it may bee thought that Confirmation is neceſſarie: So alſo there are two kinds of neceſſities <note place="margin">Two kinds of neceſſitie.</note> by which likewiſe it may bee thought that it is neceſſarie to either of them; For ſome things are neceſſarie (as Phy<g ref="char:EOLhyphen"/>loſophers and diuines ſpeake) <hi>neceſsitate medij,</hi> as a neceſſarie meanes, becauſe it is the onely meane to attaine vnto ſuch an ende; So is a ship neceſſarie to trauell by Sea, food for to liue, and the like; Other things are neceſſarie <hi>neceſsitate praecepti</hi> by neceſſitie of precept or commaund,
+<pb n="4" facs="tcp:510:9"/> which are not ſimply neceſ<g ref="char:EOLhyphen"/>ſarie of them ſelues, but one<g ref="char:EOLhyphen"/>ly becauſe they are co<g ref="char:cmbAbbrStroke">̄</g>maun<g ref="char:EOLhyphen"/>ded; So to faſt in Lent, to communicate at Eaſter, and the like, are neceſſarie to Sal<g ref="char:EOLhyphen"/>uatio<g ref="char:cmbAbbrStroke">̄</g>, becauſe they are com<g ref="char:EOLhyphen"/>maunded by the Church.</p>
+               <p>Now certaine it is and vn<g ref="char:EOLhyphen"/>doubted, <note place="margin">Confir<g ref="char:EOLhyphen"/>mation not neceſ<g ref="char:EOLhyphen"/>ſarie as a neceſſarie meane to Salua<g ref="char:EOLhyphen"/>tion.</note> that Confirmation is not neceſſarie <hi>neceſsitate me<g ref="char:EOLhyphen"/>dij,</hi> as a neceſſarie meane to Saluation, becauſe it is not inſtituted by our Sauiour as a neceſſarie meane to ſaue vs; For as Saint Thomas and di<g ref="char:EOLhyphen"/>uines <note place="margin">
+                     <hi>S. Thom.</hi> 3. q. 65. <hi>ar.</hi> 4.</note> teach, in this ſort three onely Sacraments are neceſ<g ref="char:EOLhyphen"/>ſarie: to witt, Baptiſme to
+<pb n="5" facs="tcp:510:9"/> all, and Pennance to euery one that after Baptiſme fal<g ref="char:EOLhyphen"/>leth into mortall ſinne, and Order in reſpect of the whole Church, for <hi>where there</hi> 
+                  <note place="margin">Prouerbs. 11.</note> 
+                  <hi>is no Gouernours the people will fall;</hi> And in like manner cer<g ref="char:EOLhyphen"/>taine it is, that Confirmation is neceſſarie <hi>neceſsitate medij,</hi> 
+                  <note place="margin">But neceſ<g ref="char:EOLhyphen"/>ſarie as a meane to the perfe<g ref="char:EOLhyphen"/>ction of Saluation.</note> as a neceſſarie meane to the perfection or Complement of Chriſtianitie or Saluation for to become a perfect or compleate Chriſtian; For as Baptiſme is by Chriſt inſti<g ref="char:EOLhyphen"/>tuted as a neceſſarie meane to Saluatio<g ref="char:cmbAbbrStroke">̄</g> or Chriſtianitie, ſo as none can bee ſaued or bee a Chriſtian, if hee may
+<pb n="6" facs="tcp:510:10"/> bee baptized, and will not: So is Confirmation inſtitu<g ref="char:EOLhyphen"/>ted by him, as a neceſſarie meane to the perfection of Chriſtianitie or Saluation, in ſuch ſort as none can attaine to the perfection or comple<g ref="char:EOLhyphen"/>ment of Chriſtianitie or Sal<g ref="char:EOLhyphen"/>uation, if hee may be confir<g ref="char:EOLhyphen"/>med and will not, And there<g ref="char:EOLhyphen"/>fore <note place="margin">VVithout Confir<g ref="char:EOLhyphen"/>mation hee s<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>all neit<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>er haue the Cha<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>a<gap reason="illegible" resp="#APEX" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>er of a Soul<g ref="char:EOLhyphen"/>diet of Chriſt, nor the Sacramen<g ref="char:EOLhyphen"/>tall grace of Confir<g ref="char:EOLhyphen"/>mation.</note> Saint Cornelius Pope and Martyr in Euſebius l. 6. Hiſtor. c. 35. ſaith of Noua<g ref="char:EOLhyphen"/>tian the Hereticke, who had not bene confirmed: <hi>Which</hi> (Confirmation) <hi>hee hauing not receiued, how I pray you had hee the holy Ghoſt?</hi> The like ſaieth, ſaint Clement, ſaint Fabian
+<pb n="7" facs="tcp:510:10"/> and others hereafter related chap. 3. Likewiſe ſaint Tho<g ref="char:EOLhyphen"/>mas. 3. p. quaeſt. 72. artic. 6. <hi>As none obtaineth the effect of Baptiſme without the deſire of Baptiſme: So none obtaineth the effect of Confirmation without the deſire of Confirmation;</hi> And Cardinall Bellarmin l. 1. de Sacrament. c. 22. expreſſely ſaith, that <hi>The Euchariſt, Con<g ref="char:EOLhyphen"/>firmation, and Extreme Vnction</hi> 
+                  <note place="margin">Confirma<g ref="char:EOLhyphen"/>tion, neceſ<g ref="char:EOLhyphen"/>ſarie mea<g ref="char:EOLhyphen"/>nes <hi>ad be<g ref="char:EOLhyphen"/>ne eſſe.</hi>
+                  </note> 
+                  <hi>are neceſſarie, neceſsitate medij</hi> (as neceſſarie meanes) <hi>ad bene eſſe</hi> (to the perfection of a Chri<g ref="char:EOLhyphen"/>ſtian) <hi>ſuppoſing Gods inſtitu<g ref="char:EOLhyphen"/>tion.</hi> 
+                  <note place="margin">Alſo ne<g ref="char:EOLhyphen"/>ceſſarie to the Sacra<g ref="char:EOLhyphen"/>mental grace thereof.</note>
+               </p>
+               <p>In like manner it is cer<g ref="char:EOLhyphen"/>taine, that none can haue
+<pb n="8" facs="tcp:510:11"/> the Sacramentall grace of Confirmation, vnles hee bee confirmed, becauſe this Sa<g ref="char:EOLhyphen"/>crament is inſtituted as a ne<g ref="char:EOLhyphen"/>ceſſarie meane to giue the Sacramentall grace aunſwea<g ref="char:EOLhyphen"/>rable vnto it; Which what it is wee shall ſee in the 8. Chap<g ref="char:EOLhyphen"/>ter. Wherefore wiſely and piouſly aduiſed Sotus in 4. d. 11. qu. 2. art. 1. <hi>Marke diligen<g ref="char:EOLhyphen"/>tly, that the deſire of receiuing the bleſſed Sacrament doth not ſuf<g ref="char:EOLhyphen"/>fice to giue the Sacramentall grace thereof. For it is a generall Rule common to all Sacraments, that the degree of grace which aun<g ref="char:EOLhyphen"/>ſweareth to the Sacrament, is ne<g ref="char:EOLhyphen"/>ver giuen unles the Sacrament bee</hi>
+                  <pb n="9" facs="tcp:510:11"/> 
+                  <hi>actually receiued: And therefore</hi> 
+                  <note place="margin">Admoni<g ref="char:EOLhyphen"/>tion of Sotus to bee noted of Prieſts.</note> 
+                  <hi>Parishprieſts are much to bee ad<g ref="char:EOLhyphen"/>monished that they omit not for any light cauſe to giue the Eu<g ref="char:EOLhyphen"/>chariſt to ſick perſons thereby de<g ref="char:EOLhyphen"/>priuing the<g ref="char:cmbAbbrStroke">̄</g> of that degree of grace:</hi> And it is euide<g ref="char:cmbAbbrStroke">̄</g>t in Baptiſme: For though with Contrition and deſire of Baptiſme, a ma<g ref="char:cmbAbbrStroke">̄</g> may ſo farre attaine to the effect of Baptiſme, as hee hath remiſſion of his Sinnes, yet neither doth hee attaine to that degree of grace, which Baptiſme of it ſelfe giueth, but onely to that degree which is aunſwerable to his Contritio<g ref="char:cmbAbbrStroke">̄</g>: neither receiueth hee the Character of Baptiſ<g ref="char:EOLhyphen"/>me,
+<pb n="10" facs="tcp:510:12"/> nor full pardon of all the paine due to his Sinnes, as hee should do, if hee were ac<g ref="char:EOLhyphen"/>tually baptized: And in like ſort hee that hath no effec<g ref="char:EOLhyphen"/>tuall deſire to bee co<g ref="char:cmbAbbrStroke">̄</g>firmed, receiueth no effect at all of this Sacrament; And hee that <note place="margin">VVhat they want that are not con<g ref="char:EOLhyphen"/>firmed.</note> deſireth it, but yet is not ac<g ref="char:EOLhyphen"/>tually confirmed, neither re<g ref="char:EOLhyphen"/>ceaueth the Character, nor that Sacramentall grace due to this Sacrament, but that onely which is anſweareable to his vertuous deſire. And Confirmation beeing thus neceſſarie <hi>neceſsitate medij,</hi> as a neceſſarie meane to the <hi>bene eſſe,</hi> or the Complement and
+<pb n="11" facs="tcp:510:12"/> perfection of a Chriſtian, and alſo to receiue the Character and Sacramentall Grace of this Sacrament, euery pious and vertuous Chriſtian ſeeth, how much hee ought to de<g ref="char:EOLhyphen"/>ſire it, and how loath hee should bee to wa<g ref="char:cmbAbbrStroke">̄</g>t it, though there were no Commande<g ref="char:EOLhyphen"/>ment at all to receiue it: And much more, when hee shall ſee, that it is alſo neceſſarie <hi>neceſsitate praecepti,</hi> as a thinge <note place="margin">Confir<g ref="char:EOLhyphen"/>mation neceſſarie <hi>neceſsitate praecepti.</hi>
+                  </note> commaunded, which I will proue in the Chapters follo<g ref="char:EOLhyphen"/>wing, againſt ſome who call it in queſtion or deny it; And firſt I will proue it out of the generall Cuſtome of
+<pb n="12" facs="tcp:510:13"/> Chriſts Church euen from her firſt beginning.</p>
+            </div>
+            <div n="2" type="chapter">
+               <head>CHAPTER. II. <hi>That it was the generall Cuſtome of Chriſts Church euen from her beginning, that Chri<g ref="char:EOLhyphen"/>ſtions should bee con<g ref="char:EOLhyphen"/>firmed.</hi>
+               </head>
+               <p>ALbeit Chriſt, in the time of his mortall life, did not giue the Sacrament <note place="margin">VVhy Chriſt did not giue the Sacra<g ref="char:EOLhyphen"/>ment <gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>f Confirma<g ref="char:EOLhyphen"/>tion in his life time.</note> of Confirmation; becauſe (as ſaint Thomas ſaith. 3. p. qu. 72. art. 1.) <hi>in this Sacrament is giuen the Fulnes of the holy</hi>
+                  <pb n="13" facs="tcp:510:13"/> 
+                  <hi>Ghoſt which was not to bee giuen before Chriſts Reſurrection and Aſcenſion, according to that of S. Iohn.</hi> 7. <hi>The Spirit was not yet giuen, becauſe</hi> IESVS <hi>was not yet glorified.</hi> Neuertheleſſe did hee both inſtitute this Sacra<g ref="char:EOLhyphen"/>ment, as hee did all the reſt, and alſo as ſaint Fabian Pope and Martyr ſaith Epiſt. 2. <hi>On Mandate Thurſday: (As our Predeceſſors receiued of the Apoſ<g ref="char:EOLhyphen"/>tles and they haue left to vs) hee</hi> 
+                  <note place="margin">Chriſt taught to make Chriſme.</note> 
+                  <hi>taught them to make Chriſme:</hi> and alſo hee expreſſely com<g ref="char:EOLhyphen"/>maunded his Apoſtles, that they should tarry in Ieruſa<g ref="char:EOLhyphen"/>le<g ref="char:cmbAbbrStroke">̄</g> 
+                  <note place="margin">Luc. vls.</note> till they were indued with power from high, that is, till
+<pb n="14" facs="tcp:510:14"/> they had receiued that ſpiri<g ref="char:EOLhyphen"/>tuall ſtrenght, vvhich is gi<g ref="char:EOLhyphen"/>uen by this Sacrament: For this is that power or Strength whereof hee meant, as wee shall ſee hereafter.</p>
+               <p>Now after his Aſcenſion, <note place="margin">Grace of Confir<g ref="char:EOLhyphen"/>mation firſt giuen on whit ſonday.</note> vppon the day of Pentecoſt or Whitſonday, hee beſto<g ref="char:EOLhyphen"/>wed vppon his Apoſtles and diſciples, in a miraculous and extraordinarie manner, and in an abundant degree, the grace of this Sacrament, without the Sacrament it ſelfe; For (as the holy Fathers <note place="margin">See infra cap. 8.</note> and diuines teach) that grace which was then giuen them, was the grace of the Sacra<g ref="char:EOLhyphen"/>ment
+<pb n="15" facs="tcp:510:14"/> of Confirmation; So that the grace of this Sacra<g ref="char:EOLhyphen"/>ment was beſtowed vppon the Church of Chriſt, euen at that very time vvhen shee was perfected and accom<g ref="char:EOLhyphen"/>plished, and when Chriſts lawe was published and pro<g ref="char:EOLhyphen"/>claimed by the Apoſtles in Ieruſalem <hi>vnto all nations,</hi> (as <note place="margin">
+                     <hi>Act.</hi> 2.</note> ſaint Luke ſpeaketh) <hi>vnder heauen;</hi> Or rather, the grace of this Sacrament was giuen to the Church of Chriſt for to perfect and accomplish her, and to giue her courage for to publish and proclaime Chriſts lawe. And thus wee ſee, that Chriſt confirmed
+<pb n="16" facs="tcp:510:15"/> his diſciples; Now lett vs ſee, that the Apoſtles and holy Bishops theire Succeſſors, did the like to theire follo<g ref="char:EOLhyphen"/>wers.</p>
+               <p>Not long after this, and aſſoone as the Apoſtles had vnderſtood, that the Samari<g ref="char:EOLhyphen"/>tans, <note place="margin">The Apo<g ref="char:EOLhyphen"/>ſtles care to giue Confir<g ref="char:EOLhyphen"/>mation.</note> had bene baptized by Philipp the Deaco<g ref="char:cmbAbbrStroke">̄</g>, ſtraight<g ref="char:EOLhyphen"/>way they ſent two of the cheefeſt Apoſtles, ſaint Peeter and ſaint Iohn, of purpoſe to confirme them, thinking that a iourney worthy of ſuch greate perſonages; <hi>Who</hi> (ſaith ſaint Luke, Act. 8.) <hi>did impoſe their hands vppon them, and they receiued the holy Ghoſt:</hi>
+                  <pb n="17" facs="tcp:510:15"/> In like manner ſaint Paul <note place="margin">S. Pauls care of the ſame.</note> was carefull to enquire of Chriſtians, whether they had receiued the holy Ghoſt, and when they anſwered that they had not, <hi>hee impoſed hands vppon them, and the holy Ghoſt came vppon them:</hi> Actorum 19. Both which places the holy Fathers and Diuines doe vn<g ref="char:EOLhyphen"/>derſtand of the Sacrament of Confirmation. And hereby vvee ſee, both the Cuſtome, and the greate care the holy Apoſtles had to confirme the Chriſtians, lett vs ſee the like of the holy Bishops theire Succeſſors.</p>
+               <p>Saint Denis Schollar to the
+<pb n="18" facs="tcp:510:16"/> Apoſtles in his Booke de Ec<g ref="char:EOLhyphen"/>cleſiaſtica <note place="margin">The ſame in S. De<g ref="char:EOLhyphen"/>nis his ti<g ref="char:EOLhyphen"/>me.</note> Hierarchia cap. 2. deſcribing, what was done to one in thoſe times, that was Chriſtened, ſaith: <hi>And the Prieſts taking him that is Baptized, deliuer him to his God<g ref="char:EOLhyphen"/>father who brought him thither, and togeather with him putt vppon him a garment, beeſeeming the puritie of one that is baptized, and ſo attyred they leade him againe to the Bishop. Hee ſigning the man with diuine deſigning ointment, maketh him partaker of the moſt holy Communion. For that perfecting ointment ma<g ref="char:EOLhyphen"/>keth him ſo perfected, notable with the fragrant ſmell of ſweete</hi>
+                  <pb n="19" facs="tcp:510:16"/> 
+                  <hi>odour.</hi> And Cap. 4. <hi>Euen to him who is conſecrated with the holy miſterie of regeneration, the inunction of ointment giueth the comming of the holy Ghoſt.</hi> Be<g ref="char:EOLhyphen"/>hold, how they that were Chriſtened, were anointed with diuine ointment of the Bishop, and thereby recei<g ref="char:EOLhyphen"/>ued the holy Ghoſt.</p>
+               <p>Tertullian alſo, not long <note place="margin">In Tertul<g ref="char:EOLhyphen"/>lian his time.</note> after the Apoſtles time, wri<g ref="char:EOLhyphen"/>teth thus; l. de Baptiſm. <hi>Then going from the Lauer, wee were anointed with a holy oint<g ref="char:EOLhyphen"/>ment according to the auncient diſ<g ref="char:EOLhyphen"/>cipline. Whence Chriſt is called of</hi> 
+                  <note place="margin">Chriſt of Chriſme.</note> 
+                  <hi>Chriſme, which is ointment, which gaue our Lord his name:</hi> And, l.
+<pb n="20" facs="tcp:510:17"/> de Reſur. c. 7. and l. 1. contra Mart. hee hath theſe wordes: <hi>The flesh is anointed, that the Soule may bee conſecrated; the flesh is ſigned, that the Soule may bee fenced: the flesh by impoſition of hands is shadowed, that the Soule by the Spirit may bee illu<g ref="char:EOLhyphen"/>minated.</hi> Loe, how thoſe that were Chriſtened, were alſo anointed with holy Chriſme and that according to aun<g ref="char:EOLhyphen"/>cient diſcipline; and that theire flesh was anointed, ſigned, and shadowed by im<g ref="char:EOLhyphen"/>poſition of hands, that theire Soule might bee fenſed, con<g ref="char:EOLhyphen"/>ſecrated and illuminated by the Spirit.</p>
+               <pb n="21" facs="tcp:510:17"/>
+               <p> S. Cyprian Epiſtola ad Iu<g ref="char:EOLhyphen"/>baian; <note place="margin">In S. Cy<g ref="char:EOLhyphen"/>prians time.</note> 
+                  <hi>Therefore becauſe the Sa<g ref="char:EOLhyphen"/>maritans had receiued a lawfull and eccleſiaſticall Baptiſme, they were not to bee baptized againe: but that onely which wanted was done by Peeter and Iohn, that praier beeing made for them and hands impoſed vppon them the ho<g ref="char:EOLhyphen"/>ly Ghoſt might bee inuocated and poured vppon them: which novv alſo is done vvith vs, that vvho are baptized in the Church, bee offerred to the Prelates of the Church, and by our power and impoſition of hands, they may at<g ref="char:EOLhyphen"/>taine the holy Ghoſt, and bee ſig<g ref="char:EOLhyphen"/>ned with our Lordes marke.</hi> In which wordes hee plainely
+<pb n="22" facs="tcp:510:18"/> ſaith, that the Apoſtles con<g ref="char:EOLhyphen"/>firmed the baptized Samari<g ref="char:EOLhyphen"/>tans, and that the Prelates of the Church in his time did the ſame.</p>
+               <p>The Councel of Eliberie, which was held toward the <note place="margin">At the end of the time of perſecu<g ref="char:EOLhyphen"/>tion.</note> end of the perſecution of the Primatiue Church, thus or<g ref="char:EOLhyphen"/>daineth Conc. 38. <hi>They that tra<g ref="char:EOLhyphen"/>uell by Sea a farre of, if a Church bee not neere, a Chriſtia<g ref="char:cmbAbbrStroke">̄</g> may bap<g ref="char:EOLhyphen"/>tize a Catechumene in extremitie of ſicknes: but ſo, as if hee recouer, hee bring him to a Bishop that by impoſition of hands hee may bee perfected.</hi> Of the like lawe or decree make me<g ref="char:cmbAbbrStroke">̄</g>tion S. Cor<g ref="char:EOLhyphen"/>nelius, ſaint Hierome, and o<g ref="char:EOLhyphen"/>thers
+<pb n="23" facs="tcp:510:18"/> whoſe wordes shall bee related; And thus wee ſee the Cuſtome and care of the pri<g ref="char:EOLhyphen"/>matiue Church in her time of perſecutio<g ref="char:cmbAbbrStroke">̄</g> vnder Heathen Emperors, for confirming of thoſe that were Chriſti<g ref="char:EOLhyphen"/>ned. Now lett vs ſee her like cuſtome in time of Calme vnder Chriſtian Emperors.</p>
+               <p>Saint Hierome, who li<g ref="char:EOLhyphen"/>ued <note place="margin">In S. Hie<g ref="char:EOLhyphen"/>roms time.</note> ſoone after the foreſaid time of perſecution, Dial. co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>tra Lucifer. writeth thus in the perſon of a Luciferian: <hi>Art thou ignorant, that this is the Cuſtome of the Churches, that hands bee after impoſed vppon them that are baptized, and ſo</hi>
+                  <pb n="24" facs="tcp:510:19"/> 
+                  <hi>the holy Ghoſt bee inuocated? Doeſt thou aske where it is written? In the Acts of the Apoſtles. And if</hi> 
+                  <note place="margin">Cuſtome of all the world.</note> 
+                  <hi>there were no authoritie of Scrip<g ref="char:EOLhyphen"/>ture, the conſent of all the world to this part would bee as good as a precept.</hi> And ſaint Hierome anſwereth in the perſon of a Catholicke: <hi>Surely I doe not denie, that this is the Cuſtome of the Churches, that the Bishop make a progreſſe into ſmall townes for to impoſe hands vppon thoſe, that haue bene baptized by Prieſts and Deacons for the inuocation of the holy Ghoſt: But what a matter is it, that thou wilſt abuſe the</hi> 
+                  <note place="margin">Lawe of the Church.</note> 
+                  <hi>Lawes of the Church for herefie?</hi> Behold, how by the Confeſ<g ref="char:EOLhyphen"/>ſion,
+<pb n="25" facs="tcp:510:19"/> both of Catholicks and Hereticks, it was in ſaint Hieroms time a <hi>Lawe and Cu<g ref="char:EOLhyphen"/>ſtome of the Church, and of all the world,</hi> that the Bishop should confirme thoſe, who had bene baptized by Prieſts or Deacons, and that this is that which weeread the Apoſ<g ref="char:EOLhyphen"/>tles to haue do<g ref="char:cmbAbbrStroke">̄</g> in their Acts. S. Proſper ſchollar to S. Auſtin <note place="margin">S. Auſtins time.</note> in his 34. ſent. gathered out of S. Auſtin, hath theſe wordes: <hi>Chriſts name is from Chriſme, that is, from anointing. For that end is euery Chriſtian ſanctified, that hee may knowe hee is parta<g ref="char:EOLhyphen"/>ker, not onely of Prieſtlie and Princelie dignitie, but alſo is made</hi>
+                  <pb n="26" facs="tcp:510:20"/> 
+                  <hi>a wraſtler againſt the Diuill;</hi> And the like wordes hath ſaint Auſtin. Tra. 33. in Ioan<g ref="char:EOLhyphen"/>nem. And. l. de Eccleſ. dog<g ref="char:EOLhyphen"/>mat. 52. &amp; habetur de Conſ. d. 4. C. Si qui, hee doth ap<g ref="char:EOLhyphen"/>point, that thoſe that are co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>uerted from Hereſie: <hi>Bee con<g ref="char:EOLhyphen"/>firmed and ſtrengthned by impo<g ref="char:EOLhyphen"/>ſition of hands and Chriſme, bee admitted to receiue the Eu<g ref="char:EOLhyphen"/>chariſt.</hi>
+               </p>
+               <p>
+                  <hi>S.</hi> Iſidor, who was Schol<g ref="char:EOLhyphen"/>lar to S. Gregorie the greate, <note place="margin">In S. Gre<g ref="char:EOLhyphen"/>gories time.</note> l. 2. de off. c. 15. writeth thus: <hi>And there was at that ſame time myſticall vnction onely in Kinges and Prieſts, becauſe Chriſt</hi>
+                  <pb n="27" facs="tcp:510:20"/> 
+                  <hi>vvas figured, vvhence euen the name is deriued. But after that our Lord the eternall King and Prieſt, vvas anointed of God his heauenly Father vvith myſticall ointment, novv not onely Priests and Kinges but all the Church is</hi> 
+                  <note place="margin">All the Church.</note> 
+                  <hi>conſecrated vvith the ointment of Chriſme, becauſe it is a member of the eternall Prieſt and King.</hi>
+               </p>
+               <p>Rabanus l. 1. de Inſtit. Cler. c. 30. <hi>Laſt of all the holy Ghoſt is giuen of the Bishop by impoſition of hands vnto the bap<g ref="char:EOLhyphen"/>tized, that hee may bee ſtrength<g ref="char:EOLhyphen"/>ned by the holy Ghoſt to preach vnto others the ſame guifte.</hi>
+               </p>
+               <pb n="28" facs="tcp:510:21"/>
+               <p> Author de vnctione Chriſ<g ref="char:EOLhyphen"/>matis in Saint Cyprian: <hi>Novv in the holy Church, is holy Chriſme made vvith other oint<g ref="char:EOLhyphen"/>ments for to ſanctifie the pur<g ref="char:EOLhyphen"/>chaſed people, to bee partakers of the dignitie and name; The fulnes of this grace is poured vppon all Catholicks that as Chriſt is</hi> 
+                  <note place="margin">All Ca<g ref="char:EOLhyphen"/>tholicks.</note> 
+                  <hi>called of Chriſme, in that God hath anointed him with the oile of ſingular excellencie: So alſo, whoſoeuer are partakers of him, may bee partakers both of the ointment and name.</hi> More Fa<g ref="char:EOLhyphen"/>thers might bee alleaged, but theſe may ſuffice to knowe, that it was the generall Cu<g ref="char:EOLhyphen"/>ſtome
+<pb n="29" facs="tcp:510:21"/> of the Church euen from the beginning, that Chriſtians beeing baptized, should bee co<g ref="char:cmbAbbrStroke">̄</g>firmed of a Bis<g ref="char:EOLhyphen"/>hop. And ſeeing that Cuſto<g ref="char:cmbAbbrStroke">̄</g>e (as Diuines and Lawyers <note place="margin">Cuſtome bindeth as well as a Lawe.</note> teach) is a lawe not written, and bindeth aſwell as a writ<g ref="char:EOLhyphen"/>ten lawe doth, it is euident, that by this generall Cu<g ref="char:EOLhyphen"/>ſtome, Chriſtia<g ref="char:cmbAbbrStroke">̄</g>s in times paſt were bound to bee confir<g ref="char:EOLhyphen"/>med. Now lett vs ſee, that ſome of them expreſſely ſay, that there was alſo a lawe of this.</p>
+            </div>
+            <div n="3" type="chapter">
+               <pb n="30" facs="tcp:510:22"/>
+               <head>CHAPTER. III. <hi>That there was a Lawe or Com<g ref="char:EOLhyphen"/>mandement in the Church of God, that Chriſtians should bee confirmed.</hi>
+               </head>
+               <p>SAint Clement Pope and Succeſſor to ſaint Peeter, Epiſtola, 4. writeth thus: <hi>All muſt make haſt without delay to bee regenerated to God, and after</hi> 
+                  <note place="margin">Chriſtians muſt bee confir<g ref="char:EOLhyphen"/>med.</note> 
+                  <hi>to bee ſigned of the Bishop, that is, to receiue the Seauenfold grace of the holy Ghoſt,—Becauſe o<g ref="char:EOLhyphen"/>therwiſe</hi> 
+                  <note place="margin">Not a per<g ref="char:EOLhyphen"/>fect Chri<g ref="char:EOLhyphen"/>ſtia<g ref="char:cmbAbbrStroke">̄</g> with<g ref="char:EOLhyphen"/>out Con<g ref="char:EOLhyphen"/>firmation.</note> 
+                  <hi>hee cannot bee a perfect Chriſtian, nor haue place among</hi>
+                  <pb n="31" facs="tcp:510:22"/> 
+                  <hi>the perfect, if hee remanie ſo, not vppon neceſsitie, but through ne<g ref="char:EOLhyphen"/>gligence and his ovvne vvill, as vvee haue receaued of ſaint Peeter and the reſt of the Apoſtles haue taught according to the Comman<g ref="char:EOLhyphen"/>dement of our Lord.</hi> In which wordes hee ſeemeth to ſay, that it is a comma<g ref="char:cmbAbbrStroke">̄</g>dement of Chriſt, that Chriſtia<g ref="char:cmbAbbrStroke">̄</g>s should bee confirmed: of which opi<g ref="char:EOLhyphen"/>nion are abſolutely diuers greate diuines, as Scotus in 4. d. 7. q. 2. Richardus 16. art. 5. Thomas Walden l. 2. cap. 3. Sotus lect. 2. de Confir. and others; and of the ſame mind (for time of perſecution) are Durand Gabriell, Marſilius,
+<pb n="32" facs="tcp:510:23"/> Turrecremata, and alſo Fil<g ref="char:EOLhyphen"/>liucius tract. 3. c. 2.</p>
+               <p>S. Fabian Pope and Mar<g ref="char:EOLhyphen"/>tyr Epiſtola 2. hauing ſaid (as before is related) that Chriſt taught the Apoſtles to make Chriſme, and that it is to bee renewed euery yeare, addeth: <hi>Theſe things vvee receiued of the Apoſtles and theire Succeſſors, and vvee commaund</hi> 
+                  <note place="margin">The Apo<g ref="char:EOLhyphen"/>ſtles com<g ref="char:EOLhyphen"/>maunded the ma<g ref="char:EOLhyphen"/>king of Chriſme.</note> 
+                  <hi>them to bee obſerued of you;</hi> and a litle after: <hi>The Apoſtles taught theſe thinges that the old Chriſme should bee burnt, and ſuffered it not to bee vſed aboue one yeare, and commaunding thaught that vvee should vſe the nevve and not the old;</hi> And ſurely if the Apo<g ref="char:EOLhyphen"/>ſtles
+<pb n="33" facs="tcp:510:23"/> did make ſuch co<g ref="char:cmbAbbrStroke">̄</g>maun<g ref="char:EOLhyphen"/>dement touching Chriſme, which is but the matter of this Sacrament, it is moſt likely, that they made ſome Commaundement touching the Sacrament it ſelfe.</p>
+               <p>Saint Cornelius alſo Pope ad Martyr in Euſebius l. 6. Hiſtor. thus writeth of No<g ref="char:EOLhyphen"/>uatian, who afterwardes be<g ref="char:EOLhyphen"/>came an Hereticke: <hi>In the bed vvhere hee Laie, being ſprinkled vvith vvater, hee vvas baptized: but recouering of his ſicknes nei<g ref="char:EOLhyphen"/>ther had hee the other things vvhich according to the Canon of</hi> 
+                  <note place="margin">A Canon of the Church to be confit<g ref="char:EOLhyphen"/>med.</note> 
+                  <hi>the Church hee should haue, nei<g ref="char:EOLhyphen"/>ther vvas hee ſigned of the Bishop</hi>
+                  <pb n="34" facs="tcp:510:24"/> 
+                  <hi>vvith our lords marke, vvhich hauing not receaued, hovv I praie you had hee the holy Ghoſt?</hi> Whe<g ref="char:EOLhyphen"/>rein hee ſeemeth to auouch, that it was a Canon of the Church, that Chriſtia<g ref="char:cmbAbbrStroke">̄</g>s beeing baptized, should bee ſing<g ref="char:EOLhyphen"/>ned, that is confirmed, of the Bishop, and that for want thereof, Nouatian had not receaued the holy Ghoſt.</p>
+               <p>Theodoret. l. 3. Fab. ſpea<g ref="char:EOLhyphen"/>king of the Nouatian Here<g ref="char:EOLhyphen"/>ticks, <note place="margin">Holy Fa<g ref="char:EOLhyphen"/>thers co<g ref="char:cmbAbbrStroke">̄</g>
+                     <g ref="char:EOLhyphen"/>maund Confir<g ref="char:EOLhyphen"/>mation.</note> followers of the fore<g ref="char:EOLhyphen"/>ſaid Nouatian, ſaith: <hi>They giue not holy Chriſme to thoſe whome they baptize, wherefore the holy Fathers haue commaunded, that thoſe vvho out of this Hereſie are</hi>
+                  <pb n="35" facs="tcp:510:24"/> 
+                  <hi>vnited to the Church, bee anoin<g ref="char:EOLhyphen"/>ted;</hi> Behold a plaine Com<g ref="char:EOLhyphen"/>maundeme<g ref="char:cmbAbbrStroke">̄</g>t of the holy Fa<g ref="char:EOLhyphen"/>thers, that Chriſtians bee an<g ref="char:EOLhyphen"/>ointed with holy Chriſme. And the ſame confirmeth ſaint Petrus Damianus, Ser. 1. de Dedicat. Eccleſ. in theſe wordes: <hi>The Decretalls and</hi> 
+                  <note place="margin">The De<g ref="char:EOLhyphen"/>crees of Fathers for Con<g ref="char:EOLhyphen"/>firmation.</note> 
+                  <hi>Conſtitutions of holy Fathers doe decree, that the vertue of this Sa<g ref="char:EOLhyphen"/>crament (of Confirmation) is not to bee differred after Baptiſme, leaſt that the deceitfull aduerſarie find vs vnarmed;</hi> Saint Hie<g ref="char:EOLhyphen"/>rome, alſo in the wordes be<g ref="char:EOLhyphen"/>fore cited expreſſely ſaith that it is <hi>a lawe of the Church;</hi> And of this opinion are ma<g ref="char:EOLhyphen"/>ny
+<pb n="36" facs="tcp:510:25"/> graue diuines as Alenſis, ſaint Bonauenture, Paluda<g ref="char:EOLhyphen"/>nus, Silueſter, and others; And as Maldonate ſaith, q. 2. de Confirm. <hi>The Example of the Apoſtles and ſo generall Cu<g ref="char:EOLhyphen"/>ſtome of the Church, hath taken place of a precept;</hi> And of the ſame opinion are, or ought to bee all they, who either ſay, that Confirmation is commaunded, as Bellarmine l. 1. de Sacram. c. 22. for they muſt at leaſt meane, that it is commaunded by an Eccle<g ref="char:EOLhyphen"/>ſiaſticall precept: or ſay, that it is a veniall Sinne not to bee confirmed euen without co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>tempt, as Nauar. Man. c. 22.
+<pb n="37" facs="tcp:510:25"/> num. 9. Caietan. verb. Con<g ref="char:EOLhyphen"/>firmatio, <note place="margin">No ſinne is where no pre<g ref="char:EOLhyphen"/>cept is.</note> Victoria lib. var. re<g ref="char:EOLhyphen"/>ſol. c. 10. and others, becauſe no ſinne ca<g ref="char:cmbAbbrStroke">̄</g> bee, where there is no Commaundeme<g ref="char:cmbAbbrStroke">̄</g>t. And much more the Canoniſts, who (as wee shall hereafter report out of Paludan. in 4. d. 7.) doe ſay, that it is a mor<g ref="char:EOLhyphen"/>tall ſinne not to bee confir<g ref="char:EOLhyphen"/>med when one may.</p>
+               <p>Moreouer, ſeeing there is an Apoſtolicall precept of <note place="margin">
+                     <hi>Auguſt. l.</hi> 2. <hi>de viſit. infirm. c.</hi> 4. <hi>Nec prae<g ref="char:EOLhyphen"/>termitten<g ref="char:EOLhyphen"/>dum eſt il<g ref="char:EOLhyphen"/>lud Iacobt Apoſtoli preceptu<g ref="char:cmbAbbrStroke">̄</g>. Infirma<g ref="char:EOLhyphen"/>tur quit &amp;c.</hi>
+                  </note> beeing anoiled when one is ſicke, deliuered by S. Iames chap. 5. why shall wee not thinke alſo, that there was an Apoſtolicall precept of Con<g ref="char:EOLhyphen"/>firmation, at leaſt in time of
+<pb n="38" facs="tcp:510:26"/> perſecutio<g ref="char:cmbAbbrStroke">̄</g>? becauſe two ends of this Sacrament doe then take place, to witt, to bee<g ref="char:EOLhyphen"/>come perfect, and compleate Chriſtians, which end hol<g ref="char:EOLhyphen"/>deth euen in time of peace, and alſo to haue ſpirituall ſtrength and armour to pro<g ref="char:EOLhyphen"/>feſſe Chriſts faith, which is more proper for time of per<g ref="char:EOLhyphen"/>ſecution; And who beeing to goe to a daungerous Co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>bat, and may haue ſure Ar<g ref="char:EOLhyphen"/>mor, <note place="margin">Confir<g ref="char:EOLhyphen"/>mation more ne<g ref="char:EOLhyphen"/>ceſſarie in perſecutio<g ref="char:cmbAbbrStroke">̄</g> then ex<g ref="char:EOLhyphen"/>treme vn<g ref="char:EOLhyphen"/>ction at death.</note> and will not, expoſeth himſelfe to dau<g ref="char:cmbAbbrStroke">̄</g>ger of beeing killed: Beſides, more Chri<g ref="char:EOLhyphen"/>ſtians fall from theire faith in time of perſecution then in time of ſicknes or naturall
+<pb n="39" facs="tcp:510:26"/> death. If therefore extreme vnctio<g ref="char:cmbAbbrStroke">̄</g> were by the Apoſtles commaunded to the<g ref="char:cmbAbbrStroke">̄</g> that are in daunger of naturall death, why not Confirmation to thoſe that are in daunger of violent death by perſecu<g ref="char:EOLhyphen"/>tion? Vnleſſe we will thinke, that the Apoſtles had leſſe care of Chriſtians when they are in greater daunger, then when they are in leſſe. But this Eccleſiaſticall precept of Confirmation, which wee haue proued out of the ex<g ref="char:EOLhyphen"/>preſſie ſayings of ſome Fa<g ref="char:EOLhyphen"/>thers, lett vs alſo proue out of diuers other ſayings of theirs.</p>
+            </div>
+            <div n="4" type="chapter">
+               <pb n="40" facs="tcp:510:27"/>
+               <head>CHAPTER. IIII. <hi>That there was an Eccleſiaſticall precept of Confirmation, proued out of diuers other ſayings of the holy Fathers.</hi>
+               </head>
+               <p>SAint Cyprian l. 2. Epi<g ref="char:EOLhyphen"/>ſtola 1. ad Ianuar. <hi>It is ne<g ref="char:EOLhyphen"/>ceſſary</hi> 
+                  <note place="margin">Confir<g ref="char:EOLhyphen"/>matio<g ref="char:cmbAbbrStroke">̄</g> ne<g ref="char:EOLhyphen"/>ceſſarie.</note> (ſaith hee) <hi>that hee who is Chriſtned, bee anointed, that hauing receiued Chriſme, that is, vnction, hee may bee both the anointed of God, and haue the grace of Chriſt in him.</hi>
+               </p>
+               <p>Saint Melchiades Pope E<g ref="char:EOLhyphen"/>piſtola ad Epiſc. Hiſpan; in<g ref="char:EOLhyphen"/>ſerted in the Canons de Co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>ſecr.
+<pb n="41" facs="tcp:510:27"/> d. 5. <hi>But theſe two Sacra<g ref="char:EOLhyphen"/>ments</hi> (Baptiſme and Confir<g ref="char:EOLhyphen"/>mation) <note place="margin">Confirma<g ref="char:EOLhyphen"/>tion not to bee ſe<g ref="char:EOLhyphen"/>parate from Bap<g ref="char:EOLhyphen"/>tiſme.</note> 
+                  <hi>are ſo vnited, that vn<g ref="char:EOLhyphen"/>leſſe it bee by reaſon of death, they may not bee parted, and the one may not rightly bee giuen without the other—</hi>Againe<hi>—If the be<g ref="char:EOLhyphen"/>nefite of Regeneration ſuffice for them, that are readie to die; yet the helpe of Confirmation is neceſ<g ref="char:EOLhyphen"/>ſarie</hi> 
+                  <note place="margin">Neceſſa<g ref="char:EOLhyphen"/>rie.</note> 
+                  <hi>for them that are to liue.</hi>
+               </p>
+               <p>S. Vrban Pope and Mar<g ref="char:EOLhyphen"/>tyr Epiſtola, ad om. Chriſtia<g ref="char:EOLhyphen"/>nos <note place="margin">Chriſtians muſt bee confirmed.</note> related in the Canons loco cit. <hi>All the faithfull after baptiſme muſt receaue the holy Ghoſt, by impoſition of hands of the Bishop, that they may bee full Chriſtians.</hi>
+               </p>
+               <pb n="42" facs="tcp:510:28"/>
+               <p> The Councell of Laodi<g ref="char:EOLhyphen"/>cea, Canon. 4. 8. <hi>The baptized</hi> 
+                  <note place="margin">Muſt bee co<g ref="char:cmbAbbrStroke">̄</g>firmed.</note> 
+                  <hi>muſt after baptiſme receiue moſt holy Chriſme, and bee made par<g ref="char:EOLhyphen"/>takers of the holy kingdome.</hi>
+               </p>
+               <p>Saint Pacian Epiſtola. 3. <hi>How hath your people the holy</hi> 
+                  <note place="margin">Muſt bee co<g ref="char:cmbAbbrStroke">̄</g>firmed.</note> 
+                  <hi>Ghoſt, whome an anointed Prieſt doth not ſigne?</hi> The like had ſaint Cornelius aboue ci<g ref="char:EOLhyphen"/>ted.</p>
+               <p>Saint Cyrill Cathechiſme 3. myſtag. <hi>Hauing receiued this</hi> 
+                  <note place="margin">Not pro<g ref="char:EOLhyphen"/>perly Chriſtians without Confirma<g ref="char:EOLhyphen"/>tion.</note> 
+                  <hi>guift of holy Chriſme, you are rightly called Chriſtians, making true the naming in the regenera<g ref="char:EOLhyphen"/>tion; For before this grace was giuen you, you were not properly worthie of that name, but going</hi>
+                  <pb n="43" facs="tcp:510:28"/> 
+                  <hi>forward, you are come ſo farre, as you are made Chriſtians.</hi>
+               </p>
+               <p>The Councell of Orleans Cap. 3. cited in the Canons loco cit. <hi>Hee shall neuer bee a</hi> 
+                  <note place="margin">Not Chri<g ref="char:EOLhyphen"/>ſtians.</note> 
+                  <hi>Chriſtian, vnleſſe hee bee anoin<g ref="char:EOLhyphen"/>ted vvith Epiſcopall Confirma<g ref="char:EOLhyphen"/>tion.</hi>
+               </p>
+               <p>And why should theſe ho<g ref="char:EOLhyphen"/>ly Councells and Fathers ſay that Confirmation <hi>is neceſſa<g ref="char:EOLhyphen"/>rie to Chriſtians,</hi> that <hi>Chriſtians muſt bee confirmed;</hi> that <hi>vvith<g ref="char:EOLhyphen"/>out death Confirmation is not rightly ſeparate from Baptiſme:</hi> that without Confirmation <hi>vvee are not full Chriſtians, not properly Chriſtians,</hi> and ſimply <hi>not Chriſtians,</hi> vnleſſe they
+<pb n="44" facs="tcp:510:29"/> thought, that Confirmation was at leaſt neceſſarie by ne<g ref="char:EOLhyphen"/>ceſſitie of precept?</p>
+               <p>Moreouer, ſaint Leo, E<g ref="char:EOLhyphen"/>piſtola <note place="margin">S. Leo bewaileth want of Confir<g ref="char:EOLhyphen"/>mation.</note> 73. al. 75. greately be<g ref="char:EOLhyphen"/>waileth, that in a place the hallowing of Chriſme had failed, which thing was to bee bewailed in England for many yeares; And the Sea Apoſtolicke hath bene ſo loath, that Chriſtians should want Confirmation, that ſometimes shee hath giuen leaue to Prieſts to confirme for want of Bishops, albeit many graue Diuines thinke, that ſuch power cannot bee giuen to Prieſts; And like<g ref="char:EOLhyphen"/>wiſe,
+<pb n="45" facs="tcp:510:29"/> in times of Interdict, when shee forbiddeth to mi<g ref="char:EOLhyphen"/>niſter extreme vnction, yet shee forbiddeth not Confir<g ref="char:EOLhyphen"/>mation, no more then Bap<g ref="char:EOLhyphen"/>tiſme or Confeſſion: which argueth, that shee thinketh Confirmation to bee more neceſſarie then extreme vn<g ref="char:EOLhyphen"/>ction.</p>
+               <p>To the former ſayings of Fathers wee may add, that Hugo de ſanct. Victore (rela<g ref="char:EOLhyphen"/>ted by ſaint Thomas 3. p. q. 72. art. 8.) affirmeth. <hi>It would</hi> 
+                  <note place="margin">Daunger to die without Confir<g ref="char:EOLhyphen"/>mation.</note> 
+                  <hi>bee moſt daungerous, if one should depart out of this life without Co<g ref="char:cmbAbbrStroke">̄</g>
+                     <g ref="char:EOLhyphen"/>firmation;</hi> And though ſaint
+<pb n="46" facs="tcp:510:30"/> Thomas add, that hee should not bee damned without co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>tempt; yet neither doth Hu<g ref="char:EOLhyphen"/>go ſay, that it were daunge<g ref="char:EOLhyphen"/>rous to die <hi>with contempt of Confirmation,</hi> but <hi>without Con<g ref="char:EOLhyphen"/>firmation,</hi> which inſinuateth a neceſſitie of Confirmation it ſelfe; Neither perhaps doth ſaint Thomas there take <hi>Con<g ref="char:EOLhyphen"/>tempt</hi> ſo ſtrictly, as it is diſtin<g ref="char:EOLhyphen"/>guished from <hi>negligence,</hi> both for that wee shall ſay hereaf<g ref="char:EOLhyphen"/>ter, as alſo becauſe him ſelfe there ſaith: <hi>This is natures in<g ref="char:EOLhyphen"/>tention, that euery one that is cor<g ref="char:EOLhyphen"/>porally borne, doe come to perfect age; And much more it is Gods in<g ref="char:EOLhyphen"/>tention</hi>
+                  <pb n="47" facs="tcp:510:30"/> 
+                  <hi>to bring all thinges to per<g ref="char:EOLhyphen"/>fection;</hi> 
+                  <note place="margin">Gods in<g ref="char:EOLhyphen"/>tention that wee bee con<g ref="char:EOLhyphen"/>firmed.</note> 
+                  <hi>wherevppon it is ſaid Deutr.</hi> 32. <hi>Gods workes are per<g ref="char:EOLhyphen"/>fect; And therefore this Sacra<g ref="char:EOLhyphen"/>ment muſt bee giuen to all;</hi> And if it bee Gods intention, that euery one bee confirmed, and that euery one muſt bee confirmed, this argueth, that euen negligence of this Sa<g ref="char:EOLhyphen"/>crament is daungerous, as wee shall ſee more hereafter Cap. 6.</p>
+            </div>
+            <div n="5" type="chapter">
+               <pb n="48" facs="tcp:510:31"/>
+               <head>CHAPTER. V. <hi>That in England Chriſtians are bound to bee confirmed by an expreſſe Commaund of di<g ref="char:EOLhyphen"/>uers Prouinciall Councells.</hi>
+               </head>
+               <p>ARchbishop Peckham in a Prouinciall Coun<g ref="char:EOLhyphen"/>cell held at Lambeth Anno 1271. made this decree: <hi>Manie</hi> 
+                  <note place="margin">Expres Co<g ref="char:cmbAbbrStroke">̄</g>maund of Confir<g ref="char:EOLhyphen"/>mation in England.</note> 
+                  <hi>rashly neglect the Sacrament of Confirmation; which damnable negligence wee reſiſting, doe decree, that none bee admitted to the Sa<g ref="char:EOLhyphen"/>crament of the bodie and blood of</hi>
+                  <pb n="49" facs="tcp:510:31"/> 
+                  <hi>our Lord (except at the point of death) vnleſſe hee haue bene confir<g ref="char:EOLhyphen"/>med, or iuſtly hindered from re<g ref="char:EOLhyphen"/>ceiuing Confirmation:</hi> In which decree I note, that <hi>not contempt</hi> of Confirmation, but euen <hi>rash negligen<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e</hi> that is, <hi>groſſe ne<g ref="char:EOLhyphen"/>gligence</hi> 
+                  <note place="margin">Euen ne<g ref="char:EOLhyphen"/>gligence of Confir<g ref="char:EOLhyphen"/>mation damnable.</note> thereof, is counted <hi>damnable;</hi> likewiſe, that it co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>maundeth to receiue confir<g ref="char:EOLhyphen"/>mation vnder a greate pu<g ref="char:EOLhyphen"/>nishment, to witt, of not re<g ref="char:EOLhyphen"/>ceauing the bleſſed Sacra<g ref="char:EOLhyphen"/>me<g ref="char:cmbAbbrStroke">̄</g>t, which is a certaine ſigne that it commaundeth it vnder mortall ſinne. And this <note place="margin">Prieſts muſt not communi<g ref="char:EOLhyphen"/>cate thoſe that will not bee co<g ref="char:cmbAbbrStroke">̄</g>firmed.</note> decree, that Prieſts might better remember it, is putt into the Rituall or Sacrame<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>tall
+<pb n="50" facs="tcp:510:32"/> of Sarum; where alſo the Prieſt is appointed to co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>maund the Parents, that they carry theire Child to the Bis<g ref="char:EOLhyphen"/>hop if hee come with in ſea<g ref="char:EOLhyphen"/>uen Miles of them.</p>
+               <p>Stephen alſo Archbishop of Canterburie in a Prouin<g ref="char:EOLhyphen"/>ciall Councell at Oxford Anno 1230. commaundeth, that <hi>Prieſts doe often admonish the People for Confirmation of their Children after Baptiſme;</hi> And Linwood l. 1. de Sacram. iter. C. Ignorantia: relateth theſe wordes of an other Pro<g ref="char:EOLhyphen"/>uinciall Canon. <hi>Fiue Sacrame<g ref="char:cmbAbbrStroke">̄</g>ts (debent) muſt bee receiued of all Chriſtians, to witt Baptiſme,</hi>
+                  <pb n="51" facs="tcp:510:32"/> 
+                  <hi>Confirmation &amp;c.</hi> Wherevppo<g ref="char:cmbAbbrStroke">̄</g> Linwood ſaith: <hi>They muſt bee</hi> 
+                  <note place="margin">Muſt of neceſſitie bee con<g ref="char:EOLhyphen"/>firmed.</note> 
+                  <hi>receiued of neceſsitie, as appeareth by that word (Debent) ar. de cel. Miſſ. C. exparte.</hi>
+               </p>
+               <p>And beſides theſe expreſſe <note place="margin">Generall Cuſtome of Engla<g ref="char:cmbAbbrStroke">̄</g>d to bee co<g ref="char:cmbAbbrStroke">̄</g>
+                     <g ref="char:EOLhyphen"/>firmed.</note> Canons, there was ſuch a generall Cuſtome in Engla<g ref="char:cmbAbbrStroke">̄</g>d of beeing confirmed, that as D. Saunders l. de Schiſm. te<g ref="char:EOLhyphen"/>ſtifieth, it was accounted in<g ref="char:EOLhyphen"/>famous not to haue bene co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>firmed before one was ſea<g ref="char:EOLhyphen"/>uen yeares old: And (as be<g ref="char:EOLhyphen"/>fore wee ſaid) a generall Cu<g ref="char:EOLhyphen"/>ſtome bindeth as well as a lawe; So that in England there bee two ſtrong bonds to bind Catholicks to bee
+<pb n="52" facs="tcp:510:33"/> confirmed, to witt, Prouin<g ref="char:EOLhyphen"/>ciall Canons, and generall Cuſtome; Neither lett any thinke, that theſe Canons or <note place="margin">Canons of the Church of England not abro<g ref="char:EOLhyphen"/>gated.</note> Cuſtome, are abrogated by this long Non-vſe, or diſcon<g ref="char:EOLhyphen"/>tinuance in time of Schiſme. For beſides, that theſe Ca<g ref="char:EOLhyphen"/>nons were confirmed againe in a Prouinciall Councell held by Cardinall Pole in time of Queene Mary, and this Cuſtome then renewed with ſuch ze<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e of English Ca<g ref="char:EOLhyphen"/>tholicks, as in ſome places the Church could not con<g ref="char:EOLhyphen"/>teine <note place="margin">D. Saun<g ref="char:EOLhyphen"/>ders de Schiſm.</note> the People that floc<g ref="char:EOLhyphen"/>ked to the Bishop, that hee was faine to confirme in the
+<pb n="53" facs="tcp:510:33"/> Church-yard, and to bee de<g ref="char:EOLhyphen"/>fended by armed men from the preſſe of the people. Be<g ref="char:EOLhyphen"/>ſides I ſay this, it is not mere <hi>Non-vſe</hi> or not practiſe for wa<g ref="char:cmbAbbrStroke">̄</g>t of the caſe of the lawe (as was here in former times for want of a Bishop) that doth abrogate a lawe, as all Di<g ref="char:EOLhyphen"/>uines and lawyers agree, but it muſt bee a poſitiue practiſe againſt the lawe, when the caſe of the lawe is. But in En<g ref="char:EOLhyphen"/>gland heretofore hath bene a mere Non vſe of the ſaid Canons ad Cuſtome, for want of a Bishop by whome men might bee confirmed, and no poſitiue practiſe or
+<pb n="54" facs="tcp:510:34"/> diſcontinuance of all or of the greateſt part of Catho<g ref="char:EOLhyphen"/>licks, when there was meanes to bee confirmed; where<g ref="char:EOLhyphen"/>fore howſoeuer Catholicks in other Countries bee not bound to bee confirmed by any Eccleſiaſticall lawe, be<g ref="char:EOLhyphen"/>cauſe perhaps they, by a con<g ref="char:EOLhyphen"/>trary cuſtome haue abroga<g ref="char:EOLhyphen"/>ted the lawe, euen when the caſe of the lawe was, and meanes were to bee confir<g ref="char:EOLhyphen"/>med, yet in England they are bound vnder mortall ſinne to obſerue this lawe of Con<g ref="char:EOLhyphen"/>firmation, as well as they are bound to obſerue other Ec<g ref="char:EOLhyphen"/>cleſiaſticall lawes, of com<g ref="char:EOLhyphen"/>municating
+<pb n="55" facs="tcp:510:34"/> at Eaſter, confeſ<g ref="char:EOLhyphen"/>ſing o<g ref="char:cmbAbbrStroke">̄</g>cea yeare, hearing maſſe on holydayes, abſtayning fro<g ref="char:cmbAbbrStroke">̄</g> flesh on forbidden dayes, faſ<g ref="char:EOLhyphen"/>ting on Fridayes, and the like, to witt, whe<g ref="char:cmbAbbrStroke">̄</g> they can obſerue them without theire notable preiudice or daunger; And in the ſame manner, Prieſts are bound not to giue the bleſſed Sacr<hi rend="sup">ent.</hi> to ſuch as are notably negligent in this point, vn<g ref="char:EOLhyphen"/>leſſe it bee at the hower of theire death, becauſe the fore<g ref="char:EOLhyphen"/>ſaid Canon as well bindeth <note place="margin">Canons of Confirma<g ref="char:EOLhyphen"/>tion mo<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e bind <gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ow then in Catholicke times.</note> Prieſts to this, as it bindeth laicks to the other; yea the foreſaid Canons haue more reaſon to bind now then in
+<pb n="56" facs="tcp:510:35"/> Catholicke times, by reaſon that wee not onely liue in perſecution, but alſo becauſe wee liue amongſt Proteſ<g ref="char:EOLhyphen"/>tants who contemne this Sa<g ref="char:EOLhyphen"/>crament, with whome by our deed, that is, by our groſſe negligence thereof, wee may ſeeme to conſent: And (euen as they graunt, who ſay there is no ſinne not to bee confir<g ref="char:EOLhyphen"/>med) a man may ſinne herein mortally by reaſon of ſcan<g ref="char:EOLhyphen"/>dall if ſo hee behaueth him<g ref="char:EOLhyphen"/>ſelfe, as hee giueth ſuſpition of contempt; And thus much for the neceſſitie of Confir<g ref="char:EOLhyphen"/>mation out of the generall Cuſtome of Gods Church,
+<pb n="57" facs="tcp:510:35"/> out of the Churches lawe thereof, out of the holy Fa<g ref="char:EOLhyphen"/>thers, and out of the Prouin<g ref="char:EOLhyphen"/>ciall Conſtitutions of the Ca<g ref="char:EOLhyphen"/>tholicke Church of England. Now lett vs heare the opi<g ref="char:EOLhyphen"/>nions of Diuines and Cano<g ref="char:EOLhyphen"/>niſts.</p>
+            </div>
+            <div n="6" type="chapter">
+               <head>CHAPTER VI. <hi>The neceſſ<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>tie of Confirmation proued by the authoritie of Diuines &amp; Ca<g ref="char:EOLhyphen"/>noniſts.</hi>
+               </head>
+               <p>FIrſt, all agree, that it is a <note place="margin">Mortall Sinne not to bee confirmed of con<g ref="char:EOLhyphen"/>tempt.</note> mortall Sinne, not to bee
+<pb n="58" facs="tcp:510:36"/> confirmed vppon contempt of the Sacrament, and the holy Councell of Trent thus ſpeaketh of the contempt of extreme vnction. Seſſio. 14. cap. 3. <hi>Neither can the contempt of ſo greate a Sacrament bee with<g ref="char:EOLhyphen"/>out greate ſinne and iniury to the holy Ghoſt;</hi> And doubtleſſe the ſame is of the contempt of Confirmation: And though <hi>contempt</hi> ſtrictly taken bee more then <hi>negligence,</hi> for as Sotus in 4. d. 7. q. vn. art. 8. <note place="margin">VVhat Contempt is proper<g ref="char:EOLhyphen"/>ly.</note> ſaith; <hi>Contempt, as the word ſoundeth, is to make no account of athing, and to reiect it as if it were nothing,</hi> yet in this mat<g ref="char:EOLhyphen"/>ter they ſeeme to confound it
+<pb n="59" facs="tcp:510:36"/> with groſſe negligence; Firſt, becauſe ſuch a formall con<g ref="char:EOLhyphen"/>tempt of a Sacrament, can ſcarce fall into the mind of a Catholicke, who beleeueth it to bee an Inſtrument of grace; For how can a man, that contemneth not grace, contemne an Inſtrument of grace? Secondly, becauſe not onely our foreſaid Prouin<g ref="char:EOLhyphen"/>ciall Canon doth expreſſely ſay that <hi>groſſe negligence of Con<g ref="char:EOLhyphen"/>firmation is</hi> 
+                  <note place="margin">Groſſe negligence damnable.</note> 
+                  <hi>damnable,</hi> but alſo ſome others doe expreſſe them ſelues, that in this mat<g ref="char:EOLhyphen"/>ter by <hi>contempt,</hi> they meane <hi>groſſe negligence.</hi> For thus wri<g ref="char:EOLhyphen"/>teth Linwood vppo<g ref="char:cmbAbbrStroke">̄</g> the fore<g ref="char:EOLhyphen"/>ſaid
+<pb n="60" facs="tcp:510:37"/> Canon l. 1. tit. de ſanct. vnct. C. Confirmationis; <hi>Where one may bee confirmed, and will not, ſuch negligence fal<g ref="char:EOLhyphen"/>leth into Contempt. For to neglect, and to contemne in a manner are equall; For albeit in theire natures they bee different, as is gathered</hi> 20. <hi>d. Si decreta. Yet ſometimes the Canons vſe theſe wordes in<g ref="char:EOLhyphen"/>differently as noteth Card. and Archid. de Electione C. Cup<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>entes verb. Contempſerit in</hi> 6. <hi>And here note, where negligence riſeth of ones fault, as that beeing mo<g ref="char:EOLhyphen"/>nished and induced by his Curate to goe to Confirmation, hee will not but neglecteth to bee confirmed, while hee hath meanes of a Bis<g ref="char:EOLhyphen"/>hop</hi>
+                  <pb n="61" facs="tcp:510:37"/> 
+                  <hi>who can and would confirme</hi> 
+                  <note place="margin">VVhat ne<g ref="char:EOLhyphen"/>gligence of Confir<g ref="char:EOLhyphen"/>mation worſe then Con<g ref="char:EOLhyphen"/>tempt.</note> 
+                  <hi>him, then ſuch negligence is com<g ref="char:EOLhyphen"/>pared, not onely to contempt, but alſo to deceit. Ar. C. vnic. in fin. de conceſſ. praebend. in Clem. Et fa<g ref="char:EOLhyphen"/>ciunt <gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ot per Io. And Gloſſ. fin. de Appellat. C. Ab eo. l.</hi> 6. Marke Here, what negligence of Confirmation, Linwood ac<g ref="char:EOLhyphen"/>counteth not onely conte<g ref="char:cmbAbbrStroke">̄</g>pt, but alſo worſe. Angelus alſo verb. Confirmatio ſaith out of Paludan: <hi>That hee ſ<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>meth to</hi> 
+                  <note place="margin">VVhen is contempt, of Confir<g ref="char:EOLhyphen"/>mation.</note> 
+                  <hi>contemne, when hauing ſufficient opportunitie, without any reaſo<g ref="char:EOLhyphen"/>nable cauſe doth not receiue this Sacrament;</hi> And the ſame hath Tolet. l. 2. Inſtruct. c. 24. and addeth l. 7. c. 3. <hi>That it</hi>
+                  <pb n="62" facs="tcp:510:38"/> 
+                  <hi>were contempt</hi> (of Extreme <note place="margin">VVhen of Extreme Vnction.</note> Vnction) <hi>when the time beeing of Extreme Vnction, and occaſion offered of receiuing it, not to re<g ref="char:EOLhyphen"/>ceiue it, as wee</hi> (ſaith hee) <hi>ſaid of Confirmation;</hi> And the Gloſſ. de Elect. C. Cupientes in 6. <hi>Make Heere no difference bee<g ref="char:EOLhyphen"/>tweene co<g ref="char:cmbAbbrStroke">̄</g>temne and reglect, though otherwhere there ſeeme to bee,</hi> 20. <hi>D. Si, decreta:</hi> Thus they ex<g ref="char:EOLhyphen"/>pound, what they meane by <hi>Contempt,</hi> when they ſay, that <note place="margin">Croſſe ne<g ref="char:EOLhyphen"/>gligence accounted contempt.</note> Contempt of Confirmation is damnable, to witt, <hi>groſſe negligence</hi> thereof.</p>
+               <p>Secondly all agree, that ſo <note place="margin">Mortall Sinne in ſcandall of Confir<g ref="char:EOLhyphen"/>mation.</note> to neglect to bee confirmed, as thereby ſcandall is giuen,
+<pb n="63" facs="tcp:510:38"/> and ſuſpition of contempt of Confirmation, is mortall and damnable; See Suarez. to. 4. d. 38 ſect. 1.</p>
+               <p>Thirdly diuers Diuines ex<g ref="char:EOLhyphen"/>preſſely affirme, that groſſe or notable negligence of not beeing confirmed (eſpecially in time of perſecution) is a mortall ſinne; For thus hath Manipulus Curatorum tract. 3. C. 5. <hi>If there bee opportunitie to</hi> 
+                  <note place="margin">Groſſe ne<g ref="char:EOLhyphen"/>gligence of Confir<g ref="char:EOLhyphen"/>mation mortall Sinne.</note> 
+                  <hi>receiue this Sacrament</hi> (of Con<g ref="char:EOLhyphen"/>firmation) <hi>euery one muſt re<g ref="char:EOLhyphen"/>ceiue it, and if hee omitt it with<g ref="char:EOLhyphen"/>out iuſtcauſe, hee ſinneth mortal<g ref="char:EOLhyphen"/>ly vnleſſe hee receiue it.</hi> Sotus alſo in 4. d. 7. q. vn. art. 8. wri<g ref="char:EOLhyphen"/>teth thus: <hi>There followeth an<g ref="char:EOLhyphen"/>other</hi>
+                  <pb n="64" facs="tcp:510:39"/> 
+                  <hi>doubt not to bee contemned, whether there bee any precept of</hi> 
+                  <note place="margin">Moſt Di<g ref="char:EOLhyphen"/>uin<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s ſay Confir<g ref="char:EOLunhyphen"/>mation is commaun<g ref="char:EOLhyphen"/>ded.</note> 
+                  <hi>Confirmation: to which moſt of the Doctors anſwer affirmatiue<g ref="char:EOLhyphen"/>ly as Richardus, Durandus, Pa<g ref="char:EOLhyphen"/>ludanus, Silueſter;</hi> And againe. <hi>Richardus, Marſilius, Paluda<g ref="char:EOLhyphen"/>nus ſay, that as often as there is commoditie of a Miniſter to con<g ref="char:EOLhyphen"/>firme, if a man may commodiouſ<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>y receiue this Sacrament, then not</hi> 
+                  <note place="margin">Groſſe ne<g ref="char:EOLhyphen"/>gligence is mortall Sinne.</note> 
+                  <hi>onely the contempt, but euen the groſſe negligence it ſelfe, which is cauſe that the Sacrament is not receiued, is mortall Sinne,</hi> And Victorellus in l. 2. Toleti c. 24. cit. ſaith: that, <hi>Petrus So<g ref="char:EOLhyphen"/>tus lect.</hi> 2. <hi>Durandus and Ri<g ref="char:EOLhyphen"/>chardus d.</hi> 7. <hi>thinke, that not</hi>
+                  <pb n="65" facs="tcp:510:39"/> 
+                  <hi>onely contempt, but alſo notable negligence to bee a mortall ſinne, for the Commaundement of the Church:</hi> Fillucius tract. 3. c. 2. <hi>If in any place there bee neceſsitie</hi> 
+                  <note place="margin">Eſpecially in time of perſecu<g ref="char:EOLhyphen"/>tion.</note> 
+                  <hi>of profeſsing the Faith, wee muſt ſay, that there euen now this pre<g ref="char:EOLhyphen"/>cept</hi> (of Confirmation) <hi>doth continue and bind, becauſe hee should rashly expoſe himſelfe to daunger of falling;</hi> Angelus verb. Sacramentum; <hi>Sacra<g ref="char:EOLhyphen"/>ments of neceſsitie are Baptiſme, Confirmation, Euchariſt, Pena<g ref="char:cmbAbbrStroke">̄</g>ce, and Extreme Vnction;</hi> Of the ſame opinion ought all Di<g ref="char:EOLhyphen"/>uines to bee, who ſay, that it is a ſinne to neglect to re<g ref="char:EOLhyphen"/>ceaue this Sacrament, which
+<pb n="66" facs="tcp:510:40"/> moſt Diuines doe ſay. And beſides thoſe aboue named, Sotus loco cit. ſaith: <hi>Where one may bee co<g ref="char:cmbAbbrStroke">̄</g>modiouſly co<g ref="char:cmbAbbrStroke">̄</g>firmed,</hi> 
+                  <note place="margin">Sinne not to bee co<g ref="char:cmbAbbrStroke">̄</g>
+                     <g ref="char:EOLhyphen"/>firmed-</note> 
+                  <hi>it were Sinne not to receiue this Benefite of God;</hi> And againe: <hi>It is ſinfull negligence to deferre this Sacrament beyond that age</hi> (of 12. or. 14. yeares.) <hi>For the right order is not to receiue the Eucha<g ref="char:EOLhyphen"/>riſt before Confirmation, as was the Cuſtome in the primatiue Church;</hi> And Bellarmin l. 1. de Sacram. c. 22. <hi>Who negle<g ref="char:EOLhyphen"/>cteth to receiue this Sacrament, ſinneth.</hi> For if there bee a Sinne not to receiue this Sacrame<g ref="char:cmbAbbrStroke">̄</g>t, there is a precept thereof, and if there bee a precept, the
+<pb n="67" facs="tcp:510:40"/> breach thereof is a mortall <note place="margin">The breach of a precept in a mat<g ref="char:EOLhyphen"/>ter of mo<g ref="char:EOLhyphen"/>ment is a mortall Sinne.</note> ſinne, becauſe (as well ſaith Suarez loco cit.) it is in a mat<g ref="char:EOLhyphen"/>ter of moment; And howſoe<g ref="char:EOLhyphen"/>uer one may probably denie, that there is any generall pre<g ref="char:EOLhyphen"/>cept of Confirmation in the vniuerſall Church which bin<g ref="char:EOLhyphen"/>deth euery one, or that ſuch a precept bindeth vnder mor<g ref="char:EOLhyphen"/>tall Sinne, partly becauſe it is abrogated by contrary Cu<g ref="char:EOLhyphen"/>ſtome, partly alſo becauſe it <note place="margin">Greatnes of punish<g ref="char:EOLhyphen"/>ment ar<g ref="char:EOLhyphen"/>gueth a mortall Sinne.</note> was not impoſed vnder any greate punishment, no Di<g ref="char:EOLhyphen"/>uine can reaſonably denie, that there is a ſpeciall precept thereof in England, and that it bindeth vnder mortall
+<pb n="68" facs="tcp:510:41"/> Sinne, by that which hath bene ſaid aboue; And agrea<g ref="char:EOLhyphen"/>bly to that which hath bene ſaid of the negligence of peo<g ref="char:EOLhyphen"/>ple to receiue this Sacrame<g ref="char:cmbAbbrStroke">̄</g>t, Angelus and Silueſter verb. Confirm. and others ſay: that <hi>notable negligence of Bishops in</hi> 
+                  <note place="margin">Mortall Sinne in Bishops not to confirme.</note> 
+                  <hi>not confirming, is a mortall Sinne in them,</hi> which alſo Tolet. in<g ref="char:EOLhyphen"/>ſinuateth li. 5. cit. c. 4. And thus much for Diuines.</p>
+               <p>As for the opinion of the <note place="margin">Canoniſts ſay it is a mortall Sinne not to be con<g ref="char:EOLhyphen"/>firmed.</note> Canoniſts in this matter, thus writeth Armilla verb. Sacra. <hi>The Sacrament of Baptiſme, Con<g ref="char:EOLhyphen"/>firmation, Co<g ref="char:cmbAbbrStroke">̄</g>munion, Penance, and Extreme Vnction according to the Canoniſts (as writeth Palu<g ref="char:EOLhyphen"/>danus</hi>
+                  <pb n="69" facs="tcp:510:41"/> 4. <hi>ſent. d.</hi> 7.) <hi>are neceſſarie, that is, vnder precept, ſo that who can receiue them, and will not, doth Sinne mortally.</hi> Thus wee ſee, by the teſtimonie of Armilla and Paludanus, what is the generall opinion of Cano<g ref="char:EOLhyphen"/>niſts, and by the Confeſſion alſo of Sotus, what is the ge<g ref="char:EOLhyphen"/>nerall opinion of Diuines, <note place="margin">In dubijs tutior pars eſt eligen<g ref="char:EOLhyphen"/>da.</note> whoſe opinion it is ſecureſt to followe, eſpecially ſeeing, there is ſo litle labour to re<g ref="char:EOLhyphen"/>ceiue this Sacrament, and ſo greate good gotten by it, as shall hereafter appeare.</p>
+               <p>Moreouer, ſith (as is be<g ref="char:EOLhyphen"/>fore ſaid) all agree, that not to receiue this Sacrament
+<pb n="70" facs="tcp:510:42"/> vppon contempt, is a mortall Sinne, how can hee, who conſidereth the giuer, the excellencie of the gifte, the greate profit himſelfe may reape thereby, and alſo the greate need hee hath thereof, eſpecially in time of perſecu<g ref="char:EOLhyphen"/>tion, bee not thought to con<g ref="char:EOLhyphen"/>temne <note place="margin">VVhence wee may gather a contempt.</note> the gifte, and alſo ſuch a giuer, if hee receiue it not, when hee may conue<g ref="char:EOLhyphen"/>niently? For if all would co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>demne him, who refuſeth a precious gift, which a Prince hath at his greate coſt proui<g ref="char:EOLhyphen"/>ded for him, and which is both honorable, profitable, and needfull to him, and no
+<pb n="71" facs="tcp:510:42"/> way incommodious; what shall wee thinke of him, who refuſeth the Sacrament of Confirmation, which Chriſt hath prouided for him at the price of his pretious blood, which is moſt honorable to him before God and man, moſt profitable to his Soule, and no way painfull, or trou<g ref="char:EOLhyphen"/>bleſome for him to receiue? And the like I ſay of the Eu<g ref="char:EOLhyphen"/>chariſt and extreme Vnction.</p>
+               <p>If any obiect, that if not to care to receiue a Sacrame<g ref="char:cmbAbbrStroke">̄</g>t, were to contemne it, the<g ref="char:cmbAbbrStroke">̄</g> not <note place="margin">Differe<g ref="char:cmbAbbrStroke">̄</g>ce beetweene Confirma<g ref="char:EOLhyphen"/>tion and Orders and Ma<g ref="char:EOLhyphen"/>trimonie.</note> to care to receiue the Sacr<hi rend="sup">ent</hi>. of Orders or of Matrimonie, were to contemne them: I
+<pb n="72" facs="tcp:510:43"/> aunſweare, that Orders and Matrimonie were not inſti<g ref="char:EOLhyphen"/>tuted <milestone type="tcpmilestone" unit="unspecified" n="1"/> abſolutely for all, but for ſuch as would; but Con<g ref="char:EOLhyphen"/>firmatio<g ref="char:cmbAbbrStroke">̄</g>, Euchariſt, and Ex<g ref="char:EOLhyphen"/>treme Vnction, were inſtitu<g ref="char:EOLhyphen"/>ted abſolutely for all Chri<g ref="char:EOLhyphen"/>ſtians, and without any refe<g ref="char:EOLhyphen"/>rence to theire wills, and Chriſt inuiteth all to theſe Sacraments, but to the other two, hee inuiteth onely thoſe that will come; And it is a farre different thing, not to accept an abſolute offer of a precious gifte, or an abſo<g ref="char:EOLhyphen"/>lute inuitation to a banquet then to refuſe a conditionall offer, or inuitation, onely if
+<pb n="73" facs="tcp:510:43"/> one will; Secondly, euery one <milestone type="tcpmilestone" unit="unspecified" n="2"/> is not fitt for Orders, or mar<g ref="char:EOLhyphen"/>riages, no nor capable of them, as women are not ca<g ref="char:EOLhyphen"/>pable of Orders, nor Eu<g ref="char:EOLhyphen"/>nuches of Marriage, but eue<g ref="char:EOLhyphen"/>ry one is both fitt a<g ref="char:cmbAbbrStroke">̄</g>d capable to bee confirmed that is Chriſtned. Thirdly, Orders <milestone type="tcpmilestone" unit="unspecified" n="3"/> and Matrimonie are not ne<g ref="char:EOLhyphen"/>ceſſary <hi>neceſsitate medij ad bene eſſe</hi> or <hi>ad perfectione<g ref="char:cmbAbbrStroke">̄</g> Chriſtiani,</hi> as Confirmation is: Fourth<g ref="char:EOLhyphen"/>ly, <milestone type="tcpmilestone" unit="unspecified" n="4"/> Orders and Matrimonie bring with them ſome tem<g ref="char:EOLhyphen"/>porall difficulties or incom<g ref="char:EOLhyphen"/>modities, as Orders celibate or ſingle life, and Matrimo<g ref="char:EOLhyphen"/>nie the incumbrances of that
+<pb n="74" facs="tcp:510:44"/> State; For which cauſes a ma<g ref="char:cmbAbbrStroke">̄</g> may iuſtly bee preſumed not to take them without any contempt, but the like is not of Confirmation, Euchariſt, or Extreme Vnction; And therefore not to receiue theſe (eſpecially Confirma<g ref="char:EOLhyphen"/>tion, beeing the compleme<g ref="char:cmbAbbrStroke">̄</g>t of our Baptiſme which wee haue already receiued) in all our life, when conueniently wee may, may iuſtly bee ter<g ref="char:EOLhyphen"/>med a contempt. And per<g ref="char:EOLhyphen"/>haps for this cauſe, becauſe Confirmation is the com<g ref="char:EOLhyphen"/>pleme<g ref="char:cmbAbbrStroke">̄</g>t of our Baptiſme, and maketh vs compleate and perfect Chriſtians, our Sa<g ref="char:EOLhyphen"/>uiour
+<pb n="75" facs="tcp:510:44"/> called it <hi>Baptiſme with</hi> 
+                  <note place="margin">VVhy Co<g ref="char:cmbAbbrStroke">̄</g>
+                     <g ref="char:EOLhyphen"/>firmation is called Baptiſme.</note> 
+                  <hi>the holy Ghoſt,</hi> ſaying. Act. 1. <hi>You shall bee baptized with the ho<g ref="char:EOLhyphen"/>ly Ghoſt after few dayes.</hi>
+               </p>
+               <p>And this neceſſitie of Co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>firmation, which wee haue prooued by the Cuſtome of Chriſts Church, euen from her beginning, by the teſti<g ref="char:EOLhyphen"/>monie of holy Fathers, by the expreſſe Commaunde<g ref="char:EOLhyphen"/>ment and Cuſtome of our English Church, and by the doctrine of Canoniſts, and <note place="margin">Reaſons of the ne<g ref="char:EOLhyphen"/>ceſſitie of Confir<g ref="char:EOLhyphen"/>mation.</note> moſt of the Diuines, wee may co<g ref="char:cmbAbbrStroke">̄</g>firme by reaſon; For ſeeing (as ſaint Thomas ſaith) it is Gods intention, that wee should become compleate
+<pb n="76" facs="tcp:510:45"/> and perfect Chriſtians, and that wee cannot bee ſuch but by Confirmation, ſeeing, by it is giuen vs ſtrength and armour to reſiſt the enemies of our faith in time of perſe<g ref="char:EOLhyphen"/>cution, and that it is temeri<g ref="char:EOLhyphen"/>tie to enter into a dau<g ref="char:cmbAbbrStroke">̄</g>gerous Combat without Armour, when wee may eaſily haue it: ſeeing, that Chriſt commau<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>ded his Apoſtles not to de<g ref="char:EOLhyphen"/>part out of Hieruſale<g ref="char:cmbAbbrStroke">̄</g> till they had receiued the grace of this Sacrament; ſeeing alſo, that ſo greate commodities come to vs by this Sacrame<g ref="char:cmbAbbrStroke">̄</g>t, as wee shall she we hereafter; and finally, ſeeing that all
+<pb n="77" facs="tcp:510:45"/> would greately condemne him, who at the time of death would not receiue ex<g ref="char:EOLhyphen"/>treme Vnction, when co<g ref="char:cmbAbbrStroke">̄</g>ue<g ref="char:EOLhyphen"/>niently hee may; how can wee not greatly condemne him who (at leaſt in time of perſecutio<g ref="char:cmbAbbrStroke">̄</g>) may receiue this Sacrament of Confirmation conueniently, and yet will not, ſeeing hee doth thereby fruſtrate the intention of God, depriue himſelfe of the complement or perfection of a Chriſtian, expoſe himſelfe vnarmed to the darts of the Enemie, aduenture more then Chriſt himſelfe would haue his Apoſtles to aduen<g ref="char:EOLhyphen"/>ture,
+<pb n="78" facs="tcp:510:46"/> hinder himſelfe from that State in which the Apo<g ref="char:EOLhyphen"/>ſtles were putt on Whitſon<g ref="char:EOLhyphen"/>day, and from greate in<g ref="char:EOLhyphen"/>creaſe of grace in this world, and of glory in the next, and more neglect the Sacrament of Confirmation, then hee would doe the Sacrament of Extreme Vnction? And thus hauing ſeene the neceſſitie of Confirmation; Now lett vs ſee the ef<g ref="char:EOLhyphen"/>fects or profits thereof.</p>
+            </div>
+            <div n="7" type="chapter">
+               <pb n="79" facs="tcp:510:46"/>
+               <head>CHAPTER. VII. <hi>Of the effects of Confirmation common to all that receiue it.</hi>
+               </head>
+               <p>AS touching all other Sacraments, ſo alſo co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>cerning Confirmation, there are ſome that receiue it wor<g ref="char:EOLhyphen"/>thily, and ſome vnworthily, and in both ſorts it worketh ſomeeffects, and of theſe wee vvill ſpeake in this Chapter, and in the next of thoſe vvhich it vvorketh in thoſe that receiue it vvorthily.</p>
+               <pb n="80" facs="tcp:510:47"/>
+               <p> The firſt effect which it <note place="margin">Spirituall affinitie in Confirma<g ref="char:EOLhyphen"/>tion.</note> worketh in all that receiue it, is ſpirituall affinitie; this it doth by the inſtitution of the Church, which ordaineth that there shall bee a ſpiri<g ref="char:EOLhyphen"/>tuall affinitie, betweene the Bishop that confirmeth, and the perſon confirmed and his Parents, and alſo betweene the Godfather or Godmo<g ref="char:EOLhyphen"/>ther, and the partie confir<g ref="char:EOLhyphen"/>med and his Parents; which affinitie is of the ſelfe ſame nature, of which that is, which is contracted in Bap<g ref="char:EOLhyphen"/>tiſme, and in like ſort hinde<g ref="char:EOLhyphen"/>reth Mariage betweene the<g ref="char:cmbAbbrStroke">̄</g> in whome it is, as that doth.</p>
+               <pb n="81" facs="tcp:510:47"/>
+               <p> The ſecond, is a ſpirituall <note place="margin">Charac<g ref="char:EOLhyphen"/>ters of a perfect Chriſtian and Soul<g ref="char:EOLhyphen"/>dier.</note> and inuiſible Character, which it imprinteth in the Soule of him that receiueth it, and therewith marketh him in the ſight of God and his Angells, for a Souldier of Chriſt, who <hi>ex officio,</hi> and by ſpeciall profeſſion, is to con<g ref="char:EOLhyphen"/>feſſe his faith eue<g ref="char:cmbAbbrStroke">̄</g> before per<g ref="char:EOLhyphen"/>ſecutors. For as in Baptiſme there is imprinted in the Soule, a ſpirituall Character, where with wee are marked for Children or Subiects of God, and in Orders an other, where with they that receiue it, are marked for Chriſts Officers in his Church: So
+<pb n="82" facs="tcp:510:48"/> in Confirmatio<g ref="char:cmbAbbrStroke">̄</g> there is prin<g ref="char:EOLhyphen"/>ted the like, whereby wee are marked for Chriſts Soul<g ref="char:EOLhyphen"/>diers, who by ſpeciall office and profeſsion vndertake to profeſſe Chriſts faith euen <note place="margin">The con<g ref="char:EOLhyphen"/>firmed pro<gap reason="illegible" resp="#APEX" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ſſe theire Faith <hi>ex officio.</hi>
+                  </note> before perſecutors. For as all Subiects are bound to fight for theire Prince, but his Souldiers more eſpecially by theire Profeſſion and office: So are all Chriſtians bound to profeſſe Chriſts faith, but thoſe that are confirmed, are bound thereto, by theire ſpe<g ref="char:EOLhyphen"/>ciall office of ſpirituall Soul<g ref="char:EOLhyphen"/>diers; And if they continue true Souldiers to theire greate Captaine, this marke
+<pb n="83" facs="tcp:510:48"/> will remaine in theire Soules for all eternitie more glo<g ref="char:EOLhyphen"/>rious then any Starre in the <note place="margin">The glo<g ref="char:EOLhyphen"/>rie of the Character of Confir<g ref="char:EOLhyphen"/>mation.</note> firmament, as a perpetuall ſigne and teſtimonie that heere in this world they vn<g ref="char:EOLhyphen"/>dertoke to bee Souldiers of Chriſt, and to profeſſe his name in what perill ſoeuer: and contrariwiſe to theire eternall confuſion, if they proue Traytors to Chriſt and his Campe.</p>
+               <p>The third effect which Confirmation worketh in all that receiue it, is that in the face of the Church and be<g ref="char:EOLhyphen"/>fore men, it maketh vs abſo<g ref="char:EOLhyphen"/>lute and co<g ref="char:cmbAbbrStroke">̄</g>pleate Chriſtians,
+<pb n="84" facs="tcp:510:49"/> and worthy of that name in all reſpects; For whereas be<g ref="char:EOLhyphen"/>fore by Baptiſme wee were but in the State of Children or Childish Chriſtians, by Confirmation wee are putt in State of men or manly Chriſtians. And therefore, as a man better deſerueth the name of a man, then a Child doth: So a confirmed Chri<g ref="char:EOLhyphen"/>ſtian better deſerueth the name of a Chriſtia<g ref="char:cmbAbbrStroke">̄</g>, then one who is not confirmed; More<g ref="char:EOLhyphen"/>ouer, <note place="margin">Chriſte name of Chriſme and conſe<g ref="char:EOLhyphen"/>quently Chriſtian.</note> though thoſe who are baptized, deſerue the name of Chriſtians, ſo farrefourth as <hi>Chriſtian</hi> ſimply ſignifieth a diſciple and me<g ref="char:cmbAbbrStroke">̄</g>ber of Chriſt
+<pb n="85" facs="tcp:510:49"/> yet as the name of <hi>Chriſt</hi> is deriued from <hi>Chriſme,</hi> and co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>ſequently the name of <hi>Chri<g ref="char:EOLhyphen"/>ſtian</hi> according to the perfect and entire deriuation thereof from the name of Chriſt, doth alſo ſignifie a <hi>Chriſmed or anointed diſciple of Chriſt:</hi> ſo the name of <hi>Chriſtian</hi> accor<g ref="char:EOLhyphen"/>ding to its complete and per<g ref="char:EOLhyphen"/>fect ſignification, doth agree onely to thoſe that are con<g ref="char:EOLhyphen"/>firmed; And for this cauſe ſaint Cyrill and the Councell of Orleans before cited, ſaid, <note place="margin">Supra. C. 4.</note> that men till they were con<g ref="char:EOLhyphen"/>firmed <hi>were not Chriſtians or not properly worthie of that name:</hi> And Author de vnct. Chriſ<g ref="char:EOLhyphen"/>matis:
+<pb n="86" facs="tcp:510:50"/> 
+                  <hi>As Chriſt is ſo called of Chriſme: So all that are confir<g ref="char:EOLhyphen"/>med, are thereby made partakers both of an ointment and name.</hi> The like haue ſaint Cyprian, ſaint Proſper, and ſaint Au<g ref="char:EOLhyphen"/>ſtin before cited; Further<g ref="char:EOLhyphen"/>more, by Baptiſme wee are but admitted into the Citie of God, but by Confirma<g ref="char:EOLhyphen"/>tion wee are alſo admitted into his Campe, and thought worthie to fight for his cauſe.</p>
+               <p>And for theſe effects of Confirmation ſaint Thomas 3. p. q. 65. art. 4. ſaith: <hi>Confir<g ref="char:EOLhyphen"/>mation in a ſort doth perfect Bap<g ref="char:EOLhyphen"/>tiſme;</hi> q. 72. art. 1. <hi>In Confirma<g ref="char:EOLhyphen"/>tion</hi>
+                  <pb n="87" facs="tcp:510:50"/> 
+                  <hi>a man cometh as it were to perfect age of ſpirituall life</hi> Art. 5. <hi>Confirmation is a ſpirituall growth ſetting a man forward to a perfect ſpirituall age:</hi> Art. 6. <note place="margin">The ex<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#APEX" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>lencie o<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> one <gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>o<g ref="char:cmbAbbrStroke">̄</g>
+                     <g ref="char:EOLhyphen"/>firmed o<g ref="char:EOLhyphen"/>uer him<g ref="char:EOLhyphen"/>ſelfe not co<g ref="char:cmbAbbrStroke">̄</g>firmed.</note> 
+                  <hi>This Sacrament is giuen for a cer<g ref="char:EOLhyphen"/>taine excellencie, not of one man ouer an other, but of one man a<g ref="char:EOLhyphen"/>boue himſelfe as the ſame beeing a perfect ma<g ref="char:cmbAbbrStroke">̄</g> in reſpect of himſelfe beeing a Child.</hi> Art. 10. <hi>Therefore</hi> 
+                  <note place="margin">As a man ouer a Child.</note> 
+                  <hi>hee who cometh to this Sacrament is held, as beeing yet ſpiritually weake or a Child:</hi> And Art. 5. <hi>Hee that is confirmed receiueth power publikely to profeſſe Chriſts Faith by mouth as it were by of<g ref="char:EOLhyphen"/>fice.</hi> By which wordes of ſaint Thomas wee ſee, both the
+<pb n="88" facs="tcp:510:51"/> effects and end of this Sa<g ref="char:EOLhyphen"/>crament, which is to make ſtrong me<g ref="char:cmbAbbrStroke">̄</g> in Chriſt, of weake Children, to perfect that which Baptiſme had begun, and to make Souldiers of Chriſt by office and profeſ<g ref="char:EOLhyphen"/>ſion: But now lett vs ſee the effects, which Confirmation worketh in thoſe that wor<g ref="char:EOLhyphen"/>thily receiue it.</p>
+            </div>
+            <div n="8" type="chapter">
+               <head>CHAPTER. VIII. <hi>Of the effects which Confirmation worketh in thoſe that wor<g ref="char:EOLhyphen"/>thily receiue it.</hi>
+               </head>
+               <p>BVt as for thoſe who wor<g ref="char:EOLhyphen"/>thily receiue the Sacra<g ref="char:EOLhyphen"/>ment
+<pb n="89" facs="tcp:510:51"/> of Confirmation, be<g ref="char:EOLhyphen"/>ſides the effects ſpoake<g ref="char:cmbAbbrStroke">̄</g> of in the former Chapter, it woor<g ref="char:EOLhyphen"/>keth <note place="margin">The con<g ref="char:EOLhyphen"/>firmed putt in the State of the Apo<g ref="char:EOLhyphen"/>ſtles on VVhite<g ref="char:EOLhyphen"/>ſonday.</note> many other and more notable effects; For firſt it putteth them in the ſame Eſtate, in which the bleſſed Apoſtles were putt by the deſcent of the holy Ghoſt on Whitſonday, though not in that miraculous manner, nor in that high degree; For (as is before ſaid) the Apoſtles then receiued the grace of this Sacrament Without the Sacrament it ſelfe. Chriſt by his power of Excellency (whereby hee is not tyed
+<pb n="90" facs="tcp:510:52"/> to Sacraments) gaue them the grace of this Sacrament without the Sacrament, and the primities or firſt fruites of the holy Ghoſt; This teſti<g ref="char:EOLhyphen"/>fie ſaint Cyprian and ſaint Hierome in the words rela<g ref="char:EOLhyphen"/>ted ſupra. c. 2. and alſo ſaint Melchiades Epiſtola cit. in theſe words: <hi>What impoſition of hands in the confirming of new Cbriſtians giueth to euery one, that then the diſcent of the holy Ghoſt vppon the faithfull people, gaue to all:</hi> The ſame profeſſeth the holy Church in the prayer, which shee maketh ouer the<g ref="char:cmbAbbrStroke">̄</g> that are confirmed, ſaying: <hi>God who gaueſt the holy Ghoſt</hi>
+                  <pb n="91" facs="tcp:510:52"/> 
+                  <hi>vnto the Apoſtles, and wouldſt haue him giuen to the reſt of the Faithfull by the<g ref="char:cmbAbbrStroke">̄</g> and theire Succeſ<g ref="char:EOLhyphen"/>ſors;</hi> And the ſame teacheth ſaint Thomas 3. p. q. 72. art. 7. <hi>Chriſt</hi> (ſaith hee) <hi>by his power of excel<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>encie gaue his Apoſtles the effect of this Sacrament, without the Sacrament, becauſe they re<g ref="char:EOLhyphen"/>ceiued the primities of the holy Ghoſt;</hi> And the ſame ſay other Diuines.</p>
+               <p>Secondly, it giueth habi<g ref="char:EOLhyphen"/>tuall <note place="margin">Confirma<g ref="char:EOLhyphen"/>tion gi<g ref="char:EOLhyphen"/>ueth abun<g ref="char:EOLhyphen"/>dance of grace.</note> or iuſtifying grace, and in that abundance and ple<g ref="char:cmbAbbrStroke">̄</g>tie, as it is ſaid of the holy Fa<g ref="char:EOLhyphen"/>thers and Diuines to giue the <hi>Fulnes of the holy Ghoſt,</hi> and not grace onely, but alſo the.
+<pb n="92" facs="tcp:510:53"/> 
+                  <hi>Seauen gifts of the holy Ghoſt:</hi> For thus ſpeake the Canons <note place="margin">And the ſeauen gifts of the holy Ghoſt.</note> de Conſt. D. 5. C. Nouiſſime: <hi>The baptized, is ſigned in the fore<g ref="char:EOLhyphen"/>head, that the ſeauenfold grace of the holy Ghoſt with all fullnes of Sanctitie, knowledge and vertue, may bee declared to come vppon man.</hi> Saint Clement Epiſtola cit. <hi>All muſt bee conſigned of the Bishop, that is, receiue the ſeauen<g ref="char:EOLhyphen"/>fold grace of the holy Ghoſt.</hi> Saint Ambroſe l. 3. de Sacram. c. 2. <hi>Theſe are the ſeauen vertues when thou art confirmed.</hi> Saint Tho<g ref="char:EOLhyphen"/>mas. 3. p. q. 72. ar. 1 <hi>Confir<g ref="char:EOLhyphen"/>mation is a Sacrament of the ful<g ref="char:EOLhyphen"/>nes of grace:</hi> Againe, <hi>this Sa<g ref="char:EOLhyphen"/>crament is giuen to obtaine the</hi>
+                  <pb n="93" facs="tcp:510:53"/> 
+                  <hi>fulnes of the holy Ghoſt, whoſe working is manifold according to that Sap.</hi> 7. And art. 11. <hi>In this Sacrament the ſeauenfold grace of the holy Ghoſt, with all fulnes of Sanctitie, and knowledge and vertue cometh to man;</hi> And So<g ref="char:EOLhyphen"/>tus in 4. d. 7. qu. vnica art. 7. <hi>It is a point of Faith, that this</hi> 
+                  <note place="margin">Giueth more grace then any Sacra<g ref="char:EOLhyphen"/>ment ex<g ref="char:EOLhyphen"/>cept the Euchariſt.</note> 
+                  <hi>Sacrament is inſtituted to giue the fullnes of the holy Ghoſt, where<g ref="char:EOLhyphen"/>vppon it followeth, with greate apparence, that in this Sacrament is giuen a greater and more plen<g ref="char:EOLhyphen"/>tifull degree of grace, then in Bap<g ref="char:EOLhyphen"/>tiſme or in any other Sacrament, except the Euchariſt &amp; perhaps Prieſthood; This shevv the Ca<g ref="char:EOLhyphen"/>nons vvhich ſaie, that by this Sa<g ref="char:EOLhyphen"/>crament</hi>
+                  <pb n="94" facs="tcp:510:54"/> 
+                  <hi>wee bee made full Chri<g ref="char:EOLhyphen"/>ſtians, increaſe of grace is affor<g ref="char:EOLhyphen"/>ded, and the ſeauenfold grace of the holy Ghoſt, with all fulnes is giuen;</hi> And this appeareth in the holy Apoſtles, who <note place="margin">Example of the Apoſtles.</note> though they had receiued the Sacraments of Baptiſme, of the Euchariſt, and of Or<g ref="char:EOLhyphen"/>ders, yet were fearefull, till they had receiued the grace of this holy Sacrament, and thereby were endued with ſtrength from aboue; And as for the Sacrament of Bap<g ref="char:EOLhyphen"/>tiſme, the grace thereof ſee<g ref="char:EOLhyphen"/>meth to bee ſo farre excee<g ref="char:EOLhyphen"/>ded, by the grace of Confir<g ref="char:EOLhyphen"/>mation, as the ſtrength of a
+<pb n="95" facs="tcp:510:54"/> Child is exceeded by the ſtrength of a man; For thus ſaith ſaint Thomas. q. 72. cit. <hi>This Sacrament is giuen to a cer<g ref="char:EOLhyphen"/>taine excellencie of a man aboue himſelfe, as the ſame beeing a per<g ref="char:EOLhyphen"/>fect man excelleth himſelfe beeing a Child.</hi> And ib. art. 11. <hi>For the greater effect this vnction is re-reſerued to the Bishop.</hi> The like hath Sotus loco cit. art. 1.</p>
+               <p>Thirdly, it not onely gi<g ref="char:EOLhyphen"/>ueth <note place="margin">Confir<g ref="char:EOLhyphen"/>mation giueth a Sacramen<g ref="char:EOLhyphen"/>tall grace.</note> habituall or iuſtifying grace, and the ſeauenfold gifts of the holy Ghoſt, but alſo it giueth a ſpeciall Sacra<g ref="char:EOLhyphen"/>mentall grace. For as it is a ſpeciall Sacrament, ſo alſo it giueth a Sacramenrall grace,
+<pb n="96" facs="tcp:510:55"/> which is a ſpeciall aſſiſtance, which God bindeth him<g ref="char:EOLhyphen"/>ſelfe to afford to thoſe, who receiue any Sacrament, for to effect that for which hee inſtituted that Sacrament. And becauſe the end for which God inſtituted this Sacrament of Confirmation, is (as is before ſaid) to be<g ref="char:EOLhyphen"/>come full and perfect Chri<g ref="char:EOLhyphen"/>ſtians, and couragiouſly to profeſſe his faith, hee doth bind himſelfe peculiarly to aſſiſt to this end, thoſe that receiue this Sacrament; This <note place="margin">VVhat i<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> the Sacra<g ref="char:EOLhyphen"/>mentall grace of Confirma<g ref="char:EOLhyphen"/>tion.</note> teacheth Suarez to. 4. d. 34. art. 2. <hi>It giueth</hi> (ſaith hee) <hi>Sa<g ref="char:EOLhyphen"/>cramentall grace, that is a ſpeciall</hi>
+                  <pb n="97" facs="tcp:510:55"/> 
+                  <hi>protection of the holy Ghoſt con<g ref="char:EOLhyphen"/>ſtantly to hold and profeſſe a liue<g ref="char:EOLhyphen"/>ly Faith;</hi> And ſeeing a liuely faith includeth, both faith and Charitie or grace, this Sacrament giueth a ſpeciall protection of the holy Ghoſt conſta<g ref="char:cmbAbbrStroke">̄</g>tly to hold both Faith and Grace; by which alone appeareth, what greate good is gotten by hauing this Sa<g ref="char:EOLhyphen"/>crament, and what greate loſſe by wanting it; The like hath ſaint Thomas q. 72. ar. 5. <hi>In Confirmation</hi> (ſaith hee) <hi>a man receiueth power to doe thoſe things, that belong to a ſpirituall fight againſt the Enemies of the Faith.</hi> And Pope Eugenius in
+<pb n="98" facs="tcp:510:56"/> Decreto Fidei. <hi>By Confirma<g ref="char:EOLhyphen"/>tion wee receiue increaſe of Grace, and are ſtrengthened in Faith.</hi> S. Petrus Damianus ſerm. 1. de dedicat. <hi>In baptiſme the ſpirit is giuen for pardon, here for fight, there wee are cleanſed from Sinne, here wee are armed with vertues</hi> ſaint Melchiades Epiſt. cit. <hi>Before the deſce<g ref="char:cmbAbbrStroke">̄</g>t of the holy Ghoſt, the Apoſtles vvere terrified euen to deniall, but after his viſitation they vvere armed vvith contempt of life euen vnto Martyrdome:</hi> The ſame ſaith ſaint Grego<g ref="char:EOLhyphen"/>rie of ſaint Peeter.</p>
+               <p>Laſtly, Confirmation re<g ref="char:EOLhyphen"/>mitteth Sinne in thoſe who <note place="margin">Confir<g ref="char:EOLhyphen"/>mation remitteth Sinne.</note> haue not culpable ignorance
+<pb n="99" facs="tcp:510:56"/> thereof; For thus writeth ſaint Thomas q. 72. cit. ar. 6. <hi>If any man beeing in Sinne, where<g ref="char:EOLhyphen"/>of hee hath no remembrance, or elſe came not vvith perfect Contri<g ref="char:EOLhyphen"/>tion: So that hee came not fained<g ref="char:EOLhyphen"/>ly, hee shall obtaine remiſsion of Sinnes by the grace giuen in this Sacrament;</hi> And the ſame So<g ref="char:EOLhyphen"/>tus in 4. d. 7. q. vn. art. 7. and others ſay, who teach, that, <hi>Attrition thought to bee Co<g ref="char:cmbAbbrStroke">̄</g>trition is ſufficient to come to this Sacra<g ref="char:EOLhyphen"/>ment;</hi> And for theſe ſo many and ſo greate effects of Con<g ref="char:EOLhyphen"/>firmation ſaint Denis c. 2. Ec<g ref="char:EOLhyphen"/>cleſ. Hierar. ſaith: Confir<g ref="char:EOLhyphen"/>mation <hi>maketh men moſt Di<g ref="char:EOLhyphen"/>uine</hi> 
+                  <note place="margin">Confirma<g ref="char:EOLhyphen"/>tion ma<g ref="char:EOLhyphen"/>keth men Diuine.</note> and c. 4. calleth Chriſme,
+<pb n="100" facs="tcp:510:57"/> 
+                  <hi>a Deifying Ointment;</hi> And the Councell of Laodicea cap. 48. <hi>The ointment of Superceleſtiall Chriſme, and moſt holy Chriſme.</hi> 
+                  <note place="margin">Chriſme a Deifying ointment.</note> And thus haue wee ſeene the effects of Confirmation. Lett vs goe to the Prerogatiues thereof.</p>
+            </div>
+            <div n="9" type="chapter">
+               <head>CHAPTER IX. <hi>Of the Prerogatiues of the Sacrament of Con<g ref="char:EOLhyphen"/>firmation.</hi>
+               </head>
+               <p>THe firſt Prerogatiue of <note place="margin">The name of the ho<g ref="char:EOLhyphen"/>ly Ghoſt attributed to Confir<g ref="char:EOLhyphen"/>mation.</note> the Sacrament of Con<g ref="char:EOLhyphen"/>firmation, whereof wee will
+<pb n="101" facs="tcp:510:57"/> ſpeake, is taken from the name, wherewith ether it ſelfe, or the effect thereof ge<g ref="char:EOLhyphen"/>nerally and vſually ſignified in the holy Scripture, which is the very name of the holy Ghoſt, the third perſon in the holy Trinitie; For Chriſt our Sauiour ſpeaking Act. 1. (as is before related) of the grace of this Sacrament: which hee would powre downe vppon the Apoſtles in the day of Pe<g ref="char:cmbAbbrStroke">̄</g>tecoſt, ſaith. <hi>Ihon indeed bap<g ref="char:EOLhyphen"/>tized with water, but you shall bee baptized with the holy Ghoſt after theſe few dayes:</hi> And S. Luke Act. 2. relating the perfor<g ref="char:EOLhyphen"/>ma<g ref="char:cmbAbbrStroke">̄</g>ce of this his promiſe ſaith
+<pb n="102" facs="tcp:510:58"/> 
+                  <hi>There appeared to them parted tongues as it were of fire, and they vvere all replenished vvith the holy Ghoſt;</hi> And C. 8. ſpeaking of the Confirmation of the Samaritans by ſaint Peeter and ſaint Iohn, hee ſaith: <hi>Who vvhen they vvere come prayed for them, that they might receiue the holy Ghoſt, for hee vvas not yet come vppon any of them, but they vvere onely bapti<g ref="char:EOLhyphen"/>zed in the name of our Lord</hi> IE<g ref="char:EOLhyphen"/>SVS: <hi>Then they impoſed theire hands vppon them, and they re<g ref="char:EOLhyphen"/>ceiued the holy Ghoſt. And vvhen Simon</hi> (Magus) <hi>had ſeene, that by the impoſition of the hand of the Apoſtles the holy Ghoſt vvas</hi>
+                  <pb n="103" facs="tcp:510:58"/> 
+                  <hi>giuen hee off<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>red them monie, ſaying: Giue <gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e<g ref="char:punc">▪</g> alſo this power that on whomſoeuer I impoſe my hands hee may receiue the holy Ghoſt.</hi> Note. 1. How often in ſo fewe <gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ordes the Sacrame<g ref="char:cmbAbbrStroke">̄</g>t of Co<g ref="char:cmbAbbrStroke">̄</g>
+                  <gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>rmation or the effect thereof, is called the <hi>Holy Ghoſt.</hi> 2. How, euen they, who had beene baptized, are yet ſaid <hi>not to ha<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e receiued the holy Ghoſt,</hi> till they were confir<g ref="char:EOLhyphen"/>med; And in like manner hee ſaith Actor. 19. <hi>Hearing theſe thinges, they w<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>re baptized in the name of the Lord</hi> IESVS, <hi>and whe<g ref="char:cmbAbbrStroke">̄</g> Paul had impoſed hands vppon them, the holy Ghoſt came vppon them.</hi>
+               </p>
+               <pb n="104" facs="tcp:510:59"/>
+               <p> Now if it were a ſingular h<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nour to Abraham, and S. Peeter, that God would giue them ſpeciall names beca<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſe that did both declare Gods ſpeciall fauour to them, and the names did declare theire Excel<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>encie, becauſe <note place="margin">God gi<g ref="char:EOLhyphen"/>uet not emptie names.</note> God doth not impoſe vaine or emptie names, which ſig<g ref="char:EOLhyphen"/>nifie nothing, as Abr<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hams name doth ſignifie that hee was, <hi>Pater multarum gentium</hi> and Peeters name that hee was <hi>The Ro<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ke of the Church,</hi> what a Prerogatiue or ho<g ref="char:EOLhyphen"/>nour thinke wee is it, to this greate Sacrament, that God would not onely giue it a
+<pb n="105" facs="tcp:510:59"/> peculiar name, but alſo would appropriate his owne name vnto it, at leaſt in it's effect; For this muſt needes argue both his ſpeciall fauour to<g ref="char:EOLhyphen"/>wards this Sacrame<g ref="char:cmbAbbrStroke">̄</g>t, and alſo a peculiar vertue in the Sa<g ref="char:EOLhyphen"/>crament, and Gods ſpeciall aſſiſtance in working of it.</p>
+               <p>The ſecond Prerogatine is <note place="margin">Confirm<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                     <g ref="char:EOLhyphen"/>tion call<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>d the Sacra<g ref="char:EOLhyphen"/>ment of Chriſme.</note> taken from that name, which the holy Fathers, Greeke and Latin, haue giuen to this Sa<g ref="char:EOLhyphen"/>crament, calling it the <hi>Sacra<g ref="char:EOLhyphen"/>ment of Chriſme;</hi> For ſeeing (as the ſame Fathers teach) Chriſts owne name is deriued from <hi>Chriſme,</hi> it muſt needes argue what greate account
+<pb n="106" facs="tcp:510:60"/> they made of this Sacrame<g ref="char:cmbAbbrStroke">̄</g>t, in giuing to it that name of which Chriſts owne name is deriued; So that the Sacra<g ref="char:EOLhyphen"/>ment of Confirmation hath at leaſt in it's effect, the name of the holy Ghoſt appropria<g ref="char:EOLhyphen"/>ted vnto it by the holy Scri<g ref="char:EOLhyphen"/>pture, and alſo the fountaine and origen of Chriſts name appropriated to it by the holy Fathers, which are as greate Prerogatiues for names as can bee.</p>
+               <p>The third Prerogatiue is taken from the promiſe of <note place="margin">The grace of Confir<g ref="char:EOLhyphen"/>matio<g ref="char:cmbAbbrStroke">̄</g> the greate promiſe of God.</note> the effect of this Sacrament, which ſeemeth by Chriſts wordes Act. 1. to bee that greate
+<pb n="107" facs="tcp:510:60"/> wordes Act. 1. to bee that greate and ſpeciall promiſe of his Father, whereof hee had ſo often ſpoake<g ref="char:cmbAbbrStroke">̄</g> to his A<g ref="char:EOLhyphen"/>poſtles: For thus writeth ſaint Luke: <hi>Hee commaunded them that they should not depart from Hieruſalem, but should expect the promiſe of the Father, which you heard ſaith hee by my mouth; For Ihon indeed baptized with water, but you shall bee baptized with the holy Ghoſt after theſe fewe dayes;</hi> Loe how hee calleth the grace of this Sacrament, that greate promiſe of his Father, which ſo often hee told them of, And the like may bee ga<g ref="char:EOLhyphen"/>thered out of ſaint Peeters
+<pb n="108" facs="tcp:510:61"/> wordes: Act. 2. And ſure it is that that which God the Fa<g ref="char:EOLhyphen"/>ther ſo ſpecially promiſed, and which Chriſt ſo often ſpoake of, is ſome ſpeciall and ſingular matter.</p>
+               <p>The fourth Prerogatiue is <note place="margin">Confirma<g ref="char:EOLhyphen"/>tion ſpe<g ref="char:EOLhyphen"/>cially gra<g ref="char:EOLhyphen"/>ced with miracles<g ref="char:punc">▪</g>
+                  </note> the greate and continuall miracle, wherewith Allmigh<g ref="char:EOLhyphen"/>tie God in the beginning of his Church vouchſafed eſpe<g ref="char:EOLhyphen"/>cially to grace and authorize this Sacrament; For when the grace of this Sacrament was beſtowed vppon the Apoſ<g ref="char:EOLhyphen"/>tles act. 2. <hi>Suddainely there vvas made a ſound from heauen, as of avehement wind comming, and it filled the whole howſe where they were ſitting. And there appeared</hi>
+                  <pb n="109" facs="tcp:510:61"/> 
+                  <hi>to them parted tongues as it were of fire, and it ſate vppon euery one of them, and they vvere all re<g ref="char:EOLhyphen"/>plenished vvith the holy Ghoſt, and they began to ſpeake vvith diuers tongues, as the holy Ghost gaue them to ſpeake;</hi> And Act. 19. <hi>When ſaint Paul had impoſed hands vppon ſome, the holy Ghoſt came vppon them, and they ſpake vvith tongues, and prophecied.</hi> Loe with what greate mira<g ref="char:EOLhyphen"/>cles Allmightie God did in the beginning of the Church grace and commend to vs this greate Sacrame<g ref="char:cmbAbbrStroke">̄</g>t, as that at the giuing thereof hee would giue the gifte of tongues and of prophecie:
+<pb n="110" facs="tcp:510:62"/> the like gracing of other Sa<g ref="char:EOLhyphen"/>craments wee find not in ho<g ref="char:EOLhyphen"/>ly Scripture; which perhaps vvas the cauſe, vvhy that wretch Simo<g ref="char:cmbAbbrStroke">̄</g> Magus ſpecially deſired to buy the power to giue this Sacrament; Neither did God onely in the begin<g ref="char:EOLhyphen"/>ning of his Church thus grace this Sacrament with miracles, but alſo afterwar<g ref="char:EOLhyphen"/>des; For ſaint Optatus l. 2. telleth that when the Dona<g ref="char:EOLhyphen"/>tiſts caſt out of a windowe, a viall of holy Chriſme, <hi>there wanted not the hand of an Angell to receiue it, and by the power of God it reſted vnbroken among the Stones:</hi> Saint Bernard in vita
+<pb n="111" facs="tcp:510:62"/> Malachiae, reporteth, how ſaint Malchus cured a Luna<g ref="char:EOLhyphen"/>ticke perſon by Confirma<g ref="char:EOLhyphen"/>tion, and hee greately com<g ref="char:EOLhyphen"/>mendeth ſaint Malachie, for renewing the moſt whole<g ref="char:EOLhyphen"/>ſome vſe of Confirmation, which had bene for ſome time intermitted in Ireland. Saint Rembert alſo curied a blind man by Confirmation, And the like did ſaint Faro, as may bee ſeene in theire liues in Surius; And as the Eccle<g ref="char:EOLhyphen"/>ſiaſticall Hiſtories record, <note place="margin">The Di<g ref="char:EOLhyphen"/>uells mouth ſtopt where the confirmed are ver.</note> the Diuell could giue no anſwer in preſence of confir<g ref="char:EOLhyphen"/>med Chriſtians: See Lactant. de ver. Sap. cap. 27. Turon.
+<pb n="112" facs="tcp:510:63"/> de Glor. Mar. l. 1. c. 41. Na<g ref="char:EOLhyphen"/>zian. Orat. 1. in Iul. Prudent. in Apotheaſi.</p>
+               <p>The fifte Prerogatiue is, <note place="margin">God ap<g ref="char:EOLhyphen"/>pointeth his cheefe Officers for proper Miniſters of Confir<g ref="char:EOLhyphen"/>mation.</note> that the Holy Ghoſt, as hee appropriated his owne name to this Sacrament; ſo hee choſe the Apoſtles and Bis<g ref="char:EOLhyphen"/>hops theire Succeſſors who<g ref="char:cmbAbbrStroke">̄</g>e hee appointed for Gouer<g ref="char:EOLhyphen"/>nors of his Church, for the proper Miniſters of this Sa<g ref="char:EOLhyphen"/>crament. For whereas other Sacraments beſides Orders, can bee adminiſtred by infe<g ref="char:EOLhyphen"/>rior Prieſts, this can bee ad<g ref="char:EOLhyphen"/>miniſtred onely by a Bishop, where vppon in our English <note place="margin">VVhy Co<g ref="char:cmbAbbrStroke">̄</g>
+                     <g ref="char:EOLhyphen"/>firmation called Bi<g ref="char:EOLhyphen"/>shoping.</note> language it is called <hi>Bishoping</hi>
+                  <pb n="113" facs="tcp:510:63"/> of the proper and peculiar Miniſter thereof; For thus defineth the Councell of Flo<g ref="char:EOLhyphen"/>rence; <hi>Whereas a ſimple Prieſt may giue the other vnctions, this none but a Bishop muſt giue, be<g ref="char:EOLhyphen"/>cauſe it is read of the Apoſtles a<g ref="char:EOLhyphen"/>lone (whoſe place Bishops haue) that they gaue the holy Ghoſt by impoſition of hands.</hi> The ſame is to bee ſeene. De Conſec. d. 5. Com. de his, Cap. Man. and d. 4. Conc. Presbiteri. Herevppon the holy Church ſaith in her prayer after Con<g ref="char:EOLhyphen"/>firmation: <hi>God who gaueſt the holy Ghoſt vnto the Apoſtles, and wouldſt haue him giuen to the reſt of the Faithfull by them and theire</hi>
+                  <pb n="114" facs="tcp:510:64"/> 
+                  <hi>Succeſſors</hi> &amp;c. In which wordes the holy Church both ſaith, that God would haue all Chriſtians to bee confir<g ref="char:EOLhyphen"/>med, and alſo that hee would haue them co<g ref="char:cmbAbbrStroke">̄</g>firmed by the Apoſtles and Bishops theire Succeſſors, and doth inſi<g ref="char:EOLhyphen"/>nuate as well, that God com<g ref="char:EOLhyphen"/>maundeth Chriſtians to bee co<g ref="char:cmbAbbrStroke">̄</g>firmed, as that they should bee confirmed by Bishops. And why God would haue Bishops to bee the proper and peculiar Miniſters of this <note place="margin">VVhy Bishops properly Officers of Con<g ref="char:EOLhyphen"/>firmation.</note> Sacrament: Saint Thomas 3. p. q. 72. giueth two reaſons. The one is becauſe men in this Sacrame<g ref="char:cmbAbbrStroke">̄</g>t are made Soul<g ref="char:EOLhyphen"/>diers
+<pb n="115" facs="tcp:510:64"/> of Chriſts Camp, and to make Souldiers, belongeth onely to the Captaines of the Armie, as Bishops are: and not to inferior Officiers, as Prieſts bee. An other is, be<g ref="char:EOLhyphen"/>cauſe this Sacrament is to make me<g ref="char:cmbAbbrStroke">̄</g> perfect, and there<g ref="char:EOLhyphen"/>fore belongeth to Bishops, who are in State of perfectors and of diſpenſers of Gods myſteries; And herevppon ſaint Melchiades Epiſtola cit. inferreth, that becauſe Con<g ref="char:EOLhyphen"/>firmatio<g ref="char:cmbAbbrStroke">̄</g> can bee giuen one<g ref="char:EOLhyphen"/>ly by high Prieſts, that is Bishops, and Baptiſme can bee giuen by inferior Prieſts, therefore, <hi>Confirmation is more</hi>
+                  <pb n="116" facs="tcp:510:65"/> 
+                  <hi>to bee reuerenced and eſteemed</hi> 
+                  <note place="margin">Co<g ref="char:cmbAbbrStroke">̄</g>firma<g ref="char:EOLhyphen"/>tion pre<g ref="char:EOLhyphen"/>ferred be<g ref="char:EOLhyphen"/>fore Bap<g ref="char:EOLhyphen"/>tiſme.</note> 
+                  <hi>then Baptiſme;</hi> And ſaint Tho<g ref="char:EOLhyphen"/>mas q. cit. addeth: <hi>Becauſe this Sacrament is of more efficacie to perfect in good, then Baptiſme, therefore it is committed to a more worthie Miniſter.</hi>
+               </p>
+               <p>The ſixt Prerogatiue of <note place="margin">The no<g ref="char:EOLhyphen"/>blenes of the matter of Confir<g ref="char:EOLhyphen"/>mation.</note> Confirmation is taken from the noblenes of the matter thereof: For whereas the matter of Baptiſme is ſimple water, and of Extreme Vn<g ref="char:EOLhyphen"/>ction, ſimple oile, the neceſ<g ref="char:EOLhyphen"/>ſarie matter of this Sacrame<g ref="char:cmbAbbrStroke">̄</g>t, is Chriſme, that is a mixt or Compound ointment of oile and Baulme, which is a moſt precious liquor and rare to
+<pb n="117" facs="tcp:510:65"/> bee found; And (as Pliny ſaith l. 12. c. 25.) to bee pre<g ref="char:EOLhyphen"/>ferred before all odours; And beſides this, Chriſme muſt bee hallowed by a Bishop; For thus declareth the Coun<g ref="char:EOLhyphen"/>cell of Florence: <hi>The matter of Chriſme is made of oile, which ſignifieth the cleanenes of the Con<g ref="char:EOLhyphen"/>ſcie<g ref="char:cmbAbbrStroke">̄</g>ce, and of Baulme, which ſigni<g ref="char:EOLhyphen"/>fieth the odour of good fame, hal<g ref="char:EOLhyphen"/>lowed by a Bishop.</hi> And as Sua<g ref="char:EOLhyphen"/>rez ſaith, tom. 4. d. 33. art. 2. <hi>It is of neceſsitie of the Sacrament, that Chriſme bee hallowed of a Bishop, and it is the opinion of all Diuines few excepted;</hi> And in like manner Sotus in 4. d. 7. q. v. art. 2. ſaith: <hi>It is the gene<g ref="char:EOLhyphen"/>rall</hi>
+                  <pb n="118" facs="tcp:510:66"/> 
+                  <hi>opinion allmoſt of all, that the mixture of Baulme is of the Subſtance of the Sacrament;</hi> And it muſt needes argue a greate dignitie of this Sacrament, that the holy Ghoſt would require for the neceſſarie matter of it, ſo rare and pre<g ref="char:EOLhyphen"/>cious a liquor, and alſo the hallowing thereof by his cheefe Officiers, and Gouer<g ref="char:EOLhyphen"/>nours of his Church.</p>
+               <p>The ſeauenth Prerogatiue <note place="margin">The no<g ref="char:EOLhyphen"/>blenes of the part whereon Confirma<g ref="char:EOLhyphen"/>tion is mi<g ref="char:EOLhyphen"/>niſtred.</note> is, that whereas other Sacra<g ref="char:EOLhyphen"/>ments are miniſtred in other parts of our bodie, Confir<g ref="char:EOLhyphen"/>mation can bee miniſtred onely in the cheefeſt and higheſt part thereof, that is,
+<pb n="119" facs="tcp:510:66"/> in the forehead: This well no<g ref="char:EOLhyphen"/>ted ſaint Auſtin in pſalm. 14. in theſe wordes: <hi>Manie Sacra<g ref="char:EOLhyphen"/>ments wee receiue in other and o<g ref="char:EOLhyphen"/>ther manner, for ſome wee receiue with our mouth, other through all our bodie, but becauſe wee blush with our forehead, hee that ſaid who shall bee ashamed of mee &amp;c. Hath ſett as it were the very ignominie, and which Pagans de<g ref="char:EOLhyphen"/>ride, in the Seate of our bashfulnes; Doſt thou heere a man inſult vp<g ref="char:EOLhyphen"/>pon one that is shameles, and ſay, hee hath no forehead? What is it, Hee hath no Forehead? Hee is shameleſſe? Lett mee not haue a bare forehead, Let the Croſſe of Chriſt couer it.</hi> So that wee ſee
+<pb n="120" facs="tcp:510:67"/> that this Sacrament of Con<g ref="char:EOLhyphen"/>firmation challengeth vnto it ſelfe by Gods appointme<g ref="char:cmbAbbrStroke">̄</g>t, the cheefeſt name, to witt the name of the holy Ghoſt, the cheefeſt Miniſter in Gods Church, to witt a Bishop; the cheefeſt matter, to witt holy Chriſme; and the cheefeſt place of our bodie, to witt the Forehead; which are greate Prerogatiues, and clearely shewe the greatenes of this Sacrament. Now lett vs ſee the Ceremonies, which are to bee vſed in the mini<g ref="char:EOLhyphen"/>ſtration of this Sacrament.</p>
+            </div>
+            <div n="10" type="chapter">
+               <pb n="121" facs="tcp:510:67"/>
+               <head>CHAPTER. X. <hi>What Ceremonies are required in the adminiſtration of the Sacrament of Con<g ref="char:EOLhyphen"/>firmation.</hi>
+               </head>
+               <p>THe firſt Ceremonie tou<g ref="char:EOLhyphen"/>ching <note place="margin">The attire of the Bis<g ref="char:EOLhyphen"/>hop when hee co<g ref="char:cmbAbbrStroke">̄</g>fir<g ref="char:EOLhyphen"/>meth.</note> the Bishop is, that hee bee attired with a Cope, Miter, Stole and Croſier, as is deſcribed in the Pontifi<g ref="char:EOLhyphen"/>call, and appointed by the S. Congregation de Epiſcopis, And an other Condition is, that the Bishop co<g ref="char:cmbAbbrStroke">̄</g>firme none but in place of his owne Iu<g ref="char:EOLhyphen"/>riſdiction,
+<pb n="122" facs="tcp:510:68"/> and thoſe onely alſo, who are vnder his Iuriſ<g ref="char:EOLhyphen"/>diction. Piaſecius. 1. part. Praxis C. 2. art. 2. Armilla verb. Confirmatio, Tolet. l. 1. c. 24.</p>
+               <p>As for thoſe that are to bee confirmed, the firſt Ce<g ref="char:EOLhyphen"/>remonie <note place="margin">Signe of the Croſſe.</note> is, that theire anoin<g ref="char:EOLhyphen"/>ting in the forehead bee done with the ſigne of the Croſſe, without which ſigne (as ſaint Auſtin ſaith) no Sacrament is rightly made. An other is, that the partie confirmed haue a Godfather or God<g ref="char:EOLhyphen"/>mother <note place="margin">Godfa<g ref="char:EOLhyphen"/>ther.</note> for to inſtruct the new Souldier of Chriſt, how hee is to vſe his ſpirituall
+<pb n="123" facs="tcp:510:68"/> weopons and armour then giuen to him. And none can bee Godfather or Godmo<g ref="char:EOLhyphen"/>ther in Confirmation to any, to whome they cannot bee ſuch in Baptiſme, Neither yet may the ſame bee God<g ref="char:EOLhyphen"/>father or Godmother to any in Confirmation, to whome they were ſuch in Baptiſme, but different Godfathers or Godmothers, are required in theſe differe<g ref="char:cmbAbbrStroke">̄</g>t Sacraments; A third Ceremonie is, that a Stroke on the Cheeke bee <note place="margin">A Stroke on the Cheeke.</note> giuen by the Bishop to the partie co<g ref="char:cmbAbbrStroke">̄</g>firmed, to admonish him thereby, that now hee
+<pb n="124" facs="tcp:510:69"/> vndertaketh a profeſſion to beare blowes if neede bee for the profeſſion of Chriſts faith; And in Catholicke times there should bee a band of linnen bound about his Forehead for three daies, till the Chriſme were dried, and then his Forehead waſ<g ref="char:EOLhyphen"/>hed by a Prieſt, and the washing and linnen caſt into the fire.</p>
+            </div>
+            <div n="11" type="chapter">
+               <pb n="125" facs="tcp:510:69"/>
+               <head>CHAPTER. XI. <hi>What diſpoſition is required in thoſe that receiue the Sacrament of Con<g ref="char:EOLhyphen"/>firmation.</hi>
+               </head>
+               <p>AS for theire diſpoſi<g ref="char:EOLhyphen"/>tion in Soule, Firſt is <note place="margin">Diſpoſi<g ref="char:EOLhyphen"/>tion in Soule.</note> required, that they haue bene Chriſtened, be<g ref="char:EOLhyphen"/>cauſe Baptiſme is the foun<g ref="char:EOLhyphen"/>dation of all Sacraments, and particularly required be<g ref="char:EOLhyphen"/>fore Confirmation, becauſe this is the perfection and Complement of Baptiſme;
+<pb n="126" facs="tcp:510:70"/> Secondly, they muſt bee in State of Grace, or at leaſt not guilty of the State of mortall Sinne, becauſe this Sacrament is inſtituted to increaſe Grace, not to remit ſinne though it doe ſo ſome<g ref="char:EOLhyphen"/>times, as is before related out of Saint Thomas; Thir<g ref="char:EOLhyphen"/>dly <note place="margin">In mind or purpoſe.</note> one muſt not receiue it for Curioſitie, or that hee may ſay hee hath bene Bis<g ref="char:EOLhyphen"/>hoped but with a purpoſe to become a perfecter Chri<g ref="char:EOLhyphen"/>ſtian then hee was before, more couragious in profeſ<g ref="char:EOLhyphen"/>ſing of Chriſts faith, and more thankfull to God, who beſtowed this greate Sacra<g ref="char:EOLhyphen"/>ment
+<pb n="127" facs="tcp:510:70"/> on the Church; to Chriſt who purchaſed it with the price of his precious blood, and to the holy Ghoſt vvho cooperateth vvith it ſince it was firſt inſtituted, and that without all Excep<g ref="char:EOLhyphen"/>tion of perſons; And as for diſpoſitio<g ref="char:cmbAbbrStroke">̄</g> of bodie, it should <note place="margin">In bodie.</note> bee receiued faſting, and not onely in the morning, but euen with fa<g ref="char:EOLhyphen"/>ſting ouer night.</p>
+            </div>
+            <div n="12" type="chapter">
+               <pb n="128" facs="tcp:510:71"/>
+               <head>CHAPTER. XII. <hi>How one may knowe whether hee hath worthily receiued the Sacrament of Con<g ref="char:EOLhyphen"/>firmation.</hi>
+               </head>
+               <p>Seeing that Gods grace is neuer idle, except it bee our fault, but euer like fire, actiue and working, and that the grace of Confirmation, is of Children to make vs men in Chriſt, and of Ordinarie Chriſtians, to make vs cho<g ref="char:EOLhyphen"/>ſen and couragious Soul<g ref="char:EOLhyphen"/>diers; If wee conſider, what is
+<pb n="129" facs="tcp:510:71"/> the differe<g ref="char:cmbAbbrStroke">̄</g>ce betwixt a Child <note place="margin">Differe<g ref="char:cmbAbbrStroke">̄</g>ce betwixt a Child and a man.</note> and a man, and betwixt an Ordinarie man, and a Soul<g ref="char:EOLhyphen"/>dier, wee shall gather whether wee haue receiued the grace of Confirmation or no. A Child therefore looketh one<g ref="char:EOLhyphen"/>ly to things preſent, a man looketh alſo to things to come: A Child onely atten<g ref="char:EOLhyphen"/>deth to paſtime and pleaſure, a man hath alſo co<g ref="char:cmbAbbrStroke">̄</g>ſideration of profit; A Child is readie to ſell his Inheritance for a trifle or bable, a man maketh more account of his Inheri<g ref="char:EOLhyphen"/>tance; A Child hath Childish behauiour, a man hath more mature and decent Cariage;
+<pb n="130" facs="tcp:510:72"/> And in like manner, an Or<g ref="char:EOLhyphen"/>dinarie <note place="margin">Betwixt an Ordi<g ref="char:EOLhyphen"/>nary man <hi>&amp;</hi> a Soul<g ref="char:EOLhyphen"/>dier.</note> man is fearefull, not onely of greate, but alſo of ſmall dau<g ref="char:cmbAbbrStroke">̄</g>gers, and not one<g ref="char:EOLhyphen"/>ly of true daungers, but al<g ref="char:EOLhyphen"/>ſo of shadowes; a Souldier aduentureth vppo<g ref="char:cmbAbbrStroke">̄</g> Pikes, vp<g ref="char:EOLhyphen"/>pon Cano<g ref="char:cmbAbbrStroke">̄</g>s, vppon breaches, vppon what daunger ſoeuer preferring the honor of his profeſſion and quarrell of his Prince before his life.</p>
+               <p>Wherefore if after Con<g ref="char:EOLhyphen"/>firmation <note place="margin">VVhen one hath vnwor<g ref="char:EOLhyphen"/>thely re<g ref="char:EOLhyphen"/>ceiued Confir<g ref="char:EOLhyphen"/>mation.</note> wee bee as Chil<g ref="char:EOLhyphen"/>dish in Conditions, as wee were before, thinke as much of this world and as litle of the world to come, as before wee did; bee as much giuen
+<pb n="131" facs="tcp:510:72"/> to vaine paſtimes and plea<g ref="char:EOLhyphen"/>ſures, and as litle regard our ſpirituall profit as before, bee as readie to ſell our heaue<g ref="char:cmbAbbrStroke">̄</g>lie Inheritance for bables or tri<g ref="char:EOLhyphen"/>fles of this world as before wee were; and finally bee as Childish in our conuerſation and imperfections as before: And likewiſe if wee bee after Confirmation ſo fearefull of perſecutions and troubles for profeſſion of Chriſts true faith, as wee were before, it is greately to bee feared, that in vaine wee receiued, the grace of this Sacrament (as ſaint Paul ſpeaketh,) or ra<g ref="char:EOLhyphen"/>ther haue receiued the Sacra<g ref="char:EOLhyphen"/>ment,
+<pb n="132" facs="tcp:510:73"/> but not the grace thereof.</p>
+               <p>But contrariwiſe if after wee bee confirmed, wee find <note place="margin">VVhen worthely.</note> our ſelues to thinkeleſſe of things preſent, and more of the world to come, of the e<g ref="char:EOLhyphen"/>ternall reward of vertue, and the euerlaſting punishment of Sinne, if wee ſcorne to ſell our heaue<g ref="char:cmbAbbrStroke">̄</g>lie Inheritance for trifles of this world, if wee bee more atte<g ref="char:cmbAbbrStroke">̄</g>tiue to our ſpi<g ref="char:EOLhyphen"/>rituall profit, and to laie vp treaſure in heauen, if our Conuerſation towards God and the world bee more diſ<g ref="char:EOLhyphen"/>creete, more mature, and graue, wee may iuſtly hope,
+<pb n="133" facs="tcp:510:73"/> that wee haue worthely re<g ref="char:EOLhyphen"/>ceiued this Sacrament, and ſaie with the Apoſtle: <hi>When I was a Child I thought as a Child, but beeing now become a man, I haue caſt away that which is Childish;</hi> And the ſame wee may gather, if like worthie Souldiers of Chriſt, wee con<g ref="char:EOLhyphen"/>temne dau<g ref="char:cmbAbbrStroke">̄</g>gers for his Cauſe, knowing that wee fight vn<g ref="char:EOLhyphen"/>der a farre greater Captaine, the<g ref="char:cmbAbbrStroke">̄</g> temporall Souldiers doe, <note place="margin">Different cauſe of temporall and ſpiri<g ref="char:EOLhyphen"/>tuall Sol<g ref="char:EOLhyphen"/>diers.</note> for a farre better cauſe, with farre ſurer hope of Aſſiſ<g ref="char:EOLhyphen"/>tance, with farre greater Aſ<g ref="char:EOLhyphen"/>ſurance of victorie, and for a Reward inco<g ref="char:cmbAbbrStroke">̄</g>parably grea<g ref="char:EOLhyphen"/>ter, which neither eye hath
+<pb n="134" facs="tcp:510:74"/> ſeene, nor eare hath heard, nor heart hath conceiued; which God for his goodnes and the Paſſion of Chriſt graunt vs all by this Sa<g ref="char:EOLhyphen"/>crament to attaine vnto.</p>
+            </div>
+            <trailer>FINIS.</trailer>
+            <closer>All Praiſe to Almighty God.</closer>
+         </div>
+      </body>
+      <back>
+         <div type="errata">
+            <p>
+               <table>
+                  <head>Faults</head>
+                  <row>
+                     <cell role="label">Pa.</cell>
+                     <cell role="label">Lin.</cell>
+                     <cell role="label">Eſcaped.</cell>
+                     <cell role="label">Corrected.</cell>
+                  </row>
+                  <row>
+                     <cell>3.</cell>
+                     <cell>1.</cell>
+                     <cell>the ſe</cell>
+                     <cell>theſe</cell>
+                  </row>
+                  <row>
+                     <cell>21.</cell>
+                     <cell>15.</cell>
+                     <cell>power</cell>
+                     <cell>prayer</cell>
+                  </row>
+                  <row>
+                     <cell>22.</cell>
+                     <cell>10.</cell>
+                     <cell>Conc. 38.</cell>
+                     <cell>Canon. 38.</cell>
+                  </row>
+                  <row>
+                     <cell>25.</cell>
+                     <cell>12.</cell>
+                     <cell>34. Sent.</cell>
+                     <cell>342. Sent.</cell>
+                  </row>
+                  <row>
+                     <cell>33.</cell>
+                     <cell>1.</cell>
+                     <cell>ſuch com<g ref="char:EOLhyphen"/>maundement.</cell>
+                     <cell>ſuch a com<g ref="char:EOLhyphen"/>maundeme<g ref="char:cmbAbbrStroke">̄</g>t.</cell>
+                  </row>
+                  <row>
+                     <cell>111.</cell>
+                     <cell>10.</cell>
+                     <cell>curied.</cell>
+                     <cell>cured.</cell>
+                  </row>
+               </table>
+            </p>
+            <pb facs="tcp:510:74"/>
+         </div>
+      </back>
+   </text>
+</TEI>

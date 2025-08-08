@@ -1,0 +1,916 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The drunkards vvarning A sermon preached at Canterbury in the Cathedral Church of Christ. By Thomas Kingsmill Mr. of Arts, and preacher of the Word at Hyth, one of the Cinque-ports, in the county of Kent.</title>
+            <author>Kingsmill, Thomas.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1631</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 40 KB of XML-encoded text transcribed from 24 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A04870</idno>
+            <idno type="STC">STC 15008</idno>
+            <idno type="STC">ESTC S119959</idno>
+            <idno type="EEBO-CITATION">99855164</idno>
+            <idno type="PROQUEST">99855164</idno>
+            <idno type="VID">20639</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A04870)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 20639)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1177:22)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The drunkards vvarning A sermon preached at Canterbury in the Cathedral Church of Christ. By Thomas Kingsmill Mr. of Arts, and preacher of the Word at Hyth, one of the Cinque-ports, in the county of Kent.</title>
+                  <author>Kingsmill, Thomas.</author>
+               </titleStmt>
+               <extent>[6], 40 p.   </extent>
+               <publicationStmt>
+                  <publisher>By N. Okes for Richard Collins at the signe of the three Kings in Paules Church-yard,</publisher>
+                  <pubPlace>Imprinted at London :</pubPlace>
+                  <date>1631.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Running title reads: A warning for drunkards.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Temperance --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-01</date>
+            <label>Simon Charles</label>Sampled and proofread</change>
+         <change>
+            <date>2010-01</date>
+            <label>Simon Charles</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:20639:1"/>
+            <pb facs="tcp:20639:1" rendition="simple:additions"/>
+            <p>THE DRVNKARDS VVarning. A Sermon Preached at <hi>Can<g ref="char:EOLhyphen"/>terbury</hi>
+in the Cathedral Church of CHRIST.</p>
+            <p>By THOMAS KINGSMILL M<hi rend="sup">r</hi>. of Arts, and Preacher of the Word at
+<hi>Hyth,</hi> one of the Cinque-Ports, in the County of <hi>Kent.</hi>
+            </p>
+            <q>
+               <bibl>Eccleſ. 31.25.</bibl> 
+               <p>
+                  <gap reason="foreign" resp="#OXF" extent="1 span">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </p>
+            </q>
+            <p>Imprinted at <hi>London</hi> by <hi>N. Okes</hi> for <hi>Richard
+Collins</hi> at the ſigne of the three Kings in <hi>Paules Church-yard.</hi>
+1631.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:20639:2"/>
+            <pb facs="tcp:20639:2"/>
+            <head>TO THE RIGHT Reuerend Father in God, IOHN by GODS Prouidence,
+Lord Biſhop of St. <hi>Aſaph:</hi> Grace, Mercy, and Peace, be
+Mul<g ref="char:EOLhyphen"/>tiplied.</head>
+            <p>
+               <seg rend="decorInit">T</seg>HE Charge that was gi<g ref="char:EOLhyphen"/>uen to the Prophet <hi>Eſay,</hi> by the
+Lord himſelfe, <hi>cry aloud, ſpare not, lift vp thy voice like a Trumpet,
+and ſhewe my people their Tranſgreſſions, and the Houſe of</hi> Iacob
+<hi>their ſinnes:</hi>
+               <note place="margin">Eſay 58.1</note> 
+               <hi>is alſo
+impoſed (Right Reuerend Father in God) on euery Prea<g ref="char:EOLhyphen"/>cher of the Word, in
+theſe laſt<pb facs="tcp:20639:3"/>daies and perilous times.</hi> For ini<g ref="char:EOLhyphen"/>quity
+aboundeth now, as much as euer it did: <hi>there is no truth, nor mercy, nor
+knowledge of God in the Land; by ſwearing, and ly<g ref="char:EOLhyphen"/>ing, and killing, and
+ſtealing, and committing adultery, men break out, and blood toucheth
+blood.</hi>
+               <note place="margin">Hoſe. 4.1.2</note> 
+               <hi>They riſe vp early in
+the mor<g ref="char:EOLhyphen"/>ning, that they may follow ſtrong drinke, they continue vntill night,
+till wine inflame them.</hi>
+               <note place="margin">Eſay 5.11.</note> Oh! now is
+the time (if euer) for a Preacher to lift vp his voyce, and crye downe theſe
+loud-crying ſinnes.</p>
+            <p>As for my ſelfe, I haue al<g ref="char:EOLhyphen"/>ready (by Gods aſſiſtance)
+lifted vp my voyce in a Sermon, in a great Congregation, againſt the
+beaſtly ſinne of Drunkennes: but a man may crye louder with pen, then with
+tongue: and bee heard further out of the Preſſe, then out<pb facs="tcp:20639:3"/>of the
+Pulpit. Therefore (ſith there is no Labourer ſo ſimple, but may bring
+ſomewhat to Gods buil<g ref="char:EOLhyphen"/>ding:) I haue incouraged my ſelfe, vpon aſſurance
+of your Lordſhips pardon, humbly to commend this Sermon (as it was deliuered,
+with out addition, or detraction) to the view of your Wiſedome: and vn<g ref="char:EOLhyphen"/>der
+your protection, to the Houſe<g ref="char:EOLhyphen"/>holde of Faith. Not doubting, but that which
+hath paſſed the fa<g ref="char:EOLhyphen"/>uourable cenſure of ſo Reuerend, and ſo Learned an
+aſſembly, as then were the Hearers: will now finde like acceptance with all
+that be iudicious and indifferent Rea<g ref="char:EOLhyphen"/>ders.</p>
+            <p>Many weighty reaſons I could ſhew, that mooued me to Dedicate
+theſe my ſlender labours vnto your Lordſhip: but I forbeare to
+ex<g ref="char:EOLhyphen"/>preſſe them, leaſt I exceede an E<g ref="char:EOLhyphen"/>piſtle to ſo ſmall a Booke;
+and<pb facs="tcp:20639:4"/>make the Wals as big, as the City. And thus hauing ſatisfied
+my deſire, by giuing ſome teſtimony of my duty to your Lordſhip:
+fearing to hinder the courſe of your more ſerious cogitations, and actions;
+I humbly take my leaue, and commend my ſelfe to your fa<g ref="char:EOLhyphen"/>uour, and your
+Lordſhip to the grace, and fauour of God in Chriſt.</p>
+            <closer>
+               <dateline>From <hi>Hyth</hi> one of the Cinque-Ports in
+<hi>Kent.</hi> 
+                  <date>
+                     <hi>February</hi> 12. 1630</date>
+               </dateline>
+            </closer>
+            <closer>
+               <signed>Your Lordſhips moſt obliged to all humble duty.
+<hi>Thomas Kingſmill.</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:20639:4"/>
+            <head>THE DRVNKARDS warning.</head>
+            <epigraph>
+               <q>
+                  <bibl>PRO. 23. VER. 21.</bibl> 
+                  <p>For the Drunkard, and the Glut<g ref="char:EOLhyphen"/>ton ſhall come to
+pouerty.</p>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">I</seg>T were vaine to be at open defiance with iniquity, if firſt we
+ſubdue not beaſtly Concupi<g ref="char:EOLhyphen"/>ſcence in Gluttony: which like a
+falſe-hearted ſubiect in a City, is ready to worke a miſchiefe at home,
+when the forreine enemy is encountred abroad. Many not<pb n="2" facs="tcp:20639:5"/>knowing
+the right order of a ſpi<g ref="char:EOLhyphen"/>rituall Combate, cheriſh that vice, and giue the
+on-ſet vppon ſome other ſinne: it may be va<g ref="char:EOLhyphen"/>liantly, I dare ſay,
+vnprofitably, at length in ſteppeth Gluttony for the reſcue, violently
+tearing out the throate of Vertue, and giuing ſinne as much aduantage as it
+had before. Let this Tray<g ref="char:EOLhyphen"/>tour be firſt wounded, the fleſh ſubdued, and
+brought into ſub<g ref="char:EOLhyphen"/>iection, then ſhall you with more facility get the
+maſtery ouer all tranſgreſſion.</p>
+            <p>Gluttony, if we take it large<g ref="char:EOLhyphen"/>ly, brancheth it ſelfe into
+Drun<g ref="char:EOLhyphen"/>kenneſſe and all exceſſe in meate or drinke. The body of my Text
+contayneth both, which may thus be read a part, though <hi>Hypozeugma</hi>
+ioyne both in one: <hi>The Drunkard ſhall come to Po<g ref="char:EOLhyphen"/>uerty: and the glutton
+ſhall come<pb n="3" facs="tcp:20639:5"/>to pouerty.</hi> The former onely is now the
+obiect of my ſpeech, wherein you may obſerue the party delinquent, and his
+heauy puniſhment.</p>
+            <p>
+               <note place="margin">
+                  <hi>Defin.</hi>
+               </note>Drunkenneſſe is a
+violent pri<g ref="char:EOLhyphen"/>uation of reaſon, by exceſſiue drinking, through inordinate
+af<g ref="char:EOLhyphen"/>fection to any lyquor of intoxi<g ref="char:EOLhyphen"/>cating power. Loſſe of reaſon:
+Exceſſiue drinking: Inordinate affection: theſe three make
+drun<g ref="char:EOLhyphen"/>kenneſſe compleate.</p>
+            <p>The firſt, is the loſſe of reaſon, eyther in whole, or in
+part: <hi>Pro<g ref="char:EOLhyphen"/>prijſſime illi dicuntur ebrij, qui prae nimio potu mente
+altenantur,</hi>
+               <note place="margin">
+                  <hi>Zanc. in Ep. ad Ephe. c.</hi> 5.
+<hi>p.</hi> 18. §. <hi>de Ebrietate.</hi>
+               </note> they are moſt properly
+ſayd to be drunken, who are depriued of reaſon by exceſſiue drinking.
+As for the intemperate drinker, that can downe with aboundance of lyquor, and
+yet for ſtrength of braine is no whit mooued in<pb n="4" facs="tcp:20639:6"/>body or
+minde: I ſuppoſe, I may truely call him a Glutton, how euer I excuſe him
+not. <hi>Tanto nequior, quanto ſub poculo in<g ref="char:EOLhyphen"/>uictior,</hi>
+               <note place="margin">
+                  <hi>Aug. de ver. apoſt ſer.</hi> 4.</note> the more able a man
+is to beare his lyquor, the more full of Sathan, if hee abuſe his ſtrength
+that way. <hi>Woe vnto them that are mighty to drinke wine, and men of
+ſtrength to min<g ref="char:EOLhyphen"/>gle ſtrong drinke. Eſay</hi> 5.22.</p>
+            <p>But there is a two-fold pri<g ref="char:EOLhyphen"/>uation of reaſon, to wit; naturall,
+and violent. When a ſober man lyeth downe to reſt, ſleepe depriueth him
+of reaſon for a little time. Yet ſo as that hee can haue it, and vſe it
+at his pleaſure: if hee appoynt one to call him, or a Bell to a wake him at
+ſ<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ch an houre. Like <hi>Pliny</hi>
+his Cranes,<note place="margin">
+                  <hi>Nat. hiſtor. lib</hi> 10. <hi>ca.</hi>
+3.</note> who in a long iourney maintayne a watch all night, and haue their
+Sentinels that ſtand <pb n="5" facs="tcp:20639:6"/>with one foot, and hold a ſtone in
+the other: if they chance to ſleepe, downe falleth the ſtone, and awaketh
+them. But the Drunkard, being violently bereft of reaſon by the fume of the
+Grape, hath no ſuch ſhift to re<g ref="char:EOLhyphen"/>couer his wits: Till the lyquor ceaſe
+working, hee is not him<g ref="char:EOLhyphen"/>ſelfe, whether hee ſleepe or wake: <hi>Ebrietas ita
+mentem alie<g ref="char:EOLhyphen"/>nat ut vbi ſit neſciat,</hi>
+               <note place="margin">
+                  <hi>Iſidor,
+ſen<g ref="char:EOLhyphen"/>ten. lib.</hi> 2. <hi>ca.</hi> 43.</note> Drunken<g ref="char:EOLhyphen"/>neſſe doth ſo
+beſot him, that hee knoweth not where hee is.</p>
+            <p>A man is violently bereft of reaſon diuers manner of wayes; by
+ſtrong ſents, and poyſonous hearbes, that cauſe diſtraction. Anger,
+luſt, vayne-glory, coue<g ref="char:EOLhyphen"/>touſneſſe, each vehement inor<g ref="char:EOLhyphen"/>dinate affection,
+deſerueth the name of Drunkenneſſe: <hi>They are drunken, but not with
+wine, they ſtagger, but not with ſtrong drink.<pb n="6" facs="tcp:20639:7"/>Eſay</hi>
+29.9. But <hi>Salomon</hi> ſpea<g ref="char:EOLhyphen"/>keth here of drunkenneſſe by wine, <hi>be
+not amongſt wine-bib<g ref="char:EOLhyphen"/>bers:</hi> where by Wine, is meant any lyquor of
+intoxicating pow<g ref="char:EOLhyphen"/>er. <hi>Ebrietas dicta eſt quaſi extra briam, quod debitam
+vini menſu<g ref="char:EOLhyphen"/>ram excedit.</hi>
+               <note place="margin">
+                  <hi>In Aquin.</hi> 22<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.
+<hi>q.</hi> 150 <hi>ar.</hi> 1.</note> Drunkenneſſe is ſo called (ſaith
+<hi>Leſſius</hi>) from taking ſtrong drinke out of meaſure. When (as
+Saint <hi>Auguſtine</hi> hath it) <hi>Ad menſuras ſine menſura
+bi<g ref="char:EOLhyphen"/>bunt.</hi>
+               <note place="margin">
+                  <hi>De temp. ſer.</hi> 231.</note> By full
+cups and meaſures, men drinke out of meaſure.</p>
+            <p>It is not ſimply vnlawfull to drinke VVine, if wee keepe a
+meane: according to that of <hi>Caietan, Vinum potatum non ine<g ref="char:EOLhyphen"/>briat,
+niſi ſit multum reſpectu illius qui bibit, quantumcunque parum ſit quod
+bibitur,</hi>
+               <note place="margin">
+                  <hi>In Aqu. loc. dic</hi>
+               </note> It is not bare
+drinking Wine doth intoxi<g ref="char:EOLhyphen"/>cate the braine, if it bee not much in regard of the
+drinker: <pb n="7" facs="tcp:20639:7"/>though but little in meaſure, hee exceedeth to
+ebriety, that ex<g ref="char:EOLhyphen"/>ceedeth the ſtrength of his braine to beare it. Oh! <hi>be
+not drunken with wine wherein is exceſſe; but be filled with the Spirit.
+Ephe.</hi> 5. <hi>chap.</hi> 18.</p>
+            <p>Yet one thing is miſſing to make drunkenneſſe compleate;
+namely, inordinate affection; who ſo hath this, is a Drunkard in heart,
+though hee drinke not a drop: as he is an Adulterer, that luſteth after a
+Woman, though he commit not the deed.</p>
+            <p>I blame not all affection to, or delectation in drinking wine:
+<hi>Creatum eſt in iucunditatem, non in ebrietatem:</hi>
+               <note place="margin">
+                  <hi>Ambroſ. de Helia et ieiun. c.</hi> 11</note> Twas created
+for iucundity, not for ebriety; <hi>to make glad the heart. Pſal.</hi>
+104.15. It were extreame folly to crye out, I would there were no Wine,
+becauſe ſome are ne<g ref="char:EOLhyphen"/>uer <pb n="8" facs="tcp:20639:8"/>quiet, but when they are at it. A
+man might as well ſay, I would there were no night be<g ref="char:EOLhyphen"/>cauſe of Theeues, no
+Women becauſe of adultery, no Wea<g ref="char:EOLhyphen"/>pons becauſe of murther: <hi>Vinum datum
+est vt rideamus, non vt de<g ref="char:EOLhyphen"/>rideamur:</hi>
+               <note place="margin">
+                  <hi>Chryſoſt.
+in Math.</hi> 17. <hi>hom.</hi> 58.</note> Wine is giuen to make vs laugh, not
+to be laughed at, to preſerue health, not to de<g ref="char:EOLhyphen"/>ſtroy it: God hath graced
+thee with this excellent bleſſing, ſee thou diſgrace not thy ſelfe by
+in<g ref="char:EOLhyphen"/>temperate drinking.</p>
+            <p>But inordinate affection to the Wine, wee blame: when a man,
+knowing the ſtrength of the lyquor, be it Wine, Beere, hot Water, or what
+elſe ſoeuer, yet taketh ſuch delight therein, as to inioy his cups, hee
+willingly depriueth himſelfe of reaſon, and becommeth a beaſt: for what
+difference is there betweene a<pb n="9" facs="tcp:20639:8"/>man, in ſuch a caſe, and a
+beaſt: but that one is vnreaſonable, na<g ref="char:EOLhyphen"/>turally, the other voluntarily?</p>
+            <p>Not that all Drunkards will the abſence of reaſon directly, as
+ſome do to rid the<g ref="char:cmbAbbrStroke">̄</g>ſelues of cares for the time: tis enough, nay too much,
+to will it indirectly, and in its cauſe: they are not weary of their wits,
+faine they would in<g ref="char:EOLhyphen"/>ioy their cups, and reaſon too, but if both cannot be
+had, they bid reaſon adieu with all their heart; of the twaine, chuſing
+rather to want wit, then Wine.</p>
+            <p>Now here ariſeth a doubt: <hi>Noah</hi> dranke Wine and was
+drunken:<note place="margin">Gene. 9.21</note> was he worthy blame? Before the
+flood, in that drunken age, they had no Wine at all, though haply they had
+wilde Vines, and did eate of the Grapes: but <hi>Noah</hi> was the firſt,
+yea, and that after the flood, who dreſſed the vine,<pb n="10" facs="tcp:20639:9"/>and
+preſſed the grape: for which cauſe (ſayth <hi>Beroſus</hi>) he was
+cal<g ref="char:EOLhyphen"/>led <hi>Ianus,</hi> the inuentor of wine, from
+<gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> that ſignifieth Wine; who is
+ſayde to haue two faces, becauſe he ſaw two Worlds, <hi>to wit,</hi>
+before and after the flood. <hi>Noe dedit naturam, ſed ignora<g ref="char:EOLhyphen"/>uit pote<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>tiam, ita<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> nec vinum ſuo
+pepercit Authori.</hi>
+               <note place="margin">
+                  <hi>Ambroſ. de Helia &amp; ieiun.
+ca.</hi> 5.</note> 
+               <hi>Noah</hi> gaue Wine its nature, but knew not the power;
+wherefore it ſpared not the Authour, but made him drunken. Againe, <hi>Noe
+deceptus eſt, quia vini vis ignorabatur:</hi>
+               <note place="margin">
+                  <hi>cap.</hi>
+6.</note> 
+               <hi>Noah</hi> was ouertaken by chance, becauſe he knew not the
+ſtrength of it. So that (as Saint <hi>Ambroſe</hi> ſayth) it was <hi>Per
+ignorantiam, non per intemperantiam.</hi>
+               <note place="margin">
+                  <hi>cap.</hi>
+5.</note> For want of experience; and not through intemperance. Heere<g ref="char:EOLhyphen"/>uppon the
+Summiſts acquit him of ſinne; and I excuſe him <hi>A<pb n="11" facs="tcp:20639:9"/>tanto, non a toto:</hi> Hee was drun<g ref="char:EOLhyphen"/>ken, but no Drunkard, I may
+ſafely extenuate, but I dare not annihilate the ſinne. Without queſtion,
+<hi>Noah</hi> ſinned, and was pardoned; yet let no man bee emboldned to doe
+the like: ho<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y mens weakneſſes,
+ſhould not en<g ref="char:EOLhyphen"/>courage vs to wickedneſſe. <hi>In<g ref="char:EOLhyphen"/>ſtruant Patriarchae,
+non ſolum do<g ref="char:EOLhyphen"/>centes, ſed etiam errantes.</hi>
+               <note place="margin">
+                  <hi>Ambroſ. de Abrahama Patriarcha cap.</hi> 6.</note> Let the
+Patriarchs inſtruct vs, not onely by Doctrine, but alſo by falling. If they
+being ſo godly, had their ſlips and falls: let him that thinketh hee
+ſtandeth, take heede leaſt hee fall: <hi>Non ſolum attende, quod
+inebriatus eſt iu<g ref="char:EOLhyphen"/>ſtus: ſed quod poſtea hoc iterum et non
+acciderit.</hi>
+               <note place="margin">
+                  <hi>Chryſoſt. ad loc.</hi>
+               </note>
+               <hi>Noah</hi> was once drunke and no more: follow him in repentance, and not in
+ſinne.</p>
+            <p>A ſicke man hath no affection to wine, but abhorreth it: yet 
+<pb n="12" facs="tcp:20639:10"/>vpon his Doctors preſcription, he is willing to drinke
+drunken, to procure a vomite, and recouer health: doeth hee offend herein?
+<hi>Aquinas</hi> ſayth, <hi>Cibus et po<g ref="char:EOLhyphen"/>tus est moderandus, ſecundum qd
+competit corpor is valetudini;</hi>
+               <note place="margin">
+                  <hi>Aqui:</hi> 22<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>: <hi>q:</hi> 150: <hi>ar:</hi> 2
+<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> m.</note> that wee are ſo to
+moderate our ſelues in meate and drinke, as it may ſtand with the health of
+the bo<g ref="char:EOLhyphen"/>dy: whereby it ſometime com<g ref="char:EOLhyphen"/>meth to paſſe, that what is but enough
+for the ſound, were too much for one ſicke: And againe, what is but enough
+for the ſicke, were too much for the ſound. Whereupon the Summiſts hold
+it no ſinne.</p>
+            <p>But tis not material what they ſay: I am ſure the Scripture
+ſayth, <hi>We may not doe ill, that good may come of it.</hi> In a
+deſpe<g ref="char:EOLhyphen"/>rate caſe, to preſerue the body from infection, it is lawfull to 
+<pb n="13" facs="tcp:20639:10"/>chop off a legge, or an arme, but to procure health, tis
+not lawfull to depriue ones-ſelfe of reaſon. <hi>Malum non ſentitur, qd
+per ebrietatem committitur:</hi>
+               <note place="margin">
+                  <hi>Iſidor: lib:</hi> 2
+<hi>ſenten: c.</hi> 43</note> when a man is drunken, hee knoweth not what
+miſchiefe he may do; hee is like enough to murther, commit adultery, or any
+other Villany. Admit his friends bind him, or locke him vp, to pre<g ref="char:EOLhyphen"/>uent ſuch
+out-rage, till he come to himſelfe: yet they are not a<g ref="char:EOLhyphen"/>ble to keepe him from
+a deſire to kill, and whore; the tongue is an vnruly euill, which no man can
+tame: hee will fall to curſing, and ſwearing, do all his friends what they
+can: therefore let no man take that vngodly courſe, to recouer health.</p>
+            <p>Suppoſe a man meete, with lewd company, who will quar<g ref="char:EOLhyphen"/>rell,
+fight, and ſtab, if hee pledge<pb n="14" facs="tcp:20639:11"/>not their healthes: if in
+giuing them content, hee drinke more then his ſhare to ſaue his life, were
+he too blame? The Sum<g ref="char:EOLhyphen"/>miſts ſay no; but Saint <hi>Augu<g ref="char:EOLhyphen"/>ſtine</hi> ſayth
+yea:<note place="margin">
+                  <hi>De tempor. ſerm.</hi> 232.</note> If once it come
+to that paſſe, that thou muſt drinke, or dye, twere better for thy body
+to bee ſlaine when thou art ſober, then thy ſoule to periſh through
+drunkenneſſe.</p>
+            <p>But I will no longer digreſſe; I am now chiefly to deale with
+the Drunkard, and not with a drunken man: <hi>Plurimum inter<g ref="char:EOLhyphen"/>eſse concedes,
+inter ebrium, et e<g ref="char:EOLhyphen"/>brioſum,</hi>
+               <note place="margin">
+                  <hi>Sen lib. ep.
+Epiſtol.</hi> 83.</note> there is great difference betweene a drunken man,
+and a drunkard: <hi>Poteſt et qui ebrius eſt, tunc primum eſse, nec
+habere hoc vitium; et qui ebrioſus eſt, ſaepe extra ebrietatem
+eſſe.</hi>
+               <note place="margin">
+                  <hi>Loc. dic.</hi>
+               </note> Some are once
+drunken, and no more, and the common Drunkard<pb n="15" facs="tcp:20639:11"/>may ſometime
+haue his wits a<g ref="char:EOLhyphen"/>bout him. Now ſayth <hi>Augu<g ref="char:EOLhyphen"/>ſtine, In homine iuſto,
+etſi non ebrioſitatis, at certe ebrietatis cauſa quaerenda
+eſt:</hi>
+               <note place="margin">
+                  <hi>Contra Fauſt. l.</hi> 22. <hi>cap.</hi>
+44.</note> The iuſt man for being once drunken is much too blame. But the
+Drun<g ref="char:EOLhyphen"/>kard is the obiect of my ſpeech, tis euen hee <hi>ſhall come to
+po<g ref="char:EOLhyphen"/>uerty.</hi>
+            </p>
+            <p>
+               <hi>Salomon</hi> had many other ar<g ref="char:EOLhyphen"/>guments to diſſwade from
+drun<g ref="char:EOLhyphen"/>kenneſſe, as wee finde in the following part of the Chapter; but (as
+they ſay) there is no woe to want: of all things, men loue not to heare of
+that, therefore is this reaſon placed in the fore<g ref="char:EOLhyphen"/>front, as moſt powerfull
+to pre<g ref="char:EOLhyphen"/>uayle with vs: the <hi>drunkard ſhall come to pouerty:</hi> or, as the
+roote <gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> imports, ſhalbe driuen
+out of his inheritance, and thruſt from his poſſeſſion.</p>
+            <p>
+               <pb n="16" facs="tcp:20639:12"/>Trades-men (ſayth <hi>Ambroſe</hi>)
+<hi>Vno die bibunt multorum labores,</hi>
+               <note place="margin">
+                  <hi>De Helia et
+ieiun. c.</hi> 11.</note> drinke as much in a day, as they get in a weeke: they
+ſpend their money, miſpend their time, neglect their ſeruants, how is it
+poſſible ſuch men ſhould thriue? if they be not yet poore,
+<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>ere long they ſhall: pouerty
+will ſet vpon them like an armed man, without reſiſtance.</p>
+            <p>Rich men (if giuen vnto the pot) may not looke to eſcape: they
+will ſpend frankly, ſwagger, and fight, ſometime vnto their coſt: they
+will buy, and ſell, giue and lend, chop, and change, they care not what; when
+the drinke is in, the wit is out: at length Gods ſecret iudgement creepeth
+vpon their eſtate: be the Drun<g ref="char:EOLhyphen"/>kard whoſoeuer, (if <hi>Salomon</hi> ſay
+true,) hee ſhall come to po<g ref="char:EOLhyphen"/>uerty: no poſſeſſion, though ne<g ref="char:EOLhyphen"/>uer 
+<pb n="17" facs="tcp:20639:12"/>ſo large, can beare him out.</p>
+            <p>Thus yee haue heard the Ex<g ref="char:EOLhyphen"/>poſition: now ſuffer (I beſeech
+you) a word of Exhortation. I know I take, an hard taske in hand to preuaile
+with the Drun<g ref="char:EOLhyphen"/>kard; out alas I finde Saint <hi>Au<g ref="char:EOLhyphen"/>guſtines</hi> wordes to be
+true in this our age, <hi>Ebrietatis malum ita per vniuerſum mundum a
+pluri<g ref="char:EOLhyphen"/>bus in conſuetudinem miſſum eſt, vt ab illis qui Dei praecepta
+cog<g ref="char:EOLhyphen"/>noſcere nolunt, iam nec putetur, nec credatur eſſe
+peccatum;</hi>
+               <note place="margin">
+                  <hi>De tempor: ſer:</hi> 231.</note>
+Drun<g ref="char:EOLunhyphen"/>kenneſſe is now in ſuch requeſt throughout the world, that ma<g ref="char:EOLhyphen"/>ny
+call it into queſtion whether it be a ſin, and deſerue reproofe. Shall
+wee ſpeake againſt Drun<g ref="char:EOLhyphen"/>kards? Saith <hi>Baſil, In emortu<g ref="char:EOLhyphen"/>um
+auditum inſonabimus,</hi>
+               <note place="margin">
+                  <hi>Contra
+E<g ref="char:EOLhyphen"/>brioſos.</hi>
+               </note> wee had as good round a dead-man in the eare.</p>
+            <p>Why then what courſe ſhall<pb n="18" facs="tcp:20639:13"/>wee take?
+Phyſitians in the dangerous time of the plague, come not at the infected, if
+paſt cure, but giue Antidotes to pre<g ref="char:EOLhyphen"/>ſerue the ſound: but wee muſt
+ſpeake vnto all, that all may be profited, the ſober preſerued, and as
+wee hope, the Drunkard reclaymed: but whether they will heare, or whether they
+will forbeare, we muſt not be ſilent, <hi>that they may know there hath bin
+a Prophet amongſt them.</hi>
+               <note place="margin">Ezech. 2.5</note> The
+Fountaine caſteth out her water, though no man come to drinke: and we muſt
+Preach, though few regard. If wee plant, and wa<g ref="char:EOLhyphen"/>ter, wee neede not doubt, but
+God will giue increaſe: ſuch is the ſtrength and power of the word, as to
+profite none it is impoſſible: much may fall into the beaten way, &amp;
+among ſtones, yet ſome will light vpon good<pb n="19" facs="tcp:20639:13"/>ground, and
+bring forth fruite. As the raine commeth downe from Heauen, &amp; returneth not
+thither, but watereth the earth, &amp; maketh it fruitfull: ſo my word
+(ſaith the Lord) ſhall not returne empty to me, but ſhall do whatſoeuer
+I wil.</p>
+            <p>Admit Drunkards do not pre<g ref="char:EOLhyphen"/>ſently amend, but will to the
+tap-houſe againe: yet can they not doe it with ſuch boldneſſe, as they
+did before: their heart will ſmite them when they enter in, and thinke vpon
+the words they heard, they wil euen bluſh to fol<g ref="char:EOLhyphen"/>low their wo<g ref="char:cmbAbbrStroke">̄</g>ted courſe:
+for if they ſhold do ſo, they know this were
+<gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, to warre with God him<g ref="char:EOLhyphen"/>ſelfe,
+and kicke againſt the pricke, wherby they declare to the world that they are
+deſpiſers of Gods word, who when they know their maſters wil, yet are
+ſo obſti<g ref="char:EOLhyphen"/>nate, that they wil do contrary.</p>
+            <p>
+               <pb n="20" facs="tcp:20639:14"/>Giue eare then (I beſeech you) to the wordes
+of <hi>Salomon, Prou.</hi> 20.1. <hi>Wine is a mocker, strong drinke is raging;
+and whoſoeuer is deceiued thereby, is not wiſe. Vinum Dei donum: Ebrietas
+di<g ref="char:EOLhyphen"/>aboli opus eſt:</hi>
+               <note place="margin">
+                  <hi>Chryſoſt. in Matth.</hi>
+22. <hi>hom.</hi> 71.</note> Hee blameth not the wine, but the drinker: nor him
+neyther, if hee keepe a meane: <hi>Medicina optima, quando commenſurationem
+habet opti<g ref="char:EOLhyphen"/>mam;</hi>
+               <note place="margin">
+                  <hi>Loc. nota<g ref="char:EOLunhyphen"/>to.</hi>
+               </note> if it be
+taken moderately, it helpeth our infirmity: <hi>drinke no longer water, but
+vſe a little wine for thy ſtomackes ſake, and thine often
+infirmities.</hi>
+               <note place="margin">1 Tim. 5.23</note> It is the exceſſe
+muſt be auoyded, as <hi>Salo<g ref="char:EOLhyphen"/>mon</hi> hath ſhewed: and that for three
+regards. Firſt, <hi>wine is a mocker.</hi> The Drunkard laugh<g ref="char:EOLhyphen"/>eth at the
+Iudgments of God, that are denounced againſt him: hee neyther feareth God,
+nor reue<g ref="char:EOLhyphen"/>renceth man, but amids his cups<pb n="21" facs="tcp:20639:14"/>will laugh the
+beſt to ſcorne. As certaine youths did, who ma<g ref="char:EOLhyphen"/>king merry, and drinking
+free<g ref="char:EOLhyphen"/>ly, were bold with King <hi>Pyrrhus,</hi>
+               <note place="margin">
+                  <hi>Plutar.</hi> 
+                  <gap reason="illegible" resp="#OXF" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+the life of <hi>Pyrrhus.</hi>
+               </note> to ſpeake their pleaſure of him in
+very vndutifull ſort, and being brought before him, hee asked them whether it
+were ſo? It is true, and it pleaſe your Grace, ſayd one of them, we
+ſayd it in<g ref="char:EOLhyphen"/>deed, and had not our wine failed vs, wee had ſpoken a great
+deale more. What an audacious part is this, that pot-companions will preſume
+to deride Kings, yea to mocke God himſelfe. Ah! be not deceiued, God is not
+moc<g ref="char:EOLhyphen"/>ked, though he forbeare a while to put his threates in execution, on hope
+of their conuerſion; if they will not amend, at length he will ſtrike
+home.</p>
+            <p>The drunkard mocketh o<g ref="char:EOLhyphen"/>thers, but he is moſt ridiculous 
+<pb n="22" facs="tcp:20639:15"/>himſelfe, all his abſurd ſpeeches, and idle
+geſtures, make others laugh. In <hi>Lycurgus</hi> his dayes,<note place="margin">
+                  <hi>Plutarc's</hi> in the life of <hi>Lycurgus</hi>
+               </note> drunken
+men were brought into common-hals, that little children might behold what a
+ridiculous and beaſtly thing it was for a man to be drunken.</p>
+            <p>Secondly, <hi>ſtrong drinke is raging. Seneca</hi>
+ſaith, that drunk<g ref="char:EOLhyphen"/>ennes is voluntary madneſſe: <hi>non minor, ſed
+breuior,</hi>
+               <note place="margin">
+                  <hi>Epiſtol.</hi> 83.</note> no leſſe
+than ſoe; though haply it laſt not ſoe long: but for the time, he rageth
+like a mad-man, he will ſweare, and ſwagger, quarrell and fight; <hi>de
+ebrietate ad arma conſurgit, pro vino ſanguis effunditur.</hi>
+               <note place="margin">
+                  <hi>Ambroſ. de Helia &amp; ieiun. ca.</hi> 11.</note> of late he
+powred in wine, but now he will powre out his neighbours blood.</p>
+            <p>
+               <hi>Alexander King of Macedon,</hi> in his drunkennes ſlew
+<hi>Clytus</hi> his deareſt friend; but when he was<pb n="23" facs="tcp:20639:15"/>ſober, and vnderſtood the mat<g ref="char:EOLhyphen"/>ter, he tooke it ſoe heauily, that
+he could haue died willingly: <hi>mo<g ref="char:EOLhyphen"/>ri voluit, certe debuit,</hi> indeede
+(ſaith <hi>Seneca</hi>)<note place="margin">
+                  <hi>Loco notat.</hi>
+               </note> he
+ought to haue died: he that killeth a man when he is drunken, deſerueth to be
+hanged when he is ſober; eſpeci<g ref="char:EOLhyphen"/>ally if his drunkennes were vo<g ref="char:EOLhyphen"/>luntary, let
+him vndergoe the law of <hi>Pittacus,</hi> and ſuffer double puniſhment:
+firſt, for immoderate drinking, then for committing out-rage in his
+drunkenneſſe.</p>
+            <p>Thirdly, <hi>whoſoeuer is decei<g ref="char:EOLhyphen"/>ued thereby, is not wiſe</hi>)
+the roote is <gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>ſapere;</hi>
+he cannot relliſh well. <hi>Prae<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nimio voluptatis ſtu<g ref="char:EOLhyphen"/>dio, voluptatem ſe amitere
+neſci<g ref="char:EOLhyphen"/>unt,</hi>
+               <note place="margin">
+                  <hi>Baſil. Mag<g ref="char:EOLhyphen"/>nus contra
+Ebrioſos.</hi>
+               </note> drunkards hunt after plea<g ref="char:EOLhyphen"/>ſure in their cups: but
+taking o<g ref="char:EOLhyphen"/>uer much, they looſe their taſt.</p>
+            <p>A ſmall ſound delights the eare; too loude a noiſe will make
+one<pb n="24" facs="tcp:20639:16"/>deafe a ſmall light doth pleaſe the eie, but gazing
+on the <hi>Sunne</hi> will make one blind, a ſober draught affects the
+taſt, but too much wine offends the palate: the <hi>full ſoule loatheth an
+hony-combe: but to the hungry ſoule euery bit<g ref="char:EOLhyphen"/>ter thing is
+ſweete;</hi>
+               <note place="margin">Pro. 27.7.</note> the drunkards wine ſeemeth
+water to him, but the ſober mans water is turned into wine: the Iſraelites
+drank ho<g ref="char:EOLhyphen"/>ny out of a rocke: the water was ſo pleaſant to them, being ſore
+a thirſt.</p>
+            <p>But, <hi>ſapere quod hoc verbo ſig<g ref="char:EOLhyphen"/>nificatur, eſt mentes,
+non palati<g ref="char:punc">▪</g>
+               </hi>
+               <note place="margin">
+                  <hi>Mercer.</hi> on <hi>Pa<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>in,</hi> in <hi>
+                     <gap reason="illegible" resp="#OXF" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>adice</hi> 
+                  <gap reason="foreign" resp="#OXF" extent="1 word">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </note> The taſte here meant, is of the minde, not of the palate.
+Now the drunkard commeth ſhort of that: <hi>ventrem &amp; mentem nemo replere
+poteſt,</hi> a full belly hath an empty braine; whoredome, and Wine take away
+the heart, <hi>Hoſ.</hi> 4.11.</p>
+            <p>
+               <pb n="25" facs="tcp:20639:16"/>
+               <hi>Sapientis eſt ordinare</hi> (ſayth
+<hi>Thomas</hi> on the Maſters <hi>Prologue;</hi>) tis the part of a wiſe
+man, to or<g ref="char:EOLhyphen"/>der all his doings to the right end: but the drunkard cannot do
+ſo, whether the end be <hi>in aliquo ſpeciali artificio, vel in tota vita
+humana, vel ſimpliciter vltimus.</hi> In ſome ſpecial worke, or morall,
+or God himſelfe.</p>
+            <p>The end whereat a Carpen<g ref="char:EOLhyphen"/>ter doth aime, is an houſe for
+ha<g ref="char:EOLhyphen"/>bitation: and who ſo can giue beſt direction to inferiour worke<g ref="char:EOLhyphen"/>men, is
+a wiſe man <hi>As a wiſe ma<g ref="char:EOLhyphen"/>ſter-builder, I haue layd the foun<g ref="char:EOLhyphen"/>dation,
+and another buildeth thereon.</hi>
+               <note place="margin">1. Cor. 3.10</note> Now
+the drunkard in his cups, is not able to giue dire<g ref="char:EOLhyphen"/>ction, in any particular
+vocation. The Preacher cannot, <hi>Eſay</hi> 28.7. <hi>They haue erred
+through wine, and through ſtrong drinke are cut of the way: they are
+ſwallowed vp<pb n="26" facs="tcp:20639:17"/>of wine, they erre in viſion, they
+ſtumble in iudgement.</hi> The Ma<g ref="char:EOLhyphen"/>giſtrate cannot. <hi>Pro.</hi> 31.45.
+<hi>It is not for Kings, O Lemuel, it is not for Kings, to drinke wine, nor for
+Princes ſtrong drinke, leaſt they forget the Law, and peruert the iudgement
+of any of the affli<g ref="char:EOLhyphen"/>cted.</hi> A filly woman could ap<g ref="char:EOLhyphen"/>peale from
+<hi>Philip</hi> King of <hi>Ma<g ref="char:EOLhyphen"/>cedon</hi> being drunken, to the ſame King
+when he ſhould bee ſober: that he might well conſider the matter, before
+he paſſed ſentence againſt her. The Tradeſ-man cannot: what need I go
+to parti<g ref="char:EOLhyphen"/>culars in a generall truth? <hi>Who<g ref="char:EOLhyphen"/>ſoeuer is deceiued thereby, is
+not wiſe.</hi>
+            </p>
+            <p>If the end bee morall, to liue well and happily on earth, he that
+can beſt order all his actions to that end, is a wiſe man. 
+<note place="margin">Pro. 10.23</note>
+               <hi>It is a ſport to a foole
+to doe miſchiefe, <pb n="27" facs="tcp:20639:17"/>but a man of vnderſtanding hath
+wiſedome:</hi> true, and the drunkard hath none, he is ſuch a foole, that
+he careth not what miſchiefe hee doth himſelfe, or others in body, goods,
+or name: whereby it commeth to paſſe, that he lea<g ref="char:EOLhyphen"/>deth a moſt vnhappy
+life. Or if the end be, <hi>ſimpliciter vltimus,</hi> euen God himſelfe,
+who ſo or<g ref="char:EOLhyphen"/>dereth his courſe aright to ob<g ref="char:EOLhyphen"/>taine this end, is a wiſe man
+in<g ref="char:EOLhyphen"/>deed, <hi>ſapere, nihil aliudeſt, niſi verum Deum iuſtis ac pijs
+culti<g ref="char:EOLhyphen"/>bus honorare:</hi>
+               <note place="margin">
+                  <hi>Lactan. de vera ſapien
+cap.</hi> 1.</note> to be wiſe is nothing elſe, but to worſhip the true
+God aright. <hi>O keep, and do the Com<g ref="char:EOLhyphen"/>mandements of the Lord: for this is your
+wiſdome, and your vnder<g ref="char:EOLhyphen"/>ſtanding in the ſight of the Nati<g ref="char:EOLhyphen"/>ons.</hi>
+               <note place="margin">Deut. 4.6.</note> Againe, <hi>ſapientia, eſt intelli<g ref="char:EOLhyphen"/>gentia,
+vel ad bonum, rectumque faciendum vel abſtinentia dictoru<g ref="char:cmbAbbrStroke">̄</g> factorum<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan>
+improborum,</hi>
+               <note place="margin">
+                  <hi>Lactan. de iuſtitia c</hi> 19</note>
+wiſdome <pb n="28" facs="tcp:20639:18"/>is an vnderſtanding heart, to eſ<g ref="char:EOLhyphen"/>chew euill,
+and doe good, <hi>the feare of God, that is wiſedome: and to depart from
+evill, is vnder<g ref="char:EOLhyphen"/>ſtanding. Iob</hi> 28.28.</p>
+            <p>But drunkards haue no feare of God before their eyes, they ſay
+vnto the Lord, <hi>depart from vs, we deſire not the knowledge of thy
+wayes:</hi>
+               <note place="margin">Iob 21.14.</note> neither haue they any heart to
+depart from euill: there<g ref="char:EOLunhyphen"/>fore as for wine, <hi>whoſoeuer is de<g ref="char:EOLhyphen"/>ceiued
+thereby, is not wiſe.</hi>
+            </p>
+            <p>What if a man ſhould ſay he is a very foole; the word of the
+Lord is verified in ſuch: <hi>my people is fooliſh, they haue not knowne
+me, they are ſottiſh children, and haue none vnderſtanding, they are
+wiſe to doe evill, but to doe good they haue no knowledge.</hi>
+               <note place="margin">Ier. 4.22.</note>
+            </p>
+            <p>
+               <hi>Sane diſcimus vitandam ebrie<g ref="char:EOLhyphen"/>tatem, per quam crimina vitare
+non poſſumus.</hi>
+               <note place="margin">
+                  <hi>Ambroſ. de Abrah. Patriar.
+c.</hi> 6</note> in any caſe auoyd <pb n="29" facs="tcp:20639:18"/>drunkennes, which
+diſableth you to ſhun wickednes. Oh it is a Ca<g ref="char:EOLhyphen"/>pitall crime, with as many
+heads as Hydra. What ſinne can be ſo<g ref="char:EOLhyphen"/>vile, that drunkards will not ven<g ref="char:EOLhyphen"/>ture
+on? <hi>ebrietas fomentum libi<g ref="char:EOLhyphen"/>dinis,</hi>
+               <note place="margin">
+                  <hi>Ambroſ. de
+Hel. &amp; ieiu. cap.</hi> 16.</note> drunkennes prouoketh men to wantonnes:
+<hi>their eyes be<g ref="char:EOLhyphen"/>hold ſtrange women,</hi>
+               <note place="margin">Verſe
+33.</note> they will make no bones of adultery, nor yet of idolatry<g ref="char:punc">▪</g>
+               <hi>the People ſate downe to eate, and drinke, and roſe vp to play,</hi>
+that play was idola<g ref="char:EOLhyphen"/>try, to worſhip the golden calfe which <hi>Aaron</hi>
+made. 
+<note place="margin">
+                  <hi>Baſil. Mag contra ebri<g ref="char:EOLhyphen"/>oſos.</hi>
+               </note>
+And thus at length it appeareth, that <hi>wine is a mocker, ſtrong drinke is
+ra<g ref="char:EOLhyphen"/>ging, and whoſoeuer is deceiued thereby, is not wiſe.</hi>
+            </p>
+            <p>
+               <hi>Salomon</hi> telleth vs againe that <hi>vngodly men reioyce to
+doe evill Pro:</hi> 2.14. 
+<note place="margin">
+                  <gap reason="illegible" resp="#OXF" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </note> the roote for euill is
+<gap reason="foreign" resp="#OXF" extent="1 word">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>taratantarizare,</hi> taken
+from the ſound of the trumpet, <hi>laetitiae<pb n="30" facs="tcp:20639:19"/>cauſa vocem
+at tollere,</hi> to lift vp the voyce for ioy. This <hi>inepta laetitia,</hi>
+fooliſh mirth, is in all ini<g ref="char:EOLhyphen"/>quity; but chiefly in ebriety.</p>
+            <p>The ſober man well vnder<g ref="char:EOLhyphen"/>ſtandeth the manifold calamities that
+befall him in this life, which make him ſay <hi>of laughter it is mad,</hi>
+               <hi>and of mirth, what doth it:</hi>
+               <note place="margin">Eccleſ. 2.2.</note>
+but <hi>wine turneth euery thought into i<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>ty, and mirth: ſo that a man remembreth neither
+ſorrow, nor debt:</hi>
+               <note place="margin">1 Eſd. 3.20.</note> He doth euen
+inioy his cups, which maketh his heart to leape, ſuppoſing felicity to
+conſiſt therein: hee cannot con<g ref="char:EOLhyphen"/>taine, but breaketh foorth into outward
+ſignes of ioy, he begin<g ref="char:EOLhyphen"/>neth to laugh, dance, and ſing tara-tantara: but
+alas poore ſoule, if hee knew all, hee hath more cauſe to weepe.</p>
+            <p>Goe to now yee Drunkards, weep and howle for the miſeries 
+<pb n="31" facs="tcp:20639:19"/>that ſhall come vppon you <hi>howle yee Ships of
+Tarſhiſh,</hi> (ſayth <hi>E<g ref="char:EOLhyphen"/>ſay,</hi>)<note place="margin">Eſay
+23.1.</note> and well doth the Prophet compare Drunkards to ſhips Saith
+<hi>Ambroſe,</hi>
+               <note place="margin">
+                  <hi>De Helia et ieiun. c.</hi> 19.</note>
+               <hi>They that goe downe to the Sea in ſhips, that doe buſineſſe in
+great waters, reele too and fro, and ſtagger;</hi> ſo doth the Drunkard;
+they are at their wits end, ſo is the Drunkard; they are troubled with
+windes, and raging waters, ſo is the drun<g ref="char:EOLhyphen"/>kard: they caſt out their lading,
+ſo doth the Drunkard: <hi>Os poſte<g ref="char:EOLhyphen"/>riorum partium aſſumit
+vſum:</hi>
+               <note place="margin">
+                  <hi>Chryſoſt. ad pop. hom.</hi> 54</note>
+his mouth executeth the office of the lower parts: they ſcarce eſ<g ref="char:EOLhyphen"/>cape with
+life, no more doth the Drunkard: <hi>Pleri<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> dum vomunt epulum, fudere
+animam:</hi>
+               <note place="margin">
+                  <hi>Ambroſ. de Helia et ei<g ref="char:EOLhyphen"/>iun. cap.</hi>
+8.</note> too many vomit vp drink, and life together. <hi>Alexander</hi> at a
+ſupper brought out a crowne for a reward to him that dranke moſt:<note place="margin">
+                  <hi>Plutarc. Alexa.</hi>
+               </note> 
+               <hi>Promachus</hi> 
+               <pb n="32" facs="tcp:20639:20"/>ſwallowed downe foure gallons of wine, and wan the Crowne
+worth a Talent; but hee liued not aboue three dayes after, and forty one of his
+fellowes dyed of an extreame cold, that tooke them in their drunkenneſſe. A
+fearefull example, and a faire warning for all pot-companions. Though the
+Mariners eſcape with life, yet they are halfe vn<g ref="char:EOLhyphen"/>done, their wares are
+loſt, and their ſhip well-nigh broken: So is the Drunkard almoſt, if not
+quite vndone, <hi>Ebrietas mors om<g ref="char:EOLhyphen"/>nium virtutum:</hi>
+               <note place="margin">
+                  <hi>Vincen. ſpecul. mor. lib.</hi> 3. <hi>par.</hi> 8
+<hi>diſt.</hi> 8.</note> Drunkenneſſe is the ſhipwracke of all
+goodneſſe, his modeſty, ſobriety, and tem<g ref="char:EOLhyphen"/>perance, moſt precious
+wares, are caſt away, and the ſhippe of his body is fore ſhaken, with
+palſies, and other diſeaſes, that he will haue much adoe to patch it vp
+againe.</p>
+            <p>
+               <pb n="33" facs="tcp:20639:20"/>Who goeth with a rugged coate? the Drunkard:
+who tur<g ref="char:EOLhyphen"/>neth wife and children out of doores? the Drunkard. <hi>Who hath woe?
+who hath ſorrow? who hath contentions? who hath bab<g ref="char:EOLhyphen"/>ling? who hath wounds
+without cauſe? who hath rednes of eies? they that tarry long at the wine,
+they that goe to ſeeke mixt wine.</hi> Oh! <hi>looke not vpon the wine, when
+it is red: when it giueth his colour in the cap: when
+<gap reason="illegible" resp="#OXF" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> it ſelfe aright: at the
+laſt it bi<g ref="char:EOLhyphen"/>teth like a Serpent, and ſtingeth like an Adder.</hi>
+            </p>
+            <p>
+               <hi>Man that is in honour, and vnderſtandeth not, is like the
+beaſt that periſh.</hi>
+               <note place="margin">Pſal. 49.10</note> Tell me O
+man, wherein differeſt thou from a beaſt? is it not in the excellent gift
+of reaſon, whereby thou ruleſt the creatures? Oh! then, be not thou ſo
+baſe to be led by<pb n="34" facs="tcp:20639:21"/>the ſway of ſenſuall deſire, and
+for the loue of liquor turne thy ſelfe on grazing with
+<hi>Nebuchad<g ref="char:EOLhyphen"/>nezzar</hi> among the beaſts of the field. The ſilly Aſſe
+will quench his thirſt, and drinke no more: but thou for thy pleaſure, wilt
+paſſe the bounds of nature, and become a beaſt, nay rather worſe: for
+they haue no reaſon, no more haſt thou: but they can vſe their limbes,
+ſoe canſt not thou. Whereto ſhall I liken drunkards? but to the Idols of
+the heathen, who haue eyes, and ſee not, eares and heare not, feete, and
+walke not.</p>
+            <p>The Drunkard can neither reade, nor pray; hee is not for the
+workes of piety, or policy: to ſay plainely, hee is good for iuſt nothing;
+like the vnprofitable ground, which hauing drunke too much, beareth no fruite,
+but<pb n="35" facs="tcp:20639:21"/>turneth into dirt. Alas! what good fruite ſhould wee
+expect from a Drunkard? Who is no better then a dead man, nay worſe by farre:
+hee that is dead can doe neyther good nor ill, but the Drunkard is dead to all
+goodneſſe whatſoeuer, and a<g ref="char:EOLhyphen"/>liue, yea very actiue to all
+wicked<g ref="char:EOLhyphen"/>neſſe.</p>
+            <p>Loe, yee haue heard how the Drunkard is voyde of good<g ref="char:EOLhyphen"/>neſſe,
+apt to lewdneſſe, and that hee ſhalbee impoueriſhed, diſeaſed, a
+thouſand wayes tor<g ref="char:EOLhyphen"/>mented in this life. <hi>If it come to paſſe, when hee
+heareth the wordes of this curſe, that hee bleſſe himſelfe in his
+heart, ſay<g ref="char:EOLhyphen"/>ing, I ſhall haue peace, though I walke in the imagination of
+mine heart, to adde drunkennes to thirst: the Lord will not ſpare him, but
+then the anger<pb n="36" facs="tcp:20639:22"/>of the Lord, and his iealouſy ſhall
+ſmoake againſt that man. Deut.</hi> 29.19.20. <hi>Woe to them that riſe
+early in the morning, that they may follow ſtrong drinke, that continue
+vntill night, till the wine inflame them. Eſay</hi> 5.11, <hi>Vae
+lamentabilis eſt acclamatio, lamentatione autem digni ſunt e<g ref="char:EOLhyphen"/>brioſi, quia
+regnum Dei non poſ<g ref="char:EOLhyphen"/>ſidebunt.</hi>
+               <note place="margin">
+                  <hi>Baſil. Mag.
+contra ebri<g ref="char:EOLhyphen"/>oſes.</hi>
+               </note> Woe is a dolefull ex<g ref="char:EOLhyphen"/>clamation, and indeed all
+drun<g ref="char:EOLhyphen"/>kards deſerue lamentation, for they are in the Catalogue of thoſe that
+ſhall neuer inherite the kingdome of God.</p>
+            <p>
+               <hi>Audite, et cauete vos, O quibus iſtud malum non in crimine,
+ſed in vſu eſt,</hi>
+               <note place="margin">
+                  <hi>Orig. in Gen c.</hi> 19.
+<hi>hom.</hi> 5</note> heare and beware, O yee that blame not this ſinne, but
+make a common practiſe of it: haue ſome reſpect to your out<g ref="char:EOLhyphen"/>ward
+eſtate, to the teares of your wiues, to the good of your chil<g ref="char:EOLhyphen"/>dren: 
+<pb n="37" facs="tcp:20639:22"/>be not altogether careleſſe of the health of your
+bodies, of the vertue of your minde, of the Lawes of God, of the ſauing of
+your ſoules: preferre not a little beaſtly pleaſure before them all: doe
+not wilfully caſt away your ſelues, for whom Chriſt dyed.</p>
+            <p>If yee repent, and amend, hee is ready to forgiue: I can ſhewe
+your pardon from the great King of Heauen, for all that is paſt, the tenour
+whereof is this, <hi>Let the wicked forſake his way, and the vnrighteous man
+his thoughts, and let him returne to the Lord, and he will haue mercy vpon him,
+and to our God, for he will aboun<g ref="char:EOLhyphen"/>dantly pardon.</hi>
+               <note place="margin">Eſay
+55.7</note> Gods mercy is greater then your miſery: Yee cannot be ſo
+infinite in ſinning, as he is infinite in pardoning, if you repent.</p>
+            <p>I know an euill habite is not<pb n="38" facs="tcp:20639:23"/>caſt off in a
+moment, but by de<g ref="char:EOLhyphen"/>grees: therefore (as Saint <hi>Au<g ref="char:EOLhyphen"/>gustine</hi>
+aduiſeth)<note place="margin">
+                  <hi>De tempor. ſerm.</hi> 232.</note>
+preſently with<g ref="char:EOLhyphen"/>draw one cup, to morrow ano<g ref="char:EOLunhyphen"/>ther, and next day another, till
+you come to a ſetled, and ſober dyet. Giue thy ſelfe to faſting and
+prayer, without which ex<g ref="char:EOLhyphen"/>erciſe this kinde of Diuell is not caſt out. Then
+haue a care to ſhunne lewd company, be not amongſt Wine-bibbers, leaſt
+they make thee returne to thy wonted courſe: <hi>Bonum eſſe inter malos,
+eſt quaſi natare contra tor<g ref="char:EOLhyphen"/>rentem,</hi>
+               <note place="margin">
+                  <hi>Ste<gap reason="illegible" resp="#OXF" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>a de contemp.
+mundi p.</hi> 2. <hi>cap.</hi> 27.</note> to be abſtemious among the
+Gluttonous, were to ſwimme againſt the ſtreame.</p>
+            <p>If vrgent occaſions call thee to ſuch places, reſolue by
+Gods grace not to pledge their healths: Nay, but they will ſtab then! care
+not for that: looke what wrong they offer thee, beare it pati<g ref="char:EOLhyphen"/>ently, 
+<pb n="39" facs="tcp:20639:23"/>and God will reward thee. <hi>Nemo dicat, quod in iſtis
+temporibus martyres non ſint; quotidie martyres fiunt:</hi>
+               <note place="margin">
+                  <hi>Auguſt. de temp. ſ.</hi> 232</note> let no man ſay, wee
+haue no Martyrs in theſe our dayes, wee haue Martyrs daily: A Martyr, is a
+witneſſe of the truth of God, and whatſoeuer a man ſuffereth for the
+truth ſake, the Lord eſteemeth it no leſſe then Mar<g ref="char:EOLhyphen"/>tyrdome.</p>
+            <p>Moreouer, conſider the great want of Chriſts poore mem<g ref="char:EOLhyphen"/>bers,
+and thou wilt not for pit<g ref="char:EOLhyphen"/>ty, waſt that prodigally, where<g ref="char:EOLhyphen"/>with the bowels of
+the Saints may be refreſhed.</p>
+            <p>Finally, be a frequent hearer of the word, and thou ſhalt of<g ref="char:EOLhyphen"/>ten
+meete with good exhortati<g ref="char:EOLhyphen"/>ons to ſobriety, and powerfull reaſons to
+diſwade from drun<g ref="char:EOLhyphen"/>kenneſſe.</p>
+            <p>
+               <pb n="40" facs="tcp:20639:24"/>Vſe theſe remedies conſcionably, and
+thou wilt ſoone abandon this iniquity: ſo ſhalt thou liue godly,
+righteouſly, and ſoberly in this preſent world, to the glory of God, the
+good example of thy Neighbour, and the ſauing of thy ſoule, through Gods
+tender mer<g ref="char:EOLhyphen"/>cy in Chriſt Ieſu. To whom with the Father, and the Holy
+Ghoſt, be aſcribed all Glory, Honour, and Praiſe, Power, Might, and
+dominion, of vs, and all people, now and for euer. <hi>Amen.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:20639:24"/>
+         </div>
+      </body>
+   </text>
+</TEI>

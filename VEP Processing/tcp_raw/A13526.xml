@@ -1,0 +1,718 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A whippe for worldlings or The centre of content</title>
+            <author>Taylor, Stephen, fl. 1637.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1637</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 31 KB of XML-encoded text transcribed from 11 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A13526</idno>
+            <idno type="STC">STC 23818</idno>
+            <idno type="STC">ESTC S111398</idno>
+            <idno type="EEBO-CITATION">99846754</idno>
+            <idno type="PROQUEST">99846754</idno>
+            <idno type="VID">11741</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A13526)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 11741)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 399:13)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A whippe for worldlings or The centre of content</title>
+                  <author>Taylor, Stephen, fl. 1637.</author>
+               </titleStmt>
+               <extent>[24] p., plate   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[S.l. :</pubPlace>
+                  <date>1637?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"To the reader" signed: Stephen Taylor.</note>
+                  <note>In verse.</note>
+                  <note>The title page is engraved.</note>
+                  <note>Publication date conjectured by STC; "printed abroad".</note>
+                  <note>Signatures: A-C⁴.</note>
+                  <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-01</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2012-01</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="engraved_title_page">
+            <pb facs="tcp:11741:1"/>
+            <p>
+               <figure>
+                  <p>A WHIPPE FOR WORLDLINGS OR THE CENTRE OF CONTENT</p>
+                  <l>Vt Pau<g ref="char:cmbAbbrStroke">̄</g>ſu<g ref="char:cmbAbbrStroke">̄</g>s Viperam</l>
+                  <l>Su P<gap reason="illegible" resp="#MURP" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>s Vanitatem</l>
+                  <figDesc>engraved title page</figDesc>
+               </figure>
+            </p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:11741:2"/>
+            <pb facs="tcp:11741:2"/>
+            <head>To the Reader.</head>
+            <lg>
+               <l>
+                  <seg rend="decorInit">M</seg>Y modeſt lines thy milder cenſure craves,</l>
+               <l>They kicke not at authoritie, outbraves</l>
+               <l>No poore deiected ſoul, faine would they tell,</l>
+               <l>That greatnes, goodnes, ſhould together dwell,</l>
+               <l>The rich, in ſpirit poore, the poore ſhould be</l>
+               <l>Rich in all graces, with humilitie.</l>
+               <l>That Monarches, Iudges, Magiſtrates, yea all</l>
+               <l>The Civill as Eccleſiaſticall,</l>
+               <l>Should ſo diſcharge their places in love, feare,</l>
+               <l>As ſhortly to receive their loane elſe where;</l>
+               <l>That thoſe of lowe degree themſelves demeane,</l>
+               <l>As may their bleſt profeſſion beſt beſeeme,</l>
+               <l>Giving all men their due, below, above,</l>
+               <l>So ſhall they die in peace, who liv'd in love;</l>
+               <l>That neither wiſe in wiſedome, ſtrong in might,</l>
+               <l>Rich in his riches glorie; but as right</l>
+               <l>Give God the praiſe, ſo vſe thoſe giftes him lent</l>
+               <l>As a good ſteward, Gods bleſt inſtrument;</l>
+               <l>That the afflicted, thoſe with tempeſts toſs'd,</l>
+               <l>Vncomforted, give not themſelves for loſt,</l>
+               <l>Although their drinke be teares commix'd with gall,</l>
+               <l>He that did wound, can heale, can kill, recall</l>
+               <l>To life, affliction touchſtone like doth trie</l>
+               <l>The reines, the hart; as fire doth purifie</l>
+               <l>The Gold, ſo they the Saints; though now they mourne,</l>
+               <l>Their ſweet releaſe to greater ioy ſhall turne.</l>
+               <l>Right precious in his ſight are all Gods Saints,</l>
+               <l>At reſt, forgets not God, diſtreſs'd, not faints,</l>
+               <l>Living, vnto the Lord they live, and die</l>
+               <l>In him, to live with him eternally.</l>
+            </lg>
+            <lg>
+               <l>Good, gentle, peacefull Reader, I preſent</l>
+               <l>This maſſe thus dreſs'd vnto thee; my intent</l>
+               <pb facs="tcp:11741:3"/>
+               <l>Is good, if here be ought that's for thy vſe</l>
+               <l>If thou find profite by it, no abuſe,</l>
+               <l>Receive it from thy freind in love, and ſay</l>
+               <l>Th'art promiſ'd, if God will, an higher lay.</l>
+            </lg>
+            <closer>
+               <signed>Thine STEPHEN TAYLOR.</signed>
+            </closer>
+         </div>
+         <div type="poem">
+            <head>Ad Avarum O ſorem huiuſce libelli &amp; roſorem.</head>
+            <l>FAſciculum <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> Florum (Diodore) paravit</l>
+            <l>Dic mihi, quid ſentis? non probo. Sentis inest.</l>
+            <l>Dic, vbi te pungit? digitos. Mentiris inepte.</l>
+            <l>Non digitos pungit, pungit at hic animum.</l>
+            <l>Tu curas depone tuas, quae ſunt magè ſentes,</l>
+            <l>Et roſa tunc redolens, quod modò ſentis, erit.</l>
+            <closer>
+               <signed>
+                  <hi>Authori Amico obtulit</hi> Mich: Edmonds.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:11741:3"/>
+            <head>
+               <hi>A</hi> WHIPPE FOR WORLDLINGS <hi>OR</hi> THE CENTRE OF CONTENT.</head>
+            <l>
+               <seg rend="decorInit">W</seg>Hy should the boundles ill-diſpoſed mind</l>
+            <l>Of brittle man, vnconſtant as the vvind,</l>
+            <l>VVith ſvvelling pride, diſdainefull arrogance,</l>
+            <l>Seeke to himſelf the vvorlds ſole governance?</l>
+            <l>Alas, ſo ſmall a part vvould him ſuffice,</l>
+            <l>(If glorie vaine blent not his Reaſons eyes)</l>
+            <l>That he should find that vvho poſſeſſeth leaſt</l>
+            <l>Ha's moſt content, vvhich is that God-like Feaſt;</l>
+            <l>That onely <hi>Summum bonum</hi> here belovve,</l>
+            <l>That myrrour cleare through vvhich vve moſt things knovve;</l>
+            <l>That glaſse of glorie, by vvhoſe helpe vve ſee</l>
+            <l>Thoſe ſecret myſteries of divinitie,</l>
+            <l>That richeſt Ievvell, vvhich the Gods impart</l>
+            <l>To thoſe that them adore vvith ſimple heart;</l>
+            <l>VVhoſe povvers; bleſſednes, no tongue can tell</l>
+            <l>Saue that vvhich dipp'd hath bene in th'living vvell.</l>
+            <l>VVhy are vvee puffed vp? or rather vvhy</l>
+            <l>(Knovving our vveakenes our deepe miſerie,)</l>
+            <l>VVith humbled ſoul, heart thankefull, chearfull grace,</l>
+            <l>Do'nt vve his mercies bountifull embrace?</l>
+            <l>No, no, our natures are ſo prone to ill,</l>
+            <l>That little good vve knovve; if knovve, not vvill.</l>
+            <l>Much like the daughters of the vvatry leach</l>
+            <l>By vviſedomes Magazine deſcrib'd, vvhich reach</l>
+            <pb facs="tcp:11741:4"/>
+            <l>Out their vvide throates after the bloodie prize,</l>
+            <l>The more inſatiate they gulpe, the more their cries</l>
+            <l>Are, give, give; Such is our vvretched ſtate,</l>
+            <l>Fretting our ſouls vvith cares intemperate,</l>
+            <l>VVith reſtles thoughts, &amp; carkings pining ſeeke</l>
+            <l>VVe Mammons pois'ned treaſures, vvhich to keepe</l>
+            <l>Our minds are charg'd vvith doubts, &amp; bloudles feares,</l>
+            <l>Our ſpirits all conſumes, exciccates, ſeares.</l>
+            <l>VVe plunge our ſelves into the lovveſt deeps</l>
+            <l>VVith raving madnes, vvhere vs nothing meets</l>
+            <l>But moaning ſorrovve, greife remediles,</l>
+            <l>Heart-burning hate, vvaſting diſquietnes,</l>
+            <l>Squint-ey'd ſuſpect, foaming revenge, deſpight,</l>
+            <l>All-dreaded horrour, shaking pale-look'd affright,</l>
+            <l>Blood-ſtained treaſon, faithles diſloyaltie,</l>
+            <l>Corrupted iuſtice, ſelf eating Iealouſie</l>
+            <l>Deceite, vvhoſe faire fil'd tongue is ever found</l>
+            <l>To his hart diſcord, sharpe, yet no true ſound;</l>
+            <l>And after follovves him that monſter vilde</l>
+            <l>VVith gaſtfull lookes, eyes hollovve, all defilde</l>
+            <l>About his chinne, his loathſome beard &amp; breſt</l>
+            <l>VVith filthy-colour'd ſtinking matter preſt</l>
+            <l>Through his blacke irkeſome teeth, that him to ſee,</l>
+            <l>VVould turne a ſtomacke ſtrong; (call'd Periurie)</l>
+            <l>Then ſimonie, too vvelcome novv a gheſt</l>
+            <l>To greateſt Prelates, &amp; the ſureſt reſt</l>
+            <l>(In theſe corrupted times) to thoſe that be</l>
+            <l>Poorer in parts than purſe, in Arts than fee,</l>
+            <l>But murder lurkes this vvhile, &amp; vneſpi'de</l>
+            <l>VVould gladly ſcape our ſight, &amp; ſteale aſide;</l>
+            <l>His colour is too ſplendent, his path vvay</l>
+            <l>Too much is beaten, ſo that every day,</l>
+            <pb facs="tcp:11741:4"/>
+            <l>Nay every houre, vvhere e'r vve be, report</l>
+            <l>Dolefull is made of him in heavie ſort.</l>
+            <l>Light-shunning shame vvith cauſes firſt and laſt</l>
+            <l>Make haſt to follovve them before that paſt.</l>
+            <l>Then comes deſpaire, in vvhoſe diſtracted looke</l>
+            <l>VVell may you read her leſſon vvithout booke,</l>
+            <l>VVith ſpeaking geſture, moſt vnconſtant gate,</l>
+            <l>VVith raving vvords ſtill cryes out, (all too late,)</l>
+            <l>Voice heavie, hollovve, hoarce, vvith a reſound</l>
+            <l>Much like an emptie caue farre vnder ground;</l>
+            <l>Faine vvould she vveepe, to give her ſelf ſom eaſe,</l>
+            <l>But cannot vveepe, nor greife in leaſt appeaſe,</l>
+            <l>The fountaine's drie, her braine the ſpring is ſpent,</l>
+            <l>All moiſture gone, nought left ſaue ſad lament.</l>
+            <l>VVith leaden feet her numbred ſteps ſhe treads</l>
+            <l>Sometimes vvhere Fortune, not vvhere Iudgment leads,</l>
+            <l>VVhen ſhe augments her torments, tortures dire,</l>
+            <l>And adds light fuell to her flaming fire.</l>
+            <l>Novv bends her brovves againſt the ſparkling skie,</l>
+            <l>And then caſt dovvne groueling in duſt doth lie,</l>
+            <l>Curſing the Fates, the Povvers aboue, and all</l>
+            <l>That either made her man, or man let fall.</l>
+            <l>And then againe as mildly doth she bleſs</l>
+            <l>The ſtate of men, (than Angells not much leſs)</l>
+            <l>That flie in time Satans temptation,</l>
+            <l>And vvorke vvith feare their ovvne ſalvation!</l>
+            <l>But ſodainely vpſtarting from this Muſe,</l>
+            <l>She flies as faſt as if she vvings did vſe;</l>
+            <l>Or as the ſpeedie poſte of heaven had lent</l>
+            <l>Her (for more haſt) th'aire cutting inſtrument.</l>
+            <l>All bootes not thoe, she finds vvhere e'r she flie</l>
+            <l>Death, death eternall doth vvithin her lie:</l>
+            <pb facs="tcp:11741:5"/>
+            <l>The vulture, as on Tityus, ſo doth gnavve</l>
+            <l>Her vvaſtles bovvels, eaſeles pangs to dravve;</l>
+            <l>And vvith Ixion turned on a vvheele,</l>
+            <l>Rack'd as Typhaeus, vvhile each joynt doth feele</l>
+            <l>VVorſe than Perillus paines, (that did invent</l>
+            <l>The braſen Bull his ovvne deaths inſtrument.)</l>
+            <l>Thus, vvretched earth vvormes, doe vve pull amaine</l>
+            <l>Our ſouls loſſe on vs for the ſlighteſt gaine,</l>
+            <l>Gaine did I call it? VVhen no tongue can tell,</l>
+            <l>Hovv great's the loſſe, vvhen heavens exchang'd for hell.</l>
+            <l>No matter vvhat the man is, ſo ha's vvealth,</l>
+            <l>Hovv qualify'd in mind, if riche in pelfe:</l>
+            <l>His Father dy'd but lately, left him ſtore,</l>
+            <l>His Vncle's ſicke, vvhoſe death shall bring much more;</l>
+            <l>Svveet daughter, give his firſt acceſs ſome grace,</l>
+            <l>A pleaſant ſmile from that thy lovely face,</l>
+            <l>No matter though his ſtiffe benummed joynts</l>
+            <l>Haue vſ'd the flaile, more than thoſe nicer points</l>
+            <l>Of gentile exerciſe; can he not dance?</l>
+            <l>Nor curbe the cornefed ſteed vvith couched lance</l>
+            <l>In hand? nor ſing, nor court, nor play</l>
+            <l>On lute, or violl, or on that they ſay</l>
+            <l>Arion did repay the Dolphines loue?</l>
+            <l>VVhat then (my Doll) this muſt thy thoughts not moue,</l>
+            <l>Theſe complete youths, vvhen they haue ſpent their 'ſtates,</l>
+            <l>May goe and ſcrape in conſort vvith their mates.</l>
+            <l>My pretty girle, thy mother vvell did knovve,</l>
+            <l>(O giue mee aqua vitae, elſe I goe</l>
+            <l>To meet her in Elyſium, for her name</l>
+            <l>Makes ſodaine cold to runne through every veine)</l>
+            <l>I ſay she knevv, good Creature, hovv that I,</l>
+            <l>Though ne'r inſtructed in ſuch fopperie,</l>
+            <pb facs="tcp:11741:5"/>
+            <l>Could play my part, and frisking skippe about</l>
+            <l>The merrie Maypole, till I her cull'd out</l>
+            <l>From' mongſt the route, thoſe vvere the happy daies,</l>
+            <l>VVe vvere not then ſo nice, ſo coy; vvhat ſaies</l>
+            <l>My darling? hovv? gippe goſſip, hoe</l>
+            <l>Are you ſo proud novv grovvne, vvell, you shall knovve</l>
+            <l>That I your Father am, ha's he no vvit?</l>
+            <l>He cannot ſpeake, nor looke, nor goe, nor ſit,</l>
+            <l>VVhat though he cannot vvrite nor read a letter?</l>
+            <l>Is not than all of theſe his meanes much better?</l>
+            <l>One caſts her ſelf away in beſt of age</l>
+            <l>Vpon a cree ping goate meerly for gage,</l>
+            <l>And daignes that rotten bulke to cull &amp; kiſſe,</l>
+            <l>And ſmiling tells him he Adonis is.</l>
+            <l>VVhen as his toothles gummes, his reſtles cough</l>
+            <l>She hates in heart and privately does scoffe,</l>
+            <l>Is he not vvel at eaſe? O then she cries,</l>
+            <l>My deareſt Lord, my all-delight, my joyes,</l>
+            <l>VVhere is your paine? tell mee vvhere lies your ſmart,</l>
+            <l>I need not aske, I feele it at my heart.</l>
+            <l>So doe vve Symphathize. O I could rend</l>
+            <l>The haire from of my head, but to vvhat end?</l>
+            <l>All vvill not help; good Sir, conſider vvell</l>
+            <l>Be fore your death your poorer freinds that dvvell</l>
+            <l>In the next village, for they haue children ſmall,</l>
+            <l>And little meanes (God knovves) to help vvithall,</l>
+            <l>For mee there'l be enough, I am but one,</l>
+            <l>And vvhen you die, vvith mee the vvorld is gone;</l>
+            <l>Or if, that care you doe impoſe on mee,</l>
+            <l>My loue to you in them the vvorld shall ſee.</l>
+            <l>Novv ha's she vvonne him, ſtraight he does enfeoft</l>
+            <l>Her in his vvhole eſtate, and nothing's left</l>
+            <pb facs="tcp:11741:6"/>
+            <l>Vndone, but to enioy; yet him recover'd</l>
+            <l>In mind she cannot brooke, but undiſcover'd,</l>
+            <l>Covers vvith vaile of falſe dy'd joy, &amp; he,</l>
+            <l>Raviſh'd thervvith, ſeemes novv in heaven to be,</l>
+            <l>But yet for her, this vvind no haver shakes,</l>
+            <l>For more content ſome other shifte ſhe makes;</l>
+            <l>Fall backe, fall edge, man ha's no perfect povver;</l>
+            <l>If not as vvife, she'l haue it as a—.</l>
+            <l>Nor the endovvments rare of largeſt mind</l>
+            <l>In Ethicles, to vertues lore inclin'd,</l>
+            <l>Nor yet his perſonage, admired grace,</l>
+            <l>Nor honours due moue Lycia faire an ace;</l>
+            <l>VVith the ſame ſauce too is Meliſſus ſeru'd,</l>
+            <l>Paſſius his diſh delighted in ha's caru'd.</l>
+            <l>For he vvas rich, his father left him heire</l>
+            <l>Of all his goods, &amp; baſenes to an haire.</l>
+            <l>But thoſe Heroicke ſpirits, right Noble breſts,</l>
+            <l>True glories darlings, Pallas delighted gheſts,</l>
+            <l>The Muſes favourites, baſe earth diſdaines,</l>
+            <l>And all thoſe tempting trifles from her veines</l>
+            <l>Suck'd by her leane-chopd ſlaues, their eyes are bent</l>
+            <l>Vpon the mind, not theſe goods contingent;</l>
+            <l>Nor painted vveeds, bigge lookes, affected gate</l>
+            <l>Of Pluto's gorgeous ſonnes infatuate</l>
+            <l>Their ſounder judgments, but vvhere vertue cleare</l>
+            <l>Or any parts deſerving shall appeare,</l>
+            <l>Though clad in ragges, &amp; coverd vvith the ſcorne</l>
+            <l>Of fortunes butterflies, ſeeming forlorne,</l>
+            <l>Them they vvill honour, and reſpect much more</l>
+            <l>Than thouſand Braggadocho's nam'd before.</l>
+            <l>Not meanes, but men; not ſtate, but ſtudies deepe,</l>
+            <l>Not pride, but fruitfull lore their favours keepe.</l>
+            <pb facs="tcp:11741:6"/>
+            <l>VVhat though the vpſtart gallants of theſe times,</l>
+            <l>Mounted aloft by Parents damned crimes,</l>
+            <l>Spreading their tailes as Peacockes, thee deride</l>
+            <l>VVith obſcure houſe, baſe blood on either ſide?</l>
+            <l>Forgetting vvhat their fathers vvere, and hovv</l>
+            <l>They purchaſ'd that of vvhich they vaunt ſo novv.</l>
+            <l>One by long ſuite, and ſome ſmall feeling by</l>
+            <l>Vnto the favour'd of his Majeſtie,</l>
+            <l>In forraigne ſervice, or laſt expedition,</l>
+            <l>Or elſe at home in one leſſ-lou'd Commiſſion,</l>
+            <l>Procur'd an office, vvhen he ſo vvell did licke</l>
+            <l>His fingers, that his ſonnes doe find it ſticke</l>
+            <l>Still by their ribbes. Another ha's ſuck'd drie</l>
+            <l>Three better gentlemen, that dvvelt him by,</l>
+            <l>Their charge vvas great, large debts they had to pay,</l>
+            <l>The times vvere hard, their tenants begg'd delay</l>
+            <l>In paiment of their rents, ſo they much ſtrain'd,</l>
+            <l>Made uſe of this their neighbour, vvhen he gain'd</l>
+            <l>His hearts deſire, then he himſelf does bleſs</l>
+            <l>Hugging his fortune, and vviſh'd happineſs.</l>
+            <l>VVith countenance compoſ'd, &amp; long dravvne ſpeech</l>
+            <l>(After excuſe) his mony vvill not reach</l>
+            <l>Vnto ſo high a ſumme, he lets them knovve;</l>
+            <l>But glad vvould be, if that he could but shovve</l>
+            <l>In that or any ſervice, his affection deare</l>
+            <l>VVhich he to them and theirs did ever beare.</l>
+            <l>vvell, they'l make shifte then vvith vvhat he can ſpare:</l>
+            <l>And one vpon his ſonne beſtovves a mare</l>
+            <l>In token of acceptance; S<hi rend="sup">r</hi>. forbeare,</l>
+            <l>Your bountie's vnderſeru'd, he sha'nt I svveare.</l>
+            <l>vvell, I muſt reſt your debtor; yet, S<hi rend="sup">r</hi>, I pray</l>
+            <l>That this your morgage may be ſeal'd to day,</l>
+            <pb facs="tcp:11741:7"/>
+            <l>For vve are mortall all, &amp; knovve not vvhen</l>
+            <l>Our living ſouls shall leave their fleshie den.</l>
+            <l>His vvill obtain'd by reaſons large alledg'd,</l>
+            <l>All deemes he as his ovvne, for ſurely vvedg'd</l>
+            <l>He finds himſelf in their eſtates, and plods</l>
+            <l>Novv hovv to ſet them that vvere freinds at odds.</l>
+            <l>He knovves that lavvyers loadſtones are, they'l looke</l>
+            <l>VVhat fish there comes to net by hooke or crooke</l>
+            <l>To make their prize, than vvhich he ſeekes not more</l>
+            <l>(He payes not great that cannot leſſer ſcore,</l>
+            <l>Nor can he much that is not vvorld before.)</l>
+            <l>In fine, poſſeſſion he ha's got &amp; holds,</l>
+            <l>This is their glorie, this their heart embolds.</l>
+            <l>Another vvas Protector to a child,</l>
+            <l>His kinſman neare, of nature good and mild,</l>
+            <l>For love of vvhoſe great Fortunes he does ſend</l>
+            <l>To ſome part farre remote, his daies to ſpend,</l>
+            <l>Telling him travells much enrich the mind,</l>
+            <l>And the affections rude in order bind;</l>
+            <l>VVhen counſell he ha's got of Doctors graue,</l>
+            <l>VVho told him plainely, there's no hope to ſaue</l>
+            <l>His life, if thither he his courſe doe ſteare,</l>
+            <l>VVhich as his natures antype doth appeare.</l>
+            <l>If this tricke miſſe, his braine affords one more,</l>
+            <l>Proſper not that, he finds out yet a ſcore;</l>
+            <l>For die he muſt, his thoughts can have no reſt,</l>
+            <l>Till of thoſe goods &amp; lands he be poſſeſs'd.</l>
+            <l>Vnnam'd there reſts one yet, vvho knevv full vvell</l>
+            <l>(For vvhich he hovvles novv 'mongſt the feinds in hell)</l>
+            <l>To raiſe himſelf, and gaine a noted name,</l>
+            <l>By being Authour of his daughters shame:</l>
+            <l>She vvas a comely creature, in vvhoſe face</l>
+            <pb facs="tcp:11741:7"/>
+            <l>All men vvould ſay beautie ſate link'd vvith grace;</l>
+            <l>Too ſvveet a girle, ſo baſe a Sire to have,</l>
+            <l>Better for her if th' vvombe had bene her grave.</l>
+            <l>He plaies the Pander, vvhat's her part you'l judge,</l>
+            <l>But this is to a Lord, that vvill not grudge</l>
+            <l>Nor ſtand to queſtion his demands, but grant</l>
+            <l>VVhat he in fevveſt vvords pretends to vvant.</l>
+            <l>May not theſe outſides then vvell boaſt of blood,</l>
+            <l>Of honour'd ſtocke, of houſe as old as Lud?</l>
+            <l>But let me leave ſuch froathes, &amp; shadovves vaine,</l>
+            <l>Leading my Muſe to our digreſſed aime:</l>
+            <l>VVhat though theſe heape upon thee bitter ſcorne?</l>
+            <l>Thy vvorth shall aye appeare as brighteſt morne,</l>
+            <l>Or as that ſtarre daies noted harbinger,</l>
+            <l>VViſh'd comfort to the home-bent travailer.</l>
+            <l>A Pilgrimage thou knovv'ſt this life to be,</l>
+            <l>Pilgrimes should faſt, not feaſt in jollitie.</l>
+            <l>If great thy burden, ſlovver is thy pace,</l>
+            <l>Hovv leſſer laden, bettet is thy caſe:</l>
+            <l>The vvay is heavy, full of thornes &amp; briars,</l>
+            <l>VVith doubt full vvindings many men that tires,</l>
+            <l>Haſt thou vvher vvith fraile nature to ſuffice?</l>
+            <l>Thou ha'ſt enough; thou art in happie guiſe,</l>
+            <l>And little her contents, vvhy then should vve</l>
+            <l>Needles vvith ſuch great vveights oppreſſed be?</l>
+            <l>Thou think'ſt thy share but ſmall, thy lot too meane,</l>
+            <l>Thy part moſt matchles tragicke in the ſceane,</l>
+            <l>Yet let not Paſſions raging tirannie</l>
+            <l>Robbe reaſon of her due regalitie,</l>
+            <l>Then shalt thou ſet the caſe is altred quite,</l>
+            <l>Thou art not miſer, but an happie vvight.</l>
+            <l>Thou art not King, nor Keiſer in degree,</l>
+            <pb facs="tcp:11741:8"/>
+            <l>Cares attend crovvnes, dire feares regalitie'.</l>
+            <l>Scarce can the charmes of Morpheus blacke conſtraine</l>
+            <l>Their vvearied ſences to obay his raigne,</l>
+            <l>VVhen others ſleepe in quiet, they oppreſt</l>
+            <l>VVith ferall perturbations find no reſt.</l>
+            <l>If eate, or drinke, or ride, or ſit, or lie,</l>
+            <l>In every place, and in all companie,</l>
+            <l>Both daie night and vvith reſtles thoughts &amp; doubts</l>
+            <l>They cruciate their ſouls, yet nothing bootes.</l>
+            <l>Hovv many mightie Monarchs of the earth</l>
+            <l>Have liv'd in conſtant trouble from their birth?</l>
+            <l>Hovv ha's Dame Fortune toſs'd them as a ball?</l>
+            <l>VVhen at the height of glorie then they fall.</l>
+            <l>Ag'd Priamus deſcended of high loue,</l>
+            <l>VVhome fiftie ſonnes did father call, that ſtroue</l>
+            <l>VVith Greeces cheifeſt Champions, vvhat more greife</l>
+            <l>Rain'd forth his bleeding life vvithout releife</l>
+            <l>Iuſt at the Altar? VVhy should I ſtand to name</l>
+            <l>That greateſt Caeſar by the Senate ſlaine?</l>
+            <l>Or Cleopatra, Egipts queene, that di'd</l>
+            <l>By vvinding ſerpents poiſon'd ſtings, to glide</l>
+            <l>To her beloved Anthony, before</l>
+            <l>VVho tooke his journey to the ſtygian shore?</l>
+            <l>Or yet that craftie King (Iugurtha nam'd,</l>
+            <l>For policie, &amp; feates of armes much fam'd)</l>
+            <l>Of Numidea great Commander; t'ane</l>
+            <l>By Marius, brought vn to Rome there ſlaine?</l>
+            <l>Or povverfull Belliſarius, vvhoſe highs deeds</l>
+            <l>Rome, yea and all the vvorld vvith vvonder feeds,</l>
+            <l>And yet conſtrained vvas through vvant to pray</l>
+            <l>For ſmall releife to them that paſs'd his vvay?</l>
+            <l>No Catalogue of this I ſeeke to make</l>
+            <pb facs="tcp:11741:8"/>
+            <l>Of greateſt Peires that share in Fates did take;</l>
+            <l>This is no Chronicle, my taſke's not ſuch;</l>
+            <l>(Onely as fit) I give you but a touch.</l>
+            <l>Goe further yet, and ſee thoſe Princes rare</l>
+            <l>That (Atlas like) the vvorld on Shoulders bare,</l>
+            <l>VVhoſe Divine vviſedome makes their neighbours quake</l>
+            <l>Thoſe leſs in ſtrength, vvhoſe very vvords doe make</l>
+            <l>Thoſe that vvere mortall foes to lay dovvne armes,</l>
+            <l>And then (as Beacon) being fired them vvarnes</l>
+            <l>Vnto Bellona's Court, vvhich vvay he bends,</l>
+            <l>Obſervantly their reſolution tends:</l>
+            <l>They humbly ſeeke his counſell farre &amp; neare,</l>
+            <l>And as an Oracle his ſentence feare;</l>
+            <l>Yet for all this he murmur'd at shall be</l>
+            <l>By the rude ſenceſuall ſence leſſe Com'naltie.</l>
+            <l>O thoſe moſt bleſſed daies, that they haue ſeene</l>
+            <l>Cauſ'd by the vvarres vvith ſuch a King or Queene</l>
+            <l>Still yelpe they out; or heare they nevvs of vvarres</l>
+            <l>Their note is chang'd, vvhat good is got by jarres?</l>
+            <l>Keepes he a Court magnificent? they crie</l>
+            <l>Such riot brings our land to beggerie.</l>
+            <l>Or is he frugall to encreaſe the ſtore</l>
+            <l>The treaſurie exhauſted long before?</l>
+            <l>Then he's ignoble, then he ſeekes their shame,</l>
+            <l>He loues not honour, is no child of fame.</l>
+            <l>If yong, he ſpends his time in dalliance</l>
+            <l>VVith his faire Queene, neglecting governance.</l>
+            <l>If ſtrucke in yeares, tuſh, then he's grovvne a ſot,</l>
+            <l>Ne vvhat of ſtate or rule knovves he a jot.</l>
+            <l>Or haue their crying ſinnes vvith a ſtrong hand</l>
+            <l>Pull'd from the Lord a judgement on the land?</l>
+            <l>VVhether by dearth, or vvarre, or faintnes chill,</l>
+            <pb facs="tcp:11741:9"/>
+            <l>A coldnes at the heart, a liſtles ill,</l>
+            <l>VVhich makes their lookes more ſetled, bloodles, ſad,</l>
+            <l>Than if an ague ſtrong them shaken had,</l>
+            <l>VVhich takes avvay all charitie and loue,</l>
+            <l>(That onely makes man like the Gods aboue)</l>
+            <l>All due reſpect, freindship, good neighbour hood,</l>
+            <l>Dries vp affection even in neareſt blood,</l>
+            <l>VVhen vve can ſee vvithout relenting heart</l>
+            <l>Our brothers vvretched, vvofull, eaſeles ſmart,</l>
+            <l>VVhen vve vnmou'd as ſencles blockes can ſee</l>
+            <l>Subject of pittie, depth of miſerie:</l>
+            <l>VVhen traffique is block'd vp vvithin the land,</l>
+            <l>And mony (life of trade) in miſers hand,</l>
+            <l>VVhen every one ſeekes to devoure each other,</l>
+            <l>(Like ravening vvolues) let him be freind or brother:</l>
+            <l>VVhen theſe, and ſuch like plagues are felt ſo ſoare,</l>
+            <l>They looke not to the cauſe, but baſely roare</l>
+            <l>Out bitter exclamations' gainſt their King</l>
+            <l>For this their juſt deſerved ſuffering.</l>
+            <l>Like as th' Ichneumon (little beaſt) does ſteale</l>
+            <l>Into the bellie of the Crocodile,</l>
+            <l>Beaking himſelf vpon the ſunny shoare</l>
+            <l>Of fertile Nile, gorg'd till he can no more,</l>
+            <l>And there lies gnavving of his panch ſo vaſt,</l>
+            <l>Till he his life from monſtrous corps ha's caſt.</l>
+            <l>Or as that living Mountaine, natures vvonder,</l>
+            <l>That by his povverfull paſſage cauſes thunder</l>
+            <l>In the Atlanticke ſea, cutting vvith ſtrength</l>
+            <l>The foamie vvaues, and floods does caſt in length</l>
+            <l>Many a furlong vvith reſiſtles finnes,</l>
+            <l>VVhich Triton much amaz'd, from revellings</l>
+            <l>And Courtly entertainment makes to riſe,</l>
+            <pb facs="tcp:11741:9"/>
+            <l>Sending about to every part his ſpies</l>
+            <l>For quicke adviſe, if any there should be,</l>
+            <l>That might in queſtion call his ſoveraigntie,</l>
+            <l>Anſvvere is brought, the vvhale ſtrength of diſdanie;</l>
+            <l>By the ſmall ſvvord fish late receiv'd his bane.</l>
+            <l>The loftie Pine is ſubject to the ire</l>
+            <l>Of raging loud-tongu'd Boreas, all on fire</l>
+            <l>To haſten vvrackfull miſcheife, &amp; the fall</l>
+            <l>Of him aſpiring and the Cedar tall.</l>
+            <l>VVhen as the shrubbes, the leſſer trees, that grovve</l>
+            <l>Under their shadovve, (shrovvded ſafely lovve)</l>
+            <l>Find no diſturbance, but in peace doe liue</l>
+            <l>And kindly fruites in ſeaſon due doe giue.</l>
+            <l>Is a ſlight Cottage blovvne vnto the ground?</l>
+            <l>VVe take no notice of ſo dead a ſound;</l>
+            <l>But vvhen a tovvre, vvhoſe ſpire moſt eminent,</l>
+            <l>Threatning the Clouds by thunder bolt is rent,</l>
+            <l>Or caſt to humble earth by kindled vvrath</l>
+            <l>Of all-commanding Iupiter, diſmai'th,</l>
+            <l>And makes vvith fearfull cold their blood to freeze,</l>
+            <l>That dvvel vvithin the hearing, or that ſees</l>
+            <l>Its roaring dovvnefal; ſo man of meane degree</l>
+            <l>Lives more at eaſe, and leſs in jeopardie.</l>
+            <l>Is not thy ſtate ſo high? thy ſtore ſo great?</l>
+            <l>Thy bagges ſo ſtuff'd vvith coine? nor yet thy ſeat</l>
+            <l>So pleaſant or commodious? vvhat then?</l>
+            <l>VVilt thou repine? O no, but thinke on them,</l>
+            <l>On them moſt vvretched creatures, ſlaues to vvoe,</l>
+            <l>That never fortune knevv but as a foe;</l>
+            <l>VVho never ſavve an happie day or houre,</l>
+            <l>But alvvays liv'd a pris'ner in the tovvre</l>
+            <l>Of miſerie; the chearfull lookes of joy</l>
+            <pb facs="tcp:11741:10"/>
+            <l>They ſeldome could diſcover; greife, annoy,</l>
+            <l>Sorrovve, laments, afflictions, heavines,</l>
+            <l>Teares, diſcontents, troubles, diſquietnes,</l>
+            <l>VVhere e'r they goe, attendance ſtrictly giues,</l>
+            <l>And follovves them preciſe as relatiues.</l>
+            <l>Many a vvearie ſteppe they faintly tread</l>
+            <l>VVithout the ſuſt'nance of a peice of bread,</l>
+            <l>VVhen fierie Titan drives his ſcortching teame</l>
+            <l>Bet vvixt the glitt'ring Cup and Diademe.</l>
+            <l>Nor houſe, nor shelter haue they, to defend</l>
+            <l>Them ſelves from cruell blaſts, &amp; ſtormes vvhich rend</l>
+            <l>Strong Oakes vp by the roots; the pinching cold,</l>
+            <l>And biting froſtes they muſt endure, vvhich old</l>
+            <l>Sterne vvrathfull vvinter caſts vpon the earth,</l>
+            <l>By thee allay'd and qualify'd vvith mirth;</l>
+            <l>VVhen thou in bed of dovvne thy limbes doeſt ſtretch,</l>
+            <l>VVith peircing pangs their feeble breath they fetch,</l>
+            <l>Thou art encompaſs'd vvith thy freinds about,</l>
+            <l>VVith feeling vvords to anſvvere every doubt,</l>
+            <l>That quick'ning counſell, tempred vvith ſvveet voice,</l>
+            <l>VVill freely, in due ſeaſon, in termes choice,</l>
+            <l>Adminiſter to thy diſtracted mind,</l>
+            <l>Caſting thy cares, feares, ſcruples, farre behind;</l>
+            <l>Thrice happie vvert thou, if thou didſt but knovve</l>
+            <l>vvith vvhat great good thy Cup doth overflovve.</l>
+            <l>The Ape vnto the Mole complaint did make</l>
+            <l>Of his tailes vvant, (his ornament,) but take</l>
+            <l>Th'anſvvere, vnvvorthy creature, thou shouldſt be</l>
+            <l>More thankfull, vvhen my blindnes thou do'ſt ſee.</l>
+            <l>If all the vvorld their greivances should bring</l>
+            <l>Of bodie, mind, and fortune, for to fling</l>
+            <l>In one place all together, vvouldſt thou share</l>
+            <pb facs="tcp:11741:10"/>
+            <l>In their diviſion equall? no, I feare.</l>
+            <l>vvith Eagles eyes, thou pry'ſt into thy vvants,</l>
+            <l>But ſeeſt not thine exceſs; vvhileſt thouſands vaunts</l>
+            <l>Of the bare hopes, they haue for to enjoy</l>
+            <l>Some part of that thou ſlighteſt, mak'ſt a toy,</l>
+            <l>A thing of nought; the grace &amp; bounteous love</l>
+            <l>Of thy good God deſpiſing; do'nt remove,</l>
+            <l>O do'nt remove by thy repining cares</l>
+            <l>His ſvveet refreshinge favour, vvhich he beares</l>
+            <l>To thee not vvorthie of thy bleſt creation,</l>
+            <l>A man, a Chriſtian, nor of preſervation.</l>
+            <l>Hovv many at this inſtant lie inthrall'd,</l>
+            <l>Their vvaſted leggs vvith maſſie irons gall'd,</l>
+            <l>That courſeſt bran for meate, &amp; puddle drinke,</l>
+            <l>And yet therof are ſcanted, while they ſinke</l>
+            <l>Vnder their vveightie burthens, taskes impoſ'd</l>
+            <l>By Pagans crueltie, ſtrictly encloſ'd</l>
+            <l>And pent in griſly Cells of bondage, ſlaues,</l>
+            <l>VVhileſt nought they hope for, but their quiet graues?</l>
+            <l>How many in a moment are bereau'd</l>
+            <l>Of all they had, by ſodanie fire conceiu'd</l>
+            <l>Through lightning, or neglect, or tyrannie</l>
+            <l>Of rogues, bad neighbours, common enemie?</l>
+            <l>The ſame vvhich vve enjoying leaſt regard</l>
+            <l>VVe more affect depriued of: 't is hard</l>
+            <l>Iuſtly to valevv our felicitie,</l>
+            <l>But vvhen 't is clouded vvith ſome miſerie.</l>
+            <l>No man can haue his vvill in all, but may</l>
+            <l>Reſtraine his vvishes from a fruitles ſtray.</l>
+            <l>If all should ſleepe together, tell mee then</l>
+            <l>VVhat difference 'tvvixt Kings, Lords &amp; common men?</l>
+            <l>The day of diſſolution is at hand,</l>
+            <pb facs="tcp:11741:11"/>
+            <l>That general day, vvhen Gods vvheate shall be fand,</l>
+            <l>And brought into his garner; or to thee</l>
+            <l>Thy day of death approacheth ſpeedily.</l>
+            <l>Then shall the teares be vviped from thine eyes.</l>
+            <l>Then shalt thou cleane forget thy bitter cries,</l>
+            <l>Then art thou free'd from all diſaſters, paines,</l>
+            <l>Then haſt thou perfect cure for all thy maines.</l>
+            <l>Thou shalt no more be ſervile, but in love</l>
+            <l>Be made Co-heire vvith Chriſt of heaven above.</l>
+            <l>Caſt from thee then, thou Punie, thoſe vaine feares</l>
+            <l>VVhich shakes thy ſounder faith, ignobly beares</l>
+            <l>Thy thoughts much lovver than the ſordide ground,</l>
+            <l>And then againe does catch them at rebound.</l>
+            <l>If conſtant be thy troubles, vvithout doubt</l>
+            <l>Leſs violent, and time vvill vveare them out:</l>
+            <l>And as for thoſe that are more violent</l>
+            <l>They be but flashes, ſeldome permanent.</l>
+            <l>Thou art not vveake in bodie; ſay thou be,</l>
+            <l>Thou art in Spirit as ſtrong as ſtrongeſt he.</l>
+            <l>Thou art not poore; but yet ſuppoſe it ſo,</l>
+            <l>In gods loue richer much than many moe.</l>
+            <l>Come, art thou crooked or deform'd? vvhat then?</l>
+            <l>Thou maiſt be right in heart tovvards God &amp; men.</l>
+            <l>Thou bear'ſt no rule, enjoy'ſt no ſouveraigntie,</l>
+            <l>Thou rul'ſt thy luſts, that's cheife regalitie.</l>
+            <l>Say thou vvert maim'd, decrepite, vlcerous, blind,</l>
+            <l>Thy ſoul is ſound, ſees more than moſt vve find.</l>
+            <l>Haſt thou no freinds? alas, he that can raiſe</l>
+            <l>Of ſtones poſteritie to Abram, ſaies</l>
+            <l>That he vvill be a father to thee, freind,</l>
+            <l>And never vvill forſake thee to thy.</l>
+            <trailer>END.</trailer>
+            <pb facs="tcp:11741:11"/>
+         </div>
+      </body>
+   </text>
+</TEI>

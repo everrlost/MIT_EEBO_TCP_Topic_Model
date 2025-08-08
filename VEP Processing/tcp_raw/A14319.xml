@@ -1,0 +1,518 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Englands ioy</title>
+            <author>R. V. (Richard Vennard), d. 1615?</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1601</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 10 KB of XML-encoded text transcribed from 5 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A14319</idno>
+            <idno type="STC">STC 24636.3</idno>
+            <idno type="STC">ESTC S101928</idno>
+            <idno type="EEBO-CITATION">99837731</idno>
+            <idno type="PROQUEST">99837731</idno>
+            <idno type="VID">2071</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A14319)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 2071)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1033:17)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Englands ioy</title>
+                  <author>R. V. (Richard Vennard), d. 1615?</author>
+               </titleStmt>
+               <extent>[10] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by P. Short,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1601?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>By Richard Vennard.</note>
+                  <note>Imprint from STC.</note>
+                  <note>Verses on the defeat by Lord Mountjoy of the Irish rebels under Tyrone--STC.</note>
+                  <note>Signatures: A⁵.</note>
+                  <note>Formerly STC 21358.</note>
+                  <note>Identified as STC 21358 on UMI microfilm reel 1033.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Tyrone's Rebellion, 1597-1603 --  Poetry --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-01</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-02</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2011-02</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="introductory_poem">
+            <pb facs="tcp:2071:1" rendition="simple:additions"/>
+            <pb facs="tcp:2071:1"/>
+            <p>
+               <figure>
+                  <figDesc>historiated border</figDesc>
+                  <p>
+                     <list>
+                        <item>
+                           <figure>
+                              <head>IH<g ref="char:cmbAbbrStroke">̄</g>S</head>
+                           </figure>
+                        </item>
+                        <item>
+                           <figure>
+                              <p>Praie</p>
+                           </figure>
+                        </item>
+                        <item>
+                           <figure>
+                              <p>faithfully,</p>
+                           </figure>
+                        </item>
+                        <item>
+                           <figure>
+                              <p>R</p>
+                              <figDesc>decorative cartouche containing part of author's initial (Richard Vennard)</figDesc>
+                           </figure>
+                        </item>
+                        <item>
+                           <figure>
+                              <p>V</p>
+                              <figDesc>decorative cartouche containing part of author's initial (Richard Vennard)</figDesc>
+                           </figure>
+                        </item>
+                        <item>
+                           <figure>
+                              <p>and neuer</p>
+                           </figure>
+                        </item>
+                        <item>
+                           <figure>
+                              <p>ceaſe.</p>
+                           </figure>
+                        </item>
+                     </list>
+                  </p>
+                  <head>Englands Ioy.</head>
+                  <lg>
+                     <head>E</head>
+                     <l>
+                        <hi>E</hi> 
+                        <seg rend="decorInit">E</seg>Nglands bliſſe, &amp; bleſſed <hi>Queene,</hi>
+                     </l>
+                     <l>
+                        <hi>L</hi> Liue your praiſes in perfection,</l>
+                     <l>
+                        <hi>I</hi> In your Subiects hearts be ſeene</l>
+                     <l>
+                        <hi>Z</hi> Zeale in humble loues ſubiection:</l>
+                     <l>
+                        <hi>A</hi> Angels in your loue attend you,</l>
+                     <l>
+                        <hi>B</hi> Bleſſed IESVS euer bleſſe you,</l>
+                     <l>
+                        <hi>E</hi> Euer ſo his hand defend you:</l>
+                     <l>
+                        <hi>T</hi> That no harmfull thought diſtreſſe you:</l>
+                     <l>
+                        <hi>H</hi> Holy powers of Heau'n preſerue you:</l>
+                     <l>
+                        <hi>A</hi> And, all faithfull ſubiects ſerue you.</l>
+                  </lg>
+                  <lg>
+                     <head>R</head>
+                     <l>
+                        <hi>R</hi> Royall Graces euer grace you,</l>
+                     <l>
+                        <hi>E</hi> Euer true Loue liue about you,</l>
+                     <l>
+                        <hi>G</hi> Glorious Angels armes imbrace you:</l>
+                     <l>
+                        <hi>I</hi> Ioy in England none without you,</l>
+                     <l>
+                        <hi>N</hi> None but Grace, and Vertue note you,</l>
+                     <l>
+                        <hi>A</hi> And the world for wonder Cote you.</l>
+                  </lg>
+               </figure>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="illustration">
+            <pb facs="tcp:2071:2"/>
+            <p>
+               <figure>
+                  <head>Pro patria quiſque</head>
+                  <figDesc>historiated border</figDesc>
+                  <p>
+                     <figure>
+                        <head>Fayth.</head>
+                        <figDesc>personification of the virtue of Faith</figDesc>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <head>Loyalty.</head>
+                        <figDesc>personification of the virtue of Loyalty</figDesc>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <head>Valour.</head>
+                        <figDesc>personification of the virtue of Valor</figDesc>
+                     </figure>
+                  </p>
+                  <p>
+                     <figure>
+                        <head>Wiſdome.</head>
+                        <figDesc>personification of the virtue of Wisdom</figDesc>
+                     </figure>
+                  </p>
+                  <figure>
+                     <head>Hoſtes vt ſerpentem.</head>
+                     <figDesc>depiction of St. George slaying the dragon</figDesc>
+                  </figure>
+               </figure>
+            </p>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:2071:2"/>
+            <head>Englands Ioy.</head>
+            <div type="acrostic_introductory_encomium">
+               <lg>
+                  <head>E</head>
+                  <l>
+                     <hi>E</hi> 
+                     <seg rend="decorInit">E</seg>Nglands bliſſe, and bleſſed <hi>Queene,</hi>
+                  </l>
+                  <l>
+                     <hi>L</hi> Liue your praiſes in perfection,</l>
+                  <l>
+                     <hi>I</hi> In your Subiects hearts bee ſeene</l>
+                  <l>
+                     <hi>Z</hi> Zeale in humble loues ſubiection:</l>
+                  <l>
+                     <hi>A</hi> Angels in your loue attend you:</l>
+                  <l>
+                     <hi>B</hi> Bleſſed <hi>IESVS</hi> euer bleſſe you,</l>
+                  <l>
+                     <hi>E</hi> Euer ſo his hand defend you:</l>
+                  <l>
+                     <hi>T</hi> That no harmfull thought diſtreſſe you:</l>
+                  <l>
+                     <hi>H</hi> Holy powers of Heau'n preſerue you:</l>
+                  <l>
+                     <hi>A</hi> And, all faithfull ſubiects ſerue you.</l>
+               </lg>
+               <lg>
+                  <head>R</head>
+                  <l>
+                     <hi>R</hi> Royall Graces euer grace you,</l>
+                  <l>
+                     <hi>E</hi> Euer true Loue liue about you,</l>
+                  <l>
+                     <hi>G</hi> Glorious Angels armes embrace you:</l>
+                  <l>
+                     <hi>I</hi> Ioy in England none without you,</l>
+                  <l>
+                     <hi>N</hi> None but Grace, and Vertue note you,</l>
+                  <l>
+                     <hi>A</hi> And the world for wonder Cote you.</l>
+               </lg>
+               <div type="body_of_poem">
+                  <lg>
+                     <pb facs="tcp:2071:3"/>
+                     <l>REioyce O England, ſing, and clap thy hands:</l>
+                     <l>For, God himſelfe, doth for thy ſafetie fight:</l>
+                     <l>No foe ſo great, but that thy force withſtands:</l>
+                     <l>It is ſo ſtrengthened by the heauenly might.</l>
+                     <l>The Iriſh Rebell and the Spaniardes pride:</l>
+                     <l>Before thy face doe fall on euery ſide.</l>
+                  </lg>
+                  <lg>
+                     <l>The Noble Lord, <hi>Mount Ioy</hi> that Champion true<hi>:</hi>
+                     </l>
+                     <l>Of honours choiſe, in Vertues Chiualrie:</l>
+                     <l>Hath put to flight, that coward Rebell Crue</l>
+                     <l>Of proude <hi>Tyrone,</hi> and made the Spaniards flie.</l>
+                     <l>
+                        <hi>Don Iohn de Aquila</hi> with all his traine<hi>:</hi>
+                     </l>
+                     <l>With little comfort are return'd to <hi>Spaine.</hi>
+                     </l>
+                  </lg>
+                  <lg>
+                     <l>The Iriſh Rebells, now doe keepe their Caues:</l>
+                     <l>Amidde the woods; like Wolues or rauening beaſts:</l>
+                     <l>Where all like out-lawes, or vnciuill ſlaues:</l>
+                     <l>on graſſe and ſhamrocks, now they make their feaſts:</l>
+                     <l>O England, neuer, better newes can be:</l>
+                     <l>Then thus to heare, how God doth fight for thee.</l>
+                  </lg>
+                  <lg>
+                     <l>Now ſhalt thou heare of nothing but confuſion:</l>
+                     <l>Vpon the head of all thy harmefull foes:</l>
+                     <l>Now ſhall the Rebells finde the full concluſion,</l>
+                     <l>That in the end of all Rebellion growes.</l>
+                     <l>And Spaine ſhall fret, to ſee his pride puld downe:</l>
+                     <l>And God preſerue, thy Soueraigne &amp; her Crowne.</l>
+                  </lg>
+                  <lg>
+                     <pb facs="tcp:2071:3"/>
+                     <l>Now ſhall the Pope with all his practiſe faile:</l>
+                     <l>The hope of Traitors all be ouerthrowne:</l>
+                     <l>Nor Pope, nor Spaniard now ſhall none preuaile:</l>
+                     <l>To doe thee hurt, that but defend'ſt thine owne<hi>:</hi>
+                     </l>
+                     <l>Now ſerue thy God, and giue him thanks for all:</l>
+                     <l>And keepe thy faith, and thou ſhalt neuer fall.</l>
+                  </lg>
+                  <lg>
+                     <l>Be true I ſay, and faithfull to thy God<hi>:</hi>
+                     </l>
+                     <l>And euer loyall to thy Soueraigne Queene:</l>
+                     <l>For whoſe loues ſake, he doth forbeare his rod.</l>
+                     <l>That hath been long in other countries ſeene:</l>
+                     <l>He will not ſuffer any to deſtroy thee<hi>:</hi>
+                     </l>
+                     <l>But ouerthrow their forces that annoy thee.</l>
+                  </lg>
+                  <lg>
+                     <l>In Eighty Eight, how did he by his hand,</l>
+                     <l>Scatter the Nauie of the Spaniſh fleete?</l>
+                     <l>And now in Ireland, in their hoped land,</l>
+                     <l>How hath he troden their forces vnder feet?</l>
+                     <l>Where noble <hi>Mount Ioy</hi> in deſerued fame<hi>:</hi>
+                     </l>
+                     <l>Eterniz'd hath the honour of his name.</l>
+                  </lg>
+                  <lg>
+                     <l>He beares the Sunne, and like the Sunne he driues:</l>
+                     <l>Proud ſwelling cloudes to wander with the winde:</l>
+                     <l>And vnder our bright Sunne of light he liues:</l>
+                     <l>Who giues a gratious light to ſuch a minde.</l>
+                     <l>As, ſo deſerues her Grace, to giue him light<hi>:</hi>
+                     </l>
+                     <l>That he be euer gracious in her ſight.</l>
+                  </lg>
+                  <lg>
+                     <pb facs="tcp:2071:4"/>
+                     <l>Now let all harts of happie England praie:</l>
+                     <l>Vnto our God of glorious mercies power,</l>
+                     <l>That he will ſtill be our almightie ſtaie:</l>
+                     <l>Our Rock, our Caſtle, and our heauenly tower:</l>
+                     <l>That in his mercie, we may feareleſſe liue:</l>
+                     <l>And to his gratious loue all glorie giue.</l>
+                  </lg>
+                  <lg>
+                     <l>Let vs ſtill praie, that he will ſtill preſerue<hi>:</hi>
+                     </l>
+                     <l>Our gracious Queene in his eternall grace:</l>
+                     <l>And giue vs grace both him and her to ſerue:</l>
+                     <l>And all vnfaithfull Traitours to deface:</l>
+                     <l>To ſpend our liues, but in our countries cauſe:</l>
+                     <l>And be obedient, to her bleſſed lawes.</l>
+                  </lg>
+                  <lg>
+                     <l>Rebellion is the ſinne of witch-craft nam'd,</l>
+                     <l>And witches are but Diuells in their natures,</l>
+                     <l>Oh helliſh fiends, to the deuill fram'd.</l>
+                     <l>Which ſo deceiue but the accurſed creatures.</l>
+                     <l>Oh curſed ſinne that euer man ſhould know thee,</l>
+                     <l>God bleſſe all Engliſh, and good Chriſtians fro thee.</l>
+                  </lg>
+                  <lg>
+                     <l>And, ſince that truth, doth trie out euery thought,</l>
+                     <l>Wherein the depth of euery ſence is ſounded,</l>
+                     <l>Againſt that truth, who hath the Treaſon wrought,</l>
+                     <l>That, on vngratious reaſon hath been grounded.</l>
+                     <l>What euer fortune for a time doe fall,</l>
+                     <l>Confuſions ſhame will be the end of all.</l>
+                  </lg>
+                  <lg>
+                     <pb facs="tcp:2071:4"/>
+                     <l>Which ſhamefull end the God of endleſſe glory,</l>
+                     <l>Hath giuen the Rebels and their wicked friends:</l>
+                     <l>While valiant <hi>Mountioyes</hi> noble victory,</l>
+                     <l>Truth blowes abroad in fame that neuer ends.</l>
+                     <l>While <hi>Iriſh</hi> ſhrugs, and <hi>Spaniards</hi> frownes doe proue,</l>
+                     <l>The bliſſe of <hi>England</hi> in the heauens aboue.</l>
+                  </lg>
+                  <lg>
+                     <l>What ſhall I ſaie? the Iriſh Rebells fled:</l>
+                     <l>The <hi>Spaniards</hi> gone, with ſorrow, ſhame and loſſe:</l>
+                     <l>
+                        <hi>Tyrone</hi> I hope will ſhortly looſe his head:</l>
+                     <l>The <hi>Spaniards</hi> glad, to put vp all their croſſe:</l>
+                     <l>Hath tane an oath, to hye them home to <hi>Spaine:</hi>
+                     </l>
+                     <l>And neuer wiſh to bring their Armes againe.</l>
+                  </lg>
+                  <lg>
+                     <l>Thus in the Rebell, all hie ruins point<hi>:</hi>
+                     </l>
+                     <l>The <hi>Spaniard,</hi> ſtaying but a winde for <hi>Spaine:</hi>
+                     </l>
+                     <l>
+                        <hi>Tyrone</hi> in hourely daunger of a ioynt<hi>:</hi>
+                     </l>
+                     <l>And <hi>Irelands</hi> peace, I hope will growe againe:</l>
+                     <l>God ſurely pleaſ'd in this worke of peace,</l>
+                     <l>Where <hi>Truth</hi> ſhall flouriſh, and <hi>Rebellion</hi> ceaſe.</l>
+                  </lg>
+                  <lg>
+                     <l>God graunt it ſo, and in his Gracious hand:</l>
+                     <l>Long bleſſe the daies, of our deere Soueraigne <hi>Queene:</hi>
+                     </l>
+                     <l>And make her Empreſſe of this bleſſed land:</l>
+                     <l>Till no more land within the world be ſeene:</l>
+                     <l>And make her Armies, euermore victorious:</l>
+                     <l>And all her Kingdomes, in thy mercie glorious.</l>
+                  </lg>
+                  <lg>
+                     <pb facs="tcp:2071:5"/>
+                     <l>Bleſſe her Lord <hi>Mount-ioy,</hi> with that <hi>Mount</hi> of Ioy:</l>
+                     <l>That Noble Truth, in trueſt Nobleneſſe:</l>
+                     <l>May ſtand ſo ſtronge, as nothing may deſtroy:</l>
+                     <l>But, in the height of honours happineſſe:</l>
+                     <l>May by the vertue of beſt valour proued,</l>
+                     <l>Of God and man, be bleſſed and beloued.</l>
+                  </lg>
+                  <lg>
+                     <l>Bleſſe all her armie with thoſe feareleſſe harts:</l>
+                     <l>I hat ſoone may bring the Rebell in ſubiection:</l>
+                     <l>And make a ieſt of all thoſe woodden dartes:</l>
+                     <l>That doe not loue a ſteeled coates complexion<hi>:</hi>
+                     </l>
+                     <l>And quaile the harts, or cut off all the heads<hi>:</hi>
+                     </l>
+                     <l>That ſo the pathe of proud Rebellion treads.</l>
+                  </lg>
+                  <lg>
+                     <l>Bleſſe all her Counſaile, and her faithfull friends.</l>
+                     <l>Court, Citties, Countries all in ſuch a peace:</l>
+                     <l>As all the world, that ſees proude Traytors ends,</l>
+                     <l>May cauſe the root, of all rebellion ceaſe:</l>
+                     <l>Such peace, and plentie, loue, and concord ſend:</l>
+                     <l>That we may ſing thy Glorie without end.</l>
+                  </lg>
+                  <lg>
+                     <l>Bleſſe ſtill I pray our gratious Soueraigne <hi>Queene:</hi>
+                     </l>
+                     <l>With all the bleſſings of thy holy Grace:</l>
+                     <l>And let it neuer in our Land be ſeene:</l>
+                     <l>But in thy Mercie we may haue a place:</l>
+                     <l>Nor <hi>Mount-ioyes</hi> fame die in obliuions penne:</l>
+                     <l>To all of theſe, all England ſay, <hi>Amen.</hi>
+                     </l>
+                  </lg>
+               </div>
+            </div>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:2071:5"/>
+            <head>
+               <hi>For all Honourable, <g ref="char:V">Ʋ</g>ertuous, and Noble</hi> ſpirited Lords, Ladies, and all other her Maie<g ref="char:EOLhyphen"/>ſties faithfull Subiects whatſoeuer.</head>
+            <lg>
+               <l>
+                  <seg rend="decorInit">A</seg>L faithfull Subiects of this bleſſed land,</l>
+               <l>That ſerue the only Angel of a Queene:</l>
+               <l>In whoſe true grace, &amp; by whoſe gratious hand<g ref="char:punc">▪</g>
+               </l>
+               <l>The heauenly ſubſtance of her ſexe is ſeene.</l>
+               <l>Let not your hearts, nor ſpirits ceaſe to pray,</l>
+               <l>For her liues bleſſed euerlaſting day.</l>
+            </lg>
+            <lg>
+               <l>For in her life liues all your happineſſe,</l>
+               <l>She is the Sunne that lights your Element</l>
+               <l>Her Maieſtie, your wonders worthineſſe,</l>
+               <l>Her Vertue, your honours ornament.</l>
+               <l>Her Fauour, your beſt loyalties regard:</l>
+               <l>Her Grace, your ſeruice royalleſt reward.</l>
+            </lg>
+            <lg>
+               <l>Pray then, I ſay, and prayer neuer ceaſe,</l>
+               <l>Vnto the God of all eternall glorie<hi>:</hi>
+               </l>
+               <l>Her life, her health, her comfort to encreaſe,</l>
+               <l>To Englands honour, neuer ending ſtorie.</l>
+               <l>That ſhe may breathe an euerlaſting breath,</l>
+               <l>And they may pine in hell, that wiſh her death.</l>
+            </lg>
+            <closer>
+               <signed>R. V.</signed>
+            </closer>
+         </div>
+         <closer>AMEN.</closer>
+      </body>
+   </text>
+</TEI>

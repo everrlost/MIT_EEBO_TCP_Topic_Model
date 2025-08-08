@@ -1,0 +1,755 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dialogus inter Angliam &amp; Scotiam. Authore Leonello Sharpe, sacræ Theologiæ Doctore</title>
+            <author>Sharpe, Leonel, 1559-1631.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1603</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 16 KB of XML-encoded text transcribed from 7 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A12063</idno>
+            <idno type="STC">STC 22371</idno>
+            <idno type="STC">ESTC S113732</idno>
+            <idno type="EEBO-CITATION">99848963</idno>
+            <idno type="PROQUEST">99848963</idno>
+            <idno type="VID">14088</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A12063)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 14088)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1464:03)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Dialogus inter Angliam &amp; Scotiam. Authore Leonello Sharpe, sacræ Theologiæ Doctore</title>
+                  <author>Sharpe, Leonel, 1559-1631.</author>
+               </titleStmt>
+               <extent>[2], 12 p.   </extent>
+               <publicationStmt>
+                  <publisher>Ex officina Iohannis Legat,</publisher>
+                  <pubPlace>Cantabrigiæ :</pubPlace>
+                  <date>1603.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Reproduction of the original in Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="lat">lat</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-12</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-02</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2010-02</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="lat">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:14088:1"/>
+            <!-- PDF PAGE 92 -->
+            <pb facs="tcp:14088:1" rendition="simple:additions"/>
+            <!-- PDF PAGE 92 -->
+            <p>
+               <hi>DIALOGVS IN<g ref="char:EOLhyphen"/>ter</hi> Angliam &amp; <hi>Scotiam.</hi>
+            </p>
+            <p>A<g ref="char:V">Ʋ</g>THORE LEONELLO Sharpe Anglo, ſacrae Theologiae Doctore.</p>
+            <figure>
+               <head>ALMA MATER CANTA<g ref="char:EOLhyphen"/>BRIGIA</head>
+               <q>HINC LVCEM ET POCVLA SACRA</q>
+               <figDesc>printer's or publisher's device</figDesc>
+            </figure>
+            <p>CANTABRIGIAE, <hi>EX OFFICINA IOHANNIS Legat. 1603.</hi>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="dialogue">
+            <pb facs="tcp:14088:2" rendition="simple:additions"/>
+            <!-- PDF PAGE 93 -->
+            <pb n="1" facs="tcp:14088:2"/>
+            <!-- PDF PAGE 93 -->
+            <head>
+               <hi>DIALOGVS IN<g ref="char:EOLhyphen"/>ter</hi> Angliam &amp; Scotiam.</head>
+            <sp>
+               <stage>Scotia incipit.</stage>
+               <l>HEnricus Latiae caput abſcidit enſe colubrae,</l>
+               <l>Cauda tamen vixit pernicioſa diu.</l>
+               <l>Filius èpatrijs papiſmum finibus egit,</l>
+               <l>Sic aequè caudam ſuſtulit atque caput.</l>
+               <l>Filia papiſmo maior papa<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> reducto,</l>
+               <l>Induit Hiſpano ſe<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ſuoſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> iugo.</l>
+               <l>Ecce deo dilecta minor duce filia Chriſto,</l>
+               <l>Virginea monſtrum fregit vtrun<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> manu.</l>
+               <l>Et nunc Hiſpanam dicunt inhiare Coronae,</l>
+               <l>Vt nobis peſtem bis ſtruat vna domus.</l>
+               <l>Quae ſi: ſed nolo grauius quid dicere, praeter</l>
+               <l>Hoc vnum, multas intus alit Marias.</l>
+               <l>Quare, ſi coelum repeter Regina, futuri</l>
+               <l>Anglia, dic ſodes, quae tibi cura boni?</l>
+            </sp>
+            <sp>
+               <speaker>Anglia.</speaker>
+               <l>Scotia, quid praeſens video, quid deinde futuru<g ref="char:cmbAbbrStroke">̄</g>
+               </l>
+               <l>Principe tranſlata, viderit ipſe Deus.</l>
+               <l>
+                  <pb n="2" facs="tcp:14088:3"/>
+                  <!-- PDF PAGE 94 -->
+Prouidus ille mihi ſemper pater, illius alis</l>
+               <l>Antehac tecta fui ſemper, &amp; vſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> tegar.</l>
+               <l>Illius auſpicio princeps ductu<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ſaluti</l>
+               <l>Optima proſpexit, proſpiciet<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> meae.</l>
+               <l>Regali ſeuiſſe manu vitulamina Cyrum,</l>
+               <l>Quae poſt aſpicerent ſaecula multa, ferunt.</l>
+               <l>Et plantae curam caeleſtis Eliſa minorem</l>
+               <l>Sumet, quam propria ſeuerit ipſa manu?</l>
+               <l>Non ita. Non ſibi, ſed patriae ſe viuere credit,</l>
+               <l>Non ſibi, ſed domino ſeruit Eliſa ſuo.</l>
+               <l>Ergo ego praeſenti faelix, ſecura futuri</l>
+               <l>In dominam viuo grata, deum<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> colo.</l>
+            </sp>
+            <sp>
+               <speaker>Scotia.</speaker>
+               <l>Non colis, vt par eſt, niſi ſancta mente labores</l>
+               <l>Tecum poſteritas vt ſine ſine colat.</l>
+            </sp>
+            <sp>
+               <speaker>Anglia.</speaker>
+               <l>Hoc eſt in votis: alijs ſed caetera credo,</l>
+               <l>Qui nos imperio conſilio<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> regunt.</l>
+            </sp>
+            <sp>
+               <speaker>Scotia.</speaker>
+               <l>Non tantùm tua vota deus, ſed facta requirit,</l>
+               <l>Ignauas ſurda reſpuit aure preces.</l>
+               <l>Indormis nimium poſſeſſis, Anglia, donis:</l>
+               <l>Quae ſunt ſperatis inferiora bonis.</l>
+            </sp>
+            <sp>
+               <speaker>Anglia.</speaker>
+               <l>Spes eſt venturi. Sed quae ventura putantur</l>
+               <l>Nec bona ſpe<g ref="char:cmbAbbrStroke">̄</g> faciunt, nec mihi da<g ref="char:cmbAbbrStroke">̄</g>na meta<g ref="char:cmbAbbrStroke">̄</g>.</l>
+               <l>Grata deo donis placidé praeſentibus vtor,</l>
+               <l>Inſanit, ſperat qui meliora fore.</l>
+            </sp>
+            <sp>
+               <pb n="3" facs="tcp:14088:3"/>
+               <!-- PDF PAGE 94 -->
+               <speaker>Scotia.</speaker>
+               <l>Si tibi non ſperes, natis ſperare memento,</l>
+               <l>Si tibi non timeas, diſce timere tuis.</l>
+               <l>Inſanit quicun<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> bonis praeſentibus haerent,</l>
+               <l>Non ex praeteritis damna futura timet.</l>
+            </sp>
+            <sp>
+               <speaker>Anglia.</speaker>
+               <l>Vt regina bonis regnum praeſentibus ornat,</l>
+               <l>Sic &amp; venturis eximet illa malis.</l>
+               <l>Non ego maternae poſſum diffidere curae,</l>
+               <l>Quam pro regali poſteritate capit.</l>
+            </sp>
+            <sp>
+               <speaker>Scotia.</speaker>
+               <l>Verum lethali fractam decumbere morbo</l>
+               <l>Supremum fama eſt aut obijſſe diem.</l>
+            </sp>
+            <sp>
+               <speaker>Anglia.</speaker>
+               <l>Improba fama tibi nimiu<g ref="char:cmbAbbrStroke">̄</g> mentita malignée eſt,</l>
+               <l>Piſces turbatis vt capiantur aquis.</l>
+            </sp>
+            <sp>
+               <speaker>Scotia.</speaker>
+               <p>Eſto, parens viuit. Quid ages orbata parente?</p>
+            </sp>
+            <sp>
+               <speaker>Anglia.</speaker>
+               <p>Tutores habeo, quos dedit illa mihi.</p>
+            </sp>
+            <sp>
+               <speaker>Scotia.</speaker>
+               <l>Dudlaeo nuptam veris haeredibus olim</l>
+               <l>Ianam tutores oppoſuere priùs.</l>
+               <l>Poſt Mariae capiti tamen impoſuere coronam,</l>
+               <l>Quae collo iniecit vincula bina tuo.</l>
+               <l>Seruitio duplici mentes &amp; corpora preſſit,</l>
+               <l>Vix certè Babylon tam truculenta fuit.</l>
+               <l>Illa tuum corpus ceu febris acuta peruſſit,</l>
+               <l>
+                  <pb n="4" facs="tcp:14088:4"/>
+                  <!-- PDF PAGE 95 -->
+Depauit flammis dum tua membra ſuis.</l>
+               <l>Nu<g ref="char:cmbAbbrStroke">̄</g>c maior recidiua lues grauior<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> time<g ref="char:cmbAbbrStroke">̄</g>eda eſt,</l>
+               <l>Ni peſtis medica praeueniatur ope.</l>
+               <l>Principe defuncta, quid ſi Iana altera ſurgat?</l>
+               <l>Vel Maria ex veſtris altera diſſidijs?</l>
+               <l>Quis tum gliſcentes procerum co<g ref="char:cmbAbbrStroke">̄</g>ponere lites?</l>
+               <l>Mota quis imperio tollere bella poteſt?</l>
+               <l>Ergo ſi viuat, viuam feruentiù ora,</l>
+               <l>Vt ſucceſſorem nominet ipſa ſuum.</l>
+            </sp>
+            <sp>
+               <speaker>Anglia.</speaker>
+               <l>Si faciat, minuet ſimul ac diuiſit honores.</l>
+               <l>Augebit vires nec tamen inde ſuas.</l>
+            </sp>
+            <sp>
+               <speaker>Scotia.</speaker>
+               <l>Erras. Maiorem praebent duo lumina lucem,</l>
+               <l>Maiores vires &amp; duo regna dabunt.</l>
+            </sp>
+            <sp>
+               <speaker>Anglia.</speaker>
+               <l>At ſoli Occiduo mundus praeponet Eoum,</l>
+               <l>Reſpiciet iuvenem, negliget ille ſenem.</l>
+            </sp>
+            <sp>
+               <speaker>Scotia.</speaker>
+               <l>Ipſa ſuum ponet ſenium, repetet<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> iuventam</l>
+               <l>Prolis adoptiuae iam quaſi facta parens.</l>
+            </sp>
+            <sp>
+               <speaker>Anglia.</speaker>
+               <l>At ſibi preproperè fodiet quaſi viva ſepulchru<g ref="char:cmbAbbrStroke">̄</g>,</l>
+               <l>Si ſucceſſorem nominet aegra ſuum.</l>
+            </sp>
+            <sp>
+               <speaker>Scotia.</speaker>
+               <l>In<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ſuo regnum condet defuncta ſepulchro,</l>
+               <l>Ni ſucceſſorem nominet aegra ſuum.</l>
+            </sp>
+            <sp>
+               <pb n="5" facs="tcp:14088:4"/>
+               <!-- PDF PAGE 95 -->
+               <speaker>Anglia.</speaker>
+               <l>Summa ſed ipſa pati quaeuis diſcrimina malim,</l>
+               <l>Illi quàm minimum ſalua creare metum.</l>
+            </sp>
+            <sp>
+               <speaker>Scotia.</speaker>
+               <l>Rurſus communem propriae dea tanta ſalute<g ref="char:cmbAbbrStroke">̄</g>
+               </l>
+               <l>Praeferret, ſibi non orta, ſed orta tibi.</l>
+            </sp>
+            <sp>
+               <speaker>Anglia.</speaker>
+               <l>Patria Reginam, Patriam Regina peraequè</l>
+               <l>Curat, cum membris certat amore caput.</l>
+               <l>Et cum ſit corpus dignum immortale mancre,</l>
+               <l>Mortali capitis condicione dolet.</l>
+            </sp>
+            <sp>
+               <speaker>Scotia.</speaker>
+               <l>Ergo in ſe moriens, alium ſibi ſanguine iunctu<g ref="char:cmbAbbrStroke">̄</g>,</l>
+               <l>In quo perpetuò vivat, Eliſa paret.</l>
+               <l>In quo manſuetum pectus, natura<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> mitis</l>
+               <l>Syncera decorent cum pietate genus.</l>
+               <l>Qui regni genium, totam<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> effingat Eliſam,</l>
+               <l>Perfecti ſpecimen ſervet vt imperij.</l>
+               <l>Et iuſtum regimen pertexat, &amp; acta propaget,</l>
+               <l>Conſeruet<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> pio conſita ſepta gregi.</l>
+               <l>Nobilibus clero<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> tuo ſe praebeat aequum:</l>
+               <l>Sit<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> pater populi, mater vt illa, tui.</l>
+               <l>Cui velut Aeneae parvus ſuccreſcat Iulus,</l>
+               <l>Spes gentis, ſurgens ad tria regna puer.</l>
+               <l>In quo te cernas veluti iuveneſcere, viſa es</l>
+               <l>Quae ſub Regina conſenuiſſe ſene.</l>
+            </sp>
+            <sp>
+               <speaker>Anglia.</speaker>
+               <l>At conſanguinei multi. Prenſantibus vnum</l>
+               <l>
+                  <pb n="6" facs="tcp:14088:5"/>
+                  <!-- PDF PAGE 96 -->
+Quem conſanguineis omnibus ante ferat?</l>
+            </sp>
+            <sp>
+               <speaker>Scotia.</speaker>
+               <l>Que<g ref="char:cmbAbbrStroke">̄</g>, niſi regali qui ſanguine proximus haeres</l>
+               <l>Eſt etiam puri fautor Evangelij?</l>
+            </sp>
+            <sp>
+               <speaker>Anglia.</speaker>
+               <l>
+                  <note place="margin">Hen. 8 ſoro<g ref="char:EOLhyphen"/>res, Marga<g ref="char:EOLhyphen"/>reta m<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>i<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>r , pro<gap reason="illegible" extent="3+ letters">
+                        <desc>•••…</desc>
+                     </gap> Regis. Mar<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>a mi<g ref="char:EOLhyphen"/>nor. Mater Beuch.</note>Proximus in dubio eſt binae peperere ſorores,</l>
+               <l>Sed faecunda foris prima, ſecunda domi.</l>
+            </sp>
+            <sp>
+               <speaker>Scotia.</speaker>
+               <l>Quin igitur natus maioris iure ſororis</l>
+               <l>Speret, quo ſceptrum filia fratris habet?</l>
+            </sp>
+            <sp>
+               <speaker>Anglia.</speaker>
+               <p>
+                  <note place="margin">Stat. Edw. 3. reg. 25.</note>Lege mea veteri peregrinus pellitur haeres.</p>
+            </sp>
+            <sp>
+               <speaker>Scotia.</speaker>
+               <l>Excipitur proles regia lege tua.</l>
+               <l>
+                  <hi>Ang.</hi> Aduena ſed rex eſt. <hi>Sco.</hi> Sed no<g ref="char:cmbAbbrStroke">̄</g> eſt aduena lege,</l>
+               <l>Intra qui quatuor natus erat maria.</l>
+            </sp>
+            <sp>
+               <speaker>Anglia.</speaker>
+               <p>Subdere colla iugo Scoti non ſuſtinet Anglus.</p>
+            </sp>
+            <sp>
+               <speaker>Scotia.</speaker>
+               <p>Suſtinet Hiſpani ſubdere colla iugo?</p>
+            </sp>
+            <sp>
+               <speaker>Anglia.</speaker>
+               <l>Hiſpano dabimus, Scoto quia ſceptra nega<g ref="char:EOLhyphen"/>mus?</l>
+               <l>Eſt nobis ſoboles regia nata domi.</l>
+            </sp>
+            <sp>
+               <speaker>Scotia.</speaker>
+               <l>Faemina?<note place="margin">Arbella fi<g ref="char:EOLhyphen"/>lia Caroli fratris mi<g ref="char:EOLhyphen"/>noris. D. Be<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>. pro<g ref="char:EOLhyphen"/>les Mariae ſororis mi<g ref="char:EOLhyphen"/>noris.</note> praefertur frater ſine iure ſecundu<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</l>
+               <l>Mas? intrat nullo iure ſecunda ſoror.</l>
+            </sp>
+            <sp>
+               <speaker>Anglia.</speaker>
+               <p>At teſtamento legata corona ſecundae.</p>
+            </sp>
+            <sp>
+               <pb n="7" facs="tcp:14088:5"/>
+               <!-- PDF PAGE 96 -->
+               <speaker>Scotia.</speaker>
+               <l>At teſtamento nulla Corona datur.</l>
+               <l>Coelum diſtribuit nobis, non terra Coronas,</l>
+               <l>Non homo, ſed transfert regia ſceptra deus.</l>
+            </sp>
+            <sp>
+               <speaker>Anglia.</speaker>
+               <p>At iuramento nos aſſociavimus vno.</p>
+            </sp>
+            <sp>
+               <speaker>Scotia.</speaker>
+               <p>Et ſcelus implebit, quod dolus impoſuit?</p>
+            </sp>
+            <sp>
+               <speaker>Anglia.</speaker>
+               <p>Nato ius regni ſceleris rea mater ademit.</p>
+            </sp>
+            <sp>
+               <speaker>Scotia.</speaker>
+               <l>Ius à patre ſuo non minus ille tenet.</l>
+               <l>Sanguis regalis corrumpi neſcit, &amp; vna</l>
+               <l>Cum perſona rea eſt, ſtirps ſine labe manet.</l>
+               <l>Sed quae iuſtitia eſt, vt natus criminis expers</l>
+               <l>Matris delictum, matre luente, luat?</l>
+               <l>Alter privetur regno, velut altera vita?</l>
+               <l>Hic diadema ſuum perdat, vt illa caput?</l>
+               <l>Arbellae nuper proles Suffolcia noſtrae</l>
+               <l>Iuncta maritali dicitur eſſe iugo.</l>
+               <l>Vt bino ex titulo falſo bonus exeat vnus</l>
+               <l>Scilicet, &amp; proceres dividat ille tuos.</l>
+               <l>Sic inteſtino diſcerpta Britannia bello,</l>
+               <l>Proh dolor, Hiſpanae eſt preda ſutura lupae.</l>
+               <l>Quae domini ſanctos exterminet impia cultus,</l>
+               <l>Et ſanam extirpet gens maleſana fidem.</l>
+               <l>Haſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> bonas ſegetes, haec culta novalia perdat,</l>
+               <l>Quae pax cum pura relligione tulit.</l>
+               <l>
+                  <pb n="8" facs="tcp:14088:6"/>
+                  <!-- PDF PAGE 97 -->
+Ergone pacificae veprem ſuccedere oliuae,</l>
+               <l>Quae mittet flammas in ſata laeta, ſines?</l>
+               <l>Inuida quae totam paulatim abolebit Eliſam,</l>
+               <l>Diſijciet<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> piae Nobile Mentis opus,</l>
+               <l>Illius leges reſcindet<g ref="char:punc">▪</g> &amp; acta refiget,</l>
+               <l>Reddet reſcriptis irrita dona ſuis,</l>
+               <l>Saeuiet in charos cineres, Monume<g ref="char:cmbAbbrStroke">̄</g>ta reuellet,</l>
+               <l>Calcabit pedibus ſacra ſepulchra ſuis,</l>
+               <l>Et, ne pontifici ſua victima viua negetur,</l>
+               <l>Conſumet lentis viſcera ſancta rogis,</l>
+               <l>Illuſtreſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> domos tollet, vileſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> reponet,</l>
+               <l>Deſtruet &amp; gentem, ſi queat, Angligenum?</l>
+               <l>Scilicet haeredem falſam priùs Anglia ſumet,</l>
+               <l>Vt ſanctum rabidae cedat ouile lupae?</l>
+               <l>Vrgeat oſtendi verum, falſam<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> repellet,</l>
+               <l>Qui mala, cum poſſit, non vetat, illa facit.</l>
+            </sp>
+            <sp>
+               <speaker>Anglia.</speaker>
+               <l>Reginam &amp; proceres iniuſté, Scotia, taxas,</l>
+               <l>Ex vano nimium ſuſpicioſa metu.</l>
+               <l>Expulit illa ſemel Balaamu<g ref="char:cmbAbbrStroke">̄</g>, iterumne reducet?</l>
+               <l>Vlta<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> Balacum eſt, vt ſua ſceptra gerat?</l>
+               <l>Eiecit nuper Balamitas, rurſus vt intrent?</l>
+               <l>Rurſus agat partes gens furioſa ſuas?</l>
+            </sp>
+            <sp>
+               <speaker>Scotia.</speaker>
+               <l>At, niſi praecaueas, Ba-lac Balaam<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> redibunt,</l>
+               <l>
+                  <abbr>Esq</abbr> iterum tragicis ſcena futura malis.</l>
+               <l>Sternit ad Angliacam furtim Ieſuita coronam</l>
+               <l>Eugeniae quauis proditione viam.</l>
+            </sp>
+            <sp>
+               <pb n="9" facs="tcp:14088:6"/>
+               <!-- PDF PAGE 97 -->
+               <speaker>Anglia.</speaker>
+               <l>At fore confido, multis vt Eliſa ſuperſtes</l>
+               <l>Eugenijs longúm me<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> meoſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> beet.</l>
+               <l>Confecto<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ſibi tandem faeliciter aeuo,</l>
+               <l>Inueniat, tradat cui diadema, caput.</l>
+               <l>Vniuſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> animis certent concordibus omnes,</l>
+               <l>Et veri haeredis regia ſigna ſequi.</l>
+               <l>Interea expectet Scotus, dum Diua, quod ô ſit</l>
+               <l>Serius, in Caelos, vnde profecta, redit.</l>
+            </sp>
+            <sp>
+               <speaker>Scotia.</speaker>
+               <l>At non Eugeniae libet expectare Coronam.</l>
+               <l>Praeripiet capiti, ſi modo poſſit, eam.</l>
+               <l>Vt gladij quae iure ſui, non ſanguinis intret,</l>
+               <l>Omnia ſceptra tamen ſanguinolenta gerat.</l>
+               <l>Vel nemo, vel rex genti communis vtri<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan>
+               </l>
+               <l>Scotus perpetuae cauſa ſalutis erit.</l>
+               <l>Nam iuncta Arbellae ſi ſtirps Suffolcia regnet,</l>
+               <l>Perpetuum bellum ſtirps dabit illa tibi.</l>
+               <l>Sin ex Auſtriaca malis tibi ſumere germen</l>
+               <l>Papiſmum templis ſcito rediſſe tuis.</l>
+               <l>Sic longam pacem tollet Suffolcia, pacem</l>
+               <l>Auſtria cum puro tollet Euangelio.</l>
+               <l>Vel nemo, vel rex Scotus ſeruabit vtrum<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan>,</l>
+               <l>Pacem cum vera religione feret.</l>
+               <l>Ergo ſireliquis legeres ex omnibus vnum,</l>
+               <l>Dignior is reliquis omnibus vnus crat.</l>
+            </sp>
+            <sp>
+               <speaker>Anglia.</speaker>
+               <l>Iure valet forſan meritis<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan>, at vincitur armis,</l>
+               <l>
+                  <pb n="10" facs="tcp:14088:7"/>
+                  <!-- PDF PAGE 98 -->
+Ius ſine vi cedit, vis ſine iure valet.</l>
+            </sp>
+            <sp>
+               <speaker>Scotia.</speaker>
+               <l>Falleris. Ille ſuis armis valet, ille propinquis,</l>
+               <l>Ille hominum fretus viribus, ille Dei.</l>
+               <l>Illum Germani, Dani, Belgae<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> ſequentur,</l>
+               <l>Accedet maior pars melior<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> tui.</l>
+               <l>Nunc meritis, cauſa, cauſam<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> tuentibus armis</l>
+               <l>Cum valeat Scotus, caetera mitte Deo.</l>
+               <l>Su<g ref="char:cmbAbbrStroke">̄</g>ma: dolor gentis Maria, Eliſabetha voluptas.</l>
+               <l>Vnica, Iacobus ſpes, Iſabella timor.</l>
+               <l>
+                  <note place="margin">
+                     <gap reason="illegible" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>. Hen. 7. <gap reason="illegible" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>.</note>Natae Atavus ſtirpi maioris lege cavebat;</l>
+               <l>Natorum extincto ſemine, ſceptra dabat.</l>
+               <l>Vt cauſas omnes praecideret, ex quibus inter</l>
+               <l>Binas extiterant bella cruenta roſas.</l>
+               <l>Ni patris tibi, quam nati ſuprema voluntas</l>
+               <l>Sit prior, iſta ſtatus forma futura tui eſt.</l>
+               <l>Iugruet aut binas inter diſcordia ſtirpes,</l>
+               <l>Diſſidio clades aut Mariana tuo.</l>
+               <l>Sic vel quaſſa tremet civilibus inſula bellis</l>
+               <l>Tota, vel infandis ignibus vſta ruet.</l>
+               <l>Me tibi ſic iunxit ſanguis, vicinia, Chriſtus,</l>
+               <l>Vt te ſtante ego ſtem, te<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> cadente cadam.</l>
+               <l>Vna ſalus, vnum diſcrimen vtri<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> futurum eſt,</l>
+               <l>Sola vigere nequis, ſola perire nequis.</l>
+               <l>O deus omnipote<g ref="char:cmbAbbrStroke">̄</g>s, tua nos inſtantibus ambas,</l>
+               <l>Dextra potens tantis liberet vna malis.</l>
+               <l>Vni vt tota ſemel ſubiecta Britannia regi,</l>
+               <l>Perpetuum Chriſto praebeat hoſpitium.</l>
+            </sp>
+            <sp>
+               <pb n="11" facs="tcp:14088:7"/>
+               <!-- PDF PAGE 98 -->
+               <speaker>Anglia.</speaker>
+               <l>Dum nos colloquimur, fatis conceſſit Eliſa,</l>
+               <l>Mortua foelices nos miſeroſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> facit.</l>
+               <l>Nam proceru<g ref="char:cmbAbbrStroke">̄</g> precibus crebrò co<g ref="char:cmbAbbrStroke">̄</g>mota ſuoru<g ref="char:cmbAbbrStroke">̄</g>,</l>
+               <l>Subſtituit regem iam moribunda tuum.</l>
+               <l>Infoelix, tali quòd ſim privata parente,</l>
+               <l>Foelix, quòd tanto rege parente fruar.</l>
+               <l>Illum ego poſt vnam tacito venerabar Eliſam</l>
+               <l>Pectore, cùm leges me vetuere loqui.</l>
+               <l>Nu<g ref="char:cmbAbbrStroke">̄</g>c, mihi qui facie<g ref="char:cmbAbbrStroke">̄</g> renovas, mea damna repe<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>dis,</l>
+               <l>Vt viuas, regnes, magne Iacobe, precor.</l>
+               <l>Et proles ſolium teneat Regalis auitum,</l>
+               <l>Dum ſol cum luna lumen in orbe ſuum.</l>
+            </sp>
+            <epigraph>
+               <q>
+                  <p>Sit nomen domini benedictum.</p>
+               </q>
+            </epigraph>
+         </div>
+      </body>
+   </text>
+</TEI>

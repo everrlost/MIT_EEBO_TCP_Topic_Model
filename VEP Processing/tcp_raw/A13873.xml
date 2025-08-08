@@ -1,0 +1,795 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A pearle for a prince, or a princely pearle As it was deliuered in two sermons, by Iohn Traske.</title>
+            <author>Traske, John, d. ca. 1638.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1615</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 61 KB of XML-encoded text transcribed from 22 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A13873</idno>
+            <idno type="STC">STC 24176</idno>
+            <idno type="STC">ESTC S102652</idno>
+            <idno type="EEBO-CITATION">99838424</idno>
+            <idno type="PROQUEST">99838424</idno>
+            <idno type="VID">2802</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A13873)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 2802)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1119:02)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A pearle for a prince, or a princely pearle As it was deliuered in two sermons, by Iohn Traske.</title>
+                  <author>Traske, John, d. ca. 1638.</author>
+               </titleStmt>
+               <extent>[4], 39, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by William Stansby for Matthew Lownes,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1615.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-11</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-12</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2011-12</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:2802:1" rendition="simple:additions"/>
+            <pb facs="tcp:2802:1" rendition="simple:additions"/>
+            <p>
+               <hi>A</hi> PEARLE FOR A PRINCE, OR A PRINCELY PEARLE.</p>
+            <p>As it was deliuered in two SERMONS, <hi>By</hi> IOHN TRASKE.</p>
+            <q>
+               <bibl>
+                  <hi>MATT. 7.6.</hi>
+               </bibl>
+               <p>Giue not that which is holy vnto the Dogs, neither caſt ye your Pearles before Swine, leſt they trample them vnder their feete, and turne againe and rent you.</p>
+               <bibl>
+                  <hi>1. COR. 1.25.</hi>
+               </bibl>
+               <p>The fooliſhneſſe of God is wiſer then Men: and the weakeneſſe of God is ſtronger then Men.</p>
+            </q>
+            <p>LONDON, Printed by <hi>William Stansby</hi> for <hi>Matthew Lownes.</hi> 1615.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:2802:2"/>
+            <pb facs="tcp:2802:2"/>
+            <head>To all that deſire the ſin<g ref="char:EOLhyphen"/>cere Milke of the WORD, Grace and Peace bee multiplied.</head>
+            <p>
+               <seg rend="decorInit">I</seg> Haue ſent you heere a Princely Pearle, as a helpe to ſupplie your many wants: the price is very ſmall, the commoditie may proue exceeding great: to thoſe that purchaſing, pray: hauing prayed, read; and hauing read, receiue: that which the word approues. I deſire no more, the word requires <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> leſſe. But in reading this, or any other ſuch: beware no conceit of the man preuaile more, then the truth of the matter: leſt thou make Man a God, and God an Idoll: but be ſure thou ſearch the
+<pb facs="tcp:2802:3"/> Scriptures diligently, whether theſe things be ſo, for the neglect of this is the cauſe of many fearefull errors, and of much groſſe ignorance. Wherefore ha<g ref="char:EOLhyphen"/>uing once read it ouer, at the ſecond rea<g ref="char:EOLhyphen"/>ding, trie euery Scripture whether they be pertinent, thus ſhalt thou reape much benefit, and this ſhort Sermon will proue a large Volume vnto thee. And knowing that if thou be one of thoſe little ones, for whoſe ſake I penned it, thou ſhalt haue cauſe to praiſe God for it, and that thou wilt continue to help with feruent praier, that the Goſpell may haue free courſe, and bee glorified, as alſo deſiring thee not ſlightly to conſider of this aduiſe in thy courſe of reading mens writings, as thou tendreſt thy ſoules eſcape, the rocks of ſo many dangerous errors, as are now a<g ref="char:EOLhyphen"/>broad, eſpecially in writing. I r<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſt <hi>Mar. 30. 1615.</hi>
+            </p>
+            <closer>
+               <signed>Yours that be the Lords, IOHN TRASKE.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb facs="tcp:2802:3"/>
+            <head>A PEARLE For a Prince.</head>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>MARKE. 16.16.</hi>
+                  </bibl>
+                  <p>He that beleeueth and is Baptized, ſhall bee ſaued, but hee that beleeueth not, ſhall be damned.</p>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">T</seg>His Chapter containeth three principall parts. In the firſt wee haue the re<g ref="char:EOLhyphen"/>ſurrection of our bleſſed Sauiour witneſſed by women, by an Angell, by three ſeuerall apparitions: In the ſe<g ref="char:EOLhyphen"/>cond wee haue the Apoſtles Miſſion in their great <hi>Ambaſſage;</hi> In the third Chriſts glorious Aſcenſion into Heauen. In the ſecond part there are foure principall point<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> obſeruable. Firſt, To whom the
+<pb n="2" facs="tcp:2802:4"/> Apoſtles were ſent. Secondly, What to doe. Thirdly, The effects of their labour. Fourthly, The ſignes that ſhould follow in thoſe that did beleeue. The two firſt are contained in the fifteenth verſe. The laſt in the ſeuenteenth and eighteenth. The third is my text. Where wee ſee the twofold effect of preaching laied downe in two <hi>Propoſitions:</hi> The firſt containing a <hi>Promiſe,</hi> the ſecond a <hi>Threat.</hi> In the promiſe we may obſerue two <hi>things:</hi> Firſt, to whom it is made? Secondly, what it is? As if it ſhould haue ſaid in more wordes thus, <hi>Hee</hi> (that is) whoſoeuer, <hi>bee he, Iew</hi> or <hi>Graecian,</hi> young or olde, bond or free, rich or poore, man or woman <hi>that belee<g ref="char:EOLhyphen"/>ueth</hi> (that is) that vnderſtandeth, and vn<g ref="char:EOLhyphen"/>derſtanding aſſenteth to, and aſſenting, applieth to himſelfe the meſſage that you bring, <hi>and is baptized,</hi> (that is) that doth manifeſt the truth of his faith by the vſe of the meanes for the confirmation of the ſame, or doth obſerue conſcionably thoſe things that I command <hi>(Baptiſme being a part for the whole)</hi> or is indeed (not onely with outward water) baptized into the name of the <hi>Father, the Sonne and the Ho<g ref="char:EOLhyphen"/>ly Ghoſt,</hi> is truely baptized by the new
+<pb n="3" facs="tcp:2802:4"/> birth of the water of <hi>regeneration,</hi> and the <hi>renewing of the Holy Ghoſt,</hi> is made conformable <hi>to his death, and doth know him, and the power of his reſurrection, and the fellowſhip of his ſufferings.</hi> Such bee they, of what nation, condition, ſex, or age ſoeuer: <hi>ſhall bee ſaued,</hi> that is, ſhall aſſuredly receiue all the good things that doe concerne ſoule and bodie, this life, and that which is to come; <hi>Grace</hi> heere, and <hi>Glorie</hi> hereafter. And thus the inſtru<g ref="char:EOLhyphen"/>ctions doe naturally ariſe. Firſt, from that the promiſe is made indefinitely, to euery one: hee that beleeueth. The doctrine is,</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Doct. </seg>1</label> 
+               <hi>That all the Priuiledges and Promiſes that appertaine to beleeuers, doe indifferent<g ref="char:EOLhyphen"/>ly ſtretch to euery one aſwell as to any one.</hi> The truth of this may appeare by many teſtimonies of Scripture, of which ſort are theſe following:<note n="a" place="margin">
+                  <hi>Io.</hi> 1.12.</note> 
+               <hi>But as many as receiued him, to them gaue hee the priuiledge to be<g ref="char:EOLhyphen"/>come the ſonnes of God, euen to as many as beleeued in his name.</hi> And<note n="b" place="margin">
+                  <hi>Io.</hi> 3.16.</note> 
+               <hi>So God loued the world, that hee gaue his onely begotten Sonne, that whoſoeuer beleeueth in him, ſhould not periſh, but haue euerlaſting life.</hi> In the firſt, you ſee, <hi>as many as,</hi> twiſe re<g ref="char:EOLhyphen"/>peated: in the later, <hi>whoſoeuer,</hi> which ex<g ref="char:EOLhyphen"/>tendeth to all.</p>
+            <pb n="4" facs="tcp:2802:5"/>
+            <p>The reaſon is, to ſhew Gods <hi>equalitie</hi> and his <hi>impartiall</hi> dealing with the ſonnes of men: which <hi>Peter</hi> tooke notice of, where he ſaid:<note n="c" place="margin">
+                  <hi>Act.</hi> 10.34.</note> 
+               <hi>Of a truth, I perceiue that God is no accepter of perſons, but in euerie nation, ſuch as feare him, and worke righte<g ref="char:EOLhyphen"/>ouſneſſe, are accepted with him.</hi>
+            </p>
+            <p>Seeing then that the promiſes of God doe belong to all, aſwell as to any belee<g ref="char:EOLhyphen"/>uer: Wee may learne, to be<note n="d" place="margin">
+                  <hi>Epheſ.</hi> 5.1</note> followers of God, as deare <hi>children.</hi>
+            </p>
+            <p>The Magiſtrate may hence learne, to iudge impartially, to execute iudgement, without reſpect of perſons, to deale vp<g ref="char:EOLhyphen"/>rightly, betweene the rich, and poore, the bond, and free. <hi>Hereby hee ſhall draw</hi>
+               <note n="e" place="margin">
+                  <hi>Iam.</hi> 4 8</note> 
+               <hi>neere to God,</hi> and be moſt like him: he is no reſpecter of perſons, he not onely of<g ref="char:EOLhyphen"/>fereth, but beſtoweth ſaluation vpon all ſorts indifferently. Let ſuch call to minde that worthy example of good <hi>Iehoſaphat,</hi> who ſaid to the Iudges,<note n="*" place="margin">2. <hi>Chron.</hi> 169.</note> 
+               <hi>Take heede what you doe: for you iudge not for man, but for the Lord, who is with you in the Iudgement: Wherefore now let the feare of the Lord bee vpon you, take heed and doe it, for there is no iniquitie with the Lord our God, nor re<g ref="char:EOLhyphen"/>ſpect of Perſons, nor taking of gifts.</hi>
+            </p>
+            <pb n="5" facs="tcp:2802:5"/>
+            <p>The Miniſter hath hence an Inſtructi<g ref="char:EOLhyphen"/>on to inuite all to the Supper of the Lambe. Chriſt ſayth,<note place="margin">
+                  <hi>Mat.</hi> 11.28 <hi>Io.</hi> 7.37</note> 
+               <hi>Come vnto me all yet that trauell, and are heauie laden.</hi> And a<g ref="char:EOLhyphen"/>gaine, <hi>If any man thirſt, let him come vnto mee and drinke.</hi>
+               <note place="margin">
+                  <hi>Reuel.</hi> 22.17.</note> 
+               <hi>And the Spirit and the Bride ſay. Come And let him that is athirſt, come. And let him that heareth, ſay, Come. And whoſoeuer will,</hi>
+               <note place="margin">
+                  <hi>Iſay</hi> 55.1</note> 
+               <hi>let him take the water of Life, freely.</hi> So <hi>Iſaiah, Ho, euery one that thirſteth, come yee to the waters.</hi>
+               <note place="margin">
+                  <hi>Iam.</hi> 2.1</note>
+            </p>
+            <p>All may learne, not <hi>to haue the Faith of our Lord Ieſus Chriſt, the Lord of Glorie, with reſpect of Perſons.</hi> Secondly, this re<g ref="char:EOLhyphen"/>proueth the practiſe of thoſe Magiſtrates, that regard mens perſons in iudgement, fauouring ſome for their riches, and op<g ref="char:EOLhyphen"/>preſſing others that are but of mean eſtate. Herein they differ from God, and do mani<g ref="char:EOLhyphen"/>feſtly diſcouer the<g ref="char:cmbAbbrStroke">̄</g>ſelues not yet to be his.</p>
+            <p>Alſo ſuch Miniſters are reproued as flatter the rich, and fawne vpon the migh<g ref="char:EOLhyphen"/>tie, but ſcorne the weake, and deſpiſe the poore. Theſe ſwarme in all parts where the Goſpell is preached: Not onely amongſt thoſe of <hi>Babels</hi> ſide, but alſo euen here amongſt vs. Yea thoſe that are ſo con<g ref="char:EOLhyphen"/>uerſant about Touch not, Taſte not, Han<g ref="char:EOLhyphen"/>dle
+<pb n="6" facs="tcp:2802:6"/> not, theſe that would bee reformers of others, are herein moſt irreformed the<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>ſelues. Oh, fearefull is the condition of ſuch: ſurely the Lord neuer ſent them; or if they ſay he did, they muſt proue it, by that they haue ſuch a commiſſion, as Chriſt himſelfe neuer had. He profeſſeth himſelfe to be ſent<note n="a" place="margin">
+                  <hi>Iſay</hi> 61.1</note> to the poore: and hee reioyceth, that<note n="b" place="margin">
+                  <hi>Mat.</hi> 11.5</note> 
+               <hi>The poore receiued the Goſ<g ref="char:EOLhyphen"/>pell:</hi>
+               <note n="c" place="margin">
+                  <hi>verſe</hi> 25</note> 
+               <hi>that babes vnderſtood that which the rich and wiſe were ignorant of.</hi>
+               <note n="d" place="margin">
+                  <hi>Io.</hi> 7.49.</note> 
+               <hi>The people of leaſt eſteeme were his chiefe followers.</hi>
+            </p>
+            <p>Here alſo by this, are diſcouered the darke courſes of ſuch as, dare impudently to affirme, that women haue no ſoules: and that ſeruants, are of no eſteeme with God; or that children, ſhall bee damned. Albeit the very naming ſuch things, is grieuous to an honeſt heart: yet wee will a little touch theſe, for ſatisfaction of any poore ignorant ſoule. Such might read of<note n="e" place="margin">1. <hi>Pet.</hi> 3.5.6</note> 
+               <hi>Sara,</hi> that ſhe is termed a holy wo<g ref="char:EOLhyphen"/>man, yea, the mother of faithfull women: Of <hi>Priſcilla,</hi> famous for knowledge and practiſe, for<note n="f" place="margin">
+                  <hi>Act.</hi> 18.26.</note> 
+               <hi>knowledge,</hi> able to inſtruct learned <hi>Apollos,</hi> for<note n="g" place="margin">
+                  <hi>Ro.</hi> 16.3</note> 
+               <hi>practiſe,</hi> rea<g ref="char:EOLhyphen"/>die to lay downe <hi>her life for Paul.</hi> There is alſo an elect Ladie, and her elect Siſter, &amp;
+<pb n="7" facs="tcp:2802:6"/> many other women, whoſe names are re<g ref="char:EOLhyphen"/>giſtred in the Booke of Life.</p>
+            <p>For ſeruants, beſides the Apoſtles mentio<g ref="char:cmbAbbrStroke">̄</g> of ſeruants, where he writeth to none but Saints, <hi>Oneſimus</hi> being a ſeruant,<note place="margin">
+                  <hi>Phile.</hi> 16.</note> hath ſuch a title giuen him, as no reprobate euer had</p>
+            <p>As for children, it is euident alſo in the Goſpell, by our Sauiours behauiour to<g ref="char:EOLhyphen"/>ward them, his ſpeeches of them,<note place="margin">
+                  <hi>Mar.</hi> 9.36 <hi>Act.</hi> 2.38</note> his pro<g ref="char:EOLhyphen"/>miſes to them and ſuch as they are; that it is without controuerſie,<note place="margin">
+                  <hi>Heb.</hi> 8.11</note> they are within the Couenant, and the promiſe extends e<g ref="char:EOLhyphen"/>uen as farre as them alſo.</p>
+            <p>To conclude this point, <hi>Paul</hi> profeſ<g ref="char:EOLhyphen"/>ſeth himſelfe, <hi>A debter both to Greekes,</hi>
+               <note place="margin">
+                  <hi>Rom.</hi> 1.14</note> 
+               <hi>and to the Barbarians, both to the wiſe, and to the vnwiſe.</hi> And the Holy Ghoſt hath teſtified, that <hi>in Chriſt there is neyther Iew,</hi>
+               <note place="margin">
+                  <hi>Col.</hi> 3.11</note> 
+               <hi>nor Greeke, circumciſion nor vncircumciſion, Barbarian, Scithian, bond nor free: but Chriſt is all, and in all.</hi>
+            </p>
+            <p>Laſtly, this ſerueth for the comfort of all that eyther deſire Chriſt, or alreadie haue obtained the poſſeſſion of him. It is as a ſhield, for the one, and a great incou<g ref="char:EOLhyphen"/>ragement, for the other, when Satan ſhall labour to diſcourage, or affright. Deſi<g ref="char:EOLhyphen"/>reſt thou to come to Chriſt? and doth Sa<g ref="char:EOLhyphen"/>tan
+<pb n="8" facs="tcp:2802:7"/> tell thee, it belongeth not to thee, and that becauſe of thy nation, age, or condi<g ref="char:EOLhyphen"/>tion? Thou maiſt holdly tell him, that God inuites all, therefore thee, aſwell as another.</p>
+            <p>Art thou in Chriſt? and would Satan cauſe thee to doubt of any thing that con<g ref="char:EOLhyphen"/>cernes the life to come, or diſtruſt for this life? Thou maieſt boldly ſay, <hi>The promi<g ref="char:EOLhyphen"/>ſes runne indifferently to all beleeuers: Thou art a beleeuer: therefore to thee.</hi>
+            </p>
+            <p>Thus hauing concluded the firſt point, <hi>That the promi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>es of God doe ſtretch to eue<g ref="char:EOLhyphen"/>ry beleeuer as well as to any,</hi> Wee ſee in the next place from the reſtraint, <hi>Hee that be<g ref="char:EOLhyphen"/>leeueth:</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Doct. </seg>2</label> 
+               <hi>That the Promiſes of God doe extend to none but thoſe that are beleeuers.</hi> So we ſee in the forecited Scriptures.<note place="margin">
+                  <hi>Io.</hi> 1.12</note> 
+               <hi>But as manie as receiued him, to them gaue he the right to become the ſonnes of God.</hi> To them, and to none but them.<note place="margin">
+                  <hi>Ro.</hi> 1.16</note> So alſo in another place, <hi>The Goſpell of Chriſt, is the Power of God vnto ſaluation,</hi>
+               <note place="margin">
+                  <hi>Io.</hi> 3.16.</note> 
+               <hi>to euery one that beleeueth.</hi> And, <hi>So God loued the World, that hee gaue his onely begotten ſonne, that whoſoeuer be<g ref="char:EOLhyphen"/>leeueth in him, ſhould not periſh, but haue e<g ref="char:EOLhyphen"/>uerlaſting Life.</hi>
+            </p>
+            <pb n="9" facs="tcp:2802:7"/>
+            <p>Whoſoeuer, is the extent: Whoſoeuer beleeueth, the reſtraint.</p>
+            <p>The reaſon hereof is, <hi>Without Faith it is impoſſible to pleaſe God. In Chriſt alone,</hi>
+               <note place="margin">
+                  <hi>Heb.</hi> 11.6 <hi>Mat.</hi> 3.17</note> 
+               <hi>God is well pleaſed.</hi> Hence it was, that <hi>Paul</hi> ſpake ſuch excellent things of Faith, and ſo highly prized it,<note place="margin">
+                  <hi>Phil.</hi> 3.8</note> 
+               <hi>Thus hee eſteemed all things but doung, that hee might winne Christ, and bee found in him,</hi>
+               <note place="margin">
+                  <hi>
+                     <g ref="char:V">Ʋ</g>erſe</hi> 9</note> 
+               <hi>not hauing his owne righteouſneſſe, which was of the Law, but the righteouſneſſe which is of Faith.</hi> And hence it is,<note place="margin">
+                  <hi>Heb.</hi> 11.101.</note> that Faith hath ſo excel<g ref="char:EOLhyphen"/>lent titles and effects mentioned in holy Scripture.</p>
+            <p>Seeing then that the promiſes of God are reſtrained onely to beleeuers: As thou deſireſt comfort by the promiſes of God, ſo muſt thou bee diligent in this ſearch or inquiſition. Neyther is it any ground of Comfort, that a man ſay, <hi>I haue Faith:</hi> or, <hi>I doe beleeue:</hi> as many preſumptuouſly af<g ref="char:EOLhyphen"/>firme. For ſome there are that beleeue the Scriptures, to bee true.<note place="margin">
+                  <hi>Iam.</hi> 2.19</note> 
+               <hi>The Deuils doe this, and more, they tremble.</hi> And it were fearefull to affirme, that they haue right to the promiſes of God. Yea, it may bee, theſe haue attained ſuch outward refor<g ref="char:EOLhyphen"/>mation, that they are readie to cenſure all
+<pb n="10" facs="tcp:2802:8"/> that are not ſo forward, of Profaneneſſe, and all that are more forward, of ſingu<g ref="char:EOLhyphen"/>laritie. <hi>Theſe promiſe to themſelues, that</hi> A<g ref="char:EOLhyphen"/>braham <hi>is their Father. There they doe be<g ref="char:EOLhyphen"/>gin,</hi> as did thoſe that were taxed for it by <hi>Iohn Baptiſt.</hi>
+               <note place="margin">
+                  <hi>Luc.</hi> 3.8.</note> Of ſuch beleeuers, I doe not ſpeake. For the difference betweene ſuch and Infidels, is but this: <hi>Infidels not belee<g ref="char:EOLhyphen"/>uing at all, are ſure of condemnation:</hi> and theſe beleeuing as they doe,<note place="margin">
+                  <hi>Luc.</hi> 12.48.</note> of a greater condemnation.</p>
+            <p>Therefore not ſtanding on the definiti<g ref="char:EOLhyphen"/>on of Faith, we will rather conſider of the ground where it is ſowen, and of the companions that it hath. The ground wher Faith is ſowen, is an humbled ſoule, a wounded ſpirit.<note place="margin">
+                  <hi>Iſay</hi> 66.2 <hi>Iam.</hi> 4 6.</note> or rent heart; to ſuch God giueth the grace of Faith, as are ſo prepared for it;<note place="margin">
+                  <hi>Mat.</hi> 5.6 <hi>Zach.</hi> 12.10.13.1</note> ſuch as hunger and thirſt for it; ſuch as mourne for it, to ſuch, and to none but ſuch, doth hee open a foun<g ref="char:EOLhyphen"/>taine for ſinne, and for vncleanneſſe. Here<g ref="char:EOLhyphen"/>by then thou maiſt examine thy ſelfe: Haſt thou ſought to God with feare and trem<g ref="char:EOLhyphen"/>bling,<note place="margin">
+                  <hi>Act.</hi> 16.19. <hi>Act.</hi> 2.37</note> as the Iailor did? Haſt thou come with a pricked Conſcience and cried, <hi>What muſt I doe to be ſaued?</hi>
+               <note place="margin">
+                  <hi>Mat.</hi> 9.12 <hi>Mat.</hi> 11.28</note> Haſt thou felt thy ſoule ſick with ſinne? Haſt thou beene
+<pb n="11" facs="tcp:2802:8"/> preſſed downe with the burden thereof? Hath thine heart melted within thee, and thine eyes guſht out with tea<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>es, for thy ſinnes?</p>
+            <p>This wounded ſpirit, this ſicke ſoule, this rent heart, this burdened Conſcience, this is indeed the ground where GOD doth ſow Righteouſneſſe,<note place="margin">
+                  <hi>Hoſ.</hi> 10.12. <hi>Pſa.</hi> 126.5.</note> this is the man that ſhall reape in Mercie. <hi>They onely that thus ſowin teares, ſhall reape inioy.</hi>
+            </p>
+            <p>Thus much of the ground where Faith is ſowen. Now of the companions that it hath; of theſe there are verie many, of which I will name ſome, eſpecially thoſe which are inſeparable, or peculiar to true beleeuers.</p>
+            <p>The firſt which I will name, is peace: <hi>That Peace which paſſeth all vnderſtan<g ref="char:EOLhyphen"/>ding.</hi>
+               <note place="margin">
+                  <hi>Rom.</hi> 5.1. <hi>Phil</hi> 4.7.</note> This may bee illuſtrated by a quiet calme, after a great tempeſt, or a ſwo<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e ſleepe, after a ſharp ſit of an ague.</p>
+            <p>The ſecond is Ioy.<note place="margin">
+                  <hi>Rom.</hi> 14.17 <hi>Rom.</hi> 15.13 1. <hi>Pet.</hi> 1.8.</note> 
+               <hi>The Ioy of the Holy Ghoſt.</hi> This is that which <hi>Peter</hi> calleth, <hi>Ioy vnſpeakeable and full of glorie.</hi> This doth ſwallow all other ioyes, euen as the Sea doth ſwallow all other waters. This may be illuſtrated by ſafetie, after great dan<g ref="char:EOLhyphen"/>ger, or by great plentie, after much pe<g ref="char:EOLhyphen"/>nurie or want.</p>
+            <pb n="12" facs="tcp:2802:9"/>
+            <p>
+               <note place="margin">
+                  <hi>Gal.</hi> 5.6. 1. <hi>Tim.</hi> 1.5. <hi>Mat.</hi> 12.37.</note>The third is Loue out of a pure Heart. This extendeth to God, to our Neigh<g ref="char:EOLhyphen"/>bour.</p>
+            <p>This Loue is expreſſed by our pliable<g ref="char:EOLhyphen"/>neſſe to doe his will,<note place="margin">1. <hi>Io.</hi> 5.3.</note> 
+               <hi>For this is the loue of God, that wee keepe his Commandements, and his Commaundements are not grieuous.</hi>
+            </p>
+            <p>To our Neighbours, <hi>To all; but eſpecial<g ref="char:EOLhyphen"/>ly to the houſhold of Faith.</hi>
+               <note place="margin">
+                  <hi>Gal.</hi> 6.10. 1. <hi>Pet.</hi> 1.22 1. <hi>Io.</hi> 3.16.</note> 
+               <hi>To Gods chil<g ref="char:EOLhyphen"/>dren:</hi> This Loue is feruent: yea ſo fer<g ref="char:EOLhyphen"/>uent, as that wee can lay downe our liues for them.<note place="margin">
+                  <hi>Mat.</hi> 5.44.45.46.47.48.</note> 
+               <hi>This Loue ſtretcheth euen to E<g ref="char:EOLhyphen"/>nemies.</hi> This can no Reprobate euer haue.</p>
+            <p>A fourth may be boldnes: <hi>To co<g ref="char:cmbAbbrStroke">̄</g>feſſe Chriſt before men.</hi>
+               <note place="margin">
+                  <hi>Prou.</hi> 18.1.</note> 
+               <hi>The righteous are bold as a Lion.</hi>
+               <note place="margin">
+                  <hi>Ro.</hi> 10.10. <hi>Dan.</hi> 3.17.18. <hi>Dan.</hi> 6.10. <hi>Act.</hi> 21.13. <hi>Act.</hi> 4.19.20. <hi>Heb.</hi> 11.37. <hi>Rom.</hi> 5.3. <hi>Heb.</hi> 10.36. <hi>Rom.</hi> 8.17. <hi>Iam.</hi> 5.11. <hi>He.</hi> 12.1.2. <hi>Phil.</hi> 1.23.</note> This is an inſeperable companion of true Faith. <hi>This</hi> was in <hi>Daniel,</hi> in the three children, in <hi>Paul,</hi> in the other <hi>A<g ref="char:EOLhyphen"/>poſtles,</hi> in all the bleſſed Saints who haue died for the teſtimonie of Ieſus.</p>
+            <p>A fifth Patience to beare the Croſſe, to endure tribulation, to ſuffer with Chriſt. This was euident in <hi>Iob,</hi> who is therefore propoſed to beleeuers as a Patterne ther<g ref="char:EOLhyphen"/>of. But our perfect patterne is <hi>Chriſt Ieſus, who endured the Croſſe.</hi>
+            </p>
+            <p>A ſixth, a deſire to bee euer with the
+<pb n="13" facs="tcp:2802:9"/> Lord, to ſee him face to face.<note place="margin">2. <hi>Cor.</hi> 5.2.</note> 
+               <hi>An earneſt groaning to bee clothed vpon with our houſe, which is from Heauen, to be vnburthened of this bodie of death,</hi>
+               <note place="margin">
+                  <hi>Rom.</hi> 8.13.</note> and that as God is be<g ref="char:EOLhyphen"/>come the Father of our ſpirits, ſo he would become the <hi>Father of bodies and ſpirits, That our vile bodies may bee changed,</hi>
+               <note place="margin">
+                  <hi>Phil.</hi> 3.21.</note> 
+               <hi>and faſhioned like vnto the glorious bodie of our Lord Ieſus Chriſt.</hi>
+            </p>
+            <p>A ſeuenth, is a holy waiting for the time of our diſſolution, which may be ter<g ref="char:EOLhyphen"/>med Hope,<note place="margin">
+                  <hi>Rom.</hi> 8.24.25. <hi>Iob.</hi> 14.14.</note> and is ſo called by the Holy Ghoſt: We are ſaued by hope: and <hi>If wee hope for that we ſee not, we doe with patience wait for it</hi>
+            </p>
+            <p>Theſe are the Companions of true ſa<g ref="char:EOLhyphen"/>uing Faith, &amp; within the compaſſe of one of theſe all the reſt may be couched.</p>
+            <p>Hereby thou maiſt trie thy ſelfe. Haſt thou beene troubled, and terrified with the ſight of thy ſinnes?<note place="margin">
+                  <hi>Iſay</hi> 57.19. <hi>Iſ.</hi> 61.1.2.3 <hi>Mat.</hi> 5.4. 1. <hi>Tim.</hi> 1.13. <hi>Pſal.</hi> 119.103. <hi>Mat.</hi> 10.42 <hi>Pſal.</hi> 16.3. 1. <hi>Io.</hi> 5.1.</note> And art thou now at Peace? Haſt thou mourned? And doſt thou reioyce? Haſt thou hated God in his Word, in his Prophets, or poore children? And doſt thou delight in his Law, receiue his Prophets, becauſe they are his Pro<g ref="char:EOLhyphen"/>phets; delight in the Saints, becauſe they are his children?</p>
+            <pb n="14" facs="tcp:2802:10"/>
+            <p>Haſt thou bin greedie of reuenge, <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd readie to requite euill with euill? And doſt thou loue thine enemies, <hi>bleſſe them that curſe thee,</hi>
+               <note place="margin">
+                  <hi>Mat.</hi> 5.44.</note> 
+               <hi>doe good to them that hate thee, pray for them which deſpightfully vſe thee, &amp; perſecute thee?</hi>
+               <note place="margin">
+                  <hi>Rom.</hi> 12.21</note> In a word, canſt thou now deſire, to ouercome their <hi>euill with good?</hi>
+            </p>
+            <p>Haſt thou bluſhed to be ſeene at a Ser<g ref="char:EOLhyphen"/>mon, or reading the word, or in the com<g ref="char:EOLhyphen"/>panie of the poore Saints, or haſt thou withdrawne thy ſelfe from the perfor<g ref="char:EOLhyphen"/>mance of any dutie for feare of perſecuti<g ref="char:EOLhyphen"/>on?<note place="margin">
+                  <hi>Act.</hi> 21.13. <hi>Act.</hi> 5.<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>9. <hi>H<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ſt.</hi> 4.16.</note> And doſt thou now reſolue to doe whatſoeuer God commands, and to ſuf<g ref="char:EOLhyphen"/>fer for not doing, that which he forbids?</p>
+            <p>Haſt thou beene impatient in croſſes and readie to murmure? and art thou now able with alacritie to heare any thing, eſ<g ref="char:EOLhyphen"/>pecially for the name of Chriſt?</p>
+            <p>Haſt thou feared death, and trembled at the time of diſſolution? And is the day <hi>of death (now in thy eſteeme) better then the day that thou waſt borne?</hi>
+               <note place="margin">
+                  <hi>Eccleſ.</hi> 7.1.</note> 
+               <hi>doſt thou long for it,</hi>
+               <note place="margin">
+                  <hi>Act.</hi> 3.19.</note> 
+               <hi>and thirſt after it, as for the time of refre<g ref="char:EOLhyphen"/>ſhing?</hi>
+               <note place="margin">
+                  <hi>A<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </hi> 
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>5.18.</note> Haſt thou fooliſhly deſired the day of the Lord in thy deſperate paſſions? And canſt thou now wait with Patience for the time of thy diſſolution? Then maiſt
+<pb n="15" facs="tcp:2802:10"/> thou take comfort to thy ſoule, that all the promiſes of God doe belong to thee, be thy nation, eſtate, ſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>x, or age, what it will. But if thou find no ſuch change, but that thou art the ſame thou wert euer, as thou waſt borne, ſo thou haſt liued, and excepting a little ſwimming knowledge in thy braine, and colde performance of outward duties, thou findeſt no ſuch ſin<g ref="char:EOLhyphen"/>gular thing?<note place="margin">
+                  <hi>Mat.</hi> 5 47.</note> Doe not then deceiue thy ſelfe, thou art not that beleeuer, of the which I ſpeake: to whom the promiſes d<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e belong.</p>
+            <p>Now hauing an eye to the text, againe we will ſee what more will ariſe. <hi>Hee that beleeueth, and to baptized.</hi>
+            </p>
+            <p>Not to ſpeake her<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, of the ſubſtance of Baptiſme, which is chiefly aimed at: but of the ſigne, which is alſo included. Though the former might wel ſerue for the confutation of <hi>Papiſt,</hi> who aſcribe as much to the ſigne, as to the truth: moſt fooliſhly affirming, that thoſe that die without the ſigne,<note place="margin">
+                  <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. 1. <hi>Cor.</hi> 1 2. <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>. 1.3<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> 5.2<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.2.</note> are dam<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ed as alſo of the <hi>Anabaptiſt,</hi> who d<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nie children the ſigne, though they can by no meanes de<g ref="char:EOLhyphen"/>nie them the ſubſtance: for that were to croſſe the whole Booke of God. Both
+<pb n="16" facs="tcp:2802:11"/> theſe doting too much vpon the bare let<g ref="char:EOLhyphen"/>ter and order of the words; whereby they ſhew their Ignorance of the Scriptures,<note place="margin">
+                  <hi>Mat.</hi> 22.19 <hi>Iſay</hi> 65.23.</note> &amp; of the power and loue of God to his and their ſeed: but leauing this at this time, ſeeing <hi>Faith and Baptiſme are ioyned to<g ref="char:EOLhyphen"/>gether.</hi> Hence I doe collect this point of inſtruction:</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Doct. </seg>3</label> 
+               <hi>That true Faith, and the diligent vſe of the meanes for confirmation thereof, are in<g ref="char:EOLhyphen"/>ſeperable.</hi>
+            </p>
+            <p>Whereſoeuer the one is in truth, there is alſo the other. This may appeare by that the Apoſtle writing to the Saints, at <hi>Coloſſa:</hi> and hauing prooued vnto them their effectuall calling, he willeth them, as the<note n="a" place="margin">
+                  <hi>Col.</hi> 3.11.12.</note> 
+               <hi>Elect of God, to put on the bowels of tender mercie, kindneſſe, humbleneſſe of minde, long ſuffering:</hi> as if hee would ſay, Becauſe yee are the Elect of God, there<g ref="char:EOLhyphen"/>fore put on theſe things: for thoſe that are the Elect of God, cannot after their effe<g ref="char:EOLhyphen"/>ctuall calling, bee ſeperate from theſe. So againe the ſame Apoſtle writing to <hi>thoſe</hi> at <hi>Theſſalonica,</hi> bids them not ſleepe as o<g ref="char:EOLhyphen"/>thers, but<note n="b" place="margin">1. <hi>Theſ.</hi> 5.7.</note> 
+               <hi>to watch and bee ſober: for God hath not appointed you to wrath,</hi> (ſaith hee) <hi>but to obtaine ſaluation by Ieſus Chriſt.</hi> As
+<pb n="17" facs="tcp:2802:11"/> if he ſhould ſay, Thoſe that <hi>God hath or<g ref="char:EOLhyphen"/>dained to eternall life, they watch, they are ſober.</hi>
+            </p>
+            <p>So writing to<note n="c" place="margin">
+                  <hi>Phil.</hi> 1.6.</note> 
+               <hi>Philippi,</hi> and being con<g ref="char:EOLhyphen"/>fident of their ſaluation, hee yet preſſeth them to obedience, and<note n="d" place="margin">
+                  <hi>Phil.</hi> 2.12</note> 
+               <hi>to worke out their owne ſaluation with feare and trembling.</hi>
+            </p>
+            <p>And <hi>Peter</hi> alſo hauing prooued the truth of the regeneration of thoſe Saints, to whom hee writeth, preſſeth them to<note n="e" place="margin">1. <hi>Pet.</hi> 2.2</note> 
+               <hi>deſire the ſincere milke of the word, that they might grow thereby.</hi>
+            </p>
+            <p>The reaſons of this may be many: but I will onely vrge one, which is this, <hi>That whereby our aſſurance is made knowne vnto vs, the knowledge of it doth not take away, but eſtabliſh. But it is made knowne vnto vs, by the vſe of the meanes for the increaſe thereof: Therefore the knowledge of Gods aſ<g ref="char:EOLhyphen"/>ſured loue doth not take away, but eſtabliſh the vſe of the meanes.</hi> So that it remaines firme, That true faith and outward obe<g ref="char:EOLhyphen"/>dience can be no more ſeparated, then the light and the Sunne, or heat and the fire. This being ſo, it may helpe to ſtop Satans mouth in his Inſtruments, who will not ſticke to call in queſtion, the truth of the doctrine of Predeſtination, and of the aſ<g ref="char:EOLhyphen"/>ſurance
+<pb n="18" facs="tcp:2802:12"/> of the ſauour of God, in this life. For ſay they, If this be true, that God hath predeſtinated vs to the obtaining of eter<g ref="char:EOLhyphen"/>nall life, doe what euill we can, we ſhall be ſaued; or if we are predeſtinated to death, doe what good we can, we muſt be dam<g ref="char:EOLhyphen"/>ned. Theſe ſuppoſe they haue reaſoned wiſely, this wiſedome being ſo pleaſing to the fleſh. They neuer conſider that Scriptures are plaine againſt them, cleare<g ref="char:EOLhyphen"/>ly ſhewing vs, that hee that ordained to the end, ordained to the meanes whereby the end is attained. As the <hi>Apoſtle</hi> plaine<g ref="char:EOLhyphen"/>ly ſheweth, where he ſaith, <hi>Wee are bound to giue thankes alway to God for you,</hi>
+               <note place="margin">2. <hi>The.</hi> 2.13</note> 
+               <hi>bre<g ref="char:EOLhyphen"/>thren, beloued of the Lord, becauſe God hath from the beginning choſen you to ſaluation, through ſanctification of the Spirit, and be<g ref="char:EOLhyphen"/>leefe of the Truth.</hi> And againe, <hi>As manie as were ordained to eternall life,</hi>
+               <note place="margin">
+                  <hi>A<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>t.</hi> 13.18.</note> 
+               <hi>beleeued.</hi>
+            </p>
+            <p>Neyther doe ſuch wretches conſider, into what blaſphemie they breake, by queſtioning the truth, becauſe their car<g ref="char:EOLhyphen"/>nall reaſon cann<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t reach it. But if they would but hearken to arguments drawne from their reaſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n, it might ſerue to con<g ref="char:EOLhyphen"/>ui<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ce them. They will graunt, if a man will goe a iourney, hee muſt goe the way
+<pb n="19" facs="tcp:2802:12"/> that leadeth to the end of that iourney; If he will be warme in Winter, he muſt make vſe of the fire, of wa<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>me clothes, or ſome bodily exerciſe: if then they bee ſo wiſe in things of this life, why ſhould they not vnderſtand this alſo? That hee that ordai<g ref="char:EOLhyphen"/>ned men for glorie,<note place="margin">2. <hi>Theſ.</hi> 4.3.</note> 
+               <hi>Willed alſo then holy<g ref="char:EOLhyphen"/>neſſe here, created them to good workes, re<g ref="char:EOLhyphen"/>deemed them,</hi>
+               <note place="margin">
+                  <hi>Lu.</hi> 1 68.75</note> 
+               <hi>that they might ſerue him without feare in holineſſe and righteou<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>neſſe before him all the dayes of their life,</hi>
+               <note place="margin">
+                  <hi>
+                     <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>t.</hi> 2.14.</note> 
+               <hi>that they ſhould be zealous of good workes, called them not to vncleanneſſe, but to holineſſe.</hi>
+               <note place="margin">1. <hi>The<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.</hi> 4.7. 1. <hi>Pet.</hi> 1.1.</note> And as <hi>Peter</hi> ſaith, <hi>He elected them to obedience.</hi>
+            </p>
+            <p>As for example: God decreed, and told <hi>Rebecca</hi> ſo:<note place="margin">
+                  <hi>Gen.</hi> 25.23</note> 
+               <hi>That</hi> Eſau <hi>ſhould ſerue</hi> Ia<g ref="char:EOLhyphen"/>cob. Yet hee alſo decreed, that <hi>Rebecca</hi> ſhould vſe the meanes for <hi>Iacobs eſcape,</hi>
+               <note place="margin">
+                  <hi>G<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>.</hi> 27.43</note> 
+               <hi>from his brothers rage.</hi>
+            </p>
+            <p>He had decreed that <hi>Paul</hi> ſhould wit<g ref="char:EOLhyphen"/>neſſe at Rome, and told him ſo:<note place="margin">
+                  <hi>Act.</hi> 23.11.</note> Yet he alſo decreed, that he ſhould vſe the meanes by his ſiſters ſonne, to the chiefe captaine,<note place="margin">
+                  <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 17.</note> for to eſcape the cruell <hi>vowe</hi> of the <hi>Iewes.</hi>
+            </p>
+            <p>He decreed that not one o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> thoſe ſhould be loſt, which were with <hi>Paul</hi> in the ſhip.<note place="margin">
+                  <hi>Act.</hi> 
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>7 24.31.</note> Yet hee alſo decreed, that the meanes ſhould be vſed for their eſcape. Hee de<g ref="char:EOLhyphen"/>creed
+<pb n="20" facs="tcp:2802:13"/> to beſtow many things on his peo<g ref="char:EOLhyphen"/>ple:<note place="margin">
+                  <hi>Eze.</hi> 36.37.</note> but he alſo decreed, they ſhould pray for them.</p>
+            <p>And ſurely, thoſe that remaine obſti<g ref="char:EOLhyphen"/>nate, affirming, that if we may be aſſured neuer to fall away, then wee may commit ſinne, and liue how we will, may haue their mouthes ſtopped iuſtly with this; namely, That it is euident, they neuer were aſſured of the fauour of God, and ſo conſequently,<note place="margin">
+                  <hi>Epheſ.</hi> 2.12.</note> they are yet without, and are meere ſtrangers to the life of God, and aliens to the Commo<g ref="char:cmbAbbrStroke">̄</g>wealth of <hi>Iſrael.</hi> For ſuch as haue this Faith, or this aſſurance of the Loue of God,<note place="margin">
+                  <hi>Heb.</hi> 12.28.</note> haue alſo a delight in the Law of God, a deſire to hold it faſt, by ſeruing God with reuerence and godly feare, and doe know, that they that are iu<g ref="char:EOLhyphen"/>ſtified, are alſo ſanctified: and that they that are Chriſts,<note place="margin">
+                  <hi>Gal.</hi> 5.24.</note> haue crucified the fleſh with the luſtes thereof.</p>
+            <p>Let this teach all thoſe that haue aſſu<g ref="char:EOLhyphen"/>rance, to labour for the increaſe thereof, and to ſtriue vnto perfection <hi>in know<g ref="char:EOLhyphen"/>ledge,</hi>
+               <note place="margin">
+                  <hi>Heb.</hi> 6.1. 2. <hi>Cor.</hi> 7.1.</note> and perfection <hi>in holineſſe,</hi> and not alwayes to looke to bee fed with milke. For as knowledge doth increaſe, ſo doth faith increaſe, and as faith increaſeth, ſo
+<pb n="21" facs="tcp:2802:13"/> obedience increaſeth. There is no ſtan<g ref="char:EOLhyphen"/>ding at a ſtay, or ſitting idlely here,<note place="margin">
+                  <hi>Pſa.</hi> 128.1. 1. <hi>Cor.</hi> 9.24. 2. <hi>Tim.</hi> 4.7.</note> it is a walke, and muſt be gone; a race, and muſt be runne; a combate, and muſt be fought.</p>
+            <p>Euery plant that is planted here, muſt flouriſh more and more.<note place="margin">
+                  <hi>Pſal.</hi> 92.12. <hi>Ioh.</hi> 15.2.3. <hi>Reuel.</hi> 2.19.</note> 
+               <hi>Euery branch muſt bring forth more fruit. The laſt workes of beleeuers muſt be more then the firſt.</hi>
+            </p>
+            <p>This may bee as a ſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>urre to ſuch as are almoſt ſettled on the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ees of ſecurity, ſuch as formerly haue beene forward in hea<g ref="char:EOLhyphen"/>ring, and now are almoſt careleſſe whether they heare or no, and ſuch as haue bene much in prayer, and meditati<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n: ſuch as haue deſired conference with Miniſters &amp; Saints. But now they are growne almoſt cold in all theſe. Oh let ſuch take heed whither they are falling, and labour to re<g ref="char:EOLhyphen"/>couer themſelues ſpeedily, leſt their lamps goe out,<note place="margin">
+                  <hi>Mat.</hi> 15.1.2.3.4.</note> and they be to ſeeke of oyle when the <hi>Bridegroome comes.</hi>
+            </p>
+            <p>Laſtly, this doth plainely diſcouer ſuch as ſcoffe at the outſide, and are enemies to hearing, prayer, conference and ſuch like, that (ſay they what they wil) they doe not yet beleeue, becauſe whereſoeuer Faith is (I meane alwaies true Faith) there is out<g ref="char:EOLhyphen"/>ward obedience, and a willing ſubmiſſion
+<pb n="22" facs="tcp:2802:14"/> to the ordinances of God for the increaſe of the ſame.</p>
+            <p>Now if wee looke againe to the Text, we ſhall find another Doctrine from theſe words, <hi>he that beleeueth, &amp; is baptized.</hi> For ſeeing (as before hath beene proued) that outward obedience and inward truth are inſeparable, and ſeeing the promiſes are made not to one alone, but to both, if they may bee had: and that here is meant not ſo much the outward ſigne, as the truth of Baptiſme:</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Doct. </seg>4</label> Hence wee may gather this Doctrine, <hi>That the ſigne without the thing ſignified, the outward ſhew without the inward truth, is of no value.</hi>
+               <note place="margin">
+                  <hi>Rom.</hi> 2.28.29.</note> So we read, <hi>He is not a Iew which is a Iew without, neyther is that Circumciſi<g ref="char:EOLhyphen"/>on, which is outward in the fleſh: But he is a Iew, which is one inwardly, which Circum<g ref="char:EOLhyphen"/>ciſion is that of the heart, in the ſpirit, and not in the letter, whoſe prayſe is not of man, but of God.</hi>
+               <note place="margin">
+                  <hi>Jer.</hi> 4.4.</note> And <hi>Ieremie</hi> willeth thoſe that before were circumciſed, <hi>To circumciſe themſelues to the Lord.</hi>
+               <note place="margin">
+                  <hi>E<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>.</hi> 44.9.</note> So <hi>Ez<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>chiel, No ſtranger vncircumciſed in heart, nor vncir<g ref="char:EOLhyphen"/>cumciſed in fleſh, ſh<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ll enter into my San<g ref="char:EOLhyphen"/>ctuary.</hi> So that here, thoſe that are vncir<g ref="char:EOLhyphen"/>cumciſed in heart, are excluded out of
+<pb n="23" facs="tcp:2802:14"/> the true Sanctuarie, and are accounted ſtrangers.</p>
+            <p>The reaſon is, God deſireth truth in the inward parts, he requireth the heart:<note place="margin">
+                  <hi>Pſal.</hi> 51.6. <hi>Pro.</hi> 23.26.</note> Hee iudgeth not the affection by the action, as Man: but the Action by the affection,<note place="margin">2 <hi>Cor.</hi> 8.12.</note> as God. Seeing it is ſo, that ſhewes without ſubſtances, will not ſerue turne: let this teach vs to make cleane the inſide firſt, to giue our hearts vnto the Lord, to labour for truth in the inward parts: Let vs labor for approbation with God, and prayſe with him. This is that which will cheere our ſoules, and comfort our ſpirits, and make vs truely merrie, when wee can ſay, <hi>If I regard wickedneſſe in my heart,</hi>
+               <note place="margin">
+                  <hi>Pſa.</hi> 66.18.</note> 
+               <hi>the Lord will not heare me; but God hath heard mee.</hi>
+            </p>
+            <p>This reprooues ſuch as ſlatter them<g ref="char:EOLhyphen"/>ſelues with the outward performance of duties. If they be baptized (as they ſay) &amp; bring their children to outward Baptiſme; If they aſſemble themſelues outwardly to the hearing of the word, the receiuing of the Lords Supper; If by their good Me<g ref="char:EOLhyphen"/>mories they bee able to beare in mind the Doctrines deliuered, and repeate them to their Families, ſhew much loue to Mini<g ref="char:EOLhyphen"/>ſters,
+<pb n="24" facs="tcp:2802:15"/> kindneſſe to profeſſors, ſuch as they themſelues are, though in the mean while they feele no Peace with God, or Ioy in the Holy Ghoſt: yet here they reſt, and doe eſteeme themſelues of the beſt ſort of beleeuers <hi>Albeit</hi> a man may doe all this, and be damned.</p>
+            <p>Were there not formerly, <hi>That could ſay, The Temple of the Lord,</hi>
+               <note place="margin">
+                  <hi>Ier.</hi> 7.4.</note> 
+               <hi>The Temple of the Lord, The Temple of the Lord, are theſe?</hi> and others that could ſay,<note place="margin">
+                  <hi>Iſay</hi> 65.5.</note> 
+               <hi>Stand by thy ſelfe, come not neere mee; for I am holier then thou.</hi>
+            </p>
+            <p>Were there not that appeared before the Lord,<note place="margin">
+                  <hi>Iſ.</hi> 1.11.15.</note> with a multitude of Sacrifices, and ſtore of long Prayers, ſtretching out their hands euen like vnto the children of God?</p>
+            <p>Were there not that faſted, and hung downe their heads like a Bulruſh for a day?<note place="margin">
+                  <hi>Iſay</hi> 58.5.</note>
+            </p>
+            <p>
+               <note place="margin">
+                  <hi>Rom.</hi> 2.17. <hi>
+                     <g ref="char:V">Ʋ</g>erſe</hi> 18.</note>Were there not that did reſt in the law, <hi>and were called Iewes, and made their boaſt of God,</hi>
+               <note place="margin">
+                  <hi>Verſe</hi> 19.</note> 
+               <hi>and knew his will, and approued the things that were more excellent, being inſtru<g ref="char:EOLhyphen"/>cted out of the Law, being alſo confident that they themſelues were guides of the blind,</hi>
+               <note place="margin">
+                  <hi>
+                     <g ref="char:V">Ʋ</g>erſe</hi> 
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>0.</note> 
+               <hi>lights of them which were in darknes, inſtructers of the fooliſh, teachers of babes,
+<pb n="25" facs="tcp:2802:15"/> hauing the forme of knowledge, and of truth in the Law.</hi>
+            </p>
+            <p>And yet theſe holy ones (as they thought themſelues) were threatned ven<g ref="char:EOLhyphen"/>geance for their hypocriſie. They were they that truſted in lying words &amp; coun<g ref="char:EOLhyphen"/>terfeit ſhewes, a ſmoak they were in Gods noſe, abhorred and accurſed in all their courſes. They were they that cauſed the Name of God to bee blaſphemed, euen in their faſts, finding their owne pleaſures, and exacting all their labours, faſting for ſtrife and debate, and to ſmite with the fiſt of wickedneſſe, as thoſe Scriptures do manifeſt.<note place="margin">
+                  <hi>Luk.</hi> 13.24. <hi>Mat.</hi> 25.11.12. <hi>Mat.</hi> 7.21.22.23.</note> Are there not ſome that ſhall ſeeke to enter, and not get in: that ſhall crie earneſtly, and knocke aloud, and bee ſent away: that ſhall be able to ſay, they haue caſt out deuils, and done many great workes, and yet reiected?<note place="margin">2. <hi>Tim.</hi> 3.5.</note> Are there not o<g ref="char:EOLhyphen"/>thers, that haue the forme of godlineſſe, and yet muſt be ſeparated from? what ſhal we ſay to this then?</p>
+            <p>Surely as we beganne: It is not the ſigne, but the thing ſignified; not the ſhew,<note place="margin">
+                  <hi>Mat.</hi> 23.25. <hi>Luk.</hi> 11.39.</note> but the ſubſtance; not the making cleane of the outſide, but the inſide; not the forme, but the power of godlines that is auaileable.</p>
+            <pb n="26" facs="tcp:2802:16"/>
+            <p>Now neuer could our Sauiour more iuſtly ſay in his time: <hi>Woe be to Scribes, &amp; Phariſes Hyp<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>crites<g ref="char:punc">▪</g>
+               </hi> then we may at this day ſay the like of outſide Chriſtians (if I m<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y ſo ſay) I doe not meane thoſe onely that are openly prophane, whoſe ſinnes are written in their forheads: but thoſe eſpe<g ref="char:EOLhyphen"/>cially, that haue a ſtrict outſide of godli<g ref="char:EOLhyphen"/>neſſe.</p>
+            <p>
+               <note place="margin">
+                  <hi>Col.</hi> 2.21.</note>
+               <hi>England</hi> doth ſwarme with <hi>Phariſees:</hi> ſuch as are conu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rſant about Touch not, Taſt not,<note place="margin">2. <hi>Pet.</hi> 2.</note> Handle no<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>. Such as hauing vo<g ref="char:EOLhyphen"/>luntarie humilitie, and pretended ſinceri<g ref="char:EOLhyphen"/>tie, doe deſpiſe gouernment, and ſpeake euill of dignities. Preſumptuous they are, and ſelfe-willed, and ſpeaking euill of the things they vnderſtand not, they creep in<g ref="char:EOLhyphen"/>to houſes,<note place="margin">2. <hi>Tim.</hi> 3.</note> and lead captiue ſilly women laden with ſinnes, ledde away with diuers luſts, and as <hi>Iannes</hi> and <hi>Iambres withſtood</hi> Moſes, <hi>ſo doe theſe men reſiſt the Truth, men of corrupt minds, of no Iudgement concer<g ref="char:EOLhyphen"/>ning the Faith.</hi> Theſe are they that take ad<g ref="char:EOLhyphen"/>uantage of weake conſciences, ceazing on them as their own, by cumbring them with outward things, and by telling them, here is Chriſt,<note place="margin">
+                  <hi>M<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>.</hi> 24.23 26.</note> or there is Chriſt; when if the truth were knowne, they neuer yet had
+<pb n="27" facs="tcp:2802:16"/> Chriſt themſelues: yet hereby they draw Diſciples after them, and therehence ſuck they no ſmall aduantage. Of ſuch I dare ſay, that notwithſtanding their outward flouriſh,<note place="margin">
+                  <hi>Mal.</hi> 21.31</note> yet <hi>Publicans and Harlots ſhall enter into the Kingdome of</hi> GOD <hi>be<g ref="char:EOLhyphen"/>fore them.</hi> Yea, that open prophane ones are ſooner drawne to ſinceritie,<note place="margin">
+                  <hi>Pro.</hi> 26.12.</note> then theſe, and apter to receiue inſtruction. So wiſe are they in their owne eyes,<note place="margin">
+                  <hi>Pro.</hi> 30.12.</note> and pru<g ref="char:EOLhyphen"/>dent in their own ſight, that there is more hope of Fooles then of them; yea,<note place="margin">
+                  <hi>Ier.</hi> 5.26.27.28.</note> that there is more humanitie and greater loue amongſt thoſe whom they terme profane, then amongſt themſelues.</p>
+            <p>Here let none ſo forget the former Do<g ref="char:EOLhyphen"/>ctrine, to miſtake me, as if I did oppoſe my ſelfe againſt all outward ſhew. No, far be it from me, to thinke that the inſide can be cleane, and the outſide filthie: howſo<g ref="char:EOLhyphen"/>euer I ſay, there are a multitude of ſuch as ſeeme to ſuch as themſelues are, to bee cleane without, who are notwithſtanding foule within.</p>
+            <p>To conclude then, beginne to make cleane the inſide, and then all is cleane. Get true faith, and outward obedience will certainly follow. But if thou get ne<g ref="char:EOLhyphen"/>uer
+<pb n="28" facs="tcp:2802:17"/> ſo much of outward conſtitution as thou thinkeſt, and remaine foule within, <hi>Thy hatred being couered with deceit, ſhall certainly be diſcouered in the whole Congre<g ref="char:EOLhyphen"/>gation.</hi>
+               <note place="margin">
+                  <hi>Pro.</hi> 26.26. <hi>Job</hi> 20.5.22.27.</note> And thus much of the firſt point, to whom the promiſe is made. Now wee are come to the promiſe it ſelfe; <hi>Shall bee ſaued.</hi>
+            </p>
+            <p>The promiſe is ſaluation, which contai<g ref="char:EOLhyphen"/>neth all the good things that concerne ſoule or bodie, this life or that to come, as it is written,<note place="margin">1. <hi>Tim.</hi> 4.8.</note> 
+               <hi>Godlineſſe is profitable to all things, hauing promiſe of the life that now is, and of that which is to come.</hi>
+               <note place="margin">
+                  <hi>Pſal.</hi> 84.11.</note> And, <hi>The Lord will giue grace and glory.</hi> 
+               <label type="milestone">
+                  <seg type="milestoneunit">Doct. </seg>5</label> Hence ariſeth this Doctrine, <hi>That all good things that doe concerne this Life, or that which is to come, are of right due to thoſe that doe beleeue:</hi> or, <hi>That thoſe that doe beleeue, and are indeed baptized, or made conformable to Chriſts death, and doe feele the power of his reſur<g ref="char:EOLhyphen"/>rection in themſelues, ſuch may challenge as their proper right, and claime as their heri<g ref="char:EOLhyphen"/>tage, all the good things that doe concerne this life, or that which is to come.</hi>
+            </p>
+            <p>
+               <note place="margin">1. <hi>Cor.</hi> 3.21.</note>This the Apoſtle affirmeth plainely, where hee ſayth, <hi>All things are yours, whe<g ref="char:EOLhyphen"/>ther</hi> Paul, <hi>or</hi> Apollo, <hi>or</hi> Cephas, <hi>or the
+<pb n="29" facs="tcp:2802:17"/> World, or life, or death, or things preſent, or things to come, all are yours, and yee are Chriſts, and Chriſt is Gods.</hi>
+            </p>
+            <p>The reaſon is, God hath promiſed, and he cannot but performe.<note place="margin">
+                  <hi>Deut.</hi> 32.4. <hi>Tit.</hi> 1.2.</note> 
+               <hi>Hee is the God of Truth, Righteous in all his wayes: The God that cannot lie.</hi>
+            </p>
+            <p>Another may be this, Hee hath giuen the greater, and cannot denie the leſſer, as it is written,<note place="margin">
+                  <hi>Rom.</hi> 8.32.</note> 
+               <hi>Hee that ſpared not his owne Sonne, but deliuered him vp for vs all: how ſhall hee not with him alſo freely giue vs all things?</hi>
+            </p>
+            <p>Will any man giue Gold, and denie Duſt? Will a man giue his Life, and denie his Goods? or will a man giue goods, and not afford good lookes, nor a good word?</p>
+            <p>The conſideration of this may cheere vp the hearts of thoſe that are beleeuers;<note place="margin">
+                  <hi>Eſay</hi> 25.6. <hi>Gen.</hi> 18.25. <hi>Exod.</hi> 32.11.12. <hi>Neh.</hi> 1.8.9. <hi>Dan.</hi> 9.16.17.18.19. <hi>Act.</hi> 4.24.29.30. <hi>Heb.</hi> 13.8. <hi>Iſay</hi> 59.1.</note> here is a Feaſt for them of fat things, full of Marrow, of Wine on the Lees well re<g ref="char:EOLhyphen"/>fi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ed. So that beleeuers may challenge Gods promiſes as boldly, as euer <hi>Abra<g ref="char:EOLhyphen"/>ham, Moſes, Nehemiah, Daniel, The Church in the Apoſtles time,</hi> or any of the Saints euer did. The Lord is <hi>Iehouah, the ſame for euer: His hand is not ſhortned, that
+<pb n="30" facs="tcp:2802:18"/> it cannot ſaue, neyther his eare heauie, that it cannot heare.</hi>
+            </p>
+            <p>Doſt thou then want wiſedome? Thou maiſt aske it of God.<note place="margin">
+                  <hi>Prou.</hi> 2.6.7.</note> 
+               <hi>Hee is the giuer of wiſedome, out of his mouth commeth know<g ref="char:EOLhyphen"/>ledge and vnderſtanding. He layeth vp wiſe<g ref="char:EOLhyphen"/>dome for the Righteous.</hi> Here you ſee, God ſetteth forth himſelfe as his childrens trea<g ref="char:EOLhyphen"/>ſurer.<note place="margin">1. <hi>Kin.</hi> 3.9.</note> 
+               <hi>Salomon</hi> asked wiſedome and was not denied. And <hi>Iames</hi> extendeth this to all the Saints:<note place="margin">
+                  <hi>Iam.</hi> 1.5.6.</note> 
+               <hi>If any of you lacke wiſedome, let him aske of God, that giueth to all men li<g ref="char:EOLhyphen"/>berally, and vpbraideth not; and it ſhall bee giuen him.</hi>
+            </p>
+            <p>
+               <note place="margin">
+                  <hi>Pro.</hi> 3.33. <hi>Pro.</hi> 10.22. <hi>Pſal.</hi> 112.3.</note>Doſt thou want riches? <hi>Thou haſt the bleſſing of the Lord. This onely maketh rich.</hi> And it is written, <hi>That wealth and riches are in the houſe of him that feareth the Lord.</hi>
+               <note place="margin">
+                  <hi>Mat.</hi> 19.29</note> And it is alſo written, <hi>That whoſoe<g ref="char:EOLhyphen"/>uer forſaketh Houſes,</hi>
+               <note place="margin">
+                  <hi>Mat.</hi> 10.30.</note> 
+               <hi>or Lands for Christs name ſake, for the Goſpels ſake, or the King<g ref="char:EOLhyphen"/>dome of God,</hi>
+               <note place="margin">
+                  <hi>Luk.</hi> 18.19.</note> 
+               <hi>ſhall receiue euen in this Life manifold, yea an hundred ſold more, euen in this preſent time.</hi>
+            </p>
+            <p>
+               <note place="margin">
+                  <hi>Mat.</hi> 10.30</note>Is it friends thou doſt deſire? <hi>Thou hast the promiſe of Fathers, and Mothers, Bre<g ref="char:EOLhyphen"/>thren,</hi>
+               <note place="margin">
+                  <hi>Iam.</hi> 5.16.</note> 
+               <hi>Siſters, and Children.</hi> What grea<g ref="char:EOLhyphen"/>ter friends then ſuch? <hi>The prayers of one of
+<pb n="31" facs="tcp:2802:18"/> them being more auaileable for thee, then the power of a whole Kingdome againſt thee.</hi>
+            </p>
+            <p>Theſe will lay downe their liues for thee. <hi>Their loue is feruent loue.</hi>
+               <note place="margin">1. <hi>Ioh.</hi> 3.16. 1. <hi>Pet.</hi> 1.22 2. <hi>Sa.</hi> 20.17</note> Euen as was the loue of <hi>Ionathan</hi> to <hi>Dauid, Who loued him euen as his owne ſoule:</hi> And as the loue of <hi>Aquila and Priſcilla to Paul, who were readie, and did in effect lay downe their own neckes for</hi> Pauls <hi>life.</hi>
+               <note place="margin">
+                  <hi>Rom.</hi> 16.4.</note> This is that wee finde written in the Prouerbs of <hi>Salomon. There is a friend that ſticketh cloſer then a brother.</hi>
+               <note place="margin">
+                  <hi>Pro.</hi> 18.24.</note>
+            </p>
+            <p>Is Honour deſireable? What more ho<g ref="char:EOLhyphen"/>nourable,<note place="margin">
+                  <hi>Ioh.</hi> 1.12. <hi>Pſ.</hi> 149. <hi>vlt.</hi>
+               </note> then of a ſonne of a Mortall Man, to become the ſonne of the Immor<g ref="char:EOLhyphen"/>tall God? Such honour haue all the Saints. And who haue beene more honourable then the Children of God? <hi>As Ioſeph, Mardochey, Daniel,</hi> and the reſt?</p>
+            <p>Is ſafetie a good thing?<note place="margin">Iſa. <hi>54.</hi> vlt.</note> This is thine he<g ref="char:EOLhyphen"/>ritage, and thou maiſt therefore claime it as thy proper right, as the ſeruants of God haue done.<note place="margin">
+                  <hi>Pſal.</hi> 91.4.</note> 
+               <hi>Let thy truth (O Lord) bee my ſhield and buckler.</hi>
+            </p>
+            <p>Thy defence is, <hi>A wall of Fire, The mu<g ref="char:EOLhyphen"/>nition of Rockes, A guard of Angels,</hi>
+               <note place="margin">
+                  <hi>Pſal.</hi> 68.17. <hi>Zach.</hi> 2.5. <hi>Iſay</hi> 33.16.</note> 
+               <hi>as Chariots of Fire, and Horſes of Fire doth compaſſe thee round about.</hi>
+            </p>
+            <p>Is Peace pleaſant vnto thee? Thy Ha<g ref="char:EOLhyphen"/>bitation
+<pb n="32" facs="tcp:2802:19"/> is Peaceable. <hi>They ſhall not hurt nor deſtroy in all mine holy Mountaine.</hi>
+               <note place="margin">
+                  <hi>Iſay</hi> 6.9.</note> 
+               <hi>No Lion or rauenous beaſt doth walke in that way.</hi>
+               <note place="margin">
+                  <hi>Iſay</hi> 35.8.9 <hi>Iſay</hi> 9.6. <hi>Nah.</hi> 1.15.</note> 
+               <hi>Thy Prince is a Prince of Peace: All thoſe that are his Ambaſſadors, are glad ty<g ref="char:EOLhyphen"/>dings bringers. Thy owne feete are ſhod with the ſhooes of Peace:</hi>
+               <note place="margin">
+                  <hi>Ephe.</hi> 6.15. <hi>Mat.</hi> 5.9.</note> 
+               <hi>All thy Companions are Peacemakers. God hath promiſed to extend Peace like a Riuer to thoſe that dwell in Sion.</hi>
+               <note place="margin">
+                  <hi>Iſay</hi> 66.12.</note>
+            </p>
+            <p>Delighteſt thou in many followers or ſeruants,<note place="margin">
+                  <hi>Pſal.</hi> 91.11. <hi>Pſal.</hi> 34.7.</note> to wait on thy perſon? <hi>God hath giuen his Angels charge of thee. The Angels doe encampe about thee whereſoeuer thou art:</hi>
+               <note place="margin">
+                  <hi>Heb.</hi> 1.14.</note> 
+               <hi>They are miniſtring Spirits, ſent foorth for the good of them that ſhall be ſaued.</hi> And it is written,<note place="margin">
+                  <hi>Mat.</hi> 18.10</note> 
+               <hi>Take heed that yee offend not one of theſe little ones that beleeue in me, ſaith Chriſt; for I ſay vnto you, Their Angels doe alwayes behold the face of my Father which is in Heauen.</hi>
+            </p>
+            <p>Is victorie ouer aduerſaries a good thing?<note place="margin">
+                  <hi>Rom.</hi> 8 37. 1. <hi>Pet.</hi> 5.8. <hi>Gal.</hi> 5.24. 1 <hi>Ioh.</hi> 5 4.</note> 
+               <hi>Beleeuers are more then Conquerors. By Faith the Deuill is reſiſted, the fleſh cru<g ref="char:EOLhyphen"/>cified, and the World ouercome.</hi>
+            </p>
+            <p>Is mirth deſired by thee? What greater ioy,<note place="margin">
+                  <hi>Rom.</hi> 14.17</note> then <hi>the Ioy of the Holy Ghoſt?</hi> This will make thee to eat thy bread with <hi>Ioy, and
+<pb n="33" facs="tcp:2802:19"/> drinke thy wine with a merry heart,</hi>
+               <note place="margin">
+                  <hi>Eccleſ.</hi> 9.7.</note> when thou art once a beleeuer: for then, and not till then ſhalt thou know, that <hi>God accepteth thy workes.</hi> This ioy is termed, <hi>Ioy vnſpeakeable, and full of glory.</hi>
+               <note place="margin">2. <hi>Pet.</hi> 1.8.</note>
+            </p>
+            <p>Is long life a bleſſing in thy Iudge<g ref="char:EOLhyphen"/>ment? <hi>Thou haſt a promiſe to liue long,</hi>
+               <note place="margin">
+                  <hi>Pſal.</hi> 34.12.13.14. <hi>Pſal.</hi> 128.6. <hi>Pſal.</hi> 84.11.</note> 
+               <hi>and ſee good dayes, if thou be a beleeuer, yea, to ſee thy childrens children.</hi>
+            </p>
+            <p>So that there is no good thing to bee withholden from beleeuers.</p>
+            <p>Let this not only comfort, but inſtruct thee againſt Sathans fierie aſſaults. Doth he perſwade thee thou art fooliſh? Thou maiſt replie, <hi>Chriſt is thy wiſedome.</hi>
+               <note place="margin">1. <hi>Cor.</hi> 1.30.</note> Doth he vpbraid thee with thy pouertie? An<g ref="char:EOLhyphen"/>ſwere him, Thou poſſeſſeſt all things,<note place="margin">2 <hi>Cor.</hi> 6.10. <hi>Iam.</hi> 2.5.</note> and art able to make many rich.</p>
+            <p>Tels he thee, <hi>Thou art friendleſſe?</hi>
+               <note place="margin">
+                  <hi>Ephe.</hi> 2.19. <hi>Mar.</hi> 10.30 1. <hi>Cor.</hi> 12.26.</note> Op<g ref="char:EOLhyphen"/>poſe againſt this, <hi>The promiſe of friends,</hi> as deare as Fathers, Mothers or Children: And that thou haſt all the Saints in the World thy friends.</p>
+            <p>Doth he obiect? That thou art baſe &amp; deſpiſed? <hi>Anſwere, It is a great, yea,</hi>
+               <note place="margin">1. <hi>Io.</hi> 3.1.</note> 
+               <hi>the greateſt honour, to be a child of God.</hi>
+            </p>
+            <p>Doth he affright thee with danger?<note place="margin">2. <hi>Kin.</hi> 6.16. 1. <hi>Chron.</hi> 32 7.8.</note> 
+               <hi>Tel <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>im. Thou haſt more with thee then againſt hee.</hi>
+            </p>
+            <pb n="34" facs="tcp:2802:20"/>
+            <p>Would hee amaze thee with many troubles?<note place="margin">
+                  <hi>Phil.</hi> 4.7. <hi>Io.</hi> 14.27. <hi>Io.</hi> 10.33. <hi>Rom.</hi> 8.28.</note> Say, <hi>That thou haſt Peace with<g ref="char:EOLhyphen"/>in, that cheeres thee, and that trouble with<g ref="char:EOLhyphen"/>out ſhall not hurt thee: All things working together for good to them that feare and loue God.</hi>
+            </p>
+            <p>Would he haue it grieue thee, that thou art not waited on as others are?<note place="margin">
+                  <hi>Ioh.</hi> 5.22.23. <hi>Hoſ.</hi> 2.18. <hi>Heſt.</hi> 6.11. <hi>Da.</hi> 6.18.23</note> 
+               <hi>Thou maiſt tell him, that Angels are thy ſeruants, and all the Creatures are at thy command: yea, Kings ſhall ſtoop to thee, if it be good for thee.</hi>
+            </p>
+            <p>Would he make thee doubt of an ouer<g ref="char:EOLhyphen"/>throw in any doubtfull combate?<note place="margin">2. <hi>Cor.</hi> 10 4. <hi>Rom.</hi> 8.38.</note> 
+               <hi>Thou art now ſure of the conqueſt.</hi>
+            </p>
+            <p>Is it a ſorrowfull thing (ſaith he) to be a beleeuer?<note place="margin">
+                  <hi>Iſay</hi> 51.11.</note> 
+               <hi>Thou now well knoweſt, that here is abundance of ioy.</hi>
+            </p>
+            <p>Would hee ſeare thee with ſodaine death?<note place="margin">
+                  <hi>Phil.</hi> 1.21.</note> 
+               <hi>Chriſt is with thee to liue, and to die is gaine.</hi> But thou haſt the promiſe of length of dayes,<note place="margin">
+                  <hi>Epheſ.</hi> 6.2.3</note> if it ſhall bee good for thee.</p>
+            <p>Thus which way ſoeuer Satan ſeeketh to wind in his poyſoned ſting, or to throw in his fierie dart, thou haſt armor to de<g ref="char:EOLhyphen"/>fend thy ſelfe.</p>
+            <p>Yea for thy further inſtruction know
+<pb n="35" facs="tcp:2802:20"/> that if the contrarie to theſe bee good for thee at any time, thou ſhalt be ſure of the ſame. As for ſharpneſſe of wiſedome, thou maiſt haue dulneſſe of ſpirit, for a time to humble thee: For riches, thou ſhalt haue pouertie to inſtruct thee: For friends, Enemies to ſtirre thee to prayer: For ho<g ref="char:EOLhyphen"/>nour, diſgrace to purge thee: For ſafetie, thou maiſt ſeeme to bee in danger, to trie thy boldneſſe: For Peace thou ſhalt haue trouble, to exerciſe thy Patience: For at<g ref="char:EOLhyphen"/>tendants, thou ſhalt haue deſolation to worke contentation in all eſtates.</p>
+            <p>For victorie, thou ſhalt haue ſome foiles, to proue thy conſtancie:</p>
+            <p>For Ioy, thou ſhalt haue Sorrow, to en<g ref="char:EOLhyphen"/>creaſe thy thankefulneſſe, when Ioy ſhall returne and to make thee temperate:</p>
+            <p>For long life, thou ſhalt haue a ſpeedie death, to free thee from miſerie, and to bring thee to Glorie. Neyther is this all;<note place="margin">
+                  <hi>Heb.</hi> 11.13.</note> but we may looke further yet; <hi>Beleeuers can ſee a far off:</hi> They ſee things to come, as if they were preſent, not ſo much looking at temporall, as eternall things.<note place="margin">2. <hi>Cor.</hi> 4.18.</note>
+            </p>
+            <p>And this is that which doth put life in<g ref="char:EOLhyphen"/>to the ſoules of beleeuers, when they conſider of their eſtate at the reſurrection
+<pb n="36" facs="tcp:2802:21"/> of the iuſt. Would it not comfort a man that were in a doubtfull combate in the Iudgement of others, if he were himſelfe ſure of victorie; or one that were in Pri<g ref="char:EOLhyphen"/>ſon, though ſtreightly kept, if hee were ſure of freedome after a few dayes?</p>
+            <p>And verily ſuch is our condition; though we are ſcorned, perſecuted, ſlan<g ref="char:EOLhyphen"/>dered, impriſoned, buffeted, ſlaine, here: yet it is a righteous thing with God to re<g ref="char:EOLhyphen"/>compence <hi>tribulation to them that trouble his,</hi>
+               <note place="margin">2. <hi>The.</hi> 1.6.7</note> 
+               <hi>and to thoſe that are troubled, reſt.</hi>
+            </p>
+            <p>That is, God hath promiſed, and hee will performe his promiſe of certaine de<g ref="char:EOLhyphen"/>liuerance, to them that are his. Wherfore ſuch may challenge this iſſue, as of right to them appertaining. <hi>It is our heritage, Chriſt hath purchaſed this for vs, as well as the reſt, and we ſhall aſſuredly receiue it.</hi>
+            </p>
+            <p>So that wee may lay claime <hi>to our right of comming gloriouſly at the laſt day, with the Iudge of the whole Earth, when he ſhall come in his owne glorie,</hi>
+               <note place="margin">
+                  <hi>Mat.</hi> 25.31</note> 
+               <hi>in his Fathers Glo<g ref="char:EOLhyphen"/>rie, and the glorie of his holy Angels.</hi> It is the right (euen then) of beleeuers, <hi>to bee caught vp,</hi>
+               <note place="margin">1. <hi>Theſ.</hi> 4.17 <hi>Mat.</hi> 13.43. 2 <hi>Th.</hi> 1.8 9.</note> 
+               <hi>and to meet Chriſt in the Aire, and to come gloriouſly, euen as ſo many bright Sunnes, to bee admired with him.</hi> And this
+<pb n="37" facs="tcp:2802:21"/> is not all: for then ſhall we be as ſo manie Iudges, to iudge men and Angels,<note place="margin">2. <hi>Cor.</hi> 6.2.</note> when it ſhall bee ſaid vnto them, <hi>Goe yee curſed, into the fire eternall,</hi>
+               <note place="margin">
+                  <hi>Mat.</hi> 25 41.</note> 
+               <hi>prepared for the Deuill and his Angels.</hi> For ſo it is written, <hi>The Saints ſhall iudge the World.</hi> And a<g ref="char:EOLhyphen"/>gaine in the ſame Chapter, <hi>The Saints ſhall iudge Angels.</hi>
+               <note place="margin">1. <hi>Cor.</hi> 6.3.</note> And in an other place, <hi>Behold, the Lord commeth with ten thouſands of his Saints,</hi>
+               <note place="margin">
+                  <hi>Iude</hi> 14.15</note> 
+               <hi>to execute iudge<g ref="char:EOLhyphen"/>ment vpon all, and to conuince all that are vngodly among them, of all their vngodly deeds, which they haue vngodlily committed, and of all the hard ſpeeches which vngodly ſinners haue ſpoken againſt him.</hi>
+            </p>
+            <p>And yet this is not all: for after that, we ſhall be euer with the Lord, <hi>We ſhall be as the Angels in heauen,</hi>
+               <note place="margin">
+                  <hi>Mat</hi> 22.30 <hi>Reue.</hi> 2.10. <hi>Matt.</hi> 5.12. 2. <hi>Cor.</hi> 4.17. <hi>Pſal.</hi> 16.11.</note> 
+               <hi>we ſhall receiue that crowne of life, that great reward, that ex<g ref="char:EOLhyphen"/>ceeding ſurpaſſing and eternall weight of Glorie, that fulneſſe of Ioy, thoſe pleaſures at Gods right hand for euermore.</hi> This may we alſo challenge at Gods hands, by ver<g ref="char:EOLhyphen"/>tue of his promiſe in this Scripture which is the Text, and of Chriſts interceſſion in another, where it is thus written, <hi>Father, I will that they alſo whom thou haſt giuen me,</hi>
+               <note place="margin">
+                  <hi>Io.</hi> 17.24.</note>
+               <pb n="38" facs="tcp:2802:22"/> 
+               <hi>bee with mee where I am, that they may be<g ref="char:EOLhyphen"/>hold my glorie which thou haſt giuen me.</hi>
+            </p>
+            <p>A man would thinke it were a good thing to bee a beleeuer, if all this bee true: and ſurely eyther this is true, or the Scriptures are falſe, which were blaſphe<g ref="char:EOLhyphen"/>mie to ſay.<note place="margin">
+                  <hi>Rom.</hi> 3.4.</note> 
+               <hi>Let God then be true, and euery man a lier.</hi>
+            </p>
+            <p>And let the conſideration of this ſtirre vp euery one to ſeek diligently for the fa<g ref="char:EOLhyphen"/>uour of GOD.<note place="margin">
+                  <hi>Luk.</hi> 10.42.</note> Get this one neceſſary thing: Get Chriſt, and get all: In this life, Wiſedome, Riches, Friendes, Honour, Safetie, Peace, Attendants, Victorie, Ioy, Long-life.</p>
+            <p>At the day of Iudgement, wee ſhall come gloriouſly and triumphantly, with the Iudge of the whole earth: <hi>Angels and Men ſhall tremble at our Glorie, and ad<g ref="char:EOLhyphen"/>mire our excellencie.</hi> They that haue iudged vs, ſhall be iudged by vs. After the day of iudgement, wee ſhall poſſeſſe that King<g ref="char:EOLhyphen"/>dome peaceably, into the which wee haue here entred violently, and for which we haue fought valiantly. <hi>We ſhall ſee God face to face:</hi> We ſhall haue know<g ref="char:EOLhyphen"/>ledge without ignorance: Loue without
+<pb n="39" facs="tcp:2802:22"/> Hatred: Ioy without Sorrow: Light without Darkneſſe: Beautie without De<g ref="char:EOLhyphen"/>formitie: Strength without weakneſſe: Plentie without Want: Health without Sickneſſe: Honour without Diſgrace: Peace without Trouble: Courage with<g ref="char:EOLhyphen"/>out Feare: Safetie without Danger: Life without death: Al good without any euil. This is the heritage of the ſeruants of the Lord,<note place="margin">
+                  <hi>Iſay</hi> 54.17.</note> and their righteouſ<g ref="char:EOLhyphen"/>neſſe is of me, ſaith the Lord.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="to_the_reader">
+            <p>If thou wilt now follow me, to find the truth: it muſt be in the laſt, and moſt excellent tranſlation of the Bible: commonly called the new tranſlation.</p>
+            <q>
+               <bibl>
+                  <hi>PSAL. 115.1.</hi>
+               </bibl>
+               <p>Not vnto vs, but vnto the name of the Lord giue glo<g ref="char:EOLhyphen"/>rie.</p>
+            </q>
+         </div>
+         <div type="errata">
+            <head>Errata.</head>
+            <p>Faults eſcaped, <hi>pag.</hi> 2. <hi>l<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>e</hi> 13. ſhould haue <hi>beene</hi> ſaid, <hi>pag.</hi> 3. <hi>line</hi> 3. read <hi>Chriſts</hi> death.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

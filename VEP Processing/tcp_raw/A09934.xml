@@ -1,0 +1,676 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Deuoute prayers in Englysshe of thactes of our redemption</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1535</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 48 KB of XML-encoded text transcribed from 22 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A09934</idno>
+            <idno type="STC">STC 20193.5</idno>
+            <idno type="STC">ESTC S2285</idno>
+            <idno type="EEBO-CITATION">23237874</idno>
+            <idno type="OCLC">ocm 23237874</idno>
+            <idno type="VID">26425</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A09934)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 26425)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1802:13)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Deuoute prayers in Englysshe of thactes of our redemption</title>
+               </titleStmt>
+               <extent>[39] p.   </extent>
+               <publicationStmt>
+                  <publisher>Imprynted by me Roberte Redman,</publisher>
+                  <pubPlace>[S.l.] :</pubPlace>
+                  <date>[1535?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Publisher statement from colophon; imprint date suggested by STC (2nd ed).</note>
+                  <note>Signatures: A-B⁸ C⁴.</note>
+                  <note>"Cum priuilegio"--Colophon.</note>
+                  <note>Illustrated t.p.</note>
+                  <note>Reproduction of original in the John Rylands University Library of Manchester.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Prayers.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-08</date>
+            <label>Susie Lorand</label>Sampled and proofread</change>
+         <change>
+            <date>2012-08</date>
+            <label>Susie Lorand</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:26425:1"/>
+            <pb facs="tcp:26425:1"/>
+            <p>¶ Deuoute prayers in englyſſhe of thactes of our redemption.</p>
+            <p>
+               <figure>
+                  <figDesc>Christ with halo, crown of thorns, and stigmata standing beside the cross, with instruments of the passion, empty tomb, a cock, etc.</figDesc>
+               </figure>
+            </p>
+            <pb facs="tcp:26425:2"/>
+            <pb facs="tcp:26425:3"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+            <pb facs="tcp:26425:3"/>
+            <gap reason="duplicate" extent="1 page">
+               <desc>〈1 page duplicate〉</desc>
+            </gap>
+         </div>
+         <div type="illustration">
+            <pb facs="tcp:26425:4"/>
+            <p>
+               <figure>
+                  <figDesc>Christ on the cross surrounded by St. John, Mary, and another woman (with haloes?) (left) and a group of Roman soldiers (right)</figDesc>
+               </figure>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:26425:4"/>
+            <head>¶ Here begynneth fyue de<g ref="char:EOLunhyphen"/>uoute prayers / mouynge man vnto the meditacyon of Chryſtes paſſyon.</head>
+            <div type="prayer">
+               <p>
+                  <seg rend="decorInit">O</seg> Lorde Ieſu Chriſt the ſonne of the liuyng god / for thyne vnſpe<g ref="char:EOLhyphen"/>kable pytye / and the mooſte excellent lyfe of thy moſte holy mother Mary / and for the merytes of ſaynte Francyſe and of al thy ſayntes: graunt (we beſeche the) vnto vs mooſt wret<g ref="char:EOLhyphen"/>ched ſynners vnworthy any of thy be<g ref="char:EOLhyphen"/>nefytes / that we myght loue the alone / &amp; euer be burnyng or ferue<g ref="char:cmbAbbrStroke">̄</g>t in thy loue / and y<hi rend="sup">t</hi> we myght continually magnify the werke of rede<g ref="char:cmbAbbrStroke">̄</g>ption / that we myght euer deſyre thy honor / &amp; dayly bere &amp; re<g ref="char:EOLunhyphen"/>me<g ref="char:cmbAbbrStroke">̄</g>bre in our hert y<hi rend="sup">e</hi> benefyt of thy paſ<g ref="char:EOLunhyphen"/>ſyon. That we myght know &amp; conſidre our miſery / and co<g ref="char:cmbAbbrStroke">̄</g>tinually deſyre to be deſpiced &amp; rebuked for thy loue. So that nothyng ſhulde comfort vs or abyde in our hert / but thy deth and paſſyon / and nothing diſpleaſe or trouble vs but our owne ſynne and wretchednes. Amen.</p>
+            </div>
+            <div type="prayer">
+               <pb facs="tcp:26425:5"/>
+               <head>¶ Here foloweth a prayer.</head>
+               <p>
+                  <hi>O</hi> Lorde Ieſu Chriſt whiche fre<g ref="char:EOLunhyphen"/>ly &amp; with thyn owne wyl came vnto thy paſſion: come alſo to me a wretch / by thy grace into my hert or ſoule. And thou that then dyd repare me by thy deth on the croſſe / repare me agayne that am fallen to ſynne / repare me I ſay by the merytes of that ſame moſt bleſſed paſſyon. Grau<g ref="char:cmbAbbrStroke">̄</g>t to me lord that in al thyngꝭ I myght kepe mylde<g ref="char:EOLhyphen"/>nes &amp; mekenes / and ſubdue my fleſſhe and my ſpiryt holly vnto the. And that I may be made as a beeſt vnto the / that thou ſyttynge vpon me and rulyng me as thy beeſt: may lede me now vnto the taſte of inwarde peace and deſyre of he<g ref="char:EOLhyphen"/>uenly peace And at laſt may bryng me into the viſion and ſyght of the ſame eternall peace. Amen.</p>
+            </div>
+            <div type="prayer">
+               <head>¶ A prayer.</head>
+               <p>
+                  <hi>O</hi> Lorde thou made a generall ſigne or token of thy terryble iudgeme<g ref="char:cmbAbbrStroke">̄</g>t whan thou caſt out of the temple al by<g ref="char:EOLunhyphen"/>ers &amp; ſellers with a whyp made of .iii. cordes / ſhewyng in thy face or cyne the flame of thy diuinite: I pray &amp; beſeche the lorde to grau<g ref="char:cmbAbbrStroke">̄</g>t me to reme<g ref="char:cmbAbbrStroke">̄</g>bre and ſo to co<g ref="char:cmbAbbrStroke">̄</g>ſidre thy terryble <g ref="char:abpre">p̄</g>ſence. That I
+<pb facs="tcp:26425:5"/> myght feare the with an holy feare / for thy iugeme<g ref="char:cmbAbbrStroke">̄</g>tes be great &amp; nat to be ſear<g ref="char:EOLunhyphen"/>ched / whiche whan I co<g ref="char:cmbAbbrStroke">̄</g>ſidre al my bo<g ref="char:EOLhyphen"/>nes quake for feare. For there is no ma<g ref="char:cmbAbbrStroke">̄</g> liuyng vpon the erth that is ſure of thy glory / but al thynges be reſerued as vn<g ref="char:EOLunhyphen"/>certen vnto the tyme herafter to come. That we ſhulde euer ſerue the deuoutly and ver uouſly in feare: and alſo ioy in the with drede. Amen.</p>
+            </div>
+            <div type="prayer">
+               <head>¶ A prayer.</head>
+               <p>
+                  <hi>O</hi> Lorde Ieſu Chriſt / whiche in the cuyntyde made thy laſte ſupper with thy diſcyples in a great and large chambre / ſtrawed &amp; made redy for the / and there fed the<g ref="char:cmbAbbrStroke">̄</g> with thy moſt ſacrate body &amp; blode: make my hert a great and large cha<g ref="char:cmbAbbrStroke">̄</g>bre prepared for the / enlarge in it true fayth / hope &amp; charyte. Mag<g ref="char:EOLhyphen"/>nify or make it great with lo<g ref="char:cmbAbbrStroke">̄</g>gammite / pacyence and mekenes. And ſtrawe it with all maner of vertues. Graunt me lord that my hert contrite and thus pre<g ref="char:EOLunhyphen"/>pared: may take &amp; receyue the after my pore maner / whom heuen and erth are nat able to take &amp; conteyne: and by thy grace inhabytant in me I may thynke and perfourme in dede all thynges plea<g ref="char:EOLunhyphen"/>ſynge to the / and declyne or auoyde all
+<pb facs="tcp:26425:6"/> vice and ſynne by perfite hate of them. And ſo co<g ref="char:cmbAbbrStroke">̄</g>tinuyng vnto the end / I may worthely receiue thy precious body and blode in the ſacrame<g ref="char:cmbAbbrStroke">̄</g>t of y<hi rend="sup">e</hi> aulter. Ame<g ref="char:cmbAbbrStroke">̄</g>.</p>
+            </div>
+            <div type="prayer">
+               <head>¶ A prayer.</head>
+               <p>
+                  <hi>O</hi> Mylde Ieſu and the examplar of very mekenes / which waſſhed the fete of thy diſciples. I aſke and alſo be<g ref="char:EOLhyphen"/>ſeche the lorde / purge &amp; clenſe thou my affections / that I ſo purifyed in bothe fete / and kyndeled with a double chary<g ref="char:EOLhyphen"/>te / that is with the loue of god &amp; of my neighbour: I myght ſuerly come to the my purifyer &amp; cle<g ref="char:cmbAbbrStroke">̄</g>ſer: kepe me good lord vnto the ende of my dayes / and clenſe me from all ſpottes of ſynnes / that all my negligences and ſynnes forgyuen: myne enemyes confou<g ref="char:cmbAbbrStroke">̄</g>ded and rebuked might go fro me at the hour of my deth Whiche ſpecially wyll lye in a wayte of me at that hour. Directe and ordre my fete lorde in to the waye of peace / that I delyuered from the handes &amp; power of all myne enemyes: myght bleſſe and prayſe the with all thy electe ſeruantes worlde without ende. Amen.</p>
+            </div>
+            <trailer>¶ Here endeth the .v. prayers / concer<g ref="char:EOLhyphen"/>nyng .v. particles of Chriſtes paſſyon.</trailer>
+         </div>
+         <div type="part">
+            <pb facs="tcp:26425:6"/>
+            <head>¶ Here begynneth .lxv. prayers of our lordes paſſion with a .ix. other prayers of the Reſur<g ref="char:EOLhyphen"/>rection / Aſcencyon. &amp;c<g ref="char:cmbAbbrStroke">̄</g>.</head>
+            <div n="1" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The fyrſt prayer of the feare and heuynes of Chriſte.<note place="margin">Math. xxvi. D.</note>
+               </head>
+               <p>
+                  <seg rend="decorInit">O</seg> Lorde Ieſu Chriſt ſonne of the liuyng god which at midnyght thy paſſion drawyng nygh wold take vpon the fere and heuynes for me moſt wretched ſyn<g ref="char:EOLunhyphen"/>ner: graunt me continually &amp; faithfully to referre all my tribulations / heuynes &amp; paynes vnto the: the god of my hert / that thou wold vouchſafe to bere them with me in y<hi rend="sup">e</hi> vnion of thy paſſyon and heuynes. That ſo by the merites of thy moſt holy paſſion / they myght be made to me frutefull and profytable. Amen.</p>
+            </div>
+            <div n="2" type="prayer">
+               <head>☞ The ſecond prayer of the blody ſweat of Chriſte.<note place="margin">Luce. xxii. E.</note>
+               </head>
+               <p>
+                  <hi>O</hi> Lorde Ieſu Chriſt ſonne of the ly<g ref="char:EOLunhyphen"/>uynge god / whiche in thy longe prayer wolde be comforted of thangell / 
+<pb facs="tcp:26425:7"/> and in thy agonie ſwette merueylouſly droppes of blode: graunt to me by the vertue of thy prayer / that thy holy aun<g ref="char:EOLunhyphen"/>gell myght euer aſſyſt me in my prayer and comfort me / that I reſtyng in the ſwete remembraunce of thy moſt bitter paſſion: might deuoutly ſweat the drop<g ref="char:EOLunhyphen"/>pes of teares for thy blode in thy ſyght and knowlege. Amen.</p>
+            </div>
+            <div n="3" type="prayer">
+               <head>
+                  <note place="margin">Math. xxvi. B.</note>
+                  <g ref="char:leaf">❧</g> The thyrde prayer of the vendi<g ref="char:EOLhyphen"/>cion or ſellyng of our lorde.</head>
+               <p>
+                  <hi>O</hi> Ieſu which wold be ſet at nought and ſold of one of thy diſciples for a vyle pryce. Grau<g ref="char:cmbAbbrStroke">̄</g>t to me that I neuer chau<g ref="char:cmbAbbrStroke">̄</g>ge the my god and creatour for a<g ref="char:EOLhyphen"/>ny tranſytory thynge. And alſo that I may pacyently beare all rebukes and deſpiſynges for the glorye of thy holy name. Amen.</p>
+            </div>
+            <div n="4" type="prayer">
+               <head>
+                  <note place="margin">Math. xxvi. E.</note>☞ The .iiii. prayer of the betrayeng of our lorde.</head>
+               <p>
+                  <hi>O</hi> Ieſu that ſuffred thy ſelf to be be<g ref="char:EOLhyphen"/>trayed by a kyſſe of Iudas: grau<g ref="char:cmbAbbrStroke">̄</g>t to me that I neuer betray the in my ſelf nor in my neighbour. And alſo y<hi rend="sup">t</hi> I ne<g ref="char:EOLhyphen"/>uer denye to myne aduerſaries thoffyce of loue / that is charite to loue the<g ref="char:cmbAbbrStroke">̄</g> / and to correcte them with charytie. Amen.</p>
+            </div>
+            <div n="5" type="prayer">
+               <pb facs="tcp:26425:7"/>
+               <head>
+                  <g ref="char:leaf">❧</g> The .v.<note place="margin">Math. xxvi. E.</note> prayer of the takynge of Chriſte.</head>
+               <p>
+                  <hi>O</hi> Ieſu Chriſt the ſonne of y<hi rend="sup">e</hi> liuing god / whiche wold be wylfully ta<g ref="char:EOLhyphen"/>ken and holden of the Iewes: graunt to me that I may continually ſubdue all my ſenſys and vnderſtandyng vnto thy ſeruyce / that by thy infinite good<g ref="char:EOLhyphen"/>neſſe I may be delyuered from eternall deth and captiuitie. Amen.</p>
+            </div>
+            <div n="6" type="prayer">
+               <head>☞ The .vi.<note place="margin">Iohan. xviii. C.</note> prayer of the byndyng of our lorde.</head>
+               <p>
+                  <hi>O</hi> Ieſu which wolde be bounde with the handes of wycked men: I be<g ref="char:EOLunhyphen"/>ſech the looſe the bondes of my ſynnes / and ſo bynd me to the with the bondes of thy preceptes / that neuer the mem<g ref="char:EOLhyphen"/>bres of my body / nor the powers of my ſoule be looſed and at lyberty to do any thynge contrary to thy wyl. Amen.</p>
+            </div>
+            <div n="7" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The .vii.<note place="margin">Math. xxvi. F.</note> prayer of the fleyng or de<g ref="char:EOLhyphen"/>partyng away of the diſciples of Chriſte.</head>
+               <p>
+                  <hi>O</hi> Ieſu y<hi rend="sup">t</hi> dyd ſuffre al thy elect and choſen diſciples to fle from the / re<g ref="char:EOLunhyphen"/>ceiue thou me thy fugityue ſeruant for thy great vertue &amp; omnipote<g ref="char:cmbAbbrStroke">̄</g>t power: &amp; ſuffre me nat to wa<g ref="char:cmbAbbrStroke">̄</g>dre fro<g ref="char:cmbAbbrStroke">̄</g> the / through the lyberty of my froward wyll. Amen.</p>
+            </div>
+            <div n="8" type="prayer">
+               <pb facs="tcp:26425:8"/>
+               <head>
+                  <note place="margin">Marci. xiiii. E.</note>☞ The .viii. prayer of the lea<g ref="char:EOLhyphen"/>dynge of Chriſte.</head>
+               <p>
+                  <hi>O</hi> Ieſu which bounde as a thefe and an euyll doer / wolde be led by the armed handes of wicked me<g ref="char:cmbAbbrStroke">̄</g> from place to place with rebuke and great ſhame: graunt to me that grace / that I neuer be led vnto any ſynne / thoughe the per<g ref="char:EOLhyphen"/>ſuacyon of the deuyll or counſell of any wicked perſon / but that I may be ledde by thy holy ſpirite vnto all thyngꝭ that ſhalbe / pleaſaunt vnto the. Amen.</p>
+            </div>
+            <div n="9" type="prayer">
+               <head>
+                  <note place="margin">Iohan. xviii. C.</note>
+                  <g ref="char:leaf">❧</g> The .ix. prayer / how Chriſt was preſented vnto Annas.</head>
+               <p>
+                  <hi>O</hi> Ieſu which wolde be firſt led and <g ref="char:abpre">p̄</g>ſented vnto the byſſhop Annas: graunt to me that I neuer feare to be ledde or preſented for thy name &amp; fayth / before any tyrraunt or ſecular iudge of this worlde. And alſo that thy grace and ryght reaſon haue euer the domy<g ref="char:EOLhyphen"/>nyon in me / that I may lerne to pre<g ref="char:EOLhyphen"/>ſent all myne actes / wylles and deſyres vnto the examinacyon of ryght reaſon before that I do them in dede: thy grace at all tymes beynge aſſiſtant vnto me, Amen.</p>
+            </div>
+            <div n="10" type="prayer">
+               <head>
+                  <note place="margin">Math. xxvi. G.</note>☞ The .x. prayer of the denyenge of Petre.</head>
+               <pb facs="tcp:26425:8"/>
+               <p>
+                  <hi>O</hi> Ieſu whiche ſuffred thy ſelf to be denyed thryce of the prince of thy Apoſtles / whome alſo thou mercyfully beholdynge / made hym to weape byt<g ref="char:EOLhyphen"/>terly for his ſynne. I beſeche the be<g ref="char:EOLhyphen"/>holde me with the eye of thy mercye / that I may worthely wepe in thy ſight for my ſynnes / and that I neuer denye the my lorde god / nother in wordes nor in dedes. Amen.</p>
+            </div>
+            <div n="11" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The .xi.<note place="margin">Math. xxvi. G. Iohan. xviii. D.</note> prayer / how our lorde was ſmytten vpon the cheke.</head>
+               <p>
+                  <hi>O</hi> Ieſu which wolde be ſmytten for me moſt vnworthy / of y<hi rend="sup">e</hi> vyle mi<g ref="char:EOLhyphen"/>niſtre and ſeruant of Annas: graunt to me I beſech the thy grace / that I may ſtoppe my mouth from al euyll &amp; vayne ſpeche / and that I neuer ceaſe from thy laude and prayſynges. Amen.</p>
+            </div>
+            <div n="12" type="prayer">
+               <head>☞ The .xii. prayer / how Ieſus was preſented to Cayphas.<note place="margin">Math. xxvi. F. Iohan. xviii. E.</note>
+               </head>
+               <p>
+                  <hi>O</hi> Ieſu which for me moſt vnkynde wretch / wold be ſent from Annas vnto Cayphas: &amp; alſo wolde be examy<g ref="char:EOLhyphen"/>ned before hym: grau<g ref="char:cmbAbbrStroke">̄</g>t to me I beſeche the for the loue of thy name / y<hi rend="sup">t</hi> I feare nat the iudgement of euyll ꝑſons. And alſo that I may appere in thy ſyghte with a good &amp; pure conſcyence. Amen.</p>
+            </div>
+            <div n="13" type="prayer">
+               <pb facs="tcp:26425:9"/>
+               <head>
+                  <note place="margin">Math. xxvi. F.</note>
+                  <g ref="char:leaf">❧</g> The .xiii. prayer of the bryngynge forth of falſe teſtimony againſt Chriſt.</head>
+               <p>
+                  <hi>O</hi> Ieſu whiche wolde for me be bla<g ref="char:EOLhyphen"/>med of y<hi rend="sup">e</hi> Iewes / &amp; by theyr falſe teſtimony accuſed: grau<g ref="char:cmbAbbrStroke">̄</g>t to me y<hi rend="sup">t</hi> I ne<g ref="char:EOLunhyphen"/>uer blame or rebuke man for the / nor falſly y<hi rend="sup">t</hi> I accuſe any perſon. And alſo that I paciently ſuffre al falſe accuſacy<g ref="char:EOLunhyphen"/>ons for thy honour and glory. Amen.</p>
+            </div>
+            <div n="14" type="prayer">
+               <head>
+                  <note place="margin">Math. xxvi. G.</note>
+                  <g ref="char:leaf">❧</g> The .xiiii. prayer of the blaſphemy imputed to Chriſte.</head>
+               <p>
+                  <hi>O</hi> Ieſu whiche dyd ſuffre the abho<g ref="char:EOLhyphen"/>minable ſynne of blaſphemy to be put vpon the: kepe me that thy name be neuer blaſphemed by me in worde nor in dede. And that neuer any blaſphemy or any other euyll worde be ſpoken or vttered with my mouthe. Amen.</p>
+            </div>
+            <div n="15" type="prayer">
+               <head>
+                  <note place="margin">Marci. xiiii. G.</note>
+                  <g ref="char:leaf">❧</g> The .xv. prayer of the condemp<g ref="char:EOLhyphen"/>nacyon of Chriſte.</head>
+               <p>
+                  <hi>O</hi> Ieſu which feared nat the wicked voyce of the mooſt cruell Iewes whan they ſayd of the / Reus eſt mortꝭ he is worthy deth / &amp; pacie<g ref="char:cmbAbbrStroke">̄</g>tly dyd ſuffre / the ſame for me moſt wretche: kepe and preſerue me / that I neuer be fou<g ref="char:cmbAbbrStroke">̄</g>de wor<g ref="char:EOLunhyphen"/>thy eternall deth in thy ſyght. Amen.</p>
+            </div>
+            <div n="16" type="prayer">
+               <head>
+                  <note place="margin">Math. xxvi. G.</note>
+                  <g ref="char:leaf">❧</g> The .xvi. prayer of the buffetynge or ſmytyng in the necke of Chriſt.</head>
+               <pb facs="tcp:26425:9"/>
+               <p>
+                  <hi>O</hi> Ieſu whiche wolde be ſmytten by the cruell Iewes in the necke for my loue: graunt to me that I may ſo co<g ref="char:cmbAbbrStroke">̄</g>feſſe the my lord god with my mouth that I neuer do co<g ref="char:cmbAbbrStroke">̄</g>trary thy preceptes in my dedes. Amen.</p>
+            </div>
+            <div n="17" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The .xvii.<note place="margin">Math. xxvi. G.</note> prayer of the ſpittyng in Chriſtes face.</head>
+               <p>
+                  <hi>O</hi> Ieſu which wolde ſuffre thy moſt fayre &amp; amiable face to be defyled for my loue with the felthy ſpittynges of the Iewes: grau<g ref="char:cmbAbbrStroke">̄</g>t to me y<hi rend="sup">t</hi> I neuer de<g ref="char:EOLunhyphen"/>file y<hi rend="sup">e</hi> face of thy ymage in my ſoule / by my ſi<g ref="char:cmbAbbrStroke">̄</g>ful actꝭ or filthy cogitatio<g ref="char:cmbAbbrStroke">̄</g>s. Ame<g ref="char:cmbAbbrStroke">̄</g>.</p>
+            </div>
+            <div n="18" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The .xviii.<note place="margin">Math. xxvi. G.</note> prayer of the ſmytynge of Chriſte in the face.</head>
+               <p>
+                  <hi>O</hi> Ieſu whiche wolde ſuffre for my loue / thy mooſt louely face to be ſmyten with y<hi rend="sup">e</hi> handes of the moſt wic<g ref="char:EOLunhyphen"/>ked Iewes: grau<g ref="char:cmbAbbrStroke">̄</g>t to me that I may e<g ref="char:EOLhyphen"/>uer kepe y<hi rend="sup">e</hi> face of thy ymage pure and vndefyled in my ſoule / that it neuer be ſpotted or hurt by y<hi rend="sup">e</hi> ſinful ha<g ref="char:cmbAbbrStroke">̄</g>des &amp; wor<g ref="char:EOLunhyphen"/>kes of my iniquities or ſynnes. Amen.</p>
+            </div>
+            <div n="19" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The .xix.<note place="margin">Marci. xiiii. G.</note> prayer of the coueryng or blyndfyldynge of Chriſtes face.</head>
+               <p>
+                  <hi>O</hi> Ieſu which dyd ſuffre for my loue thy moſt gracious face (the which Au<g ref="char:cmbAbbrStroke">̄</g>gelles deſire to behold) to be couered
+<pb facs="tcp:26425:10"/> of the wycked Iewes to thy greate re<g ref="char:EOLhyphen"/>buke: I beſech the make thy face ſhynt vpo<g ref="char:cmbAbbrStroke">̄</g> me thy moſt wretched ſerua<g ref="char:cmbAbbrStroke">̄</g>t / that thy godly ymage i<g ref="char:cmbAbbrStroke">̄</g> me be neuer derked or couered. And that mercyfully thou wold take away the cloke of ſynne / and the derkenes of ignorau<g ref="char:cmbAbbrStroke">̄</g>ce fro<g ref="char:cmbAbbrStroke">̄</g> my hert / with y<hi rend="sup">e</hi> light of thy heue<g ref="char:cmbAbbrStroke">̄</g>ly grace. Ame<g ref="char:cmbAbbrStroke">̄</g>.</p>
+            </div>
+            <div n="20" type="prayer">
+               <head>
+                  <note place="margin">Math. <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>. <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.</note>☞ The .xx. prayer of the mockynge of Chriſt wha<g ref="char:cmbAbbrStroke">̄</g> they bad hym prophecy.</head>
+               <p>
+                  <hi>O</hi> Ieſu which with ſcorneful mockꝭ of the Iewes was ſmytten vpon the heed / &amp; bydden to a rede or prophecy who ſmote the. I beſech the good Ieſu prophecie &amp; ſhewe to me / that I myght knowe what a wretche and ſynner I am / which ſo oft (alas for ſorowe) haue ſmytten the with the hande of myne e<g ref="char:EOLhyphen"/>uyll and ſynfull dedes. Amen.</p>
+            </div>
+            <div n="21" type="prayer">
+               <head>
+                  <note place="margin">Math. xxvii. A.</note>
+                  <g ref="char:leaf">❧</g> The .xxi. prayer / how Chriſte was preſented before Pylate.</head>
+               <p>
+                  <hi>O</hi> Lorde Ieſu Chriſt ſonne of the ly<g ref="char:EOLunhyphen"/>uyng god / which in the firſt hour of the day for our helth / wolde be <g ref="char:abpre">p̄</g>ſen<g ref="char:EOLhyphen"/>ted by the Iewes vnto Pilate a pagan iudge: graunt to me for the loue of thy name / y<hi rend="sup">t</hi> I diſpice no maner of power. but y<hi rend="sup">t</hi> I may gyue due &amp; worthy honor to my ſuperiours &amp; to al iudges. Amen.</p>
+            </div>
+            <div n="22" type="prayer">
+               <pb facs="tcp:26425:10"/>
+               <head>☞ The .xxii.<note place="margin">Math. xxvii. B</note> prayer howe the Iewes falſly accuſed Chriſt before Pylate.</head>
+               <p>
+                  <hi>O</hi> Ieſu which wolde for me be falſly accuſed in many falſe thyngꝭ be<g ref="char:EOLhyphen"/>fore the iudge pilate: teche me to auoide the diſceytes of wicked men / &amp; truely to ꝓfeſſe thy faith with good workꝭ Ame<g ref="char:cmbAbbrStroke">̄</g>.</p>
+            </div>
+            <div n="23" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The .xxiii.<note place="margin">Lace. xxiii. B.</note> prayer howe Chriſt was ſent to Herode.</head>
+               <p>
+                  <hi>O</hi> Ieſu whiche for my loue dyd nat feare to be ſent from Pylate vnto Herode grau<g ref="char:cmbAbbrStroke">̄</g>t to me I beſeche the that I with a glad mynde for thy loue may obey to the co<g ref="char:cmbAbbrStroke">̄</g>maundementes of my ſu<g ref="char:EOLhyphen"/>periours / though they be wycked. And to do my obedye<g ref="char:cmbAbbrStroke">̄</g>ce promptly and redy<g ref="char:EOLhyphen"/>ly without any grudgynge. Amen.</p>
+            </div>
+            <div n="24" type="prayer">
+               <head>☞ The .xxiiii.<note place="margin">Luce. xxiii. B.</note> prayer how Herode derided and mocked Chriſte.</head>
+               <p>
+                  <hi>O</hi> Ieſu whiche for me wolde ſuffre Herode ſcornefully to demaunde many queſtio<g ref="char:cmbAbbrStroke">̄</g>s of the / to y<hi rend="sup">e</hi> which thou wolde nat anſwere one worde: grau<g ref="char:cmbAbbrStroke">̄</g>t to me for thy loue / that I may pacyently here &amp; bere ſcornful queſtio<g ref="char:cmbAbbrStroke">̄</g>s &amp; mocking wordes. And y<hi rend="sup">t</hi> I may decline &amp; auoyde my vayne prayſe by my ſcilence. Amen.</p>
+            </div>
+            <div n="25" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The .xxv.<note place="margin">Luce. xxiii. B.</note> prayer howe Chriſt was accuſed before Herode.</head>
+               <pb facs="tcp:26425:11"/>
+               <p>
+                  <hi>O</hi> Ieſu which preſented before He<g ref="char:EOLhyphen"/>rode wolde for my loue ſuffre the falſe accuſatio<g ref="char:cmbAbbrStroke">̄</g>s of the iewes / and thou wold nat excuſe thy ſelf nor denye i<g ref="char:cmbAbbrStroke">̄</g> any worde their muſt ſayengꝭ: grau<g ref="char:cmbAbbrStroke">̄</g>t to me that I be nat ouercome by the iniuries of wicked men / nor y<hi rend="sup">t</hi> I ſhewe thy holy miſteries to the vnworthy ꝑſons. Ame<g ref="char:cmbAbbrStroke">̄</g>.</p>
+            </div>
+            <div n="26" type="prayer">
+               <head>
+                  <note place="margin">Luce. xxiii. B.</note>☞ The .xxvi. prayer / howe Chriſte was deſpyſed of Herode.</head>
+               <p>
+                  <hi>O</hi> Ieſu whiche was co<g ref="char:cmbAbbrStroke">̄</g>tent to be de<g ref="char:EOLhyphen"/>ſpyſed for me / of Herode and his co<g ref="char:cmbAbbrStroke">̄</g>pany or ſeruantes: graunt me to de<g ref="char:EOLhyphen"/>ſpiſe al worldly pompe for the. And nat to regarde the diſpyſynges of wycked men for thy loue and for iuſtice. Amen.</p>
+            </div>
+            <div n="27" type="prayer">
+               <head>
+                  <note place="margin">Ibidem</note>
+                  <g ref="char:leaf">❧</g> The .xxvii. praer / how Chriſt was clothed with a whyte garment to his diſpyſynge.</head>
+               <p>
+                  <hi>O</hi> Ieſu whiche wolde be for me clo<g ref="char:EOLhyphen"/>thed in a whyte garment &amp; moc<g ref="char:EOLhyphen"/>ked as a fole of Herode &amp; his ſeruantꝭ: graunt me warely to declyne or auoyde the wyſdome of this worlde whiche in thy ſyght is but a folyſſhnes. And with a pure hert to come to the / whiche arte the very trewe wyſdome. Amen.</p>
+            </div>
+            <div n="28" type="prayer">
+               <head>
+                  <note place="margin">Vbi ſu<g ref="char:EOLhyphen"/>pra.</note>☞ The .xxviii. prayer / howe Chriſte was ſent agayne to Pylate.</head>
+               <pb facs="tcp:26425:11"/>
+               <p>
+                  <hi>O</hi> Ieſu whiche for me wolde be ſent againe from Herode vnto Pilate and therby wolde make them frendes: graunt me that I feare nat the frende<g ref="char:EOLhyphen"/>ſhyp of wycked men againſt me / but ra<g ref="char:EOLhyphen"/>ther that I may ſo profyt by theyr exer<g ref="char:EOLunhyphen"/>cyſe / that I may deſerue to be confor<g ref="char:EOLhyphen"/>med and made lyke vnto the. Amen.</p>
+            </div>
+            <div n="29" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The .xxix.<note place="margin">Math. xxvii. C</note> prayer / how Chriſt was forſaken of the Iewes. And Bar<g ref="char:EOLhyphen"/>rabas by them was delyuered.</head>
+               <p>
+                  <hi>O</hi> Ieſu Chriſte the ſonne of the ly<g ref="char:EOLhyphen"/>uyng god / which for mannes ſal<g ref="char:EOLhyphen"/>uacy on diſdayned nat in the .iii. houre of the day to be reproued and forſaken of the Iewes that dyd aſke y<hi rend="sup">e</hi> ſedicious thefe Barabas to be deliuered fro<g ref="char:cmbAbbrStroke">̄</g> deth vnto his liberty: &amp; wold haue y<hi rend="sup">e</hi> the auc<g ref="char:EOLunhyphen"/>tor &amp; gyuer of lyfe to be crucified: grau<g ref="char:cmbAbbrStroke">̄</g>t to me that I may euer choſe the my cre<g ref="char:EOLunhyphen"/>atour &amp; maker before all other / &amp; neuer to reꝓue or forſake y<hi rend="sup">e</hi> for any creature.</p>
+            </div>
+            <div n="30" type="prayer">
+               <head>☞ The .xxx.<note place="margin">Math. xxvii. D</note> prayer / of the pullynge of the garmentes of Chriſte.</head>
+               <p>
+                  <hi>O</hi> Ieſu which for me wold haue thy clothes pulled vyolentely of thy backe &amp; wolde be ſtripte naked to be ſcur<g ref="char:EOLunhyphen"/>ged: grau<g ref="char:cmbAbbrStroke">̄</g>t to me y<hi rend="sup">t</hi> I may caſt of from me myn olde ſynful cote or lyfe with all
+<pb facs="tcp:26425:12"/> his operations / by true / pure &amp; playne co<g ref="char:cmbAbbrStroke">̄</g>feſſion of al my ſynnes. And y<hi rend="sup">t</hi> I ne<g ref="char:EOLhyphen"/>uer appere i<g ref="char:cmbAbbrStroke">̄</g> thy ſight naked fro<g ref="char:cmbAbbrStroke">̄</g> vertue.</p>
+            </div>
+            <div n="31" type="prayer">
+               <head>
+                  <note place="margin">Iohan. xix. A.</note>
+                  <g ref="char:leaf">❧</g> The .xxxi. prayer how Chriſt was ſcourged.</head>
+               <p>
+                  <hi>O</hi> Ieſu whiche wolde be bounde for me to a pyller &amp; greuouſly ſcour<g ref="char:EOLhyphen"/>ged: grau<g ref="char:cmbAbbrStroke">̄</g>t to me that I may paciently and gladly bere the ſcourges of thy fa<g ref="char:EOLhyphen"/>therly correction / and neuer to ſcourge the agayne with my ſynnes. Amen.</p>
+            </div>
+            <div n="32" type="prayer">
+               <head>
+                  <note place="margin">Marci. xv. B.</note>☞ The .xxxii. prayer / how they put an olde purpull cote vpon Chriſt.</head>
+               <p>
+                  <hi>O</hi> Ieſu which for me wold be cladde in an olde purpul rob to thy diſpy<g ref="char:EOLunhyphen"/>ſing: grau<g ref="char:cmbAbbrStroke">̄</g>t me co<g ref="char:cmbAbbrStroke">̄</g>tinually to haue i<g ref="char:cmbAbbrStroke">̄</g> my mynde / or to be clad with y<hi rend="sup">e</hi> reme<g ref="char:cmbAbbrStroke">̄</g>brance of thy paſſion / &amp; to hyde &amp; couer my ſyn<g ref="char:EOLunhyphen"/>nes with the purpul of charyte. Amen.</p>
+            </div>
+            <div n="33" type="prayer">
+               <head>
+                  <note place="margin">Math. <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>7. D.</note>
+                  <g ref="char:leaf">❧</g> The .xxxiii. prayer / how Chriſte was crowned with thornes.</head>
+               <p>
+                  <hi>O</hi> Ieſu which for me wolde be crow<g ref="char:EOLunhyphen"/>ned w<hi rend="sup">t</hi> thornes: make me ſo wor<g ref="char:EOLhyphen"/>thely to be co<g ref="char:cmbAbbrStroke">̄</g>punct by the thornes of pe<g ref="char:EOLunhyphen"/>nau<g ref="char:cmbAbbrStroke">̄</g>ce / y<hi rend="sup">t</hi> I may deſerue to be crowned of the in the heuenly kyngdome. Ame<g ref="char:cmbAbbrStroke">̄</g>.</p>
+            </div>
+            <div n="34" type="prayer">
+               <head>
+                  <note place="margin">Math. 27. D.</note>☞ The .xxxiiii. prayer / how the Sau<g ref="char:EOLhyphen"/>giours put a rede in Chriſtes ryght hande.</head>
+               <pb facs="tcp:26425:12"/>
+               <p>
+                  <hi>O</hi> Ieſu whiche wolde haue a rede to be put in thy right hand ſcornful<g ref="char:EOLhyphen"/>ly for a royall ceptre: I beſeche the ſo to ſtrength my imbecilitie &amp; frayltie with the ryght hande of thy power / that thy kyngdome may be continually confyr<g ref="char:EOLhyphen"/>med and ſtablyſſhed in me. Amen.</p>
+            </div>
+            <div n="35" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The .xxxv.<note place="margin">Iohan. xix. A.</note> prayer / how the Saugi<g ref="char:EOLhyphen"/>ours ſcornefully ſaluted Chriſte.</head>
+               <p>
+                  <hi>O</hi> Ieſu which for me wold be ſcorn<g ref="char:EOLhyphen"/>fully worſhypped &amp; ſaluted of the Saugiours knelynge &amp; ſayeng. Hayle kynge of the Iewes: graunt to me that I may worſhyp the my very lorde and god in ſpirite &amp; truthe. And reuere<g ref="char:cmbAbbrStroke">̄</g>tly to ſalute the / y<hi rend="sup">e</hi> onely kyng of all kynges.</p>
+            </div>
+            <div n="36" type="prayer">
+               <head>☞ The .xxxvi.<note place="margin">Iohan. xix. A.</note> prayer / how the Sau<g ref="char:EOLhyphen"/>giours ſmote Chriſt with their ha<g ref="char:cmbAbbrStroke">̄</g>des.</head>
+               <p>
+                  <hi>O</hi> Ieſu which wolde be ſmiten of the Saugiours for me: make me euer to laude &amp; prayſe the both in worde and dede. And alſo that the dedes of other men thoughe they be euyll / may euer tourne to my good &amp; profyte. Amen.</p>
+            </div>
+            <div n="37" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The .xxxvii.<note place="margin">Math. 27. D.</note> prayer / how the Sau<g ref="char:EOLhyphen"/>giours dyd ſpyt in the face of Chriſt.</head>
+               <p>
+                  <hi>O</hi> Ieſu whiche for me dyd ſuffre the vyle ſaugiours to ſpyt in thy moſt beauteous face: grau<g ref="char:cmbAbbrStroke">̄</g>t to me y<hi rend="sup">t</hi> I neuer
+<pb facs="tcp:26425:13"/> pollute or defile thy face in the ſacrame<g ref="char:cmbAbbrStroke">̄</g>t of the alter by my vnworthy receiuyng therof. And that I neuer defyle my con<g ref="char:EOLunhyphen"/>ſcyence with vnclene thoughtꝭ. Amen.</p>
+            </div>
+            <div n="38" type="prayer">
+               <head>
+                  <note place="margin">Math. 27. D.</note>☞ The .xxxviii. prayer / how the Sau<g ref="char:EOLhyphen"/>giours ſmote Chriſt vpon the heed with a rede.</head>
+               <p>
+                  <hi>O</hi> Ieſu whiche wolde haue thy no<g ref="char:EOLhyphen"/>ble and precyous heede ſmytten with a rede for me: graunt to me that I neuer offende the our heede with my vayne and ydle lyfe. But that I maye euer pleaſe the with my good and quy<g ref="char:EOLhyphen"/>ete maners and lyuynge. Amen.</p>
+            </div>
+            <div n="39" type="prayer">
+               <head>
+                  <note place="margin">Iohan. xix. A.</note>
+                  <g ref="char:leaf">❧</g> The .xxxix. prayer / how Pylate dyd ſhewe Chriſte ſcourged vnto the Iewes.</head>
+               <p>
+                  <hi>O</hi> Ieſu whiche for me wolde be ſhe<g ref="char:EOLhyphen"/>wed and preſe<g ref="char:cmbAbbrStroke">̄</g>ted vnto the Iewes in ſo ſcornefull and diſpytefull araye: graunt me to auoyde all oſtentation of vayne glorye / and appere before the at thy iudgement in ſuche araye as ſhall ſtande with thy fauour. Amen.</p>
+            </div>
+            <div n="40" type="prayer">
+               <head>
+                  <note place="margin">Iohan. xix. A.</note>☞ The .xl. prayer / how the Iewes dyd crye. Crucyfye hym / crucifye hym.</head>
+               <pb facs="tcp:26425:13"/>
+               <p>
+                  <hi>O</hi> Ieſu which for me was nat afra<g ref="char:EOLhyphen"/>yde to here the terrible &amp; fearefull voyces of the Iewes cryeng. Crucifige crucifige / that is crucifye hym / crucifye hym: grau<g ref="char:cmbAbbrStroke">̄</g>t to me that I be nat afrayde of the curſed and malicious wordes of myne enemyes. And that I neuer hurt my neighbour with my ſpeche. Amen.</p>
+            </div>
+            <div n="41" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The .xli.<note place="margin">Iohan. xix. C.</note> prayer / how Chriſt was brought vnto his iudgement.</head>
+               <p>
+                  <hi>O</hi> Lorde Ieſu Chriſte the ſonne of the lyuyng god / whiche in the .vi. hour of the day wolde for me moſt wret<g ref="char:EOLunhyphen"/>ched ſynner be <g ref="char:abpre">p̄</g>ſented before the iudge ſyttyng in iudgement: graunt to me ſo to iudge my ſelfe in my ſelfe of all my ſynnes / by the teſtimonie or witneſſe of myne owne conſcyence. And alſo ſo pa<g ref="char:EOLhyphen"/>ciently to ſuffre thy iudgeme<g ref="char:cmbAbbrStroke">̄</g>t in all ad<g ref="char:EOLhyphen"/>uerſities: that I may in ſuertie appere in thy laſt &amp; terrible iudgement. Amen.</p>
+            </div>
+            <div n="42" type="prayer">
+               <head>☞ The .xlii.<note place="margin">Marci. xv. B.</note> prayer / how Chriſt was condempned.</head>
+               <p>
+                  <hi>O</hi> Ieſu which for me wolde pacie<g ref="char:cmbAbbrStroke">̄</g>tly and innoce<g ref="char:cmbAbbrStroke">̄</g>tly ſuffre the vniuſt ſen<g ref="char:EOLunhyphen"/>tence of deth / &amp; that of the moſt ſhame<g ref="char:EOLhyphen"/>full deth of the croſſe: grau<g ref="char:cmbAbbrStroke">̄</g>t to me that I neuer deſerue the iuſt ſentence of deth in ſoule or in body. And y<hi rend="sup">t</hi> for thy loue
+<pb facs="tcp:26425:14"/> I feare nat the wycked iudgementes of men. And alſo that I neuer iudge any perſon wrongefully. Amen.</p>
+            </div>
+            <div n="43" type="prayer">
+               <head>
+                  <note place="margin">Iohan. xix. D.</note>☞ The .xliii. prayer / how Chriſte bare his croſſe.</head>
+               <p>
+                  <hi>O</hi> Ieſu which for me a wretch wold beare thy heuy croſſe vpon thyne owne ſhoulders / make me wylfully and gladly to take the croſſe of penau<g ref="char:cmbAbbrStroke">̄</g>ce and ſtrayter lyfe. And to beare it dayly after the and for thy loue. Amen.</p>
+            </div>
+            <div n="44" type="prayer">
+               <head>
+                  <note place="margin">Ibide<g ref="char:cmbAbbrStroke">̄</g>. &amp; Math. 27. D.</note>
+                  <g ref="char:leaf">❧</g> The .xliiii. prayer how Chriſt was ledde vnto Golgoltha / that is the mounte of Caluary.</head>
+               <p>
+                  <hi>O</hi> Ieſu whiche for me wolde be led vnto Golgotha to be there cruci<g ref="char:EOLunhyphen"/>fyed: leade me in the pathe of thy com<g ref="char:EOLhyphen"/>maundeme<g ref="char:cmbAbbrStroke">̄</g>tes / that I may folowe the ſteppes of thy paſſion with y<hi rend="sup">e</hi> holy wo<g ref="char:EOLunhyphen"/>men / and wepe vpon my ſelfe the miſe<g ref="char:EOLhyphen"/>rie of my frayle condicyon. Amen.</p>
+            </div>
+            <div n="45" type="prayer">
+               <head>
+                  <note place="margin">Ancel<g ref="char:EOLhyphen"/>mus in dialogo paſſo<g ref="char:cmbAbbrStroke">̄</g>is.</note>☞ The .xlv. prayer / howe Chriſt was ſpoyled of his clothes before the croſſe.</head>
+               <p>
+                  <hi>O</hi> Ieſu which for me wolde be ſpoy<g ref="char:EOLhyphen"/>led of thy clothes &amp; ſyt naked be / fore the croſſe: make me to be ſpoiled or naked fro<g ref="char:cmbAbbrStroke">̄</g> al worldly thinges y<hi rend="sup">t</hi> be hyn<g ref="char:EOLhyphen"/>derau<g ref="char:cmbAbbrStroke">̄</g>ce to my ſaluation / that I naked
+<pb facs="tcp:26425:14"/> myght folowe thy naked croſſe. Amen.</p>
+            </div>
+            <div n="46" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The .xlvi.<note place="margin">Ancel<g ref="char:EOLhyphen"/>mus vbi ſupra.</note> prayer / how Chriſt was layde or ſpred vpon the croſſe.</head>
+               <p>
+                  <hi>O</hi> Ieſu which for me wolde be exten<g ref="char:EOLunhyphen"/>ded vpon the croſſe / &amp; that ſo cruel<g ref="char:EOLunhyphen"/>ly y<hi rend="sup">t</hi> all thy bones myght be nombred: make me to extend al my membres and powers bothe of ſoule and bodye vnto thy laude and prayſynge. Amen.</p>
+            </div>
+            <div n="47" type="prayer">
+               <head>☞ The .xlvii.<note place="margin">Iohan. xix. D.</note> prayer / how Chriſt was crucifyed.</head>
+               <p>
+                  <hi>O</hi> Ieſu whiche for me wolde be nay<g ref="char:EOLunhyphen"/>led with moſt harde nayles vnto the croſſe / and therby wolde faſten the obligacion and wrytyng of our ſynnes and deth vnto thy croſſe. Nayle faſt I beſeche the my fleſſhe with thy feare / that I ſurely cleuynge faſt to thy com<g ref="char:EOLhyphen"/>maundeme<g ref="char:cmbAbbrStroke">̄</g>tes / may euermore be faſty<g ref="char:EOLhyphen"/>ned to the &amp; to thy holy croſſe. Amen.</p>
+            </div>
+            <div n="48" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The .xlviii. prayer / howe Chriſtes handes &amp; fete were nayled / and ſpeci<g ref="char:EOLhyphen"/>ally of the firſt or lefte hande.<note place="margin">Pſal. 21</note>
+               </head>
+               <p>
+                  <hi>O</hi> Ieſu which for me moſt wretched wolde haue thy left hande digged or bored with a nayle &amp; faſtened to the croſſe: graunt me that I may euer put and hyde all myne aduerſities &amp; temp<g ref="char:EOLhyphen"/>tations in the moſt ſwete wou<g ref="char:cmbAbbrStroke">̄</g>de of that
+<pb facs="tcp:26425:15"/> lefte hande / and that I may fynde in it a ſure and holſome remedy agaynſt all maner of tribulations. Amen.</p>
+            </div>
+            <div n="49" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The .xlix. prayer of borynge or nay<g ref="char:EOLunhyphen"/>lynge of the ſeconde or ryght hande of Chriſte.</head>
+               <p>
+                  <hi>O</hi> Ieſu which for me a wretch wold haue thy right hand ꝑſed through with a nayle / &amp; ſo faſtened to the croſſe: graunt to me that I may hyde in thy moſt ſwete wounde of thy ryght hande with thankes: al my good workes that it ſhall pleaſe thy goodnes to worke in me. And that all my negligences and imꝑfections may therby be performed and ſupplyed. Amen.</p>
+            </div>
+            <div n="50" type="prayer">
+               <head>☞ The .l. prayer / of the naylynge of the fyrſt foot or lyfte foote of Chriſte.</head>
+               <p>
+                  <hi>O</hi> Ieſu whiche for me wolde haue thy mooſt holy fete perced with a great croſſe and harde nayle / and ſo to be faſtined vnto the croſſe: grau<g ref="char:cmbAbbrStroke">̄</g>t to me that whan ſo euer I am impugned or troubled with euyll cogitations / ſini<g ref="char:EOLhyphen"/>ſtrall affections and deſyres: I maye come to the wounde of thy lyfte foote / and there to fynde &amp; receyue holſom me<g ref="char:EOLunhyphen"/>dicynes for my ſaluacyon. Amen.</p>
+            </div>
+            <div n="51" type="prayer">
+               <pb facs="tcp:26425:15"/>
+               <head>
+                  <g ref="char:leaf">❧</g> The .li. prayer of the naylyng of the ſeconde or ryght fote of Chriſte.</head>
+               <p>
+                  <hi>O</hi> Ieſu which dyd make a fou<g ref="char:cmbAbbrStroke">̄</g>tayne of thy grace / ſprynge to vs from the holſome &amp; moſt ſwete wounde of thy ryght foote: graunt to me that I may faſten and ioyne all my good deſyres to that ſame thy wounde with a louely kyſſe. And to make them conformable and agreyng to thy holy deſyres. Ame<g ref="char:cmbAbbrStroke">̄</g>.</p>
+            </div>
+            <div n="52" type="prayer">
+               <head>☞ The .lii.<note place="margin">Ancel<g ref="char:EOLhyphen"/>mus in dialogo paſſo<g ref="char:cmbAbbrStroke">̄</g>is.</note> prayer / how the croſſe with Chriſt vpon it was rayſed vp.</head>
+               <p>
+                  <hi>O</hi> Ieſu whiche for me wolde be lyf<g ref="char:EOLhyphen"/>ted vpon the croſſe / and ſo wolde be exalted from the erth: make me I be<g ref="char:EOLunhyphen"/>ſeche the to be eleuate from all erthely affections. And to be conuerſaunte in mynde in heuenly thynges. Amen.</p>
+            </div>
+            <div n="53" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The .liii. prayer / how .ii.<note place="margin">Iohan. xix. D.</note> theues were crucifyed with Chriſt.</head>
+               <p>
+                  <hi>O</hi> Ieſu which for me a wretch wold be crucified betwixt .ii. theues and wolde be reputed as one of them: grau<g ref="char:cmbAbbrStroke">̄</g>t that my ſpirit may be crucified betwixt the fleſſhe &amp; the worlde / that I may reſt
+<pb facs="tcp:26425:16"/> quietely in the in the mydle the extre<g ref="char:EOLhyphen"/>mes that is the fleſſhe and the worlde crucifyed to me. Amen.</p>
+            </div>
+            <div n="54" type="prayer">
+               <head>
+                  <note place="margin">Math. 27. D.</note>☞ The .liiii. prayer / how the Saugi<g ref="char:EOLhyphen"/>ours deuyded Chriſtes garmentes.</head>
+               <p>
+                  <hi>O</hi> Ieſu which for me wold haue thy garmentes deuyded amongꝭ thy crucifyers / and wolde haue them caſte lottes for thy vnſewed cote y<hi rend="sup">t</hi> was wo<g ref="char:EOLhyphen"/>uen or knyt and without ſeames: grau<g ref="char:cmbAbbrStroke">̄</g>t to me to take part with thy ſaintes and to folowe theyr exa<g ref="char:cmbAbbrStroke">̄</g>ples in the kepynge of thy commaundementes. And that I may euer kepe thy charitie in me. Ame<g ref="char:cmbAbbrStroke">̄</g>.</p>
+            </div>
+            <div n="55" type="prayer">
+               <head>
+                  <note place="margin">Iohan. xix. D.</note>
+                  <g ref="char:leaf">❧</g> The .lv. prayer of the wrytynge of the title aboue Chriſtes heed.</head>
+               <p>
+                  <hi>O</hi> Ieſu whiche for me wolde be dyf<g ref="char:EOLhyphen"/>famed ſcornefully with the ſub<g ref="char:EOLhyphen"/>ſcription of thy victorious title: graunt to me y<hi rend="sup">t</hi> I may ſtrongly lyue &amp; feyght vnder that banner and victorious title / Ieſus Nazarenus rex iudeorum. That my goſtly enemyes afrayd by the ſight or hearynge therof / ſhulde nat darre to come nyghe vnto me. Amen.</p>
+            </div>
+            <div n="56" type="prayer">
+               <head>
+                  <note place="margin">Math. 27. E.</note>☞ The .lvi. prayer of the illuſyon and mockynge of Chriſte crucifyed.</head>
+               <pb facs="tcp:26425:16"/>
+               <p>
+                  <hi>O</hi> Ieſu which for me crucified wold be mocked and diſpyſed with ma<g ref="char:EOLhyphen"/>ny rebukefull wordes / and yet wolde ſo charitably pray for thy crucifiers make me that I neuer deſcende from my re<g ref="char:EOLhyphen"/>ligion or any good worke for no ſugge<g ref="char:EOLhyphen"/>ſtion of the deuyl or diſpiſyngꝭ of man. But that I may co<g ref="char:cmbAbbrStroke">̄</g>tinually perceuer in thy loue / and that I may for thy loue forgyue al them that do or ſay any euyl to me or agaynſt me. And that I maye euermore pray hertely for them. Amen.</p>
+            </div>
+            <div n="57" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The .lvii.<note place="margin">Luce. xxiii. F.</note> prayer / howe the thefe of the lefte hande rebuked Chriſt.</head>
+               <p>
+                  <hi>O</hi> Ieſu which for me wolde be ſcorn<g ref="char:EOLunhyphen"/>fully rebuked of one thefe / and of the other wolde be honorably confeſſed to be god: make me for thy glory of thy name to ſuffre paciently the rebukes of euyl perſons whan nede requireth / and neuer to ſuffre thy iniuries. And alſo to poſſeſſe the ioyes of paradyſe with this holy thefe. Amen.</p>
+            </div>
+            <div n="58" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The .lviii.<note place="margin">Iohan. xix. E.</note> prayer of the co<g ref="char:cmbAbbrStroke">̄</g>paſſion that Chriſt had vpon his mothers ſorowe and heuyneſſe.</head>
+               <p>
+                  <hi>O</hi> Ieſu which for me wolde be cruci<g ref="char:EOLunhyphen"/>fied &amp; hauing co<g ref="char:cmbAbbrStroke">̄</g>paſſion of thy mo<g ref="char:EOLunhyphen"/>thers ſorowe &amp; co<g ref="char:cmbAbbrStroke">̄</g>paſſio<g ref="char:cmbAbbrStroke">̄</g> / wolde dilige<g ref="char:cmbAbbrStroke">̄</g>tly
+<pb facs="tcp:26425:17"/> commende here to thy dere beloued diſ<g ref="char:EOLunhyphen"/>cyple Iohn<g ref="char:cmbAbbrStroke">̄</g> / and alſo commended hym to her: I co<g ref="char:cmbAbbrStroke">̄</g>mende me vnto the / and alſo all myne in that faythe and loue that thou co<g ref="char:cmbAbbrStroke">̄</g>mendeſt them together / meke<g ref="char:EOLhyphen"/>ly beſechynge the / that for the tender<g ref="char:EOLhyphen"/>neſſe of ſo great loue thou wolde make me to come truely and perfytely to thy loue / and throughe theyr prayer and co<g ref="char:cmbAbbrStroke">̄</g>mendacyon I may be preſerued and kepte from all aduerſitie and peryll in the perylles &amp; daungers of this worlde and lyfe. Amen.</p>
+            </div>
+            <div n="59" type="prayer">
+               <head>
+                  <note place="margin">Math. 27. F.</note>
+                  <g ref="char:leaf">❧</g> The .lix. prayer / how the manhode of Chriſt complayned hym ſelf to be forſaken of god.</head>
+               <p>
+                  <hi>O</hi> Lord Ieſu Chriſt the ſonne of the liuyng god / which at the .ix. hour of the day for me mooſt wretched han<g ref="char:EOLhyphen"/>gynge vpon the croſſe cryed to thy fa<g ref="char:EOLhyphen"/>ther with a great voyce ſayeng: Hely / hely lama hazaſtani / that is. My god my god / why haſte thou forſaken me: grau<g ref="char:cmbAbbrStroke">̄</g>t to me y<hi rend="sup">t</hi> in all my trouble &amp; an<g ref="char:EOLhyphen"/>guyſſhe I may crye to the my lord god with the great voyce of my hert. That ſo thou neuer ſuffre me to be reproued as lefte &amp; forſaken of thy mercy. Amen.</p>
+            </div>
+            <div n="60" type="prayer">
+               <pb facs="tcp:26425:17"/>
+               <head>☞ The .lx.<note place="margin">Math. 27. F.</note> prayer how they gaue hym to drynke vyneagre or aſell.</head>
+               <p>
+                  <hi>O</hi> Ieſu whiche thirſtyng our helth wold haue vineagre &amp; wine mixte with myrre &amp; gall offred &amp; gyuen to the to drynke: make me worthely to offre to the the wyne of deuotion mixt with the mirre of mortificacion of my ſe<g ref="char:cmbAbbrStroke">̄</g>ſualitie / and with the gall of contricyon for my ſynnes / and that I neuer drynke of the vineagre of infidelitye or of ſclaundre / though I taſt of any ſclaundre / that is / ſuffre wrongfully any ſclau<g ref="char:cmbAbbrStroke">̄</g>dre. Amen.</p>
+            </div>
+            <div n="61" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The .lxi.<note place="margin">Iohan. xix. F.</note> praier of the conſu<g ref="char:cmbAbbrStroke">̄</g>macion and ende of the paſſion of Chriſt.</head>
+               <p>
+                  <hi>O</hi> Ieſu whiche offeryng the co<g ref="char:cmbAbbrStroke">̄</g>ſum<g ref="char:EOLhyphen"/>macion of thy hoole paſſion as it were i<g ref="char:cmbAbbrStroke">̄</g> a ſu<g ref="char:cmbAbbrStroke">̄</g>me to god thy father for me / dyd ſay. Conſu<g ref="char:cmbAbbrStroke">̄</g>matum eſt / it is ended / grau<g ref="char:cmbAbbrStroke">̄</g>t to me y<hi rend="sup">t</hi> I may duely finiſſh and ende al the good workes &amp; paynes / that it ſhall pleaſe thy grace to worke in me and by me: &amp; ſo ended / to offre the<g ref="char:cmbAbbrStroke">̄</g> with due thankꝭ vnto god the father by the.</p>
+            </div>
+            <div n="62" type="prayer">
+               <head>☞ The .lxii.<note place="margin">Luce. xxiii. F.</note> prayer of the yeldynge vp of his ſoule or of the deth of Chriſt.</head>
+               <p>
+                  <hi>O</hi> Bleſſed Ieſu which for me dyeng vpon the croſſe dyd co<g ref="char:cmbAbbrStroke">̄</g>mende thy ſoule to thy father: grau<g ref="char:cmbAbbrStroke">̄</g>t to me that I
+<pb facs="tcp:26425:18"/> may ſpiritually ſo dye to the &amp; with the in this lyfe / that it wolde pleaſe the at the houre of my deth to haue my wret<g ref="char:EOLhyphen"/>ched ſoule reco<g ref="char:cmbAbbrStroke">̄</g>mended to the / which ly<g ref="char:EOLunhyphen"/>ues &amp; reignes with god the father &amp; the holy goſt worlde without ende. Amen.</p>
+            </div>
+            <div n="63" type="prayer">
+               <head>
+                  <note place="margin">Iohan. xix. F.</note>
+                  <g ref="char:leaf">❧</g> The .lxiii. prayer / of the openyng of Chriſtes ſyde and herte with a ſpeare.</head>
+               <p>
+                  <hi>O</hi> Ieſu which for me wold haue the ſyde of thy deed body opened / fro<g ref="char:cmbAbbrStroke">̄</g> whens came plenty of blode &amp; water for our helth &amp; comfort: wounde I beſeche the my hert with the ſpeare of thy cha<g ref="char:EOLhyphen"/>ryte / that I may worthely receyue thy ſacrame<g ref="char:cmbAbbrStroke">̄</g>tes / whiche flowed out of that thy mooſt holy ſyde. Amen.</p>
+            </div>
+            <div n="64" type="prayer">
+               <head>
+                  <note place="margin">Math. 27. G.</note>☞ The .lxiiii. prayer / how the body of Chriſt was taken downe of the croſſe.</head>
+               <p>
+                  <hi>O</hi> Ieſu which for me a wretched ſin<g ref="char:EOLunhyphen"/>ner after thy deth wolde haue thy body taken downe from y<hi rend="sup">e</hi> croſſe by Io<g ref="char:EOLunhyphen"/>ſephe &amp; Nychodemus / and ſo anoynted and dreſſed with ſwete oynteme<g ref="char:cmbAbbrStroke">̄</g>tes and ſpices / wolde be wrapped in fayre lynen clothes: graunt me worthely to receyue thy bleſſed liuyng body in the ſacrame<g ref="char:cmbAbbrStroke">̄</g>t of the aulter / as if I ſhulde take hym of the croſſe / &amp; ſo to anoynt hym with the
+<pb facs="tcp:26425:18"/> oyntementes of vertues / that I maye continually kepe hym in a pure herte and chaſte body. Amen.</p>
+            </div>
+            <div n="65" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The .lxv.<note place="margin">Math. xxvii. G</note> prayer of the buryeng of Chriſtes body.</head>
+               <p>
+                  <hi>O</hi> Ieſu whiche for me at the houre of complen wolde be buryed in a Sepulcre lamented and kepte: graunt to me that thou my lorde god maye be buryed in the ſepulcre of my herte and there lamented and kept / that I bury<g ref="char:EOLhyphen"/>ed with the / may deſerue to come to the glory of thy reſurrection. AMEN.</p>
+            </div>
+            <trailer>☞ Here endeth .lxv. prayers / and here after foloweth .ix. prayers of the Reſurrection / Aſcencyon. &amp;c.</trailer>
+         </div>
+         <div type="part">
+            <div n="1" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The firſt prayer / howe Chriſte diſ<g ref="char:EOLhyphen"/>cended vnto helle.</head>
+               <p>
+                  <seg rend="decorInit">O</seg> Good Ieſu thy vn<g ref="char:EOLhyphen"/>ſpekeable petie and cha<g ref="char:EOLunhyphen"/>ryte was nat yet ſaciat &amp; co<g ref="char:cmbAbbrStroke">̄</g>tent with the deth / but that thou wolde vy<g ref="char:EOLunhyphen"/>ſite the clauſures of hell / &amp; redeme thy people there beyng in captiuite. Ther<g ref="char:EOLhyphen"/>fore thy moſt bleſſed and glorious ſoule
+<pb facs="tcp:26425:19"/> knyt to thy godhede / deſcendynge vnto the helles / delyueryng thy electe people from y<hi rend="sup">t</hi> derkenes &amp; ſhadowe of deth. I beſeche the O mercyfull Ieſu that thy grace &amp; mercy myght deſcende vpon the ſoules of our parentes / bretherne / ſy<g ref="char:EOLhyphen"/>ſterne &amp; all our kynſefolkes. Alſo vpon the ſoules of our familier acquaintau<g ref="char:cmbAbbrStroke">̄</g>ce benefactours / and all other that we be bounde to praye for / and of all chriſten ſoules: That thou wolde delyuer them fro<g ref="char:cmbAbbrStroke">̄</g> the paynes that they haue deſerued for theyr ſynnes. And that thou wolde brynge them to eternall glorie. Amen.</p>
+            </div>
+            <div n="2" type="prayer">
+               <head>☞ The .ii. prayer / of the Reſur<g ref="char:EOLhyphen"/>rection of our lorde.</head>
+               <p>
+                  <hi>O</hi> Lord Ieſu Chriſt our eterne &amp; on<g ref="char:EOLunhyphen"/>ly ſwetenes / whiche brekyng the bondes of deth / hath glorified thy body and hath ryſon fro<g ref="char:cmbAbbrStroke">̄</g> deth in glory vnſpe<g ref="char:EOLhyphen"/>kable: I praye the &amp; I beſeche for thy glorious and floreſſhyng Reſurrectio<g ref="char:cmbAbbrStroke">̄</g> / to grau<g ref="char:cmbAbbrStroke">̄</g>t to me that I ryſyng from vy<g ref="char:EOLhyphen"/>ces &amp; the deth of ſoule may euer floryſſh in vertues / &amp; ſo to walke in the newnes of good lyfe / that I may ſauer &amp; folowe thoſe thyngꝭ that be aboue &amp; heuenly / and nat tho thyngꝭ that be erthly and tra<g ref="char:cmbAbbrStroke">̄</g>ſitorie. Alſo good lorde by the vertue
+<pb facs="tcp:26425:19"/> of thy clerenes / purge my ſoule from the darknes of ſynne. That by y<hi rend="sup">e</hi> ſame vertue at the day of generall Reſurrec<g ref="char:EOLhyphen"/>tion my bodye may aryſe vnto glorye / that I may ioye bothe in ſoule &amp; body / eternally with the in thy glory. Amen.</p>
+            </div>
+            <div n="3" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The .iii. prayer how Chriſte appe<g ref="char:EOLhyphen"/>red to his mother Mary.</head>
+               <p>
+                  <hi>O</hi> Mary y<hi rend="sup">e</hi> mother of god moſt gra<g ref="char:EOLunhyphen"/>cious virgyn and comforter of all deſolate perſons callynge and cryenge vnto the: I beſech the for that great ioy wherby thou were co<g ref="char:cmbAbbrStroke">̄</g>forted whan thou kneweſt y<hi rend="sup">t</hi> thy ſonne Ieſus Chriſt was ryſen the thyrd day from deth vnto lyfe immortale and impaſſible. That thou wolde be a co<g ref="char:cmbAbbrStroke">̄</g>forter of my ſoule / y<hi rend="sup">t</hi> what tyme I ſhall aryſe both in body &amp; ſoule at the laſt day of iudgement / &amp; there ap<g ref="char:EOLunhyphen"/>pere before y<hi rend="sup">t</hi> ſame ſonne of thyn Ieſus Chriſt / &amp; there to rendre myne accompt of all my thoughtes / wordes &amp; dedes: it wold pleaſe thy motherly pite to help me that by the (O bleſſed mother &amp; vir<g ref="char:EOLhyphen"/>gyn) I myght eſcape the ſente<g ref="char:cmbAbbrStroke">̄</g>ce of eter<g ref="char:EOLunhyphen"/>nall da<g ref="char:cmbAbbrStroke">̄</g>pnation / and graciouſly to come to euerlaſtyng ioye and glorie with all the elect &amp; choſen people of god. Amen.</p>
+            </div>
+            <div n="4" type="prayer">
+               <pb facs="tcp:26425:20"/>
+               <head>☞ The .iiii. prayer / howe Ieſus appe<g ref="char:EOLhyphen"/>red to Mary Magdalayne.</head>
+               <p>
+                  <hi>O</hi> Moſt ſwete maſter / O moſt ſwete Ieſu / how good art thou to them that be clene in herte. How ſwete arte thou to them y<hi rend="sup">t</hi> loue the. O how happy are they that ſech the &amp; fynd the. How bleſſed are they that truſt in the. It is truth that thou loueſt all the<g ref="char:cmbAbbrStroke">̄</g> that loue the. Thou neuer forſake them y<hi rend="sup">t</hi> truſte in the. Lo lorde this Mary thy true lo<g ref="char:EOLhyphen"/>uer of a good ſymple mynde ſought the and truely ſhe founde the. She was nat forſaken of the. But ſhe had more of the than ſhe loked for. I beſeche the lorde graunt me to loue the / to ſeche the and to truſte in the / that I may deſerue to fynde the and to be loued of the / and neuer to be forſaken of the. amen.</p>
+            </div>
+            <div n="5" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The .v. prayer how Ieſus appe<g ref="char:EOLhyphen"/>red to his diſciples / Thomas beyng alſo preſent.</head>
+               <p>
+                  <hi>O</hi> Lorde Ieſu Chriſt which ſhewed vnto Thomas that douted of thy Reſurrection / the places of thy nayles &amp; the ſpere / &amp; hath reuoked hym from errour by the puttyng of his fynger in to the holes of thy ha<g ref="char:cmbAbbrStroke">̄</g>des / &amp; of his hande into thy ſyde: grau<g ref="char:cmbAbbrStroke">̄</g>t to me y<hi rend="sup">t</hi> I hauyng
+<pb facs="tcp:26425:20"/> euer the reme<g ref="char:cmbAbbrStroke">̄</g>braunce of thy woundes and paſſion / may expend and put in my finger &amp; hande / y<hi rend="sup">t</hi> is what ſo euer good worke or diſcrecio<g ref="char:cmbAbbrStroke">̄</g> be in me I may put it in &amp; expend it all hoole in thy ſeruyce to thy honoure. And that I may co<g ref="char:cmbAbbrStroke">̄</g>feſſe with Thomas that thou art my lorde whiche hath bought me with thy preci<g ref="char:EOLunhyphen"/>ous blode: and my god which hath cre<g ref="char:EOLhyphen"/>ate &amp; made me. And that whiche thou ſayd before of our fayth / that bleſſed be they whiche haue nat ſene and beleue: I may haue experie<g ref="char:cmbAbbrStroke">̄</g>ce therof in my ſelf / and that by thy grace I may be founde bleſſed in thy ſyght. Amen.</p>
+            </div>
+            <div n="6" type="prayer">
+               <head>☞ The .vi. prayer of the Aſcencyon of our lorde.</head>
+               <p>
+                  <hi>O</hi> Ieſu our crowne &amp; glory whiche ryſyng from deth dyd aſcend vnto the right hand of thy father / drawe my ſoule vnto the / that I myght feruently ſeche and deſyre the onely / grau<g ref="char:cmbAbbrStroke">̄</g>t to me I beſeche the that I may with all my deſire &amp; ſtudy come to that place: to the whiche as I ſtedfaſtly beleue thou haſt aſcended. And y<hi rend="sup">t</hi> I beyng here in body / may be with the in loue &amp; deſyre / that my hert may be there: where as thou arte my loue &amp; treaſore moſt to be loued
+<pb facs="tcp:26425:21"/> and deſired / drawe me after the / that by thy grace I aſcendyng from vertue to vertue may deſerue to ſe the my lorde god in the heuenly ſyon. Amen.</p>
+            </div>
+            <div n="7" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The .vii. prayer of the ſendynge of the holy gooſt.</head>
+               <p>
+                  <hi>O</hi> Ieſu the gyuer of al gyftes which ſent thy holy goſt vnto thy diſcy<g ref="char:EOLhyphen"/>ples in the lickenes of fyre. I pray and beſeche the O moſt mercyfull lord / that I (though moſt vnworthy) myght re<g ref="char:EOLhyphen"/>ceyue to my ꝑpetual helth by thy grace thoſe gyftes whiche thy diſciples recey<g ref="char:EOLunhyphen"/>ued of thy only bou<g ref="char:cmbAbbrStroke">̄</g>tious goodnes. And ſende vpon vs (good lorde thy ſeruantes the ſpiryte of thy charyte / loue &amp; peace / whiche myght viſite and comforte our hertes / purge them from vices / lighten them with vertues / bynd vs in the bon<g ref="char:EOLunhyphen"/>des of peace &amp; loue illumynate vs with the light of thy knowlege / and inflame vs with the fyre of thy charite / forgyue vs oure ſynnes and brynge vs to lyfe euerlaſtynge. Amen.</p>
+            </div>
+            <div n="8" type="prayer">
+               <head>☞ The .viii. prayer of the Aſſumption of our glorious Lady.</head>
+               <p>
+                  <hi>O</hi> Lord the gyuer of ioy the grau<g ref="char:cmbAbbrStroke">̄</g>ter of ſolace / the dilige<g ref="char:cmbAbbrStroke">̄</g>t releuer of the deſolate perſon / the chaſer awaye of all
+<pb facs="tcp:26425:21"/> heuynes &amp; ſorowe / whiche haſt gladded and make ioyfull the mooſt bleſſed vir<g ref="char:EOLhyphen"/>gyn Mary thy mother the glas of thy maieſtie / the ſolace of aungelles / the y<g ref="char:EOLhyphen"/>mage of thy goodnes / the begynner of our helth (thou haſt gladded her I ſay) with manifold ioyes both in heuen &amp; in erth: I beſeche the grau<g ref="char:cmbAbbrStroke">̄</g>t to me thy ſup<g ref="char:EOLunhyphen"/>plyant / that I whiche preſume to come truſtely &amp; faithfully to her / as to y<hi rend="sup">e</hi> well and fou<g ref="char:cmbAbbrStroke">̄</g>tayne of ioye in all my ſorowes and troubles: may by her merites and prayers fele &amp; receyue the effecte of her prayers &amp; co<g ref="char:cmbAbbrStroke">̄</g>forteth in this <g ref="char:abpre">p̄</g>ſent lyfe. And fynally to come to that ineffable ioye / to the whiche ſhe aſſumpte ioyeth with the eternally in heuyns. Amen.</p>
+            </div>
+            <div n="9" type="prayer">
+               <head>
+                  <g ref="char:leaf">❧</g> The .ix. prayer of the laſt iudgeme<g ref="char:cmbAbbrStroke">̄</g>t and of the commynge of the iudge to the ſame.</head>
+               <p>
+                  <hi>O</hi> Lorde Ieſu Chriſt iudge of both quicke &amp; deed vouche ſafe to ordre and ſet me in the laſt iudgement on thy right hand. And that I may than here thy mooſt ſwete voyce to my comforte / which thou ſhal tha<g ref="char:cmbAbbrStroke">̄</g> ſpeke to thy choſen people that is. Com ye bleſſed childern of my father / and take poſſeſſyon of the kyngdome of glory that was prepared
+<pb facs="tcp:26425:22"/> for you before the begynnynge of the worlde. And alſo kepe me that I fere nat the hearynge of that mooſte terry<g ref="char:EOLhyphen"/>ble ſentence / whiche than thou ſhalte ſpeake vnto the reproued ſynners / ſay<g ref="char:EOLhyphen"/>enge. Go ye curſed people in to euer<g ref="char:EOLhyphen"/>laſtynge fyre prepared for the deuylle and his company. O thou onely bego<g ref="char:EOLhyphen"/>ten ſonne of god haue mercy on vs / that we neuer feale that incurable and intollerable payne / that is to be ex<g ref="char:EOLhyphen"/>cluded from the glorye and ſight of god. And to burne perpetually in euer<g ref="char:EOLhyphen"/>laſting fyre. O my god my mercy &amp; ſocour / be mer<g ref="char:EOLunhyphen"/>cifull to vs. Amen.</p>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>¶ Imprynted by me Ro<g ref="char:EOLhyphen"/>berte Redman Cum priuilegio.</p>
+            <pb facs="tcp:26425:22"/>
+            <p>
+               <figure>
+                  <figDesc>Christ on the cross surrounded by St. John, Mary, and another woman (with haloes?) (left) and a group of Roman soldiers (right)</figDesc>
+               </figure>
+            </p>
+         </div>
+      </back>
+   </text>
+</TEI>

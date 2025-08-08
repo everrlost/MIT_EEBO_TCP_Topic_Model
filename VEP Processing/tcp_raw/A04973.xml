@@ -1,0 +1,923 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Babylon is fallen</title>
+            <author>T. L., fl. 1595.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1597</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 63 KB of XML-encoded text transcribed from 32 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A04973</idno>
+            <idno type="STC">STC 15111</idno>
+            <idno type="STC">ESTC S106742</idno>
+            <idno type="EEBO-CITATION">99842453</idno>
+            <idno type="PROQUEST">99842453</idno>
+            <idno type="VID">7106</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A04973)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 7106)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 473:07)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Babylon is fallen</title>
+                  <author>T. L., fl. 1595.</author>
+               </titleStmt>
+               <extent>[4], [29], [1] leaves   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Edward Allde,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1597.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reprinted in "Babylon is fallen" (Wing L68), and there attributed to T.L.--STC.</note>
+                  <note>Anonymous.</note>
+                  <note>Some print show-through.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  O.T. --  Apocrypha. --  2 Esdras --  Commentaries --  Early works to 1800.</term>
+               <term>Bible --  Prophecies --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-09</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-10</date>
+            <label>John Pas</label>Sampled and proofread</change>
+         <change>
+            <date>2011-10</date>
+            <label>John Pas</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:7106:1"/>
+            <pb facs="tcp:7106:1" rendition="simple:additions"/>
+            <p>BABYLON IS FALLEN.</p>
+            <p>
+               <hi>Ierimie.</hi> 20. 10.</p>
+            <p>For I heard their aylings of many, and how they wacht for my halting, <hi>ſaying:</hi> It may he that he is deceiued.</p>
+            <p>
+               <hi>LONDON</hi> Printed by <hi>Edward Allde</hi> 1597.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:7106:2"/>
+            <pb facs="tcp:7106:2"/>
+            <head>TO THE RIGHT <hi>honorable</hi> Robert <hi>Lord</hi> Deuoreux, Earle of Eſſex.</head>
+            <p>
+               <seg rend="decorInit">R</seg>Eading of late (my Lord) a Chapter of <hi>Eſdras,</hi> folding vp in a miſticall and darke diſcourſ<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, a liuing repreſen<g ref="char:EOLhyphen"/>tation of a long time, wher<g ref="char:EOLhyphen"/>of the moſt is paſt, and ſo<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e little to come: I thought it no loſt labour to take my pen and vnfolde the ſame: that ther<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n we may beholde (which naturally all de<g ref="char:EOLhyphen"/>ſire to ſee) as well the iſſues of thinges to come, as what is paſt, or is in being: and ther<g ref="char:EOLhyphen"/>after to qualifie and moderate our hopes, and call our troubled thoughts (which otherwiſe runne with raines on neck) within the cir<g ref="char:EOLhyphen"/>cle and l<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>mitation, bounded and drawen from aboue. And finding this propheſie written by a man greatlye beloued of God, and therto (which rare is) a Princes fauourite, high in grace with a King of Perſia: I preſumed the rather to commend my labour to your hono<g ref="char:EOLhyphen"/>rable L. as vpon whome God hath vouchſa<g ref="char:EOLhyphen"/>fed
+<pb facs="tcp:7106:3"/> like great and rare graces. Suffiſeth that your. Honor reade it, greater fauor <hi>Eſdras</hi> ſeekes not. He labors not to praiſe, or pleaſe, which now a daies findes many frends, but to admoniſh and forewarne, which fataly findes none til be to late. He feares not the learned and noble reprouer of ſuppoſed Predictions, for he hath heard him honor the Propheſies of Holy writ, wherin him-ſelfe hath no leſſe ho<g ref="char:EOLhyphen"/>nor gotten, then giuen. His other enemies, hath wild me to conceal, and to reſerne them to a more open hearing. But <hi>Eſdras</hi> is at the next leafe (my Lord) and craues your Honors pa<g ref="char:EOLhyphen"/>tience for an hower.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:7106:3"/>
+            <head>BABYLON is fallen.</head>
+            <epigraph>
+               <bibl>Eſdras 4. Chap. II.</bibl>
+               <q>Then I ſawe a dreame. <note place="margin">Verſe. 1.</note>
+               </q>
+            </epigraph>
+            <p>AFter this, the Prophet ſawe a viſi<g ref="char:EOLhyphen"/>on, concerning the beginning, con<g ref="char:EOLhyphen"/>tinuance, and fall of th'Empire and ſupremacye of Rome. And this viſion was ſhe wed him in the dayes of <hi>Artaxerxes</hi> King of Perſia, about 400. yeares before the firſte ſtone of her Empire was laide. <note place="margin">In. Caeſar.</note>
+            </p>
+            <p>And behold, there aroſe from the Sea an Eagle,</p>
+            <p>And there aroſe among the Nations,
+<pb facs="tcp:7106:4"/> the fierce and fearefull Kingdome and Empire of Rome, ſeene in viſion by the Prophet <hi>Daniel,</hi> ſome few yeares before.</p>
+            <p>Which had 12. fethered winges.</p>
+            <p>Wherein ſhould ariſe and reigne 12. Emperors, which ſhuld ſpred their power like winges ouer all the earth, in great feare ſitting on it. And it ſeemed good vn<g ref="char:EOLhyphen"/>to the Prophet to touch by an intellection theſe 12. only, both for they are a Lewrye ſufficient to argue the whole ſuite of Em<g ref="char:EOLhyphen"/>perors which did ariſe and raigne in her; as alſo becauſe they only were natiue Ro<g ref="char:EOLhyphen"/>mans, deſcended of the <hi>Iulii, Seruii, Sal<g ref="char:EOLhyphen"/>uii, Flauii,</hi> &amp;c. vnlike therein vnto the reſt, which were all (or almoſt all) like change<g ref="char:EOLhyphen"/>able ſtuffe of diuers colours, ſo of diuers Nations, Their riſing, continuance, and end, is toucht in their proper place.</p>
+            <p>And three heads.</p>
+            <p>Her three heads are three Kingdomes, fore-ordained to vpholde and maintayne
+<pb facs="tcp:7106:4"/> the power of her pride, when al her wings and feathers ſhould faile her. And are re<g ref="char:EOLhyphen"/>ſerued to execute her laſt will, and finiſhe her funerals, as ſhalbe here after more at full declared.</p>
+            <q>And I ſaw, and beholde, she <note place="margin">
+                  <g ref="char:V">Ʋ</g>erſe 2.</note> ſpread her winges ouer all the earth, and all the windes of the ayre gathered themſelues and blew on her.</q>
+            <p>By the windes, are meant, her proſpe<g ref="char:EOLhyphen"/>rous and happie ſucceſſe in all her procee<g ref="char:EOLhyphen"/>dings. And of neceſſitie it muſt goe well with her, whom euery winde doth blowe to good. Witnes the limits of her terri<g ref="char:EOLhyphen"/>tories, from <hi>Ganges</hi> to <hi>Gades;</hi> and from the <hi>Scithian ſea</hi> vnto the <hi>Cape of hope:</hi> as teſti<g ref="char:EOLhyphen"/>fieth one of her own, which ſaith: that ſhe extended her tents, to the borders of the Ocean, and the feare of her name vnto the heauens.</p>
+            <q>And I ſaw, that out of her fe<g ref="char:EOLhyphen"/>thers <note place="margin">Verſe 3.</note>
+               <pb facs="tcp:7106:5" rendition="simple:additions"/> grew vp other contrarie fethers, but they became litle fe<g ref="char:EOLhyphen"/>thers and ſmale.</q>
+            <p>And the Prophet ſaw, that among the Princes and gouernors which ruled in her, ther aroſe and grew vp certain Kings, which were contrary vnto her, marking ſuch as intended to root vp the crown and dignitie of her Empire, to plant them<g ref="char:EOLhyphen"/>ſelues therin, and their houſe for euer. But their thoughts preuailed not, for as the verſe concludeth, their power waned, and they periſhedlike the reſte what thoſe con<g ref="char:EOLhyphen"/>trary Kings were? their number, names, attempts and end, ſhalbe deliuered in their place.</p>
+            <q>But her heads reſted, and the <note place="margin">Verſe 4.</note> head in the midſt was greater then th'other heads, yet reſted it with them.</q>
+            <p>But the three kingdomes fore-apoin<g ref="char:EOLhyphen"/>ted t'accompliſh and finiſh the wickednes
+<pb facs="tcp:7106:5"/> of this great Citie, were quiet and at reſt, as not yet (during the reigne of her fe<g ref="char:EOLhyphen"/>thers) conceaued and brought forth. And the Prophet obſerued that th'one of thoſe Kings was greater in power then both his fellowes, yet reſted it with them. Concer<g ref="char:EOLhyphen"/>ning theſe three Kings, their names, their greatnes, and al that appertaineth, ſhalbe ſpoken in due place.</p>
+            <q>Then I ſaw, and behold, the <note place="margin">
+                  <g ref="char:V">Ʋ</g>erſe 5.</note> Egle flew with her fethers, and reigned vpon earth, and ouer them that dwelt therin.</q>
+            <q>And I ſaw that al things vender <note place="margin">
+                  <g ref="char:V">Ʋ</g>erſe 6.</note> heauen were ſubiect vnto her, and no man ſpake againſt her, no not one creature vpo earth.</q>
+            <p>And the Prophet beheld, that this proud citie flew with her Emperors and Legions ouer al her neighbors, fubiecting al the dwellers on earth vnder her, in ſuch ſort, as there was not a Nation or People
+<pb facs="tcp:7106:6"/> to be found vnder heauen, that was not either rooted out by her, or inforced to re<g ref="char:EOLhyphen"/>ceiue their Gouernors from her.</p>
+            <q>And I ſaw that the Egle ſtood <note place="margin">
+                  <g ref="char:V">Ʋ</g>erſe 7.</note> vp vpon her clawes, and ſpake to her fethers, ſaying:</q>
+            <q>Watch not altogether, ſleepe <note place="margin">Verſe 8.</note> euery one in his own place, and watch by courſe.</q>
+            <q>But let the heads be preſerued <note place="margin">
+                  <g ref="char:V">Ʋ</g>erſe 9.</note> for the laſt.</q>
+            <p>And the Prophet obſerued, that this powerful Citie, in the daies wherein (ouer<g ref="char:EOLhyphen"/>gorged with pride) ſhe ſtood vpon terms ofher counſell and armes, tooke ſuch or<g ref="char:EOLhyphen"/>der (for in euill ſhe was very methodicall) that her Kings and Kayſers, ſhuld neither ſleepe nor watch, that is, neither periſhe nor rule all at once, but riſe in a ſucceſſiue courſe, as in the verſes following is mani<g ref="char:EOLhyphen"/>feſted. And ſhe further commanded that
+<pb n="4" facs="tcp:7106:6"/> the t<gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ree laſt Kingdoms, ordeined to con<g ref="char:EOLhyphen"/>clude the number of her ſinnes, ſhould take their eaſe and not awake, till their time appointed.</p>
+            <q>Neuertheleſſe, I ſawe that the <note place="margin">Verſe 10.</note> voice went not out of her heads but from the middeſt of her bodye.</q>
+            <p>As hee that yndertakes a dangerous leape, doth firſt retire the better t'aduance his ſtrength: ſo to bound fairlye ouer the darke vnderſtanding of theſe wordes, we muſt of neceſſitie looke back and carrye before vs the true birth and perfect na<g ref="char:EOLhyphen"/>ture of this Empire: which the Prop het <hi>Daniel</hi> in his viſion deſigneth vnder the forme of a ten-horned beaſt, ſignifying thereby, that it ſhould be a power vpheld by a ſucceſſion of many Kinges; for the hornes betoken Kings, and the number of 10. comprehends all be they neuer ſo ma<g ref="char:EOLhyphen"/>ny, as al numbers are contained vnder 10. or made of their reduplication be they ne<g ref="char:EOLhyphen"/>uer
+<pb facs="tcp:7106:7"/> ſo infinit. And addeth further, that his teeth were of iron, his nails of braſſe, in<g ref="char:EOLhyphen"/>ferring therby, th'unreſiſtable force of his legions and Leaders. And proceding ſaith, that ther aroſe amongſt his Kings, one of an exceeding ſtrange nature, ſignifying by that one, a ſtrange race and ſucceſſion of Princes, far differing in ſhape &amp; forme of regiment from al their predeceſſors, obtaining dominion not byiron teeth and braſen nails, as did th'Emperors which aroſe before them, but by diſceit and by a mouth which ſpake preſumptuous things againſt the moſt High, blaſpheming his name, his Tabernacle, and them that dwel in heauen, who by hidden and vnknown force, ſhould ſubdue the third part of the world, meaning, al <hi>Europe</hi> with her Princ<g ref="char:EOLhyphen"/>es. By which deliniation, it is euident, that the Holy-ghoſt accounteth the chalenged prerogatiue and ſupremacie of Rome, al one power, al one Empire, whether it ob<g ref="char:EOLhyphen"/>taine the ſpoile by force, or by fraude, that is, by power of Emperors, or craft of Popes, who ſhould be far vnlike them, as <hi>Daniel</hi> him-ſelfe ſaith; <hi>And he ſhalbe</hi> 
+               <note place="margin">Chap. 7. 24</note> 
+               <hi>vnlike to the firſt.</hi> Mening in forme of clai<g ref="char:EOLhyphen"/>ming,
+<pb n="5" facs="tcp:7106:7"/> obtaining, and mainteining Iuriſ<g ref="char:EOLhyphen"/>diction, not in pride, purpoſe and deter<g ref="char:EOLhyphen"/>mination. So as we may behold ſuch an vnlikely likenes between them, as was be<g ref="char:EOLhyphen"/>tweene the two Siſters, of whome it is ſaid.
+<q>
+                  <l>—facies non omnibusvna,</l>
+                  <l>nec diuerſatamen, quale<g ref="char:cmbAbbrStroke">̄</g> decet eſſe Sororum.</l>
+               </q>
+            </p>
+            <p>And thus much concerning the Pro<g ref="char:EOLhyphen"/>phet <hi>Daniels</hi> deſcription of th'Empire of Rome; whence we note, that the ſame power which <hi>Daniel</hi> ther deſcribeth by a beaſt with hornes, teeth &amp; nails: our Pro<g ref="char:EOLhyphen"/>phet here doth deliniat by an Egle, with wings, fethers and heads; whoſe imperial wings after they were ſo clipt, as ſhe could no longer fly ouer al in her proper colors, and ſtile of <hi>Roma triomfante;</hi> de<g ref="char:EOLhyphen"/>uiſed how by diſceit ſhe might vphold her throne (for to be high was al her care) and found nothing ſo fit as to diſguiſe her ſelf, and chalenge prelation vnder the maske of <hi>Roma la Santa.</hi> And this is it which this Verſe teacheth, that when the ſinfull Citie ſaw her feathers ſo pluckt, as the feare of her armes and forces, might no longer flye in<g ref="char:EOLhyphen"/>to
+<pb facs="tcp:7106:8"/> all kingdomes, commanding them vn<g ref="char:EOLhyphen"/>der the pàine of <hi>Imperium Romanum:</hi> Ly<g ref="char:EOLhyphen"/>ing by meanes of this diſtres, verye weake and in danger of faling, her counſell and bodie politique, deuiſed by lyes &amp; witch<g ref="char:EOLhyphen"/>crafte (wherein was all her pleaſure from her youth) to reſtore the ſupremacye and honor of her name, vnder the colour of <hi>Eccleſia Dei.</hi>
+            </p>
+            <p>Wherin this race of preſumptuous horns excelled the ſinne of all the hornes that foretime ruled in her, for they, as in whom Satan dwelt but literally, did but in open hoſtilitie fight againſt the higheſt, ſetting before him a god made of a wicked man, whoſe fathers bloud cryeth out for ven<g ref="char:EOLhyphen"/>geance night and daye, whoſe bedfellowe was &amp; <hi>Soror</hi> &amp; <hi>coniux,</hi> and whoſe wife was <hi>id quod dicere nolo.</hi> But this race of preſumptuous and deceitfull Kinges, as in whome Satan dwelleth ſpirituallye, in a hidden treaſure of blaſphemy, ſets vp the Higheſt againſt himſelfe, and vnder the viſar of the Church, and the name of God, blaſphemeth his Sanctuary, and the Lord thereof. No meruaile then, tho ſhe and Syon be at ods, for as golde can bodye it
+<pb n="6" facs="tcp:7106:8"/> ſelfe with any mettall liquiſiable, latten excepted, which notwithſtanding in out<g ref="char:EOLhyphen"/>ward face and ſhew of all mettals is moſt like vnto it: ſo, no Church is more capi<g ref="char:EOLhyphen"/>tall enemie to the true Church, then ſhee, who in outward geſture, grace and coun<g ref="char:EOLhyphen"/>tenance, is likeſt like the chaſte and virgin ſpouſe, and is indeed a whore.</p>
+            <q>Then I numbred her contra<g ref="char:EOLhyphen"/>ry <note place="margin">Verſe 11.</note> fethers, and behold they were eight of them.</q>
+            <p>In the third verſe of this Chapter, the Prophet made mention of theſe contrary fethers, which in their thoughts conſpirde to raiſe their houſe with the ruins of Rome. And heere proceedeth more perti<g ref="char:EOLhyphen"/>cularly to declare their number, foretel<g ref="char:EOLhyphen"/>ling there ſhould be eight of them, whom we will heere call out by name, that if oc<g ref="char:EOLhyphen"/>caſion ſerue, wee maye the better knowe them. The firſt were Weſt-gothes, vn<g ref="char:EOLhyphen"/>der <milestone type="tcpmilestone" unit="unspecified" n="1"/> the leading of <hi>Alaricus.</hi> The ſecond <milestone type="tcpmilestone" unit="unspecified" n="2"/> Hunns, whoſe King was <hi>Attalas.</hi> The
+<pb facs="tcp:7106:9"/> third Vandals, their head, <hi>Genſerick.</hi> The <milestone type="tcpmilestone" unit="unspecified" n="3"/> fourth <hi>Odoacer.</hi> The fift Eaſt-gothes, their <milestone type="tcpmilestone" unit="unspecified" n="4"/> 
+               <milestone type="tcpmilestone" unit="unspecified" n="5"/> chiefe, <hi>Theodorick.</hi> The ſixt <hi>Totilas,</hi> bred <milestone type="tcpmilestone" unit="unspecified" n="6"/> in Spaine, with ſuch followers as for thoſe times that Country yelded. The ſeuenth <milestone type="tcpmilestone" unit="unspecified" n="7"/> Longobards, with their guid <hi>Alboinus.</hi> The eight and laſt, <hi>a home conſpiracie,</hi> 
+               <milestone type="tcpmilestone" unit="unspecified" n="8"/> more to be fear'd (as al included diſeaſes are moſt dangerous) then al the reſt.</p>
+            <p>And altho many others beſides theſe, as <hi>Radagaiſ<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>,</hi> th'<hi>Alani</hi> now called <hi>Al<g ref="char:EOLhyphen"/>mans,</hi> the <hi>Burgonians</hi> conducted by <hi>Gun<g ref="char:EOLhyphen"/>dibald,</hi> th'<hi>Vngers, Saracens,</hi> &amp;c. were al in their time as coſtly enemies to th'Empire as ſome of theſe, yet none did humble the great Citie, the mother of wickednes but theſe eight only. And therfore the reſt may not be allowed to ſit at this table, but may ſerue to iuſtifie the iudgment of the Beaſt, which was thus wounded againe and ſtric<g ref="char:EOLhyphen"/>ken of al, as ſhe had wounded and ſtric<g ref="char:EOLhyphen"/>kenal.</p>
+            <p>And if in reading doubt ariſe, how theſe eight fethers may be contrary to the Egle, that is, reſiſters of her power &amp; dominio<g ref="char:cmbAbbrStroke">̄</g>, &amp; yet be fethers of the Egle, that is, maintei<g ref="char:EOLhyphen"/>ners of the ſame? The anſwer is, that they
+<pb n="7" facs="tcp:7106:9"/> were aduerſaries and contrary vnto her, as ſhe ſtood vpon termes of <hi>Imperium or bis<g ref="char:EOLhyphen"/>terrae:</hi> but after ſhe had chang'd her cop<g ref="char:EOLhyphen"/>pie, and claimed ſupremacie vnder the cloake of <hi>Mater Eccleſia,</hi> they were for the moſt mainteiners of <gap reason="illegible" resp="#APEX" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> pride, and be<g ref="char:EOLhyphen"/>came drunke alſo with her worſhip, as o<g ref="char:EOLhyphen"/>ther Kings and Princes of th'earth.</p>
+            <p>And thus much for their number, and names, their ſeuerall attempts, their pro<g ref="char:EOLhyphen"/>ſperities and ende, ſhalbe preſented in their place.</p>
+            <q>After this I ſaw, and beholde <note place="margin">Verſe 12.</note> vpon the right ſide there aroſe one fether, and raigned ouer all the earth.</q>
+            <p>This fether here deſcribed is the firſt of the twelue, namely <hi>J. Caeſar,</hi> who (like an ill interpreter) tranſlated <hi>Senatum Popu<g ref="char:EOLhyphen"/>lum<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> romanum,</hi> into <hi>C<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſarem Auguſtum.</hi> Whoſe Image, which in this verſe is ſo liuely reſembled, conſiſ<gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap>th of 2. featurs<g ref="char:punc">▪</g> the firſt, ſheweth the manner of his riſing
+<pb facs="tcp:7106:10"/> in theſe words.</p>
+            <p>
+               <hi>And behold, vpon the right ſide there aroſe one feather.</hi>
+            </p>
+            <p>Which ſerue in ſtead of art, to diſcouer the very true lines, and caſt of his happi<g ref="char:EOLhyphen"/>nes.</p>
+            <p>For the houſe of <hi>Cornelii</hi> was as elo<g ref="char:EOLhyphen"/>quent as he, and <hi>Marius</hi> doubtles as good a leader as he, and <hi>Catilin</hi> as nobly borne as he, and al theſe aroſe t'inuade the com<g ref="char:EOLhyphen"/>mon-wealth, and to tranſlate it into a Kingdome as wel as he, but none of them roſe on the right ſide but he. And thus much for the manner of this ſpeech; ſo we take this with-al, that theſe words <hi>(right ſide)</hi> in their natural and proper intent, do ſignifie (as through al this chap.) the ſureſt and ſtrongeſt ſide.</p>
+            <p>The ſecond feature in this reſemblance to be obſerued, is his power, ſet forth in theſe words. <hi>And he reigned ouer all the earth.</hi>
+            </p>
+            <p>For after he had ſubdued France, broken the heart of Germany, made his name knowen to England, he returned into Ita<g ref="char:EOLhyphen"/>li<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, ouerthrew the great Protector of the
+<pb n="8" facs="tcp:7106:10"/> liberty S<hi rend="sup">r.</hi> 
+               <hi>Pompey</hi> and his hoſt, in the fields of <hi>Pharſalie.</hi> And like the fire of heauen (as one of her Poets ſaith) with ſuch cele<g ref="char:EOLhyphen"/>ritie drew after the reliques of that ſtrick<g ref="char:EOLhyphen"/>en faction, both in Africa and Spaine, that in two yeres ſpace he brought to pas, that nether citie nor creature durſt ope<g ref="char:cmbAbbrStroke">̄</g> againſt him: which done, he aſcended into <hi>Italie,</hi> and took vpon him as Lord therof, trium<g ref="char:EOLhyphen"/>phing in the ſpoiles of the world, and the blood of his country.</p>
+            <p>And knowing that the name of a King (which he ſo much affected) was odious to the quality and nature of that People; in<g ref="char:EOLhyphen"/>uaded the gouernment vnder the maske of a perpetuel Dictator, preſeruing therun<g ref="char:EOLhyphen"/>der (for he was wiſe aboue al the fethers) ſome hope of recouering their late ſlaine liberty, but indeed eſtabliſhing a kingdom from which it could neuer redeeme it ſelfe againe.</p>
+            <q>And when it had reigned, the <note place="margin">Verſe 13.</note> end of it came, and the place therof appeered no more.</q>
+            <p>But this new-borne proſperitie (as is
+<pb facs="tcp:7106:11"/> the nature of all this worldes felicitie) la<g ref="char:EOLhyphen"/>ſted but a while, for in the third yere of his Dictatorſhip, he was ſaine in the Senat, by the conſpiration of 24. of whom the moſt both in his own (ſo dangerous is the name of truſt) and other mens opinions, were thought his cheefeſt frendes, And thus was this fether blowen awaye, after it had inioyed his pleaſure 56. yeres, and raigned 3. A man for letters, armes, and counſell, famous far-aboue all his ſucceeders, and in diſcreete bounty, and Princely clemencye (rare vertues in ſuch a fortune) without controuerſie, ſurpaſſing all Princes made of earth.</p>
+            <q>So the next ſtoode vp and <note place="margin">Verſe 14.</note> reigned, and it continued a long time, but after it had reigned his end alſo came, and as the firſt it appeered no more.</q>
+            <p>Next after him aroſe <hi>Octauius,</hi> the adopted ſonne of <hi>Julius:</hi> otherwiſe alſo
+<pb n="9" facs="tcp:7106:11"/> neere him in blood, as being the ſonne of his neece <hi>Accia,</hi> who hauing taken re<g ref="char:EOLhyphen"/>uenge vpon the murtherers of his father, and obtained in all his warres, forreine and at home; triumphed Lord ouer all, adding to his fathers pomp (which he had bought ſo deer) th'honors of <hi>Parens patriae,</hi> and <hi>Augustus.</hi>
+            </p>
+            <p>And this fether continued (as the Pro<g ref="char:EOLhyphen"/>phet ſaw) a long time, for it reigned <hi>Tri<g ref="char:EOLhyphen"/>umuir</hi> with <hi>Anthonie</hi> and <hi>Lepidus</hi> two yeres, &amp; as <hi>Duumuir</hi> with <hi>Anthonie</hi> alone ten yeres, and then deuouring his fellow in a Sea-fight at <hi>Actium,</hi> reigned al alone 44. yeres.</p>
+            <p>But after it had reigned, his end alſo came, and (as the Prophet concludeth) he diſcended like the firſt, and appered no more. For by the treaſon of <hi>Liuia</hi> his wife, impatient to tarie th'inthronizing of her ſonne (as is the nature of ambition the ne<g ref="char:EOLhyphen"/>rer the goal, the faſter it runnes) his lin<g ref="char:EOLhyphen"/>gring ſoul was taken from him at <hi>Nola,</hi> in the 70. and ſixth yere of his tranſgreſſion, when he had reigned 20. leſſe.</p>
+            <q>Then there came a voice vn<g ref="char:EOLhyphen"/>to <note place="margin">Verſe 15.</note>
+               <pb facs="tcp:7106:12"/> it, and ſaid.</q>
+            <q>Hear thou that haſt kept <note place="margin">Verſe 16.</note> th'earth ſo long, this I ſay vnto thee, before thou beginſt t'ap<g ref="char:EOLhyphen"/>peere no more.</q>
+            <q>Ther shal none after thee at<g ref="char:EOLhyphen"/>taine <note place="margin">Verſe 17.</note> vnto thy time, nor yet to the halfe therof.</q>
+            <p>That we may know ther is no God like vnto the Higheſt, who only holdeth the meaſures and times of al thinges in his hand, the Prophet foreſheweth, that none of the twelue ſhould continue like to <hi>Oc<g ref="char:EOLhyphen"/>tauius,</hi> nor yet attaine vnto halfe his time: which according to the word of the Lord was accompliſhed; for his ſonne <hi>Tiberius</hi> of al the reſt reigned longeſt, and longer by eight yeres then any of the reſt, and yet could not attaine to halfe the time of his father, which diſcended before him.</p>
+            <p>That God only might be honored in al his workes, and iuſtified when he ſpea<g ref="char:EOLhyphen"/>l<gap reason="illegible" resp="#APEX" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>.</p>
+            <q>
+               <pb n="10" facs="tcp:7106:12"/>Then aroſe the third, and <note place="margin">Verſe. <gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>.</note> reigned as th'other afore, and it appeered no more alſo.</q>
+            <p>Then ſtept vp <hi>Tiberius,</hi> and reigned in great abhomination, as did his fathers before him, but after a while he diſcen<g ref="char:EOLhyphen"/>ded alſo and appeered no more. No al his ſkil in ſortilege and wiſdom mathema<g ref="char:EOLhyphen"/>tical, wherunto he had ſold him-ſelf from hisyouth, could ether fore-tel or fore-warn him of <hi>Caius</hi> his nephew, by whome he was poiſoned, in the 70. and 8. yere of his mortalitie, and three and twentith of his raigne.</p>
+            <q>And ſo came it to al th'o<g ref="char:EOLhyphen"/>thers, <note place="margin">
+                  <g ref="char:V">Ʋ</g>erſe 19</note> one after an other, ſo that euery one reigned, and then ap<g ref="char:EOLhyphen"/>peered no more.</q>
+            <p>In like ſo<gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap> (ſaith the <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>) <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>
+               <pb facs="tcp:7106:13"/> al the reſt which of the 12. remained, ſuc<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#APEX" extent="6 letters">
+                  <desc>••••••</desc>
+               </gap>ely <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſe reigne and periſh.</p>
+            <p> Of whome the firſt, in blaſphemy ex<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#APEX" extent="5 letters">
+                  <desc>•••••</desc>
+               </gap>g, <note place="margin">
+                  <gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ligula.</note> was <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> by the Captaine of his guard, after he had ſat in the chaire of the ſcorneful 29. yeres, and in the throne of his fathers almoſt 4.</p>
+            <p>The ſecond, only wiſe in <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uil, was poy<g ref="char:EOLhyphen"/>ſoned <note place="margin">
+                  <gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>laudins.</note> by his inceſtuous wife his neece <hi>Agri<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ina,</hi> in the 64 yere of his <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>, and 14. of his reigne.</p>
+            <p>The third, a monſter, deformed in life, <note place="margin">Nero.</note> in mariage, and end: his life ſcornefull to the height of his fathers, his mariage thrice more deteſtable, his end more vnnatural then any of th<gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap>rs; for after he had reigned in ſinne fourteene yeres, and ſinne in him eighteene more, fel by his own ſword into the graue of his fathers, and in him deſ<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the houſe of the <hi>Iul<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>.</hi>
+            </p>
+            <p>The fourth was of an other extraction, <note place="margin">
+                  <gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>alba.</note> but not of a better, deſcended of th'anti<g ref="char:EOLhyphen"/>ent <gap reason="illegible" resp="#APEX" extent="3 words">
+                  <desc>〈◊◊◊〉</desc>
+               </gap>, roſe vp la<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, but periſhed early; for he was 60. and 3. yeres olde before he taſted th'Empire, which he got and loſt in 7. moneths.</p>
+            <p>The <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> like wiſe of a new houſe, but <note place="margin">
+                  <gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>th<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note>
+               <pb n="11" facs="tcp:7106:13"/> of th'old building, got poſſeſſion by the bloud of his Predeceſſor, and by ſpilling his owne in three moneths and od daies, loſt it againe, after he had walkte in the abhomination of his fathers, eight and thirtie yeres.</p>
+            <p>The ſixt alſo, was new and olde, in no<g ref="char:EOLhyphen"/>thing (ſaue gluttony) excelling his fel<g ref="char:EOLhyphen"/>lowes, <note place="margin">
+                  <g ref="char:V">Ʋ</g>itellius.</note> thing (ſaue gluttony) excelling his fel<g ref="char:EOLhyphen"/>lowes, in life and death like filthie; deſ<g ref="char:EOLhyphen"/>cended in the eight moneth of his tyran<g ref="char:EOLhyphen"/>nie, after he had wearied himſelfe in the pleaſures of Capri<gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap>um (wh<gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap> firſt his youth was branded) 7. and 10. yeres.</p>
+            <p>After him aroſe the ſeuenth, who <note place="margin">Veſpatian.</note> bought the crowne with the bloud of his Mr. and ware it in baſe couetouſnes ten yeres, but then was likewiſe blowen down, hauing fulfild the pleaſures of 59. more.</p>
+            <p>The eight was he which executed the <note place="margin">Titus.</note> vengeance due to the great murtheres, th'earthly Hieruſalem: who in the 40. yere of his pleaſure, after he had reigned 2. yeres and ſo many moneths, was alſo blowen down, not without the ſuſpected treaſon of his brother, and ſucceſſor.</p>
+            <p>The ninth and laſt and (if it <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> poſ<g ref="char:EOLhyphen"/>ſible) <note place="margin">Domitian.</note>
+               <pb facs="tcp:7106:14"/> the worſt of all, who after he had reigned in the luſt of his Fathers 15. yeres, and liued therin 30. more, was mur<g ref="char:EOLhyphen"/>thered by the Gentlemen of his chamber, and beaten downe after the reſt which deſcended before him. So that euery one of them (as this verſe Propheſied) reign'd, and then appeered no more.</p>
+            <q>Then I looked and behold <note place="margin">Verſe. 20.</note> in proceſſe of time, the fethers that followed ſtood vp on the right ſide, that they might rule alſo, &amp; ſome of them ruled, but within a while they appeered no more.</q>
+            <p>And the Prophet obſerued and ſaw (after the twelue were deſcended) the Emperors that followed to riſe, that they might rule alſo; and as many of them as roſe on the right ſide, that is: in the ſtrength and power of the twelue, did in theyr place (according to the procla<g ref="char:EOLhyphen"/>mation publiſhed in the eight verſe)
+<pb n="12" facs="tcp:7106:14"/> ſpred their winges and reigne alſo, <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>.</p>
+            <list>
+               <item>
+                  <hi>Ner<gap reason="illegible" resp="#APEX" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>.</hi>
+               </item>
+               <item>
+                  <hi>Traian.</hi>
+               </item>
+               <item>
+                  <hi>Adrian.</hi>
+               </item>
+               <item>
+                  <hi>Antoninus.</hi>
+               </item>
+               <item>
+                  <hi>Marcus.</hi>
+               </item>
+               <item>
+                  <hi>Commodus.</hi>
+               </item>
+               <item>
+                  <hi>Perti<gap reason="illegible" resp="#APEX" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>x.</hi>
+               </item>
+               <item>
+                  <hi>Iulian.</hi>
+               </item>
+               <item>
+                  <hi>Seuerus.</hi>
+               </item>
+               <item>
+                  <hi>Caracalla.</hi>
+               </item>
+               <item>
+                  <hi>Macrinus.</hi>
+               </item>
+               <item>
+                  <hi>Heliogabalus.</hi>
+               </item>
+               <item>
+                  <hi>Alexander.</hi>
+               </item>
+               <item>
+                  <hi>Maximinus.</hi> and the reſt, to the third <hi>Valentinian.</hi>
+               </item>
+            </list>
+            <p>Inwhoſe daies, the power of th'Eagle was ſo wounded, by th'incurſion and ſac<g ref="char:EOLhyphen"/>cage of the two firſt contrary fethers, that ſhe could neuer after recure herſelfe again but lay ſick &amp; kept the chamber ſome ten generations, which alſo laſted but twice ſo many yeres, to the riſing of <hi>Momillus,</hi> in whome deſcended al that was left of the Empire, name, and title for euer.</p>
+            <p>So that al the fethers which the Prophet beheld in proces of time to follow the 12.
+<pb facs="tcp:7106:15"/> and in their ſtrength, their ſinne and cru<g ref="char:EOLhyphen"/>eltie, to defile the earth: namely from <hi>Do<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>mitian,</hi> to the third <hi>Valentinian,</hi> were 50. and 3. Kings. Al which in a while (as this verſe concludeth) vaniſhed like the 12. and appeared no more.</p>
+            <q>And ſome of them were ſet <note place="margin">Verſe 21.</note> vp, but ruled not.</q>
+            <list>
+               <item>As, <hi>
+                     <g ref="char:V">Ʋ</g>index.</hi>
+               </item>
+               <item>
+                  <hi>Piſcenius Niger.</hi>
+               </item>
+               <item>
+                  <hi>Albinus.</hi>
+               </item>
+               <item>
+                  <hi>Diadume<gap reason="illegible" resp="#APEX" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>s.</hi>
+               </item>
+               <item>
+                  <hi>Maximus.</hi>
+               </item>
+               <item>
+                  <hi>Balbinus.</hi>
+               </item>
+               <item>
+                  <hi>30. Tirant<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.</hi>
+               </item>
+               <item>
+                  <hi>Firmus.</hi>
+               </item>
+               <item>
+                  <hi>Saturninus.</hi>
+               </item>
+               <item>
+                  <hi>Proculus.</hi>
+               </item>
+               <item>
+                  <hi>Bonoſus.</hi>
+               </item>
+               <item>
+                  <hi>Aper.</hi>
+               </item>
+               <item>
+                  <hi>Eugenius.</hi>
+               </item>
+               <item>
+                  <hi>Quintillus.</hi>
+               </item>
+               <item>
+                  <hi>Rufinus.</hi>
+               </item>
+               <item>
+                  <hi>Conſtantinus non Magnus.</hi>
+               </item>
+            </list>
+            <pb n="13" facs="tcp:7106:15"/>
+            <p>
+               <hi>Heraclianus,</hi> and others, as in the de<g ref="char:EOLhyphen"/>ſcription of times, may more plainly ap<g ref="char:EOLhyphen"/>peare.</p>
+            <q>After this I looked, and be<g ref="char:EOLhyphen"/>hold, <note place="margin">Verſe 22.</note> the twelue fethers appee<g ref="char:EOLhyphen"/>red no more.</q>
+            <p>Vnder the 12. wings or fethers (for both betoken one) are comprehended by an intellection (as in the firſt verſe) al, which in the ſtrength of the 12. followed, from <hi>Domitian</hi> to the third <hi>Valentinian,</hi> who periſhed in the yere 455. after he had reigned 30. and liued 5. more.</p>
+            <p>And thus according to promiſe made in the firſt verſe, is preſented a tragical ſucceſſion of al the Egles wings, from her firſt fether <hi>Iu, Caeſar,</hi> in whom the power of her pride began, to the third <hi>Va<g ref="char:EOLhyphen"/>lentinian,</hi> with whom it ended: who after they had ſhewed themſelues, and trodden down the earth 500. and 30. yeres, they departed for euer the ſtage of this world and al their pomp and glory deſcended, and appeered no more.</p>
+            <p>And here my pen like to th'earth which
+<pb facs="tcp:7106:16"/> being deliuered from her oppreſſors, dyd thirſt to be refreſhed: ſo hating ouer<g ref="char:EOLhyphen"/>come this part of her talk, did think to find ſome eaſe, but in their hopes they are both deceiued, for after the Egles fethers decen<g ref="char:EOLhyphen"/>ded, the ſorrowes of the earth increaſed more and more, and ther aroſe (as ſeldom comes the better) a race of <hi>Sodomitical,</hi> &amp; <hi>vnnatural</hi> Kings, who vnder the viſar of Succeſſors to <hi>Peter,</hi> &amp; vicars to the <hi>Lamb,</hi> ſo far excelled the whordoms of their fa<g ref="char:EOLhyphen"/>thers the Emperors (whoſe Vicars and Succeſſors indeed they are) that they in<g ref="char:EOLhyphen"/>forced the Higheſt, to poure his determi<g ref="char:EOLhyphen"/>ned vengeance, vpon the children of men. Who according to the iudgement forede<g ref="char:EOLhyphen"/>nounc'd <note place="margin">Reuel. 16.</note> by his ſeruant <hi>Iohn, Poured out his wrath vpon the Sea, that it became like to the blood of the dead:</hi> that is to ſay, vpon the great Citie and Empres of the world, by ſcourg after ſcourg (as how often and greuous in the vew of her contrary fethers may appeere) ſo at the full auenging him<g ref="char:EOLhyphen"/>ſelf, that there was not a drop of <hi>Roman</hi> blood to be founde on earth, theſe many hundreth yeres.</p>
+            <p>And as the defection and vn<gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap>annes
+<pb n="14" facs="tcp:7106:16"/> was generall, ſo was the puniſhment; for (as the Apoſtle in the ſame chap, prophe<g ref="char:EOLhyphen"/>ſeth) <hi>The wrath of the higheſt, was poured</hi> 
+               <note place="margin">Reuel. 16.</note> 
+               <hi>out vpon the riuers and fountaines likewiſe, and they were turned into blood alſo,</hi> that is: vpon all People and Nations whatſoeuer, in ſuch ſort, as ther is not a kingdome this day on earth to be found, that hath not bin (ſince the riſing of the beaſt) cut downe by ſword, and yeelded her ſtock to ſtrang griffs, as by the bloody Regiſters of euery perticular Nation doth ſo cleerely ap<g ref="char:EOLhyphen"/>peer, as if it were written with the beames of the Sunne.</p>
+            <p>And as the daies were euil aboue mea<g ref="char:EOLhyphen"/>ſure, ſo they exceeded in darknes and ig<g ref="char:EOLhyphen"/>norance; that my pen hath no leſſe <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>roble, to be deliuered of the reſt of <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>er labor, then had the then-dwellers on earth, to indure the paines of their oppreſſion and trauel; but to take into my way againe, the Prophet addeth.</p>
+            <p>Nor the two wings.</p>
+            <p>Figuring by the two wings, the two firſt contrary fethers, <hi>Alari<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>us,</hi> and <hi>
+                  <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>.</hi>
+            </p>
+            <p>The firſt aroſe in the 19. of <hi>
+                  <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>,</hi>
+               <pb facs="tcp:7106:17"/> predeceſſor to the third <hi>
+                  <g ref="char:V">Ʋ</g>alentinian:</hi> And was the firſt that ſlewe the great Citie, the murtheres of all the world, meaſuring her by famin, ſwoord, and fire; according to the ſquare whereby ſhee had iudged o<g ref="char:EOLhyphen"/>thers almoſt 12. hundreth yeeres. Which wofull end (o<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> rather beginning of her woful end:) made a certaine antient friend of hers, bewai<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ing the night wherein ſhee <note place="margin">Hierom.</note> was ſmitten, to cry, <hi>Nocte Moab capta eſt, nocte cecid<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> murus eius, quis cladem illius noctis, quis funera fando explicet?</hi> And when this feather had thus troden downe the pride of the Eagle, in the yeere 410. a 1157 yeeres after <hi>Romulus</hi> had raiſed her walles with the blood of his brother; pro<g ref="char:EOLhyphen"/>ceeded to <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>p vp her bowels, ſpoiling and burning her principall partes, <hi>Latium, Campania, Apulia, Lucania, Calab<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>a,</hi> wher raging in his higheſt thoughtes, deuiſing how to ſpred his glory ouer all, was by ſuddeine death blowen away, &amp; his place appeered no more.</p>
+            <p>Th'other aroſe in the 27 of the thirde <hi>Valentinian,</hi> in greater feare then did the firſt, deuouring at his entrance al that reſt of <hi>Itali<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> which <hi>Alaricus</hi> had left vneaten,
+<pb n="15" facs="tcp:7106:17"/> 
+               <hi>
+                  <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>, V<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>o<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>a, <gap reason="illegible" resp="#APEX" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>ia, Concordia,</hi> with al the now <gap reason="illegible" resp="#APEX" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Venice: but by the <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> dealing of the deceitful King, whoſe <gap reason="illegible" resp="#APEX" extent="2 words">
+                  <desc>〈◊◊〉</desc>
+               </gap> then Pope <hi>Leo,</hi> was <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> to <gap reason="illegible" resp="#APEX" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> great Citie, and to depart <gap reason="illegible" resp="#APEX" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> left as a waſt, ſtinking in her <gap reason="illegible" resp="#APEX" extent="2 words">
+                  <desc>〈◊◊〉</desc>
+               </gap>, and ſo repaſſing the Da<gap reason="illegible" resp="#APEX" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>, <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> into his S<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ythia againe: <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the y<gap reason="illegible" resp="#APEX" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> follow<g ref="char:EOLhyphen"/>ing in top of his fulnes, was in a <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> found ſtrangled in his owne blood, <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> into he was diſolued, by th'<gap reason="illegible" resp="#APEX" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> vſe of a wedding <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> and a <gap reason="illegible" resp="#APEX" extent="2 words">
+                  <desc>〈◊◊〉</desc>
+               </gap>.</p>
+            <p>And thus periſhed this ſonne of <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <hi>
+                  <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>,</hi> the ſcourg of God, and <gap reason="illegible" resp="#APEX" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> men (for ſo he caled him ſelf) and which not only the fiers of Italie, but his very ſhape may wel iuſtifie; for he is <gap reason="illegible" resp="#APEX" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> a man of litle ſtature, ſquare <gap reason="illegible" resp="#APEX" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> litle eyes, thin heir'd, <gap reason="illegible" resp="#APEX" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> great and prominent, his color <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> and gypſon-like.</p>
+            <q>And ther was no more vpon <note place="margin">
+                  <g ref="char:V">Ʋ</g>erſe. 2<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> the Egles body, but two heads that reſted, and ſixe wings.</q>
+            <pb facs="tcp:7106:18"/>
+            <p>And ther were no more triumphing fe<g ref="char:EOLhyphen"/>thers to be found on her, for al her glori<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#APEX" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> power was decended to two weak and feeble heads, which for they reigned not in the ſtrength of their predeceſſors, the Prophet day<gap reason="illegible" resp="#APEX" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> calruling fethers, but reſting heads.</p>
+            <p>Th'one ſtept in th'eaſt at Conſtantino<g ref="char:EOLhyphen"/>ple, <note place="margin">Martian.</note> whom <hi>Genſ<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rick</hi> the third contrary fe<g ref="char:EOLhyphen"/>ther not long before had diſhonorably ta<g ref="char:EOLhyphen"/>ken priſoner.</p>
+            <p>Th'<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ther in the weſt at Rauenna, taken <note place="margin">
+                  <g ref="char:V">Ʋ</g>al<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ntin.</note> with ſuch a Lethargy, that he nother heard <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the maſſacre of Vngarie, commit<g ref="char:EOLhyphen"/>ted by <hi>Hunns;</hi> not the loud and pitiful <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> of his cheefeſt prouinces, Spaine and Africa, deuoured by <hi>Gothes</hi> and <hi>
+                  <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>;</hi> 
+               <gap reason="illegible" resp="#APEX" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> and deep lament of Gaul and Britanie ouerflowen with <hi>Frank<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> and <hi>Angles,</hi> people fron<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> beyond the Rhone, who not only with their blood and poſte<g ref="char:EOLhyphen"/>ritie, but with their name alſo haue ſtain'd both kingdoms to this day. So as the Pro<g ref="char:EOLhyphen"/>phet wel concludeth, ther was no more to be found vpon th'Egles bodie, but the<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e two drowſie heads, which reſted, and ſix contrary fethers, <hi>viz.</hi>
+            </p>
+            <list>
+               <item n="1">
+                  <pb n="16" facs="tcp:7106:18"/>Genſ<gap reason="illegible" resp="#APEX" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>. 1</item>
+               <item n="2">
+                  <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>. 2</item>
+               <item n="3">Th<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>do<gap reason="illegible" resp="#APEX" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>k. 3</item>
+               <item n="4">T<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tilas. 4</item>
+               <item n="5">
+                  <hi>The</hi> Longobands. 5</item>
+               <item n="6">
+                  <hi>And th</hi>'<gap reason="illegible" resp="#APEX" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>. <hi>of which, in the verſes following.</hi> 6</item>
+            </list>
+            <q>Then ſaw I alſo, the two <note place="margin">Verſe 24.</note> wings, deuided them-ſelues fro<g ref="char:cmbAbbrStroke">̄</g> the ſix, and remained vnder the head that was vpon the right ſide, but the four continued in their place.</q>
+            <p>And the Prophet ſaw, that two of the ſix deuided the<g ref="char:cmbAbbrStroke">̄</g>-ſelues in counſel &amp; manner of proceeding, from th'other four: for wher as the four ſought to be Lords of Rome in fee, reſoluing in their thoughts, t'extin<g ref="char:EOLhyphen"/>guiſh the name &amp; maieſtie of her Empire for euer, theſe 2. were of an other mind, for they agreed to remain vnder the coun<g ref="char:EOLhyphen"/>tenance &amp; fauor of th'egles right head, co<g ref="char:EOLhyphen"/>te<g ref="char:cmbAbbrStroke">̄</g>
+               <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ed to wear a crown tho with <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eaue of it:
+<pb facs="tcp:7106:19"/> meaning by the right head th'eaſt Em<g ref="char:EOLhyphen"/>pire, ſo called, in regard it was far ſtronger in power then the weſt: whoſe broad<g ref="char:EOLhyphen"/>ſpreading honor (as in the verſe fore-go<g ref="char:EOLhyphen"/>ing) was now become a ſtaru'ling, onlie his name and appellation continued ſome ten ſucceſſions, <hi>viz.</hi>
+            </p>
+            <list>
+               <item n="1">1 <hi>
+                     <g ref="char:V">Ʋ</g>alentinian,</hi>
+               </item>
+               <item n="2">2 <hi>Max<gap reason="illegible" resp="#APEX" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>.</hi>
+               </item>
+               <item n="3">3 <hi>Auitus.</hi>
+               </item>
+               <item n="4">5 <hi>Malorianus.</hi>
+               </item>
+               <item n="5">4 <hi>S<gap reason="illegible" resp="#APEX" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>e<gap reason="illegible" resp="#APEX" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>s.</hi>
+               </item>
+               <item n="6">6 <hi>Anthe<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ius.</hi>
+               </item>
+               <item n="7">7 <hi>Olybr<gap reason="illegible" resp="#APEX" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>us.</hi>
+               </item>
+               <item n="8">8 <hi>Gly<gap reason="illegible" resp="#APEX" extent="1 span">
+                        <desc>〈…〉</desc>
+                     </gap>.</hi>
+               </item>
+               <item n="9">9 <hi>Iulius Nepos.</hi>
+               </item>
+               <item n="10">10 <hi>Momillus.</hi>
+               </item>
+            </list>
+            <p>Which al alſo vaniſhed (as before is toucht) in 20. yeres. And th'Egles pomp which was at ful in <hi>Auguſtus,</hi> was enter<g ref="char:EOLhyphen"/>red with <hi>Auguſtulus</hi> (for ſo was <hi>Momyllus</hi> caled) and with him deſcended the name and title of <hi>Imperi<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m Roman<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </hi> for euer.</p>
+            <p>And the two wings thus deuided in pollicie from the foure, were <hi>Genſerick</hi> and <hi>Theodorick.</hi>
+            </p>
+            <p>Of which the firſt, trained into Italy by
+<pb n="17" facs="tcp:7106:19"/> treaſon of th'Empres, entred Rom<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 43. yeeres after ſhe had bin humbled by the <hi>Gothes,</hi> and led into cap<gap reason="illegible" resp="#APEX" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> al her <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>ſor, and (as is the fatal reward of ſuch of<g ref="char:EOLhyphen"/>fenders) the traitres alſo her-ſelf. And af<g ref="char:EOLhyphen"/>ter 14. daies thus loaden, departed into his <hi>Africa</hi> againe; wher-ouer he reigned in peace and pleaſure 51. yeres.</p>
+            <p>Th'other, hauing obtained of th'Eaſt<g ref="char:EOLhyphen"/>head the ſcepter of Italie, according to his patent proceeded, and got it by Conqueſt from <hi>Odoacer.</hi> But after he had reigned <note place="margin">494.</note> ther-ouer 30 yeres, deſce<g ref="char:cmbAbbrStroke">̄</g>ded alſo leauing his fame and kingdom to his poſteritie ha<g ref="char:EOLhyphen"/>uing fulfild his pleaſures two and fortie more.</p>
+            <p>But this counſel pleaſed not th'other 4. for as the verſe concludeth, they remained in other thoughts; drifting in their place to riſe and reigne, without leaue or licenſe of any.</p>
+            <q>So I looked, and behold: the <note place="margin">Verſe 25.</note> vnder-wings thought to ſet vp them-ſelues, and to haue the rule.</q>
+            <pb facs="tcp:7106:20"/>
+            <p>And as the Prophet beheld the four contrary fethers which were left, he ſaw how they alſo ſtroue in their hearts to eſta<g ref="char:EOLhyphen"/>bliſh the<g ref="char:cmbAbbrStroke">̄</g>-ſelues, but like a dream their pur<g ref="char:EOLhyphen"/>poſe vaniſhed, in the next immediat verſes following.</p>
+            <q>Then vvas ther one ſet vp, <note place="margin">Verſe 26.</note> but shortlye it appeered no more.</q>
+            <p>Then aroſe <hi>Odoacer,</hi> the firſt of the four; leading a people begotten in the bowels &amp; inmoſt parts of the North, who hearing of the deuided and weak eſtate of the Em<g ref="char:EOLhyphen"/>pire, was encoraged to moue fro<g ref="char:cmbAbbrStroke">̄</g> beyond <note place="margin">476.</note> the Danub, in much fear &amp; blood deſcen<g ref="char:EOLhyphen"/>ded into Italie, ſlew her laſt Lord and Em<g ref="char:EOLhyphen"/>peror <hi>Momylius Anguſtulus,</hi> deſtroyed the name of her Conſuler dignitie, and blot<g ref="char:EOLhyphen"/>ted out for euer the memory of her holy Senat, the murtherer of <hi>Romulus</hi> their firſt King, and <hi>Iulius</hi> their firſt Kayſer; And not daring as baſe begotten, to put on the preſence and ſtile of an Emperor (which name this fether fatalie reſiſted) conten<g ref="char:EOLhyphen"/>ted
+<pb n="18" facs="tcp:7106:20"/> him-ſelfe with the title of <hi>King of Italie.</hi>
+            </p>
+            <p>But his glory indured not, for after he had reigned eighteene yeres, <hi>Theodorick</hi> (as in the 24, verſe) took his kingdom from him by force, and his life by fraud; and he deſcended, and appeared no more.</p>
+            <q>And the ſecond, vvas ſooner <note place="margin">
+                  <g ref="char:V">Ʋ</g>erſe <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>.</note> gone then the firſt.</q>
+            <p>After him aroſe <hi>Totilas</hi> the ſecond fether of the four, by birth a Spaniard, by blood a Weſt-gothe, (whoſe fearefull fires burne in Rome to this day) but this daies were more in troble, and (as the Prophet fore-ſaw) in number fewer then <hi>Odoacer;</hi> from his firſt riſing alway in armes, and after many hopes and as many diſpaires, was at laſt put to flight by <hi>Narſes,</hi> whom the Eaſt head had made gouernor of Ita<g ref="char:EOLhyphen"/>lie, and flying was wounded ſo dead<g ref="char:EOLhyphen"/>lye, that aſſone as he gat his <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> he loſt his life, after he had worne the crowne (if to fight for a crown be to weare a crown) 11. yeres.</p>
+            <q>
+               <pb facs="tcp:7106:21"/>Then I beheld, and loe the <note place="margin">
+                  <g ref="char:V">Ʋ</g>erſe 28.</note> two that remained, did think al<g ref="char:EOLhyphen"/>ſo in them-ſelues to reigne.</q>
+            <p>So as of al th'eight, ther remained but th'<hi>Longobards,</hi> and th'<hi>inteſtine faction;</hi> which thought alſo in them-ſelues to reigne.</p>
+            <p>The firſt inflamed by the letters of <hi>Nar<g ref="char:EOLhyphen"/>ſ<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s,</hi> and with the goodnes of Italie, left their northern denns, and like a feareful ſtorme fel down vpon it, and in two yeres ouerthrew it, crowning their leader <hi>Al<g ref="char:EOLhyphen"/>boinus,</hi> King therof at Milan; who after he <note place="margin">570.</note> had ſpred him-ſelf ouer the great Citie, and ouer al her Italie three yeres and a halfe, was murthered by the treaſon of <hi>Roſi<g ref="char:EOLhyphen"/>mond</hi> his wife, leauing his kingdom but not his honor, to his ſucceſſors, who poſ<g ref="char:EOLhyphen"/>ſeſſed it for 24. generacions.</p>
+            <p>The eight and laſt, and of al other the moſt dangerous, was <hi>a home conſpiracie,</hi> plotting to raiſe from the dead, the anti<g ref="char:EOLhyphen"/>ent long-before buried gouernment of Rome, to reedifie her <hi>S. P. Q. R.</hi> And to
+<pb n="19" facs="tcp:7106:21"/> root out the Prieſtly prehe<gap reason="illegible" resp="#APEX" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> and Church-ſuperiority, which had ſo, <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>ningly eaten and deſtroyed the ſeculer: Which faction after it had taken fire in the hearts of many, and ſecretly burned a long time, at length brake out, like the fury and violence of a riſen ſtream, ſo as it might not be quencht, but with much blood and exceeding labor, as in the one and thirteth verſe appeereth.</p>
+            <q>But whilſt they ſo thought, <note place="margin">
+                  <g ref="char:V">Ʋ</g>erſe 29.</note> beholde ther awaked one of the heads that were at reſt, which was in the midſt, for that was greater then the two.</q>
+            <p>And whilſt they thus thought, beholde there awaked o<gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap> of the three King<g ref="char:EOLhyphen"/>doms, appointed to finiſh &amp; end the wic<g ref="char:EOLhyphen"/>kednes of th'Egle, figuring by this reſting <gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ead, the new weſt-empire, which <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> of Supremacie the beaſt beſtowed (as hath bin alwaies his practiſe to runne with the ſtrongeſt) vpon <hi>Charles</hi> king of F<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ance,
+<pb facs="tcp:7106:22"/> and <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> to <hi>Pepin</hi> the traiter. This head is ſaid to be awaked, when it was firſt ray<g ref="char:EOLhyphen"/>ſed, which was in the yere 801. wherin it receaued his auguſtal robe, his crown, and ſtile, viz. <hi>
+                  <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Auguſto a Deo coronato, magno &amp; <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Imperatori Romanorum, vita &amp; victoria.</hi> And the title of dignitie imperial, which had la<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>en dead aboue 300 yeres, was in this yere on Chriſtmas day, thus raiſed vp to life againe, to the end it might defend the proceedings of the great adulteres and murderes of th'earth, as by the forme of othe exhibited at his conſe<g ref="char:EOLhyphen"/>cration appeereth; <hi>In nomine Chriſti ſpon<g ref="char:EOLhyphen"/>deo, <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> po<gap reason="illegible" resp="#APEX" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>eor <gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>go A<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Imperator, <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Deo &amp; <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Petro apoſtolo, me protectorem, ac defenſorem fore huius Sanct<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> rom. Eccle<g ref="char:EOLhyphen"/>ſiae, in omnibus vtilit <gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ibus, q<gap reason="illegible" resp="#APEX" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>tinus <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> fultus fuero adiutorio, pro-ut ſciero, potero<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan>.</hi>
+            </p>
+            <p>In that this head is ſaid to be in the mi<g ref="char:EOLhyphen"/>deſt, is ment, that it ſhould be choſen from among the Nations and Kingdoms of the earth, as by experience hath bin proued; firſt from France, then from diuers king<g ref="char:EOLhyphen"/>doms and parts of Germany, where it ſtil remaineth.</p>
+            <p>And that the feare and power of this
+<pb n="20" facs="tcp:7106:22"/> head hath bin greater, <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> any other chri<g ref="char:EOLhyphen"/>ſtian king or kingdom <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>, <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> not ſufficiently read in the <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> regi<g ref="char:EOLhyphen"/>ſters of euery Nation?</p>
+            <q>And I ſaw, that the t<gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap>o <note place="margin">
+                  <g ref="char:V">Ʋ</g>erſe 30.</note> heades were ioyned there<g ref="char:EOLhyphen"/>with.</q>
+            <p>By the two heads, ar ſhadowed the two kingdoms of France &amp; Spaine, whole vnhalowed leage the Proph<gap reason="illegible" resp="#APEX" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> faith; they ſhuld be ioyned with this mid<g ref="char:EOLhyphen"/>dle-head, and like three parts in one, ac<g ref="char:EOLhyphen"/>cord and agree together, to <gap reason="illegible" resp="#APEX" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> them<g ref="char:EOLhyphen"/>ſelues, their authority, &amp; power before the Beaſt, and for their Idol-ſhe<gap reason="illegible" resp="#APEX" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> fight againſt the Higheſt, <gap reason="illegible" resp="#APEX" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> the breath of his mouth they be ſcattered, like the duſt which the winde diſper<gap reason="illegible" resp="#APEX" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>.</p>
+            <p>And theſe a<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the 3. heads mentioned in the firſt, fourth, and ninth verſes of this chapter; and ar therefore ſaid to finiſh and determin the laſt end and wicked<g ref="char:EOLhyphen"/>nes of the whore, becauſe tho <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> other kingdoms hate her and make her <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>
+               <pb facs="tcp:7106:23"/> and naked, and eat her fleſh, as England, and others haue done: yet theſe three heads ſhal loue her ſtil, and to their dying day ſhal burne in delight with her, but when thoſe three and euery of them, ſhal alſo forſake her, ther ſhal not be found ether kingdom or creature vnder heauen, that ſhal fal down and worſhip her.</p>
+            <q>And behold, the middle head <note place="margin">Verſe. 31.</note> was turned with the<g ref="char:cmbAbbrStroke">̄</g> that were turned with it, and did eat vp the two vnder wings which thought to reigne.</q>
+            <p>And the Prophet ſaw this middle head (the head of euil,) impart his felowſhip to al Princes and kingdoms, which deſired to be in leage with it. But my taske which haſteth to an end, wil not ſuffer me now, and here, to ſound this gulfe of <hi>Santa Liega</hi> ſuffiſeth that for Syons ſake the Prophet paſſing by, doth point therat.</p>
+            <p>And the Prophet beheld, that this mid<g ref="char:EOLhyphen"/>dle head did deuoure and eat vp the vnder
+<pb n="21" facs="tcp:7106:23"/> wings, namely, the power of <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <hi>
+                  <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>bards</hi> &amp; the <hi>inteſtine faction,</hi> which <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> alſo to reigne.</p>
+            <p>The firſt by the ſword of <hi>
+                  <gap reason="illegible" resp="#APEX" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>,</hi> ſur<g ref="char:EOLhyphen"/>named (for his exceeding <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>) the great, who at the command of Babylon his god, aſcended into <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>, <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> her King <hi>Deſiderius</hi> priſoner, and led him captiue into France, and g<gap reason="illegible" resp="#APEX" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> his king<g ref="char:EOLhyphen"/>dome to an other And <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> vaniſhed this ſeuenth contrarye feather, after it had humbled the whore, and ſp<gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap>d it ſelfe ouer al her quarters 200 and 4. yeres, and the feare therof diſcended, and it appeered no more.</p>
+            <p>Th'other, firſt began in the <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> of <hi>Go<g ref="char:EOLhyphen"/>no</hi> th'Emperor, who hauing <gap reason="illegible" resp="#APEX" extent="2 words">
+                  <desc>〈◊◊〉</desc>
+               </gap> of contrary opinion, againſt <hi>Gregory</hi> the ſe<g ref="char:EOLhyphen"/>cond (for ſo the beaſt was <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>) fo<g ref="char:EOLhyphen"/>lowed it ſo ho<gap reason="illegible" resp="#APEX" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ly, that he brought his ho<g ref="char:EOLhyphen"/>lines into ſuch diſgrace, <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> that <gap reason="illegible" resp="#APEX" extent="2 words">
+                  <desc>〈◊◊〉</desc>
+               </gap> a deſire in the hearts of many, to <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> their Prelat for a Prince, and to <gap reason="illegible" resp="#APEX" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> their firſt &amp; antient forme of go<gap reason="illegible" resp="#APEX" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>. This deſire thus begu<g ref="char:cmbAbbrStroke">̄</g>, by time (<gap reason="illegible" resp="#APEX" extent="2 words">
+                  <desc>〈◊◊〉</desc>
+               </gap> al conſpiration doth) gathered ſtrength, &amp; aduentured (but ſom-what to yong) to
+<pb facs="tcp:7106:24"/> check the Beaſt, who by reaſon he was ſo <note place="margin">798.</note> wel guarded by his foreſaid head &amp; cham<g ref="char:EOLhyphen"/>pion <hi>Charles,</hi> eaſily neckt it. Notwithſtan<g ref="char:EOLhyphen"/>ding ſome 100. and 50. yeres after, this vl<g ref="char:EOLhyphen"/>cer now growen to a riper head, vnder the practiſe of one <hi>Alberique</hi> and <hi>Octauian</hi> his ſonne, brake out a new, and charg'd the Beaſt in ſo ſharp a ma<g ref="char:cmbAbbrStroke">̄</g>ner, as without dout he had receaued the mate, had not his head in the midſt auoided it once againe, whoſe name was now chang'd fro<g ref="char:cmbAbbrStroke">̄</g> 
+               <hi>Charles</hi> the great, to <hi>Otho</hi> the great: who as being by oth deuoted, came to Rome, baniſht her new riſen Conſuls, hang'd her Tribuns, and mou<g ref="char:cmbAbbrStroke">̄</g>ted her <hi>Prefectus vrbis,</hi> M<hi rend="sup">r</hi>. of miſrule, naked on an Aſs, crouned and attended through the citie with great deriſion; from thence committed to priſon, &amp; ther execu<g ref="char:EOLhyphen"/>ted with exquiſite torments. And by this <note place="margin">967.</note> means, the heat of this defection was ſo aſ<g ref="char:EOLhyphen"/>ſwag'd, that it appered not for 7. yeres af<g ref="char:EOLhyphen"/>ter: but then (vnder the leading of one <hi>Cin<g ref="char:EOLhyphen"/>cius)</hi> flam'd out anew, in ſo furious a ſort, as <note place="margin">974.</note> it had doutles fyr'd the Beaſt out of al his holds, had not his middle head <hi>(Otho</hi> the ſeco<g ref="char:cmbAbbrStroke">̄</g>d) haſted into Italy to que<g ref="char:cmbAbbrStroke">̄</g>ch the ſame: who (knowing how much it imported to
+<pb n="22" facs="tcp:7106:24"/> puniſh exemplarly ſo dangerous an euil) prepared in the Vatican a ſumtuous feaſt, inuited therto al the nobility and chiefe of the citie: when al were come, ſaluted and ſet: cauſed forth-with to be proclaim'd, that no man on pain of death, ſhould ether ſpeak or moue at any thing that ſhould be ſeene or heard: preſently entred armed men and compaſſed the place round wher the gueſts were; wherat whilſt euery one amaſed, doubting what this firſt courſe ment, this middle head drew forth a paper, and whoſe names were therin written, co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>manded to be drawen from the table, and in preſence of al ther to be ſlaine. The reſt were curteouſly entertained, and were as merrie as the feare of ſo cruel a feaſte would giue them leaue. Ne yet for al this the feuer ſo lefte theſe patients, but that they fel ſome 162. yeres after into relapſe <note place="margin">1136.</note> againe, but <hi>Frederique</hi> the firſte (for ſo was now this head caled) with the blood of a 1000. and the wounds and impriſon<g ref="char:EOLhyphen"/>ment of as many more, ſo branded this Hydra, which had bin ſo ofte<g ref="char:cmbAbbrStroke">̄</g> headed, as it could neuer after recouer head again, but her breath departed, and her purpoſe va<g ref="char:EOLhyphen"/>niſhed
+<pb facs="tcp:7106:25"/> and appeered no more.</p>
+            <q>And this head did put the <note place="margin">Verſe. 32.</note> whole earth in feare, and ruled therin, and ouer the dwellers therof, with much labor: and it held the gouerme<g ref="char:cmbAbbrStroke">̄</g>t of the world more, then al the wings that had bin.</q>
+            <p>That this head and his fellowes, haue more mainteined and aduanc'd the rage and blaſphemy of the Beaſt, then al the fe<g ref="char:EOLhyphen"/>thers that aroſe before them, and made more diligent and cunning inquiſition af<g ref="char:EOLhyphen"/>ter the blood of Syon then they, is it not eternally cronicled in the regiſters of euery perticular Nation? And therfore they are caled the heads of th'egle, and who know<g ref="char:EOLhyphen"/>eth not that heads ar more able in euil the<g ref="char:cmbAbbrStroke">̄</g> fethers? And the Prophet beheld that this head continued longer, and held the go<g ref="char:EOLhyphen"/>uerment of the world more then al the fe<g ref="char:EOLhyphen"/>thers that had bin, for from the riſing of
+<pb n="23" facs="tcp:7106:25"/> the firſt fether <hi>Iulius Caſar,</hi> to the end and expiration of <hi>Momyllus Auguſtulus</hi> the laſt, were not 560. yeres, wheras this head aroſe in the yere 801. and hath alreadie continued aboue 700. and 90, and yet ſtil continueth, and ſhal, til he that now is be taken away.</p>
+            <q>And after this I ſaw, and be<g ref="char:EOLhyphen"/>hold, <note place="margin">Verſe. 33.</note> this middle head ſodenlie vanished as did the wings.</q>
+            <p>In that the Prophet ſaw this middle head ſodenly vaniſh, as did the wings, he ſignifieth that it ſhal not be rooted out by force or ſword of any, but depart quietlie, and die as it were in bed; but yet (as the truth fore-ſaith in the chap. folowing) <hi>not without paine:</hi> meaning, that th'Electors ſhal not chuſe to the liking of the Beaſt, nor the Beaſt co<g ref="char:cmbAbbrStroke">̄</g>ſecrat to the liking of the<g ref="char:cmbAbbrStroke">̄</g>. And in this difference this head ſhal die, ne ſhal this difference be exempted from paine.</p>
+            <q>But the two heads remained, <note place="margin">Verſe 34.</note>
+               <pb facs="tcp:7106:26"/> which alſo reigned ouer the earth, and ouer the inhabitants therof.</q>
+            <p>And when the power of this great head, (which is now ſo litle) like a tale thats told ſhalbe cleane ended; yet the feare of th'o<g ref="char:EOLhyphen"/>ther two ſhal ſtil remaine, and haue do<g ref="char:EOLhyphen"/>minion ouer the earth<g ref="char:punc">▪</g> and thoſe that dwel therin; til the fulnes of their malice and ti<g ref="char:EOLhyphen"/>ranny be accompliſht alſo: which may not long be vn-fulfild, for behold, in the verie next verſe their diſtruction commeth.</p>
+            <q>And I ſaw, and behelde, <note place="margin">Verſe 35</note> whilſt the head on the right ſide, deuoured that which was on the left.</q>
+            <p>By the right head is ment (as thorough al this propheſie) the ſtrongeſt; ſo as the Prophet implyeth, that the ſworde of Spaine, ſhal deuide the ſtrength of France, that her pride by deuiſion made leſſe, may at the laſt (as euery deuided kingdome
+<pb n="24" facs="tcp:7106:26"/> doth) returne to nothing. Nether ſhal the proſperitie of this right-head, be long free from like retaliation, but as the truth fore-ſaith. <hi>He that deuideth with the ſword,</hi> 
+               <note place="margin">Eſd. 4. 12.</note> 
+               <hi>ſhal periſh by the ſword.</hi> For how may the ſword for euer eſcape him, whom heauen hateth, and earth doth perſecute? and of whom may be truly ſaid, which was ſpo<g ref="char:EOLhyphen"/>ken of Iſmael, <hi>Manus eorum contra omnes, &amp; omnium contra illos.</hi>
+            </p>
+            <p>And thus ſhal theſe heads periſh, and haſt the faſter to their end, becauſe the iudgment of the Beaſt is nigh, in the very next verſes attending to come in.</p>
+            <q>Then I heard a voice, which <note place="margin">Verſe 36.</note> ſaid, look before thee, and conſi<g ref="char:EOLhyphen"/>der the things which thou ſeeſt.</q>
+            <q>So I ſaw, and behold, as it were <note place="margin">Verſe 37.</note> a Lion came haſtily out of the wood, roaring; and I ſaw that he ſent out a mans voyce vnto the Eagle, and ſpake, ſaying:</q>
+            <q>Hear thou, and I shal tel <note place="margin">Verſe. 38.</note>
+               <pb facs="tcp:7106:27"/> thee, what the moſt High doth ſay vnto thee.</q>
+            <p>The roaring of the Lyon is the breath of the Higheſt, which ſhal rebuke th'Egle for her vnrighteouſnes, and caſt before her a<gap reason="illegible" resp="#APEX" extent="1 letter">
+                  <desc>•</desc>
+               </gap>her ſpoiles, and ſet her aliue in iudgme<g ref="char:cmbAbbrStroke">̄</g>t, and with the ſpirit of his mouth riſe vp a<g ref="char:EOLhyphen"/>gainſt her, and lay vnto her charge as in the text followeth.</p>
+            <q>Art not thou he which of the <note place="margin">Verſe 39.</note> 4. Beaſtes remaineſt, whom I made to reigne in my world, that by them th'end of things might come?</q>
+            <q>And the fourth is come, and <note place="margin">Verſe 40.</note> hath ouercome al the Beaſts that were paſt, and obtained power ouer the world with great feare<g ref="char:EOLhyphen"/>fulnes, and ouer the whole com<g ref="char:EOLhyphen"/>pas
+<pb n="25" facs="tcp:7106:27"/> of the earth with extreame oppreſsion, and hath poſſeſſed ſo long time, al the world with deceit.</q>
+            <q>For thou haſt not iudged the <note place="margin">Verſe 41.</note> earth with truth.</q>
+            <q>But haſt troubled the meek, &amp; <note place="margin">Verſe 42.</note> hurt the peaceful, and thou haſt loued lyers, and deſtroyed the dwellings of the<g ref="char:cmbAbbrStroke">̄</g> which brought foorth fruit, and haſt caſt down the walls of ſuch as did thee no harme.</q>
+            <q>So as thy vniuſt dealing is aſ<g ref="char:EOLhyphen"/>cended <note place="margin">Verſe 43.</note> to the moſt High, and thy pride vnto the Mightie.</q>
+            <q>And therfore he that is High<g ref="char:EOLhyphen"/>eſt, <note place="margin">
+                  <g ref="char:V">Ʋ</g>erſe 44.</note> hath beheld the proud times, and behold they are en<g ref="char:EOLhyphen"/>ded,
+<pb facs="tcp:7106:28"/> and their abhominations ar finished.</q>
+            <p>And if thou plead not guilty hereunto, behold, a thouſand witneſſes ſhal riſe vp againſt thee, and proue th'inditement true; that the iuſt iudgment which hath ſo long attended for thee, may at the length be pronounced againſt thee, in forme as in the text followeth.</p>
+            <q>Therfore appeere no more <note place="margin">Verſe. 45.</note> thou egle, nor thy fearful wings, nor thy wicked fethers, nor thy malitious heads, nor thy cruel clawes, nor thy vaine bodie.</q>
+            <p>And leaſt in thy drunkennes thou maiſt think, thy ſinne may ouer-ſhoot this iudgment to come, and in thy madnes glorifie thy ſelf as thou haſt euer done, per<g ref="char:EOLhyphen"/>ſwading thy ſelfe thou ſhalt euer be, be<g ref="char:EOLhyphen"/>cauſe thou haſt bin long, and like a fool
+<pb n="26" facs="tcp:7106:28"/> haſt not co<g ref="char:cmbAbbrStroke">̄</g>ſidered, the more thy yeres the nigher thy graue; beholde, thus ſaith the truth; In the yere which ſhalbe 1666. this <note place="margin">Reuel. 13. 18.</note> iudgeme<g ref="char:cmbAbbrStroke">̄</g>t here pronounced ſhal lay hands on thee. And as al thy feareful wings, &amp; fe<g ref="char:EOLhyphen"/>thers, be alredy decended &amp; blowe<g ref="char:cmbAbbrStroke">̄</g> downe; ſo before that day (which is ſo nigh at hand) the tyrannie of thy malitious heads, and cruel clawes, ſhalbe conſumed and brought to nought. And in that day, thy vaine body ſhal be burnt with fire, &amp; ſhal ſo cleane be cut of from the land of the liuing, that nether ſonne nor nephew (as the Prophet ſaith) nor branch nor rem<g ref="char:EOLhyphen"/>nant <note place="margin">Eſay. 14. 22. Eſay. 14. 24.</note> of thy name, ſhal be found vpon the earth. <hi>For as it is purpoſed, ſo ſhal it come to pas; &amp; as it is conſulted, it ſhal ſtand.</hi> Goe to now, take counſel of thy Seers, &amp; call thy inchanters about thee; build thy deuiſes as high as heauen, &amp; lay their foundations low as hel, yet ſhal they not deliuer thee from the day apointed: but as <hi>Salmanazar</hi> deſtroyed <hi>Beth-arbel</hi> in the day of battel, wherin the mother with the children was daſht in peeces; or like the milſtone, which the mightie Angel did caſt into the Sea, with ſuch violence ſhalt thou be throwen downe, &amp; be found no more.
+<pb facs="tcp:7106:29"/> And al hel ſhalbe moued at thy comming and prepare it ſelf, and raiſe vp al her dead againſt that day to meet thee, and al the Princes and Kings of Nations, whom thou haſt ſlaine with the cup of thy fornication; ſhal riſe out of their torments againſt thy coming, and at thy ſight ſhal wonder, and <note place="margin">Eſay 14, 10.</note> cry, and ſay vnto thee. <hi>Art thou become weak alſo as we? art thou become like one of vs? Is thy pomp bowed downe vnto the graue? end ar thy pleaſures departed like ours? and is the worme ſpred vnder thee, and do the wormes couer thee alſo? how art thou falen from heauen O Lucifer, ſonne of the mor<g ref="char:EOLhyphen"/>ning, which haſt caſt lots vpon the Nations? and ſaidſt in thine heart: I wil aſcend into heauen, and exalt my throne aboue, beſides the ſtarrs of God, and I wilſit vpon the mount, euen the holy mount of his Sanctuarie, and Congregation: I wil aſcend aboue the height of the clouds, and wil be like the moſt High.</hi>
+            </p>
+            <p>And al hel, which once did wonder, worſhip and kiſſe thy feet, beholding now thy nakednes, thy ſhame and iudgment, ſhal die for greefe of mind, and dying ſhal ſay. <hi>Is this the man that made th'earth to</hi> 
+               <note place="margin">Eſay 14.</note> 
+               <hi>tremble? and with his word did ſhake the
+<pb n="27" facs="tcp:7106:29"/> Kingdoms? that made the world a wildernes, and a waſt of the Cities therof?</hi> Then ſhalt thou lying in torment, death gnawing on thee, anſwer them and ſay. <hi>We haue erred</hi> 
+               <note place="margin">Wiſd. 5.</note> 
+               <hi>from the way of truth, and the light of righte<g ref="char:EOLhyphen"/>ouſnes hath not ſhined vpon vs, nor hath the Soone of vnderſtanding riſen ouer vs. We haue wearied our ſelues in the waies of wic<g ref="char:EOLhyphen"/>kednes, and we haue gone through dangerous pathes, but the way of the Lord we haue not knowen. What hath pride profited vs? or what profit hath the pomp of riches brought vs? al theſe things are vaniſhed like a ſhadow and as a poſt that paſſeth by.</hi> And caſting vp thy eie to heauen, ſhalt ſee the righteous ſtand in great boldnes before thee, and before the face of ſuch as tormented the<g ref="char:cmbAbbrStroke">̄</g>, and took away their labors, and thou ſhalt feare exceedinglie at the ſight of them, and be amaſed at their wonderful deliuerance, and die for greefe of mind, and dying ſhalt ſay. <hi>Theſe are they whome we ſometime had</hi> 
+               <note place="margin">Wiſd. 5.</note> 
+               <hi>in deriſion, and in a parable of reproche: we<gap reason="illegible" resp="#APEX" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> fooles thought their life madnes, and their end without honor. But how ar they counted a<g ref="char:EOLhyphen"/>mong the children of God, and their portion a<g ref="char:EOLhyphen"/>mong the Saintes?</hi>
+            </p>
+            <q>
+               <pb facs="tcp:7106:30"/>That al the earth may be re<g ref="char:EOLhyphen"/>freshed, <note place="margin">
+                  <g ref="char:V">Ʋ</g>erſe 46.</note> and come againe, as one deliuered from thy vio<g ref="char:EOLhyphen"/>lence, that she may hope for the iudgment &amp; mercy of him that made her.</q>
+            <p>And thy death ſhal comfort and refreſh the earth, and deliuer Syon from her great and violent oppreſſion: but their proſpe<g ref="char:EOLhyphen"/>rities may not long endure, as teſtifieth the <note place="margin">Chap. 12. 12. Ezech. 39</note> Prophet <hi>Daniel.</hi> For may <hi>Iſrael</hi> dwel ſafe, and the Kings of th'eaſt not know it? Nay verily, they ſhal ariſe, and come down like a ſtorme, and like a cloud ſhal couer the earth, and compas round the tents of the Saintes, and the beloued Citie, til fire diſ<g ref="char:EOLhyphen"/>cend from God out of heauen (as it is <note place="margin">Reuel. 20. 9.</note> written) and deuour them. And in thoſe daies ſhall be finiſhed the miſtery of God, fore-declared to his ſeruants the Prophets, and witneſſed by the mighty Angel which came downe from heauen, and ſtood vpo<g ref="char:cmbAbbrStroke">̄</g> the Sea, and vpon th'earth, and rayſed vp his hand &amp; voice to heauen, and ſware by
+<pb n="28" facs="tcp:7106:30"/> him that liueth for euer and euer. <note place="margin">Reuel. 10. Ezech. 39.</note> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. <hi>Beholde it is come, and it is done ſaith the Lord, this is the day whereof I haue ſpoken.</hi>
+            </p>
+            <p>For the hope of which day, the ſtones of <hi>Syon</hi> die day by day; tho litle eſteeming ſeuen thouſand deaths, in regarde of the precious aſſurance ingraue<g ref="char:cmbAbbrStroke">̄</g> in their breſts, that they ſhal then and in that day, behold the L. that hath ſo mercifully gathered the<g ref="char:cmbAbbrStroke">̄</g> fro<g ref="char:cmbAbbrStroke">̄</g> among the Nations; That hath ſo wonderfully preſerued them, from the ſor<g ref="char:EOLhyphen"/>cerie of <hi>Babylon,</hi> which hath deſtroyed all th'earth. That dayly leadeth them in and out, before the skorners, the couetous, &amp; fooliſh wiſe of this world, ſo prudently, and ſo inuiſibly, that they ſeeing are not ſeene, &amp; lyuing are not knowen. That hath beſtow'd on the<g ref="char:cmbAbbrStroke">̄</g>, a thouſand treaſors more then theſe, ſo ſecreatly, as no man ſuſpect<g ref="char:EOLhyphen"/>eth but they that haue the<g ref="char:cmbAbbrStroke">̄</g>. That hath ſo ſurely &amp; fully perſwaded them, that tho they now goe on their way weeping, yet they ſhal then returne againe with ioy, &amp; bring their ſheafs with them; and all the earth ſhall then knowe, which now is hid, howe much the Lord their
+<pb facs="tcp:7106:31"/> Redeemer loued them, and night and day, ſhal praiſe and magnifie the iuſt iudgment and mercie of him, that hath done al theſe things for them. Which day in due time, He that is Higheſt, ſhal manifeſt to al, He that is Prince and Lord aboue al, who only hath immortalitie, and dwelleth in the light, which none can attaine vnto, whom no man euer ſaw, nor can ſee, vnto whom be al honor and power euerla<g ref="char:EOLhyphen"/>ſting.</p>
+            <closer>Amen.</closer>
+            <epigraph>
+               <bibl>Zacha. 2. 7</bibl>
+               <q>Saue thy ſelfe O Zyon, thou that dwelleſt with the daughter of Babel.</q>
+            </epigraph>
+         </div>
+         <div type="part">
+            <pb n="29" facs="tcp:7106:31"/>
+            <p>
+               <hi>ANd thus (my L.) at length I am come a ſhore, deliuerd from a dangerous and ſcopulous Sea, as any is in al the Ocean of the Scriptures; praying, if I haue made too bolde t'impart my <g ref="char:V">Ʋ</g>oyage to your Lordſhip, you would be pleaſed t'aſcribe it, to the common humor of trauelers, who cannot chuſe but tel, what aduentures they haue paſt, and what wonders they haue ſeene: ſtrang and long were it, to tel your Ho. al I ſaw, and I fear in reſpect of your hours, I haue bin to long, to tel ſo much too much doubtles, in regard of my pen, which is ſo ſad, and ſo vncourtly, as were it not for that natural ingrauen noble curteſie, wherwith your Lp. is beautified aboue al co<g ref="char:cmbAbbrStroke">̄</g>pariſon, your H. might not endure her plain and careles apparation. And ſo moſt humbly co<g ref="char:cmbAbbrStroke">̄</g>mending my Seruice to your H. diſpoſing, take a ſhorter leaue then els I would, becauſe I am ſetting foorth to Sea againe, in hope God<g ref="char:EOLhyphen"/>willing (if breade and water faile me not) to diſcouer the Reuelation, and to make knowen to my Gratious Soueraigne Princes, that I alſo amongſt the reſt, may be bolde to ſpeake, tho I care not to be knowen.</hi>
+            </p>
+            <pb facs="tcp:7106:32"/>
+            <pb facs="tcp:7106:32"/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,685 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Our Ladie hath a new sonne</title>
+            <author>C. N., fl. 1595.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1595</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 91 KB of XML-encoded text transcribed from 52 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A07957</idno>
+            <idno type="STC">STC 18326</idno>
+            <idno type="STC">ESTC S113033</idno>
+            <idno type="EEBO-CITATION">99848274</idno>
+            <idno type="PROQUEST">99848274</idno>
+            <idno type="VID">13358</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A07957)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 13358)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 324:10)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Our Ladie hath a new sonne</title>
+                  <author>C. N., fl. 1595.</author>
+               </titleStmt>
+               <extent>[20], 80, [4] p.   </extent>
+               <publicationStmt>
+                  <publisher>By the English secret press] Cum preuilegio,</publisher>
+                  <pubPlace>Printed at Dowaie [i.e. England :</pubPlace>
+                  <date>1595.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"To the reader" signed: C.N.</note>
+                  <note>The imprint is false; in fact printed in England by the secret press (STC).</note>
+                  <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>John, --  the Apostle, Saint.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-04</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-06</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2013-06</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:13358:1"/>
+            <pb facs="tcp:13358:1"/>
+            <p>
+               <hi>OVR</hi> LADIE HATH A NEW <hi>SONNE.</hi>
+            </p>
+            <q>
+               <bibl>APOCALIP. 3.</bibl>
+               <p>
+                  <hi>I will write my new name on him which ſhall ouercome.</hi>
+               </p>
+            </q>
+            <p>PRINTED AT DOWAIE. <hi>CVM PREVILEGIO. 1595.</hi>
+            </p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:13358:2"/>
+            <pb facs="tcp:13358:2"/>
+            <head>TO THE RIGHT VER<g ref="char:EOLhyphen"/>tuous as Honourable Ladie, the <hi>Ladie M. C. A. health and encreaſe of Honour.</hi>
+            </head>
+            <p>
+               <hi>RAchell,</hi>
+               <note n="a." place="margin">Gen. 30.35.</note> the wife of <hi>Iſra<g ref="char:EOLhyphen"/>ell,</hi> had two ſonnes, <hi>Ioſeph,</hi> and <hi>Beniamin,</hi>
+               <note n="b." place="margin">Iohn. 19.</note> 
+               <hi>Mary</hi> the ſpouſe, not of <hi>Iſraell,</hi> that is of one which ſee God, but of God himſelfe had likewiſe two Sons, <hi>Ieſus</hi> and <hi>Iohn:</hi> the Mother of the firſt was a figure of the laſt Mother, and their Children not vnfitly to bee compared toge<g ref="char:EOLhyphen"/>ther.</p>
+            <p>
+               <hi>Rachell</hi> ſignifieth a ſheepe, and <hi>Marie</hi>
+               <note n="c." place="margin">Iohn. 1.</note> broght a Lamb into the world, a Lambe which tooke a<g ref="char:EOLhyphen"/>way the ſinnes of the world.</p>
+            <p>
+               <hi>Ioſeph</hi> the firſt begotten of <hi>Ra<g ref="char:EOLhyphen"/>chell,</hi> becauſe of his dreames, which ſignified a ſuperiority hee
+<pb facs="tcp:13358:3"/>ſhould haue ouer all his brethe<g ref="char:EOLhyphen"/>ren, grew ſo odious vnto them, that they ſought opportunitie to kill him, and in the end was ſold to the <hi>Egiptians</hi> for thirty pence by <hi>Iudas.</hi>
+            </p>
+            <p>Ieſus the firſt begotten of <hi>Ma<g ref="char:EOLhyphen"/>ry,</hi> becauſe the Iewes feared hee ſhould be King ouer them, being mightie not in dreames,
+<note n="a." place="margin">Luk. 24</note> but in worke and worde, became ſo much hated amongſt them, al<g ref="char:EOLhyphen"/>though he were a Iew borne, &amp; one of their brethren, that they thought it long vntil they crucifi<g ref="char:EOLhyphen"/>ed him: but he was firſt ſold
+<note n="b." place="margin">Mat. 26</note> by a <hi>Iudas</hi> alſo for 30 pence, yet did they no more preuaile in preue<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>ting what they feared in him, the<g ref="char:cmbAbbrStroke">̄</g> did <hi>Ioſeph</hi> his brethren,
+<note n="c." place="margin">Gen. 44.</note> who af<g ref="char:EOLhyphen"/>terward were forced to bow vn<g ref="char:EOLhyphen"/>to him, for hee had as glorious a name, &amp; did more worthely de<g ref="char:EOLhyphen"/>ſerue it, than did <hi>Ioſeph,</hi>
+               <note n="d." place="margin">Gen. 41</note> who
+<pb facs="tcp:13358:3"/>was accounted and ſo called by the <hi>Egiptians:. The Sauiour of the world.</hi>
+               <note n="a." place="margin">Gen. 35.</note> 
+               <hi>Beniamin</hi> the ſccond ſonne of <hi>Rachell,</hi> when his Mo<g ref="char:EOLhyphen"/>ther was to be deliuered of him came with ſuch defficulty into the world, that it was thought neyther ſhee coulde haue li<g ref="char:EOLhyphen"/>ued to haue beene diſburdned, nor hee likelier to bee borne to breath, than to bee buried, in ſo much that beeing in the middeſt of her panges of death, ſhee cal<g ref="char:EOLhyphen"/>led his name <hi>Benoin,</hi> which is as much to ſay, as the ſon of my ſor<g ref="char:EOLhyphen"/>row. But with what great ſorow our.
+<note n="b." place="margin">Mark. 1.</note> bleſſ. Lady trauailed whe<g ref="char:cmbAbbrStroke">̄</g> ſhe was to be deliuered of <hi>Ioh.</hi> it ſhall appeare in the diſcourſe fol<g ref="char:EOLhyphen"/>lowing, where the danger was not onely of the life of the mo<g ref="char:EOLhyphen"/>ther &amp; a ſonne, but of life it ſelfe, which liuing as gratiouſly gaue e<g ref="char:EOLhyphen"/>uery one their life, as dying rede<g ref="char:EOLhyphen"/>med
+<pb facs="tcp:13358:4"/>gloriouſly each one from death, that had not <hi>Iohn</hi> been verie filty named before his birth, his Mo<g ref="char:EOLhyphen"/>ther might haue rightly called him <hi>Benoin,</hi> and vppon greater cauſe then <hi>Rachell</hi> called hers.</p>
+            <p>His name was <hi>Iohn,</hi> and ſo it remaineth ſtill. <hi>Iohn</hi> that is to ſay, to whom is giuen, &amp; nothing named what is giuen: we are to vnderſtande ſome excellent gift, the like whereof was neither be<g ref="char:EOLhyphen"/>fore nor ſince giuen to any man.
+<note n="a." place="margin">Iohn. 19.</note> God gaue himſelfe to our bleſſed Lady, and then gaue her to <hi>Iohn,</hi> and by this gift of her to him, &amp; him againe to her by the ſonne of God, is he borne a new into this world, and made our Lady her ſonne.</p>
+            <p>This birth of Saint <hi>Iohn,</hi> toge<g ref="char:EOLhyphen"/>ther with his breeding I preſent vnto you, and rather this than a<g ref="char:EOLhyphen"/>nie
+<pb facs="tcp:13358:4"/>other thing of his life, becauſe it ſeemeth a matter touching moſt his honour, and a dignitie much paſſing all his titles, to bee the ſonne of her, who only was thought meete and was the Mo<g ref="char:EOLhyphen"/>ther of God.</p>
+            <p>His conception I ſuppoſe was at his mariage in <hi>Cana</hi> of <hi>Galile,</hi>
+               <note place="margin">Iohn. 2</note> and
+<note n="a." place="margin">Iohn. 19</note> his birth at Chriſt his Paſ<g ref="char:EOLhyphen"/>ſion vppon the mount <hi>Caluarie,</hi> the beſt of both which places, were an homely preſence for a<g ref="char:EOLhyphen"/>ny Honourable perſonage, but ſince that GOD himſelfe made his choice of
+<note n="b." place="margin">Luk. 1.</note> a Carpenters ſpouſe, to ſet vp the frame of his owne moſt bleſſed body, right well may it beſeeme one of what dignitie ſoeuer to bee preſent at the labour of a poore Carpen<g ref="char:EOLhyphen"/>ter.</p>
+            <p>Preſuming therefore of your
+<pb facs="tcp:13358:5"/>vſuall fauoring good endeuours, whoſe outward actions, as well as inward intentions neuer ſauo<g ref="char:EOLhyphen"/>red any other. I will vſe no fur<g ref="char:EOLhyphen"/>ther perſwations to forward a gratious acceptance of a ſlender trauaile in ſo worthy a labor, and forbeare to hold you with anie longer pre<g ref="char:EOLhyphen"/>face.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:13358:5"/>
+            <head>TO THE READER.</head>
+            <p>IF that may worthelie be iudged true, which is not onely diſcoue<g ref="char:EOLhyphen"/>red by common practiſe; but alſo diſfigured by holy Scripture, that where a mans treaſure doth lie,
+<note place="margin">Luke. 12.</note> there his heart doth liue: this trea<g ref="char:EOLhyphen"/>tiſe it ſelfe will diſpoſe the vertu<g ref="char:EOLhyphen"/>ous to a fauorable cenſure, and a friendly conſtruction of whatſoe<g ref="char:EOLhyphen"/>uer ſhall eyther ſound harſh in the eare, or ſeeme hard in the Hiſtory: But bycauſe that ſome tooched with a ſuperfluous deuotion do ſeeme to doubt, and other troubled with a ſpirit of contradiction doe ſloutlie denay that in the mariage mentio<g ref="char:EOLhyphen"/>ned in the Goſpell
+<note n="a." place="margin">Iohn. 2</note> the Euangeliſt himſelfe was the bridegroome, I haue made choice of a late writer, but very learned, who is no leſſe pregnant in giuing antiquities,
+<pb facs="tcp:13358:6"/>then curious in recording them, one aduerſarie ſo mightie, as hee ha<g ref="char:EOLhyphen"/>uing the mate, all the reſt may reſt mute.</p>
+            <p>
+               <hi>Caeſar Baronius</hi> the light of this,
+<note place="margin">Lib. 1. pag. 121.</note> and life of former ages, in his Eecleſiasticall Historie is of opi<g ref="char:EOLhyphen"/>nion, that in that famous mariage in <hi>Cana</hi> of <hi>Galile</hi> Saint <hi>Iohn</hi> the Euangeliſt was not the bride<g ref="char:EOLhyphen"/>groome: which firſt confirmeth with the authoritie of
+<note n="a." place="margin">Epiſt. ad Philan.</note> 
+               <hi>S. Ignati<g ref="char:EOLhyphen"/>us,</hi>
+               <note n="b." place="margin">lib. 1. ad<g ref="char:EOLhyphen"/>uer. Ioui.</note> 
+               <hi>S. Hierome,</hi>
+               <note n="c." place="margin">tract. vlt. in Ioa.</note> 
+               <hi>S. Augu<g ref="char:EOLhyphen"/>ſtine,</hi>
+               <note n="d." place="margin">in vita. 5 Ioa.</note> 
+               <hi>Abdias,</hi> and
+<note n="e." place="margin">Hereſ. 58</note> 
+               <hi>Epipha<g ref="char:EOLhyphen"/>nius:</hi> Secondly with this reaſon, that doubtleſſe neyther <hi>Iouinian</hi> would haue forgotten that <hi>S. Iohn</hi> was maried, nor the <hi>Manichees</hi> conceale that Chriſt called him fro<g ref="char:cmbAbbrStroke">̄</g> mariage, who vrged the example of <hi>S. Paul</hi> and <hi>Tecla:</hi> eyther of them hauing by this ſomewhat to ſay for themſelues, the one againſt
+<pb facs="tcp:13358:6"/>Virginitie, the other againſt the Sacrament of mariage.</p>
+            <p>But vnder correction of ſo wor<g ref="char:EOLhyphen"/>thie an Antiquarie, neither doth <hi>S. Ignatius</hi> ſay otherwiſe, then that <hi>S. Iohn</hi>
+               <note n="a." place="margin">Non de. dit operam nuptiis.</note> 
+               <hi>did not giue himſelfe to mariage</hi> as <hi>S. Peter</hi> did, (which no man affirmeth) nor <hi>S. Hierome,</hi> then that it cannot bee prooued out of the Scriptures, that any of the Apostles were maried but <hi>Peter,</hi> (which no man denyeth) nor ſaint <hi>Auguſt.</hi> then that others thought that ſaint <hi>Iohn</hi> was neuer mari<g ref="char:EOLhyphen"/>ed, which he ſaith cannot be proued out of the Scripture, although it may be ſomewhat confirmed by this congruence, that by him that life is ſignified, where ſhalbe no mariage; but if we ſhall ſay,
+<note place="margin">Apocalip. 19.21.</note> that the Scrip<g ref="char:EOLhyphen"/>tures doe mention a mariage of the Lambe, and how that euery bleſſed ſoule ſhalbe eſpouſed vnto Chriſt,
+<pb facs="tcp:13358:7"/>that life may much better bee perfi<g ref="char:EOLhyphen"/>gured in <hi>Iohn</hi> beeing maried, and remaining chaſt, then if hee were not maried. As for <hi>Abdias,</hi> if his authoritie be to be reckoned of, hee ſaith only that Saint <hi>Iohn</hi> woulde haue maried, and Saint <hi>Epiphani<g ref="char:EOLhyphen"/>us</hi> that he did not marrie, for the better vnderſtanding of whom, we are to conſider a cuſtome which was among the Iewes for their ma<g ref="char:EOLhyphen"/>riages.</p>
+            <p>VVhen a couple were to be mari<g ref="char:EOLhyphen"/>ed, a ſolemne meeting was made of their friendes, before whome the names of the couple were taken, &amp; the maiden afterward caried backe to her Parents houſe, where ſhe re<g ref="char:EOLhyphen"/>mained vntill the mariage ſhoulde be perfected: During which time they were accounted as man and wife, in ſo much as if the woman did offend with any man, ſhee was
+<pb facs="tcp:13358:7"/>puniſhed not as a fornicatrix, but as an adultres. Thus writeth
+<note n="a." place="margin">Lib. de ſpecial. le<g ref="char:EOLhyphen"/>gis.</note> 
+               <hi>Philo</hi> the Iew vppon his comman<g ref="char:EOLhyphen"/>dement: <hi>Thou ſhalt not commit Adultrie.</hi> In this ſort was our B. Ladie married, who is ſaid to haue an husband at the Incarnation of our Sauiour, &amp; as yet was in her Parents houſe, from <hi>Ioſeph</hi> as may appeare in the text of the
+<note n="b." place="margin">Mat. 1.</note> Goſ<g ref="char:EOLhyphen"/>pell, vpon which place <hi>Origine</hi> in an Homilie, &amp; S. <hi>Hierome</hi> in his Commentarie call her <hi>Ioſephs wife which ſhalbe.</hi>
+               <note n="c." place="margin">Vxoris futurae.</note> By this cu<g ref="char:EOLhyphen"/>ſtome, and example we ſee that di<g ref="char:EOLhyphen"/>uerſe men may ſpeak diuerſly of the ſame matter, &amp; no contradiction betweene the<g ref="char:cmbAbbrStroke">̄</g>, but in words only, for ſo doth S. <hi>Epiphanius,</hi> ſay that S. <hi>Iohn</hi> did not marry in reſpect that Chriſt altered his minde from that courſe of life, before that he &amp; his ſpouſe were ech in others poſſeſsion.</p>
+            <pb facs="tcp:13358:8"/>
+            <p> So doth <hi>Abdias</hi> ſay only that S. <hi>Iohn</hi> would haue maried, had not Chriſt called him from that kinde of life. So dooth ſaint <hi>Hie<g ref="char:EOLhyphen"/>rome</hi> ſay both
+<note n="a." place="margin">Prolog. in Apoca.</note> that hee woulde haue maried, and
+<note n="b." place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>th. 1. ad<g ref="char:EOLhyphen"/>ued. Ioui.</note> that hee was an husband.</p>
+            <p>As for <hi>Iouinian,</hi> and the <hi>Mani<g ref="char:EOLhyphen"/>ches,</hi> they coulde not but ſee that this example did rather confute, than confirme their opinions, and therfore they had little cauſe to re<g ref="char:EOLhyphen"/>member it, for here both virginitie was preferred before mariage, and mariage notwithſtanding allowed to be good, both by our Sauiour his preſence, and by that which hee did at the mariage, howſoeuer the <hi>Ma<g ref="char:EOLhyphen"/>niches</hi> cauiled at that fact of ſaint <hi>Paul</hi> with <hi>Thecla.</hi>
+            </p>
+            <p>
+               <note n="b." place="margin">Lib. 8. hiſt. eccle. cap. 30</note> 
+               <hi>Nicephorus</hi> might breede a ſcrouple, when deſcribing Queene <hi>Helens</hi> viſitation of the holy land,
+<pb facs="tcp:13358:8"/>hee ſaith, that in this mariage S. <hi>Simon</hi> the Apoſtle was the bride<g ref="char:EOLhyphen"/>groome, but that vndertaking to certifie vs in
+<note n="a." place="margin">Lib. 2. cap. 44.</note> an other place, who of the Apoſtles were maried, he neuer nameth ſaint <hi>Simon,</hi> but rather leaueth ſome cauſe to thinke that <hi>S. Iohn</hi> was maried: yet doth
+<note n="b." place="margin">pag. 121</note> 
+               <hi>Caeſar Baronius</hi> encline vnto him, againſt whome (to omit what he alleaged againſt vs) is his owne opinion, that verie probablie in this mariage ſome kinſman of Chriſt was the bridegroome, and no man euer ſaid that S. <hi>Simon</hi> was our Lords kinſman, but ſuch as vppon errour tooke ſaint <hi>Simon</hi> the Apo<g ref="char:EOLhyphen"/>ſtle to be ſaint <hi>Simon,</hi> who ſuccee<g ref="char:EOLhyphen"/>ded ſaint <hi>Iames</hi> at <hi>Hieruſalem.</hi>
+            </p>
+            <p>How much more plainly &amp; con<g ref="char:EOLhyphen"/>ſtantly doe they write, who ſay that ſaint <hi>Iohn</hi> was maried, or woulde haue maried? both which phraſes
+<pb facs="tcp:13358:9"/>may be vſed indifferently of thoſe, whoſe names were taken at the ſo<g ref="char:EOLhyphen"/>lemne meeting of their friendes, as is ſhewed before by <hi>Phylo</hi> the Iew, and the example of our bleſſed La<g ref="char:EOLhyphen"/>die.</p>
+            <p>
+               <hi>Abdias</hi> and <hi>Saint Hierome</hi> are before cyted
+<note n="a." place="margin">Prolog<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> in Ioan.</note> 
+               <hi>Saint Auguſtine</hi> ſaith, that Chriſt called him from the troubleſome ſtate of mariage, <hi>Saint Bede</hi> vppon thoſe words <hi>fol<g ref="char:EOLhyphen"/>low thou me,</hi>
+               <note place="margin">Ioan. 21.</note> ſaith that Histories do mention that <hi>Saint Iohn</hi> would haue married, and thereupon con<g ref="char:EOLhyphen"/>cludeth, that becauſe Chriſt with<g ref="char:EOLhyphen"/>drewe him from a Carnall delight, he recompeaſed him with the grea<g ref="char:EOLhyphen"/>ter ſweetnes of his loue.
+<note n="b." place="margin">Lib. 3. lit. cap. 25. lib 4. lit. 15 cap. 38.</note> Saint <hi>Anthonie</hi> is of opinion that this was his mariage.
+<note n="c." place="margin">duica. 2. poſt Epi.</note> 
+               <hi>Roiard</hi> alſo and <hi>Ierus</hi> vppon thoſe wordes
+<note n="d." place="margin">Iohn. 19</note> 
+               <hi>Behold thy Mother,</hi> among the thinges which <hi>Saint Iohn</hi> forſooke
+<pb facs="tcp:13358:9"/>to follow Chriſt reckoneth his wife <hi>Ludolphus</hi> &amp; <hi>S. Bonauenture</hi> vppon the life of Chriſt.
+<note n="a." place="margin">Lib. 2. di<g ref="char:EOLhyphen"/>ol, cap. 12.</note> 
+               <hi>Alane Cope</hi> cyteth <hi>Metaphraſtes</hi> and <hi>S. Bede,</hi> and <hi>Lyra</hi> vppon the ſecond Chap of Saint <hi>Iohn</hi> ſaith, it was the common opinion of all men, &amp; that herevppon it was practiſed throughout all the world; that any (although married) might leaue their ſpouſe, before their mariage were conſummated, without far<g ref="char:EOLhyphen"/>ther leaue, to betake themſelues to a chaſte life.</p>
+            <p>Many coniectures might alſo be made, why this ſhuld be thought <hi>Saint Iohns</hi> mariage as firſt be<g ref="char:EOLhyphen"/>cauſe our bleſſed Lady was preſent, and as a coadiutrix: Secondly be<g ref="char:EOLhyphen"/>cauſe Chriſt manifeſting himſelfe here firſt to the world by miracle, and making his Diſciples thereby beleeue in him, no other Euangeliſt
+<pb facs="tcp:13358:10"/>would mention a thing ſo worthie to be recorded: Thirdly becauſe it was moſt meet that a virgin a wife ſhould be committed to a virgin a husband in keeping:
+<note place="margin">Iohn. 2.19</note> Fourthly, S. <hi>Iohn</hi> only making mention as well of this mariage, as alſo of his com<g ref="char:EOLhyphen"/>mitting to our Lady and hers to him, we are to think that he would giue vs to vnderſtand, that ſome great miſterie was begun at the one and finiſhed at the other, as both
+<note n="a." place="margin">Prolog. in Ioa.</note> S, <hi>Auguſtine</hi> and
+<note n="b." place="margin">Prolog in Apocal.</note> Sa. <hi>Hierome</hi> compare them together: but for breuities ſake theſe, and other are omitted, &amp; the diſcourſe commit<g ref="char:EOLhyphen"/>ted to the iudgment of the indiffe<g ref="char:EOLhyphen"/>rent.</p>
+            <closer>
+               <signed>C. N.</signed>
+            </closer>
+         </div>
+         <div type="errata">
+            <pb facs="tcp:13358:10"/>
+            <head>Faults eſcaped in the Authors abſence, by reaſon they wer not perfect in the Engliſh tongue.</head>
+            <div type="part">
+               <head>In the Epiſtle Dedicatorie.</head>
+               <p>For Benoin read Benoni.</p>
+            </div>
+            <div type="part">
+               <head>In the Epiſtle to the Reader.</head>
+               <p>Page 1. and line 4. for diſfigured, reade adiſciphered, and in the 21 line, for giuing 2. ntiquities, read prouing antiquities.</p>
+               <p>P. and 11. line, firſt confirmeth, read firſt he confirmeth.</p>
+               <p>in the note for ad Philan, read ad Philad,</p>
+               <p>5. p. and third line, vppon his comman<g ref="char:EOLhyphen"/>dement, read vpon this commandement.</p>
+               <p>7. p. and is line, for Simion read Simeon.</p>
+               <p>8. p. and 19 line, for Antonie read Anto<g ref="char:EOLhyphen"/>nine.</p>
+               <p>Lib. 3. lit. cap. 25. read Lib. 3. Tit. 1. cap. 15. in the 11. line for Ierus read Ferus.</p>
+            </div>
+            <div type="part">
+               <head>In the diſcourſe.</head>
+               <p>5. p. for wert bidden, read art bidden.</p>
+               <p>7. p. and 13. line for expreſſe them, reade, oppreſſe thee.</p>
+               <p>10. p. and 14. line, for no men but, reade, no men, what then but,</p>
+               <p>15. p. and 18. line, for nurſed thee with read nurſed thee, with.</p>
+               <p>heauines, ſhe fled read beauines ſhe fled.</p>
+               <p>18. p. and 23. his flight, read his ſlight?</p>
+               <p>e 19. p. and 14 line for whether ſhall I end ad where ſhall I end.</p>
+               <p>b 23. p. and the leaueth line, for wicked argaine, read wicked bargaine?</p>
+               <pb facs="tcp:13358:11"/>
+               <p> 26 p, and 7, line for that therby they, read that they.</p>
+               <p>27. p. and 17 line for die yee ſhall, reade die he ſhall</p>
+               <p>28 and 9. line gaue him read giue him.</p>
+               <p>29 22 for lightning read lighting,</p>
+               <p>31. p: and 5 line for yeeldeth hee read yet yeldeth he, forced and conſtrained, reade conſtrained.</p>
+               <p>33 p. and the 13 line for profits read pro<g ref="char:EOLhyphen"/>fiteth.</p>
+               <p>34 p, and 6, line for if one offence, reade is one offence,</p>
+               <p>36 p. and 2. line no other death, reade no death,</p>
+               <p>38 and the 2, line for game read gaine,</p>
+               <p>49 p, and 1 line for great ſhame, reade with ſo great ſhame,</p>
+               <p>52, p and 2, line for acquite he, read ac<g ref="char:EOLhyphen"/>quite him, he for although the reade as though the, for of them as read of, then as for called from the earth, read exalten fro<g ref="char:cmbAbbrStroke">̄</g> the earth,</p>
+               <p>61 p, and 4 line for meane ey the, reade meane by the, for dureſt not, read dooeſt not, for or other wiſe ſhe, reade as other<g ref="char:EOLhyphen"/>wiſe ſhe.</p>
+               <p>69 pa, and <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, line for all God, read all good,</p>
+               <p>72 p, and 12 line, for my walkes, reade my walles.</p>
+               <p>73 p, and 23 line, for a eteranall reade an eternall,</p>
+               <p>78 p. and 20 line for that he had, reade that ſhe had.</p>
+            </div>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:13358:11"/>
+            <head>OVR LADY HATH A <hi>NEVV SONNE.</hi>
+            </head>
+            <p>
+               <hi>THere was a mariage made in Cana of Galile,</hi>
+               <note place="margin">Iohn. 2.</note> 
+               <hi>and the Mo<g ref="char:EOLhyphen"/>ther of Ieſus was there, &amp; Ie<g ref="char:EOLhyphen"/>ſus alſo was called and his Diſciples to the mariage,</hi> where eyther in reſpect of the miracle wrought in turning water into wine, or by eſpeciall inſpiration, an inuiſible conuerſion of a married man in<g ref="char:EOLhyphen"/>to a vowed Maiden, Saint <hi>Iohn</hi> began to follow Chriſt, forſaking his Spouſe, and deuote himſelfe wholly to his loue and ſeruice.</p>
+            <p>He was then priuately taught by the Holy Ghoſt, that which was afterward publiquely prea<g ref="char:EOLhyphen"/>ched by Saint <hi>Paul,</hi>
+               <note place="margin">1. Cor. 7.</note> 
+               <hi>he that is with<g ref="char:EOLhyphen"/>out a wife is carefull for the thinges which pertaine to our Lord: but he which is with a wife is carefull for the thinges which pertaine to the
+<pb n="2" facs="tcp:13358:12"/>world, how hee may pleaſe his wife, and he is deuided.</hi>
+            </p>
+            <p>Yet that we ſhould vnderſtand howe lawfull and Honourable a ſtate mariage is, not onely Chriſt, but his Mother alſo, and his Diſci<g ref="char:EOLhyphen"/>ples were preſent, that ſuch as comming after condemned it as a thing deuiſed by the deuil, ſhuld by this act of his be more eaſilie ſuppreſſed.</p>
+            <p>They eate, they drinke, they are merrie and ſpend their time pleaſantly &amp; no man wondereth:
+<note n="a." place="margin">Math. 9.</note> for neither can the Children of the Spouſe, ſo long as hee is with the<g ref="char:cmbAbbrStroke">̄</g> mourne, nor as yet the day is come wherein his abſence ſhall cauſe them to faſt, neuertheleſſe they haue ſome want of wine.</p>
+            <p>But how hapneth it ſweet Lord that where thou wert, there was want? Can hee which
+<note n="a." place="margin">Prou. 8.</note> findeth thee, findeth life, and yet want
+<pb n="3" facs="tcp:13358:12"/>ſuch thinges as are neceſſarie for the maintenance of his life? or canſt thou bee preſent and ſuffer that there ſhould he want? In
+<note n="b." place="margin">Math. 15.</note> deſartes thou canſt finde enough to ſatiſfie thouſandes, here are but few at this mariage, and yet there is great want.</p>
+            <p>True it is that the wine failed, but the gueſts fainted not: there was want but they felt it not: be<g ref="char:EOLhyphen"/>cauſe that Chriſt was preſent to ſupply their want. If they would haue drunke water, there could not haue bin any want, for there was
+<note n="c." place="margin">Cantic. 4</note> a Well ſtanding by them full of waters of life: but they deſired wine
+<note n="d." place="margin">Ephe. 5</note> in which is luſt, &amp; therefore although that Chriſt were preſent they had what to want: yea therefore they wan<g ref="char:EOLhyphen"/>ted wine, becauſe that hee was preſent.</p>
+            <p>But ſince that at the ſolemni<g ref="char:EOLhyphen"/>zing
+<pb n="4" facs="tcp:13358:13"/>of mariages, nothing is more intended than mirth,
+<note n="a." place="margin">Pſa. 103.</note> &amp; mirth is moſt procured by wine, no wo<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>der if here be complaint of want, ſince that they haue no wine.</p>
+            <p>O <hi>Iohn!</hi> what did you when you inuited Chriſt vnto your ma<g ref="char:EOLhyphen"/>riage and his mother? you promi<g ref="char:EOLhyphen"/>ſed them a feaſt, &amp; were not able to giue them to drinke. Thirſt af<g ref="char:EOLhyphen"/>flicteth him more than hunger, &amp; his Mother telleth him there is no wine.
+<note n="b." place="margin">Iohn. 4.</note> So hee ſate panting on the ſide of the Well, ſaying: <hi>VVoman giue me to drinke.</hi>
+               <note n="c." place="margin">Iohn. 19.</note> So he hung fainting on the wood of the Croſſe crying out <hi>I thirſt,</hi> and what neede ſoeuer now hee ſhoulde haue had there is no wine.</p>
+            <p>But (O moſt louing LORD) who is able to feaſte thee with<g ref="char:EOLhyphen"/>out thee? If thou make not the Feaſte thy ſelfe to which thou
+<pb n="5" facs="tcp:13358:13"/>wert bidden, thou ſhalt haue but ſimple entertainment: But pardon this boldneſſe of thy Diſ<g ref="char:EOLhyphen"/>ciple, whoſe hart his loue to thee and to thy Mother did ſo occu<g ref="char:EOLhyphen"/>pie that hee minded not his ma<g ref="char:EOLhyphen"/>riage, and hauing himſelfe wher<g ref="char:EOLhyphen"/>on to feede and quench his thirſt, hee attended not to ſatiſfie others appetites. Hee had drunke wine with milke, for hee was as yet a little one: hee had harkned vnto thy voice, and followed thyne aduice.
+<note n="a." place="margin">Cantic. 5</note> 
+               <hi>Eate my friendes and drinke and bee ouercome my deareſt beloued:</hi> Yet did hee ſo follow thy counſell in this, that hee forgat not thine admonition giuen at an other time,
+<note n="b." place="margin">Iſai. 29.</note> 
+               <hi>be drunk but not with wine, be moooued and not with drunkennes,</hi> for behold thy Mother ſayth, <hi>they haue no wine.</hi>
+               <note place="margin">Iohn. 2.</note>
+            </p>
+            <p>O <hi>Mary!</hi> what neede is there
+<pb n="6" facs="tcp:13358:14"/>of any wine? are not thy breaſtes better than wine? If wine be deſi<g ref="char:EOLhyphen"/>red for the excellencie of the co<g ref="char:EOLhyphen"/>lour, and beautie thereof,
+<note n="d." place="margin">Canti. 4.</note> 
+               <hi>thy breaſtes are fayrer than anie wine.</hi> If wine be wiſhed for the pleſant odour it hath
+<note n="a." place="margin">Cant. 1.</note> 
+               <hi>the ſent of thy breaſtes is more fragrant than the moſt precious &amp; costly Oyntments.</hi> If wine be thirſted after for anye ſtrength it giueth to them which drinke it,
+<note n="b." place="margin">Cant. 1.</note> 
+               <hi>thy breaſtes are better tha<g ref="char:cmbAbbrStroke">̄</g> any wine:</hi> which gaue ſtrength not to man onely, but vnto God himſelfe, and who ſo knowing whome thy breaſtes haue nouri<g ref="char:EOLhyphen"/>ſhed, ſhould ſeeke to fill them<g ref="char:EOLhyphen"/>ſelues with wine, they are vnwor<g ref="char:EOLhyphen"/>thy to bee beholding vnto him, which longed ſo much to enioy the pleaſure of them, that being a moſt mighty King, hee became in manner a begger, and hauing gi<g ref="char:EOLhyphen"/>uen to euery thing their beeing,
+<pb n="7" facs="tcp:13358:14"/>
+               <note n="c." place="margin">Phil. 2.</note> made himſelfe almoſt nothing, feeling neyther want of wine, nor of any thing elſe, when hee founde himſelfe ſucking at them, yet findeſt thou a want becauſe there is no wine.</p>
+            <p>O <hi>Mary!</hi> why doeſt thou de<g ref="char:EOLhyphen"/>ſire that there ſhould bee more wine? Knoweſt thou not that when that vine is ripe and readie to be gathered, which ſaide of it ſelfe.
+<note n="a." place="margin">Ioan. 15.</note> 
+               <hi>I am the true vine,</hi> thy ſor<g ref="char:EOLhyphen"/>rowes wil expres them, of which alſo thine exceeding great woe wil threaten an end,
+<note n="b." place="margin">Luke, 2.</note> 
+               <hi>&amp; a ſword of griefe ſhall pierce thy ſoule,</hi> and commeſt thou to thy ſon to com<g ref="char:EOLhyphen"/>plaine that there is want of wine? What haſt (Mother of pitty) what haſt of thy ſon his death? he is on<g ref="char:EOLhyphen"/>ly the vine of which wee muſt hope for wine, after which wee ſhall neuer thirſt againe: where<g ref="char:EOLhyphen"/>fore in demaunding a full ſupplie
+<pb n="8" facs="tcp:13358:15"/>of wine, what askeſt thou els but thy ſonne his death?</p>
+            <p>Was it agreed vppon betwixt thee and <hi>Iohn,</hi> that if thy Sonne would die thou ſhouldeſt adopt <hi>Iohn</hi> to thy ſonne, and therefore commeſt in ſuch haſte to thyne owne ſonne, ſaying, they haue no wine?</p>
+            <p>Surelye thou gaueſt heere a pledge of more Motherlie loue to <hi>Iohn</hi> than to thine own ſonne, and
+<note n="a." place="margin">Iohn. 19.</note> at thy ſonne his death wee ſee that <hi>Iohn</hi> became thy Sonne, what reaſon els had thy ſonne to giue thee ſo ſhorte an anſwere, as to ſay:
+<note place="margin">Iohn. 2.</note> 
+               <hi>VVoman what haue I to doe with thee?</hi> Why did hee not call thee Mother, but that thy ſpeech did bewray thy deſire to chaunge thy ſonne?</p>
+            <p>If thy Mother (moſt ſweete Lord) had any ſuch vnnaturall meaning toward thee, that loue
+<pb n="9" facs="tcp:13358:15"/>aboue nature which made thee intend an act ſo much vnworthy thy perſon, made her alſo forget her ſelfe: Loth I dare boldly ſay ſhe was to part with thee, but her exceſſiue charitie preferred a co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>mon profit, before her priuate comfort, and
+<note n="b." place="margin">Luk. 2.</note> ſhee remembred when ſhee loſt the laſt, in three dayes ſhe found thee againe, and in hope of like good hap ſhee is the more willing to parte with thee, and becauſe thy ſelfe haſt ſo appointed it.</p>
+            <p>If none had loued <hi>Iohn</hi> but <hi>Mary,</hi> ſome cauſe might haue bin demanded of that loue, but ſince that hee was the Diſciple whoſe name was to be
+<note n="a." place="margin">Iohn. 21.</note> 
+               <hi>whom Ieſus lo<g ref="char:EOLhyphen"/>ued,</hi> what wonder ſweet Lord if thy Mother loued him? it is a mo<g ref="char:EOLhyphen"/>tiue good and ſufficient, able to a<g ref="char:EOLhyphen"/>bide any triall.</p>
+            <p>Againe if likenes cauſeth loue,
+<pb n="10" facs="tcp:13358:16"/>great reaſon had ſhee to make ac<g ref="char:EOLhyphen"/>count of <hi>Iohn:</hi> Shee loued thee who wert
+<note n="b." place="margin">Iohn. 1.</note> a God, a Man,
+<note n="c." place="margin">Math. 1.</note> her Son. What ſhall we ſay of <hi>Iohn?</hi> If we ſay he was a man, wee ſay that which wee ſay of many: If we ſay he was a God, we ſhall ſay that which we ſay of few but vp<g ref="char:EOLhyphen"/>on thine owne warrant: who af<g ref="char:EOLhyphen"/>ter thou haddeſt asked of thine Apoſtles what me<g ref="char:cmbAbbrStroke">̄</g> did ſay of thee, did deſt then demaund of them
+<note n="d." place="margin">Mat. 16.</note> 
+               <hi>but what ſay yee of mee?</hi> as who would ſay they were no men but Gods? but if we ſay of <hi>Iohn</hi> that he is Maries ſon, we ſhall ſay that of him, which we cannot ſay of a<g ref="char:EOLhyphen"/>ny els but thee, and in this reſpect thy Mother thought ſhee might iuſtly loue him aboue all crea<g ref="char:EOLhyphen"/>tures next vnto thee: where<g ref="char:EOLhyphen"/>fore ſeeing him abaſhed for the want of wine at his mariage, and knowing thee to bee as willing to
+<pb n="11" facs="tcp:13358:16"/>doe what ſhee would haue thee doe, being her ſon, as able to per<g ref="char:EOLhyphen"/>forme what ſhee could wiſh, be<g ref="char:EOLhyphen"/>cauſe thou wert alſo God, ſhee ſaid vnto thee, <hi>they haue no wine.</hi>
+            </p>
+            <p>O <hi>Mary!</hi> where diddeſt thou firſt become ſo cunning a beggar? thou diddeſt earneſtly deſire that there ſhould be more wine, and why diddeſt thou not demaund it? If thy loue were ſuch vnto thy Coſen as he did deſerue, or thy compaſſion for the want ſo great as it ſeemed, why didſt thou not demaund ſome wine? If thy con<g ref="char:EOLhyphen"/>fidence in thy ſon were ſuch as it might haue beene, or if thy ſonne his obedience to thee were ſuch as
+<note n="a." place="margin">Luk. 2.</note> it is ſaid to haue bin, why did<g ref="char:EOLhyphen"/>deſt thou not commaund ſome wine?</p>
+            <p>O paterne of humilitie! O ex<g ref="char:EOLhyphen"/>ample of rare vertue! thou wert contented rather to expect ſom<g ref="char:EOLhyphen"/>what
+<pb facs="tcp:13358:17"/>what that thy ſonne would, then to giue the aduenture to bee de<g ref="char:EOLhyphen"/>nayed, what he ſhould not think meet at that time to be graunted, and therefore wouldeſt goe no farther than to ſhewe their want, and ſaidſt: <hi>They haue no wine.</hi>
+            </p>
+            <p>
+               <note n="b." place="margin">Iohn. 2.</note> 
+               <hi>And Ieſus ſaith vnto her, woman what haue I to doe with thee?</hi>
+            </p>
+            <p>O moſt ſweete Lord what an<g ref="char:EOLhyphen"/>ſwere is this? ſhe is thy Mother, &amp; ſayeſt thou vnto her, <hi>what haue I to doe with thee?</hi> Was it thy cu<g ref="char:EOLhyphen"/>ſtome
+<note n="c." place="margin">Mark. 10.</note> by whome wee are com<g ref="char:EOLhyphen"/>manded to honour our Parents, to giue thy Mother ſuch ſharpe anſwers? wee haue not heard of much communication betwixt thee and her, and yet that little which hath bin, hath bin very bit<g ref="char:EOLhyphen"/>ter.</p>
+            <p>When thou wert loſt in the Temple, ſhe asked thee after that
+<pb n="13" facs="tcp:13358:17"/>ſhe found thee:
+<note n="a." place="margin">Luke. 2.</note> 
+               <hi>Sonne why haſt thou ſo done vnto vs, thy father and I ſorrowing did ſeeke thee,</hi> &amp; thou gaueſt her this anuſwere: <hi>why ſought yee me?</hi>
+            </p>
+            <p>
+               <note n="b." place="margin">Math. 12.</note> Againe beeing told that thy mother and brethren were with<g ref="char:EOLhyphen"/>out ſeeking thee, thou didſt aske, who was thy Mother &amp; thy bre<g ref="char:EOLhyphen"/>thren, adding moreouer, that who ſo ſhould doe the will of thy Father which is in Heauen, hee was thy brother, thy ſiſter, and thy mother.</p>
+            <p>But what encouragement was this to thoſe which heard thee, to doe the will of thy Father, when they ſee the little reckoning thou madeſt of her which was thy mother, and of thy bretheren that they were vnworthy eyther to come into thee, or that thou ſhouldeſt goe forth to them?</p>
+            <pb n="14" facs="tcp:13358:18"/>
+            <p> At thy death alſo diddeſt thou not after a ſort denay thy Mother when thou ſaidſt vnto her &amp; her company,
+<note n="a." place="margin">Luke. 23.</note> 
+               <hi>VVeepe not on me, but weepe on your ſelues, and on your Children:</hi> If thou diddeſt take her to be thy Mother, how could ſhe weepe on her Children, and not weepe on thee?</p>
+            <p>Surely O Lord theſe ſpeeches were very ſtraunge, conſidering what a dutifull ſonne thou wert ſaid to be, but aboue all, this an<g ref="char:EOLhyphen"/>ſwere. <hi>VVoman what haue I to do with thee?</hi> ſeemeth intollerable. Heauen &amp; earth doe witnes that ſhe is thy mother, and askeſt thou of her, Woman what haue I to doe with thee? wherfore ſhould the Holy Ghoſt come downe vp<g ref="char:EOLhyphen"/>on her, &amp; the power of the moſt high ouerſhadow her, if that ho<g ref="char:EOLhyphen"/>ly one which ſhould be borne of her, ſhould not be called the Son
+<pb n="15" facs="tcp:13358:18"/>of God, and doeſt thou aske of her, <hi>what haue I to doe with thee?</hi>
+               <note n="b." place="margin">Math. 13</note> All the earth doth witnes thou wert the Carpenters ſonne, and askeſt thou of her, <hi>what haue I to doe with thee?</hi>
+            </p>
+            <p>Diddeſt thou not thy ſelfe ſoli<g ref="char:EOLhyphen"/>cite her
+<note n="a." place="margin">Luke. 1.</note> by thine Angell <hi>Gabriell</hi> to be her ſonne, and ſhe humblie entertained thy meſſenger, gran<g ref="char:EOLhyphen"/>ting thee thy ſute, wherevpon thou haddeſt all that thy heart could deſire, &amp; askeſt thou nowe of her, <hi>what haue I to doe with thee?</hi>
+            </p>
+            <p>She bare thee nine monthes in her wombe, ſhe brought thee in<g ref="char:EOLhyphen"/>to this world, ſhee carefully nur<g ref="char:EOLhyphen"/>ſed thee with great ſorrowe and heauines,
+<note n="b." place="margin">Math. 2.</note> ſhe fled into <hi>Egipt</hi> to ſaue thy life, and now for a requi<g ref="char:EOLhyphen"/>tall dooſt thou aske her, <hi>VVoman what haue I to doe with thee?</hi>
+            </p>
+            <p>What buſineſſe haddeſt thou
+<pb n="16" facs="tcp:13358:19"/>moſt louing Lord, that thou coul<g ref="char:EOLhyphen"/>deſt finde nothing to do with thy Mother? wert thou belike ſo ear<g ref="char:EOLhyphen"/>neſt in thy Fathers affaires, that thou forgatteſt thy Mother? ſure<g ref="char:EOLhyphen"/>ly thy minde was very much oc<g ref="char:EOLhyphen"/>cupied, or els thou wouldeſt at the leaſt haue remembred that ſhe was thy mother, &amp; not haue ſpoken vnto her as to a ſtraunger, <hi>VVoman what haue I to doe with thee?</hi>
+            </p>
+            <p>O <hi>Marie!</hi> thou knoweſt not nowe, what thy ſonne meaneth, but thou ſhalt know afterwarde, marke well that word woman, &amp; when thou heareſt it next attend what followeth.</p>
+            <p>He hath nowe partly reſigned thee vp to <hi>Iohn</hi> in ſaying woman. but not vvholy, for he hath not as yet added, <hi>Behold thy ſonne:</hi> Hee foreſaw what ſorow thou vvoul<g ref="char:EOLhyphen"/>deſt ſuffer at his Paſsion, and ther<g ref="char:EOLhyphen"/>fore
+<pb n="17" facs="tcp:13358:19"/>reſerued this comfort vntill then, as a freſh reuiuing of thy dy<g ref="char:EOLhyphen"/>ing ſpirits, <hi>Behold thy ſonne.</hi> The time was not yet to commit thee to his cuſtodie, becauſe himſelfe was yet with thee, and therefore as yet he ſaid not <hi>hehold thy ſonne:</hi> but the time will come, when hee ſhall be taken away from thee, &amp; then at this watch word, <hi>woman, behold thy ſonne.</hi>
+            </p>
+            <p>When therefore our Sauiour his houre was come, and that hee was to returne vnto his Father, our bleſſed Lady her time was al<g ref="char:EOLhyphen"/>ſo come that ſhe ſhould bee deli<g ref="char:EOLhyphen"/>uered of her ſecond ſonne, where neyther ſhe was priuiledged, a<g ref="char:EOLhyphen"/>boue any other to bee deliuered without paine, nor Saint <hi>Iohn</hi> ex<g ref="char:EOLhyphen"/>empted from the ordinarie cu<g ref="char:EOLhyphen"/>ſtome of Children, which no ſoo<g ref="char:EOLhyphen"/>ner beginne to looke into the worlde, then they bewaile their
+<pb n="18" facs="tcp:13358:20"/>owne miſerie, both of them being in thoſe exceeding great panges, that no man could iuſtlye iudge, whether the mother was more likely to die in her trauaile, before her ſonne was perfectly brought into the world, or the ſon yeelde vpp his Ghoſt in his Mothers wombe before hee ſhoulde bee borne.</p>
+            <p>The beginning of this grie<g ref="char:EOLhyphen"/>uous trauaile was our Sauiours apprehenſion, when praying in the garden
+<note n="a." place="margin">Math. 26</note> 
+               <hi>Iudas</hi> betraied him with a kiſſe, at what time Saint <hi>Iohn</hi> aſtoniſhed (beeing newlie awaked) fled with the other Diſ<g ref="char:EOLhyphen"/>ciples,
+<note n="b." place="margin">Mark. 14</note> leauing behinde him his ſindon in the handes of the ſoul<g ref="char:EOLhyphen"/>diers. But returning vnto himſelf, with what pittifull ſighes &amp; dole<g ref="char:EOLhyphen"/>full grones, bewailed hee hys flight.</p>
+            <p>Theeues, theeues, he cried out
+<pb n="19" facs="tcp:13358:20"/>amaine, and the farther hee went the more he found, he eſchewed the Souldiers and fell into the hands of their capitaines, he ſhun<g ref="char:EOLhyphen"/>ned Charibdis, and became in danger of Silla, whilſt ſeeking to faue his bodie harmeles by flying from <hi>Iudas,</hi> hee put his Soule in hazard by forſaking his Ma<g ref="char:EOLhyphen"/>ſter.</p>
+            <p>Ah vngratefull wretch that I am (ſaith hee) with what face or countenance ſhall I beholde my ſweet Lord againe? which waie ſhall I goe? whether ſhall I run? whether ſhall I end my ſhamefull flight? more torment coulde I not haue ſuffered, if I had beene taken with my Maſter, and a great deale leſſe ſhame I had ſu<g ref="char:EOLhyphen"/>ſtained.</p>
+            <p>I remember my vocation
+<note n="a." place="margin">Mat. 4.</note> from the buſineſſe of the world, to bee a diligent follower of my
+<pb n="20" facs="tcp:13358:21"/>Lord I call to minde
+<note n="b." place="margin">Mat. 17.26.</note> thoſe pri<g ref="char:EOLhyphen"/>uiledges, vvhich aboue the reſt vvith <hi>Peter</hi> and <hi>Iames</hi> I did enioy, and alſo how aboue theſe, hee lo<g ref="char:EOLhyphen"/>ued me ſo dearly that no longer ſince then this night at ſupper
+<note n="c." place="margin">Iohn. 13.</note> I reſted in his boſome, and vvas bold to aske that vvhich no other dared, and he vouchſafed mee an anſvvere.</p>
+            <p>Had my ſindon bin taken from me by the Souldiers of <hi>Iudas</hi> for ſuch like cauſe
+<note n="d." place="margin">Gen. 39.</note> as <hi>Ioſeph</hi> his gar<g ref="char:EOLhyphen"/>ment vvas by the <hi>Egiptian</hi> harlot, mine action had bin Honorable: or if I had left it mounting aloft, as
+<note n="c." place="margin">4. Reg. 2.</note> 
+               <hi>Elias</hi> left his cloak, my flight had bin glorious: but I left it to runne from the fountaine of pu<g ref="char:EOLhyphen"/>ritie, and to forſake my Lord the King of heauen: for which being now attainted of ſinne, for mine expected endles ioyes, I am in perrill of vnexpected endleſſe
+<pb n="21" facs="tcp:13358:21"/>griefe, and in place of a rewarde for fidelity, I am become ſubiect to perpetuall infamie.</p>
+            <p>Now the happineſſe I had in<g ref="char:EOLhyphen"/>ioyed in looſing myſelfe to finde my Lord, is too too well decla<g ref="char:EOLhyphen"/>red by the heauines I ſuſtaine in looſing him to ſaue my ſelfe.</p>
+            <p>O <hi>Iudas!</hi> haddeſt thou deli<g ref="char:EOLhyphen"/>uered him to mee, much more had I giuen thee for him than a<g ref="char:EOLhyphen"/>ny man els whoſoeuer, and al<g ref="char:EOLhyphen"/>though none were ſo ſacrilegious as the Iewes to buy that holye thing, which thou diddeſt ſet to ſale, yet had I redeemed it, hadſt thou brought it vnto me, &amp; thou a greater gainer by the bargaine, rather would I haue ſatiſfied thy couetous deſire, and concealed thy malicious endeuour, then thou ſhouldeſt haue attempted this trecherous miſchiefe, or en<g ref="char:EOLhyphen"/>tred into ſo bloody an action.</p>
+            <pb n="22" facs="tcp:13358:22"/>
+            <p> But thou fearedſt to haue been ſtaied for a thiefe, if to any of vn<g ref="char:EOLhyphen"/>derſtanding thou haddeſt offered that Iewell to be ſold, and there<g ref="char:EOLhyphen"/>fore thoughteſt them meeteſt to poſſeſſe the Gemme, which ha<g ref="char:EOLhyphen"/>uing as corrupt minds as thy ſelfe, were as ready to be thy receiuers as thou to be their thiefe, which thou diddeſt manifeſtly declare, as wel in the price, as in the place, in the time, as in the manner of betraing: In
+<note n="a." place="margin">Mat. 26.</note> the price becauſe thou ſoldeſt a Iewell not to be va<g ref="char:EOLhyphen"/>lued for a trifle:
+<note n="b." place="margin">Mar. 14</note> In the place, becauſe thou tookeſt him abroad, out of Cittie or towne:
+<note n="c." place="margin">Iohn. 18.</note> In the time becauſe thon diddeſt betray him by night in the darke:
+<note n="d" place="margin">Mar. 14</note> In the manner, becauſe thou badſt thy marchants lead him away wa<g ref="char:EOLhyphen"/>rily.</p>
+            <p>Did thy conſcience giue thee, that thou couldeſt not take too
+<pb n="23" facs="tcp:13358:22"/>little for that, in which thou knoweſt thou haddeſt no part? Diddeſt thou feare that in the o<g ref="char:EOLhyphen"/>pen Cittie thy villanie ſhuld haue beene deſcried? Didſt thou ſo e<g ref="char:EOLhyphen"/>uilly in thine owne conceipt, that thou wroughteſt in darkenes? &amp; was thy crafty malice ſo great, that warye leading away was iudged neceſſary for the conclu<g ref="char:EOLhyphen"/>ſion of thy wicked bargaine.</p>
+            <p>But nowe alas my Maſter ap<g ref="char:EOLhyphen"/>peareth not. I vvhether ſhall I goe? vvandring alone
+<note n="a." place="margin">Mark. 14</note> attired onely with teares, I ſhall bee as ſorrowfull, as certaine a ſigne vn<g ref="char:EOLhyphen"/>to his Mother, that the high Prieſts haue ſeaſed on him, for ſhee knoweth as well, that hee woulde bee no where of his owne appointment without me, as alſo that my ſweeteſt beeing is in his boſome.</p>
+            <pb n="24" facs="tcp:13358:23"/>
+            <p> Some comfort may ſhee take to ſaue her life, whilſt miſſing me ſhee may thinke her ſonne is not cleane abandoned, and I cannot but be acceſſary to her death, if I ſhould depriue her of it: returne therefore to her I will not, be<g ref="char:EOLhyphen"/>cauſe I may not hurt her, to goe backe to him it booteth not, be<g ref="char:EOLhyphen"/>cauſe I cannot help him, to liue without them it is impoſſible: If die then I muſt, the clubs of the ſouldiers will make a ſpeedier diſ<g ref="char:EOLhyphen"/>patch than can the ſwords of ſor<g ref="char:EOLhyphen"/>row: and although I ſhould bee ſlaine by preſſing into his pre<g ref="char:EOLhyphen"/>ſence, yet with his looke will hee reuine mee againe, and becauſe li<g ref="char:EOLhyphen"/>uing he loued me ſo dearely, too too ingratefull I were to forſake him now dying.</p>
+            <p>Thus reſoluing rather to dye than to liue, whoſe life euer after was likely to prooue a death, hee
+<pb n="25" facs="tcp:13358:23"/>followed his Maſter to <hi>Annas</hi> his houſe, from thence to <hi>Caiphas,</hi> &amp; ſo from place to place, where when hee beheld with what cru<g ref="char:EOLhyphen"/>eltie his Lorde was entertained, his ſorrowes grewe ſo great that they cannot be expreſſed, ſeeing a Lambe amongſt Wolues ready to bee deuoured, an innocent a<g ref="char:EOLhyphen"/>mong murderers, threatned to be killed, the Son of God among the diuels impes, adiudged to a ſhamefull death, hauing nowe an opportunitie as well to deſtroy the heyre, although they had no hope the inheritance ſhould bee theirs,
+<note place="margin">Math. 21.</note> as alſo to reuenge the<g ref="char:cmbAbbrStroke">̄</g>ſelues vpon God who was clothed with mans nature, and as it were,
+<note place="margin">Iohn. 1.</note> yeel<g ref="char:EOLhyphen"/>ded vp vnto their willes: for al<g ref="char:EOLhyphen"/>though they ſtaggered, doubting whether he ſhould die or no, as appeared by the meſſage
+<note n="a." place="margin">Mat. 27</note> done to <hi>Pilate</hi> from his wife, becauſe
+<pb n="26" facs="tcp:13358:24"/>they knewe thereby the ſaluation of the world ſhould be wrought, yet was their mallice ſo extreame great againſt God, that they ca<g ref="char:EOLhyphen"/>red not what loſſe they ſhoulde ſuſtaine afterward of men, ſo that thereby they might put GOD to a moſt cruell, and a painefull death.</p>
+            <p>He
+<note n="a." place="margin">Iohn. 19.</note> ſee him come in attired like a King, but vſed like a vaſſall; hee ſee him weare a crowne vpon his heade, but to his paine; hee ſee him haue a purple garment on his backe, but wherein to bee laughed at;
+<note n="b." place="margin">Mat. 27.</note> he ſee him haue a Scepter in his hande, but for his head to beare a ſtroke therewith; hee ſee him honoured with bow<g ref="char:EOLhyphen"/>ing of their knees, but all in ſcof<g ref="char:EOLhyphen"/>fing wiſe, for by and by they vſe him as before, and that which moſt afflicted <hi>Iohn</hi>
+               <note n="c." place="margin">Iohn. 19.</note> no ſatiſfacti<g ref="char:EOLhyphen"/>on woulde bee taken, where no
+<pb n="27" facs="tcp:13358:24"/>offence was giuen, but a moſt ſhamefull death.</p>
+            <p>O cruell minded men! (ſaith hee) is it ſo little yee haue done, that yee will neuer ceaſe? and whereas now ye ſeeme by death to giue an end to all his paine, it is too much againſt your wills, your intention was murder, and yee thinke it no murder, vnleſſe yee doo ſome act, which of it ſelfe is murder. He liueth yet, but as one dying, and becauſe he could ſuſtaine no more and liue, vnmer<g ref="char:EOLhyphen"/>cifull pitty moued you to end his tormentes by a more cruell tor<g ref="char:EOLhyphen"/>ture: Die ye ſaw he would, and die yee ſhall, yee all conclude, but with more paine, if too much paine before did not preuent all future paine.</p>
+            <p>Ye ſcorne that, which all the Court of heauen doth reuerence yee take diſdalne where Angells
+<pb n="28" facs="tcp:13358:25"/>take delight,
+<note n="a." place="margin">Mark. 14.</note> yee hide that face, which all the heauenly ſpirits de<g ref="char:EOLhyphen"/>ſire to ſee:
+<note n="b." place="margin">Mat. 27.</note> ye ſtrike that head, where is the Fountaine of all wiſedome:
+<note n="c." place="margin">Iohn. 19.</note> yee bruſe thoſe cheekes, which neuer any wor<g ref="char:EOLhyphen"/>thely did kiſſe:
+<note n="d." place="margin">Math. 27</note> yee defile that ſa<g ref="char:EOLhyphen"/>uour, which is the beauty both of heauen and earth: yee gaue him a reede in his hand, whom all your ſtormie blaſtes could neuer moue: yee crowne him with thornes vvho crowneth all vvith glorie: yee cloath him in mocke<g ref="char:EOLhyphen"/>ry, and ſtrippe your ſelues of all humanitie: ye binde him ſtraight with cordes, who giueth to all their liberty, not diſcerning a king from a vaſſall; a ſonne from a ſer<g ref="char:EOLhyphen"/>uant; a freeman from a ſlaue; God himſelfe from a pure and impure creature, and (which I tremble to thinke on) yee call for his blood vpon you and on your Children.
+<note place="margin">Math. 27.</note>
+            </p>
+            <pb n="29" facs="tcp:13358:25"/>
+            <p> Yee haue had already more than ye can wel avouch the ſhed<g ref="char:EOLhyphen"/>ding thereof, and yet yee are not ſatiſfied: Could euer any Tyger be more fierce, or Lyon greedier of his pray? O men! no men, but farre exceeding what euill could euer be deuiſed.</p>
+            <p>But beare with them a little, (O <hi>Iohn</hi>) they vnderſtand per<g ref="char:EOLhyphen"/>chance with what crueltie they haue erred, they weigh the debt into which they haue wilfullie runne by their wickednes, they feare the ſlauerye to which by their follie they haue made them<g ref="char:EOLhyphen"/>ſelues ſubiect, and knowing that their error cannot otherwiſe bee diſcerned, their debt no way elſe diſcharged, their libertie and their Childrens by no other meanes procured, but by the lightning of his moſt precious blood vpon them and theirs, they call and cry
+<pb n="30" facs="tcp:13358:26"/>out:
+<note place="margin">Math. 27.</note> 
+               <hi>His blood be on vs and on our children.</hi>
+            </p>
+            <p>Expect a while, if peraduen<g ref="char:EOLhyphen"/>ture vpon the taking of ſo preci<g ref="char:EOLhyphen"/>ous a receit, they will all cry out; <hi>In very deede this man was iuſt,</hi> and returne knocking their breſts ſorrowing for their offence com<g ref="char:EOLhyphen"/>mitted againſt him, and make him ſome ſatisfaction for what they haue done before vnto him.</p>
+            <p>Heard they not the high Prieſt ſay:
+<note place="margin">Iohn. 11.</note> 
+               <hi>It is expedient that one ſhould die, that all the people periſh not,</hi> and nowe they perceiue there is no other way but death, they wiſh they may bee waſhed with his blood, and thereby reconci<g ref="char:EOLhyphen"/>led againe vnto him and be ſaued, and for this cauſe they all cry out <hi>His blood bee on vs and on our chil<g ref="char:EOLhyphen"/>dren.</hi>
+            </p>
+            <p>A grieuous leproſie hath o<g ref="char:EOLhyphen"/>uergrowne their ſoules, that
+<pb n="31" facs="tcp:13358:26"/>they can no longer bee accepted for Citizens of Heauen. The water of <hi>Iordan</hi> cannot purge it, and although they haue often ſtriken the Rocke yeeldeth he no water to cleanſe it, vntill his ſide bee pierced, and therefore are they forced and conſtrained to vſe a bath of Innocents blood, which forceth them to cry out: <hi>His blood bee on vs and on our chil<g ref="char:EOLhyphen"/>dren.</hi>
+               <note place="margin">Iohn. 6.</note>
+            </p>
+            <p>They haue heard him alſo ſay himſelfe, that there is no way but death for ſuch as eate not of his fleſhe, and drinke not of his blood, and although at that time hauing a moſt carnall and brutiſh conceit, they abhorred ſo vnuſuall a feeding, yet beeing now brought to this exigent, that they know in crueltie they haue exceeded the nature of men, and
+<pb n="32" facs="tcp:13358:27"/>thinke the ſore cannot bee ſalued but by his precious blood, albeit ſuch potions ſeeme vnto them contrary to the ſame nature, they wil apply their ſences vnto them, and maſter their former conceits, and therefore all cry out, <hi>His blood bee on vs, and on our Chil<g ref="char:EOLhyphen"/>dren.</hi>
+            </p>
+            <p>Remembreſt thou not
+<note n="a." place="margin">Mat. 11</note> how that many blinde receaued their ſight, by his laying his hands vpon them?
+<note place="margin">Luke. 7.</note> call to minde howe for a moſt great debt <hi>Mary Magdalen,</hi> her bond was cancelled, when ſhe only touched his holie feet.</p>
+            <p>Forgetteſt thou how many by his word onely hee ſet at libertie,
+<note place="margin">Math. 8.</note> which were poſſeſſed by diuells? and blameſt thou them whoſe blindnes is ſo grieuous, that it can not otherwiſe bee cured; whoſe debt is ſo great, that it cannot o<g ref="char:EOLhyphen"/>therwiſe bee diſcharged; whoſe
+<pb n="33" facs="tcp:13358:27"/>thraldome is ſo villanous, that they cannot otherwiſe bee freed, if with vehemency they call and cry out, <hi>His blood be vppon vs, &amp; on our Children.</hi>
+            </p>
+            <p>But alas, theſe ſurmiſes doe ra<g ref="char:EOLhyphen"/>ther increaſe griefe, then eaſe it, what is it to me (ſaith <hi>Iohn</hi>) if they remaine ſtill blinde? What con<g ref="char:EOLhyphen"/>cerneth it mee if their debts bee not paide? What toucheth it me if they ſtill continue in bondage? What profits it mee that all the world doe the better if I fare the worſe?</p>
+            <p>Cannot their eyes be opened, vnles mine bee put out? Cannot their debts be paide, vnleſſe I bee impoueriſhed? Cannot they be at libertie, vnles I liue in miſerie? Cannot the ſunne ſhine clearelie to them, vnles it bee eclipſed to me? Cannot they bee enriched, vnles I be robbed? Cannot they
+<pb n="34" facs="tcp:13358:28"/>ioy in freedome, vnles I grieue in thraldome? or is there no other waye to worke this their weale, my woe, but by procuring hys bloud vpon the<g ref="char:cmbAbbrStroke">̄</g> &amp; on their Chil<g ref="char:EOLhyphen"/>dre<g ref="char:cmbAbbrStroke">̄</g>? If one offence pardoned by the committing of an other? is an euill enterpriſe remitted by a cruell proſecuting of the ſame? is it a ſatiſfaction for the ſhedding of blood to cry for more? No, no: murder it is which they in<g ref="char:EOLhyphen"/>tend, and for naught els then to glut themſelues therewith, they all cry out,
+<note place="margin">Mat. 27.</note> 
+               <hi>His blood be on vs and on our Children.</hi>
+            </p>
+            <p>The Iewes ſometime the glo<g ref="char:EOLhyphen"/>ry of the world, are now become opprobrious to all people, that whereas heretofore all ſuch as v<g ref="char:EOLhyphen"/>ſed crueltie, were rightly likened vnto beaſtes, no tyrranie hereaf<g ref="char:EOLhyphen"/>ter ſhall be adiudged compara<g ref="char:EOLhyphen"/>ble to this of the Iewes a meaſure
+<pb n="35" facs="tcp:13358:28"/>to ſerue for all tyrants becauſe it was without meaſure, that ſo<g ref="char:EOLhyphen"/>much the greater the tyrranie ſhould be thought, by how much it hath proportion to the crueltie of the Iewes.</p>
+            <p>But thou (O moſt louing Lord) where or when couldeſt thou deſerue ſo ſharpe a torture: I knowe right well
+<note n="a." place="margin">Pſa. 68.</note> thou payeſt that which thou diddeſt neuer owe. One drop of blood had bin enough for to haue ſaued a thou<g ref="char:EOLhyphen"/>ſand worlds, and thou haſt made no ſpare thereof: Why ſhouldeſt thou then die, ſince nought ther<g ref="char:EOLhyphen"/>by is done, but what alreadie is done? The price is giuen, the vttermoſt farthing paid; Thy Mother alſo and the reſt of thy frends are ſold to ſorow &amp; griefe, as though thou hadſt not where<g ref="char:EOLhyphen"/>withal to pay this debt thy ſelfe &amp; of thy ſelf. If die thou wilt, becauſ thou
+<pb n="36" facs="tcp:13358:29"/>muſt, yet chooſe ſome other death, no other death (ſweete Lord) can ſounde well in their eares, but this of all the reſt, will be as grieuous vnto the<g ref="char:cmbAbbrStroke">̄</g>, as paine<g ref="char:EOLhyphen"/>full vnto thee: deferr at leaſt the time, els now thy friendes, beſide thy ſelfe become a fable to all na<g ref="char:EOLhyphen"/>tions.</p>
+            <p>What ſcandall will thoſe take which did beleeue in thee? Who will account of them, which once did followe thee? What hope is left for the<g ref="char:cmbAbbrStroke">̄</g>, which put their truſt in thee?
+<note n="a." place="margin">Iohn. 8.</note> thou madeſt a promiſe to ſet thy people free, and howe art thou thy ſelf become a thrale?
+<note n="b." place="margin">Iohn. 18.</note> Thou ſaidſt thou wert a King, and how then art thou Iudged by theſe men to death?
+<note n="c." place="margin">Mar. 16</note> Thou dooſt profeſſe thy ſelfe the ſonne of God, but why then will men ſay doeſt thou not ſaue thy ſelfe?</p>
+            <p>Thoſe which haue ſeene thy
+<pb n="37" facs="tcp:13358:29"/>life, may well beleeue what thou haſte ſaid, and who thou art, but thoſe which ſee the manner of thy death, will eaſily be diſmaied: In that thou liuedſt as thou didſt, all had thee in admiration: In that thou dieſt as thou doſt, they turne it to deriſion: How ſhall thy life be deemed void of forgerie, ſince that thou ſuffereſt now ſo great an ignominy? How can that rai<g ref="char:EOLhyphen"/>ſing from the dead bee cleare fro<g ref="char:cmbAbbrStroke">̄</g> all ſuſpition, when as thy ſelfe a<g ref="char:EOLhyphen"/>liue doeſt ſuffer by compulſion? How diddeſt thou free ſo manie from infirmities, and art thy ſelfe oppreſſed with calamities?</p>
+            <p>It ſeemeth that thy forces wer as
+<note n="a." place="margin">Iud. 16</note> 
+               <hi>Sampſon</hi> fained his to be be<g ref="char:EOLhyphen"/>fore that thou wert bound: thou alone without any other help
+<note n="b." place="margin">Mark. 1.</note> draueſt out of the Temple, mul<g ref="char:EOLhyphen"/>titudes of people (a thing to think impoſſible, as well for that the
+<pb n="38" facs="tcp:13358:30"/>number was ſo great, as that they ſate there for their game) what power of men, what ſtrength of armes,
+<note n="a." place="margin">Iohn. 18</note> ouerthrew the ſouldi<g ref="char:EOLhyphen"/>ers, which co<g ref="char:cmbAbbrStroke">̄</g>ming to apprehend thee in the garden fell backward to the grounde? but after once they bound thee, they drew thee like a ſheepe vnto the ſlaughter, and nothing apeareth in thee ſin<g ref="char:EOLhyphen"/>gular, which is not in all others, but that thou liueſt and ſuffereſt that which no man els could do, aſwell for the violence of the tor<g ref="char:EOLhyphen"/>ture, as alſo the vilenes of thy tor<g ref="char:EOLhyphen"/>menters, who as they wer patro<g ref="char:cmbAbbrStroke">̄</g>s of all impuritie, ſo haue they now made themſelues patterns of all impiety. But how couldeſt thou (O <hi>Iohn</hi>) remaine to ſee ſo vn<g ref="char:EOLhyphen"/>worthie a ſpectacle? How could thine innocent ſoule not fly this heinous fact? how could thy mai<g ref="char:EOLhyphen"/>denly heart behold ſuch flowing
+<pb n="39" facs="tcp:13358:30"/>ſtreames of blood? howe could thy louing minde forbeare the murderers of thy maſter? who is it will not iudge thee to conſent to all this treaſon; which ſeeth thee preſent and ſilent at all this euill vſing? and although thou diddeſt not keepe their garments, while they did this Execution, yet did<g ref="char:EOLhyphen"/>deſt thou keepe their counſell, while they wrecked on him their malicious intention.</p>
+            <p>Thou denaydſt him not in o<g ref="char:EOLhyphen"/>pen ſpeech three times,
+<note n="a." place="margin">Mark. 16</note> as Pe<g ref="char:EOLhyphen"/>ter did, but innumerable ſtripes, the bloody crowne of thornes, the vnworthy ſcoffes and mocks, the inſpeakable euill intreatinges, which thou diddeſt ſee &amp; heare did euery one demaunde of thee whether thou wert not alſo with Ieſus of Nazareth and one of his Diſciples, and eyther feare did make thee quaile, or
+<pb n="40" facs="tcp:13358:31"/>ſhame to holde thy peace, that it did ſeeme at leaſt a ſecret nay of that thou wert.</p>
+            <p>What thinkeſt thou woulde <hi>Thomas</hi> doe? who hearing that his Lord would goe to <hi>Hieruſa<g ref="char:EOLhyphen"/>lem</hi> and knowing hee was there, ſought for by his enemies offered frankely and with great courage:
+<note n="a." place="margin">Iohn. 11.</note> 
+               <hi>Let vs goe alſo and die with him.</hi> And now thou ſtandeſt by, and ſeeſt him thus tormented, and ne<g ref="char:EOLhyphen"/>ther makeſt offer to abide ſome ſmall paine for him, nor yet are forwarde in ſuffering any thinge with him.</p>
+            <p>Knoweſt thou not that all thinges amongſt louers ought to bee common? Conſidereſt thou not that friends doe ioy together, and mourne not one without the other, becauſe as one ioyeth for the ioy of another, ſo doth he feele what ſmarteth in the other?
+<pb n="41" facs="tcp:13358:31"/>and not one who loueth offereth not his life to ſaue his loue? for as they enterchange their hearts, ſo make they reckoning of theyr harmes.</p>
+            <p>All men doe ſeeke to ſaue their liues, but where they are, the lo<g ref="char:EOLhyphen"/>uers life is where he loueth moſt, and there he liues and no where els: Wherefore (O <hi>Iohn</hi>) either nowe confeſſe thou louedſt not, where it was thought thou did<g ref="char:EOLhyphen"/>deſt, or that thou madeſt but little reckoning of thy life.</p>
+            <p>Thinke when he is gone how many die in him, how fareth now his Mother and the reſt of hys companye? Can they bee well when he is ill? Can they be whole when he is wounded? Can they be ſound when he is bruſed? Can they finde eaſe when hee feeles paine? How thinkeſt thou could they conteine themſelues from
+<pb n="42" facs="tcp:13358:32"/>that poore weak reuenge, which they would take vpon the ſouldi<g ref="char:EOLhyphen"/>ers? the men woulde ſoone for<g ref="char:EOLhyphen"/>gette that they were neuer trained vp to fight, the women would not thinke themſelues the weaker ſexe, loue baniſheth a<g ref="char:EOLhyphen"/>way all feare, and ſweete life ma<g ref="char:EOLhyphen"/>keth all ſortes refuſe no ſower which may maintaine the ſame. Their loue is ſubiect to his ene<g ref="char:EOLhyphen"/>mies, and their life is in the hands of cruell murtherers, and hol<g ref="char:EOLhyphen"/>deſt thou both tongue and hands as though thou kneweſt him not, or at the leaſt regardeſt him not?</p>
+            <p>How can this thy moſt beloued diſciple (ſweet Lord) be excuſed, who ſeemeth ſo much more then the reſt to bee in fault, by howe much he was fauored aboue the reſt? for although he knewe that thou diddeſt ſuffer becauſe thou wouldeſt, yet had it beene his
+<pb n="43" facs="tcp:13358:32"/>part to haue defended thee in what he coulde, ſeeing that thou wert his Lord, his loue, his life.</p>
+            <p>But herein alſo ſhewed he his exceſſiue loue, which was ſo much the ſtronger, by how much it preuailed againſt loue, and now hee hath found by loue a ſecrete, that a greater loue may bee, then for a man to giue his life for his loue.</p>
+            <p>When thou ſhewedſt to thy diſciples that thou muſt goe to <hi>Hieruſalem</hi> &amp; ſuffer many things of the Elders,
+<note place="margin">Mat. 16.</note> Scribes and chiefe Prieſts, and be killed, &amp; the third day ariſe; <hi>Peter</hi> tooke thee vnto him, and rebuking thee ſaid: <hi>Lord be it far from thee, this ſhall not be vnto thee, wherefore he deſerued to heare, go after me Sathan, thou art a ſcandall vnto me, becauſe thou ſa<g ref="char:EOLhyphen"/>uoureſt not the thinges which are of God, but the things which are of me<g ref="char:cmbAbbrStroke">̄</g>.</hi>
+               <pb n="44" facs="tcp:13358:33"/>&amp; <hi>Iohn</hi> remembring theſe words thought hee could not without offending thee, either wiſhe, or worke thy ſafetie, and therefore choſe to leeſe thee, rather than thy fauour, and to breath with<g ref="char:EOLhyphen"/>out his life, then bereaue himſelfe of thy loue.</p>
+            <p>He knew right wel more than twelue Legions of Angels ready at thy call,
+<note place="margin">Math. 26.</note> both where and when thou wouldeſt haue vſed them, it booted not to ſtriue againſt the ſtreame, he was too weake, it was in vaine to offer himſelf to death, his time was not yet come, al<g ref="char:EOLhyphen"/>though that preſent death had bin but one for all, and now eſca<g ref="char:EOLhyphen"/>ping this he dyed many deaths by liuing one loathſome life.</p>
+            <p>Had his heart beene as hard as ſtone, it had been riuen in a thou<g ref="char:EOLhyphen"/>ſand peeces, but beeing ſoft it did relent at euery ſtroake, that ſtill he
+<pb n="45" facs="tcp:13358:33"/>ſeemed dying, and yet hee liued ſtill, ſuffering the more becauſe hee could, and died not rather as hee deſired, for nothing coulde haue bin a greater eaſe to him, tha<g ref="char:cmbAbbrStroke">̄</g> that which ſhould haue beene an end of all his griefe.</p>
+            <p>And whilſt he waded more &amp; more into a ſea of ſorrow, he ſee a heauie Croſſe laide on his Ma<g ref="char:EOLhyphen"/>ſters ſhoulders,
+<note place="margin">Iohn. 19.</note> and the ſouldiers ſome drawing, ſome driuing him vnto the Mount <hi>Caluarie</hi> to bee crucified among the theeues.</p>
+            <p>Here might ye ſee infinite mul<g ref="char:EOLhyphen"/>titudes of people flocking to this ſpectacle, the like whereof could neuer be ſeene againe: Among the reſt he eſpied the bleſſed Vir<g ref="char:EOLhyphen"/>gin but ſorrowfull Mother, whome after he had ſaluted in as dutifull maner as he might, what ſighes, what ſorrows, what com<g ref="char:EOLhyphen"/>plaints were made by one to the
+<pb n="46" facs="tcp:13358:34"/>other? the mother for her only &amp; dearely beloued ſonne, the Diſci<g ref="char:EOLhyphen"/>ple for his intirely louing Maſter, both of them for their only com<g ref="char:EOLhyphen"/>fort, their harts ioy, their ſouls de<g ref="char:EOLhyphen"/>light. Neyther of them were able to containe themſelues from teares, eſpecially our bleſſed La<g ref="char:EOLhyphen"/>dy who had a warrant from her ſonne, to eaſe her hart ſomewhat that way, when hee bad the wo<g ref="char:EOLhyphen"/>men which followed him to weepe vppon themſelues and on their children.
+<note place="margin">Luke. 23.</note>
+            </p>
+            <p>They paſſe on together, with now and then halfe a worde, ſor<g ref="char:EOLhyphen"/>row deuiding it a ſunder, but be<g ref="char:EOLhyphen"/>ing both of one minde, and grie<g ref="char:EOLhyphen"/>uing for the ſelfe ſame loſſe, the ſignes they made were eaſily vn<g ref="char:EOLhyphen"/>derſtood. How often did they wiſh that heauy croſſe vppon ſome other ſhoulders, and then contrould themſelues, they ſee
+<pb n="47" facs="tcp:13358:34"/>him faint and woulde moſt faine hee ſhoulde haue had ſome eaſe, they knewe againe that by that meanes hee ſhoulde bee ſooner gone, and therefore knewe not what to wiſh, yet at the length ſeeing no hope of life, and way<g ref="char:EOLhyphen"/>ing the crueltie of the Iewes, they reioyſed not a little to ſee an other take the croſſe,
+<note place="margin">Mat. 27.</note> wiſhing earneſtly their paines might haue procured that reſt.</p>
+            <p>And nowe that this grieuous labour groweth to an ende, and much ſorrow beginneth euen in thinges inſenſible, howe much more was our bleſſed Ladie af<g ref="char:EOLhyphen"/>flicted, ſeeing her ſonne ſo cruel<g ref="char:EOLhyphen"/>lie handled, and with ſorrowfull ſighes began to bewaile her ſelfe, ſomtime to him, other times to <hi>S. Iohn,</hi> &amp; ſometimes to the Iewes, who ſeeing her exceſſiue griefe coulde not but take compaſſion vpon her.</p>
+            <pb n="48" facs="tcp:13358:35"/>
+            <p> Who will giue water vnto my head (ſaith ſhe) and a Fountaine of teares vnto mine eyes, to be<g ref="char:EOLhyphen"/>waile both day &amp; night the mur<g ref="char:EOLhyphen"/>ther, not of any other then mine owne and onlie ſonne? My daies of ioy are turned into griefe, and my ſong notes into ſighes of ſor<g ref="char:EOLhyphen"/>row.</p>
+            <p>Bewaile me ye hils and moun<g ref="char:EOLhyphen"/>taines, lament me yee flouds and Fountaines, ſince that of a Mo<g ref="char:EOLhyphen"/>ther of peace &amp; ioy, I am become the Daughter of teares and ſor<g ref="char:EOLhyphen"/>row: Mourne yee beaſts of the earth: weepe yee foules of the ayre, &amp; euery thing which liueth grieue, ſince that life it ſelfe, by whom ye all haue life, leaueth to liue any longer among you.</p>
+            <p>O who of you all (once his choſen people, now his chiefeſt enemies) can accuſe him of the leaſt ſin, that ye cauſe him to die with
+<pb n="49" facs="tcp:13358:35"/>great ſhame? his pittifull cries do ſo pierce the heauens, as they are aſhamed of this your cruell fact, and ſeeke to couer it with a wo<g ref="char:EOLhyphen"/>full darkenes, and ye alone of all creatures are ſo hard harted, as ye diſcouer nothing to be in you but a wilfull deafenes. Had not hee himſelfe come vnto you, and done thoſe thinges which ne<g ref="char:EOLhyphen"/>uer any did, and done them to teſtefie that hee was Gods ſonne, yee might haue had ſome excuſe for this ſinne, but hauing done ſo many good deedes among you, as yee all haue iuſt cauſe to loue him, for which of them all doo you kill him?
+<note n="a." place="margin">Iohn. 18</note> it is not lawfull for you (yee ſay) to kill any man, and is it lawfull for you to put Gods ſonne and mine to death? yee gaue not the ſentence of death againſt him, but why then were all other iudgments vtterly
+<pb n="50" facs="tcp:13358:36"/>condemned by you? did yee not bewray howe much yee deſired that he ſhuld die this death, when as vpon euery light motio<g ref="char:cmbAbbrStroke">̄</g> or op<g ref="char:EOLhyphen"/>portunity offered to ſpeake, no o<g ref="char:EOLhyphen"/>ther eccho rebounded in all the Pallace,
+<note n="a." place="margin">Mat. 27</note> then, <hi>Let him be crucified</hi> without any remorce, either for his daylie good deſertes, or the Iudge his own decree? Too cru<g ref="char:EOLhyphen"/>ell were yee all, but much more friendly cruell was <hi>Pilate,</hi> than were ye, becauſe he vſed that cru<g ref="char:EOLhyphen"/>elty to procure his liberty, hoping that after this my ſon had abidde<g ref="char:cmbAbbrStroke">̄</g> al maner of abuſes, euen vntil the ſouldiers were tired with euill v<g ref="char:EOLhyphen"/>ſing him, his affliction wold haue mooued ye to ſome compaſſion, &amp; therefore he brought forth vn<g ref="char:EOLhyphen"/>to you ſo lame<g ref="char:cmbAbbrStroke">̄</g>table a ſpectacle,
+<note place="margin">Iohn. 19.</note> as no hart but yours would not but melt with griefe to behold him, &amp; yee continued ſtill your former notes crying out vntill yee were
+<pb facs="tcp:13358:36"/>hoarſe with crying <hi>crucifie him,</hi>
+               <note place="margin">Iohn. 19.</note> 
+               <hi>crucifie him,</hi> what ſaid ye? &amp; why ſo? becauſe ye wil haue no other king but Caeſar. Alas he neuer labored to make himſelfe a king, (although no man had more right to be your king than he)
+<note n="a." place="margin">Iohn. 6.</note> but rather fled whe<g ref="char:cmbAbbrStroke">̄</g> it was vrged vpon him,
+<note n="b." place="margin">Mat. 17</note> and was willing to pay all duties as a ſubiect, euen from the time that hee was eight daies old. O how well haue ye tried (well? alas not well) that he ſeeketh not that which is his own (our ſelues only excepted) when as wrangling with him for his cloake,
+<note n="c." place="margin">Iohn. 9</note> he deli<g ref="char:EOLhyphen"/>uored alſo vnto you his coate, and bore all your whippes vpon his bare back. True it is that Pilate gaue the ſentence of death, not becauſe hee iudged him worthy of death, for af<g ref="char:EOLhyphen"/>ter diuers examinations hee openlie proteſted that
+<note n="d." place="margin">Luk. 23</note> he found no cauſe of death in him, but becauſe he fea<g ref="char:EOLhyphen"/>red that ye would falſly, and ſlande<g ref="char:EOLhyphen"/>rouſly informe Caeſar againſt him, if he ſhould haue ſhewed but the leaſt fauor in this cauſe, &amp; ye vſing this his feare for the finiſhing of this blody
+<pb n="52" facs="tcp:13358:37"/>tragedie, vrged him too often, that if
+<note n="b." place="margin">Iohn. 19.</note> hee did acquite hee was not <hi>Caeſars</hi> friend, although the try<g ref="char:EOLhyphen"/>alls of iuſtice betweene a Prince and his ſubiects, ſhould no other wiſe bee eſteemed of them as quarrels. O heauenly father, <hi>Caeſar</hi> is more regarded than thy ſonne, and more are men afraide not to be ouer officious to <hi>Caeſar</hi> than to be too much offenſiue to thee and thy ſonne, and there<g ref="char:EOLhyphen"/>fore is thy ſonne at this time cal<g ref="char:EOLhyphen"/>led from the earth.</p>
+            <p>(O vngratefull creatures) not becauſe they iudged the earth vnworthie to beare him, but be<g ref="char:EOLhyphen"/>cauſe in their corrupted conceits they thought him vnworthie to liue any longer vpon the earth, and hangeth in the ayre faſt nay<g ref="char:EOLhyphen"/>led to a Croſſe. O happie Croſſe! O Holy nailes! O ſweete inſtru<g ref="char:EOLhyphen"/>mentes of a ſorrowfull death!
+<pb n="53" facs="tcp:13358:37"/>worthie for this ſo neare touche of ſo ſacred a body, to bee had herafter in perpetual reuerence, ye were not painefull vnto him, but they which cauſed you to en<g ref="char:EOLhyphen"/>ter his hands and feete: but nei<g ref="char:EOLhyphen"/>ther deſerue ye any blame, if yee deſierd to ſticke ſo cloſe vnto him.</p>
+            <p>O my ſweete ſonne, bee not hard to me, who haſte beene ſo bountifull to all, but graunt mee this my laſt requeſt: Take thy Mother vnto thee on the Croſſe, that dying with thee I may alſo liue with thee after death, for no<g ref="char:EOLhyphen"/>thing can be more ſweet vnto me than hauing embraced thee, to die with thee, and nothing more loathſome, than to liue without thee after that thou art dead.</p>
+            <p>O true ſonne of God, thou wert a father vnto me, thou wert a mother to mee, thou wert my
+<pb n="54" facs="tcp:13358:38"/>ſonne, thou wert my ſpouſe, thou wert my ſoul, now am I become an orphant, without Father or Mother, a ſpouſe without a mate, a Mother without a ſonne, a bo<g ref="char:EOLhyphen"/>dy without ſence, and ſoule, and in concluſio<g ref="char:cmbAbbrStroke">̄</g> when thou art gone, all that I haue and all that I am is gone. Tell mee my moſt louing ſon, tell me who wert mine only ioy. Why ſuffereſt thou mee to languiſh and pine awaye with griefe? Why haſt thou ſeperated thy ſelfe ſo far from me? ſhall thy ſorrowfull mother when ſhee moſt needeth receiue leaſt co<g ref="char:cmbAbbrStroke">̄</g>fort of thee? &amp; where ſhe leaſt ſuſpec<g ref="char:EOLhyphen"/>ted, ſhall ſhe there bee moſt neg<g ref="char:EOLhyphen"/>lected? O how long doſt thou ha<g ref="char:cmbAbbrStroke">̄</g>g with thine armes abroad, &amp; none will come to be embraced? How louingly doſt thou ſtretch them out to an incredulous and con<g ref="char:EOLhyphen"/>tradictious people, and none do
+<pb n="55" facs="tcp:13358:38"/>take any compaſſion vppon thee? How largely doeſt thou beſtowe thy moſt deare and precious blood vpon this prodigall Natio<g ref="char:cmbAbbrStroke">̄</g>, and none there are which treade it not vnder their feete? O had I bin thy Croſſe, no other nayles ſhould haue faſtned thee vnto me, then a motherly affection, &amp; no other witneſſes ſhuld haue bin called of our ſweet embracings, then thy Father and his Angels. Leſſe paine (I am well aſſured) it ſhould haue bin vnto thee, but knowing that neyther this nor a<g ref="char:EOLhyphen"/>ny thing els can be done without thy priuity, I ca<g ref="char:cmbAbbrStroke">̄</g>not ſay how much more pleaſing at this time it wold haue bin vnto thee, but howſoe<g ref="char:EOLhyphen"/>uer it is or might be, not ſeeing a<g ref="char:EOLhyphen"/>ny likelyhood of thy longer life, I ca<g ref="char:cmbAbbrStroke">̄</g>not but grieue as mothers vſe to grieue at the death of their firſt begotte<g ref="char:cmbAbbrStroke">̄</g>. But he being no les care<g ref="char:EOLhyphen"/>full
+<pb n="56" facs="tcp:13358:39"/>of her now at his death, then hee was obedient vnto her in his life, mooued with theſe inward ſpee<g ref="char:EOLhyphen"/>ches, and wofull lamentations, looking downe vpon her, ſaid vn<g ref="char:EOLhyphen"/>to her:
+<note place="margin">Iohn. 19.</note> 
+               <hi>VVoman behold thy ſonne.</hi> O moſte mercifull Lorde, what doubtfull wordes are theſe? <hi>VVo<g ref="char:EOLhyphen"/>man behold thy ſonne?</hi> thou know<g ref="char:EOLhyphen"/>eſt right well that ſhee hath ſor<g ref="char:EOLhyphen"/>rowed ſo much for thee, that all her ſences faile her: her vnder<g ref="char:EOLhyphen"/>ſtanding alſo is quite dulled: ſhee ſtandeth ſtill like one without her life, looking vpp to thee and no where els, and ſayeſt thou vnto her, <hi>VVoman behold thy ſonne?</hi>
+            </p>
+            <p>O moſt ſweete Lord, whome doth ſhee behold when ſhee be<g ref="char:EOLhyphen"/>holdeth thee? on whome dooth ſhee looke when ſhe looketh on thee? where is her eye when it is fixed on thee? &amp; yet as though ſhe had not regarded thee, but
+<pb n="57" facs="tcp:13358:39"/>minded ſomwhat els beſide thee, thou ſayeſt vnto her: <hi>VVoman behold thy ſonne?</hi>
+            </p>
+            <p>What ioy would it bee to her to behold thee, if ſhee could help thee? but being that ſhe cannot, why to increaſe her griefe doeſt thou ſay vnto her, <hi>VVoman be<g ref="char:EOLhyphen"/>hold thy ſonne?</hi> and the more ſor<g ref="char:EOLhyphen"/>row conceaueth ſhe by theſe thy wordes, that thou ſayeſt vnto hir <hi>(VVoman)</hi> as though ſhee could, and did not diſcharge the part of a Mother, as thou hadſt done the dutie of a Sonne.</p>
+            <p>But if nowe at thy departure from her, thou art to deliuer her vp a Mother to another, &amp; there<g ref="char:EOLhyphen"/>fore ſaieſt vnto her, <hi>VVoman be<g ref="char:EOLhyphen"/>hold thy ſonne?</hi> conſider her caſe, conſider thine owne, ſorrowe hath taken away her ſence from her, and too much paine thy life from thee, both which concur<g ref="char:EOLhyphen"/>ring,
+<pb n="58" facs="tcp:13358:40"/>what wonder if ſhe ſtand a<g ref="char:EOLhyphen"/>mazed, not knowing what thou meaneſt, for although ſhee might aime at thine intention, yet vvas her attention ſo great, to euerie laſt word which ſhe herd of thee, being now almoſt breathles, that nothing els ſeemed to ſounde in her eares, and therfore ſhe could not but behold thee ſtill.</p>
+            <p>Beſide this, if it had beene ſo, that thou hadſt quickned her wits, that ſhe had vnderſtood thy meaning, that by vertue of thy word, Saint <hi>Iohn</hi> ſhould become her ſonne: yet ſince that this worde (ſonne) hath ſuch relation to <hi>Iohn,</hi> that it hath a more pro<g ref="char:EOLhyphen"/>per to thee: No woonder ſweet Lord, if ſhe ſtill ſtand beholding thee, ſince that without naming which, thou ſayeſt vnto her, <hi>wo<g ref="char:EOLhyphen"/>man behold thy ſonne.</hi>
+            </p>
+            <p>Our bleſſed Lady beeing now
+<pb n="59" facs="tcp:13358:40"/>wounded to the death, hearing her ſonne with a hoarſe &amp; faint<g ref="char:EOLhyphen"/>ing voice vtter theſe wordes, was not able to make him any an<g ref="char:EOLhyphen"/>ſwere, but beeing in a more grie<g ref="char:EOLhyphen"/>uous trauaile than euer was any woman, ſhee cryed for help ſhee knewe not whence.
+<note n="a." place="margin">Mat. 27.</note> God had denayed it her, for hee had forſaken his ſon, the Angels nec<g ref="char:EOLhyphen"/>lected her,
+<note n="b." place="margin">Luk. 22</note> for they knewe their Lord to be in this agonie, &amp; would not defende him,
+<note n="c." place="margin">Mat. 27</note> hys friendes ſtood looking on aloofe of, her paines grew vpon her, &amp; her panges increaſed double and treble about her, there was not a<g ref="char:EOLhyphen"/>ny of her deareſt could comfort her.</p>
+            <p>But her ſonne ſeeing her thus perplexed, knowing that he was the cauſe of al hir griefe although void of all comfort alſo himſelfe, haſtned what he could to co<g ref="char:cmbAbbrStroke">̄</g>fort
+<pb n="60" facs="tcp:13358:41"/>her, by giuing her to vnderſtand, that hee came into this world, to this end and no other, that by this way he ſhould redeeme the world, and ſince that it pleaſed his father it ſhuld be ſo, he would not it ſhoulde diſpleaſe his Mo<g ref="char:EOLhyphen"/>ther, alſo that by this Paſsion hee was to enter into his glory, ne<g ref="char:EOLhyphen"/>uertheleſſe that hee would not leaue her, although for a time he muſt be abſent from her: During which ſeaſon in his place, ſhee ſhould take her coſen, &amp; account him as her ſonne, who ſhould be a moſt faithfull comforter vnto her, loue her, ſerue her, haue care of her, and obey her as his Mo<g ref="char:EOLhyphen"/>ther; Looking therefore vppon <hi>Iohn,</hi> who ſtoode cloſe by him with a ſad countenance, &amp; a ſor<g ref="char:EOLhyphen"/>rowfull hart, ſhedding manie a hote teare, he ſaid vnto him, <hi>Be<g ref="char:EOLhyphen"/>hold thy Mother.</hi>
+               <note place="margin">Iohn. 19.</note>
+            </p>
+            <pb n="61" facs="tcp:13358:41"/>
+            <p> Sweet Lord, right well maiſt thou put her out of doubt by theſe wordes what before thou diddeſt meane ey the other, but thou dareſt not put her out of her dumpes, becauſe ſhe is now aſſured, that thou wilt depart fro<g ref="char:cmbAbbrStroke">̄</g> her; but ſince that ſhee her ſelfe cannot nowe haue her choice, which ſhoulde haue beene no o<g ref="char:EOLhyphen"/>ther then thy ſelfe. Shee is coten<g ref="char:EOLhyphen"/>ted with her chance, and not al<g ref="char:EOLhyphen"/>together ſomuch diſmaied, or o<g ref="char:EOLhyphen"/>therwiſe ſhe ſhould haue beene, if her lot had not lighted where ſhee not lightly loued, and yeel<g ref="char:EOLhyphen"/>deth vp her will to bee wholie thine, although to thine owne paine aſwell as hers, thou leaueſt to be hers: But who can thinke what griefe will poſſeſſe this thy other beloued Diſciple to heare him ſelfe poſted ouer to another, whom, although he loued entire<g ref="char:EOLhyphen"/>lie
+<pb n="62" facs="tcp:13358:42"/>well, hee loued becauſe ſhe was thy mother, and now that this dignitie is eyther quite taken from her, or at the leaſt ſuſpen<g ref="char:EOLhyphen"/>ded, hee knoweth not for how long; as appeareth by that thou haſt giuen her a mother to an o<g ref="char:EOLhyphen"/>ther, howe can hee bee but full of ſorrow?</p>
+            <p>His loue to thee was ſuch, as hee neuer loued himſelfe, or a<g ref="char:EOLhyphen"/>nye for himſelfe, wherefore if thou diddeſt mind to bequeath thy Mother to his cuſtodie, much better haddeſt thou ſaide vnto him beholde my Mother, then beholde thy Mother, ſince that hee knewe not howe to loue anie but thy ſelfe, or els for thy ſake.</p>
+            <p>But alas ſweet Lorde, how in ſeeking to comfort him, doeſt thou take away all comfort from him? Right well might hee
+<pb n="63" facs="tcp:13358:42"/>call to minde nowe, yea and vn<g ref="char:EOLhyphen"/>derſtand that which once thou ſaidſt, that the ſonne of man (for ſo did the ſonne of GOD de<g ref="char:EOLhyphen"/>light to call him ſelfe) ſhould bee betraied to the gentils,
+<note place="margin">Luke. 13.</note> he ſhould bee mocked, whipped, and ſpet at, and that after that they ſhould whippe him, they would kil him, for al this he hath ſeene both with watrie eyes, and a wofull heart, but howe can hee thinke in his minde, that according to thy pro<g ref="char:EOLhyphen"/>miſe thou wilt riſe againe the third day, ſince that thou haſte thus diſpoſed of thy chiefeſt trea<g ref="char:EOLhyphen"/>ſure? can he thinke that thou haſt any ſuch meaning as to returne at the leaſt in any ſhort time, who haſt giuen ouer both thy mother and him, &amp; in ſuch ſorte as an e<g ref="char:EOLhyphen"/>uerlaſting linke of loue ſhuld bee betweene them when thou ſaidſt to the one in reſpect of the
+<pb n="64" facs="tcp:13358:43"/>other. <hi>VVoman behold thy ſonne, behold thy mother? Behold thy mo<g ref="char:EOLhyphen"/>ther</hi> thou ſaieſt vnto him, what child, ſweet Lord, in his mothers wombe deſireth not to ſee their Mother? What els doe thoſe throwes portend, which to their paine all mothers but thine own, and onely as thine, doe feele in their trauaile, ſo that no doubt this thy Diſciple cannot but iudge this a moſt guide, and carefull motiue, by which hee ſhould be<g ref="char:EOLhyphen"/>come thy mothers ſonne.</p>
+            <p>He knew right well that once her bowels wer thy liuing Tem<g ref="char:EOLhyphen"/>ple, and now he ſeeth that when thou dieſt, her heart will bee thy chiefeſt ſhrine, and therefore is verie well contented to beholde her as thou biddeſt him: yet par<g ref="char:EOLhyphen"/>don Lord, pardon doth he craue a while, and leaue to looke vpon thee ſtill, becauſe hee hath iuſt
+<pb n="65" facs="tcp:13358:43"/>cauſe of feare in reſpect of thy grieuous torments, that whileſt he caſteth his eye one waie from thee to looke on her, thou wilt make an eſcape ſome other way both from her and him, and be<g ref="char:EOLhyphen"/>cauſe he doubteth he cannot ſee thee ſo long as he would, hee de<g ref="char:EOLhyphen"/>ſireth to look vpon thee ſo long as he may: and although ſhe be one, who deſerueth to bee be<g ref="char:EOLhyphen"/>held, aſwell for the ſignes ſhee maketh of exceeding great loue vnto thee, as alſo for that ſhe was ſo potent an obiect, that ſhee drew thee to looke in an extra<g ref="char:EOLhyphen"/>ordinarie manner vpon her, yet when thou art preſent, he think<g ref="char:EOLhyphen"/>eth his ſences haue ſuch an ob<g ref="char:EOLhyphen"/>iect of thee, in regard both of his owne loue and compaſſion, as alſo of thine exceeding great dignity (beeing author of what<g ref="char:EOLhyphen"/>ſoeuer is worthie praiſe, or mar<g ref="char:EOLhyphen"/>uaile
+<pb n="66" facs="tcp:13358:44"/>in any other) that he cannot as yet behold any other but thee.</p>
+            <p>Some comfort were theſe ſpeeches vnto them, <hi>woman be<g ref="char:EOLhyphen"/>hold thy ſonne, Behold thy mother:</hi> but they wiſhed they might haue proceeded from ſome other oc<g ref="char:EOLhyphen"/>caſion.</p>
+            <p>When he was with them him ſelfe hee was moſt tender ouer them, and now that hee is taken from them hee giueth the one of them charge ouer the other. He knewe not who loued him and his mother better than did <hi>Iohn,</hi> and therefore hee thought none ſo fitte to haue charge of her as <hi>Iohn,</hi> neither did he know who could loue <hi>Iohn</hi> better than did he and his mother, &amp; therefore wold his mother ſhuld haue the care of him, and that this loue ſhould continue in the moſt ten<g ref="char:EOLhyphen"/>der manner that might bee, hee
+<pb n="67" facs="tcp:13358:44"/>ioyned them together as mother and ſonne.</p>
+            <p>O <hi>Mary</hi> if thou wert a Vir<g ref="char:EOLhyphen"/>gin, as thou wert moſt pure, <hi>be<g ref="char:EOLhyphen"/>hold thy ſonne,</hi> if thou wert eſ pouſed to thy mare, and yet re<g ref="char:EOLhyphen"/>mainedſt chaſt, <hi>behold thy ſonne:</hi> If thou wert one who for thy moſt rare vertues wert ſingular<g ref="char:EOLhyphen"/>ly beloued of Chriſt, <hi>beholde thy ſonne,</hi> if thy loue were ſuch vnto Chriſt, that neither baſhfulnes in thruſting among the people bee<g ref="char:EOLhyphen"/>ing a maiden, nor feare of being trodden downe in the multitude being a weakeling, nor danger of being apprehended and euill in<g ref="char:EOLhyphen"/>treated by the ſouldiers, being ſo deare and neare vnto him, could holde thee backe from accompa<g ref="char:EOLhyphen"/>nying him to the Croſſe, <hi>beholde thy ſonne.</hi>
+            </p>
+            <p>
+               <note n="a." place="margin">Iohn. 21</note> Chriſt left <hi>Peter</hi> as his ſuc<g ref="char:EOLhyphen"/>ceſſour to guide his Church bee<g ref="char:EOLhyphen"/>ing
+<pb n="68" facs="tcp:13358:45"/>his ſpouſe, a ſigne of great loue, a place of high renowne &amp; dignitie,
+<note n="a." place="margin">Iohn. 19</note> Chriſt hath left <hi>Iohn</hi> as his ſucceſſor to haue care of <hi>Mary,</hi> who was not onely his ſpouſe, but alſo his mother, what greater honor with like content<g ref="char:EOLhyphen"/>ment, could hee enioy in this world.</p>
+            <p>If <hi>Moyſes</hi> hauing charge of the Iewes, had ſuch aboundance of grace infuſed into him, that when it was deuided.
+<note n="b." place="margin">Num. 11</note> it was ſufficient for threeſcore more and tenne, what ſhall wee imagine was gi<g ref="char:EOLhyphen"/>uen vnto <hi>Iohn,</hi> who was to haue charge not of the children of Iſ<g ref="char:EOLhyphen"/>raell
+<note n="c." place="margin">Iohn. 19</note> but of the Mother of God?</p>
+            <p>Likewiſe when God paſſed by <hi>Moyſes,</hi> hee paſſed in that order, and with ſuch ſwiftnes, that no<g ref="char:EOLhyphen"/>thing could be ſeene, but his hin<g ref="char:EOLhyphen"/>der partes, and yet no doubt hys
+<pb n="69" facs="tcp:13358:45"/>promiſe was performed
+<note n="a." place="margin">Exod. 33</note> 
+               <hi>I will ſhew thee all God.</hi>
+            </p>
+            <p>But Saint <hi>Iohn</hi> did ſo long be<g ref="char:EOLhyphen"/>hold God his face, that hee was not able to hold vp his head any longer,
+<note n="b." place="margin">Iohn. 13</note> but laid it downe vp<g ref="char:EOLhyphen"/>pon his breaſt, and reſted in his boſome, what good was it likely was ſhewed then to him? nay ra<g ref="char:EOLhyphen"/>ther what good had he not com<g ref="char:EOLhyphen"/>municated vnto him.</p>
+            <p>Thence his exceeding great knowledge, whereby when o<g ref="char:EOLhyphen"/>thers write of Chriſt as a man
+<note n="c." place="margin">Iohn. 1.</note> hee began his Goſpell, with in<g ref="char:EOLhyphen"/>ſearchable miſteries of his God<g ref="char:EOLhyphen"/>heade: Thence his inuinſible courage, which could neyther with any promiſed honour, nor preſent horrour be vanquiſhed: Thence his vnſpeakable charitie which was ſo hote, and burning within him, that hee felt not the ſcalding oyle: The loue which
+<pb n="70" facs="tcp:13358:46"/>lay within his breaſt was ſo po<g ref="char:EOLhyphen"/>tent, that fire it ſelfe in reſpect of it was cold, or at the leaſt had no force in working comparable vnto it, for neyther did he deſire a tabernacle in mount
+<note n="a." place="margin">Math. 17</note> 
+               <hi>Tabor</hi> with <hi>Peter,</hi> nor couet a crowne, or
+<note n="b." place="margin">Mat. 20</note> next ſitting to Chriſt in hea<g ref="char:EOLhyphen"/>uen with <hi>Iames,</hi> without a firme purpoſe and a reſolute minde to disburſe what ſhould be thought conuenient for ſo great a pur<g ref="char:EOLhyphen"/>chaſe, which fullie and truely he paid vpon his birth day.</p>
+            <p>Other Martirs haue their Mar<g ref="char:EOLhyphen"/>tirdome and they ſuffer in it: S. <hi>Ioh.</hi> had his at his maſters his Paſ<g ref="char:EOLhyphen"/>ſion, but he ſuffered not in it, and therefore hee ſuffered the more, for it was death for him to liue, and to die for Chriſt his gaine.</p>
+            <p>But O moſt mercifull Lorde,
+<pb n="71" facs="tcp:13358:46"/>why didſt thou afflict this thy beloued Diſciple in this ſorte? Thou
+<note n="a." place="margin">Mat. 20</note> gaueſt him a promiſe, that he ſhould drinke of thy cup, and he expecting a death for thy ſake, cannot haue it: did pittie mooue thee beeing thy darling, that thou couldeſt not ſee him murdered, as thy other Apoſtles were, and whom thou louedſt moſt entirelye? and therefore wouldeſt hee ſhould drinke of no other Cuppe than thine, and ſo to haue him as thy Mother and his, a Martyr in life, in minde, in will; but not in death, that thou mighteſt haue to Crowne at once the Mother and the Sonne with the ſame Crownes of glory?</p>
+            <p>Impoſſible it was (O <hi>Mary</hi>) that thou ſhouldeſt bee like vnto thy ſon in al things, wherefore in aſ<g ref="char:EOLhyphen"/>much
+<pb n="72" facs="tcp:13358:47"/>as it is poſſible, thy Sonne hath made one like vnto thee, where alſo thou ſhalt not leeſe the name of a mother: beholde then Saint <hi>Iohn</hi> thy ſonne, a moſt pure virgin, a moſt learned Doc<g ref="char:EOLhyphen"/>ter, a moſt conſtant Martir.</p>
+            <p>Nowe is it performed which was ſo long before promiſed
+<note n="a" place="margin">Iſai. 56.</note> 
+               <hi>I will giue vnto mine Euenuches a worthie place in my houſe, &amp; with<g ref="char:EOLhyphen"/>in my walkes, and a name better than the name of ſonnes &amp; daugh<g ref="char:EOLhyphen"/>ters of</hi> Iſraell. <hi>I will giue them an eternall name which ſhall neuer faile. VVoman behold thy ſonne:</hi> What name vnder Heauen is comparable vnto this name? What name ſhall endure after this name: the Sonne of <hi>Ma<g ref="char:EOLhyphen"/>rie?</hi>
+            </p>
+            <p>It.
+<note n="b." place="margin">Iohn. 8.</note> was an honor to be accoun<g ref="char:EOLhyphen"/>ted the ſon of <hi>Abraham,</hi> the ſon of <hi>Iſraell,</hi> and happie was hee
+<pb n="73" facs="tcp:13358:47"/>which coulde bee numbered a<g ref="char:EOLhyphen"/>mong them: But this name the ſonne of <hi>Mary,</hi> none was wor<g ref="char:EOLhyphen"/>thie of, but God himſelfe, the ſe<g ref="char:EOLhyphen"/>cond perſon in the <hi>Trinitie:</hi>
+               <note n="a." place="margin">Iohn. 19</note> and nowe it is giuen to <hi>Iohn</hi> by Chriſt hanging vpon the Croſſe, for his inheritance, whe<g ref="char:cmbAbbrStroke">̄</g> looking vppon his mother, and making ſigne toward <hi>Iohn,</hi> hee ſaid vnto her, <hi>VVoman behold thy ſonne.</hi>
+            </p>
+            <p>A name, which as it had no greater vnder heauen, ſo did it neuer periſh: for as Chriſt dying vpon the Croſſe, ſo leſt a Sonne with his mother, as he himſelf did not leaue to be her ſonne, ſo alſo ſhee dying, did ſo ioyne her ſelfe to her ſon in heauen, as ſhee left not to be a Mother alſo vnto him which was in earth, that this name might very well bee called a eternall name, for whether ſhe were in earth or in heauen, aliue
+<pb n="74" facs="tcp:13358:48"/>or dead, her ſonne had ſo proui<g ref="char:EOLhyphen"/>ded it, there ſhould bee <hi>Maries</hi> ſonne.</p>
+            <p>O bleſſed Virgin! when thou diddeſt conceaue Saint <hi>Iohn</hi>
+               <note n="a." place="margin">Iohn. 2</note> thou diddeſt conceaue him in mirth:
+<note n="b." place="margin">Iohn. 19.</note> but thou wert deliue<g ref="char:EOLhyphen"/>red of him, when he was deliue<g ref="char:EOLhyphen"/>red vnto thee in great ſorrow &amp; heauines. Hee was the firſt for whoſe cauſe at thy requeſt, thy Sonne did manifeſt him<g ref="char:EOLhyphen"/>ſelfe vnto the worlde, by ſhew<g ref="char:EOLhyphen"/>ing his power in working mira<g ref="char:EOLhyphen"/>cles, and now he is the laſt, &amp; the only man committed vnto thee, when thy Sonne paſſeth out of the world, by ſuffering with pa<g ref="char:EOLhyphen"/>tience, what malice could work againſt him: ſo that the meaſure of thy Son his life in this worlde, was no more than the time in which thou diddeſt breed Saint <hi>Iohn,</hi> for when the time was
+<pb n="75" facs="tcp:13358:48"/>come that <hi>Iohn</hi> became thy Sonne, thou loſt thyne other Sonne.</p>
+            <p>Nowe that thou ſhouldeſt be a comfort vnto others, thou haſt experience what that ſaying meaneth,
+<note n="a." place="margin">Gen. 3.</note> 
+               <hi>thou ſhalt bring forth in griefe:</hi> for the eaſe thou hadſt when Chriſt was borne, is with vſurie recompenced at thy deli<g ref="char:EOLhyphen"/>uerie of <hi>Iohn,</hi> whom with exceſ<g ref="char:EOLhyphen"/>ſiue ſorrowe thou broughteſt forth thy ſonne.</p>
+            <p>
+               <note n="b." place="margin">Iohn. 16</note> 
+               <hi>A woman when ſhe is in tra<g ref="char:EOLhyphen"/>uaile hath ſorow, becauſe her houre is come, but when ſhe hath brought foorth the childe, now ſhee remem<g ref="char:EOLhyphen"/>breth not the anguiſh for ioy that a man is borne into the world:</hi> But thou moſt bleſſed Virgin as thou wert priuiledged in this aboue all other women that thou wert deliuered of thy firſt begotten
+<pb n="76" facs="tcp:13358:49"/>without any paine: ſo now haſt thou this ſingular aboue any o<g ref="char:EOLhyphen"/>ther woman, that at thy ſecond trauaile, thou feeleſt as great panges after it as before it.</p>
+            <p>Shee ioyeth becauſe a man is borne into the world, and thou haſte cauſe to grieue, becauſe a man is gone out of the worlde: ſhee is glad becauſe ſhee hath a ſonne, and thou haſte cauſe to mourne, becauſe thou haſte loſt a ſonne, and ſo much is thy ſor<g ref="char:EOLhyphen"/>rowe more, than theyrioy may be, as thy ſonne exceedeth all o<g ref="char:EOLhyphen"/>ther womens ſons: for although thou wert deliuered of a ſonne, yet wert thou ſpoiled of an o<g ref="char:EOLhyphen"/>ther, ſuch was thy trauaile, and with ſuch condition, that the birth of thy ſecond ſon, ſuppo<g ref="char:EOLhyphen"/>ſed the death of thy firſt begot<g ref="char:EOLhyphen"/>ten.</p>
+            <p>
+               <note n="a." place="margin">Luk. 1</note> When thou gaueſt conſent
+<pb n="77" facs="tcp:13358:49"/>vnto the wordes of the Angell, God ſpake the worde, and the worde was incarnate, the ſame word vouchſafing to ſpeake vn<g ref="char:EOLhyphen"/>to thee, not by the mouth of an Angell, but by himſelfe hath ſaid the word, and thou haſte not on<g ref="char:EOLhyphen"/>ly conceaued thy ſecond ſon, but art alſo deliuered of him, <hi>VVo<g ref="char:EOLhyphen"/>man behold thy ſonne: Behold thy Mother.</hi>
+            </p>
+            <p>Thus hauing eyther of them charge of other, glad they were, that neither was willing to de<g ref="char:EOLhyphen"/>part, Saint <hi>Iohn</hi> feared not hee ſhuld be forced to leaue his Ma<g ref="char:EOLhyphen"/>ſter in following his charge, whe<g ref="char:cmbAbbrStroke">̄</g> ſhe ſhould goe away, neither did our bleſſed Lady doubt what ſhe might doe, if <hi>Iohn</hi> ſhould parte from thence: their life was nay<g ref="char:EOLhyphen"/>led on the Croſſe, that they could not ſtirre from it, &amp; rather had they ſtay
+<note n="a." place="margin">Iohn. 19</note> &amp; ſee him woun<g ref="char:EOLhyphen"/>ded
+<pb n="78" facs="tcp:13358:50"/>(a dolefull ſight) then not ſee him at all: wherefore neuer ſatiſfied with looking vp vppon him, they tarried vntill hee was taken downe, whome when his Mother receaued in her Armes, ſorrow and ioy fought ſo doubt<g ref="char:EOLhyphen"/>full a Combat, that it was not to bee iudged which of them was the ſtronger.</p>
+            <p>She had loſt him and now ſhe hath founde him againe, great cauſe ſhe hath to ioy, he was her hope, her help, her life.</p>
+            <p>She had loſt him and now ſhe hath founde him againe, great cauſe ſhe hath to mourne, hee is paſt hope, paſt help, and paſt out of his life.</p>
+            <p>What ioy was comparable to that he had, when ſhe might ſpeake vnto him, embrace him and kiſſe him, as ſhee was wont to doe.</p>
+            <pb n="79" facs="tcp:13358:50"/>
+            <p> But alas what griefe was like to that ſhee had, when hee did neyther anſwere by worde, or behauiour, as hee was wont to doe?</p>
+            <p>Noe ioy to that ſhee hadde, when ſhee behelde him againe,
+<note n="a." place="margin">Pſal. 44.</note> for hee was the moſte fayre, and beautefull of all the Sonnes of men.</p>
+            <p>Noe greefe to that ſhee had when ſhee behelde him againe, and found that
+<note n="b." place="margin">Iſal. 53.</note> neyther any fa<g ref="char:EOLhyphen"/>uour nor comelyneſſe was in him.</p>
+            <p>Shee ſee his heade ſwollen, with the Crowne of Thornes, ſhee ſee his face blacke and blew with the buffettes of their fiſtes, ſhee ſee his bodye torne from toppe to the toe with whippes, or to ſay more true, ſhe ney<g ref="char:EOLhyphen"/>ther ſee heade, face, nor any part of his bodie, but a maſſe
+<pb n="80" facs="tcp:13358:51"/>only of congealed blood, which couered all his body, beeing moſt grieuouſly wounded, and in ſo many places, that they altoge<g ref="char:EOLhyphen"/>ther ſeemed one on lie wounde, which reached from the crowne of his head, vnto the ſoles of his ſeete.</p>
+            <p>So ſate ſhe at the foote of the Croſſe, with the dead bodie in her lap, offering it all bloodie to Almightie God,
+<note place="margin">Gen. 37.</note> &amp; demaunding of him whether that were not his ſonne his coate, ſhewing it al<g ref="char:EOLhyphen"/>ſo vnto the Angels, and asking of them whether that were not their Maſter his Garment: Her ſelf was not able to diſcerne per<g ref="char:EOLhyphen"/>fectly, whether it were any part of her or no, it was ſo diſſigured, but that with ſorrowe ſhee had brought her ſelfe ſo out of ſauor, that euerye one which ſee her, might eaſily iudge hee was her
+<pb facs="tcp:13358:51"/>ſonne and ſhee his mother.</p>
+            <p>Shee hath founde him againe, but becauſe whatſoeuer ſhee founde ſhee muſt forgoe except ſorrow, ſorrow got the victorie, in which ſhee did ſo much a<g ref="char:EOLhyphen"/>bound, as her ſonne his ſorrowe beeing at an end, there was now no ſorrowe like vnto hers, &amp; no comfort would ſhee admit, be<g ref="char:EOLhyphen"/>cauſe he was not.</p>
+            <p>They ſought no water to waſh his bleſſed body, fountains there were enough of hoate and ſcal<g ref="char:EOLhyphen"/>ding teares, wherein they ba<g ref="char:EOLhyphen"/>thed him firſt, then buried him a<g ref="char:EOLhyphen"/>gainſt their willes, wiſhing that either they themſelues were his ſepulcher, or his were theirs.</p>
+            <p>When thy dayes were come (O full of ſorow) that thou ſhul<g ref="char:EOLhyphen"/>deſt be deliuered, thou brough<g ref="char:EOLhyphen"/>teſt forth thy firſt begotten Son,
+<pb facs="tcp:13358:52"/>thou ſwadleſt him in cloutes,
+<note place="margin">Luk. 2.</note> &amp; laidſt him downe in a maunger, becauſe there was no place for thee in the Inne, and nowe thy daies were fully come that thou ſhouldeſt bee deliuered againe thou broughteſt foorth thy ſe<g ref="char:EOLhyphen"/>cond ſonne,
+<note place="margin">Iohn. 19.</note> and in ſteed of ſwad<g ref="char:EOLhyphen"/>ling him in cloutes, and ioyfull laying him downe, and tending him, thou art conſtrained to ſwaddle thy firſt begotten Sonne againe, and with ſorrow to lay him downe in a Monument, be<g ref="char:EOLhyphen"/>cauſe no other place but that, woulde hee make choice of to lie in.</p>
+            <p>The Funeralles beeing ended <hi>Saint Iohn</hi> doth take poſſeſſion, he leadeth home his ſorrowfull Mother, giuing her what com<g ref="char:EOLhyphen"/>fort hee could, beeing nowe al<g ref="char:EOLhyphen"/>moſt
+<pb facs="tcp:13358:52"/>ſpent with griefe, with whome hee continued yeeld<g ref="char:EOLhyphen"/>ing vnto her that dutie which became him.
+<note place="margin">Iohn. 19.</note> 
+               <hi>For from that houre, hee tooke her for his owne.</hi>
+            </p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>

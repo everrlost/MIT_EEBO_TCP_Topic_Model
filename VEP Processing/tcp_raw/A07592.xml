@@ -1,0 +1,494 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The mirrour of madnes, or a paradoxe maintayning madnes to be most excellent: done out of French into English, by Ia. San. gent</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1576</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 63 KB of XML-encoded text transcribed from 27 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A07592</idno>
+            <idno type="STC">STC 17980</idno>
+            <idno type="STC">ESTC S107041</idno>
+            <idno type="EEBO-CITATION">99842745</idno>
+            <idno type="PROQUEST">99842745</idno>
+            <idno type="VID">7428</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A07592)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 7428)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 479:18)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The mirrour of madnes, or a paradoxe maintayning madnes to be most excellent: done out of French into English, by Ia. San. gent</title>
+                  <author>Sandford, James.</author>
+               </titleStmt>
+               <extent>[38] p.   </extent>
+               <publicationStmt>
+                  <publisher>In Fleetestreate, neare to S. Dunstones Church by Thomas Marshe,</publisher>
+                  <pubPlace>Imprinted at London :</pubPlace>
+                  <date>Anno 1576.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>A translation, by James Sandford, of the French original.</note>
+                  <note>Running title reads: The mirroure of madnes.</note>
+                  <note>Signatures: A-B D⁴ (-D4).</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Delusions --  Early works to 1800.</term>
+               <term>Satire, French --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-04</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-05</date>
+            <label>Judith Siefring</label>Sampled and proofread</change>
+         <change>
+            <date>2011-05</date>
+            <label>Judith Siefring</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:7428:1" rendition="simple:additions"/>
+            <pb facs="tcp:7428:1" rendition="simple:additions"/>
+            <p>THE MIRROVR of Madnes, or a Paradoxe maintayning Madnes to be moſt excellent: done out of French into English, by Ia. San. Gent.</p>
+            <p>Imprinted at London in Fleetestreate, neare to S. Dunſto<g ref="char:EOLhyphen"/>nes Church by Thomas Marſhe. Anno 1576.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:7428:2"/>
+            <pb facs="tcp:7428:2"/>
+            <head>To the right woſhipful Sir <hi>Arthur Champernon Knighte, longe</hi> healthe with encreaſe of all <hi>proſperity.</hi>
+            </head>
+            <p>
+               <seg rend="decorInit">G</seg>Reat is the force of fortune (Righte wor<g ref="char:EOLhyphen"/>ſhipfull (on either ſide, to welfare or euill fare, as <hi>Ci<g ref="char:EOLhyphen"/>cero</hi> the moſte aboundant fountayne of Eloquence confeſſeth, but far greater is that of nature, whiche, as <hi>Seneca</hi> ſaith, is a reaſon deuine, ſowen in the world and the partes thereof. From whence all honeſt actions are deriued as from there foundreſſe, and by whom all thinges are may tayned, as by their Preſeru<g ref="char:EOLhyphen"/>reſſe. Greatly it is to be wiſhed, that nature, miſtreſſe and lady of liuing thinges, as a di<g ref="char:EOLhyphen"/>uine power, whiche to all men worketh all things for the beſt, were followed, not neg<g ref="char:EOLhyphen"/>lected: were embraced. not diſpiſed: and as e<g ref="char:EOLhyphen"/>uerye particular parſon reſpecteth chiefly himſelf, and preferreth his profit before the
+<pb facs="tcp:7428:3"/>
+commoditie of the multitude, ſo hath ſhe a ſpecial regard of al, not of ſome, of manye not of a few, for then her force ſhould faile, and liuing thinges ſhould ceaſe to liue, men ſhould become no men, the world no world, all thinges ſhould be reduced to that Chaos and confuſe mixture, which (as the Poetes faigne) was in the beginning before beawtie was giue<g ref="char:cmbAbbrStroke">̄</g> to the world. Some there be which endeuoure to excell others or to bee equall with others in learninge, actiuity, and qua<g ref="char:EOLhyphen"/>lities commendable, as it weere enuyinge at their knowledges, becauſe they do not cou<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>teruaile and ſurpaſſe them, doubtles that e<g ref="char:EOLhyphen"/>mulation is good and procedeth fro<g ref="char:cmbAbbrStroke">̄</g> nature: for it ſtriueth for excellencie, and ſeketh to aſpire to perfection, if we followed nature as ſhe doth vs, that is to ſay as ſhe doth aduyſe vs, we ſhould neuer treade beſides the pathe, that golde<g ref="char:cmbAbbrStroke">̄</g> age that was ſhortly after the be<g ref="char:EOLhyphen"/>ginning ſhould efteſones haue recourſe, co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>mon weales ſhould be wel ordered, and ma<g ref="char:cmbAbbrStroke">̄</g>s life wel framed. Nature is now peruerted by the corrupt cuſtomes of men, and an other Golden worlde farre vnlike to the other is crept in, whereof <hi>Tibullus</hi> the Poete maketh
+<pb facs="tcp:7428:3"/>
+mention in theſe Verſes.</p>
+            <q>
+               <lg>
+                  <l>
+                     <hi>Aurea nunc verè ſunt ſaecula, plurimus Auro</hi>
+                  </l>
+                  <l>
+                     <hi>
+                        <g ref="char:V">Ʋ</g>enit honos, Auro conciliatur Amor.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>Novv golden are the times, and highe renovvn</l>
+                  <l>For golde is ſould, for gold eke loue is vvon.</l>
+               </lg>
+            </q>
+            <p>This corrupte tyme hath continued many hu<g ref="char:cmbAbbrStroke">̄</g>dreth yeares, and nature is chau<g ref="char:cmbAbbrStroke">̄</g>ged into a naughty nature, which doth wel neare in<g ref="char:EOLhyphen"/>fect the mindes of all men, eatinge out that pure nature which is almoſte conſumed, and few ſparkles therof remayne: The chiefeſte cauſe and original hereof is a certayn deteſ<g ref="char:EOLhyphen"/>table deſire engraffed in al mens mindes of ſoueraigntye, authoritye, honour and gold which one healpeth to the reſt: for al things obey monie and ſhe alone beareth the ſway. Loue is litle regarded and eſteemed, and friendſhip in moſt men waxeth cold, which two, nature hath principally brought forth for the comforte and commoditie of man: for man vnto man is moſt comfortable and profitable, therefore the Greeke Prouerbe ſayth <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> ma<g ref="char:cmbAbbrStroke">̄</g> is to man a God, your friendſhip and courteſie which Nature hath wrought in you (Right worſhipful) moued me to addreſſe the few<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <pb facs="tcp:7428:4"/>
+leaues folowinge vnto you bearing witnes of my good wil and affection. VVherefore if you take it in good parte, I ſhal not think my laboure miſpent, but requited: thus vn<g ref="char:EOLhyphen"/>willing to trouble your worſhip with many words, I ceaſe, wiſhing that fortune would fauour and aduau<g ref="char:cmbAbbrStroke">̄</g>ce you, and Nature grau<g ref="char:cmbAbbrStroke">̄</g>t you long life.</p>
+            <closer>
+               <signed>¶Your woorſhippes du<g ref="char:EOLhyphen"/>ring life. I. S.</signed>
+            </closer>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:7428:4"/>
+            <head>To the reader.</head>
+            <l>FRom foraine Realme, this treatiſe ſmall,</l>
+            <l>transported came</l>
+            <l>To Engliſhe coaſte, in Frenche attire,</l>
+            <l>ſtill flitting Fame</l>
+            <l>Doth blowe abroade thinges once diſcloſde,</l>
+            <l>in euery lande,</l>
+            <l>In written woordes, which aie in Bookes</l>
+            <l>ſhall firmelye ſtand.</l>
+            <l>Reproue me not, though fame by me</l>
+            <l>enlargement take</l>
+            <l>This trifling toy, this mery ieſte,</l>
+            <l>for ſolace ſake,</l>
+            <l>Compiled was in foraine ſpeache,</l>
+            <l>I pardon craue,</l>
+            <l>If any bee, whom I herein</l>
+            <l>offended haue.</l>
+            <l>For <hi>Cynicke</hi> like the Authoure here,</l>
+            <l>with ſkoffes doth barke</l>
+            <l>At mens madde deedes, which vainely bent</l>
+            <l>no reaſon marke.</l>
+            <l>Wherefore in earneſt ſome wil take,</l>
+            <l>that which in ieſte</l>
+            <l>Is meant of me, in doing ſo,</l>
+            <l>they do not beſt.</l>
+            <l>
+               <pb facs="tcp:7428:5"/>Receaue and reade with merie cheare,</l>
+            <l>(good Reader) this</l>
+            <l>With reaſons rule, amend if ought</l>
+            <l>be done amiſſe.</l>
+            <trailer>Tutto per il Meglio.</trailer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:7428:5"/>
+            <head>The Mirroure of Madnes.</head>
+            <p>
+               <hi>
+                  <seg rend="decorInit">A</seg>S euery thing ſhoteth to</hi> his end &amp; ſcope, and ac<g ref="char:EOLhyphen"/>cordinge to the ende is worthye or vnworthye, prayſed or diſprayſed, vile, or excellent, baſe or commendable ſingular or vulgar, ſo whe<g ref="char:cmbAbbrStroke">̄</g> y<hi rend="sup">e</hi> thing obtayneth his per<g ref="char:EOLhyphen"/>fect end, it is moſt ſet by, but whe<g ref="char:cmbAbbrStroke">̄</g> the perfec<g ref="char:EOLhyphen"/>teſt of endes is compaſſed and atcheiued the<g ref="char:cmbAbbrStroke">̄</g> is it an honour to haue won y<hi rend="sup">e</hi> goale. Certes the Philoſophers haue made an endles diſ<g ref="char:EOLhyphen"/>putation aboute endes: the <hi>Platonickes</hi> one way: the <hi>Stoicks</hi> an other, the <hi>Peripateticks</hi> the third way, the <hi>Epicures</hi> the fourth, and all theſe contrarie one to an other, ful of di<g ref="char:EOLhyphen"/>uerſitye and diſagreement, ſo that it ſhoulde bee no maruayle for a blynde man to groape ſithence be that ſeeth cannot fynde the waye, nowe if I ſhewe a cheife ende eaſier to bee founde out then al theſe, vnto the whiche all theſe ſhoote and haue theyre recourſe and in the which they are contayned, will there not a newe Secte of Philoſophers aryſe vp eue<g ref="char:cmbAbbrStroke">̄</g>
+               <pb facs="tcp:7428:6"/>
+of themſelues and ſaye with mee that Mad<g ref="char:EOLhyphen"/>nes is beſte: Verily this were no hard mat<g ref="char:EOLhyphen"/>ter to be proued for euen vpon madnes haue they inuented new wayes, ſtraunge deuiſes, and forged innouations of endes, euery man to eate out vayne glory from an other. Now ſithence the originall of vaine glory is Mad<g ref="char:EOLhyphen"/>nes, and as the Latine Poet rudelye ſingeth <hi>Inſania, gloria Vana: <hi>
+                     <g ref="char:V">Ʋ</g>ain glorie is Madnes.</hi>
+               </hi> Whiche eatyng the hart, ſayth <hi>Plato,</hi> eue<g ref="char:cmbAbbrStroke">̄</g> as a continuall Worme, and as the Gripe doth he liuer of <hi>Titius</hi> as our Poetes faine, en<g ref="char:EOLhyphen"/>deth al in it ſelfe where it firſte had his be<g ref="char:EOLhyphen"/>ginning: ſo then, <hi>Propter quod vnumquod<g ref="char:EOLhyphen"/>úe tale &amp; illud facit magis tale. <hi>Whatſoeuer thing maketh the thing ſuch, the thing wherby it is made, is of neceſſitie more ſuche.</hi>
+               </hi> But by the reaſon of Madnes, that is to ſaye, the matter, <hi>Philoſophers</hi> bookes are eſtemed, &amp; accompted moſt excellent, therefore of Con<g ref="char:EOLhyphen"/>ſequence Madnes it ſelfe is without compa<g ref="char:EOLhyphen"/>riſon. Now let vs ſee whiche of theym will proue beſt, the Mad man, that is as I haue proued the notableſt <hi>Philoſopher.</hi> And firſte to begin with <hi>Zeno</hi> the Stoicke who ſayde, That the chiefeſt ende of mans life was ver<g ref="char:EOLhyphen"/>tue which he calleth <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, that is to ſay,
+<pb facs="tcp:7428:6"/>
+The chiefeſte and perfecteſt Good, the waye whereunto to aſpire paſſeth all mans reaſo<g ref="char:cmbAbbrStroke">̄</g> as he hath framed and inuented it. For this graunted, that all men bee withoute pertur<g ref="char:EOLhyphen"/>bations which will reache this ende, what is yt els to ſaye, but that all men are worſe by his ſentence definitiue, then Bedlems.</p>
+            <p>The kinge commaundeth me to ſerue in his Warres, if I ſlay him that came to ſhay me, or if I reuenge my dead Fryende vppon the body of my yet liuinge enimy, it was but for good wil, and not for anger: Why ſo I pray you? Forſoth <hi>Zeno</hi> ſayth ſo. If I take a ma<g ref="char:EOLhyphen"/>lefactour, which hath either deſpoiled me of my goods, or good name, peraduenture ſome other of my leeges ſubiectes, &amp; arrayn the<g ref="char:cmbAbbrStroke">̄</g> at the barre and ſue him to deathe therfore: I did it not for anger, but for good will to the partye: why ſo I pray you? Forſoothe <hi>Zeno</hi> ſayth ſo. If I ſee my wyfe violated before mine eies &amp; I come to hir ſuccoures, &amp; enda<g ref="char:EOLhyphen"/>mage the Traitour of my bodie, and the Ad<g ref="char:EOLhyphen"/>ulteceſſe a like, I did it for friendſhippe, and not for malice: Why ſo I pray you ſir? For<g ref="char:EOLhyphen"/>ſooth <hi>Zeno</hi> ſayeth ſo. Al theſe thinges ought to moue a wyſe man, and yet this man is ſo Cholerick, that he graſpeth nature faſt by y<hi rend="sup">e</hi>
+               <pb facs="tcp:7428:7"/>
+boſome, we muſt not wepe for our fryendes, our parentes, or countrye no more then I muſte reioyce ouer them for theire welthe: Yea although it touche my ſelfe to: the one, for that it is vnſeeminge for a wyſe man, to conceaue anye griefe, whiche hee callethe <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: y<hi rend="sup">e</hi> other, for that neither barrel is bet<g ref="char:EOLhyphen"/>ter hearing, and that he calleth <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> that is to ſaye, <hi>ſurpluſage of boaſting.</hi> But heere commeth in <hi>Ariſtotle</hi> and ſaythe, <hi>A wyſe mannes parte is to meaſure hys anger:</hi> and that he teacheth in his <hi>Ethicks,</hi> and him taketh vp <hi>Tullie,</hi> in his <hi>Tuſculanes,</hi> wyth this fryendly taunt: <hi>Modu<g ref="char:cmbAbbrStroke">̄</g> tu adhibes vitio? <hi>what</hi>
+               </hi> (faith he) <hi>putteſt thou a meaſure in a faul<g ref="char:EOLunhyphen"/>te?</hi> Nothing againſte ſtomack (good <hi>Maiſter Cicero</hi>) but if a man ſhoulde aſke you with out al choler I know you are a <hi>Stoicke,</hi> you ca<g ref="char:cmbAbbrStroke">̄</g>nnot bee angry &amp; that made you ſo <hi>ſtoick<g ref="char:EOLhyphen"/>like,</hi> in the face of the whole Courte, to crye agaynſte <hi>Marcus Antonius,</hi> for very loue I am ſore, <hi>Sedens pro tribunali vino inebria<g ref="char:EOLhyphen"/>tus &amp; cructa<g ref="char:cmbAbbrStroke">̄</g>s fruſtis eſculentis etiam iudex &amp; gremium ſuum &amp; totu<g ref="char:cmbAbbrStroke">̄</g> tribunal imple<g ref="char:EOLhyphen"/>uit: <hi>Sitti<g ref="char:cmbAbbrStroke">̄</g>g vpo<g ref="char:cmbAbbrStroke">̄</g> the Be<g ref="char:cmbAbbrStroke">̄</g>ch, bei<g ref="char:cmbAbbrStroke">̄</g>g Chiefe iudge, dru<g ref="char:cmbAbbrStroke">̄</g>ke with wine, &amp; bealchi<g ref="char:cmbAbbrStroke">̄</g>g in the faces of the people hee filled with greaſie gobbets his owne
+<pb facs="tcp:7428:7"/>
+lappe, and the whole Iudgement Seat together.</hi>
+               </hi> But to aſke you in concluſion, what thincke you all anger, a Vice? what a little anger? what the leſte? why, I perceiue there is no meane, for al ſtandeth in extremityes: Firſt Anger is a faulte, and a vice moſt horrible, then Leuitie muſte needes bee a vice, and as horrible as it: for al vertues, ſtand betwene two extreames, that is to ſaye, Vices, as <hi>Ariſtotle</hi> well defineth, ſayinge: <hi>Virtus eſt habitus in mediocritate poſitus rationi con<g ref="char:EOLhyphen"/>ſentaneus: <hi>
+                     <g ref="char:V">Ʋ</g>ertue is an habite, co<g ref="char:cmbAbbrStroke">̄</g>ſiſting in me<g ref="char:EOLhyphen"/>diocritie, to Reaſon agreable.</hi>
+               </hi> If all anger be naught, then all the contrary is naughte: ſo by conſequence, Vertue is iacke out of office: &amp; Vertue baniſhed, Reaſon maye go ſhake his eares, Reaſon exiled, what foloweth but Madnes? Therefore all turned to Vice, all is ſtarke ſtaring Madnes. So is youre mai<g ref="char:EOLhyphen"/>ſter <hi>Zenoes</hi> great end come to nothinge. Ah ſirra, I am glad I haue met with you, <hi>taiſe vous</hi> (ſaith <hi>Zeno</hi>) no more of that geare: I am ſure there are as mad as my ſelfe. Whom think you? Forſooth <hi>Ariſtotle:</hi> yea ſir, come foorth &amp; anſweare to your complaynte, <hi>Zeno</hi> ſayth, you are as madde as he: let me heare what can you ſay for your ſelfe: what pour<g ref="char:EOLhyphen"/>poſe
+<pb facs="tcp:7428:8"/>
+you, the chiefeſſe ende of mannes lyfe? Forſooth I think felicitee: Ah do you ſo ſir? In deede ſir, I doe well remember, that in your Schole there are twoo kindes of felici<g ref="char:EOLhyphen"/>tye, the one conſiſting in <hi>Action,</hi> the other in <hi>Contemplation,</hi> and the firſt, you define af<g ref="char:EOLhyphen"/>ter this ſorte, to bee an <hi>Action</hi> perfecte, in a perfecte life: nowe <hi>Ariſtotle,</hi> I praye you, tel me where is a perfecte life to bee founde? Sir, my workes ſpeake for me. Ah ſir, I re<g ref="char:EOLhyphen"/>member wel in deede I reade thus, <hi>There is</hi> (ſay you) <hi>a ſimple felicitie, and ther is a felici<g ref="char:EOLhyphen"/>tie Aggregate:</hi> The ſimple Felicity, co<g ref="char:cmbAbbrStroke">̄</g>ſiſteth of Vertue, and they are not able to ſtand in <hi>Zenoes</hi> Schole, who magnifyeth theym a yarde aboue you: Simple felicitee (quoth you) alas poore ſhoten hearing, this wil not ſerue the turne: but let vs vewe a litle fur<g ref="char:EOLhyphen"/>ther, you ſay, that: <hi>Felix ſemper agit: <hi>The happy ma<g ref="char:cmbAbbrStroke">̄</g> is alwaies occupied:</hi>
+               </hi> tel me <hi>Ariſtotle</hi> I praye you, howe, ſleapynge or wakynge? Both: wel bowld <hi>Ariſtotle,</hi> hath your head beene occupyed whyleſte you weere a ſleepe? why not? wel aunſweared <hi>Ariſtotle,</hi> I be<g ref="char:EOLhyphen"/>leeue you well for not ſo litle as the bridle wherewith you weere ſnaffled like a packe horſe, (you knowe what I meane) and I
+<pb facs="tcp:7428:8"/>
+thinke youre heade as greatlye occupyed in ſleepe, to contriue an <hi>Aliſander</hi> roote, in ſteede of natures <hi>Aliſander</hi> buddes, whye, good Mayſter <hi>Ariſtotle,</hi> do not you confeſſe that dreames come of humoures, in youre bookes, <hi>De ſomno &amp; vigilia?</hi> if then hu<g ref="char:EOLhyphen"/>mours woork in ſleepe, wha<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap> hath vertue to do, let hir go tel chearye ſtones, &amp; then God giue you good night, thus is youre Symple felicitee ſimplye proued. Now let vs come to your <hi>Aggregate</hi> felicity, but what are the goodes of fortune and body who ſo of anye of theſe is deſtitute leſeth name of happy: &amp; what bee the goods of Fortune? not as vn<g ref="char:EOLhyphen"/>certayne as her ſelfe, ebbing and flowing li<g ref="char:EOLhyphen"/>ke the Sea, waxinge and waninge like the Mone, floriſhinge &amp; fading like the flowers, poſtes of luſtes, ſlaues of tyme, and altogea<g ref="char:EOLhyphen"/>ther vnſtable? as for the Body either diſeaſe withereth all calamity chaungeth, or death deſtroyeth and admitte bothe were preſente, the goods of Fortune, and Body, let reaſon ſurceaſe in mynde, whiche cannot bee, but where vertue is, whiche is not to bee founde as I haue proued, &amp; al is turned topſituruye from diſcretion to madnes, Ah ſir, howe do you by this tyme? let me feele your Pulſes,
+<pb facs="tcp:7428:9"/>
+me thincketh the feuer is ſore vppon you, oh Gods Lorde I am deceiued, but I perceiue, where the ſhooe wryngeth you, youe ſeeke your refuge, on Goddes name as Felicitye <hi>Contemplatiue,</hi> and therein you are altoge<g ref="char:EOLhyphen"/>ther wrapped in the ſkyes: your mynd is al<g ref="char:EOLhyphen"/>togeather vpon y<hi rend="sup">e</hi> Church, Forſooth of men, we muſte become Goddes: of Terreſtriall, Celeſtiall: of bodies, mindes: &amp; to conclude, of men, madde men: Wee muſte not hincke on the kitchin, becauſe of the parlour<g ref="char:punc">▪</g> nor of the parloure, becauſe of the chamber: nor of the chaumber, becauſe of the garret: nor of the garret, becauſe of the ayre: wee muſt liue farre aboue the nature of Crowes. Thus muſt men diet themſelues with contemplati<g ref="char:EOLhyphen"/>on: thus laye yee bolſters vnder mennes el<g ref="char:EOLhyphen"/>bowes, teaching them, to be ſecure, and idle, and to growe to the ſtole with contemplaty<g ref="char:EOLhyphen"/>on. Is not this of al Madnes the moſt ex<g ref="char:EOLhyphen"/>treame? Come hither, come hyther <hi>Tullie,</hi> let me hear thy iudgement, thou ſometymes madeſt a booke, as concerning an Oratoure, tell mee when thinckeſte thou ſuche a one wilbe? ſurely when the <hi>Alpes</hi> and <hi>Appenine</hi> hilles, ſtande bare without ſnowe. Come hither <hi>Plato,</hi> thou madeſt as greate a worke
+<pb facs="tcp:7428:9"/>
+as he, of the Common Wealth, when thyn<g ref="char:EOLhyphen"/>keſt thou that ſuche a one wyll euer aryſe as thou ſpeakeſte of? Surelye not as lo<g ref="char:cmbAbbrStroke">̄</g>g as my woorkes bee extante: doubtles then are yee both ſtarke ſtaringe mad now. Set the ones <hi>Common VVeale,</hi> the others <hi>Oratour,</hi> the third <hi>Felicitie,</hi> together in equal balance, &amp; therto of our tyme (if ye pleaſe) the <hi>Courtier of Cou<g ref="char:cmbAbbrStroke">̄</g>t Baldeſſer Caſtilio,</hi> to healpe y<hi rend="sup">e</hi> ſcale as likely to be as any of theſe, and the excel<g ref="char:EOLhyphen"/>lencye of all theſe thinges, is altogeather Madnes. Nowe to the <hi>Platonicke,</hi> methink I heere <hi>Ariſtotle</hi> accuſe him hither, I war<g ref="char:EOLhyphen"/>ra<g ref="char:cmbAbbrStroke">̄</g>t you a good ſcholler that can ſpeak ſo wel of his maiſter, and yet I thinke in this place not without ſome good reaſon. <hi>Plato</hi> putteh his chiefeſt ende in a certayne thinge whiche he calleth <hi>Idea,</hi> whiche is nothinge els, but a conceipt of mynd in Imagination, whereby in the ſame wee gather ſome thinge: as for example, in Imagination, I conceiue the na<g ref="char:EOLhyphen"/>ture of a Serpente, and by conceite I frame vnto my ſelfe an Image: this Image ſo fra<g ref="char:EOLhyphen"/>med in Imagination, is called <hi>Idea.</hi> Nowe <hi>Plato</hi> howe can <hi>Idea</hi> be <hi>Summum bonum, <hi>The ſoueraigne good,</hi> Ariſtotle</hi> ſaieth it ca<g ref="char:cmbAbbrStroke">̄</g>not bee: the greateſte reaſon is, becauſe it is in
+<pb facs="tcp:7428:10"/>
+euery predicament to bee founde, to vſe that reaſon onlye if it bee in euerye predicament, as it muſte needes be graunted, for all <hi>Vni<g ref="char:EOLhyphen"/>uerſalles</hi> (as the <hi>Logitioners</hi> wel ſay) are no<g ref="char:EOLhyphen"/>thinge els, but <hi>Conceptus animi,</hi> thinges conceiued in mynde, gathered and collected together, by a numbers of ſingulars, aſwel in <hi>Accidences</hi> as in <hi>Subſtaunces,</hi> as by this man, and that man, and ſo forth, from one to an other: I gather a whole nature, whiche is a man: ſo likewyſe, ſeinge a man tidinge with his hawke on his fiſt, I gather a whole vniuerſall nature whiche is a liuinge crea<g ref="char:EOLhyphen"/>ture: Nowe <hi>Plato,</hi> if euery vniuerſall bee a Soueraigne good, then euery particular is a leſſe good, but as the one is falſe, ſo is the o<g ref="char:EOLhyphen"/>ther peraduenture you will ſaye, <hi>In ſuo ge<g ref="char:EOLhyphen"/>nere:</hi> why then, where is the chiefeſte? Goe further, euery forme conceiued, is <hi>Idea,</hi> ma<g ref="char:EOLhyphen"/>ny of theſe be conceyued in ſleepe, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, that is by mean of phanta<g ref="char:EOLhyphen"/>ſie whiche is euer occupyed, nowe if theſe <hi>Ideas</hi> beare the ſoueraintee, ſurelye it is a phantaſticall ſoueraintee ſo as yet finde you not that whiche you ſought for. The Philo<g ref="char:EOLhyphen"/>ſophers ſay, that <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> ſoundeth <hi>Idea</hi> and that all formes, ſo reſembled, be called
+<pb facs="tcp:7428:10"/>
+by that name, and hereunto liken they the Soule, and doubte not to call Celeſtiall na<g ref="char:EOLhyphen"/>tures <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> whiche the Latine Philo<g ref="char:EOLhyphen"/>ſophers interpret <hi>Actus puri, <hi>pure Actio<g ref="char:cmbAbbrStroke">̄</g>s,</hi>
+               </hi> ſegregate from all concretion mortal. Now certaynelye the Soule is not that, whiche <hi>Plato</hi> meaneth for it hath neede of it, Cele<g ref="char:EOLhyphen"/>ſtyal Spyrites are not it, for the Soule is of equall nature with theym: Then is it ſome greater matter that we looke, for perchau<g ref="char:cmbAbbrStroke">̄</g>ce <hi>Plato</hi> mente that, whiche <hi>Ariſtotle</hi> coulde not perceaue, for hee hath alwayes recourſe <hi>Ad Opificem Formarum: <hi>To the ſhaper of formes,</hi>
+               </hi> and to the principall forme it ſelfe, the participation of which, wee cannot en<g ref="char:EOLhyphen"/>ioy, ſo longe as in this lyfe wee remayne: ſo then death is the ende of this lyfe, and the fruityon of that forme, the beginninge of an other Moreouer, Vertues excluded, as yee ſe, how ſhal the participation of that for<g ref="char:EOLhyphen"/>me be obtained and <hi>Plato</hi> himſelf confeſſeth, that the ſame is, <hi>Bonum inacceſſibile,</hi> a So<g ref="char:EOLhyphen"/>ueraygne good, which cannot be attayned: what then is this life but mere Madnes? and whye maye I not conclude with <hi>Solon, Ante obitu<g ref="char:cmbAbbrStroke">̄</g> faelix nemo, <hi>Happy graue, happye man.</hi>
+               </hi> The laſte Gentleman, me thinketh is
+<pb facs="tcp:7428:11"/>
+faſte a ſleepe in deede, I weare verye loth to diſquiet him, for the man hathe a <hi>Burdeaux</hi> hammer working in his heade, how ſay you <hi>Epicure,</hi> are ye awake? Ah wel ſayde, wee may then talke wyth you by leaſure, what is the chiefeſte good epicure? pleaſure. How many braunches be there of it? Foure: which be they? rehearſe the Articles of your belefe.</p>
+            <p>Fyrſte I beleeue a cuppe of Wyne is won<g ref="char:EOLhyphen"/>derfull good, then I beleeue that Cuſtarde, Tarte and Marche<gap reason="illegible" resp="#OXF" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ne, that minſed Pyes of the beſt ſorte, that Venerie and Veniſon, that Quaile, Feſaunte, Patriche &amp; Plouer with other ſuche daintie wilde fowle, that Orenges in Sirupe, &amp; Sirupes of all ſortes, that Comfittes, Biſkets, and Carawayes, that Ielies of all coloure, that Succettes, Marmalades, and greene ginger, &amp; brieflye what ſoeuer delighteth mouth &amp; throte, eſpe<g ref="char:EOLunhyphen"/>cially is to be regarded: mary ſir here is an Article with al my hert, and of a ſubſtancial lengthe, proceede: Thyrdly, I beleeue that fine apparell, vppon the whiche moſte coſte may be beſtowed, euen to the higheſte braue<g ref="char:EOLhyphen"/>ry to glitter in Silkes, and Veluets and to ſmell ſweete of the Donge of a muſkecat, to haue the ca<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>pe full of Agglets and the buſh
+<pb facs="tcp:7428:11"/>
+of Fethers in the toppe braue and Bullaine lyke the Chayne of Golde fiue tymes double aboute the necke, and thereat a pendant <gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>a<g ref="char:EOLhyphen"/>blet, and euerye finger beſette with three or foure rynges, beſide the great ſygnet vppon the thombe, and a paire of Gorgious and per<g ref="char:EOLunhyphen"/>fumed gloues therupon, laſtly a great trow<g ref="char:EOLhyphen"/>pe and trayne of men, and my Horſe trymly trapped, wyth Veluet imbrodred, ſet wyth golden Studdes, and whatſoeuer appertay<g ref="char:EOLhyphen"/>neth or maketh to pompous ſtate and prince<g ref="char:EOLhyphen"/>ly port y<hi rend="sup">t</hi> ſingularly is to be holden precious. Now doubtles you beleue well, go further: Fourthlye, I beleeue that to haue my houſe richelye dyght and hanged according to my ſtate and condition, and in all partes furni<g ref="char:EOLhyphen"/>ſhed after the beſte manner, my chaumbers I ſaye, Parloures and other ſuche romes hanged wyth Clothe of Tyſſue, Arrace, and Goolde, my Cupbordes heades ſet oute and adorned after the richeſt, coſtlieſte, and moſt Gloryous maner, wyth one cuppe cocke height vpon an other, beſide the greate baſen and ewer both of Siluer and Golde, filled at conuenient tymes with ſweete and pleaſau<g ref="char:cmbAbbrStroke">̄</g>t waters wherewith my dilicate handes maye be waſhed, my heade recreated and my noſe
+<pb facs="tcp:7428:12"/>
+refreſhe, prouided alwayes that there bee of all ſortes to contente and pleaſe the eies of the beholder, I perceaue ye knowe howe to ſpende monye, if you knewe aſwell howe to come by it, proceede: Fyftlie, I beleue that to haue my chamber well perfumed, my bedde ſoftly made, my Cortaynes finely drawen, &amp; my pretye Pigſnie gingerly in myne armes, or els my wantone <hi>Ganimede</hi> is a thing eue<g ref="char:cmbAbbrStroke">̄</g> alone for my tooth: now doubtles you ſhewe buſhe natural <hi>Epicure,</hi> yet notwithſtanding bold one as you haue begonne. Laſtly, I be<g ref="char:EOLhyphen"/>leeue to ſleepe euen til noone, &amp; then to aryſe to dinner, and then to borow an vndermeale of ſleepe agayne and then to walke a little be fore ſupper, to get a ſtomacke, and at euerye meale to haue my trull trickſie, and merye minion by my whyte ſide, and to make the ſquare boones, or Gromeporters daunce be<g ref="char:EOLhyphen"/>tweene twoo candelſtickes, paraduenture a whole night together: this with the reſidue of the Articles aboue mentioned, I take to be the chiefeſte, perfecteſt, and moſt abſolute ende of mans lyfe. Now ſurely properly and deftly done <hi>Epicure,</hi> haue you al ſayde? You told me there weere foure branches of plea<g ref="char:EOLhyphen"/>ſure, which bee they? Eatinge, Drinkinge
+<pb facs="tcp:7428:12"/>
+Slepynge, and Mutinge: how are you able to aſpyre to al this? this doctrine is ſo ſwete, and ſo many reſort to heare it, that it neuer, ſhameth his maiſter: Of this Secte hath ben a great number, aſwel Greekes as Roma<g ref="char:cmbAbbrStroke">̄</g>s. Truth we wil remember, firſt <hi>Sardanapalus</hi> is to well knowen, whoſe deathe I am ſure, the preaty pewlinge dames ſo muche bewai<g ref="char:EOLhyphen"/>led, that the teares fell downe from theire eyes, as huge as milſtones: to let the reſidue paſſe and to come to <hi>Alexander,</hi> the greate, whoe knoweth not that as vppo<g ref="char:cmbAbbrStroke">̄</g> a Madnes he woulde nedes ſubdue the whole worlde, euen ſo, geuen to pleaſure, hee became of a Souldiar a ſawyer, of a captayn, Captiue, and of a noble Conqueroure, a notable Hau<g ref="char:EOLunhyphen"/>keroure: the firſt original of this beganne in the warres pretended betweene him and the <hi>Amazones,</hi> whom when the Queene hadde ſeene, and he wel fixed hys Eies on her, with wanton regardes and countenaunces euery ſparkle kyndled a brande, and euery brande rayſed a flame, and ſo the flame ſeeking his iſſue tooke truce for affections ſake, &amp; raged vpon the bodies of them both, thus was the battayle of manhode turned to the batterye of <hi>Cupide,</hi> whereof the ende was this that y<hi rend="sup">e</hi>
+               <pb facs="tcp:7428:13"/>
+fortes of both their honoures raſed, and ple<g ref="char:EOLhyphen"/>aſure takinge ſuch deepe roote in the haugh<g ref="char:EOLhyphen"/>tye hart of the Prynce after many worthyes ſlayne by him in dronkenes, and Royaultee tranſported to Tirannye, Poyſon became y<hi rend="sup">e</hi> ende of pleaſure. As for <hi>Heliogabalus,</hi> his Tower garniſhed with gliſteringe ſtones, poliſhed and ſet with gold, to flinge himſelfe downe, if neede we are: his Halters ſet with Pearle, and curiouſlye wroughte, to hange hymſelfe if neede weere: his ſworde ſo ryche and coſtly gilte, engraued and ſet with Mar<g ref="char:EOLhyphen"/>garitee, to ſlay hymſelfe if neede were, ſaued him not from the violent ſwoorde of his eni<g ref="char:EOLhyphen"/>mies. To ſpeake nothinge of <hi>Nero,</hi> whoſe end was moſt miſerable and tyrannie moſte inſatiable, and pleaſure in oſt abhominable. The like of <hi>Periander</hi> we reade, and he a wi<g ref="char:EOLhyphen"/>ſe Philoſopher, but a wylde and ſauage Ty<g ref="char:EOLhyphen"/>raunte, whom pleaſure in the ende broughte to ende and diſtruction. If emperoures, if the Conquerours of all the worlde, if many more beſide Tyrauntes, if Philoſophers, if high, if lowe, if one, if other, ſerche out plea<g ref="char:EOLhyphen"/>ſure ſo diligently, followe it ſo inordinatlye, wallowe in it ſo ſhamefullye, ende with it ſo deſperately, what ſhal I thinke, but that ſi<g ref="char:EOLhyphen"/>thence
+<pb facs="tcp:7428:13"/>
+all our life, is ſet on pleaſure and ple<g ref="char:EOLhyphen"/>ſure altogether Madnes, that all our life is Madnes. Now exceptynge the vile and beaſtly pleaſures, whiche are the cauſes, of theſe ſhamefull endes, no man wil ſaye, but that all pleaſures may be allowed, for al ple<g ref="char:EOLhyphen"/>aſures, moderatly taken, are profitable, are honeſt, are neceſſary, profitable for that they prolong life, honeſt for that they be decently vſed, neceſſarye, for without ſome pleaſure, our life is nothinge.</p>
+            <p>And for this cauſe, nature inuented theym, but pleaſure, as pleaſure is of neceſſitye Madnes, yet honeſt, profitable, and neceſſa<g ref="char:EOLhyphen"/>rye, as before is proued, <hi>Ergo.</hi> Madnes is both honeſt, profitable, and neceſſary. But what if I make for <hi>Epicure,</hi> and proue, that all pleaſures are good, and excellente, then I truſt, I ſhall enforce the like conſequence of Madnes, my chiefe reaſon ſhall bee <hi>a ſub<g ref="char:EOLhyphen"/>iecto,</hi> for euery accidente, hath his excellencie of his ſubiect: now, if pleaſure be in the moſt excellente ſubiecte: and the ſame Madnes: then Madnes for the excellencie of the ſub<g ref="char:EOLhyphen"/>iect, muſt nedes be moſt excellent: in the moſt excellent ſubiecte it is, as it maye bee with a weat finger ſhewed: for what ſubiecte canne
+<pb facs="tcp:7428:14"/>
+be more excellent in Heauen, Earthe, Pur<g ref="char:EOLhyphen"/>gatorye and Hell, nexte to God, or the De<g ref="char:EOLhyphen"/>uil, then the moſt Holy, Reuerende, and Re<g ref="char:EOLhyphen"/>nowmed Father, the Vicar of Chryſte, the Succeſſoure of Peter, the Lieutenaunte of Saynct Pawle, &amp; our Ladies chiefe Chau<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>celloure and Chamberlayne, who hath all knowledge in the deapthe of his breaſte, all miſteries within the ambrie, &amp; groſſe preaſe of his vnderſtandinge, who can do aſmuche as Chryſt can, by the vertue of Saynct Pe<g ref="char:EOLhyphen"/>ter, and more then Chryſt by the auctoritye receaued from him, wherein he hath bound himſelfe to his Holines, in ſomuche that hee is able to diſpence with the Newe and olde Teſtamente, and to call thinges whiche are not, euen as though they weere, &amp; of nothing to make ſomethinge, and to create his crea, toure, wherby he geueth the ſame auctoritee to Pryeſtes, and ghoſtly Fathers, likewiſe to iudge all men withoute controlmente, or checke, or iudgement of any other man, al<g ref="char:EOLhyphen"/>though he drew infinite heapes of ſoules to Hell after hym, likewyſe in his mouthe is e<g ref="char:EOLhyphen"/>uery woorde eſtabliſhed, &amp; the leaſte woorde thereof ſtandeth to as greate effecte as the Bible, thus maie <hi>Nouatus</hi> reioyce, for his
+<pb facs="tcp:7428:14"/>
+Hereſies become Scripture, and aboue it, which was that for thoſe that once fell, ther remayned afterward no repentaunce: thus maye <hi>Iohn</hi> the .xxii. triumph, who denied the immortallitee or euerlaſtingnes of the ſoule, affirminge that there was neyther Heauen nor Hel after deathe, and nowe his opinion is aboue Scripture, and <hi>Leo decimus</hi> hath no cauſe to complayne, who ſayde, hee would haue Wylde foule in deſpyte of Gods teeth, and maugre the Bible, this is aboue Scrip<g ref="char:EOLhyphen"/>ture. O holy gouernoures of Peters ſhip O bleſſed Porters that carye the keies both of Heauen and Hell, of the one to ſhutte o<g ref="char:EOLunhyphen"/>ther men from thence, and of the other for ſuretie of repairau<g ref="char:cmbAbbrStroke">̄</g>ce, but he is Lorde of all.
+<q>
+                  <lg>
+                     <l>
+                        <hi>Nec Deꝰ es, nec homo ſed neuter &amp; inter vtru<g ref="char:cmbAbbrStroke">̄</g> que</hi>
+                     </l>
+                     <l>
+                        <hi>Te deus elegit ſocium ſocialiter egit</hi>
+                     </l>
+                     <l>
+                        <hi>Tecum, na<g ref="char:cmbAbbrStroke">̄</g>que tenet Caelum dedit &amp; tibi terras.</hi>
+                     </l>
+                  </lg>
+                  <lg>
+                     <l>Ne God, ne man but midle playne thou art,</l>
+                     <l>God hath thee chooſe his fellovv meate to be,</l>
+                     <l>And vvith thee played a right good fellovves parte.</l>
+                     <l>Reſeruing Heauen himſelfe, and Earth for thee.</l>
+                  </lg>
+               </q>
+And yet his groſers and gloſers worthines ſticke not to cal his Holines <hi>Regem Regum &amp; Dominum dominantium, <hi>King of Kinges and Lorde of Lordes,</hi>
+               </hi> of whoſe curſe all the
+<pb facs="tcp:7428:15"/>
+whoole worlde ſtandeth in awe, and trem<g ref="char:EOLhyphen"/>bleth as greatelye as dothe the Catte by the Kytchin fire or els in the milke panne ouer heade and eares. But to recken vp all his groſſe opynions, eſpecially of Tranſubſtan<g ref="char:EOLhyphen"/>tiation, wyl not euery man confeſſe the ſame to bee a ſolemne Madnes? marke how ſober<g ref="char:EOLhyphen"/>lye it is proued <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> whiche is aſmuch to ſaye, as-giue vs this daye our daylye breade, whiche they interprete geue vs this daye oure ſuper<g ref="char:EOLhyphen"/>tranſubſtantiated breade, fie, fie, <hi>Super ſub,</hi> and <hi>trans,</hi> this is able to bringe a man into a traunce, they muſte haue the Calfe wyth the whyte face, they muſte haue they know not what, and yet is theire Tranſubſtanci<g ref="char:EOLhyphen"/>ation as good as before, if a man aſke them what the Accidentes be, they ſaye viſible, if ye aſke whereof, they ſaye of Breade, like<g ref="char:EOLhyphen"/>wyſe of the tangible Accidentes, and the gu<g ref="char:EOLunhyphen"/>ſtable beynge demaunded, they anſweare aſmuche. Yet muſt wee beleue vnder payne of damnation, that euery lowſie dolte &amp; buſ<g ref="char:EOLhyphen"/>ſardlye Sacrificer, may fetch downe Chriſt from Heauen into the Pixe at a ſodayne, yet ſay they not to Crucifie him, although that they graunt him to be paſſible, otherwyſe he
+<pb facs="tcp:7428:15"/>
+is not fleſhe, bloude, and bone, borne of the virgin Mary, I will make but this reaſon, he ſayde when he was liuing in humain fleſh in this worlde, <hi>hoc eſt corpus meum: <hi>This is my body,</hi>
+               </hi> whiche verilye was then liuinge when it was ſpoken, otherwiſe ſurely would he haue ſayde <hi>Hoc eſt cadauer meum: <hi>This is my carcaſe</hi>
+               </hi> Now howe the Breade may bee the incorruptible body conſidering the natu<g ref="char:EOLhyphen"/>re thereof, is obiect to our ſenſes, I ſee not, I am ſure the deade bodye they eate not, then be like they eate the liuinge as it was before it was crucified, that were moſte abſurde to graunte. For the woordes of <hi>Iohn</hi> are, <hi>Ci bus, quem ego dabo, ca<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o mea eſt: <hi>The meat which I will giue, is my fleſhe.</hi>
+               </hi> And this <hi>Sinaxis</hi> was inſtituted before his death, to be retay<g ref="char:EOLhyphen"/>ned and vſed after his deathe, admitte the Pryeſte ſhoulde looſe one Hoſte emonge a number as we read that once he did, going to viſite a ſicke man, there is no other waye to finde the ſame agayne, but by vewing all the beaſtes that kneele aboute it, to marke whether there be euer a black Cowe emong the company that kneleth on one knee, and then hee ſhall know it is not for gracing, but for worſhippe, or els if wee cannot finde hym
+<pb facs="tcp:7428:16"/>
+in deede, to do as I hard a mery Prieſte did ones comming to an olde woman &amp; hauing loſt his Hoſt, he beganne to Coyne an other of his gloue, and approchynge neare to the beddes ſyde, willed the good olde mother to gape and receaue her maker, ſhe greedlye opened her mouth, and he thruſt in his why<g ref="char:EOLhyphen"/>te letheren God, whiche beinge ſomewhat touth &amp; ſhee tootheleſſe made a fowle agree<g ref="char:EOLhyphen"/>ment, at length hauing longe chawed it, and vnable to diſgeſt, ſhee beganne to crye, is it he, Mayſter Parſon? it is hee? I <hi>ipſe</hi> he <hi>qui</hi> the which, mother quoth hee, thus the poore woman endeuouringe to ſwallowe it was for her greate deuotion deuoutlye chooked, if the Prieſt had benne as gratiouſly hanged al men wooulde haue ſayde, there had bene but one Knaue out of the waye, and perad<g ref="char:EOLhyphen"/>uenture repentaunce might haue ouertaken hym at the Ghoſtly Gallowes, whiche neuer did in quiet bedde, for as the fame goeth hee died deſperately, but to make concluſion we ſay not that Chryſte was euer ſuche a foole, to thinke to eate himſelfe, or that his Mo<g ref="char:EOLhyphen"/>ther was euer ſo vnkynde to eate her ſonne or his Diſciples their mayſter, &amp; that rawe fleaſhe without breade too, at the leaſte for
+<pb facs="tcp:7428:16"/>
+feare of ſurfeyte, for I think they knew not how to make <hi>Aqua vitae</hi> in thoſe dayes: We then confeſſe wyth <hi>Auguſtine</hi> and ſay: <hi>vni<g ref="char:EOLhyphen"/>cum habemus Domini corpus ſemel reuera in Cruce oblatum ſemper aute<g ref="char:cmbAbbrStroke">̄</g> ipſius Fidei dentibus attritum: <hi>Wee haue one Body of the Lorde offered in dede ones vppon the Croſſe, but alwayes broken by the teeth of fayth.</hi>
+               </hi> Wee con<g ref="char:EOLhyphen"/>feſſe with <hi>Ambroſe, Caro Domini in Caelis caro eſt, in terris Fides eſt: <hi>The fleſhe of the Lorde in Heauen is fleſhe, in Earth fayth.</hi>
+               </hi> And wyth <hi>Tertullia<g ref="char:cmbAbbrStroke">̄</g>, Corpus Chriſti manducare nihil aliud eſt qua<g ref="char:cmbAbbrStroke">̄</g> in Chriſtu<g ref="char:cmbAbbrStroke">̄</g> credere: <hi>To eat the Body of Chriſt is nothing els but to beleue in Chriſt.</hi>
+               </hi> Thus ſpeakynge one thing and me<g ref="char:EOLhyphen"/>aning an other like Madmen wee diſpraiſe, yet prayſe we right Madmen, whoſe holy o<g ref="char:EOLhyphen"/>pinions and clerkely concluſions enforce vs to think ſtill that Madnes excelleth. Yee haue harde before litle trifles, now beholde and vewe at large the greate and notable ſtage &amp; tryumphe of Madnes, nowe behold her in all her pompe, ruffe, and iolitye, ri<g ref="char:EOLhyphen"/>dinge into the Capitol thorow the Romane gates and Cittie moſte victoriouſly, with a thouſande Captiues and Pezauntes at her Chariot, ſhee I ſaye who before triumphed
+<pb facs="tcp:7428:17"/>
+in Carthage ouer the puiſſaunce and power of <hi>Romans,</hi> vnder the moſt worthye and va<g ref="char:EOLhyphen"/>liaunt <hi>Hanniball,</hi> nowe dothe the lyke ouer whole <hi>Affricke, Iudea, Aſſiria, Egipte, Greece, Germanie, Spain Fraunce, Britaine,</hi> and a number more vnder the moſte renow<g ref="char:EOLhyphen"/>med and couragious <hi>Fabius Cunctator, Sci<g ref="char:EOLhyphen"/>pio Affricanus, Lucius Scaeuola, Lucius Torquatus, Iulius Caeſer,</hi> &amp; <hi>po<g ref="char:cmbAbbrStroke">̄</g>pei</hi> y<hi rend="sup">e</hi> great: and before their tyme <hi>Caius Marius,</hi> whoſe ſoundinge fame throwe deadlye dynte of ſworde, hath wonne ſuche glorye immortall and atchiued ſuche prayſe, that neyther the enuious rage of greedye deathe, neither the churliſhe chappes of deuouringe tyme, ney<g ref="char:EOLhyphen"/>ther the hurlinge payſe of vnconſtante For<g ref="char:EOLhyphen"/>tunes whele ſhal euer bee able to empayre, or remoue the ſame from the ſeege of memo<g ref="char:EOLhyphen"/>rye, &amp; how came they to ſuch high aduaunce<g ref="char:EOLhyphen"/>ment? not by the prerogatiue of Nobilitye, nor by the ſtatelye ſtemme of Parentage nor by the ſundry blaſtes of the lyghte and vul<g ref="char:EOLhyphen"/>gar ſort, but by feates and deedes in Armes by Martial proweſſe, and hardy attemptes, the parent whereof is Warre, Battaile, and Fight, wherein, what mayſt thou elles per<g ref="char:EOLhyphen"/>ceiue but very Madnes, the craſhing Canon
+<pb facs="tcp:7428:17"/>
+wyth rumblinge, ratlinge and roaryng thu<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>derclappes, the Captaynes ſwellinge, frea<g ref="char:EOLhyphen"/>ting and fominge at mouth, and ſettinge vp theire briſtles, the headdes and quarters of menne flyinge in the ayre, the hydeous gro<g ref="char:EOLhyphen"/>nynges and Cryes of the wounded, here a whole rancke cutte of with a chayne, there a whole nu<g ref="char:cmbAbbrStroke">̄</g>ber murdered by the ſworde, heere the grayſlye bodies of y<hi rend="sup">e</hi> ſlayn, there the mer<g ref="char:EOLhyphen"/>ciles ſtroke of the murderour, here the rage of y<hi rend="sup">e</hi> ſwoorde, <hi>Cuius imbuti ſemel vecors li<g ref="char:EOLhyphen"/>bido eſt,</hi> ſaith <hi>Seneca, Who <hi>ones embrued with bloud ſtill thirſteth after more,</hi>
+               </hi> there the ſtrea<g ref="char:EOLhyphen"/>mes of bloude, moſt pitifull to beholde and ſhedde withoutt all mercie in moſte aboun<g ref="char:EOLhyphen"/>daunce and ſl<gap reason="illegible" resp="#OXF" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ghter on euerye ſide: where is that noble <hi>Hector,</hi> which at one tyme ſlew ſo manye thouſande <hi>Grecians,</hi> burninge and ſpoylinge their ſhippes moſt rufully and do<g ref="char:EOLhyphen"/>ing ſo valiauntly that both ſea and land, and al Greece quaked to heare hys name? where is <hi>Achilles,</hi> the ſtout and valiaunt, of whom the Riuer <hi>Xanthus,,</hi> will tell maruailous thinges namely that he filled the ſame wyth deade bodies, in ſomuche that the ſtreame was vnable to beare them? theſe thinges are not without cauſe lefte to memorye, and co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>mitted
+<pb facs="tcp:7428:18"/>
+to the Regyſter of eternall fame, which Fame they obtayned not but by Mar<g ref="char:EOLhyphen"/>tyall feattes, wherein conſiſteth the prayſe and proofe of fortitude, wherein wee well perceaue nothinge but playne Maddenes, whiche notwithſtandinge bringeth with yt moſt notable endes, for therefore wee take warre in hand to liue in peace, and in warre wee ſhewe manhode to wynne Renowme: propoſe therefore whiche of theſe two endes ye wyll, it ſhall not bee amiſſe, for what can bee moore d<gap reason="illegible" resp="#OXF" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſired then peace in common wealth, and what is more to bee embraced then renowme? the<g ref="char:cmbAbbrStroke">̄</g> make I this reaſon, what ſoeuer is good, and to be embraced, the ſame is ſo to bee embraced, for the ende, but the endes of Warre wherein fortitude exerci<g ref="char:EOLhyphen"/>ſeth herſelfe, are moſt excellente as before is proued, and warre it ſelfe nothing els but Madnes, as before is ſhewed, therefore Mad<g ref="char:EOLunhyphen"/>nes is moſt ſoueraygne and excelle<g ref="char:cmbAbbrStroke">̄</g>t. The li<g ref="char:EOLhyphen"/>ke reaſon maye be made <hi>Ab efficienti cauſa,</hi> for who ſeeth not that Warres are taken in hand for twoo cauſes, eyther to defende the Common weale or to reue<g ref="char:cmbAbbrStroke">̄</g>ge oure iniuries, that therefore whereby theſe thynges are wrought is moſte excellente, by warre they
+<pb facs="tcp:7428:18"/>
+are wrought, <hi>Ergo,</hi> it is moſt excellent, but warre before is proued Madnes, therefore Madnes is moſt excellente. Doo not all the fower vertues concurre togeather, lincked as it weere in one Chayne, wherſoeuer ther<g ref="char:EOLhyphen"/>fore thou findeſt Fortitude, thinke alſo that there concurreth wyth it Iuſtice, Tempe<g ref="char:EOLhyphen"/>raunce, and Prudence, nowe if warre leade all theſe vertues as it weere by a ſtringe, as certaynly it dothe, for euery man wyll con<g ref="char:EOLhyphen"/>feſſe that it is but Iuſtice to reuenge Iniu<g ref="char:EOLunhyphen"/>ries, fortitude then executeth reuenge, wiſ<g ref="char:EOLhyphen"/>dome ſubminiſtreth policie to reuenge, tem<g ref="char:EOLhyphen"/>peraunce appoynteth meaſure how farre to reuenge, then followethe conſequentlye that Madnes muſt nedes bee good, who hath for his ayde ſo manye vertues, wherewith it is garded? but here ſome curyous head wil ob<g ref="char:EOLhyphen"/>iecte, and ſaye, Syr can a man be madde and modeſt, I anſweare yea, aſwell as warre<g ref="char:EOLhyphen"/>lyke and valiaunte for where one vertue ta<g ref="char:EOLhyphen"/>keth place there the reſidewe enſue, thus may you perceaue that nothing letteth Mad<g ref="char:EOLunhyphen"/>nes more to bee modeſtie, then valiauncie in battaile to be fortitude, but euery vertue is in his owne nature ſingularly good, ioygned to an other more good, co<g ref="char:cmbAbbrStroke">̄</g>curring altogether
+<pb facs="tcp:7428:19"/>
+moſt good, &amp; ſo make the thing to be where<g ref="char:EOLhyphen"/>in they be in madnes they bee as I haue pro<g ref="char:EOLhyphen"/>ued, therefore Madnes is moſt good. All thinges in nature are grounded vppon theſe twoo, Loue, and Hate, and of (loue to let Hate paſſe) there be manye kyndes, the Lo<g ref="char:EOLhyphen"/>ue of God, of our Parentes, of our fryendes, of our Countrye, of our Wiues and Chyl<g ref="char:EOLhyphen"/>dren, and of our ſelues, and all theſe loues nature inferreth, whereby wee be combined and lincked one to an other in full and per<g ref="char:EOLhyphen"/>fecte league and amitye, nowe is there one loue which beareth the ſtroke, the Loue of procreation naturallye incidente to euerye one of vs, guyded as the Poetes faygne, by the pearcing ſhote and amorous arrowes of that litle wanton boye <hi>Cupido,</hi> whoſe Gol<g ref="char:EOLhyphen"/>den arrowe worketh Loue, and leaded darte engendreth hatred, and alas what is Loue, but a ſwete hate of our ſelues and a pleaſau<g ref="char:cmbAbbrStroke">̄</g>t Madnes, as <hi>Angelus Politianus</hi> notably re<g ref="char:EOLhyphen"/>cordeth in that boke, which is intituled <hi>Stan<g ref="char:EOLhyphen"/>ze di Meſſer Angelo Politiano</hi> where he brin<g ref="char:EOLhyphen"/>geth in <hi>Iuliane Medices</hi> ſpeakinge to young Louers, parte of whoſe woordes in that pla<g ref="char:EOLhyphen"/>ce be theſe.</p>
+            <q>
+               <pb facs="tcp:7428:19"/>
+               <lg>
+                  <l>
+                     <hi>Coſtui ch' el vulgo errante chiamo Amore</hi>
+                  </l>
+                  <l>
+                     <hi>E dolce ynſania</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>A Madnes ſvveete is he vvhom erring Loue</l>
+                  <l>The common ſorte do call.</l>
+               </lg>
+            </q>
+            <p>And <hi>Fraunciſcus Petrarcha,</hi> bereft, I ſuppo<g ref="char:EOLunhyphen"/>ſe of his wittes for the Loue of his Ladye <hi>Laura</hi> in his Songes and Sonettes ſingeth thus:
+<q>
+                  <lg>
+                     <l>
+                        <hi>
+                           <g ref="char:V">Ʋ</g>eggio ſenz'occhi, e non ho linqua egrido</hi>
+                     </l>
+                     <l>
+                        <hi>E bramo di perir, e geggio aita</hi>
+                     </l>
+                     <l>
+                        <hi>E ho in odio me ſteſſo, &amp; amo altrui</hi>
+                     </l>
+                     <l>
+                        <hi>Paſcomi di dolor, piangendo, rido</hi>
+                     </l>
+                     <l>
+                        <hi>Egualmente mi ſpiace morte &amp; vita</hi>
+                     </l>
+                     <l>
+                        <hi>In queſto ſtato ſon Donna per vui.</hi>
+                     </l>
+                  </lg>
+                  <lg>
+                     <l>With eyes I nothing ſe, my tongue is loſt:</l>
+                     <l>Yet do I crye and languiſhe to my coſte.</l>
+                     <l>Deſirous life to ende, yet healpe require,</l>
+                     <l>Selfe hate me burnes vvhile loue ſtirres vp the fire.</l>
+                     <l>With dole I feede my ſelfe, in teares I laughe</l>
+                     <l>At life and death a like I fling the ſtaffe.</l>
+                     <l>In this eſtate I reſt Madame for you.</l>
+                  </lg>
+               </q>
+How ſaye you by this geare, is Loue nowe madnes or not and yet as <hi>Counte Baldeſſar Caſtilio</hi> ſayth, in his booke of the Courtier, if an hoſte of Louers were in the fielde, and ſhould hire euerye man but the cohortation of a weake woman to battayle there would
+<pb facs="tcp:7428:20"/>
+be in ſuche bickeringe and ſuch murder, and ſmiting downe to pleaſe their Ladies, that after great hewinge &amp; flaſhinge, they wolde lay their carckaſſes and ma<g ref="char:cmbAbbrStroke">̄</g>ly corpſes before their eyes in the open fielde, or elles obtayne ſuche a precious and tryumphaunt victorye, that both ſea and lande ſhoulde wholye be a<g ref="char:EOLhyphen"/>ſtonied, to heare the greate renowme &amp; glo<g ref="char:EOLhyphen"/>rie thereof, Although <hi>Mantuan</hi> we knowe beinge a luſtie Freer, and reſtrayned from his manelye appetites, and fro<g ref="char:cmbAbbrStroke">̄</g> the amorous girles, which peraduenture be more deſired then deſerued, cryeth out vpon Loue in this wyſe:
+<q>
+                  <lg>
+                     <l>
+                        <hi>Ludit amor ſenſus, oculos perſtringit &amp; aufert</hi>
+                     </l>
+                     <l>
+                        <hi>Libertatem animi &amp; mira nos faſcinat arte.</hi>
+                     </l>
+                     <l>
+                        <hi>Credo aliquis daemo<g ref="char:cmbAbbrStroke">̄</g> ſubiens praecordia, fla<g ref="char:cmbAbbrStroke">̄</g>mam</hi>
+                     </l>
+                     <l>
+                        <hi>Concitat &amp; raptam tollit de cardine mentem</hi>
+                     </l>
+                     <l>
+                        <hi>Nec Deus vt perhibent amor eſt ſed amaeror &amp; error.</hi>
+                     </l>
+                  </lg>
+                  <lg>
+                     <l>Loue all the ſenſes dothe beguile</l>
+                     <l>and bleareth al our eies.</l>
+                     <l>It cuttes of freedome of the mynde</l>
+                     <l>and makes vs gape for flies.</l>
+                     <l>I thinke ſome furious fend of Hell</l>
+                     <l>the hart doth this enflame,</l>
+                     <l>And bringeth quite the ſame a dovvne</l>
+                     <l>from loftie reaſons frame:</l>
+                     <l>
+                        <pb facs="tcp:7428:20"/>Ne is this Loue a God in deede</l>
+                     <l>but lies and bitter bane.</l>
+                  </lg>
+               </q>
+Be it what it will be, it is certaynely a bur<g ref="char:EOLhyphen"/>ninge fyre conſuminge the ſinewes, and per<g ref="char:EOLhyphen"/>cinge thorowe the boanes, and eatynge oute the peaſeable quietnes of the mynde, euen as a mothe a garmente, as a Graſhopper a greane Hearbe, as a ruſt and cankar al kin<g ref="char:EOLhyphen"/>de of Mettal, in fire we ſee nothing but mad<g ref="char:EOLhyphen"/>nes, for it burneth and waſteth all thinges moſte vehemently, in Loue of euery ſort we perceaue nothinge but fire and zeale, for it freateth the harte, and burneth it vp moſte fearcely, eyther becauſe of the thing that it loueth, already, obtayned, or for the thing that it loueth to obtayne yt, whiche is the cauſe that Poetes in comedies, and Tra<g ref="char:EOLhyphen"/>gedies, haue ſet forth <hi>Ad viuum,</hi> the ſundry loues of ſundrye parſonnes, as of <hi>Ariadne,</hi> and <hi>Theſeus, Medea</hi> and <hi>Iaſon, Deianira</hi> &amp; <hi>Hercules, Clytemneſtra</hi> and <hi>Hyppolitus, Paris</hi> and <hi>Helena,</hi> and that whiche <hi>Ouide</hi> ſingeth moſt for a wonder, the loue of <hi>Narciſ<g ref="char:EOLhyphen"/>ſus</hi> &amp; <hi>Eccho: Pygmalion,</hi> &amp; his Image: theſe are all ſet foorth to ſhewe the nature of loue moſte igniferous and fyery, whiche neuer is ſtanched but by deathe or deſire whereupon
+<pb facs="tcp:7428:21"/>
+this little reaſon may ſerue for proufe, all fire is madnes in his operation, euery Loue is a fire, therefore euery Loue is madnes.</p>
+            <p>But here by and by commeth <hi>Mounſieur Beaumains,</hi> and ſhaketh mee by the fiſte, and ſayth ſir. Where is your fiſher towne of <hi>Ca<g ref="char:EOLhyphen"/>letum,</hi> whooſe chiefe Marchaundiſe weere Sprats and pilchardes, which made all our Countrye men ſicke of the yallowe Iandiſe, and of the whyte Leproſie: bee ſhrewe my head Thurlpole and Gardener, the one with his whyte rodde, the other wyth his Per<g ref="char:EOLhyphen"/>ſelye mattocke, well reſcued the Towne, when the plum boates of Fraunce came in, to offer a poudred bullies, in the woorſhippe of Sayncte Nicolas to his Churche and Temple there, I cannot tell, quoth I, wher oure frynde Thurlepole was at that tyme I know wher he was at ane other time, <hi>vi<g ref="char:EOLhyphen"/>delicet</hi> at <hi>Rome</hi> wyth a certayne noble man of Englande, who for honoures ſake ſhalbe nameleſſe, for that hee went more modeſtlye to woorke then the other, as yee ſhall well heare, marcke the Comedye I praye you, it chaunced that theſe aforeſayde entringe in<g ref="char:EOLhyphen"/>to <hi>Roome</hi> wyth ſolemne Proceſſion, wyth Streamers and Banners, wyth bagpipes,
+<pb facs="tcp:7428:21"/>
+Bellles and Baſens, and all manner of ſo<g ref="char:EOLhyphen"/>lemnitye, the Popes holineſſe and myghtye fatherhode in worſhippe of Sainct Bancke the bawdye ſente vnto their lodginges two Lemons to ſeaſon theire wyne with all for the great ioye that hee conceaued of that lit<g ref="char:EOLhyphen"/>tle Kirke of England, that was latly ſkipte into ſayncte Peeters faythe agayne and had put of the greaſie buſkines of that Hereticke <hi>Luther,</hi> as he termed it, the temporall peare made anſweare thanking his holines, that he had at, home an Orenge that better conten<g ref="char:EOLhyphen"/>ted hym then his Leman.</p>
+            <p>Naye quothe the other prelate (and put on ſtump Legges face on the matter I will ne<g ref="char:EOLhyphen"/>uer refuſe our holy fathers gentlenes <hi>Et ſic fuerunt duo in carne vna.</hi> As for Garde<g ref="char:EOLhyphen"/>ner what ſhould I ſpeak of hym, for I know he was aright gubbing monger of our Holy fathers Fiſheborde, and dyed accordingelye but I am ſure that theſe louinge wormes wyth their cowplices, gaue the Towne for Loue, becauſe they would not haue theyre Countrye menne dye of the laſke, by mean of whyte heringes: yette I am ſure, that theire Loue was plaine Madnes: yet al the Catho<g ref="char:EOLhyphen"/>likes from the moſte to the leaſte co<g ref="char:cmbAbbrStroke">̄</g>mended
+<pb facs="tcp:7428:22"/>
+it, therefore ſuch Catholike Madnes ought not to bee ſpoken agaynſt. Now of vertues, let vs ſurceaſe our communication, for as it hath beene vttered, pleaſures altogeather Madnes, yet nature hath inuented them: but <hi>Omne ſimile generat ſimile,</hi> ſo by conſe<g ref="char:EOLhyphen"/>quente, nature is Madnes, yet what is bet<g ref="char:EOLhyphen"/>ter then nature? <hi>Natura<g ref="char:cmbAbbrStroke">̄</g> quippe ſequentes ducem nunquam aberrauibus:</hi> ſaith <hi>Tullie. <hi>vſi<g ref="char:cmbAbbrStroke">̄</g>g nature for our guid we ſhal neuer go amiſſe.</hi>
+               </hi> And yet dooe wee not ſee that many are born blynde by nature, dumbe by nature, fooles by nature, made men by nature, ah goodlye nature: but here they come with a goodlye Wype, and ſay, that perticular natures may be hindred, but the vniuerſall nature it ſelfe cannot, as who ſhould ſaye, that perticular natures proceede not from the vniuerſal: but admitte wee grau<g ref="char:cmbAbbrStroke">̄</g>t it true, what ſay they to theſe thinges that come? <hi>Preter naturam &amp; Contra naturam: <hi>Monſters of nature, can nature do any thing againſt it ſelfe.</hi>
+               </hi> For there is in theſe thinges, <hi>Motus &amp; quies,</hi> there is matter and torme, and to conclude what is there not? yet are they borne contrary to the Lawes of nature, and to naturall thynges co<g ref="char:cmbAbbrStroke">̄</g>pared are monſters in nature, if ſo be that
+<pb facs="tcp:7428:22"/>
+perticulare nature erred, in that it ſhoulde bringe foorth, then was the perticulare na<g ref="char:EOLhyphen"/>ture ſo deceiued mad, for nothinge ſtriueth agaynſt it ſelfe but madnes: but beyng <hi>Con<g ref="char:EOLhyphen"/>tra naturam,</hi> in deede agaynſte all nature, as by common experience is proued (for mon<g ref="char:EOLhyphen"/>ſters are in euery place) if a man would but deſcrybe the monſters of <hi>India</hi> and <hi>Arabia,</hi> where monſters bee moſte common, and of euerye ſort infinite, this ſhyfte of Deſcante maye go ſleepe in the benche hole, and ſo na<g ref="char:EOLhyphen"/>ture erreth vniuerſally, or doth not at al, for monſters be in thoſe places naturally borne, Thus woulde they make nature teare her owne coate and ſo by a Conſequente nature is Madnes: but peraduenture they mean in theſe partes, and ſo the reaſon may ſtand: for as it is in theſe partes moſte vnnaturall, to haue a monſter brought foorthe, euen ſo for the moſt parte whatſoeuer is there brought foorthe, is monſtrous: but to leaue this cu<g ref="char:EOLhyphen"/>rious queſtion whiche notwythſtandynge myghte be well proſecuted, for the queſtion is of Madnes, whatſoeuer is eternall, is na<g ref="char:EOLhyphen"/>ture and Vertue, <hi>Ariſtotle</hi> in his bokes, <hi>De Caelo et Mundo</hi> ſayth, that the Worlde is eternall, and the reaſon is becauſe it is a
+<pb facs="tcp:7428:23"/>
+globe: and hath his circumference, and per<g ref="char:EOLhyphen"/>petuall motion, nowe of all eternalles, the moſt eternall is ſurely Vertue, which being proued before to acco<g ref="char:cmbAbbrStroke">̄</g>pany Madnes: maketh the thing it ſelfe, wherevnto it is ioygned of like nature, <hi>Bonum quo durantius eo meli<g ref="char:EOLhyphen"/>us <hi>A good the more of continuance the better.</hi>
+               </hi> But nothing can bee of moore continuaunce then Vertue whiche as hath beene alreadye proued is turned into Madnes, <hi>Ergo,</hi> nothing is better then Madnes. All the whole heade of man (as the wyſe affirme) is deuided into three partes, the place of fantaſie, the place of co<g ref="char:cmbAbbrStroke">̄</g>mon diſtinction and the place of memo<g ref="char:EOLhyphen"/>rye, fantaſie conceiueth and offereth the for<g ref="char:EOLhyphen"/>mes of conceptes to common diſtinction to decerne, common diſtinction to memorye to retayne, nowe manifeſte it is that the fan<g ref="char:EOLhyphen"/>taſie is deceyued, and that it maketh man to offende eſpeciallye when commen deſtincti<g ref="char:EOLhyphen"/>on geueth conſent thereto, aſwell in formes in reaſons which it conceiueth, for example informes maye appeare by the ſtraunge de<g ref="char:EOLhyphen"/>uiſes nowe a dayes, greate, bigge and boy<g ref="char:EOLunhyphen"/>ſterous, bumbarreld burſte belled and bur<g ref="char:EOLhyphen"/>den buttocke Breeches, the wearers where of ſithence ſuch geare was inuented become
+<pb facs="tcp:7428:23"/>
+ſquare bounce buttockes whereof they nede not greatlye to be aſhamed, for I beleue no one thynge hath ſo many qualityes, firſte in warre for wante they maye ſerue for greate Drummes, and if the Kynge haue nede the worſte breeche in the company is able to co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>maunde tenne, twentye thouſand at a clappe in leſſe then halfe an howers warning, as for the tyme of peace in it they ſerue to ma<g ref="char:EOLhyphen"/>nye purpoſes, firſt when hee rydeth they may ſerue very well for a paire of pulterers pa<g ref="char:EOLhyphen"/>niers, ſecondly when he goeth they may ſer<g ref="char:EOLhyphen"/>ue for Colliers ſackes, and laſtlye when hee ſitteth they may ſerue for fattes to kepe pla<g ref="char:EOLhyphen"/>te from rayne and ſnowe, &amp; yet I had al moſte forgotten one thing that they maye ſerue for countynge howſes for Rattes to keepe their reckeninges in, and for liuerye ſtables to ke<g ref="char:EOLhyphen"/>pe quick cattle to rack and manger, and had not theſe profitable propertyes come to me<g ref="char:EOLhyphen"/>morye, I woulde paraduenture haue ſayde that theſe inuentions came fro<g ref="char:cmbAbbrStroke">̄</g> 
+               <hi>Bedlem in Iu<g ref="char:EOLhyphen"/>da,</hi> but now knowinge what they bee inded I can ſing of them as the Poete ſometimes did of the <hi>Harpies,</hi> which, defiled the meate of <hi>Eneas</hi> complyces.</p>
+            <q>
+               <pb facs="tcp:7428:24"/>
+               <lg>
+                  <l>
+                     <hi>Triſtius haud illis monſtrum nec ſaeuior vlla</hi>
+                  </l>
+                  <l>
+                     <hi>Peſtis, &amp; ira Deûm Stigijs ſeſe extulit vndit</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>There neuer roſe more monſter fell,</l>
+                  <l>or plague more dire and blacke:</l>
+                  <l>Or ire of goddes or fendes of hell,</l>
+                  <l>from gulfe of Stygian lack</l>
+               </lg>
+            </q>
+            <p>As for ſtraunge deuiſes of fantaſie in Appa<g ref="char:EOLhyphen"/>rel, wherof common diſtinction miſled, not ſo vprightlye decerneth as they haue taken ef<g ref="char:EOLunhyphen"/>fect <hi>in hic paſſer:</hi> ſo haue they wroughte the ſame <hi>in haec aquila,</hi> both hee and ſhee, and ſo reſpectinge the parſons in whom this exceſſe rageth, wee may ſay <hi>Nominatiuo hic &amp; hec</hi> both naught: and reſpectinge the monſtrouſ<g ref="char:EOLhyphen"/>nes of the thinge, euery man will ſay: <hi>No<g ref="char:EOLhyphen"/>minatiuo hic, hec &amp; hoc,</hi> ſtarke naught, <hi>Ge<g ref="char:EOLhyphen"/>nitiuo huius,</hi> neuer worſe, <hi>Datiuo huic,</hi> ne<g ref="char:EOLhyphen"/>uer better, <hi>Accuſatiuo hunc, hanc, &amp; hoc,</hi> out nettle in dock, one miſchiefe in an others necke <hi>Vocatiuo</hi> O Lorde amende it, <hi>Abla<g ref="char:EOLhyphen"/>tiuo ab hoc, ab hac, &amp; ab hoc,</hi> beware the plage, the pile, the peſtilence, and the pocke, theſe be the miſchiefs that follow pride who leadeth no wher els, but to y<hi rend="sup">e</hi> ſigne of the ſhe<g ref="char:EOLhyphen"/>peshead in Wincheſter to eate a gooſe.</p>
+            <p>Nowe ſee howe preatelye the chaunge one wyth an other, hee hath borowed of ſhe, the
+<pb facs="tcp:7428:24"/>
+meaſure of ſhees greate berdingale to make hees greate hooſe, and ſhee hath borowed of hee, the laſt vice ſhee ſawe his coate to make ſhee a coate by God, ſende them cappes fitte for the proporcion, but this much may I ſay without treaſon to my Lorde Maiors Mule, that theire womanheade is neuer the moore to weare it, neuertheleſſe to leue beetyme: good Lord what haue I donne? I crye them mercie, I am ſure I ſhall neuer come in their bokes agayn, I am wyped out of their <hi>Memento,</hi> I ſhall not haue a droppe of the milke of theire breaſtes if I woulde kneele down, &amp; aſke beawtye theire puppye forgiue<g ref="char:EOLhyphen"/>nes, yea, &amp; muche leſſe ſtand by whan w<hi rend="sup">t</hi> pre<g ref="char:EOLhyphen"/>atie ſhril voices the crye, fie haue away with this dogge, when they haue made a faulte, but in hope they wilbe reclamed and pardon my rudenes I will ſinge them a Greeke <hi>Fpi gramme</hi> which is this:
+<q>
+                  <lg>
+                     <l>
+                        <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>,</l>
+                     <l>
+                        <gap reason="foreign">
+                           <desc>〈 in non-Latin alphabet 〉</desc>
+                        </gap>.</l>
+                  </lg>
+                  <lg>
+                     <l>All vvomen are indeede miſledde</l>
+                     <l>Yet chieflye tvvoo good hovvers haue,</l>
+                     <l>The one in chamber vvhen they vvedde,</l>
+                     <l>the other vvhen they go to graue.</l>
+                  </lg>
+               </q>
+Whereof ſpringe all theſe thinges verelye
+<pb facs="tcp:7428:25"/>
+vppon this that phantaſie, hath perſwaded common diſtinction, who once beynge ouer<g ref="char:EOLhyphen"/>throwen taketh euery thing that fooliſh pha<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>taſie vpon head perſwadeth to be very ſingu<g ref="char:EOLhyphen"/>lar, and vſeth the ſame for head ſtronge rea<g ref="char:EOLhyphen"/>ſon, and this aryſeth by the perturbations of the mynde, whiche once diſquieted, altereth the heade &amp; dryueth it into ſtraunge quanda<g ref="char:EOLhyphen"/>res, eſtraunginge it often tymes from the Law of nature and procuryng w<hi rend="sup">t</hi>in the ſame a mortall combate by reſtraynte of vnder<g ref="char:EOLhyphen"/>ſtandinge, whyle phantaſye fighteth wyth diſtinction, and enfeebleth memorye in ſuch ſorte that vneth it is able to entertayne enye holeſome leſſon, or inſtruction if there bee ſuche a continuall battayle inwardlye in e<g ref="char:EOLhyphen"/>uery of vs, and yet the ſame neceſſary for the exerciſe of our Vertues (for Vices are the matters agaynſt the which they worke) and Vertues before proued Madnes, ſeeyng the ſtraunge effectes of phantaſie wee muſt con<g ref="char:EOLhyphen"/>clude, that neither outwardlye nor inward<g ref="char:EOLhyphen"/>ly there is ought els but Madnes, but fan<g ref="char:EOLhyphen"/>taſie (ſayth ſome) is natural: trueth: neither can be without perturbations: trueth: ney-worketh any thinge but after a perturbated manner fondlye: truthe: yet it is naturall,
+<pb facs="tcp:7428:25"/>
+that is graunted before, I perceaue this ma<g ref="char:cmbAbbrStroke">̄</g> is my friende, go too, go on, <hi>Natura agit pro<g ref="char:EOLhyphen"/>pter finem,</hi> truth, <hi>Nature doth al for ſome end.</hi> And ſo doth fantaſie likewyſe, for it is a ſin<g ref="char:EOLhyphen"/>gular good and a part of vs without the whi<g ref="char:EOLhyphen"/>che we cannot be, yet we eſteeme not fanta<g ref="char:EOLhyphen"/>ſie otherwyſe then Madnes but whatſoeuer woorketh to ende, is reaſon, then fantaſie ys reaſon, for it worketh for ende, but fantaſie is Madnes as is before ſayde, therefore rea<g ref="char:EOLhyphen"/>ſon is Madnes, and what is more worthye then reaſon, and what is moore prayſe wor<g ref="char:EOLhyphen"/>thy then Madnes, which thing <hi>Democritus</hi> conſidering, plucked out his eyes as I thinke and all to ſtudye the better, and trueth it ys that ſtudye is Madnes, for manye haue bene knowen to renne Madde of ſtudie, <hi>Qualis cauſa, talis effectus: <hi>Such as the cauſe is ſuch is the effecte.</hi>
+               </hi> Thus <hi>Ab effectibus</hi> ſtudye is proued Madnes: moreouer where canne bee founde more anger then in heauen, the firſte moueable burleth ſo ſwiftly about from the Weaſt to the Eaſte, that if the other circles ſtriued not with contrarye motion from the Eaſte to the Weſte, he woulde enflame the whole world and ſet all a fire, doth, not <hi>Sol</hi> and <hi>Iupiter</hi> in coniunction and canckered ſlie
+<pb facs="tcp:7428:26"/>
+               <hi>Saturne,</hi> or <hi>Venus,</hi> or <hi>Mars,</hi> and ſome ſuche Planettes in <hi>Domo 2.7.</hi> or <hi>9.</hi> or ſuch lyke conſpyre the deſtruction of Man and Beaſt, of hearbes, and trees, of all thinges vpon the earth, and of the earth it ſelfe: Reade the Prognoſticatoures, and yet I reade of three greate Eclipſes that are like to be this yere there is the Eclipſe of Faythe, and the feare of god, and that is to common and to bee la<g ref="char:EOLhyphen"/>mented and deplored with teares, marrye the twoo others Eclipſes are not ſo ſoore, al<g ref="char:EOLunhyphen"/>beit ſomewhat greeuous, and they bee the Eclipſe of the pot when good Ale is out of towne, and the Eclips of the purſe when Mayſter Vſurer and Cuthrote lyue by the bargaine, but to make retourne, if anger bee ſo greate, in Celeſtial bodies and planettes, and that naturallye incidente and allowed ſhall wee not thinke well of Madnes if the leſſe be reputed, bee eſteemed of, ſhall not the greater? the Philoſopher coulde ſaye to his ſeruaunt, if I were not throughlye angrye how woulde I tormente thee, thus anger you ſee worketh pacience and forbearaunce, whiche is a rare gift in a wyſe man, muche more then Madnes, whiche is the verye ex<g ref="char:EOLhyphen"/>tremitye of anger, ſo then to bee a Mad man
+<pb facs="tcp:7428:26"/>
+is to be a wiſe man, and I thinke the philo<g ref="char:EOLhyphen"/>ſopher was then Mad when he ſo ſayd to his ſeruaunt, for hee himſelfe confeſſeth himſelfe to be throughlye angred. <hi>Cicero</hi> hath a Pa<g ref="char:EOLhyphen"/>radoxe well knowne <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> That all wyſe men onelye bee free men, and all fooles Bondſlaues and demaundinge of himſelfe, what libertye is, hee ſayth, it is no<g ref="char:EOLhyphen"/>thing els, but <hi>Poteſtas viuendi vt velis: <hi>A power to liue as yee liſt.</hi>
+               </hi> And who liueth as he liſt? doth the pore man who alwayes co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>playneth himſelfe of his greeuous miſerye, and bewayleth to himſelfe his moſt vnfor<g ref="char:EOLhyphen"/>tunate calamities? doth the riche man who the more he hath the more deſireth, and yet feareth euerye houre to leeſe that hee hath? dothe the Ideote who knoweth not howe to order his lyfe? dooth the learned, who repy<g ref="char:EOLhyphen"/>neth alwayes at an others knowledge? if no man therfore liue as hee liſt, then is no man free, if no man be free, then is no man wyſe, for if this be true all wiſe menne are onelye free, then is this as true al free me<g ref="char:cmbAbbrStroke">̄</g> are onely wyſe, but freedome and wiſedome booth ex<g ref="char:EOLhyphen"/>cluded the reſt is nothinge but onelye folye, ſo then all menne are fooles euen nexte dore
+<pb facs="tcp:7428:27"/>
+to Madnes. The wyſe man ſpeaketh verye notable, <hi>Stultitiam ſimulare loco prude<g ref="char:cmbAbbrStroke">̄</g>tia ſumma eſt.</hi> To counterfaite folye in place is the higheſte wiſdome, the ſentence is moſte wyſe but <hi>Ariſtotles</hi> as good <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, it is better to bee, the<g ref="char:cmbAbbrStroke">̄</g> to ſeme to be, ſayd notably, as booth thought wyſelye, now in my mynde the greateſte follye that maye be is Madnes, whiche ſithence it is y<hi rend="sup">e</hi> verye ende that all thinges ſhoote at, muſte needes be accompted the parfecteſt of al: and I doubt not but ſithence the wyſe men haue ſayde theyr myndes, the one it is wyſedome to counterfayte folye in place, the other bet<g ref="char:EOLhyphen"/>ter to be then ſeeme, but at the leſt, if the one haue any defendauntes, the other ſhall haue al folowers, and thus wee ſhal al be extreme fooles, that is to ſaye, Madmenne, that is to ſay Wyſemen, wee ſhall haue <hi>Genus &amp; ſpe<g ref="char:EOLhyphen"/>cies,</hi> toſte in the ſcholes emonge the <hi>Logitio<g ref="char:EOLhyphen"/>ners, Ad nauſeam</hi> like a Teniſe Bale, we ſhall haue ſometymes Boares fleſhe &amp; Bul<g ref="char:EOLunhyphen"/>beife lyke a royſter, ſometimes cage ware, &amp; cuckingſtole hearbe graſſe, lyke a Scolde, ſome tyme Marie Mawdlines beades, and <hi>Mereticular</hi> teares and treable tonged lan<g ref="char:EOLhyphen"/>guage emonge the Rhetoritians, to ſaye no<g ref="char:EOLhyphen"/>thinge
+<pb facs="tcp:7428:27"/>
+of heauen gaſers, Clocke keepers, ayre meaters, &amp; of a number ſuch like whoſe ende of ſtudie, euerye manne knoweth to bee but Madnes, yet are they wonderfully prai<g ref="char:EOLhyphen"/>ſed and extolled, and I am one of them my ſelfe, whiche ſo doe prayſe theym, becauſe I knowe they are fooles in moſte extreamitie, and wil take paynes, I truſte to defend this litle treatiſe from the handes and teethe of nippers, as proceding from a ſincere mind and made of good will in the behalfe of theym all, wherein if I haue taken ſuche paynes, as I woulde ha<g ref="char:EOLhyphen"/>ue wiſhed then nature and arte, then reaſon and vertue, then wyſe me<g ref="char:cmbAbbrStroke">̄</g> &amp; wyſedome, the<g ref="char:cmbAbbrStroke">̄</g> fo<g ref="char:EOLhyphen"/>les &amp; of al ſortes, wil giue their dewe prayſe &amp; ho<g ref="char:EOLhyphen"/>noure to Madnes.</p>
+            <trailer>FINIS</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>

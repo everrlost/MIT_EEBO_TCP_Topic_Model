@@ -1,0 +1,524 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Booke of pretty conceits taken out of Latine, French, Dutch and English : very merry, and very pleasant and good to bee read of all such as doe delight in new and merry conceits.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1628</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 26 KB of XML-encoded text transcribed from 12 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A16435</idno>
+            <idno type="STC">STC 3354</idno>
+            <idno type="STC">ESTC S1511</idno>
+            <idno type="EEBO-CITATION">20190280</idno>
+            <idno type="OCLC">ocm 20190280</idno>
+            <idno type="VID">23776</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A16435)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 23776)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1706:5)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The Booke of pretty conceits taken out of Latine, French, Dutch and English : very merry, and very pleasant and good to bee read of all such as doe delight in new and merry conceits.</title>
+               </titleStmt>
+               <editionStmt>
+                  <edition>Newly inlarged, corrected, and amended.</edition>
+               </editionStmt>
+               <extent>[22]+ p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Miles Flesher,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1628.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Signatures: A⁸ B³+.</note>
+                  <note>Imperfect: lacks all after signature B3.</note>
+                  <note>Reproduction of original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Handbooks, vade-mecums, etc.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-10</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2013-10</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:23776:1"/>
+            <pb facs="tcp:23776:1" rendition="simple:additions"/>
+            <p>THE BOOKE OF Pretty Conceits: Taken out of Latine, French, <hi>Dutch and Engliſh.</hi>
+            </p>
+            <p>Very merry, and very pleaſant and good to bee read of all ſuch as doe delight in new and merry Conceits.</p>
+            <p>Newly inlarged, corrected, and amended.</p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>Miles Fleſher.</hi> 1628.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:23776:2"/>
+            <head>To the Reader.</head>
+            <lg>
+               <l>VVHo ſo is bound for another mane debt,</l>
+               <l>doth bring himſelfe in care:</l>
+               <l>And is compeld to pay the ſame,</l>
+               <l>though he be poore and bare.</l>
+               <l>In euery degree loue honeſty,</l>
+               <l>be ſhamefac'd to doe euill:</l>
+               <l>Ill company ſee that thou fly,</l>
+               <l>as members of the Deuill.</l>
+            </lg>
+            <lg>
+               <l>A word once ſpoke it can returne no more,</l>
+               <l>But flies away, and oft thy bane doth breed,</l>
+               <l>A wiſeman ſets a hatch before the doore,</l>
+               <l>And whilſt he may doth frame his words with heed.</l>
+               <l>The bird in hand we may at will reſtraine,</l>
+               <l>But being flown we call her back in vaine.</l>
+            </lg>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:23776:2"/>
+            <div type="part">
+               <head>An eaſie way to procure Fire ſpeedily.</head>
+               <p>TAke a round Glaſſe, and fill it with faire water, and ſet it againſt the Sun, ſo that it may ſtand faſt: then take ſomething that is very dry and hold it néere the Glaſſe, (betweene the glaſſe and the Sun) and it will ſet the thing ſo hol<g ref="char:EOLhyphen"/>den on fire: which is very firange to behold, the rather, becauſe Fire which is an hot and dry Element, is procured out of Water, which is a cold and moiſt Element.</p>
+            </div>
+            <div type="part">
+               <head>A ſpeedy remedy for the pricke of a thorne in ones foot, or elſe-where.</head>
+               <p>TAke the Gall of a beaſt, chaulk ſcraped, Honey and Aquivite, of each of them a reaſonable quantity, &amp; boile them well toge<g ref="char:EOLhyphen"/>ther, then make a plaiſter thereof, a lay it to the place grieued as hot as may be ſuffered.</p>
+            </div>
+            <div type="part">
+               <head>Another way to draw out any Thorne, ſtub, or Iron, in any place whatſoeuer.</head>
+               <p>TAke the gal of an hog, beane flowre, La<g ref="char:EOLhyphen"/>uender, and Bacon-greaſe, and mingle
+<pb facs="tcp:23776:3"/>theſe well together, and fry them well &amp; lay the ſame to the place grieued luke-warm, vſe it euery day till it be come forth and whole.</p>
+            </div>
+            <div type="part">
+               <head>Another way to draw out a thorne.</head>
+               <p>Take barke of Hawthorne trée and ſtamp it well in a morter with red wine, and ſéeth them well for a long time, and then take it and lay it plaiſter-wiſe to the place grieued, as hot as the patient may ſuffer it, and it will take away the ſwelling and ranckling of it, and then the thorne will come forth.</p>
+            </div>
+            <div type="part">
+               <head>To light a Candle at the mouth of an Image painted on the wall.</head>
+               <p>Take &amp; put ſome Brimſtone to the mouth aſ an Image, &amp; then take a burning candle and blow it out: and before the wéeke of the candle be clean out, ſet it to the mouth of the Image and it will burne. So you may do, if you thinke good againſt Glaſſe.</p>
+            </div>
+            <div type="part">
+               <head>To take fiſh by night.</head>
+               <p>Take a Lanterne of glaſſe, and put a bur<g ref="char:EOLhyphen"/>ning candle in it, and ſet the Lantern on the water, and the fiſh will come to the light. Or elſe take Nettles and Houſléeke, and make ſuice thereof, and put it into a Pond, and all the fiſhed will gather thither, &amp; if your hands be annointed therewith, you may at your pleaſure take them.</p>
+            </div>
+            <div type="part">
+               <pb facs="tcp:23776:3"/>
+               <head>To make that no Dog ſhall Barke at you.</head>
+               <p>Take an hearbe that is called Serper<g ref="char:EOLhyphen"/>tine, and they ſhall not barke at you.</p>
+            </div>
+            <div type="part">
+               <head>To make Birds come to your Culuer-houſe.</head>
+               <p>Caſt Barly ſtéeped in Honey where they doe vſe to féed, and they will gather to the Culuer-houſe.</p>
+            </div>
+            <div type="part">
+               <head>To put an Apple into a Viall.</head>
+               <p>Hang the viall on the twig of an Appletrée and put a young Apple in the mouth of the Viall, and it will grow therein, and ſo you may doe with grapes and other fruit.</p>
+            </div>
+            <div type="part">
+               <head>To put an Egge into a Viall.</head>
+               <p>Stéepe the Egge two daies and two nights in vineger, and roule it on a table ſoftly, and it will ſtretch as wax, and then you may put it in the Viall, or draw it through a ring.</p>
+            </div>
+            <div type="part">
+               <head>To make folke ſeeme blacke.</head>
+               <p>Put Oyle Oliue into a Lampe, and put therein fine powder of ground glaſſe, &amp; light it, and all thoſe that bée about it will ſéeme blake as Egyptians.</p>
+            </div>
+            <div type="part">
+               <head>To proue if a Maiden be cleare.</head>
+               <p>Burne Mother-wort, and let her take the ſmoake at her noſe, and if ſhe be corrupt ſhe ſhall piſſe, or elſe not. Other wiſe take gray
+<pb facs="tcp:23776:4"/>Nettles whilſt that they be gréene, and then let her piſſe on them, and if ſhe be no Maiden they will wither forthwith, or elſe not.</p>
+            </div>
+            <div type="part">
+               <head>To keepe Inke from freezing.</head>
+               <p>Take Aquavite and mixe it with writing Inke, and the ſame will neuer fréeze,</p>
+            </div>
+            <div type="part">
+               <head>To write a letter with ſuch Inke as cannot be perceiued, vnleſſe it be holden before the fire.</head>
+               <p>Take a ſhéet of fair white paper, and write thereon with the iuice of a red Onion, well mixed or temperd with the white of an egge and then dry it well, and then it cannot bée perceiued to be any other then plaine white paper without any writing on it: but if you hold it betwixt you and the fire, you may the more eaſtly read it, and perfectly perceiue the letters or contents thereof.</p>
+            </div>
+            <div type="part">
+               <head>Another way to write Letters that cannot be read but in this ſort.</head>
+               <p>Take Allom and beat it into fine powder, and then put it into faire water, and what<g ref="char:EOLhyphen"/>ſoeuer you write therewith, neither that writing nor letters will appeare, except you put the ſaid paper in water and then you may read it perfectly.</p>
+            </div>
+            <div type="part">
+               <head>To cauſe a dog to ceaſe barking</head>
+               <p>Take a Dogges tongue and lay it vnder
+<pb facs="tcp:23776:4"/>your great Toe (within your ſhooe) and the dog wil ceaſe barking as long as you weare the ſame.</p>
+            </div>
+            <div type="part">
+               <head>To cauſe a Pike to follow one.</head>
+               <p>Take the iuice of Mugwort, and the iuice of red Fennell, of each of them a little quan<g ref="char:EOLhyphen"/>tity, and the crumes of Rye-bread, and min<g ref="char:EOLhyphen"/>gle them together with a good quantity of <hi>Sal armoniake,</hi> &amp; grinde them well together and ſcrape a good quantity of <hi>Aſaphetida</hi> to them, and then rub your line next the hooke very well therewith.</p>
+            </div>
+            <div type="part">
+               <head>An eaſie way to take Eeles.</head>
+               <p>Take new Hay that is ſwéet, and make a bottle thereof, and as you make it vp, ſhake vpon it ſome new Calues blood, with the li<g ref="char:EOLhyphen"/>uer ſhred therein, &amp; for want of calues blood take the blood of a Bull, Oxe or Cow, with the liuer as aforeſaid, and then bind vp your bottle as hard as you can with ſome ropes of the ſame Hay, &amp; caſt it into a riuer or pond where Eeles are, ſo tie it to a cord to pull it vp at your owne pleaſure againe. Note, the chiefeſt time for the taking of Eeles and o<g ref="char:EOLhyphen"/>ther running fiſh, is at the dark of the moon. in the beginning of May, at the ſhooting of Oats, and in the moneth of September and October, when all waters turne white after
+<gap reason="missing" extent="1+ pages">
+                     <desc>〈1… pages missing〉</desc>
+                  </gap>
+                  <pb facs="tcp:23776:5"/>and in the iuice of hearb Ben<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> and Hem<g ref="char:EOLunhyphen"/>locke, and then caſt them to the birds, and a<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> many as doe eate thereof will be ſo amazed, that they cannot fly away,</p>
+            </div>
+            <div type="part">
+               <head>To take birds</head>
+               <p>Put Barley in the iuies of Rue and Vine<g ref="char:EOLhyphen"/>ger, and caſt it there as the Birds doe haunt or come, and as ſoone as they haue eaten it they cannot flie, and then pe may take them.</p>
+            </div>
+            <div type="part">
+               <head>To make ſilke wormes.</head>
+               <p>Take the braine of a Calfe, and put it in to a pit of Madder, and let it lye thrée wéekes, and they will bréed of the braine, and ye may ſéed them with Mulberies, and Mulbery leaues.</p>
+            </div>
+            <div type="part">
+               <head>To take away hayres</head>
+               <p>Annoint the rough place that is ſhauen, with the blood of a blacke Otter, and hayre ſhall neuer grow there.</p>
+            </div>
+            <div type="part">
+               <head>To fat Hens and Capons.</head>
+               <p>Make a déepe pit in the carth, and make ſherrin a bed of Dung, and a bed of Nettles, and do ſo till it be full, and there kéepe your Pullen till the herbes begin to grow, and then let them out, and within a ſhort while they will be very fat.</p>
+            </div>
+            <div type="part">
+               <head>Certaine notes to be obſerued in Fiſhing. viz.</head>
+               <p>In the Spring time of the yeare when fiſh
+<pb facs="tcp:23776:5"/>doe giue themſelues to the act of generation, take ſome of the little kinde of Fiſh from <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ome muddy or filthy Poole, into a very large <gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>w-net, whereunto you may draw them by a ſmall and eaſie Lampe, made and wrought in the bottome of a cleane glaſſe with clay, and féed it with Oyle, but the glaſſe muſt be vented with ſome deuice of a Trunke of Swans quill, and you ſhall ſee great ranks of fiſh gather into the nets, make your ſtilts for ſanouring of the ſame, if you can get no ſtrange fiſh, then tye in the middeſt of your net either ſome mother of peacle, or elſe ſome faire Oyſter ſhel, or for want of them make a poſie' of diuers colored flowers, and ſmeere them well with Parmaſity, mixt with the yolke of a new laid Egge and ſo vſe it; but when you are diſpoſed to make trial of theſe things, let it be in your owne Pond, whereby it may be perſormod at pleaſure: this laſt re<g ref="char:EOLhyphen"/>ceipt will draw a Pickrell into a lowne, in the end of Aurill or May.</p>
+            </div>
+            <div type="part">
+               <head>An eaſie way to take a Pickerell.</head>
+               <p>Take a Pickrel immediatly after ſhee hath ſpaund, then take the white of <hi>3</hi> or <hi>4</hi> Egges, and beat them into an oyie, and put thereto ſome Parmaſity well bruiſed, &amp; incorporate them together, as a dow paſt: and then make
+<pb facs="tcp:23776:6"/>a flood: and for want of Hay take Oſters, and ſéeth them in bloud as a foreſaid, and make your purpoſe therewith.</p>
+            </div>
+            <div type="part">
+               <head>Another way to take Eeles.</head>
+               <p>Take a good long wiſp of hay and make it hard vp, &amp; boile the ſame well in new calues blood, and then put it into the middeſt of a bigger truſſe of new hay, the ſame being hard made vp with the curdled blood, &amp; ſome of the liuer. Make ten or twelue of the bun<g ref="char:EOLhyphen"/>dles, and lay them nere to the banke ſide in the déepeſt place of the tiuer or pond, and put them a quoits caſt aſu<g ref="char:cmbAbbrStroke">̄</g>der, in the darke night after a drought: and if the weather bée ſome<g ref="char:EOLhyphen"/>what inclined to raine, it will bée the better: and put to your bundles either ſome ſhining night-wormes, or the pieces of ſome rotten wood, or the skinnes, of Herrings or Sprats, or elſe ſo much like ſhining things, where<g ref="char:EOLhyphen"/>by you may perceine where to take them vp at your pleaſure, as well in the night as in the day.</p>
+            </div>
+            <div type="part">
+               <head>To know if a ſicke perſon ſhall die, or not.</head>
+               <p>Take gray Nettles while they bée gréene and put them in the patients vrin, and if they remaine gréene: hée ſhall liue: and if they wither, not.</p>
+            </div>
+            <div type="part">
+               <pb facs="tcp:23776:6"/>
+               <head>To make ſalt water freſh.</head>
+               <p>Take Clay, and put it into a bagge, and ſtraine it through till it be cléere, and it will be freſh.</p>
+            </div>
+            <div type="part">
+               <head>To kindle a candle at the Sunne.</head>
+               <p>Take a bright Baſon, and put a new loo<g ref="char:EOLhyphen"/>king glaſſe therein, and ſet the Baſon in the botteſt of the Sunne, and lay about it very dry Tow chopped ſmall, and the Tow will take fire with the heat of the Sunne.</p>
+            </div>
+            <div type="part">
+               <head>To make a candle that it cannot be blowne out.</head>
+               <p>Take a quill of Hempe ſtalke, and fill it all with Brimſtone, and make it warme, and fire it, and it will neuer goe forth with flowing.</p>
+            </div>
+            <div type="part">
+               <head>To heale the biting of a mad dog.</head>
+               <p>Take white Nettles, and the innermoſt thin skin of a great red angry Onyon, with a little running water &amp; honey, and bathe it.</p>
+            </div>
+            <div type="part">
+               <head>To ſee by night as by day.</head>
+               <p>Annoint your eyes with the blood of a bat.</p>
+            </div>
+            <div type="part">
+               <head>To make fleſh cleaue to the pot.</head>
+               <p>Take dwall of Nightſhade and ſtampe it well, and put it in the pot with meate, and the meat will cleaue together.</p>
+            </div>
+            <div type="part">
+               <head>To take Birds quicke.</head>
+               <p>Take Peaſe and kéepe them in wine lées, and <gap reason="missing" extent="1+ pages">
+                     <desc>〈1… pages missing〉</desc>
+                  </gap>
+                  <pb facs="tcp:23776:7"/>a paſte with as many coloured flowers a<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> you can get and ſmeare the poſte with the aforeſaid dough, and hang it in the midſt o<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> a Bow net, and put the Pickrell into the ne<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> alſo, then hang the net in ſome cléere place in the midſt of a Pond or Riuer, and ſo let it remaine there all night, and in the morning you ſhall ſée the experience thereof.</p>
+            </div>
+            <div type="part">
+               <head>To take a Pickrell in Winter or Summer,</head>
+               <p>Take a gréene Hearne in the full of the Moone, and take the marrow out of his leg, and put it into a Tinne Boxe, and when you liſt to take a Pickrell, bait your hooke either with a Roch, Dace, or Gudgien, &amp; annoint the bait with the ſame Oyle, and you ſhall preſently ſpéed.</p>
+            </div>
+            <div type="part">
+               <head>An eaſie way to take fiſh with ones hands.</head>
+               <p>Take Henbane, Wormwood and Veruin, and ſtampe them all together, and then bang the ſame in thrée Canuas bags, and put them in thrée ſeuerall places of the Pond, and all the fiſh will gather thereunto.</p>
+            </div>
+            <div type="part">
+               <head>Another way.</head>
+               <p>Take Houſléeke and Nettle roots, of each of them a good quantity, and ſtamp &amp; ſtraine them, and then waſh your hands in the iuice thereof, and then poure it into the Pond, and
+<pb facs="tcp:23776:7"/>then the fiſh will gather to the ſame place in ſuch ſort as you may take then vp at <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>our pleaſure with your hands.</p>
+            </div>
+            <div type="part">
+               <head>Another way.</head>
+               <p>Take an ounce of Honey, two ounces of Chéeſe, foure and twenty graine of <hi>Oculus <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>n diae</hi> and two-peny-worth of <hi>Caſtor,</hi> ſtamp all theſe together in a morter, and make it in <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>orme of a paſte, and make it in ſmall péeces, and then caſt them where the fiſh be, and you ſhall quickly ſpéed.</p>
+            </div>
+            <div type="part">
+               <head>Another way.</head>
+               <p>Take a Pewter Baſon, and let it be made as bright as may be, and hold it toward the water, and the fiſh will come to the bright, neſſe of the Baſon.</p>
+            </div>
+            <div type="part">
+               <head>To take Roches.</head>
+               <p>Take <hi>Oculus Indiae,</hi> Henbane ſéede, the yolke of an Egge, Engliſh Hony, and whea<g ref="char:EOLhyphen"/>ted flowre, &amp; mingle them all together, and make a paſte thereof.</p>
+            </div>
+            <div type="part">
+               <head>To take Tench both in March and Aprill.</head>
+               <p>Take ſmall crummes of houſhold bread moiſtned with tar, &amp; caſt the ſame into the water where you purpoſe to fiſh: then thrée nights after bait a large bownet with toaſts of like bread well tarred and tyed faſt in the mioſt of the net: &amp; if you can get a bréeder or
+<pb facs="tcp:23776:8"/>two out of ranck ſoils, and tie in the net, y<gap reason="illegible" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> ſhould try a rare concluſion.</p>
+            </div>
+            <div type="part">
+               <head>That one ſhall not be drunke.</head>
+               <p>Drinke the iuyce of Yerrow faſting, and ye ſhall not be drunks, for no drinke; and it you were drunke it will make you ſober: of elſe tate the marrow of porke faſting, and ye ſhall not be drunke; and if you be drunke an noint your priuie members in vineger, and ye ſhall waxe ſober.</p>
+            </div>
+            <div type="part">
+               <head>To make a good bait for fiſh at all times of the yeare.</head>
+               <p>Take wheat flowre and tallow of a new ſlaine ſheepe, and the glaire of an Egge, and beat them all together, and bait your hookes therewith.</p>
+            </div>
+            <div type="part">
+               <head>To make an Egge goe vp to a Speares end.</head>
+               <p>Empty the Egge at a little hole, and fill it full of May dew, and ſtop the hole cloſe with a little waxe &amp; parchment glued, that the dew goe not out, then ſticke a ſpeare in the earth in the heat of the Sun, and lay the Egge by the Speare, and it will mount vp to the top thereof by the heat of the Sun.</p>
+            </div>
+            <div type="part">
+               <head>To make a candle burne in the water.</head>
+               <p>Take Wine, Oile, Salt, Brimſton, quick<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>iluer, Wax and hony, and put them toge<g ref="char:EOLhyphen"/>ther
+<pb facs="tcp:23776:8"/>and make a Candle thereof, and the ſame will burne in water.</p>
+            </div>
+            <div type="part">
+               <head>To make fleſh or fiſh ſeeme raw.</head>
+               <p>Take the blood of a Wat or Kid, and dry it, and kéepe it from the ayre, then caſt it on fiſh or fleſh that is hot and it will ſéeme raw.</p>
+            </div>
+            <div type="part">
+               <head>To make wormes to ſeeme to be in meat.</head>
+               <p>Take Harp ſtrings, and cut them in ſmal péetes, and caſt them but on meat, and they will ſtir like wormes.</p>
+            </div>
+            <div type="part">
+               <head>To make potage run out of the pot.</head>
+               <p>Take and caſt Sope in the pot, and it will run ouer.</p>
+            </div>
+            <div type="part">
+               <head>A good Medicine for Poultry that haue the pip.</head>
+               <p>Take Rue and put it into their troughs of water, where the Prultry doe vſe to driuke and the ſame will helpe them preſently:</p>
+            </div>
+            <div type="part">
+               <head>To kill hens and Ducks.</head>
+               <p>Caſt them the ſéed of Henbane, and they will fall downe as they were dead.</p>
+               <p>Make powder of Saint Iohns wort, and when that the coales are waſted, and the ſtrenere out, caſt it thereon and it will lie.</p>
+            </div>
+            <div type="part">
+               <head>That a man ſhall not be weary of going.</head>
+               <p>Drinke the iuice of Mugwort, and beare the hearb it ſelfe about you, with the hearbs Pedelion and Crowſoot.</p>
+            </div>
+            <div type="part">
+               <pb facs="tcp:23776:9"/>
+               <head>Another way <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>O <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>id wearineſſe.</head>
+               <p>Take Mugwort and cary it about you, and you ſhall not bée weary, neither ſhall there any wicked ſpirit come neare you, ha<g ref="char:EOLhyphen"/>uing it about you.</p>
+            </div>
+            <div type="part">
+               <head>A preſent remedy to aſſwage both hunger and thirſt.</head>
+               <p>Take the quantity of a maſſie nut of Roch Allom (that is both fine and pure) and when you ſéele either hunger or thirſt to oppreſſe you, put it into your mouth, and ſuck it for a little ſpace, and vſe it oftentimes in the day, and it will preſently aſſwage your hunger and thirſt: vſe this as often as néed ſhall re<g ref="char:EOLhyphen"/>quire, one penny worth of Allom will ſerue almoſt a whole wéeke.</p>
+            </div>
+            <div type="part">
+               <head>To write without Inke.</head>
+               <p>Take fine white paper, and with the iuice of a red Onion, well mixed and the tempered with the yolke of an Egge, you may write, which being very dry will ſhew as though it ware onely plaine paper, without any writing at all; but if you hould it againſt the <gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ire, you may then eaſily read it, and per<g ref="char:EOLhyphen"/>ceiue the letters.</p>
+            </div>
+            <div type="part">
+               <head>Another way to cauſe writing not to be perceiued.</head>
+               <p>Take powder of Allome, and put into
+<pb facs="tcp:23776:9"/>water, &amp; whatſoeuer you write therewith: neither the writing, nor the letters will ap<g ref="char:EOLhyphen"/>peare, except you put the ſame paper in wa<g ref="char:EOLunhyphen"/>ther, and then you may read it perſectly.</p>
+            </div>
+            <div type="part">
+               <head>To keepe Inke from freezing.</head>
+               <p>Take a little <hi>Aquavitae</hi> (ſome ſewe drops) and mixe it with writing inke, and the ſame will neuer fréeze at all.</p>
+            </div>
+            <div type="part">
+               <head>A preſent remedie to deſtroy a Carbuncle.</head>
+               <p>Take Coriander ſéede, and beate it to powder, and mingle it with Honey, and make a plaiſter thereof, and lay it on the car<g ref="char:EOLhyphen"/>buncle or other grieuous biles, and the ſame will ſpéedily deſtroy them.</p>
+            </div>
+            <div type="part">
+               <head>A ready and eaſie way to ery whether a Maid be a pure Virgin or not.</head>
+               <p>Take roots of red Nettles, and ſtamp them ſmall: and mixe the iuice thereof, with Ale, and let her drinke thereof, and if it doe remaine with her, then ſhe is a Maid, other<g ref="char:EOLhyphen"/>wiſe ſhe is not.</p>
+            </div>
+            <div type="part">
+               <head>To try if a woman (being with childe) be with child of a man child or a woman-child</head>
+               <p>Take faire Well-water, and put it into a cleane baſon, and let the woman with child milke a drop or two of her milk into the wa<g ref="char:EOLhyphen"/>te<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <pb facs="tcp:23776:10"/>
+                  <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> if the milke ſinke to the bottome, <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> is a man child, and if it float on the top about the water, then it is a woman child.</p>
+            </div>
+            <div type="part">
+               <head>To make yarne and linnen cloth white.</head>
+               <p>Take a herring barrell, and fill it nigh full of good Ale-dregs, and ſtop it faſt, but you muſt haue a good diſhfull of parched Beanes, and put them in a linnen bag, and very hot put them to the dregs till they coole, and ſhut it faſt the ſpace of a quarter of an houre, then take two pounds of Allom, grownd to ſmall powder, and caſt it thereon, and let it lye foure daies naturall, well cloſed, and then waſh your yarne.</p>
+            </div>
+            <div type="part">
+               <head>To make that a Horſe may not goe through a ſtreet.</head>
+               <p>Take the guts of a Wolfe, and lay them ouerth wart the ſtréet, and couer them with earth or ſand, and he will not go that way as long as the guis couered lie there. Proued.</p>
+            </div>
+            <div type="part">
+               <head>To take Conies with ones hand.</head>
+               <p>Take a Coney that is full of young Rab<g ref="char:EOLhyphen"/>bets, and kill her, and put her all whole into a pottle of Oyle Oliue, and put thereto ſome <hi>A ſafetida,</hi> and ſo boile them together from a pottle to a pint, and then make a paire of Gloues of Calue-ſkins fit for your hands, and boile the Cloues in the ſuine liquour
+<pb facs="tcp:23776:10"/>with the coney, and let it boyle from a potle to a pinte, and when the gloues be well boy<g ref="char:EOLhyphen"/>led, let them bée ſafe kept vntill you come where ſtore of Conies are, then put on thy gloues, and ſtand on the wind ſide of the conie-berries, and the conies will coule forth to thée.</p>
+            </div>
+            <div type="part">
+               <head>Another.</head>
+               <p>Take a quantity of Iuy-leaues, and lay them to ſtéep in Aquavitée for the ſpace of thrée or foure daies, and then caſt the ſame leaues néere to the conie holes.</p>
+            </div>
+            <div type="part">
+               <head>An eaſie way to catch Moales.</head>
+               <p>If you will catch Moales or Wants, take Garlicke, Léekes &amp; Onyons, and put them in the mouth of the holes, or entrance into the grou<g ref="char:cmbAbbrStroke">̄</g>d where they are, and you ſhal ſée them come leaping out of the ground as if they were amazed.</p>
+            </div>
+            <div type="part">
+               <head>Another way to catch Moales.</head>
+               <p>Take the quantity of a Nut of Aſafetion and two ſpoonfulls of cummin-ſéed, and beat them together into powder, &amp; make dough with flower of it, then worke it well, and make it into bals as big as a peaſe, and then put them into the Moale-holes, in euery hole. But firſt ſcrape away the earth cleane from the holes; and the Moale will come forth of
+<pb facs="tcp:23776:11"/>the earth, thereſo. watch them well. Vſe this in the moueth of March when they goe a clickerting.</p>
+            </div>
+            <div type="part">
+               <head>To ripen Nuts.</head>
+               <p>Take Nuts at Midſommer, &amp; delue them well in the ground, and coner them well, and they will be as ripe as thoſe that you ſhall gather when they be ripe vpon the frée.</p>
+            </div>
+            <div type="part">
+               <head>To driue away Rats.</head>
+               <p>Take the hoofe of a flon'd horſe, ſliced in pieces, and put it on a chafingdiſh of coales, and the very ſent or ſmell thereof being well perfumed, will driue away all the Rats from the houſe.</p>
+            </div>
+            <div type="part">
+               <head>Ad capiendum piſces.</head>
+               <p>Recipe luce Mullage, vel ſcolares tortes, col<g ref="char:EOLhyphen"/>lectum circa medium Maii quando Luna ſit plena; diſtemperata comminge ſape, ſerua in olla terrea, &amp; quando vis occupare vnge ma<g ref="char:EOLhyphen"/>nus tuas eclaua ſita ni aqua, vel loco ubi ſunt Piſces.</p>
+            </div>
+            <div type="part">
+               <head>To take Rats.</head>
+               <p>Take a quicke Rat, and put her in a pot, and make a ſoft fire about it and vnder it. and when ſh<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> féeleth the heat ſhe will crye, and the Rats that heare her will come to helpe her, and then they may take them. And in like manner you may doe with moles.</p>
+            </div>
+            <div type="part">
+               <pb facs="tcp:23776:11"/>
+               <head>To take Moles.</head>
+               <p>Take a couple of quicke Moles, and put them in a déepke pot, and ſet the pot in the carth to the brim, and when they cannot get out, they will péepe, and all the other Males will come and fall into the pot to them.</p>
+            </div>
+            <div type="part">
+               <head>To make a light for euer.</head>
+               <p>Take the wormes that ſhine commonly in the night, and gather the liquor of them, and mingle it with a quartren of Quick-ſiluer, and put it in a Viall, and the<g ref="char:cmbAbbrStroke">̄</g> you ſhall ſée all the night long by it.</p>
+            </div>
+            <div type="part">
+               <head>To put ones hand into any hot ſeething thing.</head>
+               <p>Anoint thy hants with hearbe Mercury, and put it in a ſee thing thing, and it will doe thée no harme at all.</p>
+            </div>
+            <div type="part">
+               <head>To kill Lice.</head>
+               <p>Make a good fire, and put Quicke-filuer therein, and hang the cloathes that are trou<g ref="char:EOLhyphen"/>bled with Rice ouer the fire in the ſmoake, and then aſſure your ſelfe no vermin will bréed or come in them.</p>
+            </div>
+            <div type="part">
+               <head>To kill Lice and Neets.</head>
+               <p>Take the powder or ſcraping of a Harts horne, and let the party that is troubled with them drinke often thereof, and there will nei<g ref="char:EOLhyphen"/>ther Lice nor Néets breed eyther in his head
+<pb facs="tcp:23776:12"/>or body. Alſo it you ſtrew the ſame powder other vpon his head, or on his cloathes, all the Lice and Neets will preſently dye.</p>
+            </div>
+            <div type="part">
+               <head>An eaſie way to kill Fleas.</head>
+               <p>Take the herbé Coriander and ſeeth it we<g ref="char:cmbAbbrStroke">̄</g>l in water, and then ſprinkle the ſame water in your Chambers and r<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>omes, and it will deſtroy all the Fleas.</p>
+            </div>
+            <div type="part">
+               <head>Another way.</head>
+               <p>Take Worm-wood and Rue, and ſtampe them together, then mingle them well with good wine, and put them all together in a lin<g ref="char:EOLhyphen"/>nen cloth, and rub all thy body well with it before thou goeſt to bed, and the Fleas will not come neere thee.</p>
+               <pb facs="tcp:23776:12"/>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,539 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The copie of the sermon preached before the Vniversitie at S. Maries in Oxford, on Tuesday the XXIV. of Decemb. 1633. By Tho. Browne, one of the students of Christ-church</title>
+            <author>Browne, Thomas, 1604?-1673.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1634</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 73 KB of XML-encoded text transcribed from 27 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A17039</idno>
+            <idno type="STC">STC 3912</idno>
+            <idno type="STC">ESTC S114322</idno>
+            <idno type="EEBO-CITATION">99849548</idno>
+            <idno type="PROQUEST">99849548</idno>
+            <idno type="VID">14701</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A17039)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 14701)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 703:19)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The copie of the sermon preached before the Vniversitie at S. Maries in Oxford, on Tuesday the XXIV. of Decemb. 1633. By Tho. Browne, one of the students of Christ-church</title>
+                  <author>Browne, Thomas, 1604?-1673.</author>
+               </titleStmt>
+               <extent>53, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>By Iohn Lichfield,</publisher>
+                  <pubPlace>Imprinted at Oxford :</pubPlace>
+                  <date>Anno 1634.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Some print show-through.</note>
+                  <note>Reproduction of the original in Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-02</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-03</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2013-03</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:14701:1"/>
+            <pb facs="tcp:14701:1" rendition="simple:additions"/>
+            <p>THE COPIE OF THE Sermon preached before the <hi>Vniverſitie at S. Maries in</hi> OXFORD, <hi>on Tueſday the</hi> XXIV. of Decem. 1633.</p>
+            <p>By THO. BROWNE, <hi>One of the</hi> Students <hi>of Chriſt-church.</hi>
+            </p>
+            <figure/>
+            <p>¶ Imprinted at Oxford by <hi>John Lichfield. Anno</hi> 1634.</p>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb facs="tcp:14701:2" rendition="simple:additions"/>
+            <pb n="3" facs="tcp:14701:2"/>
+            <head>
+               <hi>THE</hi> COPIE OF THE SERMON PREACHED BEFORE THE VNIVERSITIE at S<hi rend="sup">t</hi> 
+               <hi>Maries</hi> in <hi>Oxford,</hi> on Tueſ<g ref="char:EOLhyphen"/>day, the XXIV. of December, <hi>ANNO DOM.</hi> 1633,</head>
+            <epigraph>
+               <bibl>PSAL. CXXX. Verſ. IV.</bibl>
+               <q>
+                  <p>Quia apud te eſt Propitiatio; vt time<g ref="char:EOLhyphen"/>aris.</p>
+                  <p>
+                     <hi>For there is Mercy</hi> (or, Forgiueneſſe) <hi>with thee; therefore ſhalt thou be feared.</hi>
+                  </p>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">T</seg>HERE are ſome Pſalmes in this Booke, that are called <hi>Paeni<g ref="char:EOLhyphen"/>tentiall</hi> Pſalmes; that containe matter of Humiliation and De<g ref="char:EOLhyphen"/>jection for ſinne; <hi>that doe refraine the ſoule,</hi> 
+               <note place="margin">Pſal. 131. 3.</note>
+               <pb n="4" facs="tcp:14701:3"/> 
+               <hi>&amp; keepe it</hi> Low. And, they are <hi>ſeauen.</hi> There are other, that are called <hi>Graduall</hi> Pſalmes; that containe matter of Eleva<g ref="char:EOLhyphen"/>tion and Exaltation; that, by <hi>Degrees,</hi> doe, as we ſay before Communion, <hi>Lift</hi> Vp <hi>our hearts vnto the Lord.</hi> And, they are <hi>fifteene.</hi> (As euer, the <hi>Troubles</hi> of Gods people are ouerdone in there <hi>Redreſſes.</hi> When God humbles for ſinne, it is, but, <hi>in Pauxillo reliqui:</hi> Some <hi>ſmall</hi> leauing of vs, for a <hi>moment:</hi> but, when he <hi>viſits,</hi> a<g ref="char:EOLhyphen"/>gaine, <note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſay. 26. 20.</note> 
+               <hi>and redeemes his people;</hi> then, <hi>He ray<g ref="char:EOLhyphen"/>ſes a</hi> mighty <hi>Saluation for vs,</hi> as we ſay, in our <hi>Benedictus.)</hi> Now, of all the Pſalmes in the whole booke, this, that I haue read, and not one, beſide this, hath had the honour to be in, at <hi>both Capacities.</hi> It is <hi>one</hi> of the <hi>Graduall</hi> Pſalmes: It carries the ſoule <hi>Vp</hi> And, it is <hi>one</hi> of the <hi>Paenitentiall</hi> Pſalmes: It brings her <hi>Downe</hi> to the <hi>dust of death,</hi> too. We may ſay of <hi>it,</hi> as <note place="margin">Pſal. 22. 25.</note> ſometimes S. <hi>Paul</hi> of our Sauiour; <hi>Et qui Aſcendit, Idem eſt qui Deſcendi<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> (in the 4. Epheſ.) The Pſalme <hi>that Aſcendeth, is the</hi> 
+               <note place="margin">Epheſ. 4. 10.</note> 
+               <hi>ſame that Deſcendeth,</hi> alſo.</p>
+            <div type="part">
+               <pb n="5" facs="tcp:14701:3"/>
+               <p>THe <hi>Title</hi> to the Pſalme, is, <hi>Canticum Graduum.</hi> A <hi>Song</hi> of <hi>Degrees.</hi> So, the Text is peece of a <hi>Song;</hi> and we, ſo, to con<g ref="char:EOLhyphen"/>ſider it. Now, to conſider any <hi>Song</hi> a<g ref="char:EOLhyphen"/>right, <note place="margin">The Divi<g ref="char:EOLhyphen"/>ſion.</note> we muſt looke into the <hi>parts</hi> of it. They will eaſily be knowne. They di<g ref="char:EOLhyphen"/>vide themſelues into the number bleſſed aboue all Numbers, the Number of the <hi>Bleſſed Trinitie.</hi>
+               </p>
+               <p>And, now I ſpeake of the <hi>Trinitie,</hi> ſome of the Auncient Writers, (Pope <hi>Innocent</hi> I meane for one;) doe deduce the Do<g ref="char:EOLhyphen"/>ctrine of the <hi>Trinitie</hi> from this very <hi>verſe.</hi> 
+                  <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1. In, <hi>Apud te,</hi> they find the <hi>Father.</hi> 
+                  <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2. In, <hi>Propitiatio,</hi> the Sonne: according to that of S<hi rend="sup">t</hi> Iohn. <hi>ipſe eſt Propitiatio,</hi> (in the 1. Iohn 2. 2.) <hi>he is the Propitiation for all our</hi> 
+                  <note place="margin">1. Iohn 2. 2.</note> 
+                  <hi>ſinnes;</hi> ſpeaking of <hi>Chriſt.</hi> 
+                  <milestone type="tcpmilestone" unit="unspecified" n="3"/> 3. In, <hi>Timearis,</hi> the <hi>Holy Ghoſt;</hi> according to that of the Prophet, <hi>A Timore tuo Domine concepimus</hi> Spiritum; (in the 26. Eſay 18.)</p>
+               <p>The Doctrine of the <hi>Trinitie,</hi> ſaid I? nay, and (if you will) the Doctrine of the <hi>Sacraments,</hi> too. <hi>Ethicſunt Eccleſiae gemina Sacramenta;</hi> as ſometime S. <hi>Auguſtine.</hi> Here
+<pb n="6" facs="tcp:14701:4"/> are the two <hi>Twin-Sacraments</hi> of Chriſts Church. In, <hi>Propitiatio,</hi> there is the Sacra<g ref="char:EOLhyphen"/>ment of the Altar, <hi>Bloud:</hi> for, <hi>Propitiation</hi> is, <hi>per fidem in Sanguine,</hi> in the. 3. Rom. 25. <hi>Through Faith in his</hi> Bloud. There, you haue <hi>One</hi> Sacrament. And, in, <hi>Timearis,</hi> the Sacrament of Baptiſme, <hi>Water:</hi> for, <hi>Timor Domini fons eſt vitae.</hi> 14. Prov. 16. <hi>The feare of the Lord is the Fountaine,</hi> (or, Font) <hi>of life.</hi> There, you haue the <hi>Other.</hi>
+               </p>
+               <p>But, becauſe we conſidered this our Text, as piece of a <hi>Song;</hi> it will be moſt proper for vs, to found the Three <hi>Parts</hi> of <hi>it,</hi> vpon the common <hi>Scale</hi> of <hi>Muſick.</hi> And then, here is. I. <hi>Mercy.</hi> And, <hi>Mercy,</hi> doth <hi>Super exaltare iudicium:</hi> Exalt <hi>her<g ref="char:EOLhyphen"/>ſelfe againſt Iudgment,</hi> in the 2. <hi>Iames.</hi> 13. Aboue <hi>all his works,</hi> 
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>he<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> as it is in the <note place="margin">Pſal. 145. 9,</note> Pſalme. <hi>By the tender</hi> Mercies <hi>of our God,</hi> ſayes old <hi>Zacharie, we are viſited from on</hi> High. In <hi>Alto,</hi> She. There, you haue <hi>One</hi> 
+                  <note place="margin">Luk. 1. 78.</note> Part; The <hi>vpper part, Hypite.</hi> II. Here is <hi>Feare.</hi> And, the <hi>Feare</hi> of the Lord, is the <hi>Loweſt</hi> Grace of the Holy Ghoſt, in the 11. Eſay. 2. <hi>A Sapientia</hi> Deſcendit <hi>ad Ti<g ref="char:EOLhyphen"/>morem.</hi>
+                  <pb n="7" facs="tcp:14701:4"/> (tis S. <hi>Augustine.)</hi> There is a <hi>Deſcent</hi> made to <hi>Feare.</hi> And, the Apoſtle, as the <hi>Ground</hi> or <hi>Baſe,</hi> to <hi>Noli Altum Sapere,</hi> Sets, <note place="margin">Rom, 11. 20.</note> 
+                  <hi>Time. Be not high minded, but</hi> (Low min<g ref="char:EOLhyphen"/>ded, that is, but) <hi>Feare.</hi> There, you haue <hi>A<g ref="char:EOLhyphen"/>nother</hi> part, the part <hi>Belowe, Ne<gap reason="illegible" resp="#UOM" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                     <g ref="char:punc">▪</g>
+                  </hi> III<g ref="char:punc">▪</g> Here is, <hi>Thee</hi> &amp; <hi>Thou,</hi> Chriſt our Sauiour, that was both <hi>God</hi> and <hi>Man:</hi> and ſo, <hi>Medius veſtrûm,</hi> in the. 1. <hi>John.</hi> 26. There you haue the <hi>Third</hi> part, the <hi>Meane,</hi> or <hi>Midle.</hi> part, <hi>Meſe.</hi> Of the one part, <hi>Mercie,</hi> he pertaked as <hi>God;</hi> and is ſtiled ſo, in <hi>Nehemiah, Deus</hi> 
+                  <note place="margin">Nehem. 9, 17</note> 
+                  <hi>Miſericordiarum,</hi> the <hi>God</hi> of <hi>Mercie</hi> Of the other part, <hi>Feare;</hi> he pertaked as <hi>Man.</hi> For, <hi>in the daies of his fleſh,</hi> that is, when he was made <hi>Man; He was heard in that he</hi> Feared. ſaith the Apoſtle. 5. <hi>Heb.</hi> 7.</p>
+            </div>
+            <div type="part">
+               <p>NOw. Of theſe, in this order. <milestone type="tcpmilestone" unit="unspecified" n="I"/> 1. Of <hi>Feare.</hi> 
+                  <milestone type="tcpmilestone" unit="unspecified" n="II"/> 2. The <hi>Obiect, Thou.</hi> 
+                  <milestone type="tcpmilestone" unit="unspecified" n="III"/> 3. The <hi>Cauſe,</hi> and that a ſtrange one, to ſee too, <hi>Mercie.</hi> 
+                  <milestone type="tcpmilestone" unit="unspecified" n="IV"/> 4. And that, no common Mercie: ſuch, as the <hi>Prophet</hi> ſpeaks of, that, <hi>is re<g ref="char:EOLhyphen"/>newed euery morning: but,</hi> one of his <hi>Tender</hi> 
+                  <note place="margin">Lam. 3. 23.</note> 
+                  <hi>Mercies;</hi> euen, the <hi>Forgiuing</hi> of our Sins.
+<pb n="8" facs="tcp:14701:5"/> And yet. <milestone type="tcpmilestone" unit="unspecified" n="V"/> 5. a <hi>Cauſe:</hi> and that, for theſe <hi>Quia</hi>'s. <milestone type="tcpmilestone" unit="unspecified" n="1"/> 
+                  <hi>Quia apud te.</hi> It is yet a Mercie <hi>with him.</hi> It is not <hi>Miſericordia ſuper nos;</hi> A <hi>Mercie Lightened vpon vs,</hi> (as wee pray in the <hi>Te Deum.)</hi> And, becauſe of that, <hi>Feare.</hi> There is <hi>Cauſe,</hi> in <hi>That.</hi> 
+                  <milestone type="tcpmilestone" unit="unspecified" n="2"/> 
+                  <hi>Quia Pro<g ref="char:EOLhyphen"/>pitiatio.</hi> When it does lighten, It is but <hi>One Single Act</hi> of <hi>Mercie.</hi> It may <hi>Lighten,</hi> and Lighten <hi>beſide</hi> vs. And, becauſe of <hi>that, Feare.</hi> There is more <hi>Cauſe</hi> in <hi>That.</hi> And, <milestone type="tcpmilestone" unit="unspecified" n="3"/> 
+                  <hi>Quia Eſt.</hi> This <hi>Mercie,</hi> though <hi>Lightened</hi> vpon vs, onely, <hi>Is,</hi> now: it is not<hi>—Dixit, Erit.</hi> We doe not know how <hi>long</hi> this <hi>Mercy will endure. She</hi> may in time, too, as <note place="margin">Pſal. 136.</note> the Pſalmiſt ſpeaks of Righteouſneſſe, <hi>be turned into</hi> Iudgment: (in the Pſal. <note place="margin">Pſal: 94, 15.</note> XCIV.) And becauſe of <hi>That, Feare.</hi> In <hi>that,</hi> there is moſt <hi>Cauſe</hi> of all.</p>
+               <p>We told you, euen now, that, in, <hi>Time<g ref="char:EOLhyphen"/>aris,</hi> in, <hi>Feare,</hi> there was <hi>water.</hi> Then, (as the <hi>Eunuch</hi> to <hi>Philip) See: here is</hi> Wa<g ref="char:EOLhyphen"/>ter: <hi>what doth hinder you to be baptiſed? I</hi> 
+                  <note place="margin">Acts. 8. 35.</note> am readie with my, <hi>Timearis,</hi> with my <hi>water;</hi> not with <hi>water which is Afraide,</hi> (as it is in the LXXVII. Pſal.) But, with <note place="margin">Pſal. 77. 16.</note>
+                  <pb n="9" facs="tcp:14701:5"/> 
+                  <hi>water</hi> which, it ſelfe, is, <hi>Feare:</hi> the <hi>firſt</hi> particular to be conſidered in our Or<g ref="char:EOLhyphen"/>der. <hi>Quia apud t<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.</hi> Whereof, that we may ſo ſpeake. &amp;c.</p>
+            </div>
+            <div type="part">
+               <head>THE PRAYER.</head>
+               <p>GOd be mercifull vnto vs and bleſſe vs; ſhew vs the light of his countenance, and be mercifull vnto vs. Looke downe from hea<g ref="char:EOLhyphen"/>uen; behold, viſit, and releiue vs; whilſt we powre out our Soules before him, in <hi>Prayer,</hi> and in <hi>Thanksgiuing.</hi>
+               </p>
+               <p>In <hi>THANKSGIVING,</hi> for the won<g ref="char:EOLhyphen"/>derfull Grace and Vertue declared in all his Saints, from the beginning of the World. And chiefly, in the Glorious, and most Bleſſed Virgin <hi>Mary,</hi> Mother of God, who, <hi>as a<g ref="char:EOLhyphen"/>bout this time,</hi> brought forth her first borne Sonne, Ieſu Chriſt our Lord. In; the holy <hi>Pa<g ref="char:EOLhyphen"/>triarches, Prophets, Apoſtles, Martyrs:</hi> whoſe example, and ſtedfaſtneſſe in the Faith, graunt He vs Grace to follow. <hi>FOR</hi> all his Benefits, both <hi>Temporall,</hi> and <hi>Spirituall,</hi>
+                  <pb n="10" facs="tcp:14701:6"/> in great Mercy and Abundance conferred vp<g ref="char:EOLhyphen"/>on vs. Not only, for our Election, Creation, Redemption, Vocation, Iuſtification, Sancti<g ref="char:EOLhyphen"/>fication, in ſome weake meaſure in this life, and <hi>Hope</hi> of Glory in the life to come. But, <hi>FOR</hi> our mediocrity of Health, competency of Wealth, Preſeruation from many immi<g ref="char:EOLhyphen"/>nent and apparent Dangers; though, not of that miraculous Mercy, as our deliuerance from the Spaniſh Invaſion, the Gunpowder-Trea<g ref="char:EOLhyphen"/>ſon, and the late Plague among vs. <hi>FOR</hi> all his benefits <hi>Nationall</hi> or <hi>Locall.</hi> As well, for the Plenty and Peace which he hath beſtowed vpon vs; when, he hath not dealt ſo, with many other <hi>Nations.</hi> As, for that libe<g ref="char:EOLhyphen"/>rall Education which He hath conferred vpon vs, of this <hi>Place;</hi> by, King <hi>Henry</hi> the Sea<g ref="char:EOLhyphen"/>venth, and <hi>Elizabeth</hi> his Wife: <hi>Humphrey</hi> Duke of <hi>Glouceſter,</hi> Lady <hi>Margaret</hi> Coun<g ref="char:EOLhyphen"/>teſſe of <hi>Richmond;</hi> Iohn <hi>Kempe,</hi> Arch<g ref="char:EOLhyphen"/>biſhop of <hi>Canterbury;</hi> Thomas <hi>Kempe</hi> Bi<g ref="char:EOLhyphen"/>ſhop of <hi>London;</hi> Richard <hi>Lichfield</hi> Arch<g ref="char:EOLhyphen"/>deacon of <hi>Middleſex;</hi> Thomas <hi>Woolſey</hi> Archbiſhop of <hi>Yorke;</hi> King <hi>Henry</hi> the Eight, Founder of <hi>Chriſt-Church:</hi> King
+<pb n="11" facs="tcp:14701:6"/> 
+                  <hi>Edward</hi> the Sixt, Queene <hi>Mary,</hi> Queene <hi>Elizabeth,</hi> King <hi>Iames,</hi> of bleſſed memory<g ref="char:punc">▪</g> And, our preſent Gratious <hi>Soveraigne,</hi> the King. <hi>S<hi rend="sup">r</hi>
+                  </hi> Thomas <hi>Bodley, S<hi rend="sup">r</hi>
+                  </hi> Henry <hi>Sauill,</hi> and <hi>S<hi rend="sup">r</hi>
+                  </hi> William <hi>Sidley,</hi> Knights, <hi>M<hi rend="sup">r</hi>
+                  </hi> William <hi>Camden,</hi> and <hi>D<hi rend="sup">r</hi>
+                  </hi> Thomas <hi>White;</hi> Men, and Women, in Their generations Famous, and, in Ours, neuer to be Forgotten.</p>
+               <p>And, in <hi>PRAYER,</hi> not for our ſelues alone, but for the whole estate of his <hi>Ca<g ref="char:EOLhyphen"/>tholicke</hi> Church, <hi>militant here on Earth. FOR,</hi> thoſe particular Churches, in which we liue, vnder the gouernment, of a religious King, <hi>CHARLES,</hi> the firſt of that Name, King of <hi>England, Scotland, France,</hi> and <hi>Ireland,</hi> defender of the Faith; In all Cauſes, and ouer all Perſons, Eccleſiaſticall, or Ciuill, within theſe his Dominions, <hi>Supreame Head,</hi> and Governour; <hi>That it may pleaſe him,</hi> ſo to Bleſſe vnto him, his virtuous Lady the <hi>Queene,</hi> the <hi>Prince,</hi> the Lady <hi>Mary,</hi> the young <hi>Duke,</hi> his royall Progenie, with the Princeſse <hi>Palatine,</hi> his only Siſter, and her Iſſue: that, <hi>after this life ended, they may all attaine everlaſting Ioy and Fe<g ref="char:EOLhyphen"/>licitie,</hi>
+                  <pb n="12" facs="tcp:14701:7"/> 
+                  <hi>through</hi> Ieſus Christ our Lord. <hi>FOR,</hi> the Lords Spirituall, and Temporall, and the reſt, of his Majeſties moſt Honourable <hi>Priuie Councell. FOR,</hi> the <hi>Nobilitie, Magiſtracie, Gentrie,</hi> and <hi>Commonaltie</hi> of the Land; <hi>That it may pleaſe him,</hi> to giue them Grace, to <hi>Feare</hi> Him, <hi>Honour</hi> their King, <hi>hate</hi> Coveteouſneſſe; and <hi>to let Brotherly Loue continue. FOR,</hi> the Right Reverend Fathers of the Church; both the <hi>Archbiſhops,</hi> all the <hi>Biſhops,</hi> with the whole <hi>Bodie</hi> of the Clergie For the <hi>Eies</hi> of that Bodie the two Vniverſities of the Land, <hi>Oxford</hi> and <hi>Cambridge;</hi> In <hi>that, FOR</hi> the right Honourable and right reuerend Fa<g ref="char:EOLhyphen"/>ther in God, <hi>William,</hi> by the Prouidence of God, his Grace of <hi>Canterburie,</hi> Primate, and Metropolitan of all England, One of his Maieſties <hi>Councelours</hi> of <hi>State,</hi> Our Ho<g ref="char:EOLhyphen"/>nourable Lord and <hi>Chancellour; FOR</hi> the right worſhipfull his Vicechancelour, <hi>FOR</hi> all the Doctors<g ref="char:punc">▪</g> both the Proctors; all Heads of Colledges and Halls, particular<g ref="char:EOLhyphen"/>lie, for the worthy <hi>Deane</hi> of Christ-Church; the Prebendaries, Students, and euerie mem<g ref="char:EOLhyphen"/>ber
+<pb n="13" facs="tcp:14701:7"/> of <hi>that,</hi> or any <hi>other</hi> Societie; <hi>That it may pleaſe him,</hi> ſo, to make <hi>Religion</hi> and <hi>Diſcipline</hi> to flouriſh among vs, that all they, which ſpeake evill of vs, may be aſhamed, when they heare of our <hi>Converſations,</hi> and receaue a greater foyle from <hi>them,</hi> then, from our <hi>Controverſies. FOR,</hi> all <hi>Iew<g ref="char:EOLhyphen"/>iſh</hi> and ſeduced <hi>Romiſh</hi> Proſelytes; whe<g ref="char:EOLhyphen"/>ther, as yet, without the pales of his <hi>Church,</hi> or, Members of an <hi>vnſound</hi> One. <hi>That it may pleaſe him,</hi> ſo, to let them ſee, and vn<g ref="char:EOLhyphen"/>derſtand the myſteries of their Saluation, that we, being all reduced to one <hi>Faith,</hi> vnder one <hi>Shepheard</hi> of our <hi>Soules,</hi> may with joyfull<g ref="char:EOLhyphen"/>neſſe expect the comming of the Sonne of Man, in the clouds, to Iudgment. <hi>FOR,</hi> all thoſe his Seruants, which are departed hence from vs, with the <hi>Signe</hi> of <hi>Faith,</hi> and, doe now reſt in the Sleepe of Peace. <hi>That it may pleaſe him,</hi> to grant vnto them his <hi>Mercy;</hi> and that, at the day of the generall Reſurrection, we, and all they, which be of the mysticall bo<g ref="char:EOLhyphen"/>dy of his Sonne, may be ſet on his right hand, all together, and heare that his moſt joyfull voyce, <hi>Come vnto me O yee that be bleſ<g ref="char:EOLhyphen"/>ſed</hi>
+                  <pb n="14" facs="tcp:14701:8"/> 
+                  <hi>of my Father, and poſſeſſe the King<g ref="char:EOLhyphen"/>dome which is prepared for you, from the beginning of the World.</hi> And, <hi>FOR</hi> our Selues, laſtly, that are aſſembled here to<g ref="char:EOLhyphen"/>gether, to be made pertakers of his holy Word: <hi>That it may pleaſe him,</hi> to bleſſe <hi>Me,</hi> in Speaking, <hi>You,</hi> in Hearing; and, <hi>both,</hi> in Practiſing of <hi>both,</hi> in our Liues, and Conver<g ref="char:EOLhyphen"/>ſations. <hi>That it may pleaſe him,</hi> to giue vs theſe, and all other his bleſſings, which, he, in his infinite Wiſedome, knowes to be most ne<g ref="char:EOLhyphen"/>ceſſary for vs; and, which we, know neither, how to <hi>deſerue,</hi> nor <hi>deſire,</hi> but, in that Forme, which hee himſelfe hath taught vs, ſaying. <hi>Our Father which art</hi> &amp;c.</p>
+            </div>
+            <div type="part">
+               <head>Vt timearis.</head>
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="I"/> VVE begin with <hi>(feared.)</hi> And, <hi>Feare,</hi> is a good <hi>Beginning. Principium</hi> 
+                  <note place="margin">Of <hi>Feare.</hi>
+                  </note> 
+                  <hi>Sapientiae</hi> the wiſeman calls it: ſo, that, to begin <hi>wiſely,</hi> no ſuch <hi>Beginning</hi> as with <note place="margin">Shalt bee <hi>Feared.</hi>
+                  </note> 
+                  <hi>It.</hi> There is an Epiſtle in <hi>Bernard</hi> (the
+<pb n="15" facs="tcp:14701:8"/> 108. is that <hi>I</hi> meane.) that in ſteed of <hi>Salutem in Domino,</hi> the Ordinatie tearme of greeting, <hi>begins</hi> with <hi>Timorem Domini,</hi> for the complement of Salutation. It is as full of ſpirituall <hi>wiſedome</hi> (that Epiſtle) as moſt in the whole volume. <hi>Principium ſapientiae,</hi> did <hi>I</hi> call it? So, indeed, wee <note place="margin">Prov. 1. 7.</note> reade. But, that is not All. It is not al<g ref="char:EOLhyphen"/>waies, (as in the verſe) <hi>Optima Prima—</hi>the <hi>Beſt</hi> goes not alwaies <hi>Firſt.</hi> We know where it was <hi>kept euen till Now;</hi> (in the 2. <hi>John.)</hi> The word for <hi>Principium,</hi> in the <note place="margin">Iohn. 2. 10.</note> Originall, is the ſame that is vſed in the Law for <hi>Primitiae;</hi> So, that, <hi>Feare</hi> is both the <hi>Beginning</hi> of wiſdome, (that is) <hi>Firſt:</hi> and, it is the <hi>Firſt-Fruites</hi> of wiſedome, (that is) <hi>Beſt. First,</hi> and <hi>Beſt,</hi> both.</p>
+               <p>They haue a Prouerbiall ſaying in the <hi>Pirke Auoth,</hi> this, <hi>Metus antecedit Sa<g ref="char:EOLhyphen"/>pientiam;</hi> that, it is better to <hi>Feare</hi> to <hi>Doe Euill;</hi> then to <hi>Know,</hi> how to <hi>Doe Good.</hi> And therefore ſome of their Doctors, in <hi>Galatinus;</hi> vpon the place, <hi>Homines &amp; Ju<g ref="char:EOLhyphen"/>menta tu ſaluabis Deus:</hi> (Pſalme 36.) <hi>The Lord ſhal ſaue both</hi> man <hi>and</hi> beaſt; doe ob<g ref="char:EOLhyphen"/>ſerue,
+<pb n="16" facs="tcp:14701:9"/> that God will not <hi>ſaue</hi> thoſe, that are <hi>Homines</hi> onely; thoſe, onely, that haue the vnderſtanding of <hi>Men,</hi> in the <hi>knowledge</hi> of what is <hi>Good;</hi> except they be <hi>Jumenta,</hi> too; except, in the <hi>Doing</hi> of <hi>Euill,</hi> they be <hi>Fearfull, Fooliſh, and Ig<g ref="char:EOLhyphen"/>norant; euen as it were a</hi> Beaſt, <hi>before him,</hi> (as the Pſalmiſt ſpeakes, in the Pſal. 73. at the 21 verſe.)</p>
+               <p>As Church-Diſcipline is <hi>Retinacu<g ref="char:EOLhyphen"/>lum Fidej, (tis Cyprian</hi> ſo calleth it,) the <hi>Bridle</hi> of our <hi>Faith.</hi> So, <hi>Feare</hi> is <hi>Retinacu<g ref="char:EOLhyphen"/>lum Naturae,</hi> (as the Philoſopher calls it,) the <hi>Bridle</hi> of <hi>Nature;</hi> which, being once caſt vpon her, does, either <hi>guide</hi> and <hi>go<g ref="char:EOLhyphen"/>uerne</hi> her in the <hi>right</hi> way: or, elſe, does quickly checke, and <hi>turne</hi> her <hi>about,</hi> when ſhee is in the <hi>wrong.</hi> It keeps her <hi>right:</hi> therefore, the Prophet (in the <note place="margin">111. Pſal. 10.</note> 111. Pſal.) ſpeaking of the <hi>Feare of the Lord;</hi> addeth, at the 10. Verſe. <hi>Intel<g ref="char:EOLhyphen"/>lectus bonus poſſidentibus eum. A good</hi> vn<g ref="char:EOLhyphen"/>derſtanding <hi>haue They that doe thereafter.</hi> And where a <hi>good vnderſtanding</hi> is, there <hi>error</hi> is excluded, and the <hi>right</hi> way kept.
+<pb facs="tcp:14701:9"/> Or, elſe, it <hi>checks</hi> and <hi>turns</hi> vs <hi>about;</hi> quickly, when we are in the <hi>wrong;</hi> there<g ref="char:EOLhyphen"/>fore, when ſomewhat <hi>ayled Io<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>da<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi> (in the Pſal.) that is, when the <hi>water was afrayd,</hi> (there, the <hi>Bridle</hi> of <hi>Feare</hi> is caſt vpon her:) the very next news is; o<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <hi>re<g ref="char:EOLhyphen"/>pulſus eſt retrorſum:</hi> the tide is ſtraight way <hi>turned:</hi> no more going <hi>that</hi> way. <hi>Iordan is driuen Backward,</hi> (in the 114. Pſal. at the 5. Verſe.)</p>
+               <p>And, take this along with you, too. Amongſt all the Affections, <hi>Feare,</hi> was (as it is in the verſe,) <hi>Primus in Orbe—the</hi> very <hi>firſt</hi> Paſſion in the world, that wee read of, that euer ſhewed it ſelfe, after the Fall of Man. Now, by the Law of <hi>first-bornes,</hi> It ſhould be, therefore, <hi>Holy</hi> 
+                  <note place="margin">Exod. 13. 2.</note> 
+                  <hi>vnto the Lord.</hi> And, ſo, indeed, it is. It is, as the Salt vnto the <hi>Sacrifice;</hi> euen <hi>Faith</hi> her ſelfe, vnleſſe brin'd and ſeaſon'd in often <hi>Feares,</hi> does ſoone grow ranke and periſh. If that <hi>Faith</hi> be a <hi>Fabrique</hi> or <hi>Building;</hi> (and, <hi>be yee</hi> builded <hi>vp in your holy Faith;</hi> is the phraſe of the Apoſtle S. <hi>Jude.</hi> v. 20.) <hi>Feare,</hi> is <hi>Fundamentum ſalu<g ref="char:EOLhyphen"/>tis,</hi>
+                  <pb n="18" facs="tcp:14701:10"/> (as <hi>Tertullian</hi> calls it.) the <hi>Foundation,</hi> that muſt be <hi>firſt</hi> layed, or the <hi>work</hi> of our Saluation will ſcarce goe forward. If <hi>Faith</hi> be a kinde of <hi>Phyſicke</hi> to the Soule; (and, <hi>thy Faith hath made thee</hi> whole; was a ſpeech, oft in the mouth of our Sauiour.) <hi>Feare,</hi> is, <hi>electae mentis prae<g ref="char:EOLhyphen"/>parata Purgatio,</hi> (as <hi>Baſill,</hi> and <hi>Gregorie</hi> cals it.) the <hi>Purge,</hi> that being, <hi>before,</hi> taken downe into our hearts; doth make, <hi>fi<g ref="char:EOLhyphen"/>dem quae operatur,</hi> (as the Apoſtle would haue it, 2. <hi>Iames</hi> 22.) Faith, <hi>worke</hi> more kindly and better, <hi>after.</hi> If <hi>Faith</hi> be a <hi>doctrine</hi> to be learned; (And, <hi>one of the principles of the</hi> doctrine <hi>of Chriſt;</hi> the A<g ref="char:EOLhyphen"/>poſtle calls <hi>Faith,</hi> (in the. 6. Heb.) <hi>Feare,</hi> 
+                  <note place="margin">Heb. 6. 1.</note> is <hi>magister ſalutis,</hi> (as <hi>Gregorie Nazian<g ref="char:EOLhyphen"/>zen</hi> calls it) the <hi>Reader,</hi> or <hi>Lecturer</hi> that muſt expound it. And, there muſt be an <hi>Inſtructer</hi> before a man can <hi>learne. How can J vnderſtand except that ſome man</hi> guide <note place="margin">Act. 8. 31.</note> 
+                  <hi>me,</hi> could the Eunuch ſay to <hi>Philip.</hi> So, that, euery way, Feare is <hi>before</hi> Faith; and <hi>directs her going in the way.</hi> To <hi>be<g ref="char:EOLhyphen"/>lieue,</hi> 
+                  <note place="margin">Pſal. 85. 13.</note> firſt, (there is <hi>Faith, ſpirituall</hi> Faith;)
+<pb n="19" facs="tcp:14701:10"/> and; then to <hi>tremble,</hi> (there is <hi>Feare, Na<g ref="char:EOLhyphen"/>turall</hi> Feare:) is the order of the Diuells Creed; <hi>They beleiue and tremble.</hi> With the <note place="margin">Iames. 2. 19.</note> Chriſtian, as with the Apoſtle, <hi>that is not</hi> 
+                  <note place="margin">1. Cor. 15. 46.</note> 
+                  <hi>first which is</hi> Spirituall, <hi>(Faith) but that which is</hi> Naturall, <hi>(Feare.)</hi> As in the <hi>laſt,</hi> ſo it muſt bee in the <hi>firſt reſurrection,</hi> too. So, that, firſt of all, (I ſay) <hi>Feare.</hi>
+               </p>
+               <p>Now As there was in the Prophet <hi>Da<g ref="char:EOLhyphen"/>uids</hi> time, <hi>generatio querentium,</hi> A Gene<g ref="char:EOLhyphen"/>ration <note place="margin">Pſal. 23. 6.</note> of <hi>ſeekers</hi> (in the Pſalme) men, that were ſtill to <hi>ſeeke,</hi> and neuer <hi>found.</hi> So there is in this our Age, (a world it is to ſee it) <hi>generatio Timentium;</hi> A genera<g ref="char:EOLhyphen"/>tion of <hi>Fearers.</hi> A generation of men that haue, <hi>
+                     <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>repidauerunt timore,</hi> running in the bloud; but, it is, <hi>vbi non erat Timor. They are afrayd,</hi> ſtill <hi>where no feare was.</hi> (14. Pſal. 9.) Set there <hi>timearis</hi> vpon the right <hi>Tu,</hi> and that is, <hi>Tu autem Do<g ref="char:EOLhyphen"/>mine;</hi> let it be <hi>God,</hi> either as in <hi>himſelfe,</hi> and his <hi>obſeruance;</hi> or, as he is incarnate in the <hi>Prince,</hi> and his <hi>ordinance;</hi> let <hi>him</hi> be to be <hi>Feared;</hi> and, as farre as a man may iudge, <hi>there is no Feare of God be<g ref="char:EOLhyphen"/>fore</hi>
+                  <pb n="20" facs="tcp:14701:11"/> 
+                  <hi>their Eies. Set</hi> there <hi>timearis</hi> but vp<g ref="char:EOLhyphen"/>on <note place="margin">Pſal. 14. 7.</note> a wrong <hi>Tu,</hi> as, <hi>Tu qui deſtruis Tem<g ref="char:EOLhyphen"/>plum,</hi> in the Goſpell, or the like; Let the great <hi>Temple</hi> be <hi>Destroyed,</hi> (that indeed <note place="margin">Mat. 27. 40.</note> they would be glad of, but,) be <hi>Destroy<g ref="char:EOLhyphen"/>ed,</hi> to be <hi>Raiſed</hi> within <hi>few dayes;</hi> where they ſhould <hi>ſerue God in holineſſe, and righteouſneſse, Abſque, Timore,</hi> (as, in the Song of <hi>zachary)</hi> and, <hi>without Fears,</hi> and, there you ſhall haue it, <hi>totus tremo horreo<g ref="char:EOLhyphen"/>que;</hi> Euery mothers child among them <hi>Feares,</hi> Religion, <hi>pure and vndefiled Reli<g ref="char:EOLhyphen"/>gion,</hi> will be vtterly <hi>ruined,</hi> when the place to exerciſe it, in, is but <hi>repayred.</hi> Set vp, in our windowes, the Image of the Holy <hi>Lambe</hi> (And, in that forme of a <hi>Lambe</hi> they repreſented our Sauiour for many hundred yeares together. They gaue him not the Shape of a <hi>Man,</hi> ſo ordinarilie, till after the <hi>Sixt</hi> Generall <hi>Councell.)</hi> And, through the inverted Perſpectiue of this their <hi>feare,</hi> that, which is but a <hi>Lambe,</hi> no more, but a <hi>Lambe,</hi> in the <hi>Window:</hi> will ſeeme, <hi>Leo in Via</hi> (in the <note place="margin">Prov. 26. 13.</note> 26. Prov.) A <hi>Lyon</hi> in the <hi>way;</hi> and,
+<pb n="21" facs="tcp:14701:11"/> ſeale the dores as faſt, as a Perſecution. Paint the ſtorie of the <hi>Reſurrection,</hi> and you may leaue out the <hi>Keepers:</hi> you ſhall haue enow <hi>afraid,</hi> in the congregation. Doe but <hi>white</hi> the <hi>Dores</hi> of a Church, and you ſhall haue them (as they were in the 20. of <hi>John.</hi> 19.) <hi>Fores clauſae;</hi> Dores, that may be <hi>ſhut vp</hi> for any of our <hi>Diſci<g ref="char:EOLhyphen"/>ples,</hi> that will <hi>aſſemble there together.</hi> And, I doe not thinke, but, <hi>propter metum Iu<g ref="char:EOLhyphen"/>daeorum,</hi> may come in, here, as it doth, in that verſe; for queſtionleſſe, they <hi>feare,</hi> too, that, <hi>Iudaiſme</hi> will be profeſt among vs, if the <hi>Gates</hi> of our <hi>Temples be</hi> but once <hi>called</hi> Beautifull. (3. Acts. 2.)</p>
+               <p>To <hi>order,</hi> therefore, this our Feare <hi>a<g ref="char:EOLhyphen"/>right:</hi> 
+                  <note place="margin">Pſal. 50. 23,</note> (for, according to that of <hi>Bernard, Nil ſunt virtutes niſi ordinatae affectiones:)</hi> we muſt haue an eſpeciall eye, to match our <hi>timearis,</hi> with a right <hi>Tu.</hi> This <hi>time<g ref="char:EOLhyphen"/>aris,</hi> here, is like the <hi>Cockle-ſhell;</hi> none but his owne <hi>halfe;</hi> none, but one <hi>(Tu)</hi> will fitt him. So, that, it is not, <hi>Tu vir,</hi> he, that would kill our <hi>bodies,</hi> the <hi>Man</hi> of warre; <hi>abroad:</hi> tis not that <hi>Tu,</hi> that does it. 'Tis
+<pb n="22" facs="tcp:14701:12"/> not, <hi>Tu frater;</hi> he, that doth vex our righte<g ref="char:EOLhyphen"/>ous <hi>ſoules,</hi> the <hi>Brother,</hi> at <hi>home;</hi> 'Tis, not that <hi>Tu,</hi> that does it, neither. It is, only <hi>Tu Dominus,</hi> the third, <hi>Tu,</hi> in the <hi>verſe;</hi> It is only <hi>God</hi> the <hi>Lord;</hi> and I ſay vnto you, <hi>Feare Him.</hi> (12. <hi>Luk.</hi> 5.) He is the right <hi>Thou,</hi> for the, <hi>be Feared;</hi> the Object <note place="margin">Luk<g ref="char:punc">▪</g> 12. 5.</note> (wee ſpake of) and our next particular, <hi>Thou.</hi> Vt timearis. &amp;c. <hi>therefore ſhalt</hi> Thou.</p>
+            </div>
+            <div type="part">
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="II"/> ANd, they that <hi>feare God,</hi> ſhall, what? <hi>ſhall want nothing.</hi> (So, ſaith the <hi>Pſalme)</hi> I, and, ſhall <hi>feare nothing,</hi> too. (So, <note place="margin">The <hi>Object.</hi>
+                  </note> 
+                  <hi>Lactantius.)</hi> A man ſhall <hi>cast out</hi> all other feares, <hi>in the name</hi> of this feare. <hi>Efficit ti<g ref="char:EOLhyphen"/>mor</hi> 
+                  <note place="margin">Thou <hi>ſhalt be Feared.</hi>
+                  </note> 
+                  <hi>Dei,</hi> (they are the wordes of the Fa<g ref="char:EOLhyphen"/>ther) <hi>vt caetera non poſſint timeri.</hi> And, S. <hi>Ierome</hi> notes the ſame, vpon the remoues of the children of <hi>Iſraell.</hi> When they re<g ref="char:EOLhyphen"/>moued from <hi>Thaar</hi> (and <hi>Thaar,</hi> is that, <hi>quod, pauorem melius interpretabimur,</hi> in the very words of <hi>Ierome:</hi> by, <hi>Thaar,</hi> is moſt properly ſignified, <hi>feare:</hi> (there is, <hi>efficit timor Dei;</hi> there is, <hi>ſhalt thou be feared.)</hi>
+                  <pb n="23" facs="tcp:14701:12"/> They came, to their next manſion, at <hi>Thare;</hi> (and, <hi>Thare,</hi> is as much as <hi>depul<g ref="char:EOLhyphen"/>ſor,</hi> or <hi>abactor,</hi> ſaies the father; <hi>Thare</hi> ſig<g ref="char:EOLhyphen"/>nifieth properly a <hi>driuer away;)</hi> there is, <hi>vt caetera non poſſint timeri;</hi> or, (in the words of the Pſalmiſt,) <hi>no feare, what man can</hi> 
+                  <note place="margin">Pſal. 56. 4</note> 
+                  <hi>doe vnto me.</hi>
+               </p>
+               <p>
+                  <hi>Thou ſhalt be feared?</hi> I; but how? S. <hi>Am<g ref="char:EOLhyphen"/>broſe,</hi> here, (that our <hi>feare</hi> may be, <hi>ac<g ref="char:EOLhyphen"/>cording</hi> 
+                  <note place="margin">Rom. 10. 2.</note> 
+                  <hi>to knowledg,</hi> too) giues a <hi>Scio</hi> to it. we muſt <hi>know,</hi> (ſaith he) that, <hi>aliud eſt ti<g ref="char:EOLhyphen"/>mere, quia peccaueris; aliud, timere, ne pecces.</hi> One thing it is, (ſaies <hi>Ambroſe)</hi> to <hi>feare</hi> God, onely, becauſe we <hi>ſinne;</hi> another, not to <hi>ſinne</hi> againſt God, becauſe we <hi>feare.</hi> The firſt is <hi>from the earth, earthly;</hi> when we <hi>feare,</hi> only, becauſe we <hi>ſinne:</hi> when we haue that low <hi>earthly</hi> reſpect, only, to our ſelues. The ſecond is, <hi>from</hi> 
+                  <note place="margin">1. Cor. 15. 47.</note> 
+                  <hi>heauen, heauenly,</hi> (as we ſay in <hi>the order for Buriall,)</hi> when, we will not <hi>ſinne,</hi> be<g ref="char:EOLhyphen"/>cauſe we <hi>feare;</hi> when we <hi>conſider</hi> him, that is in <hi>the heauens,</hi> only, and his glory. <note place="margin">Pſal. 8. 3.</note> 
+                  <hi>Time, ne pecces;</hi> there is feare, <hi>volley,</hi> feare, <hi>aboue line;</hi> feare, that neuer touches the
+<pb n="24" facs="tcp:14701:13"/> 
+                  <hi>ground; time quia peccaueris,</hi> that is, feare, onely, at the <hi>rebound:</hi> neuer, without ſome <hi>fault</hi> before it. <hi>Time ne pecces;</hi> there is feare, like the <hi>first</hi> Myrrhe in the canticles, that flowes of its owne <hi>inclination,</hi> free<g ref="char:EOLhyphen"/>ly; <hi>time, quia peccaueris;</hi> that is feare, on<g ref="char:EOLhyphen"/>ly, like the <hi>ſecond</hi> Myrrhe, that flowes, indeed, (ſaies the Naturaliſt,) but, not before <hi>inciſion;</hi> it muſt ſmart, firſt. <hi>Time ne pecces;</hi> there is, <hi>ſtand in awe and ſinne not,</hi> (in <note place="margin">Pſal. 4. 4.</note> the Pſalme,) the Prophet <hi>Dauids</hi> feare; <hi>feare,</hi> that is the <hi>preſervatiue</hi> againſt ſinne; <hi>time quia peccaueris;</hi> that's only, <hi>if thou doeſt euill, then feare,</hi> (in th' Apoſtle:) S. <hi>Paules</hi> 
+                  <note place="margin">Rom. 13. 4.</note> feare; <hi>feare,</hi> that is the <hi>playſter,</hi> after it.</p>
+               <p>Now: fraile and feeble though our nature be; let vs bid for, <hi>time ne pecces,</hi> as much as we can. Let vs endeauour that; let vs not <hi>take away the firſt;</hi> if we can helpe it. But howſoeuer; let vs <hi>eſtabliſh the ſecond,</hi> (Heb. 10.) let vs not <note place="margin">Heb. 10. 9.</note> paſſe by, <hi>time quia peccaveris;</hi> be ſure of that. <hi>Fac, fac,</hi> (cries S. <hi>Auguſtine,)</hi> doe it, man, doe it, any way: which way thou wilt, ſo one. <hi>Time ne pecces,</hi> if it be poſſi<g ref="char:EOLhyphen"/>ble;
+<pb n="25" facs="tcp:14701:13"/> 
+                  <hi>this indeed, you ought to haue done;</hi> ven<g ref="char:EOLhyphen"/>ture for <hi>this</hi> a litle; but howſoeuer, <hi>time quia peccaueris,</hi> by all manner meanes; <hi>and, not leaue this, vndone,</hi> (23. <hi>Mat.)</hi> 
+                  <note place="margin">Mat. 23. <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>3.</note> doe not paſſe by, <hi>this.</hi>
+               </p>
+               <p>There are, that delight themſelues in obſeruing a compoſition in the <hi>ſoule,</hi> like to that, in the <hi>body;</hi> they com<g ref="char:EOLhyphen"/>pare our <hi>Hope</hi> in God, (hope, which is yet onely, happineſſe in the <hi>egge,</hi> as <hi>S. Auguſtine</hi> calls it,) they compare the Chriſtian mans <hi>hope,</hi> I ſay, to the <hi>liuer,</hi> the ſhop and ſtorehouſe of <hi>bloud:</hi> ſo <hi>Clemens Alexandrinus</hi> calls a Chriſtians <hi>hope, (Sanguinem fidei)</hi> the <hi>bloud</hi> of his faith; becauſe, as that <hi>hope</hi> waſteth, ſo, his very <hi>faith,</hi> the <hi>vitall part</hi> of his reli<g ref="char:EOLhyphen"/>gion, doth decay. Now: as <hi>Hope,</hi> is the <hi>liuer</hi> of the Soule: So, ſay they, is <hi>Feare,</hi> the <hi>lunges</hi> of the Soule; which <hi>cooles</hi> and <hi>fanns</hi> it, euer, and anon; and keeps <hi>Faith</hi> in a good temper; which elſe would be ſubiect to ſtrange <hi>heats,</hi> and <hi>paſſions;</hi> were it not, for this cooler, <hi>feare.</hi>
+               </p>
+               <pb n="26" facs="tcp:14701:14"/>
+               <p> I doe bring you to your <hi>Puerilis;</hi> I doe <hi>teach you,</hi> like <hi>litle children,</hi> thus, <hi>the</hi> 
+                  <note place="margin">Pſal. 34. 11.</note> 
+                  <hi>feare of the Lord:</hi> becauſe, (I know not how, but, ſo it is;) this duty of feare, is much, of late, <hi>miniſhed from among the</hi> 
+                  <note place="margin">Pſal. 12. 1.</note> 
+                  <hi>children of men.</hi> Men are growne, me thinks, as if they were afraid, to <hi>feare.</hi> All their <hi>feare</hi> is ſtruck <hi>inward,</hi> and gone to the <hi>heart;</hi> and, it is to be feared, there is not ſo much <hi>charitie</hi> reſiding there, as will, <hi>foras mittere timorem,</hi> (1. <hi>Iohn.</hi> 4. 18.) as will, <hi>driue out</hi> this <hi>feare</hi> againe, either, into the <hi>legge,</hi> or <hi>knee;</hi> or any other part of the <hi>body;</hi> where it may bee <hi>diſcerned.</hi> The, <hi>timearis,</hi> of the text, is not meant of any ſuch <hi>inviſible</hi> ſeruice. Will you ſee it is not? Looke vpon the <hi>Chalde Paraphraſt;</hi> the word, there, for, <hi>timearis;</hi> is <hi>videaris;</hi> and ſo, a <hi>viſible</hi> feare it ſhould be, or it is not right. To <hi>audivimus,</hi> (in the Pſalme) <note place="margin">Pſal. 47. 9.</note> the Prophet ioyneth <hi>vidimus;</hi> So doe we. <hi>Like as we haue Hear'd,</hi> (for, <hi>heare</hi> it wee may from every man. It is every mans <hi>Song,</hi> that, <hi>who will not feare thee O God?</hi> 
+                  <note place="margin">Apoc. 15. 4.</note> as well, as <hi>Moſes,</hi> and the <hi>Lambes:</hi> ſo
+<pb n="27" facs="tcp:14701:14"/> that, <hi>Heare</hi> it, without doubt, we may; but, I wiſh, I might adde) <hi>So haue wee Seene,</hi> alſo: for the world will but, <hi>partly</hi> 
+                  <note place="margin">1. Cor. 11. 18.</note> 
+                  <hi>beleiue it,</hi> ſo long as in our ordinary ſer<g ref="char:EOLhyphen"/>vice, and worſhip of almighty God, there is ſo little, or no ſigne at all of <hi>it,</hi> to be <hi>ſeene.</hi> It is <hi>abſcondita Deo noſtro,</hi> right. (Deuter. 29. 29.) <hi>Hidden things belong vn<g ref="char:EOLhyphen"/>to God.</hi> Our <hi>feare,</hi> I am ſure, our manner of <hi>worſhip</hi> is ſo; <hi>hidden,</hi> both; as if God re<g ref="char:EOLhyphen"/>quired <hi>that,</hi> too, only, in the <hi>inward parts.</hi> 
+                  <note place="margin">Pſal. 51. 5.</note> As, for <hi>outward</hi> worſhip, it is, better <hi>ſpar'd</hi> then <hi>ſpent.</hi> At the beſt, it is, <hi>hitt,</hi> or <hi>miſſe,</hi> with vs; <hi>faſt,</hi> or <hi>looſe,</hi> chuſe you whether; and, euen in this ſence, too, <hi>is his ſervice perfect freedome.</hi>
+               </p>
+               <p>The Gueſt, in the Goſpell, was caſt into Hell fire, but, for his very garment. 'Twas not his <hi>inward demureneſſe,</hi> could ſaue him from <hi>outward darkneſſe.</hi> Now. Let me aske a little? Doth God conſi<g ref="char:EOLhyphen"/>der the <hi>rayment</hi> ſo preciſely, without, ſo much, as looking after the <hi>body</hi> that weares it? Doth God ſo exactly cenſure the <hi>forme,</hi> and the <hi>faſhion</hi> of the <hi>one;</hi> and,
+<pb n="28" facs="tcp:14701:15"/> will he not, the <hi>deportment,</hi> and <hi>behauiour</hi> of the <hi>other? Is not the body more then ray<g ref="char:EOLhyphen"/>ment,</hi> 
+                  <note place="margin">Mat. 5. 26.</note> 
+                  <hi>O yee, of</hi> ſo great <hi>faith?</hi>
+               </p>
+               <p>I will conclude. <hi>With my body, I thee worſhip,</hi> is not, only, the office and duty of the man vnto the woman, when, by that <hi>magnum ſacramentum,</hi> which the A<g ref="char:EOLhyphen"/>poſtle ſpeaks of, <hi>they two are made one fleſh,</hi> 
+                  <note place="margin">Gen. 2. 24.</note> in Matrimony; <hi>Ego autem dico de Christo &amp; eccleſia,</hi> with S<hi rend="sup">t</hi> 
+                  <hi>Paule</hi> (Epheſ. 5.) <hi>I ſpeak of Chriſt and the Church.</hi> I ſay, <hi>They both</hi> 
+                  <note place="margin">Epheſ. 5. 32.</note> require it; and, therefore, as we looke to haue our <hi>bodies,</hi> to be <hi>rayſed in glory,</hi> when they ſhall <hi>enter into Ioy:</hi> let vs<g ref="char:punc">▪</g> 
+                  <hi>ſowe them,</hi> firſt, <hi>in this diſhonour;</hi> let vs <hi>fall downe</hi> with <note place="margin">1. Cor. 15. 43.</note> them, and <hi>worſhip,</hi> when we come before <hi>him,</hi> in true reverence, and <hi>feare<g ref="char:punc">▪</g>
+                  </hi>
+               </p>
+            </div>
+            <div type="part">
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="III"/> 
+                  <hi>Scientes igitur timorem hunc Domini,</hi> (as the Apoſtle, in the 2. <hi>Cor.</hi> 5. 11.) <hi>Know<g ref="char:EOLhyphen"/>ing,</hi> 
+                  <note place="margin">The <hi>Cauſe.</hi>
+                  </note> therefore, <hi>this feare of the Lord;</hi> that is, knowing, now, that <hi>thou</hi> art to <hi>be feared.</hi> It behooueth vs in the next place, <hi>cogn<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ſcere cauſas,</hi> to enquire after the <hi>cauſe,</hi> to looke into the, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> the <hi>quia,</hi> of
+<pb n="29" facs="tcp:14701:15"/> this <hi>timearis,</hi> what that ſhould be. Aſ<g ref="char:EOLhyphen"/>ſure our ſelues, we may, that, <hi>one</hi> there is. It is not, <hi>numquid gratis?</hi> (as the <hi>Diuell</hi> ſaid of <hi>Job,)</hi> what? doe you thinke, that we <hi>feare God, for nought?</hi> truly, no. No <note place="margin">Iob. 1. 9.</note> 
+                  <hi>cauſeleſſe</hi> feare, this. Some <hi>Cauſe,</hi> or o<g ref="char:EOLhyphen"/>ther, there is, out of all queſtion; and we (lo) now, to enquire after <hi>it.</hi>
+               </p>
+               <p>And, to haue found it, now, at length, <note place="margin">And that a ſtrange one.</note> 
+                  <hi>quia Iuſtitia,</hi> had bin no great newes. Gods <hi>Iudgments</hi> vſually, doe <hi>cauſe</hi> feare; let it, once, come to, <hi>in eadem condemna<g ref="char:EOLhyphen"/>tione,</hi> 
+                  <note place="margin">1. not <hi>Judg<g ref="char:EOLhyphen"/>ment.</hi>
+                  </note> let ſome common <hi>Iudgment</hi> be vpon vs, once, and then, <hi>an non tu times Deum?</hi> will be a queſtion quickly ſta<g ref="char:EOLhyphen"/>ted with vs; <hi>doeſt not thou</hi> feare <hi>God, that art vnder the ſame</hi> condemnation? <hi>(Luk.</hi> 
+                  <note place="margin">Luk. 23. 40.</note> 23.) there is none, ſure, but does. And, to ſpeake but the ſober truth, the world is come generally to this paſſe, that, it is not, (as in the Pſalme,) <hi>thereafter, as</hi> 
+                  <note place="margin">Pſal. 90. 11.</note> 
+                  <hi>a man feareth, ſo is thy diſpleaſure;</hi> but, <hi>vice verſa,</hi> quite and cleane; <hi>thereafter, as thy diſpleaſure is, ſo a man feareth;</hi> iuſt ſo, and, no otherwiſe. Our <hi>feare</hi> goeth altoge<g ref="char:EOLhyphen"/>ther,
+<pb n="30" facs="tcp:14701:16"/> by his <hi>Iudgments;</hi> waxeth and wai<g ref="char:EOLhyphen"/>neth; commeth <hi>in,</hi> and goeth <hi>out,</hi> with them; keeps <hi>time,</hi> iuſt, as they doe. When Gods <hi>Judgments</hi> are vpon vs, then, who, ſo deuout, who, ſo godly, as we? <hi>who does</hi> feare, <hi>and we doe not</hi> feare? bring <note place="margin">2. Cor. 11. 29.</note> vs once vnder ſome affliction, ſome of Gods <hi>Judgments;</hi> and then, ſtraight-way, a godly <hi>feare</hi> comes vpon vs, too, as <hi>paine does vpon a woman in trauayle;</hi> (and, for the ſame reaſon, too) <hi>becauſe, we knowe, that our houre,</hi> (the houre of <note place="margin">Iohn. 16. 21.</note> affliction) <hi>is come.</hi> But, let that, once, <hi>paſſe from vs;</hi> and, (lo) we are euen, as quickly <hi>past</hi> all <hi>feare,</hi> too.</p>
+               <p>We are, in this very thing, worſe then the Heathens themſelues. They are noted, ſo farre to haue bin more ob<g ref="char:EOLhyphen"/>ſequious in the ſeruice of thoſe Gods, that were moſt <hi>beneficiall,</hi> and moſt <hi>mer<g ref="char:EOLhyphen"/>cifull,</hi> vnto them; that, the more <hi>gratious</hi> and <hi>gentle</hi> they were; the more, they eſteemed them, <hi>Gods.</hi> Hence, came the name <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> (in <hi>Plutarck)</hi> to be aſcri<g ref="char:EOLhyphen"/>bed to the <hi>King</hi> of the Gods; and hence,
+<pb n="31" facs="tcp:14701:16"/> (as is imagined by ſome) is <hi>Moſes</hi> in the ſcripture, tearmed <hi>Deus Pharaonis,</hi> (not, <hi>Deus Aaronis, as Theodoret</hi> does corruptly reade the place, againſt the very letter of the text; but, <hi>Deus Pharao<g ref="char:EOLhyphen"/>nis) the</hi> God <hi>of Pharaoh;</hi> not, becauſe he was more <hi>powerfull,</hi> then the very Sor<g ref="char:EOLhyphen"/>cerers <note place="margin">Exod. 7. 1.</note> were; they did <hi>hurt,</hi> as well as he could; but, becauſe he was more <hi>pittifull;</hi> he did <hi>heale,</hi> againe; and, that, they could not doe.</p>
+               <p>But, <hi>Iuſtitia,</hi> is not the <hi>quia</hi> of the text. <note place="margin">2 but <hi>Mercy.</hi>
+                  </note> 
+                  <hi>Iudgment,</hi> is not the <hi>cauſe</hi> we looke for, and indeed; as for that <hi>feare,</hi> that is <hi>cauſed</hi> from <hi>that,</hi> it will, like fruit from a forced ground, neuer <hi>laſt</hi> long; <hi>feare,</hi> that is <hi>cau<g ref="char:EOLhyphen"/>ſed</hi> only, when <hi>Iudgment</hi> is vpon vs, is, commonly, <hi>feare,</hi> that <hi>may endure for a</hi> 
+                  <note place="margin">Pſal. 30. 5.</note> 
+                  <hi>night, but ioy commeth</hi> againe <hi>in the mor<g ref="char:EOLhyphen"/>ning;</hi> it is <hi>feare,</hi> of no <hi>long</hi> continuance; it will not <hi>ſtick</hi> by vs. But, when, <hi>Mercy, is on them that feare him:</hi> when the <hi>timearis</hi> hath <hi>propitiatio,</hi> for the <hi>quia:</hi> that <hi>feare</hi> en<g ref="char:EOLhyphen"/>dureth (as it followeth in the <hi>Magnifi<g ref="char:EOLhyphen"/>cat) throughout all generations.</hi> And this
+<pb n="32" facs="tcp:14701:17"/> 
+                  <hi>mercy</hi> of God, is the very <hi>quia,</hi> the <hi>cauſe</hi> we looke for; (although, yet, we doe not, I beleiue, thinke our ſelues very <hi>happy</hi> in <hi>finding out,</hi> ſuch a <hi>Cauſe,</hi> as <hi>this:</hi> we had rather haue <hi>found</hi> it, any <hi>thing,</hi> then <hi>mercy;</hi> eſpecially, ſuch a <hi>mercy,</hi> as we are like to find of it.)</p>
+            </div>
+            <div type="part">
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="IV"/> FOR, <hi>mercy</hi> is it? why! of what <hi>ſort?</hi> There are in God a <hi>multitude</hi> of <note place="margin">And <hi>that</hi> no <hi>Com<g ref="char:EOLhyphen"/>mon</hi> mer<g ref="char:EOLhyphen"/>cy.</note> 
+                  <hi>mercies. All the waies of God</hi> (ſaith the 25. Pſalme,) <hi>are mercy:</hi> ſo that, we cannot ſet our foot, but, vpon <hi>ſome,</hi> or <hi>other.</hi> In the very <hi>deſcribing</hi> of them, we may ſay, as <hi>Iacob</hi> in reſpect of his <hi>deſeruing</hi> of them, <hi>we are leſſe then the leaſt of his</hi> 
+                  <note place="margin">Gen. 32. 10.</note> 
+                  <hi>mercies.</hi>
+               </p>
+               <p>It is an <hi>act</hi> of <hi>mercy</hi> in God, when he does <hi>not puniſh:</hi> according to that, <hi>&amp; probeneficio habetur, cum poſſis, non no<g ref="char:EOLhyphen"/>cere.</hi> So, the Prophet <hi>Ieremy</hi> confeſſes it a <hi>mercy,</hi> nay, for, <hi>miſericordiae,</hi> for, more then <hi>one</hi> too, for, <hi>mercies,</hi> in the plurall, onely this; <hi>that</hi> they <hi>were not conſumed.</hi> 
+                  <note place="margin">Lam. 3. 22.</note> And, it is an <hi>act</hi> of <hi>mercy</hi> in God<g ref="char:punc">▪</g> too,
+<pb n="33" facs="tcp:14701:17"/> ſometimes, when he <hi>does puniſh;</hi> when, he takes away the wicked man, that, he may not goe on, in wickedneſſe. So, the reaſon, why God <hi>ſmote the firſt borne of Egipt,</hi> and <hi>ſlew mighty Kings;</hi> is giuen vp to be, <hi>for his mercy,</hi> (in the Pſalme:) <note place="margin">Pſal. 136. 20.</note> no other <hi>cauſe,</hi> but <hi>that.</hi> So, in another Pſalme, the Prophet does reckon <hi>pu<g ref="char:EOLhyphen"/>niſhing,</hi> as a kindly effect of Gods <hi>mer<g ref="char:EOLhyphen"/>cy. Thou forgaueſt them,</hi> (there is, <hi>mercy:)</hi> and what then? <hi>and,</hi> yet, <hi>puniſhed'ſt their inuentions,</hi> (in the 99. Pſalme, at the eight verſe.) You ſee, with God, there is <hi>forgiuing,</hi> euen, in <hi>puniſhing.</hi>
+               </p>
+               <p>Such Acts, as theſe, are <hi>workes</hi> of <hi>mercie,</hi> all; but, kind of <hi>night-workes;</hi> ſomewhat <hi>darkned,</hi> and <hi>obſcure:</hi> when, after this manner, <hi>God</hi> is pleaſed, to <hi>be mercifull vnto vs;</hi> we may well pray him, withall, to <hi>ſhew vs the light of his countenance,</hi> (as it followes in the Pſalme;) <note place="margin">Pſal. 67. 1.</note> for, without ſome ſuch <hi>Candle,</hi> little, or, no <hi>mercie</hi> at all, in ſuch <hi>peeces</hi> of <hi>worke,</hi> as thoſe, will be diſcerned; Gods <hi>mercy,</hi> there, like <hi>Iacob,</hi> with the ruffe hands
+<pb n="34" facs="tcp:14701:18"/> of his brother <hi>Eſau,</hi> is ſo courſly appa<g ref="char:EOLhyphen"/>relled; that, <hi>ſhe</hi> is miſtaken, and paſſes for his <hi>Iustice.</hi> So; no wonder, if ſhe pro<g ref="char:EOLhyphen"/>duce <hi>feare: ſhe</hi> carries <hi>ſo much</hi> of <hi>it</hi> in her very face; that, it is a <hi>Quodlibet</hi> ſome<g ref="char:EOLhyphen"/>times, whether ſhe be right <hi>mercy,</hi> or no.</p>
+               <p>But, the <hi>mercy</hi> of the text, is no <hi>darke,</hi> 
+                  <note place="margin">but, <hi>one</hi> of his <hi>tender</hi> mercies.</note> diſputable <hi>mercy;</hi> but a <hi>mercy</hi> that <hi>breakes forth as the noone day,</hi> (in the Pſalme,) <note place="margin">Pſal. 37. 6.</note> every man may diſcerne <hi>it</hi> to be <hi>mercy.</hi> It is <hi>that,</hi> which conſiſts in the remiſſion, and forgiueneſſe of all our ſinnes.</p>
+               <p>To take the <hi>height,</hi> and <hi>elevation</hi> of it. <note place="margin">1. not barely the <hi>habit.</hi>
+                  </note> It is not barely <hi>miſericordia;</hi> which, is no more, then, the <hi>habit</hi> of <hi>mercy:</hi> or, (as we ſay in the common prayer) the <hi>Property to haue mercy, and to forgiue,</hi> mercy, newly <note place="margin">2. but, the <hi>act</hi> it ſelfe. <hi>Forgiue<g ref="char:EOLhyphen"/>neſſe.</hi>
+                  </note> vpon the <hi>riſing:</hi> but, it is <hi>propitiatio;</hi> it is mercy<g ref="char:punc">▪</g> 
+                  <hi>actuated,</hi> mercy that <hi>melts,</hi> from the <hi>bowels</hi> of Gods <hi>mercy;</hi> the very <hi>act</hi> of <hi>forgiueneſſe;</hi> mercy, vpon the <hi>running.</hi>
+               </p>
+               <p>I doe omitt, here, that ſome obſerue, in this word <hi>propitiare,</hi> there is <hi>propè,</hi> and <hi>ire;</hi> that, this mercy is ſuch a mercy, whereby God drawes <hi>nigh,</hi> and comes
+<pb n="35" facs="tcp:14701:18"/> 
+                  <hi>neere</hi> vnto the ſoule: which, they con<g ref="char:EOLhyphen"/>ceiue <hi>one</hi> degree (at leaſt) in the <hi>elevation.</hi> But, I doe not finde, that Gods drawing <hi>nigh,</hi> or comming <hi>neere,</hi> is alwaies vſed in the holy Writt, for a <hi>ſignum in bonum;</hi> for, <hi>ſome token ſhewed vpon vs, for good.</hi> 
+                  <note place="margin">Pſal. 86. 17.</note> Not, euer, a ſigne of <hi>mercy,</hi> that. The words, in the <hi>Venite exultemus,</hi> which we read, <hi>offenſus fui,</hi> thus; <hi>Fortie yeares long was J vexed,</hi> (or angry) <hi>with this gene<g ref="char:EOLhyphen"/>ration;</hi> haue moſt of the ancient read, <hi>proximus fui,</hi> thus; <hi>forty yeares long was J</hi> nigh <hi>vnto this generation.</hi> And, euen to this day, not, the <hi>mercies</hi> of God, vſually, but his <hi>Iudgments,</hi> are called, by the name of <hi>Viſitations;</hi> ſo not, alwayes, <hi>mercy,</hi> in drawing <hi>neere,</hi> or comming <hi>nigh</hi> vnto vs. But, that, only, by the way.</p>
+               <p>Yet, there is one thing more, that brings this <hi>mercy,</hi> to her <hi>zenith,</hi> indeed; that makes <hi>her,</hi> like <hi>Glory,</hi> to be <hi>Mercy in excelſis;</hi> to be <hi>mercy,</hi> in the <hi>top</hi> of her <hi>altitude.</hi> And, it is this. It is noted by Grammarians, that the word <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> which ſignifies <hi>miſereri;</hi> from whence, the
+<pb n="36" facs="tcp:14701:19"/> 
+                  <hi>mercy</hi> of the text, proceeds; is ſeldome, or neuer, vſed, but, with oppoſition to another word, of the ſame Characters, but, inuerted in the order; and that is; <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> which ſignifies, <hi>excidere:</hi> ſo that, this <hi>mercy,</hi> here, is, no <hi>prepared;</hi> no <hi>expect<g ref="char:EOLhyphen"/>ed</hi> mercy; no mercy, that is <hi>enticed downe</hi> from heauen, by <hi>repentance,</hi> and <hi>ſhewing mercy</hi> vnto our poore brethren. <hi>(That,</hi> indeed, is a common <hi>illex miſericordiae Dei,</hi> (as <hi>Tertullian</hi> cals it.) when, we <hi>ſhew mercy,</hi> to the poore, here; we doe, ſo, <hi>imi<g ref="char:EOLhyphen"/>tate</hi> the <hi>mercy,</hi> that is in our <hi>God;</hi> we <hi>are mercifull,</hi> ſo Like, <hi>as our father in heauen, is mercifull;</hi> that, Gods <hi>mercy</hi> commeth <note place="margin">Luke. <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>. 36.</note> downe preſently vnto vs, as <hi>birdes</hi> doe vnto a <hi>call;</hi> and, we lay hold vpon <hi>her.)</hi> No ſuch <hi>mercy,</hi> this; but, a <hi>mercy,</hi> that <hi>comes</hi> (as we ſay) <hi>without calling.</hi> A <hi>miſereri;</hi> a <hi>mercy,</hi> that ſteps in, of her owne ac<g ref="char:EOLhyphen"/>cord, to <hi>ſaue</hi> vs: when it ſhould haue bin, an <hi>exeidere;</hi> when we deſerued, rather, to be <hi>cut off</hi> in the mid'ſt of all our ſinne and iniquity: when, wee were at that paſſe, betweene God and our ſoules, as
+<pb n="37" facs="tcp:14701:19"/> the <hi>Jewes</hi> were, with our Sauiour; <hi>let him deliuer</hi> them, <hi>if he will haue</hi> them: for, <note place="margin">Mat. 27. 43.</note> as for <hi>liberaui animam meam;</hi> as, for <hi>de<g ref="char:EOLhyphen"/>livering our owne ſoules,</hi> that, we neuer, ſo much as, thinke of; but, let them, (as we ſay) <hi>ſinke,</hi> or <hi>ſwimme.</hi>
+               </p>
+            </div>
+            <div type="part">
+               <p>
+                  <milestone type="tcpmilestone" unit="unspecified" n="V"/> ANd, yet; for all this <hi>mercy</hi> of his; <hi>mercy,</hi> which we did not <hi>deſerue,</hi> 
+                  <note place="margin">Yet, a <hi>Cauſe.</hi>
+                  </note> (that is nothing.) Nay; <hi>mercy,</hi> which we did <hi>deſpiſe,</hi> neuer ſo ſuch as <hi>ſought</hi> after, (that is more.) Yet, (lo) for all this <hi>mercy,</hi> let vs not <hi>castout feare.</hi> We muſt <note place="margin">1. Iohn. 4. 18.</note> 
+                  <hi>feare,</hi> ſtill. And, that is ſtrange indeed; ſomewhat, it goes, (or, I am miſtaken) againſt the grayne of this ages deuoti<g ref="char:EOLhyphen"/>on Is a <hi>Pſalme</hi> of <hi>mercy, turned vp?</hi> does God <hi>mercifully forgiue the ſinnes of his people?</hi> Is it once, <hi>propitiatio apud te?</hi> why! what then followes, as the <hi>firſt leſson</hi> in our ordinary <hi>ſeruice,</hi> but—<hi>Caenabis apud me.</hi> Come; <hi>let vs eat and drinke;</hi> to <hi>mor<g ref="char:EOLhyphen"/>row</hi> ſhall be as <hi>yeſterday,</hi> and much <hi>bet<g ref="char:EOLhyphen"/>ter.</hi> Is it once, <hi>O Sonne</hi> of <hi>Dauid haue mercy vpon vs?</hi> we think preſently, that
+<pb n="38" facs="tcp:14701:20"/> 
+                  <hi>both now, and euer,</hi> muſt needs follow, as it doth in the <hi>verſicle:)</hi> and ſo, the care is taken. As, for <hi>timearis;</hi> let <hi>that</hi> be, where it will: certainely, (as <hi>Abraham</hi> ſaid, once) <hi>It is not, in this place;</hi> That is <note place="margin">Gen. 20. 11.</note> euident.</p>
+               <p>Nor, is it a meane ſtratageme, this, of Satan; thus, to <hi>ſeperate thoſe, whom God</hi> 
+                  <note place="margin">Mat. 14. 6.</note> 
+                  <hi>hath ioyned together,</hi> namely, <hi>mercy</hi> and <hi>feare.</hi> His <hi>Kingdome</hi> hath <hi>ſtood</hi> the <hi>longer,</hi> for this <hi>diuiſion.</hi> Thoſe two <hi>luminaries,</hi> 
+                  <note place="margin">Mark. 3. 24.</note> that <hi>gouerne the day</hi> of our ſaluation, (our repentance) and, ſhould, euer be in <hi>con<g ref="char:EOLhyphen"/>iunction,</hi> does <hi>he</hi> diuide, into their ſeue<g ref="char:EOLhyphen"/>rall <hi>quarters.</hi> Hath <hi>the moone, her appoin<g ref="char:EOLhyphen"/>ted ſeaſons?</hi> is it <hi>in</hi> mercy? why, then; <hi>the ſunne knoweth his going downe,</hi> (in the Pſalme,) it is, <hi>out</hi> Feare, ſtraight. Is it, <hi>he</hi> 
+                  <note place="margin">Pſal. 104. 19.</note> 
+                  <hi>muſt encreaſe?</hi> (as it was, with the <hi>Baptiſt</hi> and our Sauiour.) Is it, <hi>in</hi> Feare? why! then, it is, <hi>I must decreaſe;</hi> it is, <hi>out</hi> Mercy, <note place="margin">Iohn. 3. 30.</note> ſtraight. And, ſo, we <hi>cast out diuels, in the name of Belzebub; one</hi> euill, with <hi>an o<g ref="char:EOLhyphen"/>ther,</hi> 
+                  <note place="margin">Mat. 12. 24.</note> worſe then that.</p>
+               <p>There were <hi>one</hi> ſort of Heretiques in
+<pb n="39" facs="tcp:14701:20"/> the Primitiue Church, that, did teach; that, man could commit ſome ſinnes, which could not be forgiuen. <hi>No<g ref="char:EOLhyphen"/>uatus,</hi> from whome the <hi>Nouatiani,</hi> or <hi>Cathari</hi> deſcended, <hi>Montanus</hi> long be<g ref="char:EOLhyphen"/>fore him, (according to <hi>Ierome)</hi> and others, did ſo. They excluded <hi>mercy.</hi> And, there were <hi>another,</hi> that taught, that, no ſinne whatſoeuer could endanger the ſtate of him that was <hi>Iuſtified</hi> and <hi>Predestinated</hi> by God. The <hi>Ioviniani;</hi> the <hi>Beguardi</hi> and the <hi>Beguinae;</hi> and others, whome, from their opinion, they cal<g ref="char:EOLhyphen"/>led <hi>Praedeſtinati,</hi> did ſo. They excluded <hi>feare.</hi> (And, it is thought, from that one <hi>Pinacle of the</hi> ſpirituall <hi>temple,</hi> Predeſti<g ref="char:EOLhyphen"/>nation, the diuell hath <hi>cast downe</hi> too <note place="margin">Mat. 4. 6.</note> many, that, heedleſly walke vpon it.)</p>
+               <p>But, what doe we raking vp old errours, out of their forgotten duſt? haue not we, euen to this day, <hi>ſuch an</hi> 
+                  <note place="margin">Eccles. 5. 12.</note> 
+                  <hi>euill, vnder the Sun?</hi> It is, with <hi>mercy</hi> and <hi>feare,</hi> (as, with the child;) <hi>neither mine</hi> 
+                  <note place="margin">3. Kings. 3. 26.</note> 
+                  <hi>nor thine; but, let it be diuided. Mercy,</hi> all, or elſe, all <hi>feare;</hi> when, indeed, <hi>repentance</hi>
+                  <pb n="40" facs="tcp:14701:21"/> ſhould be compounded out of <hi>both.</hi>
+               </p>
+               <p>See you ſome, that poure them<g ref="char:EOLhyphen"/>ſelues out into all vncleaneſſe; that accuſtome their tongues to execrations and fearefull oaths, more, like ſpeeches, then like ſinnes? whoſe <hi>throats,</hi> indeed, <hi>are open Sepulchres,</hi> where, <hi>Christ Ieſus</hi> himſelfe, with his freſh bleeding wounds, is, (not, <hi>after three daies,)</hi> but, <hi>daily,</hi> yea, and <hi>hourely</hi> compelled to an vnwilling <hi>reſurrection?</hi> See you ſome, whoſe whole diſcourſe is ſo larded with obſcenity and wantonneſſe, <hi>vt ve<g ref="char:EOLhyphen"/>rear ne aliquorum caſtior inceſtus fiat, quam horum pudicitia,</hi> ('tis <hi>Origen,</hi> vpon the in<g ref="char:EOLhyphen"/>ceſtuous daughters of <hi>Lot:)</hi> that, it may be <hi>feared,</hi> that, euen the <hi>ſinne</hi> of ſome, is more <hi>chaſt</hi> then their <hi>innocence?</hi> A little, <hi>timearis,</hi> would doe well with them. If they were <hi>caſt</hi> into a <hi>feare,</hi> a little, <hi>they would doe well:</hi> but, they will none. Oh! <note place="margin">Iohn. 11. 12.</note> no <hi>feare,</hi> they; for <hi>feare</hi> of a <hi>ſtich,</hi> and <hi>gripe</hi> in the conſcience. <hi>It comes,</hi> commonly, <hi>with a feare;</hi> they like it not: giue them <hi>mercy,</hi> euen, <hi>for euer and euer.</hi> You ſhall
+<pb n="41" facs="tcp:14701:21"/> neuer <hi>ſatisfie</hi> them <hi>with mercy,</hi> (much leſſe, <hi>and that, ſoone;</hi> in the Pſalme) whilſt, <hi>taking</hi> 
+                  <note place="margin">Pſal. 90. 14.</note> 
+                  <hi>in</hi> mercy, all their life time long, and ne<g ref="char:EOLhyphen"/>uer <hi>vnloading</hi> any, either, at their <hi>hands,</hi> in <hi>almes</hi> and <hi>charity;</hi> or, at their very <hi>mouthes,</hi> till the houre of their deaths, when they come forth with a for<g ref="char:EOLhyphen"/>mall <hi>miſerere,</hi> (againſt the will of the Prophet,) In <hi>the mercy of the moſt Higheſt</hi> 
+                  <note place="margin">Pſal. 21. 7.</note> 
+                  <hi>they</hi> doe <hi>miſcarry.</hi>
+               </p>
+               <p>See you ſome other (few, I grant, yet, ſome) that <hi>stretch</hi> and <hi>ſtraine</hi> their <hi>Conſcience,</hi> aboue the <hi>key;</hi> (for, accor<g ref="char:EOLhyphen"/>ding to that of the <hi>Canons,</hi> that <hi>Conſci<g ref="char:EOLhyphen"/>entia,</hi> is no more, but, <hi>Conſonantia animae cum Deo,)</hi> and, ſtill <hi>feare,</hi> it is of too <hi>low</hi> a <hi>pitch?</hi> See you ſome, that cannot allow themſelues <hi>that,</hi> which the word of God, doth? that, are, ſo <hi>a Law vnto them<g ref="char:EOLhyphen"/>ſelues</hi> (as the Apoſtle ſpeakes of the <note place="margin">Rom. 2. 14.</note> 
+                  <hi>Gentiles:)</hi> that, they doe arraigne and condemne in themſelues, <hi>that,</hi> which, the <hi>law</hi> of God, would not? men, that doe <hi>feare,</hi> nay; <hi>all,</hi> their very <hi>beſt works</hi> 
+                  <note place="margin">Iob. 9. 28.</note> too? Sad, melancholly ſoules! ſome
+<pb n="42" facs="tcp:14701:22"/> drops of <hi>mercy</hi> would doe well with them, but, alas, they dare not <hi>lift vp their eies;</hi> they dare not, ſo much, as, <hi>looke vp</hi> to receiue them. <hi>Ipſ<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> ſi cupiat Salus—</hi>if that <hi>Mercy,</hi> herſelfe, ſhould come downe from heauen, to <hi>haue mercy</hi> vpon them; they would, (like <hi>Adam,</hi> in the garden) <hi>hide</hi> themſelues from <hi>her,</hi> they are ſo <hi>afrayd. (Gen.</hi> 3. 10.)</p>
+               <p>Of the <hi>two,</hi> our age is deepeſt in the <hi>firſt</hi> extremity. We <hi>ſing of mercy,</hi> all of vs. <note place="margin">Pſal. 101. 1.</note> Let vs haue but a <hi>ſight</hi> of <hi>her,</hi> and <hi>ſhe</hi> is our owne. Commonly, indeed, the <hi>verbe</hi> that goes along with <hi>mercy,</hi> is, <hi>oſten<g ref="char:EOLhyphen"/>do;</hi> as, <hi>O Lord,</hi> ſhew <hi>thy mercy vpon vs;</hi> in the <hi>verſicle.</hi> Shew <hi>vs thy mercy, O Lord;</hi> (in the Pſalme<g ref="char:punc">▪</g>) <hi>And</hi> ſheweth <hi>mercy vn<g ref="char:EOLhyphen"/>to</hi> 
+                  <note place="margin">Pſal. 85. 7.</note> 
+                  <hi>thouſands,</hi> in the commandements. Mercy, is only <hi>ſhowne.</hi> It is, <hi>oſtende &amp; ſufficit,</hi> (as with <hi>Philip,</hi> concerning the <hi>Father:)</hi> Only <hi>ſhew vs</hi> this <hi>Mercy, and it</hi> 
+                  <note place="margin">Iohn. 14. 8.</note> 
+                  <hi>ſufficeth.</hi> If we but <hi>ſee</hi> her, we <hi>overcome</hi> her, too, ſtraight. But, <hi>Feare</hi> goes with a <hi>docebo.</hi> Feare is <hi>taught,</hi> and <hi>taught</hi> againe; and we cannot <hi>skill</hi> i<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. At, <hi>ſi dominus,</hi> we
+<pb n="43" facs="tcp:14701:22"/> are all good; we can <hi>ſay, Lord, Lord;</hi> we <note place="margin">Mat. 25. 11.</note> can <hi>crie you Mercy,</hi> as often as you will; but, <hi>vbi timor?</hi> Where is <hi>feare,</hi> that is ioy<g ref="char:EOLhyphen"/>ned with it? (1. <hi>Mal.</hi> 6.) what is become of <hi>that?</hi> We obſerued, before, vnto you, that, in, <hi>timearis,</hi> in <hi>feare;</hi> there was the <hi>Holy Ghoſt;</hi> and then; ſure, it is with vs, as it was with them, in the Acts; <hi>Wee</hi> 
+                  <note place="margin">Acts. 19. 2.</note> 
+                  <hi>haue not ſo much as heard, whether there be any Holy Ghost,</hi> whether, there be any ſuch thing, as <hi>feare</hi> is, yea, or no. <hi>Non re<g ref="char:EOLhyphen"/>cepimus</hi> 
+                  <note place="margin">2. Tim. 1. 7.</note> 
+                  <hi>spiritum timoris,</hi> indeed; we haue <hi>receiued</hi> no ſuch <hi>Holy Spirit,</hi> yet, nor care we for <hi>receiuing</hi> it, at all.</p>
+               <p>As the world now goeth; it is, <hi>Omnia vincit amor—loue,</hi> only <hi>loue,</hi> is all in all; <hi>that,</hi> only, now, is in faſhion, as the ſole <hi>cognizance</hi> of the <hi>Gospell: feare,</hi> like a ſu<g ref="char:EOLhyphen"/>perannuated <hi>liuery</hi> of the <hi>Law,</hi> is cleane worne out of requeſt. Of, <hi>amor,</hi> as much, as you will; <hi>loue,</hi> pure <hi>loue;</hi> to <hi>loue</hi> God, they will bee contented, <hi>with all their</hi> 
+                  <note place="margin">Luke. 10. 27.</note> 
+                  <hi>hearts.</hi> But, take heed of.<hi>—plena timoris,</hi> (in the ſame verſe.) No <hi>feare;</hi> if you <hi>loue</hi> vs, take heed of <hi>that.</hi>
+               </p>
+               <pb n="44" facs="tcp:14701:23"/>
+               <p> But, let me tell you. Thoſe <hi>fruits</hi> of re<g ref="char:EOLhyphen"/>pentance, <note place="margin">Mat. 3. <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.</note> the <hi>Baptiſt</hi> ſpeaks of, neuer come <hi>kindly</hi> forth; neuer haue perfect colour, on both ſides; when, theſe <hi>two, mercy,</hi> and <hi>feare,</hi> are not graffed, and in<g ref="char:EOLhyphen"/>oculated, the <hi>one</hi> in the <hi>other.</hi> When <hi>both</hi> of them, are mingled together, then, they make the <hi>cup</hi> of <hi>ſaluation,</hi> fitteſt to be <hi>taken.</hi> Not <hi>feare</hi> alone: then, would the drinke be ſo wateriſh and <hi>ſmall,</hi> that it would yeeld no <hi>comfort.</hi> Nor <hi>mercie</hi> a<g ref="char:EOLhyphen"/>lone: then, <hi>it</hi> would be too <hi>strong:</hi> fume it woulde into the <hi>braine,</hi> and, poſſibly, take away the <hi>ſenſe</hi> of ſinne: but, <hi>mercie</hi> and <hi>feare,</hi> both: let them <hi>meete together,</hi> 
+                  <note place="margin">Pſal. 85. 10.</note> let them <hi>kiſſe</hi> in the <hi>cup,</hi> and it will be a <hi>wholeſome cup,</hi> indeed: neither too <hi>ſmall,</hi> 
+                  <note place="margin">Pſal. 116. 13</note> nor too <hi>ſtrong.</hi> And, <hi>hic eſt calix</hi> (ſay I.) <hi>This,</hi> too, <hi>is the</hi> Cup <hi>of the new Testament,</hi> 
+                  <note place="margin">Luk. 22. 20.</note> drinke <hi>ye all of</hi> this.</p>
+               <p>And; euen <hi>from the beginning, it was ſo.</hi> 
+                  <note place="margin">Mat. 19. 8.</note> The <hi>Law</hi> (you remember it) carried <hi>ter<g ref="char:EOLhyphen"/>rour</hi> in her <hi>face:</hi> for <hi>feare,</hi> all, <hi>ſhe.</hi> the peo<g ref="char:EOLhyphen"/>ple <hi>trembled:</hi> the mount <hi>quaked:</hi> not any Seruice, there, but, upon the <hi>ſhaking-ſtop:</hi>
+                  <pb n="45" facs="tcp:14701:23"/> all, to ſee too, was full of <hi>horrour,</hi> full of <hi>feare:</hi> not the leaſt hope of any <hi>mercie</hi> to be lookt for, <hi>there.</hi> Now, the <hi>Law</hi> is called <hi>the Law of</hi> Moſes, euer and a<g ref="char:EOLhyphen"/>non: and, what was this <hi>Moſes?</hi> why, <hi>Moſes</hi> was the <hi>mildeſt</hi> or, meekeſt <hi>man upon the earth,</hi> (Numb. 12. 3.) There is, you ſee. <hi>ſome mercy</hi> mingled, with the <hi>Law</hi> it ſelfe, that <hi>ſpirit of feare.</hi>
+               </p>
+               <p>Againe. To the Arke, there be<g ref="char:EOLhyphen"/>longed a Propitiatory, or <hi>Mercy-Seate,</hi> made of pure gold. <hi>(Aquinas,</hi> by lapſe of memory, cals it <hi>tabulam lapideam,</hi> in his old <hi>Venice copies;</hi> and, is corrected in his latter <hi>editions:)</hi> and, what, but pure <hi>mercy</hi> to be expected <hi>there?</hi> no <hi>parcell mercy</hi> in the very <hi>Seate</hi> of <hi>mercy;</hi> at the leaſt, no <hi>mixture,</hi> no <hi>ingredience</hi> of <hi>feare.</hi> And, yet, to the <hi>mercy-ſeat,</hi> there belong<g ref="char:EOLhyphen"/>ed two <hi>Cherubins;</hi> and the <hi>Cherubins,</hi> are of that ſociety that vſe to <hi>couer their faces,</hi> for <hi>feare,</hi> when they come <note place="margin">Eſay. 6. 2.</note> before God. So: there is not, all <hi>mercy,</hi> euen, in the <hi>ſeate</hi> of <hi>mercy;</hi> euen <hi>there,</hi> there is a mixture of ſome <hi>feare.</hi>
+               </p>
+               <pb n="46" facs="tcp:14701:24"/>
+               <p> And, in the <hi>volume of</hi> Gods <hi>booke,</hi> they are euer, thus <hi>bound vp</hi> together. It was <hi>Peters</hi> error, that, to be giuen to too much vnneceſſary <hi>building;</hi> he <hi>wiſht not what he ſaid,</hi> ſaies <hi>Origen,</hi> becauſe he talk't of <hi>building</hi> three <hi>Tabernacles,</hi> for the <hi>Law,</hi> the <hi>Prophets,</hi> and the <hi>Goſ<g ref="char:EOLhyphen"/>pell; Moſes, Elias,</hi> and <hi>Chriſt;</hi> that doe lodg beſt together, in <hi>one.</hi> Let vs beware of <hi>that;</hi> not erect <hi>ſeuer all</hi> Tabernacles for <hi>mercy,</hi> and <hi>feare;</hi> that muſt <hi>habitare in vnum;</hi> like brethren, (in the Pſalme;) <note place="margin">Pſal. 133. 1.</note> 
+                  <hi>dwell together in vnity.</hi>
+               </p>
+               <p>It is, I know; an vſuall thing amongſt vs, when we ſee <hi>mercy,</hi> like the prodi<g ref="char:EOLhyphen"/>gall in the Goſpell, <hi>è longinquo,</hi> a <hi>great</hi> 
+                  <note place="margin">Luk. 15. 20.</note> 
+                  <hi>way off;</hi> when, we ſcarce plainly diſ<g ref="char:EOLhyphen"/>cerne that it is <hi>mercy;</hi> why, preſently the whole country <hi>comes out,</hi> and de<g ref="char:EOLhyphen"/>ſires <hi>Feare,</hi> that <hi>he would depart out of</hi> 
+                  <note place="margin">Mat. 8. 34.</note> 
+                  <hi>their coaſts.</hi> We thinke, we doe, a little, <hi>deſpiſe the riches of his</hi> Mercy, as the A<g ref="char:EOLhyphen"/>poſtle ſpeaks, (for, that is the very beſt <note place="margin">Rom. 2. 4.</note> I can make of it,) if that <hi>feare,</hi> be thought <hi>worthy,</hi> to <hi>come vnder</hi> the <hi>roofe,</hi> 
+                  <note place="margin">M<gap reason="illegible" resp="#UOM" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>. <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>. <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.</note>
+                  <pb n="47" facs="tcp:14701:24"/> where <hi>her honour dwelleth.</hi> Take heed of that. Tis not good ſtraining comple<g ref="char:EOLhyphen"/>ments with God: to be too <hi>prouident,</hi> forſooth, of his <hi>honour.</hi> Let me tell you. Hereſy, was neuer ſo dangerous to the Church, as then, when it got ſome re<g ref="char:EOLhyphen"/>ſpect, or other, to Gods <hi>glory;</hi> or <hi>honour,</hi> for the <hi>ſpring,</hi> that gaue it <hi>motion.</hi> The downe-right <hi>Arrians</hi> did leſſe hurt, that denyed the <hi>diuinity</hi> of the <hi>Sonnne,</hi> becauſe they <hi>would</hi> not <hi>beleiue</hi> it; then, <hi>thoſe,</hi> whom <hi>Origen</hi> ſpeaks of, that, in <hi>ei<g ref="char:EOLhyphen"/>uility,</hi> would <hi>deny</hi> the <hi>Godhead</hi> of the <hi>Sonne,</hi> to the <hi>glory</hi> of the <hi>Father<g ref="char:punc">▪</g>
+                  </hi> they thought it no ſmall <hi>wrong</hi> to <hi>him,</hi> if the <hi>Godhead</hi> were made <hi>common.</hi> They, that denied our Sauiour Chriſt, to be <hi>perfect Man,</hi> only, becauſe they would be <hi>per<g ref="char:EOLhyphen"/>uerſe;</hi> were not ſo incorrigible in their opinion, as thoſe, <hi>S. Ambroſe</hi> ſpeakes of; that were worſe <hi>prouident;</hi> that, would not acknowledg <hi>him</hi> to be <hi>per<g ref="char:EOLhyphen"/>fect man,</hi> for <hi>feare</hi> of ſubiecting him to <hi>concupiſcence;</hi> to which, the nature of <hi>man</hi> is ſubiect. But, take heed of <hi>that.</hi>
+                  <pb n="48" facs="tcp:14701:25"/> The <hi>waies</hi> of God are <hi>ſmooth</hi> and <hi>equall</hi> enough; let not the <hi>reaſon</hi> and <hi>prouidence</hi> of <hi>man,</hi> think to <hi>paue</hi> them. If <hi>God,</hi> will haue <hi>mercy</hi> and <hi>feare</hi> to <hi>kiſſe,</hi> (as you ſee, he will) let not <hi>man,</hi> in the <hi>kiſſe, betray</hi> ei<g ref="char:EOLhyphen"/>ther. For, if <hi>Feare</hi> be once <hi>crucified;</hi> if that <hi>feare</hi> once ſuffer <hi>without</hi> the <hi>gates: mercy</hi> will quickly betake her ſelfe to a <hi>Tree;</hi> and <hi>looſe</hi> her <hi>Bowells.</hi>
+               </p>
+               <p>This<g ref="char:punc">▪</g> when it is <hi>miſericordia ſuper</hi> 
+                  <note place="margin">And that, 1. <hi>quia apud te.</hi>
+                  </note> 
+                  <hi>nos;</hi> mercy, that is <hi>lightened vpon vs:</hi> not, to let goe <hi>feare,</hi> then. But, it is but, <hi>apud te,</hi> in the text. <hi>She,</hi> is yet, <hi>with him,</hi> and; we may well, <hi>feare.</hi> In <hi>hhimmeka</hi> it is true, there is, as much, as <hi>in promptu;</hi> it is a ſigne <hi>mercy</hi> is in <hi>readineſſe</hi> to come, vpon vs; when <hi>ſhe</hi> is <hi>with him.</hi> But in <hi>hhimme<g ref="char:EOLhyphen"/>ka,</hi> there is, <hi>in poteſtate,</hi> too. So long, as <hi>ſhe</hi> is, but, <hi>with him;</hi> It is in his <hi>power,</hi> to chuſe, whether, <hi>ſhee</hi> ſhall <hi>come,</hi> or <hi>not</hi> if he <hi>will that She tarry till</hi> thou <hi>come</hi> to <note place="margin">Iohn. 21. 22.</note> fetch her, <hi>what is that,</hi> then, <hi>to thee?</hi>
+               </p>
+               <p>But, <hi>come</hi> ſhee will; that, we are ſure of God will not ſhew his <hi>Mercy to vs;</hi> 
+                  <note place="margin">2. <hi>quia propitiatio.</hi>
+                  </note> and, then <hi>withdraw</hi> it againe, but, <hi>vpon</hi>
+                  <pb n="49" facs="tcp:14701:25" rendition="simple:additions"/> 
+                  <hi>vs.</hi> So, that, <hi>
+                     <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>
+                  </hi> or <hi>Iai<gap reason="illegible" resp="#UOM" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>;</hi> ha<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e <hi>it</hi> wee ſhall; that is certaine.</p>
+               <p>And, what ſhall we haue of <hi>it?</hi> no more, but <hi>Propitiatio: One ſingle</hi> act of <hi>mercy:</hi> and, as <hi>S. Andrew</hi> of the <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ſh<g ref="char:EOLhyphen"/>es; <hi>what is that among ſo many?</hi> How will <note place="margin">Iohn 6. 9.</note> that <hi>ſatiſfie the multitude</hi> of our ſinnes? He that hath <hi>it,</hi> will haue none to ſpare for others; <hi>ne fortè non ſufficiant nobis &amp; vobis;</hi> leaſt peraduenture, <hi>there be<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> not enough for vs, and for you.</hi> 
+                  <note place="margin">Mat. 25. 9.</note>
+               </p>
+               <p>S<hi rend="sup">t</hi> 
+                  <hi>Ambroſe,</hi> has a note; that, when God <hi>bade</hi> our firſt Parents <hi>eate</hi> of every Tree in the Garden; he ſpake in the <hi>ſingular: de omni ligno edes.</hi> But, when he <hi>forbade</hi> them the Tree, in the mid'ſt of the Gar<g ref="char:EOLhyphen"/>den; he ſpake in the <hi>plurall; non edetis;</hi> be<g ref="char:EOLhyphen"/>cauſe (ſaies <hi>Ambroſe) Good,</hi> being <hi>ſimple</hi> and <hi>vniforme;</hi> Gods <hi>precepts,</hi> which com<g ref="char:EOLhyphen"/>mand <hi>it,</hi> are, commonly, <hi>ſo,</hi> too: but, <hi>E<g ref="char:EOLhyphen"/>uill,</hi> being <hi>various,</hi> and of <hi>ſeuer all kinds;</hi> his <hi>Probibitions,</hi> againſt them, are <hi>accor<g ref="char:EOLhyphen"/>dingly.</hi> He would haue ſet no ſuch <hi>ſtamp</hi> vpon Gods <hi>Mercies.</hi> The <hi>more,</hi> the <hi>better,</hi> they. He, that hath but <hi>one</hi> ſinne, (the
+<pb n="50" facs="tcp:14701:26"/> Prophet. <hi>Dauid,</hi> had no more:) may ſpread it, ſo farre, with circumſtances; as, <hi>Adultery,</hi> with <hi>Murder;</hi> that, he ſhall need a <hi>Multitude</hi> of <hi>mercies</hi> to <hi>couer</hi> it. <note place="margin">Pſal. 51. 1.</note> And; <hi>happy man</hi> be his dole, <hi>whoſe ſinne</hi> is <note place="margin">Pſal. 32. 1.</note> 
+                  <hi>Couered,</hi> ſo.</p>
+               <p>Now, there is (I know) a <hi>Mercy, one ſingle mercy;</hi> that, <hi>endureth for euer,</hi> (in the Pſalme.) And, ſuch a <hi>mercy</hi> (although but <hi>one,)</hi> would ſecure vs; we ſhould not need to <hi>Feare.</hi> If we were ſure, this <hi>mercy,</hi> though, but <hi>One</hi> mercy) would <hi>follow vs all the dayes of our life,</hi> all were <note place="margin">Pſal. 23. 6.</note> well: then, we might <hi>bring our dayes to an end,</hi> indeed, <hi>like a tale that is told,</hi> (as the Pſalmiſt ſpeaks,) that is, with <hi>plea<g ref="char:EOLhyphen"/>ſure,</hi> 
+                  <note place="margin">Pſal. 90. 9.</note> 
+                  <hi>paſtime,</hi> and <hi>delight:</hi> and, neuer <hi>feare</hi> at all.</p>
+               <p>But, <hi>for the elects ſake,</hi> as our Saui<g ref="char:EOLhyphen"/>our <note place="margin">3. <hi>quia eſt.</hi>
+                  </note> ſpeakes, (and, that word, <hi>Est,</hi> is the word of <hi>the Elect:</hi> as for <hi>Sinners,</hi> they are not, properly, ſaid to <hi>bee:</hi> ſo ſaith <hi>Origen,</hi> when the <hi>Apoſtle</hi> ſaies, that, <hi>God hath cho<g ref="char:EOLhyphen"/>ſen the things that</hi> are <hi>not,</hi> he doth meane <note place="margin">1. Cor. 1. 28.</note> 
+                  <hi>ſinners:</hi> becauſe (ſaith he) <hi>peccatores non</hi>
+                  <pb n="51" facs="tcp:14701:26"/> 
+                  <hi>computantur Eſſe.)</hi> I ſay, becauſe of that word, <hi>eſt,</hi> (as it followes in the Goſpell) <note place="margin">Mar. 13. 20.</note> 
+                  <hi>thoſe</hi> daies <hi>are ſhortened.</hi> That great <hi>cloud</hi> is, now, become no <hi>bigger then a man's</hi> 
+                  <note place="margin">1. Kinges. 18. 44.</note> 
+                  <hi>hand:</hi> this mercie (alas) only, <hi>is,</hi> Now: you may, but <hi>paſse by</hi> it, <hi>and (lo) it is gone; the place thereof will no more bee</hi> 
+                  <note place="margin">Pſal. 37. 37.</note> 
+                  <hi>found.</hi> Now, it <hi>is</hi> a day of <hi>mercie:</hi> we know not how ſoone the <hi>weather</hi> may <hi>change:</hi> and, according to the prouidence of the very <hi>Prouerbe,</hi> it is good, ſtill, to <hi>feare</hi> the worſt.</p>
+               <p>Some, among the <hi>Rabbins,</hi> obſerue, that <hi>God,</hi> is called, <hi>Deus Abrahami,</hi> The <hi>God</hi> of <hi>Abraham</hi> (who was departed this life) but. <hi>Timor Iſaaci,</hi> (in the 31. <hi>Gen.</hi> not the <hi>God,</hi> but) the <hi>feare</hi> of <hi>Iſaac,</hi> who <note place="margin">Gen. 31. 42.</note> was yet liuing; to ſhew, that ſo long as we are in this world, <hi>he</hi> that <hi>now ſtandeth, ſhould</hi> feare, <hi>leaſt he fall.</hi> The <hi>mer<g ref="char:EOLhyphen"/>cies</hi> 
+                  <note place="margin">1. Cor. 10. 12</note> of God, are not for <hi>liues.</hi> He does not <hi>entayle</hi> Saluation, vpon his <hi>chil<g ref="char:EOLhyphen"/>dren,</hi> as, <hi>the</hi> land <hi>of the liuing,</hi> ſo; but, that, <note place="margin">Pſal. 26. 13.</note> our prodigall <hi>preſumption,</hi> may <hi>cutt it off.</hi> If we would be <hi>ſecure</hi> of heauen; let vs,
+<pb n="52" facs="tcp:14701:27"/> take heed of <hi>ſecurity;</hi> and, we may. <hi>Ad ſecuritatem quid ſupereſ<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>, niſi, vt in virtute timeatur;</hi> according to that of <hi>Gregory.</hi> There is nothing, keeps vs, more, from being <hi>ſecure</hi> of our Saluation; then, that <hi>thinking</hi> of our ſelues, <hi>ſecure.</hi> It is not good, in this reſpect, to <hi>put our whole truſt and confidence in his mercie,</hi> (as we ſay in our common Prayer) but, (as <hi>Iob</hi> ſpeaks) <note place="margin">Iob. 4. 6.</note> rather, <hi>in our</hi> owne <hi>feares.</hi> In this caſe, <hi>the mercies,</hi> euen, of the <hi>godly</hi> themſelues, as well, as, thoſe of <hi>the wicked, are cruell.</hi> 
+                  <note place="margin">Prov. 12. 10.</note>
+               </p>
+               <p>I will end, with the wordes of the <hi>Collect;</hi> (the <hi>Collect,</hi> for the <hi>ſecond</hi> Sunday after <hi>Trinity.)</hi> Lord<g ref="char:punc">▪</g> 
+                  <hi>make vs to haue a per<g ref="char:EOLhyphen"/>petuall</hi> feare <hi>and</hi> loue <hi>of thy holy name:</hi> (Such a <hi>feare,</hi> as may conſiſt with <hi>loue,</hi> too; not a feare, <hi>of thee;</hi> but, a feare, to <hi>fall from thee.)</hi> that ſo, <hi>louing thee,</hi> for thy <hi>loue</hi> to vs, (that is) for thy <hi>Iudgment</hi> vpon vs, (for <hi>thou chaſticest euery one whom thou</hi> 
+                  <note place="margin">Heb. 12. 6.</note> 
+                  <hi>loueſt:)</hi> and <hi>fearing thee,</hi> for <hi>(that</hi> for the which, <hi>thou</hi> art to <hi>be feared)</hi> thy <hi>mercy;</hi> euen, when thou doeſt <hi>forgiue</hi> vs; wee may, whileſt we are in this world,
+<pb n="53" facs="tcp:14701:27"/> ſo <hi>feare</hi> our <hi>bleſſedneſſe,</hi> that, in the next world, we may be <hi>bleſsed</hi> for that <hi>feare.</hi> Send this <hi>feare,</hi> O God, <hi>downe</hi> into our <hi>hearts;</hi> and, <hi>heare</hi> vs for <hi>his</hi> ſake, who, was <hi>heard himſelfe, in that, he feared,</hi> thy bleſſed Sonne Our Sauiour, (the con<g ref="char:EOLhyphen"/>duit-pipe of all thy <hi>mercy,) Ieſus Chriſt</hi> our Lord. To whom, with Thee and the <hi>Holy Ghost, three</hi> Perſons, and <hi>one</hi> God; bee aſcribed &amp;c.</p>
+               <trailer>FINIS.</trailer>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>OXFORD</p>
+            <p>¶ IMPRINTED by <hi>Iohn Lichfield</hi> Printer to the VNIVERSITIE. ANNO. M<g ref="char:punc">▪</g> DC. XXXIV.</p>
+         </div>
+      </back>
+   </text>
+</TEI>

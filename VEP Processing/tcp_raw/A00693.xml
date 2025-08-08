@@ -1,0 +1,911 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ayres: by Alfonso Ferrabosco</title>
+            <author>Ferrabosco, Alfonso, ca. 1575-1628.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1609</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 29 KB of XML-encoded text transcribed from 20 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A00693</idno>
+            <idno type="STC">STC 10827</idno>
+            <idno type="STC">ESTC S106697</idno>
+            <idno type="EEBO-CITATION">99842410</idno>
+            <idno type="PROQUEST">99842410</idno>
+            <idno type="VID">7060</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A00693)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 7060)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 834:14)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Ayres: by Alfonso Ferrabosco</title>
+                  <author>Ferrabosco, Alfonso, ca. 1575-1628.</author>
+               </titleStmt>
+               <extent>[38] p. : music  </extent>
+               <publicationStmt>
+                  <publisher>Printed by T. Snodham, for Iohn Brovvne, and are to be sould at his shoppe in S. Dunstones Church-yard in Fleetstreet,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1609.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Nine airs are set to poems by Ben Jonson, and one each to words by John Donne and Thomas Campion.</note>
+                  <note>Signatures: [A]²  B-K²  (-K2).</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Vocal duets with instrumental ensemble.</term>
+               <term>Songs with lute.</term>
+               <term>Songs, English.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2007-07</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-10</date>
+            <label>John Latta</label>Sampled and proofread</change>
+         <change>
+            <date>2009-10</date>
+            <label>John Latta</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:7060:1" rendition="simple:additions"/>
+            <pb facs="tcp:7060:1" rendition="simple:additions"/>
+            <p>
+               <figure>
+                  <p>AYRES: BY <hi>Alfonſo Ferraboſco.</hi>
+                  </p>
+                  <p>LONDON: Printed by T. SNODHAM, for IOHN BROVVNE, and are to be ſould at his ſhoppe in S. Dunſtones Church-yard in Fleetſtreet.</p>
+                  <p>1609.</p>
+               </figure>
+            </p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:7060:2" rendition="simple:additions"/>
+            <pb facs="tcp:7060:2"/>
+            <head>TO THE MOST EQVALL TO HIS BIRTH, AND ABOVE all Titles, but his owne Vertue: Heroique <hi>Prince Henry.</hi>
+            </head>
+            <opener>
+               <salute>Excellent Prince:</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">T</seg>Hat which was wont to accompany all Sacrifices, is now become a Sacrifice, <hi>MVSIQVE:</hi> And to a Compoſiti<g ref="char:EOLhyphen"/>on ſo full of <hi>Harmony</hi> as yours, what could bee a fitter Offring? The rather, ſince they are the Offerers <hi>firſt fruits,</hi> and that he giues them with <hi>pure hands.</hi> J could, now, with that ſolemne induſtry of many in <hi>Epiſtles,</hi> enforce all that hath beene ſaid in praiſe of the <hi>Faculty,</hi> and make that commend the worke, but J deſire more, the worke ſhould commend the <hi>Faculty:</hi> And therefore ſuffer theſe few <hi>Ayres</hi> to owe their Grace rather to your <hi>Highneſſe</hi> iudgement, then any others teſtimonie. J am not made of much ſpeach. Onely J know them worthy of my Name: And, therein, J tooke paynes to make them worthy of Yours.</p>
+            <closer>
+               <signed>Your Highneſſe moſt humble Seruant
+Alfonſo Ferraboſco.</signed>
+            </closer>
+         </div>
+         <div type="encomium">
+            <pb facs="tcp:7060:3"/>
+            <head>TO MY EXCELLENT FRIEND <hi>ALFONSO FERRABOSCO.</hi>
+            </head>
+            <l>TO vrge, my lou'd <hi>Alfonſo,</hi> that bold fame</l>
+            <l>Of building Townes, and making wilde Beaſts tame,</l>
+            <l>Which <hi>Muſique</hi> had; or ſpeake her knowne effects,</l>
+            <l>That ſhe remoueth cares, ſadneſſe eiects,</l>
+            <l>Declineth anger, perſwades clemency,</l>
+            <l>Doth ſweeten mirth, and heighten pietie,</l>
+            <l>And is to'a body, often, ill inclinde</l>
+            <l>No leſſe a ſoueraigne cure, then to the minde;</l>
+            <l>To'alledge, that greateſt men were not aſham'd</l>
+            <l>Of old, euen by her practiſe, to be fam'd;</l>
+            <l>To ſay, indeed, ſhe were the <hi>Soule</hi> of <hi>Heauen,</hi>
+            </l>
+            <l>That the eight <hi>Spheare,</hi> no leſſe then <hi>Planets</hi> ſeauen</l>
+            <l>Mou'd, by her order; And the ninth, more high,</l>
+            <l>Including all, were thence call'd <hi>Harmony:</hi>
+            </l>
+            <l>I, yet, had vtter'd nothing, on thy part,</l>
+            <l>When theſe were but the praiſes of the <hi>Art.</hi>
+            </l>
+            <l>But when I haue ſaide, The proofes of all theſe be</l>
+            <l>Shed in thy <hi>Songs;</hi> Tis true: But ſhort of thee.</l>
+            <closer>
+               <signed>Ben: Ionſon.</signed>
+            </closer>
+         </div>
+         <div type="encomium">
+            <head>TO THE WORTHY AVTHOR.</head>
+            <l>
+               <hi>MVſicks</hi> maiſter, and the offspring</l>
+            <l>Of rich <hi>Muſicks</hi> Father,</l>
+            <l>Old <hi>Alfonſo's</hi> Image liuing,</l>
+            <l>Theſe faire flowers you gather</l>
+            <l>Scatter through the <hi>Brittiſh</hi> ſoile;</l>
+            <l>Giue thy fame free wing,</l>
+            <l>And gaine the merit of thy toyle:</l>
+            <l>Wee whoſe loues affect to praiſe thee,</l>
+            <l>Beyond thine owne deſerts, can neuer raiſe thee.</l>
+            <closer>
+               <signed>By <hi>T. Campion,</hi> Doctor in Phyſicke.</signed>
+            </closer>
+         </div>
+         <div type="encomium">
+            <head>AMICISS: ET PRAESTANTISSIMO IN RE <hi>MVSICA, ALFONSO FERRABOSCO.</hi>
+            </head>
+            <l>PErcellis, oro, mitte animam meam</l>
+            <l>O diue Syren, vincula<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> auribus</l>
+            <l>Iniecta ſoluas, nec potenti</l>
+            <l>Perpetuo moriar camaenâ.</l>
+            <l>Ardore rapta mens furit entheo,</l>
+            <l>Scandit<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> Lunam, &amp; circuit aethera,</l>
+            <l>Ter millies coelo repoſta,</l>
+            <l>Et totiès relocata terris.</l>
+            <l>O Muſicae artis quanta potentia,</l>
+            <l>
+               <note place="margin">Ferra-boſco</note> Non in <hi>ferarum</hi> ſolavagum <hi>nemus,</hi>
+            </l>
+            <l>Sed in virorum plus cateruas</l>
+            <l>Participes melioris aurae!</l>
+            <l>Alſonſe, dux &amp; rex Lyrici gregis;</l>
+            <l>Pulſare dignus coelicolum lyram,</l>
+            <l>Excellis omnes ſic canendo</l>
+            <l>Sempèr vt ipſe ſies canendus.</l>
+            <closer>
+               <signed>N. Tomkins.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div n="1" type="song">
+            <pb facs="tcp:7060:3" rendition="simple:additions"/>
+            <head>I.</head>
+            <l>
+               <gap reason="music">
+                  <desc>〈♫〉</desc>
+               </gap> 
+               <seg rend="decorInit">L</seg>Ike Hermit poore, in place ob<g ref="char:EOLhyphen"/>ſcure,</l>
+            <l>I meane to ſpend my dayes of endleſſe doubt,</l>
+            <l>To waile ſuch woes as time can<g ref="char:EOLhyphen"/>not recure,</l>
+            <l>Where none but Loue ſhall finde mee out,</l>
+            <l>And at my gates diſpaire ſhall, diſpaire ſhal linger ſtill,</l>
+            <l>To let in death whe<g ref="char:cmbAbbrStroke">̄</g>loue &amp; fortune, when Loue and For<g ref="char:EOLhyphen"/>tune will.</l>
+         </div>
+         <div n="2" type="song">
+            <pb facs="tcp:7060:4" rendition="simple:additions"/>
+            <head>II.</head>
+            <l>
+               <gap reason="music">
+                  <desc>〈♫〉</desc>
+               </gap> 
+               <seg rend="decorInit">C</seg>Ome home my troubled thoughts, ſtay and re<g ref="char:EOLhyphen"/>tire,</l>
+            <l>Call home your erring fellowes make a ſtand,</l>
+            <l>Follow not ſtill the coulours of de<g ref="char:EOLhyphen"/>ſire,</l>
+            <l>Falſe are her wiſhes cruel her com<g ref="char:EOLhyphen"/>mand,</l>
+            <l>Come then o<g ref="char:EOLhyphen"/>bay this ſummons come away, come away,</l>
+            <l>For here vaine hopes, for here vaine hopes muſt ſerue you for your pay.</l>
+         </div>
+         <div n="3" type="song">
+            <pb facs="tcp:7060:4"/>
+            <head>III</head>
+            <l>
+               <gap reason="music">
+                  <desc>〈♫〉</desc>
+               </gap> 
+               <seg rend="decorInit">C</seg>Ome away, come away, we grow ielous of your ſtay,</l>
+            <l>If you doe not ſtoppe your eare,</l>
+            <l>We ſhall haue more cauſe to feare,</l>
+            <l>Sirens of the land then they, to doubt the Sirens of the Sea.</l>
+         </div>
+         <div n="4" type="song">
+            <pb facs="tcp:7060:5"/>
+            <head>IIII.</head>
+            <lg>
+               <l>
+                  <gap reason="music">
+                     <desc>〈♫〉</desc>
+                  </gap> 
+                  <seg rend="decorInit">D</seg>Eere when to thee my ſad com<g ref="char:EOLhyphen"/>plaint I make,</l>
+               <l>And ſhew how oft Loue doth my death renue,</l>
+               <l>And how a<g ref="char:EOLhyphen"/>freſh I ſuffer for thy ſake,</l>
+               <l>I euer feare this anſwere to in<g ref="char:EOLhyphen"/>ſue,</l>
+               <l>Who would bewaile the Bird that ſcapes the ſnare,</l>
+               <l>And euer caught and neuer can be<g ref="char:EOLhyphen"/>ware?</l>
+            </lg>
+            <lg>
+               <l>But my reply is iuſt, that if the eye</l>
+               <l>That ſees the danger, yet obayes the hart</l>
+               <l>That leades the ſence, for his delight to dye,</l>
+               <l>In that this pray, preferres the better part</l>
+               <l>The gayner ſhould haue mercy to forgiue,</l>
+               <l>If Beautie be a Tyrant who can liue?</l>
+            </lg>
+         </div>
+         <div n="5" type="song">
+            <pb facs="tcp:7060:5"/>
+            <head>V.</head>
+            <l>
+               <gap reason="music">
+                  <desc>〈♫〉</desc>
+               </gap> 
+               <seg rend="decorInit">F</seg>Aine I would but O I dare not,</l>
+            <l>Speake my thoughts at full to praiſe her,</l>
+            <l>Speake the beſt cryes Loue, and ſpare not,</l>
+            <l>Thy ſpeech can no higher raiſe her,</l>
+            <l>Thy ſpeach then thy thoughts are lower,</l>
+            <l>Yet thy thoughts doth not halfe know her.</l>
+         </div>
+         <div n="6" type="song">
+            <pb facs="tcp:7060:6"/>
+            <head>VI.</head>
+            <l>
+               <gap reason="music">
+                  <desc>〈♫〉</desc>
+               </gap> 
+               <seg rend="decorInit">C</seg>Ome my <hi>Ce<g ref="char:EOLhyphen"/>li<g ref="char:EOLhyphen"/>a,</hi> let vs proue, while wee may the ſweets of loue,</l>
+            <l>Time wil not be ours for euer, he at length our good wil ſe<g ref="char:EOLhyphen"/>uer,</l>
+            <l>Spend not then his gifts in vaine,</l>
+            <l>Sunnes that ſet may riſe a<g ref="char:EOLhyphen"/>gain,</l>
+            <l>But if we once looſe this light, tis with vs perpe<g ref="char:EOLhyphen"/>tuall night,</l>
+            <l>Why ſhould wee deferre our ioyes, fame and rumour are but toyes?</l>
+            <l>Cannot we delude the eyes of a few poore houſhold ſpyes,</l>
+            <l>Or his eaſier eares beguile, Thus remoued by our
+<pb facs="tcp:7060:6"/>
+wile</l>
+            <l>
+               <gap reason="music">
+                  <desc>〈♫〉</desc>
+               </gap> T'is no ſinne loues fruits to ſteale,</l>
+            <l>But the ſweet theft to re<g ref="char:EOLhyphen"/>ueale,</l>
+            <l>To be taken, to be ſeene,</l>
+            <l>Theſe haue crimes ac<g ref="char:EOLhyphen"/>counted been to be taken, to be ſeene,</l>
+            <l>Theſe haue crimes ac<g ref="char:EOLhyphen"/>counted beene.</l>
+         </div>
+         <div n="7" type="song">
+            <pb facs="tcp:7060:7"/>
+            <head>VII.</head>
+            <lg>
+               <l>
+                  <gap reason="music">
+                     <desc>〈♫〉</desc>
+                  </gap> 
+                  <seg rend="decorInit">S</seg>O, ſo, leaue off, this laſt lamen<g ref="char:EOLhyphen"/>ting kiſſe,</l>
+               <l>which ſucks two ſoules and vapours both a<g ref="char:EOLhyphen"/>way,</l>
+               <l>Turne thou ghoſt that way, And let me turne this,</l>
+               <l>and let our ſelues be-night our happy day,</l>
+               <l>we aske none leaue to loue, nor will we owe any ſo cheape a death as ſaying goe.</l>
+               <l>We aske none leaue to loue, nor wil we owe a<g ref="char:EOLhyphen"/>ny ſo cheape a death as ſaying goe.</l>
+            </lg>
+            <lg>
+               <l>Goe, goe, and if that word haue not quite kild thee,</l>
+               <l>Eaſe me with death by bidding me goe to:</l>
+               <l>O, if it haue let my word worke on me,</l>
+               <l>And a iuſt office on a murderer doe.</l>
+               <l>Except it be too late to kill me ſo,</l>
+               <l>Being double dead, going and bidding goe.</l>
+            </lg>
+         </div>
+         <div n="8" type="song">
+            <pb facs="tcp:7060:7"/>
+            <head>VIII.</head>
+            <lg>
+               <l>
+                  <gap reason="music">
+                     <desc>〈♫〉</desc>
+                  </gap> 
+                  <seg rend="decorInit">Y</seg>Oung and ſimple though I am, I haue heard of <hi>Cupids</hi> name,</l>
+               <l>Gueſſe I can what thing it is, Men de<g ref="char:EOLhyphen"/>ſire when they doe kiſſe,</l>
+               <l>Smoake can neuer burne they ſay, But the flames, But the flames that follow may.</l>
+            </lg>
+            <lg n="2">
+               <l>2 I am not ſo foule or faire, to be proud or to diſpaire,</l>
+               <l>Yet my lips haue oft obſeru'd, men that kiſſe them preſſe them hard,</l>
+               <l>As glad louers vſe to doe, when their new met loues they wooe.</l>
+            </lg>
+            <lg n="3">
+               <l>3 Faith tis but a fooliſh minde, yet me thinkes a heat I finde,</l>
+               <l>Like thirſt longing that doth bide euer one my weaker ſide,</l>
+               <l>Where they ſay my hart doth moue, <hi>Venus</hi> graunt it be not Loue.</l>
+            </lg>
+            <lg n="4">
+               <l>4 If it be alas what then, were not Women made for Men?</l>
+               <l>As good tis a thing were paſt, that muſt needes bee done at laſt,</l>
+               <l>Roſes that are ouer-blowne, grow leſſe ſweet then fall alone.</l>
+            </lg>
+            <lg n="5">
+               <l>5 Yet nor Churle, nor ſilken Gull, ſhall my maiden bloſſome pull,</l>
+               <l>Who ſhall not I ſoone can tell, who ſhall would I could as well,</l>
+               <l>This I know who ere hee be, loue hee muſt or flatter mee.</l>
+            </lg>
+         </div>
+         <div n="9" type="song">
+            <pb facs="tcp:7060:8"/>
+            <head>IX.</head>
+            <l>
+               <gap reason="music">
+                  <desc>〈♫〉</desc>
+               </gap> 
+               <seg rend="decorInit">D</seg>Rowne not with teares my deereſt Loue,</l>
+            <l>Thoſe eyes which my affections moue,</l>
+            <l>Doe not with weeping thoſe lights blinde,</l>
+            <l>Which me in thy ſubiection binde,</l>
+            <l>Time that hath made vs two of one,</l>
+            <l>And forſt thee now to liue a<g ref="char:EOLhyphen"/>lone,</l>
+            <l>Will once a<g ref="char:EOLhyphen"/>gaine vs revnite,</l>
+            <l>To ſhew how ſhee can Fortune ſpight,</l>
+            <l>Then will we our time redeeme,</l>
+            <l>And hould our howres in more eſteeme,</l>
+            <l>Turning all our ſweeteſt nights,</l>
+            <l>Into millions of de<g ref="char:EOLhyphen"/>lights,</l>
+            <l>And ſtriue with
+<pb facs="tcp:7060:8"/>
+               <gap reason="music">
+                  <desc>〈♫〉</desc>
+               </gap>  many thouſand kiſſes,</l>
+            <l>To multi<g ref="char:EOLhyphen"/>ply, to multi<g ref="char:EOLhyphen"/>ply exchange of bliſſes. exchange of bliſſes.</l>
+         </div>
+         <div n="10" type="song">
+            <pb facs="tcp:7060:9"/>
+            <head>X.</head>
+            <l>
+               <gap reason="music">
+                  <desc>〈♫〉</desc>
+               </gap> 
+               <seg rend="decorInit">I</seg> Am a louer yet was neuer lou'd; well haue I lou'd and wil though hated euer,</l>
+            <l>Troubles I paſſe yet neuer any mou'd, ſighs haue I giuen and yet ſhe heard me neuer,</l>
+            <l>I would complaine, and ſhe would neuer heare me, and flie from loue, but it is euer neare me,</l>
+            <l>Ob<g ref="char:EOLhyphen"/>liuion onely blameleſſe doth beſet mee, for that re<g ref="char:EOLhyphen"/>membreth ne<g ref="char:EOLhyphen"/>uer to forget me.</l>
+         </div>
+         <div n="11" type="song">
+            <pb facs="tcp:7060:9"/>
+            <head>XI.</head>
+            <l>
+               <gap reason="music">
+                  <desc>〈♫〉</desc>
+               </gap> 
+               <seg rend="decorInit">W</seg>Hy ſtayes the bridegroome to in╌uade her, that would be a matron made,</l>
+            <l>Good night whilſt yet we may, good night to you a virgin ſay,</l>
+            <l>To morrow riſe, the ſame your mother is, and vſe a nobler name,</l>
+            <l>Speed well in hymens war, that what you are, by your perfections wee and all may ſee.</l>
+         </div>
+         <div n="12" type="song">
+            <pb facs="tcp:7060:10" rendition="simple:additions"/>
+            <head>Firſt part. XII.</head>
+            <l>
+               <gap reason="music">
+                  <desc>〈♫〉</desc>
+               </gap> 
+               <seg rend="decorInit">S</seg>Ing wee then he<g ref="char:EOLhyphen"/>royque grace,</l>
+            <l>So with louely light adorning, that faire heauen of his face,</l>
+            <l>As the Starre that leads the morning, body braue for part and whole,</l>
+            <l>pureſt ſeate of purer ſoule,</l>
+            <l>Where repoſed lodge by nature,</l>
+            <l>Princely ſtrength and comely ſtature.</l>
+         </div>
+         <div n="13" type="song">
+            <pb facs="tcp:7060:10"/>
+            <head>Second part. XIII.</head>
+            <l>
+               <gap reason="music">
+                  <desc>〈♫〉</desc>
+               </gap> 
+               <seg rend="decorInit">S</seg>Ing the ri<g ref="char:EOLhyphen"/>ches of his skill;</l>
+            <l>Long by ſtudious toyle pro<g ref="char:EOLhyphen"/>ui<g ref="char:EOLhyphen"/>ded,</l>
+            <l>Wit that ne<g ref="char:EOLhyphen"/>uer gui<g ref="char:EOLhyphen"/>deth ill,</l>
+            <l>Will that neuer ill is gui<g ref="char:EOLhyphen"/>ded,</l>
+            <l>Iudgeme<g ref="char:cmbAbbrStroke">̄</g>t that can beſt diſcerne,</l>
+            <l>Memory that needs not learne,</l>
+            <l>Courage where ſuch thoughts aſ<g ref="char:EOLhyphen"/>ſemble,</l>
+            <l>Iuſtly may his haters tremble.</l>
+         </div>
+         <div n="14" type="song">
+            <pb facs="tcp:7060:11"/>
+            <head>Third part. XIIII</head>
+            <l>
+               <gap reason="music">
+                  <desc>〈♫〉</desc>
+               </gap> 
+               <seg rend="decorInit">S</seg>Ing the nobles of his race,</l>
+            <l>Sing his power, his wealth, his glo<g ref="char:EOLhyphen"/>ry,</l>
+            <l>Breaking all the bounds of place,</l>
+            <l>endleſſe ages, ageleſſe ſtor<g ref="char:EOLhyphen"/>ry,</l>
+            <l>Peace that maketh one of two,</l>
+            <l>more then euer warre could doe,</l>
+            <l>Terror chaſed, terror chaſed, Iuſtice fixed,</l>
+            <l>Mercy, mercy ſtill with Iuſtice mixed.</l>
+         </div>
+         <div n="15" type="song">
+            <pb facs="tcp:7060:11"/>
+            <head>XV.</head>
+            <l>
+               <gap reason="music">
+                  <desc>〈♫〉</desc>
+               </gap> 
+               <seg rend="decorInit">W</seg>Ith what new thoughts ſhould I now entertaine my minde,</l>
+            <l>if I my ſadneſſe ſhould for<g ref="char:EOLhyphen"/>goe,</l>
+            <l>What pleaſing hopes haue I not pro<g ref="char:EOLhyphen"/>ued, I not proued vaine,</l>
+            <l>or what falſe ſhew of ioy doe I not know?</l>
+            <l>O partiall loue there is no power in thee,</l>
+            <l>to make her loue or elſe to ſet me free,</l>
+            <l>to make her loue or elſe to ſet me free.</l>
+         </div>
+         <div n="16" type="song">
+            <pb facs="tcp:7060:12"/>
+            <head>XVI.</head>
+            <lg>
+               <l>
+                  <gap reason="music">
+                     <desc>〈♫〉</desc>
+                  </gap> 
+                  <seg rend="decorInit">F</seg>Ly from the world O flye thou poore diſtreſt,</l>
+               <l>where thy diſeaſed ſoule infects thy ſoule,</l>
+               <l>And where thy thoughts doe multiply vn<g ref="char:EOLhyphen"/>reſt,</l>
+               <l>Tiring with wiſhes what they ſtraight controule,</l>
+               <l>O world, O world betrayer of the minde,</l>
+               <l>O thoughts, O thoughts that guide vs being blinde.</l>
+               <l>O thoughts that guide vs being blinde, that guide vs being blinde.</l>
+            </lg>
+            <lg n="2">
+               <l>2 Come therefore care, conduct me to my end,</l>
+               <l>And ſteere this ſhipwrackt carkaſſe to the graue:</l>
+               <l>My ſighes a ſtrange and ſtedfaſt winde ſhall lend,</l>
+               <l>Teares wet the ſailes, Repentance from rocks ſaue.</l>
+               <l>Haile death, haile death, the land I doe diſcry,</l>
+               <l>Strike ſaile, goe ſoule, reſt followes them that dye.</l>
+            </lg>
+         </div>
+         <div n="17" type="song">
+            <pb facs="tcp:7060:12"/>
+            <head>XVII.</head>
+            <lg>
+               <l>
+                  <gap reason="music">
+                     <desc>〈♫〉</desc>
+                  </gap> 
+                  <seg rend="decorInit">S</seg>Hall I ſeeke to eaſe my griefe?</l>
+               <l>No my ſight is loſt with eying;</l>
+               <l>Shall I ſpeak and beg reliefe?</l>
+               <l>No my voyce is hoarſe with crying,</l>
+               <l>What remaines but onely dying?</l>
+               <l>What remaynes but onely dy<g ref="char:EOLhyphen"/>ing?</l>
+            </lg>
+            <lg n="2">
+               <l>2 Loue and I of late did part,</l>
+               <l>But the Boy my peace enuying,</l>
+               <l>Like a Parthian threw his dart,</l>
+               <l>Backward and did wound me flying.</l>
+               <l>What remaines but onely dying?</l>
+            </lg>
+            <lg n="3">
+               <l>3 She whom then I looked one,</l>
+               <l>My remembrance beautifying</l>
+               <l>Stayes with me, though I am gone,</l>
+               <l>Gone, and at her mercy lying.</l>
+               <l>What remaynes, but onely dying?</l>
+            </lg>
+            <lg n="4">
+               <l>4 Thus my vitall breath doth waſt,</l>
+               <l>And my blood with ſorrow drying,</l>
+               <l>Sighes and teares make life to laſt,</l>
+               <l>For a while his place ſupplying.</l>
+               <l>What remaynes but onely dying?</l>
+            </lg>
+         </div>
+         <div n="18" type="song">
+            <pb facs="tcp:7060:13"/>
+            <head>Firſt part. XVIII.</head>
+            <l>
+               <gap reason="music">
+                  <desc>〈♫〉</desc>
+               </gap> 
+               <seg rend="decorInit">I</seg>F all theſe <hi>Cupids</hi> now were blinde, as is their wan<g ref="char:EOLhyphen"/>ton brother,</l>
+            <l>Or play ſhould put it in their mindes, to ſhoot at one a<g ref="char:EOLhyphen"/>nother,</l>
+            <l>What prety battaile they would make if they their obiects ſhould miſtake,</l>
+            <l>and each one wound, and each one wound his mother.</l>
+         </div>
+         <div n="19" type="song">
+            <pb facs="tcp:7060:13"/>
+            <head>Second part. XIX.</head>
+            <l>
+               <gap reason="music">
+                  <desc>〈♫〉</desc>
+               </gap> 
+               <seg rend="decorInit">I</seg>T was no pollicie of court, although the place be char<g ref="char:EOLhyphen"/>med,</l>
+            <l>To let in earneſt or in ſport, ſo many loues in armed,</l>
+            <l>For ſay the dames ſhould with their eyes vpon the hearts here meane ſur<g ref="char:EOLhyphen"/>priſe,</l>
+            <l>Were not the men, were not the men, were not the men like harmed.</l>
+         </div>
+         <div n="20" type="song">
+            <pb facs="tcp:7060:14"/>
+            <head>Third part. XX.</head>
+            <l>
+               <gap reason="music">
+                  <desc>〈♫〉</desc>
+               </gap> 
+               <seg rend="decorInit">Y</seg>Es were the loues or falſe or ſtraying, or beautie not their beautie way<g ref="char:EOLhyphen"/>ing,</l>
+            <l>But here no ſuch de<g ref="char:EOLhyphen"/>ceipt is mixt, their flames are pure their eyes are fixt,</l>
+            <l>They doe not warre, they doe not warre, with dif<g ref="char:EOLhyphen"/>frent darts, but ſtrike a mu<g ref="char:EOLhyphen"/>ſicke of like hearts,</l>
+            <l>they doe not warre with dif<g ref="char:EOLhyphen"/>frent darts, but ſtrike a mu<g ref="char:EOLhyphen"/>ſicke of like hearts.</l>
+         </div>
+         <div n="21" type="song">
+            <pb facs="tcp:7060:14"/>
+            <head>XXI.</head>
+            <l>
+               <gap reason="music">
+                  <desc>〈♫〉</desc>
+               </gap> 
+               <seg rend="decorInit">S</seg>O beautie on the waters ſtood, when Loue had ſeuer'd earth from floud,</l>
+            <l>So when hee parted ayre from fire, hee did with concord all inſpire,</l>
+            <l>And then a mo<g ref="char:EOLhyphen"/>tion hee them taught, that elder then himſelfe was thought,</l>
+            <l>which thought was yet the childe of earth, for loue is elder then his birth.</l>
+         </div>
+         <div n="22" type="song">
+            <pb facs="tcp:7060:15"/>
+            <head>XXII.</head>
+            <l>
+               <gap reason="music">
+                  <desc>〈♫〉</desc>
+               </gap> 
+               <seg rend="decorInit">H</seg>Ad thoſe that dwell in er<g ref="char:EOLhyphen"/>ror foule</l>
+            <l>and hold that women haue no ſoule,</l>
+            <l>But ſeene thoſe moue, they would haue then ſaid,</l>
+            <l>women were the ſoules of men, ſo they doe moue each heart and eye,</l>
+            <l>with the worlds ſoule their har<g ref="char:EOLhyphen"/>mo<g ref="char:EOLhyphen"/>nie.</l>
+         </div>
+         <div n="23" type="song">
+            <pb facs="tcp:7060:15"/>
+            <head>XXIII.</head>
+            <l>
+               <gap reason="music">
+                  <desc>〈♫〉</desc>
+               </gap> 
+               <seg rend="decorInit">I</seg>F all the ages of the earth</l>
+            <l>were crown'd but in this famous birth, but in this famous birth,</l>
+            <l>and when that they would boaſt their ſtore</l>
+            <l>of worthy Queenes, of worthy Queenes they knew no more,</l>
+            <l>how happier is that age can giue,</l>
+            <l>a Queene in whom they all doe liue?</l>
+         </div>
+         <div n="24" type="song">
+            <pb facs="tcp:7060:16"/>
+            <head>XXIIII.</head>
+            <l>
+               <gap reason="music">
+                  <desc>〈♫〉</desc>
+               </gap> 
+               <seg rend="decorInit">V</seg>Nconſtant loue why ſhould I make my moane,</l>
+            <l>or ſend ſad ſighes vnto thy careleſſe eare?</l>
+            <l>Since thy affection and thy faith is gone,</l>
+            <l>and all thoſe vertues which I once held deare,</l>
+            <l>Farewell, fare<g ref="char:EOLhyphen"/>well, moſt falſe of all to mee,</l>
+            <l>that with affection deerely, deerely loued thee.</l>
+         </div>
+         <div n="25" type="song">
+            <pb facs="tcp:7060:16"/>
+            <head>XXV.</head>
+            <l>
+               <gap reason="music">
+                  <desc>〈♫〉</desc>
+               </gap> 
+               <seg rend="decorInit">O</seg> Eyes, O mortall ſtarres, the authors of my harmes,</l>
+            <l>that in ſlumbring wage wars, to kill me with ſweet charmes,</l>
+            <l>If cloſed you an<g ref="char:EOLhyphen"/>noy me, be'ng o<g ref="char:EOLhyphen"/>pen you'ld de<g ref="char:EOLhyphen"/>ſtroy me.</l>
+            <l>If cloſed you an<g ref="char:EOLhyphen"/>noy me, be'ng o<g ref="char:EOLhyphen"/>pen you'ld deſtroy me.</l>
+            <l>If clo<g ref="char:EOLhyphen"/>ſed you an<g ref="char:EOLhyphen"/>noy me, be'ng open you'ld deſtroy me.</l>
+            <l>If cloſed you an<g ref="char:EOLhyphen"/>noy me, be'ng o<g ref="char:EOLhyphen"/>pen you'ld deſtroy mee.</l>
+         </div>
+         <div n="26" type="song">
+            <pb facs="tcp:7060:17"/>
+            <head>A Dialogue betweene a Shepheard and a Nimph. XXVI.</head>
+            <lg>
+               <l>
+                  <gap reason="music">
+                     <desc>〈♫〉</desc>
+                  </gap> 
+                  <seg rend="decorInit">F</seg>Ayre cruell Nimph why thus in griefe &amp; an<g ref="char:EOLhyphen"/>guiſh,</l>
+               <l>Mak'ſt thou him thata<g ref="char:EOLhyphen"/>dores thee pine and lan<g ref="char:EOLhyphen"/>guiſh?</l>
+               <l>O but theſe fancies from thy beautie flow,</l>
+               <l>O how I ioy, O how I ioy in thee my happy choiſe,</l>
+               <l>As thou in me, as thou in me, ſo I in thee re<g ref="char:EOLhyphen"/>ioyce:</l>
+               <l>Then let vs ſtill together liue and loue,</l>
+               <l>and ſing the ioyes, the ioyes,</l>
+               <l>and ſing the ioyes that happy louers proue.</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:7060:17"/>
+               <head>Dialogue Nimph. XXVI.</head>
+               <l>
+                  <gap reason="music">
+                     <desc>〈♫〉</desc>
+                  </gap> 
+                  <seg rend="decorInit">W</seg>Hy Shepheard doſt thou mee condemne as cruell,</l>
+               <l>Since thine owne fancies are thy paſsions fuell?</l>
+               <l>Then ſhall reliefe to thee from bountie grow,</l>
+               <l>O how I Ioy, O how I Ioy in this my happy choiſe,</l>
+               <l>As thou in me, As thou in me, ſo I in thee reioyce,</l>
+               <l>Then let vs ſtill together liue and loue,</l>
+               <l>And ſing the ioyes, and ſing the ioyes that happy lo<g ref="char:EOLhyphen"/>uers proue.</l>
+            </lg>
+         </div>
+         <div n="27" type="song">
+            <pb facs="tcp:7060:18"/>
+            <head>A Dialogue. XXVII.</head>
+            <lg>
+               <l>
+                  <gap reason="music">
+                     <desc>〈♫〉</desc>
+                  </gap> 
+                  <seg rend="decorInit">W</seg>Hat ſhall I wiſh what ſhall I flye?</l>
+               <l>Falſe I defie, Such euer ſpeake, Such ne<g ref="char:EOLhyphen"/>uer breake,</l>
+               <l>Flattery yeelds plea<g ref="char:EOLhyphen"/>ſure, Onely truth, onely truth yeelds waight,</l>
+               <l>Happy are they that neuer knew deceit.</l>
+               <l>Happy are they that neuer knew de<g ref="char:EOLhyphen"/>ceit.  neuer knew de<g ref="char:EOLhyphen"/>ceit.</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:7060:18"/>
+               <head>A Dialogue. XXVII.</head>
+               <l>
+                  <gap reason="music">
+                     <desc>〈♫〉</desc>
+                  </gap> 
+                  <seg rend="decorInit">T</seg>Rue Loue I ſeeke, Wordes haue their truth,</l>
+               <l>Deeds haue their faith, Flattery yeelds plea<g ref="char:EOLhyphen"/>ſure:</l>
+               <l>Happy are they that neuer knew deceit.</l>
+               <l>happy are they, happy are they that neuer knew de<g ref="char:EOLhyphen"/>ceit.</l>
+            </lg>
+         </div>
+         <div n="28" type="song">
+            <pb facs="tcp:7060:19"/>
+            <head>A Dialogue betweene a Shepheard and a Nimph. XXVIII.</head>
+            <lg>
+               <l>
+                  <gap reason="music">
+                     <desc>〈♫〉</desc>
+                  </gap> 
+                  <seg rend="decorInit">T</seg>Ell me O Loue, when ſhall it be that thy faire eyes ſhall ſhine on me?</l>
+               <l>Whom no<g ref="char:EOLhyphen"/>thing now reui<g ref="char:EOLhyphen"/>ueth,</l>
+               <l>Alas ſweet Nymph, I cannot chuſe ſince thou eſtran<g ref="char:EOLhyphen"/>ged liues from me,</l>
+               <l>Alas, what ioy is in ſuch loue that euer liues a<g ref="char:EOLhyphen"/>part?</l>
+               <l>O, let me die, yet ſtay ſweet Loue, ☞</l>
+            </lg>
+            <lg>
+               <pb facs="tcp:7060:19"/>
+               <head>Dialogue Nimph. XXVIII.</head>
+               <l>
+                  <gap reason="music">
+                     <desc>〈♫〉</desc>
+                  </gap> 
+                  <seg rend="decorInit">I</seg> Pray thee Shepheard, I pray thee ſhepheard leaue thy feares,</l>
+               <l>Drowne not thy heart and eyes with teares,</l>
+               <l>Such ſighes my ſence de<g ref="char:EOLhyphen"/>pri<g ref="char:EOLhyphen"/>ueth, O doe not me for that accuſe,</l>
+               <l>My Loue, my life doth liue in thee,</l>
+               <l>Alas, what ioy is in ſuch loue, and neuer other comforts proue,</l>
+               <l>but cares that kill the hart? </l>
+               <l>And ſo will I, yet ſtay ſweet Loue and ſing this ſong with me,</l>
+               <l>Time brings to paſſe what loue thinkes could not be.</l>
+               <l>Time brings to paſſe what loue thinkes could not be. ☞</l>
+               <l>and ſing this ſong with me,</l>
+               <l>time bring to paſſe, what loue thinks could not be.</l>
+               <l>time brings to paſſe, what loue thinks could not be.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="table_of_contents">
+            <pb facs="tcp:7060:20" rendition="simple:additions"/>
+            <head>A Table of all the Songs contained <hi>in this Booke.</hi>
+            </head>
+            <p>
+               <table>
+                  <row>
+                     <cell>I.</cell>
+                     <cell>Like Hermit poore.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>II.</cell>
+                     <cell>Come home my troubled thoughts.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>III.</cell>
+                     <cell>Come away.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>IIII.</cell>
+                     <cell>Deere, when to thee.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>V.</cell>
+                     <cell>Faine I would.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>VI.</cell>
+                     <cell>Come my <hi>Celia.</hi>
+                     </cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>VII.</cell>
+                     <cell>So, ſo, leaue off.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>VIII.</cell>
+                     <cell>Young and ſimple though I am.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>IX.</cell>
+                     <cell>Drowne not with teares.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>X.</cell>
+                     <cell>I am a Louer.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>XI.</cell>
+                     <cell>Why ſtayes the Bridegroome.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>XII.</cell>
+                     <cell>Sing we then heroyque grace.</cell>
+                     <cell>1. Part.</cell>
+                  </row>
+                  <row>
+                     <cell>XIII.</cell>
+                     <cell>Sing the riches of his skill.</cell>
+                     <cell>2. Part.</cell>
+                  </row>
+                  <row>
+                     <cell>XIIII.</cell>
+                     <cell>Sing the Nobles of his race.</cell>
+                     <cell>3. Part.</cell>
+                  </row>
+                  <row>
+                     <cell>XV.</cell>
+                     <cell>With what now thoughts.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>XVI.</cell>
+                     <cell>Flye from the world.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>XVII.</cell>
+                     <cell>Shall I ſeeke to eaſe my griefe?</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>XVIII.</cell>
+                     <cell>If all theſe <hi>Cupids</hi> now were blinde.</cell>
+                     <cell>1. Part.</cell>
+                  </row>
+                  <row>
+                     <cell>XIX.</cell>
+                     <cell>It was no pollicie of Court.</cell>
+                     <cell>2. Part.</cell>
+                  </row>
+                  <row>
+                     <cell>XX.</cell>
+                     <cell>Yes were the loues.</cell>
+                     <cell>3. Part.</cell>
+                  </row>
+                  <row>
+                     <cell>XXI.</cell>
+                     <cell>So beautie on the waters ſtood.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>XXII.</cell>
+                     <cell>Had thoſe that dwell.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>XXIII.</cell>
+                     <cell>If all the ages of the earth.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>XXIIII.</cell>
+                     <cell>Vnconſtant Loue.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>XXV.</cell>
+                     <cell>O eyes<g ref="char:punc">▪</g> O mortall ſtarres.</cell>
+                     <cell> </cell>
+                  </row>
+                  <row>
+                     <cell>XXVI.</cell>
+                     <cell>Faire cruell Nymph.</cell>
+                     <cell>Dialogue.</cell>
+                  </row>
+                  <row>
+                     <cell>XXVII.</cell>
+                     <cell>What ſhall I wiſh.</cell>
+                     <cell>Dialogue.</cell>
+                  </row>
+                  <row>
+                     <cell>XXVIII.</cell>
+                     <cell>Tell me O Loue.</cell>
+                     <cell>Dialogue.</cell>
+                  </row>
+               </table>
+            </p>
+            <pb facs="tcp:7060:20"/>
+         </div>
+      </back>
+   </text>
+</TEI>

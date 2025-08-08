@@ -1,0 +1,1925 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The first booke of the preseruation of King Henry the vij. when he was but Earle of Richmond, grandfather to the Queenes maiesty compiled in English rythmicall hexameters.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1599</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 107 KB of XML-encoded text transcribed from 54 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A02935</idno>
+            <idno type="STC">STC 13076</idno>
+            <idno type="STC">ESTC S116380</idno>
+            <idno type="EEBO-CITATION">99851597</idno>
+            <idno type="PROQUEST">99851597</idno>
+            <idno type="VID">16879</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A02935)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 16879)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1661:09)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The first booke of the preseruation of King Henry the vij. when he was but Earle of Richmond, grandfather to the Queenes maiesty compiled in English rythmicall hexameters.</title>
+               </titleStmt>
+               <extent>[104] p.   </extent>
+               <publicationStmt>
+                  <publisher>By R. B[radock] and are to be solde [by G. Potter] in Paules Church-yard, at the signe of the Bible,</publisher>
+                  <pubPlace>Imprinted at London :</pubPlace>
+                  <date>1599.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Signatures: A-N⁴.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Henry, --  King of England, 1457-1509 --  Poetry --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-09</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2012-09</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:16879:1" rendition="simple:additions"/>
+            <p>THE FIRST BOOKE OF THE PRESERVATION OF King Henry the vij. when he was but Earle <hi>of Richmond, Grandfather to the</hi> Queenes maieſty; Compiled in engliſh rythmicall Hexameters.</p>
+            <q>
+               <l>Viuit in eternum poſt funera viuida virtus.</l>
+               <l>
+                  <hi>Vertue remaineth aliue after death liuely for euer.</hi>
+               </l>
+            </q>
+            <l>Quo magis difficilior, copulchrior<g ref="char:punc">▪</g>
+            </l>
+            <l>Hoc opus, hic labor eſt.</l>
+            <p>¶Imprinted at London, by <hi>R. B.</hi> and are to be ſolde in Paules Church-yard, at the ſigne of the Bible. 1599.</p>
+         </div>
+         <div type="to_printer">
+            <pb facs="tcp:16879:2" rendition="simple:additions"/>
+            <head>To the Printer.</head>
+            <l>PRint with a good letter, this booke, and carefuly Printer:</l>
+            <l>Print each word legibill, not a word nor a ſillabil alter:</l>
+            <l>Keepe points, and commas, periodes, the parentheſis obſerue;</l>
+            <l>My credit and thy reporte to defend, bothe ſafely to conſerue.</l>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:16879:2"/>
+            <head>To the Right honorabel, worſhipfull, gentel, <hi>and learned Readers, whoſoeuer; that are</hi> bothe trew fauorits of poetry, and of <hi>right ancient Heroicke Hexameters.</hi>
+            </head>
+            <p>
+               <seg rend="decorInit">R</seg>Ight honored, worſhipfull, and gentell Reader, theſe Hexame<g ref="char:EOLhyphen"/>ters and Pentameters in Engliſhe, are miſliked of many, becauſe they are not yet come to their full perfection: and specially of ſome, that are accounted and knowne to be Doctors and ſingular<g ref="char:EOLhyphen"/>ly well learned and great Linguiſtes: but eſpecially of the plaine Rythmer, that ſcarce knowes the footed quantitie or metricall ſcanning thereof; much leſſe to reade them with a grace according to the ſame. But for him, I ſay thus; <hi>Scientia nullum habet inimicum, praeter ignorantem.</hi> Whoſe bookes are ſtuft with lines of proſe, with a rythme in the end; which euery
+<pb facs="tcp:16879:3"/> fidler, or piper, can make vpon a theame giuen. Neuertheleſſe, I confeſſe and acknowledge that we haue many excellent and ſingular good Poets in this our age, as Maiſter <hi>Spencer,</hi> that was, Maiſter <hi>Gowlding,</hi> Doctor <hi>Phayer,</hi> Maiſter <hi>Harrington, Daniell,</hi> and diuers others whom I reuerence in that kinde of proſe-rythme: wherein <hi>Spencer</hi> (without offence ſpoken) hath ſurpaſſed them all. I would to God they had done ſo well in trew Hexameters: for they had then beau<g ref="char:EOLhyphen"/>tified our language. For the <hi>Greekes</hi> and <hi>Latines</hi> did in a manner aboliſh quite that kinde of rythme-proſe: And why ſhould not we doe the like in Engliſhe? But the ignorant and aduerſe part will ſay, our ſpeach is not copious enough: But I ſay that it is: and beſides it would be the more inriched, adorned, and more eloquent, if they would make triall thereof, or could compoſe them artificially and elo<g ref="char:EOLhyphen"/>quently to delight the Readers, to reſound with a grace in their eares. <hi>Nam ni<g ref="char:EOLhyphen"/>hil difficile volenti.</hi> But this is the trew cauſe why they doe not ſo; <hi>Hoc opus, hic labor eſt:</hi> which the chiefe Doctors and beſt learned of them all, cannot de<g ref="char:EOLhyphen"/>ny;
+<pb facs="tcp:16879:3"/> And perhappes ſome of the beſt of them, that are curious carpers and re<g ref="char:EOLhyphen"/>prehenders of this trew metrified verſe, though ſkilfull in other arts, cannot for<g ref="char:EOLhyphen"/>mally compoſe the like as <hi>Fraunce</hi> did; who obſerued a better Proſodia then <hi>Stani<g ref="char:EOLhyphen"/>hurſt.</hi> For <hi>Tully</hi> was not ſo good a Poetician as he was an Orator. God beſtow<g ref="char:EOLhyphen"/>eth his gifts ſeuerally, and more bountifully on ſome then on others. For <hi>Homer</hi> in Greeke, and <hi>Virgill</hi> in Latine, ſurpaſſed all that euer were before or ſince, in trew footed Hexameters; but not in proſe. Neither were <hi>Homer</hi> and <hi>Virgill</hi> the firſt that verſifyed in their naturall language: But others did attempt to Po<g ref="char:EOLhyphen"/>etize afore them, in the like verſe; or elſe in truth I ſuppoſe they could not haue done ſo well. Euery thing hath a beginning, which at firſt cannot be made ſo per<g ref="char:EOLhyphen"/>fect. Thoſe verſes which <hi>Ennius</hi> made, before <hi>Virgill</hi> made any, were not ſo well liked: as for example; <hi>Vnus homo nobis cunctando reſtituit rem:</hi> Yet <hi>Vir<g ref="char:EOLhyphen"/>gill</hi> moſt commonly had his booke about him. Therefore I reuerence <hi>Stanihurſt;</hi> who being but an Iriſh man, did firſt attempt to tranſlate thoſe foure bookes of <hi>E<g ref="char:EOLhyphen"/>neados,</hi>
+               <pb facs="tcp:16879:4"/> which (if he be liuing) I deſire him to refile them ouer againe; and thus haue written in verſe:
+<q>
+                  <l>If the Poet <hi>Stanihurſt</hi> yet liue and feedeth on ay-er,</l>
+                  <l>I do requeſt him (as one that wiſheth a grace to the meter)</l>
+                  <l>With wordes ſignificant to refile and finely to poliſhe</l>
+                  <l>Thoſe fower <hi>Aenëis,</hi> that he late tranſlated in Engliſh.</l>
+                  <l>I doe the man reuerence, as a fine, as an exquiſit Author:</l>
+                  <l>For that he firſt did atempt, to tranſlate verſe as a Doctor.</l>
+               </q>
+            </p>
+            <p>For at the firſt, Maiſter <hi>Aſkam</hi> had much ado to make two or three verſes in Engliſh: but now euery ſcholler can make ſome. What language ſo hard, harſh, or barbarous, that time and art will not amend? As I haue written in an other place, thus;
+<q>
+                  <pb facs="tcp:16879:4"/>
+                  <l>Naught can at once be begonne, or preſent made, to be perfect.</l>
+                  <l>By trauel, all hard thinges are brought to ſingular effect.</l>
+                  <l>Yet that <hi>Apelles</hi> could <hi>Cytheraeas</hi> beawty depoliſh;</l>
+                  <l>Had not he time to delyne, hir picture finely to finnyſh?</l>
+               </q>
+            </p>
+            <p>This trew kinde of Hexametred and Pentametred verſe, well bring vnto vs foure commodities. Firſt it will enrich our ſpeach with good and ſignificant wordes: Secondly it will bring a delight and pleaſure to the ſkilfull Reader, when he ſeeth them formally compyled: And thirdly it will incourage and learne the good &amp; godly Students, that affect Poetry, and are naturally enclyned therunto, to make the like: Fourthly it will direct a trew Idioma, and will teach trew Or<g ref="char:EOLhyphen"/>thography. For as gould ſurpaſſeth leade: ſo the Hexameters ſurpaſſe rythme proſe. And as concerning the ſame, this haue I written:
+<q>
+                  <pb facs="tcp:16879:5"/>
+                  <l>As yelo gould purified doth ſurmount euery mettell:</l>
+                  <l>So fine verſe metrifyed, this rythme-proſe greatly doth excell.</l>
+                  <l>With wordes ſignificant, ſuch rurall rythmery confound,</l>
+                  <l>And metricall verſes with a new rythme lawraly compound.</l>
+                  <l>For ſily <hi>Muſe</hi> feare not: ſince euery paltery Rythmor</l>
+                  <l>With wordes vnmetrifyed would ſeeme to be counted a Doctor:</l>
+                  <l>Whoſe workes ſeeme to be good, repreſenting <hi>Tantalus</hi> appels,</l>
+                  <l>Which did apeare to be gold; but toucht were, turned in aſhes.</l>
+               </q>
+            </p>
+            <p>And in another place.</p>
+            <q>
+               <l>Clowde not your Orient fyne ſkyll, with dregges of a drowzy</l>
+               <l>Conterfaited proſe: This Romane verſe hath a glory.</l>
+               <l>As redolent Gilyflowers perfumes a delight to the ſenſes;</l>
+               <l>Mens memories to refreſh: So ſcanning Rythmery verſes</l>
+               <l>Bringes a delight to the mindes, &amp;c.</l>
+            </q>
+            <pb facs="tcp:16879:5"/>
+            <p>For theſe rybaud and baudy Poets be but the diuels agents, and are to be deteſ<g ref="char:EOLhyphen"/>ted; but the vertuous and godly Poets are to be both reuerenced and regarded: as I haue here written;
+<q>
+                  <l>As <hi>domiport</hi> ſlug-y ſnayle, his paſſage plainly to diſcloſe,</l>
+                  <l>Leaueth a print as he goes, but a ſhining ſlyme to no purpoſe:</l>
+                  <l>So doth a bawdy Poet (his braineſicke folly to publiſh)</l>
+                  <l>Write amorous madrigals; ſome lewd loue-toy to recogniſe.</l>
+                  <l>Aime at a trew Period, Chriſt Ieſus: flee from al euil:</l>
+                  <l>Roaue not aſide to detract his praiſe: learne rightly to leauell.</l>
+                  <l>VVits miſabuſ'd will apeare as a goulden ring in a ſwines ſnowte.</l>
+                  <l>Gods worde ſuch reprobate lewde wits doth worthily confute.</l>
+                  <l>Shew me the tree by the fruite: ſo ſaith Saint <hi>Luke</hi> that Euangel,</l>
+                  <l>Do men gather grapes of thornes, or fygges of a thyſtel?<note place="margin">Saint Luke, ca. 6. verſe. 45.</note>
+                  </l>
+                  <pb facs="tcp:16879:6"/>
+                  <l>
+                     <note place="margin">Saint Mathew ca. 13. verſe. 30.37.38.</note>Chriſt ſhewes by parables, who be tares and who be the good ſeede:</l>
+                  <l>Th'one by the diuell ſowen, and th'other ſowne by the goddhead:</l>
+                  <l>Bothe to be reapt at a time, and both to be parted aſonder:</l>
+                  <l>Bothe to be bound in ſheaues, and bothe to be laid from another:</l>
+                  <l>Th'one to be laid in a barne, th'other to be throwne by <hi>Iehoua,</hi>
+                  </l>
+                  <l>Into that burning lake, that burning fyry <hi>Gehenna.</hi>
+                  </l>
+               </q>
+            </p>
+            <p>And wee, that profeſſe Chriſtianity, ſhould not vſe any paganiſme, to detract gods glorie, as the paganiſ'd Poets did, in the time of ignorance. For this I haue written of them: I meane, of <hi>Homer, Virgill,</hi> and others;
+<q>
+                  <l>Only the fault was this; they liu'd in a time then of error,</l>
+                  <l>And to the Pagan goddes moſt of them yeelded an honnor.</l>
+                  <l>Thoſe ſecular ſages, which gods trew worde did abandon,</l>
+                  <pb facs="tcp:16879:6"/>
+                  <l>Wilfully loſt them ſelues, and others left at a randon.</l>
+                  <l>But ſhould we Chriſtians (confeſſing one God Imortall,</l>
+                  <l>Trinity, Vnity, one, deifyed with glory coequall)</l>
+                  <l>Call to the Pagan gods; to detract praiſe from the Redeemer,</l>
+                  <l>Our ſoules ſole-ſauiour? Should we ſuch blaſphemy ſuffer?</l>
+               </q>
+            </p>
+            <p>In truthe, all they that profeſſe trew Poetry ſhould ſeeke to further the ad<g ref="char:EOLhyphen"/>uancement of gods glory what they may (which I pray God they may doe, to ban<g ref="char:EOLhyphen"/>niſh all theſe fond fantaſticall and Veneriall Poets) and alſo to doe their beſt en<g ref="char:EOLhyphen"/>deauour in trew Hexameters, to aboliſh this plaine rythme-proſe; that wee may imitate and follow the beſt learned, and auncient Poets: as <hi>Homer, Virgill,</hi> and <hi>Lucan</hi> in Chronicles. For that an heroicall verſe compoſed in Hexameters, is moſt correspondent to a right honorable nature: as appeared by <hi>Alexander</hi> the great: as I haue compoſed in Hexameters following.</p>
+            <q>
+               <pb facs="tcp:16879:7"/>
+               <l>When that <hi>Alexander</hi> did come to the Tombe of <hi>Acbilles,</hi>
+               </l>
+               <l>That monument to behold; he pronounced theſe very ſpeaches,</l>
+               <l>And with a ſigh thus ſaid: Thrice <hi>Lariſsaeus</hi> is happy,</l>
+               <l>For that he greek <hi>Homer</hi> had, to record his glory ſo worthy.</l>
+               <l>* And when he had conquerd great ſpoyles from king <hi>Darius,</hi>
+               </l>
+               <l>There was a cheſt of gould, that, he ſaid, was fit for <hi>Homerus</hi>
+               </l>
+               <l>Bookes, to be ſafely repoſ'd. For he kept them ſafe, as a Iewell,</l>
+               <l>Vnder his owne beads-head: whoſe worke diuinely doth excell.</l>
+               <l>And <hi>Maro</hi> laurigerent, in verſe moſt glorious enrold</l>
+               <l>Venturous <hi>Aeneas</hi> exployts, and worthines extold.</l>
+               <l>Which brought <hi>Rome</hi> in a muſe, with a grace ſo loftily ſlowing.</l>
+               <l>Whoſe praiſe ſtill wil abide, while ſeas or earthe ar abiding.</l>
+            </q>
+            <p>And that we may imitate them as neere as we may, in poetizing of verified Chronicles, I haue elſewhere written thus;
+<q>
+                  <pb facs="tcp:16879:7"/>
+                  <l>Learne of <hi>Maeonides;</hi> who writeth of <hi>Hector, Achilles,</hi>
+                  </l>
+                  <l>Of <hi>Troilus, Diomede,</hi> of craft-contriuer <hi>Vliſſes.</hi>
+                  </l>
+                  <l>If ſo be that Chronicles had not bin ſkilfuly written,</l>
+                  <l>Kinges valiant exployts, lordes fame, and knightes valor had bin</l>
+                  <l>Drowned in obliuion. For time (fames greedy deuowrer)</l>
+                  <l>Leaues fame vnmemoriz'd; as a tree conſum'd with a canker.</l>
+                  <l>You fine metricians, that verſes ſkilfully compile</l>
+                  <l>(As fine artificers hard Iron do refile on an Anuile)</l>
+                  <l>This verſe irregular, this ruſtick rythmery banniſh:</l>
+                  <l>Which doth abaſe Poetry: ſuch verſe ſuch meter aboliſh.</l>
+                  <l>For lily milke-white ſwannes flote on ſtreames cleare as a cryſtall.</l>
+                  <l>And in a fowle mud-y lake, donguehill duckes ſtriue for an offall.</l>
+                  <l>Both Greekes and Latiniſts ſuch verſeleſſe verſe did abandon:</l>
+                  <l>Whoſe verſe is purifi'd, as gould is try'd by the touchſtone.</l>
+                  <pb facs="tcp:16879:8"/>
+                  <l>As vineger doth aford, no pleaſant taſte to the palate:</l>
+                  <l>So wordes vnmetrifi'd, which rythmers rudely promulgate,</l>
+                  <l>Bringe no delight to the wits, nor ſound with a grace in a mans eare.</l>
+                  <l>Euery worthie Poet will ſuch rude rythmery forbeare.</l>
+               </q>
+            </p>
+            <p>Surely this kinde of ſcanning verſe is not to be diſcommended: and who ſo doth, hath no warrant ſo to doe. And who ſo doth diſcommend <hi>Stanihurſt,</hi> or <hi>Fraunce,</hi> let them make ſo many verſes. For many will dispraiſe their bookes, that cannot whiles they liue make the like. For it is more eaſie for euery man to finde a fault, then to make ſo many: as I haue written, thus;
+<q>
+                  <l>For curious cauiliſt but a ſmall mote eaſily will ſee,</l>
+                  <l>Sooner in each ſtrangers eyſight, then a beame in his owne eye.</l>
+                  <l>Hardly he will ſuch bookes in a trew verſe notably perfect.</l>
+                  <pb facs="tcp:16879:8"/>
+                  <l>For many men ready be to finde faults, haſty to correct.</l>
+                  <l>Such Sycophant humoriſts, like quayles feede chiefly by poyſon:</l>
+                  <l>Whoſe Stoicall cenſures and ſelfe-mindes ſtand for a reaſon.</l>
+               </q>
+            </p>
+            <p>And whoſoeuer ſhall diſcommend mine, I would requeſt him to make ſo many as I meane to make in fiue bookes, in rythming Hexameters. For, as I thinke, the rythme doth giue the<g ref="char:cmbAbbrStroke">̄</g> a grace in our engliſh tongue eſpecially, aboue other tongues; ſo it be good rythme, though they be the harder to make. The beſt verſe that <hi>Fraunce</hi> made, was in rythming Hexameters, of the natiuitie of Chriſt. And if he make ſo many better, I will reuerence him: If ſo many, &amp; not better (ſo that he raile not) I will commend him. I diſcommend no mans workes; for that I know none haue more defects then myne owne. For it is the enriching &amp; beautifying of our language, and the credit and glory of the verſe, that I regarde. For I am no mercinary man, nor write with an hyred penne, nor expect vaine glorie.
+<pb facs="tcp:16879:9"/> But who ſo doth ſlander theſe verſes, and cannot amend them, nor make ſo many, let him keepe his winde to coole his potage. For my anſwere ſhall be ſilence. As <hi>Diogenes</hi> anſwered one that aſked him a fooliſh queſtion; ſaying that ſilence was an anſwere fit for ſuch a fond demaund. And in reſpect of them I will ſay, as the bird ſaid to <hi>Caeſar: Operam &amp; laborem perdidi.</hi> But as for you, that are trew fauorits both of Poetry, and of this trew metricall and ſcanning verſe; I wholly ſubmit and referre my ſelfe to your fauorable cenſures and aſſiſtance: to ſee if we can yet once againe, ſet on foote this footed verſe; that it may runne ſmoothe<g ref="char:EOLhyphen"/>ly, with a grace and credit. I would I were but as <hi>Ennius</hi> to a fine <hi>Maroniſt,</hi> or to a ſkilfull <hi>Maeonides.</hi> And alſo I requeſt you to take in good part theſe ſimpel ver<g ref="char:EOLhyphen"/>ſes of mine: wherin, at idel times, I haue both taken pleaſure &amp; paines. For al thoſe that profeſſe learning (and especially ſuch as are deſcended of honor or of trew gentilitie) ſhould chiefely like of this kinde of heroicke Hexameters: as <hi>Alexander</hi> did, of <hi>Homers;</hi> or <hi>Auguſtus,</hi> of <hi>Virgils.</hi> And if theſe ſhall like you, I shall be
+<pb facs="tcp:16879:9"/> glad: and do purpoſe (God willing) yer that a yeare come about, to ſet forth ano<g ref="char:EOLhyphen"/>ther booke.</p>
+            <p>I doe not vtterly diſcommend or condemne this proſe-rythme; but do only prefer this Romane verſe farre aboue it. And I know, moſt of them that be learned wil ſo thinke; and especially when it is brought to perfection: vnleſſe they be ſome carping Cauiliſts paradoxically captius, or preiudicius. For I know, plaine ſong is good; but pricke ſong is knowne to be better: and there is great difference be<g ref="char:EOLhyphen"/>twixt an Orient pearle, and a blacke ſimpel bugel. If you finde any faults in my booke, I would requeſt you to amend them, and to ſend them in a priuie note to the Stationer. But now leaſt I ſhould be too tedious, wiſhing to you all as to my ſelfe, in our Lord and Sauiour Chriſt Ieſus; I moſt humbly take my leaue: reſting yours, in all loue and duetie to commmand.</p>
+         </div>
+         <div type="rule">
+            <pb facs="tcp:16879:10"/>
+            <head>A Briefe rule or proſodie, for the vnderſtand<g ref="char:EOLhyphen"/>ing <hi>of the quantitie of ſome peculiar wordes in</hi> this booke; vntill I haue ſet forth a Verball, or <hi>littel Dictionarie, with a Proſodia requiſite for Poetry.</hi>
+            </head>
+            <p>
+               <seg rend="decorInit">T</seg>His monaſillabel, <hi>on,</hi> being an adiectiue, is indifferent, either long or ſhort: but being an aduerbe, alwaies short.</p>
+            <p>Alſo mee, thee, yee, hee, and ſhee, are long or ſhort.</p>
+            <p>All words ending in <hi>O,</hi> are indifferent.</p>
+            <p>
+               <hi>Pre</hi> and <hi>pro,</hi> in diſſyllabels are indifferent: in triſyllabels, likewiſe indifferent; ex<g ref="char:EOLhyphen"/>cept it be in an <hi>Anapaeſt:</hi> as, preminence, preſident, preualent, and the like. In ſome
+<pb facs="tcp:16879:10"/> quadriſyllabels, long: as premeditàte, predominant, precogitate, and the like. And in ſome quadriſyllabels, long, or ſhort: as for exampel; prepoſterus preſump<g ref="char:EOLhyphen"/>tuus, and the like. The Latin &amp; the Engliſh quantitie in ſome wordes are not a<g ref="char:EOLhyphen"/>like, but are meerely diſſonant. And we are to follow our naturall prenuntiation and accent in words: Yet following the latin as neare as we may; obſeruing the right <hi>Euphonia:</hi> as for exampel; we ſay in Latin, <hi>orâtor</hi> long in <hi>ra:</hi> but in En<g ref="char:EOLhyphen"/>gliſh we make <hi>ra,</hi> in <hi>orator,</hi> ſhort.</p>
+            <p>
+               <hi>De,</hi> in diſſyllabels and triſyllabels is alwaies short. In ſome quadriſſyllabels it is long: as; demerited, depopulate, demonicall, and ſuch like: And againe in other<g ref="char:EOLhyphen"/>ſome it is either long or ſhort: as; denunciate, determinate, denominate. And in words of fiue ſyllabels it is short: as; dedication, deprehenſion: And in words of ſix ſyllabels it is long: as; determination, delapidation; and ſuch like.</p>
+            <p>My, why, thy, and by, are indifferent.</p>
+            <p>Beſides; there are ſome wordes, which ſometimes by pronunciation we make but monaſyllabels: as; ayre, fire, flowre, powre, ſhowre: which as diſſyllabels, are
+<pb facs="tcp:16879:11"/> written thus; ay-er, fy-er, flow-er, pow-er, show-er.</p>
+            <p>And likewiſe ſometime we make diſſyllabels, triſyllabels: as; deſire, de-ſi-er. re<g ref="char:EOLhyphen"/>quire, re-qui-er; aad ſuch like.</p>
+            <p>And wordes hauing doubel conſonants in the middel of diſſyllabels (as; account, attend, applauſe, afford, and the like) by figure are made short, by the detraction of a letter: as; acount, atend, aplauſe, aford: and ſo in polyſyllabels likewiſe. Laſtly ſome words are indifferent: as <hi>cre,</hi> in credit: <hi>co,</hi> in comet: <hi>pee,</hi> in peepel: &amp; <hi>ci,</hi> in ciuil; and ſuch like. Which I will, God willing, in my <hi>Verball</hi> and <hi>Proſodia</hi> ſet forth more at large. In the meane while gentel Reader, haue patience. For I meane not to compoſe theſe Hexametred verſes irregularly.</p>
+         </div>
+         <div type="author_to_book">
+            <pb facs="tcp:16879:11"/>
+            <head>The Author to his booke.</head>
+            <l>
+               <seg rend="decorInit">S</seg>Tay biſie booke for a while. What rage conſtraines thee to wander,</l>
+            <l>Like fugitiue vacabond, into the world to be ſeene?</l>
+            <l>Poſte not in haſte, ſo deform'd: let faultes be reform'd by thy maſter:</l>
+            <l>Art not aſham'd to repaire vnto the Court of a Queene?</l>
+            <l>Vnpoliſhed to repaire, to the regall throne of an Empreſſe,</l>
+            <l>Our Queene Elizabeth? onely the worldes Diamonde,</l>
+            <l>Crown'd with an eternall Diademe: whoſe glorious Highneſſe</l>
+            <l>Treaſureſ of Poetry, chiefe in all arts doth abounde.</l>
+            <l>Thou art ſcarce purifi'd, to be ſeene of her exquiſit Highneſſe.</l>
+            <l>Better I thinke it, at home ſafe in a cheſt to remaine;</l>
+            <l>Then to depart ſo deform'd, poore cloath'd, and plaine as an hermit.</l>
+            <l>Selfe loue, ſelfe arogance, makes many fooles to be faine.</l>
+            <l>If that I leaue thee ſo rude, hir Grace may worthily blame mee.</l>
+            <l>What wil a Prince, think'ſt thou, of ſo renowned a Lande,</l>
+            <pb facs="tcp:16879:12"/>
+            <l>When thou com'ſt to the Court ſo defaſte, vouchſafe to peruſe thee?</l>
+            <l>Thy reuerent Soueraigne greater afaires hath in hand.</l>
+            <l>Go not away gadding, from mee that lou'd thee ſo dearely:</l>
+            <l>But com againe, that I may once yet againe thee peruſe,</l>
+            <l>Quickly returne to thy freend, with me to remaine in a ſafety:</l>
+            <l>Com to thy maiſter againe, com to me, com to thy Muſe.</l>
+            <l>
+               <hi>Manes,</hi> that <hi>Diogens</hi> ſeruant, ran away in a fury:</l>
+            <l>Some wiſhed <hi>Diogen</hi> for to go fetch him againe:</l>
+            <l>Not ſo ſaid <hi>Diogen,</hi> but laught, and thought it a folly:</l>
+            <l>But prety booke I do ſeeke; how that I might thee retaine.</l>
+            <l>What ſhal I do? For alas, my booke runs haſtily gadding,</l>
+            <l>In metrifi'd poetry, not poetiz'd as I meant.</l>
+            <l>Some faultes you learned tolerate: fooles loue to be ſcoffing.</l>
+            <l>Since that I thee manupend, now I to late do repent.</l>
+            <pb facs="tcp:16879:12"/>
+            <l>If that he chaunce to repaire to the Court; I the Courtier exhort,</l>
+            <l>Not cauiling to deface this prety booke that I pend:</l>
+            <l>Though that he comes not adorn'd with robes; yet friendly to ſupport</l>
+            <l>And to reforme his faultes, if that he can them amend.</l>
+            <l>No body ſhal thy report, with a gloſing diſtichon extoll;</l>
+            <l>Like popular paraſite, or <hi>Thraſo</hi> grandiloquent.</l>
+            <l>Let thy deſert be thy praiſe: ſeeke not to be praiſ'd as an Idole.</l>
+            <l>Better I had thee refil'd, if that I were eloquent.</l>
+            <l>Since that I plainely do ſee, thou wilt goe from mee ſo ſimpel,</l>
+            <l>Therefore I leaue thee my booke, friendles alone to depart:</l>
+            <l>Like Peregrine pilgrime traueling but meane in aparel,</l>
+            <l>And with a name vnknowen: which is a griefe to my heart;</l>
+            <l>For that I ſee many faultes, and haue no time to reforme them.</l>
+            <l>Runne not away from me ſo: thy ſily ſtate I do rew.</l>
+            <pb facs="tcp:16879:13"/>
+            <l>For many will diſalow, and will thee ſhamefuly condemne.</l>
+            <l>
+               <hi>Zoilus</hi> is but a doult. My prety libel, adieu.</l>
+         </div>
+         <div type="author_to_book">
+            <head>A farewell to his booke.</head>
+            <l>MY prety book farewell: God ſend thee proſperus acceſſe</l>
+            <l>Vnto the Court: to the Queene vouchſafe my name to be nameleſſe.</l>
+            <l>Thy ſoueraigne Patroneſſe (if pleaſe her grace to defend thee)</l>
+            <l>Can patronize thy defectes. Whom God preſerue, as a bay tree,</l>
+            <l>Long to be predominant, with Lords of her priuie Counſail:</l>
+            <l>Namely the Lord Keeper, with learned lawes who doth excell:</l>
+            <l>That Metropolitan eake, whom I think my ſelfe to be bound to;</l>
+            <l>Th'Archbiſhop, at <hi>Lambeth:</hi> that wiſe Lord Treaſurer alſo:</l>
+            <l>And Senator <hi>Cecill;</hi> that apeares to the Realme a defender:</l>
+            <pb facs="tcp:16879:13"/>
+            <l>Sonne to the Lord <hi>Burleigh</hi> late deade, his wiſe witie father,</l>
+            <l>That ſapient <hi>Neſtor:</hi> which did by pollicy compaſſe</l>
+            <l>Much quiet vnto the Realme. For like as <hi>Caelifer Atlas,</hi>
+            </l>
+            <l>On large broad ſhoulders ſore preſſed, propped vp heauen:</l>
+            <l>So with his experience, this noble Realme was vpholden.</l>
+            <l>For why? The ſtate of a Prince conſiſteth chiefly by counſel</l>
+            <l>Of witie graue Senators, whoſe witte with vertue doth excel.</l>
+            <l>And I beſeech God bleſſe that noble pillar of highneſſe,</l>
+            <l>Glorius Earle, <hi>Talbot,</hi> ſtout Earle of <hi>Shrewſbury;</hi> doubtleſſe</l>
+            <l>Vertues trew preſident: of al humane curteſy mirror:</l>
+            <l>Mirror of armipotence. Whoſe nobel name was a terror</l>
+            <l>Vnto the Frenche Regiment: to the Crowne ſtill knowne to be conſtant:</l>
+            <l>Worthy to be credited with a Prince, as a faithfull atendant:</l>
+            <l>And to be chiefly preferd; that he may with bounty the better</l>
+            <pb facs="tcp:16879:14"/>
+            <l>Stand a defenſe to the Prince, to the Publick weale as a pillar.</l>
+            <l>And God graunt to that Earle of Oxford, mirror of highnes,</l>
+            <l>Happines in this world: God bleſſe his Ladie the Counteſſe,</l>
+            <l>
+               <hi>Elizabeth Trentam,</hi> that right trew Maiden of honnor,</l>
+            <l>Immaculat Virgin: whoſe houſe and name I doe fauor,</l>
+            <l>With reuerence as I ſhould. For I came my ſelfe of a <hi>Trentam,</hi>
+            </l>
+            <l>Aunt to thee, Lady renoun'd: yet I am not knowne to thee Madame.</l>
+            <l>Loth I am yet to be knowne. For I ſhould be knowne to the beſt ſort:</l>
+            <l>Knowne to that Earle <hi>Deuereux:</hi> whom I pray God daily to comfort.</l>
+            <l>
+               <hi>Vere, Deuereux, Talbot,</hi> three nobel principal howſes,</l>
+            <l>Ar to be greatly renoun'd, for their nobilitie peereleſſe.</l>
+            <l>
+               <note place="margin">Quae ſupra nos nihil ad nos.</note>And I do charge thee my book, with things not raſhly to meddel,</l>
+            <l>Which ar aboue our reach, that concerne vs but a littel:</l>
+            <l>Nor to detract any fame, from Peeres or States that are higheſt.</l>
+            <pb facs="tcp:16879:14"/>
+            <l>For littel meddling, of moſt is thought to be wiſeſt.<note place="margin">Ouid. Viue ti<g ref="char:EOLhyphen"/>bi, &amp; longèno<g ref="char:EOLhyphen"/>mina magna fuge.</note>
+            </l>
+            <l>As the Poet poetiz'd, that <hi>Naſo</hi> Poetical Author;</l>
+            <l>Frugaly liue to thy ſelfe: flee far from great men of honnor.</l>
+            <l>For many men that atend ſome Lords, or daily do follow,</l>
+            <l>Do but as <hi>Aeſops</hi> dogge, that a ſubſtance loſt for a ſhaddow.</l>
+            <l>Yet many men be preferd, by the meanes of great men of honnor;</l>
+            <l>Such ſpeciall perſons which they moſt dearely do fauor.</l>
+            <l>Farewel againe prety book: be dutiful vnto thy betters:</l>
+            <l>Humbly with al reuerence, ſubmit thy ſelfe to thy Rulers.</l>
+         </div>
+         <div type="dedication">
+            <head>The Dedication of the booke to the Queenes Maieſtie.</head>
+            <l>VNto the magnipotent, the renowned princeſ of <hi>Europ,</hi>
+            </l>
+            <l>Empereſ <hi>Elizabeth,</hi> this petie libel I giue.</l>
+            <pb facs="tcp:16879:15"/>
+            <l>Which I preſent to thy Grace, as a prime Primiroſe or a Couſlop,</l>
+            <l>Onely the flow-er of all our Chronicles, I beleeue:</l>
+            <l>Skilfuly pend by the knight Sir <hi>Thomas Moore</hi> then a Courtie'r,</l>
+            <l>Learned in arts: who delin'd that, that he knew to be trew,</l>
+            <l>Grounded on experience: requiſite to be read of a Ruler.</l>
+            <l>This donatiue, Soueraigne, deigne to receiue to thy view.</l>
+            <l>Giue but a grace to my verſe, it mounts, O Queene, in a moment,</l>
+            <l>Vp to the ſpang'd Element, vp to that ayry Lion:</l>
+            <l>Giue but a check to the ſame, it falles downe (throwne with a contempt)</l>
+            <l>Downe to the <hi>Tartarian</hi> riuer of hell, <hi>Phlegeton.</hi>
+            </l>
+         </div>
+         <div type="prayer">
+            <pb facs="tcp:16879:15"/>
+            <head>A prayer.</head>
+            <l>O My God, O God of hoſtes, God of <hi>Abraham,</hi> and God of <hi>Iſack,</hi>
+            </l>
+            <l>And the God of <hi>Iacob</hi> (thou that didſt regaly ranſack</l>
+            <l>
+               <hi>Tartarus</hi> infernal: who gaue himſelfe as a raunſome)</l>
+            <l>And here was crucifi'd, to redeeme our ſoules from a thraldom)</l>
+            <l>Sanctifie thy creature, inſpire thy grace to my ſpirit:</l>
+            <l>Stand my defence, guide me with thy celeſtial eyeſight.</l>
+            <l>O my God, O Sauiour, vouchſafe me grace to my ſpeaches:</l>
+            <l>Then wil I magnifie thee, my mouth ſhal ſing to thee praiſes</l>
+            <l>Vnto thee only, my God, my voice ſhall ſtil be reſounding</l>
+            <l>Perpetuall praiſes, while breath and life are abiding.</l>
+         </div>
+         <div type="letter">
+            <pb facs="tcp:16879:16"/>
+            <head>
+               <hi>The Epiſtel to the Queenes moſt excellent</hi> Maieſty, my renowned Soueraigne and Prin<g ref="char:EOLhyphen"/>ceſſe, Elizabeth, Queene of England, Fraunce, and Ir<g ref="char:EOLhyphen"/>land, &amp;c.</head>
+            <l>
+               <seg rend="decorInit">S</seg>O, I the man that am he, that afourds ſmall praiſe to the Muſes:</l>
+            <l>And yet in Hexameters, I meane to metrifie verſes,</l>
+            <l>Vnto the worldes Diamond, to the Phoenix rare; that doth excell</l>
+            <l>In pre'minence as a Prince. Whoſe praiſe my wits ar vnabel</l>
+            <l>Here to record, as I ſhould: as a worke to large, or a matter</l>
+            <l>Fit for a <hi>Maeonian</hi> fine ſkilfull penne to decypher.</l>
+            <l>Whoſe ſtout progenitours great fame, her glory doth aduance.</l>
+            <l>Which if I could Poetize, is a worke yet worthie remembrance:</l>
+            <l>Graunt to me no learning, Muſes, thou Pagan <hi>Apollo,</hi>
+            </l>
+            <l>
+               <hi>Cynthia,</hi> with <hi>Charites,</hi> thou blandiloquent mery <hi>Pytho,</hi>
+            </l>
+            <pb facs="tcp:16879:16"/>
+            <l>
+               <hi>Mercury,</hi> with <hi>Sappho, Pallas</hi> nam'd alſo <hi>Minerua,</hi>
+               <note place="margin">A contradic<g ref="char:EOLhyphen"/>tory to the Pa<g ref="char:EOLhyphen"/>ganiz'd inuo<g ref="char:EOLhyphen"/>cation.</note>
+            </l>
+            <l>Graunt to me no fauour: But thou, thou mightie <hi>Iehoua,</hi>
+            </l>
+            <l>Thou, Lord <hi>Emmanuel,</hi> Lord of celeſtial heauen,</l>
+            <l>Only God imperiall, to mee wretch terreſtrial harken.</l>
+            <l>Since litel helpe they graunt, and cannot aford any fauor;</l>
+            <l>To thoſe Idolatrous Pagan goddes, yeald not an honnor.</l>
+            <l>Yeald reuerence to the Lord; who is the creator of all vs:</l>
+            <l>And do not here atribute any praiſe, but wholy to <hi>Ieſus.</hi>
+            </l>
+            <l>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hall we gods anger, by wilful blaſphemie kindel?</l>
+            <l>When <hi>Iohn</hi> kneeled afore that bleſſed glorius Angell,</l>
+            <l>Do not ſo, ſaid he: for I am but thy felo ſeruant.<note place="margin">Reuel. 22. verſe. 8.9.</note>
+            </l>
+            <l>Giue thou praiſe to the Lord, to the Lord, that is only triumphant:</l>
+            <l>Vnto whom only belongs all praiſe, and glory for euer.</l>
+            <l>Shall we, his creatures, then adore and inuocat other?</l>
+            <pb facs="tcp:16879:17"/>
+            <l>
+               <note place="margin">24. of Leuit. v. 14. &amp; 23.</note>That ſonne of <hi>Shelomith,</hi> which gods name wilfuly blaſpheam'd,</l>
+            <l>Was not he ſton'd to death, by the Lord God rightfuly condemn'd?</l>
+            <l>Sorcerer hight <hi>Elimas</hi> was iuſtly depriu'd of his eyſight;</l>
+            <l>
+               <note place="margin">Act. 13. ver. 8. &amp;c.</note>For that he by ſpeaches did deputy <hi>Sergius</hi> excite</l>
+            <l>For to renounce our God: whom <hi>Paul</hi> and <hi>Barnabas</hi> alſo</l>
+            <l>Taught him afore to beleeue. We ſhould ſuch blaſphemie forgoe.</l>
+            <l>
+               <hi>Barnabas</hi> (in Synagogues) and <hi>Paul</hi> (that faithfull Apoſtel)</l>
+            <l>
+               <note place="margin">Act. 14. v. 12.13 14.</note>Preached at <hi>Iconium:</hi> by faith, <hi>Paul</hi> healed a crippel.</l>
+            <l>VVhen the peepel ſaw it, they would haue done to them honnor,</l>
+            <l>And brought them ſacrifice, not praiſing God the creator.</l>
+            <l>
+               <hi>Barnabas,</hi> of the peepel, was called <hi>Iupiter;</hi> and <hi>Paule,</hi>
+            </l>
+            <l>
+               <hi>Mercury:</hi> But they gaue praiſe to the Lord God imortal.</l>
+            <l>
+               <note place="margin">Act. 14. ver. 12. &amp; 13.</note>And in amongſt them went, and rent their clothes in an anger:</l>
+            <l>Wee are but creatures as you, gods glory to further.</l>
+            <pb facs="tcp:16879:17"/>
+            <l>Shall we detract any praiſe, from Chriſt, our Lord God of heauen;</l>
+            <l>Like biſy-ſnowted ſwine, which vproote hearbes from a garden?<note place="margin">Similie.</note>
+            </l>
+            <l>Let paganiz'd paraſites, that purpoſe ſmoothly to flatter,</l>
+            <l>Call to the Pagan Gods, their goddes, to reforge vp a matter.</l>
+            <l>Right reuerent Soueraigne, the renowned Princeſ of England,</l>
+            <l>Glorious <hi>Elizabeth,</hi> Queene of <hi>Fraunce,</hi> Queene of al <hi>Irland;</hi>
+            </l>
+            <l>I (he that am too too bould) this ſimpel gift, but a trifel,</l>
+            <l>Vnto thy Grace dedicate; my ſimpel ſkill to diſabel.</l>
+            <l>If that I could poetize thy deſerts, to thy glory coherent,</l>
+            <l>Might not I greatly reioyce? But I want arte, and ſkil is abſent.</l>
+            <l>Your luculent eyeſight, to my rude Muſe regaly diſtill.</l>
+            <l>For radiant ſunnebeames diſplai'd, will ſhine on a dounghill.<note place="margin">Similie. Exampel.</note>
+            </l>
+            <l>If that I were <hi>Chorilus,</hi> yet a faithfull minde of a Subiect</l>
+            <l>Deigne to receiue Soueraigne, with a princelike bountiful aſpect:</l>
+            <pb facs="tcp:16879:18"/>
+            <l>
+               <note place="margin">Plutarke, in Regum Apo.</note>Like <hi>Artaxerxes,</hi> ſtout king: whoſe gracius Highnes</l>
+            <l>Thankfuly dranke water, from palmes of ſilly <hi>Zinetes:</hi>
+            </l>
+            <l>And in a cuppe of gold, he ſent to the poore man a thouſand</l>
+            <l>Goulden maſſy <hi>darecks;</hi> yet he was but a poore ſily peaſant:</l>
+            <l>Like that princely <hi>Philippe,</hi> King of <hi>Macedonian</hi> Empire,</l>
+            <l>Who great curteſie ſhew'd, when a poore man gaue him a dinner.</l>
+            <l>And Chriſt our Sauiour, vouchſafte to receiue of a woman,</l>
+            <l>
+               <note place="margin">4. cha. of Iohn verſ. 6.7.8.</note>Which was a <hi>Samaritan,</hi> water drawne forth of a fountaine,</l>
+            <l>Named <hi>Iacobs</hi> well: and Chriſt ſaid; If ſhe the perfitte</l>
+            <l>Gift of God did know, and him that did ſo demaund it,</l>
+            <l>She would haue aſked Chriſt <hi>Ieſus</hi> freely the water</l>
+            <l>Of life eternall: who could that water aford her.</l>
+            <l>Deigne then an eare to my Muſe, thou Queene, whom mighty <hi>Iehoua</hi>
+            </l>
+            <pb facs="tcp:16879:18"/>
+            <l>Regaly doth beatize, as a fortunate <hi>Elizabetha.</hi>
+            </l>
+            <l>Whoſe very magnificence to the type of glory doth aſcend:</l>
+            <l>Which to the world al abroad, thy regall vertue doth extend.</l>
+            <l>
+               <hi>As Phoebe</hi> with radiant bright beames, this world doth iluſtrate:<note place="margin">Similie.</note>
+            </l>
+            <l>So to thy Realme (O Prince) thou do'<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> thy mercy promulgate.</l>
+            <l>All pretious Diamondes, and pearles do not equaly gliſter:<note place="margin">Similies.</note>
+            </l>
+            <l>Some ſtarres more glitering: one Prince ſurmounteth another:</l>
+            <l>So my benigne Soueraigne, thou Queene (our gratious Empreſſe)</l>
+            <l>Art as a trew period, of trew perfection endleſſe:</l>
+            <l>Like to the ſtarres in ſky, to the ſand inbountabel, in ſea:<note place="margin">Similie</note>
+            </l>
+            <l>So be the Lords benefits to thy ſelfe, O Queene, to thy Country.</l>
+            <l>For why? The Lord God of Hoſtes preſerues thy proſperus eſtate,</l>
+            <l>Gainſt forraine enemies: whoſe drifts he decrees to be fruſtrate.</l>
+            <pb facs="tcp:16879:19"/>
+            <l>
+               <note place="margin">Sentence.</note>For men on earth purpoſe: but God that ruleth in heauen,</l>
+            <l>Ruleth on earth as a God. Iuſt God diſpoſeth of all men.</l>
+            <l>Gods prouidence hiden is. What man can poſſibly foreſhew,</l>
+            <l>What future age wil afourd? God alone mans deſtiny doth know.</l>
+            <l>That God aboue, god alone, preſerue thy Grace as a Patterne</l>
+            <l>Long to be Septriferent, this ſtout Realme wiſely to gouerne.</l>
+            <l>And for al his benefits, let vs all to the Lord God of Hoſts graunt</l>
+            <l>Perpetuall praiſes: who to thee ſtill ſtands as a Gardaunt:</l>
+            <l>Rightfuly crowned a Queene, as a rightfull Queene, as a right heire</l>
+            <l>Vnto the regal Crowne, and lawfuly knowne to be daughter,</l>
+            <l>Of King <hi>Henry</hi> that eight, late King: wo rul'd as a puiſant</l>
+            <l>Conquerer of kingdomes, with fame and glory triumphant.</l>
+            <l>
+               <note place="margin">Grafton.</note>His father <hi>Henry</hi> the ſeau'nth, thy wiſe ſtout grandfather, obtain'd</l>
+            <l>Th'imperiall diademe: who vice and tyrany diſdain'd;</l>
+            <pb facs="tcp:16879:19"/>
+            <l>As Chronicles do report. This King, by the States priuie conſent,</l>
+            <l>Elizabeth maried, promiſed by former agreement:</l>
+            <l>Which was a <hi>Plantagenet,</hi> firſt and eld'ſt daughter of <hi>Edward,</hi>
+            </l>
+            <l>Namely the fourth: who ſlew at <hi>Boſworth</hi> field bludy <hi>Richard,</hi>
+            </l>
+            <l>That tyranus cruel hogge, moſt worthily plagu'd for ofences.</l>
+            <l>He, by the ſaid mariage, did vnite thoſe notabel houſes,</l>
+            <l>
+               <hi>Yorke</hi> and <hi>Lancaſter:</hi> whoſe long contentius enuy</l>
+            <l>Cauſ'd ciuil inteſtine warfare. This conquerus <hi>Henry,</hi>
+            </l>
+            <l>Venturus and valiant, was aſygn'd by the Lord to be ruler.</l>
+            <l>Euery King hath a time. Thus this worlds glory doth alter.<note place="margin">
+                  <hi>Virg.</hi> Sic tra<g ref="char:cmbAbbrStroke">̄</g>ſit gloria mundi.</note>
+            </l>
+            <l>I he that once could not, nor meant, in heroical engliſh</l>
+            <l>Rythmecal Hexameters, any book ſo timely to publiſh:</l>
+            <l>Yet when I knew that I could compoſe new rythmery verſes,</l>
+            <l>Lately become metricall, which are right verſes of Antike;</l>
+            <pb facs="tcp:16879:20"/>
+            <l>Then did I wiſh, that I could dedicate ſuch bookes to thy perſon,</l>
+            <l>Worthy ſo great a Regent; thy deſerued glory to blazon:</l>
+            <l>Which fro the Eaſt, to the Weſt, doth ſpread Whoſe fame to decypher,</l>
+            <l>More praiſe demeriteth, then I can now poſſibil vtter.</l>
+            <l>
+               <note place="margin">Similie.</note>Like as a Cryſtall ſpring tranſparent vnto the bottome,</l>
+            <l>Flowes with a ſiluer ſtreame: So (puiſant Prince) to thy kingdome,</l>
+            <l>And to thy Common weale, thou ſhew'ſt thy ſelfe as a Princeſſe</l>
+            <l>Mercifull, and liberall thy good life vertue doth expreſſe.</l>
+            <l>God to thee gaue many gifts; <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> brethen my minde can imagine:</l>
+            <l>Which do atract to thy ſelfe moſt hearts with a force A<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>amantine.</l>
+            <l>I he the ſame man afore, as a man ſcarce knowne to the Muſes,</l>
+            <l>Boldly preſume to preſent foote-ſcanning rythmery verſes.</l>
+            <l>Vnto thee, worlds Soueraigne: vouchſafe, O Queene, to peruſe them:</l>
+            <l>Stand as a Princely Patrone, nor (ofenſiue) iuſtly me condemne.</l>
+            <pb facs="tcp:16879:20"/>
+            <l>If tonitr'ant biſie <hi>Ioue</hi> ſhould alwaies ſtrike in his anger,<note place="margin">Poeticè Si quoties pec<g ref="char:EOLunhyphen"/>cant, &amp;c.</note>
+            </l>
+            <l>Euery man that ofends, with lightning flame of a thunder,</l>
+            <l>Should not he then be bereft or deſpoild quite of his armor?</l>
+            <l>So if I haue many faults, yet good Queene ſtand my protector.</l>
+            <l>And I with all reuerence, do beſeech your gratious Highnes,</l>
+            <l>Though many things at amiſſe, yet pardon graunt to my rudeneſſe.</l>
+            <l>Though that I, <hi>Maeonides</hi> (who writeth of <hi>Hector, Achilles,</hi>
+            </l>
+            <l>Of <hi>Troilus, Diomede,</hi> of craft-contriuer <hi>Vliſſes</hi>)</l>
+            <l>Nor <hi>Maro Laureat</hi> am (who the laurel crowne to the <hi>Romans</hi>
+            </l>
+            <l>Wanne, as a Princely Poet: who recorded fame to the <hi>Troians</hi>)</l>
+            <l>Yet, for a zeale that I haue, theſe <hi>primor</hi> fruites of a Subiect</l>
+            <l>(Lately beſeem'd a Poet) with a regall friendlines accept:</l>
+            <l>For why? My pipe is of Ote, not <hi>Apollos,</hi> ſkilfuly compact:<note place="margin">Poeticè.</note>
+            </l>
+            <l>Nor <hi>Ciceroes</hi> eloquence I retaine; for a worke that is exact.</l>
+            <pb facs="tcp:16879:21"/>
+            <l>Truly thy Princely benigne acceptance of my beginnings,</l>
+            <l>Shall my minde animate, to record ſome greater atemptinge.</l>
+            <l>For my delight (O Queene) my drift and only my purpoſe,</l>
+            <l>Is to record Chronicles; metricall verſe fitly to compoſe,</l>
+            <l>And to refyne our ſpeach, to procure our natural engliſh,</l>
+            <l>Far to be more elegant; that verſe may ſkilfuly floriſh.</l>
+            <l>Which when it is re'difi'd, eloquent, and knowne to be perfit;</l>
+            <l>Vnto thee, and to thy Realme (O puiſant Prince) what a credit?</l>
+            <l>Hexameters will amend our ſpeach (thou ſacred <hi>Eliza</hi>)</l>
+            <l>Publiſh an Orthography, and teach vs a trew <hi>Idioma.</hi>
+            </l>
+            <l>Stories are requiſite to be read of States that are higheſt,</l>
+            <l>As Kings imperial, thron'd in regalitie chiefeſt.</l>
+            <l>If ſo be that Chronicles had not bin ſkilfuly written;</l>
+            <l>Kinges valiant exployts, lordes fame, and knightes valor had bin</l>
+            <pb facs="tcp:16879:21"/>
+            <l>Drowned in obliuion. For time (fames greedy deuowrer)<note place="margin">Similie.</note>
+            </l>
+            <l>Leaues fame vnmemoriz'd; as a tree conſum'd with a canker.</l>
+            <l>Hiſtoricall Chronicles well penn'd by the learn'd (as aforeſaid.)</l>
+            <l>Doth manifeſt repreſent (as a Comedy ſhewes, on a ſtage plaid)</l>
+            <l>Mens vice, and vertues:<note place="margin">Similie. Similie.</note> as a trew glaſſe viſibly doth ſhew</l>
+            <l>Mens face, and fauor; their faults in viſnomy to viewe.</l>
+            <l>For by the great diligence of men, mans memorie (chiefeſt</l>
+            <l>Treaſurer of knowledge; with learning ſkilfuly furniſht)</l>
+            <l>Enroules in Chronicles the renowned deeds of heroick</l>
+            <l>And valiant Worthies, their fame and victorie warlike.</l>
+            <l>For Chronicles do recite faults, and falles, of many Princes,</l>
+            <l>Horribly that tyraniz'd, ſore plagu'd for their ſory vices.</l>
+            <l>Was not lofty <hi>Babel,</hi> firſt built by proude ſory <hi>Nimrod?</hi>
+            </l>
+            <l>Whoſe arogance had a fall:<note place="margin">Geneſis ch. 10. &amp; 11.</note> and was not mercileſ <hi>Herod</hi>
+            </l>
+            <pb facs="tcp:16879:22"/>
+            <l>
+               <note place="margin">
+                  <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>t. 12 v 21.23 <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>tonius fol. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. cha. 49. Chro. ch. 13. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſ. 20 <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>f kings ch. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>er. 24.</note>By greedy vermin ſpoild, that murdred ſo many children.</l>
+            <l>And <hi>Nero</hi> that tyrrant, the deteſted monſter of all men,</l>
+            <l>Stab'd himſelfe with a knife. That wicked King <hi>Ieroboam</hi>
+            </l>
+            <l>Plagu'd by the Lord, that he di'd. And lewd vngodly <hi>Iehoram</hi>
+            </l>
+            <l>Was by godly <hi>Iehu,</hi> through ſhoulders ſhot with an arrow,</l>
+            <l>Which through pearced his heart, that he languiſht for very ſorrow.</l>
+            <l>When that a Prince hath a will, whoſe will doth ſtand for a reaſon,</l>
+            <l>Lulled in errors lappe; that will infectes, as a poyſon</l>
+            <l>Both to the King, and Realme. For wherein proud ſory Princes</l>
+            <l>
+               <note place="margin">
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>race. Quic<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>d delirant <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ges plectun <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Achiui. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>milie.</note>Fondly delyre, pitiles Subiects ar plagu'd with a witneſſe.</l>
+            <l>Thankes be to God, our Queene doth rule with ſinguler aduice:</l>
+            <l>And with mercy benigne, as a Prince dotb quallifie iuſtice.</l>
+            <l>Our Soueraigne doth apeare, as goulden <hi>Cynthia</hi> ſhining</l>
+            <l>Glides by the firme Element, her bright beames cheerefuly ſhewing</l>
+            <pb facs="tcp:16879:22"/>
+            <l>Vnto this earthly <hi>Chaos:</hi> So her grace (glorius extant)</l>
+            <l>Shines to the common wealth, with loue, and mercy regardant:<note place="margin">Similie.</note>
+            </l>
+            <l>Whoſe ſpeciall rare gifts, and vertues daintily luſture,</l>
+            <l>Like Orient Diamonds, or ſplendent pearles on a veſture.</l>
+            <l>All you princely Regents, you Kings (well knowne to be Rulers)</l>
+            <l>Learne to refraine from ſinne. Our Lord God terribly ſinners</l>
+            <l>Impenitent doth plague: not a King, nor an Emperor he ſpares:</l>
+            <l>All eſtates are alike. Who with gods dignitie compares?</l>
+            <l>Caſt downe your Diadems, your Crownes and dignity deſpiſe:</l>
+            <l>Meere vanities count them, but ſeeke to do good, to do iuſtice.</l>
+            <l>Yeald reuerence to the Lord, to the Lord your duty to performe,</l>
+            <l>You are Chriſtes Subiects, your Subiects peaceably gouerne.</l>
+            <l>Your pre'minence but a charge, your life but a blob, but a bloſſom.</l>
+            <l>When death ſtrikes with a dart, what auaileth a King or a Kingdom?</l>
+            <pb facs="tcp:16879:23"/>
+            <l>
+               <note place="margin">
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>mus in <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>a. de mor<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </note>That Platoniſt, <hi>Socrates,</hi> did afirme, that a mans bodie liuing,</l>
+            <l>Was but a graue to the ſoule; which to felicitie laſting,</l>
+            <l>Should by deſerts demigrade: moſt diuine ſpeach of an heathen.</l>
+            <l>For by the faith in Chriſt, we come to the kingdome of heauen,</l>
+            <l>
+               <note place="margin">
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ilie.</note>As radiant rud-y <hi>Phoebe</hi> exhales his vapory moyſture</l>
+            <l>Vnto the firme Element, with his ardent hote ſun-y luſture:</l>
+            <l>So the God omnipotent, our ſoules with ſinnes heuie loden,</l>
+            <l>Freely by mercy benigne, extolles to the kingdom of heauen.</l>
+            <l>
+               <note place="margin">
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ilie.</note>Death bringes euery thing to decay. For like as a freſh flower</l>
+            <l>Springs for a time redolent; but can not poſſibil endure:</l>
+            <l>So doth a king for a while reigne with great dignitie preſent;</l>
+            <l>Whoſe great glorie decaies, whoſe prowde pompe dures but a moment,</l>
+            <l>Like as a man doth in yeares wax ould, ſo ſhould he be wiſer:</l>
+            <l>And as he groweth in age, ſo ſhould his life be the beter.</l>
+            <pb facs="tcp:16879:23"/>
+            <l>Thinke this world to be vaine, and thinke this life to be mortal:</l>
+            <l>And to the King of Kings, let vs yeald out ſelues to be loyal.</l>
+            <l>Who to redeeme our ſoules, ordained his only begotten,</l>
+            <l>Only beloued ſonne, to be ſent downe freely from heauen,</l>
+            <l>And to be here crucifi'd (as a ſinleſſe man for a ſinner)</l>
+            <l>To mitigate Gods wrath, t'appeaſe his infinit anger.</l>
+            <l>Who by the death that he di'd, hath cleanſ'd vs freely from euill:</l>
+            <l>For that he conquered hath ſinne, death, and alſo the Diuel.</l>
+            <l>Whiles we do liue, let vs al liue wel. Time ſtaileſ away leapes,<note place="margin">Similies.</note>
+            </l>
+            <l>Like as a cloud vaniſheth. For as euery ſteppe that a mans ſteppes,</l>
+            <l>Is but a ſteppe to the graue: ſo plodding age, <hi>pedetentim</hi>
+            </l>
+            <l>Stouping, creepes on a paſe. Age is to death as a pilgrim,</l>
+            <l>Which for a time dothabroad wander; but in end he returnes home:<note place="margin">Similie.</note>
+            </l>
+            <l>So for a time we do liue, but in end death will be the bridegroome.</l>
+            <pb facs="tcp:16879:24"/>
+            <l>
+               <note place="margin">
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tence. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ilie.</note>No body can ſtay time. Time ſtaies for no body. Time ſwift</l>
+            <l>Flyeth away on apaſe, as a bird that flyes from a mans ſight.</l>
+            <l>Therefore Princely Regents both vice and tyrranny forgoe.</l>
+            <l>
+               <note place="margin">
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>k. ch. 8. <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>. 36.</note>For what auaileth a King, what auaileth an Emperor alſo,</l>
+            <l>If that he loſe his ſoule, to liue here fortunat alway?</l>
+            <l>As patient <hi>Iob</hi> ſaid, each mortall King to thy ſelfe ſay;</l>
+            <l>
+               <note place="margin">
+                  <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>. ch. 1, ver.</note>Naked I came to the world, fro the world hence naked I ſhall go:</l>
+            <l>Formed of earth was I firſt, to the earth yet againe ſhall I turne to.</l>
+            <l>
+               <note place="margin">
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>leſiaſtes. 1.</note>That ſapient <hi>Salomon</hi> naught here, but vanitie, could finde,</l>
+            <l>With manyfould miſeries, with great vexation of minde.</l>
+            <l>What man aliue can afourd (as gods word plainly doth expreſſe)</l>
+            <l>
+               <note place="margin">
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t. 6.27. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rouerbe.</note>One cubit vnto his height, by carking eares that ar endleſſe?</l>
+            <l>Let not a man be to bolde, though God be mercifull, and ſtaies.</l>
+            <l>For when he ſtrikes, his ſtroke is a ſtroke importabil alwaies:</l>
+            <pb facs="tcp:16879:24"/>
+            <l>And then he plagues, when he ſtrikes. For where th'almighty <hi>Iehoua</hi>
+            </l>
+            <l>Rightfuly plagues for ofenſe, what auaileth a mans <hi>cataplaſma?</hi>
+            </l>
+            <l>For with a ſlouthfull paſe gods anger goes to reuengement:</l>
+            <l>But when he comes, he rewards eternall paines for a torment.</l>
+            <l>Here I wil end, O Queen. O Lord our only creator,</l>
+            <l>(Our Lord <hi>Emmanuel,</hi> our Chriſt and ſole mediator)</l>
+            <l>Adde to thy life many yeares, as he did to the King <hi>Ezechias:</hi>
+               <note place="margin">2. of Kings. ch. 20. ver. 6.</note>
+            </l>
+            <l>Safely defend thee from harme, as he ſafely preſerued <hi>Elias:</hi>
+            </l>
+            <l>And that he graunt to thy Grace, after this life (as a choſen</l>
+            <l>Veſſel of his, purify'd) ioyes in Celeſtiall heauen;</l>
+            <l>Ioyfuly there to remaine with Ieſus Chriſt the Redeemer,</l>
+            <l>Imparadiz'd as a Saint, with Saints in glory for euer.</l>
+            <l>As two Greeke letters in Grecian Alphabet, <hi>Alpha,</hi>
+            </l>
+            <pb facs="tcp:16879:25"/>
+            <l>Firſt letter plaſte is; but placed laſt is <hi>Omega:</hi>
+            </l>
+            <l>So wil I continuall, firſt and laſt, praiſe thee for euer;</l>
+            <l>If that I could Poetize, as I would; thy glory to further.</l>
+            <closer>
+               <signed>Your Graces Subiect, in faith, loue, duty to commaund:</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div n="1" type="book">
+            <pb facs="tcp:16879:25"/>
+            <head>THE FIRST BOOKE OF The preſeruation of King Henry the vij. <hi>when he was but Earle of Richmond.</hi>
+            </head>
+            <l>
+               <seg rend="decorInit">O</seg> Father Omnipotent, our Lord and only Redeemer,</l>
+            <l>(Which on a throne, deifi'd, there ſits, and ſhines as a <hi>Iaſper,</hi>
+            </l>
+            <l>And as a <hi>Sardine</hi> ſtone, incompaſt round with a Raine-bow,<note place="margin">The firſt part of the Reue<g ref="char:EOLhyphen"/>lation of Saint Iohn in effect, verbatim.</note>
+            </l>
+            <l>Like to the bright Emeraud) with thy grace my ſpirit endow.</l>
+            <l>From which throne, lightnings, voices, with lowde flaſhy thunders</l>
+            <l>Duly proceed. Where fowre and twenty colaudabil Elders</l>
+            <l>Seated in as many ſeats, all cloth'd with a white lily garment,</l>
+            <l>Crown'd with Crownes of gould, on their heads ſtately refulgent.</l>
+            <pb facs="tcp:16879:26"/>
+            <l>Seauen Lampes of fire, ar there eternaly burning:</l>
+            <l>Gods very godly ſpirits, on God there faithful atending.</l>
+            <l>Neare to the throne is a ſea of glaſſe, which ſhin'd as a Cryſtal.</l>
+            <l>There fowre beaſts ful of eyes ar about that ſtately Tribunal:</l>
+            <l>Firſt was like a Lyon, next ſeemed a calfe to reſembel,</l>
+            <l>Third had a face of a man, fourth beaſt was form'd as an eagel.</l>
+            <l>Euery beaſt of them, ſix wings had them to belonging:</l>
+            <l>And ful of eyes ar within, day and night ioyfuly ſinging</l>
+            <l>Three times, holy be God th'almightie, that euer is holy:</l>
+            <l>Holy before which was, which is, which ſhal be God only.</l>
+            <l>And when thoſe fowre beaſts gaue praiſe to the Lord God Ieſus,</l>
+            <l>Which on that throne ſate (who for euer liu'd, who redeem'd vs)</l>
+            <l>Thoſe reuerent Elders their Crownes commendably threw downe,</l>
+            <l>And fell flatly before that Lord, that ſate on a Tribune:</l>
+            <pb facs="tcp:16879:26"/>
+            <l>Worſhiped him that liu'd, and liues with glory for euer.</l>
+            <l>For thou glory deſeru'ſt, that made all things by thy power.</l>
+            <l>Vnto whom Archangels, and Angels greatly reioycing,</l>
+            <l>With Cherubins, Seraphins, are there eternaly ſinging.</l>
+            <l>Thou father only my God, which art, waſt, ſhalt be for euer:<note place="margin">Gen. ch. 1. ver. 1.2. &amp;c.</note>
+            </l>
+            <l>Who the tereſtriall Orbe (which ſtaies it ſelfe by the Center)</l>
+            <l>Quadruply partiting; fire, ayre, earth, watery ſubſtance,</l>
+            <l>Out of an vgly <hi>Chaos</hi> did'ſt frame, and ſtore with abundance</l>
+            <l>Of ſeuerall creatures, and made man laſt (as an image</l>
+            <l>Like to thy ſelfe) vpright, to behold this globe with a viſage:<note place="margin">Gen. ch. 1. v. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> &amp;. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>7.</note>
+            </l>
+            <l>Placed him in <hi>Paradice,</hi> in a ſacred garden, in <hi>Eden:</hi>
+            </l>
+            <l>Where, by the fondnes of <hi>Eue,</hi> they loſt thoſe ioyes then of heauen:</l>
+            <l>Thou Lord only for aye, whoſe power and glory ſupernall</l>
+            <pb facs="tcp:16879:27"/>
+            <l>
+               <note place="margin">Geneſis ca. 2. verſ. 2.</note>This ſtar-y ſpang'd Element, and this whole world vniuerſal</l>
+            <l>Made (as a mightie Monarche) n ſix daies; only the ſeauenth</l>
+            <l>Day he reſeru'd to be kept, as a ſacred day, as a Saboth:</l>
+            <l>Which God by <hi>Moyſes</hi> did apoint and conſecrat holy:</l>
+            <l>And that day to be kept (by the cou'nant) from labor, only.</l>
+            <l>Thou, he the ſame very God, three perſons, one God in eſſence,</l>
+            <l>
+               <note place="margin">Exod. ca. 20. ver. 8.9.10.</note>Raiſe vp aloft to thy ſelfe, my weake ſpirit hale to thy preſence.</l>
+            <l>Leauy the lines that I write, let thy law ſtill be my load-ſtarre;</l>
+            <l>Still to direct mee my courſe, here trewly to write; that I differ,</l>
+            <l>No not a word, fro thy word; that I may in minde as a Chriſti'an</l>
+            <l>Glorify Chriſt crucifi'd; to deteſt that ſect of a Pagan.</l>
+            <l>Sanctify me, my <hi>Iehoue,</hi> in Chriſt I repoſe al afiance:</l>
+            <l>Therefore I humbly beſeech, of thee my Lord, an aſiſtance:</l>
+            <l>Grant that I may Poetize that credibil hiſtory, written</l>
+            <pb facs="tcp:16879:27"/>
+            <l>By Sir <hi>Thomas Moore;</hi> of an engliſh ſtory the maiden.</l>
+            <l>For why? The learned knight wrote that, that he knew to be certaine;</l>
+            <l>Trouth, with his art to deline, credit of both ſafely to maintaine.</l>
+            <l>For that he was then aliue in Court, in prime of his young yeares:</l>
+            <l>And by that experience, that he knew and learned of others</l>
+            <l>By good inteligence, he reſeru'd for his hiſtorie faultleſſe;</l>
+            <l>Thereby the truthe to deline; quite voide of flattery doubtleſſe.</l>
+            <l>Which when he had manupend, in briefe proſe ſkilfuly finniſht,</l>
+            <l>Streight he the ſame (to be knowne) in print did apoint to be publiſh<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>.</l>
+            <l>In which book I do meane, by the grace of God, to deliuer</l>
+            <l>Nothing els but a trouthe; gods name and glory to further:</l>
+            <l>Nor with a penne that is hyr'd, I write; verſe ſmoothly to compile,<note place="margin">Similie</note>
+            </l>
+            <l>Like glauering paraſite; with a veile, lewde ſtates to depenſile.</l>
+            <l>If ſo that enuy repine, and ſlaundring tongues do calmunize</l>
+            <pb facs="tcp:16879:28"/>
+            <l>Trouth wil in end be my praiſe, and ſhame the reward to the diueliſh.</l>
+            <l>Feare not at all, ſil-y Muſe, to report ſo thankleſ an errant:</l>
+            <l>Boldly declare to the beſt, their faults: trouth ſhal be thy warrant.</l>
+            <l>This Knight Sir <hi>Thomas,</hi> was made Lord Chaunceler after:</l>
+            <l>Who was knowne to be learn'd,, of a chiefe aſſembly the ſpeaker:</l>
+            <l>
+               <note place="margin">Grafton.</note>He both loſt his life, of his office made a refuſall,</l>
+            <l>For that he would not agree to the Kings ſupremacy regal.</l>
+            <l>My Muſe incouraged (firſt praiſing God as a giuer</l>
+            <l>Of all good benefits) theſe words ſhe began to deliuer:</l>
+            <l>North Soueraigne <hi>Phoenix,</hi> thou ſtout Queene, famus <hi>Eliza,</hi>
+            </l>
+            <l>Of grace and ſapience (peereleſſe Prince) ſacred <hi>Idea,</hi>
+            </l>
+            <l>Deigne with a gratius eye, to peruſe (O Chriſtian Empreſſe)</l>
+            <l>This prety booke manupend, manumiz'd to thy gratius Highneſſe.</l>
+            <l>Al you earthly Kings, you Kings aduenturus, hearken:</l>
+            <pb facs="tcp:16879:28"/>
+            <l>You States pontificall, with atentiue eares to me liſten:</l>
+            <l>You Lords imperiall, of her Highneſſe wiſe priuie Counſel,</l>
+            <l>(Whoſe ſapient wiſdomes to record, my wits are vnabel)</l>
+            <l>You Lords, in generall, that atend in Court on a Princeſſe</l>
+            <l>(Only the worlds Soueraigne) lend liſtning eares to my verſes:</l>
+            <l>You Catholike Diuines, graduat diuinity Doctors,</l>
+            <l>Which be the ſauory ſalt, of Gods word liuely profeſſors:</l>
+            <l>You ſapient Senators of Innes of Court, that are ordain'd</l>
+            <l>To miniſter Iuſtice, by the Queenes authoritie conſtrain'd:</l>
+            <l>Arts reuerent <hi>amatiſts,</hi> of both<note n="*" place="margin">Figure.</note> Vniuerſity famus</l>
+            <l>(Whoſe Orient fine wits, of Romane verſe be deſirus)</l>
+            <l>Deigne to beholde this verſe, although it ſeeme but a trifel.</l>
+            <l>For many times you ſee, that a pearle is found in a Muſkel.<note place="margin">Similie.</note>
+            </l>
+            <l>Here I do meane to recite, how our Queenes Grandfather, <hi>Henry,</hi>
+            </l>
+            <pb facs="tcp:16879:29"/>
+            <l>That King magnanimus, with a ſtout and conquerus armie,</l>
+            <l>With valerus chiuiſance, did a tyrrant manfuly conquer,</l>
+            <l>
+               <hi>Richard,</hi> lately the King, that vile, and ſhameful vſurper:</l>
+            <l>
+               <hi>Henries</hi> fame to report, in ſcanning verſe, as I purpoſe:</l>
+            <l>Prince <hi>Edward</hi> ſtratagiz'd, and <hi>Richards</hi> tyrrany diſcloſe.</l>
+            <l>
+               <note place="margin">Grafton.</note>When ſtout King <hi>Edward,</hi> at a field neere <hi>Teuxbury</hi> gotten,</l>
+            <l>Where Queene <hi>Marg'ret</hi> was, with her eld'ſt ſonne, forcibly taken,</l>
+            <l>Nam'd to be Prince <hi>Edward:</hi> which was there bluddily murdred</l>
+            <l>By tyranus <hi>Richard,</hi>
+            </l>
+            <l>And ſhe ſent priſoner to <hi>London:</hi> where ſhe remained</l>
+            <l>Till that her owne father had, (that french Duke nam'd to be <hi>Reiner,</hi>
+            </l>
+            <l>Of <hi>Sicyl</hi> alſo the King) with a raunſome kindely redeem'd her.</l>
+            <l>When <hi>Iaſper</hi> (ſtout Earle of <hi>Pembrooke</hi>) natural vncle</l>
+            <l>Vnto this Earle <hi>Richmond,</hi> when he knew how ſtoutly the battel</l>
+            <pb facs="tcp:16879:29"/>
+            <l>Was fought and manupriz'd, and ſaw all things to go backward:</l>
+            <l>How ſtout Earle <hi>Warwick,</hi> was ſlaine by conquerus <hi>Edward,</hi>
+            </l>
+            <l>And how <hi>Henry</hi> the ſixt in Towre ſafe kept was abiding:</l>
+            <l>How London citizens diſdain'd him, now to be their King:</l>
+            <l>How his confederates, and frieends grew weaker on each ſide:</l>
+            <l>And how King <hi>Edward,</hi> himſelfe and his coſen enui'd;</l>
+            <l>Wittily conſidering (as a wiſe Earle) ſought to preuent it,</l>
+            <l>Both their liues to preſerue, where they might ſafer inhabit.</l>
+            <l>In peril ambiguus, that courſe is beſt to be taken,<note place="margin">Sentence.</note>
+            </l>
+            <l>Which ſhal auaile to do good. In time priuy danger is holpen:</l>
+            <l>As by the ſequel apeares.</l>
+            <l>Mindfuly Muſe memorize, firſt how this vertuus <hi>Henry</hi>
+            </l>
+            <l>(Saued aliue many times, by the Lords protection only)</l>
+            <l>Came to the Crowne as a King, here ſent by the Lord his apointment:</l>
+            <pb facs="tcp:16879:30"/>
+            <l>Sent to the Realme as a Prince, that ſhould here make an atonement.</l>
+            <l>
+               <note place="margin">Exampels in diuers places of the Bibel.</note>For Gods ſacred elect are ſtraungely preſeru'd by the Lord God.</l>
+            <l>Our Lord and Sauiour was ſau'd from murtherus <hi>Herod:</hi>
+            </l>
+            <l>From the Lyons, <hi>Daniel:</hi> from ſtrength of mighty <hi>Golias,</hi>
+            </l>
+            <l>Holy <hi>Dauid: Ioſeph,</hi> from brethren: faithful <hi>Elias,</hi>
+            </l>
+            <l>From wicked <hi>Ieſabel:</hi> that younger godly <hi>Tobias</hi>
+            </l>
+            <l>Sau'd by the Lords Angell: and was not truſtily <hi>Ionas</hi>
+            </l>
+            <l>Kept in a whales bely ſafe, three nights? God ſau'd <hi>Machabeus:</hi>
+            </l>
+            <l>
+               <hi>Noe</hi> with his owne families, was ſau'd from deſtiny grieuus:</l>
+            <l>
+               <note place="margin">Exod. ch. 2. v. 6.7.8.9.</note>
+               <hi>Moſes</hi> throwne in a flagge, to be drown'd, was ſau'd by the daughter</l>
+            <l>Of tyranus <hi>Pharaoh,</hi> manumiz'd to be nurſt by the mother:</l>
+            <l>
+               <hi>Iſrael,</hi> and <hi>Shadrach, Meſhach</hi> with <hi>Abednego</hi> likewiſe.</l>
+            <l>
+               <note place="margin">Grafton. fol. 712. Edw, 4.</note>Gods diuine prouidence his bleſſed will wil acompliſh.</l>
+            <l>Firſt when he was but an Earle, he being then but of young yeares,</l>
+            <pb facs="tcp:16879:30"/>
+            <l>Was by the Lords prouidence preſerued from many dangers</l>
+            <l>And peril of loſing his life, and life of his vncle</l>
+            <l>Martial Earle <hi>Pembrocke:</hi> who behau'd himſelfe as a nobel</l>
+            <l>And valiant Chiuali'r, when they were like to be taken</l>
+            <l>By <hi>Roger</hi> hight <hi>Vaghan;</hi> whoſe craft was ſpeedily foreſeene:</l>
+            <l>And he the ſaid <hi>Vaghan,</hi> who thought them ſurely to murder,<note place="margin">Grafton. fol. eodem.</note>
+            </l>
+            <l>Rightly receiued a death, that he purpoſ'd falſely for other.</l>
+            <l>Thoſe fraudulent Iudges, that acuſed falſly <hi>Suſanna,</hi>
+            </l>
+            <l>Rightfuly were condemn'd, by the Prophet ſent by <hi>Iehoua;</hi>
+            </l>
+            <l>Worthily ſton'd to death, as they had wrongfuly iudged</l>
+            <l>Godly <hi>Suſanna</hi> to die: thus God th'vngodly rewarded.<note place="margin">Hiſtory of Su<g ref="char:EOLhyphen"/>ſanna. Eſter.</note>
+            </l>
+            <l>And on a Gallow tree, that proud preſumptuus <hi>Hamon</hi>
+            </l>
+            <l>Rightly was hang'd, that aledg'd to guiltleſſe <hi>Mardoche</hi> treaſon,</l>
+            <l>This foreſaid <hi>Vaughan</hi> was charg'd, by the King his apointment,</l>
+            <pb facs="tcp:16879:31"/>
+            <l>For to aprehend thoſe Earles; but he therein miſt of his intent.</l>
+            <l>Each ſelf-will of a King, or commaund, is not a godly</l>
+            <l>Thing to be done. For a Prince enraged fiercely with enuy,</l>
+            <l>Seekes to do wrong cauſeleſſe; which God will auenge in his anger.</l>
+            <l>(For God on high, God aboue, knowes all) for he plagues an ofender.</l>
+            <l>Marke what a chaunce foloed. Theſe Earles fled thence to the Caſtel.</l>
+            <l>
+               <note place="margin">Grafton.</note>Of <hi>Pembrooke:</hi> who were eftſoones purſu'd by the ſubtil</l>
+            <l>Fierce <hi>Morgan Thomas,</hi> who the Caſtel ſtrongly beſieged,</l>
+            <l>Enuironed with a trench: yet they were ſafely preſerued</l>
+            <l>By <hi>Dauid ap Tbomas,</hi> who the ſiege raiſ'd; yet very brother</l>
+            <l>Vnto the ſaid <hi>Morgan.</hi> Can men gods purpoſes alter?</l>
+            <l>
+               <note place="margin">1. Sam. ch. 20. ver. 35, &amp;c.</note>Was not godly <hi>Dauid,</hi> by the meanes and faithful atonement</l>
+            <l>Of <hi>Ionathan,</hi> preſeru'd from King <hi>Saules</hi> murderus intent?</l>
+            <l>
+               <hi>Henry</hi> the ſixt propheci'd (who this Earles ſtate &amp; very fauor</l>
+            <pb facs="tcp:16879:31"/>
+            <l>View'd for a while; noting his Princelike witty behaui'or:)</l>
+            <l>Lo this is he, for a trouth, that in end ſhall ſurely by wiſdome,<note place="margin">Grafton fol. 692. Edw, 4.</note>
+            </l>
+            <l>By valor of Knighthood, and ſtoutnes ataine to the Kingdome.</l>
+            <l>This good King (as a Prince inſpir'd) did prophecy trewly,</l>
+            <l>For what he told, proou'd trew, by gods reuelation only.</l>
+            <l>For God alowes his elect, ſeuerall gifts. Euery perfit</l>
+            <l>Good gift comes fro the Lord, by the gift of gods very ſpirit.<note place="margin">Iam, 1.17.</note>
+            </l>
+            <l>For the Prophets propheci'd of Chriſt: God gaue his Apoſtels</l>
+            <l>Maruelus and ſtrange gifts, as he gaue his glorius Angels.<note place="margin">1. Pet. 1. v. 10.11.</note>
+            </l>
+            <l>Now to my matter againe.</l>
+            <l>Theſe Earles, ſafely preſeru'd, durſt not ſtay there any longer;</l>
+            <l>But got away, in al haſt, from thence, for feare of a danger.</l>
+            <l>Like as a light foote Roe, from quick-ſent houndes to the greene wood,<note place="margin">Similie.</note>
+            </l>
+            <l>Luſtily bounceth away, to ſaue life, ſkips on a maine ſcud:</l>
+            <pb facs="tcp:16879:32"/>
+            <l>So theſe Earles got away from thence, to <hi>Timby,</hi> that hauen</l>
+            <l>Towne in <hi>Wales:</hi> to the which by conſtraint luckily driuen,</l>
+            <l>They made prouiſion for ſhippes. And like as a Swallow</l>
+            <l>
+               <note place="margin">Similies.</note>Quickly the ſkyes doth ſheare; or rather like as an arrow</l>
+            <l>Flies from a ſtrong mans bow: So they from thence with a Nauie</l>
+            <l>
+               <note place="margin">Grafton fol. 713. Edw. 4.</note>Sail'd to the Duke <hi>Francis;</hi> who receiued them both very friendly:</l>
+            <l>Faithfuly them promiſing, that they ſhould haue his aſiſtance</l>
+            <l>For to do them pleaſure, and what they wanted, alowance.</l>
+            <l>Where theſe fortunate Earles, in great ſecurity liuing,</l>
+            <l>Safely remained a while, King <hi>Edwards</hi> anger auoiding:</l>
+            <l>Ioyfuly there paſſing their time, where he with his vncle</l>
+            <l>Highly regarded at Armes, at Tylt, and Turnee did excell.</l>
+            <l>
+               <note place="margin">Tempora mu<g ref="char:EOLhyphen"/>tantur, &amp;c.</note>Euery time hath a chaunge: we in times mutabil alter.</l>
+            <l>Gods will preſcîent preſcribes a determinate order,</l>
+            <pb facs="tcp:16879:32"/>
+            <l>His great glory to raiſe.</l>
+            <l>Can mindes aſſociat to kingdomes, amity foſter?</l>
+            <l>Or perfit louers, can they riuality ſuffer?<note place="margin">In Lucan.</note>
+            </l>
+            <l>
+               <hi>Caeſar</hi> could not abide to be ſubmiſſe, or to be loyall</l>
+            <l>To valiant <hi>Pompey,</hi> that acounted no man his equall.</l>
+            <l>Euery King hath his heyre, or next to the Crowne, in a ſuſpect:</l>
+            <l>For that he thinks, that he will not proue ſo trew, as a ſubiect.</l>
+            <l>Loue to be Kings and Kings breed brothers mutual hatred,<note place="margin">Sentence.</note>
+            </l>
+            <l>No faith obſeruing, like tyrrants ſet by no kindred.</l>
+            <l>Can faith and falſhoode, in ſelfe ſame ſeat be reſiaunt?<note place="margin">Sentence.</note>
+            </l>
+            <l>Such contrarieties are placed flatly repugnant.</l>
+            <l>Marke what a chaunce hapned, that counter-checkt, in a moment,</l>
+            <l>All their Courtly delights, to their cleane contrary Iudgement:</l>
+            <l>For when as <hi>Edvvard</hi> namely the fourth, did know for a certaine,</l>
+            <pb facs="tcp:16879:33"/>
+            <l>That theſe venturus Earles were ſailed ſafely to <hi>Brittaine,</hi>
+            </l>
+            <l>Vnto the foreſaid Duke, and there liu'd friendly together;</l>
+            <l>Highly regarded of him, nor at all did feare any danger.</l>
+            <l>
+               <note place="margin">Grafton fol. 715. Edw. 4.</note>Theſe ſory new tydings, did aflict his minde not a littel:</l>
+            <l>For that he thought thoſe Earles, might bring him quickly to trubbel.</l>
+            <l>Embaſſadors therefore to the Duke he ſent of a purpoſe,</l>
+            <l>With graue diſcretion, his meſſage wiſely to diſcloſe:</l>
+            <l>Who did acompliſh his heaſts, like wiſe States made many proffers</l>
+            <l>Vnto the Duke, promiſing large gifts, and bountiful offers:</l>
+            <l>So that he would vouchſafe, thoſe Engliſh Lords to deliuer.</l>
+            <l>Vnto whom immediate, this Duke thus framed an anſwere:</l>
+            <l>So to do, it were not requiſite, nor ſtood with his honnor.</l>
+            <l>But leaſt that thoſe Lords, ſhould ſeeke elſwhere any ſuccor,</l>
+            <l>To preiudice their King, he deuiſ'd to ſeclude them aſunder,</l>
+            <pb facs="tcp:16879:33"/>
+            <l>With vigilant perſons to be ſafe kept, one from another:</l>
+            <l>And from them to remoue each Page, and euery ſeruant,</l>
+            <l>Which was an Engliſh man, that there were on them atendant.</l>
+            <l>Anſwered in this ſort, they toke their leaue with obeiſance:</l>
+            <l>And ſo return'd to the King, to ſhew their faithful atendance.</l>
+            <l>Who when he heard theſe newes, he beleeu'd that he ſtoode in a ſafety:</l>
+            <l>His minde was quieted, quite freed from factius enuy.</l>
+            <l>Therewithal, he to the Duke forthwith then wrote in a letter,</l>
+            <l>How that he would him yearely reward; with thankes for his anſwer:</l>
+            <l>Friendly requeſting him, that he would thoſe words but acompliſh,</l>
+            <l>Which of his owne free will, he did ſo faithfuly promiſe.</l>
+            <l>See what a ſuſpitius minde works: how greedines of gould</l>
+            <l>Princelike mindes doth ataint, by force of flattery contrould.</l>
+            <l>Like as a ſulphurus heate (encompaſt round) lyeth hollow,<note place="margin">Similie.</note>
+            </l>
+            <pb facs="tcp:16879:34"/>
+            <l>Cloſ'd in a vapory clowd, there ſtruggling ſtriues for an iſſue;</l>
+            <l>Which with a ſtraunge rattling, with a rumbilo lowd flaſhy thunder,</l>
+            <l>Filles th'element with a noyſe, and center of earth with a wonder:</l>
+            <l>So priuy ſuſpition, conceiued in heart with a fury,</l>
+            <l>Breedes great diſpleaſure, and raging cankerus enuie.</l>
+            <l>
+               <note place="margin">Ouid. Principi<g ref="char:EOLunhyphen"/>js obſta Scrò medicina pa<g ref="char:EOLhyphen"/>ratur, &amp;c.</note>For when King <hi>Edward</hi> had better pondered all things,</l>
+            <l>He (that had experience) ſought firſt to preuent the beginnings,</l>
+            <l>Leaſt that he might be depoſ'd. When a wound with mallady feſtreth,</l>
+            <l>And growes inueterate, that ſore what ſurgery cureth?</l>
+            <l>When nature vaniſheth, which cannot worke any longer,</l>
+            <l>What medicine can auaile, mans former health to recouer?</l>
+            <l>Flexibil at firſt is young tender tree to be bowed:</l>
+            <l>Growne by continuance very bigge, diſdeignes to be moued.</l>
+            <l>For when he conſidered, that rightly this Earle fro the lynage</l>
+            <pb facs="tcp:16879:34"/>
+            <l>Sprouted of <hi>Henry</hi> the ſixt, then he ſought for a further auantage.<note place="margin">Grafton. fol 73<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. Edw 4.</note>
+            </l>
+            <l>For that he knew wel inough, if that there were any liuing</l>
+            <l>Righteus heire to the Crowne, that lin'aly came from his ofspring,</l>
+            <l>Might bring his Diademe, and regal ſcepter in hazard.</l>
+            <l>Therefore againe to the Duke he charg'd graue men to go forward,</l>
+            <l>Doctor <hi>Stillinton</hi> with two more, ſent with a treaſure</l>
+            <l>Once yet againe to preſent, his Grace more largely to pleaſure;</l>
+            <l>If that he would but alow and permit curteus <hi>Henry</hi>
+            </l>
+            <l>(Nam'd Earle of <hi>Richmond</hi>) with them to returne in a ſafety,</l>
+            <l>For ſpeciall cauſes; that their King, bountiful <hi>Edward,</hi>
+            </l>
+            <l>Would ioyne in mariage (wherein then he ſeem'd to be forward)</l>
+            <l>
+               <hi>Elizabeth</hi> to this Earle; which was wel knowne to be daughter</l>
+            <l>To their liege Soueraigne: which luckily fortuned after.</l>
+            <l>Thereby this Earle might haue thoſe landes that he claim'd in aſurance,</l>
+            <pb facs="tcp:16879:35"/>
+            <l>If that he were maried ſo nere to the King in alyance.</l>
+            <l>And ſo the King ſtood ſure, that none might make any tytel</l>
+            <l>Vnto the Crowne, but he might all forraine faction expel.</l>
+            <l>They in al haſt get away their meſſage wiſely to tranſpoſe:</l>
+            <l>Who to the Duke at large, each particularity diſcloſe.</l>
+            <l>When that he their meſſage did know, he pauſ'd for a good while,</l>
+            <l>What was beſt to be done, ſince th'Earle liu'd there but in exile:</l>
+            <l>But when he conſidered that he ſhould be matcht with a Virgin,</l>
+            <l>Their owne Kings daughter, to be linktin league with his owne kinne:</l>
+            <l>Where that he might be prefer'd to ſome great dignity preſent,</l>
+            <l>There as an Earle, or a Duke, to rule by the King his apointment;</l>
+            <l>Firſt he began to deny: but pleaſ'd with treaſurie giuen,</l>
+            <l>What with ſoliciting, and gould ſo gainfuly gotten,</l>
+            <l>Kindly this anſwer he gaue; that he was content to deliuer</l>
+            <pb facs="tcp:16879:35"/>
+            <l>
+               <hi>Henry</hi> that Earle, not a ſheepe to the wolfe, but a ſonne to the father.<note place="margin">Similie.</note>
+            </l>
+            <l>And in a letter he wrote, how th'Earle was much had in honor,</l>
+            <l>Both for his owne wiſdome, valiaunce, and witty behaui'our.</l>
+            <l>They then ſeiz'd of a prey, which they had greatly deſired,</l>
+            <l>Thankfuly tooke their leaue, and from thence quickly departed</l>
+            <l>Vnto the towne of Saint <hi>Malo,</hi> bord'ring neare to the ſea ſhore:</l>
+            <l>Minding thence to depart, when ſhips were made ready. Wherefore</l>
+            <l>Th'Earle when he knew that he ſhould be return'd home, for very ſorrow</l>
+            <l>Since that he was ſo betrai'd, he fell ſore ſicke of an ague:</l>
+            <l>Imagining that he ſhould, as ſoone as he landed in England,</l>
+            <l>Be ſtratagiz'd; but ſee: who can Gods dignity withſtand?</l>
+            <l>Gods diuine prouidence, and ſacred dignity ſupreame</l>
+            <l>Ruleth al humane cauſe; though humane cauſes ar extreame.<note place="margin">Sentence.</note>
+            </l>
+            <l>Marke gods omnipotence: whoſe workes ar wonderus, extant</l>
+            <pb facs="tcp:16879:36"/>
+            <l>Still to be ſeene: who preſeru'd this venturus Earle at an inſtant,</l>
+            <l>Sau'd (as a ſtrange miracle) by the faithfull loue of a ſtranger,</l>
+            <l>For many times men ar helpt, and ſau'd by the meanes of another,</l>
+            <l>Like as a Phyſition doth ſeeke mans health to recouer:</l>
+            <l>So wil a friend, for a friend, in trubbels ſtand a defender.</l>
+            <l>
+               <hi>Vulcan</hi> againſt <hi>Troy</hi> was: but <hi>Troians</hi> friend was <hi>Apollo,</hi>
+            </l>
+            <l>And <hi>Venus</hi> indiferent, <hi>Pallas</hi> not: mortaly <hi>Iuno</hi>
+            </l>
+            <l>Malliced <hi>Aeneas,</hi> as alyed wholy to <hi>Turnus;</hi>
+            </l>
+            <l>Yet was he by <hi>Venus</hi> helpe, preſeru'd from her enmitie grieuus,</l>
+            <l>Vndubitate <hi>Pylades</hi> was a friend to woful <hi>Oreſtes:</hi>
+            </l>
+            <l>To <hi>Damon, Pythias: Patrocles</hi> friended <hi>Achilles:</hi>
+            </l>
+            <l>
+               <note place="margin">Diuers exam<g ref="char:EOLhyphen"/>ples. <hi>Virg.</hi>
+               </note>
+               <hi>Alcyde</hi> ayded <hi>Hylas, Aeneas</hi> friend was <hi>Acbates:</hi>
+            </l>
+            <l>
+               <hi>Eurialus, Niſus: Diomedes</hi> friended <hi>Vliſſes:</hi>
+            </l>
+            <l>And to be chiefe memoriz'd, that firme and truſty <hi>Zopirus,</hi>
+            </l>
+            <pb facs="tcp:16879:36"/>
+            <l>*Who cut his owne eares off, <hi>Babilon</hi> to procure <hi>Darius.</hi>
+            </l>
+            <l>
+               <hi>Darius</hi> ſtout King in his hand faire Pomegranat hauing,<note place="margin">Pl<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tarch. in A<g ref="char:EOLhyphen"/>po.</note>
+            </l>
+            <l>One of his eſpecial friends aſkt him (merrily ieſting)</l>
+            <l>What things eſpeciall (if he might haue that that he wiſhed)</l>
+            <l>Would he requeſt for his owne? As there were graines to be counted,</l>
+            <l>So many friendly <hi>Zopyres</hi> (as a wiſe King) wiſely did anſwer.</l>
+            <l>For what more pretius, then a friend that friendeth another?<note place="margin">Pluta. in A<g ref="char:EOLhyphen"/>po.</note>
+            </l>
+            <l>As fire and heate both, cannot be parted aſonder:</l>
+            <l>So loue and friendſhip cannot be without one another.</l>
+            <l>For when on <hi>Iohn Chewlet</hi> (that was for a Courtier, only</l>
+            <l>Counted a ſtout man at armes) who lou'd this gratius <hi>Henry,</hi>
+            </l>
+            <l>Heard that he was very ſick, and from thence like to be conueigh'd,<note place="margin">Grafton. fol. 738. Edw. 4.</note>
+            </l>
+            <l>Shortly to King <hi>Edward,</hi> he (therewith wofuly diſmaid)</l>
+            <l>Poſted amaine to the Court, and preſent ſtept to the Kings Grace,</l>
+            <pb facs="tcp:16879:37"/>
+            <l>Heauily perplexed: who looking ſad with a pale face,</l>
+            <l>Stood as amaſed afore this Duke, with a ſtearne heuy count'nance,</l>
+            <l>And not a word did ſpeake: as a man that wanted his vttrance,</l>
+            <l>Therewithal aſtonied, to behold ſo feareful an obiect</l>
+            <l>(Like as a Prince vigilant) he did ſome treachery ſuſpect:</l>
+            <l>Yet when he conſidered this Knights ſtate, chearefuly thus ſpake;</l>
+            <l>Shew me the cauſe (good <hi>Iohn</hi>) that thou ſo monefuly doſt looke.</l>
+            <l>Therewithal he, to the Duke reuerent, with an humbel obeyſance,</l>
+            <l>Boldly declar'd what he meant, and ſpake with a treatibel vttrance;</l>
+            <l>
+               <note place="margin">Sentence.</note>Pardon I craue, Soueraigne, if I ſpeake: Truth verily neuer</l>
+            <l>Shameth his owne maſter. What auailes then fondly to flatter?</l>
+            <l>Heare then a truth, O Duke, for like as <hi>Cynthia</hi> ſhining,</l>
+            <l>Inueloped with a clowde, obſcures her ſelfe from iluſtring:</l>
+            <l>
+               <note place="margin">Similie.</note>Semblably truth for a time obſcur'd, many times lieth hidden;</l>
+            <pb facs="tcp:16879:37"/>
+            <l>Truth yet in end wil apeare: truth neuer permaneth vnknowne.</l>
+            <l>O my renowned Duke, wilt thou now falſify promiſſe,</l>
+            <l>Firmely betroth'd to this Earle? What a fault is this, what a blemmiſh?</l>
+            <l>O that I were buried. Shal I liue to know thy diſhonor?</l>
+            <l>Truly my minde (O Duke) is vext with an infinit honor,<note place="margin">Similie.</note>
+            </l>
+            <l>For that I greatly do grieue, that this ſtout Earle to the ſlaughter</l>
+            <l>Should (as a lambe) be betrai'd, and there to be ſlaine of a Butcher.</l>
+            <l>This wil bring thy renowne, O Prince (which euery mans mouth</l>
+            <l>Extols vp to the clowdes) to decay. For (plainely to tell trouth)</l>
+            <l>If ſo be (my Soueraigne) thou wilt ſo ſhamefuly ſuffer</l>
+            <l>
+               <hi>Henry</hi> this Earle to depart, thou ſtain'ſt thy glory for euer:</l>
+            <l>Thy former valiance, and fame that ſhine to the worlds end,</l>
+            <l>Shall as a ſmoake pas away. Shal a Prince ſuch craftines intend?<note place="margin">Similie</note>
+            </l>
+            <l>Peace good <hi>Iohn</hi> (quoth the Duke) peace, peace: I pray thee beleeue mee:</l>
+            <pb facs="tcp:16879:38"/>
+            <l>For theſe Embaſadors do proteſt and ſay that he ſhal be</l>
+            <l>
+               <note place="margin">Grafton. fol. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>38. Edw. 4.</note>Spowſ'd to the Kings daughter (which their King faithfuly promiſt)</l>
+            <l>And to be next to the King, plaſte in authority chiefeſt.</l>
+            <l>Well, ſaid <hi>Iohn</hi> to the Duke, in whom ſhall ſhame be reputed,</l>
+            <l>If that he dye by the way, or in Engliſh Realme be beheaded?</l>
+            <l>For that I dare venture my life, that it is but a practice</l>
+            <l>This ſily ſoule to deceiue, this ſicke Earles life to relinquiſh:</l>
+            <l>If that he ſhal be beguil'd in ſuch ſort, let me no longer</l>
+            <l>Liue to repaire to thy Court: if he ſhould dye, dye had I rather.</l>
+            <l>
+               <note place="margin">Laertius. lib. 4 chap. 2.</note>When <hi>Dioniſe</hi> the tyrant, would needes haue <hi>Plato</hi> beheaded,</l>
+            <l>
+               <hi>Zenocrates</hi> anſwer'd; not afore that mine be depriued.</l>
+            <l>But many ſay, that a King that knowes not how to diſembel,</l>
+            <l>Knowes not at all to rule: ſuch ſleights be deuiſ'd by the Diuell.</l>
+            <l>If that I may be ſo bould to ſpeake but a word in his abſence,</l>
+            <pb facs="tcp:16879:38"/>
+            <l>O my benigne Soueraigne, lend eare and giue to me credence.</l>
+            <l>For why? This Earle of a truth lyes ſick, and likely to periſh.<note place="margin">Similie.</note>
+            </l>
+            <l>If fro thy Realme he depart, what Prince will truſt to thy promiſe?</l>
+            <l>Nothing more perilus, then a compound poyſonus honny:</l>
+            <l>No body more trecherus, then a foe, that ſeemes to be friendly.</l>
+            <l>With tunes harmonicall ſweete ſinging merrily Meremaides<note place="margin">Similie.</note>
+            </l>
+            <l>Falſly betray Mariners: So theſe men ſent, as aforeſaid,</l>
+            <l>Smoothly deceiue your Grace, with faire ſpeach, and mony giuen.</l>
+            <l>Vnder a cloake of loue, lies concea'ld craftines hidden.<note place="margin">Sentences.</note>
+            </l>
+            <l>O fond diſcrecion, on faire wordes wholly relying.</l>
+            <l>Experiment beſt is, where wordes, and deedes are agreeing.</l>
+            <l>Craft hath a godly pretence; but a murderus end.<note place="margin">Similie.</note> For a fowler</l>
+            <l>Merrily playes on a pipe, when he craftily taketh a plouer.</l>
+            <l>
+               <hi>Iſcariot Iudas,</hi> that falſe and wicked Apoſtel,</l>
+            <pb facs="tcp:16879:39"/>
+            <l>Falſely betrai'd with a kiſſe, and ſould our Lord for a trifel.</l>
+            <l>
+               <hi>Laomedons</hi> falſhood (<hi>Priamus</hi> father, and ſon of <hi>Ilus</hi>)</l>
+            <l>Cauſed his owne bludy death, and loſſe of <hi>Troy,</hi> city famus.</l>
+            <l>
+               <note place="margin">1 Macha. ch. 11</note>Was not <hi>Alexander,</hi> by craft of King <hi>Ptolemaeus,</hi>
+            </l>
+            <l>His falſe fath'r in law, depriu'd of his Empery famus?</l>
+            <l>Bluddy <hi>Polymneſtor</hi> (which of gould was ſo deſirus)</l>
+            <l>Beaſtly did obtruncate <hi>Priamus</hi> ſonne, young <hi>Polidorus.</hi>
+            </l>
+            <l>
+               <note place="margin">Virg.</note>More to recite, what auailes?</l>
+            <l>Therefor I humbly beſeech your Grace (O Duke) to remember</l>
+            <l>
+               <note place="margin">Grafton fol. 739. Edw, 4.</note>This diſconſolate Earle, that lyes neare dead of a feauer:</l>
+            <l>Send that he may be retain'd. Let not thy glory be blemmiſht:</l>
+            <l>Keepe faith inuiolate, let a prince performe what he promiſt.</l>
+            <l>Thus this Knight, to the Duke, his whole minde (wofuly diſtreſt)</l>
+            <l>Plainely without any guile, or diſſimulation, expreſt.</l>
+            <pb facs="tcp:16879:39"/>
+            <l>Laſtly, by perſwaſions, this wiſe Duke (rul'd by the Counſell</l>
+            <l>Of good <hi>Iohn Chewlet;</hi> who this Earles ſtate knew to be feebel)</l>
+            <l>Sent <hi>Peter Landoyſe,</hi> chiefe Treaſurer, only the foreſaid</l>
+            <l>Embaſſadors to delay; that th'Earle might ſafely be conuai'd</l>
+            <l>Vnto the Sanct'ary there: which was with ſpeede then efected.</l>
+            <l>Which ſo delighted his heart, that his health there quickly reuiued.</l>
+            <l>Like as an Hart in a chace, that is hurt or pincht with a greyhound,<note place="margin">Similie.</note>
+            </l>
+            <l>Bounceth away on a maine, and runnes moſt ſwiftly, to get ground:</l>
+            <l>Yer that he ſhould b'imboſt, fro the greyhound ſpeedily doth get,</l>
+            <l>And priuy lewnes in a brake, imbaies himſelfe in a thicket;</l>
+            <l>There to recouer his hurt: So this Earle (eſcapte from a daunger)</l>
+            <l>Liu'd in a place priuiledg'd, his former health to recouer.</l>
+            <l>Would to God euery Prince, that ruleth in euery Kingdome,</l>
+            <l>Would be ſo rul'd by the good wiſe counſell, and by the wiſdome</l>
+            <pb facs="tcp:16879:40"/>
+            <l>Of plaine trouth-ſpeakers, and alſo that euery Courti'er</l>
+            <l>Would not aledge any lyes to the Prince, to defame on another.</l>
+            <l>Now to my matter againe.</l>
+            <l>When theſe Embaſadors perceiu'd they were ſo deluded,</l>
+            <l>
+               <note place="margin">Grafton. fol. 739. Edw 4.</note>Both of an Earle, their prey, and of gould freely deliuer'd;</l>
+            <l>Tould <hi>Peter Landoyſe,</hi> their king would take it in ill part,</l>
+            <l>They to retorne ſo deceiu'd, of their Earle and mony homeward.</l>
+            <l>But <hi>Peter Landoyſe</hi> aſſured them, that he ſhould be</l>
+            <l>Safe in a ſanct'ary kept (which they would warily foreſee)</l>
+            <l>Or to be ſtreightly detein'd, in a ſafer cuſtody forthwith;</l>
+            <l>So they neede not at all, to doubt or feare any miſchiefe.</l>
+            <l>They pacifi'd by the meanes of <hi>Landoyſe</hi> curteus anſwere,</l>
+            <l>Thought it a folly to ſtay in <hi>Brittain</hi> Realme any longer:</l>
+            <l>But willed <hi>Landoyſe</hi> (to the Duke their duty remembring)</l>
+            <l>Thoſe promiſes to be kept, their leaue there then fuly taking:</l>
+            <pb facs="tcp:16879:40"/>
+            <l>Who promiſed that he would.</l>
+            <l>So theſe Embaſadors ſail'd thence, and landed in England.<note place="margin">Grafton. fol. 755. Edw. 4.</note>
+            </l>
+            <l>And there tould to the King each chiefeſt point of his arrand.</l>
+            <l>Who when he heard their ſpeach, perſwaded partly by reaſon,</l>
+            <l>How that he ſhould be detein'd there ſafe, or ſafe in a priſon</l>
+            <l>(He not at all fearing th'intendment of fory perſons)</l>
+            <l>Shew'd himſelfe as a Prince, more bountiful vnto the Commons,</l>
+            <l>And liberal to the poore.</l>
+            <l>But time his courſe hath: time ſtayleſſe daiely doth happen,<note place="margin">Sentences.</note>
+            </l>
+            <l>With ſwift breach cureleſſe, with gould not againe to be gotten.</l>
+            <l>O wauering fortune, when thou ſeem'ſt moſt to be ſmiling,<note place="margin">Poeticè.</note>
+            </l>
+            <l>Mutabil intendment meaneſt, and miſchievus ending.</l>
+            <l>Euery time hath an end, O worldly varietie, neuer</l>
+            <l>Knowne to remaine conſtant! What is here that permaneth euer?</l>
+            <l>For ſtout king <hi>Edward,</hi> when he found himſelfe to be ſore ſick,</l>
+            <pb facs="tcp:16879:41"/>
+            <l>And when he thought that he was (in a manner) paſt any phyſick,</l>
+            <l>Streight to the Queenes kindred, did ſend on away in a poſte-haſt;</l>
+            <l>
+               <note place="margin">Grafton fol. 760. &amp; fol. 761. Edw. 5.</note>Vnto the Lord <hi>Riuers</hi> (whom he knew to be firme, to be ſtedfaſt)</l>
+            <l>And to the Lord <hi>Haſtings</hi> (Lord Chamberlaine then of England)</l>
+            <l>And to the Lord <hi>Marqueſſe</hi> (whom ſhe firſt had by her huſband</l>
+            <l>Named Sir <hi>Iohn Gray,</hi> which was made knight in a battell</l>
+            <l>Fought at <hi>Saint Albons,</hi> and there was ſlaine: who did excell</l>
+            <l>In valor of Knighthood)</l>
+            <l>Willing them to repaire to the Court, with ſpeedines, eftſoones,</l>
+            <l>And to reſort to the King, for diuers and many reaſons.</l>
+            <l>VVho to the Court in al haſt did come: who courtly ſaluting</l>
+            <l>Were reſaluted againe, on another ſemblably greeting.</l>
+            <l>Euery Lord that came to the Courte, by the King his apointment</l>
+            <l>VVent to the Kings preſence. When he ſaw them there to be preſent,</l>
+            <pb facs="tcp:16879:41"/>
+            <l>He took them by the handes (though inward panges with a ſorrow</l>
+            <l>Greatly moleſted his hart) and, vnderſet with a pillow,</l>
+            <l>Spake to them, as foloeth:</l>
+            <l>My Lordes, and kynſmen, your preſence hartily welcom:<note place="margin">King Edwards laſt will or ad<g ref="char:EOLhyphen"/>monition to the Queene, his children, and Nobility.</note>
+            </l>
+            <l>Whoſe frendſhippes I found more ſure to me, than a kingdom.</l>
+            <l>My life is but a blaſt, I feele death woful aproching:</l>
+            <l>And I reioyce, that I haue my freendes here at my departing.</l>
+            <l>My body waſteth away, I fynd my ſelf to be feebel,</l>
+            <l>Alſo my blud to decay: I feele my ſelf but vnabel</l>
+            <l>For to pronounce many wordes. Therefore, my Lordes, to me liſten.</l>
+            <l>Concord in friendſhip, be faythfull vnto my chyldren:</l>
+            <l>And to my Sonne, your Prince, I charge you for to be loyall,</l>
+            <l>Safe to preſerue his Grace, to defend this Realme vniuerſall.</l>
+            <l>For the <hi>Cicil</hi> tyrrants could find no greater a torment,</l>
+            <pb facs="tcp:16879:42"/>
+            <l>Then cruel enuy, that hagge, which foſters deadly reuengement.</l>
+            <l>
+               <note place="margin">Seneca in Epiſt. lib. 14.</note>
+               <hi>Marcus Agrippa</hi> declar'd that ſmall thinges daily, by concord,</l>
+            <l>Eftſoones grow to be great: and great thinges, fondly by diſcord,</l>
+            <l>Quickly declyne to ruine.</l>
+            <l>
+               <note place="margin">Plutark in reg. Apo. theg. &amp; Stob. ſer. 82.</note>That graue ould ſapient <hi>Scyllurus,</hi> nam'd <hi>Chironenſis</hi>
+            </l>
+            <l>(Fowre ſcore ſonnes who begate) when he lay ſick, thus did he publiſh:</l>
+            <l>Euery one, deare ſonnes, in his hand here take but an arrow,</l>
+            <l>And break them forthwith. Which they did ſpeedily. But now</l>
+            <l>Each on a ſheafe of ſhaftes, my ſonnes, take, forcibly break them,</l>
+            <l>Which to do, each did aſay; but could not. Then with a ſolemne</l>
+            <l>
+               <note place="margin">Similie.</note>Speach thus he ſpake; As you could not them break: So, my children,</l>
+            <l>Trew fyrme and conſtant coniunction of many brethren</l>
+            <l>No body can diſſolue. Therefore liue frendly together.</l>
+            <l>If ſo be you ſeperate your ſelues each one from an other,</l>
+            <pb facs="tcp:16879:42"/>
+            <l>Then ſhall your enemies (as a prey ſnatcht vp of a Tyger)</l>
+            <l>You (diſagreeing ſo) with a ſmall force eaſily conquer.</l>
+            <l>So my beloued Lordes, if you, by malicius enuy,</l>
+            <l>Shall fall at variaunce, which of you ſtandes in a ſafety?</l>
+            <l>Proſperus are Kingdomes, publick weales ſtatefuly floriſh,<note place="margin">Sentence.</note>
+            </l>
+            <l>Where States concording do perfect amity ſtabliſh:</l>
+            <l>But when a Realme diſagrees, that Realme is ſeene very ſeldom</l>
+            <l>Long to remaine a Monarche. For certaine euery Kingdome</l>
+            <l>Hatefuly diſſeuered (fayth and tranquillity wanting)</l>
+            <l>Turned is vp ſide downe, ruinus diſconſolat ending.</l>
+            <l>Hate doth a Realme ruinate. Therefore my Lordes, I beſeech you,</l>
+            <l>Euery one to be frendes, my precepts duly to follow.</l>
+            <l>Euery Lord, by the hand, there preſent tooke on an other</l>
+            <l>(Who did apeare to be frendes) though their heartes were far aſunder.</l>
+            <pb facs="tcp:16879:43"/>
+            <l>And then he ſpake to the Queene ſore greev'd: who mournefuly looking,</l>
+            <l>Teares from hir eyes guſht forth, as bubbling blobbes from a welſpring.</l>
+            <l>Farewell dearly belov'd: your children charily cheriſh,</l>
+            <l>See them well to be bred with good and ſingular aduiſe.</l>
+            <l>And you, my children, be dutiful vnto the mother:</l>
+            <l>Vſe theſe your kinſmens counſayle, in ſtead of a father.</l>
+            <l>For litel yong children ſhould wiſely be rul'd, by the counſayle</l>
+            <l>Of wity graue Senators, whoſe fame and vertue doth excell.</l>
+            <l>And, with a ſorroful hart his children ſadly beholding,</l>
+            <l>Stretched his hand to them all, theſe ſame wordes faintily ſpeaking;</l>
+            <l>God bleſſe you children, farewell Lordes dearly beloued:</l>
+            <l>Who with trickling teares (ſad ſighing) wofully mourned.</l>
+            <l>And then he held vp his handes to the Lord, his mercy beſeeching,</l>
+            <l>And to receiue his ſoule, to the ioyes that ar euer abiding.</l>
+            <pb facs="tcp:16879:43"/>
+            <l>Therewithal he faynting, in a ſwoune grewe ſtraight to be ſpeachleſſe,</l>
+            <l>Gaſping breath who did yeald, with a pale face and body ſenſeleſſe.</l>
+            <l>Whoſe ſoule imparadiz'd, I belieue is with the Creator,</l>
+            <l>Our Lord <hi>Emmanuell,</hi> our Chriſt, and ſole mediator.</l>
+            <l>Who when he had regaliz'd 3. yeares and credibly twenty,</l>
+            <l>Tomb'd in a faire monument, at <hi>Windſore</hi> lies, in an abbey.</l>
+            <l>How that he dy'd, many men did doubt. For he dy'd on a ſuddayn.</l>
+            <l>Sundry, by ſurfet, afirm'd: which no body knew to be certayn:</l>
+            <l>But many thought, that he was put away, by the vile priuy treaſon</l>
+            <l>Of tyranus <hi>Richard,</hi> by the meanes of ſome ſory poyſon:</l>
+            <l>As <hi>Sir Thomas More,</hi> in his owne book skilfuly penned,</l>
+            <l>Thought (by the ſpeach that he learn'd) that he was ſure priuily poyſned.</l>
+            <l>And not a thing vnlyke. For he ſpared no body, whoſe life</l>
+            <l>Might dominire as a King, whoſe life might work him a miſchiefe.</l>
+            <pb facs="tcp:16879:44"/>
+            <l>He was a vile <hi>Machauile,</hi> and ſtill tooke time at a vauntage.</l>
+            <l>To work ſuch ſtratagemes, his lew'd mind gaue him a courage.</l>
+            <l>
+               <note place="margin">Similie.</note>As wax is molify'd, and clay made hard, by the ſun-ſhine:</l>
+            <l>So to the word of God, good mens hearts daily wil enclyne:</l>
+            <l>But lewd are hardned by the word. Such obſtinat error</l>
+            <l>Permaneth in reprobates: whoſe end is damnable horror.</l>
+            <l>
+               <note place="margin">Deſcription of Edward the fowerth.</note>This valiaunt <hi>Edward</hi> was a Prince, of a beawtiful aſpect:</l>
+            <l>Whoſe face ſhyn'd with a faire ſanguine complexion indeckt:</l>
+            <l>Whoſe yelo burniſhed haire did ſhyne, like glorius amber:</l>
+            <l>
+               <note place="margin">Similies.</note>Whoſe gray eyes twinkling, like ſtarres, did cheerefuly gliſter,</l>
+            <l>Comelines of perſon, very tall of bodily ſtature:</l>
+            <l>Exquiſit euery part was featured: and of a nature</l>
+            <l>Merciful and liberal: whoſe ſtout hart (bouldly by wiſedom</l>
+            <l>And politick valiaunce) of right did atayn to the kingdom.</l>
+            <pb facs="tcp:16879:44"/>
+            <l>He was a Prince patient, in great proſperity pleaſant,</l>
+            <l>And not at all arogant, in great aduerſity conſtant,</l>
+            <l>Not timorus wauering: to ſteadfaſt friend very faithfull:</l>
+            <l>To fra'dulent enemyes, ſe<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ere, implacabel, hatefull:</l>
+            <l>Fortunat in warfare: but ſomewhat gi-uen (in exceſſe)</l>
+            <l>To womaniſh daliaunce, as his hyſtorie plainly doth expreſſe.</l>
+            <l>This ſtout king <hi>Edward</hi> many times would ſay, that he lov'd well</l>
+            <l>Three ſpeciall paragons, in ſeu'ral gifts who did excell:</l>
+            <l>Firſt was wily by kind: but an other ſeem'd to be godly:</l>
+            <l>
+               <hi>Shores</hi> wife was merieſt, as a woman void of al enuy.</l>
+         </div>
+         <div type="title">
+            <pb facs="tcp:16879:45"/>
+            <head>The iuſt and lawfull title, that <hi>Richard</hi> Duke of <hi>Yorke,</hi> father to king <hi>Edward,</hi> made to <hi>the Crowne of England.</hi>
+            </head>
+            <l>
+               <hi>RIchard Plantagenet,</hi> Duke of Yorke, rightly the garland</l>
+            <l>Sought by law to regaine; his right to the Crowne then of <hi>England:</hi>
+            </l>
+            <l>And he preferred a byll, to the nobil common aſembly,</l>
+            <l>
+               <note place="margin">Grafton fo. 757. et 758.</note>Held at <hi>Weſtminſter.</hi> Where after merciful <hi>Henry</hi>
+            </l>
+            <l>(Namely the ſixth) his death, they all (there iointly together)</l>
+            <l>
+               <note place="margin">Graunted by parliament.</note>Gaue this Realme to the Duke, his right heires in the remainder.</l>
+            <l>But this ſtout <hi>Richards</hi> ſtout luckleſſe mynd was vnabel,</l>
+            <pb facs="tcp:16879:45"/>
+            <l>For to prolong ſo long: but in end was ſlaine in a battell,</l>
+            <l>Neare to the towne <hi>Wakefield</hi> (and left here theſe many children;</l>
+            <l>
+               <hi>Edward, George, Richard:</hi> all three well knowne to be brethren)</l>
+            <l>And yet he ſware many times by ſolemne othes,<note place="margin">Stow. fol. 944. &amp; fol. 972.</note> that he neuer</l>
+            <l>Would any treaſon atempt, or againſt him raiſe any power.</l>
+            <l>His three ſonnes, whom I nam'd, were like three Martial <hi>Hectors,</hi>
+            </l>
+            <l>All of a ſtoutnes alike, on anothers glory detractors.</l>
+            <l>This foreſaid <hi>Richard,</hi> to the foreſaid fortunat <hi>Edward,</hi>
+            </l>
+            <l>Was father vndubitate: ſonne and heire namely to <hi>Richard,</hi>
+            </l>
+            <l>Stout Earle of <hi>Cambridge;</hi>
+            </l>
+            <l>Who maried Dame <hi>Anne,</hi> ſole heire and daughter of <hi>Edmund</hi>
+            </l>
+            <l>
+               <hi>Mortimer,</hi> Earle of <hi>March, Richards</hi> neece, namely the ſecond.</l>
+            <l>So that he was, by the lawes, right lawfull heire to the Kingdome:</l>
+            <l>Which <hi>Edward</hi> did ataine by force, and partly by wiſdome.</l>
+            <pb facs="tcp:16879:46"/>
+            <l>
+               <hi>Henry</hi> the fourth did vſurpe, and put downe wrongfuly <hi>Richard,</hi>
+            </l>
+            <l>Second King by name, at <hi>Pomfort</hi> ſlaine, by the coward</l>
+            <l>Sir <hi>Pierce</hi> of <hi>Exton:</hi> who ſtrake him downe, as a butcher</l>
+            <l>Striketh an ox, on his heade. Wo worth ſo ſhameful a monſter.</l>
+            <l>This trecherus bludy Duke did bring eight tal men in harneſſe,</l>
+            <l>
+               <note place="margin">Grafton fol. 412. Henry. 4.</note>Each man a bill in his hand, like thieues, to murder his Highneſſe:</l>
+            <l>Who with a bill that he got by force, did manfuly withſtand</l>
+            <l>Thoſe <hi>Machauile</hi> hypocrites (for he kild foure men with his owne hand)</l>
+            <l>Till that he was ſtruck downe by the Knight: who leapt in a chay-er</l>
+            <l>Like crauenus coward, to repoſe him ſelfe from a daunger.</l>
+         </div>
+         <div n="2" type="book">
+            <pb facs="tcp:16879:46"/>
+            <head>The Second booke of the tyranny and vſur<g ref="char:EOLhyphen"/>pation <hi>of king Richard: and how king Henry</hi> the ſeauenth, when he was Earle of Richmond, was <hi>preſerued in his time.</hi>
+            </head>
+            <div type="prayer">
+               <head>A praier.</head>
+               <lg>
+                  <l>
+                     <seg rend="decorInit">I</seg> (He, that here doth a peale to the ſacred ſeate of a Kingly,</l>
+                  <l>Kingly tribunall throne, of a King celeſtial only,</l>
+                  <l>Only the King of Kings, the triumphant Lord God imortall.</l>
+                  <l>Three perſons, one God, deifi'd with glory coequall)</l>
+                  <l>Humbly before thee my God, that King, &amp; Lord God of heauen,</l>
+                  <l>Wholly my ſelfe proſtrate giue eare, O Lord to me liſten:<note place="margin">Ephe. 2.5, 8.</note>
+                  </l>
+                  <l>Sanctify me by thy grace, and iuſtify me by thy mercy,</l>
+                  <l>For by the grace of God, comes our ſaluation only.</l>
+                  <pb facs="tcp:16879:47"/>
+                  <l>Graunt that I may paraphraſe, ſtout <hi>Henries</hi> glory to publiſh,</l>
+                  <l>And to promulgat abroad King <hi>Richards</hi> tyrrany diueliſh.</l>
+               </lg>
+               <lg>
+                  <l>I He, that only before (in Romane rythmery verſes)</l>
+                  <l>Did modulate, with a thinne oten pype, fortunat <hi>Henries</hi>
+                  </l>
+                  <l>Flight that he made to the Duke, with his vncle; there in, a ſafety</l>
+                  <l>Both to remaine for a time, till time ſhould prooue to be friendly.</l>
+                  <l>Which was a worke of thanks: But now, now, murtherus horror,</l>
+                  <l>And <hi>Machauile</hi> ſtratagemes I record of a lewde malefactor,</l>
+                  <l>That did vſurpe as a king, that killed his owne very brethren,</l>
+                  <l>Murdered his Nephues wife, and many <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ores, or a ſudden,</l>
+                  <l>Mournefuly Muſe manifeſt the deteſted deedes of a tyrrant,</l>
+                  <l>Monſter of all mankinde; whoſe ſinnes to the world ar aparant:</l>
+                  <pb facs="tcp:16879:47"/>
+                  <l>With ſalt watery teares, this wofull tragedy penſill:</l>
+                  <l>Teares, from a ſabel penne of direfull <hi>Ebony,</hi> diſtill.</l>
+                  <l>I to the clowdes ſeeke not to mount, like <hi>Icarus</hi> in ſky:<note place="margin">Ouid. poeticè.</note>
+                  </l>
+                  <l>Nor like proud <hi>Phaëton,</hi> with a minde preſume to be lofty.</l>
+                  <l>Witty <hi>Thales</hi> maiden, that ſaw him looke vp on heauen,</l>
+                  <l>And in a ditch to decline; he is wel ſeru'd, quoth the maiden,</l>
+                  <l>For that he looked aloft, when he ſhould haue lookt on his owne feete.</l>
+                  <l>Looke not aloft ſily Muſe: but ſhew thy ſelfe to be diſcreet.</l>
+                  <l>Here I do meane to declare (O Queene) how ſhamefuly <hi>Richard,</hi>
+                  </l>
+                  <l>That Duke of <hi>Gloſter</hi> (but a younger brother of <hi>Edward,</hi>
+                  </l>
+                  <l>Lately the King) did ataine to the Crowne, and dignity regal.</l>
+                  <l>Trewly my minde doth abhorre that I ſhould here make the recitall,</l>
+                  <l>What <hi>Machauile</hi> policies, what ſhifts, what crafty deuiſes,</l>
+                  <l>What tyranus ſtratagemes he deuiſ'd, to crucifie Princes.</l>
+                  <pb facs="tcp:16879:48"/>
+                  <l>Firſt of al, here to beginne; he ſtab'd and kill'd with a dagger</l>
+                  <l>
+                     <note place="margin">Grafton fol. 713. Edw, 4.</note>
+                     <hi>Henry</hi> the ſixt, when he was ſafe kept (as a priſoner) in Tower.</l>
+                  <l>For that he conſidered King <hi>Henries</hi> life was an hind'rance,</l>
+                  <l>Both to the King, and him: by the which they wanted aſurance.</l>
+                  <l>Therefore he did this fact, his brother firmly to ſettel</l>
+                  <l>In throne of Regiment (whoſe ſtate he knew to be fickel)</l>
+                  <l>For that he knew that he might, when a ſure foundation is laide,</l>
+                  <l>Build, as he would himſelfe. Can a building ſtand that is vnſtaid?</l>
+                  <l>
+                     <note place="margin">Similie.</note>Like as an hungry Lyon (ramping) will ſeeke to deuow-er</l>
+                  <l>Euery beaſt that he meetes, til he hath ful apeaſed his hunger:</l>
+                  <l>
+                     <note place="margin">Sentence. Nulla fides, regni ſocijs. c &amp;.</note>So this vile bludy Duke their deathes did wilfuly conſpire,</l>
+                  <l>Which did opoſe themſelues, that he might not ataine to this Empire.</l>
+                  <l>For greedy thirſt of gould, and feruent loue of a Kingdome,</l>
+                  <l>All felo mates doth abhor: there faith is found very ſeldome.</l>
+                  <pb facs="tcp:16879:48"/>
+                  <l>Like as a weak patient, that lyes ſore ſick of a dropſy,<note place="margin">Similie</note>
+                  </l>
+                  <l>Drinkes, yet is alwaies dry; ſo that no liquor, his haſty</l>
+                  <l>Or greedy thirſt, can alay:<note place="margin">Grafton. fol. 781. &amp; fol. 719. Edw. 5.</note> So mindes that proudly deſi-er</l>
+                  <l>Imperiall regiment, ſtill thirſt, and long for an Empyre.</l>
+                  <l>Next he, the Duke <hi>Clarence</hi> (his brother) cauſ'd in a malmſey</l>
+                  <l>Butte to be drown'd, as a Duke (though guiltleſſe) found to be guilty:</l>
+                  <l>Immagining that he might, then ſooner ataine to the Kingdom,</l>
+                  <l>When that he was put away. For he diu'd each drift to the bottom.</l>
+                  <l>Like <hi>Auroras</hi> birde, that fluttereth vp to the welkin,<note place="margin">Similie.</note>
+                  </l>
+                  <l>Soareth aloft higher, then a groſſe mans ſight can imagine:</l>
+                  <l>So this proud greedy Duke (whoſe minde ſo lofty did aſpire)</l>
+                  <l>Reached a thought higher, than meane wits thought, to this Empire.</l>
+                  <l>O what a vile perilus ſerpent,<note place="margin">Sentence.</note> what a cormoran helhound</l>
+                  <l>Is cruell ambition! which ſeekes mans glory to confound.</l>
+                  <pb facs="tcp:16879:49"/>
+                  <l>For mindes inſatiate wil atempt ſtill, ſtill, to be higheſt:</l>
+                  <l>Firſt to be greatly preferd; next, equall; then to be chiefeſt.</l>
+                  <l>
+                     <note place="margin">See Iames. 3. v. 16 17.</note>Ambitius wiſdome comes not from aboue; but is earthly,</l>
+                  <l>Senſual, and diueliſh, contentius, and ful of enuy:</l>
+                  <l>But ſapience from aboue, is gentel, merciful, harmeleſſe,</l>
+                  <l>Wrongfuly not iudging, but void of hypocriſie doubtleſſe.</l>
+                  <l>Now to proceede, as I meant.</l>
+                  <l>King <hi>Edward,</hi> when he knew that he was ſo ſpitefuly drowned,</l>
+                  <l>His ſory misfortune, and lewd luck, greatly repented.</l>
+                  <l>For when as other Lords would ſpeake for a lewde ſory perſon</l>
+                  <l>(Humbly beſeaching him, that he would vouchſafe him a parſon)</l>
+                  <l>Sadly the King would ſay, many times, O brother vnhappy!</l>
+                  <l>For whom, no body would once ſeeme to requeſt any mercy.</l>
+                  <l>But many men do repent, when it is too late to redreſſe it.</l>
+                  <pb facs="tcp:16879:49"/>
+                  <l>That priuy vile bludy fact, that he did ſo ſhamefuly permit,</l>
+                  <l>Strake a remorſe in his hart.</l>
+                  <l>Surely the more that a mind is clogd with a grevius offenſe,</l>
+                  <l>More dolor and anguiſh doth torment daily the conſci'ence.</l>
+                  <l>Sundry report diuers reaſons of their priuy mallice,</l>
+                  <l>Fiercely reuiued againe; each cauſe yet prou'd but a ſurmiſe.<note place="margin">Grafton fol. 741. Edw. 4.</note>
+                  </l>
+                  <l>For why? The King and Queene ſuſpected a prophecie fore-tould,</l>
+                  <l>Which they immagined would proue to be true; that a <hi>G</hi> ſhould</l>
+                  <l>(Thought to be <hi>George Clarence)</hi> their nobil progeny ſupplant.</l>
+                  <l>Which ſoone was verify'd, and prov'd to be true by the tyrrant,</l>
+                  <l>That <hi>Duke of Gloſter;</hi> when he was proclam'd a Pro<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ector:</l>
+                  <l>Who to the Kings children, did proue their ſole malefactor.</l>
+                  <l>O fond ſuſpitions of mindes? Who can the characters</l>
+                  <l>Of futur happes foretell, ſet downe by celeſtial orders?</l>
+                  <pb facs="tcp:16879:50"/>
+                  <l>
+                     <note place="margin">Similie.</note>Like as a cockes crowing, or crackling flame of a fy-er,</l>
+                  <l>Daunteth a luſty Lyon, which flies for feare of a daunger:</l>
+                  <l>So doth a ſuſpition, conceiu'd by the bruit of a rumor,</l>
+                  <l>Breed in a Princes mind, but an inward feare, but a terror.</l>
+                  <l>
+                     <note place="margin">Grafton fol. 742. Edw. 4.</note>Some did afirme, this Duke ſhould match with <hi>Mary,</hi> the daughter</l>
+                  <l>Of <hi>Charles</hi> Duke <hi>Burgon:</hi> which <hi>Edward</hi> daily did hinder.</l>
+                  <l>
+                     <note place="margin">Similie.</note>Which was a grief to the Duke, as a ſore that feſtereth inward,</l>
+                  <l>For that his owne brother ſo dealt, that apeard to be for-ward.</l>
+                  <l>Thirdly, the cauſe was aledg'd, that this Duke, <hi>George,</hi> had a ſeruant</l>
+                  <l>Wrongfuly condemned, that ſhould as a Sorcerer enchant</l>
+                  <l>Their regall perſons, and their poſterity. Wherefore,</l>
+                  <l>This Duke complayning to the King, was araign'd as a Traytour:</l>
+                  <l>With ſory wordes who reuyl'd, and ſtill did murmur againſt them.</l>
+                  <l>Whereby the king, in a rage, this Duke did ſpeedily condemne.</l>
+                  <pb facs="tcp:16879:50"/>
+                  <l>There is a time, for a man, both where and when to do wiſely:</l>
+                  <l>As did apeare by the Duke, who prou'd too daungerus haſty.</l>
+                  <l>Silence ſeldom ofendes: large ſpeach oft ſtirreth vp anger.<note place="margin">Sentence.</note>
+                  </l>
+                  <l>That wity graue <hi>Socrates</hi> his ſchollers charg'd to remember,<note place="margin">Maxim. Serm.</note>
+                  </l>
+                  <l>Three ſpeciall documents; to be ſhamefaſt, wiſe, to be ſilent:</l>
+                  <l>Moſt requiſite for them, that they may proue to be prudent.</l>
+                  <l>For let a man ſee much, let him heare, and ſay but a littel.<note place="margin">Prouerbes.</note>
+                  </l>
+                  <l>For littel meddling doth ſeldom bring any troubel.</l>
+                  <l>As litel hoat ſparkels many times do kindel a fy-er<note place="margin">Similie.</note>
+                  </l>
+                  <l>Great, fierce, and violent: So lew'd ſpeech ſtirreth vp anger,</l>
+                  <l>Sore, ſharpe, and vehement. And as fire forcibly great ſtreames</l>
+                  <l>Vpflaming ſpreadeth: So lewd wordes enmitie by meanes</l>
+                  <l>Endamaging diſperſe. And as fire quenched is hardly,<note place="margin">Similie.</note>
+                  </l>
+                  <l>Till that it hath burned to the full, and that very fiercely:</l>
+                  <pb facs="tcp:16879:51"/>
+                  <l>Whoſe force doth ruinate, burne and conſumeth in aſhes</l>
+                  <l>Great, large, huge tenements, faire, fine, and ſumptuus houſes:</l>
+                  <l>Semblabel (in like ſort) is an anger merciles ardent,</l>
+                  <l>Continuing vehement: whoſe madde rage and fury feruent</l>
+                  <l>Doth townes depopulate, ſubuerteth flatly the citties,</l>
+                  <l>Vpturneth caſtels, murdreth Kinges, and many Princes</l>
+                  <l>Stout, wiſe, and valiaunt. What is it, but miſcheuus Enuy</l>
+                  <l>Cankereth vp in her hart? To do wrong, ſhe practiceth only:</l>
+                  <l>Which ſhe delights moſt in. With pride ſhe iettes, as a copeſmate,</l>
+                  <l>Immagining vengeance. Wo worth ſo ſpiteful: brewbate.</l>
+                  <l>
+                     <note place="margin">Similie.</note>Better a ſtaf that bendes, than a ſtaf that breaketh aſunder:</l>
+                  <l>
+                     <note place="margin">Sentence.</note>Better a man patient, than a man that ſtirreth vp anger.</l>
+                  <l>
+                     <note place="margin">Sentence.</note>No wrath ſo vehement, as brothers enmity: whoſe rage</l>
+                  <l>Fiercely reuiued againe, what man may poſſibil aſſwage.</l>
+                  <pb facs="tcp:16879:51"/>
+                  <l>As for an exampel; fierce <hi>Typhon</hi> killed <hi>Oſyris:</hi>
+                  </l>
+                  <l>
+                     <hi>Romulus</hi> alſo <hi>Remus: Cambiſes</hi> wrongfuly <hi>Smerdis.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <head>To her Maieſtie.</head>
+               <lg>
+                  <l>Here I deſiſt for a time, O Queene. For like an abortiue:</l>
+                  <l>Droupeth afore he be ripe: ſo my booke may proue but ofenſiue,<note place="margin">Similie.</note>
+                  </l>
+                  <l>If that he paſſe to the print, yet my poore skill hath adorniſt</l>
+                  <l>That, that I meane to deline. Soft fyre makes malt to be ſweeteſt.<note place="margin">Prouerbe.</note>
+                  </l>
+                  <l>And God graunt thee to rule, as a ioyful Prince to thy p<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>p<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>l,</l>
+                  <l>Princely ſo long to liue, as an Hart, as an oke, or a woo<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>l:</l>
+                  <l>If ſo be your Highnes this verſe and hiſtory fancy.</l>
+                  <l>Then will I gladly procead; els not. For I count it a folly.</l>
+               </lg>
+               <lg>
+                  <l>Here is a Book that I made which Pagan <hi>Ioue</hi> in his anger,<note place="margin">Iam opus exegi &amp;c.</note>
+                  </l>
+                  <l>Nor ſteele ſhall out weare, nor time authentical, euer.</l>
+               </lg>
+            </div>
+            <div type="author_to_muse">
+               <pb facs="tcp:16879:52"/>
+               <head>The Author to his Muſe.</head>
+               <lg>
+                  <l>Here let vs harbor a while: thinges ar to be done in a meaſure.</l>
+                  <l>Euery tyde hath an ebbe: paines paſt to recount, is a pleaſure.</l>
+                  <l>Glory to God, God aboue: which was God from the beginning,</l>
+                  <l>Which is, which ſhal be our Lord eternal abiding.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Seneriſſimae Reginae.</hi>
+                  </l>
+                  <l>
+                     <hi>En meliorae canam, ſi placant carmina Princeps:</hi>
+                  </l>
+                  <l>
+                     <hi>Sin tibi displiceant, hic marus aheneus eſto:</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="poem">
+               <head>Certain Latine verſes, that were made long ſince by one Doctor <hi>Buſte</hi> a phiſitian, in commendation of the Queenes Maieſty, when ſhe came to Oxford.</head>
+               <l>IVno, Minerua, Venus, nemeroſae in vallibus Idae,</l>
+               <l>Iudicium formae dum ſubiere ſuae,</l>
+               <l>
+                  <hi>Iuno</hi> iactat opes. Quid tum? Prudentior illis</l>
+               <l>Eſt <hi>Pallas; Pallas</hi> haud opulenta tamen.</l>
+               <pb facs="tcp:16879:52"/>
+               <l>Inter formoſas, ſi tu Dea fortè fuiſſes,</l>
+               <l>Viciſti reliquas. O Dea, quarta Deas.</l>
+               <l>Quam <hi>Iuno iaeiuna</hi> foret! Quam pallida <hi>Pallas!</hi>
+               </l>
+               <l>Quam dea vana <hi>Venus!</hi> Quam dea ſola fores!</l>
+               <l>Sit Venus alma viris; regni virtutis egena eſt.</l>
+               <l>Omnia ſunt tua: in <hi>Iuno, Minerua, Venus.</hi>
+               </l>
+            </div>
+            <div type="poem">
+               <head>Tranſlated into Engliſh Hexameters, and Pentameters, verſe for verſe.</head>
+               <l>
+                  <hi>Iuno, Minerua, Venus,</hi> in vales of wodded hil <hi>Ida,</hi>
+               </l>
+               <l>Whyles, which was fayreſt, they did agree to be try'd,</l>
+               <l>
+                  <hi>Iuno</hi> ſhe bragd of wealth. What then? Then thought to be wiſeſt,</l>
+               <l>Was <hi>Pallas; Pallas</hi> was not a wealthy godeſſe.</l>
+               <l>If that among thoſe faire godeſes, thou faire godeſ hadſt ben,</l>
+               <l>Thou hadſt ſurpaſt them (there, as a fourth Godeſ) all.</l>
+               <pb facs="tcp:16879:53"/>
+               <l>
+                  <hi>Iuno,</hi> ſhe how <hi>ieiune?</hi> Now pale had <hi>Pallas</hi> apeared?</l>
+               <l>And <hi>Venus</hi> how vainelike? Thou then an only godeſſe.</l>
+               <l>Let <hi>Venus</hi> all men pleaſe, yet throne of vertue ſhe wanteth.</l>
+               <l>All thinges are thine: thou <hi>Iuno, Minerua, Venus.</hi>
+               </l>
+            </div>
+            <div type="poem">
+               <head>And Saphickes in English, I haue made thus:</head>
+               <lg>
+                  <l>Godly Queene Princeſſe preſident remayneth</l>
+                  <l>Only our fortreſſe reſident apeareth,</l>
+                  <l>Duly like Empreſſe pre'minent requireth</l>
+                  <l>All vs apointed,</l>
+               </lg>
+               <lg>
+                  <l>Stoutly with bouldnes prouident, to venter</l>
+                  <l>Bouldly foes fiercenes violent to con<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>uer,</l>
+                  <l>Manly with ſtoutnes diligent defend her,</l>
+                  <l>Which is anoynted.</l>
+               </lg>
+               <pb facs="tcp:16879:53"/>
+               <pb facs="tcp:16879:54"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb facs="tcp:16879:54"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

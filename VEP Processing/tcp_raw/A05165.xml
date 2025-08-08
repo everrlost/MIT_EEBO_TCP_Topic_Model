@@ -1,0 +1,757 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The case of tenures upon the commission of defective titles argued by all the iudges of Ireland, with their resolution, and the reasons of their resolution.</title>
+            <author>Santry, James Barry, Baron, 1603-1672.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1637</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 107 KB of XML-encoded text transcribed from 34 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A05165</idno>
+            <idno type="STC">STC 1530</idno>
+            <idno type="STC">ESTC S106989</idno>
+            <idno type="EEBO-CITATION">99842694</idno>
+            <idno type="PROQUEST">99842694</idno>
+            <idno type="VID">7373</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A05165)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 7373)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 697:01)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The case of tenures upon the commission of defective titles argued by all the iudges of Ireland, with their resolution, and the reasons of their resolution.</title>
+                  <author>Santry, James Barry, Baron, 1603-1672.</author>
+               </titleStmt>
+               <extent>[4], 56, [8] p.   </extent>
+               <publicationStmt>
+                  <publisher>Imprinted by the Society of Stationers, printers to the Kings most excellent Majesty,</publisher>
+                  <pubPlace>Dublin :</pubPlace>
+                  <date>1637.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>The last leaf is blank.</note>
+                  <note>Reproduction of the original in Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Land tenure --  Law and legislation --  Ireland --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-04</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-06</date>
+            <label>Susie Lorand</label>Sampled and proofread</change>
+         <change>
+            <date>2011-06</date>
+            <label>Susie Lorand</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:7373:1"/>
+            <pb facs="tcp:7373:1" rendition="simple:additions"/>
+            <p>THE CASE OF TENVRES upon the Commiſsion of De<g ref="char:EOLhyphen"/>fective Titles, <hi>Argued by all the Judges of Ireland,</hi> with their Reſolution, and the Reaſons of their Reſolution.</p>
+            <p>
+               <hi>D<g ref="char:V">Ʋ</g>BLIN,</hi> Imprinted by the Society of Stationers, Printers to the Kings moſt excellent Majeſty. 1637.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:7373:2"/>
+            <pb facs="tcp:7373:2"/>
+            <head>TO THE RIGHT HONOVRABLE, THOMAS <hi>Viſcount</hi> WENTWORTH Lord Deputy generall of Ireland.</head>
+            <opener>
+               <salute>MY LORD,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">T</seg>His work is <hi>Yours</hi> by more then one Intereſt, and therefore it returnes <hi>naturally</hi> unto <hi>YOU,</hi> for to lay aſide my particular reſpects, (it being by Your <hi>Lordſhips</hi> favour that I ſerve his <hi>Majeſty</hi> in this place,) <hi>You</hi> are <hi>Pater Patriae,</hi> and not more by Your <hi>Office,</hi> then by your <hi>love</hi> to this <hi>nation,</hi> and your moſt equall, and indifferent diſpenſation of <hi>Iuſtice,</hi> (next under his <hi>Majeſty</hi>) the <hi>Father</hi> of this <hi>Church,</hi> and <hi>Common-wealth;</hi> And for whom can an <hi>oblation</hi> of this nature be more proper? beſides, all that is heere, as it was at firſt ſpoken, in an humble obedience to Your <hi>Lord<g ref="char:EOLhyphen"/>ſhips</hi> Order, ſo it was after upon a noble <hi>invi<g ref="char:EOLhyphen"/>tation</hi> from <hi>You</hi> digeſted into this <hi>forme,</hi> and it is now made publique by <hi>Your</hi> Comman<g ref="char:EOLhyphen"/>dement;
+<pb facs="tcp:7373:3"/> ſo that in all the paſſages of it, it car<g ref="char:EOLhyphen"/>ryes <hi>Your Image,</hi> Your <hi>Superſcription,</hi> and therefore by this dedication, I doe not ſo much give it, as restore it. If there be any thing in it, that is mine, that anſweares Your expectation, even in that, that it anſweares Your expecta<g ref="char:EOLhyphen"/>tion, I have my <hi>reward;</hi> for all that are below Your <hi>Lordſhip,</hi> I hope it ſhall have this uſe, it ſhall ſatisfie them, that Your <hi>Lo:</hi> procee<g ref="char:EOLhyphen"/>dings in this <hi>buſineſſe</hi> have bin in all points agreeable both to <hi>Honour,</hi> and <hi>Iuſtice; God</hi> leade Your <hi>Lordſhip</hi> by the hand, untill <hi>You</hi> have finiſhed thoſe <hi>great,</hi> and <hi>heroicall</hi> workes ſo happily begun, May they all proſper to the high pleaſure of <hi>Almighty God,</hi> the encreaſe of <hi>Honour,</hi> and <hi>Revenew</hi> to his <hi>Majeſty,</hi> of <hi>peace,</hi> and <hi>proſperity</hi> to this <hi>Kingdome,</hi> and to <hi>Your own</hi> immortall <hi>glory.</hi>
+            </p>
+            <closer>
+               <signed>
+                  <hi>Your Lordſhips moſt humble ſervant</hi> James Barry.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:7373:3"/>
+            <head>The Caſe of Tenures vpon the Com<g ref="char:EOLhyphen"/>miſsion of Defective Titles.</head>
+            <head>Trin. 13. Caroli Regis.</head>
+            <p>
+               <seg rend="decorInit">A</seg>T the late enquirie concerning His <hi>Maiesties</hi> Title to the Countie of <hi>Mayo,</hi> there was an Act of State publiſhed, wherein it was declared, <hi>that it was not his Maiesties intention, to take from his people any thing that was iuſtly theirs, and that therefore none, who held any Lands, or other Hereditaments whatſoever within that County, by Letters-patents from the Crowne, ſhould be any wayes preiudiced by finding his Ma<g ref="char:EOLhyphen"/>ieſties Title, although their Letters-patents were not found, or well and certaynely found, in the great Office then inten<g ref="char:EOLhyphen"/>ded to be taken, but that they ſhould have the ſame benefit of them, as if they had beene ſpecially found, ſo as they did produce their Letters-patents, or the enrollment thereof, be<g ref="char:EOLhyphen"/>fore the Lord Deputy and Councell, at the Councell Board, by a certayne day limited in the Act; and that they were allowed by that Board, to be good and effectuall in Law.</hi>
+            </p>
+            <pb n="2" facs="tcp:7373:4"/>
+            <p>In purſuance of that Act, there were ſeverall Let<g ref="char:EOLhyphen"/>ters-patents produced, and among the reſt, the Lord-<hi>Viſcount Dillon</hi> did ſhew forth Letters-patents, obtay<g ref="char:EOLhyphen"/>ned from his late <hi>Maieſtie,</hi> and paſſed upon the late Commiſsion of Defective titles; Vpon peruſall and conſideration whereof, his <hi>Maieſties</hi> Councell were of opinion, that they were voyde in law; And there<g ref="char:EOLhyphen"/>fore it was thought fit, and ſo ordered by the <hi>Lord De<g ref="char:EOLhyphen"/>puty</hi> and <hi>Councell,</hi> that the doubt ariſing upon the Let<g ref="char:EOLhyphen"/>ters-patents, ſhould be drawne up into a Caſe, and that that Caſe ſhould be openly argued at the Coun<g ref="char:EOLhyphen"/>cell Board, by Councell learned on both ſides.</p>
+            <div type="case">
+               <head>The Caſe was after drawne up in theſe words.</head>
+               <p>KIng <hi>IAMES</hi> by Commiſsion under the great Seale, dated the ſecond day of March, in the fourth yeare of his raigne, did authorize certayne Commiſsioners, to grant the Mannor of Dale, by Letters patents under the great Seale of this Kingdome, to <hi>A.</hi> and his heires, and there is no direction given in the ſayd Commiſsion, tou<g ref="char:EOLhyphen"/>ching the tenure to be reſerved.</p>
+               <p>There are Letters-patents by colour of the ſayd Commiſ<g ref="char:EOLhyphen"/>ſion paſsed unto <hi>A.</hi> and his heyres, to hold by Knights ſervice, as of his Maiesties Caſtle of Dublin</p>
+               <p>The question is, whither the ſayd Letters patents be voyde in the whole, or onely as to the tenure.</p>
+               <p>THis Caſe was argued on ſeverall dayes, firſt by <hi>Nicholas Plunket</hi> for the Lord <hi>Dillon,</hi> and <hi>Serjeant
+<pb n="3" facs="tcp:7373:4"/> Catlin</hi> for the <hi>King,</hi> and after by <hi>Iohn Pollexfen</hi> for the Lord <hi>Dillon,</hi> and <hi>Oſbaldeſton</hi> Atturney generall for the <hi>King.</hi>
+               </p>
+               <p>And becauſe it was a Caſe of great weight and importance, it was delivered unto the <hi>Iudges,</hi> and they were required by the Lord <hi>Deputy</hi> and <hi>Councell,</hi> to conferre and conſider of it, and to returne unto them their reſolution concerning it, but they (upon private conference among themſelves) did not agree in opi<g ref="char:EOLhyphen"/>nion, and therefore it was thought neceſſary, for publique ſatisfaction, that it ſhould be argued ſolemn<g ref="char:EOLhyphen"/>ly by them all: and therevpon in <hi>Trinity terme</hi> laſt, the Caſe was argued by <hi>Ryves Puiſne</hi> Iudge of his Ma<g ref="char:EOLhyphen"/>ieſties Court of Chiefe place, <hi>Barry</hi> ſecond Baron of the Exchecquer, and <hi>Creſsy</hi> one of the Iudges of the Court of Cheife place: and after on another day ap<g ref="char:EOLhyphen"/>pointed for the Caſe, by <hi>Mayart</hi> one of the Iudges of the Common pleas, <hi>Bolton</hi> Chiefe Baron, <hi>Lowther</hi> chiefe Iuſtice of the Common pleas, and <hi>Shurly</hi> chiefe Iuſtice of the Court of chiefe place.</p>
+               <p>And for that I intend to make as ſummary a Re<g ref="char:EOLhyphen"/>port as I can, I will firſt ſet downe ſuch arguments, and obiections as were made by them that argued for the mayntenance of the Letters patents.</p>
+               <p>It was obiected by them, <hi>That the Letters patents were good for the Land, and voyde onely as to the tenure.</hi>
+               </p>
+               <div type="reasons">
+                  <head>For divers reaſons</head>
+                  <p n="1">1. <hi>Regularly</hi> where a Man doth leſſe then the au<g ref="char:EOLhyphen"/>thority or commandement committed unto him,
+<pb n="4" facs="tcp:7373:5"/> there (the commandement or authority being not purſued) the Act is voyde; But where a Man doth that which hee is authoriſed to doe, and more, there it is good for that which is warranted, and voyde for the reſt. <hi>Cokes inſtit. ſect.</hi> 434. <hi>Perk.</hi> 189. <hi>vid.</hi> 8 <hi>Coke.</hi> 85. But in the Caſe in queſtion, the Commiſsioners doe that, which they had authority to doe, and they doe more; therefore for that which they had authoritie to doe, that is, to grant the Landes, the Letters patents are good, for that which they doe more, that is, the reſerving of a tenure they are voyde.</p>
+                  <p>Their authority was, to grant the Mannor of Dale to <hi>A.</hi> and his heyres, that they have fully done, and if they had ſtayed there, no man will deny, but they had well executed their authoritie; but they goe further, and doe more, and Reſerve a tenure, therefore for that more, for that Reſervation, their Act is onely voyde.</p>
+                  <p n="2">2. <hi>VVhere</hi> a Man hath authority to doe an act, and hee doth it in ſubſtance, though hee differ in the man<g ref="char:EOLhyphen"/>ner, yet the authority is well executed. As if a Man make a deede of Feoffment of <hi>Blacke-acre,</hi> and <hi>whit-acre,</hi> and a letter of atturney to enter into both Acres, and to deliver <hi>ſeiſin</hi> of both of them according to the forme and effect of the <hi>deede;</hi> and hee entreth into <hi>Blacke-acre,</hi> and delivers <hi>ſeiſin ſecundum formam Cartae,</hi> this <hi>livery</hi> and <hi>ſeiſin</hi> is good, albeit hee did not enter into both, nor into one in the name of both; and yet this is done in another manner, then his authoritie warrants; for his authority was, to enter into both, and to deliver <hi>ſeiſin,</hi> of both, neyther of which hee doth, no not ſo much as enter into one in the name
+<pb n="5" facs="tcp:7373:5"/> of both.</p>
+                  <p>So vvhen the Feoffment is made to two, or more, and a letter of Atturncy to make <hi>Livery</hi> to both, and the Atturney makes <hi>Livery</hi> of <hi>ſeiſin</hi> to one of the <hi>feof<g ref="char:EOLhyphen"/>fees, ſecundum formam &amp; effectum Cartae,</hi> this is good to both, and yet in that Caſe, hee that is abſent may vvayve the <hi>Livery;</hi> Surely, this is done by the At<g ref="char:EOLhyphen"/>turney in another manner, then the authority war<g ref="char:EOLhyphen"/>rants, for his warrant was to make <hi>Livery</hi> to both, and the intention of the <hi>Feoffor</hi> was, that both ſhould take, and the eſtate bee ſetled in both, and yet hee makes <hi>Livery</hi> to one onely, and ſo, that the eſtate may bee ſetled onely in him, and yet hee hath well executed his authority, for in ſubſtance hee hath done that which is commanded, and though it differs in the manner, it is not materiall; both thoſe Caſes are put in <hi>Cokes instit. ſect.</hi> 66.</p>
+                  <p>But in the Caſe in Queſtion, the Commiſsioners have done in ſubſtance, that which was commanded them, therefore their authority is vvell executed, and the act they have done is good. That they have done in ſubſtance, that which vvas commanded them, appeares in it ſelfe, for their authority was to grant the Mannor of <hi>Dale</hi> to <hi>A.</hi> and his heyres, this they have done: And if they have added any thing to the grant, whereby it may bee ſayd to bee done in another manner, yet the act being done in ſubſtance, it ſhall bee good.</p>
+                  <p n="3">3. That wherein they have exceeded their au<g ref="char:EOLhyphen"/>thority, <hi>ſcilicet,</hi> the Reſervation of the tenure, it is not of the eſſence of the grant, Of the eſſence of a grant
+<pb n="6" facs="tcp:7373:6"/> are onely Grantor, Grantee, and the thing to bee gran<g ref="char:EOLhyphen"/>ted, and apt words in an Inſtrument or Patent; Be<g ref="char:EOLhyphen"/>ſides, of the eſſence of a grant it cannot bee, for grants were at Common-law, tenures were intro<g ref="char:EOLhyphen"/>duced by the Conqueſt. <hi>Selden</hi> in his <hi>Not.</hi> to <hi>Eadmer.</hi> 194. <hi>Bracton libr.</hi> 2. <hi>de acquir. rerum domin.</hi> The tenure is another diſtinct thing, <hi>aliud</hi> from the Land, in that they cannot conſiſt in one perſon, the Land is the thing granted, that belongs to the Patentee, the tenure is Reſerved to the <hi>King,</hi> that belongs to him, the Reſervation is <hi>aliud,</hi> or <hi>ſupra,</hi> or <hi>praeter</hi> the grant, not <hi>alio modo.</hi> And therefore the Letters patents may bee voyde for the tenure, and yet good for the grant of the Land.</p>
+                  <p n="4">4. Although it were admitted, that the Reſerva<g ref="char:EOLhyphen"/>tion of the tenure, bee not a diſtinct thing, or <hi>aliud</hi> from that, which they had authority to doe, but is rather a doing of the ſame thing, for which they had warrant, in another manner then their authority does warrant; yet it will not follow, that the whole act is voyde: For an authority given, may bee executed in another manner, <hi>alio modo</hi> then the Commiſsion doth Warrant; and yet ſtand good, for that which is done according to the authority.</p>
+               </div>
+               <div type="section">
+                  <head>And that may be in theſe Caſes.</head>
+                  <p n="1">1. Where the authority is cloathed with an inte<g ref="char:EOLhyphen"/>reſt, for there in many Caſes, he that hath the autho<g ref="char:EOLhyphen"/>rity may vary from the authority, And the act though it bee done in another manner, ſhall bee good. As
+<pb n="7" facs="tcp:7373:6"/> where the cuſtome of a Mannor is, that the Lord may grant Landes by <hi>Copy</hi> of <hi>Court-roll</hi> in <hi>Fee,</hi> if the grant bee in <hi>tayle,</hi> or but for <hi>life,</hi> this is good, <hi>Stanton</hi> and <hi>Barnes</hi> his Caſe <hi>Hill.</hi> 36. <hi>Eliz. Roc.</hi> 492. <hi>in B. R. Cokes inſtit. ſect.</hi> 66.</p>
+                  <p>So where the cuſtome was, to grant Copyes for two lives, and hee grants to the Husband for life, and after to the Wife <hi>Durante viduitate.</hi> This is good. <hi>Downes and Hopkins Caſe P.</hi> 36. <hi>Eliz. B. R.</hi> The Statute of 32. <hi>Henr.</hi> 8. doth enable tenant in <hi>tayle,</hi> to make a Leaſe for one and twenty yeares, if he makes a Leaſe for twenty yeares onely, or to one for tenne yeares, and after makes a Leaſe to another for eleven yeares more, this is good, and ſo it hath beene Reſol<g ref="char:EOLhyphen"/>ved in <hi>Tompſon, and Traffords Caſe, Hill.</hi> 35. <hi>Eliz. B. R.</hi>
+                  </p>
+                  <p n="2">2. Where the varying from the authority given, is in letter, or circumſtance, and not in a point ma<g ref="char:EOLhyphen"/>teriall, or in ſubſtance, for that ſee the Caſes cited before <hi>Cokes inſtit. ſect.</hi> 66. <hi>&amp; Litt.</hi> 434.</p>
+                  <p n="3">3. Where the varyance from the authority, al<g ref="char:EOLhyphen"/>though it bee in matter of ſubſtance, is ſupplyed by operation of law. As if a licence bee granted to a Copy-holder for life, to make a Leaſe for tenne yeares, if hee ſhall ſo long live, the Copy-holder makes a Leaſe for tenne yeares abſolutely, without the limitation, <hi>videlicet,</hi> if hee ſhall ſo long live, yet adjudged good; and the Licence well purſued. It was <hi>Hatt and Arrowſmiths Caſe Hillar.</hi> 38. <hi>Elizabeth. B. R.</hi>
+                  </p>
+                  <p>And in the Caſe in queſtion, where all agree, that
+<pb n="8" facs="tcp:7373:7"/> the Kings meaning in this Commiſsion was, that a tenure in <hi>Capite</hi> ſhould bee Reſerved, albeit it bee not expreſſed in words; or if it had beene in expreſſe termes, that a tenure in <hi>Capite</hi> ſhould bee reſerved, and they had onely granted the Mannor, without re<g ref="char:EOLhyphen"/>ſervation of any tenure, yet the Law ſupplying this defect, and rayſing a tenure in <hi>Capite,</hi> this ſhall make the grant good.</p>
+                  <p n="4">4. <hi>VVhere</hi> the varyance from the authority is cu<g ref="char:EOLhyphen"/>red by the party himſelfe, by ſome other act, As if Tenant in <hi>tayle,</hi> Husband and Wife, a Biſhop, &amp;c. who are authorized by the Statute of 32. <hi>Henr.</hi> 8. to make leaſes for one &amp; twenty yeares, or three lives of Landes uſually lett, make a leaſe of Landes uſually lett, and of Landes not uſually lett, reſerving one entire Rent, all is voyde: <hi>Shepheards</hi> Caſe; But if Tenant in <hi>tayle</hi> will make ſuch a leaſe, and reſerve the accuſto<g ref="char:EOLhyphen"/>med Rent for the Landes uſually lett, and another Rent for the Landes not uſually lett, heere the leaſe ſhall bee good for the Landes uſually lett, and voyde<g ref="char:EOLhyphen"/>able onely for the other; for by theſe ſeverall reſerva<g ref="char:EOLhyphen"/>tions, the varyance from the authority is Cured. <hi>Tan<g ref="char:EOLhyphen"/>feild and Rogers Caſe Trin.</hi> 36. <hi>Eliz. B.R.</hi>
+                  </p>
+                  <p n="5">5. <hi>VVhere</hi> the varyance from the authority (how materiall ſoever it bee) is notwithſtanding made voyde, eyther by the Common-law, or act of Parlia<g ref="char:EOLhyphen"/>ment; As where the King does licence <hi>I. S.</hi> to grant twenty Markes annuity in <hi>Mortmaine,</hi> and hee grants the Annuity with clauſe of diſtreſſe, by <hi>Huſſey,</hi> and <hi>Bryan</hi> chiefe Iuſtices, and <hi>Starky</hi> chiefe Baron, and Iu<g ref="char:EOLhyphen"/>ſtice <hi>Faierfax,</hi> the addition of diſtreſſe is without
+<pb n="9" facs="tcp:7373:7"/> warrant, and voyde; yet all admit the grant of the Rent good notwithſtanding, 2. <hi>&amp;</hi> 3. <hi>H.</hi> 7. <hi>grants</hi> 36.</p>
+                  <p>By the Statute of 1. <hi>Elizabeth.</hi> a grant by a Bi<g ref="char:EOLhyphen"/>ſhop of an ancient Office of Seneſchall-ſhip to two, that had never before beene granted, but to one, is adjudged voyde, 10. <hi>Coke</hi> 61. <hi>the Biſhop of Salisburyes Caſe,</hi> Put caſe then that ſuch a grant is made by a Bi<g ref="char:EOLhyphen"/>ſhop to <hi>I. S.</hi> and to an <hi>Infant,</hi> joyntly, or the one after the other, this is a materiall varyance, and yet, becauſe the grant in reſpect of the <hi>Infant</hi> is voyde, (as it was held in <hi>Scambler</hi> and <hi>
+                        <g ref="char:V">Ʋ</g>
+                        <g ref="char:V">Ʋ</g>alters</hi> Caſe, <hi>M.</hi> 40. <hi>&amp;</hi> 41. <hi>Eliz. B.R.</hi> cited in <hi>Cokes inſtit. ſect.</hi> 1. the grant to <hi>I. S.</hi> (as they held) is good.</p>
+                  <p n="5">5. <hi>Although</hi> the <hi>habendum, tenendum, condition,</hi> &amp;c. be partes of a grant, yet the <hi>Habendum</hi> may be voyde, and the grant good; as in <hi>Auditor Kings caſe</hi> cited in 8. <hi>Coke</hi> 56. in the <hi>Earle of Rutlands</hi> Caſe; where the Caſe was, the <hi>King</hi> granted Landes to <hi>A.</hi> and his heyres, in the premiſes, <hi>Habendum</hi> to him, and his aſsignes, omitting the word <hi>Heyres</hi> in the <hi>habendum,</hi> yet the Fee ſhall paſſe by the premiſes, and the <hi>haben<g ref="char:EOLhyphen"/>dum</hi> ſhall be voyde.</p>
+                  <p>The condition may bee voyde, as in <hi>Litletons</hi> Caſe a Feoffment upon condition that hee ſhall not alien, and yet the grant remayne good.</p>
+                  <p n="6">6. <hi>The reſervation</hi> of a tenure was not neceſſary in the grant, if it were not neceſſary, it is <hi>invtile,</hi> and <hi>utile per inutile, non vitiatur.</hi> 3. <hi>Coke</hi> 10. <hi>Dowties caſe.</hi>
+                  </p>
+                  <p n="7">7. <hi>The honour</hi> of the <hi>King</hi> ſhall be preferred before his profit 9. <hi>Coke</hi> 131. in <hi>Bewlyes caſe:</hi> and therefore when the <hi>Kings</hi> grant may bee taken to two intents
+<pb n="10" facs="tcp:7373:8"/> good, in many Caſes, it ſhall be taken to that intent, which is moſt beneficiall for the King; But if it may bee taken, to one intent good, and to another intent voyde, there for the honour of the <hi>King,</hi> and the be<g ref="char:EOLhyphen"/>nefit of the Subject, it ſhall be taken in ſuch manner, that the grant of the King may take effect, for it was not the intent of the <hi>King,</hi> to make a voyde grant, <hi>vid.</hi> 8. <hi>Coke.</hi> 56. the <hi>Earle of Rutlands</hi> caſe, the Lord <hi>Staffords caſe,</hi> 8. <hi>Coke.</hi> 77. the <hi>Earle</hi> of <hi>Cumberlands</hi> caſe, 8. <hi>Coke.</hi> 167.</p>
+                  <p>Vpon this rule the Caſe of <hi>Priddle</hi> and <hi>Napper.</hi> 11. <hi>Coke.</hi> 11. was put, which was ſayd, to bee a farre ſtronger Caſe, then the Caſe in Queſtion, and that, in Caſe of an authority executed in other manner, <hi>alio modo,</hi> and yet good: The point reſolved, as to this purpoſe, was this, <hi>King Henr.</hi> 8. did grant Licence to the <hi>Prior</hi> and Covent of <hi>Mountacute,</hi> to appropriate the Church of <hi>Tintinhul</hi> to their Priory, and this was, <hi>per verba de praeſenti tempore.</hi>
+                  </p>
+                  <p>It did appeare, that at the time of the licence, the Church was full of an Incumbent, and ſo that no ap<g ref="char:EOLhyphen"/>propriation could be made, <hi>in praeſenti,</hi> but <hi>in futuro,</hi> by ſpeciall wordes, to take effect, after the death of the preſent Incumbent; and therefore the licence ought to have beene ſpeciall, otherwiſe the King was decei<g ref="char:EOLhyphen"/>ved in his grant, and ſo the appropriation voyde, which by colour of that licence, they made to take effect, after the death of the Incumbent: But it was <hi>reſolved,</hi> that the appropriation was ſufficient in law, for the licence was generall, and therefore, it ſhall be taken in ſuch ſence, that it may take effect, that is to
+<pb n="11" facs="tcp:7373:8"/> take effect, after the death of the Incumbent. And the reaſon there given, is the rule before remembred, for Conſtruction of the Kings grants.</p>
+                  <p>In which Caſe it is to be obſerved, firſt that the li<g ref="char:EOLhyphen"/>cence or authority given by the <hi>King</hi> vvas in gene<g ref="char:EOLhyphen"/>rall wordes, to make the appropriation preſently. Se<g ref="char:EOLhyphen"/>condly that this authority could not bee executed in that manner. Thirdly by vertue of that licence, they make the appropriation <hi>in futuro, S.</hi> to take effect after the death of the Incumbent; So they doe it in another manner, then their authority vvarrants, and yet good, and their authority vvell purſued.</p>
+                  <p>Then if that authority executed in ſo different a manner, from the vvordes of the authority, vvas ad<g ref="char:EOLhyphen"/>judged to be well executed, much more ſhall it in this Caſe be ſayd to be vvell executed, vvhen they have purſued the very vvordes of the authority, and if to ſome intent there might be a conſtruction made, to make the grant voyde, yet if by another conſtruction, the grant may bee made good, and the <hi>Kings</hi> in<g ref="char:EOLhyphen"/>tention fulfilled, vvithout any prejudice to him, then for the honour of the <hi>King,</hi> and the be<g ref="char:EOLhyphen"/>nefit of the Subject, that Conſtruction ſhall bee made, that the grant ſhall bee good, and ſuch Con<g ref="char:EOLhyphen"/>ſtruction may bee made in this Caſe, for heere the te<g ref="char:EOLhyphen"/>nure reſerved being voyde (as it is agreed by all) a te<g ref="char:EOLhyphen"/>nure in <hi>Capite,</hi> (being the tenure intended by the Com<g ref="char:EOLhyphen"/>miſsion) ſhall bee rayſed by implication of law; by this Conſtruction the grant ſhall bee made good, and the <hi>Kings</hi> intention ſhall bee fulfilled, without any prejudice to him.</p>
+                  <pb n="12" facs="tcp:7373:9"/>
+                  <p>They agree, that in all grants of Lands by Letters patents heere in <hi>Ireland,</hi> by vertue of the <hi>Kings</hi> Com<g ref="char:EOLhyphen"/>miſsion, or letter Miſsive under the privy Signet, if that tenure be not reſerved, eyther by the Letters pa<g ref="char:EOLhyphen"/>tents, or by the lavv, which is directed by the ſayd Co<g ref="char:cmbAbbrStroke">̄</g>
+                     <g ref="char:EOLhyphen"/>miſsion, or letter Miſsive, there the grant ſhall bee voyde in the vvhole, both for the Land and tenure.</p>
+                  <p>And therefore, where the <hi>king</hi> gives power, to grant Lands, and to reſerve a tenure, which the law will not create, or to reſerve ſome other thing, vvhich the lavv it ſelfe will not reſerve; as if the Commiſsion had beene, to grant landes, and to reſerve a tenure by Knights ſervice, if the land be granted, reſerving a te<g ref="char:EOLhyphen"/>nure in <hi>ſocage,</hi> the grant is voyde in the vvhole.</p>
+                  <p>So if the Commiſsion had beene, to grant land, and to reſerve tvventy ſhillings Rent, and they reſerve tenne ſhillings; In theſe Caſes the <hi>Commiſsio<g ref="char:EOLhyphen"/>ners</hi> have not done ſo much, as they ſhould, the <hi>king</hi> is prejudiced, and no conſtruction or implication of lavv can helpe, as in our Caſe it doth.</p>
+                  <p>And heere in this Caſe, the tenure reſerved ſhall not toll that tenure, which is implyed by the lavv, becauſe the tenure reſerved is voyde: For that they cited the Caſe of <hi>Littleton,</hi> in his Chapter of <hi>Frank-al<g ref="char:EOLhyphen"/>moigne, ſect.</hi> 140.</p>
+                  <p>A Man that holds Landes by Knights ſervice, at this day grants them, by licence to an Abbot, &amp;c. to hold in <hi>Frank-almoigne,</hi> the tenure reſerved is voyde, and hee ſhall hold by Knights ſervice, and ſo a gift in <hi>Frankmarriage,</hi> reſerving a Rent, this re<g ref="char:EOLhyphen"/>ſervation is voyde, and hee ſhall hold onely by fealty.
+<pb n="13" facs="tcp:7373:9"/> 4. <hi>H.</hi> 6. 22. Othervviſe it would be, if the reſervation vvere good, for there the tacite reſervation ſhall bee ſilent, as in <hi>
+                        <g ref="char:V">Ʋ</g>
+                        <g ref="char:V">Ʋ</g>heelers caſe.</hi> 6. <hi>Coke</hi> 6.</p>
+                  <p>They agree, that if theſe Letters patents had beene made, by Bill ſigned by the <hi>kings</hi> owne hand, under the great Seale of <hi>England,</hi> the tenure reſerved would controll the tenure, which the Lavv would have rayſed; For in Letters patents paſt in <hi>England,</hi> the Letters patents are <hi>ultima intentio Regis,</hi> and the Iudges (vvho are to make Conſtruction thereof,) are to ground their judgement, upon the Letters patents themſelves, and the contents thereof, without any re<g ref="char:EOLhyphen"/>gard to the particular, or any thing without the Let<g ref="char:EOLhyphen"/>ters patents, <hi>Doddingtons caſe,</hi> 2. <hi>Coke.</hi> 34.</p>
+                  <p>But in Letters patents of Lands in <hi>Ireland,</hi> under the great Seale of <hi>Ireland,</hi> the Letters patents are not <hi>ultima intentio Regis,</hi> but <hi>tota, &amp; ſola, prima, &amp; ulti<g ref="char:EOLhyphen"/>ma intentio Regis</hi> are all to be taken, and gathered out of the Commiſsion, or vvarrant from the <hi>king</hi> under the privy Signet, upon vvhich they are paſſed; And here the <hi>Iudges</hi> are to ground their judgement upon the Commiſsion, or vvarrant, aſwell as upon the Letters patents.</p>
+                  <p rend="centerJustify">
+                     <hi>And to theſe ſeven Arguments, or reaſons, all that was ſpoken by them, that argued for the Let<g ref="char:EOLhyphen"/>ters patents may be reduced.</hi>
+                  </p>
+                  <p>
+                     <hi>But it was reſolved</hi> by the <hi>two chiefe Iuſtices,</hi> the <hi>chiefe Baron, Baron Barry,</hi> and <hi>Iustice Ryves</hi> (vvith whom Baron <hi>Lowther</hi> agreed in opinion, though hee
+<pb n="14" facs="tcp:7373:10"/> could not then argue, by reaſon of ſickneſſe.)</p>
+                  <p rend="centerJustify">That the Letters patents are voyde in law, both to the Land, and to the tenure.</p>
+                  <list>
+                     <head>In this caſe five things did fall into conſideration.</head>
+                     <item>1. The <hi>commiſsion</hi> mentioned in the Caſe, and the au<g ref="char:EOLhyphen"/>thority of it.</item>
+                     <item>2. <hi>Authorities,</hi> and their ſeverall ſorts, and how they ought to be purſued.</item>
+                     <item>3. The <hi>Authority in this caſe,</hi> what it is, if it be pur<g ref="char:EOLhyphen"/>ſued, as it ought to bee? wherein it is not pur<g ref="char:EOLhyphen"/>ſued.</item>
+                     <item>4. <hi>Tenures</hi> what they are in the grant, that the reſer<g ref="char:EOLhyphen"/>vation of a tenure is <hi>modus conceſsionis,</hi> that it is not <hi>aliud,</hi> or a diſtinct thing from the grant, that <hi>tenures</hi> had their <hi>originall</hi> in <hi>England,</hi> before the <hi>Norman Conqueſt.</hi>
+                     </item>
+                     <item>5. The <hi>reaſons</hi> why the Letters patents are voyde in the whole, and the <hi>authorities</hi> upon which the <hi>Re<g ref="char:EOLhyphen"/>ſolution</hi> is grounded.</item>
+                  </list>
+               </div>
+               <div n="1" type="consideration">
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="1"/> 1. The <hi>Commiſsion</hi> mentioned in the <hi>caſe,</hi> is the <hi>com<g ref="char:EOLhyphen"/>miſsion</hi> that was in force, in the time of his late <hi>Maie<g ref="char:EOLhyphen"/>sty,</hi> for the ſtrengthening of Defective Titles, a <hi>Com<g ref="char:EOLhyphen"/>miſsion</hi> that was one of the greateſt graces, and boun<g ref="char:EOLhyphen"/>ties, that ever (before that time) vvas vouchſafed by the <hi>kings</hi> of <hi>England</hi> to their Subjects, of this <hi>kingdome;</hi> a Commiſsion, that was agreed by all, to bee a good,
+<pb n="15" facs="tcp:7373:10"/> and legall, and effectuall <hi>commiſsion,</hi> and to contayne in it ſelfe full power, and authority to grant.</p>
+                  <p>Of vvhich the <hi>chiefe Iuſtice</hi> of the <hi>Common pleas</hi> in his argument fayd, that upon this occaſion he did ſe<g ref="char:EOLhyphen"/>riouſly peruſe it, and in his judgement, it was as full, and ſtrong a Commiſsion, for granting the Landes, <hi>(concurrentibus hijs quae de jure requiruntur)</hi> as any hee had ſeene. There vvas in the Commiſsion (as hee ſayd) <hi>plenitudo poteſtatis,</hi> there is not any queſtion of the Commiſsion, nor of the power granted by the Commiſsion; Neyther (as it vvas declared) was it the intention of his Maieſty, to deny unto the Subject, the full benefit of it in all things, wherein the Com<g ref="char:EOLhyphen"/>miſsioners had purſued their authority, given by the Commiſsion; and proceeded according to the law.</p>
+                  <p>For that, that there was no direction in the Com<g ref="char:EOLhyphen"/>miſsion for the tenure, it was no defect in the Com<g ref="char:EOLhyphen"/>miſsion (as the <hi>chiefe Baron</hi> obſerved) nor any omiſ<g ref="char:EOLhyphen"/>ſion, or negligence in them, that were truſted with the drawing of it, it was done upon good aduiſe, &amp; of purpoſe; for the caſes of them, that vvere to paſſe upon that Commiſsion, were ſo different, and there was ſuch variety of tenures, that it was not poſsible, to give any certaine direction in the Commiſsion con<g ref="char:EOLhyphen"/>cerning them.</p>
+                  <p>Beſides the intention of that <hi>Commiſsion</hi> was not, to give authoritie, for the alteration, or diminution of the <hi>Kings</hi> tenures; it was intended onely, for the eſta<g ref="char:EOLhyphen"/>bliſhing of the eſtates, and poſſeſsions of the Subject: And therefore there is not a vvord in it, of any tenure, ſo that the purpoſe of it was, where any former tenure
+<pb n="16" facs="tcp:7373:11"/> vvas <hi>in eſſe,</hi> to preſerve it, and where no tenure was <hi>in eſſe,</hi> to leave it to the Reſervation of the Law.</p>
+                  <p>So that now the <hi>Commiſsion</hi> being cleared, &amp; agreed to be good, and legall, and to contayne full power, and ample authority to grant the Landes.</p>
+                  <p rend="indent">The ſole <hi>Queſtion</hi> vvill be, of the purſuance of the <hi>Commiſsion,</hi> and whither this power gran<g ref="char:EOLhyphen"/>ted by the <hi>Commiſsion,</hi> bee well executed, and purſued by the Commiſsioners.</p>
+               </div>
+               <div n="2" type="consideration">
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="2"/> 2. <hi>To find</hi> out the law in this Caſe, the ſeverall ſorts of <hi>authorities</hi> in our Bookes were conſidered, and how they ought to be purſued.</p>
+                  <p>For <hi>authorities</hi> theſe differences vvere agreed for Lavv.</p>
+                  <p>All <hi>authorities</hi> are eyther authorities in <hi>law</hi> or au<g ref="char:EOLhyphen"/>thorities in <hi>fait</hi> 8. <hi>Coke.</hi> 146. the 6. <hi>Carpenters caſe.</hi>
+                  </p>
+                  <p>
+                     <hi>Authorities in law</hi> are, vvhere the law gives authori<g ref="char:EOLhyphen"/>tie, vvithout any authoritie from the party; as the lavv gives authority to the Lord, to diſtraine for his Rent, and ſervice, to the ovvner of the ſoyle, to di<g ref="char:EOLhyphen"/>ſtraine damage feaſant, to him in the reverſion, to en<g ref="char:EOLhyphen"/>ter, and ſee if vvaſt be done, and the like.</p>
+                  <p>An <hi>authority</hi> in <hi>fait,</hi> is where the authority is given by the party.</p>
+                  <p>
+                     <hi>Authorities</hi> in <hi>fait</hi> are eyther <hi>Nude</hi> and bare authorities, or authorities cloathed with an intereſt <hi>Cokes inſtit.</hi> 52.</p>
+                  <pb n="17" facs="tcp:7373:11"/>
+                  <p>
+                     <hi>Nude</hi> authorities are given eyther by
+<list>
+                        <item>1. <hi>Deede.</hi>
+                        </item>
+                        <item>2. <hi>Commiſsion.</hi>
+                        </item>
+                        <item>3. <hi>Patent.</hi>
+                        </item>
+                        <item>4. <hi>VVrit</hi>
+                        </item>
+                        <item>5. <hi>or Act of parliament.</hi>
+                        </item>
+                     </list>
+                  </p>
+                  <p>
+                     <hi>And for</hi> all thoſe authorities, it is a certaine <hi>rule,</hi> and <hi>ground</hi> in our law, <hi>that they are to be purſued ſtrictly, and preciſely, both for matter, and forme, or otherwiſe, the act done, by colour of that authority is voyde.</hi> 10. <hi>H.</hi> 7. 15.</p>
+                  <p>
+                     <hi>But</hi> the execution of <hi>authorities</hi> that are cloathed vvith an intereſt are of a more large, and favourable interpretation, then the execution of thoſe, that are but bare authorities. 5. <hi>Coke.</hi> 94. <hi>&amp;</hi> 95. <hi>in Barwickes caſe.</hi>
+                  </p>
+                  <div n="1" type="authorities">
+                     <head>1. <hi>That authorities</hi> by <hi>Deede</hi> are to be purſued ſtrictly, and preciſely, both for matter, and manner. See the Caſe of 12. <hi>Aſs.</hi> 24. 26. <hi>Aſs.</hi> 39.</head>
+                     <p>There the Caſe vvas, that the <hi>Plaintife</hi> did make a Charter of <hi>Fee-ſimple</hi> to the <hi>Tenant,</hi> and a letter of Atturney to deliver <hi>Livery</hi> of <hi>ſeiſin,</hi> the Atturney de<g ref="char:EOLhyphen"/>livers <hi>Livery</hi> upon condition, this <hi>Livery</hi> is voyde; <hi>for the authority is not purſued in the manner.</hi>
+                     </p>
+                     <p>So on the contrary, if the letter of Atturney had beene, to deliver <hi>Livery</hi> of <hi>ſeiſin</hi> upon condition, and the Atturney makes <hi>Livery</hi> vvithout condition, this is voyde. <hi>Cokes instit.</hi> 258. 11. <hi>H.</hi> 4. 3. A letter of At<g ref="char:EOLhyphen"/>turney is made, to make <hi>Livery</hi> after the death of <hi>I.S.</hi>
+                        <pb n="18" facs="tcp:7373:12"/> and the Atturney makes <hi>Livery</hi> during the life of <hi>I.S.</hi> all is voyde. 40. <hi>aſs.</hi> 38.</p>
+                     <p>If I command a Man, to make a Deede of feoff<g ref="char:EOLhyphen"/>ment in my name, according to a Copy ſhewen unto him, in Latine, if hee make a Deede of feoffment ac<g ref="char:EOLhyphen"/>cording to the effect of the ſame wordes, in <hi>Engliſh,</hi> or <hi>French,</hi> the Feoffment is without warrant, for in that caſe, <hi>hee does not purſue the authority in the man<g ref="char:EOLhyphen"/>ner,</hi> 10. <hi>Henr.</hi> 7. 9. So where an authority is given to enfeoffe, and he leavyes a Fine, <hi>ibid. &amp;</hi> 10. <hi>Henr.</hi> 7. 15.</p>
+                  </div>
+                  <div n="2" type="authorities">
+                     <head>2. <hi>For authorities</hi> by <hi>Commiſsion,</hi> that they muſt be purſued, it is the Earle of <hi>Leiceſters</hi> caſe in <hi>Plowd. Com.</hi> 380.</head>
+                     <p>The Earle of <hi>Leicester,</hi> 1. <hi>Mar.</hi> was indicted of high treaſon, before Sir <hi>Richard Sowthwell,</hi> &amp; ſeaven other Commiſsioners, by vertue of a Commiſsion, directed to the ſayd Sir <hi>Richard</hi> and fourteene more.</p>
+                     <p>After another Commiſsion was directed to Sir <hi>Thomas VVhite,</hi> and others reciting that where the Earle of <hi>Leiceſter</hi> ſtood indicted, before Sir <hi>Richard Sowthwell,</hi> and fourteene other Commiſsioners, of divers Treaſons, &amp;c.</p>
+                     <p>It gave them authority, <hi>ad indictamentum praedictum recipiendum, &amp; ipſum Robertum ſuper inde audiendum, &amp;c. ac debito fine triandum, terminandum, &amp;c.</hi>
+                     </p>
+                     <p>By colour of that Commiſsion, they did arraigne him upon that indictment found before eight of the Commiſsioners, he confeſſed the treaſons, &amp;c. and had his judgement.</p>
+                     <pb n="19" facs="tcp:7373:12"/>
+                     <p>It was reſolved, that all that was done was voyde, and <hi>coram non iudice, for that they did not purſue their authority.</hi>
+                     </p>
+                  </div>
+                  <div n="3" type="authorities">
+                     <head>3. <hi>Authority</hi> by Patent muſt be purſued.</head>
+                     <p>The <hi>King</hi> licences an Abbot and Covent to Alien, the Abbot ſole Aliens, it is voyde, 21. <hi>Henr.</hi> 7. 7. &amp; 8. And the rule given by <hi>Frovvicke,</hi> when <hi>the King makes any grant or Licence, it ought to bee executed accordingly, and ſtrictly,</hi> as if the <hi>King</hi> grants me Li<g ref="char:EOLhyphen"/>cence, to make a feoffment by Deede, I cannot make a Feoffment without Deede; Nor <hi>e Contra, So that the Licence muſt ever be purſued, or otherwiſe the act done, is not warranted by the Licence, vid.</hi> 18. <hi>aſſ. Pl. ultimo.</hi> The Lord <hi>Cliffords caſe</hi> 2. <hi>Coke.</hi> 80. <hi>Stamf. prarog. Regis</hi> 31.</p>
+                     <p>The Licence was to levy a Fine of the Mannor of <hi>Dale,</hi> to find two Chapleines, and he would have levyed the fine, leaving out the Chapleines, and could not be ſuffered. 3. <hi>Ed.</hi> 3. 5. <hi>Stamf. ubi ſupra, vid.</hi> 30. <hi>Ed.</hi> 3. 17.</p>
+                  </div>
+                  <div n="4" type="authorities">
+                     <head>4. <hi>Authorities</hi> by <hi>VVrit</hi> muſt bee purſued.</head>
+                     <p>In a <hi>praecipe quod reddat</hi> there muſt bee two Sum<g ref="char:EOLhyphen"/>moners, therefore ſummons by one Summoner is not good, <hi>Plowd. Com.</hi> 393. 50. <hi>Ed.</hi> 3. 16.</p>
+                  </div>
+                  <div n="5" type="authorities">
+                     <head>5. <hi>Authority</hi> given by <hi>Parliament</hi> muſt bee purſued.</head>
+                     <pb n="20" facs="tcp:7373:13"/>
+                     <p>The Statute of <hi>Merton Cap.</hi> 3. ordaynes, that in a <hi>Rediſſeiſin,</hi> the Sheriffe <hi>aſſumptis ſecum cuſtodibus placi<g ref="char:EOLhyphen"/>torum Coronae, &amp;c. accedat ad tenementum illud de quo fa<g ref="char:EOLhyphen"/>cta fuerit querela.</hi> If the Sheriffe take but one Co<g ref="char:EOLhyphen"/>roner, it is not good, for the act appoints a number, two at the leaſt, which number ought to be ſatisfied, or elſe the authority given by the Act is not purſued, 23. <hi>aſſ.</hi> 7. <hi>Plowd. Com.</hi> 393.</p>
+                     <p>So that by the <hi>Rule</hi> of all theſe <hi>Books</hi> it is manifeſt, <hi>that a Nude authority muſt be purſued ſtrictly, both for mat<g ref="char:EOLhyphen"/>ter and manner, or the act done by colour of the authority is voyde.</hi>
+                     </p>
+                     <p>
+                        <hi>But</hi> in what Caſes, the Act ſo voyde for not purſuing of the authority, ſhall bee voyde in the vvhole, or in part onely, this difference was taken.</p>
+                     <p>Where hee that hath an authority doth that which hee is authorized to doe, <hi>&amp; aliud,</hi> and another thing diſtinct from that for which hee hath authority. And where hee doth the ſame thing which hee is authori<g ref="char:EOLhyphen"/>ſed to doe <hi>alio modo,</hi> in another manner, then the au<g ref="char:EOLhyphen"/>thority does warrant.</p>
+                     <p>In the firſt Caſe it is good, for that which is war<g ref="char:EOLhyphen"/>ranted, and voyde for the <hi>aliud.</hi> In the other it is voyde for the whole.</p>
+                     <p>And therefore if a letter of Atturney be made to <hi>I.</hi> S. to make <hi>Livery</hi> of <hi>ſeiſin</hi> in <hi>vvhite-acre,</hi> and hee makes <hi>Livery</hi> in <hi>vvhite-acre,</hi> and <hi>Blacke-acre,</hi> there hee doth <hi>Idem &amp; aliud:</hi> And therefore it is good for <hi>vvhite-acre,</hi> that is according to his authority, and
+<pb n="21" facs="tcp:7373:13"/> purſuant to it, and voyde for <hi>Black-acre,</hi> which is <hi>Aliud</hi> from his authoritie, <hi>Perk.</hi> 38.</p>
+                     <p>Otherwiſe it would bee, if the letter of Atturney were to make <hi>Livery</hi> of one acre, and hee makes <hi>Livery</hi> of two acres, there it is voyde for both; be<g ref="char:EOLhyphen"/>cauſe he couples both togither; and it is not named in certaine in the feoffment, of vvhich Acre <hi>Livery</hi> ſhall be made; according to 4. <hi>H.</hi> 7. 5. But in the caſe of <hi>Perk:</hi> the Acre is named in certaine, <hi>VVhite-acre,</hi> and ſo a difference.</p>
+                     <p>On the other ſide, vvhen the ſame thing is done in another manner than the authority vvarrants, there is <hi>Idem alio modo,</hi> and therefore all is voyde; As in the caſe of 12. Aſs: 24. 26. Aſs: 39. 40. Aſs: 38. 10. <hi>H.</hi> 7. 9. the caſes already cited.</p>
+                     <p>The true reaſon why in all thoſe Caſes the Act is voyde, is, becauſe the Authoritie is executed <hi>Alio Mo<g ref="char:EOLhyphen"/>do,</hi> And ſo is the reaſon expreſſely given in the booke of 12. Aſſ. why the liverye is voyd, <hi>becauſe the Attour<g ref="char:EOLhyphen"/>ney doth it in other manner, than the Authoritie war<g ref="char:EOLhyphen"/>rants.</hi>
+                     </p>
+                     <p>This is the difference that muſt rule the caſe one way or other.</p>
+                     <p>And therefore the onely labour will be to find out under which part of that difference the caſe in queſti<g ref="char:EOLhyphen"/>on doth lye.</p>
+                  </div>
+               </div>
+               <div n="3" type="consideration">
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="3"/> 3. <hi>For that.</hi> Firſt it will be neceſſary to enquire.</p>
+                  <list>
+                     <item>VVhat the authority in this Caſe is,</item>
+                     <item>whether it be purſued as it ought to be?</item>
+                     <pb n="22" facs="tcp:7373:14"/>
+                     <item>wherein it is not purſued.</item>
+                  </list>
+                  <p>The <hi>Authority</hi> given to the <hi>Commiſsioners</hi> in this Caſe is twofold:</p>
+                  <list>
+                     <item>An <hi>Authority</hi> expreſſed in their Commiſsion. S. <hi>to grant the mannor of Dale.</hi>
+                     </item>
+                     <item>And an <hi>Authority</hi> implied in lavv, <hi>to reſerve a tenure in Capite.</hi>
+                     </item>
+                  </list>
+                  <p>For where there is no direction for the <hi>tenure,</hi> the <hi>law</hi> will imply a tenure <hi>in Capite,</hi> as the beſt for the <hi>King.</hi>
+                  </p>
+                  <p>In this Caſe then by the very <hi>Commiſsion,</hi> the <hi>tenure</hi> is made a part of the grant, and <hi>Modus Conceſsionis,</hi> for the <hi>authority</hi> though it bee twofold, <hi>expreſſed</hi> and <hi>im<g ref="char:EOLhyphen"/>plied,</hi> yet both being put togither, that which is to bee done by vertue of that <hi>Authority,</hi> is but one entire Act, one grant, a grant of the <hi>Mannor of Dale,</hi> reſer<g ref="char:EOLhyphen"/>ving a <hi>Capite tenure,</hi> ſo that their Authority to grant the land is not abſolute, but <hi>ſub modo,</hi> ſo that they re<g ref="char:EOLhyphen"/>ſerve a tenure <hi>in Capite;</hi> And although the power to reſerve a tenure <hi>in Capite;</hi> bee onely implyed by the law, and bee not given by expreſſe vvords in their <hi>Commiſsion,</hi> that makes no difference:</p>
+                  <p>For by the rule of our Bookes, <hi>Authorities</hi> im<g ref="char:EOLhyphen"/>plied in law, as well as thoſe that are expreſſed, muſt be purſued.</p>
+                  <p>Where a letter of <hi>Atturney</hi> is made to deliver <hi>Live<g ref="char:EOLhyphen"/>ry</hi> of <hi>ſciſm,</hi> the Atturney hath a tvvofold authority.</p>
+                  <p>An authority expreſſed in his warrant, and
+<pb n="23" facs="tcp:7373:14"/> that is generall to deliver ſeiſin.</p>
+                  <p>And an Authoritie implied in lavv, that is, to deliver an Actuall and expreſſe <hi>Livery,</hi> and not a Livery in Lavv.</p>
+                  <p>And therefore if the Atturney delivers <hi>ſeiſin</hi> within the view, though it bee vvarranted by his expreſſe authoritie, yet becauſe he hath not purſued his impli<g ref="char:EOLhyphen"/>ed authoritie, the Act is voyde. And ſo it vvas reſol<g ref="char:EOLhyphen"/>ved, <hi>P.</hi> 3. <hi>Eliz. C.B.</hi> in <hi>Yarhams</hi> Caſe, <hi>Cokes Inſtit. ſect.</hi> 66.</p>
+                  <p>This then being their Authoritie. S. <hi>to grant the Mannor of Dale, and upon the grant to reſerve a tenure in capite.</hi>
+                  </p>
+                  <p>Novv hovv have they executed this authority?</p>
+                  <p>
+                     <hi>There are Letters Patents paſſed to</hi> A. <hi>and his heires, by Colour of the Commiſsion, to be holden by Knights ſervice, as of his Majeſties Caſtle of Dublin.</hi>
+                  </p>
+                  <p>Here they have not purſued their Authoritie, for where by the Commiſsion either a tenure <hi>in Capite</hi> ought to have beene reſerved, or elſe the tenure left to the reſervation of the law, They expreſſely reſerve a tenure by Common Knights ſervice.</p>
+                  <p>That the <hi>Letters Patents</hi> as to this <hi>tenure</hi> (thus reſerved) are voyde, it was agreed on all ſides.</p>
+                  <p>
+                     <hi>But whither they ſhould bee onely voyde to the te<g ref="char:EOLhyphen"/>nure, or whither the reſerving of a tenure, ſo divers from the tenure intended, and warranted by the Com<g ref="char:EOLhyphen"/>miſsion, ſhall deſtroy the whole grant, both for the land and tenure, was the point, wherein they did differ.</hi>
+                  </p>
+               </div>
+               <div n="4" type="consideration">
+                  <pb n="24" facs="tcp:7373:15"/>
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="4"/> 4. And for the clearing of that they did enquire, what the reſervation of a tenure is to the grant,</p>
+                  <p>Whither it be a part of the grant, And <hi>Modus Conceſsionis,</hi>
+                  </p>
+                  <p>or vvhither it be a diſtinct thing, and <hi>Aliud</hi> from the grant as this Caſe is.</p>
+                  <p>For if (as they that argued for the <hi>Letters Patents</hi> held) the <hi>reſervation</hi> of the <hi>tenure,</hi> and the <hi>grant</hi> of the <hi>land,</hi> bee <hi>Aliud,</hi> &amp; <hi>Aliud,</hi> two diſtinct things in the Conſideration of the vvhole grant made, and the authoritie given by the ſaid Commiſsion, for the making thereof, then peradventure the patent may be voyde, as to the tenure, and yet good for the grant of the land.</p>
+                  <p>But if the reſervation of the tenure be incident un<g ref="char:EOLhyphen"/>to the authoritie, and included vvithin it; and the re<g ref="char:EOLhyphen"/>ſervation of the tenure, and the grant of the land make up but one entire grant, ſo that the one is a part of the other, and the Reſervation of the tenure bee <hi>Modus Conceſsionis,</hi> Then the granting of the land, reſerving a diverſe or contrary tenure, to that vvhich their Au<g ref="char:EOLhyphen"/>thority did warrant them to reſerve, is a doing of <hi>Idem alio modo.</hi> And ſo the whole act is voyde.</p>
+                  <p>
+                     <hi>They held</hi> that <hi>the Reſervation of the tenure is Modus Conceſsionis, and that it is not Aliud. S. a thing diſtinct and ſeparate from the authority of the grant of the land, but implyedly included within it, and incident to it.</hi>
+                  </p>
+                  <p>Although a grant may be vvithout <hi>Habendum,</hi> ex<g ref="char:EOLhyphen"/>preſſe <hi>Tenendum, Reddendum,</hi> or <hi>Condition,</hi> yet when
+<pb n="25" facs="tcp:7373:15"/> they, or any of them are added, they are <hi>de modo Con<g ref="char:EOLhyphen"/>ceſsionis,</hi> and doe direct, and rule the grant.</p>
+                  <p n="1">1. For the <hi>Habendum.</hi>
+                  </p>
+                  <p>The proper office of the <hi>Habendum</hi> is to limit the eſtate; yet ſometimes it may
+<list>
+                        <item>1. Alter the eſtate in the pre<g ref="char:EOLhyphen"/>miſes.</item>
+                        <item>2. Diminiſh or enlarge.</item>
+                        <item>3. Give to a ſtranger.</item>
+                        <item>4. Make the grant voyde.</item>
+                     </list>
+                  </p>
+                  <p n="1">1. It may alter the eſtate in the premiſes.</p>
+                  <p>As where land is given to two in the premiſes, <hi>Habendum,</hi> the one moytie to the one, and the other moytie to the other, by the premiſes they have a joynt eſtate, the <hi>Habendum</hi> makes them <hi>tenants in Common, Litt.</hi> 66. So where land is given to two, <hi>Habendum</hi> to the one for life, the remainder to the other. By the premiſes they ſhould have a joynt eſtate in poſſeſsi<g ref="char:EOLhyphen"/>on. But the <hi>Habendum</hi> doth alter that, and maketh the one ſole tenant of the freehold for life, and the other ſole tenant of the Remainder. 8. <hi>E.</hi> 3. 320. feoff<g ref="char:EOLhyphen"/>ments &amp; faits. 73.</p>
+                  <p n="2">2. It enlarges or diminiſhes the eſtate that would paſſe by implication in the premiſes, and ſo deſtroyes the implication, This is com<g ref="char:EOLhyphen"/>mon in every grant.</p>
+                  <p n="3">
+                     <pb n="26" facs="tcp:7373:16"/>3. It gives to a ſtranger not named in the premi<g ref="char:EOLhyphen"/>ſes of the grant.</p>
+                  <p>As if a man gives lands to <hi>I.S. Habendum</hi> with <hi>A.</hi> his daughter in <hi>Frank-marriage,</hi> there the wife not na<g ref="char:EOLhyphen"/>med in the premiſes, by the <hi>Habendum,</hi> takes a joynt eſtate with her husband. <hi>this Caſe is vouched in Pl. Com.</hi> 158. <hi>to be in</hi> 4. <hi>E.</hi> 3. <hi>which being not found in that yeare, it is there ſo left without any further reference, but you ſhall finde it in</hi> 5. <hi>E.</hi> 17. <hi>ſo Cokes Inſtit. ſect.</hi> 17. <hi>yet vid.</hi> 4. <hi>E.</hi> 3. 4. So likevviſe where a leaſe is made to <hi>A. Habendum</hi> for twentie yeares, the Remainder to <hi>B.</hi> and his heires, here <hi>B.</hi> gaineth an immediate freehold, by the <hi>Habendum,</hi> and yet he is not named in the pre<g ref="char:EOLhyphen"/>miſes of the deede. <hi>Plowd. Com.</hi> 158.</p>
+                  <p n="4">4. It will make the grant voyde.</p>
+                  <p>As if I have a Rent in Fee, and I grant it to another, if I ſtay there, the grant ſhall be for life, But if I ſay further, <hi>Habendum</hi> after the death of <hi>I.</hi>S. there all ſhall be voyde, <hi>Plowd. Com.</hi> 152. 156.</p>
+                  <p>So if the King grants lands by letters patents, <hi>Haben<g ref="char:EOLhyphen"/>dum</hi> from a day to come, there the whole grant is made voyd by the <hi>Habendum.</hi> 5. <hi>Coke.</hi> 93. <hi>Barwicks Caſe.</hi>
+                  </p>
+                  <p>He in the Reverſion for life grants his eſtate, <hi>Ha<g ref="char:EOLhyphen"/>bendum</hi> after <hi>Michaelmas,</hi> and after <hi>Michaelmas</hi> the te<g ref="char:EOLhyphen"/>nant atturnes, yet Reſolved that the grant is voyde, though if there had beene no <hi>Habendum,</hi> it had beene good by the premiſes of the deed, <hi>Bucklers Caſe,</hi> 2. <hi>Coke</hi> 55.</p>
+                  <pb n="27" facs="tcp:7373:16"/>
+                  <p>In all theſe Caſes, the <hi>Habendum</hi> being voyde, makes voyde the grants, which would have beene good without it.</p>
+                  <p>As the <hi>Habendum</hi> hath theſe ſeverall operati<g ref="char:EOLhyphen"/>ons in the grant, ſo hath</p>
+                  <p n="2">2. the <hi>Reddendum.</hi>
+                  </p>
+                  <p>As an eſtate by <hi>implication</hi> ſhall be controlled by an expreſſe limitation; ſo an implyed <hi>Reſervation</hi> ſhall be controlled by an expreſſe Reſervation,</p>
+                  <p>A man makes a leaſe rendring rent, and does not ſay to whom the rent ſhall be paid, this by implicati<g ref="char:EOLhyphen"/>on ſhall be to the Leſſor, and his heires, But if the words be to the Leſſor, the heire ſhall not have it, 31. H. 8. <hi>Dyer.</hi> 45. 12. <hi>E.</hi> 3. <hi>Aſs.</hi> 86. <hi>Plowd. Com.</hi> 171. <hi>in Hill and Granges Caſe.</hi> 10. <hi>E.</hi> 4. 18. <hi>&amp;</hi> 21. H. 7. 25.</p>
+                  <p>The Reſervation of a Rent in ſome Caſes ſhall make ſeverance of the grant, and make ſeverall grants, and ſeverall reverſions.</p>
+                  <p>As if a man makes a leaſe of three Mannors, reſer<g ref="char:EOLhyphen"/>ving twenty ſhillings for one, five pound for an<g ref="char:EOLhyphen"/>other, and twenty pound for the third, there are ſe<g ref="char:EOLhyphen"/>verall Reverſions, and there ſhall be ſeverall Avow<g ref="char:EOLhyphen"/>ries, 14. <hi>Eliz. Dyer,</hi> 308. <hi>VVinters Caſe.</hi> 9. <hi>E.</hi> 3. 12. 5. <hi>Coke</hi> 55. <hi>Knights Caſe.</hi>
+                  </p>
+                  <p n="3">3. For the <hi>Tenendum.</hi>
+                  </p>
+                  <p>The proper office of the <hi>Tenendum</hi> is to reſerve the tenure, and to toll the tenure by implication.</p>
+                  <p>Before the ſtatute of <hi>Quia Emptores terrarum,</hi> If a
+<pb n="28" facs="tcp:7373:17"/> man made a feoffment, the feoffee held of the feoffor by ſuch ſervices, as the feoffor held over; But if o<g ref="char:EOLhyphen"/>ther ſervices were Reſerved, then the feoffee held by ſuch ſervices as were reſerved.</p>
+                  <p>That the Donee in tayle ſhall hold of the donor, as the donor held over, is <hi>Regularly</hi> true, if the donor make no ſpeciall Reſervation, for then the ſpeciall Re<g ref="char:EOLhyphen"/>ſervation excludes the tenure, which the Law would create. <hi>Cokes Inſtit. ſect.</hi> 19. <hi>vid.</hi> 34. <hi>H.</hi> 8. <hi>Dyer</hi> 52.</p>
+                  <p n="4">4. For the <hi>Condition.</hi>
+                  </p>
+                  <p>That does likewiſe direct, and rule the grant, the Condition does change the qualitie of the grant, and makes the eſtate Conditionall, and defeaſible, which otherwiſe would be abſolute, and indefeaſible:</p>
+                  <p>
+                     <hi>So that all theſe. viz. the Habendum, the Reddendum, the Tenendum, and the Condition, are de modo Conceſsionis, and doe Rule, and direct the grant,</hi> the firſt limits, and ſets forth the quantity, the other deſcribe the quality of the eſtate.</p>
+                  <p>And of all theſe the <hi>Tenendum</hi> is inſeparably an<g ref="char:EOLhyphen"/>nexed to the eſtate, the reſt may bee determined, and yet the eſtate continue, but the tenure cannot be de<g ref="char:EOLhyphen"/>termined, as long as the eſtate continues.</p>
+                  <list>
+                     <item>1. The Condition may be releaſed.</item>
+                     <item>2. The Rent may be releaſed.</item>
+                     <item>3. The eſtate may be enlarged.</item>
+                  </list>
+                  <p>But the tenure cannot bee deſtroyed, It may bee
+<pb n="29" facs="tcp:7373:17"/> transferred from one to another, in Caſe of Common perſons, But a Tenure in <hi>Capite</hi> cannot be transferred, or extinct by any releaſe, or grant, for it is an incident inſeparably annexed to the Crowne.</p>
+                  <p>
+                     <label type="milestone">
+                        <seg type="milestoneunit">Obj. </seg>
+                     </label> It was <hi>Obj.</hi> that the tenure is <hi>Aliud</hi> fro<g ref="char:cmbAbbrStroke">̄</g> the land, for the land is the ſubjects, &amp; the tenure belongs to the King.</p>
+                  <p>
+                     <label type="milestone">
+                        <seg type="milestoneunit">Reſp. </seg>
+                     </label> To that, 1. it was <hi>Anſw.</hi> that the <hi>queſtio<g ref="char:cmbAbbrStroke">̄</g>
+                     </hi> is not, whither the tenure be <hi>Aliud</hi> from the land, for tis cleare the land is one thing, and the tenure another: but the <hi>queſtio<g ref="char:cmbAbbrStroke">̄</g>
+                     </hi> is, whither the reſervation of the tenure be <hi>Aliud</hi> fro<g ref="char:cmbAbbrStroke">̄</g> the authority of granting the land, or included in it, as <hi>mo<g ref="char:EOLhyphen"/>dus conceſsionis,</hi> S. they ſhal grant, &amp; grant in this ma<g ref="char:cmbAbbrStroke">̄</g>ner.</p>
+                  <p n="2">2 It was <hi>anſwered,</hi> both are the <hi>Kings,</hi> But the tenure was aſleepe by the poſſeſſion in the <hi>King,</hi> and it is now to bee awakened by this <hi>Commiſsion,</hi> in which it ap<g ref="char:EOLhyphen"/>peares, that the intent, and plaine meaning of the <hi>King</hi> vvas, to grant the land to the ſubject, and to reſerve the tenure for himſelfe. And that the Tenure is not ſuch a ſtranger to the land, it is proved by our books, in <hi>Mary Blages Caſe,</hi> 1. <hi>H.</hi> 4. 2. It is ſaid, that land lies naturally in tenure. 2. that land lies alwayes in tenure, And there<g ref="char:EOLhyphen"/>fore the tenure is of the nature of the land, it ariſes out of the land, and hath exiſtence in the land, it is inherent in it, and inſeparable from it, it is upon the matter of the eſſence of the grant of the land, for no grant of land in <hi>Feeſimple,</hi> to a common perſon, either from the <hi>King,</hi> or a Common perſon, can be without a tenure, either expreſſed, or implyed, We have not in our lavv properly <hi>Allodium,</hi> that is, any land in the hands of a ſubject, that is not holden, <hi>Cokes Inſtit. ſect.</hi> 1.</p>
+                  <p>The lands onely that are in the <hi>Kings</hi> poſſeſsion are free from tenure, for a tenant is hee that holdeth
+<pb n="30" facs="tcp:7373:18"/> of ſome ſuperior Lord, by ſome ſervice, And there<g ref="char:EOLhyphen"/>fore the <hi>King</hi> cannot be a tenant, becauſe hee hath no ſuperior, but God. <hi>praedium domini Regis eſt dire<g ref="char:EOLhyphen"/>ctum dominium cujus nullus est Author niſi Deus.</hi>
+                  </p>
+                  <p>And as <hi>Bracton</hi> ſaith, <hi>lib.</hi> 1. <hi>cap.</hi> 8.</p>
+                  <p>
+                     <hi>omnis quidem ſub eo, &amp; ipſe ſub nullo, niſi tantum ſub Deo.</hi>
+                  </p>
+                  <p>
+                     <hi>vid. leſtatute.</hi> 16. <hi>R.</hi> 2. <hi>cap.</hi> 5. 14. <hi>Eliz. Dyer.</hi> 313. 1. <hi>Coke</hi> 47. <hi>vid.</hi> 8. <hi>Coke</hi> 118. where it is ſaid, that <hi>it would bee againſt Common right and reaſon, that the King ſhould hold of any, or doe ſervice to any of his Subjects;</hi> and there<g ref="char:EOLhyphen"/>fore ſome have thought it not ſo proper, in the <hi>Kings</hi> Caſe, to ſay, that he is ſciſed <hi>in dominico ſuo ut de feodo. Cowell Interpret. verb. feudum &amp; inſtitut. p.</hi> 66. As if <hi>feo<g ref="char:EOLhyphen"/>dum</hi> or <hi>fendum</hi> were taken in our law as it is in the <hi>feu<g ref="char:EOLhyphen"/>dall</hi> law onely for lands held by ſervices.</p>
+                  <p>But with us it hath another ſignification, <hi>Littleton</hi> tels us, <hi>feudum idem eſt quod haereditas,</hi> and ſo it was defined, long before <hi>Littleton,</hi> by <hi>Bracton,</hi> and <hi>Briton,</hi> and <hi>Fleta.</hi>
+                  </p>
+                  <p>And in truth it hath two ſignifications in our bookes, In the firſt, it is taken to be the ſame with an inheritance, and ſo it is proper enough in the <hi>Kings</hi> Caſe.</p>
+                  <p>In the other it is taken for lands held, as in that of <hi>Hors de ſon fee.</hi>
+                  </p>
+                  <p>We finde both in <hi>Bracton lib.</hi> 4. <hi>cap.</hi> 9. <hi>fol.</hi> 263. <hi>feu<g ref="char:EOLhyphen"/>dum eſt quod quis tenet ex quacunque cauſa ſibi &amp; haere<g ref="char:EOLhyphen"/>dibus ſuis, &amp;c. &amp; alio modo dicitur feudum, quod quis te<g ref="char:EOLhyphen"/>net ab alio ſicut dicitur talis tenet de tali tot feuda per ſer<g ref="char:EOLhyphen"/>vicium militare.</hi>
+                  </p>
+                  <pb n="31" facs="tcp:7373:18"/>
+                  <p>And agreeing with him is <hi>Fleta</hi> (which for the moſt part is tranſcribed out of <hi>Bracton) lib.</hi> 5. <hi>cap.</hi> 5.</p>
+                  <p>And here juſt occaſion might bee taken, to cleare our Maſter, <hi>Littleton,</hi> from that imputation which is caſt upon him, by the Author of the <hi>Common wealth of England, pag.</hi> 127. where hee layes ignorance to his charge, for laying, that <hi>Feodum idem eſt quod haereditas,</hi> which (ſaies he) it doth not ſignifie in any language.</p>
+                  <p>It were eaſie to make it manifeſt, how proper that ſence is, But becauſe it hath partly appeared, by that which hath beene ſayd, and for that the Author of that Booke is not knowne, for ſome have doubted, whither Sir <hi>Thomas Smyth</hi> be the Author of it, or no, Sir <hi>Iohn Fernes generoſitie, pag.</hi> 99. And ſo to argue with him, would be to fight with a ſhadow, there<g ref="char:EOLhyphen"/>fore they did abſtaine.</p>
+                  <p>So that it is cleare, that onely lands in the <hi>Kings</hi> poſſeſsion are free from tenure, But if they once come into the hands of a Common perſon, there if the fe<g ref="char:EOLhyphen"/>offor doe not reſerve a tenure, the law will.</p>
+                  <p>Before the ſtatute of <hi>Quia Emptores Terrarum,</hi> if a man made a feoffment in fee, and reſerved no tenure, the law did imply a tenure, and the feoffee held of the feoffor, by ſuch ſervices as the feoffor held over,</p>
+                  <p>Vpon a feoffment made after that ſtatute, if no tenure were expreſſed, the law will imply a tenure <hi>de Capitalibus dominis.</hi>
+                  </p>
+                  <p>And as it is in the Caſe of Common perſons, ſo in the <hi>Kings</hi> Caſe, In every grant wherein feeſimple paſ<g ref="char:EOLhyphen"/>ſes, there muſt bee a tenure either expreſſed, or im<g ref="char:EOLhyphen"/>plied.</p>
+                  <pb n="32" facs="tcp:7373:19"/>
+                  <p>Of ſuch Neceſsity is the Reſervation of a tenure in the <hi>Kings</hi> grant, that although the <hi>King</hi> ſhould grant land without any Reſervation of tenure, or by expreſſe words <hi>abſque aliquo inde Reddendo,</hi> yet the law would create a tenure in <hi>Capite</hi> 33. <hi>H.</hi> 6. 7. 6. <hi>Coke</hi> 7 <hi>VVheelers Caſe.</hi> 9. <hi>Coke</hi> 123. <hi>Anthony Lowes Caſe.</hi>
+                  </p>
+                  <p n="14">14. <hi>H.</hi> 6. 12. <hi>The Abbot of St. Bartholomewes Caſe.</hi> The <hi>King</hi> grants lands in fee, <hi>Tenendum cy frankement come le Roy esten ſon Corone,</hi> yet the patentee ſhall hold in <hi>Capite,</hi> for it is veſted in the <hi>King</hi> by his preroga<g ref="char:EOLhyphen"/>tive, and cannot be extinct,</p>
+                  <p>It is ſo inſeparable it cannot bee releaſed. In <hi>Anthony Lowes Caſe,</hi> The <hi>King</hi> grants, or relea<g ref="char:EOLhyphen"/>ſes the Services to his tenant, and his heires, this re<g ref="char:EOLhyphen"/>leaſe cannot extinguiſh the tenure in all, though where the tenure is by Common Knights ſervice, or ſocage, it extinguiſhes all the ſervices, but that onely, vvhich is an incident inſeparable to every tenure, <hi>viz.</hi> fealty, And all for this reaſon, <hi>Becauſe there is a neceſ<g ref="char:EOLhyphen"/>ſitie of a tenure,</hi> and the <hi>Kings</hi> Charter doth not alter the law; the tenure and ſervices are part and parcell of the Mannor, and ſhall goe with the Mannor, and diſcend as the Mannor, to the heire of the part of the mother, although it bee newly created, 5. <hi>E.</hi> 2. <hi>Avowry</hi> 207.</p>
+                  <p>Beſides, conſider the tenure in the Commence<g ref="char:EOLhyphen"/>ment, and fruits of it, it is ever inherent in, and Re<g ref="char:EOLhyphen"/>lative to the land.</p>
+                  <p>The Commencement of the tenure. S. the forme of doing <hi>homage</hi> and <hi>fealty</hi> is, that hee ſhall be faith<g ref="char:EOLhyphen"/>full and true for the land that he holds.</p>
+                  <pb n="33" facs="tcp:7373:19"/>
+                  <p>The fruits of the tenure, what are they? but the profits of the land, wardſhip, Livery, primer ſeiſin, reliefe, fine for Alienation, and the reſt.</p>
+                  <p>And therefore where the land and ſigniory meete in an equall eſtate, and right, in the ſame perſon, the ſigniory by unitie of poſſeſsion is extinguiſhed, And there are tvvo reaſons given of that extinguiſh<g ref="char:EOLhyphen"/>ment;</p>
+                  <p n="1">1. Becauſe the ſigniory that was firſt extracted out of the land, when it comes to the land againe, it is natu<g ref="char:EOLhyphen"/>rally extinct, for it is <hi>Revolutio ad materiam primam.</hi>
+                  </p>
+                  <p n="2">2. Hee that hath all the profits entirely, cannot bee ſaid to have part of the profits. Sir I. <hi>Davys rep.</hi> 5.</p>
+                  <p>The Eſcheate which is the laſt reſort of the tenure, is the land it ſelfe, and therefore the Reſervation of the tenure cannot be ſaid, to be a diſtinct thing from the grant of the land, as <hi>Black-acre</hi> from <hi>VVhite<g ref="char:EOLhyphen"/>acre.</hi>
+                  </p>
+                  <p>
+                     <label type="milestone">
+                        <seg type="milestoneunit">Obj. </seg>
+                     </label> It vvas obiected, that <hi>Tenures in Capite</hi> vvere brought in by the <hi>Conqueſt,</hi> but grants vvere by the Common lavv, then if grants have beene ancienter then tenures, the tenure of Neceſsity muſt bee <hi>Aliud</hi> from the thing granted.</p>
+                  <p>To prove that this tenure was brought in by the <hi>Norman Conqueſt, Selden</hi> was cited in his <hi>Spicileg.</hi> to <hi>Eadmer. p.</hi> 194. vvhere he hath that out of <hi>Bracton de Acquir. rerum domin. lib.</hi> 2.</p>
+                  <p>
+                     <hi>Forinſecum ſervitium dicitur Regale ſervitium quia ſpectat ad Dominum Regem, &amp; non ad alium, &amp; ſecundum quod in Conquestu fuit ad<g ref="char:EOLhyphen"/>inventum.</hi>
+                  </p>
+                  <pb n="34" facs="tcp:7373:20"/>
+                  <p>
+                     <note place="margin">Reſp.</note>It was anſwered that M. <hi>Selden</hi> in that place does barely recite the words of <hi>Bracton,</hi> not delivering any opinion of his owne:</p>
+                  <p>For in that Booke cited, <hi>pag.</hi> 170. and in his <hi>titles of honour,</hi> the laſt edition, <hi>pag,</hi> 612. We find that hee was of another opinion, and that this tenure was in uſe in <hi>England,</hi> in the times of the <hi>Saxons.</hi>
+                  </p>
+                  <p>What were thoſe <hi>Thani Majores,</hi> or <hi>Thani Regis</hi> among the Saxons? but the <hi>Kings</hi> immediate te<g ref="char:EOLhyphen"/>nants of lands, which they held by perſonall ſervice, as of the Kings perſon by grand ſerjeanty, or Knights ſervice in <hi>Capite.</hi>
+                  </p>
+                  <p>The Land ſo held, was in thoſe times called <hi>Thain<g ref="char:EOLhyphen"/>land,</hi> as land holden in ſocage was called Reveland, ſo frequently in <hi>Domes-Day. haec terra fuit terra Regis Edwardi Thainland, ſed poſtea converſa est in Reveland. Cokes Inſtit. ſect.</hi> 117.</p>
+                  <p>After ſome yeares that followed the comming of the <hi>Normans,</hi> the title of <hi>Thane</hi> grew out of uſe, and that of <hi>Baron</hi> and <hi>Barony</hi> ſucceeded for <hi>Thane</hi> and <hi>Thain-land.</hi>
+                  </p>
+                  <p>Whereby we may underſtand the true, and origi<g ref="char:EOLhyphen"/>nall reaſon, of that which we have in the Lord <hi>Crom<g ref="char:EOLhyphen"/>wels Caſe,</hi> 2. <hi>Coke</hi> 81. That every <hi>Barony</hi> of antient time was held by <hi>grand ſerjeanty;</hi> By that tenure were the <hi>Thain-lands</hi> held in the time of the Saxons, and thoſe <hi>Thain lands</hi> were the ſame that were after called <hi>Baronies.</hi>
+                  </p>
+                  <p>'Tis true the poſſeſsions of <hi>Biſhops</hi> and <hi>Abbots</hi> were firſt made ſubject to <hi>Knights ſervice in Capite</hi> by <hi>VVilliam</hi> the <hi>Conquerour,</hi> in the <hi>fourth yeare</hi> of his
+<pb n="35" facs="tcp:7373:20"/> 
+                     <hi>Raigne,</hi> for their lands were held in the times of the <hi>Saxons. in pura &amp; perpetua Eleemoſyna,</hi> free, <hi>ab omni ſervitio ſaeculari.</hi>
+                  </p>
+                  <p>But hee then turned their poſſeſsions into Baro<g ref="char:EOLhyphen"/>nies, and ſo made them <hi>Barons</hi> of the Kingdome, by tenure, ſo that as to them, this tenure, and ſervice may be ſaid to be <hi>in Conquestu adinventum.</hi> But the <hi>Thain<g ref="char:EOLhyphen"/>lands</hi> were held by that tenure before,</p>
+                  <p>As the Kings <hi>Thane</hi> was a tenant in <hi>Capite,</hi> ſo the <hi>Thanus mediocris,</hi> or <hi>middle Thane</hi> was onely a tenant by Knights ſervice, that either held of a meane Lord, and not immediately of the King, or at leaſt of the <hi>King</hi> as of an <hi>Honour,</hi> or <hi>Mannor,</hi> and not in <hi>Capite.</hi>
+                  </p>
+                  <p>What was that <hi>Trinoda Neceſsitas,</hi> which ſo often occurres in the grants of the Saxon Kings, under this forme, <hi>Exceptis iſtis tribus Expeditione, Arcis &amp; pontis exſtructione?</hi> (See it in a Charter of King <hi>Etheldred</hi> in the preface to <hi>Cokes</hi> 6. <hi>Report, &amp;c.</hi>) but that which was after expreſſed by <hi>Salvo forinſeco ſervitio. Bracton. lib.</hi> 2. <hi>cap.</hi> 26. <hi>&amp;</hi> 35. 12. <hi>Ed.</hi> 1. <hi>Gard.</hi> 152. 26. <hi>Aſs.</hi> 66. <hi>Selden Analect. Anglobrit.</hi> 78.</p>
+                  <p>And therefore it was ſaid that Sir <hi>Henry Spelman</hi> was miſtaken, who in his <hi>Gloſsary verbo feudum,</hi> re<g ref="char:EOLhyphen"/>ferres the originall of <hi>feuds</hi> in England, to the <hi>Norman Conquest.</hi>
+                  </p>
+                  <p>It is moſt manifeſt, that <hi>Capite</hi> tenures, tenures by <hi>Knights ſervice,</hi> tenures in <hi>ſocage, Frankalmoigne, &amp;c.</hi> were frequent in the times of the <hi>Saxons.</hi>
+                  </p>
+                  <p>And if we will beleeve what is cited out of an old French <hi>Cuſtomary</hi> in a Mſs. <hi>treatiſe of the Antiquitie of tenures in England,</hi> which is in many mens hands, all
+<pb n="36" facs="tcp:7373:21"/> thoſe tenures were in uſe long before the <hi>Saxons,</hi> even in the times of the <hi>Britaines,</hi> there it is ſaid; The firſt <hi>Brittiſh King</hi> divided <hi>Brittaine</hi> into foure parts;
+<list>
+                        <item>And gave one part to the <hi>Arch-flamines to pray</hi> for him, and his poſteritie;</item>
+                        <item>A ſecond part he gave to his Earles and Nobi<g ref="char:EOLhyphen"/>litie to doe him <hi>Knights ſervice;</hi>
+                        </item>
+                        <item>A third he divided among husbandmen, to hold of him in <hi>ſocage.</hi>
+                        </item>
+                        <item>The fourth part he gave to Mechanicall per<g ref="char:EOLhyphen"/>ſons, to hold in <hi>Burgage.</hi>
+                        </item>
+                     </list>
+                  </p>
+                  <p>But that teſtimony was waiv'd, there being little certainty, or truth in the <hi>Brittiſh Story</hi> before the times of <hi>Caeſar.</hi> Neither would they make uſe of that, which we are taught by <hi>VVilliam Roville of A<g ref="char:EOLhyphen"/>lenzon</hi> in his <hi>preface to the grand Customier of Normandy,</hi> That all thoſe <hi>Cuſtomes</hi> (among which theſe <hi>tenures</hi> are) were firſt brought into <hi>Normandy</hi> out of <hi>England</hi> by <hi>Edward</hi> the <hi>Confeſſor.</hi>
+                  </p>
+                  <p>Beſides that which hath beene ſaid, wee finde <hi>Feuds,</hi> both the name, and thing in the Lawes of thoſe times, among the Lawes of <hi>Edward</hi> the <hi>Con<g ref="char:EOLhyphen"/>feſſor. cap.</hi> 35. vvhere it is thus provided.</p>
+                  <p>
+                     <hi>Debent enim univerſi liberi homines, &amp;c. ſecundum feodum ſuum, &amp; ſecundum tenementa ſua, Arma habere, &amp; illa ſemper prompta conſervare, ad tuiti<g ref="char:EOLhyphen"/>onem regni, &amp; ſervitium dominorum ſuorum, &amp;c. Lambard Archaionom.</hi> 135.</p>
+                  <p>This Law was after confirmed by <hi>VVilliam</hi> the <hi>conquerour, vid. Cokes Inſtit. ſect.</hi> 103.</p>
+                  <p>As theſe tenures were common in thoſe times, ſo
+<pb n="37" facs="tcp:7373:21"/> were all the fruits of them, <hi>homage, fealty, Eſcuage, Re<g ref="char:EOLhyphen"/>liefes, wardſhips.</hi>
+                  </p>
+                  <p>For Reliefes, vve have full teſtimony in the Re<g ref="char:EOLhyphen"/>liefes of their <hi>Earles,</hi> and <hi>Thanes,</hi> for which, See the Lavves of <hi>King Canutus, cap.</hi> 68. <hi>&amp;</hi> 69. the Lavves of <hi>Edward the Confeſſour, cap. de Heterochijs,</hi> And what out of the booke of <hi>Domes-day, Coke</hi> hath in his <hi>In<g ref="char:EOLhyphen"/>ſtit. ſect.</hi> 103. <hi>Camden in Barke-ſhire, Selden in Ead<g ref="char:EOLhyphen"/>mer,</hi> 154.</p>
+                  <p>That <hi>wardſhips</hi> vvere then in uſe, and not brought in by the <hi>Normans,</hi> as <hi>Camden in his Britt.</hi> 179. Nor by <hi>Hen.</hi> 3. as <hi>Randolph Higden</hi> in his <hi>Polichronicon,</hi> And others (not underſtanding him) vvould per<g ref="char:EOLhyphen"/>ſvvade, <hi>vid. Seldens Notes on Forteſcue.</hi> 51.</p>
+                  <p>Among the priviledges granted by <hi>Edward</hi> the <hi>Confeſſour</hi> to the <hi>Cinque-Ports,</hi> wee meete vvith this, that their <hi>heires</hi> ſhall not bee in <hi>ward, Lambards Per<g ref="char:EOLhyphen"/>ambulation of Kent.</hi> 101.</p>
+                  <p>And in the <hi>Cuſtomes</hi> of <hi>Kent,</hi> which are in the <hi>Magna charta of Tottells Edition,</hi> and in <hi>Lambards perambulac.</hi> There is a rule for the vvardſhip of the heire in <hi>Gavell-kind,</hi> and that he ſhall not be marryed by the Lord. And thoſe Cuſtomes ſay of them<g ref="char:EOLhyphen"/>ſelves, that they vvere, <hi>Devant le Conqueſt, een le Conqueſt.</hi>
+                  </p>
+                  <p>For the Antiquity of <hi>wardſhips</hi> in <hi>England,</hi> and <hi>Scotland,</hi> ſee alſo <hi>Hect. Boet. lib.</hi> 11. <hi>Buchanan rerum Scot. lib.</hi> 6. and the <hi>Lawes of Malcolme</hi> 2. which prove the Antiquity of <hi>wardſhips</hi> in <hi>Scotland,</hi> and therefore in <hi>England,</hi> before the <hi>Norman</hi> Conqueſt; for in thoſe times it is probable, the Lavves of both nations
+<pb n="38" facs="tcp:7373:22"/> did not much differ, As for the times after, it appeares they did not, by comparing their <hi>Regiam Majeſtatem,</hi> and our <hi>Glanvill.</hi> Neither is the bare Conjecture of <hi>Sir Henry Spelman</hi> ſufficient, to take avvay the force of thoſe Lavves, <hi>vid. Spelman. Gloſsar. verbo Feudum.</hi>
+                  </p>
+                  <p>Vpon all this they did Conclude, <hi>That upon conſideration of the Authority given, and grant thereupon made, the reſervation of the tenure cannot bee ſaid to bee Aliud. S. a ſeparate and distinct thing from the Authority of granting the land, but rather included within it:</hi> And that the Reſervation of the <hi>tenure,</hi> though it bee not <hi>ipſa conceſsio,</hi> the grant it ſelfe, yet it is <hi>Modus conceſsio<g ref="char:EOLhyphen"/>nis,</hi> and a part of the grant, And that therefore the <hi>Authority</hi> being not purſued in that, the <hi>whole grant is voyde.</hi>
+                  </p>
+               </div>
+               <div n="5" type="consideration">
+                  <p>
+                     <milestone type="tcpmilestone" unit="unspecified" n="5"/> 5. <hi>And ſo it was Reſolved, for theſe reaſons, and upon theſe Authorities.</hi>
+                  </p>
+                  <p n="1">1. <hi>The Maine and principall reaſon,</hi> vvhy they did Reſolve that the Letters patents vvere voyde in the vvhole, was, <hi>becauſe that here the Commiſsioners had but an Authoritie, and that Authoritie they have not purſued.</hi>
+                  </p>
+                  <p>By the <hi>Commiſsion</hi> they were to grant the lands, and to reſerve a tenure in <hi>Capite,</hi> or to leave the Re<g ref="char:EOLhyphen"/>ſervation to the lavv; Now there is a <hi>tenure</hi> by com<g ref="char:EOLhyphen"/>mon <hi>Knights ſervice</hi> reſerved, ſo they have executed their Authority <hi>in another manner,</hi> then the Commiſ<g ref="char:EOLhyphen"/>ſion vvarrants, they have done <hi>Idem alio modo,</hi> And
+<pb n="39" facs="tcp:7373:22"/> therefore by the rule of the bookes before cited, the vvhole grant is voyde.</p>
+                  <p>It vvas agreed by all, that if the Commiſsioners here had granted the land, Reſerving a tenure in <hi>Capi<g ref="char:EOLhyphen"/>te,</hi> the Patent vvould have beene good, and effectuall, or if they had granted the land, and reſerved no te<g ref="char:EOLhyphen"/>nure, there becauſe the Lavv in that Caſe vvould rayſe a tenure <hi>in Capite,</hi> ſuch a grant vvould have beene good, and well warranted by the <hi>Commiſsion:</hi>
+                  </p>
+                  <p n="2">2. <hi>This Commiſsion is a Nude Authoritie,</hi> for the in<g ref="char:EOLhyphen"/>tereſt is in the <hi>King,</hi> and the <hi>Commiſsioners</hi> have onely a bare Authority to grant, and therefore it ought to be purſued moſt ſtrictly, both in <hi>matter,</hi> and <hi>manner,</hi> and the execution of it is to be expounded ſtrictly.</p>
+                  <p>This Anſvveres all the Caſes that have beene put on the other ſide, where an Authoritie in ſome ſort may be executed <hi>alio modo,</hi> and yet good, as the Caſe of <hi>Stanton and Barnes,</hi> where by Cuſtome the Lord might grant <hi>Copy-holds</hi> in fee, and hee grants a Leſſer eſtate ſimply, or a leſſer eſtate vvith a remainder over, And the other <hi>Report,</hi> that hath beene cited betweene <hi>Downes</hi> and <hi>Hopkins,</hi> where the <hi>Cuſtome</hi> was to grant <hi>Copies</hi> for two lives, and he grants to the husband for life, and after to the wife <hi>durante viduitate;</hi> The Caſe of <hi>Hatt and Arrowſmyth,</hi> where a <hi>Copy-holder</hi> for life was licenſed to make a leaſe for yeares, <hi>ſi tam diu vixerit,</hi> and hee makes a leaſe abſolutely, without that limitation. The Caſe of <hi>Baron &amp; Feme</hi> making a leaſe upon the <hi>Statute</hi> of 32. <hi>H.</hi> 8. The Caſe of 3. <hi>H.</hi> 7. where upon a licence to grant an Annuity, he grants it with clauſe of <hi>diſtreſse;</hi> And yet for that <hi>Caſe,</hi> ſee
+<pb n="40" facs="tcp:7373:23"/> the Caſe <hi>of Suttons Hoſpitall.</hi> 10. <hi>Coke.</hi>
+                  </p>
+                  <p>The Caſe of <hi>Priddle</hi> and <hi>Napper,</hi> and all the other Caſes, that have beene put upon this ground.</p>
+                  <p>For in all thoſe Caſes there is an intereſt coupled with the Authority, and therefore they are not to bee compared to this Caſe, in which there is only a meere and a bare <hi>Authority.</hi>
+                  </p>
+                  <p n="3">3. <hi>This Commiſsion is a publique authority of Record,</hi> to which the ſubjects may reſort, and of which they ought to take Notice, to paſſe according the <hi>Commiſ<g ref="char:EOLhyphen"/>ſion</hi> at their perill. And therefore if either through ignorance, or Careleſneſſe, or otherwiſe they neglect to have their patents drawne purſuant to the Com<g ref="char:EOLhyphen"/>miſsion, the fault is their owne, they cannot trans<g ref="char:EOLhyphen"/>ferre the blame of this to the <hi>King,</hi> as in like Caſe it is reſolved, upon the <hi>Commiſsion</hi> of <hi>Bankrupts</hi> 2. <hi>Coke</hi> 26. So at the common Law, a patent without reci<g ref="char:EOLhyphen"/>tall of a leaſe for yeares of <hi>Record,</hi> is voyde, for the ſubject may reſort to the publique Record; The <hi>King</hi> intends <hi>Ardua Regni,</hi>
+                  </p>
+                  <p>This anſweres the objection, touching even that <hi>honour</hi> of the <hi>King,</hi> that hath beene ſpoken of, and cleares his performance of his part in this Caſe.</p>
+                  <p>For the <hi>King</hi> in favour of his <hi>Subjects</hi> of this <hi>Realme,</hi> hath granted a good, and gracious, and effe<g ref="char:EOLhyphen"/>ctuall <hi>Commiſsion,</hi> upon which many legall, and good, and effectuall <hi>Letters Patents</hi> have beene made, that have beene allovved, and approved for good.</p>
+                  <p>But if upon this <hi>Commiſsion,</hi> ſo good, and gratious for the ſubject, the ſubject ſhall contrary to the autho<g ref="char:EOLhyphen"/>ritie given by the <hi>Commiſsion</hi> obtaine <hi>Letters patents,</hi>
+                     <pb n="41" facs="tcp:7373:23"/> in fraud, and deceit of the <hi>Crowne,</hi> to defeat the <hi>King</hi> of his <hi>tenures</hi> in <hi>Capite,</hi> a principall flowre of his Crowne, if theſe <hi>Letters patents</hi> bee voide, where's the fault? certainely in the ſubject, that contrary to the Authoritie of the <hi>Commiſsion,</hi> obtaines this grant in deceit of the <hi>King,</hi> to defeat him of his tenure, which vvas but an ill returne for ſo great and gratious a bountie; And that <hi>Objection</hi> of the operation of law, Anſweres not the intention of the partie in this caſe, for plainely, and apparently, the meaning of the Pa<g ref="char:EOLhyphen"/>tentee vvas, to ſuppreſſe the <hi>King's</hi> tenure in <hi>Capite,</hi> and to hold by a meane, and inferiour tenure, which was contrary to the authoritie of the <hi>Commiſsion,</hi> and in deceit, and prejudice of the <hi>King.</hi>
+                  </p>
+                  <p>Now that <hi>Patents</hi> obtained in deceit, and preju<g ref="char:EOLhyphen"/>dice of the <hi>King,</hi> are clearely, and wholly, and utterly voyde, to all intents, and purpoſes, is a ground ſo ob<g ref="char:EOLhyphen"/>vious, ſo poſitive, and infallibly true; that they would not cite any booke, or authoritie to prove it, for it is marvellous cleare, and granted of all ſides, that patents obtayned in deceit, and prejudice of the <hi>King,</hi> are al<g ref="char:EOLhyphen"/>togither voyde,</p>
+                  <p>If any deſire an Authoritie, he may have a Cloud of Authorities, in the Caſe of <hi>Alton VVoods. Coke.</hi> 1. <hi>Report.</hi>
+                  </p>
+                  <p n="4">4. <hi>This is an Authoritie appearing within the body of the Record, of the Letters Patents themſelves;</hi> for the <hi>Let<g ref="char:EOLhyphen"/>ters Patents</hi> are <hi>ex Aſsenſu</hi> of ſuch and ſuch <hi>Commiſsio<g ref="char:EOLhyphen"/>ners, virtute &amp; ſecundum intentionem Commiſsionis, &amp;c.</hi>
+                  </p>
+                  <p>Now the tenure in <hi>Capite</hi> being as ſtrongly implied
+<pb n="42" facs="tcp:7373:24"/> in the <hi>Commiſsion,</hi> as if it had beene expreſſed; (as it hath beene confeſſed of the other part) for it is upon this <hi>implication,</hi> that they ſay the <hi>Patent</hi> is voyde for the tenure, it is as much, as if the <hi>King</hi> had given <hi>Com<g ref="char:EOLhyphen"/>miſsion</hi> to grant the land, to hold <hi>in capite,</hi> and not o<g ref="char:EOLhyphen"/>therwiſe.</p>
+                  <p>Now in ſo much as the <hi>Commiſsioners</hi> have gran<g ref="char:EOLhyphen"/>ted the lands, in <hi>other Manner</hi> (and all this appeares within the body of the <hi>Record</hi> of the letters patents themſelves) the <hi>patent</hi> is voyde in the <hi>whole,</hi> for Con<g ref="char:EOLhyphen"/>ſtruction is to bee made upon the whole patent, and not upon any part of it diſtinct, as it is Reſolved in <hi>Bucklers Caſe.</hi> 2 <hi>Coke</hi> 55.</p>
+                  <p>And this hitherto hath beene alwayes the conſtant Reſolution of all the <hi>Iudges of Ireland,</hi> our Predeceſ<g ref="char:EOLhyphen"/>ſors, That if upon Letters of <hi>warrant,</hi> or <hi>Commiſsion, Letters Patents</hi> be made varying in any point mate<g ref="char:EOLhyphen"/>riall, from the warrant, or Commiſsion, (and all this appeares within the body of the Letters patents themſelves) that the Letters patents are all utterly voyde, And this hath beene ever agreed upon by rea<g ref="char:EOLhyphen"/>ſon of the difference betweene the manner of paſsing of Letters patents <hi>in England,</hi> and <hi>Ireland.</hi>
+                  </p>
+                  <p>But where the warrant, or Commiſsion, and the variance doe not appeare within the <hi>Letters patents,</hi> how it ſhall be ayded for the <hi>King,</hi> by Averment, or otherwiſe hath beene ſome doubt, and <hi>Question.</hi>
+                  </p>
+                  <p n="5">5. <hi>Although that it be true, that this commiſsion is of a vaſt, and large extent, yet it is not boundleſſe, for the law alwayes bounds, and circumſcribes theſe ample Authorities with reaſonable, and equall constructions, without prejudice
+<pb n="43" facs="tcp:7373:24"/> to others,</hi> as it was reſolved upon the Commiſsion of <hi>Sewers,</hi> upon which we have the Reported Caſes in 5. <hi>Coke</hi> 99. <hi>Rookes Caſe, &amp;</hi> 10. <hi>Coke</hi> 138.</p>
+                  <p>This Commiſsion of <hi>Sewers</hi> gives power, and Authoritie to the <hi>Commiſsioners,</hi> To proceede accor<g ref="char:EOLhyphen"/>ding to their wiſedomes, and diſcretions, which is a moſt ample power, yet the law does bound, and cir<g ref="char:EOLhyphen"/>cumſcribe it with an equall Conſtruction. S. that their proceedings ought to bee bounded with the rules of <hi>Reaſon, Law,</hi> and <hi>Iustice,</hi> and that their taxes be equall, and that all perſons that bee ſubject to the danger, or receive benefit by the Reparation, be contributary to a ratable, and equall contribution of the charge, And if they doe otherwiſe, their ordinances are voyde, and they cannot make new inventions, as Artificiall Mils for caſting out of water, &amp;c.</p>
+                  <p>For theſe generall Commiſsions are all accompa<g ref="char:EOLhyphen"/>nied in law with an equall and reaſonable con<g ref="char:EOLhyphen"/>ſtruction for the execution of them.</p>
+                  <p>So this Commiſsion is a moſt ample, and large Commiſsion, for the ſecuring of the eſtates of the ſubjects, in their lands, but yet it ought to bee ſo exe<g ref="char:EOLhyphen"/>cuted, according to lavv, reaſon, and juſtice, that they doe not prejudice the <hi>King</hi> in his tenures, contrary to their warrant.</p>
+                  <p n="6">6. <hi>Becauſe that this Reſervation of a meane tenure, is in other manner than the Authority warrants, and to the dammage and prejudice of the King.</hi>
+                  </p>
+                  <p>If the <hi>Commiſsion</hi> were, to grant an eſtate for life, and they grant an eſtate <hi>tayle,</hi> or if the Commiſsion vvere to grant in <hi>tayle,</hi> and they grant in <hi>Fee,</hi> All the
+<pb n="44" facs="tcp:7373:25"/> patent is voyde, becauſe they doe it in <hi>other manner</hi> then the authoritie warrants, for the <hi>Habendum</hi> is <hi>Modus Conceſsionis.</hi>
+                  </p>
+                  <p>If they reſerve another Rent, then is vvarranted by the Commiſsion, or parcell an entire rent, where the rent in charge ought to bee reſerved, although that it bee ſeverall upon the ſurvey, yet the whole patent is voide, becauſe that they doe it in <hi>other manner</hi> then the Authoritie vvarrants, for the <hi>Reddendum</hi> is <hi>Modus Conceſsionis.</hi>
+                  </p>
+                  <p>Why then ſhall it not bee the ſame reaſon, in this Caſe, for here they reſerve another <hi>tenure,</hi> then that vvhich is vvarranted by the Commiſsion, and there<g ref="char:EOLhyphen"/>fore they have executed their authority <hi>in other manner</hi> then their Authoritie warrants, for the <hi>Tenendum</hi> alſo is <hi>Modus Conceſsionis.</hi>
+                  </p>
+                  <p>It was granted by them that argued on the other ſide, that if it bee prejudiciall to the <hi>King,</hi> the whole Patent ſhall be voyde.</p>
+                  <p>Novv it is moſt apparant, that this implyed tenure (if it be admitted) will bee greatly prejudiciall to the <hi>King,</hi> for the <hi>King</hi> ſhall looſe his tenure, and the fruite of his tenure, in moſt Caſes for ever, and in all Caſes for a long time; and neither the <hi>Maſter,</hi> nor the <hi>Atturney</hi> of the Court of <hi>VVards</hi> can helpe it.</p>
+                  <p rend="indent">And for that, the courſe of Patents here in <hi>Ireland</hi> was obſerved.</p>
+                  <p>Firſt, the <hi>Commiſsioners</hi> give warrant for drawing of the Patent, and the reſervation of this meane tenure, the <hi>Kings</hi> Councell draw the Patent accordingly, and
+<pb n="45" facs="tcp:7373:25"/> ſo it paſſes the ſignature of the <hi>Lord Deputy,</hi> the privy ſignet; and the great ſeale, then it is enrolled in the <hi>Chauncery,</hi> All this vvhyle it is taken according to the tenure expreſſed in the patent, vvhen it is enrolled, it is tranſcribed into the <hi>Exchecquer,</hi> and the tranſcript deli<g ref="char:EOLhyphen"/>vered into the <hi>Exchecquer</hi> by the <hi>master of the Rolls,</hi> the Lord <hi>Chiefe Baron</hi> receives it, and delivers it to the ſe<g ref="char:EOLhyphen"/>cond <hi>Remembrancer,</hi> and he puts it in charge accor<g ref="char:EOLhyphen"/>ding to the tenure expreſſed; the <hi>Eſcheator,</hi> and <hi>Feodary</hi> informe themſelves of the <hi>Kings</hi> tenures there, vvhere if they make enquiry, the patent is produced, in vvhich an expreſſe tenure is reſerved, they cannot judge the contrary, and ſo it paſſes according to the expreſſe te<g ref="char:EOLhyphen"/>nure; And ſo have the <hi>Letters patents</hi> novv in queſtion paſſed, and the <hi>King</hi> by colour of them, hath loſt the profits of the Land, and the benefit of the tenure.</p>
+                  <p n="7">7. <hi>The expreſſe reſervation in the Letters patents ex<g ref="char:EOLhyphen"/>cludes the reſervation, and implication of Law,</hi> Although (as in the caſe in queſtion) it tend to make <hi>voyde</hi> the <hi>whole grant,</hi> it is a ſure rule in <hi>Law, expreſſum facit ceſſa<g ref="char:EOLhyphen"/>re tacitum.</hi> If the <hi>King</hi> vpon his Letters patents reſerve no tenure, it ſhall be a <hi>capite</hi> tenure, but if another te<g ref="char:EOLhyphen"/>nure be expreſſed, that ſhall prevayle; 33. <hi>H.</hi> 6. 7. per <hi>priſot.</hi>
+                  </p>
+                  <p>In <hi>VVheelers Caſe.</hi> 6. <hi>Coke.</hi> 6. Where in a <hi>patent</hi> the vvordes of the <hi>Tenendum</hi> vvere, <hi>Tenendum de nobis per ſervitium unius Roſae, pro omnibus ſervitijs.</hi>
+                  </p>
+                  <p>It vvas <hi>objected,</hi> that the tenure as it is expreſſed cannot ſtand, for that no tenure can bee vvithout fe<g ref="char:EOLhyphen"/>alty, and the vvordes are <hi>per ſervitium unius Roſae, pro omnibus ſervitijs.</hi>
+                  </p>
+                  <p n="2">
+                     <pb n="46" facs="tcp:7373:26"/>2. It vvas <hi>objected,</hi> that in <hi>Caſe</hi> vvhere no tenure is Reſerved, or in Caſe vvhere it is expreſſed to be <hi>abſque aliquo inde Reddendo,</hi> the tenure ſhall be <hi>Knights ſervice in Capite.</hi>
+                  </p>
+                  <p>And therefore it vvas urged, that the tenure in the principall Caſe, muſt needes be a <hi>Capite tenure by Knights ſervice,</hi> and that the tenure expreſſed, ſhould be voyde, and give place to the better tenure for the <hi>King.</hi>
+                  </p>
+                  <p>Theſe are ſtrong objections, yet <hi>Reſolved</hi> in reſpect of that favour that is given to expreſſe Reſervations, that in the ſaid <hi>Caſe, fealty</hi> (that is an incident to all ſervices) ſhall be admitted to ſtand vvith the vvordes, and then the tenure expreſly reſerved vvas ſo com<g ref="char:EOLhyphen"/>pleate that it might vvell exclude the <hi>Knights ſervice</hi> tenure, vvhich othervviſe the Lavv vvould have im<g ref="char:EOLhyphen"/>plyed.</p>
+                  <p>
+                     <hi>Hereby</hi> may appeare the <hi>favour</hi> that is given to ex<g ref="char:EOLhyphen"/>preſſe Reſervations, and tenures, that thereby a tenure <hi>in Capite</hi> by <hi>Knights ſervice</hi> ſhall be excluded, a tenure vvhich ſhall ariſe vvhere nothing is Reſerved, vvhich ſhall ariſe though the vvordes bee, <hi>abſque aliquo inde reddendo. vid. S<hi rend="sup">r</hi> Iohn Molins caſe.</hi> 6. <hi>Coke</hi> 5.</p>
+                  <p>It is <hi>agreed</hi> on the other ſide, that vvhere the ex<g ref="char:EOLhyphen"/>preſſe tenure is good, there it controlls the implyed tenure, but in <hi>our Caſe</hi> it is <hi>voyd.</hi>
+                  </p>
+                  <p>And vvhere a tenure expreſſed is voyde, a tenure by <hi>implication</hi> of Lavv may ariſe.</p>
+                  <p>But it vvas <hi>Reſolved;</hi> that <hi>although the expreſſe tenure bee voyde, yet no tenure by Implication of Law, ſhall ariſe againſt the expreſſe Reſervation,</hi> And ſo in the Caſe of a
+<pb n="47" facs="tcp:7373:26"/> voyde <hi>Habendum,</hi> vvhich ſtands vpon the ſame rea<g ref="char:EOLhyphen"/>ſon, It vvas <hi>adjudged in B. R. Betweene one Hegge and Croſſe,</hi> 33 <hi>et</hi> 34. <hi>Eliz.</hi> vvhich you may ſee in <hi>Bucklers caſe,</hi> 2. <hi>Coke.</hi> 55. Where the Caſe vvas.</p>
+                  <p>Tenant for life makes a leaſe for yeares, and after grants the reverſion to <hi>A. Habendum</hi> from a day to come for life, after the day the leſſee for yeares attorns, in that Caſe the <hi>Habendum</hi> is voyde, yet that <hi>voyde Habendum</hi> makes voyde the vvhole grant, and ex<g ref="char:EOLhyphen"/>cludes the implication of Lavv in the premiſſes, and no eſtate ſhall paſſe by implication of Lavv in the premiſſes, againſt the expreſſe limitation of the party in the <hi>Habendum:</hi> ſee the Caſes cited before p. 26.</p>
+                  <p>So our <hi>Tenendum</hi> although it be voyde, yet the ex<g ref="char:EOLhyphen"/>preſſe reſervation in the <hi>Tenendum</hi> ſhall exclude the implication of Lavv.</p>
+                  <p>For that opinion of <hi>Martyn.</hi> in 4. <hi>H.</hi> 6. 22. that vvas Cited on the other part, that if land be given in <hi>frank<g ref="char:EOLhyphen"/>marriage,</hi> reſerving a rent, the reſervation of the rent is voyde, by reaſon of the implyed tenure in <hi>frankmar<g ref="char:EOLhyphen"/>riage;</hi> that <hi>opinion</hi> (as vvas ſaid) may vvell be <hi>doubted</hi> of, for vvee find as good Authority againſt it, in <hi>the old Tenures fol.</hi> 211; That the Reſervation of the rent is good, and deſtroyes the <hi>frank-mariage,</hi> and makes it a Common <hi>Estate tayle:</hi> But the beſt <hi>opinion</hi> is, that both of them ſhall ſtand togither, S. the gift in <hi>frankmarri<g ref="char:EOLhyphen"/>age,</hi> and alſo the Reſervation of the rent, <hi>S.</hi> that the donce in <hi>frankmarriage</hi> ſhall hold quitt of the rent, un<g ref="char:EOLhyphen"/>till the fourth degree be paſt, and then the rent ſhall take effect, and ſo vvas the <hi>opinion</hi> of the <hi>Iudges,</hi> in <hi>
+                        <g ref="char:V">Ʋ</g>
+                        <g ref="char:V">Ʋ</g>ebb</hi> and <hi>Potters Caſe in</hi> 24. <hi>Eliz.</hi> and ſo are the
+<pb n="48" facs="tcp:7373:27"/> 
+                     <hi>bookes</hi> to be underſtood; 13. <hi>E.</hi> 1. <hi>formedon.</hi> 63. 31. <hi>E.</hi> 1. <hi>tayle</hi> 31. 26. <hi>E.</hi> 3. <hi>grants.</hi> 75. <hi>et</hi> 26. <hi>Aſſ.</hi> 66.</p>
+                  <p>For the <hi>Caſe</hi> of <hi>Littleton</hi> 140. A man ſeiſed of cer<g ref="char:EOLhyphen"/>taine tenements, vvhich he held of his <hi>Lord</hi> by <hi>Knights ſervice,</hi> at this day grants by licenſe the ſame tenements to an <hi>Abbot,</hi> in <hi>frankalmoigne,</hi> the <hi>Abbot</hi> ſhall hold im<g ref="char:EOLhyphen"/>mediately by <hi>Knights ſervice,</hi> of the ſame <hi>Lord,</hi> of vvhom his <hi>grantor</hi> held, and ſhall not hold of his grantor in <hi>frankalmoigne.</hi>
+                  </p>
+                  <p>In that Caſe (they ſay) the expreſſe tenure being voyde, a tenure by implication of <hi>Law</hi> does ariſe.</p>
+                  <p>It vvas <hi>Anſwered,</hi> there is a difference betvveene the <hi>Kings</hi> Caſe, vvhich it the Caſe in queſtion, and the Caſe of a <hi>Common perſon.</hi>
+                  </p>
+                  <p>For the grants of a Common perſon, the rule of <hi>Law</hi> is, that <hi>the grant ſhall be taken moſt strongly againſt the grantor.</hi>
+                  </p>
+                  <p>For the <hi>Kings</hi> grants the <hi>rule</hi> is, that <hi>they ſhall be taken moſt beneficially for the King, and moſt strong againſt the patentees.</hi>
+                  </p>
+                  <p>And vvee have another <hi>rule,</hi> that <hi>the grant of the King ſhall not be extended to paſſe any thing, contrary to the intent of the King expreſſed in his grant, And if the grant cannot take effect, according to his intent expreſſed in his grant, the grant is voyde.</hi>
+                  </p>
+                  <p>And therefore, for the <hi>rules</hi> put by them that ar<g ref="char:EOLhyphen"/>gued on the other ſide, that <hi>the patents of the King ſhall be taken in ſuch ſence and to ſuch intent that they ſhall be good,</hi> &amp;c.</p>
+                  <p>It may be <hi>Anſwered,</hi> that there is another <hi>ground</hi> in our Lavv, that <hi>when the King is deceived in his grant, ſo
+<pb n="49" facs="tcp:7373:27"/> that it cannot take effect, according to his intent expreſſed in his grant, the grant is voyde,</hi> ſo the beſt a expoſition is, to make all theſe rules to agree together.</p>
+                  <p>And therefore the <hi>rules</hi> put on the other ſide, are true vvith this limitation. <hi>S. Except the King be decei<g ref="char:EOLhyphen"/>ved, ſo that his grant cannot take ſuch effect, as he intends by his expreſſe grant.</hi>
+                  </p>
+                  <p>In the <hi>Lord Lovells Caſe.</hi> 18. <hi>H.</hi> 8. <hi>B. Pat.</hi> 104. The <hi>King excerta ſcientia, et mero motu</hi> grants lands to one, and to his <hi>heires males;</hi> if a Common perſon had made ſuch a grant, the Lavv vvould ſay, that the vvord <hi>males</hi> vvere voyde, and the <hi>fee ſimple</hi> ſhould paſſe; But vvill the Lavv make ſuch a conſtruction in the <hi>Kings</hi> grant? No, there the grant ſhall be voyde, for he vvas deceived in his grant, in that it cannot take effect ac<g ref="char:EOLhyphen"/>cording to his intent expreſſed in his letters patents.</p>
+                  <p>And ſo in the Caſe of 7. <hi>H.</hi> 4. 42. <hi>&amp;</hi> 21. <hi>E.</hi> 3. 47. The <hi>Earle of Kents Caſe,</hi> If the <hi>King</hi> hath a vvard of land, or a leaſe of land for yeares, and by his <hi>letters patents</hi> grants the land to another and his heires, the grant is voyde, and it ſhall not amount by conſtruction, to a grant of his eſtate, or intereſt. <hi>vid.</hi> 21. <hi>Aſſ.</hi> 15. And the other bookes Cited in the Caſe of <hi>Alton <g ref="char:V">Ʋ</g>
+                        <g ref="char:V">Ʋ</g>oods</hi> upon this ground.</p>
+                  <p n="29">29 <hi>Eliz. in the Exchecquer,</hi> the Caſe vvas; <hi>King H.</hi> 7. was ſeiſed of tvvo mannors. S. <hi>de Ryton et condor,</hi> he grants <hi>ex certa ſcientia et mero motu totum illud manerium de Ryton et condor, adjudged</hi> that the grant vvas voyde.</p>
+                  <p>The like Caſe vvas reſolved 39. <hi>Eliz.</hi> vvhere the queene vvas ſeiſed of the Mannors of <hi>Millborne</hi> and <hi>Saperton</hi> in the County of <hi>Lincolne,</hi> and the queene
+<pb n="50" facs="tcp:7373:28"/> grants <hi>ex certa ſcientia, &amp; mero motu, totum illud Mane<g ref="char:EOLhyphen"/>rium de Millborne, cum Saperton in Com: Linc:</hi> and it vvas held that neither of the Mannors did paſſe; And yet if a Common perſon had made ſuch grants; the <hi>grantee</hi> in both the ſaid Caſes ſhould have had both the Mannors.</p>
+                  <p>So in our Caſe, <hi>the King</hi> is deceived in his grant, in that his grant cannot take effect, according to his intention therein expreſſed, For the <hi>Kings</hi> intention is to make a grant agreeable in all things, to the Autho<g ref="char:EOLhyphen"/>rity given to the Commiſſioners, by the ſayd Com<g ref="char:EOLhyphen"/>miſsion;</p>
+                  <p>And that appeares plainely by the very vvords of the <hi>letters patents,</hi> for the vvordes are, <hi>Sciatis quod nos &amp;c. virtute ac ſecundum intentionem et effectum of the ſaid Commiſsion, Dedimus et Conceſsimus &amp;c.</hi> as in the patent; and he conceived that the vvarrant made by the Commiſsioners, for paſsing the patent (which here vvee call the <hi>fiant</hi>) had bene according to the in<g ref="char:EOLhyphen"/>tent, and effect of the ſaid <hi>Commiſsion:</hi> And upon that <hi>warrant</hi> vvhich exceeded the <hi>Authority</hi> given to the <hi>Commiſsioners,</hi> this <hi>patent</hi> vvas paſt, yet ſtill vvith a reference to the intention and effect of the <hi>Com<g ref="char:EOLhyphen"/>miſsion.</hi>
+                  </p>
+                  <p>Now this grant cannot by any poſsibility take effect according to the <hi>Kings</hi> intention therein expreſſed, for the <hi>Kings</hi> intention in the beginning of the grant is, that it ſhall be according to the intention, and effect of the Commiſsion, vvhich muſt be a te<g ref="char:EOLhyphen"/>nure by <hi>Knights ſervice in capite,</hi> either by expreſſe Re<g ref="char:EOLhyphen"/>ſervation, or by implication, and operation of Lavv.
+<pb n="51" facs="tcp:7373:28"/> And the tenure reſerved in the patent, is a tenure by <hi>Common Knights ſervice,</hi> as of the <hi>Caſtle of Dublyn,</hi> diffe<g ref="char:EOLhyphen"/>ring altogether from the intention, and effect of the Commiſsion, ſo as it is not poſsible, that this tenure expreſſely reſerved can be according to the intention and effect of the Commiſsion, or that the intent and effect of the Commiſsion can any vvayes acoord with the tenure expreſſely reſerved in the patent.</p>
+                  <p>So as it is very plaine and manifeſt that the <hi>King</hi> is deceived in this grant, and that it cannot take effect according to his intention therein expreſſed.</p>
+                  <p>
+                     <hi>For the Authorities</hi> on vvhich their Reſolution vvas grounded.</p>
+                  <p>The principall Caſe vvas that of 12. <hi>Aſſ.</hi> 24. vvhich (as it vvas ſayd) vvas a <hi>Iudgement</hi> in effect in the point, A <hi>Iudgement</hi> in a tyme, vvhen the <hi>Law</hi> vvas as flouriſhing, and the <hi>Iudges</hi> as learned, as in any tyme either before, or ſince, A Iudgement approoved in all ages ſubſequent, 26. <hi>Aſſ.</hi> 39. 11. <hi>H.</hi> 43. <hi>&amp;c.</hi> And no <hi>Authority</hi> in all our <hi>bookes</hi> againſt it, <hi>for</hi> the mate<g ref="char:EOLhyphen"/>riall <hi>Caſes</hi> that have bene put on the other ſide, are of <hi>Authorities</hi> accoupled vvith an Intereſt, and by Con<g ref="char:EOLhyphen"/>ſequence doe not come to the point in queſtion.</p>
+                  <p>And vvee ſee that the <hi>Authority</hi> of this <hi>Iudgement</hi> is ſo great, and cleare, that it is confeſſed by them that argued on the other part; But the reaſon of the Iudge<g ref="char:EOLhyphen"/>ment given by the <hi>Iudge,</hi> that gives the <hi>Iudgement</hi> is denyed. <hi>S. pur ceo que il fait ceo en auter manner,</hi> and a nevv reaſon is invented, S. <hi>becauſe he does not purſue his Authority.</hi>
+                  </p>
+                  <p>Heere vvee finde them put to a ſtraight; S. to Con<g ref="char:EOLhyphen"/>feſſe
+<pb n="52" facs="tcp:7373:29"/> the Iudgement, and denye the reaſon, for vvho better knevv the reaſon of the <hi>Iudgement,</hi> then the <hi>Iudge</hi> that gave it, This nevv reaſon. <hi>S. That he hath not purſued his Authority</hi> if it be examined, vvill come to the firſt reaſon, for if it be demaunded, why he hath not purſued his authority, it muſt be <hi>Anſwered-pur ceo que il ad fait ceo en auter manner que le authority ſoy gar<g ref="char:EOLhyphen"/>rant,</hi> vvhich is the <hi>reaſon of</hi> 12. <hi>Aſſ.</hi>
+                  </p>
+                  <p>But vvee have other <hi>Authorities</hi> in the point, upon the ſame reaſon, that of 10. <hi>H.</hi> 7. 15. vvhich hath bene remembred, <hi>per Keble</hi> the moſt <hi>Learned Lawyer</hi> of that tyme, <hi>quant home ad authority de faire aſcun fait a un auter, il doit purſuer ſon authority, en matter, et en forme,</hi> there is <hi>Modus conceſsionis,</hi> and by the Caſe that he there puts, if he does it in other forme, <hi>alio modo</hi> it is voyde.</p>
+                  <p>If I <hi>enfeoffe</hi> a man, to enfeoffe another, and hee leavies a <hi>fine,</hi> this is voyde, yet the matter in <hi>ſubſtance</hi> is the ſame, for a <hi>fyne</hi> is but a <hi>feoffment</hi> of <hi>Record,</hi> but becauſe that hee hath done it <hi>in other manner,</hi> all is voyde.</p>
+                  <p n="11">11. <hi>H.</hi> 7. 13. A letter of <hi>Atturney</hi> to make <hi>liverie</hi> to I.S. or I.<hi>N.</hi> and the <hi>Atturney</hi> makes <hi>livery</hi> to both, the <hi>livery</hi> is voyde in all, and it is not good as to the one, and voyde as to the other, but voyde in the vvhole, <hi>becauſe</hi> that he hath done it in <hi>other manner, then the au<g ref="char:EOLhyphen"/>thority warrants.</hi>
+                  </p>
+                  <p n="8">8. Cooke. 85. In <hi>Sir Richard Pexhalls Caſe,</hi> If the <hi>King</hi> licenſes his <hi>Tenant,</hi> to alien tvvo parts of his <hi>Mannor</hi> of <hi>Dale,</hi> vvhich is held <hi>in Capite,</hi> and he aliens all the mannor, it is voyde in the vvhole, and it is not good
+<pb n="53" facs="tcp:7373:29"/> for tvvo parts, and voyde for the third, And the <hi>reaſon</hi> is, <hi>becauſe he doth it in other manner then the licenſe war<g ref="char:EOLhyphen"/>rants. vid.</hi> 10. <hi>H.</hi> 7. 13. 38. <hi>H.</hi> 8. <hi>Dyer.</hi> 62. 40. <hi>Aſſ.</hi> 38. 10. <hi>H.</hi> 7. 15.</p>
+                  <p>There vvas a <hi>Report</hi> cited by the <hi>Chiefe Iustice</hi> of the <hi>Common pleas,</hi> and the <hi>Chiefe Baron,</hi> the Caſe vvas in <hi>C.B.</hi> in <hi>England T.M.</hi> 2. <hi>Caroli.</hi> Betvveene <hi>George Bi<g ref="char:EOLhyphen"/>ſhop of Chicheſter</hi> plaintiffe, and <hi>Iohn Freeman defendant. Intr. Paſch.</hi> 1. <hi>Caroli. Rot.</hi> 207. And the <hi>Caſe</hi> vvas this.</p>
+                  <p>The <hi>Biſhop</hi> of <hi>Chichester</hi> vvas ſeiſed in fee, (in the right of his <hi>Biſhoprick,</hi>) of <hi>Allingburne</hi> parke, in the <hi>County</hi> of <hi>Suſſex,</hi> and he, and his predeceſſors have anciently granted the office of Keeper of this parke for life, vvith the fee of five markes.</p>
+                  <p>
+                     <hi>Anthony Biſhop of Chichester,</hi> 2. <hi>February.</hi> 44. <hi>Eliz.</hi> by his deede granted the <hi>Office</hi> of <hi>Keeper</hi> of the parke to one <hi>Freeman</hi> for life, <hi>Et ulterius conceſsit pro executione officij predicti</hi> the ancient fee of five markes, <hi>una cum</hi> a livery Coate, or thirteene ſhillings foure pence for it, <hi>Nec non pasturam pro duobus equis, una cum</hi> the vvind<g ref="char:EOLhyphen"/>falls, vvhich <hi>grant</hi> vvas confirmed by the <hi>Deane,</hi> and Chapter.</p>
+                  <p>And <hi>whither</hi> this grant vvas good againſt the ſuc<g ref="char:EOLhyphen"/>ceſſor, or voyde, upon the <hi>ſtatute</hi> of <hi>Anno</hi> 1. <hi>Eliz. Cap.</hi> 25. vvas the <hi>queſtion.</hi>
+                  </p>
+                  <p>In vvhich the doubt vvas, vvhither this Addition of a livery Coate, paſturage, and vvindfalls vvill make the vvhole grant utterly <hi>voyde;</hi> or if the Lavv ſhall make ſuch a conſtruction, that for this <hi>addition</hi> it ſhall be onely voyde, and ſhall ſtand good for the other; vvhich vvas the ancient fee, and vvell granted.</p>
+                  <pb n="54" facs="tcp:7373:30"/>
+                  <p>And by <hi>Iuſtice Crooke,</hi> and Harvy, againſt <hi>Yelverton,</hi> the grant is voyde in the <hi>whole, becauſe,</hi> that the <hi>Biſhop hath not purſued the Authority given him by the ſtatute,</hi> by reaſon of this expreſſe, and nevv addition, and yet they profeſſe, that they had rather have given <hi>opinion</hi> for the defendant, for that he vvas a poore man, and an ancient ſervant to the <hi>Biſhop;</hi> and yet in this Caſe, the <hi>Addition,</hi> and nevv <hi>Augmentation</hi> is a ſeverall, and <hi>distinct clauſe</hi> in the grant, and the things added <hi>de novo,</hi> are alſo ſeverall, and diſtinct <hi>in ſpecie</hi> from the an<g ref="char:EOLhyphen"/>cient Fee of five <hi>Markes.</hi>
+                  </p>
+                  <p>And in the argument of this Caſe, <hi>Iuſtice Crooke</hi> ci<g ref="char:EOLhyphen"/>ted a farre ſtronger Caſe to be adjudged in the caſe of the <hi>Archbiſhop of Canterbury.</hi> 43. <hi>Eliz.</hi> And the Caſe was this.</p>
+                  <p>
+                     <hi>Parker Archbiſhop of Canterbury</hi> granted the office of <hi>ſurveyorſhip,</hi> with the ancient fee to one <hi>Parker, Et ulterius</hi> he granted unto him <hi>paſturam pro duobus equis</hi> in the parke, and the whole grant was <hi>adjudged</hi> voyde, and yet here vvas a ſeverall grant, by a ſeverall, and diſtinct clauſe, and of another thing, ſeverall, and diſtinct <hi>in ſpecie, Aliud et Aliud.</hi>
+                  </p>
+                  <p>And theſe <hi>Caſes</hi> are farre ſtronger then the Caſe in <hi>queſtion,</hi> for here there is not a <hi>bare Authority,</hi> but an intereſt accoupled vvith an authority.</p>
+                  <p>And in this Caſe <hi>Iustice Crooke</hi> cited <hi>Scamblers Caſe,</hi> 41. <hi>Eliz.</hi> to be adjudged, that the vvhole grant vvas <hi>voyde,</hi> and not <hi>good</hi> as to the man of full age, and <hi>voyde</hi> as to the <hi>Infant,</hi> as it hath bene cited by ſome that ar<g ref="char:EOLhyphen"/>gued on the other ſide.</p>
+                  <p rend="indent">
+                     <pb n="55" facs="tcp:7373:30"/>
+                     <hi>And ſo upon the whole matter they did reſolve.</hi>
+                  </p>
+                  <p n="1">1. <hi>That the</hi> Commiſſioners <hi>by this</hi> Commiſ<g ref="char:EOLhyphen"/>ſion <milestone type="tcpmilestone" unit="unspecified" n="1"/> 
+                     <hi>have a good, and legall, and ſufficient power, and</hi> authority <hi>to grant.</hi>
+                  </p>
+                  <p n="2">2. <hi>That all</hi> Letters Patents <hi>made upon this</hi>
+                     <milestone type="tcpmilestone" unit="unspecified" n="2"/> Commiſsion, <hi>in which they have purſued their</hi> authority, <hi>are good and effectuall in</hi> Lavv. <hi>S. where they have either reſerved an expreſſe tenure by</hi> Knights ſervice <hi>in</hi> Capite, <hi>or no tenure, for there the</hi> Lavv <hi>implyes a tenure in</hi> Capite.</p>
+                  <p n="3">3. <hi>But where the</hi> Commiſsioners <hi>reſerve a</hi>
+                     <milestone type="tcpmilestone" unit="unspecified" n="3"/> meane tenure, <hi>the whole</hi> patent <hi>is voyde.</hi>
+                  </p>
+                  <p n="1">1. <hi>Becauſe, that the</hi> Commiſsioners <hi>have but an</hi> Authority.</p>
+                  <p n="2">2. <hi>Becauſe, that this is but a</hi> Nude Authority, <hi>and not accoupled with any Intereſt.</hi>
+                  </p>
+                  <p n="3">3. <hi>Becauſe, it is a</hi> publique Authority <hi>of</hi> Re<g ref="char:EOLhyphen"/>cord, <hi>whereof the ſubjects ought to take notice, to paſſe according at their perill, otherwiſe the patent ſhall be in deceipt of the</hi> King.</p>
+                  <p n="4">4. <hi>Becauſe, that the</hi> Authority <hi>appeares within the</hi> letters patents <hi>themſelves, and expoſition ſhall be made upon the whole</hi> patent.</p>
+                  <p n="5">5. <hi>Although it be a moſt ample and large</hi> Com<g ref="char:EOLhyphen"/>miſsion, <hi>yet it is bounded, and circumſcribed by the</hi> Law, <hi>with an equall</hi> Conſtruction. <hi>S. that
+<pb n="56" facs="tcp:7373:31"/> nothing ſhall bee done in other manner then the</hi> Authority <hi>warrants in prejudice of the</hi> King.</p>
+                  <p n="6">6. <hi>Becauſe that this</hi> reſervation <hi>of a</hi> meane tenure, <hi>is in</hi> other manner <hi>then the</hi> authori<g ref="char:EOLhyphen"/>ty <hi>warrants, and is in damage and prejudice of the</hi> King.</p>
+                  <p n="7">7. <hi>And laſtly becauſe that this expreſſe</hi> reſer<g ref="char:EOLhyphen"/>vation <hi>controlls the</hi> implication <hi>of</hi> Law: <hi>and for that the</hi> King <hi>was deceived in his grant, in that it cannot take effect according to his</hi> intention <hi>therein expreſſed.</hi>
+                  </p>
+                  <p rend="centerJustify">
+                     <hi>For theſe</hi> Reaſons <hi>they did reſolve.</hi>
+                  </p>
+                  <p rend="centerJustify">
+                     <hi>That this expreſſe</hi> Reſervation <hi>of a</hi> meane tenure <hi>tends to the destruction of the whole</hi> patent, <hi>and makes it voyde in</hi> Law <hi>both to the</hi> lands <hi>and to the</hi> tenure.</p>
+               </div>
+            </div>
+         </div>
+         <div type="order">
+            <pb facs="tcp:7373:31"/>
+            <head>The Order of the Councell Board upon this Reſolution of the Iudges.</head>
+            <pb facs="tcp:7373:32"/>
+            <byline>By the Lord Deputy and Councell. WENTWORTH.</byline>
+            <p>
+               <seg rend="decorInit">W</seg>Hereas there was an <hi>Act</hi> of <hi>Councell</hi> made at this <hi>Board,</hi> and dated at the <hi>Abbey</hi> of <hi>Boyle,</hi> the Eleaventh day of <hi>Iuly 1635.</hi> ordayning, and establiſhing, that the Lords, Knights, Gentlemen, and Inhabitants, their heires, and aſsignes holding any Caſtle, Man<g ref="char:EOLhyphen"/>nors, Lands, Tenements, or other haeredita<g ref="char:EOLhyphen"/>ments in the County of <hi>Roſcoman,</hi> by or un<g ref="char:EOLhyphen"/>der any effectuall <hi>letters patents</hi> from his <hi>Majeſty,</hi> or any of his Royall predeceſſors <hi>Kings,</hi> or <hi>Queenes</hi> of <hi>England,</hi> ſhould have, hold, poſſeſſe, and enjoy all the ſaid Caſtles, Mannors, Lands, Tenements, and heredita<g ref="char:EOLhyphen"/>ments of what kinde, or nature ſoever they be, to them, and to every of them, and to thoſe, who hold any estates under them, against his <hi>Ma<g ref="char:EOLhyphen"/>jeſty,</hi> his heires, and ſucceſſors, in as full, large, ample, free, and beneficiall manner to all in<g ref="char:EOLhyphen"/>tents, purpoſes, and constructions, as if the truth of their ſeverall Caſes, and their ſeverall <hi>letters patents</hi> paſſed thereupon, had bene ſpecially
+<pb facs="tcp:7373:32"/> found in the <hi>great office</hi> then to be taken, for finding his <hi>Majeſties</hi> title to the ſaid <hi>County,</hi> and their <hi>letters patents</hi> accordingly entred, <hi>in haec verba,</hi> in the ſaid office, ſo that they did produce their ſaid ſeverall <hi>letters patents,</hi> or the enrollments thereof, before us the <hi>Lord Deputy, and Councell,</hi> at this <hi>Board,</hi> be<g ref="char:EOLhyphen"/>fore the <hi>firſt day</hi> of the then next <hi>Eaſter Tearme,</hi> and that no poſſeſsion ſhould be taken from any ſuch patentees, or their aſsignes, or tenants, whoſe <hi>patents</hi> ſhould be at this Board allowed to be good, and effectuall in Law: And whereas the like <hi>Acts</hi> of <hi>Councell</hi> were made at this Board, for the ſeverall Counties of <hi>Slygo, Mayo,</hi> and <hi>Gallway,</hi> and the County of the <hi>towne</hi> of <hi>Gallway;</hi> And whereas ſeverall <hi>letters patents</hi> past under his <hi>Ma<g ref="char:EOLhyphen"/>jeſtyes great ſeale,</hi> of divers lands, tenements, and hereditaments in the ſaid ſeverall Counties, by colour of a <hi>Commiſsion</hi> under the greate Seale, dated the ſecond day of <hi>March,</hi> in the fourth yeare of the Raigne of his <hi>Majeſtyes</hi> Royall Father <hi>King Iames,</hi> of bleſſed memo<g ref="char:EOLhyphen"/>ry, were preſented unto us at this Board, which being taken into conſideration by us, <hi>we</hi> thought
+<pb facs="tcp:7373:33"/> fit for our better Information of the validity of the ſaid <hi>letters patents,</hi> to call before us ſome of thoſe who claymed by thoſe <hi>letters patents,</hi> as <hi>namely,</hi> our very good Lord the <hi>Viſcount Dillon</hi> of <hi>Coſtillogallen,</hi> whom wee appoin<g ref="char:EOLhyphen"/>ted to attend us with his learned <hi>Councell</hi> therein, which he did accordingly; Whereupon his <hi>Majeſtyes</hi> learned <hi>Councell,</hi> and the <hi>Councell</hi> learned of the ſaid <hi>Lord Dillon,</hi> agreed upon a <hi>Caſe</hi> drawen up by them, to be argued by them on both ſides before us, which Caſe followeth <hi>in haec verba, King Iames by Commiſsion under the greate Seale, da<g ref="char:EOLhyphen"/>ted the ſecond day of March, in the fourth yeare of his Raigne, did authorize cer<g ref="char:EOLhyphen"/>taine Commiſsioners, to grant the man<g ref="char:EOLhyphen"/>nor of Dale, by letters patents under the greate Seale of this Kingdome, to A. and his heires, and there is no direction given in the ſaid Commiſsion, touching the te<g ref="char:EOLhyphen"/>nure to be reſerved; There are letters pa<g ref="char:EOLhyphen"/>tents by colour of the ſaid Commiſsion paſſed unto A. and his heires, to hold by Knights ſervice, that is to ſay by the twentieth parte of &amp;c. as of his Majeſtyes
+<pb facs="tcp:7373:33"/> Caſtle of Dublyn, the queſtion is, whi<g ref="char:EOLhyphen"/>ther the ſaid letters patents be voyde in the whole, or onely to the tenure,</hi> upon which caſe his Majesties learned <hi>Councell,</hi> and the learned <hi>Councell</hi> on the part of the ſaid <hi>Viſcount Dillon</hi> argued before us, ſe<g ref="char:EOLhyphen"/>verall dayes, and <hi>wee</hi> (deſirous to take ſuch a Reſolution in the matter as might be equall and juſt) held fit to adviſe therein withall his <hi>Ma<g ref="char:EOLhyphen"/>jeſtyes Iudges,</hi> who not agreeing unanimouſly in opinion, <hi>wee</hi> adjudged it fit, that every of them ſhould argue it, and deliver his <hi>Iudge<g ref="char:EOLhyphen"/>ment,</hi> and <hi>opinion</hi> therein, before us, which they did accordingly. Wherein five of them, <hi>viz.</hi> the Lord <hi>Chiefe Iuſtice</hi> of his <hi>Majeſties</hi> Court of <hi>Kings Bench,</hi> the Lord <hi>Chiefe Iu<g ref="char:EOLhyphen"/>ſtice</hi> of his <hi>Majeſtyes</hi> Court of <hi>common pleas,</hi> the Lo: <hi>Chiefe Baron</hi> of his <hi>Ma<g ref="char:EOLhyphen"/>jeſtyes</hi> Court of <hi>Exchequer, Baron Barry,</hi> and <hi>Iuſtice Rives</hi> concurred in <hi>opinion</hi> clearely, that the <hi>letters patents</hi> were voyde in the whole, and two onely, <hi>viz. Iuſtice Mayart,</hi> and <hi>Iuſtice Creſſy</hi> differed from thoſe five in <hi>opinion,</hi> holding that the <hi>letters patents</hi> were onely voyde, as to the tenure; we thereupon
+<pb facs="tcp:7373:34"/> taking the ſame into conſideration at this <hi>Board,</hi> doe hereby <hi>adjudge, order,</hi> and <hi>de<g ref="char:EOLhyphen"/>clare,</hi> that the ſaid <hi>letters patents</hi> are <hi>wholly</hi> voyde in <hi>Law;</hi> and conſequently that all ſuch <hi>letters patents</hi> paſſed under colour of the ſaid <hi>Commiſsion,</hi> and that mention the parcells granted to be held by <hi>Knights ſervice,</hi> as of his <hi>Majeſtyes Caſtle of Dublyn,</hi> or by any te<g ref="char:EOLhyphen"/>nure other then by <hi>Knights ſervice in Capite</hi> generally, are not good, effectuall, or valid in Law, but voyde in the <hi>whole;</hi> And therefore <hi>we</hi> doe at this <hi>Board</hi> diſallowe all ſuch <hi>letters patents</hi> ſoe granted; as aforeſaid, of any lands, tenements, or hereditaments in any of the ſaid Counties of <hi>Roſcoman, Slygo, Mayo, Gallway,</hi> or the <hi>county</hi> of the <hi>towne</hi> of <hi>Gallway.</hi>
+            </p>
+            <closer>
+               <dateline>Given <hi>at his</hi> Majeſtyes Caſtle <hi>of</hi> Dublyn. <date>13. Iuly. 1637.</date>
+               </dateline>
+               <signed>
+                  <list>
+                     <item>
+                        <hi>R. Dillon.</hi>
+                     </item>
+                     <item>
+                        <hi>Ad. Loftus.</hi>
+                     </item>
+                     <item>
+                        <hi>W. Parſons.</hi>
+                     </item>
+                     <item>
+                        <hi>Gerr. Lowther.</hi>
+                     </item>
+                     <item>
+                        <hi>R. Bolton.</hi>
+                     </item>
+                     <item>
+                        <hi>Chr. VVandesford.</hi>
+                     </item>
+                     <item>
+                        <hi>Ph. Mainwaring.</hi>
+                     </item>
+                     <item>
+                        <hi>Cha. Coote.</hi>
+                     </item>
+                     <item>
+                        <hi>Geo. Radcliffe.</hi>
+                     </item>
+                  </list>
+               </signed>
+            </closer>
+            <trailer>THE END.</trailer>
+            <pb facs="tcp:7373:34"/>
+         </div>
+      </body>
+   </text>
+</TEI>

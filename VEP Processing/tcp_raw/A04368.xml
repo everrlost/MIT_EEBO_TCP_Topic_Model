@@ -1,0 +1,821 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The picture of patience. Or, a direction to perfection Most needfull and vsefull in these dangerous daies of sinne, and publike feares.</title>
+            <author>Jeffray, William.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1629</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 100 KB of XML-encoded text transcribed from 49 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A04368</idno>
+            <idno type="STC">STC 14483</idno>
+            <idno type="STC">ESTC S100758</idno>
+            <idno type="EEBO-CITATION">99836587</idno>
+            <idno type="PROQUEST">99836587</idno>
+            <idno type="VID">869</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A04368)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 869)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1177:17)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The picture of patience. Or, a direction to perfection Most needfull and vsefull in these dangerous daies of sinne, and publike feares.</title>
+                  <author>Jeffray, William.</author>
+               </titleStmt>
+               <extent>[4], 78, [16] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by T. H[arper] for Robert Milbourne, and are to be sould at his shop, in Pauls Church-yard, at the signe of the Gray-Hound,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1629.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Dedication signed: William Ieffray.</note>
+                  <note>Printer's name from STC.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Christian life --  Early works to 1800.</term>
+               <term>Patience --  Religious aspects --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-06</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-07</date>
+            <label>Lauren Proux</label>Sampled and proofread</change>
+         <change>
+            <date>2009-07</date>
+            <label>Lauren Proux</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:869:1"/>
+            <p>THE PICTVRE <hi>Of Patience.</hi> OR, A DIRECTION to Perfection.</p>
+            <p>Moſt needfull and vſefull in theſe dangerous daies of ſinne, and publike feares.</p>
+            <q>
+               <bibl>
+                  <hi>Iames 1.4.</hi>
+               </bibl> But let patience haue her perfect worke that you may be perfect and entire, wanting no<g ref="char:EOLhyphen"/>thing.</q>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>T.H.</hi> for <hi>Robert Milbourne,</hi> and are to be ſould at his ſhop, in <hi>Pauls</hi> Church-yard, at the ſigne of the <hi>Gray-Hound.</hi> 1629.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:869:2"/>
+            <pb facs="tcp:869:2"/>
+            <head>TO THE RIGHT honourable, and right vertuous Lady, <hi>The Lady</hi> ASTON, Wife to the right honourable the Lo. <hi>Aſton,</hi> B. of <hi>Forfar,</hi> W.I. wiſheth all increaſe of happineſſe; <hi>externall, internall and eternall.</hi>
+            </head>
+            <opener>
+               <salute>Good Maddam</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">V</seg>Ouchſafe, to ac<g ref="char:EOLhyphen"/>cept this, once your owne by priuate Deuotion &amp; now made yours by publike Dedication, and when
+<pb facs="tcp:869:3"/>your Religious Soule ſhall make a pauſe from your more holy Meditations, I beſeech you, vouchſafe to caſt an eye vpon this treatiſe, it may be you may finde and feele the ſpirit of Conſolation, working in it. The Lord of Heauen bleſſe you vnto my Lord, my Lord vnto you, and you both with all your hopefull iſſue to his ſauing Grace, which is and ſhall be the hearty Prayer of</p>
+            <closer>
+               <signed>Your moſt humbly deuoted ſeruant
+<hi>William Ieffray.</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:869:3"/>
+            <head>
+               <hi>The picture of Patience.</hi> OR, A DIRECTION to Perfection. <hi>Moſt needfull and vſefull in theſe dangerous daies of of ſin, and publike feares.</hi> A diſcourſe confined to that place of the Apoſtle,</head>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>Iames 1.4.</hi>
+                  </bibl>
+                  <p>But let patience haue her perfect worke, that you may be perfect and entire, wanting no<g ref="char:EOLhyphen"/>thing.</p>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">N</seg>Ot ſo anciently, as moſt truely and diuinely was it ſaid; <hi>Fortior eſt qui ſe quam qui for. tiſſima vincit moe<g ref="char:EOLhyphen"/>nia:</hi> A Chriſtians valour is better
+<pb n="2" facs="tcp:869:4"/>expreſſed in conquering his <hi>affe<g ref="char:EOLhyphen"/>ctions</hi> by <hi>patience</hi> then in vanqui<g ref="char:EOLhyphen"/>ſhing of the whole world by <hi>vio<g ref="char:EOLhyphen"/>lence.</hi> Many haue <hi>powerfully</hi> ſub<g ref="char:EOLhyphen"/>dued others, which poorely and baſely haue beene conquered by themſelues. And this I dare af<g ref="char:EOLhyphen"/>firme (ſince the Scripture war<g ref="char:EOLhyphen"/>rants it) That hee who well go<g ref="char:EOLhyphen"/>uerneth his <hi>paſſions,</hi>
+               <note place="margin">Pro. 16.32.</note> is more hono<g ref="char:EOLhyphen"/>rable then a Commander ouer <hi>Nations.</hi> They beare ſoueraigne power ouer others, this ouer him<g ref="char:EOLhyphen"/>ſelf. They are but <hi>rulers</hi> ouer ſome part of the
+<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>; but hee is abſolute lord and <hi>gouernour</hi> of the whole
+<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, the <hi>Iſle of Man;</hi> which yet by an inevitable decree is as ſubiect to the diſtem<g ref="char:EOLhyphen"/>per of <hi>Affection</hi> as the largeſt Re<g ref="char:EOLhyphen"/>giments to the diſtraction of <hi>O<g ref="char:EOLhyphen"/>pinion.</hi> How great an <hi>Emperour</hi> then may he be that guides his af<g ref="char:EOLhyphen"/>fections by the <hi>Rule of Reaſon,</hi> and ſubdues his <hi>paſſions</hi> by vncon<g ref="char:EOLhyphen"/>querable <hi>patience?</hi> who ſailes in a <hi>Harbour,</hi> though the <hi>Tempeſt</hi>
+               <pb n="3" facs="tcp:869:4"/>ſtorme at Sea; and by a diuine <hi>Moderation</hi> ſailes happily betwixt <hi>Scilla</hi> and <hi>Charybdis,</hi> ſtoutly with<g ref="char:EOLhyphen"/>ſtanding the frowardeſt blaſts of <hi>Calamitie,</hi> and comfortably appre<g ref="char:EOLhyphen"/>prehending the ſweete gale of <hi>Peace;</hi> not deiected by <hi>Aduerſitie,</hi> not erected by <hi>Proſperity,</hi> but like the neuer-fading <hi>Laurel</hi> greene as well in Winters <hi>calamitie</hi> as in Summers <hi>comfort.</hi> The Apoſtle then ſeeing the excellencie of this vertue, and knowing of what ſo<g ref="char:EOLhyphen"/>veraigne power and precious vſe it would be to cure the miſeries of all the <hi>diſperſed,</hi> (and therefore <hi>diſtreſſed</hi>) <hi>Iewes,</hi> commandeth them to plant this hearb in euery one of their <hi>Gardens</hi> as being the true <hi>Hearts eaſe:</hi> which though it be planted by <hi>Paine,</hi> watered with <hi>Teares,</hi> cheriſhed with <hi>Sighs,</hi> yet the floure it beareth is <hi>Perfe<g ref="char:EOLhyphen"/>ction,</hi> as he here ſheweth.</p>
+            <p>
+               <hi>Let patience haue her perfect worke, that you may be perfect and en<g ref="char:EOLhyphen"/>tire, wanting nothing.</hi>
+            </p>
+            <pb n="4" facs="tcp:869:5"/>
+            <p>Which words conteine a third <hi>reaſon,</hi> of the formerly propoun<g ref="char:EOLhyphen"/>ded dutie, verſe 2. <hi>My brethren count it all ioy when you fall into di<g ref="char:EOLhyphen"/>uerſe temptations;</hi> where hauing charged them to beare <hi>afflictions</hi> and <hi>temptations,</hi> and that with all ioy, knowing what a bitter and tart doctrine it was to the palate of the <hi>fleſh,</hi> he doth inforce it by a threefold reaſon,
+<note place="margin">Eccl. 4.12.</note> as a <hi>threefold Co<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>d which is not eaſily broken.</hi>
+            </p>
+            <p>Firſt, becauſe temptation is
+<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>; <hi>A triall of our faith.</hi> Secondly becauſe our <hi>faith</hi> being tried <hi>bringeth forth patience.</hi>
+            </p>
+            <p>Thirdly, if <hi>patience may haue her perfect worke,</hi> then <hi>(ab effectis)</hi> ſhe will make vs <hi>perfect and entire, wanting nothing.</hi>
+            </p>
+            <p>Here by an excellent gradati<g ref="char:EOLhyphen"/>on he brings vs <hi>De profundis</hi> to <hi>In excelſis,</hi> from the bottomeleſſe pit of <hi>Miſerie</hi> to the higheſt pitch of <hi>Glory.</hi> For <hi>temptations</hi> doe deepe<g ref="char:EOLhyphen"/>ly plunge vs into the depth of <hi>ca<g ref="char:EOLhyphen"/>lamitie,</hi> but if by <hi>remembrance</hi> wee
+<pb n="5" facs="tcp:869:5"/>
+               <hi>conſider,</hi> and with <hi>conſideration re<g ref="char:EOLhyphen"/>member</hi> that they are Gods <hi>Touch<g ref="char:EOLhyphen"/>ſtone,</hi> for the triall of our faith, they will make vs patient, and if <hi>patience</hi> may haue her perfect worke by <hi>perſeuerance,</hi> ſhee will make vs <hi>perfect.</hi>
+            </p>
+            <p>See here <hi>Iacobs Ladder</hi> reach<g ref="char:EOLhyphen"/>ing from <hi>Earth</hi> to <hi>Heauen,</hi>
+               <note place="margin">G<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>. 28.12.</note> moun<g ref="char:EOLhyphen"/>ted from <hi>bane,</hi> but aymes at bliſſe, liſting vs euen from the <hi>gates of hell,</hi> to the <hi>Port</hi> of <hi>Heauen;</hi> lea<g ref="char:EOLhyphen"/>ding vs by the hand from <hi>Aegypt</hi> to <hi>Canaan,</hi> from mans deepeſt <hi>miſery</hi> to his higheſt <hi>folicitie.</hi>
+            </p>
+            <p>So that in the <hi>Coherence,</hi> wee may obſerue the former Admoni<g ref="char:EOLhyphen"/>tion inforced by a powerfull Rea<g ref="char:EOLhyphen"/>ſon, and that Reaſon ſeconded by a worthy Admonition, which eaſily divides this portion of Scripture into 2, parts.</p>
+            <p n="1">1. An Admonition; <hi>Let Pati<g ref="char:EOLhyphen"/>ence haue her perfect worke.</hi>
+            </p>
+            <p n="2">2. A Reaſon inforcing the Ad<g ref="char:EOLhyphen"/>monition; <hi>That you may be perfect and entire, wanting nothing.</hi>
+            </p>
+            <pb n="6" facs="tcp:869:6"/>
+            <p>In the Admonition 2. things are conſiderable, 1. the ſubiect of the Admonition, which is <hi>Patience;</hi> 2. the Admonition it ſelfe, <hi>Let her haue her perfect worke.</hi> Thus for a while muſt I diuorce <hi>Patience</hi> and <hi>Perfection,</hi> the <hi>Author</hi> and the <hi>worke;</hi> but in the end I will con<g ref="char:EOLhyphen"/>ioyne them like <hi>Hippocrates</hi> his <hi>Twinnes,</hi> and leaue them to liue and die together.</p>
+            <p>The firſt obiect that offers it ſelfe to the eye of our conſidera<g ref="char:EOLhyphen"/>tion, is the ſubiect of the Admo<g ref="char:EOLhyphen"/>nition, <hi>Patience; Let Patience &amp;c.</hi>
+            </p>
+            <p>
+               <hi>Plato</hi> was wont to ſpeake of <hi>wiſdome</hi> that if ſhe could be ſeene with humane eyes, without doubt ſhe would moone mens hearts, greedily to affect her: So may I ſay of <hi>Patience,</hi> that if the eyes of our mortall bodies could ſee the excellencie of this vertue, no doubt but our eyes would teach our hearts to affect ſo excellent a beauty.</p>
+            <p>Your eies might then performe
+<pb n="7" facs="tcp:869:6"/>that dutie which now my vnskil<g ref="char:EOLhyphen"/>full pencill muſt doe, for the ſight of that <hi>diuine vertue</hi> would eaſily bring forth in you Amazement; Amazement would procure Re<g ref="char:EOLhyphen"/>ſpect; Reſpect would breed a re<g ref="char:EOLhyphen"/>uerend and obſervant loue: Shee being like the <hi>Tree</hi> which <hi>Moſes</hi> cut downe and threw into the bitter waters of <hi>Marah</hi> to make them ſweete: Or <hi>Eliah</hi> his <hi>cloake,</hi>
+               <note place="margin">Exo. 25.25</note>
+               <note place="margin">2 Kin. 2.14</note> by which <hi>Eliſha</hi> diuides the wa<g ref="char:EOLhyphen"/>ters of <hi>Iordaine;</hi> for <hi>Patience</hi> it is that turnes the <hi>Gall of bitterneſſe</hi> into ſugred and ſacred <hi>Content;</hi> that divides the troubling waters of affliction, to make an eaſie paſ<g ref="char:EOLhyphen"/>ſage for vs into the <hi>Land of our ce<g ref="char:EOLhyphen"/>leſtiall Canaan</hi>
+            </p>
+            <p>But that we may the better diſ<g ref="char:EOLhyphen"/>couer the beauty of this vertue, I will firſt expreſſe her by her defi<g ref="char:EOLhyphen"/>nition. Secondly delineate her by her <hi>Picture.</hi> Thirdly decypher her by her Character. And laſtly commend her by her Effects.</p>
+            <p>Firſt for her definition (which
+<pb n="8" facs="tcp:869:7"/>Logicians call <hi>Dèfinisi evolutio</hi>): S. <hi>Auguſt.</hi> defines her thus. <hi>Patience</hi> is a religious mans gratefull vn<g ref="char:EOLhyphen"/>dergoing of all troubles &amp; labors for the loue of God, &amp; the hope of the reward of eternall bliſſe. <hi>Grego<g ref="char:EOLhyphen"/>ry</hi> thus, To be <hi>Patient,</hi> is with an e<g ref="char:EOLhyphen"/>quall minde to endure miſchiefes from other men, &amp; not to be mo<g ref="char:EOLhyphen"/>ued with anger towards them that do inflict them. Others thus, <hi>Pati<g ref="char:EOLhyphen"/>ence</hi> is a vertue by which a man beares all infirmitie and aduerſity that can betide him, with an vn<g ref="char:EOLhyphen"/>danted &amp; conſtant reſolution, for God &amp; godlines ſake. And this la<g ref="char:EOLhyphen"/>ter definition may be preferred to the former, who though they doe expreſſe <hi>Totum Patientiae,</hi> yet they doe not expreſſe <hi>Patientiam totali<g ref="char:EOLhyphen"/>ter.</hi> They doe expreſſe the whole of patience, but not patience wholly: And to this laſt agreeth the definition, which may be ga<g ref="char:EOLhyphen"/>thered out of <hi>Calvin</hi> and other Orthodox writers, namely, that <hi>Patience is a voluntary ſuffering of
+<pb n="9" facs="tcp:869:7"/>all loſſes and croſſes for Chriſts ſake and the Goſpels, grounded vpon the neuer-fayling prouidence of God.</hi> Now when I ſpeak of a volunta<g ref="char:EOLhyphen"/>ry ſuffering, I meane not a <hi>Stoicall</hi> ſtupiditie, as when a man ſeemes to be ſenſeleſſe in affliction; but I meane ſuch a <hi>ſuffering</hi> as pinch<g ref="char:EOLhyphen"/>eth and pleaſeth; pincheth with griefe, pleaſeth with reliefe; pincheth with griefe, when wee feele the rod vpon our ſhoulders, and ſit with <hi>Iſrael</hi> mourning by the waters of <hi>Babylon:</hi>
+               <note place="margin">Pſ. 137.1.</note> pleaſeth with reliefe, when we feele <hi>Chriſt</hi> drying vp our teares and curing our wounds and telling vs in the eare, This grace is ſufficient:
+<note place="margin">2 Cor. 12.19.</note> ei<g ref="char:EOLhyphen"/>ther by trying vs in the fire to make vs pure, or by changing our <hi>Elegies</hi> into <hi>Eulogies,</hi> by a hap<g ref="char:EOLhyphen"/>py and heauenly deliuerance; for then ſhall our water be turned in<g ref="char:EOLhyphen"/>to wine, our mouthes ſhall be fil<g ref="char:EOLhyphen"/>led with laughter and our tongues with ioy. Againe it is not euery ſuffering but a <hi>ſuffering for Chriſt,</hi>
+               <pb n="10" facs="tcp:869:8"/>wherein patience truly can ſhew her ſelfe; for <hi>Heathens</hi> ſo can ſhew vs patternes of patience, but the <hi>Chriſtian</hi> muſt arme himſelfe to ſuffer patiently, not for euill but for good, yea for God: And hap<g ref="char:EOLhyphen"/>py are thoſe ſoules that ſo ſuf<g ref="char:EOLhyphen"/>fer, for <hi>if Patience haue her per<g ref="char:EOLhyphen"/>fect worke, we ſhall be perfect.</hi>
+            </p>
+            <p>The ſecond thing obſerued, was to delineate her by her pi<g ref="char:EOLhyphen"/>cture, for which I will be behol<g ref="char:EOLhyphen"/>ding to that exact Symmetritian <hi>Tertullian,</hi> who doth thus deci<g ref="char:EOLhyphen"/>pher her; <hi>Patience</hi> (ſaith hee) hath a moſt quiet and a moſt plea<g ref="char:EOLhyphen"/>ſant aſpect, her forehead pure, voyd of all wrinckles either of ſorrow or anger; her eye-browes ſweetely but modeſtly inclined to <hi>Myrth;</hi> her eyes caſt downe, but by <hi>humilitie,</hi> not by <hi>infelicitie;</hi> her mouth ſealed vp with the ho<g ref="char:EOLhyphen"/>nour of <hi>Silence;</hi> her colour ſuch a; <hi>Securitie</hi> and <hi>Integritie</hi> are wont to haue; her head ſhe often mooues with a threatning laugh<g ref="char:EOLhyphen"/>ter
+<pb n="11" facs="tcp:869:8"/>againſt the Deuill; as for her apparell about her breaſts it is white, cloſe to her body, to ſigni<g ref="char:EOLhyphen"/>fie ſhe is neither puffed vp, nor yet diſquieted, ſhe ſits in the throne of the ſacred ſpirit: for where God is, there is his Nurſe<g ref="char:EOLhyphen"/>child <hi>Patience:</hi> here you heare not but may euen ſee the admirable beauty of this vertue, which <hi>Pru<g ref="char:EOLhyphen"/>dentius</hi> that diuine Poet, or Poë<g ref="char:EOLhyphen"/>ticall Diuine doth (after <hi>Tertulli<g ref="char:EOLhyphen"/>an</hi>) thus delineate,
+<q>
+                  <l>Behold how Patience with a mild aſpect,</l>
+                  <l>Stands in the midſt of vertues chiefeſt foes,</l>
+                  <l>No trouble can her ſetled minde deiect</l>
+                  <l>From Reſolution: She vndaunted goes</l>
+                  <l>Into the midſt of danger, whoſe rough piles</l>
+                  <l>Doth lend her wounds which ſhe repaies with ſmiles.</l>
+               </q>
+            </p>
+            <p>See here (and admire to ſee) the excellencie of this vertue, and let vs learne at laſt (at leaſt for ſhame) to loue her, whom thou ſeeſt to be ſo excellent: is not beauty loues loadſtone? why ſhould it not then attract thy heart to bee
+<pb n="12" facs="tcp:869:9"/>enamored of her? that <hi>Patience may haue her perfect worke &amp;c.</hi>
+            </p>
+            <p>The third thing was to decipher her by her <hi>Character</hi> &amp; a kind of morall inſtruction as not much in vſe among the ancients ſo happi<g ref="char:EOLhyphen"/>ly receiued in theſe times of ours. I will therefore thus preſume to <hi>Characterike</hi> her: <hi>Patience</hi> is <hi>Miſe<g ref="char:EOLhyphen"/>ries beſt Phyſick</hi> which if ſhe doth not <hi>extirpate,</hi> doth yet <hi>extenuate</hi> the <hi>diſeaſe:</hi> ſhe is the <hi>nurſe</hi> of <hi>valour</hi> and <hi>Chriſtian Reſolution,</hi> the <hi>Child</hi> of <hi>Calamitie,</hi> and <hi>Mother</hi> of <hi>true Conſtancie;</hi> ſhe goes the <hi>Milkie way</hi> to the <hi>golden Meane,</hi> bearing as well from the <hi>Rock of diſtemper</hi> as of <hi>diſtraction;</hi> ſhe ſets her ſelfe a worke with <hi>Dorcas</hi> to make <hi>cloathes</hi> for <hi>vertue,</hi> againſt the <hi>win<g ref="char:EOLhyphen"/>ter</hi> of <hi>Aduerſitie;</hi> ſhe ſleepeth con<g ref="char:EOLhyphen"/>tentedly vpon a <hi>bed of Nettels,</hi> and riſeth with comfort from the <hi>Couch of care;</hi> ſhee may bee made ſubiect to, but neuer the ſubiect of <hi>Miſery: Misfortune</hi> may be an vſurping <hi>Tyrant</hi> ouer her to <hi>paine</hi>
+               <pb n="13" facs="tcp:869:9"/>her, but neuer a receiued <hi>Soue<g ref="char:EOLhyphen"/>raigne</hi> to <hi>command</hi> her; ſhe weepes the teares of <hi>Comfort,</hi> and findes <hi>Content</hi> in the middeſt of diſcon<g ref="char:EOLhyphen"/>tent; thus by a heauenly <hi>Neglect</hi> ſhe makes <hi>Troubles</hi> and <hi>Calamities</hi> the <hi>Foyle</hi> of her Luſtre, making the deepeſt <hi>miſery</hi> the Baſis of her higheſt triumph: <hi>Gold</hi> ſhe is, and therefore pure for the <hi>Fire; Wheat</hi> ſhe is, and therefore cleane for the <hi>Fanne; Oyle</hi> ſhe is, and therefore <hi>clearer</hi> for the preſſe: In a word ſhe gaines by loſſe, and mounteth from the vale of <hi>Miſerie</hi> to the mount of <hi>Glory.</hi> See here the <hi>Character</hi> of this bleſſed vertue, and bleſſed is he that can enioy her, not to poſſeſſe her onely, but to be poſſeſſed of her.</p>
+            <p>The laſt thing obſerued was to commend her by her <hi>Effects.</hi> So that as the woemen ſaid, <hi>See what Dorcas</hi> did when ſhe was a<g ref="char:EOLhyphen"/>liue; ſo may I ſay, ſee what works <hi>Patience</hi> would doe if ſhe were a<g ref="char:EOLhyphen"/>liue. Now theſe effects are admi<g ref="char:EOLhyphen"/>rably
+<pb n="14" facs="tcp:869:10"/>laid downe by <hi>Tertullian</hi> and after him by <hi>Cyprian,</hi> the happy Imitator of <hi>Tertullian</hi> (as <hi>Lorinus</hi> noteth) namely that <hi>Pati<g ref="char:EOLhyphen"/>ence</hi> defends all <hi>God</hi> his <hi>Decrees,</hi> o<g ref="char:EOLhyphen"/>beyes his <hi>Precepts,</hi> fortifieth <hi>faith,</hi> gouerneth <hi>peace,</hi> aſſiſteth <hi>loue,</hi> in<g ref="char:EOLhyphen"/>ſtructeth <hi>humilitie,</hi> expecteth <hi>re<g ref="char:EOLhyphen"/>pentance,</hi> aſſigneth <hi>confeſſion,</hi> ru<g ref="char:EOLhyphen"/>leth the <hi>fleſh,</hi> preſerveth the <hi>ſpirit,</hi> refraineth the <hi>tongue,</hi> reſtraineth the <hi>hand,</hi> infulteth vpon <hi>temptati<g ref="char:EOLhyphen"/>ons,</hi> expelleth <hi>ſcandalls,</hi> finiſheth <hi>Martyrdome. She comforts a poore man, moderates a rich man, ſuſtaines a ſick man, protects a ſtrong man, ſhe delights the faithfull, inuites the gen<g ref="char:EOLhyphen"/>tle, ſhe commends the ſeruant to his maſter, and his maſter to his God, ſhe is the ornament of woemanhood, and the touchſtone of manhood, ſhe is lo<g ref="char:EOLhyphen"/>ued in a child, commended in a young man, but admired in an old, in all ſexes, in all ages, ſhe retaines a neuer-fading beauty.</hi> Theſe be the works of patience, theſe ſhe performes, whereſoeuer ſhee reſides, ſo that
+<pb n="15" facs="tcp:869:10"/>for the concluſion of this point I may ſpeake of her as <hi>Hugo</hi> doth of <hi>Charitie,</hi> I know not what I ſhall more ſay in thy commenda<g ref="char:EOLhyphen"/>tion, but that <hi>Patience</hi> made Chriſt like vs, and will (if we em<g ref="char:EOLhyphen"/>brace her) make vs like Chriſt.</p>
+            <p>The ſecond thing obſerued was the <hi>Admonition</hi> it ſelfe, <hi>Let Patience haue her perfect worke;</hi> where by <hi>perfect worke</hi> is meant the <hi>worke of perſeuerance,</hi> So <hi>Hie<g ref="char:EOLhyphen"/>rome</hi> expounds it: <hi>Then ſhall Pati<g ref="char:EOLhyphen"/>ence haue her perfect work if ſhe con<g ref="char:EOLhyphen"/>tinues to the end:</hi> for <hi>Patience</hi> is not <hi>perfect</hi> if ſhe endure the firſt or ſe<g ref="char:EOLhyphen"/>cond ſtorme of tribulation and then prooue recreant, but ſhee muſt perſeuere to the vtmoſt end, if ſhe will bee <hi>perfect,</hi> for not to perſeuere to the end, were to o<g ref="char:EOLhyphen"/>uercome ſome ſharp and perilous ſickeneſſe, and dye by a <hi>Feuer;</hi> or to eſcape in the Onſet, and be ſlaine after the conqueſt; or ſe<g ref="char:EOLhyphen"/>curely to paſſe a raging Tempeſt at Sea, and then ſinke in the har<g ref="char:EOLhyphen"/>bour
+<pb n="16" facs="tcp:869:11"/>for in vaine, whilſt we liue we doe good, if whileſt wee liue we ceaſe to doe good: Our liues muſt end before we end our obe<g ref="char:EOLhyphen"/>dience, and the cauſe of our ſuffe<g ref="char:EOLhyphen"/>ring determine before our ſuffe<g ref="char:EOLhyphen"/>ring; for we muſt not be like the <hi>Tiger,</hi> which if he obtaines not his prey at the firſt or ſecond leape, will leape no more; but as <hi>Noah</hi> his Doue,
+<note place="margin">Gen. 8.11.</note> which was not ſent out once onely, but againe before ſhe brought the <hi>Oliue leafe in her mouth,</hi> So we muſt not on<g ref="char:EOLhyphen"/>ly endure one brunt, but if the waters of affliction be ſtill vp, we muſt patiently continue our ſuf<g ref="char:EOLhyphen"/>fering, till our ſuffering bringes vs the <hi>Oliue branch,</hi> the perfect <hi>Hieroglyphick</hi> of our aſſured quiet<g ref="char:EOLhyphen"/>neſſe, and eternall reſt. For it is the end that approoues the act, and <hi>perſeuerance</hi> crownes the head of <hi>Patience.</hi> In the old Law wee were commanded <hi>to offen the Taile on the rumpe of the beaſt,</hi>
+               <note place="margin">Levit. 3.9.</note> in ſacrifice: what is the meaning of this Pre<g ref="char:EOLhyphen"/>cept?
+<pb n="17" facs="tcp:869:11"/>may I not ſpeake as Saint <hi>Paul</hi> ſpeaketh to another end, <hi>Doth God take care of Oxen;</hi>
+               <note place="margin">2 Cor. 9.2.</note> So ſay I; regardeth God the Rumpe, <hi>or rather ſaith he it not, altogether for our ſakes?</hi> Surely there is a kernell vnder this ſhell, there is Gold vn<g ref="char:EOLhyphen"/>der this Oare, what it is let Saint <hi>Gregory</hi> expound: <hi>Wee are com<g ref="char:EOLhyphen"/>manded</hi> (ſaith he) <hi>by Moſes to of<g ref="char:EOLhyphen"/>fer the tayle of the beaſt, to this end,</hi> (namely) <hi>that euery good worke which we take in hand, we ſhould by perſeuerance bring to his perfect end.</hi> It is not then for that God ſtands in neede of the beaſt, much leſſe of the <hi>rumpe</hi> that God comman<g ref="char:EOLhyphen"/>deth it to be offered; but this is the reaſon why the Lord requires the <hi>Tayle in the Sacrifice,</hi> to teach vs that he crownes not the begin<g ref="char:EOLhyphen"/>nings but the ends of our beſt A<g ref="char:EOLhyphen"/>ctions. For (as Mellifluous <hi>Ber<g ref="char:EOLhyphen"/>nard</hi> reacheth the Ianuenſes) it is onely <hi>perſeuerance,</hi> that giues the wealth of glory to the ſonnes of men, and ſets the <hi>crowne</hi> vpon the
+<pb n="18" facs="tcp:869:12"/>
+               <hi>head of vertue,</hi> without which nei<g ref="char:EOLhyphen"/>ther the <hi>ſouldier</hi> can obtaine the <hi>victory,</hi> nor the <hi>Conquerour</hi> his <hi>crowne;</hi> ſhe being the <hi>nurſe to Me<g ref="char:EOLhyphen"/>rit</hi> and a <hi>Mediatrix</hi> to reward, her <hi>ſiſter Patience</hi> and <hi>daughter Conſtancy,</hi> the <hi>friend of Peace,</hi> and <hi>knot of friendſhip,</hi> the <hi>bend of vnani<g ref="char:EOLhyphen"/>mitie</hi> and <hi>Sanctuary of ſanctitie.</hi> Had <hi>Saul</hi> perſeuered in his obedi<g ref="char:EOLhyphen"/>ence, hee had not loſt his King<g ref="char:EOLhyphen"/>dome with his life. If <hi>Sampſon</hi> had perſeuered in his cautelouſneſſe and <hi>Salomon</hi> in his deuotion, the one had not beene depriued of his wiſdome, the other of his ſtrength. So that without the aſ<g ref="char:EOLhyphen"/>ſiſtance of this vertue it is impoſ<g ref="char:EOLhyphen"/>ſible for vs (we ſee) euer to at<g ref="char:EOLhyphen"/>taine to the <hi>crowne</hi> of glory: for we <hi>runne in a Race,</hi>
+               <note place="margin">2 Cor. 9.24.</note> and therefore muſt not giue ouer till we come to the end: but as a <hi>Runner</hi> regar<g ref="char:EOLhyphen"/>deth not how much he hath <hi>run,</hi> but how much he hath to <hi>runne;</hi> ſo muſt we forget what troubles we haue ſuffered, and make our
+<pb n="19" facs="tcp:869:12"/>ſelues ready to runne the reſt of our courſe. We <hi>fight Gods battell,</hi> and muſt not faile in the enter<g ref="char:EOLhyphen"/>priſe; for <hi>
+                  <g ref="char:V">Ʋ</g>incenti dabitur,</hi>
+               <note place="margin">Reue. 2.17<g ref="char:punc">▪</g>
+               </note> to him that ouer cometh is propoſed the <hi>Reward:</hi> ſaluation is the end of our Aymes, and our Ayme at our ends.
+<note place="margin">Marke 13.13.</note> Let vs then continue to the end that we may be ſaued.</p>
+            <p>How patiently doth the Mer<g ref="char:EOLhyphen"/>chant endure ſtormes and calmes, heat and cold, tempeſts at Sea, tra<g ref="char:EOLhyphen"/>uells and troubles by Land, and all for gaine? and ſhall not we for the gaine of <hi>Heauen,</hi> goe euen by the gates of <hi>Hell?</hi> The <hi>Iſrae<g ref="char:cmbAbbrStroke">̄</g>lites</hi> that murmured at their <hi>triall</hi> in the wilderneſſe had a <hi>Deniall</hi> of the land of <hi>Canaan,</hi>
+               <note place="margin">Num. 14.18.</note> onely <hi>Caleb</hi> and <hi>Ioſhua,</hi> which expected bitter<g ref="char:EOLhyphen"/>neſſe in the <hi>wilderneſſe</hi> of <hi>Syn,</hi> but ſweetneſſe at <hi>Mount Zion,</hi> happily arriued in the <hi>Land of promiſe.</hi> Let vs then with <hi>Caleb</hi> and <hi>Ioſhua</hi> pa<g ref="char:EOLhyphen"/>tiently endure the bitterneſſe of the way, that we may come to the Citie which is not onely <hi>Hieruſa<g ref="char:EOLhyphen"/>lem,</hi>
+               <pb n="20" facs="tcp:869:13"/>the <hi>viſion of peace,</hi> or peace in a viſion, but peace in fruition, to<g ref="char:EOLhyphen"/>gether with eternall ſecuritie at<g ref="char:EOLhyphen"/>tended by neuer-ſading felici<g ref="char:EOLhyphen"/>tie, following this our Apoſtles rule, <hi>Let Patience haue her perfect worke, &amp;c.</hi>
+            </p>
+            <p>The ſecond thing obſerued, was the Apoſtles Motiue, to in<g ref="char:EOLhyphen"/>duce to this dutie; <hi>that you may be perfect, entire wanting nothing:</hi> See here a <hi>threefold Cord</hi> (which <hi>is not eaſily broken</hi>) vſed by the Apoſtle to draw vs to let <hi>Patience haue her perfect worke.</hi>
+               <note place="margin">Ecc. 4.12.</note> Firſt that we may be <hi>perfect,</hi> ſecondly <hi>entire,</hi> thirdly <hi>wanting nothing.</hi> The firſt is <hi>perfe<g ref="char:EOLhyphen"/>ction,</hi>
+               <note place="margin">Ro. 8.22.</note> which is the All-ſatisfying obiect of mans boundleſſe deſire; yea the <hi>Creatures</hi> euen <hi>groane</hi> for their perfection; all things being carried away with a wonderfull longing to be made <hi>perfect,</hi> and ſhall not a Chriſtian (whom <hi>Para<g ref="char:EOLhyphen"/>diſe</hi> inviteth, and the celeſtiall troope of Angells inſtantly deſire to haue him vnited vnto them)
+<pb n="21" facs="tcp:869:13"/>ſhall not he I ſay, patiently endure thoſe troubles that tend to his perfection?</p>
+            <p>Now when I ſpeake of <hi>perfecti<g ref="char:EOLhyphen"/>on</hi> I meane not ſuch a <hi>perfection</hi> as is abſolute, for that attends vs in the life to come, and is not at<g ref="char:EOLhyphen"/>tained vnto in this; but I ſpeake of <hi>perfection</hi>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, of a manner of <hi>perfection,</hi> though farre ſhort of that which is <hi>abſolute,</hi> and this <hi>perfection</hi> conſiſts, firſt in relation to others whereby a man is pre<g ref="char:EOLhyphen"/>ferred before others in his Ranke. So <hi>Noab</hi> was a <hi>iuſt man and perfect in his generation:</hi>
+               <note place="margin">Gen. 6.9.</note> where <hi>Noah</hi> is not termed perfect<g ref="char:punc">▪</g> for that he had at<g ref="char:EOLhyphen"/>tayned to the degree of <hi>abſolute perfection,</hi> but (onely by way of <hi>re<g ref="char:EOLhyphen"/>lation</hi> to thoſe of his Time) hee was found <hi>more perfect</hi> then the reſt of his <hi>generation,</hi> and therefore he obtained mercy that in th<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> de<g ref="char:EOLhyphen"/>luge he might be ſ<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ued, and his houſhold. So in the new Teſta<g ref="char:EOLhyphen"/>ment.
+<note place="margin">Luk. 1.6.</note> 
+               <hi>Zachary and Elizabeth</hi> are ſaid to be <hi>righteous before God and
+<pb n="22" facs="tcp:869:14"/>to walke in the Commandements and Ordinances of God blameleſſe.</hi> Now what kind of <hi>righteouſneſſe</hi> and <hi>in<g ref="char:EOLhyphen"/>nocencie</hi> they were indued with; Saint <hi>Anguſtine</hi> treating vpon theſe words doth manifeſt, <hi>They were iuſt</hi> (ſaith hee) <hi>in regard of their commendable and allowable converſation, which no mar inſtly could complaine of.</hi> They were <hi>righ<g ref="char:EOLhyphen"/>teous</hi> then and <hi>perfect,</hi> but not in an abſolute, but <hi>relatiue perfection;</hi> ſo that I may conclude this point with that of <hi>Ambroſe; There are many perfect in this world</hi> (ſpeaking of a relatiue perfection) <hi>who if you looke for true perfection</hi> (meaning abſolute) <hi>they cannot be perfect.</hi>
+            </p>
+            <p>Secondly this <hi>perfection</hi> conſi<g ref="char:EOLhyphen"/>ſteth in <hi>Acceptation</hi> when it plea<g ref="char:EOLhyphen"/>ſeth the Lord to accept our <hi>imper<g ref="char:EOLhyphen"/>fection</hi> for <hi>perfection.</hi> Now this <hi>ac<g ref="char:EOLhyphen"/>ceptation</hi> is accompliſhed by a two fold meanes; firſt by the acknow<g ref="char:EOLhyphen"/>ledgement of our <hi>imperfection,</hi> for as in knowledge it is not the leaſt part for a man to know, that hee
+<pb n="23" facs="tcp:869:14"/>knowes nothing; ſo in <hi>perfection</hi> it is not the leaſt degree to know our ſelues to be <hi>imperfect:</hi> For as (that <hi>Hammer of Heretiques</hi> well obſerueth) <hi>The vertue which now remaineth in a righteous man is ſo far forth called and accounted perfect, when as to the perfection thereof, there doth pertaine both in veritie an ac<g ref="char:EOLhyphen"/>knowledgement, and in humilitie a confeſſion of our owne imperfection.</hi> Hence wee diſcerne a <hi>perfection</hi> grounded vpon the humble con<g ref="char:EOLhyphen"/>feſſion of our <hi>imperfection:</hi> this be<g ref="char:EOLhyphen"/>ing indeed the greateſt part of the wiſdome of <hi>Man</hi> to know him<g ref="char:EOLhyphen"/>ſelfe to be imperfect; for (as I may ſo ſay) <hi>the perfection of all men li<g ref="char:EOLhyphen"/>uing in the fleſh, is but an imperfect perfection</hi> (that is) ſuch a <hi>perfecti<g ref="char:EOLhyphen"/>on</hi> as is ſlayned with many <hi>imper<g ref="char:EOLhyphen"/>fections.</hi> For we know the <hi>Church</hi> (and conſequently euery actuall member thereof) though ſhee be <hi>comely</hi> as the <hi>Curtaines of Salomon,</hi> yet is ſhe black as the <hi>Tents</hi> of <hi>Ke<g ref="char:EOLhyphen"/>dar,</hi> hauing her beauty (like the
+<pb n="24" facs="tcp:869:15"/>
+               <hi>Moone</hi>) ſlayned with ſome <hi>blemi<g ref="char:EOLhyphen"/>ſhes of imperfection.</hi> So that I con<g ref="char:EOLhyphen"/>clude with <hi>Auguſtine</hi> that with<g ref="char:EOLhyphen"/>out all doubt <hi>he is a good proficient in this life, that by his profiting knowes how farre ſhort he is of true and abſo<g ref="char:EOLhyphen"/>lute perfection.</hi>
+            </p>
+            <p>The ſecond meanes whereby in Gods ſight wee may be accep<g ref="char:EOLhyphen"/>ted, as <hi>perfect,</hi> is by endeauoring to attaine to <hi>abſolute perfection;</hi> for as he that aymes at the Sunne (al<g ref="char:EOLhyphen"/>beit he is ſure hee ſhall not reach his mark) muſt yet vpon neceſſity ſhoote higher then he that level<g ref="char:EOLhyphen"/>leth at a buſh; euen ſo he that ſets before him the <hi>patterne of abſolute perfection,</hi> as the ayme of his endea<g ref="char:EOLhyphen"/>uour, ſhall be ſure to attaine to an higher degree thereof then hee that either aymes not at all, or elſe but leuells at <hi>imperfection.</hi> And of this perfection <hi>Ambroſe</hi> ſpeaketh, (led by the occaſion of thoſe words of the Apoſtle,
+<note place="margin">Phil. 3.15.</note> 
+               <hi>Let euery one that is perfect bee thus minded) In compariſon</hi> (ſaith he) <hi>of ſuch as be
+<pb n="25" facs="tcp:869:15"/>negligent in diuine matters, they are to be called perfect, who with all care<g ref="char:EOLhyphen"/>full diligence doe walke in the wayes to perfection:</hi> and euen this endea<g ref="char:EOLhyphen"/>uour is in the eyes of God accep<g ref="char:EOLhyphen"/>ted for <hi>perfection;</hi> for ſo gratiouſly-mercifull is the Lord to the ſoules of his Saints, that if hee ſee them endeuour to attaine but euen the <hi>loweſt degree of perfection,</hi> he ac<g ref="char:EOLhyphen"/>counts them as <hi>perfect, accepting the will for the worke,</hi> the deſire for the deſigne, the affection for the action. Thus as a man doth be<g ref="char:EOLhyphen"/>gin to be good, when he beginnes to deſire to be good, ſo a Chriſti<g ref="char:EOLhyphen"/>an beginnes then to bee <hi>perfect,</hi> when he beginnes to endeauour to be perfect, if then wee can en<g ref="char:EOLhyphen"/>dure all miſeries for the obtaining of Gods glory, to ſuffer all imper<g ref="char:EOLhyphen"/>fections of the body that we may attaine to the perfection of our ſoules, wee ſtand pefect in this kinde of perfection; for it is not enduring, but the will to endure calamity that maketh vs perfect,
+<pb n="26" facs="tcp:869:16"/>(as S. <hi>Cyprian</hi> obſerueth) for <hi>A<g ref="char:EOLhyphen"/>braham</hi> and that earth-deſpiſing troope of <hi>Patriarchs</hi> were not al<g ref="char:EOLhyphen"/>wayes toſſed in the tempeſt of mi<g ref="char:EOLhyphen"/>ſerie, who yet arriued at the Ha<g ref="char:EOLhyphen"/>uen of perfection, <hi>And thoſe were not Martyrs onely which died for Chriſt, but thoſe alſo that had a Will to die for Chriſt. Abraham</hi> did not offer vp his ſonne <hi>Iſaac</hi> to death for a <hi>ſacrifice,</hi> and yet God ſaith that he for his ſake <hi>did non ſpare his ſonne,</hi> hence Saint <hi>Chryſoſtome</hi> gi<g ref="char:EOLhyphen"/>ueth vs this obſervation; <hi>conſider</hi> (ſaith he) <hi>not the euent but the Will, for as touching Abrahams Will, hee had already bathed his ſword in the bloud of his ſonne; hence ſaith the Lord unto him, Doe it not, for thy Will contents me, and for it I crowne thee: for my Rewards are awarded according to the Will, and I vſe to crowne euen holy affections.</hi> Thus God accepteth the deſire as if the deſigne had beene accompliſhed. So ſhall it be with vs, if we ſacri<g ref="char:EOLhyphen"/>fice not our <hi>Iſaac,</hi> I meane our
+<pb n="27" facs="tcp:869:16"/>life for Chriſt; or if our ſoules be not expoſed to the miſerie of affli<g ref="char:EOLhyphen"/>ction, yet if we can be contented patiently to endure what may bee inflicted, albeit it be not, euen this deſire ſhall make vs perfect in the eyes of God. For as in matters of <hi>almes,</hi> he hath giuen which hath a deſire to giue; ſo in matters of tribulation, he hath ſuffered that hath a will to ſuffer: if then thou haſt a deſire to offer thy ſoule for the confirmation of thy faith, and canſt be content to haue it made for Chriſts ſake like <hi>Ezechiels booke,</hi>
+               <note place="margin">Ezek. 2.10.</note> which was filled with <hi>lamen<g ref="char:EOLhyphen"/>tations, mournings</hi> and woe with<g ref="char:EOLhyphen"/>out and within; and art determi<g ref="char:EOLhyphen"/>ned in thy ſelfe that no ſtorme of calamitie ſhall breake the Anchor of thy patience, or driue thy ſoule into the tempeſtious ſea of paſſion, from the harbour of thy ſetled reſolution: then aſſure thy ſelfe that thou art <hi>perfect,</hi> for <hi>If Patience haue her perfect worke, ſhee will make thee perfect and
+<pb n="28" facs="tcp:869:17"/>entire lacking nothing.</hi>
+            </p>
+            <p>The ſecond maine reaſon why our Apoſtle exhorteth vs to ſuf<g ref="char:EOLhyphen"/>fer <hi>Patience to haue her perfect worke</hi> is, becauſe it will not onely make us <hi>perfect,</hi> but alſo <hi>entire.</hi>
+            </p>
+            <p>The originall word is
+<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, which one Engliſh word can hardly expreſſe, for it intimateth that we ſhould be <hi>Integri, univerſa<g ref="char:EOLhyphen"/>les, Ad omnia quare,</hi> as the pro<g ref="char:EOLhyphen"/>uerbe runnes, or <hi>Homines quadrati,</hi> men at all points, ſuch as dare looke danger in the face, and will not be diſmayed with its fierceſt aſſault. They know the worſt of trouble, and affliction ſhall neuer be able to daunt their vndaunted reſolution; for by <hi>patient ſuffe<g ref="char:EOLhyphen"/>ring</hi> they are ſo inured to tribula<g ref="char:EOLhyphen"/>tion, as they are ready to enter<g ref="char:EOLhyphen"/>tayne it not as a hated enemy, but as a well beloued and long expe<g ref="char:EOLhyphen"/>cted gueſt, doſt thou then ô Chri<g ref="char:EOLhyphen"/>ſtian ſoule, doeſt thou deſire his <hi>entireneſſe?</hi> There are two things neceſſary to aſſiſt thee in the at<g ref="char:EOLhyphen"/>tayning
+<pb n="29" facs="tcp:869:17"/>of it. The firſt is <hi>Know<g ref="char:EOLhyphen"/>ledge,</hi> and the ſecond is <hi>Imitation:</hi> both are expedient, that ſo our knowledge may mooue vs to i<g ref="char:EOLhyphen"/>mitation, and our imitation may confirme our knowledge: for without knowledge how can wee imitate, and without imitation what are wee the better for our knowledge? Knowledge without imitation is wrechleſnede, and imitation without knowledge is but meere apiſhneſſe. Our vn<g ref="char:EOLhyphen"/>derſtanding muſt then be firſt in<g ref="char:EOLhyphen"/>formed, that we may know; and then our Will, will be more eaſily conformed, that we may imitate; and both theſe ioyned together will make vs <hi>Let Patience haue her perfect worke, &amp;c.</hi>
+            </p>
+            <p>If we then deſire to be thus <hi>en<g ref="char:EOLhyphen"/>tire,</hi> by ſuffering <hi>Patience to haue her perfect worke,</hi> our vnderſtan<g ref="char:EOLhyphen"/>ding muſt apprehend a twofold obiect; Firſt that afflictions are Chriſts legacie; ſecondly they are Gods high-way to felicitie.
+<pb n="30" facs="tcp:869:18"/>Firſt, we muſt know that they are Chriſts legacy bequeathed vnto his Apoſtles, and in them to vs by his laſt <hi>Will and Teſtament.</hi>
+               <note place="margin">Ioh. 16.33.</note> They are a chriſtian mans recognizance whereby (as <hi>Ioſeph</hi> by his <hi>partico<g ref="char:EOLhyphen"/>loured coate</hi>) they may be knowne; for he that is exempted from the rod of God, is not the child of God. Mans life is a <hi>warfare vp<g ref="char:EOLhyphen"/>on earth:</hi> now who intends to be a ſouldier, and not meete with danger? Nay euery chriſtian man is enrolled in Gods Muſter-booke in his baptiſme, and therefore muſt <hi>fight the Lords battaile,</hi> and will he, that muſt <hi>warre and fight,</hi> not expect to feele ſmart and wounds? Let vs therefore that are Chriſtians arme our ſelues with that reſolution, in the Poet <hi>Superanda omnis fortuna ferendo eſt,</hi> and here, to the end that patience (hauing her <hi>perfect worke</hi>) may thereby worke our <hi>perfection and entireneſſe;</hi> it is neceſſary for the Chriſtian ſouldier to know two
+<pb n="31" facs="tcp:869:18"/>things, Firſt, that ſince tribulation is Chriſts legacy, that therfore all croſſes, loſſes and calamities, which can betide a Chriſtian man in this <hi>vale of miſery</hi> are not caſu<g ref="char:EOLhyphen"/>all (as vaine Atheiſts ſuppoſe) but are directed and inflicted by the al-ſeeing &amp; al-guiding providence of God:
+<note place="margin">Amos 3.6.</note> for <hi>What euill is there done in the City that I do not, ſaith the Lord?</hi> doth the Lord ſpeake by his Pro<g ref="char:EOLhyphen"/>phet of the euil of ſault, no; for God cannot ſin: how then? of the euil of puniſhment? yes verily, for God cannot chooſe but puniſh ſin:
+<note place="margin">1 Pet. <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> ther<g ref="char:EOLhyphen"/>fore S. <hi>Peter</hi> concludeth; <hi>Wee are troubled according to the Will of God;</hi> which may be ſecret &amp; vnknown, but neuer can bee vnrighteous, or vniuſt. Is it then Gods will that we ſhould be troubled? and ſhall our will be refractary and not rather ſubiect vnto his? ſhall our hea<g ref="char:EOLhyphen"/>uenly Father lay his lering rod vpon us for our correction, and not for our confuſion, and ſhall wee ſhrinke from ſuch a fatherly
+<pb n="32" facs="tcp:869:19"/>correction? Know we the reaſon why he now whips vs with Net<g ref="char:EOLhyphen"/>tles? may it not be that hee may hereafter crowne vs with Roſes? Let vs then patiently endure his caſtigation, that we may tend to the <hi>entireneſſe of perfection.</hi>
+            </p>
+            <p>The ſecond thing that we muſt know, is, that our Saviours bleſ<g ref="char:EOLhyphen"/>ſed legacy, I meane thoſe croſſes or loſſes that doe ouertake vs, or are inflicted vpon Gods children in this life, are not demonſtratiue arguments of his wrath, but ra<g ref="char:EOLhyphen"/>ther infallible Teſtimonies and perſpicuous tokens of his loue: For <hi>Whom he loueth,
+<note place="margin">Heb. 12.6.</note> them he chaſti<g ref="char:EOLhyphen"/>ſeth, and ſcourgeth euery ſonne that he receiueth.</hi> For like as ſome care<g ref="char:EOLhyphen"/>full father, that intends for ſome leud courſes to caſt off, and final<g ref="char:EOLhyphen"/>ly to diſinherit his ſonne, giues him leaue to walke in the wayes of his owne heart, and in the luſt of his owne eyes,
+<note place="margin">Eccl. 11.9.</note> not regarding though he make his ſoule the ve<g ref="char:EOLhyphen"/>ry ſource of ſin, and the denne of
+<pb n="33" facs="tcp:869:19"/>Deuills; and all becauſe hee hath loſt his paternall loue: but if the ſame father hath a ſonne whom he tenderly loues and intends to make the heire both of his vertues and fortunes; if hee ſee him but ſlip awry, or forſake that euen path of vertue, which his exam<g ref="char:EOLhyphen"/>ple had trod out before him; then his tongue is ready to check him, and his rod to correct him, why? becauſe he hates him? no, but be<g ref="char:EOLhyphen"/>cauſe he loues him. Euen ſo our heauenly father ſuffers <hi>the ſonnes of Belial,</hi> to feede like <hi>fat Bulls of Ba<g ref="char:EOLhyphen"/>ſan</hi> becauſe hee intends them for the ſlaughter, and to floriſh like a <hi>greene Bay tree,</hi> becauſe hee hath ordained them to be fuell for the fierce fire of his wrath: but thoſe whom hee hath predeſtinated by an euer louing and euer-laſting decree, to be made heires of his neuer fading Kingdome coëter<g ref="char:EOLhyphen"/>nall in the Heauens, theſe if hee ſees (as what doth not God ſee) but ſlip aſide out of the way of
+<pb n="34" facs="tcp:869:20"/>righteouſneſſe, out of that way that his Heaſts commanded them to walke in, ſtrait his rod is vpon their ſhoulders, immediately hee corrects them, but not in anger, fury and iudgement, but in loue, mercy and compaſſion.
+<note place="margin">1 Cor. 11.32.</note> Thus <hi>when we are iudged we are chaſtened of the Lord that we ſhould not be con<g ref="char:EOLhyphen"/>demned with the world:</hi> for ſuch is Gods louing care and carefull loue ouer his Saints, that he laies his correction rod vpon them for diuerſe ends, beſt knowne vnto himſelfe, yet alwayes tending to the good of his ſeruants.</p>
+            <p>Sometimes he corrects them to weane them from the loue of this world,
+<note place="margin">Iudg. 16.15.</note> which, as that enticing <hi>Dalilah</hi> endeauoured to bereaue <hi>Sampſon</hi> of his ſtrength: ſo this alluring world ſets all baites to bereaue Gods Saints of their ſtrength in Grace. Now becauſe there is ſuch an Antipathy be<g ref="char:EOLhyphen"/>twixt God and the world,
+<note place="margin">Iam. 4.4.</note> that the <hi>Amity of the world is Enmity
+<pb n="35" facs="tcp:869:20"/>with God,</hi> therefore the Lord ſcourgeth his Saints, to make them leaue the world and cleaue vnto him: for as the Nurſe layes bitter things to the Teate of her breaſt, to weane her child from the loue of her milke, ſo the Lord layes bitter afflictions vpon his Saints, to weane them from the loue of this life. <hi>Therefore</hi> (ſaith holy <hi>Auguſtine</hi>) <hi>doth God mixe the gall of bitterneſſe with the ſweet<g ref="char:EOLhyphen"/>neſſe of terrene felicitie, that hee might make vs ſeeke for another happineſſe, whoſe ſweetneſſe ſhall ne<g ref="char:EOLhyphen"/>uer faile.</hi> God hedgeth vp this way with thornes, to make it vn<g ref="char:EOLhyphen"/>pleaſant to the fleſh, leaſt wee ſhould forget the happines of our countrey: why did God afflict his people <hi>Iſrael</hi> in the <hi>deſart of Sin?</hi> but with longing deſire to make them ſeeke for <hi>Canaan,</hi> and the ioyes of <hi>Zion:</hi> and why doth God afflict vs here, but to make vs deſire to be <hi>diſſolved,</hi> that wee may reſt in peace? For the vani<g ref="char:EOLhyphen"/>ties
+<pb n="36" facs="tcp:869:21"/>of this world doth ſo intoxi<g ref="char:EOLhyphen"/>cate the ſoule with fleſh-pleaſing obiects, as it makes it forget that ſoule-delighting ſubiect, the crowne of bliſſe. Euen as the ſweeteneſſe of <hi>Aetnaes</hi> flowers bereaues the beſt-ſmelling dog of his Sent: ſo this ſoule-decei<g ref="char:EOLhyphen"/>uing ſweetneſſe bereaues vs of the ſenſe of bliſſe. Is this then the end of Gods chaſtiſments, onely to poliſh vs for himſelfe? and ſhall we murmur againſt him, that deales ſo gratiouſly with vs? No, let vs but patiently endure what it pleaſeth him mercifully to in<g ref="char:EOLhyphen"/>flict, that <hi>Patience hauing her per<g ref="char:EOLhyphen"/>fect worke, we may be perfect &amp;c.</hi>
+            </p>
+            <p>Somtime God correcteth and ſcourgeth man for ſinne, and to bring him from ſinne: for ſuch and ſo great is Gods care ouer his Saints, that if he ſee any wicked<g ref="char:EOLhyphen"/>neſſe in them, ſtraitway <hi>He puni<g ref="char:EOLhyphen"/>ſheth their offences with a rod, and their ſinne with ſcourges:</hi> which was promiſed as a great bleſſing
+<pb n="37" facs="tcp:869:21"/>vnto <hi>David.</hi> The ancient Hea<g ref="char:EOLhyphen"/>thens ſeeing the ſervants of God in the Primitiue Church ſore cha<g ref="char:EOLhyphen"/>ſtized vnder perfidious Tyrants, began to thinke that the God whom they ſerued was not the true God, becauſe ſpeedily he did not deliver them from the hands of perſecuting Tyrants. Thus <hi>the naturall man cannot diſcerne the things that are of God,</hi> becauſe hee lookes vpon them through the glaſſe of his owne conceit, mea<g ref="char:EOLhyphen"/>ſuring the miſeries of this life, on<g ref="char:EOLhyphen"/>ly by the Mete wand of blinde and corrupted nature; but what anſweres <hi>Lactantius</hi> a Chriſtian to their vnchriſtian ſurmize? <hi>Let no man maruaile</hi> (ſaith he) <hi>if wee for our ſinnes be often chaſtized of the Lord, yea when we are preſſed and oppreſſed, then eſpecially yeeld we thanks to our moſt indulgent Father, becauſe he will not ſuffer our ſore to grow to a full head, but launceth it with ſtripes and wounds, that by this wonderfull plaiſter he may heale the
+<pb n="38" facs="tcp:869:22"/>diſeaſe. From whence</hi> (ſaith hee contrary to your conceit) <hi>we ea<g ref="char:EOLhyphen"/>ſily vnderſtand that God hath a ſpe<g ref="char:EOLhyphen"/>ciall care of vs, becauſe hee is angry with vs when we ſinne.</hi> See here a Chriſtian, like a laborious Bee, ſucking hony from the ſharpeſt thiſtle; and marke the difference betwixt a carnall and a ſpirituall eye, the one ſees a waue of ſor<g ref="char:EOLhyphen"/>row comming, and diſtruſts with <hi>Peter;</hi> the other viewes it and re<g ref="char:EOLhyphen"/>ioyceth with <hi>Stephen,</hi> in the mid<g ref="char:EOLhyphen"/>deſt of calamity. Is this the end of Gods ſtriking that hee may wound vs here, and heale vs here<g ref="char:EOLhyphen"/>after, that ſinne may now bee pu<g ref="char:EOLhyphen"/>niſhed in vs, and that hereafter wee be not puniſhed for ſinne? Who will not then patiently kiſſe the rod of ſo louingly-grati<g ref="char:EOLhyphen"/>ous a father, who changeth eter<g ref="char:EOLhyphen"/>nall damnation into a temporall puniſhment? For doe wee not know,
+<note place="margin">Ro. 6.23.</note> that <hi>The reward of ſinne is death?</hi> doc wee not know, that daily, nay hourely wee haue de<g ref="char:EOLhyphen"/>ſerued
+<pb n="39" facs="tcp:869:22"/>this <hi>reward?</hi> May wee not ſee Hells mouth wide opened, as ready to deuour vs, if mercy did not relieue vs? Why then ſhould not Gods ſtripes be vnto vs ſtripes of comfort, hauing deſerued ten thouſand times more? Let this conſideration mooue vs to <hi>Pati<g ref="char:EOLhyphen"/>ence,</hi> and let patience <hi>haue her per<g ref="char:EOLhyphen"/>fect worke, &amp;c.</hi>
+            </p>
+            <p>Againe, ſuch is the nature of man, that of all leſſons it is the hardeſt for him to learne to know himſelfe, and the eaſieſt to forget that knowledge.
+<note place="margin">Act. 6.</note> For as the <hi>Eu<g ref="char:EOLhyphen"/>nuch</hi> ſtood in need of a <hi>helper</hi> to make him know what hee read; ſo wee ſtand in need of a helper to make vs know what wee are. As Chriſt then made <hi>lumps of clay to cure the eyes of the blinde,</hi>
+               <note place="margin">Ioh. 9.6.</note> ſo hee muſt cure our blinde eyes, before we can know our ſelues to be but <hi>lumps of clay:</hi> and this the Lord performeth by tribulation. An in<g ref="char:EOLhyphen"/>ſtance we haue in <hi>Manaſſeh,</hi>
+               <note place="margin">2 Cro. 33.12.13.</note> who whileſt he happily ſayled in the
+<pb n="40" facs="tcp:869:23"/>Bay of humane bliſſe, forgat his God, and defiled the holy citie with blood; but when the wind of affliction began to change this calme of comfort into a tempeſt of trouble, when the libertie of a King was turned into the bon<g ref="char:EOLhyphen"/>dage of a captiue, and his ſtately palace turned into a lothſome pri<g ref="char:EOLhyphen"/>ſon; then in his <hi>affliction he beſought the Lord and humbled himſelfe great<g ref="char:EOLhyphen"/>ly before the God of his Fathers, then Manaſſes knew the Lord was God.</hi> Thus when the ſtaffe of ſuſtentati<g ref="char:EOLhyphen"/>on could not, the rod of correcti<g ref="char:EOLhyphen"/>on brought this wandring ſheepe to Gods heauen-gayning fold. The like we read of <hi>Antiochus,</hi> 2. <hi>Mac.</hi> 9. ver. 4.19.</p>
+            <p>Thus when mans pride begins to ſwell, God lanceth the tumour with the razor of affliction, to make him learne to know him<g ref="char:EOLhyphen"/>ſelfe. And as this is the moſt dif<g ref="char:EOLhyphen"/>ficult leſſon to learne, ſo it is the eaſieſt loſt, for man can eaſily bee content to remember to forget
+<pb n="41" facs="tcp:869:23"/>himſelfe: for (as Saint Ia. ſpeakes to another end) <hi>as hee that lookes his face in a glaſſe forgets immediat<g ref="char:EOLhyphen"/>ly what manner of man he was;</hi>
+               <note place="margin">Iam. 1.</note> ſo when in the glaſſe of verity wee haue learned to diſcover our va<g ref="char:EOLhyphen"/>nity, we are ſuch naturall Dunces, as immediatly wee forget to re<g ref="char:EOLhyphen"/>member what vaine things wee are; yea euen <hi>aliquando bonus dor<g ref="char:EOLhyphen"/>mitat Homerus;</hi> fearefull ſecuritie; like a fawning &amp; flattering <hi>Dali<g ref="char:EOLhyphen"/>lah,</hi> luls too often aſleepe euen the beſt of Gods Saints vpon the couch of proſperity; Vigilancie, the euer-waking Sentinell of the ſoule of man, growes oftentimes drowſie with too much eaſe; The Apoſtles eyes were heauy with ſleepe, when Chriſts ſoule was heauy vnto the death: and cer<g ref="char:EOLhyphen"/>tainly their death is imminent, where there is ſuch eminent drowſineſſe. But our gracious fa<g ref="char:EOLhyphen"/>ther preuents this miſchiefe in his adopted ſons, by ſending a blu<g ref="char:EOLhyphen"/>ſtering tempeſt to awake the ſlee<g ref="char:EOLhyphen"/>ping
+<pb n="42" facs="tcp:869:24"/>
+               <hi>Ionah;</hi> which <hi>Dauid</hi> found by experience,
+<note place="margin">Pſ. 119.</note> for <hi>before hee was troubled he went wrong;</hi> but tribu<g ref="char:EOLhyphen"/>lation ſets him in the right way againe. So when proſperity hath locked vp the eare of the heart, then aduerſity is the beſt key to open it; for the <hi>ſchoole of tribulati<g ref="char:EOLhyphen"/>on is the ſchoole of illumination;</hi> ſo that as the <hi>Angell ſtruck</hi> Peter <hi>to rowſe him</hi> from the ſleepy feare of aduerſitie, ſo God ſtrikes vs by tribulation, to raiſe vs from the fearefull ſleepe of ſecuritie: Is this then the end of Gods corrections, to correct vs for ſo good an end? and ſhall not wee endure his cor<g ref="char:EOLhyphen"/>rection? Know we not what be<g ref="char:EOLhyphen"/>came of the ſecure rich-man? and ſhall wee ſtill loue ſecuritie? Nay rather let vs reioyce, when this <hi>Cock</hi> rayſeth vs with <hi>Peter,</hi> from the dreadfull ſleepe of ſecu<g ref="char:EOLhyphen"/>rity, that we may patiently watch for our hopes happy conſumma<g ref="char:EOLhyphen"/>tion, <hi>and let Patience haue her per<g ref="char:EOLhyphen"/>fect worke, &amp;c.</hi>
+            </p>
+            <pb n="43" facs="tcp:869:24"/>
+            <p>And laſtly, ſince wee <hi>fight the Lords battailes,</hi> wherein the further we proceed, wee proceed the fur<g ref="char:EOLhyphen"/>ther into danger, and imminent danger is wont to make euen Gods eminent ſouldiers ſomtimes prooue recreant: therefore the Lord tryes them ſometime by croſſes and troubles, to embolden them the better in his ſeruice thereafter:
+<note place="margin">1 Sam. 17.48.</note> when <hi>Dauid</hi> had en<g ref="char:EOLhyphen"/>countred with the <hi>Lion</hi> and the <hi>Beare,</hi> and returned <hi>
+                  <g ref="char:V">Ʋ</g>ictor,</hi> hee grew reſolute to cope with <hi>Goli<g ref="char:EOLhyphen"/>ah;</hi> ſo when wee haue ouercome, by Gods ouer-gracious aſſiſtance, ſome one or two troubles, wee ſhall grow couragious to cope with all: like a couragious Soul<g ref="char:EOLhyphen"/>dier who comming from the field, though wounded, doth yet from his wounds ſuck ſettled Reſoluti<g ref="char:EOLhyphen"/>on: ſo we though wounded by troubles, yet not vanquiſhed, gaine hence more courage, againſt the next aſſault, and like expert Mariners, ſayling in the tempe<g ref="char:EOLhyphen"/>ſtious
+<pb n="44" facs="tcp:869:25"/>Ocean of this world, learne from a guſt of calamity how to withſtand the greateſt tempeſt of Miſery; as excellently and moſt diuinely <hi>Virgil</hi> ſpeakes: <hi>Aeneas,</hi> the patterne of noble Cheiftaines:</p>
+            <p>
+               <q>
+                  <l>My deare companions, whoſe remembrance knowes</l>
+                  <l>Our hard eſcape from Sea, from want, from blowes</l>
+                  <l>Thoſe we eſcap'd, which moſt could vs offend;</l>
+                  <l>And ſhall not God to theſe too grant an end?</l>
+               </q>
+            </p>
+            <p>Nor diſagreeing alſo to this pur<g ref="char:EOLhyphen"/>poſe is the conſolatory counſell of <hi>Ovid</hi> to <hi>Livia:</hi>
+            </p>
+            <p>
+               <q>
+                  <l>Therefore the Thunder lightly did thee ſmite,</l>
+                  <l>To make thee valiant in a ſharper fight.</l>
+               </q>
+            </p>
+            <p>So doth Gods wrath-de<g ref="char:EOLhyphen"/>nouncing Thunder ſometimes lightly touch his Saints, not to harme them, but to arme them for a further triall: farre bee then ſo great a pollution from the ſeruant of Chriſt, that Patience prepared for infinite, ſhould be daſhed with finite troubles: Nay rather let
+<pb n="45" facs="tcp:869:25"/>each victory be the Baſis of a ſuc<g ref="char:EOLhyphen"/>ceeding conqueſt, and euery deli<g ref="char:EOLhyphen"/>uerance an entrance to a further triall;
+<note place="margin">Ier. 12.5.</note> for if wee be out-runne by footemen, how ſhall wee match horſes? <hi>Paul</hi> was a man <hi>ſubiect to the ſame infirmities</hi> we are, and yet he proffers a rare challenge, ha<g ref="char:EOLhyphen"/>uing once felt the ſupportation of Gods ſoule-ſauing grace,
+<note place="margin">Rom. 8.35.</note> 
+               <hi>Who ſhall ſeparate vs from the loue of Chriſt? ſhall tribulation, or diſtreſſe, or perſecution, or famine, or naked<g ref="char:EOLhyphen"/>neſſe, or perill, or ſword?</hi> as if theſe (or what elſe the Deuill or his in<g ref="char:EOLhyphen"/>ſtruments could raiſe vp againſt him) were of no force againſt the armour of proofe of his vndan<g ref="char:EOLhyphen"/>ted Reſolution. Danger could no more appall him, then a hammer the point of a Diamond. Let vs then imitate his ſuffering, and goe on from triall to triall, from dan<g ref="char:EOLhyphen"/>ger to danger, <hi>Till Patience haue her perfect worke, and then wee ſhall be perfect, &amp;c.</hi>
+            </p>
+            <p>The ſecond obiect of our
+<pb n="46" facs="tcp:869:26"/>knowledge (which being knowne muſt be a motiue to induce <hi>Pati<g ref="char:EOLhyphen"/>ence</hi> to ſuffer till <hi>Perfection</hi>) is not onely to know that troubles and Croſſes are <hi>Chriſts Legacy</hi> vnto vs by his laſt will bequeathed, but (which is more) are Gods high<g ref="char:EOLhyphen"/>way to eternall felicity,
+<note place="margin">Iob. 5.17.</note> 
+               <hi>Bleſſed</hi> (ſaith <hi>Eliphas to Iob</hi>) <hi>is the man, whom the Lord correcteth:</hi> correcti<g ref="char:EOLhyphen"/>on you ſee is ſo farre from a curſe that it is a meanes to obtaine a bleſſing; ſo alſo our bleſſed A<g ref="char:EOLhyphen"/>poſtle affirmeth,
+<note place="margin">Iam. 1.12.</note> 
+               <hi>Bleſſed is he that indureth temptation, for when hee is tried he ſhall receiue a crowne of life;</hi> on the contrary our Sauiour pro<g ref="char:EOLhyphen"/>nounceth a <hi>wee to them that laugh now,
+<note place="margin">Luk. 6.25.</note> for they ſhall mourne and weepe:</hi> thus one poore <hi>laughter</hi> is atten<g ref="char:EOLhyphen"/>ded with a double mourning. Shall we not then deſire (with our Sauiour) to be crowned with a <hi>crowne of thornes,</hi> that hereafter by our Sauiour wee may be crowned with a crowne of Starres?
+<note place="margin">Reu. 7.14.</note> 
+               <hi>Thoſe that come out of great tribulation
+<pb n="47" facs="tcp:869:26"/>haue white robes:</hi> to teach vs that purity follows troubles, &amp; reward afflictions; tribulation being that Heauen-bred herbe of the cele<g ref="char:EOLhyphen"/>ſtiall dyer, that dyes our ſoules in purity: for as we haue beene affli<g ref="char:EOLhyphen"/>cted ſo ſhall wee be comforted. According to which ſaith holy <hi>Auguſtine, As many perſecutions and tribulations as we here indure by pouerty, power and cruelty of our ene<g ref="char:EOLhyphen"/>mies, ſo many Rewards after our Re<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>urrection ſhall we receiue in the Re<g ref="char:EOLhyphen"/>tribution of the Saints.</hi> Let vs then deſire rather with <hi>Lazarus</hi> to liue in miſery, and dye with comfort, than with <hi>Dives</hi> and <hi>Polycrates,</hi> to liue in iollitie, and dye in miſerie: the one being that happily-pain<g ref="char:EOLhyphen"/>full way, which leadeth to end<g ref="char:EOLhyphen"/>leſſe happineſſe, the other that painfully-happileſſe rode, which leadeth to remedileſſe torment: reſembling herein the <hi>Violets of A<g ref="char:EOLhyphen"/>merica,</hi> which in Summer pleaſe with a ſenſe-delighting ſweetneſſe, but in Winter kill with a life-de<g ref="char:EOLhyphen"/>uouring
+<pb n="48" facs="tcp:869:27"/>poyſon. See the geeat worldlings, the darlings of for<g ref="char:EOLhyphen"/>tune with greedineſſe gape after her pleaſures in the Summer of their ſtrength, which ſpeedily prooues their poyſon in the win<g ref="char:EOLhyphen"/>ter of their age: but chriſtians muſt looke for winters continuall tempeſts here, that doe expect to obtaine a Summer of glory which neuer ſhall be ſubiect to alteration hereafter. For as the wood of the <hi>Aegyptian Firre-tree,</hi> throwne in<g ref="char:EOLhyphen"/>to the water, againſt the nature of wood, ſincketh to the bottome, where hauing for a ſpace beene deepely ſteeped, and as it were drunken with that liquid humor, doth immediately (beyond na<g ref="char:EOLhyphen"/>tures ordinary courſe) mount it ſelfe aloft vpon the euer-varying face of the water: ſo a chriſtian man hauing the floods of tribula<g ref="char:EOLhyphen"/>tion entring euen in vnto his ſoule may for a while ſeeme to be ſuppreſſed, (when indeed hee is but oppreſſed) with ſo great an
+<pb n="49" facs="tcp:869:27"/>inundation, but ſtraight the hope of a harbour mounts him aloft, and <hi>Patience</hi> eaſily wafts him to the Hauen of Felicity. Let vs then not be diſmaid when Tribulati<g ref="char:EOLhyphen"/>on, like a Tempeſt, heapeth bil<g ref="char:EOLhyphen"/>lowes of ſorrows vpon our backs, for a calme ſhall follow when Chriſt ſhall ſay, <hi>Be ſtill,</hi>
+               <note place="margin">Mark. 4.3<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </note> (but of this point we ſhall ſpeake more large<g ref="char:EOLhyphen"/>ly at the end.) Onely now, let the ſweetneſſe of Felicity giue a reliſh to the bitterneſſe of Miſe<g ref="char:EOLhyphen"/>ries, that it may make vs patient<g ref="char:EOLhyphen"/>ly endure what God louingly in<g ref="char:EOLhyphen"/>flicts, that <hi>Patience may haue her perfect worke, that wee may bee per<g ref="char:EOLhyphen"/>fect, &amp;c.</hi> And the rather, becauſe we reade in <hi>Ezechiel,</hi> that he ſaw a <hi>ſtrange beaſt with the face of a Man, a Lion, an Oxe, and an Ea<g ref="char:EOLhyphen"/>gle;</hi> and in the 10. Chapter hee ſayth he ſaw <hi>the ſame beaſt againe, but the face of an Oxe was now chan<g ref="char:EOLhyphen"/>ged into the face of a Cherube.</hi>
+               <note place="margin">Ezech. 10.14.</note> To teach vs, that labour, toyle, and affliction open vnto vs the Glory
+<pb n="50" facs="tcp:869:28"/>of Eternity, making vs of <hi>Labori<g ref="char:EOLhyphen"/>ous Oxen, Glorious Cherubins in Angelicall perfection.</hi> For it is not the Beautie of the <hi>Face of Man,</hi> The fierceneſſe of the <hi>Lyon,</hi> nor the quick ſight and Agilitie of the <hi>Eagle</hi> that helpe vs forward in the way to perfection; Only the <hi>Face of an Oxe,</hi> the Trouble, and Patience in that trouble, vnder the yoke is changed into the <hi>face of a Cherub,</hi> and this is not ano<g ref="char:EOLhyphen"/>ther, but the <hi>ſame Beaſt;</hi> for <hi>They were the ſame faces that he ſaw by the Riuer</hi> Chebah.
+<note place="margin">Ezech. 10.22.</note> If then thou deſireſt to be looſed from the yoke of Humane affliction, and be made partaker of Angelicall perfection, <hi>Then let patience</hi> &amp;c.</p>
+            <p>The ſecond maine Motiue vn<g ref="char:EOLhyphen"/>to this duty, to let Patience haue her perfect worke; that ſo we may be entire, is Imitation, and that of thoſe perfect patternes of Pati<g ref="char:EOLhyphen"/>ence, which haue beene before vs (for <hi>Examples</hi> vſually <hi>preuaile more them</hi> perſwaſiue <hi>arguments</hi>)
+<pb n="51" facs="tcp:869:28"/>and herein the moſt perfect Pat<g ref="char:EOLhyphen"/>terne muſt needs prooue the moſt forcible motiue, to induce vs to <hi>let Patience haue her perfect worke.</hi> For as <hi>Ariſtotle</hi> commanded that Children ſhould not looke vpon <hi>Pauſon's vnperfect figures,</hi> but vp<g ref="char:EOLhyphen"/>on the perfect figures of <hi>Poligno<g ref="char:EOLhyphen"/>tus,</hi> leaſt they indeauouring to at<g ref="char:EOLhyphen"/>taine perfection, might by vnper<g ref="char:EOLhyphen"/>fect patterns be inueloped in the Cimerian darke cloudes of Im<g ref="char:EOLhyphen"/>perfection; So I, being about to build this abſolute Aedifice, euen the perfect worke of <hi>Patience</hi> in your hearts, will not preſent vnto you an imperfect patterne of ſo needfull a vertue, but will intreate you to behold the Patterne which <hi>Chriſt Ieſus</hi> himſelfe hath left vnto you, he being the perfect Picture, as of all graces, ſo eſpecially of Patience, which bleſſed <hi>Ieſus,</hi> as in his diuine Nature he is the <hi>perfect Image of his fathers glory,</hi> So in his humane Nature he is the abſolute Image of <hi>perfect Patience;</hi> let vs
+<pb n="52" facs="tcp:869:29"/>therefore follow his ſtepps, as we are directed by the Spirit of God, who to this end vouchſafeth to giue vs this holy and heauenly exhortation;
+<note place="margin">Heb. 12.1.2.3.</note> 
+               <hi>Let vs runne with Pa<g ref="char:EOLhyphen"/>tience the Race that is ſet before vs, looking vnto Ieſus the Author and Finiſher of our Faith, who for the ioy which was ſet before him endured the Croſſe and deſpiſed the ſhame, and is ſet downe on the righ hand of God: For conſider him that indured ſuch contradiction of Sinners againſt him<g ref="char:EOLhyphen"/>ſelfe, leaſt you be wearyed and faint in your minds.</hi> See here the <hi>Synopſis of Chriſt his Patience</hi> together with with an exhortation to vs, to in<g ref="char:EOLhyphen"/>ſiſt in his ſtepps. When the <hi>pillar of the Cloud</hi> went forward, the <hi>Iſraelites</hi> followed it, and when this <hi>Pillar</hi> of Health goes before, ſhall we ſtand ſtill and not follow him? We deſire to be called Chri<g ref="char:EOLhyphen"/>ſtians, and yet haue not learned Chriſt, vaine is the name, if the nature be wanting. What ſhall we doe with the appearance, when
+<pb n="53" facs="tcp:869:29"/>we want the Eſſence? <hi>Ought not the maſters conuerſation be the diſ<g ref="char:EOLhyphen"/>ciples Inſtruction.</hi>
+            </p>
+            <p>How willingly doe we ſee the Subiects of Kings? imitate their Soueraignes example, &amp; ſhall not we imitate the King of Heauen? <hi>Bernard</hi> vpon theſe words,
+<note place="margin">Cant. 2.1.</note> 
+               <hi>I am the flower of the field,</hi> ſhewes that two things are therein ſignified; either the forme of our fighting, or the glorie of our Triumph; and adds, <hi>Lord thou art both the glaſſe for my Patience and a reward for mee Patient;</hi> if then I ſeeke for the re<g ref="char:EOLhyphen"/>ward, I muſt imitate the patterne, draw me therfore after thee (deare Ieſus) and grant me ſo to imitate thy patience vpon earth that thou mayſt crowne my patience with thee in heauen. To this agreeth that of S. <hi>Peter,
+<note place="margin">1. Pet. 2.2<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </note> Chriſt hath ſuffe<g ref="char:EOLhyphen"/>red for vs, leauing vs an example that wee ſhould follow his ſtepps.</hi> Wee are not then worthy of the <hi>Merit</hi> of his <hi>ſufferings,</hi> vnleſſe we deſire to imitate his bleſſed example, who
+<pb n="54" facs="tcp:869:30"/>from his <hi>Cratch at Bethlem</hi> to his <hi>Croſſe at Ieruſalem</hi> liuely decyphe<g ref="char:EOLhyphen"/>red the perfection of <hi>Patience.</hi> For here we may ſee the Sonne of God whoſe power is boundleſſe, as his Mercy is endleſſe, hungring &amp; thir<g ref="char:EOLhyphen"/>ſting, who feeds vs with Manna, &amp; <hi>giues</hi> vs <hi>pleaſure to drinke as out of a Riuer; wearied</hi> with want, who had no want of wearineſſe: dying for ſinners, that ſinners might not die: Bound with bonds, that frees vs from fetters; <hi>Accuſed,</hi> by whom we are excuſed, <hi>condemned</hi> by whom wee are abſolued; <hi>Crowned with Thornes,</hi> that adornes vs with <hi>Roſes; nayled to the Croſſe,</hi> who redeemed vs from the loſſe we felt by <hi>Adam; Counted with Theeues</hi> that doth match vs with Angels; all which Torturing torments &amp; torment<g ref="char:EOLhyphen"/>ing tortures patiently he indured, to teach vs <hi>Patience.</hi> Shall we not then follow his ſtepps? He was innocent, but we are nocent; he deſerued glory, by his Obedience, we ſhame by our Diſobedience; he
+<pb n="55" facs="tcp:869:30"/>merited life by his Death; wee Death by our wicked liues: Thus was he pure, but we impure, and yet all theſe things he indured for vs, and ſhall we indure nothing for him? Art thou perſecuted; ſo was he,
+<note place="margin">1. Sam. 26:20.</note> yea euen as a <hi>Partridge vp<g ref="char:EOLhyphen"/>on the Mountaines;</hi> Doeſt thou want? So did he, for <hi>Foxes haue holes, and Birds of the Ayre neſts,
+<note place="margin">Mat. 8.20.</note> But the Sonne of Man had not whereon to lay his head:</hi> Art thou hated? ſo was he, yea euen of thoſe for whoſe ſaluation he was Incarnate; Art thou falſly accuſed? ſo was he, though he were the truth it ſelfe: Art thou iniuſtly condemned? ſo was he; though he be the Iudge of the world: Art thou puniſhed with death? ſo was he, yea <hi>euen with the death of the Croſſe,</hi>
+               <note place="margin">Phil. 2.8.</note> what canſt thou indure, which he hath not indured? Temptations from Sa<g ref="char:EOLhyphen"/>tan, Tribulations from the world yet all this, which <hi>This All</hi> could inflict vpon him, he indured pa<g ref="char:EOLhyphen"/>tiently for thy ſake: <hi>
+                  <g ref="char:V">Ʋ</g>iolls of Gods
+<pb n="56" facs="tcp:869:31"/>wrath</hi> from Heauen, and of Mans enuie from Earth, the firſt in the <hi>Garden at Gethſemane,</hi> and the ſe<g ref="char:EOLhyphen"/>cond on the <hi>Croſſe</hi> at <hi>Mount Cal<g ref="char:EOLhyphen"/>uary.</hi> Oh bleſſed Ieſus! what an Agony did eſt thou endure in the <hi>Garden,</hi> when the burthen of our ſinnes made thee <hi>fall into a bloody ſweate,</hi>
+               <note place="margin">Luk. 22.44.</note> and that <hi>in great dropps trickling downe to the ground.</hi> The torments of the body are ſull of miſery but thoſe of the ſoule doe farre exceede theſe,
+<note place="margin">Por. 18.14.</note> for <hi>A woun<g ref="char:EOLhyphen"/>ded ſpirit who can beare?</hi> The <hi>paine</hi> of the <hi>body</hi> is but a <hi>body</hi> of <hi>paine,</hi> but the <hi>ſorrow</hi> of the <hi>Soule,</hi> is the very <hi>ſoule</hi> of <hi>ſorrow;</hi> yet this pain<g ref="char:EOLhyphen"/>full ſorrow, he was pleaſed to ſuf<g ref="char:EOLhyphen"/>fer for vs, to teach vs patiently to ſuffer all ſorrowfull paines for him. <hi>Let then Patience haue her per<g ref="char:EOLhyphen"/>fect worke, that we &amp;c.</hi>
+            </p>
+            <p>But let vs not ſtay here, but with weeping eyes looke to the bloody ſtepps he ſet, climbing to <hi>Mount Caluarey.</hi> Conſider how barba<g ref="char:EOLhyphen"/>rouſly he was apprehended, vn<g ref="char:EOLhyphen"/>ciuilly
+<pb n="57" facs="tcp:869:31"/>arraigned, vniuſtly con<g ref="char:EOLhyphen"/>demned, and moſt cruelly mur<g ref="char:EOLhyphen"/>thered. Stay, ſtay, you bloody mur<g ref="char:EOLhyphen"/>therers of the Son of God, who is that you go about to appreahend? is it not he that came to ſaue you? why then doe yee endeauour to deſtroy him? Why doe yee bind him in the bonds of ſinners, that came to looſe you from the bonds of ſinne? But ſo it muſt be, for ſo his owne good pleaſure hath de<g ref="char:EOLhyphen"/>creed that it ſhould be, bound then they bring him before the high Prieſts, where by iniurious ſcorne and ſcornefull iniurie, in<g ref="char:EOLhyphen"/>nocencie is arraigned, truth accu<g ref="char:EOLhyphen"/>ſed, and righteouſneſſe condem<g ref="char:EOLhyphen"/>ned: this could not chooſe but be the darkeſt night that euer was, wherein the <hi>light</hi> of the <hi>world</hi> euen the <hi>Sunne of Righteouſneſſe</hi> was ſo <hi>Eclipſed,</hi> Hence in the morning of that mourning day was he poſted to be preſented be<g ref="char:EOLhyphen"/>fore <hi>Pilate,</hi> whoſe ambitious ſelfe<g ref="char:EOLhyphen"/>loue made him, without further
+<pb n="58" facs="tcp:869:32"/>enquirie into his cauſe, to con<g ref="char:EOLhyphen"/>demne himſelfe firſt to the Poſt to be whipt, and then to the <hi>Croſſe</hi> to be crucified; Crucified and that amongſt <hi>Theeues,</hi> amongſt Theeues vpon <hi>Mount Caluarey</hi> before a ſtinking dunghill, but made glorious by his bleſſed death. And now marke here the admirable <hi>Patience</hi> of our dying <hi>Life,</hi> who in the mideſt of their deriſion, mixed with deſpite, doth neither raue nor rage, but makes that den of theeues a houſe of prayer for them, <hi>that</hi> before <hi>had made his houſe of prayer a den of theeues,</hi> with <hi>Pater ignoſce: Fa<g ref="char:EOLhyphen"/>ther forgiue them.</hi> Thus he dyed, <hi>Tanquam Ouis, And opened not his mouth.</hi> Let then this <hi>Lambe of God,</hi> teach the Lambes of Gods Church, humble <hi>Patience,</hi> and patiente <hi>Humility,</hi> ſhall our great Maſter reade vnto vs this lecture, and ſhall not we indeauour to take it out? Oh Beloued! Let vs looke to <hi>Ieſus</hi> and his bleſſed <hi>Pa<g ref="char:EOLhyphen"/>tience,</hi>
+               <pb n="59" facs="tcp:869:32"/>and it will teach vs patience for bleſſed <hi>Ieſus</hi> ſake: when the Captaine giues the Onſet, what Coward will ſtay behind? The <hi>Bees</hi> follow their King, and the <hi>Beaſts</hi> their <hi>leader,</hi> and ſhall we be more ſenſeleſſe then Beaſts, or more witleſſe then Bees? No let vs with vndaunted hearts follow the ſtepps of his patience, and though troubles ariſe neuer ſo faſt, yet to withſtand their vio<g ref="char:EOLhyphen"/>lence by the Bulwarke of Pati<g ref="char:EOLhyphen"/>ence, ſuffering her to haue her perfect work that we may be per<g ref="char:EOLhyphen"/>fect &amp;c. <label type="milestone">
+                  <seg type="milestoneunit">Object. </seg>
+               </label> I, but (may ſome ſay) <hi>Chriſt</hi> that was naturally the <hi>Sonne of Man,</hi> was alſo eternally <hi>The Sonne of God,</hi> both Natures being vnited by a diuine Combi<g ref="char:EOLhyphen"/>nation, in one Hypoſtaticall vni<g ref="char:EOLhyphen"/>on, by which he became <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>God-Man</hi> in one Perſon: by which Grace of <hi>
+                  <g ref="char:V">Ʋ</g>nion</hi> he was able to indure more in his humane Na<g ref="char:EOLhyphen"/>ture, then our Humane frailty can poſſibly indure. But alas I am a
+<pb n="60" facs="tcp:869:33"/>
+               <hi>Man,</hi> whoſe weakeneſſe maketh me the <hi>Example of Imbecillity,</hi> the <hi>ſpoyle of time, The play of fortune, The image of inconſtancy, The Ballance of Calamitie:</hi> and therefore it may be no marueile if the Croſſes of this life do ſometimes driue me to im<g ref="char:EOLhyphen"/>patience.</p>
+            <p>Well then if thy dull Eyes can<g ref="char:EOLhyphen"/>not Eagle-like behold the illuſtri<g ref="char:EOLhyphen"/>ous luſter of <hi>Chriſt's diuine Patience,</hi>
+               <label type="milestone">
+                  <seg type="milestoneunit">Ans. </seg>
+               </label> yet looke lower, and behold it in his Saints, <hi>Men ſubiect to the ſame weakeneſſe that we are,</hi> whoſe Na<g ref="char:EOLhyphen"/>ture was as ſubict to ſlide, nay to fall as ours is or can be. And ſince thy Bleare-eye dares not behold his ſunne-exceeding brightneſſe: yet view it guilding the Moun<g ref="char:EOLhyphen"/>taines, or at leaſt gliding vpon the waters: Marke the wonderfull effect of his exemplary patience in all his holy <hi>Saints</hi> and <hi>Martyrs,</hi> whoſe admirable Patience may ſerue as a Load-ſtone to thy iron-exceeding heart (in reſpect of Hardneſſe) to draw thee neer<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>r to
+<pb n="61" facs="tcp:869:33"/>thee practiſe of this Excellent ver<g ref="char:EOLhyphen"/>tue. What ſhould I ſpeake of <hi>Ioſeph?
+<note place="margin">Pſa. 105.18.</note> Whoſe Feete were hurt in the ſtocks, the Iron entred into his Soule</hi> what of <hi>Iob?</hi> whoſe ſorrow-conquering Patience, <hi>Gods</hi> holy ſpirit hath vouchſafed to Regiſter? what of <hi>Ieremie?</hi> What of all the Prophets?
+<note place="margin">Heb. 11.37</note> whereof <hi>ſome were ſtoned, ſome were ſawen aſunder, were ſlaine with the ſword, wandred about in ſheepe-skinns and Goates-skins, be<g ref="char:EOLhyphen"/>ing deſtitute afflicted and tormented of whom the world was not worthy,</hi> becauſe they were worthy of a better world. What ſhould I ſpeake of the <hi>Apoſtles</hi> of our Lord and Sauiour <hi>Ieſus Chriſt?</hi> How <hi>re<g ref="char:EOLhyphen"/>ioyced they when they were accounted worthy to be Scourged for his Name.</hi> This made S. <hi>Andrew</hi> go ſecure<g ref="char:EOLhyphen"/>ly to the <hi>Croſſe</hi> and account that pain a <hi>pleaſure</hi> for his Maſters ſake. How conſtantly did S. <hi>Bartholo<g ref="char:EOLhyphen"/>mew</hi> indure <hi>Excoriation,</hi> and S. <hi>Peter,</hi> and Saint <hi>Paul</hi> lay downe their liues? Nay tell me, which of
+<pb n="62" facs="tcp:869:34"/>all that holy fellowſhip did not in ſome meaſure taſt of the bitter Cup of Martyrdome? What ſhould I ſpeak of al the heauenly <hi>Army of Martyrs</hi> in the primitiue Church, whereof ſome (as <hi>Ignatius</hi>) be<g ref="char:EOLhyphen"/>ſought their friend, not to be their <hi>hinderance</hi> in that happy race: How did that holy Saint long to haue his <hi>body and bones ground with the teeth of Beaſts, that it might be made fine Manchet for his Maſters Table?</hi> Others conquered their Tormen<g ref="char:EOLhyphen"/>tors with <hi>Patience,</hi> and blunted their ſwords with ſuffering; and in the middſt of Tyranny were <hi>more then conquerours:</hi>
+               <note place="margin">Rom. 8.</note> For when <hi>Dacianus</hi> ſaw the admirable Pati<g ref="char:EOLhyphen"/>ence of <hi>Vincentius</hi> he cryed out, <hi>
+                  <g ref="char:V">Ʋ</g>icti ſumus;</hi> So happily did his vndaunted Patience conquer the Tyrants implacable malice. Did not S. <hi>Lawrence</hi> vpon the Gred<g ref="char:EOLhyphen"/>yron, by patient ſuffering, con<g ref="char:EOLhyphen"/>quer the malicious enuie of that raging Tyrant? Not to ſpeake more of the neuer too much to
+<pb n="63" facs="tcp:869:34"/>be commended patience of <hi>Roma<g ref="char:EOLhyphen"/>nus,</hi> which becauſe it is admirably layd downe by <hi>Prudentius,</hi> I doe therefore thither referre thee: In a word to conclude; without fur<g ref="char:EOLhyphen"/>ther ripping vp of that Tragicall ſtory of that ſacred Troope, who longing for the <hi>water of life,</hi> deſi<g ref="char:EOLhyphen"/>red to paſſe to it through the ſtraight gate of bitter death, who by their blood ſealed the pro<g ref="char:EOLhyphen"/>feſſion of <hi>Ieſus:</hi> Let one mans Teſtimonie ſpeake for the whole in generall, euen <hi>Tertullian</hi> in his <hi>Apologie,</hi> who thus diſcourſeth concerning the neuer-ſufficient<g ref="char:EOLhyphen"/>ly admired patience of the Chri<g ref="char:EOLhyphen"/>ſtians in his time. Euery Malefactor (ſaith he) <hi>is ſubiect either to ſhame or ſorrow, Murmuring at thoſe tor<g ref="char:EOLhyphen"/>ments which they iuſtly haue deſer<g ref="char:EOLhyphen"/>ned. Chriſtianis vero quid ſimile? &amp;c. What is there in Chriſtians like to theſe Malefactours? They are not aſhamed, nor euer doe repent them of their profeſſion; If a Chriſtian his name be taken, he boaſteth, if accuſed
+<pb n="64" facs="tcp:869:35"/>he defends not himſelfe; if demanded vpon Interrogatories of his owne ac<g ref="char:EOLhyphen"/>cord, he confeſſeth; if condemned hee giueth thankes.</hi> Thus their accuſati<g ref="char:EOLhyphen"/>on is the ground of their ioy, and their puniſhment the foundation of their eternall Felicity. Thus patiently did thoſe Martyrs de<g ref="char:EOLhyphen"/>meane themſelues, with <hi>Cygneane ſongs</hi> (like <hi>Cyprian</hi>) ſinging the Dirge to their owne Deaths, ma<g ref="char:EOLhyphen"/>king <hi>Diem fatalem diem natalem,</hi> their <hi>Death's day</hi> more ioyous then their <hi>Birth<g ref="char:punc">▪</g> day;</hi> for they knew that <hi>vltima dies,</hi> is <hi>prima quies,</hi> their laſt day is theri beſt-day; yea their bleſt day, which prefixeth a Period to Miſerie, and ſets open the gate to Immortalitie.</p>
+            <p>I but (you will ſay) they ſuffe<g ref="char:EOLhyphen"/>red for Chriſt, ſo do not we: I but (ſay I) they ſuffered in Chriſt, and ſo doe we; Our reward ſhall be no leſſe then theirs, if our Pa<g ref="char:EOLhyphen"/>tience be as much as theirs, Let then our <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> be our <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, Our ſufferings, our inſtructions
+<pb n="65" facs="tcp:869:35"/>let our <hi>Nocumenta</hi> be our <hi>Docu<g ref="char:EOLhyphen"/>menta,</hi> let our <hi>Harmes,</hi> be our <hi>Armes,</hi> to make vs ready euen <hi>to dye</hi> (with <hi>Paul</hi>) <hi>for Ieſus Chriſt his ſake;</hi>
+               <note place="margin">Heb. 10.36.</note> And <hi>let Patience haue her per<g ref="char:EOLhyphen"/>fect worke,</hi> knowing that we haue neede of <hi>Patience.</hi>
+               <note place="margin">Luk. 18.15</note> For as by war<g ref="char:EOLhyphen"/>meth of Cloathes, our Bodies, ſo by patience our Soules are preſer<g ref="char:EOLhyphen"/>ued from the froſtes of afflicti<g ref="char:EOLhyphen"/>ons <hi>Through patience wee bring forth frutie,</hi>
+               <note place="margin">Luk. 21.28.</note> the want wherof makes vs like the <hi>fruitleſſe Figtree,</hi> liable to the <hi>curſe of Chriſt:</hi> yea <hi>In pati<g ref="char:EOLhyphen"/>ence, we poſſeſſe our ſoules,</hi> as if wee were not proper owners of our Soules, vnleſſe <hi>Seaſon and Poſſeſſion</hi> thereof be deliuered vnto vs by <hi>Patience.</hi> Thus <hi>with Patience through Patience,</hi> and <hi>in Patience,</hi> we attaine vnto <hi>Perfection</hi> and <hi>In<g ref="char:EOLhyphen"/>syreneſſe;</hi> For <hi>all vertues though of neuer ſo great luſtre in themſelues are but barren widdowes, if not married vnto Patience.</hi> Let vs then ſtriue to imitate the happy Example of our bleſſed Sauiour; or if wee
+<pb n="66" facs="tcp:869:36"/>thinke that too difficult, for our weake power (which is but a powerleſſe weakeneſſe) yet let vs follow the ſtepps of his <hi>Saints;</hi> it may be we haue deſerued more then they, yet haue not indured halfe ſo much as they; <hi>Perſeuere</hi> then to indure whatſoeuer it ſhal pleaſe the Lord to inflict, that by patience you may obtaine the <hi>Laurell of Immortality</hi> which <hi>Vin<g ref="char:EOLhyphen"/>centi dabitur,</hi> ſhall be giuen onely vnto thoſe <hi>of S. Vincents order,</hi> namely to thoſe that continew to the end; and let theſe Motiues be digeſted in thee by meditation <hi>That Patience may haue her per<g ref="char:EOLhyphen"/>fect worke &amp;c.</hi>
+            </p>
+            <p>I come now, vnto the third &amp; laſt (but not the leaſt) Reaſon vſed by the Apoſtle, to inforce vs to <hi>let Patience haue her perfect worke,</hi> which in induced from the want of <hi>Want; Wee ſhall want no<g ref="char:EOLhyphen"/>thing,</hi> nothing here, nothing here<g ref="char:EOLhyphen"/>after, nothing in this life, nothing in the life to come: and this is the
+<pb n="67" facs="tcp:869:36"/>Argument of Arguments, for who will not be content to go to <hi>Heauen</hi> euen by the <hi>Gates of Hell?</hi> and thus by (Gods gracious aſſi<g ref="char:EOLhyphen"/>ſtance) we perceiue how man paſſeth through the floods of af<g ref="char:EOLhyphen"/>fliction (as <hi>Iſrael through Iordaine</hi>) and happily at laſt ariueth in <hi>Ca<g ref="char:EOLhyphen"/>naan the Land of promiſe,</hi> I meane at <hi>perfection, intirenes,</hi> and the <hi>want of Want</hi> here promiſed, as the Guerdon of <hi>perfect patience.</hi> And now wee ſee, that though Miſery goes before, yet mercy fol<g ref="char:EOLhyphen"/>lowes, for no ſooner hath the bitter Tempeſt of Calamitie ſpent her vtmoſt breath, but immediat<g ref="char:EOLhyphen"/>lie all is quiet, and we ſayle in the harbour of Perfection. Thus as <hi>Salomon hewed his ſtones in the Rocke,</hi>
+               <note place="margin">2. King. 6.7</note> that there might bee <hi>no noyſe in the Temple:</hi> Euen ſo our <hi>prince of Salem, Chriſt Ieſus,</hi> poli<g ref="char:EOLhyphen"/>ſheth his liuely ſtones here, that they may grow (without the noyſe of weeping) into a Hea<g ref="char:EOLhyphen"/>uenly Temple hereafter; Thus
+<pb n="68" facs="tcp:869:37"/>bleſſedly after the <hi>clamorous Noyſe of Thunder,</hi>
+               <note place="margin">Rev. 14.2.</note> is heard the <hi>Harmoni<g ref="char:EOLhyphen"/>ous voyce of Harpinge.</hi> For when troubles ceaſe, ioy begins, accor<g ref="char:EOLhyphen"/>ding to that of the <hi>Pſalmiſt; Sorrow may indure for a night but ioy cometh in the Morninge.</hi>
+               <note place="margin">Pſa. 30.5.</note>
+            </p>
+            <p>Great were the troubles which S. <hi>Paul</hi> indured, but his <hi>Crowne of Righteouſneſſe</hi> made amends for all; No better meanes to make vs patiently to drinke the <hi>bitter wa<g ref="char:EOLhyphen"/>ters of Marah,</hi> and thinke them ſweete, then by meditation to re<g ref="char:EOLhyphen"/>member and by remembrance to meditate on the <hi>Milke and honey that flow in the Land of Canaan</hi> When <hi>Iob</hi> was in the middeſt of his miſerie, what made him pa<g ref="char:EOLhyphen"/>tient, but his beleefe that his <hi>Re<g ref="char:EOLhyphen"/>deemer liued and that he ſhould riſe againe &amp;c.</hi>
+               <note place="margin">Iob. 19.25.26.</note> For when the eye of the Soule apprehends the Crowne of glory, it makes the tongue con<g ref="char:EOLhyphen"/>feſſe with S. <hi>Paul That the tribula<g ref="char:EOLhyphen"/>tions of this world are not worthy of the glory that ſhall be reuealed.</hi>
+               <note place="margin">Rom. 8.18.</note> The
+<pb n="69" facs="tcp:869:37"/>leaſt drop of that <hi>Water of life</hi> ſweetens the greateſt draught of miſerie that is here propoſed vnto vs in this life. For Gods Saints know that here they may laſte Miſerie, but there they ſhall not, for the <hi>Momentary lightneſſe of Tribulation procures an Eternall waight of Glory for vs;</hi> Thus for lightnes are we rewarded with waight, and for troubles momen<g ref="char:EOLhyphen"/>tarie haue Ioyes of eternitie; for whileſt our <hi>Earthly Tabernacle is in diſſoluing,</hi> the <hi>heauenly Ieruſalem is in Building: Which is not the ſpoile of the warriour, but the inheritance of thoſe that ſuffer patience to haue her perfect works &amp;c.</hi> How happy then are thoſe Soules that pati<g ref="char:EOLhyphen"/>ently indure the Rod, that bleſſed<g ref="char:EOLhyphen"/>ly they may receiue the Crowne? Oh my Soule! how happy ſhalt thou be, when after the finiſhing of the troubles of this life thou with <hi>Noah's Arke</hi> ſhalt happily reſt vpon <hi>Mount Ararat,</hi>
+               <note place="margin">Gen. 8.4. Pſa. 15.1.</note> vpon the <hi>Mountaine of Holineſſe?</hi> When
+<pb n="70" facs="tcp:869:38"/>hauing finiſhed thy miſerable Pil<g ref="char:EOLhyphen"/>grimage thorow the <hi>Wilderneſſe of Sin,</hi> thou ſhalt happily arriue at <hi>Zion,</hi> at the <hi>land of promiſe,</hi> which is not poſſeſſed by the ſword, nor attained by the power of the Arme but is purchaſed by <hi>Patience,</hi> and poſſeſſed by <hi>Perſeuerance.</hi> Rouze vp thy ſelfe then (Oh my ſoule!) and be not diſquieted at the ſight of <hi>Affliction.</hi> It is true, Affliction is a harſh Summoner, yet he ſum<g ref="char:EOLhyphen"/>mons thee to Glory; Runne on my Soule, Runne on, to obtaine the propoſed prize; Knoweſt thou not yet, that <hi>Iſaac</hi> which is laugh<g ref="char:EOLhyphen"/>ter, is the ſonne of <hi>Sarah,</hi> which is <hi>patience?</hi> Troubles may goe be<g ref="char:EOLhyphen"/>fore, Comforts ſhall follow after: now thou maiſt be puniſhed, but hereafter thou ſhalt be glorified: <hi>Glorified?</hi>
+               <note place="margin">Luk. 12.34 2 Tim. 4.18. 2 Pet. 1.11 Luk. 14.16.</note> yea glorified in a <hi>King<g ref="char:EOLhyphen"/>dome, a King dome not terreſtriall,</hi> but <hi>Coeleſtiall;</hi> a <hi>celeſtiall Kingdome</hi> not enduring for a day; but for euer; A celeſtiall eternall Kingdome, <hi>not of men, but of God,</hi> here is our
+<pb n="71" facs="tcp:869:38"/>Reward which is farre more plen<g ref="char:EOLhyphen"/>tifull then our paines; For all the miſeries of this life are but paines, not torments; paines on earth not in Hell; paine on earth induring for a while, not for euer; darkning or ecclipſing the Sunne of Com<g ref="char:EOLhyphen"/>fort for a minute or moment, but immediatly vaniſhing. Nay fur<g ref="char:EOLhyphen"/>ther, all that can light vpon vs, is but inflicted by the Arme of fleſh, they are but men that trouble vs, whoſe power is finite, and their dayes determined, but our Re<g ref="char:EOLhyphen"/>ward is glorious and farre tranſ<g ref="char:EOLhyphen"/>cendeth our ſufferings: for our Sufferings are on earth, our glory in Heauen; our ſufferings <hi>diurnall</hi> our glory <hi>diururnall;</hi> our ſufferings from men, our glory from God. Looke how farre then God pre<g ref="char:EOLhyphen"/>cedeth man, Heauen, Earth, Eter<g ref="char:EOLhyphen"/>nity, time, ſo farre tranſcendeth that glory theſe ſuffering; Now we ſigth, then we ſhall ſing; now we weepe, then we ſhall reioyce; now men laugh at vs, but then we ſhall
+<pb n="72" facs="tcp:869:39"/>laugh at them, <hi>When the vngodly ſhall periſh, Thou ſhalt ſee it.</hi> What griefe then can the incourſe of theſe troubles being vs, when we haue recourſe to the hope of hap<g ref="char:EOLhyphen"/>pineſſe? For take away our <hi>Croſſes</hi> &amp; you bereaue vs of our <hi>Crownes;</hi> Take away our vexations here, and you bereaue vs of glorificati<g ref="char:EOLhyphen"/>on hereafter. Happy yea thriſe happy are thoſe Soules, who can ſuffer for God, to be rewarded by God, that being ranſomed from the miſerable faſt of this life, they may be thought worthy to ſit downe to feaſt with <hi>Abraham, Iſaac, and Iacob,</hi> and all <hi>Gods Saints</hi> at the <hi>banquet of the Lambe.</hi> O Bleſſed Supper,
+<note place="margin">Luk. 12.37. Heb. 1.</note> or Celeſtiall ban<g ref="char:EOLhyphen"/>quet, where <hi>Angels</hi> ſhall attend vs, and <hi>Chriſt</hi> himſelfe ſhall Miniſter vnto vs. We reade that King <hi>Ahaſueroſh</hi> made a ſtately ban<g ref="char:EOLhyphen"/>quet, to his Princes, but this farre ſurpaſſeth his; He was a mightie King, but this to which we are in<g ref="char:EOLhyphen"/>uited is perpared by Almightie
+<pb n="73" facs="tcp:869:39"/>God; He fed his Princes with de<g ref="char:EOLhyphen"/>litious dainties, but they were but fruits of the earth; Chriſt ſhall feed vs with Dainties, but they ſhall be the fruits of heauen; his Banquet laſted 180. daies, but this ſhall in<g ref="char:EOLhyphen"/>dure Millions of Ages, euen <hi>for euer;</hi> He made his in the <hi>Palace of Shuſhan,</hi> but this ſhall be in the middeſt of <hi>Ieruſalem,</hi> of which wee may ſing with the <hi>Pſalmiſt. Very excellent thinges are ſpoken of thee thou Cittie of God.</hi> Yea <hi>things ſo excellent,</hi> ſo glorious, as <hi>mans eye hath not ſeene, Mans care hath not heard, yea his heart was neuer able to conceiue the</hi> excellencie of that glory, ſeeing that it flouri<g ref="char:EOLhyphen"/>ſheth with that <hi>Peace which paſſeth all vnderſtanding.</hi> Shall I not then eate ſower hearbs here in Egypt, that I may be feaſted at this ban<g ref="char:EOLhyphen"/>quet in <hi>Canaan?</hi> Oh my Soule! wert thou once eſteemed worthy to taſt a drop of that celeſtiall drinke, then ſhouldeſt thou be ſaitsfied; fly then my happy
+<pb n="74" facs="tcp:869:40"/>thoughts, fly vpon the winges of Contemplation vnto the Palace of your God, ſee what Roomes, what Prouiſion, what Glory is prouided for you, and let not the baſe trouble of this life hinder you in your happy flight, But <hi>accompt all things as dunge in reſpect of Chriſt,</hi> that forſaking all things for him, in him you may poſſeſſe all things. Cheere vp your hearts then yee <hi>Souldiers of Chriſts Campe,</hi> looke to the wreath of victory which attends you in the Hea<g ref="char:EOLhyphen"/>uens, and ſee what you gaine by the loſſe of all earthly things: for theſe are but vanitie, here we ſee nothing but miſerie, there no<g ref="char:EOLhyphen"/>thing but glory; who would not then deſire to be deliuered from the <hi>burthen of the fleſh</hi> to enioy that liberty to be releaſed from the pri<g ref="char:EOLhyphen"/>ſon of this life, and to be admitted to the Quire of Angels? Surely if we had taſted but a bit of the fruit of <hi>Paradiſe,</hi> we ſhould eaſily deſpiſe the <hi>Fleſh-pots of Egypt,</hi> or what o<g ref="char:EOLhyphen"/>ther
+<pb n="75" facs="tcp:869:40"/>ſublunarie delight this world can afford vs. For when wee ar<g ref="char:EOLhyphen"/>riue at thoſe celeſtiall Manſions, when once we enter within that gate of glory, then ſhall our eyes ſee God, and this ſight ſhall make vs bleſſed; Nay more, then ſhall we know God, our vnderſtanding ſhall conceiue him as he is, yea then our Hearts &amp; affections ſhall totally addict themſelues to his Diuineſt loue; yea our tongues then truly ſhall performe the end of their Creation, for they ſhall praiſe him for euer; being then placed in this Bower of bliſſe, our eyes ſhall ſee him, our vnderſtan<g ref="char:EOLhyphen"/>dings know him, our hearts ſhall loue him, and our Tongues ſhall praiſe him. Our eyes ſeeing him ſhall mooue our vnderſtanding to know him, our vnderſtandings knowing him, ſhall inrich our hearts to loue him, our hearts lo<g ref="char:EOLhyphen"/>uing him ſhall cauſe our tongues to praiſe him. Our eyes ſhall ſee him perpetually, our vnderſtan<g ref="char:EOLhyphen"/>dings
+<pb n="76" facs="tcp:869:41"/>ſhall know him perfectly, our hearts loue him intirely, and our tongues praiſe him eternally; Becauſe we ſhall euer ſee him, therefore we ſhall perfectly know him, becauſe we ſhall perfectly know him, therefore we ſhall in<g ref="char:EOLhyphen"/>tirely loue him, becauſe we ſhall intirely loue him, therefore wee ſhall eternally praiſe him; The ſight of our eyes ſhall giue light to our vnderſtanding, our vnder<g ref="char:EOLhyphen"/>ſtandings inlightened ſhall in<g ref="char:EOLhyphen"/>flame our hearts, our hearts in<g ref="char:EOLhyphen"/>flamed ſhall informe our tongues to praiſe that God whom we ſee, and know to be ſo admirable; Praiſe him then we ſhall becauſe we loue him, loue him wee ſhall becauſe we know him, know him we ſhall, becauſe we ſee him; Thus ſhall we ſee him that we may know him, know him, that wee may loue him, loue him that we may praiſe him; happy eyes that ſo ſhall ſee him; happy vnder<g ref="char:EOLhyphen"/>ſtandings that ſo ſhall know him,
+<pb n="77" facs="tcp:869:41"/>happy hearts, that ſo ſhall loue him, and happy tongues that ſo ſhall praiſe him, and happy, nay bleſſed ſhall we be when our eyes, Soules, Hearts, and Tongues ſhall ſo know, loue and praiſe him for euer. Here is the Reward of Af<g ref="char:EOLhyphen"/>fliction, and the end of trouble, <hi>Behould ioy in the end without End,</hi> Reward exceeding mans deſire or hope of reward. Shall we not then follow the Apoſtles admoni<g ref="char:EOLhyphen"/>tion, to be pertakers of this Crowne, euen to <hi>Let patience haue her perfect worke that you may bee perfect and intire wanting nothing?</hi>
+            </p>
+            <p>The <hi>Father of Patience</hi> and the <hi>God of Perfection,</hi> who worketh all things in time and meaſure, grant vs <hi>Patience</hi> from aboue that loo<g ref="char:EOLhyphen"/>king to the <hi>end of the Race</hi> and the <hi>Crowne</hi> at the end we may <hi>Let Patience haue her perfect worke, that we may be perfect, and intire wan<g ref="char:EOLhyphen"/>ting nothing.</hi> So be it for thy mer<g ref="char:EOLhyphen"/>cies ſake; and that it may be ſo, Thou which art <hi>Amen,</hi> ſay <hi>Amen</hi>
+               <pb n="78" facs="tcp:869:42"/>to our prayers. So wee that are thy people and the ſheepe of thy paſture ſhall giue thee thankes for euer, yea, wee ſhall Laud and Magnifie thy name from generation to generation; we thy poore ſeruants here on earth ſhall aſcribe thoſe prayers and praiſes which thy Saints and Angels dayly and duly aſcribe vnto thee in heauen, euen all ho<g ref="char:EOLhyphen"/>nour, glory, praiſe, power, domi<g ref="char:EOLhyphen"/>nion and thankeſgiuing, be aſcri<g ref="char:EOLhyphen"/>bed vnto thee O Father, Sonne, and Holy Ghoſt, three perſons but one euerliuing, euerlouing, euerlaſting, and onely wiſe God, of vs, of Angells, and of all men from this time forth for euermore <hi>Amen.</hi>
+            </p>
+            <trailer>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="printer_to_the_reader">
+            <pb facs="tcp:869:42"/>
+            <head>The Printer to the Reader.</head>
+            <p>
+               <seg rend="decorInit">G</seg>Entle Reader, in re<g ref="char:EOLhyphen"/>gard of the Au<g ref="char:EOLhyphen"/>thors abſence, and the multiplicitie of Authorities by him cited; and the ſmalneſſe of the Volume not affording conuenient place in the margent, I haue preſumed to put them heere in the end of the Booke by themſelues, refer<g ref="char:EOLhyphen"/>ring thee to the Page and Line, as followeth.</p>
+            <pb facs="tcp:869:43"/>
+            <p>
+               <hi>PAge 1. line vlt.</hi> Bella gentium legimus ſuperaſſe quamplurimos, quos tamen legimus pugnas Carnis non viciſſe, &amp; audiuimus eos dediſſe delitijs pectora, qui dorſa hoſtibus non dedere, Petr. Rauuen. Ser. <hi>4.</hi>
+            </p>
+            <p>
+               <hi>Pag. 2. line 22.</hi> Magnum regit imperium quiſibi dominatur. Sen.</p>
+            <p>
+               <hi>Pag. 3. line 9.</hi> Sicut laurus ful<g ref="char:EOLhyphen"/>mine non percutitur, plin. lib. <hi>2.</hi> c. 55. Ita firma virtus calamitate non E<g ref="char:EOLhyphen"/>uertitur; eſt enim conſtans virtus pul<g ref="char:EOLhyphen"/>chra laurus ſemper virens, Nullo igne Nubibus erumpente, nullo impetu tor<g ref="char:EOLhyphen"/>mentorum exuſta aut labeſacta. Stell. in Enarr. in Lu. c. <hi>21.</hi>
+            </p>
+            <p>
+               <hi>Pag. 6. line 16.</hi> Si ſapientia &amp;c. Plat.</p>
+            <p>
+               <hi>Ibid line 25.</hi> Oculi ſunt in amore duces. Propert.</p>
+            <p>
+               <hi>Pag. 8. line 2.</hi> Patientia eſt Re<g ref="char:EOLhyphen"/>ligioſi viri laborum &amp; dolorum omni<g ref="char:EOLhyphen"/>um, futurarum Rerum ſpe, mercedis aternae &amp; amore dei grata tolerantia,
+<pb facs="tcp:869:43"/>Aug. &amp; in Flor. Bar. in tit. Pat.</p>
+            <p>
+               <hi>Ibid. lin. 7.</hi> Patientia eſt aliena mala aequanimiter perpeti &amp; contra illum qui mala irrogat nullo dolore moueri. Greg ſuper Euang. Hom. 35.</p>
+            <p>
+               <hi>Ibid. line 11.</hi> Patientia eſt virtus quâ quis pro pietate &amp; pro Deo quic<g ref="char:EOLhyphen"/>quia accidit aduerſifert conſtanti ani<g ref="char:EOLhyphen"/>mo, nec frangitur, Feuardent in Ep. Iac. Cap. <hi>1.</hi>
+            </p>
+            <p>
+               <hi>Ibid. line 25.</hi> Inſtitut. l. 3. c. 7.</p>
+            <p>
+               <hi>Pag. 9. line. 24.</hi> Triſtitia veſtra vertetur in gaudium, hoc eſt, Aqua veſtra vertetur in vinum. Ber. S. de V. Apoſt: Non eſt Regnum Dei eſus &amp; potus &amp;c.</p>
+            <p>
+               <hi>Pag. 10. line 14.</hi> Vultus illi tran<g ref="char:EOLhyphen"/>quillus &amp; placidus Frons pura, nu<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>a Maeroris aut irae rugoſitate con<g ref="char:EOLhyphen"/>tracta, Remiſſa aequè in Laet<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>m ſuper cilia. Oculis humilitate non infaelicitate dejectis, <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s taciturnitatis honore ſig<g ref="char:EOLhyphen"/>natum, Color qualis ſecuris &amp; in<g ref="char:EOLhyphen"/>noxijs, Motus frequens Capitis in Diabolum &amp; minnax riſus Caeterum Amictus circum pectorà candidus &amp; Corpore impreſſus, vt qui nec in<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>la<gap reason="illegible" resp="#UOM" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>
+               <pb facs="tcp:869:44"/>nec inquietatur. Sedet in Throno ſpiri<g ref="char:EOLhyphen"/>tus mitiſſimi, nam vbi Deusibi Alumna eius Patientia. Tert lib. de Pat. in fine.</p>
+            <p>
+               <hi>Pag. 11. line 14.</hi> Ecce modeſta graui ſtabat Patientia vultu, Per me<g ref="char:EOLhyphen"/>dias immota Acies, varioſ<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> tumultus, Vulnera<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> &amp; Rigidis vitalia peruia pilis, ſpectabat defixa oculos &amp; lenta manebat, Prudent in pſychom.</p>
+            <p>
+               <hi>Pag. 12. line 15.</hi>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: Auream quiſquis mediocritatem diligit. Horat. lib. <hi>2.</hi> od. <hi>10.</hi>
+            </p>
+            <p>
+               <hi>Pag. 14. line 4.</hi> Tert. De pat. Cy<g ref="char:EOLhyphen"/>prianus inſtar fontis puriſſimi dulcis incedit et placidus. Hie. ep. ad Paul. Lor. in Eccleſ. uide etsam Feuard. in c. 1 ep. Iac. vti ex Cipr. 26. Pati<g ref="char:EOLhyphen"/>entiae effectus enumerat.</p>
+            <p>
+               <hi>Pag. 15. line. 2.</hi> Neſcio quid ma<g ref="char:EOLhyphen"/>gis in Laude tua dicam &amp;c. Hug. de laud. Char.</p>
+            <p>
+               <hi>Ibid. line 8.</hi>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>id eſt,</hi> duret
+<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, ſicut dicitur, Mat. <hi>10.22.</hi>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, Piſc in ſchol. in loc. Tunc erit perfectum opus patientiae ſi in fi<g ref="char:EOLhyphen"/>nem
+<pb facs="tcp:869:44"/>perſeueraurit. Hier. in c. <hi>2.</hi> ep. Ad. Rom.</p>
+            <p>
+               <hi>Ibid. line 23.</hi> Lauda Nauigantis faelicitatem ſed cum venerit ad por<g ref="char:EOLhyphen"/>tum, Ber<g ref="char:punc">▪</g> de paſſi. Domini c. <hi>14.</hi>
+            </p>
+            <p>
+               <hi>Pag. 16. line 9.</hi> Stell. in Luc.</p>
+            <p>
+               <hi>Ibid. line 21.</hi> Exitus acta pro<g ref="char:EOLhyphen"/>bat Ouid. in Ep. <g ref="char:V">Ʋ</g>irtus boni operti, perſeuerantia eſt. Aug Med. c. <hi>36.</hi>
+            </p>
+            <p>
+               <hi>Pag. 17. line 7.</hi> Vtin Terra aurum, in nuce nucleus, in hirſutis Caſtanea operculis ſita: diuinus ſenſus altius eſt perſ<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rutandus. Hier. in Eccleſ. c. <hi>12.</hi>
+            </p>
+            <p>
+               <hi>Ibid. line 10.</hi> Per Moſen Cauda Beſtiae in Altari offerre precipitur, vt viz Omne bonu<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> quod incipimus eti<g ref="char:EOLhyphen"/>am perſeuerante fine compleamus. Greg. Mor. lib. <hi>2.</hi> Cap. <hi>4.</hi>
+            </p>
+            <p>
+               <hi>Ibid. line 23.</hi> Perſeuerantia viris meretur gloriam, virtuti Coronam. Abſ<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> perſeuerantia nec qui pugnat victoriam, nec palmam Victor conſequi<g ref="char:EOLhyphen"/>tur, Nutrix eſt ad meritum, Media<g ref="char:EOLhyphen"/>trix ad praemium, ſoror Patientiae Conſtantiae filia, Amica pacis; Ami<g ref="char:EOLhyphen"/>citiarus Nodum, Vnanimitatis vin<g ref="char:EOLhyphen"/>culum, Sanctitatis propugnaculum
+<pb facs="tcp:869:45"/>Saul non perſeuerans in humilitate &amp; regnum amiſit &amp; vitam, Si Cautela Samſonis, Salomonis denotie perſeue<g ref="char:EOLhyphen"/>rantia<g ref="char:cmbAbbrStroke">̄</g> retinuiſſet, nec h<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>c ſapi<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ntia pri<g ref="char:EOLhyphen"/>uaretur, necille viribus. Ber Ep. <hi>129.</hi>
+            </p>
+            <p>
+               <hi>Pag. 29. line 4.</hi> Finis nonpugna Coronat. Ber. de paſſ. Domini c. <hi>14.</hi>
+            </p>
+            <p>
+               <hi>Ibid. line 10.</hi> Impiger extremos Currit Mercator ad Indos. Hor.</p>
+            <p>
+               <hi>Pag. 20. line 24</hi> Quid hoc ad Chriſtianos, quos paradiſus invitat Ciper. cont. Demetr. <hi>1.</hi>
+            </p>
+            <p>
+               <hi>Pag. 22. line 7.</hi> Secundum quan<g ref="char:EOLhyphen"/>dam inter homines couerſationem lau<g ref="char:EOLhyphen"/>dabilem, &amp; probalibem, quam nullus hominum p<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſſit juſtè in quaerelam ve<g ref="char:EOLhyphen"/>care, lib. <hi>1.</hi> c. <hi>48.</hi> cont. Pelag. &amp; Celeſt.</p>
+            <p>
+               <hi>Ibid. line 16.</hi> Multiſunt Perfecti in hoc mundo, qui ſi perfectionem ve<g ref="char:EOLhyphen"/>ram reſpicias perfecti eſſe non poſ<g ref="char:EOLhyphen"/>ſunt. Amb. in Eſay vt Citatur ab Aug. Loc. citat.</p>
+            <p>
+               <hi>Ibid. line 26.</hi> 
+               <g ref="char:V">Ʋ</g>num ſcio me ni<g ref="char:EOLhyphen"/>hil ſcire. Socr.</p>
+            <p>
+               <hi>Pag. 23. line 5.</hi> Virtus, quae nu<gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap> eſt in homine juſto, hactenus nominatur perfecta: vt ad Ejus perfectionem
+<pb facs="tcp:869:45"/>pertineat etiam ipſius imperfectionis &amp; in veritate agnitio, &amp; in humili<g ref="char:EOLhyphen"/>tate confeſſio. Aug. ad Bon. lib. <hi>3.</hi> c. <hi>7.</hi>
+            </p>
+            <p>
+               <hi>Ibid line 14.</hi> Haec eſt hominis vera ſapientia, Imperfectum eſſe ſe noſce, At<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> (ut ita loquar) cunctorum in hac <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ne viuentium, imperfecta perfectio eſt Hier. cont. Pelag. lib. <hi>1.</hi>
+            </p>
+            <p>
+               <hi>Ibid. line 26.</hi> Nigraper <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nhaerens <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Be<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>. in loc.</p>
+            <p>
+               <hi>Pag. 24. line 4.</hi> Multum in hac vita pro<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap>it, qui quam loagè ſit a per<g ref="char:EOLhyphen"/>fectione juſtuiae proficiendo cognouit. lib. deſp, &amp;c. <hi>35.2.</hi>
+            </p>
+            <p>
+               <hi>Pag. 25. line. 1.</hi> Ad comparatio<g ref="char:EOLhyphen"/>nem caeterorum qui res negligentius curant Perfecti dicendi ſunt qui adhi<g ref="char:EOLhyphen"/>bita ſolertia Perfectionis iter ambu<g ref="char:EOLhyphen"/>lant, Amb. in Phil. c. <hi>3.</hi>
+            </p>
+            <p>
+               <hi>Ibid. line 14.</hi> Magna pars eſt bonitatis velle fieribonus. Seneca.</p>
+            <p>
+               <hi>Pag. 26. line 6.</hi> Aliuà eſt mar<g ref="char:EOLhyphen"/>tyrio animum deeſſe, aliud animo de<g ref="char:EOLhyphen"/>fuiſſe martyrium acc. Cipr. de Mor<g ref="char:EOLhyphen"/>tal Ser. <hi>4.</hi>
+            </p>
+            <p>
+               <hi>Ibid. line 17.</hi> Nen Euentum conſidera ſed voluntatem, quantum
+<pb facs="tcp:869:46"/>enim ad Voluntatem, cruentauerat dextram Patriarcha, &amp; per Ceriucem Pueri immiſerat gladium, perfectum<g ref="char:EOLhyphen"/>que obtulerat ſacriſicium: idcircò &amp; Deus quaſi ſacrificie reapſe peracto, laudat juſtum, &amp; dicit. Ne <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eceris ei quicquam contentus ſum <g ref="char:V">Ʋ</g>oluntate tua &amp; ex hoc Te Corono, Ego enim voluntatem coronare ſoleo &amp; propter mentem praemia praeſto. Chryſ. Hom. <hi>47.</hi> in Gen.</p>
+            <p>
+               <hi>Pag. 27. line 7.</hi> Qui non habet vnde faciat Eleemoſynam liber eſt quantumcun<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> dare Voluerit tan<g ref="char:EOLhyphen"/>tum dedit qui voto dedit. Hier in Pſ. <hi>111.</hi>
+            </p>
+            <p>
+               <hi>Pag. 30. line 8.</hi> Si exemptus es a numero flagellorum etiam a numero filierum. Greg.</p>
+            <p>
+               <hi>Pag. 31. line 19.</hi> Suprema ſenten<g ref="char:EOLhyphen"/>tia eſt non eſt cognita, non tamen cre<g ref="char:EOLhyphen"/>datur iniuſta, ſed eò ſaltem juſtum credatur omne quod patitur, quo ni<g ref="char:EOLhyphen"/>mirum conſtat quod Deo Authore pa<g ref="char:EOLhyphen"/>titur. Greg. lib. <hi>32.</hi> Mor. cap. <hi>5.</hi> &amp; ha<g ref="char:EOLhyphen"/>betur In Annot in lib. <hi>1.</hi> c. <hi>3.</hi> Sent. Iſid.</p>
+            <pb facs="tcp:869:46"/>
+            <p>
+               <hi>Pag. 33. line 20.</hi> Ideo hic qui<g ref="char:EOLhyphen"/>buſdam parcit ut Eos in perpetuum feriat, Ideo hic me ferias non parcen<g ref="char:EOLhyphen"/>do vt in perpetuum parcat, Greg. lib. <hi>7.</hi> Mor. c. <hi>8.</hi>
+            </p>
+            <p>
+               <hi>Ibid. line 26.</hi>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>
+               <hi>Heſiod.</hi>
+            </p>
+            <p>
+               <hi>Pag. 34. line 20.</hi> Hine juſti in Scripturis dicuntur ablactari vt Iſaac, quod de impijs dictum non legi<g ref="char:EOLhyphen"/>mus. ſicut notat Procopius ad Gen. <hi>21.</hi>
+            </p>
+            <p>
+               <hi>Pag. 35. line 10.</hi> Ideo Deus foelicitatibus terrenis amaritudinem miſcet, vt alia quaeratur foelicitas, cu<g ref="char:EOLhyphen"/>jus dulcedo non eſt fallax. Aug. de <gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap>u. Dei l. <hi>2.</hi>
+            </p>
+            <p>
+               <hi>Ibid. line 16.</hi> Electis Deus ſuis iter hujus mundi aſperum reddit, ne amaenitate viae obliui<g ref="char:EOLhyphen"/>ſcantur patriae. Greg. Mor. lib. <hi>23.</hi>
+            </p>
+            <p>
+               <hi>Pag. 36. line 6.</hi> Diodor. Sic. lib. <hi>4</hi> Rerum. Antiqu.</p>
+            <p>
+               <hi>Pag. 37. line 18.</hi> Nemini debet eſſe mirum ſi pro peccatis noſtris ſaepe a Deo caſtigamur: Imo, cum vexa<g ref="char:EOLhyphen"/>mur ac premimur tunc maxime gra<g ref="char:EOLhyphen"/>tias
+<pb facs="tcp:869:47"/>agimus indulgentiſſimo Patri quod corruptelam noſtram non patitur longius procedere, ſed plagis &amp; Ver<g ref="char:EOLhyphen"/>beribus emendat. Ex Quo intelligi<g ref="char:EOLhyphen"/>mus eſſe nos Deo curae quibus quoni<g ref="char:EOLhyphen"/>am peccamus iraſcitur. Lact. lib. <hi>3.</hi> Diu. Inſt. <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>. <hi>25.</hi>
+            </p>
+            <p>
+               <hi>Pag. 40. lin<g ref="char:punc">▪</g> 23.</hi>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> quam properè legimus tam cito Neg<g ref="char:EOLhyphen"/>ligimus Auſ. Edall. <hi>3.</hi>
+            </p>
+            <p>
+               <hi>Pag. 42. line 5.</hi> Aurem cordis tribulatio aperit, quam ſaepe proſperi<g ref="char:EOLhyphen"/>tas hujus mundi claudit. Greg. Mor. l. <hi>26.</hi>
+            </p>
+            <p>
+               <hi>Ibid. line 8.</hi> Schola Crucis Schola lucis. Cyp. Ser. <hi>4.</hi> de Immortal.</p>
+            <p>
+               <hi>Ibid. line 22.</hi> Gallo canente ſnos relinquit latro inſidias Amb. Hex. lib<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e. <hi>24.</hi>
+            </p>
+            <p>
+               <hi>Pag. 43. line. 19.</hi> Duris vt ilex tonſa bipennibus, Nigrae feraci frondis in Algido Per damna per caedes ab ipſo Ducit opes animum<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> ferro, Hor. Car. lib. <hi>4.</hi> od. <hi>4.</hi>
+            </p>
+            <p>
+               <hi>Pag. 44. line 7.</hi> O Socij ne<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> enim ignari ſumus ante malorum O paſſi grauiora dabit Deus his quo<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> finem.
+<pb facs="tcp:869:47"/>
+               <g ref="char:V">Ʋ</g>irg. Aencid. <hi>1.</hi>
+            </p>
+            <p>
+               <hi>Ibid line 14.</hi> Scilicet exiguo percuſſ<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> es fulminis ictu, Fortior ut poſſis cladibus eſſe tuis. Ouid. ad Liui<g ref="char:EOLhyphen"/>am.</p>
+            <p>
+               <hi>Ibid. line 20.</hi> Abſit a ſeruo Chri<g ref="char:EOLhyphen"/>ſti tale inquinamentum ut patientia, majoribus praeparta, minoribus exci<g ref="char:EOLhyphen"/>dat. Tert. de Pat. <g ref="char:V">Ʋ</g>t proxima quae<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> victoria inſtrumentum ſequentis eſſet, Iuſt. Hiſt. l. <hi>1.</hi> Paulum ſepultae diſtat inertiae Celata virtus. Hor. Car. l. <hi>4.</hi> ed. <hi>9.</hi>
+            </p>
+            <p>
+               <hi>Pag. 46. line 20.</hi> Vni riſui, du<g ref="char:EOLhyphen"/>plex reſpondet luctus, Paez. in o. <hi>1.</hi> Ep.lac.v. <hi>12.</hi>
+            </p>
+            <p>
+               <hi>Pag. 47. line 9.</hi> Quanto hoc ſae<g ref="char:EOLhyphen"/>culo perſecutionibus, paupertate, Ini<g ref="char:EOLhyphen"/>micorum potentia, vel maloru<gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap> cru<g ref="char:EOLhyphen"/>delitate fuerimus afflicti, tanto poſt Reſurrectionem majora gaudia con<g ref="char:EOLhyphen"/>ſequemur. Aug. ad Cip</p>
+            <p>
+               <hi>Pag. 50. line 26.</hi> Exempla &amp; Similitudines plus valent quam ar<g ref="char:EOLhyphen"/>gumenta. Cicero.</p>
+            <p>
+               <hi>Pag. 51. line 5.</hi> Ne inſpiciant pue<g ref="char:EOLhyphen"/>ri Pauſonis figuras quia imperfectae,
+<pb facs="tcp:869:48"/>ſed Polygnoti quae perfecta fuerant. Ariſt. pol. <hi>8.</hi> c. <hi>5.</hi>
+            </p>
+            <p>
+               <hi>Ibid line 25.</hi> Paez in Ep. Iac.</p>
+            <p>
+               <hi>Page 52. line 23.</hi> Fruſtra appel<g ref="char:EOLhyphen"/>lamur Christiani, niſi &amp; ſumus Imi<g ref="char:EOLhyphen"/>tatores Chriſti, qui ideo viam ſe fecit ut Conuerſatio Magiſtri, eſſet for<g ref="char:EOLhyphen"/>ma diſcipuli. Leo in <hi>7.</hi> Ser. de Nat. Chriſti.</p>
+            <p>
+               <hi>Page 53. line 3.</hi> Totus com<g ref="char:EOLhyphen"/>ponitur orbis Regis ad Exemplum, Claud.</p>
+            <p>
+               <hi>Ibid. line 13.</hi> Vel quod Pug<g ref="char:EOLhyphen"/>nandi forma vel Triumphandi gloria, vtrum<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> es Domine &amp; ſpeculum Patiendi &amp; Praemium patientis. Ber. in. Cant. Ser. <hi>47:</hi>
+            </p>
+            <p>
+               <hi>Page 54. line 16.</hi> Coronalur ſpinis, qui Martyres floribus coronat aeternis. Cyp. ſ. <hi>3.</hi> de bon. Pat.</p>
+            <p>
+               <hi>Ibid line. 22.</hi> Dum legimus &amp; Audimus quot &amp; quanta ille ſine culpa ſuſtinuit, Intelligimus nos Pec<g ref="char:EOLhyphen"/>catores omnia debere libenter ſuſtinere Theod. ad Cap. <hi>5</hi> ad Rom.</p>
+            <p>
+               <hi>Page 59. line. 11:</hi> Durum; ſed leuius fit patientiâ. Hor! Car. l. <hi>1.</hi> od. <hi>24</hi>
+            </p>
+            <pb facs="tcp:869:48"/>
+            <p>
+               <hi>Page 60. line 1.</hi> Imbecillitatis Exemplum, Temporis ſpolium, For<g ref="char:EOLhyphen"/>tunae luſus, Inconſtantiae Imago, Im<g ref="char:EOLhyphen"/>becillitatis tr<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>tina, Apul. lib. de Deo. Socr.</p>
+            <p>
+               <hi>Page 61. line 21.</hi> Non modo patienter ſed &amp; libenter ſed &amp; au<g ref="char:EOLhyphen"/>denter, ad Tormenta ſicut ad Orna<g ref="char:EOLhyphen"/>menta, ad paenas ſicut ad delitias pro<g ref="char:EOLhyphen"/>perabat. Ber de S. And. in Ser de triplici genere bonorum: &amp; Aug. Ibat Andreas ſecurus ad crucem: Bar<g ref="char:EOLhyphen"/>tholomaeus propriam pellem dedit &amp;c. Aug. Soliloq. <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>. <hi>22.</hi> §. <hi>3</hi>
+            </p>
+            <p>
+               <hi>Page 62. line 6.</hi> Ign. paſſim in Ep. praeſertim ad Rom.</p>
+            <p>
+               <hi>Page 63. line 3:</hi> De donde ſa<g ref="char:EOLhyphen"/>liò a quel roz de Daciano, el qual diſpues deauer prouade tanto genero de tormentos en el cuerpo de ſan Vin<g ref="char:EOLhyphen"/>cente eſpantado dix<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Vencidos ſo mos, Luys de Gran: en la prim. parte Del Amor de Dios. Prud. Hym de Rom.</p>
+            <p>
+               <hi>Ibid. line. 18.</hi> Omne malum vel timore vel pudore Natura per<g ref="char:EOLhyphen"/>fundit &amp;c. Chriſtianis vero quid ſi<g ref="char:EOLhyphen"/>mile?
+<pb facs="tcp:869:49"/>quos nec pudet nec poenite ſed plane antea non fuiſſe Siquis de<g ref="char:EOLhyphen"/>notatur gloriatur, ſi accuſatur non defendit, Interregatus vel vltro con<g ref="char:EOLhyphen"/>fitetur, Damnatus gratias agit, Quid hoc Mali eſt? cujus reus gaudct, cujus accuſatio votum, cujus paena falici<g ref="char:EOLhyphen"/>tas. Tert. in Apologet.</p>
+            <p>
+               <hi>Page 64. line. 9:</hi> In vita Cypr.</p>
+            <p>
+               <hi>Page 65. line 13.</hi> Per patien<g ref="char:EOLhyphen"/>tiam animas noſtr as poſſidemtes, quia dum nobis ipſis dominari diſcimus hoc ipſum incipimus poſſidere quod Sumus. Greg. &amp; habetur apud Tho. Aquin. in Euang.</p>
+            <p>
+               <hi>Ibid. line 24.</hi> Nam virtus vi<g ref="char:EOLhyphen"/>dua eſt quam non Patientia firmat, Prud. in pſych.</p>
+            <p>
+               <hi>Page 67. line 20:</hi> Electorum namque eſt hîc conteri, vt ad prae<g ref="char:EOLhyphen"/>mia debeant aeternae haereditatis eru<g ref="char:EOLhyphen"/>diri. Greg. lib. <hi>26.</hi> Mor. c <hi>18.</hi>
+            </p>
+            <p>
+               <hi>Page 69. line 13.</hi> Illa coeleſtis Hieruſalim non eſt bellatorum ſpeli<g ref="char:EOLhyphen"/>um, ſed manſuete omnia tolerantium ſperata baeredit as. Baſil<g ref="char:punc">▪</g> in. pſ. <hi>33.</hi>
+            </p>
+            <pb facs="tcp:869:49"/>
+            <p>
+               <hi>Page 70. line 5.</hi> Illa terra promiſſionis non gladio poſſidetur, nec brachio acquiritur, ſed patientia poſſidetur, &amp; acquiritur, Amb. In Pſ. <hi>43.</hi>
+            </p>
+            <p>
+               <hi>Page 71. line 6.</hi> Nubecula eſt, cito tranſiuit. In vita Iuell. Ep. Sariſb.</p>
+            <p>
+               <hi>Page 72. line 2.</hi> Nullus dolor de incurſatione malorum quibus fidu<g ref="char:EOLhyphen"/>cia eſt futurorum Cypri. com. De<g ref="char:EOLhyphen"/>metri.</p>
+            <p>
+               <hi>Ibid. line 6.</hi> Tolle certamina, Toile coronas; Tolle cruciatus, Tolle Beatitudines. Amb. ad ea Verb. Con<g ref="char:EOLhyphen"/>ſummata omnitentatione. Luc. <hi>4.</hi>
+            </p>
+            <p>
+               <hi>Page 74. line 12.</hi> Ibi victor miles poſt Dolores, Donis ineffabilibus cumulatus Nobile perpetuum Caput amplectente Corona, Aug. in Soliloq. <hi>6.8.</hi>
+            </p>
+            <p>
+               <hi>Page 77. line 9.</hi> Ecce gaudium in ſine ſine fine. Ber. Ser. <hi>2.</hi> de rub. Apoſt. Non eſt regnum &amp;c.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,420 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dauid's catechisme. By E.A.</title>
+            <author>Alport, Edward.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1623</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 43 KB of XML-encoded text transcribed from 20 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A18954</idno>
+            <idno type="STC">STC 537</idno>
+            <idno type="STC">ESTC S115913</idno>
+            <idno type="EEBO-CITATION">99851130</idno>
+            <idno type="PROQUEST">99851130</idno>
+            <idno type="VID">16388</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A18954)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 16388)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 866:05)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Dauid's catechisme. By E.A.</title>
+                  <author>Alport, Edward.</author>
+               </titleStmt>
+               <extent>[8], 31, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by G. Eld,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1623.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Dedication signed: Edward Alport.</note>
+                  <note>Errata on A3v.</note>
+                  <note>Title page defective.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Catechisms, English.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-03</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-05</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2013-05</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:16388:1"/>
+            <pb facs="tcp:16388:1" rendition="simple:additions"/>
+            <p>DAVID'S CATECHISME.</p>
+            <p>By <hi>E. A.</hi>
+            </p>
+            <q>
+               <bibl>
+                  <hi>MICAH 7.8.</hi>
+               </bibl>
+               <p>Rejoyce not againſt mee, O mine e<g ref="char:EOLhyphen"/>nemie, though I fall I ſhall riſe againe.</p>
+               <bibl>
+                  <hi>PSAL. 94.17.</hi>
+               </bibl>
+               <p>If the Lord had not holpen mee, my ſoule had almoſt dwelt in ſilence.</p>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed by G. ELD. 1623.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:16388:2"/>
+            <pb facs="tcp:16388:2"/>
+            <head>TO The right Honorable, right Reuerend, right Wor<g ref="char:EOLhyphen"/>ſhipfull, Worſhipfull; and all his religious, worthy, faithfull Friends: with the Oblation of his Mite, <hi>E. A.</hi> wiſheth the increaſe of honour and happineſſe here; and everlaſting joy and felici<g ref="char:EOLhyphen"/>ty hereafter.</head>
+            <p>
+               <seg rend="decorInit">Y</seg>OV, who are the Center of my divi<g ref="char:EOLhyphen"/>ded diſtracted affecti<g ref="char:EOLhyphen"/>ons, in whoſe re<g ref="char:EOLhyphen"/>tayned favour they meet and are united: the know<g ref="char:EOLhyphen"/>ledg of your devotion unto GOD, and affection unto my ſelfe, whi<g ref="char:EOLhyphen"/>leſt I lived and exerciſed my Mi<g ref="char:EOLhyphen"/>niſtery amongſt you, and the ex<g ref="char:EOLhyphen"/>perience thereof in my extremi<g ref="char:EOLhyphen"/>tie, when my paines in Catechi<g ref="char:EOLhyphen"/>zing and Preaching was rewarded
+<pb facs="tcp:16388:3"/>with no little damage to my fun<g ref="char:EOLhyphen"/>ction, ſtate, and perſon, preſſes me out of preſs, to ſend this little Tractate, with the gratefull ac<g ref="char:EOLhyphen"/>knowledgement of what I owe unto you: For thoſe that know me well, well know, that I owe you more then I am, beſides that debt, which though I daily pay can ne<g ref="char:EOLhyphen"/>ver ſatisfie. Accept this then, I beſeech you, ſuch as it is (for un<g ref="char:EOLhyphen"/>to you it is due) with the beſt interpretation, Sorrow being the Scribe, and Diſtraction the In<g ref="char:EOLhyphen"/>ventor. I bring you here in a plain diſh, not curiouſly dreſt, ſuch a ſervice as I well know your ſoule loveth; which, I ſuppoſe, ſome Dogs will bee ſnarling or ſnatch<g ref="char:EOLhyphen"/>ing at, till vengeance, that dogges them at the heels, <hi>Ieſabel</hi> like, de<g ref="char:EOLhyphen"/>vours or excludes them <hi>aedibus ſe<g ref="char:EOLhyphen"/>dibus.</hi> Holy things then be whol<g ref="char:EOLhyphen"/>ly
+<pb facs="tcp:16388:3"/>theirs that bee holy: matters divine for perſons devout are moſt fit for uſe and imployment. I have therefore unto you dedica<g ref="char:EOLhyphen"/>ted this little Catechiſme of DA<g ref="char:EOLhyphen"/>VID's becauſe you are loyall, of the feare of GOD, becauſe you are religious. It is little that you may reade it, plain that yours alſo may underſtand it. It hath Anti<g ref="char:EOLhyphen"/>quity, and neceſſity; profit, and pleaſure to pleade for it: enter<g ref="char:EOLhyphen"/>taine it then, if you pleaſe; it will pleaſure you for Confirma<g ref="char:EOLhyphen"/>tion, and yours for Informati<g ref="char:EOLhyphen"/>on: And the LORD multiply upon you both, his beſt bleſſings, for CHRIST IESVS his deare Son's ſake. AMEN.</p>
+            <closer>
+               <signed>Yours in all humble obſervance, obliged and devoted, EDWARD ALPORT.</signed>
+            </closer>
+         </div>
+         <div type="errata">
+            <pb facs="tcp:16388:4"/>
+            <head>The Author being abſent at the impreſſi<g ref="char:EOLhyphen"/>on, the Printer prayeth you to correct theſe faults.</head>
+            <p>
+               <hi>IN the ſecond page of the Epiſtle place a paren<g ref="char:EOLhyphen"/>theſis before</hi> (ſorrow, <hi>and after</hi> Author). <hi>p.</hi> 1. <hi>l.</hi> 11 <hi>for</hi> this <hi>reade</hi> the. <hi>p.</hi> 8. <hi>l.</hi> 27. <hi>for</hi> euer <hi>r.</hi> euen. <hi>p.</hi> 10. <hi>l.</hi> 4. <hi>for perior r. pronior. p.</hi> 10. <hi>l.</hi> 11. <hi>for</hi> tread <hi>r.</hi> lead. <hi>p.</hi> 12. <hi>l.</hi> 13. <hi>place the comma at</hi> well <hi>after</hi> then. <hi>p.</hi> 22. <hi>l.</hi> 19. <hi>for</hi> of <hi>r.</hi> hereof. <hi>p.</hi> 23. <hi>l.</hi> 27. <hi>for</hi> ACAE <hi>r.</hi> ACHAB. <hi>p.</hi> 27. <hi>l.</hi> 13. <hi>for</hi> hands <hi>r.</hi> hand.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:16388:4"/>
+            <head>TO THE READER.</head>
+            <opener>
+               <salute>Chriſtian READER,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">I</seg> Conceive how difficult an adventure it is, to put my poore Talent unto publike view, ſee<g ref="char:EOLhyphen"/>ing greater graces kept in ſilence: But, I know how hard it is to hide, and therefore deeme it better to ha<g ref="char:EOLhyphen"/>zard it then my ſelfe.</p>
+            <p>View then the matter which may pleaſure thee, and favour the Au<g ref="char:EOLhyphen"/>thor with the furtherance of thy prayers; and the Author of every good gift, give thee faith and feare
+<pb facs="tcp:16388:5"/>here, and the end of both hereaf<g ref="char:EOLhyphen"/>ter: In ſuite for which, I re<g ref="char:EOLhyphen"/>maine preſſed ever ready unto any Chriſtian Office.</p>
+            <closer>
+               <signed>Thine in all Chri<g ref="char:EOLhyphen"/>ſtian duty, E. A.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:16388:5"/>
+            <head>DAVID<hi>'s Catechiſme.</hi>
+            </head>
+            <p>
+               <seg rend="decorInit">S</seg>Ince the ancient and lau<g ref="char:EOLhyphen"/>dable conſtitution of our Church, and profitable practice therein of Cate<g ref="char:EOLhyphen"/>chiſing Children is ſo much ſleighted and neglected in this declining age of the world, that many, not caring for GOD, fall out with the Man and meanes which ſhould make them good and godly. It hath pleaſed this King's ſacred Maieſtie, in his princely care of his people, and zeale unto Gods glory, (by eſpeciall Com<g ref="char:EOLhyphen"/>mand) to revive the ſame.</p>
+            <p>I, though the meaneſt of my brethren, yet a Miniſter of the Goſpell of Chriſt, thought it my duty, not onely to per<g ref="char:EOLhyphen"/>form the ſame in my particular charge; but alſo (according unto my ability) to publiſh unto the view of others, the
+<pb n="2" facs="tcp:16388:6"/>Antiquity and neceſſity thereof, in the expoſition of theſe words of the Pſal<g ref="char:EOLhyphen"/>miſt, <hi>Pſal.</hi> 34.11.</p>
+            <p>
+               <hi>Come yee Children,</hi>
+               <note place="margin">
+                  <hi>Text,</hi> Pſal. 34.11</note> 
+               <hi>hearken unto mee; I will teach you the feare of the Lord.</hi>
+            </p>
+            <p>In handling of which words, I will ſpeake;</p>
+            <p>Firſt,
+<note place="margin">Diviſion.</note> of the Parties who are invited to Hearken; <hi>Children: Come yee Chil<g ref="char:EOLhyphen"/>dren, hearken unto mee.</hi>
+            </p>
+            <p>Secondly, of him that will teach them, DAVID; a Prince, and a Prophet: <hi>I will teach you.</hi>
+            </p>
+            <p>Thirdly, and laſtly, the Leſſon which hee will learne them, The feare of God: <hi>I will teach you the feare of the Lord.</hi>
+            </p>
+            <p>Firſt, concerning the Parties who are invited to hearken,</p>
+            <p>I obſerve theſe three things:
+<list>
+                  <item>1, their Name.</item>
+                  <item>2, their Invitation.</item>
+                  <item>3, their Direction.</item>
+               </list>
+            </p>
+            <p>Firſt, their Name: <hi>Children.</hi>
+            </p>
+            <p>Secondly, their Invitation: <hi>Come.</hi>
+            </p>
+            <p>Thirdly, their Direction: <hi>Hearken. Come yee Children, hearken.</hi>
+            </p>
+            <p>By name they are called children,
+<note place="margin">Varro.</note> 
+               <hi>Pu<g ref="char:EOLhyphen"/>eri, quaſi puri;</hi> as <hi>Iuvenis</hi> from <hi>Iuvans:</hi> a child is called <hi>puer,</hi> becauſe he is Pure.</p>
+            <pb n="3" facs="tcp:16388:6"/>
+            <p> I know that Children in this place, may be taken for all Inferiors, and ſub<g ref="char:EOLhyphen"/>ordinate eſtates of men: yea, an old man too,
+<note place="margin">Iſai. 65.20. <hi>Puer con<g ref="char:EOLhyphen"/>tum anne<g ref="char:EOLhyphen"/>rum.</hi>
+               </note> whoſe age hath ſnowne downe winter upon his head; whoſe hayres be heraulds of prudence, <hi>centum annorum,</hi> may be a child, for <hi>his pueriſenes.</hi> How be it, the ancient Fathers uſe the word more ſtrictly, eyther for them who had newly received the faith; or elſe for Children, who learned the rudiments of Religion, whom they elſe-where tearmed, <hi>Catechumenoi;</hi>
+               <note place="margin">Tertul. <hi>de poenit.</hi>
+               </note> for <hi>Tertullian</hi> hath theſe words, <hi>Nemo ſibi aduletur, quia inter auditorum tyrocinia deputatur, &amp;c.</hi> where hee underſtandeth by Au<g ref="char:EOLhyphen"/>ditors, hearers; thoſe onely who are named altogether by <hi>Origen, Catechu<g ref="char:EOLhyphen"/>menoi,</hi> who are taught the principall doctrines of Chriſtian Religion: And S. <hi>Cyprian</hi> ſaith: that,
+<note place="margin">Cypr. <hi>epiſt. lib.</hi> 32. <hi>epiſt.</hi> 22. Optarus.</note> 
+               <hi>With conſent of Miniſters, Teachers and Readers, hee or<g ref="char:EOLhyphen"/>dained Optatus, doctorem audientium: A teacher or inſtructer of hearers,</hi> id eſt, <hi>of young men who were catechiſed.</hi>
+               <note place="margin">Pantaenus.</note> Such a Teacher of ſuch Hearers was <hi>Pantaenus,</hi> immediately after the Apoſtles time,
+<note place="margin">Clemens</note> in the Church of <hi>Alexandria,</hi> whom <hi>Cle<g ref="char:EOLhyphen"/>mens</hi>
+               <pb n="4" facs="tcp:16388:7"/>ſucceeded in the ſame Office: and after him followed <hi>Origen,</hi>
+               <note place="margin">Origen.</note> 
+               <hi>Clemen's</hi> Scholler, being choſen and ordayned by <hi>Demetrius,</hi> then Biſhop of <hi>Alexan<g ref="char:EOLhyphen"/>dria:</hi>
+               <note place="margin">
+                  <hi>Hercules. Greg. Nyſſ. Orat.</hi> 1.</note> and <hi>Hercules</hi> ſucceeded <hi>Origen.</hi>
+            </p>
+            <p>Againe, <hi>Gregory Niſſen,</hi> in his firſt Oration, giveth us to underſtand; that, The Paſtors of the Church, in the be<g ref="char:EOLhyphen"/>ginning, <hi>auditoribus proponerent,</hi> did de<g ref="char:EOLhyphen"/>liver unto their Auditors, or hearers, certaine eaſie leſſons of Religion, as it were their <hi>A, B, C;</hi> &amp; then by degrees they explained and opened unto them more hard and hidden myſteries of Di<g ref="char:EOLhyphen"/>vinity. All which ſerve for proofe of what I have alleaged already, to wit; that, by Children, the ancient Fathers underſtand their <hi>Catechumenoi,</hi> young men trayned up in the rudiments of Chriſtian Religion. They therefore, who are to learne the doctrine of the beginning of Chriſt,
+<note place="margin">Heb. 6.11. Mat. 18.3.</note> as the Apoſtle ſpeaketh, they I ſay are ſtiled Children. And CHRIST ſaith: <hi>Niſi converſi ac facti ut pueruli, nequaquam ingrediemini in regnum Coelorum,</hi> which Chriſt him<g ref="char:EOLhyphen"/>ſelfe hath demonſtrat in his owne per<g ref="char:EOLhyphen"/>ſon, becoming a Child for us, and lea<g ref="char:EOLhyphen"/>ding
+<pb n="5" facs="tcp:16388:7"/>us the way. Theſe, I ſay, are in ma<g ref="char:EOLhyphen"/>ny things like unto thoſe <hi>Catechumenoi</hi> I ſpake of before; for, they were taught a <hi>Catechiſme, id eſt,</hi> A Chriſtian forme of Religion; and ſo muſt theſe: they gave an account of their faith; and ſo muſt theſe: they learned plaine and ea<g ref="char:EOLhyphen"/>ſie doctrine: at the firſt, but afterwards increaſed in all knowledge in heauenly things; and ſo muſt theſe.</p>
+            <p>Now, as in ſome things the conditi<g ref="char:EOLhyphen"/>on of theſe much reſembleth theirs; ſo, in others (through the favour &amp; grace of GOD) they farre excell them: for, theſe are deſcended of chriſtian parents; thoſe were born, ſome of Infidels, ſome of Heretikes, ſome of meere ſtrangers from the covenant of grace.</p>
+            <p>With theſe, Baptiſme goeth before inſtruction, and Catechizing: with thoſe, Catechizing went before Bap<g ref="char:EOLhyphen"/>tiſme. This I prove by the ſeventh de<g ref="char:EOLhyphen"/>cree of the firſt Councel of <hi>Conſtantino<g ref="char:EOLhyphen"/>ple,</hi>
+               <note place="margin">1. <hi>Conc. Conſtanti<g ref="char:EOLhyphen"/>nop. Can.</hi> 7.</note> where the right or cuſtome in the weſterne Churches of receiving Here<g ref="char:EOLhyphen"/>tikes, after hearty ſorrow and repen<g ref="char:EOLhyphen"/>tance for their ſinne, is deſcribed. The Decree ſpeaketh thus: <hi>The firſt day wee
+<pb n="6" facs="tcp:16388:8"/>admit them to bee Chriſtians, the next day Catechumenoi,</hi> id eſt, <hi>young Schollers in the faith: Elementarios ac quaſi fidei tyro<g ref="char:EOLhyphen"/>nes:</hi> they are the words of the Coun<g ref="char:EOLhyphen"/>cell: <hi>The third day wee receive them, Ter inſufflando, by breathing three times into their faces and eares; and then wee bap<g ref="char:EOLhyphen"/>tize them for men borne of unbeleeving parents, or Heretikes, or Infidels.</hi>
+            </p>
+            <p>The Councell did well to provide, that they ſhould make confeſſion of their faith before they received that Sa<g ref="char:EOLhyphen"/>crament, which is the ſeale of our adop<g ref="char:EOLhyphen"/>tion. But for us, who are deſcended of the faithfull, wee are baptized in our infancy; becauſe, that as the Covenant of Circumciſion, made unto <hi>Abraham,</hi> did belong unto all the Children of <hi>A<g ref="char:EOLhyphen"/>braham;</hi> ſo doth Baptiſme, which ſuc<g ref="char:EOLhyphen"/>ceedeth in the place of Circumciſion, belong unto all the Children of the faithfull.</p>
+            <p>What then? muſt they therefore re<g ref="char:EOLhyphen"/>fuſe inſtruction who are baptized alrea<g ref="char:EOLhyphen"/>dy? No verily; for, they are baptized, that, as ſoone as they are able to com<g ref="char:EOLhyphen"/>prehend, with all Saints, the good will of GOD; ſo ſoone they ſhould begin to
+<pb n="7" facs="tcp:16388:8"/>learne to know GOD, and to ſet forth his glory, according to the charge at Baptiſme: and therefore this cuſtome of Catechiſing, and teaching Children the rudiments of Religion, is ſo ancient as DAVID himſelfe; and ſo much in uſe in the Apoſtles time, that the Apo<g ref="char:EOLhyphen"/>ſtle Saint <hi>Paul, Gal.</hi>
+               <note place="margin">Gal. <hi>6.6.</hi>
+               </note> uſeth the words <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, him that is taught, &amp; him that hath taught him; as our Engliſh hath in moſt tranſlati<g ref="char:EOLhyphen"/>ons: Wee might as well tranſlate him that is catechized, &amp; him that hath cate<g ref="char:EOLhyphen"/>chized him: for, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> being derived of <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> and <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> noteth as much as <hi>Perſonare,</hi> or <hi>Circumſonare,</hi> To have our eares ſound againe with wholſome precepts taught or catechized.
+<note place="margin">
+                  <hi>Tull. Offic. lib.</hi> 1.</note> 
+               <hi>Tully</hi> doth expreſſe this word to the life, ſay<g ref="char:EOLhyphen"/>ing: <hi>
+                  <g ref="char:V">Ʋ</g>tile eſt aures tuas talibus vocibus undique circumſonare.</hi>
+            </p>
+            <p>As this cuſtome of Catechizing hath beene ancient: ſo, how needefull it is,
+<note place="margin">Neceſſ.</note> experience can witneſſe; for, Catechize and inſtruct Young men and Children in the feare of the Lord, and the know<g ref="char:EOLhyphen"/>ledge of his Commaundements, they will take delight therin while they live:
+<pb n="8" facs="tcp:16388:9"/>as otherwiſe, and much rather, teach them fables, lyes, and vanities, &amp; they will never forget them; like to the Caske,
+<note place="margin">Quo ſemel eſt i<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>buta recens ſer<g ref="char:EOLhyphen"/>v<gap reason="illegible" resp="#UOM" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap> odo<g ref="char:EOLhyphen"/>rem Teſta diu Horat. epiſt.</note> which ever ſavoreth of the firſt liquor which is powred into it, whe<g ref="char:EOLhyphen"/>ther it bee good or bad, that pleads preſcription to all that ſhall ſucceed af<g ref="char:EOLhyphen"/>ter; therefore DAVID bids Children, <hi>Come to hearken unto him:</hi> and <hi>Salomon,</hi> his Son, ſaith: <hi>Teach a child in the trade of his way, and when hee is old hee ſhall not depart from it:</hi> who, being about 12 yeares of age, gave that profound Sen<g ref="char:EOLhyphen"/>tence concerning the true mother of the childe:
+<note place="margin">Luk. 2.42.</note> and our Saviour, at that age, diſputed with the Doctors. And therefore that old ill Proverbe, hatch<g ref="char:EOLhyphen"/>ed in Hell, <hi>Angelicos in Satanam verti, ubi conſenuerint:</hi> Young Saints, old Di<g ref="char:EOLhyphen"/>vels, is here confuted, and ſent backe to the place from whence it came.</p>
+            <p>Should wee not beginne betimes? Circumciſion was commanded on the eighth day, and Baptiſme any day ſoo<g ref="char:EOLhyphen"/>ner; that, as <hi>Hercules</hi> in his Cradle, <hi>Monſtra ſuperavit prius quam noſce poſſit:</hi> ſo wee might, in Baptiſme, ever van<g ref="char:EOLhyphen"/>quiſh the Divel before wee know him.
+<pb n="9" facs="tcp:16388:9"/>
+               <hi>Samuel,</hi> ſo ſoone as hee was weaned,
+<note place="margin">1. Sam. 1.24.</note> was conſecrated to the Lord. But ma<g ref="char:EOLhyphen"/>ny will be <hi>Mammothrepti,</hi> rather then <hi>Ablacta<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>j;</hi> rather never weaned, then conſecrated to the Lord.</p>
+            <p>And, leſt any ſhould deeme the fe<g ref="char:EOLhyphen"/>male Sexe exempted from ſuch exer<g ref="char:EOLhyphen"/>ciſe, I will propoſe 2 only
+<note n="*" place="margin">
+                  <hi>Hieron. ad Laet. de In<g ref="char:EOLhyphen"/>ſtit. filiae.</hi> And <hi>Hieron. ad Gaudent. de Infant. educ.</hi> Firſt the Pſalmes, then the Proverbs, then Ec<g ref="char:EOLhyphen"/>cleſ. then Iob, then the Goſ<g ref="char:EOLhyphen"/>pels, then the Acts, then the Epiſt. then the bookes of Moſes, of the Kings, of Chron. of Eſd. of Heſter, and laſt of all the Canti<g ref="char:EOLhyphen"/>cles, <hi>Horat. are poetic.</hi>
+               </note> examples, the one of <hi>Paula;</hi> the other of <hi>Pacatu<g ref="char:EOLhyphen"/>la:</hi> the one, the daughter of <hi>Laeta;</hi> the other of <hi>Gaudentium:</hi> both yong, both Virgins; unto whoſe Mothers, <hi>Ierome</hi> gives direction, what bookes of the Scripturs in order, when, and how they ſhould read them; and what uſe they ſhould make of them. And the Iſraelites were charged to teach their Children the things that GOD had done for them; becauſe commonly, men never forget that which they haue learned in their yonger yeares: for example, A Young man heareth a lewd tale, or be<g ref="char:EOLhyphen"/>holdeth an unchaſt ſpectacle; hee re<g ref="char:EOLhyphen"/>membreth the ſame a great deale better then if hee had heard a grave Sermon, or godly exhortation; becauſe hee ta<g ref="char:EOLhyphen"/>keth more delight in vaine things, then in godlineſs. And no marvaile; for, a
+<pb n="10" facs="tcp:16388:10"/>Young man is <hi>Cereus in vitium flecti.</hi> And, one better learned in Divinity then hee, even S. <hi>Auguſtine</hi> himſelfe makes it good, ſaying: <hi>Adoleſcens</hi> is <hi>po<g ref="char:EOLhyphen"/>nior ad peccandum.</hi>
+            </p>
+            <p>Who ſeeth not how prone the cogi<g ref="char:EOLhyphen"/>tation of a young mans heart is unto that which is evill? And yet, who will not confeſſe, that good and wholſome counſell and inſtruction will ſanctifie his thoughts, and make him tread a godly life? VVherefore, the counſell of <hi>Virgil,</hi>
+               <note place="margin">
+                  <hi>Virg. georg. lib.</hi> 2. <hi>Quintil. li.</hi> 1. <hi>cap.</hi> 3.</note> 
+               <hi>Adeo a teneris conſueſcere multum eſt,</hi> is fit for all youth; becauſe, as <hi>Quintilian</hi> ſaith: <hi>Frangas citius, quam corrigas quae in pravum induruerunt:</hi> E<g ref="char:EOLhyphen"/>vill cuſtomes are hardly broken off; if a man accuſtome himſelfe to any noto<g ref="char:EOLhyphen"/>rious vice, while hee is a young man, verily, hee doth ſeldome or never leave the ſame all his life long. I will goe no further then the prophane ſwearer, who will witneſs what I ſay to be true: I ſeldome heard of any young ſwearer, that in elder years could wholly leave his ſwearing: If there be any amongſt them, better natured, or better nurtu<g ref="char:EOLhyphen"/>red then others, they will ingenuouſ<g ref="char:EOLhyphen"/>ly
+<pb n="11" facs="tcp:16388:10"/>confeſs, being admoniſhed of their fault, that, they knew not whether they did ſweare, or no: Thus, with their oaths, their fearefull oaths, as with ſo many ſpeares, they wound the ſides of CHRIST at unawares; and yet, like drunken men, they know not what they doe.</p>
+            <p>Is it then ſo dangerous for a young man to accuſtome himſelfe unto evill wayes? Is it ſo hard for any, that taketh delight in ſinning, to bee reclaimed? Then, let every young man give heede unto inſtruction; let him be willing to bee Catechized: let him bee an auditor and hearer of thoſe leſſons which ſhall bee taught him:
+<note place="margin">Prov. 2.3.</note> let him call for know<g ref="char:EOLhyphen"/>ledge, and cry for underſtanding, and ſeeke for her as gold, and ſearch for her as for treaſures: let him attend unto the <hi>Invitation,</hi> and follow the <hi>Directi<g ref="char:EOLhyphen"/>on,</hi> and hee ſhall underſtand <hi>The feare of the Lord,</hi> the totall of my Text. Thus much for the name, <hi>Children.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> Come I now unto the <hi>Invitation,</hi> in this word, <hi>Come;</hi> which is but a word,
+<note place="margin">The Invita<g ref="char:EOLhyphen"/>tion.</note> and therefore but a word of it. And, though it be but a word, yet it bids us,
+<pb n="12" facs="tcp:16388:11"/>
+               <hi>Come,</hi> that CHRIST at the laſt may ſay, Come. And ſo, like a Schollers, or Saints Bell, it rings and rouſes us from the bed of carnall ſecurity, and invites us unto the Church and Schoole of CHRIST, to liſten willingly. How little any excuſe will prevaile, that in S. <hi>Lukes</hi> Goſpell will ſatisfie;
+<note place="margin">Luk. 14.18</note> where, though all their excuſes were made, <hi>
+                  <g ref="char:V">Ʋ</g>nanimiter,</hi> ioyntly; yet were they all, <hi>Inaniter,</hi> vainely: unleſſe to incenſe the Maſter of the Feaſt the more againſt them. Come then, well and welcome, unto</p>
+            <p>The <hi>Direction,</hi>
+               <note place="margin">The directi<g ref="char:EOLhyphen"/>on.</note> 
+               <hi>Hearken.</hi> It is not then ſufficient to <hi>Come;</hi> for, ſo do ſome, whoſe deſire is, ſoone to bee gone, or, fairely to fall aſleepe: ſo that, if at all, they muſt be taken napping,
+<note place="margin">Ecclus. 22.10.</note> 
+               <hi>Who ſo tel<g ref="char:EOLhyphen"/>leth a foole of wiſdome, is as a man which ſpeaketh to one that is aſleepe,</hi> when hee hath tould his tale, hee ſaith: VVhat is the matter?</p>
+            <p>Some come as to the waters of <hi>Ma<g ref="char:EOLhyphen"/>rah,</hi>
+               <note place="margin">Exod. 4.15.</note> to bee made bitter, rather then better.</p>
+            <p>Some,
+<note place="margin">Act. 19.32.</note> like thoſe in the 19 Chapter of the <hi>Acts of the Apoſtles, The more
+<pb n="13" facs="tcp:16388:11"/>part knew not wherfore they were come to<g ref="char:EOLhyphen"/>gether.</hi> Yea, many may come like the <hi>Sodomits</hi> unto <hi>Lots</hi> doore, with open eyes, yet ſee no better then Bats. I will therefore tell you as my Text tels mee, wherefore you muſt Come: <hi>To hearken.</hi>
+            </p>
+            <p>
+               <hi>Come yee Children and hearken.</hi>
+            </p>
+            <p>Before wee can poſſibly attaine unto the knowledge of any thing whatſoe<g ref="char:EOLhyphen"/>ver, wee muſt firſt heare the ſame ex<g ref="char:EOLhyphen"/>pounded unto us: and therefore it is not (I ſuppoſe) without great reaſon ſaid: that, <hi>Hearing is the ſenſe of lear<g ref="char:EOLhyphen"/>ning;</hi> becauſe, men can never learn that which they never heard. I confeſſe, ſome queſtion hereof may bee made, becauſe <hi>Ariſtotle</hi> ſeemeth to ſay as much of the ſight,
+<note place="margin">
+                  <hi>Ariſt. mo<g ref="char:EOLhyphen"/>taph. lib.</hi> 1 <hi>cap.</hi> 1.</note> in the firſt Chapter of the <hi>Metaphiſ.</hi> where hee calleth the ſight, <hi>Senſum cognitionis:</hi> The ſenſe of Learning.</p>
+            <p>Although wee confeſſe indeed, that the ſight is a moſt excellent Senſe: yet, in this caſe, Philoſophy muſt give place unto Divinity; and the Eye to the Eare. Liſten then unto <hi>Lactantius,</hi>
+               <note place="margin">
+                  <hi>Lactant. in<g ref="char:EOLhyphen"/>flit. lib.</hi> 3. <hi>ca.</hi> 9.</note> better read in Gods booke then <hi>Ariſto<g ref="char:EOLhyphen"/>tle,</hi> who ſaith: <hi>Plus eſt in auribus quam
+<pb n="14" facs="tcp:16388:12"/>in oculis ſitum, quoniam &amp; doctrina et ſapientia percipi auribus ſolis poteſt, oculis ſolis non poteſt:</hi> There is more in mans eares then eyes, for that learning and wiſdome may be obtained by the eares onely, but not by the eyes: and wee ſee many blind men excell in wiſdom and learning: but deafe men, not any. The Apoſtle S. <hi>Paul</hi>
+               <note place="margin">Rom. 10.14</note> makes it plaine in the tenth to the <hi>Romans,</hi> ſaying: <hi>How ſhall they call on him, in whom they have not be<g ref="char:EOLhyphen"/>leeved? and how ſhall they beleeve in him, of whom they have not heard? &amp; how ſhall they heare without a Preacher?</hi> Whence, in a word, it appeareth, that, Without ſpeciall revelation, or extraordinary calling, no man ever knew GOD at any time, or beleeved in him whom hee hath ſent, IESVS CHRIST, but by hearing the Word preached,
+<note place="margin">1. Cor. 4.1.</note> and being Catechized by them who are the Mini<g ref="char:EOLhyphen"/>ſters of CHRIST, and the diſpoſers of the ſecrets of GOD.</p>
+            <p>So then, they that are deſirous to know how good &amp; gracious the Lord is: They that will know, what the will of GOD, and feare of the LORD is: They that long after the newes of their
+<pb n="15" facs="tcp:16388:12"/>ſalvation, let them bring their attentive eares with them to the Churches and congregation of the faithful, &amp; there let them hear what the ſpirit ſaith unto the<g ref="char:cmbAbbrStroke">̄</g> by the Miniſters, that therby they may beleeve and bee ſaved.</p>
+            <p>If then theſe things bee ſo? Who will deny, that there is a great neceſſity of this charge of the Prophet DAVID in this place?</p>
+            <p>Now, as it is neceſſary to heare with their bodily eares, ſo is it much more needefull to hear with the eares of their underſtanding: whence, S. <hi>Auguſtine</hi> hath obſerved, A two-fould hearing:
+<list>
+                  <item>1, <hi>Auditus Corporis.</hi>
+                  </item>
+                  <item>AND,</item>
+                  <item>2, <hi>Auditus Cordis.</hi>
+                  </item>
+               </list>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> A hearing of the body; and, a hearing of the heart &amp; underſtanding alſo. The Iewes heard enough, but underſtood little enough: So,
+<note place="margin">Acts. 26.24</note> 
+               <hi>Feſtus</hi> heard <hi>Paul</hi> preach of the death and reſurrection of CHRIST, but hee wanted the eare of underſtanding, and therefore hee cryed out with a loud voyce: <hi>Paul, Thou art beſides thy ſelfe, much learning hath made thee mad.</hi> 
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> But MARIE, when ſhe ſat
+<pb n="16" facs="tcp:16388:13"/>at IESVS feet, and heard him preach, did heare with both eares; as well of the underſtanding, as of the body: And therefore CHRIST pronounceth of her:
+<note place="margin">Luk. 10.24</note> that, <hi>Shee had choſen the good part, which ſhould not be taken from her.</hi> And S. <hi>Hiero</hi> hath theſe words on the 1 Chap<g ref="char:EOLhyphen"/>ter of <hi>Ioel:</hi>
+               <note place="margin">
+                  <hi>Hieron. in</hi> 1. <hi>Cap.</hi> Ioel.</note> 
+               <hi>Auditus in ſacris Scripturis non eſt iſte ſonus qui in aure reſonat, ſed qui in corde percipitur, iuxta illud, Qui habet aures audiendi audiat:</hi> The good Fa<g ref="char:EOLhyphen"/>ther is of opinion; that, As often as men<g ref="char:EOLhyphen"/>tion is made of hearing in the holy Scriptures, wee are to underſtand the hearing of the heart, &amp; not that which ſoundeth in the eare onely; according unto that, <hi>Hee that hath eares to heare, let him heare.</hi> Without all doubt, the Holy Ghoſt, where he ſpeaketh of hea<g ref="char:EOLhyphen"/>ring, laboureth, by all meanes, to per<g ref="char:EOLhyphen"/>ſwade us unto a due underſtanding of thoſe things which wee heare; for, all cannot underſtand at the firſt: What better meanes then Catechizing can there bee to ſtrengthen the underſtan<g ref="char:EOLhyphen"/>ding? They muſt therefore heare, and bee catechized, that ſo they may under<g ref="char:EOLhyphen"/>ſtand.
+<note place="margin">Act. 2.41.</note> Happy were thoſe 3000 ſoules,
+<pb n="17" facs="tcp:16388:13"/>even 3000 at once, who underſtan<g ref="char:EOLhyphen"/>dingly heard that one Sermon of <hi>Pe<g ref="char:EOLhyphen"/>ters.</hi>
+               <note place="margin">Act. 8.3<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> And the <hi>Eunuch</hi> of Aethiopia did well to bee Catechized by <hi>Philip,</hi> and heare him expound the Prophet <hi>Iſai</hi> unto him. And it was the beſt houre that ever S. <hi>Auguſtine</hi> ſpent in his whol life, when hee went to heare the elo<g ref="char:EOLhyphen"/>quence of S. <hi>Ambroſe;</hi> for ſo, of a Ma<g ref="char:EOLhyphen"/>nachie, hee became a true Chriſtian: and the reſt of Infidels became faithful; and, by comming to heare, obtayned mercy at the hands of GOD, to under<g ref="char:EOLhyphen"/>ſtand that which was taught them, and to beleeve in the name of CHRIST IESVS. Wherfore, I exhort all, in the name of Ieſus Chriſt, that, ſo often as they come or repayre to any divine ex<g ref="char:EOLhyphen"/>erciſe, they come to heare, and heare to underſtand what the Spirit of GOD ſaith unto them: for, when they come &amp; not heare, they deſpiſe the ordinance of GOD: when they heare, and not underſtand, or beleeve, the Word be<g ref="char:EOLhyphen"/>commeth unfruitfull unto them, and all their hearing is in vaine; which Cate<g ref="char:EOLhyphen"/>chizing will helpe. <hi>Quid eſt audi?</hi>
+               <note place="margin">
+                  <hi>Ambroſ. <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>.</hi> 25. <hi>in Pſal.</hi> 119.</note> (ſaith S. <hi>Ambroſe) non otiosè dicitur, quod com<g ref="char:EOLhyphen"/>mune
+<pb n="18" facs="tcp:16388:14"/>eſt omnibus, &amp; ſuppetit umverſis ip<g ref="char:EOLhyphen"/>ſo jure naturae, &amp;c.</hi> What is meant by Heare, ſaith he? It is not an idle charge, when wee are commanded to heare, ſince it is common unto all men to heare, and it agreeth with every man naturally. Therefore, it is not without great cauſe that this charg is here given, becauſe, many times, men heare againſt their wills, and when they are other<g ref="char:EOLhyphen"/>wiſe occupied; yet are they wont to heare a ſound, and the voyce of him that ſpeaketh: Therfore, it behoveth thoſe that are preſent in body, to bee preſent in minde, and minde to under<g ref="char:EOLhyphen"/>ſtand; that, hearing, they may heare; and, ſeeing, they may ſee the wondrous things of the Law; the power of the Goſpell; the feare of the Lord; the effi<g ref="char:EOLhyphen"/>cacy of the Spirit; and the ſtrange and admirable operation of the feare and word of the LORD.</p>
+            <p>It is written of the Iewes, that they heard the myſteries of the Law, but they did not underſtand the ſame: wherefore the Lord ſaith: <hi>Heare O my people, and I will ſpeake unto you.</hi> Now, the word of GOD is ſpirituall, there<g ref="char:EOLhyphen"/>fore
+<pb n="19" facs="tcp:16388:14"/>heare ſpiritually. When the Voyce ſpake from heaven, what did it ſay? Surely, nothing elſe, but, <hi>This is my be<g ref="char:EOLhyphen"/>loved Sonne in whom I am well pleaſed;</hi>
+               <note place="margin">Mat. 17.3</note> 
+               <hi>heare him:</hi> to ſhew, That wee are ſoo<g ref="char:EOLhyphen"/>ner drawne to beleeve in the Sonne of GOD, by hearing, then by any ſenſe beſides. Provided,
+<note place="margin">Mat. 4.24. Luk. 8.18.</note> that wee take heed what wee heare; how wee heare; and whom wee heare: for, many are night walkers, but light talkers;
+<note place="margin">Philip. 3.18</note> being ene<g ref="char:EOLhyphen"/>mies of CHRIST's Croſſe: have the ſhewe of godlineſs, but deny the pow<g ref="char:EOLhyphen"/>er thereof in their heart: whoſe meat is their maker, and belly their god; whoſe body being given to eaſe, and minde to content, ſhunne labour, be it never ſo wholſome: fly affliction, be it never ſo holy. Tel them of catechizing, they will ſay: It is novelty: informe them of right hearing, they wil anſwer; It is fooliſhneſs, though, indeed, it bee the ſame which makes us wiſe unto ſal<g ref="char:EOLhyphen"/>vation.</p>
+            <p>
+               <hi>Theophraſtus</hi> in <hi>Plutarch,</hi> could ſay:
+<note place="margin">Plutarch de Auditione.</note> that, Hearing, of all other Senſes, eſ<g ref="char:EOLhyphen"/>pecially, engendreth greateſt motions and perturbations of the minde: and I
+<pb n="20" facs="tcp:16388:15"/>may ſay: that, It bringeth greateſt ioyes and delights unto the Inner man, and unto the ſpirit; for, hereby our faith in, and feare of the LORD is bred in us: our hope is increaſed: our patience con<g ref="char:EOLhyphen"/>firmed: our godly meditations enlar<g ref="char:EOLhyphen"/>ged: our affiance ſtrengthened: ſinne abated: Sathan foyled: and the pow<g ref="char:EOLhyphen"/>ers of Hell and Darkeneſſe vanquiſhed and overcome. Wherfore, I ſay no more then the Spirit hath ſaid in the <hi>Revela<g ref="char:EOLhyphen"/>tion:</hi>
+               <note place="margin">Rev. 2.29</note> 
+               <hi>Let him that hath an eare, heare.</hi> And thus much bee ſpoken of the par<g ref="char:EOLhyphen"/>ties who are to heare: and conſequent<g ref="char:EOLhyphen"/>ly, of their name, <hi>Invitation</hi> and <hi>Di<g ref="char:EOLhyphen"/>rection.</hi>
+            </p>
+            <p>Now, of the perſon whom they are to heare, in this word MEE: or, the party who wil teach them, in theſe: <hi>I wil teach you:</hi> which, becauſe they belong both unto one perſon, I will not ſever them, but for unity and peace ſake, conioyne them: and as <hi>M. Curius</hi> ſaith: <hi>Duos parietes de eadem fideliâ dealbare:</hi> where you may ſee the bleſſed Prince of peace and lover of unity, propoſing unto his people a rule in Divinity.</p>
+            <p>Thoſe then who deſire to know
+<pb n="21" facs="tcp:16388:15"/>this was whom they were to hear; here my Text tels them, DAVID himſelfe: <hi>Come yee children and hearken unto mee;</hi> MEE, your Prince; MEE, your Pro<g ref="char:EOLhyphen"/>phet: And I, your Preacher; I, your Father (for ſo hee was unto them) will be your Teacher: <hi>I will teach you.</hi> Hee, having as it were, the Sword in one hand, and the word in the other: one, teaching; the other terrifying them: for, terrifying, and not teaching, may ſavour of tyranny: and, to teach, and not to terryfie, may make them lazie. Therefore, hee uſes his Princely power in his Propheticall Office: <hi>I will teach you, &amp;c.</hi> Here is teaching with autho<g ref="char:EOLhyphen"/>rity.</p>
+            <p>This perfect patterne of a compleat Prince, not pictured in <hi>Plato,</hi> nor fay<g ref="char:EOLhyphen"/>ned in <hi>Xenophon,</hi> but formed according to GOD's owne heart, is here really, and royally parallel'd by his ſacred Ma<g ref="char:EOLhyphen"/>ieſtie, our Gracious SOVERAIGNE: informed, by Gods Spirit, in all holy knowledge; and conformed unto DAVID himſelfe in all godly practice.</p>
+            <p>His ſanctified wiſdome and know<g ref="char:EOLhyphen"/>ledg, my heart doth rather ioyfully con<g ref="char:EOLhyphen"/>ceive,
+<pb n="22" facs="tcp:16388:16"/>then my pen can ſufficiently ex<g ref="char:EOLhyphen"/>preſſe: his holy Commaunds, divine Expoſitions, and ſacred Directions, in his ſeverall Bookes, doe beſt expreſſe.</p>
+            <p>What zeale hee hath ever had, and ſtill hath unto Gods Houſe, and to ſet forth his Glorie; what dangers he hath eſcaped, &amp; thankefulneſſe unto GOD, the Author thereof, ordayned: what a bleſſing Hee hath been unto this King<g ref="char:EOLhyphen"/>dome diſioynted, when it was, in dan<g ref="char:EOLhyphen"/>ger of inundation, and innovation, after the late Queenes death of bleſſed me<g ref="char:EOLhyphen"/>morie, in his peaceable entrance; com<g ref="char:EOLhyphen"/>fortable union; continuance of peace, and prevention of warre; preſerving the truth, and confuting error: If any bee ignorant of the tranſlated BIBLE, his owne Workes, &amp; wholſom Lawes, to the ioy of all loyall hearts, will ever teſtifie him, Wife, Learned, Good, and Godly.</p>
+            <p>And, how in this particular his moſt Ex<g ref="char:EOLunhyphen"/>cellent Maieſty, <hi>de jure,</hi> hath reſembled this princely Prophet, all Iuriſdictions within his Maieſties Dominions, <hi>de facto,</hi> can witneſſe.</p>
+            <p>Since then, this notable authority is
+<pb n="23" facs="tcp:16388:16"/>not built upon the notable foundation of heareſay, but of the knowne truth, not denied by her adverſaries; it ought much to move all loyall hearts, to re<g ref="char:EOLhyphen"/>move all lets that may hinder this god<g ref="char:EOLhyphen"/>ly Exerciſe; &amp; with all alacrity to ſtirre them uppe with an earneſt deſire for Gods glory, and their owne good, to bee inſtructed thereby.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> And ſo I come to the doctrine which this princely Prophet will preach, or Leſſon that hee will teach them, The feare of GOD; <hi>I will teach you the feare of the Lord.</hi>
+            </p>
+            <p>Firſt, I will ſpeake of the Quality; then of the Obiect.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="1"/> The quality, <hi>Feare,</hi> in holy Scrip<g ref="char:EOLhyphen"/>ture is diverſly taken: but eſpecially, two wayes. Firſt, <milestone type="tcpmilestone" unit="unspecified" n="1"/> it is taken for an aw<g ref="char:EOLhyphen"/>full dread and reverence of GOD, which makes us carefull to obey, and fearefull to offend: by which we make conſcience of all our words and works, as ſtanding in the preſence of GOD: Which ELIAH thought fit to pro<g ref="char:EOLhyphen"/>duce, as an argument the better to per<g ref="char:EOLhyphen"/>ſwade ACAB to give faith unto the truth which hee did deliver.
+<note place="margin">1. Reg. 17.</note> And the
+<pb n="24" facs="tcp:16388:17"/>good Theefe's words unto the bad, up<g ref="char:EOLhyphen"/>on the Croſſe, were theſe: <hi>Feareſt thou not God, ſeeing thou art in the ſame condemnation?</hi> (as if hee had ſaid) Art thou ſo deſtitute of grace, as not to con<g ref="char:EOLhyphen"/>ſider the place and caſe wherein thou art? Haſt thou no feare or awe of him who now taketh vengeance, and exe<g ref="char:EOLhyphen"/>cuteth iudgement upon thee for thy former ſinnes and iniquities? How dareſt thou ſtill perſiſt to revile and raile upon this innocent and iuſt Man? Feareſt thou not GOD? And by this <hi>Feare,</hi> DAVID directeth all men, er<g ref="char:EOLhyphen"/>ring in this vaile of miſery; ſaying, <hi>Stand in awe and ſin not.</hi>
+               <note place="margin">Pſal. 4.4.</note> PSAL. 4.4.</p>
+            <p>Secondly, <milestone type="tcpmilestone" unit="unspecified" n="2"/> 
+               <hi>Feare</hi> is taken for the whole worſhip and ſervice of GOD: And ſo it is to bee underſtood in this place: as if hee ſhould ſay, Liſten un<g ref="char:EOLhyphen"/>to mee and I will teach you the true worſhip of GOD according unto that of the Prophet <hi>Iſaiah</hi> 29,
+<note place="margin">Iſai. 29.13.</note> where God ſaith: <hi>Their feare towards me was taught by the precepts of men: (id eſt)</hi> Their Religion, and manner of worſhip was taught by mans traditions, and not by my word.
+<note place="margin">Mat. 15.</note> Which our Saviour Chriſt
+<pb n="25" facs="tcp:16388:17"/>himſelfe interpreteth after the ſame manner: ſaying, <hi>In vaine do they worſhip mee, teaching for doctrine the precepts of men.</hi> And the oath that IACOB took,
+<note place="margin">Gen. 31.42</note> 
+               <hi>Gen.</hi> 31. was by the feare of his father ISAAC <hi>(i.)</hi> by the feare of GOD which was in his father ISAAC: as if hee ſhould ſay; I ſweare by that GOD whom my Father adores: for God is ſometimes called by names <hi>effective;</hi> Our health, wealth, ſtrength, and ſal<g ref="char:EOLhyphen"/>vation: becauſe all theſe come from him from whom proceedeth every good and perfect gift: ſometimes <hi>obiective;</hi> Our Ioy; our Hope; our Love; our feare: becauſe hee is the obiect of all theſe, and therfore ſhould be the ſcope and end of all our worſhip and ſervice of GOD <hi>affective.</hi>
+            </p>
+            <p>Secondly, <milestone type="tcpmilestone" unit="unspecified" n="2"/>
+               <note place="margin">
+                  <hi>Tertull. A<g ref="char:EOLhyphen"/>pol. cap.</hi> 34.</note> conſider we then the Ob<g ref="char:EOLhyphen"/>iect of this <hi>Feare: The</hi> LORD; which <hi>Tertullian</hi> ſaith: Is the very Surname of GOD, and is moſt commonly in Scrip<g ref="char:EOLhyphen"/>ture applied unto CHRIST, the Se<g ref="char:EOLhyphen"/>cond perſon, and that by conſent of the whole Trinity:
+<note place="margin">Ioh. 13.13.</note> by CHRIST him<g ref="char:EOLhyphen"/>ſelfe, <hi>Ioh.</hi> 13. <hi>Yee call me Lord and ma<g ref="char:EOLhyphen"/>ſter, and yee ſay well, for ſo am I:</hi> by his
+<pb n="26" facs="tcp:16388:18"/>Father,
+<note place="margin">Act. 2.36.</note> who hath made him both Lord and Chriſt: and by the holy Ghoſt, in the mouth of men: <hi>Hic eſt omnium dominus:</hi>
+               <note place="margin">Act. 10.36. Pſal. 1 10.</note> 
+               <hi>This Ieſus Chriſt is Lord of all men.</hi> And DAVID himſelfe ſaith: <hi>The Lord ſaid unto my Lord, &amp;c.</hi> Yet becauſe the doctrine here is generall; and alſo in the Epiſtle unto the <hi>Epheſ.</hi> 4.
+<note place="margin">Eph. 4.4.</note> the A<g ref="char:EOLhyphen"/>poſtle applyeth the word unto the whole Trinity, <hi>
+                  <g ref="char:V">Ʋ</g>nus Dominus:</hi> it will not be amiſſe here ſo to doe.
+<note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>.</note> Take then the Lord, either as he is abſolute &amp; en<g ref="char:EOLhyphen"/>tire of himſelfe, his moſt lively &amp; per<g ref="char:EOLhyphen"/>fect eſſence: <hi>Ens ille; ille qui eſſentiam ſuam à ſeipſo habet:</hi> or take him in his attributes and properties, wherein hee is the ſame with himſelf: for, <hi>Quicquid eſt in Deo Deus eſt.</hi> Or view him in his Iuſtice, a dreadfull GOD, a God of vengeance: <hi>Vengeance is mine, I will repay ſaith the Lord.</hi> MOSES could not endure his ſight, nor the people his voyce: <hi>O let not God ſpeake unto us;</hi> that is, immediatly, by himſelfe, <hi>leſt we dye.</hi> Or take notice of GOD in the ſweeteſt property of his nature, his infinite mer<g ref="char:EOLhyphen"/>cy and loving kindneſs, not diminiſh<g ref="char:EOLhyphen"/>ing our accounts, as the Steward in the
+<pb n="27" facs="tcp:16388:18"/>Goſpell, who for a 100, ſets down 50: but utterly can celling our bills, &amp; blot<g ref="char:EOLhyphen"/>ting all our wickedneſſe our of his re<g ref="char:EOLhyphen"/>membrance.</p>
+            <p>Conſider the LORD (I ſay) either in his Maieſty, or Mercy: as he is a God of vengeance or patience, hee is to bee feared. This Feare of the Lord,
+<note place="margin">Pſal. 111.10. Eccles. 12.13 Pſal. 145.15 Pſal. 115.13</note> is the beginning of wiſdome, and the end of all. <hi>Thoſe which fear him ſhall be his ſchol<g ref="char:EOLhyphen"/>lers, Pſal</hi> 145. And he will fulfill their deſire &amp; bleſſe them all great and ſmall his hands is over them to defend them: and his eye is upon them like a pitifull Father, to extend mercy:
+<note place="margin">Pſal. 33.17. Pſal. 103.13 Pſal. 103.9</note> and the mer<g ref="char:EOLhyphen"/>cifull goodneſs of this Lord unto theſe endureth for ever and ever. And ther<g ref="char:EOLhyphen"/>fore they lacke nothing <hi>(i.)</hi> nothing that is good for them. View this by ex<g ref="char:EOLhyphen"/>perience; Was there ever any that fea<g ref="char:EOLhyphen"/>red the Lord diſappointed? How fared it with <hi>Iacob, Iob,</hi> and others his ſaints and ſervants?
+<note place="margin">Pſal. 12<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> 
+               <hi>Hee hath given meat un<g ref="char:EOLhyphen"/>to them that feare him:</hi> yea, they are all bleſſed: for the Lord's delight is in them that feare him. You have ſeene the be<g ref="char:EOLhyphen"/>nefit: behold the beauty of this feare:
+<note place="margin">The beauty of God's feare.</note> The feare of the Lord is a pleaſant gar<g ref="char:EOLhyphen"/>den
+<pb n="28" facs="tcp:16388:19"/>of bleſſing, and there is nothing ſo beautifull as it is, the fruit of this garden is bliſſe,
+<note place="margin">Heclus, 40.27</note> &amp; nothing ſo beautifull as it is.</p>
+            <p>You have heard of the parties invi<g ref="char:EOLhyphen"/>ted by Name and Direction, if you did hearken to the word, Hearken: and of him that taught them, DAVID, a Prince and a Prophet: &amp; of the bene<g ref="char:EOLhyphen"/>fit and beauty of God's feare, the leſ<g ref="char:EOLhyphen"/>ſon for our learning, by mee; though neither Prophet,
+<note place="margin">Amos 7.14</note> nor Son of a Prophet: yet by the grace of GOD, I am that I am, a Servant of GOD and Preacher and priſoner of Ieſus Chriſt:
+<note place="margin">Paul to Philem. <hi>Auguſt. Fam.</hi> 10. <hi>ſer.</hi> 16. <hi>p.</hi> 49.</note> &amp; ſay with <hi>S. Auguſt. Domino iubente loquor, quo terrente non taceo: The Lord commands mee, wherefore I ſpeake; hee threatens if I forbeare, and therefore I dare not keepe ſilence.</hi>
+            </p>
+            <p>Learne this Leſſon then,
+<note place="margin">Applicati<g ref="char:EOLhyphen"/>on.</note> for the worthineſs of the Author, and worth of the matter; both giving life unto our learning. But what, can every man learne? will ſome ſay. I anſwer: Hath God given unto every one, an eare to heare; a tongue to ſpeake; a heart to underſtand; and a memory to beare a<g ref="char:EOLhyphen"/>way, let him pray unto GOD, who
+<pb n="29" facs="tcp:16388:19"/>made the deafe to heare, the dumbe to ſpeake, the ſimple, to underſtand; the ſicke and the diſeaſed to remember the great workes of the LORD: hee will much rather open his ears, that he may heare; untye his tongue, that hee may ſpeake; mollifie his heart, that he may underſtand; and ſtrengthen his memo<g ref="char:EOLhyphen"/>ry to retaine the ſame: provided, that herewithall he ioyne his owne induſtry and paines; which is, obediently and reverently to frequent the Congrega<g ref="char:EOLhyphen"/>tion; to be catechized and inſtructed. Repetition is practiſed in other Arts and Sciences, although in none as it ought more then catechizing in Divi<g ref="char:EOLhyphen"/>nity. If we cannot repeat what we have learned in other Arts, it is a plaine proofe, wee have not learned them as wee ſhould. And ſhall wee be thought to have learned many things, nay in<g ref="char:EOLhyphen"/>deed, any thing in Religion, when we cannot render an account of the Arti<g ref="char:EOLhyphen"/>cles of our Creed, or the ten Comman<g ref="char:EOLhyphen"/>dements.</p>
+            <p>Give mee leave to propoſe the 400 Catechizing houſes which were in Ie<g ref="char:EOLhyphen"/>ruſalem<g ref="char:punc">▪</g> as alſo, our Engliſh trayterous
+<pb n="30" facs="tcp:16388:20"/>Seminaries, for an example of paines and induſtry unto you: learne of thoſe Schollers of Antichriſt, who are ſo ſtudious in their generations, to bee likewiſe ſtudious, painefull, &amp; deſirous to bee catechized and inſtructed in the wayes of godlineſs. If you uſe the ſame diligence that they beare the world in hand they doe, you may prove as lear<g ref="char:EOLhyphen"/>ned as they are accounted: As they be learned in the language of the Calde<g ref="char:EOLhyphen"/>ans, ſo may you bee learned in the lan<g ref="char:EOLhyphen"/>guage of Canaan: as they are taught to maintaine the pride of that Romiſh Strumpet, ſo may you bee furniſhed with all good knowledge to maintaine the ſimplicity of the Goſpell, and true Religion: they, Antichriſt; you, our Lord and onely CHRIST: they, the Pope you, the true &amp; ever living GOD.</p>
+            <p>Wherefore, in a word, uſe all dili<g ref="char:EOLhyphen"/>gence, and with diligence, ioyne medi<g ref="char:EOLhyphen"/>tation and prayer, that you may profit hereby in the feare of the Lord, &amp; ther<g ref="char:EOLhyphen"/>in provoke others to doe the like; and win our adverſaries, the Papiſts, to the truth; who, ſeeing your increaſe in ſound learning, and fear of GOD, may
+<pb n="31" facs="tcp:16388:20"/>follow you in both: That the idle may leave his ſloath, ſeeing your labours: that the ignorant may bee aſhamed, be<g ref="char:EOLhyphen"/>holding your knowledg: the wicked li<g ref="char:EOLhyphen"/>ver reclaimed, ſeeing your care to walk in the fear of the LORD: that you your ſelves may bee edified, and preſented blameleſſe at that great and fearfull day of the Lord IESVS: To whom, with the Father, and the holy Ghoſt; three Perſons, and one GOD be aſcribed all pow<g ref="char:EOLhyphen"/>er, maieſtie, might, and dominion, both now and ever.</p>
+            <closer>AMEN.</closer>
+         </div>
+      </body>
+   </text>
+</TEI>

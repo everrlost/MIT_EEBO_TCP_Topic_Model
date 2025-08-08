@@ -1,0 +1,594 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The sweet milke of Christian doctrine in a plaine and naturall method, by question and answere, for their better vnderstanding, for whom it is chiefly written.</title>
+            <author>Sym, John.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1617</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 38 KB of XML-encoded text transcribed from 17 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A13281</idno>
+            <idno type="STC">STC 23585</idno>
+            <idno type="STC">ESTC S106181</idno>
+            <idno type="EEBO-CITATION">99841904</idno>
+            <idno type="PROQUEST">99841904</idno>
+            <idno type="VID">6519</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A13281)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 6519)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 582:09)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The sweet milke of Christian doctrine in a plaine and naturall method, by question and answere, for their better vnderstanding, for whom it is chiefly written.</title>
+                  <author>Sym, John.</author>
+               </titleStmt>
+               <extent>[32+] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by George Purslowe, for Iohn Hodges,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1617.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Signatures: A-B.</note>
+                  <note>Imperfect; lacks all after leaf B8.</note>
+                  <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Catechisms, English --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-04</date>
+            <label>Colm MacCrossan</label>Sampled and proofread</change>
+         <change>
+            <date>2012-04</date>
+            <label>Colm MacCrossan</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:6519:1"/>
+            <pb facs="tcp:6519:1"/>
+            <p>THE Sweet Milke <hi>Of</hi> CHRISTIAN <hi>Doctrine:</hi> In a plaine and naturall Method, <hi>by Queſtion and Anſwere, for their</hi> better vnderſtanding, for whom it is chiefly written.</p>
+            <q>
+               <bibl>
+                  <hi>1. PET. 2.2.</hi>
+               </bibl>
+               <p>As new borne Babes deſire the ſincere milke of the Word, that you may grow thereby.</p>
+            </q>
+            <p>LONDON, Printed by <hi>George Purſlowe,</hi> for <hi>Iohn Hodges.</hi> 1617.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:6519:2"/>
+            <pb facs="tcp:6519:2"/>
+            <head>To my VVelbeloued <hi>friends and Neighbours, the</hi> in<g ref="char:EOLhyphen"/>habitants and people of Leigh, in Eſſex; <hi>grace, mercy and peace be multipli<g ref="char:EOLhyphen"/>ed, from God the Father, through our Lord</hi> IESVS CHRIST. (**)</head>
+            <p>
+               <seg rend="decorInit">A</seg>S there is not anie one thing, whereof he, that is in hand to build any great and magnificent building, ſhould bee more carefull, then that he do lay the foundatio<g ref="char:cmbAbbrStroke">̄</g> therof firm and ſure; otherwiſe, he ſhall not only loſe his coſt and trauell ſpent about it, but alſo endanger his life in it, by the vn<g ref="char:EOLhyphen"/>expected tumbling of it downe vpon his head: ſo likewiſe, that Chriſtian, who would ſo build vp and reare the great and luſty frame of the work of his ſaluation, that hee may not in the end both loſe his labour and charges, and
+<pb facs="tcp:6519:3"/>alſo himſelfe bee cruſhed vnder it, and vtterly periſh by the dreadful fall there<g ref="char:EOLhyphen"/>of; as it befell to him, who built his houſe vpon the ſand:<note place="margin">Math. 7.27</note> hath need to look to lay the foundation thereof certaine, ſure, and proportionable in the vndecei<g ref="char:EOLhyphen"/>uable and ſteady principles &amp; grounds of Chriſtianitie; which doe virtually comprehend and ſuſtaine the huge and weighty burden of the whole building of religion, wherin he doth repoſe him<g ref="char:EOLhyphen"/>ſelfe.</p>
+            <p>Which grounds, though they ly low in the building, are not therefore the more to be neglected or diſpiſed of any, but rather the more to be regarded and carefully preſerued, for the neceſſary vſe and aboundant profit, which thence doth ariſe to a ſound Chriſtian: for this foundation beeing once well layd and continued, it is a ſtrong fortreſſe againſt errour and hereſie: for though a man be not ſo expert in the Scripture, as to know the true and naturall meaning of all the texts thereof, yet may he boidly reiect that doctrine,<note place="margin">2. Ioh. 10</note> which doth not proportionably agree with the frame and analogie of faith,<note place="margin">Rom. 12.6</note> ſummarily com<g ref="char:EOLhyphen"/>priſed in the grounds of religion for the
+<pb facs="tcp:6519:3"/>ſimple truth comming all from the ſame Spirit, cannot bee contradictorie to it ſelfe.</p>
+            <p>Againe, by the knowledge of the prin<g ref="char:EOLhyphen"/>ciples of religion, a good Chriſtian may be both an vnderſtanding and iudicious Reader and hearer of the word: for there is not any truth deliuered co<g ref="char:cmbAbbrStroke">̄</g>cerning our ſaluation, which he may not plainly ſee both to ariſe from, and agree with ſome of the grounds and principles of religi<g ref="char:EOLhyphen"/>on, whereunto he may referre it: for the truth is vniforme.</p>
+            <p>Finally, a man furniſhed with the ſound vnderſtanding of theſe grounds,<note place="margin">1. Pet. 3.15. 2. Tim. 2.2</note> is able to render a good and ſufficient reaſon of his faith; and to informe and eſtabliſh o<g ref="char:EOLhyphen"/>thers in the ſame things, not confuſedly only in ſome good notes here and there ſcatteringly gathered, but orderly and with iudgement in the whole frame of Chriſtian Religion, briefly compact in one intire bodie.</p>
+            <p>Further, that theſe Principles of Reli<g ref="char:EOLhyphen"/>gion ſhould bee ſet downe by way of Queſtion and Anſwer, it is without que<g ref="char:EOLhyphen"/>ſtio<g ref="char:cmbAbbrStroke">̄</g> the moſt profitable way for the ſim<g ref="char:EOLhyphen"/>pler ſort of people; the which courſe of catechiſing, is both largely co<g ref="char:cmbAbbrStroke">̄</g>mended by
+<pb facs="tcp:6519:4"/>the learned, and ſtraightly vrged by au<g ref="char:EOLhyphen"/>thority, of which kind of teaching there be models and methods almoſt infinite: which in my iudgement is not to be bla<g ref="char:EOLhyphen"/>med as a vice, but rather commended as a vertue; when they doe all agree in the ſame ſubſtance of truth, though differ in the manner of contriuing and handling thereof, according to the variety and multiplicity of the gifts of Gods Spirit:<note place="margin">1. Cor. 12.4.</note> for therby a more irrefragable teſtimony is publikely giuen to the truth, when all writings apert, and after ſeuerall maners, doe all agree in one and the ſame verity. And whereas the diſpoſition, manners, and opinions of ſeueral people, in ſeueral places and ages do differ; for the rectify<g ref="char:EOLhyphen"/>ing thereof, theſe ſeuerall and differing formes and methods of teaching are wel (by Gods prouidence) fitted.</p>
+            <p>Now, ſeeing that after that Catechifme ſet downe in the book of Common prai<g ref="char:EOLhyphen"/>er, whereby children are prepared for confirmation, wee are not by authority tied only to vſe al any one certaine form of Catechiſm, for the edification of them of riper yeeres: therefore taking the be<g ref="char:EOLhyphen"/>nefit of that common liberty, for the fur<g ref="char:EOLhyphen"/>ther building vp of that part of Gods
+<pb facs="tcp:6519:4"/>Church committed to my charge, I doe by the long and earneſt importunity of many of you (my louing friends, to who<g ref="char:cmbAbbrStroke">̄</g> I am not onely willing cheerefully to im<g ref="char:EOLhyphen"/>part my trauels,<note place="margin">1. Theſ. 2.8</note> but euen alſo mine owne ſelfe for your good) ſuffer this briefe and plaine draight to be wrung from me, to come abroad amongſt multitudes of the ſame nature: not hereby to finde fault with, or diſparage any of them, but that thereby with my greater eaſe I may the better benefit and helpe you, both by ca<g ref="char:EOLhyphen"/>techiſing and preaching: for when both catechiſing and preaching come framed out of the ſame mould, the one orderly agreeing with the other; the one doth both confirme and illuſtrate the other to the hearers: as when the foundation and walls of a houſe are both of one propor<g ref="char:EOLhyphen"/>tion, it is moſt ſtrong and ſightly: and alſo the Church being by this little pub<g ref="char:EOLhyphen"/>like taſte ſatisfied and contented touch<g ref="char:EOLhyphen"/>ing the ſame doctrine,<note place="margin">Gal. 2.9</note> which you are or<g ref="char:EOLhyphen"/>dinarily taught in priuate, her approbati<g ref="char:EOLhyphen"/>on and allowance thereof, may bee a ſtrong motiue to cauſe you the more to regard it: for my part, I haue no greater ioy then that you walke in the truth.<note place="margin">3. Ioh. 4</note>
+            </p>
+            <p>Take this as a fore-runner and pledge
+<pb facs="tcp:6519:5"/>of a larger Treatiſe, which ſome of you haue much expected, to wit, the body of practicall and caſe diuinity, which lon<g ref="char:EOLhyphen"/>ger time, by further experience and ſtu<g ref="char:EOLhyphen"/>dy, muſt firſt better perfect and poliſh. In this method, I haue ſought to be both ſhort and plaine, for to helpe the memo<g ref="char:EOLhyphen"/>rie and vnderſtanding of the meaneſt a<g ref="char:EOLhyphen"/>mongſt vs; the proofes I haue quoted with the Anſweres, the words whereof I pray you to ſearch, for the benefit both of your ſelues and families: that your faith being built, not vpon mans word but Gods,<note place="margin">2. Tim. 1.12.</note> it may remaine ſure, knowing whom you haue beleeued.</p>
+            <p>And ſo I pray you, my good friends, giue all diligence to make your calling and election ſure,<note place="margin">2. Peter 1.10, 5</note> by adding vnto your faith vertue, to vertue knowledge, to knowledge temperance, to temperance patience, to patience godlineſſe, to god<g ref="char:EOLhyphen"/>lineſſe brotherly kindneſſe, to brotherly kindneſſe loue: and ſo being careful that both you and yours bee fearers of the Lord,<note place="margin">Pſal. 115.11, 12, 13, 14.</note> you may be aſſuredly perſwaded that God will be your helpe and ſhield, he will bleſſe you both great and ſmall, the Lord wil increaſe you more &amp; more, you and your children, as hee hath done
+<pb facs="tcp:6519:5"/>your vertuous forefathers in this place, who haue proued it true, that Godlineſſe is great gaine.<note place="margin">1. Tim. 6.6</note> Now the very God of peace ſanctifie you throughout; and I pray God your whole ſpirit, and ſoule,<note place="margin">1. Theſ. 5.23.</note> and bodie be preſerued blameleſſe vnto the comming of our Lord Ieſus Chriſt. AMEN.</p>
+            <closer>
+               <signed>Your louing and carefull Miniſter and Paſtor, <hi>IOHN SYME.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="prayer">
+            <pb facs="tcp:6519:6"/>
+            <head>A PRAYER.</head>
+            <p>WEe doe humbly thanke thee, (O Lord our God and hea<g ref="char:EOLhyphen"/>uenly Father) for thy mani<g ref="char:EOLhyphen"/>fold and gracious mercies continually beſtowed vpon vs, for the good both of our ſoules and bodies; whereof we doe humbly confeſſe our ſelues to bee moſt vnworthy, in regard of our vnthankful<g ref="char:EOLhyphen"/>nes, and manifold and grieuous ſinnes, whereby we doe alwaies offend thy ſa<g ref="char:EOLhyphen"/>cred Maieſty, and vexe thy holy Spirit: but thou (O Lord) who art the infinite fountaine of mercy, haue pitty and com<g ref="char:EOLhyphen"/>paſſion vpon vs, poore ſinners, to illumi<g ref="char:EOLhyphen"/>nate the blind eyes of our minds, that wee may ſee our ſinnes and wretched e<g ref="char:EOLhyphen"/>ſtate; ſo ſoften our flinty &amp; hard hearts, that wee may therefore relent and melt before thee, vnder the ſenſe and féeling of the grieuouſneſſe of the ſame: and ſo to frame our affections, that wée may e<g ref="char:EOLhyphen"/>uer loath and abhorre them. And graci<g ref="char:EOLhyphen"/>ous Father of heauen, forgiue and par<g ref="char:EOLhyphen"/>don
+<pb facs="tcp:6519:6"/>vnto vs our ſinnes, ſaue and deliuer vs from this our miſerable condition, through the onely merit and mediation of thy Sonne, our Sauiour <hi>IESVS CHRIST:</hi> And grant vnto vs a true and ſauing faith to beleeue in him, that we may thereby be grafted into him, and may be by his bloud waſhed from all our ſinnes, and cloathed with his righteouſ<g ref="char:EOLhyphen"/>neſſe, that ſo wee may haue in our con<g ref="char:EOLhyphen"/>ſciences the ſwéete teſtimony and aſſu<g ref="char:EOLhyphen"/>rance of thy loue and fauour in him: and giue vnto vs thy holy Spirit, wherby in the vertue of Chriſt Ieſus, wee may growe vp in newneſſe of life, that wee may thereby glorifie thée. For this pur<g ref="char:EOLhyphen"/>poſe, Lord, bleſſe vnto vs al good means, that we may know thy wil, that we may remember it, that wee may loue it, and delight in it, and giue vs grace ſo to ex<g ref="char:EOLhyphen"/>preſſe the power of it in our liues, in all godly wiſdome and diſcretion, that wée may euer keepe the faith and a good con<g ref="char:EOLhyphen"/>ſcience to the end. Lord preſerue and keepe vs from all dangers of ſoule and body; prouide and bleſſe for vs al things needfull, and grant vs comfortably to be contented therewith. Lord fit vs for our callings, make vs faithfull in them,
+<pb facs="tcp:6519:7"/>and bleſſe our trauels and labors therin: Giue vs grace euer to haue our conuer<g ref="char:EOLhyphen"/>ſation with thée in heauen, for the which Lord keep vs and prepare vs, and bring vs thereunto in thy good time, that ſo we may raigne with thée for euer in hap<g ref="char:EOLhyphen"/>pineſſe; through Ieſus Chriſt our Lord and onely Sauiour: To whom with thee and thy holy Spirit be all ho<g ref="char:EOLhyphen"/>nour, glory and prayſe, for euer and euer, <hi>A<g ref="char:EOLhyphen"/>MEN.</hi>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="tract">
+            <pb facs="tcp:6519:7"/>
+            <head>THE SWEETE milke of Chriſtian <hi>do<g ref="char:EOLhyphen"/>ctrine; in a plaine and naturall</hi> method; by Queſtion and Anſwere.</head>
+            <p>
+               <hi>Queſtion.</hi>
+            </p>
+            <p>
+               <hi>
+                  <seg rend="decorInit">W</seg>Hat is the chiefe and princi<g ref="char:EOLhyphen"/>pall end of our being, and of the whole courſe of our liues, whereat we ought al<g ref="char:EOLhyphen"/>waies to ayme, in euery thing which we do or vndertake?</hi>
+            </p>
+            <p>
+               <hi>Anſwere,</hi> That wee may glorifie God,<note place="margin">1. Cor. 10 31. Eph. 1.6. Phil. 2.12</note> and worke out our ſaluation in feare and trembling.</p>
+            <p>
+               <hi>Q. What ſure light, and vnfallible rule are wee to obſerue and follow, for our certaine direction and guide, in our choiſe and vſe of that courſe &amp; meanes, whereby wee may verily attaine and come to that our entended purpoſe and end?</hi>
+            </p>
+            <pb facs="tcp:6519:8"/>
+            <p>
+               <hi>A.</hi> The diuine and ſacred word of God only,<note place="margin">2. Pet. 1.19 2. Tim. 3.15, 16, 17.</note> contained in the holy Scrip<g ref="char:EOLhyphen"/>ture of the olde and new Teſtament; containing perfectly and plainely all things néedefull to make the man of God perfect.</p>
+            <p>
+               <hi>Q. What things are neceſſary for vs, that wee may thereby indeed glorifie God, and work out our owne ſaluation?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Sound knowledge and holy o<g ref="char:EOLhyphen"/>bedience.<note place="margin">Ioh. 13.17</note>
+            </p>
+            <p>
+               <hi>Q. What things are we principally to know?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> God,<note place="margin">Ioh. 17.3 2. Cor. 13.5. Iohn 1.18</note> and our ſelues.</p>
+            <p>
+               <hi>Q. How are we to know God?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> As he hath reuealed himſelfe vn<g ref="char:EOLhyphen"/>to vs.</p>
+            <p>
+               <hi>Q. How hath he reucaled himſelfe vnto vs?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Hee hath reuealed himſelfe vnto vs;<note place="margin">Rom. 1.19 20. Iohn 5.39 Heb. 1.3 Ioh. 14.9</note> firſt, by his works: ſecondly, by his word: thirdly, in his Sonne our Saui<g ref="char:EOLhyphen"/>our, Ieſus Chriſt.</p>
+            <p>
+               <hi>Q. What is God?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Hée is a Spirit,<note place="margin">Ioh. 4.24 1. Tim. 6.16. Rom. 11.35. Iob. 11.7 Exo. 34.6</note> infinite, hauing his being of himſelfe, in whom is infi<g ref="char:EOLhyphen"/>nit perfection and happineſſe, and from whom all things doe flow and procéed, and in him and for him haue their be<g ref="char:EOLhyphen"/>ing:
+<pb facs="tcp:6519:8"/>he is one in eſſence, three in perſons;<note place="margin">Iam. 1.17 Ro<g ref="char:cmbAbbrStroke">̄</g>. 11.36 Mat. 10.29 1. Tim. 2.5 1. Iohn 5.7 1. Cor. 15.47.</note> Father, Sonne, and holy Ghoſt.</p>
+            <p>
+               <hi>Q. How are we to know our ſeluess?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> We are to know our ſelues, both as we be of our owne natures, and alſo as we be by the ſpeciall ſauing grace of God.</p>
+            <p>
+               <hi>Q. How are we to know our ſelues as we be of our owne natures?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> We are to know our ſelues,<note place="margin">Eccleſ. 7.29.</note> as we be of our owne natures, both as we were by nature, vncorrupt in the eſtate of innocencie, and as we are by nature, corrupt in the eſtate of miſerie.</p>
+            <p>
+               <hi>Q. What were wee by nature vncor<g ref="char:EOLhyphen"/>rupt in the eſtate of innocencie?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> In the eſtate of innocencie or na<g ref="char:EOLhyphen"/>ture vncorrupt, wee were created by God male &amp; female, conſiſting of ſoule and bodie, in <hi>Adam</hi> and <hi>Eue</hi> perfect, ac<g ref="char:EOLhyphen"/>cording to the Image of God in wiſe<g ref="char:EOLhyphen"/>dome, righteouſneſſe, and true holineſſe; enioying all things needful for our hap<g ref="char:EOLhyphen"/>pineſſe in that eſtate:<note place="margin">Gen. 2.7 Eccl. 7.29 Gen. 1.27 Col. 3.10 Eph. 4.24 Pſal. 8.4.</note> in which conditi<g ref="char:EOLhyphen"/>on we were able alwaies ſo to haue con<g ref="char:EOLhyphen"/>tinued, but changeable according to our owne mutable free-will, either to ſtand or fall, as we ſhould chooſe.</p>
+            <p>
+               <hi>Q. <hi>What are we now by nature cor<g ref="char:EOLhyphen"/>rupt
+<pb facs="tcp:6519:9"/>in the eſtate of miſerie?</hi>
+               </hi>
+            </p>
+            <p>
+               <hi>A.</hi> We are the children of wrath and diſobedience, caſt out of Gods fauour and protection, through our tranſgreſ<g ref="char:EOLhyphen"/>ſion in our firſt parents <hi>Adam</hi> and <hi>Eue;</hi> who did,<note place="margin">Epheſ. 2.3 Eſay 59.2 Rom. 5.18, 19. Gen. 3.6 Rom. 2.5.</note> contrary to Gods command, eate of the forbidden fruit, at the diuels perſwaſion: which miſerable condition we haue euer ſince, by our perſonall and actuall ſins confirmed and augmented.</p>
+            <p>
+               <hi>Q. What things doe make vs, in this corrupt eſtate, to be ſo miſerable?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Our ſinne,<note place="margin">Eſay 6.5 Pro. 11.21 Rom. 5.12</note> and the puniſhment of our ſinne.</p>
+            <p>
+               <hi>Q. What is ſinne?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Sinne is the tranſgreſſion of the Lawe of God.</p>
+            <p>
+               <hi>Q. Which be the parts of ſin?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The corruption and guilt thereof,</p>
+            <p>
+               <hi>Q. What kinds of ſinne are we defiled with and guilty of?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Wee are both defiled with,<note place="margin">1. Ioh. 3.4 Rom. 5.14 Rom. 3.23</note> and guilty of Originall and Actuall ſinne.</p>
+            <p>
+               <hi>Q. What is Originall ſinne?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Originall ſinne, is the common ſinne of our nature corrupt, which wee haue from our firſt conception, in and through our ſinfull Parents, by natural propagation and diſcent; which conſi<g ref="char:EOLhyphen"/>ſteth
+<pb facs="tcp:6519:9"/>firſt,<note place="margin">Pſal. 51.5 Rom. 5.19 Iob. 14.4 Rom. 3.10, 11, 12. Gen. 8.21. Gen. 6.5.</note> in the guilt of y<hi rend="sup">e</hi> our rebellious act in <hi>Adam:</hi> ſeco<g ref="char:cmbAbbrStroke">̄</g>dly in corruptio<g ref="char:cmbAbbrStroke">̄</g> thence lineally deriued, in ful want of al ſauing grace, &amp; deprauation of all the faculties and powers of ſoule &amp; body, and prone<g ref="char:EOLhyphen"/>neſſe of the ſame to all euill continually.</p>
+            <p>
+               <hi>Q. What is actuall ſinne?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Actuall ſin is our owne perſonall tranſgreſſion, continually iſſuing out of the liuing ſpring of our originall ſinne;<note place="margin">Iam. 1.14 Mat. 15.19 Rom. 1.32. Luk. 12.47. 1. Cor. 13.3</note> and doth conſiſt in doing that which is forbidden; and in omitting, or doing a<g ref="char:EOLhyphen"/>miſſe what is commanded.</p>
+            <p>
+               <hi>Q. What is the reward and puniſh<g ref="char:EOLhyphen"/>ment due to vs for theſe our ſinnes?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The certain wages due to vs for our ſins,<note place="margin">Ephe. 5.9. Iſay 59.2 Rom. 1.24 Heb. 3.11 Deu. 28.15 Tit. 1.15 Rom. 2.8. Reue. 21.8 Mat 25.41 Reu. 18.6.</note> is to be forſaken &amp; giuen ouer of God; to be vtterly depriued of grace and happines: and to be wholly in eue<g ref="char:EOLhyphen"/>ry reſpect ſubiect to the vengeance and curſe of God, both in this life preſent, &amp; alſo in the life to com, to y<hi rend="sup">e</hi> ſuffering both of the firſt &amp; ſecond death, in manner and meaſure, according to the number and nature of our ſinnes.</p>
+            <p>
+               <hi>Q. What vſe ought we to make of the knowledge of this our miſerable eſtate? A.</hi> We ought by y<hi rend="sup">e</hi> knowlege therof firſt, to rouze vp our ſelues out of our carnall
+<pb facs="tcp:6519:10"/>ſecuritie, and throughly to haue our hearts affected with déep humilitie and contrition, in deteſtation and loathing of our ſelues in this wretched conditi<g ref="char:EOLhyphen"/>on: ſecondly,<note place="margin">Ephe. 5.14 Iſa. 66.2 Rom. 7.24 Acts 2.37 Iob. 42.6</note> to ſtir vp our ſelues moſt earneſtly to endeuour how we may bee deliuered out of this eſtate, and bee brought into the ſpeciall grace and fa<g ref="char:EOLhyphen"/>uour of God againe.</p>
+            <p>
+               <hi>Q. What are wee by the ſpeciall ſa<g ref="char:EOLhyphen"/>uing grace of God?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> We are the children of God, and heires of heauen, by the frée mercy of God,<note place="margin">Rom. 8.16, 17. Ephe. 1.5. 2. Tim. 1.9 1. Pet. 2.9 Rom. 5.20. 2. Cor. 4.6.</note> choſen and called out of our eſtate of miſery, into the eſtate of grace and fa<g ref="char:EOLhyphen"/>uor of God; ſo made now (by the infinite mercy of God bringing good out of euil) more happy then euer we were before.</p>
+            <p>
+               <hi>Q. By whom are wee brought into this ſo gracious an eſtate?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> By our Lord and Sauiour Ieſus Chriſt onely.<note place="margin">Gal. 1.4. Ephe. 1.11</note>
+            </p>
+            <p>
+               <hi>Q. What things chiefly are wee to know, touching Ieſus Chriſt?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> We are to know his Perſon and his Office.<note place="margin">Ioh. 17.3 Phil 3.8 1. Cor. 2.2.</note>
+            </p>
+            <p>
+               <hi>Q. What maner of perſon is Ieſus Chriſt?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Hee is God the Sonne, the ſe<g ref="char:EOLhyphen"/>cond perſon of the Trinity, become man
+<pb facs="tcp:6519:10"/>for vs by an vnſeparable and vnfuſed v<g ref="char:EOLhyphen"/>nion of his diuine and humane natures,<note place="margin">Rom. 9.5 Mat. 2.17 Ioh. 1.14</note> and properties, and ſo is both God and man in one perſon.</p>
+            <p>
+               <hi>Q. <hi>Why was it needefull that Ieſus Chriſt ſhould be man?</hi>
+               </hi>
+            </p>
+            <p>
+               <hi>A.</hi> It was needful that Ieſus Chriſt ſhould be man,<note place="margin">Heb. 10.5</note> firſt that he might haue a body of the ſame nature that had ſinned, to offer vp in ſatiſfaction for ſinne.</p>
+            <p>Secondly,<note place="margin">Col. 1.21.22.</note> that in that body he might doe, and ſuffer all things needful for our redemption.</p>
+            <p>Thirdly, that we may lawfully claim,<note place="margin">1. Cor. 1.30. Ioh. 1.12.</note> and apprehend the benefit of all his me<g ref="char:EOLhyphen"/>rits done in that body, which hee hath common with vs in nature, as perſo<g ref="char:EOLhyphen"/>nally our owne.</p>
+            <p>
+               <hi>Q. Why is it needfull that our Saui<g ref="char:EOLhyphen"/>our ſhould be God?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> It is néedfull that our Sauiour ſhold be God, firſt, that he might be able to ouercome y<hi rend="sup">e</hi> powerful enemies,<note place="margin">Col. 2.15</note> &amp; ful<g ref="char:EOLhyphen"/>ly finiſh the great work of our ſaluation.</p>
+            <p>Secondly, that the perſonall vnion of the God head with his humanity might ſo dignifie the ſame, that it might be a ſufficient and worthy ſacrifice for all our ſins, and make all the actions and sufferings
+<pb facs="tcp:6519:11"/> of that perſon who is God,<note place="margin">Heb. 7.26 28. Act 20 28.2. Cor. 5.19. Ioh. 6.63</note> to be of infinite deſert and value.</p>
+            <p>Thirdly, that he may euer by his e<g ref="char:EOLhyphen"/>ternall Spirit communicate and apply himſelfe and his graces vnto vs; that they may truely be counted ours indéed.<note place="margin">Rom. 8.15</note>
+            </p>
+            <p>
+               <hi>Q. <hi>VVhat is the office of our Sauior Ieſus Chriſt?</hi>
+               </hi>
+            </p>
+            <p>
+               <hi>A.</hi> The office of our Sauiour Ieſns Chriſt is to be the redeemer and head of vs poore ſinners,<note place="margin">1. Tim. 1.15 Acts 4.12 Col. 1.18</note> his Elect and choſen people; his Church.</p>
+            <p>
+               <hi>Q. VVhat duties doth our Sauiour Chriſt performe for the due executing of that his office?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> He doth execute the dutie,<note place="margin">Heb. 1.1. Luke 1.73</note> firſt of a Prophet teaching vs in his truth.</p>
+            <p>Secondly,<note place="margin">Heb. 4.14</note> the dutie of a Prieſt, by the ſacrifice of himſelfe reconciling vs vnto his Father.</p>
+            <p>Thirdly,<note place="margin">Mat. 2.2. Pſalme 2.</note> the duty of a King, by ruling and defending of vs, by the power of his might and Spirit.</p>
+            <p>
+               <hi>Q. How may our knowledge of theſe and all other good things be profitable vnto vs?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> By adding vnto our knowledge holy obedience.<note place="margin">Ioh. 13.17</note>
+            </p>
+            <p>
+               <hi>Q. Wherein doth this holy obedi<g ref="char:EOLhyphen"/>ence conſiſt?</hi>
+            </p>
+            <pb facs="tcp:6519:11"/>
+            <p>
+               <hi>A.</hi> It doth ſtand in a voluntary yéel<g ref="char:EOLhyphen"/>ding and giuing vp of our ſelues to be ordered in all things by Gods holy wil,<note place="margin">Mat. 6.10. Gal. 1.16.</note> without further reaſoning with fleſh and blood.</p>
+            <p>
+               <hi>Q. VVhat kinds of obedience are we to performe?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> We are to perform both actiue obe<g ref="char:EOLhyphen"/>dience by our doing of his will,<note place="margin">Act. 10.35 1. Pet. 2.20</note> and alſo paſſiue obedience, by ſuffering his will to be done vpon vs.</p>
+            <p>
+               <hi>Q. Which be the kinds of our actiue obedience, which we are to performe?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Our actiue is both Euangelicall, commanded in the Goſpell for vs to do, for y<hi rend="sup">e</hi> attaining of Grace, which we wa<g ref="char:cmbAbbrStroke">̄</g>t:<note place="margin">Ioh. 3.18 Ioh. 6.40. Iam. 2.8.</note>
+            </p>
+            <p>And alſo Legall, commanded in the Law, which we are to do, that we may manifeſt, and continue in vs, the Grace of God receiued.</p>
+            <p>
+               <hi>Q. <hi>Which be the parts of Euangeli<g ref="char:EOLhyphen"/>call, or the obedience of the Goſpell?</hi>
+               </hi>
+            </p>
+            <p>
+               <hi>A.</hi> Faith and Repentance.<note place="margin">Mark. 1.15 Mat. 3.2</note>
+            </p>
+            <p>
+               <hi>Q. What is true ſauing faith?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> It is a true knowing, ſincere ap<g ref="char:EOLhyphen"/>prouing,<note place="margin">Ioh. 6.69 Phil. 1.10. Heb. 10.22 Acts 4.12.</note> and certaine relying vpon the gracious promiſes of GOD in Ieſus Chriſt only, for ſaluation and happines.</p>
+            <p>
+               <hi>Q. Where is the ſumme of that do<g ref="char:EOLhyphen"/>ctrine
+<pb facs="tcp:6519:12"/>briefly contained, which wee are neceſſarily to beleeue?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> In the Créede, commonly called the Apoſtles Creeds.</p>
+            <p>
+               <hi>Q. How many Articles doth that Creed conſiſt of?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> It conſiſteth of twelue Articles, according to the number of the Apoſtls, the ſuppoſed makers thereof.</p>
+            <p>
+               <hi>Q. <hi>What is the ſubiect matter of the contents of them Articles?</hi>
+               </hi>
+            </p>
+            <p>
+               <hi>A.</hi> It is firſt of God the Father; in theſe words: <hi>I beleeue in God the Father Almightie, &amp;c.</hi>
+            </p>
+            <p>Secondly, of the Sonne; beginning at theſe words, <hi>and in Ieſus Chriſt his only begotten Sonne, &amp;c.</hi>
+            </p>
+            <p>Thirdly, of the holy Ghoſt, in theſe words: <hi>I beleeue in the holy Ghoſt.</hi>
+            </p>
+            <p>Fourthly, of the Church, beginning at theſe words: <hi>the holy Catholike Church, &amp;c.</hi> to the end.</p>
+            <p>
+               <hi>Q. By what notes may a man certain<g ref="char:EOLhyphen"/>ly know, that he hath true ſauing faith?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> A man may know that hee hath true faith:<note place="margin">Mark 9.24</note> firſt, by the habite and inter<g ref="char:EOLhyphen"/>nall act thereof, by beleeuing, knowing himſelfe to beleeue.</p>
+            <p>Secondly, by the inward teſtimonie
+<pb facs="tcp:6519:12"/>of Gods Spirit to our ſpirits, according to the outward teſtimony of his word.<note place="margin">Rom. 8.16</note>
+            </p>
+            <p>Thirdly, by the inward ſincere diſ<g ref="char:EOLhyphen"/>poſition and affection of our hearts to goodneſſe, and againſt euill.<note place="margin">Pſal. 139.21, 22.</note>
+            </p>
+            <p>Fourthly, by the good fruites of our faith, in a conſcionable practiſe of al holy duties, in the whole courſe of our liues.<note place="margin">Iam. 2.17, 18.</note>
+            </p>
+            <p>
+               <hi>Q. What benefit and vſe are wee to make of this ſauing faith?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> We are therby, by beléeuing in our Sauior Ieſus Chriſt, to liue in y<hi rend="sup">e</hi> happy eſtate of regeneration in righteouſnes.<note place="margin">Rom. 1.17 Gal. 3.11</note>
+            </p>
+            <p>
+               <hi>Q. Which is that righteouſnes wher<g ref="char:EOLhyphen"/>in we are to liue by faith?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> It is the righteouſneſſe both of iuſtification and ſanctification.<note place="margin">Rom. 4.5 Tit. 2.12.</note>
+            </p>
+            <p>
+               <hi>Q. Wherein doth the righteouſneſſe of Iuſtification conſiſt?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> It doth conſiſt in the forgiueneſſe of our ſins,<note place="margin">Rom. 4.7, 8. 1. Cor. 1.30 Phil. 3.9</note> and in the imputation of Chriſts righteouſneſſe.</p>
+            <p>
+               <hi>Q. Wherein doth the righteouſneſſe of ſanctification conſiſt?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> It conſiſteth in the renewing of vs, in all our actions, diſpoſitions, fa<g ref="char:EOLhyphen"/>culties, and powers of ſoule and bodie,<note place="margin">Col. 3.10. 1. Theſ. 5.23. Rom. 8.2</note> ſincerely in ſom meaſure, by the vertue of the holy Spirit, in the death and re<g ref="char:EOLhyphen"/>ſurrection
+<pb facs="tcp:6519:13"/>of our Sauiour Ieſus Chriſt powerfully working in vs.<note place="margin">Rom. 6.4, 5.6. Eph. 4.22.23.24.</note>
+            </p>
+            <p>
+               <hi>Q. <hi>What is true repentance, which is the ſecond part of the obedience of the Goſpell?</hi>
+               </hi>
+            </p>
+            <p>
+               <hi>A.</hi> It is a true change of the whole man from all his former wicked diſpoſi<g ref="char:EOLhyphen"/>tion,<note place="margin">Ier. 31.19 2. Tim. 2.25. 2. Cor. 7.10. Acts 2.37. 1. Ioh. 1.9. Ezek. 18.27.28. Iude 23. Eſay 59.2.</note> purpoſes and ſins, with godly ſor<g ref="char:EOLhyphen"/>row of heart for them, confeſſing and forſaking them with vnreconcilable ha<g ref="char:EOLhyphen"/>tred of them, eſpecially for that they are offenſiue to our gracious God, and doe make diuiſion between him and vs.</p>
+            <p>
+               <hi>Q. What is our Legall obedience commanded in the Law?</hi>
+               <note place="margin">Ia<g ref="char:cmbAbbrStroke">̄</g>. 2.8.10. Exod. 20. Pſa. 34.14 1. The. 2.12</note>
+            </p>
+            <p>
+               <hi>A.</hi> It is the conſcionable performance of all that which we are commanded by the Morall Law of God, briefly compri<g ref="char:EOLhyphen"/>ſed in the tenne Commandements, the perfect rule of our ſanctification; wher<g ref="char:EOLhyphen"/>by carefully auoiding all euil forbidden, and doing all duties commanded, wee manifeſt and retaine in faith and loue the grace and vertues of God receiued.</p>
+            <p>
+               <hi>Q. Into how many tables is this Law of the ten Commandements diuided?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Into two.<note place="margin">Exod. 34.1</note>
+            </p>
+            <p>
+               <hi>Q. <hi>What things doth the firſt Table containe?</hi>
+               </hi>
+            </p>
+            <pb facs="tcp:6519:13"/>
+            <p>
+               <hi>A.</hi> Our duty to God, in the firſt foure Commandements, <hi>Thou ſhalt haue no other Gods before me.</hi>
+               <note place="margin">Mat. 22.38</note>
+            </p>
+            <p>
+               <hi>Q. What is the briefe ſum of all our dutie to God?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The ſum of our dutie to the Lord our God is, that wee loue him with all our heart, with all our ſoule,<note place="margin">Mat. 22.37</note> and with all our mind.</p>
+            <p>
+               <hi>Q. What things doth the ſecond Table containe?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> It doth coutaine our duty to our neighbour in the ſixe laſt Commande<g ref="char:EOLhyphen"/>ments, <hi>Honour thy Father and Mother. Thou ſhalt not kill, &amp;c.</hi>
+            </p>
+            <p>
+               <hi>Q. What is the briefe ſumme of our dutie to our neighbour?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> That wee doe loue him as our ſelues.<note place="margin">Mat. 22.39</note>
+            </p>
+            <p>
+               <hi>Q. After what manner ſhould we do all theſe duties commanded in the Mo<g ref="char:EOLhyphen"/>rall Law?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Wee are to labour to doe them in number,<note place="margin">Iam. 2.10 Mat. 5.48. Rom. 14.23</note> and euery one of them in de<g ref="char:EOLhyphen"/>gree of perfection of faith, and loue, in obedience to God, and care of his glory.</p>
+            <p>
+               <hi>Q. Hauing hitherto ſpoken of actiue obedience, what is now our paſſiue o<g ref="char:EOLhyphen"/>bedience, which wee are likewiſe to performe?</hi>
+            </p>
+            <pb facs="tcp:6519:14"/>
+            <p>
+               <hi>A.</hi> It is a patient and chéereful yéel<g ref="char:EOLhyphen"/>ding of our ſelues,<note place="margin">Rom. 5.3. Iam. 1.2 Pſal. 39.9 1. Pet. 2.20 Heb. 12.5, 6, 7.11. 2. Cor. 1.8 1. Pet. 3.14, 17. 2. Tim. 3.12.</note> without diſcontent and murmuring to endure and make good vſe of whatſoeuer afflictions it ſhal pleaſe God for his glory, and our tryall or chaſtiſement to lay vpon vs; either immediatly by himſelfe, or mediatly by any other meanes, how great or vniuſt and iniurious ſoeuer it may ſeem to vs.</p>
+            <p>
+               <hi>Q. Touching this courſe of our Chri<g ref="char:EOLhyphen"/>ſtian obedience, what dangers are we e<g ref="char:EOLhyphen"/>ſpecially to take heed of?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Wee ſhould moſt carefully take heed, that after we y<hi rend="sup">t</hi> haue begun in this courſe, we do not either againe, by the deceitfulneſſe of our owne hearts, and temptations of ſinne, the diuell, and the world, make apoſtacie and fall away to ſinne:<note place="margin">2. Pet. 2.20, 21, 22. Ier. 17.9. 2. Tim. 3.7.</note> or els, through our naturall ſecu<g ref="char:EOLhyphen"/>rity and ſloth, not grow vp and goe for<g ref="char:EOLhyphen"/>warde towardes perfection, in that courſe of obedience and grace.</p>
+            <p>
+               <hi>Q. By what meanes then may wee both ſtand firme, and grow vp in the e<g ref="char:EOLhyphen"/>ſtate of grace and obedience?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> By the conſcionable and continu<g ref="char:EOLhyphen"/>all vſe and helpe of the word of God, the Sacraments, prayer and diſcipline.</p>
+            <p>
+               <hi>Q. <hi>How are wee to vſe the Word of
+<pb facs="tcp:6519:14"/>God, that we may thereby both be kept and built vp?</hi>
+               </hi>
+               <note place="margin">1. Tim. 4.13. Heb. 2.11 Deut. 6.7 Pſal. 1.2 Iam. 1.22. Iſay 66.2 2. King. 22.19. He. 4.2 2. The. 2.10</note>
+            </p>
+            <p>
+               <hi>A.</hi> We are duely to read it, heare it, confer of it, and to meditate vpon it, with a reuerent and conſcionable re<g ref="char:EOLhyphen"/>gard thereof, in beleeuing and embra<g ref="char:EOLhyphen"/>cing the ſame in loue and obedience.</p>
+            <p>
+               <hi>Q. How do the Sacraments ſtay and ſtrengthen vs in this gracious eſtate?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> They doe it by a more ſenſible, affectuall and particular ſignifying, ap<g ref="char:EOLhyphen"/>plying and ſealing vp vnto vs, by con<g ref="char:EOLhyphen"/>uenient and fit viſible and earthly ele<g ref="char:EOLhyphen"/>ments,<note place="margin">Rom. 4.11</note> our Sauiour Ieſus Chriſt with his benefits, thereby repreſented and of<g ref="char:EOLhyphen"/>fered, by his owne ordinance in the due adminiſtration thereof; than it can bee done by the word alone.</p>
+            <p>
+               <hi>Q. VVhat things doe make a Sacra<g ref="char:EOLhyphen"/>ment to be really a Sacrament?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The words of the inſtitution, and the conſecrated elements,<note place="margin">1. Cor. 11.23, 24.</note> conioined in the adminiſtration of a Sacrament, doe make it to be indeed a Sacrament.</p>
+            <p>Q. <hi>Which are the ſubſtantiall parts of euery Sacrament, which wee are to receiue?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> They are the earthly viſible ele<g ref="char:EOLhyphen"/>ments, the ſignes and ſeales: and Ieſus
+<pb facs="tcp:6519:15"/>Chriſt with his graces ſignifie inuiſibly and ſpiritually offered and ſealed vp vn<g ref="char:EOLhyphen"/>to vs.<note place="margin">1. Cor. 10.16.</note>
+            </p>
+            <p>
+               <hi>Q. Which be theſe Sacraments?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> They are Baptiſm and the Sup<g ref="char:EOLhyphen"/>per of the Lord.<note place="margin">Mat. 28.19. Mat. 26.26.</note>
+            </p>
+            <p>
+               <hi>Q. What is Baptiſme?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> It is the Sacrament of our rege<g ref="char:EOLhyphen"/>neration or new-birth, in the due admi<g ref="char:EOLhyphen"/>niſtration therof repreſenting, offering, and ſealing vp vnto vs, by the outward waſhing of water purifying the bodie, the ſpiritual purifying of the whol man by Ieſus Chriſt,<note place="margin">Tit. 3.5 1. Pet. 3.21 Heb. 10.22</note> &amp; his blood ſhed for vs, &amp; ſprinkled vpon our conſciences by faith.</p>
+            <p>
+               <hi>Q. What is the Supper of our Lord?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> It is the Sacrament of our ſpiri<g ref="char:EOLhyphen"/>tuall nouriſhment, in the lawfull admi<g ref="char:EOLhyphen"/>niſtration therof, repreſenting, offering, and ſealing vp vnto vs, by the eating and drinking of bread and wine, which doth nouriſh vs to liue this temporary natu<g ref="char:EOLhyphen"/>ral life, Ieſus Chriſt by vertue &amp; merſt of his body and his bloud broken,<note place="margin">Ioh. 6.53 1. Cor. 11.26.</note> ſhed, and giuen for vs, and by faith receiued of vs, nouriſhing vs to liue a ſpirituall and eternall life.</p>
+            <p>
+               <hi>Q. How are we to prepare our ſelues be<g ref="char:EOLhyphen"/>fore we come to receiue this Sacrame<g ref="char:cmbAbbrStroke">̄</g>t of the Lords Supper?</hi>
+            </p>
+            <pb facs="tcp:6519:15"/>
+            <p>
+               <hi>A.</hi> We are firſt to examine and trie our ſelues, that wee may ſee our great and manifold wants both in knowledge and obedience, and in the conſcience thereof to humble and purge our ſelues by hearty repentance.</p>
+            <p>Secondly, wee are to whet our ſto<g ref="char:EOLhyphen"/>make and affections by praier and medi<g ref="char:EOLhyphen"/>tation, that we may come to that ſpiritu<g ref="char:EOLhyphen"/>all feaſt with an ardent deſire and hun<g ref="char:EOLhyphen"/>gry appetite after the graces there offe<g ref="char:EOLhyphen"/>red,<note place="margin">1. Cor. <gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>.28. Mat. 5.6.</note> whereof we ſtand ſo in neede.</p>
+            <p>
+               <hi>Q. What muſt we be moſt carefull of in the very act of our receiuing?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> We muſt be carefull that we doe receiue worthily.<note place="margin">1. Cor. 11.27.</note>
+            </p>
+            <p>
+               <hi>Q. How may we receiue worthily?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> That we may receiue worthily, wee muſt firſt receiue the outward ele<g ref="char:EOLhyphen"/>ments of bread, and with due reuerence and reſpect of the Lords body and blood,<note place="margin">1. Cor. 11.29.</note> whereof they are Sacraments.</p>
+            <p>Secondly, wee muſt in the ſame in<g ref="char:EOLhyphen"/>ſtant act of receiuing the elements, lift vp our hearts, by a liuely ſaith to ap<g ref="char:EOLhyphen"/>prehend and lay hold vpon Chriſt and his bleſſings, then and there verily offered vnto vs with the ſignes there<g ref="char:EOLhyphen"/>of.</p>
+            <pb facs="tcp:6519:16"/>
+            <p>
+               <hi>Q. What muſt wee be careful of after that we haue receiued?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> After that we haue receiued,<note place="margin">Mat. 26.30</note> wee ſhould firſt with freſh cheerefulneſſe be truly thanfull to God for his bleſſings there giuen to and receiued of vs.</p>
+            <p>Secondly, we ſhould by the vertue of them be ſtrengthened to continue firme<g ref="char:EOLhyphen"/>ly, and to proceed co<g ref="char:cmbAbbrStroke">̄</g>ſtantly in the waies and conrſe of godlineſſe.</p>
+            <p>Q. <hi>How may wee be vpheld and car<g ref="char:EOLhyphen"/>ried on in the courſe of grace and good<g ref="char:EOLhyphen"/>neſſe by Prayer?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> By hauing,<note place="margin">Iam. 5.16 Iam. 1.5 1. Tim. 4.5.</note> by feruent, faithfull, and effectuall prayer, all needfull graces beſtowed vpon vs, and bleſſed vnto vs from God, according to his word.</p>
+            <p>
+               <hi>Q. How ſhould wee come prepared to pray?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> With hearty and feeling affection of what wee are to pray for; and with faith, that wee ſhall be therein heard of God.</p>
+            <p>
+               <hi>Q. After what forme and manner ſhould we pray?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> We ſhould pray according as our Sauiour Chriſt himſelfe hath taught vs in that forme of prayer,<note place="margin">Mat. 6.9</note> called the Lords Prayer.</p>
+            <pb facs="tcp:6519:16"/>
+            <p>
+               <hi>Q. VVhat things are wee thereby to pray for?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Wee are to pray firſt, for ſuch things as doe immediatly concerne the glory of God;<note place="margin">Mat. 6.9, 10</note> contained in the firſt thrée Petitions of that Prayer.</p>
+            <p>Sercondly, for ſuch things as doe im<g ref="char:EOLhyphen"/>mediately concerne our owne good, tem<g ref="char:EOLhyphen"/>porall and eternall; contained in the laſt three Petitions of that Prayer:<note place="margin">Mat. 6.11, 12, 13.</note> 
+               <hi>Giue vs this day our daily bread, &amp;c.</hi>
+            </p>
+            <p>Q. <hi>How ſhould we behaue our ſelues before God in our Prayers?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> With attention, reuerence,<note place="margin">Iam. 5.16</note> and zeale.</p>
+            <p>
+               <hi>Q. How may wee be kept and built vp in the eſtate of grace and obedience, by the exerciſe of diſcipline?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> By hauing, by the lawfull and conſcionable execution thereof,<note place="margin">1. Cor. 5.5 1. Tim. 5.20.</note> our ſins redreſſed or preuented; and our vertue maintained and cheriſhed.</p>
+            <p>
+               <hi>Q. What things ſhould we principal<g ref="char:EOLhyphen"/>ly bee carefull of, in the ordinary vſe of theſe meanes of the Word, the Sacra<g ref="char:EOLhyphen"/>ments, Prayer, and Diſcipline?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> We ſhould be moſt carefull in the ordinarie vſe of them, that we doe not vſe them only cuſtomarily, but conſcio<g ref="char:EOLhyphen"/>nably:<note place="margin">Luk. 8.18.</note>
+               <pb facs="tcp:6519:17"/>and that we doe not put our con<g ref="char:EOLhyphen"/>fidence and reſt in the onely very dſe of them; but in God, who giueth the bleſ<g ref="char:EOLhyphen"/>ſing by them.<note place="margin">1. Cor. 3.7.</note>
+            </p>
+            <p>
+               <hi>Q. What profit ſhall wee haue by a conſtant preſeuering in this eſtate and courſe vnto the end?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> We ſhall thereby certainly bring glory to God,<note place="margin">Ioh. 15.8 1. Tim. 4.8.</note> and to our ſelues eternall ſaluation and happineſſe.</p>
+            <pb facs="tcp:6519:17"/>
+         </div>
+      </body>
+   </text>
+</TEI>

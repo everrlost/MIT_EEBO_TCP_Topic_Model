@@ -1,0 +1,699 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The summe of Christianitie set downe in familiar questions and answers.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1600</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 35 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A13139</idno>
+            <idno type="STC">STC 23432.7</idno>
+            <idno type="STC">ESTC S105679</idno>
+            <idno type="EEBO-CITATION">99841405</idno>
+            <idno type="PROQUEST">99841405</idno>
+            <idno type="VID">5986</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A13139)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 5986)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 561:02)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The summe of Christianitie set downe in familiar questions and answers.</title>
+               </titleStmt>
+               <extent>16 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>ca. 1600]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>Imprint from STC.</note>
+                  <note>Text in eight sections, beginning: "There haue bene alwayes, are, &amp; will be in the world, such as denie the Lord .."--STC.</note>
+                  <note>Signatures: A.</note>
+                  <note>Identified as STC 21183a on UMI microfilm.</note>
+                  <note>Reproduction of the original in the Folger Shakespeare Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Catechisms, English --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-09</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-01</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2011-01</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="catechism">
+            <pb facs="tcp:5986:1"/>
+            <pb facs="tcp:5986:1" rendition="simple:additions"/>
+            <head>THE SVMME OF CHRISTIANITIE, SET DOWNE IN FAMI<g ref="char:EOLhyphen"/>liar queſtions and anſwers.</head>
+            <div n="1" type="part">
+               <p>
+                  <label>Queſtion.</label>
+THere haue bene alwayes, are, &amp; will be in the world, ſuch as denie the Lord that made the<g ref="char:cmbAbbrStroke">̄</g>: tell me therefore firſt of all, are you perſwaded <note place="margin">2. <hi>Pet.</hi> 3. 3.</note> there is a God?</p>
+               <p>
+                  <label>Anſwer.</label> I am vndoubtedly aſſured hereof: firſt by that inward light of vnderſtanding whereby he raiſeth teſtimonie vnto him ſelfe in the hearts of <note place="margin">
+                     <hi>Rom.</hi> 1. 19.</note> men. Secondly by his works of creation, wherein <note place="margin">
+                     <hi>Rom.</hi> 1. 20.</note> he hath made his power &amp; godhead viſible. Third<g ref="char:EOLhyphen"/>ly by the works of his prouidence, whereby he eui<g ref="char:EOLhyphen"/>dently ſuſtaineth &amp; gouerneth all things. Fourthly <note place="margin">
+                     <hi>Act.</hi> 14. 17. <hi>&amp;</hi> 17. 24.</note> by his word, wherein he hath moſt clearely mani<g ref="char:EOLhyphen"/>feſted him ſelfe vnto vs. And therefore I deteſt from my heart, all atheiſme and atheiſts.</p>
+               <p>
+                  <label>Q.</label> What is God?</p>
+               <p>
+                  <label>A.</label> God is a ſpirit, eternall, infinite, almightie, <note place="margin">
+                     <hi>Ioh.</hi> 4. 24.</note> only wiſe, moſt iuſt, and moſt mercifull.</p>
+               <p>
+                  <label>Q.</label> Is there anie moe but one onely God?</p>
+               <p>
+                  <label>A.</label> There is one onely true and liuing God, but in the vnitie of this one godhead there are three diſtinct perſons, the Father, the Sonne, and the ho<g ref="char:EOLhyphen"/>ly <note place="margin">
+                     <hi>Mat.</hi> 28. 19</note> Ghoſt.</p>
+               <p>
+                  <pb n="2" facs="tcp:5986:2"/>
+                  <label>Q.</label> What is the Father?</p>
+               <p>
+                  <label>A.</label> The firſt perſon in the Deitie, of whom are the Sonne, and the holy Ghoſt. <note place="margin">
+                     <hi>Mat.</hi> 3. 17.</note>
+               </p>
+               <p>
+                  <label>Q.</label> What is the Sonne?</p>
+               <p>
+                  <label>A.</label> The ſecond perſon in the deitie begotten of <note place="margin">
+                     <hi>Io<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>.</hi> 1. 18. <hi>Heb.</hi> 1. 3.</note> the Father.</p>
+               <p>
+                  <label>Q.</label> What is the holy Ghoſt?</p>
+               <p>
+                  <label>A.</label> The third perſon in the Deitie, proceeding from the Father and the Sonne.</p>
+               <p>
+                  <label>Q.</label> Did not God create man perfect in nature, and happie in ſtate? <note place="margin">
+                     <hi>Ge.</hi> 1. 26. 28</note>
+               </p>
+               <p>
+                  <label>A.</label> Moſt perfect &amp; moſt happie. But by Satans perſuaſion man fell from that perfection, &amp; by his <note place="margin">
+                     <hi>Gen.</hi> 3. 2.</note> fall both loſt his firſt happineſſe, and threw himſelf and his into extreme miſerie.</p>
+               <p>
+                  <label>Q.</label> Are we then all miſerable?</p>
+               <p>
+                  <label>A.</label> All, not one excepted: and that by ſinne.</p>
+               <p>
+                  <label>Q.</label> What is ſinne?</p>
+               <p>
+                  <label>A.</label> Sinne is offence againſt God.</p>
+               <p>
+                  <label>Q.</label> Are all men ſinners?</p>
+               <p>
+                  <label>A.</label> All haue ſinned, and haue failed of the glo<g ref="char:EOLhyphen"/>rie <note place="margin">
+                     <hi>Rom.</hi> 3. <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>3.</note> of God.</p>
+               <p>
+                  <label>Q.</label> How may we be conuicted of ſinne?</p>
+               <p>
+                  <label>A.</label> Firſt by the teſtimonie of our owne conſci<g ref="char:EOLhyphen"/>ences: and then by the teſtimonie of God himſelfe, who is greater then our conſciences. <note place="margin">1. <hi>Ioh.</hi> 5. 20.</note>
+               </p>
+               <p>
+                  <label>Q.</label> What is the teſtimonie of conſcience?</p>
+               <p>
+                  <label>A.</label> That light of nature, wherby euery one diſ<g ref="char:EOLhyphen"/>cerning betweene good and euill, is accuſed of of<g ref="char:EOLhyphen"/>fence againſt God. <note place="margin">
+                     <hi>Rom.</hi> 2. 15.</note>
+               </p>
+               <p>
+                  <label>Q.</label> How doth God teſtifie that we be ſinners?</p>
+               <p>
+                  <label>A.</label> By his iudgements, aſwell generall as parti<g ref="char:EOLhyphen"/>ticular, and by his word.</p>
+               <p>
+                  <label>Q.</label> What are his generall iudgements?</p>
+               <p>
+                  <pb n="3" facs="tcp:5986:2"/>
+                  <label>A</label> His curſe vpon all creatures for ſinne, and <note place="margin">
+                     <hi>Gen.</hi> 3. 17. <hi>Gen.</hi> 6.</note> the deſtruction of the world by the flood.</p>
+               <p>
+                  <label>Q.</label> What are his particular iudgements?</p>
+               <p>
+                  <label>A.</label> Such as the puniſhment of Cain, and the de<g ref="char:EOLhyphen"/>ſtruction <note place="margin">
+                     <hi>Gen.</hi> 4. 11. <hi>Gen.</hi> 19. 24</note> of Sodome and Gomorrha.</p>
+               <p>
+                  <label>Q.</label> What doth God teſtifie againſt vs in his word?</p>
+               <p>
+                  <label>A.</label> That we be ſinners three maner of wayes Firſt by the ſinne of Adam, in whom all haue ſinned. <note place="margin">
+                     <hi>Rom.</hi> 5. 12.</note>
+               </p>
+               <p>
+                  <label>Qu.</label> How ſecondly?</p>
+               <p>
+                  <label>A.</label> In that we are all borne in ſinne, &amp; concei<g ref="char:EOLhyphen"/>ued in iniquitie; &amp; thereby the children of wrath. <note place="margin">
+                     <hi>Pſal.</hi> 51. 7. <hi>Epheſ.</hi> 2. 3.</note>
+               </p>
+               <p>
+                  <label>Qu.</label> How thirdly?</p>
+               <p>
+                  <label>A.</label> By our own perſonall tranſgreſſions, in lea<g ref="char:EOLhyphen"/>uing vndone that which is good, and committing that which is euill, in thought, word, &amp; deed: which we may beſt diſcerne by the Lawe of God giuen to <note place="margin">
+                     <hi>Rom.</hi> 3. <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>0.</note> that end.</p>
+               <p>
+                  <label>Q.</label> How may we affect &amp; pierce our ſelues here<g ref="char:EOLhyphen"/>with? <note place="margin">
+                     <hi>Act.</hi> 2. 37.</note>
+               </p>
+               <p>
+                  <label>A.</label> If we conſider the greatneſſe, lothſomneſſe, and multitude of our ſinnes, with the puniſhments due vnto them.</p>
+               <p>
+                  <label>Qu.</label> How may this be done?</p>
+               <p>
+                  <label>A.</label> The greatnes of our ſinnes we may eſteeme by the greatnes of him againſt whom they are co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>mitted; <note place="margin">1. <hi>Sam.</hi> 2. 25</note> and the lothſomneſſe, by that moſt perfect holineſſe which is in God, expreſſed in his Law.</p>
+               <p>
+                  <label>Qu.</label> What is the multitude of our ſinnes?</p>
+               <p>
+                  <label>A.</label> Dauid ſaid, his ſinnes were moe then the haires of his head; and who knoweth how often he <note place="margin">
+                     <hi>Pſal.</hi> 4. 13. <hi>Pſal.</hi> 19. 13</note> offendeth?</p>
+               <p>
+                  <label>Qu.</label> What are the puniſhments of ſinne?</p>
+               <p>
+                  <label>A.</label> The temporall puniſhments of ſinne are all the calamities &amp; afflictions of this life, all diſeaſes
+<pb n="4" facs="tcp:5986:3"/>
+of the bodie, and griefs of mind; and finally death <note place="margin">
+                     <hi>Rom.</hi> 5. 12.</note> it ſelfe.</p>
+               <p>
+                  <label>Qu.</label> Are there alſo eternall puniſhments?</p>
+               <p>
+                  <label>A.</label> Yea. The loſſe of euerlaſting happineſſe: and euerlaſting deſtruction both of bodie and ſoule. <note place="margin">
+                     <hi>Rom.</hi> 6. 29.</note>
+               </p>
+               <p>
+                  <label>Qu.</label> Is not then our miſerie exceeding great?</p>
+               <p>
+                  <label>A.</label> Greater then either tong can ſpeake, or can enter into the heart of man. <note place="margin">1. <hi>Cor.</hi> 2. 9.</note>
+               </p>
+            </div>
+            <div n="2" type="part">
+               <head>II.</head>
+               <p>
+                  <label>Qu.</label> Is there anie helpe againſt this miſerie?</p>
+               <p>
+                  <label>
+                     <gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.</label> None in our ſelues, nor in anie creature, but <note place="margin">1. <hi>Ioh.</hi> 2. 2.</note> only in Chriſt Ieſus, who is made vnto vs fro<g ref="char:cmbAbbrStroke">̄</g> God w<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſdom, righteouſneſſe, ſanctification &amp; rede<g ref="char:cmbAbbrStroke">̄</g>ption, that who ſo glorieth might glorie in him. <note place="margin">1. <hi>Cor.</hi> 1. 30.</note>
+               </p>
+               <p>
+                  <label>Q.</label> How is he made our wiſedome?</p>
+               <p>
+                  <label>A.</label> In that being from before all eternitie the ſonne of God, in the fulneſſe of time he became <note place="margin">
+                     <hi>Ioh.</hi> 1. 13.</note> man, and both out of the boſome of the Father re<g ref="char:EOLhyphen"/>uealed <note place="margin">
+                     <hi>Ioh.</hi> 1. 18.</note> vnto vs all things neceſſarie for vs to know vnto ſaluation, and is he in whom all the promiſes of God are yea and Amen. <note place="margin">2. <hi>Cor.</hi> 1. 20.</note>
+               </p>
+               <p>
+                  <label>Q.</label> How is he made our righteouſneſſe?</p>
+               <p>
+                  <label>A.</label> In that knowing no ſin, he became ſinne for vs, that we by him might be made the righteouſnes <note place="margin">2. <hi>Cor.</hi> 5. 21.</note> of God.</p>
+               <p>
+                  <label>Qu.</label> Declare this yet more fully.</p>
+               <p>
+                  <label>A.</label> He bare the curſe of the Law &amp; puniſhment of our ſinnes, to ſatiſfie the iuſtice of God: and ful<g ref="char:EOLhyphen"/>filled <note place="margin">
+                     <hi>Gal.</hi> 3. 13. <hi>Eſa.</hi> 53. 5. <hi>Ro.</hi> 5. 18. 19</note> the righteouſneſſe of the Law, to obtaine for vs the bleſſing thereof, which is eternall life.</p>
+               <p>
+                  <label>Q.</label> How is he made our ſanctification?</p>
+               <p>
+                  <label>A.</label> In that he ſanctified him ſelfe for vs; &amp; doth <note place="margin">
+                     <hi>Ioh.</hi> 17. 19. <hi>&amp;</hi> 17.</note> alſo ſanctifie vs in our ſelues by his ſpirit.</p>
+               <p>
+                  <label>Q.</label> How is he yet our redemption?</p>
+               <p>
+                  <pb n="5" facs="tcp:5986:3"/>
+                  <label>A.</label> To deliuer vs finally from all our enemies, &amp; <note place="margin">
+                     <hi>Phil.</hi> 3. 20. 1. <hi>Cor.</hi> 15. 25</note> bring vs into the kingdome of heaue<g ref="char:cmbAbbrStroke">̄</g>. In the meane time he ſitteth at the right hand of God an aduo<g ref="char:EOLhyphen"/>cate and interceſſor for vs, to make both vs &amp; our <note place="margin">
+                     <hi>Rom.</hi> 8. 34.</note> ſeruices acceptable vnto God.</p>
+            </div>
+            <div n="3" type="part">
+               <head>III.</head>
+               <p>
+                  <label>Qu.</label> Saluation then being wholly and onely in Chriſt, how may we attaine thereunto?</p>
+               <p>
+                  <label>A.</label> If we beleeue in him. <note place="margin">
+                     <hi>Ioh.</hi> 3 16.</note>
+               </p>
+               <p>
+                  <label>Qu.</label> What is it to beleeue in Chriſt?</p>
+               <p>
+                  <label>A.</label> Not only to know that ſaluation is by him a<g ref="char:EOLhyphen"/>lone, but alſo our ſelues to put our whole truſt and <note place="margin">
+                     <hi>Ioh.</hi> 3. 36.</note> confidence in him, and to aſſure our ſelues of the forgiueneſſe of our ſinnes by his death &amp; ſacrifice, and of euerlaſting life by his obedience. <note place="margin">
+                     <hi>Rom.</hi> 5. 18.</note>
+               </p>
+               <p>
+                  <label>Qu.</label> Doth this faith only iuſtifie vs before God?</p>
+               <p>
+                  <label>A.</label> Onely. Yet not for the worthineſſe of it ſelfe, but for the worthineſſe of him in whom we beleeue <note place="margin">
+                     <hi>Rom.</hi> 3. 28.</note>
+               </p>
+               <p>
+                  <label>Q.</label> Is this faith in our owne power?</p>
+               <p>
+                  <label>A.</label> No. It is the gift of God vnto his children. <note place="margin">
+                     <hi>Epheſ.</hi> 2. 8.</note>
+               </p>
+               <p>
+                  <label>Q.</label> What is the ſumme of our Chriſtian beleefe?</p>
+               <p>
+                  <label>A.</label> That which is expreſſed in the Creed of the Apoſtles. <hi>I beleeue in God the Father almightie, &amp;c.</hi>
+               </p>
+               <p>
+                  <label>Q.</label> How doth God giue this gift of faith?</p>
+               <p>
+                  <label>A.</label> It is the worke of his ſpirit in our harts, ſom<g ref="char:EOLhyphen"/>times <note place="margin">
+                     <hi>Gal.</hi> 1. 16. <hi>Rom.</hi> 10. 14.</note> immediatly by inſtinct, but ordinarily by the preaching of the word.</p>
+               <p>
+                  <label>Q.</label> What is the word of God?</p>
+               <p>
+                  <label>A.</label> Generally the holy Scriptures contained in the canonicall bookes of the olde and new Teſta<g ref="char:EOLhyphen"/>ment, written by the Prophets &amp; Apoſtles, but here <note place="margin">
+                     <hi>Epheſ.</hi> 2. 20.</note> particularly the doctrine of the grace of God vnto ſaluation by faith in Chriſt Ieſus. <note place="margin">1. <hi>P<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>t.</hi> 1. 25.</note>
+               </p>
+               <p>
+                  <label>Q.</label> What is the authoritie and vſe of the holie
+<pb n="6" facs="tcp:5986:4"/>
+Scriptures in Gods Church?</p>
+               <p>
+                  <label>A.</label> They are (ſaith the Apoſtle) inſpired from God, &amp; profitable to teach, to confute, to reproue, <note place="margin">2. <hi>Tim.</hi> 3. 16</note> to inſtruct, &amp; finally to make the man of God per<g ref="char:EOLhyphen"/>fect vnto euery good worke.</p>
+               <p>
+                  <label>Qu.</label> How is it then that ſome ſay, the word of God is vnperfect, doubtfull, and obſcure?</p>
+               <p>
+                  <label>A.</label> Theſe are in deede the blaſphemies of An<g ref="char:EOLhyphen"/>tichriſt: <note place="margin">
+                     <hi>Pſal.</hi> 19. 7. <hi>Pſal.</hi> 119. 105. <hi>Prou.</hi> 8. 9.</note> but God him ſelfe witneſſeth of his word, that it is perf<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ct, plaine, and lightſome.</p>
+               <p>
+                  <label>Qu.</label> But you ſay, the holy Ghoſt worketh faith by the preaching of the Goſpell.</p>
+               <p>
+                  <label>A.</label> So it is: for God who commaunded light to ſhine out of darknes is he that ſhineth in the harts <note place="margin">2. <hi>Cor.</hi> 4. 6.</note> of his ſerua<g ref="char:cmbAbbrStroke">̄</g>ts, that they might giue fotth the light of the glorie of God, in the face of Ieſus Chriſt.</p>
+               <p>
+                  <label>Qu.</label> What is this miniſterie of preaching?</p>
+               <p>
+                  <label>A.</label> That ordinance of Chriſt wherby he is pro<g ref="char:EOLhyphen"/>pounded and offered vnto ſaluation, committed <note place="margin">
+                     <hi>Ioh.</hi> 3. 14. 2. <hi>Cor.</hi> 5. 18.</note> vnto thoſe whom he hath called.</p>
+               <p>
+                  <label>Qu.</label> What is the vſe and frute of this miniſtery?</p>
+               <p>
+                  <label>A.</label> Being the power and wiſdome of God vnto ſaluation, firſt the word is thereby made the incor<g ref="char:EOLhyphen"/>ruptible ſeed of a new birth, to beget vs again vnto <note place="margin">1. <hi>Pet.</hi> 1. 23</note> God.</p>
+               <p>
+                  <label>Qu.</label> What elſe?</p>
+               <p>
+                  <label>A.</label> It is afterwards that ſincere milke whereby as new borne babes we do grow vp vnto the Lord. <note place="margin">1. <hi>Tet.</hi> 2. 2.</note>
+               </p>
+               <p>
+                  <label>Q.</label> Proceede.</p>
+               <p>
+                  <label>A.</label> It is finally that ſtrong meate wherby we are fed continually vnto euerlaſting life, and that pre<g ref="char:EOLhyphen"/>ſeruatiue whereby we are kept from euerie blaſt of <note place="margin">1. <hi>Cor.</hi> 3 2. <hi>Epheſ.</hi> 4. 14.</note> vaine doctrine.</p>
+               <p>
+                  <label>Q.</label> What is that of the keys of the kingdome of <note place="margin">
+                     <hi>Mat.</hi> 16. 19</note>
+                  <pb n="7" facs="tcp:5986:4"/>
+heauen, and the power of binding and looſing?</p>
+               <p>
+                  <label>A.</label> It is that authoritie that Chriſt hath giuen vnto his miniſters, exerciſed publikly both in prea<g ref="char:EOLhyphen"/>ching <note place="margin">
+                     <hi>Mat.</hi> 18. 18</note> the promiſes and iudgements of God, and in the adminiſtration of the cenſures of the Church. <note place="margin">1. <hi>Cor.</hi> 5. 5.</note>
+               </p>
+               <p>
+                  <label>Q</label> Is there any priuate vſe hereof?</p>
+               <p>
+                  <label>A.</label> Verie great and neceſſarie, in comforting of <note place="margin">
+                     <hi>Luc.</hi> 7. 48. <hi>Act.</hi> 8. 20. <hi>&amp;</hi> 13. 10.</note> afflicted conſciences, and in terrifying the obſti<g ref="char:EOLhyphen"/>nate offenders.</p>
+               <p>
+                  <label>Q.</label> What other meanes hath God giuen vnto his Church, for confirmation and increaſe of faith?</p>
+               <p>
+                  <label>A.</label> He hath for releefe of our infirmities added vnto the preaching of the word, the adminiſtration <note place="margin">
+                     <hi>Act.</hi> 2. 38.</note> of his holy Sacraments.</p>
+               <p>
+                  <label>Qu.</label> What is a Sacrament?</p>
+               <p>
+                  <label>A.</label> A Sacrament is an holy ſigne and ſeale or<g ref="char:EOLhyphen"/>dained of God, to continue, confirme, and increaſe <note place="margin">
+                     <hi>Rom.</hi> 4. 11.</note> our faith in Chriſt. We do alſo thereby profeſſe &amp; and vow to be his ſeruants.</p>
+               <p>
+                  <label>Q.</label> How is it a ſigne?</p>
+               <p>
+                  <label>A.</label> In that it viſibly repreſenteth and expreſſeth vnto vs that of Chriſt, and our ſaluation by him, <note place="margin">
+                     <hi>Luc.</hi> 22. 19. 1. <hi>Cor.</hi> 11. 26</note> which we are taught by the word preached, and therfore is not vnfitly called, a viſible word.</p>
+               <p>
+                  <label>Q.</label> How is a Sacrament a ſeale?</p>
+               <p>
+                  <hi>A.</hi> In that it is annexed of God as a ſeale vnto his couenant of grace, to aſſure vs of the truth, and <note place="margin">
+                     <hi>Rom.</hi> 4. 11.</note> effect thereof.</p>
+               <p>
+                  <label>Q.</label> How manie Sacrameets be there?</p>
+               <p>
+                  <label>A.</label> Two. Baptiſme and the Supper of the Lord. <note place="margin">
+                     <hi>Mat.</hi> 28. <hi>Mat.</hi> 26.</note>
+               </p>
+               <p>
+                  <label>Q.</label> What is Baptiſme?</p>
+               <p>
+                  <label>A.</label> A Sacrament wherein we are baptized with water into the name of the Father, the Sonne, and <note place="margin">1. <hi>Ioh.</hi> 1. 7. 1. <hi>Pet.</hi> 1. 2.</note> the holy Ghoſt, to teach &amp; aſſure vs that our ſins
+<pb n="8" facs="tcp:5986:5"/>
+are waſhed away by the blood of Chriſt, &amp; that we are iuſtified by his obedience, that we are ingraf<g ref="char:EOLhyphen"/>ted into the bodie of Chriſt, and adopted to be the children of God.</p>
+               <p>
+                  <label>Q.</label> Is there anie other frute of this Sacrament?</p>
+               <p>
+                  <label>A.</label> It is alſo a Sacrament of our mortification vnto ſinne by the death of Chriſt, &amp; of our ſanctifi<g ref="char:EOLhyphen"/>cation <note place="margin">
+                     <hi>Rom.</hi> 6. 3. 4. <hi>Epheſ.</hi> 2. 12. 1. <hi>Cor.</hi> 15. 29</note> by his riſing from the dead: alſo of our own reſurrection in the laſt day, and of our communion with the Saints of God.</p>
+               <p>
+                  <label>Qu.</label> Why are infants baptized?</p>
+               <p>
+                  <label>A.</label> Becauſe being borne in the couenant and communion of the Church, they are holy vnto the Lord as was <hi>Iſaac,</hi> who was circu<g ref="char:cmbAbbrStroke">̄</g>ciſed the eight day <note place="margin">1. <hi>Cor.</hi> 7. 14</note>
+               </p>
+               <p>
+                  <label>Qu.</label> What is the Supper of the Lord?</p>
+               <p>
+                  <label>A.</label> A Sacrament, in bread and wine viſibly re<g ref="char:EOLhyphen"/>preſenting vnto vs the death &amp; ſacrifice of Chriſt, <note place="margin">
+                     <hi>Mat.</hi> 26. 28 1. <hi>Cor.</hi> 11. 24</note> and aſſuring vs of the benefit thereof.</p>
+               <p>
+                  <label>Q.</label> What elſe?</p>
+               <p>A. A pledge of our ſpirituall communion with Chriſt the bread of life &amp; food of our ſoules, wher<g ref="char:EOLhyphen"/>by <note place="margin">1. <hi>Cor.</hi> 10. 16 <hi>Ioh.</hi> 6. 51.</note> he dwelleth in vs, and we in him, and are made bone of his bone and fleſh of his fleſh. It is alſo a pledge of our loue towards all men. <note place="margin">
+                     <hi>Epheſ.</hi> 5. 30.</note>
+               </p>
+               <p>
+                  <label>Q.</label> Who are fit to be admitted vnto this ſacra<g ref="char:EOLhyphen"/>ment?</p>
+               <p>
+                  <label>A.</label> Such only as can and do examine the<g ref="char:cmbAbbrStroke">̄</g>ſelues <note place="margin">1. <hi>
+                        <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>or.</hi> 11. 28</note> that they may be worthie receiuers thereof.</p>
+               <p>
+                  <label>Q.</label> Wherein ſtandeth this examination?</p>
+               <p>
+                  <label>A.</label> We muſt examine our knowledge and profi<g ref="char:EOLhyphen"/>ting in the principles of religion, our faith in apply<g ref="char:EOLhyphen"/>ing that we know vnto our ſelues, our repentaunce and purpoſe of amendement of life, finally our re<g ref="char:EOLhyphen"/>conciliation with others, and loue towards all men euen <note place="margin">
+                     <hi>Mat.</hi> 5. 24.</note>
+                  <pb n="9" facs="tcp:5986:5"/>
+our enemies.</p>
+            </div>
+            <div n="5" type="part">
+               <head>V.</head>
+               <p>
+                  <label>Qu.</label> Our ſaluation then being in Chriſt, not in our ſelues; &amp; enioyed by faith in him: may we not <note place="margin">
+                     <hi>Rom.</hi> 6. 1.</note> now liue as we luſt?</p>
+               <p>
+                  <label>A.</label> God forbid. Nay who ſo is in Chriſt is a new <note place="margin">2. <hi>Cor.</hi> 5. 17. <hi>Epheſ.</hi> 2. 10. 2. <hi>Tim.</hi> 2. 19</note> creature, and who ſo nameth the name of Chriſt muſt depart from iniquitie.</p>
+               <p>
+                  <label>Qu.</label> Why ſo?</p>
+               <p>
+                  <label>A.</label> Becauſe that grace of God which bringeth ſaluation vnto all men, teacheth vs to denie all vn<g ref="char:EOLhyphen"/>godlineſſe and worldly luſtes, and to liue ſoberly, <note place="margin">
+                     <hi>Tit.</hi> 2. 11.</note> righteouſly, and godly in this preſent world.</p>
+               <p>
+                  <label>Q.</label> Muſt we then be a people ſtudious of good workes? <note place="margin">
+                     <hi>Tit.</hi> 2. 14.</note>
+               </p>
+               <p>
+                  <label>A.</label> Chriſt therfore died for vs and roſe againe, that we who liue by him, ſhould not liue vnto our <note place="margin">2. <hi>Cor.</hi> 5. 15. <hi>Epheſ.</hi> 2. 10.</note> ſelues but vnto him: exerciſing thoſe good workes which he hath appointed vs to walke in.</p>
+               <p>
+                  <label>Q.</label> Are not then good workes neceſſarie vnto ſaluation?</p>
+               <p>
+                  <label>A.</label> They are neceſſarie in thoſe that are ſaued, <note place="margin">
+                     <hi>Heb.</hi> 12. 14. <hi>Epheſ.</hi> 2. 9.</note> but not neceſſarie vnto ſaluation.</p>
+               <p>
+                  <label>Qu.</label> How ſo?</p>
+               <p>
+                  <label>A</label> Becauſe we are firſt ſaued by faith in Chriſt, before we can do anie good worke: for whatſoeuer <note place="margin">
+                     <hi>Rom.</hi> 14. 23.</note> is not of faith is ſinne.</p>
+               <p>
+                  <label>Q.</label> May we not ſatisfie Gods iuſtice, nor merite ſaluation by weldoing?</p>
+               <p>
+                  <label>A.</label> Our ſatiſfaction and merite is onely in the death and righteouſneſſe of Chriſt Ieſus: beſides <note place="margin">
+                     <hi>Act.</hi> 4. 12.</note> which there is none other. As for our workes, as they follow our ſaluation and go not before it: ſo <note place="margin">
+                     <hi>Rom.</hi> 7. 21. <hi>Luc.</hi> 17. 10.</note> in this life they are alwayes vnperfect. Alſo they
+<pb n="10" facs="tcp:5986:6"/>
+are due vnto God, &amp; therefore cannot indebt him vnto vs.</p>
+               <p>
+                  <label>Q.</label> Why ſhould we then do good workes?</p>
+               <p>
+                  <label>A.</label> For many cauſes. That God may be glori<g ref="char:EOLhyphen"/>fied <note place="margin">
+                     <hi>Mat.</hi> 5. 16.</note> for vs, and of vs; that our liues may be agreea<g ref="char:EOLhyphen"/>ble to our profeſſion, that we may win others vnto the faith, that we may be profitable vnto our bre<g ref="char:EOLhyphen"/>thren <note place="margin">1. <hi>Pet.</hi> 2. 12 1. <hi>Pet.</hi> 3. 1.</note> both in example and dutie: and that by the frutes of our faith we may aſſure our ſelues of our <note place="margin">2. <hi>Pet.</hi> 1. 10</note> calling and election.</p>
+            </div>
+            <div n="6" type="part">
+               <head>VI.</head>
+               <p>
+                  <label>Q.</label> Theſe are great motiues vnto weldoing: tell me now, what is the rule of good workes?</p>
+               <p>
+                  <label>A.</label> Not our own will or intents: nor the exam<g ref="char:EOLhyphen"/>ples, cuſtomes or inuentions of men; but the onely Law of God, contained briefly in the two tables of <note place="margin">
+                     <hi>Eſa.</hi> 8. 20. <hi>Exod.</hi> 34.</note> the ten commandements.</p>
+               <p>
+                  <label>Qu.</label> Why were they written in two tables?</p>
+               <p>
+                  <label>A.</label> To diſtinguiſh the worſhip of God, expreſ<g ref="char:EOLhyphen"/>ſed in foure commandements, from our duties to<g ref="char:EOLhyphen"/>ward men, declared in ſix other commandements.</p>
+               <p>
+                  <label>Q.</label> What is the firſt commandement?</p>
+               <p>
+                  <label>A.</label> I the Lord am thy God, &amp;c. Thou ſhalt haue none other Gods before me. <note place="margin">
+                     <hi>Exod.</hi> 20. 2.</note>
+               </p>
+               <p>
+                  <label>Q.</label> What is the meaning of this commandeme<g ref="char:cmbAbbrStroke">̄</g>t?</p>
+               <p>
+                  <label>A.</label> That Iehouah the Lord be onely our God: <note place="margin">
+                     <hi>Heb.</hi> 11. 6. <hi>Pſal.</hi> 50. 15</note> that we honor, loue, feare, and obey him, beleeue in him and call vpon him alone.</p>
+               <p>
+                  <label>Q.</label> What is the ſecond commandement?</p>
+               <p>
+                  <label>A.</label> Thou ſhalt not make to thy ſelfe any grauen image, nor the likeneſſe of any thing &amp;c. <note place="margin">
+                     <hi>Deut.</hi> 4. 12.</note>
+               </p>
+               <p>
+                  <label>Qu.</label> What meaneth this commandement?</p>
+               <p>
+                  <label>A.</label> That in the outward worſhip of God, we at<g ref="char:EOLhyphen"/>tempt nothing of our ſelues, nor admit anie thing <note place="margin">
+                     <hi>Deut.</hi> 4. 2.</note>
+                  <pb n="11" facs="tcp:5986:6"/>
+deuiſed by others: but exerciſe our ſelues in that onely, which God him ſelfe hath preſcribed vnto <note place="margin">
+                     <hi>Deut.</hi> 12. 32</note> vs in his word.</p>
+               <p>
+                  <label>Q.</label> What is the third commandement?</p>
+               <p>
+                  <label>A.</label> Thou ſhalt not take the name of the Lord thy God in vaine, &amp;c.</p>
+               <p>
+                  <label>Q.</label> What is the meaning of this comma<g ref="char:cmbAbbrStroke">̄</g>dement?</p>
+               <p>
+                  <label>A.</label> That we vſe the name of God both in oath &amp; otherwiſe with all high reuerence; alſo his word &amp; works: that we flie all hypocriſie and colouring in religion: that we abuſe not the name of God direct<g ref="char:EOLhyphen"/>ly <note place="margin">
+                     <hi>Iam</hi> 5. 12. <hi>Mat.</hi> 5. 34.</note> or indirectly, in vaine or falſe ſwearing, curſing, coniuring, or the like.</p>
+               <p>
+                  <label>Q.</label> What is the fourth commandement?</p>
+               <p>
+                  <label>A.</label> Reme<g ref="char:cmbAbbrStroke">̄</g>ber thou keep holy the Saboth day, &amp;c.</p>
+               <p>
+                  <label>Q.</label> What meaneth this Law?</p>
+               <p>
+                  <label>A.</label> That reſting euen from our lawfull labours <note place="margin">
+                     <hi>Eſa.</hi> 58. 13. <hi>Act.</hi> 2. 42. <hi>Act.</hi> 20. 7. <hi>Heb.</hi> 4. 10. <hi>Apoc.</hi> 14. 13.</note> for this life, we exerciſe our ſelues in the labours of euerlaſting life: as the word, ſacraments, prayer &amp; thankſgiuing, &amp;c. and that we meditate that eter<g ref="char:EOLhyphen"/>nall reſt which abideth for vs in the kingdome of heauen.</p>
+               <p>
+                  <label>Q.</label> Is not the Iewes Saboth aboliſhed vnto vs?</p>
+               <p>
+                  <label>A.</label> Yes: but in place therof ſucceedeth the chri<g ref="char:EOLhyphen"/>ſtian <note place="margin">1. <hi>Cor.</hi> 16. 1. <hi>Apoc.</hi> 1. 10.</note> Saboth, called the Lords day.</p>
+               <p>
+                  <label>Q.</label> Now follow the commandements of the ſe<g ref="char:EOLhyphen"/>cond table, concerning our duties towardes men: what is the fift commandement?</p>
+               <p>
+                  <label>A.</label> Honour thy father and thy mother, that thy <note place="margin">
+                     <hi>Epheſ.</hi> 6. 2.</note> dayes may be long &amp;c.</p>
+               <p>
+                  <label>Q</label> What is the ſence of this commandement?</p>
+               <p>
+                  <label>A.</label> That we loue, honour, obey, and releeue all thoſe whom God hath made ſuperiors vnto vs, ei<g ref="char:EOLhyphen"/>ther <note place="margin">
+                     <hi>Rom.</hi> 13. 4. <hi>Coloſſ.</hi> 2. 22.</note> in nature or in pollicie: as parents, magiſtrats,
+<pb n="12" facs="tcp:5986:7"/>
+miniſters, maiſters, and elders. Who alſo are <note place="margin">
+                     <hi>Heb.</hi> 3. 17. <hi>Ioſu</hi> 24. 15. <hi>Gen.</hi> 18. 19.</note> bound to performe vnto vs the duties of their cal<g ref="char:EOLhyphen"/>lings.</p>
+               <p>
+                  <label>Q.</label> What is the ſixt commandement?</p>
+               <p>
+                  <label>A.</label> Thou ſhalt do no murder. <note place="margin">
+                     <hi>Leuit.</hi> 19. 18</note>
+               </p>
+               <p>
+                  <label>Q.</label> Tell me the meaning thereof.</p>
+               <p>
+                  <label>A.</label> That we offend not againſt the life or per<g ref="char:EOLhyphen"/>ſon of our neighbour, and therefore flie all thoſe things that tend vnto bloud That we guard &amp; re<g ref="char:EOLhyphen"/>leeue <note place="margin">
+                     <hi>Gen</hi> 9. 5. <hi>Epheſ.</hi> 4. 26. <hi>Rom.</hi> 12. 19</note> them with all the meanes and mercie we are able.</p>
+               <p>
+                  <label>Q.</label> What meaneth the ſeuenth commandeme<g ref="char:cmbAbbrStroke">̄</g>t Thou ſhalt not commit adulterie.</p>
+               <p>
+                  <label>A.</label> That keeping our bodies holy and vndefiled vnto God, by vſing all good meanes making there<g ref="char:EOLhyphen"/>to; <note place="margin">1. <hi>Theſ.</hi> 4. 4. 1. <hi>Cor.</hi> 6. 15. 19. 20. 1. <hi>Cor.</hi> 7. 2. 39.</note> we neither aſſault nor betray the chaſtitie of o<g ref="char:EOLhyphen"/>thers: and that not hauing the gift of continency, we marrie, onely in the Lord.</p>
+               <p>
+                  <label>Q.</label> The eight commandement, Thou ſhalt not ſteale, what requireth it?</p>
+               <p>
+                  <label>A.</label> That for outward things we remoue not the bounds which God him ſelfe hath ſet, neither by violence nor by fraud: but contenting our ſelues <note place="margin">
+                     <hi>Ph<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>l.</hi> 4. 11.</note> with our preſent eſtate, commend the ſame vnto God in the diligence of our callings: and that as <note place="margin">
+                     <hi>Epheſ.</hi> 4. 28</note> good ſtewards we faithfully diſpenſe that we haue receiued. <note place="margin">1. <hi>Pet.</hi> 4. 10</note>
+               </p>
+               <p>
+                  <label>Q.</label> What meaneth the ninth commandement, Thou ſhalt not beare falſe witneſſe againſt thy neighbour? <note place="margin">
+                     <hi>Deut.</hi> 19. 16</note>
+               </p>
+               <p>
+                  <label>A.</label> That neither publikely nor priuatly, we hurt the cauſe, credit, or name, of our neighbour, eſpe<g ref="char:EOLhyphen"/>cially <note place="margin">
+                     <hi>Prou.</hi> 10. 12 <hi>Eccleſ.</hi> 7. <hi>Rom.</hi> 16. 18</note> our ſuperiours: but aſſiſt and defend them therein: that we lye not, flatter, ſlander, or the like:
+<pb n="13" facs="tcp:5986:7"/>
+and that we maintaine not others in the ſame.</p>
+               <p>
+                  <label>Q.</label> The tenth commandement, Thou ſhalt not couet thy neighbours houſe, nor his wiſe, nor &amp;c. <note place="margin">
+                     <hi>Rom.</hi> 7. 7.</note> what doth it meane?</p>
+               <p>
+                  <label>A.</label> That we keepe euen our hearts and deſires <note place="margin">
+                     <hi>Prou.</hi> 4. 23. 1. <hi>Ioh.</hi> 2. 15. <hi>Rom.</hi> 12. 2.</note> from affecting that which belongeth vnto others: &amp; that we ſtop vp the verie fountaine of ſinne in the corruption of nature; and being renued in the ſpi<g ref="char:EOLhyphen"/>rit of our minds, dedecate our ſelues wholly vnto God.</p>
+            </div>
+            <div n="7" type="part">
+               <head>VII.</head>
+               <p>
+                  <label>Q.</label> Are we able to do all that which is here re<g ref="char:EOLhyphen"/>quired at our hands?</p>
+               <p>
+                  <label>A.</label> We are not able of our ſelues ſo much as to <note place="margin">2. <hi>Cor.</hi> 3. 5. <hi>Rom.</hi> 7. 23. <hi>Gal.</hi> 5. 17.</note> think a good thought: beſides euen in the children of God, the fleſh euermore fighteth againſt the ſpirit.</p>
+               <p>
+                  <label>Q.</label> Whence then is our abilitie?</p>
+               <p>
+                  <label>A.</label> It is God that giueth both the will and the <note place="margin">
+                     <hi>Phil.</hi> 2. 13.</note> deed, in that being made members of the body of Chriſt, we receiue from him a meaſure of know<g ref="char:EOLhyphen"/>ledge, <note place="margin">
+                     <hi>Epheſ.</hi> 4. 16.</note> deſire, &amp; power to do the will of God which graces he daily increaſeth in vs by hearing, reading and meditation of his word &amp;c. and by calling vpon his name.</p>
+               <p>
+                  <label>Q.</label> May we then come vnto the Lord for all good things, and for power againſt euill?</p>
+               <p>
+                  <label>A.</label> We are commanded ſo to do, and promiſed <note place="margin">
+                     <hi>Mat.</hi> 7. 7. <hi>Ioh.</hi> 16. 23. 1. <hi>Ioh.</hi> 5. 14.</note> that we ſhall obtaine whatſoeuer we ſhall aske ac<g ref="char:EOLhyphen"/>cording to his wil, and in the name of Chriſt Ieſus.</p>
+               <p>
+                  <label>Q.</label> How muſt we prepare our ſelues vnto praier?</p>
+               <p>
+                  <label>A.</label> We muſt conſider howe great a mercie it is that we haue this acceſſe vnto God: who he is that <note place="margin">
+                     <hi>Rom.</hi> 8. 26.</note> we come vnto: what ſenſe we haue of the want of
+<pb n="14" facs="tcp:5986:8"/>
+that we aske at his hands: our prayers muſt be ear<g ref="char:EOLhyphen"/>neſt and with importunitie, alſo in faith and aſſu<g ref="char:EOLhyphen"/>rance <note place="margin">
+                     <hi>Iam.</hi> 1. 6.</note> of Gods goodnes. And finally we muſt pray not onely for our ſelues, but alſo for all men, euen our enemies.</p>
+               <p>
+                  <label>Q.</label> What forme and maner is here to be obſer<g ref="char:EOLhyphen"/>ued?</p>
+               <p>
+                  <label>A.</label> Our preſent occaſions, &amp; the feeling of our neceſſities will beſt direct vs herein. But we may conclude and ſhut vp our prayers with that forme <note place="margin">
+                     <hi>Mat.</hi> 6. 9. <hi>Luc.</hi> 11. 2.</note> which our Sauiour Chriſt hath taught vs.</p>
+               <p>
+                  <label>Q.</label> Rehea<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſe the ſame.</p>
+               <p>
+                  <label>A.</label> Our Father which art in heauen hallowed be thy name: Thy kingdome come: Thy will be done in earth as it is in heaue<g ref="char:cmbAbbrStroke">̄</g>. Giue vs this day our daily bread: And forgiue vs our treſpaſſes, as we forgiue them that treſpaſſe againſt vs: And leade vs not into temptation, but deliuer vs from euil. For thine is the kingdome, the power &amp; the glorie, for euer and euer. Amen.</p>
+            </div>
+            <div n="8" type="part">
+               <head>VIII.</head>
+               <p>
+                  <label>Q.</label> What meaneth S. Paule when he ſaith vnto Timothie, Exerciſe thy ſelfe vnto godlineſſe? <note place="margin">1. <hi>Tim.</hi> 4. 7.</note>
+               </p>
+               <p>
+                  <label>A.</label> That as the arts of this world taught by pre<g ref="char:EOLhyphen"/>cepts, are holpen by practiſe: ſo after the graces be<g ref="char:EOLhyphen"/>fore mentioned, there is no ſmall helpe vnto god<g ref="char:EOLhyphen"/>lineſſe in ſuch exerciſes as are commended vnto vs either by precept or example, in the word of God. <note place="margin">
+                     <hi>Heb.</hi> 5. 14.</note>
+               </p>
+               <p>
+                  <label>Q.</label> What are thoſe exerciſes?</p>
+               <p>
+                  <label>A.</label> Sorow for ſinne paſt, feare and care againſt temptation: labor after that which is good: accu<g ref="char:EOLhyphen"/>ſing <note place="margin">
+                     <hi>Pſal.</hi> 51. 14 <hi>Prou.</hi> 14. 16 <hi>Eccleſ.</hi> 1. 2. <hi>Tit.</hi> 2. 12. 1. <hi>Cor.</hi> 9. 27.</note> and rebuking of our ſelues: mourning ouer the vanitie of this life: an holy and ſober vſe of Gods bleſſings: faſting, and other chaſtiſements of the
+<pb n="15" facs="tcp:5986:8"/>
+fleſh: couenanting with our ſelues to leaue euill, &amp; <note place="margin">
+                     <hi>Pſal.</hi> 119. 106.</note> do good: imitation of the godly, and conference with others, both helping them, and receiuing help of them.</p>
+               <p>
+                  <label>Q.</label> Are there anie other beſides theſe?</p>
+               <p>
+                  <label>A.</label> We ſhall not a litle ſtirre vp our ſelues, if we ſeriouſly conſider the works of God in creating the world: his power, prouidence and wiſedome in go<g ref="char:EOLhyphen"/>uerning <note place="margin">
+                     <hi>Pſal.</hi> 19. 1.</note> the ſame: his iudgements vpon the wic<g ref="char:EOLhyphen"/>ked, &amp; his mercies towards thoſe that obey him. <note place="margin">
+                     <hi>Pſal.</hi> 73. 1.</note>
+               </p>
+               <p>
+                  <label>Q.</label> Proceed vnto the reſt.</p>
+               <p>
+                  <label>A.</label> Satietie and wearineſſe of this ſinfull life, with deſire to be with Chriſt. Meditation of death, buriall, reſurrection, and the iudgement to come: <note place="margin">
+                     <hi>Philip.</hi> 1<g ref="char:punc">▪</g> 23</note> the miſerie of the damned, the felicitie of the elect, and the eternitie of both.</p>
+               <p>
+                  <label>Q.</label> Remaine there yet anie more?</p>
+               <p>
+                  <label>A.</label> The particular conſideration of Gods bene<g ref="char:EOLhyphen"/>fits towards our ſelues, renued vpon vs euery mor<g ref="char:EOLhyphen"/>ning, and of our deliuerance from manie euils and <note place="margin">
+                     <hi>Lam.</hi> 3. 23</note> dangers we might haue fallen into: a wiſe eſtima<g ref="char:EOLhyphen"/>tion <note place="margin">
+                     <hi>Heb.</hi> 12. 7. 10. 1. <hi>Cor.</hi> 11. 3 1. <hi>Pet.</hi> 1. 7.</note> of thoſe afflictions of bodie, &amp; griefs of mind, loſſes, perils, &amp;c. wherewith the Lord doth either chaſtiſe our ſinnes, or trie our faith.</p>
+               <p>
+                  <label>Q.</label> Theſe for the moſt parte are done by our ſelues: may we not alſo be holpen by the dutie of others towards vs?</p>
+               <p>
+                  <label>A.</label> Yes, and that greatly, through the bleſſing of God; as by his miniſters, magiſtrates, and all that <note place="margin">
+                     <hi>Rom.</hi> 13. 4</note> haue power or authoritie ouer vs; when they in<g ref="char:EOLhyphen"/>ſtruct, exhort, admoniſh, rebuke or ce<g ref="char:cmbAbbrStroke">̄</g>ſure vs: which they are commanded to do, &amp; we to accept at their hands for our good.</p>
+               <p>
+                  <label>Q.</label> What is the ſumme of all that hath bin ſaid?</p>
+               <p>
+                  <pb n="16" facs="tcp:5986:9"/>
+                  <label>A.</label> That there is one onely true God in three perſons. That all men are ſinners, and the reward of ſinne euerlaſting damnation. That our onely re<g ref="char:EOLhyphen"/>medie is Chriſt Ieſus, apprehended by faith alone. That faith is the gift of God wrought in vs by the Goſpell preached, and confirmed by the vſe of the Sacraments. That they that liue by Chriſt, muſt liue not vnto them ſelues but vnto him: that the rule of good workes is the onely law of God, vnto the obedience whereof we are enabled by grace, &amp; the giftes of the ſpirit, and holpen forwardes dayly by the holy and Chriſtian exer<g ref="char:EOLhyphen"/>ciſes of our faith.</p>
+            </div>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:5986:9"/>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,465 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Doctrinale]</title>
+            <author>Alexander, de Villa Dei.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1485</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 8 KB of XML-encoded text transcribed from 3 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A16225</idno>
+            <idno type="STC">STC 315</idno>
+            <idno type="STC">ESTC S1034</idno>
+            <idno type="EEBO-CITATION">19987457</idno>
+            <idno type="OCLC">ocm 19987457</idno>
+            <idno type="VID">23584</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A16225)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 23584)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1719:12)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>[Doctrinale]</title>
+                  <author>Alexander, de Villa Dei.</author>
+               </titleStmt>
+               <extent>[4] + p.   </extent>
+               <publicationStmt>
+                  <publisher>T. Rood and T. Hunt,</publisher>
+                  <pubPlace>[Oxford :</pubPlace>
+                  <date>1485?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Title and imprint suggested by STC (2nd ed.).</note>
+                  <note>First words of text: hic &amp; hec &amp; hoc intercus.</note>
+                  <note>Imperfect: lacks all but signatures C2 and C3.</note>
+                  <note>Reproduction of original in the St. John's College (University of Cambridge). Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="lat">lat</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Latin language --  Grammar --  Early works to 1500.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-05</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-12</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2009-12</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="lat">
+      <body>
+         <div type="text">
+            <pb facs="tcp:23584:1"/>
+            <!-- PDF PAGE 52 -->
+            <pb facs="tcp:23584:1" rendition="simple:additions"/>
+            <!-- PDF PAGE 52 -->
+            <gap reason="missing" extent="1+ pages">
+               <desc>〈1… pages missing〉</desc>
+            </gap>
+            <p>hic &amp; hec &amp; hoc interrus. &amp; eſt doctrina &amp; no<g ref="char:cmbAbbrStroke">̄</g> exceptio. Dant hec ſi creſcant gtu<g ref="char:cmbAbbrStroke">̄</g>s et v ſibi ſeruet Dicit auctor ꝙ no<g ref="char:cmbAbbrStroke">̄</g>ia tercie declinatioi<g ref="char:cmbAbbrStroke">̄</g>s termi<g ref="char:cmbAbbrStroke">̄</g>ata in vs habentia gtm<g ref="char:cmbAbbrStroke">̄</g> ſuꝑantem. in cuiꝰ penultima hec vocalis v retineat<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan>. ſunt generis fe. vt hec ſalus ſalutis &amp; hec vir<g ref="char:EOLhyphen"/>tus virtutis.</p>
+            <p>Hoc monoſillaba dant vt thus ſed dr<g ref="char:cmbAbbrStroke">̄</g> 
+               <choice>
+                  <abbr>h</abbr>
+                  <expan>hic</expan>
+               </choice> grus Hic dat &amp; <choice>
+                  <abbr>h</abbr>
+                  <expan>hic</expan>
+               </choice> tibi ſus epychenu<g ref="char:cmbAbbrStroke">̄</g> dat genꝰ Dicit ꝙ no<g ref="char:cmbAbbrStroke">̄</g>ia tercie declinaco<g ref="char:cmbAbbrStroke">̄</g>is ter. in vs hic mus vniꝰ ſillabe ſunt ge. neu. vt hoc thus. ſed gruseſt ge. fe. ſus vero co<g ref="char:cmbAbbrStroke">̄</g>is ge. mus autem genus ꝓmiſcui. etiam decli<g ref="char:EOLhyphen"/>nat<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> ꝑ <choice>
+                  <abbr>h</abbr>
+                  <expan>hic</expan>
+               </choice> vocabula expoſita ſunt ſupra. hi format Eſt pecꝰ <choice>
+                  <abbr>h</abbr>
+                  <expan>hic</expan>
+               </choice> pecudis pecꝰ hoc pecoris ti Dicit ꝙ pecus pecudis eſt ge. fe. &amp; pecus pecoris neu. venꝰ eris. ꝑus eſt ge. neu. &amp; indeclina bile. dra<g ref="char:cmbAbbrStroke">̄</g> eoru<g ref="char:cmbAbbrStroke">̄</g> p<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap> s<g ref="char:cmbAbbrStroke">̄</g>. Quarte nom<g ref="char:cmbAbbrStroke">̄</g> in vs mari<expan>
+                  <am>
+                     <g ref="char:abbus"/>
+                  </am>
+                  <ex>bus</ex>
+               </expan> ſociare ſolemꝰ Dicit auctor ꝙ no<g ref="char:cmbAbbrStroke">̄</g>ia quarte declinationis ſunt ge. maſ. vt <choice>
+                  <abbr>h</abbr>
+                  <expan>hic</expan>
+               </choice> viſus auditus fructus currus Hic ꝯ<g ref="char:abpre">p̄</g>hendunt<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> infinita no<g ref="char:cmbAbbrStroke">̄</g>ia v<expan>
+                  <am>
+                     <g ref="char:aber"/>
+                  </am>
+                  <ex>er</ex>
+               </expan>balia in vs. que regulariter formant<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> ab vitimis ſupinis v<expan>
+                  <am>
+                     <g ref="char:aber"/>
+                  </am>
+                  <ex>er</ex>
+               </expan>boru<g ref="char:cmbAbbrStroke">̄</g>. vt a video viſus us ui. a rideo ris;us us ui. a fluo fluxus us ui. Ab audio auditus us ui. ab haurio hauſtus us ui. a colo cultus us ui. a fruor fructus us ui. a gradior greſſus us ui &amp;c.. Item ꝯtinent multa no<g ref="char:cmbAbbrStroke">̄</g>ia in <gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>atus dignitatem ſignificantia. vt A papa papatus us ui A cardinalis cardinalatus us ui Ab ep<g ref="char:cmbAbbrStroke">̄</g>s ep<g ref="char:cmbAbbrStroke">̄</g>atus us ui A decanus decanatꝰ us ui A doctor doctoratꝰ A mgr<g ref="char:cmbAbbrStroke">̄</g> mgra<g ref="char:cmbAbbrStroke">̄</g>tꝰ A baccalariꝰ baccalariatꝰ A ſcriba ſcribatꝰ A dux ducatꝰ A miles militatꝰ A ſcabinus ſcabinatus. &amp; ſic de alijs.</p>
+            <p>
+               <pb facs="tcp:23584:2"/>
+               <!-- PDF PAGE 53 -->
+Hec acꝰ at<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> tri<expan>
+                  <am>
+                     <g ref="char:abbus"/>
+                  </am>
+                  <ex>bus</ex>
+               </expan> &amp; porticꝰ &amp; manꝰ idꝰ Hec anꝰ &amp; pinꝰ nurꝰ ſocrꝰ &amp; domꝰ add<gap reason="illegible: indecipherable" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Hic hec hoc ve ſpecꝰ illi penꝰ aſſocietur Hic ponit exceptione<g ref="char:cmbAbbrStroke">̄</g> a regula <g ref="char:abpre">p̄</g>dicta dicens. ꝙ no<g ref="char:cmbAbbrStroke">̄</g>ia in littera poſita licet fint quarte declinationis tamen ſunt ge. fe. vt hec anus .i. vetula. hec tribus .i. ꝓgenies. hec porticus eſt ꝑ quam ſit introitus. hec manus. hec ydus id eſt diuiſio temꝑis ꝓpe ſunt dies octo cuiuſlibet mensꝭ hec acus. hec pinus. hec nurus. hec domus. hec ſocrus. Deinde dicit. ꝙ ſpecus poteſt eſſe ge. maſ. vel fe. ſil<gap reason="illegible" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:cmbAbbrStroke">̄</g> &amp; pe<g ref="char:EOLhyphen"/>nus. vnde Acus eſt qua fuit quarte Sed tercie Acus aceris eſt palea Pinꝰ eſt nomen arboris Nurus eſt vx<g ref="char:EOLunhyphen"/>or filij Socrus eſt mater vxoris vel mariti Specus eſt foramen inde ſpelunca.</p>
+            <p>Cu<g ref="char:cmbAbbrStroke">̄</g> nom<g ref="char:cmbAbbrStroke">̄</g> ſit in aus hec illi iu<g ref="char:cmbAbbrStroke">̄</g>gitur vt laus Dicit ꝙ no<g ref="char:cmbAbbrStroke">̄</g>ia terminata in aus diphtho<gap reason="illegible: missing" extent="1 letter">
+                  <desc>•</desc>
+               </gap>gu<g ref="char:cmbAbbrStroke">̄</g> ſunt ge. fe. vt hec laus.</p>
+            <p>S<gap reason="illegible: missing" extent="1 letter">
+                  <desc>•</desc>
+               </gap> vult hec iungi ſi conſona preſidet illi Dicit ꝙ no<g ref="char:cmbAbbrStroke">̄</g>ia terminata in s <g ref="char:abpre">p̄</g>cedente ꝯſonante ſunt ge. fe. vt hec plebs puls hyems mens daps pars.</p>
+            <p>Adiectiua notes q<hi rend="sup">i</hi>
+               <expan>
+                  <am>
+                     <g ref="char:abbus"/>
+                  </am>
+                  <ex>bus</ex>
+               </expan> o<g ref="char:cmbAbbrStroke">̄</g>ne genꝰ dare debes Hic ponit excep. dicens. ꝙ adiectia dn<g ref="char:cmbAbbrStroke">̄</g>t excipi. qr ſu<g ref="char:cmbAbbrStroke">̄</g>t ge. o<g ref="char:cmbAbbrStroke">̄</g>is. vt <choice>
+                  <abbr>h</abbr>
+                  <expan>hic</expan>
+               </choice> &amp; hec &amp; hoc ſapie<g ref="char:cmbAbbrStroke">̄</g>s. dens q<hi rend="sup">o</hi>
+               <expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> quadra<g ref="char:cmbAbbrStroke">̄</g>s Mons po<g ref="char:cmbAbbrStroke">̄</g>s fons <choice>
+                  <abbr>h</abbr>
+                  <expan>hic</expan>
+               </choice> dant mars ſeps ſtirps Dicit auctor ꝙ no<g ref="char:cmbAbbrStroke">̄</g>ia in littera poſita ſunt ge. maſ. vt <choice>
+                  <abbr>h</abbr>
+                  <expan>hic</expan>
+               </choice> mons montis. hic fons fontis. <choice>
+                  <abbr>h</abbr>
+                  <expan>hic</expan>
+               </choice> mars martis .i. deus belli. <choice>
+                  <abbr>h</abbr>
+                  <expan>hic</expan>
+               </choice> ſepse<g ref="char:cmbAbbrStroke">̄</g> ſerpe<g ref="char:cmbAbbrStroke">̄</g>s. <choice>
+                  <abbr>h</abbr>
+                  <expan>hic</expan>
+               </choice> ſtirpse<g ref="char:cmbAbbrStroke">̄</g> tru<g ref="char:cmbAbbrStroke">̄</g>cꝰ arboris. hec ſtirps eſt ꝓgenies. <choice>
+                  <abbr>h</abbr>
+                  <expan>hic</expan>
+               </choice> quadrans quadrantis eſt inſtrumentum
+<pb facs="tcp:23584:2" rendition="simple:additions"/>
+               <!-- PDF PAGE 53 -->ad ſciendum horas diei.</p>
+            <p>Et partes aſſis torrens ſociabitur iſtis At<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> chalybs. Quod gens eſt ſiue metallum. Dicit auctor ꝙ partes aſſis ſicut quincuns &amp;c<g ref="char:cmbAbbrStroke">̄</g>. &amp; hoc no<g ref="char:EOLunhyphen"/>men torrens generale fluioru<g ref="char:cmbAbbrStroke">̄</g> iungit<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> 
+               <g ref="char:abpre">p̄</g>dictis. Vlteri<g ref="char:EOLunhyphen"/>us ſciendu<g ref="char:cmbAbbrStroke">̄</g> ꝙ as aſſis eſt pondus duodecim vnciaru<g ref="char:cmbAbbrStroke">̄</g>. Et ſi inde remouet<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> vnu<g ref="char:cmbAbbrStroke">̄</g>. illud vnum <abbr>qd</abbr> remouet<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> 
+               <abbr>dr</abbr> vncia. &amp; illa vndeci<g ref="char:cmbAbbrStroke">̄</g>m q<g ref="char:cmbAbbrStroke">̄</g> remanent dicunt<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> denus .i. vndecim vncie Preterea ſi remouent<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> duo. illa duo dempta ab aſſe dicu<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLunhyphen"/>tur ſecuns. quaſi ſexta ꝑs aſſis. ſed illa decem q<g ref="char:cmbAbbrStroke">̄</g> rema nent dicunt<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> decuns .i. decem vncie. Preterea remouent<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> tria ab aſſe remanent noue<g ref="char:cmbAbbrStroke">̄</g>. &amp; illa tria dempta dicuntur q<g ref="char:cmbAbbrStroke">̄</g>drans q<g ref="char:cmbAbbrStroke">̄</g>ſi ꝑta ꝑs aſſis. &amp; illa nouem que remanent di<g ref="char:EOLunhyphen"/>cunt<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> dodrans. &amp; inter<g ref="char:abpre">p̄</g>tat<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> nouem Si remouent<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> ab aſſe q<g ref="char:cmbAbbrStroke">̄</g>tuor remane<g ref="char:cmbAbbrStroke">̄</g>t octo. &amp; illa q<g ref="char:cmbAbbrStroke">̄</g>tuor remota dicunt<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> triens q<g ref="char:cmbAbbrStroke">̄</g>ſi tercia ꝑs aſſis. &amp; <abbr>dr</abbr> a tris <abbr>qd</abbr> eſt tres Vnde triens p<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLunhyphen"/>mo ſignificat tres: &amp; ex ꝯſequenti q<g ref="char:cmbAbbrStroke">̄</g>ttuor: <abbr>qr</abbr> quattuor ſunt tercia ꝑs aſſis. &amp; illa octo q<g ref="char:cmbAbbrStroke">̄</g> remane<g ref="char:cmbAbbrStroke">̄</g>t dicunt<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> biſſe Et inter<g ref="char:abpre">p̄</g>tat<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> biſſe octo. &amp; eſt grecu<g ref="char:cmbAbbrStroke">̄</g> Preterea ſi remoue<g ref="char:cmbAbbrStroke">̄</g>tur ab aſſe <expan>
+                  <am>
+                     <g ref="char:abqui"/>
+                  </am>
+                  <ex>qui</ex>
+               </expan>n<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> remane<g ref="char:cmbAbbrStroke">̄</g>t ſeptem. &amp; illa <expan>
+                  <am>
+                     <g ref="char:abqui"/>
+                  </am>
+                  <ex>qui</ex>
+               </expan>n<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> remota di<g ref="char:EOLunhyphen"/>cunt<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> 
+               <expan>
+                  <am>
+                     <g ref="char:abqui"/>
+                  </am>
+                  <ex>qui</ex>
+               </expan>ncuns a quin<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan>. &amp; illa ſeptem q<g ref="char:cmbAbbrStroke">̄</g> remanent dicu<g ref="char:cmbAbbrStroke">̄</g>t<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> ſeptuns a ſeptem Preterea ſi remouent<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> ab aſſe ſex illa ſex dicunt<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> ſemis. &amp; illa ſex q<g ref="char:cmbAbbrStroke">̄</g> remane<g ref="char:cmbAbbrStroke">̄</g>t ſilr<g ref="char:cmbAbbrStroke">̄</g> dicunt<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> ſemis Et <abbr>dr</abbr> ſemis de ſemis <abbr>qd</abbr> eſt dimidius. &amp; as aſſis q<g ref="char:cmbAbbrStroke">̄</g>i di<g ref="char:EOLhyphen"/>midia ꝑs aſſis Et ita patet q<g ref="char:cmbAbbrStroke">̄</g> ſunt ꝑtes aſſis. Torrens torrentis e<g ref="char:cmbAbbrStroke">̄</g> fluuiꝰ vel aq<g ref="char:cmbAbbrStroke">̄</g> veniens cu<g ref="char:cmbAbbrStroke">̄</g> impetu &amp; imbribus repe<g ref="char:cmbAbbrStroke">̄</g>tina magnu<g ref="char:cmbAbbrStroke">̄</g> hn<g ref="char:cmbAbbrStroke">̄</g>s incrementu<g ref="char:cmbAbbrStroke">̄</g>. ſed aduenie<g ref="char:cmbAbbrStroke">̄</g>te eſtate ca<g ref="char:EOLunhyphen"/>lore ſolis torreſcit areſcit &amp; deſiccat<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> Vn<g ref="char:cmbAbbrStroke">̄</g> ꝓpheta Co<g ref="char:cmbAbbrStroke">̄</g>uer<g ref="char:EOLunhyphen"/>te dn<g ref="char:cmbAbbrStroke">̄</g>e captiuitate<g ref="char:cmbAbbrStroke">̄</g> nr<g ref="char:cmbAbbrStroke">̄</g>am ſicut torrens in auſtro Chalybs fluuiꝰ e<g ref="char:cmbAbbrStroke">̄</g> hyſpanie iux<g ref="char:cmbAbbrStroke">̄</g> que<g ref="char:cmbAbbrStroke">̄</g> populi i<g ref="char:cmbAbbrStroke">̄</g>habita<g ref="char:cmbAbbrStroke">̄</g>t dicti chalybes
+<pb facs="tcp:23584:3" rendition="simple:additions"/>
+               <!-- PDF PAGE 54 -->apud quos ſunt minere ferri optimi quas nudi illi labo<g ref="char:EOLunhyphen"/>rantes effodiunt. Similiter &amp; alij eodem no<g ref="char:cmbAbbrStroke">̄</g>ie cogno<g ref="char:cmbAbbrStroke">̄</g>ia<g ref="char:EOLunhyphen"/>ti ſunt populi iuxta paphlagonia<g ref="char:cmbAbbrStroke">̄</g> in ponto &amp; amazoni<expan>
+                  <am>
+                     <g ref="char:abbus"/>
+                  </am>
+                  <ex>bus</ex>
+               </expan> ꝯtermini. &amp; capitur pleru<g ref="char:cmbAbbrStroke">̄</g>
+               <expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> chalybs ꝓ ipſa ferri maſſa Nonnun<expan>
+                  <am>
+                     <g ref="char:abquam"/>
+                  </am>
+                  <ex>quam</ex>
+               </expan> vero ꝓ inſtrumento ex chalybe ꝯfecto. Dant hic ps iu<g ref="char:cmbAbbrStroke">̄</g>cta poliſillaba ſꝪ varia<g ref="char:cmbAbbrStroke">̄</g>tur Hic <abbr>auth</abbr> forceps &amp; adeps ſꝪ s hic ſeps Dicit ꝙ no<g ref="char:cmbAbbrStroke">̄</g>ia terminata in s <g ref="char:abpre">p̄</g>cedente p ſunt ge. maſ. po<g ref="char:EOLunhyphen"/>liſillaba .i. pluriu<g ref="char:cmbAbbrStroke">̄</g> ſillabaru<g ref="char:cmbAbbrStroke">̄</g>. vt hic anceps Sed forceps ideſt inſtrumentu<g ref="char:cmbAbbrStroke">̄</g> capiendi ferru<g ref="char:cmbAbbrStroke">̄</g> &amp; adeps variant<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> ꝑ hic aut hec. ideſt ſunt generis incerti Sed hoc nomen ſeps ꝓ ſerpente eſt generis maſculini Inuenit<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> etiam hec ſeps ꝓ quo dicit<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> ſepes ſepis.</p>
+            <p>Plura<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> da<g ref="char:cmbAbbrStroke">̄</g>t <choice>
+                  <abbr>h</abbr>
+                  <expan>hic</expan>
+               </choice> &amp; <choice>
+                  <abbr>h</abbr>
+                  <expan>hic</expan>
+               </choice> celebs i<g ref="char:cmbAbbrStroke">̄</g>fa<g ref="char:cmbAbbrStroke">̄</g>ſ<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> pare<g ref="char:cmbAbbrStroke">̄</g>ſ<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> Protulit ouidius infancia detulit ora Et p<hi rend="sup">i</hi>nceps effrons illi coniu<g ref="char:cmbAbbrStroke">̄</g>ge bifrontem Dicit auctor ꝙ plura reꝑiunt<expan>
+                  <am>
+                     <g ref="char:abur"/>
+                  </am>
+                  <ex>ur</ex>
+               </expan> in co<g ref="char:cmbAbbrStroke">̄</g>muni genere declina<g ref="char:EOLunhyphen"/>ta. vt <choice>
+                  <abbr>h</abbr>
+                  <expan>hic</expan>
+               </choice> &amp; hec celebs   .i. caſtus <choice>
+                  <abbr>h</abbr>
+                  <expan>hic</expan>
+               </choice> &amp; hec infans <choice>
+                  <abbr>h</abbr>
+                  <expan>hic</expan>
+               </choice> &amp; hec pa<g ref="char:EOLhyphen"/>rens <choice>
+                  <abbr>h</abbr>
+                  <expan>hic</expan>
+               </choice> &amp; hec p<hi rend="sup">i</hi>nceps <choice>
+                  <abbr>h</abbr>
+                  <expan>hic</expan>
+               </choice> &amp; hec effrons .i. ſine fronte hic &amp; hec anceps. ideſt dubius.</p>
+            <p>Hec x <g ref="char:abpre">p̄</g>ponas ſed plurima demere debes In hac parte auctor determinat de generi<expan>
+                  <am>
+                     <g ref="char:abbus"/>
+                  </am>
+                  <ex>bus</ex>
+               </expan> noi<g ref="char:cmbAbbrStroke">̄</g>m ter<g ref="char:EOLhyphen"/>minatoru<g ref="char:cmbAbbrStroke">̄</g> in x Et dicit ꝙ no<g ref="char:cmbAbbrStroke">̄</g>ia in x terminata ſunt ge. fe. vt lex legis Deinde dicit ꝙ plura debent excipi. &amp; fa<g ref="char:EOLhyphen"/>cit exceptionem.</p>
+            <p>An triplici genere decet adiectiua notare Dicit ꝙ adiectiua in x terminata ſunt ge. o<g ref="char:cmbAbbrStroke">̄</g>nis. vt <choice>
+                  <abbr>h</abbr>
+                  <expan>hic</expan>
+               </choice> et hec &amp; hoc felix.</p>
+            <pb facs="tcp:23584:3"/>
+            <!-- PDF PAGE 54 -->
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,386 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The bridegroome by Samuel Hieron</title>
+            <author>Hieron, Samuel, 1576?-1617.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1613</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 50 KB of XML-encoded text transcribed from 24 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A03274</idno>
+            <idno type="STC">STC 13392</idno>
+            <idno type="STC">ESTC S115190</idno>
+            <idno type="EEBO-CITATION">99850409</idno>
+            <idno type="PROQUEST">99850409</idno>
+            <idno type="VID">15610</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A03274)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 15610)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1274:20)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The bridegroome by Samuel Hieron</title>
+                  <author>Hieron, Samuel, 1576?-1617.</author>
+               </titleStmt>
+               <extent>[6], 42 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed [by M. Bradwood] for Samuel Macham, and are to be sold at his shop in Pauls Church-yard, at the signe of the Bull-head,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1613.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>A sermon.</note>
+                  <note>Printer's name from STC.</note>
+                  <note>First leaf blank?.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2008-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2008-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-02</date>
+            <label>John Pas</label>Sampled and proofread</change>
+         <change>
+            <date>2009-02</date>
+            <label>John Pas</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:15610:1" rendition="simple:additions"/>
+            <pb facs="tcp:15610:1" rendition="simple:additions"/>
+            <p>THE BRIDEGROOME BY SAMVEL HIERON.</p>
+            <p>LONDON Printed for <hi>Samuel Macham,</hi> and are to be ſold at his ſhop in <hi>Pauls Church-yard,</hi> at the ſigne of the <hi>Bull-head.</hi> 1613.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:15610:2"/>
+            <pb facs="tcp:15610:2"/>
+            <head>
+               <hi>TO THE RIGHT WORSHIPFVLL AND</hi> vertuous <hi>Lady,</hi> the <hi>Lady Brigit Halſewell</hi> of <hi>Halſewell</hi> in So<g ref="char:EOLhyphen"/>merſet.</head>
+            <p>
+               <seg rend="decorInit">M</seg>Adam, I pray, pardon my boldneſſe, in that being vnknowne, I dare thus to preſſe vpon you with theſe pa<g ref="char:EOLhyphen"/>pers. My excuſe is; he who firſt moued me to preach, and ſince per<g ref="char:EOLhyphen"/>ſwaded me to publiſh this enſuing Sermon, would needs I ſhould in<g ref="char:EOLhyphen"/>ſcribe it to your Name. It was de<g ref="char:EOLhyphen"/>liuered at the Nuptials of your hope<g ref="char:EOLhyphen"/>full Heire; in that reſpect, I know it ſhall finde acceptance. But yet the maine inducement to me, to com<g ref="char:EOLhyphen"/>mend it by this particular direction to your <hi>Ladiſhip,</hi> is the conſtant
+<pb facs="tcp:15610:3"/>
+report I haue receiued, of your good affection to the leaſt things. In aſ<g ref="char:EOLhyphen"/>ſurance of this, I was the more em<g ref="char:EOLhyphen"/>boldened to preſent you with this Mite, which if it ſhall afford any comfort either to your ſelfe, or to any other truly fearing God, I haue all that I aimed at, in imparting it to the common view. For which end I will follow it with my praiers, and to your <hi>Ladiſhip</hi> in particular, will remaine, From <hi>Modbury,</hi>
+            </p>
+            <closer>
+               <signed>A true deſirer of the only good, <hi>SAM. HIERON.</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:15610:3"/>
+            <head>THE BRIDEGROOME.</head>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>Math. Chap. 9. Ver. 15.</hi>
+                  </bibl>
+                  <p>Can the children of the Mariage-cham<g ref="char:EOLhyphen"/>ber mourne, as long as the Bride<g ref="char:EOLhyphen"/>groome is with them? But the daies ſhall come when the Bridegroome ſhall he taken from you, and then ſhall they fast.</p>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">B</seg>Eing entreated to this ſeruice,<note place="margin">This Sermon was preached as a Mariage.</note> my deſire was to handle ſome ſuch Scripture, as might occaſion me both to deliuer ſomething agreeable to the cauſe of our preſent meeting, and withall to ſpeake that which might concerne vs all, as we be Chriſtians.
+<pb n="2" facs="tcp:15610:4"/>
+Should I ſpeake nothing of Ma<g ref="char:EOLhyphen"/>riage duties, happely when I had done, it might be ſaid of ſome, <hi>what was this Sermon to the preſent buſines?</hi> Should I treat therof only? many (perhaps) might go away with a conceit, that they had heard no<g ref="char:EOLhyphen"/>thing which did much concerne them. This text I truſt ſhall fit both turnes; of which I will not doubt to ſay, as Iacob did of his pretended veniſon: <hi>The Lord hath brought it to my hands</hi> 
+               <note n="a" place="margin">Gen. 27.20.</note>. I entreat you to ſit vp and eat thereof, that your ſoules may bleſſe mee, when you ſhall find that I haue preſen<g ref="char:EOLhyphen"/>ted you with ſuch ſauoury meat, as either you doe loue, or els ought, (if your ſtomakes be well affected) to deſire.</p>
+            <p>
+               <note place="margin">The ſtate of the Text.</note>Touching this Text, I pray you in a word to conceiue thus much. Ceremonies haue been in all ages of the Church, becauſe of the di<g ref="char:EOLhyphen"/>uerſity of mens affections an occa<g ref="char:EOLhyphen"/>ſion
+<pb n="3" facs="tcp:15610:4"/>
+of contention. They which haue agreed well together in the Maine, yet haue been exceedingly heated, and (as is ſaid of Paul and Barnabas <note n="b" place="margin">Act. 15.39.</note>) <hi>ſtirred</hi> one againſt the other in the Bye, and hereby the chiefe buſineſſe hath beene much letted, and the common enemie much aduantaged. Sathan (the enginer of all miſchiefe) practized this ſtratagem in the daies of our Sauiour. When he perceiued how the Truth grew and preuailed by the vniforme proceedings of Iohn Baptiſt and Chriſt, he endeuoured to make a Rent (if it were poſſible) betwixt them by promoting a queſtion about <hi>Faſting.</hi> Iohn tray<g ref="char:EOLhyphen"/>ned vp his diſciples in much out<g ref="char:EOLhyphen"/>ward ſtrictneſſe, the follower; of our Sauiour liued (as might ſeem) after a more eaſie faſhion. Here now grew a queſtion; How could the freedom of Chriſts diſciples be iuſtified without condemning the
+<pb n="4" facs="tcp:15610:5"/>
+auſteritie of Iohn: and if Iohns ſtrictneſſe was good, ſurely then the libertie of Chriſt could not be approoued. This mooued the wic<g ref="char:EOLhyphen"/>ked Phariſees to taxe them both, &amp; to ſay (as they did) that the one had a Deuill, and the other was a Glutton <note n="c" place="margin">Luk. 7.33.34</note>. This matter was ſet a foot by ſome of Iohns approouers and the Phariſees ioyned with them: indeed to them it would haue been a ioy to haue ſeen Chriſt and Iohn by the eares. The chal<g ref="char:EOLhyphen"/>lenge is made ſomething peremp<g ref="char:EOLhyphen"/>torily in the former verſe, <hi>Why doe not thy diſciples faſt?</hi> Now my Text is Chriſts plea for clearing of him<g ref="char:EOLhyphen"/>ſelfe, and for deciding of the diffe<g ref="char:EOLhyphen"/>rence: <hi>Can the children of the mariage chamber mourne &amp;c.</hi> Wherein hee compares himſelfe to a Bride<g ref="char:EOLhyphen"/>grome, and his Diſciples to the ſpe<g ref="char:EOLhyphen"/>ciall gueſts choſen to accompanie the Bridegroome. Now a Wed<g ref="char:EOLhyphen"/>ding (ſaith he) you all know, is a
+<pb n="5" facs="tcp:15610:5"/>
+time of mirth, not of mourning, of feaſting not of faſting; will you that I ſhould now ſtint my Diſci<g ref="char:EOLhyphen"/>ples as Iohn doth his? Should I, during the time of this my com<g ref="char:EOLhyphen"/>fortable preſence with them, apply them to this ſadder courſe of fa<g ref="char:EOLhyphen"/>ſting? It fitteth not with that plen<g ref="char:EOLhyphen"/>ty of reioycing, which my being among them doth afford. Indeed there is a time approching, in which I ſhall bee taken from them, that will be a time of humiliation, <hi>then ſhall they Fast.</hi> Thus haue you the ſtate of this Scripture.</p>
+            <p>For order in handling it,<note place="margin">The order in handling is.</note> I will follow this courſe. Sith it is a ſi<g ref="char:EOLhyphen"/>militude fetched from ſuch a buſi<g ref="char:EOLhyphen"/>neſſe as hath giuen Being to this dayes meeting, I will firſt ſpeake of ſuch things, as out of the Text may concerne the preſent occaſion, and then of ſuch things as were prin<g ref="char:EOLhyphen"/>cipally intended by our Sauiour and doe concerne vs all. Reſpe<g ref="char:EOLhyphen"/>ctiuely
+<pb n="6" facs="tcp:15610:6"/>
+to the occaſion, I will treat of two particulars. 1. The title of a Bridegroome applyed to Chriſt. 2. The lawfulnes of reioycing to<g ref="char:EOLhyphen"/>gether, when wee are called to the companie of a Bridegroome.</p>
+            <p>It is manifeſt to al who conceiue ought, that by the title of a <hi>Bride<g ref="char:EOLhyphen"/>groome</hi> our Sauiour ment himſelfe. In Math. Chap. 25. he which in the firſt verſe is called the <hi>Bridegroome,</hi> in the thirteenth, is termed the <hi>ſon of man.</hi> The Church is his <hi>Beloued</hi>
+               <note n="d" place="margin">Can. 1.8.</note>. This life is the time of Wooing &amp; Betrothing. The Miniſters of the Goſpell are the <hi>Bridegroomes friends</hi> 
+               <note n="e" place="margin">Ioh. 3.29.</note>, and do <hi>beſeech, as in Chriſts ſteed</hi> 
+               <note n="f" place="margin">2. Cor. 5.20.</note>, they are buſied in preparing the Church for <hi>one husband,</hi> and to <hi>preſent her as a pure virgin vnto Christ</hi> 
+               <note n="g" place="margin">2. Cor. 11.2.</note>. The aſſurances are here drawne vp, and he hath giuen his word in his Word, vnto her, that he will <hi>marry her vnto him for euer, in iudgment, in mercy and in compaſ<g ref="char:EOLhyphen"/>ſion</hi>
+               <pb n="7" facs="tcp:15610:6"/>
+               <note n="h" place="margin">Hoſ. 2.19.</note>. <hi>Earned</hi> is giuen <note n="i" place="margin">Eph. 1.14.</note>: A ioyn<g ref="char:EOLhyphen"/>ture is made, Thee ſhall be an <hi>Heire annexed with Christ</hi> 
+               <note n="k" place="margin">Rom. 8.17.</note> He ſendeth her euer and anon tokens of loue, <hi>ſpirituall bleſsings in heauenly things</hi> 
+               <note n="l" place="margin">Eph. 1.3.</note>, ſhee ſhall not bee <hi>deſtitute of any gift</hi> 
+               <note n="m" place="margin">1. Cor. 1.7.</note>. Hee is but gone before to prepare a place for her &amp; her train in the many manſions of his <hi>Fa<g ref="char:EOLhyphen"/>thers houſe</hi>
+               <note n="n" place="margin">Ioh. 14.23.</note>. He will returne, and the laſt day of the World, ſhall be the firſt day of her full enioying him. Now ſhee cryeth as the mo<g ref="char:EOLhyphen"/>ther of Siſera, <hi>Why is his chariot ſo long, why tary the wheeles of his cha<g ref="char:EOLhyphen"/>riot</hi> 
+               <note n="o" place="margin">Iudg. 5.28.</note>? and ſtill beggeth with him by ſighes vnexpreſſable, <hi>Returne my welbeloued</hi> 
+               <note n="p" place="margin">Cant. 2.17.</note>, but then the mari<g ref="char:EOLhyphen"/>age ſhall be conſummate, and ſhee ſhall <hi>be euer with the Lord</hi> 
+               <note n="q" place="margin">1. Theſ. 4.17.</note>. Thus you ſee how well the title of a <hi>Bridegroome</hi> agreeth vnto Chriſt: I wil not worke ſo much as I could out of this title, reſpectiuely to the matter of Mariage; onely this:
+<pb n="8" facs="tcp:15610:7"/>
+This name giuen to Chriſt doth teach euery one that carieth the ſame title two things. 1. How to chuſe his Loue. 2. How to loue his choiſe.<note place="margin">The <hi>1.</hi> Doct.</note> Touching the former of theſe I ſet downe this doctrine. <hi>That in chuſing a ſpouſe there ought more reſpect to be had to inward good<g ref="char:EOLhyphen"/>neſſe then to outward goods.</hi> Such hath been the courſe of this our Bridegroome. In ſeeking of a Church and people to himſelfe, what eye hath he caried to nobili<g ref="char:EOLhyphen"/>tie of birth, to betternes of bloud, to properneſſe of perſon, to exact<g ref="char:EOLhyphen"/>neſſe of beauty, to abundance of wealth, to any manner of outward thing? <hi>Hee ſeeth not as man ſeeth</hi> 
+               <note n="r" place="margin">1. Sam. 16.7.</note>. <hi>He craueth no bullocke out of the houſe, nor goate from the fold</hi> 
+               <note n="ſ" place="margin">Pſal. 50.9.</note>. <hi>Hee deligh<g ref="char:EOLhyphen"/>teth not in the legs of any man</hi> 
+               <note n="t" place="margin">Pſal. 147.10.</note>. <hi>He requeſteth not the rich more than the poore</hi> 
+               <note n="u" place="margin">Iob 34.19.</note>, <hi>but in euery nation he that fea<g ref="char:EOLhyphen"/>reth God and worketh righteouſneſſe is accepted with him</hi> 
+               <note n="x" place="margin">Act. 10.35.</note>. All that he re<g ref="char:EOLhyphen"/>quireth
+<pb n="9" facs="tcp:15610:7"/>
+is to <hi>feare him, to walke in his wayes and to loue him</hi>
+               <note n="y" place="margin">Deut. 10.12.</note>. His maine expectation is, that his beloued be <hi>all glorious within</hi>
+               <note n="z" place="margin">Pſal. 45.13.</note>, that ſhee <hi>be dec<g ref="char:EOLhyphen"/>ked inwardly with lowlines of mind</hi> 
+               <note n="a" place="margin">1. Pet. 5.5.</note>, <hi>the hid man of the heart is before him a thing much ſet by</hi> 
+               <note n="b" place="margin">1. Pet. 3.4.</note>. Now I demand, ſhall his example who is the <hi>author and finiſher of our Faith</hi> 
+               <note n="c" place="margin">Heb. 12.2.</note> bee of no value? Should not the <hi>ſame minde bee in vs, which was euen in him</hi> 
+               <note n="d" place="margin">Phil. 2.5.</note>? Should wee not <hi>ſhew forth the ver<g ref="char:EOLhyphen"/>tues of him that hath called vs</hi> 
+               <note n="e" place="margin">1. Pet. 2.9.</note>? In<g ref="char:EOLhyphen"/>deed in true iudgment, that which is to bee <hi>deſired of a man is his good<g ref="char:EOLhyphen"/>neſſe</hi>
+               <note n="f" place="margin">Pro. 19.22.</note>. What is <hi>beauty without vn<g ref="char:EOLhyphen"/>derſtanding, but as a Iewell of gold in a ſwines ſnout</hi> 
+               <note n="g" place="margin">Pro. 11.22.</note>? What benefit to haue <hi>a contentious woman with a wide houſe</hi>
+               <note n="h" place="margin">Pro. 21.9.</note>? Better to dwell in a <hi>corner</hi> where one may ſit dry, than to bee vexed with ſuch a continuall <hi>drop<g ref="char:EOLhyphen"/>ping</hi> 
+               <note n="i" place="margin">Prou. 19.13.</note>. Was Iezabel the better for her paint <note n="k" place="margin">2. King. 9.30.</note>, or had Ahab any whit the better bargaine in her becauſe
+<pb n="10" facs="tcp:15610:8"/>
+ſhee was the daughter of a King <note n="l" place="margin">1. King. 16.31.</note>? Better with Booz to take Ruth from among the gleaners, and with Iacob, to ſerue ſeuen yeeres for a wench that keepeth ſheep, then to haue an idolatrous Maacah <note n="m" place="margin">1. King. 15.13.</note> or a treacherous Athaliah <note n="n" place="margin">2 King. 11.1.</note>. The rule of <hi>ſeeking the kingdome of God firſt</hi> 
+               <note n="p" place="margin">Math. 6.33.</note> ought to take place in all our vn<g ref="char:EOLhyphen"/>dertakings, eſpecially in Mariage, of which the purpoſe in Gods or<g ref="char:EOLhyphen"/>daining it, is a <hi>godly ſeed</hi>
+               <note n="q" place="margin">Mal. 2.15.</note>: It is the foundation of a familie, and a fa<g ref="char:EOLhyphen"/>milie ought to be the modell of a Church, and therefore in it, that ſhould chiefly bee intended, by which religion may be furthered. It is not denyed but outward things in matters of wedlock may be looked too. It is fit, that, as for yeeres, ſo for eſtate and meanes there ſhould be a proportion, for <hi>God is not the author of confuſion</hi> 
+               <note n="r" place="margin">1. Cor. 14.33.</note>. Dauid was not apt by and by to entertaine the motion of marying
+<pb n="11" facs="tcp:15610:8"/>
+ſo much aboue his reach, as with the daughter of a King, himſelfe but the ſon of <hi>Iſhai</hi> the Yeoma<g ref="char:cmbAbbrStroke">̄</g> 
+               <note n="ſ" place="margin">1. Sam. 18.18.</note> &amp;c. It is poſſible for a man to be either too baſe or too preſumptuous in his choice. Beſides, the rule of the Scripture, (<hi>Parents lay vp for the children</hi> 
+               <note n="t" place="margin">2. Cor. 12.14.</note>) bindeth to a care to diſ<g ref="char:EOLhyphen"/>poſe ſo of them, that as much as may bee, they may enioy, that more <hi>bleſſed thing, to giue rather than receiue</hi> 
+               <note n="u" place="margin">Act. 20.25.</note>. But the queſtion is now touching the ſcope in the matter of choice; not whether Hagar &amp; Sarah may dwell together, but which of the two muſt be Miſtris. The ſpeciall thing: which muſt bee ſought for, muſt be this, to haue an euen yoke-fellow, which ſhal be fit in bearing that <hi>yoke</hi> which Chriſt calleth to <note n="x" place="margin">Math. 11.29.</note>. Our Bridegroome propoundeth this as the maine ar<g ref="char:EOLhyphen"/>ticle in his wooing: <hi>Be holy as I am holy</hi>
+               <note n="y" place="margin">1. Pet. 1.1.<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </note>. All the world ſhall not win him to the contract where this
+<pb n="12" facs="tcp:15610:9" rendition="simple:additions"/>
+wants. Hee will haue no <hi>concord</hi> with <hi>Belial</hi> 
+               <note n="z" place="margin">2. Cor. 6.15.</note>. This is the rule of choice. What ſaid Iehu to Ionadab when hee was following his courſe againſt the poſteritie of Ahab and againſt Baal, <hi>Is thy heart vpright as mine is, then giue me thy hand</hi> 
+               <note n="a" place="margin">King. 10.15.</note>: ſuch a queſtion were not amiſſe, for a man to aske the woman, <hi>Is thy heart as mine for matters of religion, thus &amp; thus am I, art thou ſo alſo? then giue me thy hand:</hi> otherwiſe as Dauid ſaid to Mephiboſheth, <hi>why ſpeakeſt thou any more of thy matters</hi> 
+               <note n="b" place="margin">2. Sam 19.29.</note>, what ſhould wee treat of portions and ioyntures, when wee be not like to agree together in the principall.</p>
+            <p>
+               <note place="margin">The vſe.</note>I demand now of you, haue the men of this generation no need to bee taught this leſſon? I would I could perſwade as many to learne it, as I know haue need to be taught it. The truth is, generally in mat<g ref="char:EOLhyphen"/>ters of choiſe, religion beareth the ſmalleſt ſtroke. Mee thinkes, the
+<pb n="13" facs="tcp:15610:9" rendition="simple:additions"/>
+choice of many about wiues, is like that in vſe about bargaines and farmes. The queſtions are (moſtly) <hi>What is it worth beſides the rent? what houſe vpon it, how neere the market, the mill, the ſand?</hi> When heare you this, <hi>How neere the Church,</hi> or, <hi>what Miniſter in the Pariſh,</hi> or, <hi>what good Preacher dwelleth by?</hi> Thus is it in this matter alſo; thus it runneth, <hi>what portion, what ioynture, how much money in hand, what ſecuritie for the rest?</hi> Not a word, <hi>how for religion, what knowledge of God, how diſpoſed in things that concerne the kingdome of God?</hi> Nay, the truth is, men are ſo violent this way, that ſcarſely or<g ref="char:EOLhyphen"/>dinarie naturall contentments are looked vnto as they ſhould: where there may be a good lading of that <hi>thicke-clay,</hi> which the Prophet ſpea<g ref="char:EOLhyphen"/>keth of <note n="c" place="margin">Heb. 2.6.</note>, or that which <hi>Achſah, Calebs</hi> daughter craued at her ma<g ref="char:EOLhyphen"/>riage, <hi>ſprings aboue and ſprings be<g ref="char:EOLhyphen"/>neath</hi> 
+               <note n="d" place="margin">Ioſ. 15.19.</note>, men will loue, they haue
+<pb n="14" facs="tcp:15610:10"/>
+their affections at commaund. Wanton <hi>Dinah,</hi> ſubtle <hi>Dalilah,</hi> ſcor<g ref="char:EOLhyphen"/>ning <hi>Micholl,</hi> gainſaying <hi>Zipporah,</hi> who were not like to bee entertai<g ref="char:EOLhyphen"/>ned vpon theſe termes? Were ſhee as obedient as <hi>Sarah,</hi> as wiſe as <hi>De<g ref="char:EOLhyphen"/>borah,</hi> as religious as the <hi>Shanamite,</hi> as deuout as <hi>Hannah,</hi> as well affe<g ref="char:EOLhyphen"/>cted to the word as <hi>Lydia,</hi> yet ſhall ſhee bee thruſt out with as much contempt as <hi>Thamer</hi> was by <hi>Am<g ref="char:EOLhyphen"/>mon,</hi> if ſhee want theſe <note n="e" place="margin">2. Sam. 13.17.</note>. Now, fie vpon this miſiudging age, nothing doth more declare the ſcarſitie of religion among men. The <hi>Atheni<g ref="char:EOLhyphen"/>ans</hi> deſiring to finde out their chil<g ref="char:EOLhyphen"/>drens inclination, that ſo they might direct them to ſuch callings as they were fit for, would bring them into a roome full of all man<g ref="char:EOLhyphen"/>ner of inſtruments: look therfore what kinde of inſtrument any one did chuſe, and ſeemed to take de<g ref="char:EOLhyphen"/>light in, to that calling wherto that inſtrument belonged, their conclu<g ref="char:EOLhyphen"/>ſion
+<pb n="15" facs="tcp:15610:10"/>
+was hee was diſpoſed. So in this, the manner of mens choice doth proclaime their hearts. It is a ſigne they haue no great loue to religion, ſith they make ſo ſmall enquirie for religion. Their maine call is for wealth, this ſheweth that their principall affection is to the world. I pray God that that which is ſo powerfull to diſcouer this ſin, may bee as effectuall to reforme it, that the guilty may lament it, and they which are yet to come to the occaſion of ſhewing their diſpoſi<g ref="char:EOLhyphen"/>tion in it, may auoid it. And thus far of learning to chuſe. The next is of louing where we haue choſen.</p>
+            <p>It is well knowen that Chriſts loue to his Church is the patterne of that loue which the husband oweth to his wife <note n="f" place="margin">Eph. 5.25.</note>. Now in Chriſts loue to his Church two things eſpecially deſerue note. 1. Bountie (hee withholds nothing which may bee for his Churches
+<pb n="16" facs="tcp:15610:11"/>
+good) 2 Perpetuity (he neuer lea<g ref="char:EOLhyphen"/>ueth where he once loueth) <hi>I haue loued thee with an euerlaſting loue,</hi> ſaith he to his Church: <note n="g" place="margin">Iere. 31.3.</note> Hence wee are taught,<note place="margin">The <hi>2</hi> doct.</note> firſt, <hi>That the Bridegroomes loue to his beloued, ought to extend and reach as farre, as any neceſsitie in her ſhall require a ſupply.</hi> Paul ſaith <hi>loue is bountifull</hi> 
+               <note n="h" place="margin">1. Cor. 13.4.</note>: And indeed this is Bounty, to cary that hart to a wife, as to leaue (if it bee poſſible) no neceſſity vnſupplied. Is not the loue of Chriſt to his Church ſuch? Wherin may it be truly ſayd that he hath beene ſparing, or that hee hath caried the matter with a pin<g ref="char:EOLhyphen"/>ching hand? Hauing nothing dearer to himſelfe then himſelfe, yet in his loue <hi>he gaue himſelfe as an offring vnto God</hi> 
+               <note n="i" place="margin">Ephe 5.2</note>: He hath bound himſelfe by promiſe to his elect, not to <hi>leaue them comfortleſſe</hi> 
+               <note n="k" place="margin">Ioh. 14.18.</note>: he is <hi>touched with a feeling of euery infirmi<g ref="char:EOLhyphen"/>ty</hi> 
+               <note n="l" place="margin">Heb. 4.15.</note>, and <hi>through his riches he will ful<g ref="char:EOLhyphen"/>fill all their neceſsities</hi> 
+               <note n="m" place="margin">Phil. 4.19.</note>. Heere is the
+<pb n="17" facs="tcp:15610:11"/>
+proportion and ſcantling of the husbands loue. What other thing is required when hee is called <hi>the Head of the wife</hi>
+               <note n="n" place="margin">Eph. 5.23.</note> but that he ſhould looke out euery way, to protect, to ſupply, to furniſh, to remooue in<g ref="char:EOLhyphen"/>conueniences, to procure comforts. What els is intended in that iniun<g ref="char:EOLhyphen"/>ction, <hi>ſo ought men to loue their wiues as themſelues</hi> 
+               <note n="o" place="margin">Eph. 5.28.</note>? Who, vnleſſe it be ſome hatefull miſer is pinching, to himſelfe? Now, the neceſſities of a wife which be to be ſupplied are of two ſorts; either inward or out<g ref="char:EOLhyphen"/>ward. The inward (which reſpect the ſoule) are chiefly to bee looked vnto, the ſoul being the more wor<g ref="char:EOLhyphen"/>thy part. The husband ought to be vnto the wife a kinde of dome<g ref="char:EOLhyphen"/>ſticall inſtructor. Wherefore els is ſhe to <hi>aske him at home?</hi> 
+               <note n="p" place="margin">1. Cor. 14.35</note> and how otherwiſe ſhall he be <hi>the guide of her youth</hi>
+               <note n="q" place="margin">Prou. 2.17.</note>, if he be not able and willing to guide her <hi>feet in the way of peace</hi>
+               <note n="r" place="margin">Luk. 1.79.</note>. Outward wants muſt be regarded
+<pb n="18" facs="tcp:15610:12"/>
+too. This is that which the ſpirit of God calleth, <hi>the ſpreading of the wing,</hi> 
+               <note n="ſ" place="margin">Ruth. 3.9.</note> 
+               <hi>nouriſhing and cheriſhing</hi> 
+               <note n="t" place="margin">Eph. 5.29.</note>. In<g ref="char:EOLhyphen"/>deed I may ſay as Lot did in ano<g ref="char:EOLhyphen"/>ther caſe, <hi>Wherefore els is ſhe come vn<g ref="char:EOLhyphen"/>der</hi> the Husbands <hi>roofe</hi> 
+               <note n="u" place="margin">Gen. 19.8.</note>? There muſt bee mainetenance accor<g ref="char:EOLhyphen"/>ding to her ranke and that with cheerefulneſſe. (Chriſt leadeth his Church with benefits and that vn<g ref="char:EOLhyphen"/>ſought to); And there muſt be due imployment; her husbands <hi>Heart</hi> muſt <hi>truſt in her</hi> 
+               <note n="x" place="margin">Pro. 31.11.</note>. There is no loue where there is niggardlineſſe, in the one, and cauſeles ſuſpition in the o<g ref="char:EOLhyphen"/>ther. Heere is the bounty of loue: a tender and a kinde reſpect had to euery need.</p>
+            <p>This reprooueth the common neglect.<note place="margin">The vſe. <hi>1.</hi>
+               </note> 
+               <hi rend="margQuotes">Husbands ſeeke little to further the ſaluation of their wiues: ſome cannot doe it, ſo great is their ignorance, and ſome care not to do it, ſo little is their conſcience. But if thy wife die in her ſinne,</hi> through
+<pb n="19" facs="tcp:15610:12"/>
+thy default, thy not teaching, thy not admoniſhing, thy not praying with her and for her, God will re<g ref="char:EOLhyphen"/>quire her bloud at thy hands. Thou art liable to account for the ſoule of thy ſeruant, euen his which is <hi>behind the ewes</hi> 
+               <note n="y" place="margin">Pſ. 78.71.</note>, or at <hi>the mill</hi> 
+               <note n="z" place="margin">Exod. 11.5.</note>, much more for hers which <hi>lyeth in thy boſome</hi> 
+               <note n="a" place="margin">Deu. 13.6.</note>, and is ordained to bee an <hi>heire</hi> with thee <hi>of the grace of life</hi>
+               <note n="b" place="margin">1. Pete. 3.7.2</note>.</p>
+            <p>Secondly this taxeth the ſtraight<g ref="char:EOLhyphen"/>neſſe of many husbands in matters of outward conueniency: there is ſcarcely ought to be gotten from them except it be euen wrung out by importunitie, or wrought out by ſome indirect and vniuſtifiable meanes: There is I know an extre<g ref="char:EOLhyphen"/>mity of too much vxoriouſneſſe, ſuch as is in ſome who are forward to further euery vaine and idle hu<g ref="char:EOLhyphen"/>mour of the wife. But there muſt be a meane betwixt a ſparing and a diſſolute hand. <hi>A good man doth meaſure his affaires by iudgement</hi> 
+               <note n="c" place="margin">Pſ. 112.5.</note>:
+<pb n="20" facs="tcp:15610:13"/>
+and <hi>Loue as it is bountiful,</hi> 
+               <note n="d" place="margin">1 Cor. 13.4.</note> ſo it is di<g ref="char:EOLhyphen"/>ſcreet, for it <hi>reioyceth not in Iniquity</hi> 
+               <note n="e" place="margin">In vxerem a<g ref="char:EOLhyphen"/>lienam omnis a<g ref="char:EOLhyphen"/>mor iurpis, in ſuum numius. <hi>Hier.</hi>
+               </note>. To another mans wife all loue is diſhoneſt: ſo is too much to a mans owne not commendable. There may be dotage at home, as well as adulterie abroad Remember the patterne. Chriſt leaueth the church neither in want, nor in wantoneſſe, he will ſupply her in the one, and cut her ſhort in the other. Thus farre of the Bounty of Loue.</p>
+            <p>
+               <note place="margin">The third doct.</note>The ſecond thing imitable in Chriſts loue is Perpetuity. The Doctrine is, <hi>That the husbands loue to his wife muſt bee continued in ſtedfaſt<g ref="char:EOLhyphen"/>neſſe to the end.</hi> This is the glory of our Bridegroome, where hee lou<g ref="char:EOLhyphen"/>eth, <hi>he loueth to the end</hi> 
+               <note n="f" place="margin">Iohn. 13.1.</note>: His <hi>gifts &amp; callings are without repentance</hi> 
+               <note n="g" place="margin">Rom. 11.29.</note>: No<g ref="char:EOLhyphen"/>thing <hi>is able to ſeperate from his Loue</hi> 
+               <note n="h" place="margin">Rom. 8.39.</note>. If there be a ſmall fault hee hides it, he remits it, hee may cha<g ref="char:EOLhyphen"/>ſten it, but he will not caſt of for it. When is a man weary of loue to
+<pb n="21" facs="tcp:15610:13" rendition="simple:additions"/>
+himſelfe? When is the head become an enemy to a limme, if it haue a deformity? Nay it doth both tend and tender it ſo much the more. There is nothing hath right to the aboliſhment of a mans loue to his wife, but that which maketh her no Wife, and that is, Adultery or death: and yet euen after death there ought to bee a reſpect to her memory, and after her ſeparation for adulterie, a loue of pity, though not of delight. <hi>Reioyce with the wife of thy youth, let her breaſtes ſatisfie thee at all times</hi> 
+               <note n="i" place="margin">Pro. 5.19.</note>. Conſtancy is the crowne of euery good action; In<g ref="char:EOLhyphen"/>deed good is not good, if it be not perpetuall; and it is one of the qua<g ref="char:EOLhyphen"/>lities of <hi>Loue not to fall away</hi> 
+               <note n="k" place="margin">1. Cor. 13.8.</note>.</p>
+            <p>This condemneth the inconſtan<g ref="char:EOLhyphen"/>cy of many mens affections.<note place="margin">The vſe.</note> 
+               <hi>Seneca</hi> ſpeaketh of one, who was ſo fond, that he tied his wife to him with his garter: forſooth he could not endure her out of his ſight. Such
+<pb n="22" facs="tcp:15610:14"/>
+violent loue is in ſome in the daies of their firſt acquaintance, that they ſcarſe can tell what belongs to comlines, which yet in time loath as much, as they were ouer aboun<g ref="char:EOLhyphen"/>dantly kind in the beginning. It is the glory of mariage when there is both a continuance and a grouth of loue, ſo that the laſt parting af<g ref="char:EOLhyphen"/>fecteth, with greater griefe, then the firſt meeting ſatisfied with content. He that would further this had need of good diſcretion. It muſt be his <hi>glory to paſſe by many offences</hi> 
+               <note n="l" place="margin">Pro. 19.11.</note>; and to temper himſelfe from the ouer-quicke apprehenſi<g ref="char:EOLhyphen"/>on of euery occaſion of diſtaſt. His Loue muſt <hi>couer,</hi> 
+               <note n="m" place="margin">1. Pet. 4.8.</note> yea and labour to recouer a multitude of defects. Bitternes and violence muſt be no gueſts in his houſe, and of all other <hi>Wraths,</hi> it were pity the Sunne ſhould <hi>go downe vpon</hi> his <note n="n" place="margin">Eph. 4.26.</note> to his wife. The more tender the loue, the more hard to be ſodered, when
+<pb n="23" facs="tcp:15610:14"/>
+it hath receiued a cracke. I may ſay of ſuch breaches as <hi>Solomon</hi> doth of thoſe betwixt Brethren, they <hi>are as the barres of a Palace</hi> 
+               <note n="o" place="margin">Pro. 18.19.</note>; it is not ea<g ref="char:EOLhyphen"/>ſie to diſſolue them. Theſe things muſt be watched againſt, that loue may bee perpetuall. Thus much how euery bridegroome may learne of this grand Bridegroome, how to chuſe his loue and how to loue his choice. In chuſing let re<g ref="char:EOLhyphen"/>ligion be the maine enquiry. In louing let there be bounty to ſup<g ref="char:EOLhyphen"/>ply euery want, and conſtancy to keep the affection ſtrong vnto the End.</p>
+            <p>Now leſt I ſhould be thought to giue inſtructions but by halues, a word let me adde touching her to whom the Bridegroomes loue muſt be thus bountifull, thus per<g ref="char:EOLhyphen"/>petuall. Out of his duty ſhee may iudge of hers. Is he bound to loue and ſhall it be free for her, to an<g ref="char:EOLhyphen"/>ſwere his good affection with neg<g ref="char:EOLhyphen"/>lect.
+<pb n="24" facs="tcp:15610:15"/>
+If he muſt be bountifull, ſurely ſhe muſt be dutifull, if he muſt not ſpare to ſupplie her, ſhee muſt not faile to obey him. If his loue muſt be to her without change, her fa<g ref="char:EOLhyphen"/>ſhion muſt be ſuch to him as may occaſion no diſtaſt. Hee muſt in<g ref="char:EOLhyphen"/>ſtruct, ſhe muſt learne; he muſt guide, ſhe muſt follow, he muſt ad<g ref="char:EOLhyphen"/>moniſh, ſhe muſt hearken; he muſt allow her cheerefully out of his e<g ref="char:EOLhyphen"/>ſtate, ſhe muſt conforme her ſelfe contentedly to his eſtate. He muſt not ſtraiten her, and ſhe muſt not vndoe him: he muſt truſt her, and ſhe muſt not deceiue him: he muſt not be bitter, and ſhe muſt not be ſtout. In a word he muſt euer ac<g ref="char:EOLhyphen"/>count her for his Loue, and ſhee muſt euer eſteeme him as her head. Here is a ſweet proportion. I wiſh it to you that are eſpouſed this day, it ſhalbe better vnto you then both your eſtates. So much of that which is to be noted out of the ſi<g ref="char:EOLhyphen"/>militude,
+<pb n="25" facs="tcp:15610:15"/>
+agreably to the preſent occaſion.</p>
+            <p>The next generall thing is the Lawfulnes of reioycing, when we are called to the company of the Bridegroome. Our Sauiour ſecret<g ref="char:EOLhyphen"/>ly inſinuateth this to be lawfull: for out of the freedome to be more cheerefull then vſuall at a Mariage, he iuſtifieth his courſe of not bin<g ref="char:EOLhyphen"/>ding his diſciples to the ſeuerity of faſting, whiles he was preſent.<note place="margin">The <hi>4.</hi> Doct.</note> The Doctrine is thus. <hi>That there is a law<g ref="char:EOLhyphen"/>fulnes of mutuall Reioycing at Mariage Solemnities.</hi> I haue alreadie made it to appeare how this Doctrine ſpringeth hence. Chriſt buildeth vpon this generall ground, that a Mariage is rather a time of gladnes then of mourning. It is well knowne that our Sauiour himſelfe, being thereunto inuited, afforded his preſence at a Mariage feaſt in <hi>Cana</hi> of <hi>Galile,</hi> yea and by his firſt miracle ſupplied there the lacke of
+<pb n="26" facs="tcp:15610:16"/>
+wine, <hi rend="sup">p</hi> a ſufficient teſtimonie of the lawfulneſſe of the liberall vſe of the creatures of God vpon ſuch an occaſion. I remember how in the Prophet<note n="q" place="margin">Iſ. 62.5.</note>, the Lord deſcribeth the contentment he taketh in his cho<g ref="char:EOLhyphen"/>ſen, by that ioy which is vpon the mariage day: <hi>as a Bridegroome is glad of the Bride, ſo ſhall thy God reioice ouer thee.</hi> With this ſortes the pa<g ref="char:EOLhyphen"/>rable, in which the inuiting &amp; cal<g ref="char:EOLhyphen"/>ling of men by the Goſpell to the grace of God, is ſhadowed out by <hi>a Mariage-feaſt,</hi> celebrated by a king at the nuptials of his ſonne, to which many are entreated <note n="r" place="margin">Matth. 22.</note>. Such courſes we read in Scriptures vpon like occaſions, as Abrahams feaſt at Iſaacks weaning <note n="ſ" place="margin">Gen. 21.8.</note>, Ioſephs feaſt at the entertainment of his bre<g ref="char:EOLhyphen"/>thren <note n="t" place="margin">Gen. 43.32.</note>, the peoples feaſt after the returne from captiuitie, when the law had been expounded to them, <note n="u" place="margin">Neh. 8.10.</note> the Iewes feaſt, vpon their deliue<g ref="char:EOLhyphen"/>rance from Hamans conſpiracy <note n="x" place="margin">Eſter. 9.22.</note>,
+<pb n="27" facs="tcp:15610:16"/>
+In the primitiue Church they had <hi>Loue-feaſts</hi> 
+               <note n="y" place="margin">Iude v. 12.</note>. In a word, our Saui<g ref="char:EOLhyphen"/>ours direction how a man ſhould demeane himſelfe being inuited to a Mariage-feaſt, <note n="z" place="margin">Luk. 19.7.</note> is a ſufficient iu<g ref="char:EOLhyphen"/>ſtification of this point: for had the courſe been vnlawful, he would rather haue vtterly inhibited it then haue deliuered rules of beha<g ref="char:EOLhyphen"/>uiour at it.</p>
+            <p>The vſe is not,<note place="margin">The vſe.</note> to perſwade to this cauſe, or to vrge it, for although we may doe it, yet we are not bound to do it) but to informe vs heerein out of Gods Word, that we may behaue our ſelues in things of this nature as <hi>Men of knowledge,</hi> which is the true ſeaſoning vnto euery courſe. S. Paul ſaith that <hi>the crea<g ref="char:EOLhyphen"/>tures of God are ſanctified by the Word.</hi> 
+               <note n="a" place="margin">1. Tim. 4.5.</note> Euery man eates, and eating in it owne nature is not vnlawful, but yet euery mans eating is not law<g ref="char:EOLhyphen"/>full: So, there is a generall vſe of Mariage-feaſts, and a Mariage-feaſt in it owne nature is lawfull, but
+<pb n="28" facs="tcp:15610:17"/>
+yet euery mans vſing of it is not good: and why? becauſe it is not <hi>ſanctified vnto him by the Word,</hi> hee goeth to it at aduenture, his conſci<g ref="char:EOLhyphen"/>ence not hauing any direction and guidance from the Word, and ſo that which is lawfull in it ſelfe be<g ref="char:EOLhyphen"/>cometh a ſinne vnto him. It is a good courſe for a Chriſtian to bee ſure of his warrant for <hi>his actions. Whatſoeuer is not of faith is ſinne</hi> 
+               <note n="b" place="margin">Rom. 14.23.</note>. A<g ref="char:EOLhyphen"/>gaine, the lawfulneſſe of the thing, bindes to a care to take heed of vn<g ref="char:EOLhyphen"/>lawfulneſſe in the vſe. There be no greater ſins committed then in the abuſe of lawfull things. The name of (lawful) carieth vs headlong into euill before we be ware. Is it not lawfull to be mery, lawfull to drink wine, lawfull to feaſt, lawfull to make good cheere, lawfull to weare good clothes? yes verily; but vn<g ref="char:EOLhyphen"/>der theſe precepts, come in riot, lu<g ref="char:EOLhyphen"/>xury, intemperance, pride, and a floud of euils. A Chriſtian hath ne<g ref="char:EOLhyphen"/>uer more need to feare himſelfe,
+<pb n="29" facs="tcp:15610:17"/>
+then when hee is to haue to doe in ſuch things, which in themſelues may be vſed. Hee is neuer, in any thing, ſo ſubiect to a fall, eſpecially in ſuch meetings to ſolemne feaſts, leſt the <hi>Table</hi> of plentie ſhould be<g ref="char:EOLhyphen"/>come <hi>a ſnare</hi> 
+               <note n="c" place="margin">Pſal. 69.22.</note> vnto him. Iob was very iealous of his children, that they <hi>blaſphemed God in their hearts</hi> 
+               <note n="d" place="margin">Iob. 1.5.</note> when they were at their feaſts. What great euils doe wee finde in Scripture, to haue accompanied ſome great feaſtings, where the fear of God hath not beene. At Nabals, drunkennes <note n="e" place="margin">1 Sam. 25.36</note>; at Abſhaloms, mur<g ref="char:EOLhyphen"/>ther <note n="f" place="margin">2 Sam. 13.29</note>; at Ahaſhueroſh his, a woful breach betwixt him and his wife <note n="g" place="margin">Eſter. 1.10 &amp;c.</note>; at Belſhazzars, terrible blaſphemy againſt God <note n="h" place="margin">Dan. 5.3.4.</note>: at Herods, killing of Iohn Baptiſt <note n="i" place="margin">Matth. 16.6.</note>. What iudgeme<g ref="char:cmbAbbrStroke">̄</g>ts read we, to haue ouertaken men in their ſecure eatings: Elah, ſmotten and killed while he was <hi>drinking</hi> 
+               <note n="k" place="margin">1 King. 15.9.</note>: the Iſraelites, <hi>whiles the fleſh was yet betwixt their teeth, before it was chew<g ref="char:EOLhyphen"/>ed, the wrath of the Lord was kindled
+<pb n="30" facs="tcp:15610:18"/>
+againſt them</hi> 
+               <note n="l" place="margin">Num. 11.33.</note>. Iobs children, the <hi>houſe fell vpon</hi> them at their ban<g ref="char:EOLhyphen"/>quet <note n="m" place="margin">Iob. 1.19.</note>, I ſay with the Apoſtle, <hi>Theſe things came vnto them for en<g ref="char:EOLhyphen"/>ſamples &amp; were written to admoniſh vs.</hi>
+               <note n="n" place="margin">1. Cor. 10.11.</note> To the end therfore our reioycings and feaſting at this or the like occa<g ref="char:EOLhyphen"/>ſions, may not bee vnlawfull, two things are chiefely to be cared for: Firſt that there be a carefull watch<g ref="char:EOLhyphen"/>ing to preuent exceſſe. <hi>Gluttony and Drunkenneſſe are works of Darkenes</hi> 
+               <note n="o" place="margin">Rom. 13.13</note>, &amp; <hi>Take heed leſt at any time your harts be oppreſſed with them,</hi> ſaith our Sa<g ref="char:EOLhyphen"/>uiour <note n="p" place="margin">Luk. 21.34.</note> There is a woe to thoſe that continue til they be <hi>inflamed</hi> 
+               <note n="q" place="margin">Iſ. 5.11.</note>. It was one of the ſins of the ould world, <hi>eating &amp; drinking like beaſts</hi>
+               <note n="r" place="margin">Matth 24<g ref="char:punc">▪</g>38 <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note>, as long as the ſtomacke would craue: A mans eating ſhould be <hi>for ſtre<g ref="char:cmbAbbrStroke">̄</g>gth not for drunkenneſſe</hi> 
+               <note n="ſ" place="margin">Eccl 10.17.</note>. The ſecond thing to be cared for, is that God be not baniſhed out of our thoghts but that ſtil his preſence may be re<g ref="char:EOLhyphen"/>me<g ref="char:cmbAbbrStroke">̄</g>bred &amp; his iudgements conſide<g ref="char:EOLhyphen"/>red. The neglect heereof is called
+<pb n="31" facs="tcp:15610:18"/>
+a <hi>Feeding without Feare</hi> 
+               <hi rend="sup">ſ</hi>.<note n="t" place="margin">Iude. 12.</note> It is one a of the common miſeries of <hi>fea<g ref="char:EOLhyphen"/>ſting</hi> now a dayes; Men (as they thinke) muſt lay aſide all thoughts and ſpeeches of God and Godlines, or elſe they ſuppoſe they cannot be ſo mery as they would. Truth is by ſuch meane, they ſhould be re<g ref="char:EOLhyphen"/>ſtrained from that which is called <hi>mad mirth</hi> 
+               <note n="u" place="margin">Eccl. 2.2.</note>, otherwiſe heereby they ſhould be much quickened to an holy reioycing. And thus farre of thoſe two things out of this Text, which concerne the occaſi<g ref="char:EOLhyphen"/>on; Now it remaineth to ſpeake of the things eſpecially intended by our Sauiour which may concerne vs all.<note place="margin">The <hi>5</hi> Doct.</note> 
+               <hi>Can the children of the Mariage chamber &amp;c?</hi> Heere I will teach two doctrines. The one is this: <hi>That the true ground of the ioy and reioycing of Gods people, is and ought, to bee the preſence of Chriſt Ieſus.</hi> This is that which our ſauiour here maintaines that the children of God haue a kind of immunity from mouning
+<pb n="32" facs="tcp:15610:19"/>
+and from theſe ſtraiter exerciſes of humiliation, when the ſpouſe of the Church the Lord Ieſus is among the<g ref="char:cmbAbbrStroke">̄</g>: To cleere this point, the maner of Chriſts preſence muſt be enqui<g ref="char:EOLhyphen"/>red into. He is either preſent in bo<g ref="char:EOLhyphen"/>dy, as he was at the time of ſpea<g ref="char:EOLhyphen"/>king theſe words, with his diſciples or after a ſpirituall maner, concer<g ref="char:EOLhyphen"/>ning which is that promiſe, <hi>Loe I am with you alway, vntill the end of the world</hi> 
+               <note n="x" place="margin">Math. 28.20.</note>: He is ſpiritually pre<g ref="char:EOLhyphen"/>ſent, either by outward meanes, or by inward feeling. The outward meanes by which he is preſent, are the publique miniſtry and preach<g ref="char:EOLhyphen"/>ing of the word, and the free vſe of the ſacramentes. Hence is it, that Chriſt is ſayd to bee in <hi>the mids</hi> of ſuch aſſemblings <note n="y" place="margin">Math. 18.23</note>, Iohn beheld him in <hi>the mids of the ſeauen golden candleſticks</hi> 
+               <note n="z" place="margin">Reu. 1.18.</note>: The Miniſters of the Goſpell are ſayd to bee in <hi>his ſtead</hi> 
+               <note n="a" place="margin">1. Cor 5.20.</note>: in their teaching, the <hi>Wiſe<g ref="char:EOLhyphen"/>dome</hi> of God <hi>poureth out his minde</hi>
+               <note n="b" place="margin">Prou. 1.23.</note>, vnto the ſons of men. As for in<g ref="char:EOLhyphen"/>ward
+<pb n="33" facs="tcp:15610:19"/>
+feeling, whe<g ref="char:cmbAbbrStroke">̄</g> the Lord vouch<g ref="char:EOLhyphen"/>ſafeth it, he is ſayd to be <hi>neere</hi>
+               <note n="c" place="margin">Pſ. 145.18.</note>, ac<g ref="char:EOLhyphen"/>cording as when hee withdraweth it, he is ſayd to <hi>abſent himſelfe</hi>
+               <note n="d" place="margin">Pſal. 77.7.8.</note>. So that now the meaning of the do<g ref="char:EOLhyphen"/>ctrine is, that the maine matter of all ſound reioicing vnto Gods chil<g ref="char:EOLhyphen"/>dren, is the liberty of the means of grace, and the euidence which they feel in their ſoules of Gods fauors? Touching reioycing in the out<g ref="char:EOLhyphen"/>ward means, we haue for example the ioy of the men of Bethſhemeſh at the reſtoring of the <hi>Arke</hi> 
+               <note n="e" place="margin">1 Sam. 6.13.</note>, the ioy which was in Hieruſalem at the reforming of religio<g ref="char:cmbAbbrStroke">̄</g> by Hezekia <note n="f" place="margin">2 Chro. 30.21.</note>: the ſhouting when the foundation of the Te<g ref="char:cmbAbbrStroke">̄</g>ple was laid after the cap<g ref="char:EOLhyphen"/>tiuity <note n="g" place="margin">Ezra. 2.11.</note>, the extraordinary gladnes, when the publique teaching of the Law, which had a long time beene diſco<g ref="char:cmbAbbrStroke">̄</g>tinued, was again eſtabliſhed.<note n="h" place="margin">Nehe. 8.12.</note> In the new Teſtame<g ref="char:cmbAbbrStroke">̄</g>t Samaria had <hi>great ioy,</hi> for Philips miniſtry <note n="i" place="margin">Act. 8.8.</note>: Paul while he lay by the heels yet trium<g ref="char:EOLhyphen"/>phed becauſe <hi>Chriſt was preached</hi>
+               <note n="k" place="margin">Phil. 1.18.</note>.
+<pb n="34" facs="tcp:15610:20"/>
+By theſe, we ſee how the <hi>Children of the mariage cha<g ref="char:cmbAbbrStroke">̄</g>ber,</hi> take a kind of ho<g ref="char:EOLhyphen"/>ly contentment, when the <hi>Bride<g ref="char:EOLhyphen"/>groome</hi> is among them by the out<g ref="char:EOLhyphen"/>ward means. Now for reioicing in the inward euide<g ref="char:cmbAbbrStroke">̄</g>ces of his preſence to the ſoule &amp; ſpirit, look we vpon Dauid boaſting in <hi>that ioy of heart,</hi> which was giuen him by the Lords <hi>lifting vp of his countenance vpon him</hi> 
+               <note n="l" place="margin">Pſal. 4.7.</note> vpon the <hi>Eunuch,</hi> going on his way <hi>reioicing,</hi> becauſe he felt how faith in Chriſt was wrought in his ſoule <note n="m" place="margin">Act. 8.39.</note>: This was Maries ioy, <hi>reioicing in ſpi<g ref="char:EOLhyphen"/>rit,</hi> that ſhe knew God in Chriſt was <hi>become</hi> her <hi>Sauiour</hi>
+               <note n="n" place="margin">Luk. 1.46.</note>. This is that ioy which is called <hi>Ioy in the holy Ghoſt</hi> 
+               <note n="o" place="margin">Rom. 14.17.</note>, <hi>peace in beleeuing</hi> 
+               <note n="p" place="margin">Rom. 15.13.</note>. Peter termeth it <hi>glorious &amp; vnſpeakable</hi>
+               <note n="q" place="margin">1. Pet. 18.</note>, and Chriſt ſaith it is ſuch as <hi>none can take away</hi>
+               <note n="r" place="margin">Ioh. 16.22. <hi>The vſe.</hi>
+               </note>.</p>
+            <p>This ſerueth very effectually to ſhew, that they are none of the <hi>Bridegroomes Friends,</hi> which in theſe euidences of his preſence finde ſo little ſweetnes. Men reioyce in their wealth, in their gettings, in their
+<pb n="35" facs="tcp:15610:20"/>
+health, in their beauty, in their ho<g ref="char:EOLhyphen"/>nor, in their belly-cheare, in their gay apparrell, in the pleaſures of ſinne, in the ſatisfying of their wretched luſts, in the ouerthrow &amp; fall of their enemies. Such thinges as theſe giue a kind of contentment vnto many: But how ſcarſe are they, which vnfainedly reioyce in the liberty of the Goſpell, in the freedome of true religion, in the great mercy and goodnes of God, vouchſafing to reueale vnto vs the knowledge of himſelfe in Chriſt Ieſus. Whoſe ſpirits are enliued, whoſe heart leapeth, like the <hi>Babe in the wombe of Elizabeth</hi> 
+               <note n="ſ" place="margin">Luk. 1.44.</note>, for ioy of this ineſtimable bleſſing? Chriſt is a continuall ſuter to vs, by the Mi<g ref="char:EOLhyphen"/>niſtry of his word, he doth in it make loue to our ſoules, he wooeth vs, he beſeecheth &amp; entreateth vs to entertaine him, he offreth vnto vs many tokens of heauenly kind<g ref="char:EOLhyphen"/>neſſe, many rich graces to which all the Iewels in the earth are not wor<g ref="char:EOLhyphen"/>thy
+<pb n="36" facs="tcp:15610:21"/>
+thy to bee compared. But (alas) how be theſe things regarded? who (generally) doth not take more pleaſure in an idle tale or in a ſcur<g ref="char:EOLhyphen"/>rilous ieſt, then in theſe particulars. Well, we ſee heere, Chriſt accounts his preſence in his Church, whither in body or in ſpirit, whither viſibly or by meanes, to be as the preſence of a Bridegroome to his beſt be<g ref="char:EOLhyphen"/>loued: If we feele our ſelues to finde no co<g ref="char:cmbAbbrStroke">̄</g>fort in thoſe things which are reported to be ſo full of co<g ref="char:cmbAbbrStroke">̄</g>fort; it is a ſigne we are none of the <hi>children of the Wedding,</hi> but of thoſe rather, which ſhalbe ſhut out &amp; diſmiſſed with that heauy voyce, when yet they ſhall beg &amp; deſire to come in, <hi>Depart from me I doe not know you</hi> 
+               <note n="t" place="margin">Math. 25.12.</note>.</p>
+            <p>The next Doctrine hence to bee obſerued is, <hi>That it is the wiſedome and duty of gods children in the daies of their reioycing, and then when they haue moſt comfort by the Bridegroomes pre<g ref="char:EOLhyphen"/>ſence, yet to thinke vpon and to make prouiſion for a change.</hi> Our Sauiour
+<pb n="37" facs="tcp:15610:21"/>
+here ſaith, that albeit he now vſeth his diſciples ſomewhat tenderly, theſe being (as it were) the daies of his firſt acquaintance, yet they muſt not thinke to liue ſo alwaies, but know rather, that there bee times of more ſtraightnes, and of greater ſadnes to be looked for. So that it is plaine, that it is the wiſe<g ref="char:EOLhyphen"/>dome of Gods children, in the daies of their greateſt ioy to be in continuall expectation of a time of morning: As the <hi>Bridegroome is with them,</hi> ſo they muſt remember that the <hi>Bridegroome</hi> may be taken <hi>from them.</hi> For this cauſe Chriſt of<g ref="char:EOLhyphen"/>ten told his diſciples of <hi>hauing affli<g ref="char:EOLhyphen"/>ction in the world</hi> 
+               <note n="u" place="margin">Ioh. 16.33</note>, of <hi>weeping &amp; la<g ref="char:EOLhyphen"/>menting, when the world was iocund</hi> 
+               <note n="x" place="margin">Ioh. 16.20.</note>, of <hi>drinking in his cup</hi> 
+               <note n="y" place="margin">Math. 23.22.</note>, of being <hi>hated of all men</hi> 
+               <note n="z" place="margin">Math. 24.9.</note>. The poore Iewes were in <hi>perplexity,</hi> while the <hi>King and Ha<g ref="char:EOLhyphen"/>man ſate drinking in the palace</hi> 
+               <note n="a" place="margin">Eſte. 3.15.</note>. We muſt reſolue to paſſe through ma<g ref="char:EOLhyphen"/>ny ſtormes, before we <hi>attaine</hi> to <hi>the End of our Faith the ſaluation of our
+<pb n="38" facs="tcp:15610:22"/>
+ſoules</hi> 
+               <note n="b" place="margin">1. Pet. 1.9.</note>. It is worth the noting, how God in all ages, hath kept a kind of co<g ref="char:cmbAbbrStroke">̄</g>tinual entercourſe in his church, betwixt peace and perſecution, be<g ref="char:EOLhyphen"/>twixt quietnes and trouble. It hath neither been alwaies vnder the croſſe, nor alwaies flouriſhing in an outward ſetlednes. Sometimes in kingdo<g ref="char:cmbAbbrStroke">̄</g>es &amp; ſtates, the goſpell hath been freely preached, the ſacrame<g ref="char:cmbAbbrStroke">̄</g>ts ordinarily adminiſtred, publique aſſemblies vſually freque<g ref="char:cmbAbbrStroke">̄</g>ted, with<g ref="char:EOLhyphen"/>out danger: Sometimes againe it hath been intermitted, nay it hath been baniſhed &amp; perſecuted, and it hath been as much as a mans life hath been worth, to be knowne to profeſſe it. And as is the ſtate of the church in general, ſo is it of Chriſti<g ref="char:EOLhyphen"/>ans in particular. Sometimes they hear the <hi>Bridegroomes</hi> voice ſecretly &amp; ſweetly ſpeaking peace to their ſoules by his ſpirit, and this cauſeth much comfort, ſometimes they be much perplexed with doubtings &amp; ſad paſſions, and this occaſioneth a
+<pb n="39" facs="tcp:15610:22"/>
+great deale of ſorrow: Sometimes they haue the <hi>voice of ioy and deli<g ref="char:EOLhyphen"/>uerance in their tabernaeles</hi> 
+               <note n="c" place="margin">Pſ. 118.15.</note>, &amp; ſome<g ref="char:EOLhyphen"/>times againe, <hi>bitter griefe</hi> in ſteed of <hi>Felicity</hi> 
+               <note n="d" place="margin">Iſ. 38.17.</note>. How then can it but bee wiſedome to expect <hi>affliction &amp; tri<g ref="char:EOLhyphen"/>bulation.</hi> The expectation of it can<g ref="char:EOLhyphen"/>not haſten it, nay, it may preuent it, at the leſt it ſhall cauſe it to be the more eaſie when it commeth.</p>
+            <p>Here is a neceſſary aduertiſement for vs.<note place="margin">The Vſe.</note> Wee now through Gods goodnes, do enioy the <hi>Bridegroomes</hi> preſence, his voyce ſoundeth amongſt vs in the dayly miniſtry. Happy were wee if we reioyced in it, as we ſhould. If we do, yet let vs not forgette that the <hi>Bridegroome</hi> may be taken from vs &amp; that there may come daies of greater deſola<g ref="char:EOLhyphen"/>tion. Who can tell, nay (conſider<g ref="char:EOLhyphen"/>ing our ſinnes) who hath not rea<g ref="char:EOLhyphen"/>ſon to feare, that God will take a<g ref="char:EOLhyphen"/>way from vs the meanes of grace, and depriue vs of the comfortable<g ref="char:EOLhyphen"/>nes of his bleſſed word in the com<g ref="char:EOLhyphen"/>mons
+<pb n="40" facs="tcp:15610:23"/>
+mones thereof? when we ſhall ſee a dimning of ſuch Lights, by whoſe bright ſhining many haue been co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>forted; when we ſhall behold Pul<g ref="char:EOLhyphen"/>pits taken vp, with ſuch <hi>Prophets as looke out vaine &amp; fooliſh things for the people, not labouring</hi> (as they ſhould) <hi>to diſcouer their Iniquitie,</hi>
+               <note n="e" place="margin">Lam. 2.14.</note>, when we ſhall finde in the multitude ſuch a groſnes of heart, as was ſometimes in thoſe of <hi>Ieruſalem,</hi> when, they did not <hi>know the things which belonged to their peace</hi>
+               <note n="f" place="margin">Luk. 19.42.</note>, then let vs feare the <hi>Bridegroomes</hi> going. The preſent condition of the times ſhould worke ſomewhat with vs: we ſee or may ſee, what working, and what plotting there is among Papiſts, by trecherie and bloudy deſignes, to put out the Light of the goſpell, &amp; to cauſe the voice of the <hi>Bridegr.</hi> vtterly to ceaſe. And yet alas we ſit ſtill as if there were no danger. It is now verified, which was ſaid of old, <hi>The Lord did call vnto weeping &amp; mourning, but behold, ioy and gladnes,
+<pb n="41" facs="tcp:15610:23"/>
+eating Fleſh and drinking wine</hi>
+               <note n="h" place="margin">Iſ. 22.12.13.</note>. Thus we go on in a kind of beſotted courſe, till <hi>a dart ſtrike through our liuer as an oxe that goeth to the ſlaughter, or as a Foole to the ſtockes for Correction</hi>
+               <note n="i" place="margin">Pro. 7.22.23.</note>: Oh that there might be a generall humbling of our ſelues before the Lord, <hi>teares running downe as a riuer,</hi> and, <hi>our Hearts crying to the Lord</hi>
+               <note n="k" place="margin">Lam. 2.18.</note>. That miſchiefe may re<g ref="char:EOLhyphen"/>turne vpon the heads of the co<g ref="char:cmbAbbrStroke">̄</g>triuers, &amp; that for his names ſake, for his truths ſake, for his ſon Chriſts ſake, the glori<g ref="char:EOLhyphen"/>ous goſpell of his ſonne, the gracious voice of the <hi>Bridegroome</hi> may be co<g ref="char:cmbAbbrStroke">̄</g>ti<g ref="char:EOLhyphen"/>nued with vs to the end of the world. We haue iuſt cauſe to feare the begin<g ref="char:EOLhyphen"/>nings of Gods iudgeme<g ref="char:cmbAbbrStroke">̄</g>ts, &amp; yet with al to admire eue<g ref="char:cmbAbbrStroke">̄</g> his lothnes to depart, like that of old, when <hi>the glory of the Lord</hi> departed by degrees, firſt <hi>from the Cherub, to the doore of the houſe</hi>
+               <note n="n" place="margin">Ezek. 10.4.</note>, then to <hi>the entry of the gate of the Lords houſe</hi>
+               <note n="o" place="margin">Ver. 19.</note>, then <hi>from the midſt of the city to the moun<g ref="char:EOLhyphen"/>taine towards the eaſt ſide of the city</hi>
+               <note n="p" place="margin">Ch. 11.23.</note>. The Lord would as it were haue vs to en<g ref="char:EOLhyphen"/>treat him, he looketh to bee importu<g ref="char:EOLhyphen"/>ned.
+<pb n="42" facs="tcp:15610:24"/>
+Let vs therfore euen this day <hi>vow vnto the mighty God of Iacob</hi>
+               <note n="q" place="margin">Pſ. 132.2</note>, that <hi>we wil preferre Ieruſalem to our chiefe ioy</hi>
+               <note n="r" place="margin">Pſ. 132.2.</note>, and that we will eue<g ref="char:cmbAbbrStroke">̄</g> 
+               <hi>wraſtle</hi> with the <hi>Bride<g ref="char:EOLhyphen"/>groome</hi> as <hi>Iacob</hi> did with the <hi>Angel</hi>
+               <note n="ſ" place="margin">Gen. 32.26.</note>. Oh if any thing may keep him yet with vs, ſure he ſhall not depart. It were better to faſt before to keep him with vs, the<g ref="char:cmbAbbrStroke">̄</g> to faſt whe<g ref="char:cmbAbbrStroke">̄</g> he is gone, to reſtore him to vs: Better to weepe in Sion, to pre<g ref="char:EOLhyphen"/>uent Babell, then when we ſit <hi>by the ri<g ref="char:EOLhyphen"/>uers of Babell, to weepe for Sion</hi>
+               <note n="t" place="margin">Pſ. 137.1.</note>: This is the maine vſe. Albeit the aduertiſe<g ref="char:EOLhyphen"/>me<g ref="char:cmbAbbrStroke">̄</g>t may be further ſtretched, to eue<g ref="char:EOLhyphen"/>ry priuate Chriſtian. Doſt thou now feele in thy ſelfe, euide<g ref="char:cmbAbbrStroke">̄</g>ces &amp; pledges of the fauor of God in Chriſt Ieſus, it is good to reioice in them, it is good alſo to know that it is poſſible for them to be ouerclouded for a time, &amp; that the Lord may call thee to ſome inward conflicts: Make ready therefore for the Combat: The <hi>Bridegroome</hi> goeth &amp; cometh not only by giuing and re<g ref="char:EOLhyphen"/>moouing the outward meanes, but by giuing &amp; remoouing inward feeling.</p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:15610:24"/>
+         </div>
+      </body>
+   </text>
+</TEI>

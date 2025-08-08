@@ -1,0 +1,689 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The constitutions of the Musaeum Minervaæ.</title>
+            <author>Musaeum Minervae (London, England)</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1636</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 44 KB of XML-encoded text transcribed from 16 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A04956</idno>
+            <idno type="STC">STC 15099</idno>
+            <idno type="STC">ESTC S108163</idno>
+            <idno type="EEBO-CITATION">99843846</idno>
+            <idno type="PROQUEST">99843846</idno>
+            <idno type="VID">8605</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A04956)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 8605)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 766:04)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The constitutions of the Musaeum Minervaæ.</title>
+                  <author>Musaeum Minervae (London, England)</author>
+                  <author>Kinnaston, Francis, Sir, 1587-1642. aut</author>
+               </titleStmt>
+               <extent>[14], 19, [3] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by T. P[urfoot] for Thomas Spencer,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1636.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>By Sir Francis Kinnaston.</note>
+                  <note>Printer's name from STC.</note>
+                  <note>The first leaf and the last leaf are blank.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-10</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2009-10</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:8605:1"/>
+            <pb facs="tcp:8605:1" rendition="simple:additions"/>
+            <p>THE CONSTI<g ref="char:EOLhyphen"/>TVTIONS OF THE <hi>MVSAEVM MINERVAE.</hi>
+            </p>
+            <p>LONDON, Printed by <hi>T. P.</hi> for Thomas Spencer.</p>
+            <p>1636.</p>
+         </div>
+         <div type="illustration">
+            <pb facs="tcp:8605:2"/>
+            <p>
+               <figure>
+                  <head>NIHIL INVITA MINERVA</head>
+                  <figDesc>blazon or coat of arms</figDesc>
+               </figure>
+            </p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:8605:2"/>
+            <head>TO THE NOBLE, AND GENEROVS WELL-WISHERS TO VERTVOVS ACTIONS, AND LEARNING: The Regent and Profeſſours of the <hi>Muſaeum Minervae,</hi> wiſh all honour and happineſſe.</head>
+            <p>
+               <seg rend="decorInit">H</seg>Owbeit publick actions and undertakings doe uſually receive no Preface, it being needleſſe to divulge that, which of it ſelfe will be ex<g ref="char:EOLhyphen"/>poſed to all mens Cenſures: nevertheleſse new enterpriſes (how good, or iuſt ſoever they be) are com<g ref="char:EOLhyphen"/>monly ſubiect at leaſt to ſuſpicion, if not unto oblique in<g ref="char:EOLhyphen"/>terpretation; which frequent experience, as well as in o<g ref="char:EOLhyphen"/>ther things hath manifeſted in this our new inſtitution of an Academy here in <hi>England:</hi> Which though already it hath been iuſtified, and approved by the wiſdomes of the Kings moſt ſacred Maieſtie, and many of the Lords of his Maieſtie, most Honourable privy Councell, and confirmed by his Maieſties Letters patents: and theſe the
+<pb facs="tcp:8605:3"/>following Conſtitutions and Diſcipline thereof ratified under the hands and ſeales of the right Honourable, the Lord Keeper of the great ſeale of England, and the two Lord-Chief Juſtices. Yet for a further and more full ſatiſfaction of all men, aſwell ignorant detractours, as vertuous Favourers of this Deſigne, ſome remonſtrance may not ſeem impertinent, but rather neceſsary to be print<g ref="char:EOLhyphen"/>ed, and publiſhed for the better underſtanding of what hath been undertaken.</p>
+            <p>Therefore for as much as we conceive, that it is not generally nor cleerly underſtood, what the nature of an Academy is: nor wherefore the inſtitution of ſuch a Colledge is here neceſſary, as well as in other great tranſmarine Cities: we have thought it requiſite, for the bringing of vertue into action, and the Theo<g ref="char:EOLhyphen"/>rie of liberall Arts into more frequent practiſe to ſhow that ſuch an inſtitution is fit to be eſtabliſhed here according to the laudable cuſtome of other Nations: who even in the middle of their <g ref="char:V">Ʋ</g>niverſities have their Academies, as <hi>Rome, Bononia, Padua, Paris, Wittenberge,</hi> and other places: wherein our Aymes are directed to this end, that <hi>England</hi> may he as well furniſhed for the vertuous education, and diſcipline of her own Natives, as any other Nation of <hi>Europe.</hi>
+            </p>
+            <p>It is ſufficiently known, that the ſubiects of his Maieſties dominions, have naturally as noble mindes, and as able bodies as any Nation of the earth: and
+<pb facs="tcp:8605:3"/>therefore deſerve all accommodations for the ad<g ref="char:EOLhyphen"/>vancing of them, either in ſpeculation, or action. Nevertheleſſe ſuch hath been the neglect, or under<g ref="char:EOLhyphen"/>valueing of our ſelves, and our own abilities, and overvalueing of forreigne teachers, that hitherto no ſuch places for the education, and trayning up of our own young Nobilitie, and Gentrie, in the practiſe of arms, and arts have been inſtituted here in <hi>England,</hi> as are in <hi>Italy, France,</hi> and <hi>Germany</hi> but that by a chargeable and ſometimes an unfortunate experience, we to our own loſſe, and diſgrace doe finde the noble and generous youth of this kingdome is ſent beyond the ſeas, to learn ſuch things at exceſſiverates, from ſtrangers abroad, wherein they might be as well, and with leſſe expence, and danger, inſtructed here at home.</p>
+            <p>The experience not onely of the honour, but the gaine which other Nations reape by the confluence of our Nobilitie and Gentry to them, for inſtruction might be a ſufficient au<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>horitie, and warrant for the erection of ſuch Academies, in the chiefeſt Cities of this kingdome, as are beyond the ſeas: were it not for ſome iealouſies, and ſuſpicions which the novel<g ref="char:EOLhyphen"/>ty of every publick action doth bring with it, as indi<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>iduall concomitants: and therefore in the particu<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>r of this firſt inſtitution of that nature, ſome ſhort anſweres are requiſite to be given to ſome
+<pb facs="tcp:8605:4"/>places, whoſe foundations have ſo long and ſo honour<g ref="char:EOLhyphen"/>ably been confirmed.</p>
+            <p>And for as much as we are to give reaſons that the inſtitution of an Academy is neceſſary amongſt other noble qualities, and arts, (if taught, yet not practized in the <g ref="char:V">Ʋ</g>niverſities nor Innes of Court:) the ſcien<g ref="char:EOLhyphen"/>ces of Navigation, Riding, Fortification, Architec<g ref="char:EOLhyphen"/>ture, Painting, and ſuch like being most uſefull ac<g ref="char:EOLhyphen"/>compliſhments of a gentleman doe require a peculiar place and inſtitution for them. And albeit many of them are taught in London, in diſperſed places; yet it cannot but be iudged more convenient to reduce, and unite them in one certain place: likewiſe whereas ma<g ref="char:EOLhyphen"/>ny men teach them perfunctorily rather for gain then any other reſpect: it was held neceſſary to ſelect cer<g ref="char:EOLhyphen"/>tain men who upon oath ſhould undertake to ſee them learnedly and ſufficiently taught: and in brief, where<g ref="char:EOLhyphen"/>as in the Citie of London diverſe ſtrangers profeſſe to teach ſundry, or rather all the liberall arts and ſcien<g ref="char:EOLhyphen"/>ces of which many have been found to be upon examina<g ref="char:EOLhyphen"/>tion, and triall egregiouſly ignorant, whereby our youth looſe both their tyme, an<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> m<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ney: it could not but be thought moſt neceſſary for the benefit, and conv<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nien<g ref="char:EOLhyphen"/>cie of all ſuch vertuous diſpoſed youths, as live about the Citie, as alſo for the honour of our nation: that ſuch a houſe ſhould be er<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>cted in which they might be regu<g ref="char:EOLhyphen"/>larly taught to practiſe the aforeſaid ſciences and
+<pb facs="tcp:8605:4"/>qualities: and in a vertuous ſocietie, have ſuch gene<g ref="char:EOLhyphen"/>rous, and fitting recreations, as might divert them from the too much frequenting of places of expence, and of greater inconveniences.</p>
+            <p>Now to let all men know that the intention of the erection of this Academy is as well for the prevention of inconveniences, and dangers; as for the poſitive benefit of our Gentrie: there is no underſtanding man, but may reſent how many of our Noble men, and young gentlemen travell into forreigne countries before they have any language, or knowledge to make profit of their tyme abroad; they, not being any way able to get knowledge for want of language, nor lan<g ref="char:EOLhyphen"/>guage for want of tyme: ſince going over ſo young, their yeares of licence commonly expire before they can obtain to ſufficient ripeneſſe of underſtanding; which no nation is known to doe but the Engliſh: for what children of other nations come over to us before they are of able age, and ripeneſſe? To prevent which inconvenience we by this publick Act, give notice unto all men, that one great end of our inſtitution is, to give language and inſtruction with other orna<g ref="char:EOLhyphen"/>ments of travell unto our Gentlemen (if they ſhall ſtay ſome tyme in this Academy) before their under<g ref="char:EOLhyphen"/>taking any long iourneys into forreigne parts.</p>
+            <p>Moreover whereas it is found by lamentable ex<g ref="char:EOLhyphen"/>perience that Noblemen, and Gentlemen for want of an
+<pb facs="tcp:8605:5"/>Academy here, are as it were neceſſitated, to ſend their ſonnes beyond the ſeas for education: where through change of Climat, and dyet, and for want of yeares of diſcretion, they become more ſubiect to ſickneſſes and immature death, then otherwiſe they might have been: we leave it to carefull prudent parents to con<g ref="char:EOLhyphen"/>ſider how neceſsary the inſtitution of an Academy here in London is, in which eſpeciall order may be ta<g ref="char:EOLhyphen"/>ken for the bringing up of young Gentlemen, untill both for yeares, and learning they may be fit as well to travell and make benefit of their tyme abroad, as to gain ſome knowledge how to prevent the dangers both of forreigne aire, and dyet.</p>
+            <p>Now in the laſt place we humbly deſire that it may not be imputed an affectation of ſingularitie, or of vain glory, that we publiſh theſe our Conſtitutions: for that divers have been deſirous to ſee them, and more are ignorant whether we have any ſetled diſci<g ref="char:EOLhyphen"/>pline or not: which becauſe the inſtitution is the firſt of this nature in this kingdome, it may ſeem more excu<g ref="char:EOLhyphen"/>ſable to be done, in this particular, rather then by any other Colledge in the <g ref="char:V">Ʋ</g>niverſities, whoſe formes of diſcipline are ſufficiently known: And if this Deſigne, and the ſubſequent Conſtitutions may be ſo fortunate, as being ſeen and publiſhed to receive a condigne ap<g ref="char:EOLhyphen"/>probation (albeit we the preſent members thereof be<g ref="char:EOLhyphen"/>ing all of us farre ſtrucken in yeares are likely to re<g ref="char:EOLhyphen"/>ceive
+<pb facs="tcp:8605:5"/>little benefit to our ſelves, for all our great la<g ref="char:EOLhyphen"/>bours other then the reward of a good conſcience) we cannot but hope ſince our inſtitution, and colledge is al<g ref="char:EOLhyphen"/>ready made capable by his Maieſties gracious fa<g ref="char:EOLhyphen"/>vour, and letters patents of donation in land, as well as goods: that if not the preſent age, yet poſteritie will afford ſome noble benefactours who by their boun<g ref="char:EOLhyphen"/>ty to this foundation in upholding and continuing of what we have begun, will perpetuate their own ever honoured memory. And thus having upon the aforeſaid reaſons been induced to manifeſt our actions, and fu<g ref="char:EOLhyphen"/>ture intentions in this plain, and ſincere manner, un<g ref="char:EOLhyphen"/>to the view of the world: we hope that our endea<g ref="char:EOLhyphen"/>vours herein, will by all as favourably be interpreted, as they are by us true<g ref="char:EOLhyphen"/>ly and ſincerely meant; and in<g ref="char:EOLhyphen"/>tended to the glory of God, the honour of his Maie<g ref="char:EOLhyphen"/>ſtie, and the publick good of the com<g ref="char:EOLhyphen"/>mon wealth. <g ref="char:dtristar">*⁎*</g>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="constitution">
+            <pb facs="tcp:8605:6"/>
+            <pb facs="tcp:8605:6"/>
+            <head>THE CONSTITVTIONS OF THE <hi>M<g ref="char:V">Ʋ</g>SAE<g ref="char:V">Ʋ</g>M MINERVAE.</hi>
+            </head>
+            <p>
+               <hi>
+                  <seg rend="decorInit">I</seg>NPRIMIS,</hi> It is agreed, and conſtituted by the Regent and Profeſſours of the <hi>Muſaeum Minervae,</hi> that every man that ſhall be ad<g ref="char:EOLhyphen"/>mitted into the ſaid <hi>Muſaeum</hi> ſhall bring a teſtimoniall of his Arms and Gentry, and his Coate Armour tricked on a table to be conſerved in the <hi>Muſaeum.</hi> Provided, that the ſonnes of benefactours ſuch whom the Regent and Profeſſours ſhall judge worthy to be admitted, be not excluded.</p>
+            <p>
+               <hi>Item,</hi> Every man to be admitted into the <hi>Muſaeum</hi> ſhall be approved by the Regent and Major part of the Profeſ<g ref="char:EOLhyphen"/>ſours for the time being, for his civill converſation: yet af<g ref="char:EOLhyphen"/>ter admittance if any behave themſelves to the diſturbance or evill example of the reſt, and will not in convenient time be reclaimed, by the ſame power that admitted them, they are to be diſmiſſed.</p>
+            <p>
+               <hi>Item,</hi> the Regent and Profeſſours ſhall be accomptable for the proficiencie of the Gentlemen admitted (according to
+<pb n="2" facs="tcp:8605:7"/>their capacities, diligence and time) to thoſe parents, or friends that have recommended them to their care.</p>
+            <p>
+               <hi>Item,</hi> The Regent and Profeſſours ſhall be tyed in ho<g ref="char:EOLhyphen"/>nour without reſpect of perſons or partialitie, to inſtruct the Gentlemen admitted with all convenient celeritie accord<g ref="char:EOLhyphen"/>ing to their ſeverall capacities.</p>
+            <p>
+               <hi>Item,</hi> the Gentlemen admitted that by their diligence and continuance have fulfilled the term of three yeares and an halfe, if afterwards they chance to diſcontinue, ſhall notwithſtanding have priviledge of acceſſe to the <hi>Muſaeum</hi> without any further charge to benefit themſelves by any convenient conference with their former Profeſſours, and theſe ſhall have the title of <hi>Triennalls.</hi>
+            </p>
+            <p>
+               <hi>Item,</hi> the Gentlemen who ſhall have the aforeſaid privi<g ref="char:EOLhyphen"/>ledges of <hi>Triennalls</hi> ſhall be ſuch as have ſtudied or practi<g ref="char:EOLhyphen"/>ſed three ſeverall ſciences, Arts or Qualities, at leaſt for the ſpace of the ſaid three yeares and an half under three ſeverall Profeſſours or their Aſſiſtants.</p>
+            <p>
+               <hi>Item,</hi> the Gentlemen that by their diligence and continu<g ref="char:EOLhyphen"/>ance have fulfilled the term of ſeven yeares, if afterwards they chance to diſcontinue, ſhall have notwithſtanding pri<g ref="char:EOLhyphen"/>viledges of acceſſe to the houſe, without any further charge to benefit themſelves by any convenient conference, and to ſtudie and practiſe what they pleaſe: and ſhall have libertie and licence to benefit themſelves at times appointed, by any books Charts, Experiments, Secrets, or Demonſtra<g ref="char:EOLhyphen"/>tions that ſhall be conſerved in the <hi>Muſaeum,</hi> and found out while they live fit for them: according to the judgement of the Regent and Profeſſours.</p>
+            <p>
+               <pb n="3" facs="tcp:8605:7"/>
+               <hi>Item,</hi> of ſuch whoſe title is <hi>Septennalls</hi> and the major part of Profeſſours, the Regent ſhall be choſen in vacancy of a Regent.</p>
+            <p>
+               <hi>Item,</hi> by the Major part of Prof<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſſours and the <hi>Septennalls</hi> (as many of them) as ſhall be found reſident about the Citie the Profeſſours hereafter (when <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ny of their places are va<g ref="char:EOLhyphen"/>cant) ſhall be choſen.</p>
+            <p>
+               <hi>Item,</hi> the Gentlemen who intend to be <hi>Triennalls</hi> or <hi>Sep<g ref="char:EOLhyphen"/>tennalls,</hi> ſhall ſtay the firſt foure vacations after their firſt yeares admittance to learn or practiſe conſtantly in the <hi>Mu<g ref="char:EOLhyphen"/>ſaeum:</hi> but in caſe they ſhall have urgent avocation, they ſhall ſtay other foure vacations, when their buſineſſe will permit them.</p>
+            <p>
+               <hi>Item,</hi> no Gentlemen admitted ſhall ſuddenly leave one Science Art or Qualitie which he hath undertaken to learn or practiſe, and goe to another Profeſſour before the Re<g ref="char:EOLhyphen"/>gent be made acquainted with it, who ſhall make iudgement of his proficiencie in the former, becauſe the end of the <hi>Muſaeum,</hi> is to have all that are admitted (if poſſible) more then vulgarly inſtructed.</p>
+            <p>
+               <hi>Item,</hi> no Gentleman admitted, till the afternoon ſhall ſpeak to the Regent except it be about neceſſary buſineſſe.</p>
+            <p>
+               <hi>Item,</hi> noe Gentleman ſhall ſpeak in the forenoon to the Regent about any buſineſſe, but either in <hi>Italian, French</hi> or <hi>Latine:</hi> but if any Gentleman be deficient in all theſe Lan<g ref="char:EOLhyphen"/>guages, then ſhall he deale with ſome Profeſſour or other to ſpeak unto the Regent for him in the morning, but in the afternoon free acceſſe ſhall be granted to all that have any
+<pb n="4" facs="tcp:8605:8"/>occaſions to conferre with him.</p>
+            <p>
+               <hi>Item,</hi> no Gentleman admitted ſhall exerciſe himſelf at onc<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> about more then two particular Sciences Arts or Qualities whereof one ſhall be <hi>Intellectuall,</hi> the other <hi>Corporall,</hi> to avoi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> confuſion: yet if the capacitie of the ſcholler be extraodi<g ref="char:EOLhyphen"/>nary, this may be diſpenſed withall, according to the di<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>cretion of the Regent and maior part of Profeſſours.</p>
+            <p>
+               <hi>Item,</hi> no viſits are to be made of any perſon whatſoeve<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> either to the Regent or any of the Profeſſours, or any ſchol<g ref="char:EOLhyphen"/>ler in the forenoon at the <hi>Muſaeum.</hi>
+            </p>
+            <p>
+               <hi>Item,</hi> no Profeſſour nor Gentleman nor any other admit<g ref="char:EOLhyphen"/>ted, or belonging to the <hi>Muſaeum Minervae</hi> ſhall make any compariſons amongſt themſelves, but ſhall ſtrive to excel in humanitie, and in giving every one his due for the conti<g ref="char:EOLhyphen"/>nuance of concord and amity.</p>
+            <p>
+               <hi>Item,</hi> it is agreed and conſtituted by the Regent and Pro<g ref="char:EOLhyphen"/>feſſours of the <hi>Muſaeum Minervae,</hi> that theſe things follow<g ref="char:EOLhyphen"/>ing ſhall be read and taught there ſeverally by the Regent, and Profeſſours and their Aſſiſtants.</p>
+            <list>
+               <head>The Regent ſhall ſee theſe performed.</head>
+               <item>
+                  <hi>Heraldrye.</hi>
+               </item>
+               <item>
+                  <hi>Blazon of Coates and Arms</hi>
+               </item>
+               <item>
+                  <hi>Practicall knowledge of Deeds and</hi>
+               </item>
+               <item>
+                  <hi>Evidences.</hi>
+               </item>
+               <item>
+                  <hi>Principles and Proceſses</hi>
+               </item>
+               <item>
+                  <hi>of common Law.</hi>
+               </item>
+               <item>
+                  <hi>Knowledge of Antiquities<g ref="char:punc">▪</g>
+                  </hi>
+               </item>
+               <item>
+                  <hi>Coynes, Medalls,</hi>
+               </item>
+               <item>
+                  <hi>Huſbandry, &amp;c.</hi>
+               </item>
+            </list>
+            <list>
+               <pb n="5" facs="tcp:8605:8"/>
+               <head>The Doctour of Philoſo<g ref="char:EOLhyphen"/>phie and Phyſick ſhall reade and profeſſe theſe.</head>
+               <item>
+                  <hi>Phyſiologie.</hi>
+               </item>
+               <item>
+                  <hi>Anatomie, or any other parts</hi>
+               </item>
+               <item>
+                  <hi>of Phyſick.</hi>
+               </item>
+            </list>
+            <list>
+               <head>The Profeſſour of Aſtro<g ref="char:EOLhyphen"/>nomie ſhall teach theſe.</head>
+               <item>
+                  <hi>Aſtronomie.</hi>
+               </item>
+               <item>
+                  <hi>Opticks.</hi>
+               </item>
+               <item>
+                  <hi>Navigation.</hi>
+               </item>
+               <item>
+                  <hi>Coſmographie.</hi>
+               </item>
+            </list>
+            <list>
+               <head>The Profeſſour of Geo<g ref="char:EOLhyphen"/>metrie ſhall teach theſe.</head>
+               <item>
+                  <hi>Arithmetique.</hi>
+               </item>
+               <item>
+                  <hi>Analyticall Algebra.</hi>
+               </item>
+               <item>
+                  <hi>Geometrie.</hi>
+               </item>
+               <item>
+                  <hi>Fortification.</hi>
+               </item>
+               <item>
+                  <hi>Architecture.</hi>
+               </item>
+            </list>
+            <list>
+               <head>The Profeſſour of Muſick ſhall teach theſe.</head>
+               <item>
+                  <hi>Skill in ſinging and Muſick to play upon</hi>
+                  <list>
+                     <item>
+                        <hi>Organ.</hi>
+                     </item>
+                     <item>
+                        <hi>Lute.</hi>
+                     </item>
+                     <item>
+                        <hi>Violl, &amp;c.</hi>
+                     </item>
+                  </list>
+               </item>
+            </list>
+            <list>
+               <head>The Profeſſour of Lan<g ref="char:EOLhyphen"/>guages ſhall teach theſe.</head>
+               <item>
+                  <hi>Hebrew.</hi>
+               </item>
+               <item>
+                  <hi>Greek.</hi>
+               </item>
+               <item>
+                  <hi>Latine.</hi>
+               </item>
+               <item>
+                  <hi>Italian.</hi>
+               </item>
+               <item>
+                  <hi>French.</hi>
+               </item>
+               <item>
+                  <hi>Spaniſh.</hi>
+               </item>
+               <item>
+                  <hi>High Dutch.</hi>
+               </item>
+            </list>
+            <list>
+               <head>The Profeſſour of De<g ref="char:EOLhyphen"/>fence ſhall teach theſe.</head>
+               <item>
+                  <hi>Skill at all weapons and wreſtling.</hi>
+               </item>
+            </list>
+            <p>Alſo <hi>Riding</hi> ſhall be taught, <hi>Dancing</hi> and behaviour, <hi>Paint<g ref="char:EOLhyphen"/>ing, Sculpture, Writing.</hi> Laſtly there ſhall be annexed a <hi>School</hi> for the young Gentlemen, whoſe Parents are deſirous to
+<pb n="6" facs="tcp:8605:9"/>have them brought up in the <hi>Muſaeum</hi> from their firſt yeares</p>
+            <p>
+               <hi>Item,</hi> theſe <hi>Arts Sciences</hi> or <hi>Qualities</hi> rehearſed, the Profeſſours and their Aſſiſtants, ſhall teach by <hi>Demonstration</hi> and <hi>Experiment</hi> as much as the nature of the <hi>Art</hi> and <hi>Sci<g ref="char:EOLhyphen"/>ence</hi> requireth, and as much as in them lyeth.</p>
+            <p>
+               <hi>Item,</hi> the preſent Profeſſours and ſucceſſours of every of them, forever ſhall leave in writing ſome memoriall of the moſt ſelected <hi>Points, Secrets, Experiments,</hi> and <hi>Demonſtrati<g ref="char:EOLhyphen"/>ons</hi> which doe belong to every of their <hi>Arts</hi> or <hi>Sciences</hi> for the greater advancement of learning and knowledge unto the worlds end. And this ſhall be done at their deaths, when they diſpoſe their eſtates, if they ſhall be then of abilitie.</p>
+            <p>
+               <hi>Item,</hi> becauſe learned men are many times anticipated by death, and their excellencies die with them, Every Pro<g ref="char:EOLhyphen"/>feſſour ſhall alſo every new yeares day every yeare, or with<g ref="char:EOLhyphen"/>in the twelve daies of <hi>Chriſtmas</hi> give ſome <hi>Raritie</hi> in writing or otherwiſe, to the Library of the houſe concerning their own Profeſſions, And the Regent ſhall ſee them have re<g ref="char:EOLhyphen"/>wards out of the Treaſurie according to their ſeverall de<g ref="char:EOLhyphen"/>ſerts.</p>
+            <p>
+               <hi>Item,</hi> the Aſſiſtants to the Regent and Profeſſours, or to any of them ſhall be the moſt able in their ſeverall profeſſi<g ref="char:EOLhyphen"/>ons that may be had or choſen.</p>
+            <p>
+               <hi>Item,</hi> at time of ſickneſſe, great imployment, or for any reaſonable cauſe it ſhall be permitted to the R<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>gent or any Profeſſour to ſubſtitute a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> d<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>putie for ſome daies at his own procurement. P<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ovided alwaies, that the Deputie work ac<g ref="char:EOLhyphen"/>cording to the Regent and Profeſſours information and ap<g ref="char:EOLhyphen"/>pointment,
+<pb n="7" facs="tcp:8605:9"/>And that his directions be according to the <hi>Con<g ref="char:EOLhyphen"/>ſtitutions</hi> of the <hi>Muſaeum.</hi>
+            </p>
+            <p>
+               <hi>Item,</hi> the Profeſſour of <hi>Philoſophie</hi> and <hi>Phyſick</hi> and his Aſ<g ref="char:EOLhyphen"/>ſiſtant or Aſſiſtants ſhall from time to time according to their abilities and opportunities make experiments of naturall things, chiefly for medicinall uſe, and what they finde cer<g ref="char:EOLhyphen"/>tain ſhall be recorded, and what they finde otherwiſe ſhall in a book by it ſelf be noted, how and in what manner expe<g ref="char:EOLhyphen"/>riment was made, and how it failed, that men may not after<g ref="char:EOLhyphen"/>wards ſpend their pretious time and meanes in vain, and that the licentious abuſes of <hi>Impoſtors</hi> hereafter may be de<g ref="char:EOLhyphen"/>tected.</p>
+            <p>
+               <hi>Item,</hi> it is agreed and conſtituted by the Regent and Pro<g ref="char:EOLhyphen"/>feſſours of the <hi>Muſaeum Minervae:</hi> that there ſhall be alwaies a Regent and ſix other Profeſſours in the ſaid <hi>Muſaeum,</hi> according as is granted and expreſſed in the Letters patents belonging unto the ſaid <hi>Muſaeum,</hi> confirmed by his Maieſties great Seale.</p>
+            <p>
+               <hi>Item,</hi> in vacancie of the Regent or any of the Profeſſours, another ſhall be choſen within ſix weeks or ſooner.</p>
+            <p>
+               <hi>Item,</hi> the Regents after the death of Sir <hi>Francis Kinaſton</hi> the firſt Regent ſhall be choſen out of the <hi>Septennalls,</hi> if there ſhall be found ſufficient choice, and the moſt worthy ſhall be choſen by the Profeſſours and <hi>Septennalls,</hi> who ſhall be found reſident about the Citie, otherwiſe by the maior part of Profeſſours onely.</p>
+            <p>
+               <hi>Item,</hi> the Profeſſours in vacancie are to be choſen by the Regent and maior part of Profeſſours, but when there ſhall
+<pb n="8" facs="tcp:8605:10"/>be <hi>Septennalls,</hi> the voices of theſe alſo ſhall be required as ma<g ref="char:EOLunhyphen"/>ny as ſhall be found reſident about the Citie, and the moſt worthy ſhall be choſen.</p>
+            <p>
+               <hi>Item,</hi> the Regent and Profeſſours ſhall be choſen by <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> balletting box.</p>
+            <p>
+               <hi>Item,</hi> no forreigner or aliene born out of his Maieſties dominions ſhall at any time for ever hereafter be elected or admitted to be either Regent or Profeſſour of any of the a<g ref="char:EOLhyphen"/>foreſaid <hi>Sciences, Arts</hi> or <hi>Qualities,</hi> except he be onely ad<g ref="char:EOLhyphen"/>mitted as an Aſſiſtant by the approbation of the Regent and maior part of Profeſſours. And in caſe by any over<g ref="char:EOLhyphen"/>ſight or deceipt any ſuch forreigner ſhall be admitted either Regent or Profeſſour, upon better knowledge of him, he is to be diſmiſſed immediately <hi>ipſo facto,</hi> and another to be choſen according to the true intents of theſe Conſti<g ref="char:EOLhyphen"/>tutions.</p>
+            <p>
+               <hi>Item,</hi> in elections and other matters where voyces are ne<g ref="char:EOLhyphen"/>ceſſarie, the Regent ſhall have two voyces, and the reſt of the Profeſſours each of them one a piece.</p>
+            <p>
+               <hi>Item,</hi> the Aſſiſtants ſhall be choſen by the Regent and maior part of Profeſſours.</p>
+            <p>
+               <hi>Item,</hi> the Receiver ſhall be choſen by the Regent and ma<g ref="char:EOLhyphen"/>ior part of Profeſſours.</p>
+            <p>
+               <hi>Item,</hi> all officers ſhall be choſen by the Regent and maior part of Profeſſours.</p>
+            <p>
+               <hi>Item,</hi> if any man make any ſuit by power and authoritie for
+<pb n="9" facs="tcp:8605:10"/>the Regents place, or for any place of the Profeſſours, or for any place of Aſſiſtants, it ſhall be denied him for ever.</p>
+            <p>
+               <hi>Item,</hi> the admittance money which Gentlemen are to pay, is five pound at the leaſt.</p>
+            <p>
+               <hi>Item,</hi> the ſaid admittance money is to be paid when the ſaid Gentlemen are admitted.</p>
+            <p>
+               <hi>Item,</hi> The Profeſſours are to have a monthly Salary, as they uſe ordinarily to have in other places.</p>
+            <p>
+               <hi>Item,</hi> if any complaint be made of any Profeſſour for asking too much: the Regent and maior part of Profeſ<g ref="char:EOLhyphen"/>ſours ſhall regulate the matter.</p>
+            <p>
+               <hi>Item,</hi> what Profeſſour ſoever ſhall be deſired to teach out of the <hi>Muſaeum,</hi> ſhall not goe to teach any not admitted of the <hi>Muſaeum,</hi> except he firſt acquaint the Regent or his deputie with it, and have leave of one of them.</p>
+            <p>
+               <hi>Item,</hi> if any Profeſſour finde any agreevance any way, either in his place, or maintenance: he ſhall propound it to the Regent and reſt of the Profeſſours, and they ſhall re<g ref="char:EOLhyphen"/>dreſſe it as brotherly and charitably, as if themſelves were agreeved according as the nature of the matter ſhall permit, being collated with the ſtate of the <hi>Muſaeum.</hi>
+            </p>
+            <p>
+               <hi>Item,</hi> no Profeſſour nor Aſſiſtant ſhall teach any man within the <hi>Muſaeum</hi> not admitted, except he ſhall have leave of the Regent, or of his deputie in his abſence.</p>
+            <p>
+               <hi>Item,</hi> the Regent and Profeſſours or maior part of
+<pb n="10" facs="tcp:8605:11"/>them ſhall diſpoſe and imploy for the good of the <hi>Muſaeu<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Minervae</hi> all benefits, moneys, lands, or whatſoever ſhal<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> be given or received by ſuch Agreements, Orders or Rule<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> as they ſhall ſee reaſon to make for the ſaid end, from time to time, as occaſion ſhall be offered.</p>
+            <p>
+               <hi>Item,</hi> all admittance moneys, benevolences of money or lands, or what gifts ſoever ſhall be paid and delivered into the hands of the Receiver, to the uſe of the <hi>Muſaeum Minervae.</hi>
+            </p>
+            <p>
+               <hi>Item,</hi> twice a yeare all receipts and expences ſhall be caſt up and examined by the Regent and major part of the Pro<g ref="char:EOLhyphen"/>feſſours, after a moneths warning given unto the Receiver.</p>
+            <p>
+               <hi>Item,</hi> what lands ſoever are beſtowed upon the <hi>Muſaeum Minervae,</hi> ſhall revertunto the Donours or their Heires, if the <hi>Muſaeum Mineruae</hi> ſhall wholly ceaſe, and finally be diſ<g ref="char:EOLhyphen"/>ſolved.</p>
+            <p>
+               <hi>Item,</hi> the Regent and Profeſſours ſhall make covenants with all Aſſiſtants or Deputies of the ſaid <hi>Muſaeum</hi> from time to time, as they ſhall iudge it beſt, for the well governing, and upholding of the ſaid <hi>Muſaeum.</hi>
+            </p>
+            <p>
+               <hi>Item,</hi> it is agreed and conſtituted by the Regent and Pro<g ref="char:EOLhyphen"/>feſſours of the <hi>Muſaeum Minervae,</hi> that every Profeſſour ſhall hold his place during his life, doing the duties of it by himſelf, while he may without dammage or hurt to him<g ref="char:EOLhyphen"/>ſelf, and by deputie at ſuch times as he is reaſonably hin<g ref="char:EOLhyphen"/>dered.</p>
+            <p>
+               <hi>Item,</hi> no Regent or Profeſſour ſhall relinquiſh his place upon any reaſon, or for any benefit, except he firſt give ſe<g ref="char:EOLhyphen"/>curitie
+<pb n="11" facs="tcp:8605:11"/>to the Regent and the reſt of the Profeſſours accord<g ref="char:EOLhyphen"/>ing to their reaſons and deſires.</p>
+            <p>
+               <hi>Item,</hi> no Regent or Profeſſour ſhall be diſplaced for any cauſe, except for ſome enormous act againſt the ſtate and diſcipline of the <hi>Muſaeum,</hi> ſuch as ſhall tend to the deſtructi<g ref="char:EOLhyphen"/>on thereof, or hath brought ſome notorious infamy upon it, which ſhall be judged ſo (according to right iudgement) by the Regent and Profeſſours, or by the maior part of them.</p>
+            <p>
+               <hi>Item,</hi> for the better continuance: the Regent and Profeſ<g ref="char:EOLhyphen"/>ſours ſhall by all poſſible means preſerve the bond of peace among themſelves, and without all emulation or detraction <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>very one of them ſhall doe his beſt endeavour to advance the eſtimation and credit of every one of his fellow Profeſ<g ref="char:EOLhyphen"/>ſours for the publick good of the <hi>Muſaeum.</hi>
+            </p>
+            <p>
+               <hi>Item,</hi> that the bond of peace may be more firm, no man ſhall pertinaciouſly diſpute at meetings of Profeſſours, but onely decently and temperately propound what he iudgeth beſt, and ſhall no way for any end of his own raiſe diſturb<g ref="char:EOLhyphen"/>ance, or be troubleſome in over many words, or in words uttered in any cholerick manner, eſpecially if the ſcope of the ſpeech ſhall make againſt the benefit, honour, or end of the <hi>Muſaeum,</hi> which rules if any Profeſſour ſhall break, he ſhall be ſentenced at <hi>twenty ſhillings,</hi> which ſhall be beſtow<g ref="char:EOLhyphen"/>ed upon the Aſſiſtants of <hi>Muſick,</hi> or other Officers of the <hi>Muſaeum.</hi>
+            </p>
+            <p>
+               <hi>Item,</hi> the Receiver ſhall hold his place during his life, except there be found ſome great cauſe to diſmiſſe him, as fraud or the like.</p>
+            <p>
+               <pb n="12" facs="tcp:8605:12"/>
+               <hi>Item,</hi> the Schoolmaſter is to hold his place during his life except for ſome inſufferable neglects of his dutie in his place or ſome enormous act againſt the good of the <hi>Muſaeum,</hi> 
+               <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> for ſome enormous ſcandall he deſerve to be diſplaced.</p>
+            <p>
+               <hi>Item,</hi> it is agreed and conſtituted by the Regent and Pro<g ref="char:EOLhyphen"/>feſſours of the <hi>Muſaeum Minervae,</hi> That every Profeſſour ſhall keep ſuch houres for the inſtruction of Schollers (as ſhall be ſet down by the Regent and maior part of Profeſſours) as much as conveniently he may.</p>
+            <p>
+               <hi>Item,</hi> the <hi>Aſtronomicall</hi> Profeſſour ſhall keep an exact <hi>Di<g ref="char:EOLhyphen"/>ary</hi> of every of the <hi>Coeleſtiall Apparances</hi> and of the weather, that at laſt we may finde the cauſes of our inſularie varieties. And every moneths obſervations ſhall be fairely written out, and given up to the Library.</p>
+            <p>
+               <hi>Item,</hi> the Regent and Profeſſours ſhall have power to or<g ref="char:EOLhyphen"/>der and regulate all other matters which pertain to the diſ<g ref="char:EOLhyphen"/>cipline of the houſe for the greater help of Gentlemen, and better ornament of the <hi>Muſaeum,</hi> alwaies from time to time, as occaſion or neceſſity ſhall require.</p>
+            <p>
+               <hi>Item,</hi> the daies and houres of all <hi>Lectures</hi> and <hi>Exerciſe<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> ſhall be ſet down in a Table to be ſeen by all the Gentlemen.</p>
+            <p>
+               <hi>Item,</hi> the day of publick Muſick is Tueſday, beginning at two of the clock in the afternoon.</p>
+            <p>
+               <hi>Item,</hi> to <hi>Publick ſhewes, Preſentations,</hi> and <hi>Muſick meet<g ref="char:EOLhyphen"/>ings,</hi> none ſhall be admitted but ſuch as ſhall bring with them that character which ſhall be given forth by the Re<g ref="char:EOLhyphen"/>gent for that time.</p>
+            <p>
+               <pb n="13" facs="tcp:8605:12"/>
+               <hi>Item, Private Lectures, Inſtructions</hi> or <hi>Exerciſes</hi> ſhall be eve<g ref="char:EOLhyphen"/>ry day read and taught, the daies of <hi>Diſpenſation</hi> excepted, which the Regent and maior part of Profeſſours ſhall ſett down, by the Profeſſours of <hi>Aſtronomie, Geometry, Muſick, Languages</hi> and <hi>Defence,</hi> in any or all their ſeverall <hi>Arts</hi> or <hi>Sci<g ref="char:EOLhyphen"/>ences</hi> undertaken, if their ſchollers come unto them.</p>
+            <p>
+               <hi>Item, Private inſtructions</hi> of ſchollers by all the Aſſiſtants of the <hi>Muſaeum</hi> ſhall be given every day to the Gentlemen their ſchollers, the daies of <hi>Diſpenſation</hi> before mentioned except<g ref="char:EOLhyphen"/>ed in all the ſeveral Arts and Qualities undertaken by them.</p>
+            <p>
+               <hi>Item, Publick Lectures</hi> which are to be read by the Re<g ref="char:EOLhyphen"/>gent and Profeſſours of <hi>Philoſophie</hi> and <hi>Phyſick, Aſtronomie, Geometry, Muſick,</hi> and <hi>Languages,</hi> ſhall be made in daies of full term onely, except for ſome reaſons the Regent and Pro<g ref="char:EOLhyphen"/>feſſours ſhall willingly at other times reade publickly.</p>
+            <p>
+               <hi>Item,</hi> the <hi>Qualities</hi> of <hi>Riding, Dancing, Painting, Sculpture, Writing,</hi> and the reſt ſhall be taught every day in like man<g ref="char:EOLhyphen"/>ner as before.</p>
+            <p>
+               <hi>Item,</hi> although there be <hi>publick Lectures</hi> as aforeſaid: yet that onely ſhall be accounted and received for the doctrine and learning of the <hi>Muſaeum Minervae,</hi> which ſhall be found true, after ſufficient experiment, or demonſtration, and no other.</p>
+            <p>
+               <hi>Item,</hi> it is agreed and conſtituted by the Regent and Pro<g ref="char:EOLhyphen"/>feſſours of the ſaid <hi>Muſaeum Minervae,</hi> that no Conſtitution Order or Rule made by any man ſhall be valid for the go<g ref="char:EOLhyphen"/>vernment of the ſaid <hi>Muſaeum,</hi> or any particular man, Pro<g ref="char:EOLhyphen"/>feſſour, Officer or office of it, except it be firſt confirmed by the Regent and Profeſſours.</p>
+            <p>
+               <pb n="14" facs="tcp:8605:13"/>
+               <hi>Item,</hi> the orders and Conſtitutions of the <hi>Muſaeum,</hi> ſha<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> at any time receive, increaſe, diminution, or alteration, ſufficient cauſe be found by the Regent and Profeſſours, be<g ref="char:EOLhyphen"/>fore the death of Sir <hi>Francis Kinnaſton. Provided</hi> that no new Change or addition, hurt, but rather helpe the Continuance of all things at firſt eſtabliſhed, As alſo the honour and Eſti<g ref="char:EOLhyphen"/>mation of the <hi>Muſaeum,</hi> and ſuch things which are for the bettering of ſuch as ſhall be admitted.</p>
+            <p>
+               <hi>Item,</hi> after the death of Sir <hi>Francis Kinnaſton,</hi> the <hi>Funda<g ref="char:EOLhyphen"/>mentall</hi> orders and <hi>Conſtitutions</hi> agreed upon by him the firſt Regent and Profeſſours ſhall never after be aboliſhed or changed.</p>
+            <p>
+               <hi>Item,</hi> the Regent is to remember as he ſhall ſee oppor<g ref="char:EOLhyphen"/>tunitie from time to time both publickly and privately, to ex<g ref="char:EOLhyphen"/>cite the Noblemen and Gentlemen to vertuous and heroick mindes by the example of the moſt renowned, but eſpeci<g ref="char:EOLhyphen"/>ally to ſet before their eyes, the <hi>Images</hi> of the <hi>Worthies</hi> of our own <hi>Nation,</hi> and of their own Anceſtours, in their ſe<g ref="char:EOLhyphen"/>verall families: ſo that having taken impreſſion in the <hi>Muſaeum</hi> from the beſt <hi>Id'as,</hi> the whole kingdome of inferiour peo<g ref="char:EOLhyphen"/>ple, in thoſe ſeverall Counties, where they ſhall be diſtribu<g ref="char:EOLhyphen"/>ted to live, and ſhine, may finde example, help, reaſon, and happineſſe in and being under them.</p>
+            <p>
+               <hi>Item,</hi> the Noblemen and Gentlemen at their firſt admit<g ref="char:EOLhyphen"/>tance ſhall have this Conſtitution immediately going be<g ref="char:EOLhyphen"/>fore, read unto them after their admittance, that themſelves may know, that one of the principallends of their admittance into the <hi>Societie</hi> of the <hi>Muſaeum,</hi> is the happineſſe of his Ma<g ref="char:EOLhyphen"/>jeſties kingdomes, as well as their own good.</p>
+            <p>
+               <pb n="15" facs="tcp:8605:13"/>
+               <hi>Item,</hi> neither the Regent nor any Profeſſour ſhall doe any Act or Acts of conſequence, which ſhall concern the ſtate of the <hi>Muſaeum,</hi> of himſelf, without firſt acquainting all the reſt of the Profeſſours with it, and ſhall have it aſſented unto by all, or the maior part of them, except he be both cl<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>er in his iudgement that he ſhall doe a good benefit for the <hi>Muſaeum,</hi> and alſo that the omiſſion of it till the Regent and Profeſſours be acquainted with it, may prove a prejudice to the <hi>Muſaeum.</hi>
+            </p>
+            <p>
+               <hi>Item,</hi> the Regent and Profeſſours ſhall keep ſecret what<g ref="char:EOLhyphen"/>ſoever they agree upon to be kept ſecret, and that without generall leave, and conſent of the Regent and maior part of Profeſſours, it ſhall not any way be divulged: <hi>Provided</hi> their Conſultations be onely for the good of the <hi>Muſaeum.</hi>
+            </p>
+            <p>
+               <hi>Item,</hi> all the Conſultations of the Regent and Profeſſours ſhall be in private.</p>
+            <p>
+               <hi>Item,</hi> at times of Conſultations of the Regent and Pro<g ref="char:EOLhyphen"/>feſſours, the Regent is firſt to ſpeak or propound, Then ſe<g ref="char:EOLhyphen"/>condly the Profeſſour of <hi>Philoſophie</hi> and <hi>Phyſick,</hi> and ſo eve<g ref="char:EOLhyphen"/>ry one in that order and rank as they are ſet down and named in the former <hi>Conſtitutions.</hi>
+            </p>
+            <p>
+               <hi>Item,</hi> if any two or more differ in their Conſultations, they are to be heard by the reſt to diſpute it briefly and tem<g ref="char:EOLhyphen"/>perately, and one after another in order: and then the Re<g ref="char:EOLhyphen"/>gent and maior part of Profeſſours agreeing, ſhall make de<g ref="char:EOLhyphen"/>ciſion.</p>
+            <p>
+               <hi>Item,</hi> no man ſhall interrupt the Regent in his diſcourſes, nor any of the Profeſſours one another, but they ſhall have
+<pb n="16" facs="tcp:8605:14"/>libertie to ſpeak what they pleaſe for the good of the <hi>Muſ<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>um,</hi> or themſelves, <hi>Provided</hi> they be not over tedious <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> their diſcourſes, which thing the Regent ſhall moderate.</p>
+            <p>
+               <hi>Item,</hi> all matters taken in Conſultation ſhall not be af<g ref="char:EOLhyphen"/>fectionately, nor haſtily decreed, but ſeriouſly weighed and if more matters are propounded, that ſhall firſt be de<g ref="char:EOLhyphen"/>creed, which is of moſt and preſent neceſſitie: otherwiſe what is firſt propounded, ſhall be concluded before other matters come into deliberation.</p>
+            <p>
+               <hi>Item,</hi> once every week ſhall be a meeting of the Regent and Profeſſours to conſult for the good of the <hi>Muſaeum,</hi> which ſhall be on Saturday in the afternoon, between two or three of the clock, under a pen<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ltie of <hi>tenne ſhillings,</hi> to the ſtock of the houſe, except it be diſpenſed withall upon no<g ref="char:EOLhyphen"/>tice given before hand, or afterwards ſufficiently proved, that notice could not be given in time.</p>
+            <p>
+               <hi>Item,</hi> the Regent in his abſence from the <hi>Muſaeum,</hi> ſhall appoint one of the Profeſſours to ſupply his place, whom he ſhall iudge moſt able to diſcharge it, who ſhall doe gene<g ref="char:EOLhyphen"/>rally and in particulars, as may be according to the Regents directions.</p>
+            <p>
+               <hi>Item,</hi> it is agreed and conſtituted by the Regent and Pro<g ref="char:EOLhyphen"/>feſſours of the <hi>Muſaeum Minervae,</hi> that all ſummes of mo<g ref="char:EOLhyphen"/>ney ſhall be taken by the Receiver, and delivered unto him.</p>
+            <p>
+               <hi>Item,</hi> the Receiver ſhall give ſufficient ſecuritie to the Re<g ref="char:EOLhyphen"/>gent and Profeſſours.</p>
+            <p>
+               <hi>Item,</hi> the Receiver ſhall diſtribute all ſuch ſummes of mo<g ref="char:EOLhyphen"/>ney
+<pb n="17" facs="tcp:8605:14"/>as he receiveth, according to the appointment of the Regent and maior part of Profeſſours for the occaſions of the <hi>Muſaeum,</hi> and not otherwiſe.</p>
+            <p>
+               <hi>Item,</hi> the Receiver ſhall keep a book of all admittances which ſhall be very fairely written.</p>
+            <p>
+               <hi>Item,</hi> the Receiver ſhall keep a book of all Receipts and diſburſements.</p>
+            <p>
+               <hi>Item,</hi> the Regent and Profeſſours ſhall from time to time and at all times uſe and imploy the beſt of their endeavours to the <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nlargement and building or adorning of the <hi>Muſaeum,</hi> or to any other thing which ſhall by the Regent and maior part of Profeſſours be iudged to conduce to the honour and ad<g ref="char:EOLhyphen"/>vancement of the ſame, out of ſuch moneys and revenues of lands as ſhall come to their Receivers hands by the boun<g ref="char:EOLhyphen"/>ty or benevolence of Benefactours or friends given to the ſaid <hi>Muſaeum Minervae,</hi> the Penſions of Regent, Profeſ<g ref="char:EOLhyphen"/>ſours, Schoolmaſters, Aſſiſtants and Officers being firſt paid.</p>
+            <p>
+               <hi>Item,</hi> it is agreed and Conſtituted by the Regent and Profeſſours of the <hi>Muſaeum Minervae,</hi> That the Bookes of <hi>Se<g ref="char:EOLhyphen"/>crets, Experiments,</hi> and <hi>Demonſtrations</hi> ſhall be communicated to none but to the Profeſſours, <hi>Septennalls</hi> and Receiver, or ſuch other, as the Regent and Profeſſours ſhall upon a very great reaſon ſee cauſe to yeeld unto.</p>
+            <p>
+               <hi>Item,</hi> if any Gentleman ſhall have any naturall Experi<g ref="char:EOLhyphen"/>ment or Secret, and ſhall communicate it to the <hi>Muſaeum,</hi> and upon tryall it be found true and good, his name and Experi<g ref="char:EOLhyphen"/>ment ſhall be recorded in <hi>Libro Nobilium,</hi> for a perpetuall ho<g ref="char:EOLhyphen"/>nour unto him.</p>
+            <p>
+               <pb n="18" facs="tcp:8605:15"/>
+               <hi>Item,</hi> if any Gentleman ſhall be come any waies a Bene<g ref="char:EOLunhyphen"/>factour to the <hi>Muſaeum,</hi> he ſhall ever be honourably remem<g ref="char:EOLunhyphen"/>bred in <hi>Libro Nobilium.</hi>
+            </p>
+            <p>
+               <hi>Item,</hi> there ſhall be <hi>Liber Nobilium</hi> alwaies kept, in which Benefactours and their benefits are to be recorded, begin<g ref="char:EOLhyphen"/>ning with King <hi>Charles</hi> our firſt and royall Benefactour.</p>
+            <p>
+               <hi>Item,</hi> if any accidentall maſters in any facultie, ſhall come to conferre with any Profeſſour of the <hi>Muſaeum,</hi> and ſhall impart any ſingular demonſtration in Science, or Se<g ref="char:EOLhyphen"/>cret in nature profitable, they ſhall receive an <hi>Honorarium</hi> of the <hi>Muſaeum,</hi> and be alſo honoured in <hi>Libro Nobilium totie<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> quoties,</hi> but the quantity and quality of the <hi>Honorarium</hi> ſhall be agreed upon by the Regent and maior part of the Pro<g ref="char:EOLhyphen"/>feſſours.</p>
+            <p>
+               <hi>Item,</hi> no book ſhall be noted or blotted with ink, lead, or other matter.</p>
+            <p>
+               <hi>Item,</hi> no book ſhall be lent out of the <hi>Muſaeum</hi> but to the Profeſſours onely, and no Profeſſour ſhall take any book out of the <hi>Librarie,</hi> or ordinary place where it ſtandeth, ex<g ref="char:EOLhyphen"/>cept he leave in a paper book there being for the purpoſe, his name, and the name of the book, and the time when he took it, and alſo except he acquaint the <hi>Library keeper</hi> with it.</p>
+            <p>
+               <hi>Item,</hi> every book lent, when it is to be reſtored to the <hi>Li<g ref="char:EOLhyphen"/>brary</hi> again, is to be viewed by the <hi>Library keeper</hi> or ſome of the Profeſſours which are moſt likely to know it beſt.</p>
+            <p>
+               <hi>Item,</hi> in the minor <hi>Libraries</hi> every Profeſſour ſhall be
+<pb n="19" facs="tcp:8605:15"/>
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>rged with the books of his owne <hi>Library,</hi> and no Profeſ<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>r ſhall take out any book out of one anothers <hi>Library</hi> with <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the knowledge of the Profeſſour of that Art or Science.</p>
+            <p>
+               <hi>Item,</hi> no <hi>Book, Charte, Instrument</hi> or <hi>Raritie</hi> whatſoever be<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>ging to the <hi>Muſaeum,</hi> ſhall be any waies alienated, altered <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> changed, except for the greater good and benefit of the <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>uſaeum,</hi> neither ſhall any alienation, alteration or change <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> made of any <hi>Book, Charte,</hi> or <hi>Inſtrument,</hi> or any other <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>ng belonging to the <hi>Muſaeum,</hi> but by conſent of the Re<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>nt and maior part of the Profeſſours of the <hi>Muſaeum.</hi>
+            </p>
+            <p>
+               <hi>Item,</hi> if any Regent or Profeſſour hereafter of the <hi>Muſae<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </hi> ſhall make away, or endeavour to deſtroy, or open his <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>outh to deſtroy any books of what Art or Science ſoever, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> any Antiquitie or other matter which hath been once re<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ved into the <hi>Muſaeum</hi> by the Regent and Profeſſours, <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>d laied up there for the benefit of the Noblemen and Gen<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>men, or for their delight, or for any other reaſon, for which it was by the Regent and Profeſſours at the firſt re<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ived, and there conſerved: He ſhall <hi>ipſo facto</hi> be diſmiſ<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>d, without any after reſtitution to his place again, or any other office in the <hi>Muſaeum Mineruae</hi> for ever.</p>
+            <p>
+               <hi>Item,</hi> the Regent and Profeſſours from time to time ſhall take care that ſuch of themſelves as doe ſurvive, ſhall ho<g ref="char:EOLhyphen"/>nourably interre and ſolempnize the <hi>Funeralls</hi> of the Regent <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> any of the Profeſſours deceaſed according to their places, <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>d as they have deſerved in the <hi>Muſaeum</hi> or otherwiſe, for <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e good of the kingdome: and alſo that there be <hi>Funerall</hi> 
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ations made, ſuch as may be to the honour of the decea<g ref="char:EOLhyphen"/>ſed, for the reaſons before mentioned, and for incitement of the living unto the beſt deſerts.</p>
+         </div>
+         <div type="oath">
+            <pb facs="tcp:8605:16"/>
+            <head>The Oath to be adminiſtred to the REGENT and PROFESSOVRS OF THE <hi>M<g ref="char:V">Ʋ</g>SAE<g ref="char:V">Ʋ</g>M MINERVAE,</hi> Within three daies after their Election.</head>
+            <p>
+               <hi>I. A. B.</hi> doe promiſe and ſwear to yeeld and perform from ti<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> to time and at all times all fidelity and allegiance unto our Sov<g ref="char:EOLunhyphen"/>raigne Lord King <hi>Charles,</hi> and doe ſwear and promiſe to execu<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> and diſcharge from time to time with all fidelity my place and off<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> of
+<list>
+                  <item>
+                     <hi>Regentſhip</hi>
+                  </item>
+                  <item>
+                     <hi>Profeſſourſhip</hi>
+                  </item>
+               </list> in the <hi>Muſaeum Minervae.</hi>
+            </p>
+            <p>And alſo to perform and keep to the utmost of my power and sk<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> as long as I live, all and ſingular ſuch <hi>Conſtitutions</hi> of the ſ<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> 
+               <hi>Muſaeum Minervae,</hi> which doe and may concern my ſaid pl<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> and office according to the true intent and meaning of the ſaid <hi>Co<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>ſtitutions.</hi>
+            </p>
+            <p>And alſo I ſwear and promiſe alwaies to advance the hono<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> benefit and good eſtate of the ſaid <hi>Muſaeum Minervae</hi> to the <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>moſt of my power.</p>
+            <p>And to preſerve and augment as much as in me lyeth, the eſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>mation and credit of the <hi>Regent</hi> and <hi>Profeſſours</hi> of the ſaid <hi>Mu<g ref="char:EOLunhyphen"/>ſaeum Minervae.</hi>
+            </p>
+            <p>And laſtly, never to diſpenſe with my fidelity, honeſtie or co<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ſcience in the Election of any <hi>Regent, Profeſſour, Deputie<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Aſſiſtant,</hi> or in doing any Act wittingly cont<gap reason="illegible" resp="#PDCC" extent="4 letters">
+                  <desc>••••</desc>
+               </gap> to the <hi>
+                  <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>ſtitutions</hi> and <hi>Orders</hi> of the ſaid <hi>Muſaeum Minervae,</hi> or prej<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>diciall to the ſame <hi>Muſaeum,</hi> for any temporall reſpects what<g ref="char:EOLunhyphen"/>ſoever.</p>
+            <closer>So help me God.</closer>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:8605:16"/>
+         </div>
+      </body>
+   </text>
+</TEI>

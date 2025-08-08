@@ -1,0 +1,520 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Be wise and be warned. Per I.S.</title>
+            <author>Sutton, J., fl. 1567-1573.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1573</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 48 KB of XML-encoded text transcribed from 21 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A11236</idno>
+            <idno type="STC">STC 21498</idno>
+            <idno type="STC">ESTC S110773</idno>
+            <idno type="EEBO-CITATION">99846252</idno>
+            <idno type="PROQUEST">99846252</idno>
+            <idno type="VID">11208</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A11236)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 11208)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 550:22)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Be wise and be warned. Per I.S.</title>
+                  <author>Sutton, J., fl. 1567-1573.</author>
+               </titleStmt>
+               <extent>[40] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Thomas East, for Fraunces Coldock,</publisher>
+                  <pubPlace>[London] :</pubPlace>
+                  <date>the first day of Ianuary. 1573.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Attributed to J. Sutton.</note>
+                  <note>An anti-Catholic exhortation.</note>
+                  <note>Signatures: A-E⁴.</note>
+                  <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Catholic Church --  Controversial literature --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-10</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2011-10</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:11208:1"/>
+            <pb facs="tcp:11208:1"/>
+            <p>¶Be wiſe and be warned.</p>
+            <q>
+               <bibl>SIRACH. V.</bibl>
+               <p>Make no tarying to turne vnto the Lorde and put not of from day to day, for ſodenly ſhal his wrath come, and in the time of vengaunce hee ſhall deſtroy thee.</p>
+            </q>
+            <q>
+               <bibl>PROVERBIVM. xl<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</bibl>
+               <p>Giue eare vnto good councell and be con<g ref="char:EOLhyphen"/>tent to be reformed.</p>
+            </q>
+            <p>
+               <hi>Per. I.S.</hi>
+            </p>
+            <p>¶ Printed by Thomas Eaſt, for Fraun<g ref="char:EOLhyphen"/>ces Coldock, the firſt day of Ianuary. 1573.</p>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:11208:2"/>
+            <pb facs="tcp:11208:2"/>
+            <head>¶ The Preface to the Reader.</head>
+            <p>
+               <seg rend="decorInit">F</seg>Oraſmuche according to the saying of Sainct Paul, as al<g ref="char:EOLhyphen"/>though I ſpake with the tungs of men and Aungels: and yet had no loue. I were euen as a ſounding braſſe, or a tinkeling Simbal: ſo that no worke without loue preuaileth any thing, &amp; no man loueth God that hath not a care for: &amp; dilige<g ref="char:cmbAbbrStroke">̄</g>tly loketh to his neighbour or brother, bi<g ref="char:EOLhyphen"/>cauſe the giftes of the ſpirit are giuen vs to do ſeruice to, and to profite the congregation:<note place="margin">1. <hi>Cor.</hi> 12.</note> and therfore muche doth he that loueth much, and much doth he that doth ſomething well, and well doth he that ſerueth the common welth, and being therfore good alwaies to be zelous in a good thing:<note place="margin">
+                  <hi>Galati.</hi> 4</note> and any thing ought willingly to be enterpriſed for the loue of God, euen ſo of my loue and dutie to God, and louing care for the continuall proſperitie of my countrey, I haue enterpriſed this little worke, beſeching you my bretheren louingly to ſuffer hearin the wordes of exhortation,<note place="margin">H<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </note> and to haue as carefull conſide<g ref="char:EOLhyphen"/>ration of the ſame, that we go not to waſte, and be made a ieſting ſtock to all nations: that our
+<pb facs="tcp:11208:3"/> wits be not giuen to Aleants, and our fields to deſtroyers. And we made bondſlaues of corrup<g ref="char:EOLhyphen"/>tion, but rather taking heede to our ſelues and keping well our ſoules, our life may be agreable vnto the doctrine which we profeſſe, wherby we may auoyd the danger of the like miſerie, that of late yeares we taſted, and thus gentil reader, in recompence of thy trauell, in the reading of this little worke, God graunt thee to reape ſuch benifite, as may be for the comforte of thy ſoule <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd bodie.</p>
+            <closer>Giue God the prayſe.</closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:11208:3"/>
+            <head>Be vviſe, and be vvarned.</head>
+            <p>
+               <seg rend="decorInit">
+                  <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </seg>S vnto A Chriſtian there can be nothing more com<g ref="char:EOLhyphen"/>modious, more comfor<g ref="char:EOLhyphen"/>table, nor more beneficial, <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>n the exerciſe &amp; know<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> of the ſcripturs, be<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> of God, the very food <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> the ſoule? Euen ſo <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>, the great loue of god, <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ower of the ſame God <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eyther the ineſtimable <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> by him, can eyther be k<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n, nor yet man knowe bi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nce to ſo gracious and me. <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> and ſauiour. Whereby to r<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> all poſſible thankes and <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> apperteineth, and againe as <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ſcriptures and holy word ſheveth him ſelfe, a God of mercy, redy to ſupporte, ayde and aſſiſt, help &amp; com<g ref="char:EOLhyphen"/>forte, and in all perrils and diſtreſſe to haue a care to defend thoſe y<hi rend="sup">t</hi> feare him. So is he ther likewiſe found a ſeuear &amp; terrible Iudge to puniſh, deſtroye, con<g ref="char:EOLhyphen"/>demne and bring to death all ſuch, as the which being obſtinate and wilfully ig<g ref="char:EOLhyphen"/>noraunt of his worde and goſpell, muſte
+<pb facs="tcp:11208:4"/> néeds be deſperately careleſſe of his wil, of which both in the ſame ſcriptures are plenty of examples for our inſt<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uction and learning. And as by the <gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>es we fynde the law to condem<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>? ſo fynde we ther the goſp<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he promes of mercye: <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e<g ref="char:EOLhyphen"/>pent and acknowled<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e preaching of the law, <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> ſelues to be ſcollers, <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> and fulfil the law, whic<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> law, is a faſt fayth in <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> coupled with our proſe<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>tyng our ſelues to lea<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>, and to learne to beleue <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> is promiſed them, we fy<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>res the ſtories &amp; liues of <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oth what chanced them: &amp; by <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>es theyr ſcole maſter taught <gap reason="illegible" resp="#PDCC" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ade them perfect: and how he try <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rue from the falſe. Wherfore the ſcriptures are by al means ſo requiſite and neceſſa<g ref="char:EOLhyphen"/>ry, as of neceſſitie they are to bée <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſed with all reuerence, not alone of the l<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ar<g ref="char:EOLhyphen"/>ned but alſo of other ſortes &amp; degrées of people of what eſtate or calling ſo euer, be they riche, be they poore, be they olde, be they yong, for as <hi>Fulgentius</hi> ſayth in the ſcriptures, there is ſufficient and a<g ref="char:EOLhyphen"/>boundance
+<pb facs="tcp:11208:4"/> for men to eate, and for chil<g ref="char:EOLhyphen"/>dren to ſuck, yea whatſoeuer is mete for all ages, which wordes of <hi>Fulgentius</hi> as they be true, ſo ought all men to giue credit to the ſame and to beleue them, ſpecially and chiefly bycauſe he buildeth vpon ſo ſubſtantial, ſo ſure and infallible foundation, the worde of God: for this commaundement gaue Moyſes in the name of the Lord, to the hole congrega<g ref="char:EOLhyphen"/>tion of Iſraell.<note place="margin">Deut. 31.</note> Sée that thou reade this lawe before all Iſraell, in theyr eares, bothe men, wemen &amp; children, and ſtran<g ref="char:EOLhyphen"/>gers that are with in thy gates, to what purpoſe, it followeth, y<hi rend="sup">t</hi> they may hear, learne, and feare the Lord theyr God, &amp; be diligent to keepe his law: lo hear is the cauſe: but hear is no exceptio<g ref="char:cmbAbbrStroke">̄</g> of per<g ref="char:EOLhyphen"/>ſon, hear are none exempted, but al muſt hear, men wemen and children, for there is ſufficient for al ages. And yet further, Chriſt ſayth, come vnto mée all yée that labor and are laden and I will refreſhe you: but hear agayn none are forbidde<g ref="char:cmbAbbrStroke">̄</g>: Wherfore my brethern, euen as foorth of a wel, by gods prouidence we do with materiall buckettes draw water for the neceſſary vſe of our naturall bodies, ſo likewiſe as good ſcollers, let vs obedy<g ref="char:EOLhyphen"/>ently
+<pb facs="tcp:11208:5"/> follow the ſwéete and profitable councell giuen vs by Chriſt, pronounced by the mouth of his beloued Apoſtel: Search the ſcriptures ſaith he,<note place="margin">Iohn. 5.</note> for in the<g ref="char:cmbAbbrStroke">̄</g> ye haue eternall life: and from thence, euen from the ſcriptures, we muſt with the buckettes of willing harts &amp; minds, draw out of the word of god, which is the fountayne and ſpring of ſpirituall felici<g ref="char:EOLhyphen"/>tie, from thence I ſay, we muſt draw the ſwéete water of life, which plentifully floweth from the rock Chriſt, to refreſh our thurſty ſoules, for the ſcriptures doo cauſe that in the mind of man may ſhine aſſured knowledge of God, in the ſoule holines, and in al the powers obedience, to be performed according to the preſiſe<g ref="char:EOLhyphen"/>nes of the word. The ſcriptures is as a ſalue, wherewith our ſoules are healed. It is thy word that preſerueth them that put theyr truſt in thee,<note place="margin">Wiſedom. 16.</note> ſo that in y<hi rend="sup">e</hi> ſcrip<g ref="char:EOLhyphen"/>tures which is the onely and holy worde of God. Wee fynde the very plat, forme, and ready broade beaten pathe way, that leadeth to the vnderſtanding and know<g ref="char:EOLhyphen"/>ledge of that ineſtimable treaſure and Iuel Ieſu Chriſt, whoſe death, hath ful<g ref="char:EOLhyphen"/>ly wrought the perfection of eternal ſal<g ref="char:EOLhyphen"/>uation,<note place="margin">Roma. 10</note> to as many as beleue, as ſayth
+<pb facs="tcp:11208:5"/> Saint Paule, if thou knoweledge with thy mouth &amp; beleue with thy harte that God raiſed Ieſus from death: thou ſhalt be ſafe. For the beleue of the hart iuſti<g ref="char:EOLhyphen"/>fieth, but as iuſtification commeth tho<g ref="char:EOLhyphen"/>rough faith, ſo cometh faith by hearing: ſo that without the Scriptures of God, there is no knowledge of him. For the ignorance of the ſcriptures is the igno<g ref="char:EOLhyphen"/>rance of Chriſt, and not to know Chriſt, is to be in darknes, for without y<hi rend="sup">e</hi> know<g ref="char:EOLunhyphen"/>ledge of god, ther is no ſaluation, for he that beleueth on the Sonne hath euerla<g ref="char:EOLhyphen"/>ſting lyfe: and he that beleeueth not the ſonne, ſhall not ſee lyfe, but the wrath of God abydeth on him. And how ſhall wée beleue on him that we knowe not? And how ſhal we know him but by the ſcrip<g ref="char:EOLhyphen"/>tures? for in them is hée perfectly ſéene and knowne. Gods worde and the holy ghoſt are the glaſſe wherein Chriſt will be beholden: and with this beholding we muſt be content vntill him ſelfe come to iudgement, for afterwards we ſhall en<g ref="char:EOLhyphen"/>ioye the fight of him for euer.</p>
+            <p>If by th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſcriptures then we receyue ſuche vnſpeakable benefite, euen the ſa<g ref="char:EOLhyphen"/>uetie of ſoule and body: if no Chriſtian can comfort him ſelfe in God &amp; Chriſte
+<pb facs="tcp:11208:6"/> without the knowledge of them. And therefore of meere neceſſitie muſt nedes be acquainted with the<g ref="char:cmbAbbrStroke">̄</g>, and know howe to vſe them as a chief ſauegarde and de<g ref="char:EOLhyphen"/>fence for him againſt the malice of the enemie Sathan, who ſeldome leaueth vnaſſaulted by one meanes or other the famely of the faithfull. What haue wée then to thinke or iudge of them that by their pollicies practiſe to diſarme vs, &amp; to leaue as it were naked and weapon<g ref="char:EOLhyphen"/>le<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, to be a pray vnto our ſo hateful and auncient an enemie ſathan the Deuill, of whoſe continuall endeuoure to anoy vs, the ſtories of all tymes do enſtruct &amp; teache vs. For in likewiſe as he ſet him ſelfe agaynſt our firſt parents, and that by taking gods word out of their harts, ſo employeth he him ſelfe wholy w<hi rend="sup">t</hi> like endeuour at all times y<hi rend="sup">t</hi> th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> word being preached, may be taken fro<g ref="char:cmbAbbrStroke">̄</g> gods people: and being greedely deſirous to haue our neckes vnder his yoke, as Peter wit<g ref="char:EOLhyphen"/>neſſeth, goeth about leke a roaring lyon ſeeking whom he may deuoure. For in lyke manner as Iapheth by Ipocriſie &amp; ſuperſtition, and Cayne by crueltie per<g ref="char:EOLhyphen"/>ſecuted the true church, vſurping vnto them ſelues the tytle of the church, and
+<pb facs="tcp:11208:6"/> changed the true woorſhippinge of God into heatheniſh Ipocriſie and ſuperſtiti<g ref="char:EOLhyphen"/>on: and as the enuious Philiſtines ſtop<g ref="char:EOLhyphen"/>ped the welles of Abraham, filling the<g ref="char:cmbAbbrStroke">̄</g> with earth, to put the memorial of them out of mynd, that they might challenge the ground. Euen ſo at all times hathe ben, and dayly are like practiſes by men eſtranged from God, and to make hym vnknowen vnto vs by ſhadewinge his goſpell from vs, hyding &amp; couering the ſame with monſterous cloudes of cor<g ref="char:EOLhyphen"/>rupt doctrine, to robbe and ſpoyle vs of the goſpell which is the very ground of our faith in Ieſus Chriſte, alluring and forcing vs to ſet our affections vpon the inuentions, deuyces, dreames and tradi<g ref="char:EOLunhyphen"/>tions of men, to bring vs to vtter confu<g ref="char:EOLhyphen"/>ſion, but woo vnto them (ſaieth the Pro<g ref="char:EOLhyphen"/>phet) that call euill good, and good euill,<note place="margin">Eſai. v.</note> which make darknes light, &amp; light dark<g ref="char:EOLhyphen"/>nes, the wrath of the Lorde is kindle<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> a<g ref="char:EOLhyphen"/>gainſt them, and their karkaſes ſhal ly in the open ſtreates like myer: but thus it wilbe that Chriſt his kingdome ſhall alwayes haue enemies, according to the fyrſt promys: The ſeede of the Serpent ſhal lye in w<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ite for the ſéede of the wo<g ref="char:EOLhyphen"/>man: and true this is, the ſtorie of the
+<pb facs="tcp:11208:7"/> church from thenceforth that the ſéede was promiſed vnto this preſent day, tea<g ref="char:EOLhyphen"/>cheth vs, for where ſo euer is an Abell, there is alſo ſome a Cain: where ſoeuer is an Iſaac ther is alſo an Iſmael: wher is a Iacob, there is alſo ſome Eſau or o<g ref="char:EOLhyphen"/>ther: where is a Dauid, there is alſo a Saul: where is a Chriſte, there is alſo a Iudas: and whereas is a Paule, ther is ſome Nero. And wée muſte not looke to haue it otherwyſe, for Sathan lyeth al<g ref="char:EOLhyphen"/>wayes in wayte for Chriſt his churche, which he endeuoureth, eyther vtterly to aboliſhe, or els to defile it with wicked doctrine and manners. But now behold I pray you, a pleaſant Allegory, for here ſhal ye haue the ſtate and Image of the church as it were paynted out: The ſea is the world, the Ship is the church, the deuill is the winde, the Diſciples are y<hi rend="sup">e</hi> godly companie of beléeuers, Chriſte is the truth, and the goſpell is fayth. And firſte note, that before Chriſte with his Diſciples entered into the Ship: the ſea was calme, which is to be vnderſtand, the world ſlept ſoundly in his own ſins: but as ſoone as Chriſte entered into the ſhip, there aroſe a mighty tempeſt, in ſo much as y<hi rend="sup">e</hi> ſhip ſéemed to be ouerwhel<g ref="char:EOLhyphen"/>med:
+<pb facs="tcp:11208:7"/> but what enſued, Chriſt ther who could comaund the ſea and wyndes: and heare wee maye learne, that out of this little ſhip (that is to ſay the church) ther is no ſauegard, but yit it behoueth vs to looke wel about vs heere, that wee take not our enemies ſhip for the true ſhip, for they haue ſubtelly wrought to de<g ref="char:EOLhyphen"/>ceyue vs. The enemies Ship is better decked and garniſhed outwardly and of greater receyte within, but the trwe ſhip hath her decking inwardly, &amp; hath a much more ſtately maſter, namely the holy ghoſt: all y<hi rend="sup">e</hi> maryne<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s that it hath, are godly: it hath the worde of god and the ſacraments in right vſe &amp; obedience to the miniſtery, and with theſe treaſu<g ref="char:EOLhyphen"/>res this ſhip holdeth it ſelfe contented in ſo great waues and boiſterous billows. For ye muſt know that this ſhip ſaileth not in the calme ſea, but is toſſed with y<hi rend="sup">e</hi> waues and ſourges, whiche dryues and toſſes it hither and thither: which thing to be moſte true the ſtorie of the worlde ſheweth, when god had made the world, he put his ſhip in the middeſt of it. And by and by the deuill the enemy of Gods ſonne toſſed it with ſtormes, which fro<g ref="char:cmbAbbrStroke">̄</g> thence forth was miſerably turmoyled
+<pb facs="tcp:11208:8"/> vnto the tyme of Noe. And after Noe to Abrahams tyme, from Abrahams too Moyſes: and from thence to Chriſt his time: who to the intent to ſaue the ſhip, came into the worlde, yet ſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>aced not the wau<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s therof as then.</p>
+            <p>But what is the cauſe that the world cannot abyde this little ſhip? truely be<g ref="char:EOLhyphen"/>cauſe the church reproueth the workes of the world, blam<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>th the worldly <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>yſe men of folly, condemneth the righteous men as gilty of ſinne, aduaunceth not rich men but pronounceth them vnhap<g ref="char:EOLhyphen"/>py and wretched, onles true godlyneſſe be the gouernour and ruler of theyr ry<g ref="char:EOLhyphen"/>ches. And this y<hi rend="sup">e</hi> Chriſt promiſed whe<g ref="char:cmbAbbrStroke">̄</g> he ſaid, the holy ghoſt ſhal reproue y<hi rend="sup">e</hi> world of ſin, of righteouſnes and of iudgment.</p>
+            <p>But if a queſtio<g ref="char:cmbAbbrStroke">̄</g> might be now aſked, what had Abel offend<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d Cain who hor<g ref="char:EOLhyphen"/>ribly murdered him? Iohn aunſwereth: Abels woorkes were good and his Bro<g ref="char:EOLhyphen"/>thers euill. What had Noe done? wher<g ref="char:EOLhyphen"/>in had Ieremy offended? what and wher in had Eſai tra<g ref="char:cmbAbbrStroke">̄</g>ſgreſſed? and what Chriſt in who<g ref="char:cmbAbbrStroke">̄</g> was no ſinne? to be ſhort, wher-had the Apoſtles or all the Martyrs fro<g ref="char:cmbAbbrStroke">̄</g> the beginning of the world to this daye offended? onles bicauſe they would haue
+<pb facs="tcp:11208:8"/> brought the world back from ſinne, fro<g ref="char:cmbAbbrStroke">̄</g> darkenes to light, that men might liue godly, honeſtly, &amp; vprightly in the world according to the word: but this is the re<g ref="char:EOLhyphen"/>warde that the world is wont to requit his benefactors with all, but as the ver<g ref="char:EOLhyphen"/>tues of childr<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n haue very large promi<g ref="char:EOLhyphen"/>ſes of good ſucceſſe in this lyfe. So the vices in children, w<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>iche fight againſt theſe vertues haue threatnings of moſt greeuous and extreame puniſhments, which alſo extend them ſelues euen vn<g ref="char:EOLhyphen"/>to their poſteritie, for the ofſpringe (for the moſt parte) receyue their vyces of their auncetry as it were by inherita<g ref="char:cmbAbbrStroke">̄</g>ce: whoſe er<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ours are to be deteſted, bicauſe their trau<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>l tendeth to dep<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>iue vs of the worde of God: wherein they declare and ſhewe themſelues manifeſtlye to be the children of their father the Diuell: and therefore conſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>quently, as muche as in them is, are his inſtrumentes to hinder the ſaluation of man: wherefore accor<g ref="char:EOLhyphen"/>ding to the olde prouerbe, what is bredd in the bone will neuer oute of t<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e fleſh. And what nature hath giuen, is not eaſe<g ref="char:EOLhyphen"/>ly to be remoued: &amp; threfore ſuch fath<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>r ſuch children: The poſteritie of Caine will ſhew the propertie of theyr prede<g ref="char:EOLhyphen"/>ceſſor:
+<pb facs="tcp:11208:9"/> it is againe nature and kynde for the<g ref="char:cmbAbbrStroke">̄</g> to ſpare or ſaue that which they can deſtroy and make hauock of. The broode of Caine will nedes be knowne by their bloudy recogniſance, the diuel that king of darkneſſe, and his beloued Antichriſt the Pope, continually per<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ecute &amp; bende all their force to this end, that they may extinguiſh the true religion of Chriſt.</p>
+            <p>Their delight is in bloud: They practiſe to ſpoyle the ſhip, but al will not helpe nor preuayle:<note place="margin">Eſai. i.</note> for as Ieremy ſayd, they ſhall fight againſt thee, but they ſhal not be able to ouercome thee, for I am with thee ſayth the Lord to defende thee And ye ſhall ſee mee in ioye when they ſhall be confounded: be then of good chéere: pluck vp your harts, and be mery ye ma<g ref="char:EOLunhyphen"/>riners that ſayle in Chriſt his ſhip, for it cannot be deſtroyed. For God (as hee is able to bring to paſſe that of the ſtones there ſhall ryſe vp children vnto Abra<g ref="char:EOLhyphen"/>ham) euen ſo hath hee by his wonderfull prouidence appoynted the bloud of the martyrs to be the ſéede of the goſpel: yea and of the aſhes of thoſe whom through tyrannie the fyers haue conſumed, God hath rayſed great nombers now liuing, whom he hath ordayned and appoynted
+<pb facs="tcp:11208:9"/> for the furnature of his ſhip, to the great glory of our God: the colo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t of his flock. And wherof to y<hi rend="sup">e</hi> great prayſe of his name be it ſpoken, we his people of Ingland, haue had the experience, and euen at this day, to our conſolation and comfort, the Lord of his mercy ſo co<g ref="char:cmbAbbrStroke">̄</g>tinue it, &amp; make vs thankefull to him for the ſame. For greate is the loue that God hathe to hys church, yet nothing do theſe miracles of our mightie God moue the hartes of his enemies, whoſe eyes are ſo blynde that they ſée not, and theyr harts ſo hardened that they vnderſtand not: but euen ſtil at thoſe dayes procéede &amp; go forward with their Cain like charitie, according to the rule of the romiſh Antechriſtian church: the Suckſeſſors of Cain: For how rage the Heathen now? how fret they? howe fume they? how lay they theyr heads to<g ref="char:EOLhyphen"/>gether to conſpyre againſt the Lord and his anoynted. Alaſſe, who ſeeth not howe cruelly they euen now perſecute Chriſt in his members: onely to ſuppreſſe and tred vnder foote the glorious goſpell of Chriſt Ieſu. What beſeeging of holdes and fortes: What racyng of walles: What deſtruction and ſackyng of Ci<g ref="char:EOLhyphen"/>ties &amp; townes: What ſpoyling of Coun<g ref="char:EOLhyphen"/>treys:
+<pb facs="tcp:11208:10"/> What drowning: what hanging: what burning and outrageous &amp; hory<g ref="char:EOLhyphen"/>ble dealing with gods deadlyngs: What blooddy and monſterous murderyng of the poore innocents: ſparyng no degree, nor age: but fro<g ref="char:cmbAbbrStroke">̄</g> the no<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>leſt to the mea<g ref="char:EOLhyphen"/>neſt: Man, Woman, Childe. From the gray headded to the tendereſt of yeares: yea, euen to the very babe ſucking at his mothers breſt,<note place="margin">Pſal. 76</note> geuing the dead bodyes of gods ſeruauntes to the fowles of the eyre, to be deuowred: &amp; the fleſh of gods ſaynts, to the beaſtes of the lande: ſhe<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ng theyr blood as water on euery ſide. They go beyond Herod, who went but to far: but theſe theyr workes declare them, and ſhew of what ſpirit they are, &amp; that they be euen of that broode of tur<g ref="char:EOLhyphen"/>magawnts and hell hounds that the pro<g ref="char:EOLhyphen"/>phet in the perſon of Chriſt ſpeaketh of:<note place="margin">Miche<g ref="char:EOLhyphen"/>as. 3.</note> ye hate the good &amp; loue the euil: ye pluck of mens ſkinnes and fleſhe from theyr bones, ye eate the fleſhe of my people, &amp; fley of theyr ſkinnes: ye breake theyr bones: ye chop them in peces as it were into a Cauldron. Is this according to the commaundement, (thou ſhalt not kyll) how agréeth this dealinge wyth the ex<g ref="char:EOLunhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>reſſe wyl and commaundement of god:
+<pb facs="tcp:11208:10"/> loue thy n<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ighbor as thy ſelfe:<note place="margin">Rom. 13</note> loue hury<g ref="char:EOLunhyphen"/>teth not his neighbor, &amp; therfore is loue the fulfylling of the law. But oh ye bloo<g ref="char:EOLhyphen"/>dy broode, how fulfyl you the law: wha<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> is loue become wyth you: for they that loue, be mercifull: and they that be mer<g ref="char:EOLhyphen"/>cyfull, do loue: ſo the fountayne ſh<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>w<g ref="char:EOLhyphen"/>eth the water, &amp; the water the fountaie: for loue &amp; merry are vnſeperable: Doth loue conſiſt in cutting of throtes, and murdering of innocents? doth loue con<g ref="char:EOLhyphen"/>ſyſt in m<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>king ſpoyle and hauock of the<g ref="char:cmbAbbrStroke">̄</g> people of God? Oh gredy deuowring wolues: Oh blood therſty tyrantes: O<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> bottomles bellyes, who dayely em<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>yng your ſelues with, and go<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>lpyng in the blood of gods ſayntes,<note place="margin">Pſal. 7<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </note> a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e neuer full nor ſateſfyed but the ryght hande of the moſt higheſt ſhall change all. Wherfore oh thou choſen flock of thy ſhepherd Chriſt Ieſu, diſmay not, diſcourage not, faynt not, murmor not, grudge not, re<g ref="char:EOLhyphen"/>pyne not, neyther refuſe to bear a lyttle peece of afflyction w<hi rend="sup">t</hi> thy maſter Chriſt, who of loue to eaſe thée, dyd himſelf <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ear the great and heauy burthen, think no<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> much that thou being gyltie by meanes of thy manyfolde ſinnes and forgetful<g ref="char:EOLhyphen"/>nes of thy dutie to thy maſter Chriſt Ie<g ref="char:EOLhyphen"/>ſu,
+<pb facs="tcp:11208:11"/> do ſuffer ſome louing correction. And fele the fauorable hand of thy heauenly father: when he being gyltleſſe did bear the burthen of thy ſinne, &amp; of the ſinnes of the hole world in his body vppon the croſſe: but pluck vp thy hart oh Iſrael, thou choſen generation &amp; peculyer peo<g ref="char:EOLhyphen"/>ple beloued of God: and comfort thy ſelf in him, knowing that the croſſe which is affliction of the body, grefe of mynde, loſſe of goods and frends, hunger, thyrſt, nakednes, impriſonment and death, is naturally incident vnto the churche of God and members of Ieſu Chriſt.</p>
+            <p>
+               <note place="margin">3. Reg.</note>For had not Iacob great gref of mynd, for the loſſe of his ſonne Ioſeph: and Io<g ref="char:EOLhyphen"/>ſeph likewiſe ſuffred affliction of the bo<g ref="char:EOLhyphen"/>dy in priſon:<note place="margin">Luke. 16</note> Lazarus felte hunger and the payne of his byles, at the rich mans gates: Micheas was buffeted, and fedde with bread &amp; water: Iobe loſt his goods, his children,<note place="margin">Iob. 1.</note> his houſe: the Profet Eſay was cutte in péeces with a ſawe: Ieremi was ſtoned to death: Iohn Baptiſt was caſt into priſon and beheaded: Iames the brother of Iohn was ſlain with y<hi rend="sup">e</hi> ſword: and did not Chriſt him ſelfe Suffer the moſt ſhamefull death of the Croſſe: the ſeruant therfore is not greater then his
+<pb facs="tcp:11208:11"/> maſter: if they haue perſecuted mée,<note place="margin">Iohn. 15. Iohn. 16</note> ſo will they perſecute you. The time will come that whoſoeuer killeth you, will thinke he doth God good ſeruis. In the world ye ſhall haue tribulation: and hée that taketh not vp his Croſſe and follo<g ref="char:EOLhyphen"/>weth after mée, is not méete for mée, for we muſt through much tribulation enter into the kingdom of god:<note place="margin">Act. 14.</note> ye ſhalbe hated of al men for my names ſake, but he that indureth to the ende, ſhalbe ſaued. Now ſeing that greate are the benefites that bearing of the Croſſe bringeth, doubte not, neyther feare thou to take vppe thy Croſſe by the which thou goeſt to a king<g ref="char:EOLhyphen"/>dom, for ſuffering of affliction for Chriſt his ſake, maketh aptnes to comprehend heauenly thinges.<note place="margin">Math. 5.</note> Bleſſed are they that ſuffer perſecution, for righteouſnes, for theyrs is the kingdom of heauen.<note place="margin">Gala. 6</note> Wher<g ref="char:EOLhyphen"/>fore be euen of Paules mynde, and ſay, God forbid that I ſhould reioyce but in the Croſſe of our lord Ieſus Chriſt, for ſurely no man feleth, y<hi rend="sup">e</hi> Paſſio<g ref="char:cmbAbbrStroke">̄</g> of Chriſt ſo much in his law, as hée vnto whom it chanceth to ſuffer the like thinges, for in the Croſſe is ayde agaynſt the enemy, in the Croſſe is ſtre<g ref="char:cmbAbbrStroke">̄</g>gth of mind, in y<hi rend="sup">e</hi> Croſſe is ioy of ſpirit, and the Croſſe and afflic<g ref="char:EOLhyphen"/>tio<g ref="char:cmbAbbrStroke">̄</g>
+               <pb facs="tcp:11208:12"/> of the Godly, procedeth of the father<g ref="char:EOLhyphen"/>ly loue, of the heauenly father towardes his children, whom he chaſtiſeth (in this world only) therby putting vs in reme<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>brance of our ſinnes, yet not that by our Croſſe we make ſatiſfaction therfore: for that hath Chriſt him ſelfe done vpon the Croſſe once for all. But that we ſhould therby mortifie our ſelues, our fleſhlye members, and being gentely corrected for our ſins, ſhould turne vnto our God and repent and not be damned with the worlde, but become pure veſſels, being therfore exerciſed, with the Croſſe. Let vs ſéeke comforte at the fatherly mercy of our God through Ieſus Chriſt who grau<g ref="char:cmbAbbrStroke">̄</g>t vs grace to glorify him with true patience vnder the Croſſe: and this order is in the Croſſe ſaluatio<g ref="char:cmbAbbrStroke">̄</g>, wherof to make vs partakers, and therby to try our pa<g ref="char:EOLhyphen"/>tience,<note place="margin">Math. 10</note> behold ſayth he, I ſend you foorth as ſhepe amongeſt wolues, and yet not that he therfore leaueth you deſtitute of helpe. For the Lorde hath ſuch care for you,<note place="margin">Pſal. 62 Pſal. 91.</note> that he preſerueth the ſoules of ſuch as be in aduerſitie, yea, I am with him in his trouble ſayth hee. And I deliuer him and bring him to honor. Striue therfore for the truth vnto the death,<note place="margin">Sirac. 4</note> &amp; God ſhall
+<pb facs="tcp:11208:12"/> fighte for thée agaynſt thine enimies: yea as a father pittieth his owne children,<note place="margin">Pſal 103</note> e<g ref="char:EOLhyphen"/>uen ſo the Lord is merciful to thoſe that feare him<g ref="char:punc">▪</g> he loſeth the priſoners,<note place="margin">Pſa. 146</note> geueth ſight to the blynd, helpeth them that are fallen, and defendeth the fatherleſſe and widdow. And Ioſeph being in Egipt,<note place="margin">Act. 7.</note> did not God deliuer him oute of all his tro<g ref="char:EOLhyphen"/>bles: Peter likewiſe being in priſon,<note place="margin">Act. 12.</note> his chaynes by the prouidence of God fell from him and he was gyded foorth by the Angel of the Lorde.<note place="margin">Act. 5.</note> The Apoſtles of the Lord being impryſoned were deliuered by night by y<hi rend="sup">e</hi> Angel of god, who opened the dores and brought them foorth: Peter and other Apoſtles being in daunger of death were deliuered by the power of god, through the words of Gamaliel:<note place="margin">Luke. 12</note> for to thoſe that ſéeke after the kingdome of God, al things néedful ſhalbe miniſtred, caſt therfore your care vpon him for hee careth for you.<note place="margin">1. Pe. 5.</note> And let them that be tro<g ref="char:EOLhyphen"/>bled according to the will of God, co<g ref="char:cmbAbbrStroke">̄</g>mit their ſoules vnto him with weldoi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>g, as vnto a faythful creator. For whyle wée liue: the Lord protecteth vs and if we dy with him, we ſhal alſo liue with him.<note place="margin">2. Ti. 2.</note> Let patience therfore in all extremities take place, for patie<g ref="char:cmbAbbrStroke">̄</g>ce enioieth peace of mind,
+<pb facs="tcp:11208:13"/> patience in aduerſitie maketh frendſhip with Chriſt: the patient man, euery man prayſeth and worthely, for he is like vn<g ref="char:EOLhyphen"/>to Chriſt, whoſe life was y<hi rend="sup">e</hi> true pattern of patience, the more aduerſitie ſuffered with patience, the greater peace is en<g ref="char:EOLhyphen"/>ioyed: patience is a token of wiſdom, and a patiente man is better then one ſtronge.<note place="margin">Pro. 14. Pro. 16.</note> And he that can rule him ſelfe, is more worthy then hée that winneth a Citie.<note place="margin">Pſal. 27 Heb. 10.</note> Tary the Lordes leyſure, be ſtro<g ref="char:cmbAbbrStroke">̄</g>g and he ſhal comforte thine hart, ye haue néede of patience, that after ye haue don the wil of God, ye might receyue y<hi rend="sup">e</hi> pro<g ref="char:EOLhyphen"/>mes,<note place="margin">Phi. 4. Heb. 12.</note> and bicauſe he that is patient hath much vnderſtanding, let vs runne with patience the race that is ſet before vs, for whether pouertie or baniſhment, impri<g ref="char:EOLhyphen"/>ſonment or ſhame, ſickneſſe or loſſe of pa<g ref="char:EOLunhyphen"/>rentes, or children, or any other lyke do moue vs, we muſt thinke that none of theſe thinges doe happen but by the will and prouidence of God. And that he doth nothing but by moſt iuſt order (for why) our innumerable and dayly offences de<g ref="char:EOLhyphen"/>ſerue to be chaſtiſed more ſharplye and with more greuouſe correction, the<g ref="char:cmbAbbrStroke">̄</g> ſuch as the merciful goodnes of the Lord lay<g ref="char:EOLhyphen"/>eth vpon vs: wherefore ſeing patience is
+<pb facs="tcp:11208:13"/> ſo profitable, and bryngeth ſo ſinguler commodities, and being ſo great a ver<g ref="char:EOLhyphen"/>tue when a mans mynde is not moued nor broken in aduerſitie. God graunt vs therfore to be ſo moued to y<hi rend="sup">e</hi> ſtudy of pa<g ref="char:EOLhyphen"/>tience, and that by the authoritie of Gods worde, that being exercyſed &amp; tryed ther<g ref="char:EOLhyphen"/>by, we may conſtantly perceuer and co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>tinue in y<hi rend="sup">e</hi> courſe of Godly lyfe, through<g ref="char:EOLhyphen"/>out all kynde of aduerſities, &amp; after our longe continuance be ſaued.</p>
+            <p>But now a little to returne againe to the words that went before: I ſend you foorth as ſhéepe among wolues: wherby is eaſely deſerued, who be the ſhepe, who be the wolus. The ſhepe deuour not, but are deuoured: the wolues are not deuou<g ref="char:EOLhyphen"/>red, but they deuour the ſhéepe. So the Church of Chriſt is knowne from the Church of Antechriſt by this difference, the church of God is perſecuted, and the church of y<hi rend="sup">e</hi> Deuil perſecuteth: of which church of the Deuil, that Antichriſt the Pope is the cheife Champion: the ring<g ref="char:EOLhyphen"/>leader of falſe Profets, y<hi rend="sup">e</hi> ouerthrower of true godlines, who neither teacheth, nor reproueth by the worde, but feareth the godly with crueltie: not only by ſtriking, but alſo impriſoning them that withſta<g ref="char:cmbAbbrStroke">̄</g>d
+<pb facs="tcp:11208:14"/> him. And perſecuteth to the death y<hi rend="sup">e</hi> Pro<g ref="char:EOLhyphen"/>fets of the Lord, for theyr preaching of the truth and conſtancie, ſo that we may ſée that the croſſe of the godly procedeth of the loue of God towardes them, and is to theyr comforte in Chriſt Ieſu, euen to life euerlaſting.</p>
+            <p>But the enemies of Chriſt his Croſſe and rable of reprobates voyde of theyr croſſe? Nay truly: for the Scriptures make mention that God leaueth not his enemyes vntouched, as for example. Caine for his bloody facte, was not leaft vnpuniſhed, but Abels blood crying ven<g ref="char:EOLhyphen"/>gance in the eares of God. Cain was ba<g ref="char:EOLhyphen"/>niſhed oute of gods fight and made a va<g ref="char:EOLhyphen"/>gabond and a renegate vppon the earth. The Amorites being enemies to Ioſua the choſen Seruant of God,<note place="margin">Ioſua 10</note> were in the féeld deſtroyed by the mightie power of God with ſtones from heauen, and f<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ue of theyr Kings deliuered into y<hi rend="sup">e</hi> hands of Ioſua &amp; wer ha<g ref="char:cmbAbbrStroke">̄</g>ged.<note place="margin">Iudi. 13.</note> Holofernus a migh<g ref="char:EOLhyphen"/>tie Prince and enemy to God, was by the prouidence of God conquered by the hands of women. Pharo purſuing Iſra<g ref="char:EOLhyphen"/>ell,<note place="margin">Exo. 14.</note> the ſea being to them a ſauegard, was to Pharo and his hole armye an o<g ref="char:EOLhyphen"/>uerthrow and preſent deſtruction. He<g ref="char:EOLhyphen"/>rod
+<pb facs="tcp:11208:14"/> an enemy to the people of God, be<g ref="char:EOLhyphen"/>ing in his chéefe pompe,<note place="margin">Act. 12.</note> was for his arro<g ref="char:EOLhyphen"/>gancye eaten wyth woormes, and gaue vp y<hi rend="sup">e</hi> ghoſt, with infinite numbers of like ſtoryes which I might aledge, but for breuety I let them paſſe. But now if God haue thus ſhewed him ſelfe ſo migh<g ref="char:EOLhyphen"/>tie &amp; righteous a Iudge: if hée haue thus bent his irefull countenance againſt his enemies, and ſo terribly poured doune his wrath vpon them, in thoſe days: ſup<g ref="char:EOLhyphen"/>poſe you he hath forgotten him ſelfe, or think you that he will leaue you vntou<g ref="char:EOLhyphen"/>ched, oh you Arch enemies of our tyme: doo you imagen that he is eyther blynde and ſeeth not your tirannie and bloodye butcherly behauiour: or that he is death and heareth not the lame<g ref="char:cmbAbbrStroke">̄</g>table gronings and outcryes of them that innocently haue yelded theyr lyues to the ſlaughter: oh no? deceyue not your ſelues, for if the blood of Abel cryed vengance in the ears of God, for the cruell dealing of his bro<g ref="char:EOLhyphen"/>ther Cain, &amp; was herd. Thinke you that the aboundance of blood of ſo many thou<g ref="char:EOLhyphen"/>ſandes of gods children which yee haue ſpilt, wil not by God be required at your handes: <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>es, bée aſſured, the Lorde him ſelfe wilbe reuenged vpon you. The
+<pb facs="tcp:11208:15"/> poure and force of our God is not decay<g ref="char:EOLhyphen"/>ed, neyther his arme ſhortened, but he is euen now the ſame God that he the<g ref="char:cmbAbbrStroke">̄</g> was. Wherfore let this be known vnto you, and wherof be you moſte wel aſſured, y<hi rend="sup">t</hi> the lenger that the mightie God with<g ref="char:EOLhyphen"/>holdeth and deferreth his comming, ſo with the more vehemency and fury, and the whotter ſhall his wrathe be kindled agaynſt you: &amp; with the more greuouſe plagues ſhall he vexe and puniſh you, when he ſhall appoynt the tyme of hys comming. And as the affliction &amp; croſſe of the godly, proceedeth from God to the<g ref="char:cmbAbbrStroke">̄</g> of loue, to theyr comforte and conſolati<g ref="char:EOLhyphen"/>on? So ſhall your puniſhment procéede of gods wrath and ſore diſpleaſure to pu<g ref="char:EOLhyphen"/>niſh you as his enemyes &amp; aduerſaries, to your confuſion and vtter deſtruction. The quarell is his owne, and he himſelf will reuenge it, when the burthen wil-bée to heauy,<note place="margin">Luke.</note> for you to beare, that now glory and tryumphe in your gredy deſire of blood. Shall not God auenge his elect: which cry day and night vnto him: Yes he will auenge them, and when he com<g ref="char:EOLhyphen"/>meth, he co<g ref="char:cmbAbbrStroke">̄</g>meth ſpeedely. And who may abyde in his ſight when he is angry, ſaith Dauid.<note place="margin">Pſal. 76</note> For euen as vpon the ſodayne he
+<pb facs="tcp:11208:15"/> ſente downe fyre from Heauen:<note place="margin">4. Reg. 1</note> which conſumed the Captaynes &amp; theyr bends, ſo hath he his plagues prepared for you, and ſhall cruſhe you and break in péeces with an Iron Rod, or Septer, euen lyke an earthen veſſel, and make you as duſte to trample on. His wrath ſhalbe ſhortly kyndled agaynſt you:<note place="margin">Eſai. 3.</note> How wel hath the Prophet of God found you out. For both your wordes and councels ſayth hee, are agaynſt the lord, ye prouoke the maieſty of god to anger. Wo be vnto your ſouls, for they ſhalbe heauely rewarded,<note place="margin">Eſai. 14</note> &amp; by<g ref="char:EOLhyphen"/>cauſe ye haue waſted your land and de<g ref="char:EOLhyphen"/>ſtroied your people, ye ſhalbe ſwept out with the béeſom of deſtruction, ſaith the lord of hoſtes. For the generation of the wicked ſhalbe without honour.<note place="margin">Eſai. 26</note> The ma<g ref="char:EOLhyphen"/>licious Tirantes when they dy are ney<g ref="char:EOLhyphen"/>ther in life, nor in the reſurrection: For thou viſiteſt them and rooteſt them oute, and deſtroieſt all the memorial of them. I will ſtretch out my hand and deſtroye the deſtroier ſaith y<hi rend="sup">e</hi> Lord: A great ven<g ref="char:EOLhyphen"/>gance wil I take vpon them, and puniſh them cruelly that they may know howe that I am the Lord which haue au<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nged mee of them. Behold I come ſhortly,<note place="margin">Reue. 22</note> and my reward with me, to geue euery man
+<pb facs="tcp:11208:16"/> according as his déeds ſhalbe. And to co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>clude,<note place="margin">Reue. 21</note> the abhominable murderers ſhall haue theyr part in the lake that burneth with fyre and Brimſtone: And the Au<g ref="char:EOLhyphen"/>thor of this ſaying is worthy of credit.</p>
+            <p>But now my déere bretheren of Eng<g ref="char:EOLhyphen"/>la<g ref="char:cmbAbbrStroke">̄</g>d, as none of vs are worthy to be acco<g ref="char:cmbAbbrStroke">̄</g>p<g ref="char:EOLunhyphen"/>ted of the ſlocke of Chriſt his folde, that hath not w<hi rend="sup">t</hi> compaſſion in his hart, y<hi rend="sup">e</hi> per<g ref="char:EOLhyphen"/>fect feeling of the miſery of our perſecu<g ref="char:EOLhyphen"/>ted bretheren our neighbours, and with a willing harte reléeue them to our poure and with gréefe of mynd in their behalf, doe humbly call vpon God to ſtrengthen them with patience &amp; conſtancy of fayth, that they may mekely and humbly ſub<g ref="char:EOLhyphen"/>mit them ſelues vnder the croſſe, which it hath pleaſed God for their triall to lay vpon them. And wherof at his good plea<g ref="char:EOLhyphen"/>ſure hee will agayne diſcharge them and vnburthen them: So let vs agayne well knowe that all croſſes and calamityes are as Sermondes from heauen for ſin: and are layd vpon our neighbors for vs to take exſample and warning by: And preach as it were vnto vs, that we ſhoold faul<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> to the amendmente of our lyfe be<g ref="char:EOLhyphen"/>time, leaſt God caſte vs of in his aunger. For although it hath pleaſed god to giue
+<pb facs="tcp:11208:16"/> vnto vs the vſe of his goſpel, offring vn<g ref="char:EOLhyphen"/>to vs therby ſoule health, which is recei<g ref="char:EOLhyphen"/>ued by fayth through hearing: yet is it not inough y<hi rend="sup">t</hi> the ſame be taught &amp; hard, onleſſe it be alſo kept, &amp; to kepe y<hi rend="sup">e</hi> word, is to learn what is herd, to hold it, to be<g ref="char:EOLhyphen"/>beleue it, and to performe true obedy<g ref="char:EOLhyphen"/>ence to God through faith, as did our fa<g ref="char:EOLhyphen"/>ther Abraham. He hard the word, he held it, he beleued it, yea and yelded ſuch obe<g ref="char:EOLhyphen"/>dience to it by fayth, y<hi rend="sup">t</hi> he would at gods apoyntmente rather ſlaye his only be<g ref="char:EOLhyphen"/>gotten ſonne, then break gods commau<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>dement. But wher is he among vs, that yeldeth this obedie<g ref="char:cmbAbbrStroke">̄</g>ce vnto god, we wilbe called Abrahams childre<g ref="char:cmbAbbrStroke">̄</g>, but we wil not treade in our fathers foote ſteps, would to God we had conſideration of his pro<g ref="char:EOLhyphen"/>mes to them that heare and obey it. For they are bleſſed ſaith hée, which is to ſay,<note place="margin">Pſal. 81.</note> ſette frée from wretchednes. Oh that my people would obey me, for if Iſrael wold walke in my wayes, I ſhould ſoone put downe theyr enemyes, and turne myne hand agaynſt theyr aduerſaryes. Let vs not now ſo much truſt to our proſperity, that according to the olde prouerb, wée ſet cock on hoope and be ouermuch care<g ref="char:EOLhyphen"/>les, but in our proſperity let vs be afrai<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <pb facs="tcp:11208:17"/> to offend the maieſtie of our louing Lord and God. Who as (thankes to him) hath hetherto? So he may henſeforth careful<g ref="char:EOLhyphen"/>ly kepe vs from aduerſitie and daunger of our enemies, for as no man better vn<g ref="char:EOLhyphen"/>derſtandeth the co<g ref="char:cmbAbbrStroke">̄</g>modities of libertie &amp; health, then he that hath ſome times felt the hardnes of impriſonment, and pains of ſicknes? So haue we good cauſe to be myndfull of our late lamentable ſtate, wherin we then lacking y<hi rend="sup">e</hi> libertie of our conſience: did taſt of the lyke miſery that our bretheren and neighbours about vs are now partakers of, which may nowe giue vs due conſideration, to think with our ſelues how perillous and dau<g ref="char:cmbAbbrStroke">̄</g>gerous a thing it would be for vs that haue pro<g ref="char:EOLhyphen"/>feſſed our ſelues Chriſtians, to bring our ſelues again <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nder the Deuils yoke, and into the trappes of Tirantes that thyrſt after our bloud, &amp; which as they vndoubt<g ref="char:EOLhyphen"/>tedly think long for: ſo doth our wicked lyfe and conuerſatyon, euen haſten the performaunce of their greedy deſire: but leaſte that our God being the ſooner diſ<g ref="char:EOLhyphen"/>pleaſed, let looſe the raynes to Tirantes, and our enemies, that he may therby re<g ref="char:EOLhyphen"/>uenge our vnthankfulnes, let vs accor<g ref="char:EOLhyphen"/>dind to our profeſſion as becometh chri<g ref="char:EOLhyphen"/>ſtians,
+<pb facs="tcp:11208:17"/> abandon y<hi rend="sup">e</hi> cauſes that iuſtly pro<g ref="char:EOLhyphen"/>cure his heauye and importable diſplea<g ref="char:EOLhyphen"/>ſure, and wrath agaynſt vs, let vs put a<g ref="char:EOLhyphen"/>away our euill thoughtes oute of Gods ſight: ceace from doing ill and violence,<note place="margin">Eſai. 1.</note> learne to do righte, apply our ſelues to e<g ref="char:EOLhyphen"/>quitie, deliuer the oppreſſed, help the fa<g ref="char:EOLhyphen"/>therleſſe, to his righte, hear the widowes complaynt, deteſt our monſtrous and lu<g ref="char:EOLhyphen"/>cifer lyke pryde, our deteſtable and hor<g ref="char:EOLhyphen"/>rible whordom, our greedy couetouſnes, our bribery and extortion, our glottony and dronkennes, our lacke of truthe be<g ref="char:EOLhyphen"/>twen man &amp; man, in bying &amp; ſelling:<note place="margin">Sirach. 10.</note> for through vnrighteouſe dealing, wro<g ref="char:cmbAbbrStroke">̄</g>g blaſ<g ref="char:EOLhyphen"/>phemy &amp; deceyt, a Realm ſhalbe tranſla<g ref="char:EOLhyphen"/>ted fro<g ref="char:cmbAbbrStroke">̄</g> one kingdome to an other, &amp; with theſe vices are we dangerouſly infected: And the church of god neuer being with out hir certeyn woundes for our Lord to powre his wine &amp; oyle into. So lette vs vſe the means y<hi rend="sup">t</hi> god hath apoynted vs to ſtay his deſerued wrath &amp; plagues pre<g ref="char:EOLhyphen"/>pared for vs. Let vs dyligently, ſpedely, &amp; continually with all poſſible reuerence &amp; humblenes of hart, inuocate &amp; cal vpon y<hi rend="sup">e</hi> name of our god, making vnto him our harty ſupplication &amp; prayers. The lack &amp; dangerous necklecting wherof, as it is y<hi rend="sup">e</hi>
+               <pb facs="tcp:11208:18"/> chéefe &amp; only cauſe of al looſenes and vn<g ref="char:EOLhyphen"/>cleanes of life &amp; co<g ref="char:cmbAbbrStroke">̄</g>uerſation. So by con<g ref="char:EOLhyphen"/>tinual and earneſt repentance and often lifting vp our hartes vnto God through prayer being feruently made and fayth<g ref="char:EOLhyphen"/>fully vſed, is the life to be obteyned that pleaſeth god, for praier is a ſalue for ſin, and a preſeruatyue for them y<hi rend="sup">e</hi> prepare them ſelues to it: prayer is a quietneſſe and ſauegard of the<g ref="char:cmbAbbrStroke">̄</g> which are moleſted, prayer is a comforte to them who wyth gréefes are afflicted: prayer is a heauen to them that ſuffer ſhipwark: prayer in warre is an arming ſword, and in peace a gardeyn of delightes: prayer is to men in bondage liberty, &amp; in pouertie a trea<g ref="char:EOLhyphen"/>ſure. To conclude, prayer is the readye path to the pleaſant paſture of Paradice: when Pharo, did perſecute the children of Iſrael by prayer, from his rage they were preſerued: whe<g ref="char:cmbAbbrStroke">̄</g> Dauid had greuou<g ref="char:EOLhyphen"/>ſly offended God, by humble prayer and penitent hart, gods wrath was appeaſed: by Moyſes prayer, the fyry flyntes gaue water, the driry ayre gaue meate, y<hi rend="sup">e</hi> cou<g ref="char:EOLunhyphen"/>ragious enemies gaue place to weakling Iſraelites when as they were oppreſſed, and almoſte ſurpriſed with feare of pyn<g ref="char:EOLhyphen"/>ching thyrſt &amp; want of dail<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> foode, &amp; force
+<pb facs="tcp:11208:18"/> of dreadfull armes, by Elyas prayer the drought marde fruitful groundes, and by the ſame mans prayer the barren ſoyle did fructifie, by Dauids prayer greate Golyaths courage was ſtoutly daunted, by Iudithes praier, fyrce Holofernus was by hyr beheaded: By prayer Dani<g ref="char:EOLhyphen"/>el in Lyons den, from Lyons Iawes was preſerued: Now ſéeing then that prayer is of ſuch force as that it perceth the Heauens, and is a powring out of a faythful hart vnto God, wherin we craue and deſire with earneſt affection, eyther to be preſerued from danger of diſcomo<g ref="char:EOLhyphen"/>ditie, ſpiritual or temporal: Eyther elſe to enioye ſome deſired benifite, at Gods handes, belonging to body or ſoule: Or elſe a yelding of moſt hartie thanks, for ſome benefit already receiued. Lette vs continue in praier and watch in the ſame with thankes geuing, that through our prayer our moſt noble gratious &amp; merci<g ref="char:EOLhyphen"/>full Princes Elizabeth, to whom God of his great goodnes, contrarye to the hye &amp; expectation of hyr enemies, hath hether<g ref="char:EOLhyphen"/>to geuen a ioyful &amp; proſperous Raigne: ſo he may likewiſe heape vpon hyr y<hi rend="sup">e</hi> co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>tinuance of many yeares to bée an olde mother in Iſraell, that as ſhée hath well
+<pb facs="tcp:11208:19"/> begoon ſo ſhe may zelouſly procéed in the ſetting foorth and aduancing the goſpel, of God to his glory, the comfort and pre<g ref="char:EOLhyphen"/>ſeruation of hyr Realme and people, and the diſcomforting of gods &amp; hir enemies: And that by praier our god may ſtil giue good ſuckſeſſe to the trauels of y<hi rend="sup">e</hi> Quéene hyr maieſties moſte honorable Counce<g ref="char:EOLhyphen"/>lors, illuminating theyr hartes with the ſpirit of wyſdome, to force, preuent, and bryng to nought, the ſubtyll ſecret deuy<g ref="char:EOLhyphen"/>ces, and priuie conſpyracies of Sathan, of Antechriſt, and of all gods enemies, prete<g ref="char:cmbAbbrStroke">̄</g>ded againſt the veritie of his word, as alſo that by our prayers, the Biſhops and Paſtors of gods Church, may haue a continuall care to féede his flock comit<g ref="char:EOLhyphen"/>ted to theyr chardge, with the bread of lyfe: and that Chriſt may be knowne to them to whome hee is yet a ſtraunger, which is no rare matter in ſome places in England, the greater is the pittie: for ther muſt ſinne needes raigne, bicauſe y<hi rend="sup">t</hi> they being ignorant of Chriſt, vnbelefe doth poſſeſſe theyr harts. Moreouer that Iudges and Maieſtrates through hatred of couetouſenes may mayntayne cince<g ref="char:EOLhyphen"/>ritie, and vpright dealing in iudgmente, that the cace rather then <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he parſon bée
+<pb facs="tcp:11208:19"/> conſidered, for whoſoeuer bearing offyce is led with rewards, he cannot ſee what is rightfull, for rewardes blynd the eyes of the wiſe. Alſo that good lawes being in force maye bée executed, that offenders may be puniſhed and the gyl<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>l<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſſe defen<g ref="char:EOLhyphen"/>ded, for where good lawes be made &amp; not executed, their the common weale goeth to ruin. And moreouer, that by our prai<g ref="char:EOLhyphen"/>er euery ſubiect of what degre or calling ſo euer, may dutifully ſh<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>w their obedy<g ref="char:EOLhyphen"/>ence vnto, and reuerencing our Prince as the miniſter and Liuetenant of God, that the Lord our God at the contempla<g ref="char:EOLhyphen"/>tion of our faythfull prayer, whoſe mer<g ref="char:EOLhyphen"/>cye excéedeth the hugeneſſe of ſinne, and whoſe grace aboundeth aboue miſdeede, may by the aboundance of his ſpirit by grace ſo work in our harts, y<hi rend="sup">t</hi> we taking hede and being obedient to the ſame our heauenly father, and hauing a cheefe re<g ref="char:EOLhyphen"/>gard to the performing of our duties in the obſeruation of his lawe and co<g ref="char:cmbAbbrStroke">̄</g>maun<g ref="char:EOLhyphen"/>dementes, may by the good bleſſing of the ſame our God, quietly conſente and reſt in his truth, and haue the continuance of inward peace of contience, that wée may wear out our dayes in proſperitie, &amp; our yeares in pleſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>er and ioy in this world,
+<pb facs="tcp:11208:20"/> being a waſte wildernes, fro<g ref="char:cmbAbbrStroke">̄</g> which muſt paſſe into an other cou<g ref="char:cmbAbbrStroke">̄</g>trey, that we th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s hauing this care to accompliſh gods wil, and with this olde yeare, to ſh<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ke &amp; caſte of &amp; ſtrip our ſelues of old Adams rags, and with the newe yeare to apparell our ſelues with the floriſhing and glittering garment of Ieſus Chriſte, euen newnes of lyfe, and keepe it ſtill on. Then ſhal we co<g ref="char:cmbAbbrStroke">̄</g>tinue in proſperity, &amp; be beloued of god our onely ſtay &amp; refuge who ſhall migh<g ref="char:EOLhyphen"/>tely protect and d<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>fend vs from the dan<g ref="char:EOLhyphen"/>ger of his &amp; our enemies: Then the Lord our god which giueth victory vnto kings, &amp; which deliuered Dauid from the per<g ref="char:EOLhyphen"/>rill of the ſword,<note place="margin">Pſa. 144</note> ſhall ſaue and deliuer vs from the hands of ſtrange childre<g ref="char:cmbAbbrStroke">̄</g>, whoſe right ha<g ref="char:cmbAbbrStroke">̄</g>d is a hand of iniquitie. So y<hi rend="sup">t</hi> the<g ref="char:cmbAbbrStroke">̄</g> let the deuil roar, &amp; all the deuels in hell breake looſe: let Pope rage: lette all the Colledge of Cardenalls and Councels conſpyer, let the blooddy Byſhops breath out theyr trayterous mallyce, and hate<g ref="char:EOLhyphen"/>fulnes of theyr hartes. Yea let the hole fraternetie of that fylthie generation &amp; broode of Antechriſt, deuiſe and imagine what they can or may: And all ſhalbe in vayn<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, for the workes of wickednes doe floriſh to be deſtroyed for euer: And the
+<pb facs="tcp:11208:20"/> enemies of the Lord ſhal periſh.<note place="margin">Pſa. 92.</note> And all the workers of wickednes ſhal be ſcatte<g ref="char:EOLhyphen"/>red abrode, for there is no wiſedome a<g ref="char:EOLhyphen"/>gaynſt the Lorde our God, the creator of Heauen and Earth. To whom with his Chriſt and the holy Spirit, thrée perſons and one God, be all praiſe, poure, &amp; ma<g ref="char:EOLhyphen"/>ieſtie for euer, and euer. Amen.</p>
+            <closer>¶Geue God the prayſe.</closer>
+         </div>
+         <div type="poem">
+            <head>The petition of the penitent.</head>
+            <l>AS thoſe that wrapped are in wo,</l>
+            <l>think long to haue relefe:</l>
+            <l>So Lord to ſwage our ſorows great,</l>
+            <l>to thee we ſhew our grefe.</l>
+            <l>In whome onely conſyſts the help,</l>
+            <l>of each poore ſynfull ſlaues:</l>
+            <l>And in whoſe choice, body and Soule,</l>
+            <l>are both to ſpill or ſaue.</l>
+            <l>Oh let our ſpirits which faine wold yeld</l>
+            <l>ſuch fruit as faith requires:</l>
+            <l>Su<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ue the deuel and fleſh,</l>
+            <l>which ſtil againſt our ſoule conſpires.</l>
+            <l>For lo, alaſſe what we would not,</l>
+            <l>in vs ſtyll taketh place:</l>
+            <l>And what we would is left vndone,</l>
+            <l>for want Lord of thy grace.</l>
+            <pb facs="tcp:11208:21"/>
+            <l>Féeling therfore the burthen of</l>
+            <l>our ſinnes, which is ſo great:</l>
+            <l>With humble ſpirit, with contrite hart,</l>
+            <l>with teeres we thee entreat.</l>
+            <l>Vs to behold poore wretched wormes,</l>
+            <l>which do our falts confeſſe:</l>
+            <l>And eke vnfaynedly bewayle,</l>
+            <l>our wofull wyckedneſſe.</l>
+            <l>Which dayly doth abounde in vs,</l>
+            <l>to our reproch and ſhame:</l>
+            <l>Let mercie yet preuent thy wrath,</l>
+            <l>for honor of thy name.</l>
+            <l>And as our ſecret ſighes for ſi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ne,</l>
+            <l>to thee are not vnknowne:</l>
+            <l>So cra<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ing mercy at thy hands,</l>
+            <l>accept vs for thy owne.</l>
+            <l>That we being new buylt by grace,</l>
+            <l>may lothe this lump of ſinne:</l>
+            <l>And clad in verteous godly lyfe,</l>
+            <l>may ſtill procede therin.</l>
+            <l>Perfourming our profeſſion,</l>
+            <l>tyll finiſhed are our dayes:</l>
+            <l>That then in paſſing ioye with thée,</l>
+            <l>we may remayn alwayes.</l>
+            <l>Graunt Lord this our petition,</l>
+            <l>which art the god of might:</l>
+            <l>That through the Ieſus Chriſt we may</l>
+            <l>be righteous in thy ſight.</l>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:11208:21"/>
+         </div>
+      </body>
+   </text>
+</TEI>

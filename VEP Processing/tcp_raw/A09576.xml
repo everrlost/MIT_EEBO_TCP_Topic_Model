@@ -1,0 +1,347 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gods generall summons to his last parliament. By George Phillips</title>
+            <author>Phillips, George, fl. 1597.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1595</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 47 KB of XML-encoded text transcribed from 25 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A09576</idno>
+            <idno type="STC">STC 19859</idno>
+            <idno type="STC">ESTC S114702</idno>
+            <idno type="EEBO-CITATION">99849926</idno>
+            <idno type="PROQUEST">99849926</idno>
+            <idno type="VID">15100</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A09576)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 15100)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1284:11)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Gods generall summons to his last parliament. By George Phillips</title>
+                  <author>Phillips, George, fl. 1597.</author>
+               </titleStmt>
+               <extent>[44] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed [by Peter Short] for William Leake, and are to be sold at his shop in Paules Churchyard at the signe of the Crane,</publisher>
+                  <pubPlace>[London] :</pubPlace>
+                  <date>1595.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Place of publication from colophon; printer's name from STC.</note>
+                  <note>Signatures: A-B C⁶.</note>
+                  <note>Some pages marked and stained.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Sermons, English --  16th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-11</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-01</date>
+            <label>Joe Kilduff</label>Sampled and proofread</change>
+         <change>
+            <date>2011-01</date>
+            <label>Joe Kilduff</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:15100:1" rendition="simple:additions"/>
+            <pb facs="tcp:15100:1" rendition="simple:additions"/>
+            <p>GODS Generall Summons to his laſt Parliament.</p>
+            <p>
+               <hi>By George Phillips,</hi>
+            </p>
+            <q>
+               <bibl>Reuel. 20. verſe 12.</bibl>
+               <p>
+                  <hi>And I ſaw the dead, both great and ſmal ſtande be<g ref="char:EOLhyphen"/>fore God: and the bookes were opened, and another book was opened which is the book of life, and the dead were iudged of thoſe thinges, which were written in the book<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>, according to their workes.</hi>
+               </p>
+            </q>
+            <figure>
+               <figDesc>printer's device?</figDesc>
+               <q>VERITAS TVA ET USQVE AD NVBES</q>
+            </figure>
+            <p>Printed for William Leake, and are to be ſold at his ſhop in Paules <hi>Churchyard at the ſigne</hi> of the Crane: 1595.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:15100:2" rendition="simple:additions"/>
+            <pb facs="tcp:15100:2"/>
+            <head>Gods general Summons <hi>to his laſt parliament.</hi>
+            </head>
+            <epigraph>
+               <bibl>The text read in the 2. Epiſtle of S. Paule to the Corin. 5. Chap. 10 verſe.</bibl>
+               <q>Wee muſt all appeare before the Iudge<g ref="char:EOLhyphen"/>ment ſeate of Chriſt. That euery man may receiue the thinges which are done in his body, according to that he hath done, whether it be good or euill.</q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">T</seg>His Text is the generall Summons of God, whoſe dominion reacheth from Sea to Sea,<note place="margin">Pſal, 72, 8 Apoc, 4, 10</note> and from the floud vnto the worldes ende, in ſigne whereof the Elders threwe downe their Crownes before him ſaying: <hi>Thou O Lord art worthy to receiue all glory, honour, and power.</hi> In this ge<g ref="char:EOLhyphen"/>nerall
+<pb facs="tcp:15100:3"/>
+conuocation wee meete with theſe matters: The firſt, that our aſ<g ref="char:EOLhyphen"/>ſembly ſhal be general, for <hi>Wee ſhall all appeare, &amp;c.</hi> Secondly, <hi>before the iudgement ſeate of Chriſt,</hi> and laſte of al, why we muſt appeare: <hi>That euery man may receiue the things which hee hath done in his body, according to that he hath done, whether it bee good or e<g ref="char:EOLhyphen"/>uill.</hi> In remembrance of this day of appearance, the ſaints do incourage themſelues in the middeſt of al their miſeries.<note place="margin">Pſal. 119 52</note> As <hi>Dauid</hi> ſaid, <hi>I haue re<g ref="char:EOLhyphen"/>membred thine euerlaſting iudgments (O Lord) and haue receiued comfort.</hi> Whereas if there were no iudgment day,<note place="margin">1 King, 21, 2</note> as <hi>Ahab</hi> ſold himſelfe to work wickednes, ſo euery one would giue himſelfe to follow vanity, like thoſe epicures which ſaid:<note place="margin">Wiſdo, 2, 6 Iob, 1, 19.</note> 
+               <hi>Come let vs en<g ref="char:EOLhyphen"/>ioy the pleaſures that are preſent, and take our fil of the creatures in our youth feaſting ſecurely til iudgement co<g ref="char:cmbAbbrStroke">̄</g>meth vpon them, as the houſe fell vppon Iobs children.</hi>
+            </p>
+            <p>There is no ſhifting off from this
+<pb facs="tcp:15100:3"/>
+day, for we muſt al appeare,<note place="margin">Geneſ, 3, 8 2 Reg, 21, 20 Exod, 14, 28 Num, 2<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, 24</note> If wee woulde ſeeke to hide vs (like Adam) we cannot: for Gods ſummoner wil either find vs out as <hi>Elias</hi> found <hi>Ahab,</hi> or ouertake vs as the waters did <hi>Pha<g ref="char:EOLhyphen"/>rao,</hi> or meet vs, as y<hi rend="sup">e</hi> angel did <hi>Balaam.</hi> If Sion were ſure that their captiuitie ſhould not faile, but bee turned into libertie,<note place="margin">Pſal. 137, 2</note> then it is like that they would not ſit downe and weepe riuers of teares by Babilons riuers of water, nor ſo much as hange vp their harps in ſign of ſorrow, as heretofore they haue done. Therefore the day of our appearance is ſette before vs as the time of Syons captiuitie:<note place="margin">Geneſ, 3 24 Gene, 19 26</note> or as the cherubins with the ſhaken blade of a ſword, or as the Piller of ſalt that was Lots wife.<note place="margin">Rom. 13, 3</note> Therefore as Paule ſaide of the temporal magiſtrate, If ye will not feare him doe wel, : ſo if yee wil ſtand before the ſpirituall Iudge Ie<g ref="char:EOLhyphen"/>ſus Chriſt without trembling, liue wel: If yee pray,<note place="margin">2 king, 20, 2</note> pray zelouſlie lyke Hezekias: if you heare the worde of God hearken vnto it attentiuely, like
+<pb facs="tcp:15100:4"/>
+the people that preſſed vpon Chriſt to heare the worde,<note place="margin">Mark. 4, 1</note> and when you practiſe, doe it fruitfully like Iob. That you may ſay like <hi>Ionadabs</hi> ſons,<note place="margin">Iob, 31, Iere. 35, 8</note> 
+               <hi>Thus haue we obeied the voice of our father.</hi> As we are al ſummoned, ſo we muſt al appeare,<note place="margin">Luke, 21.35</note> 
+               <hi>for as a ſnare ſhall that day come vpon al them that are on the whole earth.</hi> So that looke howe helpeleſſe the birdes are, when they are ouerwhelmed with the net, ſo al mans reſiſtance ſhal be without a re<g ref="char:EOLhyphen"/>medy at that day. Paule ſpeaketh of a general appearance here, that eue<g ref="char:EOLhyphen"/>ry one may lay his plat before hand, like the vnfaithful Steward that ſaid,<note place="margin">Luke 16, 4</note> I know what to do,<note place="margin">Luke 12, 18 and 19</note> and men muſt be at a point what to ſay, leaſt they bee taken tardie, like him that was neuer ſo careful to prouide for the worlde, as in the daye before his ſoule muſt leaue his body, and his body &amp; ſoule packe out of the world, when <hi>Rebec<g ref="char:EOLhyphen"/>ca</hi> aduiſed <hi>Iacob</hi> to ſteale <hi>Eſawes</hi> bleſ<g ref="char:EOLhyphen"/>ſing, he fel into this conſideration, If my father in handling mee ſhal finde
+<pb facs="tcp:15100:4"/>
+that I am not <hi>Eſaw</hi> his elder ſonne,<note place="margin">Gen, 27, 12</note> I may haue a curſe in ſtead of a bleſ<g ref="char:EOLhyphen"/>ſing: and ſo if we preſume to preſent our ſelues in Gods preſence, without care of beeing either the very ſame, or at leaſt, as like the men we ſhould be as may be: It is out of controuer<g ref="char:EOLhyphen"/>ſie, that we ſhal carry awaie a curſe, rather then a blesſing. Becauſe God wil feele man, as <hi>Iſaac</hi> felt <hi>Iacob.</hi>
+               <note place="margin">Gene, 27, 22</note> Ther<g ref="char:EOLunhyphen"/>fore as Iacob put on his elder bro<g ref="char:EOLhyphen"/>thers garment,<note place="margin">Gene, 27, 15</note> ſo we muſt put vpon vs Chriſt Ieſus his righteouſneſſe. Iſaac felt the outwarde garment and it was Eſawes, and our mother the church biddeth vs put on Chriſt his garment, therin to come before him, that we may bee ſure to haue a bleſ<g ref="char:EOLhyphen"/>ſing.<note place="margin">Geneſ, 47, 2</note> God turned the ſelling of Io<g ref="char:EOLhyphen"/>ſeph into a kind of ſauing his brethre<g ref="char:cmbAbbrStroke">̄</g>, whileſt they muſt either haue foode from him, or be famiſhed. It hadde beene worth the ſeeing to haue be<g ref="char:EOLhyphen"/>held what paſsions heauen afforded to thoſe brethren, as howe forwarde weeping is to quench rough words, how
+<pb facs="tcp:15100:5"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb facs="tcp:15100:5"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb facs="tcp:15100:6"/>
+careful Ioſeph was to keep his pledg of their returne with their father and friendes in that hee lockt vp his bro<g ref="char:EOLhyphen"/>ther.<note place="margin">Gene, 42, 24</note> And when he hath them howe loath he is to let them go againe, for he planteth them neer himſelfe.<note place="margin">Gene, 47, 11</note> Such ioy ſhal our appearance bring to vs, to ſee our elder brother Ieſus Chriſt to be our iudge: what deſire hee will haue to plant vs by him, if wee haue care how wee ſhoulde come before him, he feedeth vs with his ſuſtena<g ref="char:cmbAbbrStroke">̄</g>ce or elſe our ſoules woulde ſterue, hee holdeth our fleſhe in Heauen for a pledge, that the whole generation of the faithful may be bleſſed.<note place="margin">1 King. 14 2</note> 
+               <hi>Vp I pray thee</hi> (ſaid <hi>Ieroboam</hi> to his wife) <hi>&amp; diſ<g ref="char:EOLhyphen"/>guiſe thy ſelfe, that thou be not knowne to be the wife of Ieroboam.</hi> Fain would <hi>Ieroboam</hi> haue help for his ſicke ſon, but loth was hee to haue the woman knowne to bee his wife, leaſt his euil demeane ſhould make hir miſſe of a good anſwere. And ſo would al men willingly appeare, if they might in<g ref="char:EOLhyphen"/>dent with the iudge that they ſhould
+<pb facs="tcp:15100:6"/>
+come only for their good and heare of no hurt. Where the ſcripture ſaith that <hi>Obediah feared God greatly:</hi> it gi<g ref="char:EOLhyphen"/>ueth a reaſon to proue it. For when <hi>Iezabel</hi> deſtroyed the Prophetes of the Lord,<note place="margin">1 kin, 18, 3 and 4.</note> 
+               <hi>Obadia tooke an hundreth Prophets &amp; hid them by fiftie in a caue, and he fed them with bread and water.</hi> For whoſoeuer doth hear God doth good for Gods people like <hi>Obadiah:</hi> and God dooth good to him,<note place="margin">Exod, 9, 10</note> for ſo many of <hi>Pharaos</hi> ſeruantes as feared God, were preſerued from the daun<g ref="char:EOLhyphen"/>gerous haile. Our ſauior Chriſt ſhe<g ref="char:EOLhyphen"/>weth the cauſe why the godly are ſo deſirous to appeare, and why the vn<g ref="char:EOLhyphen"/>godly are ſo lothe to come before Chriſt: Of the firſt ſort he ſaith:<note place="margin">Iohn 3, 21</note> He that doth truth commeth to y<hi rend="sup">e</hi> light, that his deeds might be made mani<g ref="char:EOLhyphen"/>feſt, that they are wrought acording to God. Hee is like the poore true meaning man moleſted wrongfully, that neuer ceaſeth ſoliciting y<hi rend="sup">e</hi> iudge that he may haue a daye of hearing, like the widdow that cryed,<note place="margin">Luke 18, 3</note> Auenge
+<pb facs="tcp:15100:7"/>
+me,<note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>, 20</note> &amp;c. of the other he ſaith. <hi>Euerie one that doth euil hateth the light, and commeth not to the light, leaſt his deedes ſhould be reproued.</hi> Hee is like y<hi rend="sup">e</hi> guiltie defendant calling for reſpite of iudgement, like the diuels y<hi rend="sup">t</hi> cried, let vs not bee tormented before the time.<note place="margin">Matth, 8, 29</note> But Paule ſpeaketh not of the certeinty of any definite time, but ra<g ref="char:EOLhyphen"/>ther of the general appearance, and ſo of the impoſsibility of any mans exemtion, from being accomptable in his Stewardſhip.</p>
+            <p>
+               <note place="margin">Luke, 16, 13</note>The ſcripture mentioneth one ac<g ref="char:EOLhyphen"/>count of a bad Steward, but leaſt any man ſhould thinke that that parable ſhould only warrant the account of bad men, Paule putteth the queſtion out of controuerſie that our account ſhal be generall, for he ſaith flatly, <hi>we ſhal al appear.</hi>
+               <note place="margin">Actes 25, 9 Acts, 25, 10</note> 
+               <hi>Wilt thou go vp to Ieru<g ref="char:EOLhyphen"/>ſalem and there be iudged of theſe mat<g ref="char:EOLhyphen"/>ters before me,</hi> ſayde <hi>Feſtus</hi> to <hi>Paule. Paule</hi> might appeare to Ceaſars iudgement ſeate, becauſe hee was a Romaine borne.</p>
+            <p>
+               <pb facs="tcp:15100:7"/>Therefore Feſtus ſaide, <hi>Wilt thou,</hi>
+               <note place="margin">Acts 22, 28</note> 
+               <hi>&amp;c.</hi> but wil we, or nil we, euerie mo<g ref="char:EOLhyphen"/>thers childe of vs ſhal appeare where Chriſt hath ſummoned vs. Then let not the badde ſtand ſtil at the weake ſtate they are in,<note place="margin">Gene, 41.20</note> like Pharaos leane kine, nor the good ceaſe to goe on in their pilgrimage like ſtrangers on the earth, but like Ioſua going towarde Canaan ſay: <hi>I and my houſholde will ſerue the Lord.</hi>
+               <note place="margin">Ioſua, 14, 15</note> When Salomon had ſeene all the inconueniences of the ſluggardes Vineyarde,<note place="margin">Prou. 24, 32</note> he tooke it for a warning: And wee are verie hap<g ref="char:EOLhyphen"/>py menne, if wee haue the grace to take heede of that which is foretolde vs.</p>
+            <p>When Felix heard Paule diſpute of his appearance to come,<note place="margin">Actes, 24, 26</note> he trem<g ref="char:EOLhyphen"/>bled, and ſo do the diuels with all the wicked, but few examine themſelues with Ieremie, who ſaide, <hi>What haue I done.</hi>
+               <note place="margin">Ierem. 8, 6 Gene, 42, 21</note> Except it be when it is too late like Ioſephes brethren in the famine, which ſaid one to another <hi>we haue vt<g ref="char:EOLunhyphen"/>terly ſinned againſt our brother in</hi> y<hi rend="sup">t</hi> 
+               <hi>we
+<pb facs="tcp:15100:8"/>
+ſawe the anguiſh of his ſoule when he be ſought vs and wee woulde not heare him,</hi>
+               <note place="margin">Gen, 42, 21 Gene, 3, 1</note> 
+               <hi>therefore is this trouble come vp<g ref="char:EOLhyphen"/>on vs.</hi> The ſerpent was iuſtlie called the ſubtelleſt beaſt in the fielde, and ſinne the ſonne is like the diuell his father, loth is it to come in his owne likeneſſe, but as the diuell came to <hi>Saule</hi> in the ſhape of <hi>Samuel,</hi>
+               <note place="margin">Sam. 1, 28 Eccle, 10, 11</note> ſo com<g ref="char:EOLunhyphen"/>meth ſinn, not like a ſerpent, but like the ſubtil ſerpent, that ſtingeth with<g ref="char:EOLhyphen"/>out hiſsing. Serpents come cloſely, that men may not perceiue them, ſo ſhal they firſt feele their ſin, and then ſee that they haue ſinned, when they cannot amend y<hi rend="sup">e</hi> matter. But ſe how Pauls epiſtle coms running like the meſſenger to Iob,<note place="margin">Iob, 1, 14</note> &amp; ſaith he is dead, &amp; I am eſcaped to tel thee: See here a meſſage is come from the dead Paule to admoniſh vs to bee carefull to liue wel while we are heere, that wee may meet with him in his ioye elſewhere.<note place="margin">Eccleſ, 10.7</note> The hart of a wiſe man is at his right hand ſaith Salomon (vz) he is ready to follow al good admo<g ref="char:EOLhyphen"/>nitions.</p>
+            <p>
+               <pb facs="tcp:15100:8"/>When men are vppon the Sea (in danger) they wil caſt al away to keep their life,<note place="margin">Acts, 27, 38 Apoc, 13, 1 Iames 1, 8 Luke 11, 8</note> &amp; we ſhould leaue al things willingly for the life to come. What is the world, but as an inco<g ref="char:cmbAbbrStroke">̄</g>ſtant ſea? what are the troubles heere, but as tempeſts there? what is the Church afflicted, but as a ſhip toſſed? &amp; what are chriſtian men, but carefull marri<g ref="char:EOLhyphen"/>ners ſtriuing againſt ſtorm &amp; ſtream, to ariue ſafe in the hauen of Heauen?<note place="margin">Actes 27, 9 Acts 14, 22</note> Sailing was very dangerous in Pauls long voyage by Sea, but yet he waf<g ref="char:EOLhyphen"/>ted on, And we muſt trauel through many troubles to the kingdome of Chriſt.<note place="margin">Actes, 14, 21</note> As Paules fellowe ſailers wi<g ref="char:EOLhyphen"/>ſhed for y<hi rend="sup">e</hi> day, ſo al chriſtians deſire the true light.<note place="margin">Pſal, 42, 2</note> Therefore ſaieth <hi>Da<g ref="char:EOLhyphen"/>uid, When ſhal I come and appeare bee<g ref="char:EOLhyphen"/>fore God:</hi> as though he thought eue<g ref="char:EOLhyphen"/>ry minute to bee a moneth vntill the iudgement day were come. This ma<g ref="char:EOLhyphen"/>keth the ſpouſe ſo inquiſitiue after him,<note place="margin">Cant, 3, 3</note> that ſhe is queſtioning with as many as meet her, <hi>Saw ye him whom my ſoule loueth?</hi> The church woulde
+<pb facs="tcp:15100:9"/>
+not ſee Chriſt,<note place="margin">Luke 19, 3 Heb, 12, 1</note> as Philip &amp; Andrewe ſaw him, nor as Zacheus ſaw him, nor as y<hi rend="sup">e</hi> cloud of witneſſes ſaw him but ſo in his kingdome,<note place="margin">Math, 17, 2</note> as <hi>Moſes</hi> and <hi>Elias,</hi> ſawe him in his glorie vppon Mount Thabor. Take heed, <hi>watch &amp; pray, for ye know not when the time ſhall be,</hi>
+               <note place="margin">Math, 13, 33</note> (ſaith our Sauiour Chriſt to the dyſ<g ref="char:EOLhyphen"/>ciples, becauſe we know not the daie of appearance) therefore wee are of<g ref="char:EOLhyphen"/>ten warned to watch, that we may be ready: like the mariner that waiteth on the winde and tide, like the ſmith that ſmiteth whiles the yron is hot: and as birdes breed while ſummer la<g ref="char:EOLhyphen"/>ſteth. The ſpeech of <hi>Abraham</hi> to the rich man in hel, concerneth vs now while we are out of hel <hi>Sonne remem<g ref="char:EOLhyphen"/>ber that thou in thy life time haddeſt pleaſure.</hi>
+               <note place="margin">Luke 16, 25</note> 
+               <note place="margin">Pſal, 95, 8</note> The Pſalmiſt ſaith, we muſt heare God while it is to day (vz) while we may, and in another Pſalme, <hi>I will pay my vowes now</hi> ſaith the pro<g ref="char:EOLhyphen"/>phet teaching men to take their pre<g ref="char:EOLhyphen"/>ſent opportunitie,<note place="margin">Pſal, 116, 12</note> to giue God his
+<pb facs="tcp:15100:9"/>
+dutie other waies they may ſoothe vppe themſelues,<note place="margin">Pſal. 116.14</note> with <hi>Beholde O Lorde how that I am thy ſeruaunt,</hi> but cannot ſaye, <hi>and the ſonne of thy hand<g ref="char:EOLhyphen"/>maide,</hi> while they are not at hande to doe his beheaſtes.</p>
+            <p>Chriſt ſaide watch,<note place="margin">Math, 25, 13</note> 
+               <hi>for ye know not when the houre wil come,</hi> becauſe we know not at what houre Chriſt will come: therfore it is reaſon to be rea<g ref="char:EOLhyphen"/>dy euery houre, and the laſt houre is vnknowne to vs, that wee might ac<g ref="char:EOLhyphen"/>count euery houre to be the laſt ho<g ref="char:EOLhyphen"/>wer: yet as before the Wall falleth downe, ſome ſtones drop out of it, and cliftes appeare: as before the flame mounteth, ſome ſmoake is ſeene. And as before the mightye thunderbolt, a flaſhe of lightning fli<g ref="char:EOLhyphen"/>eth out, ſo wee haue very manie to<g ref="char:EOLhyphen"/>kens that we might take heede of the iudgement daye to make vs more carefull how wee ſhall come before the iudgement ſeate of our Sauiour Chriſt, ſeeing his comming is as a theefe in the night (That is) when as
+<pb facs="tcp:15100:10"/>
+al are ſecure and aſleepe in their ſins,<note place="margin">Apo, 16, 15,</note> for danger commeth moſt when it is leaſt looked for. Irrecouerable as a ſtronger net the<g ref="char:cmbAbbrStroke">̄</g> y<hi rend="sup">t</hi> which chriſt made a hole in, when al the birds brake out after him ſinging,<note place="margin">Pſal, 124, 6 Luke, 21, 35</note> 
+               <hi>The ſnare is broken and we are deliuered.</hi> As a ſnare ſhall it come on al them that dwell on the earth. As Chriſt asked the Iewes for which of his good works they ſought his death: ſo it would bee knowne, which of Gods bleſſinges haue bani<g ref="char:EOLhyphen"/>ſhed vs from him<g ref="char:punc">▪</g> for as the fuller the buckette is with water, the more hardlie it is haled vp out of the well, ſo the more men abound in God his bleſsinges, the farther they are from him.<note place="margin">Iohn 6, 44</note> Therfore ſaid Chriſt, No man commeth vnto me, except my father draweth him. And ſeeing (like mice in Gods barne) wee are content to feed on his corne, and enioy his bleſ<g ref="char:EOLhyphen"/>ſings here, but loth to ſee the Lorde of the harueſt. Paule telleth vs, <hi>That we muſt all appeare.</hi> Euery mothers child of vs. And they needes muſt,
+<pb facs="tcp:15100:10"/>
+that needes ſhall.</p>
+            <p>The ſecond obſeruation is, That we ſhall appeare before a Iudgement ſeate. Whereby is vnderſtood that Iudiciall power that is giuen to Ie<g ref="char:EOLhyphen"/>ſus Chriſt in heauen and in earth,<note place="margin">Matth. 28.18.</note> but moſt ſpecially that generall Iudge<g ref="char:EOLhyphen"/>ment, which was reuealed to S. <hi>Iohn,</hi> whereof he ſaith,<note place="margin">Apoc. 20.11.</note> 
+               <hi>I ſaw a great white throne, &amp; one that ſate on it.</hi> 12. <hi>And I ſawe the dead both great and ſmall ſtanding before God, and the bookes were opened, &amp;c.</hi>
+               <note place="margin">Luke 17.1.</note> As it cannot be but offences muſt come, ſo it cannot bee but Iudgement will followe. Paule could not acquite the beſt of vs with death: but ſo ſoone as hee had ſayd, <hi>It is appointed for al men once to die:</hi>
+               <note place="margin">Heb. 9.27.</note> addeth, <hi>and then commeth the iudge<g ref="char:EOLhyphen"/>ment. Balaam</hi> rode on till the Angel met him, where he could not turne: and ſo long as men haue to deale but with men, they dare ſay, <hi>declare, and
+<pb facs="tcp:15100:11"/>
+we wil declare.</hi> They wil pleade their own caſe, but when the matter com<g ref="char:EOLhyphen"/>meth in queſtion, before Chriſt who will be their dayes man, or take vpon him to anſwere one thing of a thou<g ref="char:EOLhyphen"/>ſand? We are put in mind of a Iudg<g ref="char:EOLhyphen"/>ment ſeate, that all may iudge them<g ref="char:EOLhyphen"/>ſelues, that they be not iudged, that is to ſay, condemned of the Lord. In this world <hi>Iezabel</hi> can get two that will ſay,<note place="margin">1. Reg 21.10.</note> that <hi>Naboth</hi> blaſphemed God &amp; <hi>Ahab.</hi> The Iewes will bring forth falſe witneſſe that Chriſt ſayd,<note place="margin">Mat, 26.60.61</note> 
+               <hi>Destroy this materiall temple of Ie<g ref="char:EOLhyphen"/>ruſalem, and I will build it vp againe in three daies.</hi> And becauſe the lawe ſayth, That in the mouth of two, or three witneſſes, euery cauſe in con<g ref="char:EOLhyphen"/>trouerſie muſt bee proued, therefore iniquitie hath prouided, Knights of the poſt, that are readie to ſweare al<g ref="char:EOLhyphen"/>moſt to any matter for a little money. But as whe<g ref="char:cmbAbbrStroke">̄</g> the Elders left <hi>Suſannaes</hi>
+               <note place="margin">Suſan. 50.</note>
+               <pb facs="tcp:15100:11"/>
+cauſe in wrong ſente<g ref="char:cmbAbbrStroke">̄</g>ce, <hi>Daniel</hi> took in hand to right it: ſo whe<g ref="char:cmbAbbrStroke">̄</g> the migh<g ref="char:EOLhyphen"/>tie haue wronged the meaner ſorte, Chriſt will determine of the matter. Therefore <hi>Dauid</hi> made choice of his iudgement before any other: firſt, for that God goeth wiſely to work, in waying the waight of euery mans matter, <hi>Ponder my cauſe, O Lord.</hi>
+               <note place="margin">Pſalm. 5.1.</note> And then for ſpeedie diſpatching with<g ref="char:EOLhyphen"/>out reſpite of iudgement from terme to terme:<note place="margin">Pſalm. 119.52</note> 
+               <hi>For I haue reme<g ref="char:cmbAbbrStroke">̄</g>bred thine euerlasting iudgements (O Lord) and haue receiued comfort, vz.</hi> The time will come when Gods iudgements ſhall ſtande, not onely in ſtead of all plea, but alſo inreuocable for euer. It is a terrible matter to fall into the hands of the Lord: becauſe that if he beginneth with a man,<note place="margin">1. Sam. 4.</note> he will make an ende with him, as he did with <hi>E<g ref="char:EOLhyphen"/>li.<note place="margin">1. Sam. 21.13.</note> Dauid</hi> eſcaped the hands of <hi>Achiſh</hi> King of Gath, by faining himſelfe to
+<pb facs="tcp:15100:12"/>
+be mad: but bee ye ſure God is not mocked.<note place="margin">Dan. 5.27.</note> 
+               <hi>Nabuchadnezzar</hi> was wayed, &amp; found too light in the bal<g ref="char:EOLhyphen"/>lance, and his kingdome diuided to the Medes and Perſians. And how can any man ſooth vp himſelfe, ima<g ref="char:EOLhyphen"/>gining God to bee like to men, who receiuing light golde, are contented to take that in tale, which is wanting in waight?<note place="margin">Luk. 19.24.</note> He that abuſed one talent had it taken from him: much leſſe may we prophane many bleſsings, &amp; yet poſſeſſe them ſtill. If we haue all receiued talents, then muſt we al giue accounts. If we all haue treaſure, we muſt all haue care that it canker not:<note place="margin">Matth. 6.19.</note> we did not receiue them to lay them vp idely: for it was ſayd, <hi>Occupie till I come.</hi>
+               <note place="margin">Luke 19.13.</note> Neither helpeth it, that wee do render as much as we haue recei<g ref="char:EOLhyphen"/>ued:<note place="margin">Luke 19.23.</note> but God will haue ſpirituall in<g ref="char:EOLhyphen"/>tereſt of all his ſpiritual bleſsings, be<g ref="char:EOLhyphen"/>cauſe he is God,<note place="margin">Matth. 22.21.</note> as <hi>Caeſar</hi> had tribute
+<pb facs="tcp:15100:12"/>
+becauſe he was King. The remem<g ref="char:EOLhyphen"/>brance of the iudgement ſeate of Chriſt ſhould make men as loth to conſent to ſin, as <hi>Ioſeph</hi> was to hear<g ref="char:EOLhyphen"/>ken to <hi>Putifers</hi> wife: for as he ſayd, <hi>How can I doe this great wickednes and ſinne againſt God?</hi> So ſhould all men ſcan the matter, and ſay, If I ſin, I ſinne againſt God:<note place="margin">Gen. 39.9.</note> if I ſinne againſt GOD, I muſt anſwere it before his iudgement ſeate another day. <hi>Ioſeph</hi> was prouident, and yet ouerſeene in ſinning: for though hee would not co<g ref="char:cmbAbbrStroke">̄</g>ſent to Madam <hi>Putifer,</hi> yet would hee ſweare by the life of his Lorde <hi>Pharao.</hi>
+               <note place="margin">Gen. 42.16.</note> See how ſinne pleadeth cu<g ref="char:EOLhyphen"/>ſtome with <hi>Ioſeph,</hi> as <hi>Laban</hi> did with <hi>Iacob,</hi> when he ſayd, That it was not the manner to marrie the yonger be<g ref="char:EOLhyphen"/>fore the elder.<note place="margin">Gen. 20.25.</note> Becauſe it was vſuall in <hi>Pharaoes</hi> Court to ſweare by the life of <hi>Pharao,</hi> vpon euery light occa<g ref="char:EOLhyphen"/>ſion, therefore <hi>Ioſeph</hi> neuer ſuſpec<g ref="char:EOLhyphen"/>teth
+<pb facs="tcp:15100:13"/>
+it to bee a ſinne: ſo that where ſinne is not ſuſpected, it is quite neg<g ref="char:EOLhyphen"/>lected: and where it is not had in lo<g ref="char:EOLhyphen"/>thing, there in time it ſeemeth no<g ref="char:EOLhyphen"/>thing.</p>
+            <p>
+               <note place="margin">Gen. 4 7. Eze. 18.2.</note>
+               <hi>Adams</hi> Apple was like <hi>Ezekiels</hi> ſower grape, whereof the fathers ta<g ref="char:EOLhyphen"/>ſting, the childrens teeth are ſet on edge: for the ſonnes are many times tainted with their fathers ſinnes, as <hi>Gehazies</hi> poſteritie were with his leproſie.<note place="margin">2. Reg. 5.27.</note> Therefore as all are guiltie in reſpect of nature, ſo all are ſum<g ref="char:EOLhyphen"/>moned to the ſeate of iudgement. The diuels did acknowledge againſt themſelues a time of torment,<note place="margin">Matth. 8.29.</note> &amp; the gueſt at the wedding was ſpeechles on a ſodaine:<note place="margin">Matth. 22.12.</note> ſo ſhall the wicked ei<g ref="char:EOLhyphen"/>ther in ſpeech co<g ref="char:cmbAbbrStroke">̄</g>demne themſelues, like him that was iudged of his own mouth:<note place="margin">Luk. 19.22.</note> or by mute ſile<g ref="char:cmbAbbrStroke">̄</g>ce argue their owne guiltines,<note place="margin">Iob. 9.2.</note> that GOD may not ſtand to pleade with them that can<g ref="char:EOLhyphen"/>not
+<pb facs="tcp:15100:13"/>
+anſwere to one matter of a thou<g ref="char:EOLhyphen"/>ſand. The gueſts that were called to the ſupper of that King which made a marriage for his ſonne, requited his kindnes, with I pray ye hold me excuſed, for I haue bought oxen, and I goe to trie them. The ſecond, with I haue bought a farme, and I muſt go and ſee it. And the third, with I haue married a wife, and I cannot come. If they were ſo loth to come when hee called them of his mercie, how vnwilling will they be (thinke you) to appeare when hee calleth them of his iuſtice, when they cannot beare him in hande, that men are ſo ſimple to buy oxen before they trye oxen, or to lay out money for the pigge in the poke, that the money ſhall be told before the farme be bought and ſold, that they will firſt pay for it, &amp; then ſuruey it? no, but he ſayd trueth that confeſſed, and ſayd, I haue married a
+<pb facs="tcp:15100:14"/>
+wife, and I cannot come: for they that are married to the world, as a man to his wife, they ſend God an<g ref="char:EOLhyphen"/>ſwer that they ca<g ref="char:cmbAbbrStroke">̄</g>not leaue the world their wife, till their dying day.</p>
+            <p>And then neither I pray thee ex<g ref="char:EOLhyphen"/>cuſe mee may ſerue the turne, nor I cannot come, bee taken for an aun<g ref="char:EOLhyphen"/>ſwere: but <hi>corpus cum cauſa</hi> muſt be returned to the iudgement ſeate of Chriſt. They do wel then who walk worthie of their calling, by walking according to the ſame: like the A<g ref="char:EOLhyphen"/>poſtles who ſayd,<note place="margin">Acts. 6 4.</note> 
+               <hi>VVee will giue our ſelues to prayer, &amp; to the ministratio<g ref="char:cmbAbbrStroke">̄</g> of the word continually.</hi> Godlineſſe muſt be as carefully kept, as it is pain<g ref="char:EOLhyphen"/>fully gotten,<note place="margin">1. Timo. 6 20.</note> leaſt like ebbing waters (at full tide) wee haſten to our fall. <hi>Paul</hi> telleth vs of a Iudgement, be<g ref="char:EOLhyphen"/>cauſe thereby a difference ſhall bee made betwixt the better and the worſe ſorte of people: for as there
+<pb facs="tcp:15100:14"/>
+was no time when, nor companie whom the diuell choſe before the ſonnes of God,<note place="margin">Iob. 1.</note> when they were aſ<g ref="char:EOLhyphen"/>ſembled before the Lorde: ſo it is with the wicked, who reſemble the braſen faced ſtrumpets, who couet the companie of honeſt women, placing their grace in ſuch, becauſe themſelues are graceles. For as God bleſſed <hi>Laban</hi> for the loue he had to <hi>Iacob,</hi>
+               <note place="margin">Gen. 30 27.</note> ſo they knowe that the worſe fareth well for the betters ſake.<note place="margin">Mark. 13.26. Matth. 13.48.</note> This made the tares creepe vp anon after the good corne. The frie to ſlip into the net with the good fiſh, &amp; the vn<g ref="char:EOLhyphen"/>godly to ſit in the ſunne-ſhine with godly, that they might haue a being for a time: for when iudgement co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>meth, they ſhall appeare but as Satan amongſt the ſonnes of God (that is) in the company,<note place="margin">Iob. 2.1.</note> but not of the com<g ref="char:EOLhyphen"/>pany of Gods elect: and as the theefe at the barre, not for his good that he
+<pb facs="tcp:15100:15"/>
+hath done, but for the euill hee hath committed:<note place="margin">Matth. 17.3.</note> but the reſt like <hi>Moſes</hi> and <hi>Elias</hi> familiar with Chriſt. The reaſon of this is, that Chriſt being the true light, might ſhew himſelfe to be ſo indeed, by leauing nothing that is a deed of darknes, vndetected to the children of light, that he may be iu<g ref="char:EOLhyphen"/>ſtified in his ſayings, and cleere whe<g ref="char:cmbAbbrStroke">̄</g> he is iudged. The wicked muſt bee detected of what they haue been, and the vngodly muſt be noted for what they are, and all this muſt be brought to light by the light: for as mens ſins haue been ſmothered in the world, ſo haue they bin buried in the graue. You ſee the<g ref="char:cmbAbbrStroke">̄</g> that the iuſtice of Chriſt and the vnrighteouſnes of man doth bring a iudgement.<note place="margin">Luk. 23.19.</note> As <hi>Barrabas</hi> his inſurrection, and the lawes equitie cauſed his impriſonment.</p>
+            <p>The vſe of this is as fit for our age, as <hi>Iethroes</hi> counſell was for his ſon
+<pb facs="tcp:15100:15"/>
+in lawe <hi>Moſes,</hi> in aduiſing him not only to make Iudges in Iſrael, but al<g ref="char:EOLhyphen"/>ſo preſcribed ſuch principall quali<g ref="char:EOLhyphen"/>ties, as ſhould be predomina<g ref="char:cmbAbbrStroke">̄</g>t in their calling: As a good courage,<note place="margin">Exod. 18 21.</note> the feare of GOD, true dealing, and cleerenes from the corruption of bribe taking: ſo that if a man in the ſpirit of <hi>Dauid</hi> ſhould demand of the<g ref="char:cmbAbbrStroke">̄</g> this queſtion: <hi>Are your mindes ſet vpon righteouſ<g ref="char:EOLhyphen"/>nes, O yee congregation,</hi>
+               <note place="margin">Pſalm. 58 1.</note> 
+               <hi>and doe yee iudge the thing that is right, O yee ſonnes of men?</hi> They durſt appeale to God like <hi>Dauid,</hi> that ſaid,<note place="margin">Pſalm. 26.1.</note> 
+               <hi>Be thou my Iudge, O Lorde, whether I haue walked innocently or not.</hi> For thus ſhould men learne to iudge as they would be iudged.</p>
+            <p>Iuſtice hath both her handes full continually, in ſigne whereof, her right hand gripeth a ſword, and her left ha<g ref="char:cmbAbbrStroke">̄</g>d lifteth vp a paire of ballance.
+<pb facs="tcp:15100:16"/>
+Teaching Magiſtrates to way euery matter in the ballance of a good con<g ref="char:EOLhyphen"/>ſcience, that they may know which cauſe is the lighter. So <hi>Dauid</hi> intrea<g ref="char:EOLhyphen"/>teth God,<note place="margin">Pſalm. 5.1.</note> 
+               <hi>Ponder my cauſe, O Lord.</hi> And then deuide to each man his owne as <hi>Salomons</hi> ſword ceaſed the ſtrife betwixt the wome<g ref="char:cmbAbbrStroke">̄</g> that ſtroue for the liuing child.<note place="margin">2. King 3.25.</note> But if the ſword bee ſwayed before the waytes haue wayed, then may you ſee <hi>Annanias</hi> who ſhould iudge according to law, commanding to ſtrike <hi>Paul</hi> againſt law.<note place="margin">Ioh. 18.10.</note> Then may you ſee <hi>Peter</hi> ſtep in with the ſword, and ſtrike off <hi>Mal<g ref="char:EOLhyphen"/>cus</hi> eare. Then doe you ſee the Ma<g ref="char:EOLhyphen"/>giſtrate deale more haſtely the<g ref="char:cmbAbbrStroke">̄</g> wiſe<g ref="char:EOLhyphen"/>ly. The<g ref="char:cmbAbbrStroke">̄</g> receiueth the very law it ſelfe a maime at the hande of the Magi<g ref="char:EOLhyphen"/>ſtrate. <hi>Dauid</hi> commending the flou<g ref="char:EOLhyphen"/>riſhing ſtate of Ieruſalem, ſaid: <hi>There is the ſeate of iudgement, euen the ſeate of the houſe of Dauid.</hi> This ſeate
+<pb facs="tcp:15100:16"/>
+               <hi>Dauid</hi> calleth the ſeate for iuſtice, to ſhew the right vſe of the iudgement ſeate, &amp; the houſe of <hi>Dauid,</hi> noting what men ſhould ſit there: euen iuſt men like the ſeede of <hi>Dauid:</hi>
+               <note place="margin">Luk. 23.22.24</note> or els as <hi>Pilate</hi> iudged Chriſt faultles,<note place="margin">Acts 24.28.</note> and yet put him to death. And as <hi>Felix</hi> to pleaſe the Iewes, left <hi>Paul</hi> in priſon: ſo they will ſet their conſciences on the tainter hookes,<note place="margin">Suſan. 52.</note> and be as olde in euill, as in age, like the vniuſt Iudge reproued by <hi>Daniel.</hi> But the good Magiſtrate is like the munition that ouerpeereth the cities walles in time of warre, threatning the enemies that are without, and comforting the inhabita<g ref="char:cmbAbbrStroke">̄</g>s which are within: or ſuch a preſeruatiue as the pitch was to <hi>Noas</hi> Arke, ſticking faſt vnto the ſides without, and within: or like a hedge to the vine to keep it from the deſtroyer:<note place="margin">Exod. 6.14.</note> or like the tree that <hi>Na<g ref="char:EOLhyphen"/>bucadnezzar</hi> ſawe refreſhing ſuch as
+<pb facs="tcp:15100:17"/>
+came vnder his ſhadow: or like <hi>Mo<g ref="char:EOLhyphen"/>ſes,</hi>
+               <note place="margin">Exod. 2.13.</note> ſeeking to ſet them at one that ſtriue: or like <hi>Iob,</hi> helping them that lye at the gate,<note place="margin">Iob. 31.21.</note> and are not able to helpe themſelues: or like <hi>Dorcas,</hi> making clothes at his owne coſt for the poore,<note place="margin">Acts 9.39.</note> that ſuch may lament the loſſe of him when he is gone, as re<g ref="char:EOLhyphen"/>ioyced by him when hee was here. But if he bee not ſuch a one as hath a godly care of thoſe that are commit<g ref="char:EOLhyphen"/>ted to his charge, there is ſuch a fault in the choſers as was in the trees of the wood, who annoynted a bra<g ref="char:cmbAbbrStroke">̄</g>ble in ſtead of a better tree.<note place="margin">Iudg. 9.14.</note> But this hath been an olde ouerſight in the moſt aſſemblies, that they forget that ma<g ref="char:EOLhyphen"/>xime or ſpeciall principle giuen by almightie God, <hi>Whom the Lord ſhall chooſe, him thou ſhalt make gouernor.</hi> None are ignorant, that the iudge<g ref="char:EOLhyphen"/>ment ſeate was <hi>Moſes</hi> ſeate, who haue read or heard that ſaying of our
+<pb facs="tcp:15100:17"/>
+Sauiour Chriſt,<note place="margin">Matth.</note> 
+               <hi>The Scribes and the Phariſies ſit in Moſes ſeate, &amp;c. Mo<g ref="char:EOLhyphen"/>ſes</hi> was a man that would both ſay, and doe well, and therefore was cal<g ref="char:EOLhyphen"/>led faithfull in all Gods houſe. But as the Scribes (that would ſay what they muſt, but do what they liſt) ſuc<g ref="char:EOLhyphen"/>ceeded <hi>Moſes</hi> in the ſeate of Magi<g ref="char:EOLhyphen"/>ſtracie:<note place="margin">Matth. 24.15.</note> ſo wicked men like that abo<g ref="char:EOLhyphen"/>mination of deſolation, do ſit where they ought not: and this is that vn<g ref="char:EOLhyphen"/>ſeemly ſight that <hi>Salomon</hi> ſaw ſome times,<note place="margin">Eccle. 10.7.</note> 
+               <hi>VVhen ſeruants were ſet on horſebacke, and Magistrates made to goe on foote.</hi> When Chriſt was gloriouſly vpon Mount Thabor, it is witneſſed that his very rayment was as white as the light,<note place="margin">Matth. 17.2.</note> which ſheweth that there is an intent in cauſing your Magiſtrates to differ from other men in the excellencie of his very gar<g ref="char:EOLhyphen"/>ment: for as hee offendeth in life by his euill example, ſo he ſpotteth his
+<pb facs="tcp:15100:18"/>
+garment, that is ſcarlet or purple: and then <hi>Eſay</hi> telleth him,<note place="margin">Eſay. 1.18.</note> Sir your ſinnes are as red as ſcarlet. And <hi>Ezra</hi> his meſſengers ſpake plainly: <hi>The hande of the Ruler is chiefe in this treſpaſse.</hi>
+               <note place="margin">Ezra. 9.2.</note> Theſe men are more vnmeet to rule then <hi>Zedechias,</hi>
+               <note place="margin">2. King. 25.7.</note> that had his eyes put out, for they will not ſee: and <hi>A<g ref="char:EOLhyphen"/>dony Bezecke,</hi>
+               <note place="margin">1. Iud. 6.</note> that had his fingers cut off, for they may, but will not gird the<g ref="char:cmbAbbrStroke">̄</g> with their ſword vpon the thigh.<note place="margin">Pſal. 45.4.</note> And therefore <hi>Salomon</hi> complaineth grieuouſly:<note place="margin">Eccle. 3.16.</note> 
+               <hi>I haue ſeene wickednes in the place of iudgement, and iniquitie in the place of equitie.</hi>
+            </p>
+            <q>That euery one may receiue the things that are done in his bo<g ref="char:EOLhyphen"/>die, &amp;c.</q>
+            <p>BY euery one is ment, that none can eſcape,<note place="margin">Matth 22 11.</note> no more the<g ref="char:cmbAbbrStroke">̄</g> that gueſt at the Wedding could bee vnſpied
+<pb facs="tcp:15100:18"/>
+when the houſe was full, ſo that no man may ſooth vp himſelfe to paſſe: for as the King came in to ſee the gueſts, ſo he came to iudge them to. And as <hi>Peter</hi> ſayd,<note place="margin">Acts 10.35.</note> 
+               <hi>All that worke righteouſnes are accepted with God:</hi> ſo all that worke vnrighteouſneſſe, are reiected from God: and becauſe euery one ſhall bee iudged, therefore <hi>Paul</hi> maketh priuate application of his exhortation, and ſaith,<note place="margin">1. Cor. 11.28.</note> 
+               <hi>Let a man examine himſelfe.</hi> Like as in the rid<g ref="char:EOLhyphen"/>dle that Chriſt propounded,<note place="margin">Matth. 29.21.</note> 
+               <hi>I tell you, that one of you ſhall betray me:</hi> euery man fell into examination of himſelfe, <hi>Maſter is it I?</hi>
+               <note place="margin">22.</note> Eleuen of them could not expound it, and the twelfth would not. So they that will not reprooue themſelues now, muſt looke to be reproued another day to their ſhame. Would not a man bee aſhamed to haue his faults written in his forehead? Saint <hi>Iohn</hi> ſaw a book
+<pb facs="tcp:15100:19"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb facs="tcp:15100:19"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb facs="tcp:15100:20"/>
+open, and that was the conſciences of all men,<note place="margin">Apoc. 20.22.</note> wherein our ſelues ſhall as plaine remember our faults, as if they were layd down in writing be<g ref="char:EOLhyphen"/>fore vs. Then that propheſie is ful<g ref="char:EOLhyphen"/>filled,<note place="margin">Pſal 50.24.</note> 
+               <hi>I will reproue thee, and ſet be<g ref="char:EOLhyphen"/>fore thee the things which thou haſt done.</hi> Theſe words <hi>(euery one)</hi> doe include the ſhortnes of the iudge<g ref="char:EOLhyphen"/>ment day: for as the little clowde that <hi>Elias</hi> his ſeruaunt ſawe vpon Mount Carmell (though it were but of the bignes of a hande) contained much raine in it:<note place="margin">1. King. 18.44.</note> as the little penny contained the Princes picture.<note place="margin">Matth. 22.19.</note> And as <hi>Dauids</hi> little ſtone that carried great <hi>Goliaths</hi> preſent death in it.<note place="margin">1. Sam. 17.50.</note> And as the lightning comming from the Eaſt,<note place="margin">Matth. 24.27.</note> is immediatly in the Weſt, ſo ſhall a ſhort time, and a few words comprehend a great and ſwift iudg<g ref="char:EOLhyphen"/>ment.<note place="margin">Rom. 9.28.</note> Therefore ſayd Paul, <hi>A ſhort word ſhall the Lord make vpon earth:</hi>
+               <pb facs="tcp:15100:20"/>
+For why ſhould GOD diſpute with men,<note place="margin">Iob. 9.2.</note> 
+               <hi>that cannot anſwere one thing of a thouſand?</hi> ſayth <hi>Iob.</hi>
+            </p>
+            <p>
+               <hi>May receiue the things that are done in his bodie.</hi> Seeing our bodie muſt receiue the things that it hath done, that is,<note place="margin">Matth. 22.13.</note> 
+               <hi>This bodie that we now carrie.</hi> That was but a ſeducing do<g ref="char:EOLhyphen"/>ctrine of the Sadduces, who affir<g ref="char:EOLhyphen"/>med that there is no reſurrection of the dead: for as <hi>Paul</hi> ſayth,<note place="margin">2. Cor. 15.19.</note> 
+               <hi>If our hope endeth with our life, wee were moſt miſerable of all men.</hi> This was the opinion of ſuch, as grounding vpon reaſon, were outreached by faith: for where reaſon endeth, there faith beginneth. Therefore (ſayth <hi>Paul) By faith wee vnderſtand that the world was made by the worde of God, and that the things which are,</hi>
+               <note place="margin">Heb. 11.3.</note> 
+               <hi>were not made of things which did appeare.</hi>
+            </p>
+            <p>Now if we turne faith into reaſon,
+<pb facs="tcp:15100:21"/>
+or rather if wee doe reaſon in faith, we ſhall finde the trueth of this doc<g ref="char:EOLhyphen"/>trine confirmed by reaſon and com<g ref="char:EOLhyphen"/>mon ſence: for if wee beleeue that God created man of nothing (which the Scripture calleth creation) then muſt we much more beleeue that he can raiſe man vp againe when hee is ſome thing that created him of no<g ref="char:EOLhyphen"/>thing.<note place="margin">Gen. 1.1.</note> But if any Saduce will ſay that he denieth not a reſurrection of Gods people, in reſpect of any want of Gods power, but thinking it neede<g ref="char:EOLhyphen"/>les, becauſe the badde goe imediatlie in ſoule to hell, and good ſoules to God that gaue them. I anſwer, that it is as requiſit that there be a reſurrec<g ref="char:EOLhyphen"/>tion as that there ſhould bee a God, o<g ref="char:EOLhyphen"/>therwiſe the bodie and ſoule ſhould neuer meete and bee ioyned to the head Chriſt Ieſus: for as <hi>Paul</hi> ſaide, <hi>Beholde I ſhew you a myſterie,</hi>
+               <note place="margin">1. Cor. 15.51.</note> ſo I ſay, and he ment that our coniuncti<g ref="char:EOLhyphen"/>on
+<pb facs="tcp:15100:21"/>
+with our head Chriſt muſt bee done miſtically by the working of the Godhead, or elſe we ſhall ſtill bee like the kerchief that was by it ſelfe,<note place="margin">Ioh. 20.7.</note> (that is) as it was wrapped vp in a place by it ſelfe, ſeuered from the reſt of the linnen clothes that were about his body: ſo we the members ſhould bee parted from Chriſt our head in heauen, and ſhould remayne on earth by our ſelues. And Chriſt himſelfe ſaith, that if he ſhould not raiſe vp all at the laſt day, then he ſhould not doe the worke of a Sauiour.<note place="margin">Ioh. 6.39.</note> 
+               <hi>This is the Fathers will that hath ſent mee, that of all which he hath giuen me, I ſhould looſe nothing, but ſhould raiſe it vp at the laſt daye:</hi> for it is all one as if hee had ſaid, if there were no reſurrecti<g ref="char:EOLhyphen"/>on, then were I no Sauiour, for if I raiſe them not, then I ſaue them not. Therfore firſt he threatneth death,<note place="margin">1. Cor. 15.55.</note> &amp; then conquireth death: <hi>Paul</hi> conclu<g ref="char:EOLhyphen"/>deth
+<pb facs="tcp:15100:22"/>
+this as a neceſſarie poynt in di<g ref="char:EOLhyphen"/>uinitie to ſay: <hi>Chriſt is riſen: ergo, wee ſhall riſe too,</hi> for you ſee he thin<g ref="char:EOLhyphen"/>keth no argument better, then to ſay, <hi>If it be preached that Chriſt is riſen,</hi>
+               <note place="margin">1. Cor. 15.12.</note> 
+               <hi>how ſay ſome among you, that there is no reſurrection of the dead.</hi> It is the beſt argument that euer was made, to proue a reſurrection, not only in par<g ref="char:EOLhyphen"/>ticular, that for ſo much as Chriſt is riſen, it muſt bee confeſſed that there is a reſurrection, if no more ſhoulde riſe but hee: but ſeeing Chriſt is ri<g ref="char:EOLhyphen"/>ſen as the head, how ſhall the mem<g ref="char:EOLhyphen"/>bers ſticke by him, no, but the mem<g ref="char:EOLhyphen"/>bers muſt follow the head, for as when a man taketh a fall the head ri<g ref="char:EOLhyphen"/>ſeth firſt, and then all the bodie com<g ref="char:EOLhyphen"/>meth after it.<note place="margin">Mark. 16.6.</note> So Chriſt hauing riſen from the graue where he lay, is lifted vp into heauen, as our ſpiritual head, and telleth vs in his worde, that hee will not ſend any other, ſauing the
+<pb facs="tcp:15100:22"/>
+comforter to cherriſh vs, but to fetch vs, he will come himſelfe, that where hee is, there may wee bee alſo.<note place="margin">Iohn 14.3.</note> The Iewes that buried Chriſt, laid a hea<g ref="char:EOLhyphen"/>uie ſtone vppon the graue,<note place="margin">Matth. 27.66.</note> to haue kept him there, if it had been poſsi<g ref="char:EOLhyphen"/>ble. And now he is riſen: all the chri<g ref="char:EOLhyphen"/>ſtians they lay hold vpo<g ref="char:cmbAbbrStroke">̄</g> him by faith. And as <hi>Iacob</hi> ſaid to the Angell:<note place="margin">Gen. 32.26.</note> 
+               <hi>I will not part from thee till thou haſt bleſsed me.</hi> So the Church ſaith,<note place="margin">1. Cant. 3.</note> draw mee vnto thee,<note place="margin">2. King. 2.6.</note> for wee will run after thee: they meane as <hi>Eliſha</hi> ſaide to <hi>Elias, I will not leaue thee,</hi> that is,<note place="margin">Matth. 11.12.</note> I will goe to heauen, and therefore let mee goe, and then the kingdome of God ſuffereth violence among them. Herein lyeth the whole burthen of a chriſtian:<note place="margin">1. Theſſ. 4.14.</note> if yee beleeue that Ieſus dyed, &amp; is riſen againe, euen ſo them that ſleepe with Ieſus, ſhall GOD bring with him.<note place="margin">1. Cor. 15.20.</note> All muſt bee aſſu<g ref="char:EOLhyphen"/>red of this, Chriſt is riſen from the
+<pb facs="tcp:15100:23"/>
+dead, and is become the fruite of them that ſleep, that is, as by the offe<g ref="char:EOLhyphen"/>ring of the fruites, all the reſt had a bleſsing, ſo in chriſt his reſurrection ours is confirmed. This made <hi>Paul</hi> ſo carefullie to aduertiſe <hi>Timothie</hi> of this poynte of doctrine, remember that Ieſus Chriſt made of the ſeede of <hi>Dauid</hi> was raiſed againe the third daye,<note place="margin">2. Tim. 2.8.</note> according to my Goſpell, re<g ref="char:EOLhyphen"/>member it, that is, forget it not while thou liueſt, but remember it euen when thou dieſt, and then as he is of that power, that in very death he ray<g ref="char:EOLhyphen"/>ſed the dead, and ſent them out of their hollow ſepulchers into the holy citie to bee ſeene of ſuch as were a<g ref="char:EOLhyphen"/>liue.<note place="margin">Matth. 27.52.</note> And as while hee liued, hee cal<g ref="char:EOLhyphen"/>led things that were not,<note place="margin">Rom. 4.17.</note> as though they were,<note place="margin">Ioh. 11.34.</note> as hee did <hi>Lazarus</hi> car<g ref="char:EOLhyphen"/>keſſe by the name of <hi>Lazarus,</hi> and the bodie of the widdowes ſonne,<note place="margin">Luk 7.14.</note> by name of young man. So the houre
+<pb facs="tcp:15100:23"/>
+ſhall come,<note place="margin">Luk. 7.14. Ioh. 5.28.</note> that the dead ſhall heare the voyce of the ſonne of man, and then wee ſhall all ſtand vp like the bones that <hi>Ezechiel</hi> ſawe.<note place="margin">Ezec. 37.10.</note> 
+               <hi>Accor<g ref="char:EOLhyphen"/>ding to that he hath done, whether it be good or euill.</hi>
+               <note place="margin">2. King. 20.1.</note> Therefore <hi>abe at v<g ref="char:EOLhyphen"/>nuſquiſque in domum ſuam:</hi> Let eue<g ref="char:EOLhyphen"/>rie one goe into his owne houſe, <hi>vz.</hi> looke into himſelfe, that he may re<g ref="char:EOLhyphen"/>forme what is amiſſe, as <hi>Eſay</hi> ſayd to <hi>Ezechia, Set thine houſe in an order.</hi> If ye doe poſſeſſe your ſoules in pa<g ref="char:EOLhyphen"/>tience, haue care to keepe them ſtill.<note place="margin">Luk. 21, 19.</note> As <hi>Rahab</hi> had a red thread tyed in her windowe: ſo giue the Lorde a ſigne to remember you when the de<g ref="char:EOLhyphen"/>ſtroyer commeth,<note place="margin">Ioſua. 2.18.</note> that GOD may haue mercie on you, as you haue ſhe<g ref="char:EOLhyphen"/>wed mercie to other. Looke how you will bee rewarded, ſo doe your worke: for you waite for the day of the Lord,<note place="margin">Iob. 14.6.</note> as the hireling for the eue<g ref="char:EOLhyphen"/>ning, to receiue his reward. He that
+<pb facs="tcp:15100:24"/>
+knoweth of what ſpirit ye are better then your ſelues,<note place="margin">
+                  <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>. 14.6.</note> muſt needes know you well.<note place="margin">Luk. 9 55.</note> He that hath made the eye ſeeth you when ye ſee not him. He that made the heart, fore knoweth your conceit; be where ye will, hee findeth you when you thinke leaſt vpon him,<note place="margin">1. Sam. 24.5.</note> as <hi>Dauid</hi> founde <hi>Saul</hi> a ſleepe in a caue. Say what you will, he knoweth what you ſpeake. As <hi>Eliſha</hi> could tell what the King of Aſſeria ſpake in his priuie chamber.<note place="margin">2. King. 6.12.</note> As no vertue ſhall bee vnrewarded with God,<note place="margin">Iob. 14.17.</note> ſo no ſinne ſhall be vnpu<g ref="char:EOLhyphen"/>niſhed with him. For he ſealeth vp your ſinnes in a bagge,<note place="margin">Pſalm. 56.8.</note> as duely as he putteth your teares in his bottle: that is, as hee regardeth the ſorrowe of them that repent like <hi>Ezekia,</hi> ſo hee retaineth the ſinne of ſuch as ſorowe truely,<note place="margin">Matth. 13.30.</note> like as <hi>Pharao</hi> did not. That the ſcripture may be true: the cockle muſt continue among the corne vn<g ref="char:EOLhyphen"/>till
+<pb facs="tcp:15100:24"/>
+harueſt, and no longer.<note place="margin">Eccleſiaſtes.</note> There<g ref="char:EOLhyphen"/>fore ſayd <hi>Salomon, There is a time for all things, &amp;c.</hi> As the vngodly haue had a time to bee like the rich man on earth,<note place="margin">Luk. 16.25.</note> ſo they ſhall haue a time to bee like the rich man in hell. As they haue been like the buſh that was burning,<note place="margin">Exod. 3.3.</note> ſo in time they ſhall be like the Sunne ſhining.<note place="margin">Matth. 13.43.</note> The Church is like <hi>Iohn Baptiſt,</hi>
+               <note place="margin">Iohn. 5.35.</note> and <hi>Iohn Baptiſt</hi> was like a candle burning,<note place="margin">Iohn. 3.20.</note> and ſhi<g ref="char:EOLhyphen"/>ning: conſuming himſelfe to giue light to other.<note place="margin">Exodus 14.20</note> But for ſo much as there are ſome that loue not the light, the Iudge muſt deale with the<g ref="char:cmbAbbrStroke">̄</g> according to their darknes, making a ſeparation betwixt them, as the pil<g ref="char:EOLhyphen"/>lar of a clowde did betwixt the Iſraelites and Egyptians in the wilderneſſe.</p>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <pb facs="tcp:15100:25"/>
+            <p>AT LONDON Printed for William Leake, and are to be ſold at his ſhop in <hi>Paules Churchyard, at the ſigne of the Crane.</hi> 1595.</p>
+            <pb facs="tcp:15100:25"/>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,1296 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A book of cookrye Very necessary for all such as delight therin. Gathered by A.W.</title>
+            <author>A. W.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1591</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 94 KB of XML-encoded text transcribed from 41 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A14584</idno>
+            <idno type="STC">STC 24897</idno>
+            <idno type="STC">ESTC S103616</idno>
+            <idno type="EEBO-CITATION">99839365</idno>
+            <idno type="PROQUEST">99839365</idno>
+            <idno type="VID">3775</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A14584)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 3775)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1613:09)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A book of cookrye Very necessary for all such as delight therin. Gathered by A.W.</title>
+                  <author>A. W.</author>
+               </titleStmt>
+               <editionStmt>
+                  <edition>And now newlye enlarged with the seruing in of the table. With the proper sauces to each of them conuenient.</edition>
+               </editionStmt>
+               <extent>[1], 39 leaves   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Edward Allde,</publisher>
+                  <pubPlace>At London :</pubPlace>
+                  <date>1591.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Leaf 32 misnumbered 25.</note>
+                  <note>Another edition of STC 24895, published in 1584 with title: A booke of cookry.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Cookery --  Early works to 1800.</term>
+               <term>Cookery --  England --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-02</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-02</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-05</date>
+            <label>Simon Charles</label>Sampled and proofread</change>
+         <change>
+            <date>2013-05</date>
+            <label>Simon Charles</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:3775:1"/>
+            <pb facs="tcp:3775:1" rendition="simple:additions"/>
+            <p>A BOOK OF COOKRYE. <g ref="char:V">Ʋ</g>ery neceſſary for all ſuch as delight therin.</p>
+            <p>Gathered by A. W.</p>
+            <p>And now newlye en<g ref="char:EOLhyphen"/>larged with the ſer<g ref="char:EOLhyphen"/>uing in of the Table. With the proper Sauces to each of them con<g ref="char:EOLhyphen"/>uenient.</p>
+            <p>AT LONDON Printed by Edward Allde. 1591.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:3775:2"/>
+            <pb facs="tcp:3775:2"/>
+            <div type="order_of_table">
+               <head>The order how Meats should be ſerued to the Table, with their ſauces.</head>
+               <div n="meals" type="section">
+                  <div type="service">
+                     <div n="first" type="course">
+                        <head>The firſt courſe.</head>
+                        <list>
+                           <item>
+                              <seg rend="decorInit">P</seg>Otage or ſtewed broth.</item>
+                           <item>boiled meat or ſtewed meat.</item>
+                           <item>Chickins and Bacon.</item>
+                           <item>Powdred Beefe.</item>
+                           <item>Pyes, Gooce, Pigge.</item>
+                           <item>Roſted Béefe.</item>
+                           <item>Roſted Veale.</item>
+                           <item>Cuſtard.</item>
+                        </list>
+                     </div>
+                     <div n="second" type="course">
+                        <head>The ſecond courſe.</head>
+                        <list>
+                           <item>ROſted Lamb.</item>
+                           <item>Roſted Capons,</item>
+                           <item>Chickins.</item>
+                           <item>Pehennes.</item>
+                           <item>Bakte Veniſon, Tart.</item>
+                        </list>
+                     </div>
+                  </div>
+                  <div n="supper" type="service">
+                     <head>The ſeruice ar Supper.</head>
+                     <div n="first" type="course">
+                        <list>
+                           <item>POtage or Sew.</item>
+                           <item>A Sallet.</item>
+                           <pb facs="tcp:3775:3"/>
+                           <item>A Pigges petitoe.</item>
+                           <item>Powdred Béef ſliced.</item>
+                           <item>A ſhoulder of mutton or a breſt.</item>
+                           <item>Vele, Lamb, Cuſtard.</item>
+                        </list>
+                     </div>
+                     <div n="second" type="course">
+                        <head>The ſecond courſe.</head>
+                        <list>
+                           <item>CApons roſted.</item>
+                           <item>Cunnies roſted.</item>
+                           <item>Chickins roſted.</item>
+                           <item>A Pye of Pigions or Chickins.</item>
+                           <item>Baked Veniſon, Tarte.</item>
+                        </list>
+                     </div>
+                  </div>
+                  <div n="dinner" type="service">
+                     <head>The ſeruice at Dinner.</head>
+                     <div n="first" type="course">
+                        <list>
+                           <item>BRawne and Muſtard.</item>
+                           <item>Capons ſtewed in white broth.</item>
+                           <item>A Peſtell of Veniſon vpon brewes.</item>
+                           <item>A chine of Beef &amp; a breſt of mutton boild.</item>
+                           <item>Chewets or Pyes of fine mutton.</item>
+                           <item>Thrée gréen géeſe in a diſh, ſorrell ſauce.</item>
+                           <item>For a ſtubble gooſe, muſtard and vinagre.</item>
+                           <item>After Alhalowen daye a Swan, ſauce Chaudron.</item>
+                           <item>A Pigge.</item>
+                           <item>A dubble Rib of Béef roſted, ſauce Pep<g ref="char:EOLhyphen"/>per and Vinagre.</item>
+                           <item>A loyne of Veale or breſt, ſauce Orenges.</item>
+                           <item>Half a Lamb or a Kid.</item>
+                           <item>Two Capons roſted, ſauce wine &amp; ſalt,
+<pb n="2" facs="tcp:3775:3"/> Ale and Salt except it be vpon ſops.</item>
+                           <item>Two Paſties of falow Déer in a Diſh.</item>
+                           <item>A Cuſtard.</item>
+                           <item>A Diſh of Leaſh.</item>
+                        </list>
+                     </div>
+                     <div n="second" type="course">
+                        <head>The ſecond courſe.</head>
+                        <list>
+                           <item>IElly.</item>
+                           <item>Pecock, ſauce wine and Salt,</item>
+                           <item>Two Cunnies or half a doſen of rabbets. ſauce Muſtard and Sugar.</item>
+                           <item>Half a doſen of chickins vpon ſorrel ſops.</item>
+                           <item>Half a dozen of Pigions.</item>
+                           <item>
+                              <list>
+                                 <item>Mallard.</item>
+                                 <item>Teale.</item>
+                                 <item>Gulles.</item>
+                                 <item>Storke.</item>
+                              </list> Sauce Muſtard and Vinagre.</item>
+                           <item>
+                              <list>
+                                 <item>Hernſew.</item>
+                                 <item>Crane.</item>
+                                 <item>Curlew.</item>
+                                 <item>Bittur.</item>
+                                 <item>Buſtard.</item>
+                              </list> Sauce Gallentine.</item>
+                           <item>Feſand, ſauce water and ſalt with Oni<g ref="char:EOLhyphen"/>ons ſliced.</item>
+                           <item>Half a dozen of Woodcocks, ſauce Muſt<g ref="char:EOLhyphen"/>ard and Sugar.</item>
+                           <item>Half a doſen of Partriges.</item>
+                           <item>Half a doſen Railes ſauced as the Fe<g ref="char:EOLhyphen"/>ſand.</item>
+                           <item>A doſen of Quailes.</item>
+                           <pb facs="tcp:3775:4"/>
+                           <item>A diſh of Larkes.</item>
+                           <item>A paſty of red Déere.</item>
+                           <item>Tarte, Ginger bread, Fritters.</item>
+                        </list>
+                     </div>
+                  </div>
+                  <div n="fish-day" type="service">
+                     <head>Seruice for Fiſh daies.</head>
+                     <div n="first" type="course">
+                        <list>
+                           <item>BVtter.</item>
+                           <item>A Sallet with hard Egges.</item>
+                           <item>Potage of ſand Eeles and Lamprons.</item>
+                           <item>Red Hering gréen broiled ſugar ſtrewed vpon.</item>
+                           <item>
+                              <list>
+                                 <item>White Hering.</item>
+                                 <item>Ling.</item>
+                                 <item>Haburdine.</item>
+                              </list> Sauce Muſtard.</item>
+                           <item>Salt ſalmon minced, ſauce muſtard and Vinagre and a little Sugar.</item>
+                           <item>
+                              <list>
+                                 <item>Powdred Cunger.</item>
+                                 <item>Shad.</item>
+                                 <item>Mackrel.</item>
+                              </list> Sauce Vinagre.</item>
+                           <item>Whiting, ſauce with liuer and muſtard.</item>
+                           <item>Plaice, ſauce ſarrel, or Wine and Salt, or Vinagre.</item>
+                           <item>Thorne back, ſauce Liuer and Muſtard, Pepper and Salt ſtrewed vpon it af<g ref="char:EOLhyphen"/>ter it is bruſed.</item>
+                           <item>Freſh Cod, ſauce Gréenſauce.</item>
+                           <item>Bace, Mullet.</item>
+                           <item>Eeles vpon Sops.</item>
+                           <item>Roches vpon Sops.</item>
+                           <pb n="3" facs="tcp:3775:4"/>
+                           <item>Perch.</item>
+                           <item>Pike in Pike ſauce.</item>
+                           <item>Trout vpon Sops.</item>
+                           <item>Tench in Gelly or in Griſſel.</item>
+                           <item>Cuſtard.</item>
+                        </list>
+                     </div>
+                     <div n="second" type="course">
+                        <head>The Second courſe.</head>
+                        <list>
+                           <item>¶ Flounders in Pike ſauce.</item>
+                           <item>
+                              <list>
+                                 <item>Freſh Salmon.</item>
+                                 <item>Freſh Cunher.</item>
+                                 <item>Brit.</item>
+                                 <item>Turbut.</item>
+                                 <item>Holibut.</item>
+                              </list> Sauce Vinagre.</item>
+                           <item>Bream vpon ſops.</item>
+                           <item>Carp vpon ſops.</item>
+                           <item>Soles or any other fiſh fried, ſauce the dripping.</item>
+                           <item>
+                              <list>
+                                 <item>Roſted Lampruns.</item>
+                                 <item>Roſted Porpos.</item>
+                              </list> Sauce galentine.</item>
+                           <item>
+                              <list>
+                                 <item>Freſh Sturgion.</item>
+                                 <item>Creuice.</item>
+                                 <item>Crab.</item>
+                                 <item>Shrimps.</item>
+                              </list> Sauce Vinagre.</item>
+                           <item>Baked Lamprye.</item>
+                           <item>
+                              <list>
+                                 <item>Tart.</item>
+                                 <item>Figges.</item>
+                                 <item>Apples.</item>
+                              </list>
+                              <list>
+                                 <item>Chéeſe.</item>
+                                 <item>Raiſins.</item>
+                                 <item>Peares.</item>
+                              </list>
+                           </item>
+                           <pb facs="tcp:3775:5"/>
+                           <item>Almonds blanched.</item>
+                        </list>
+                     </div>
+                  </div>
+               </div>
+               <div n="sauces" type="section">
+                  <div type="recipe">
+                     <head>To make ſauce for capons or Turky Fowles</head>
+                     <p>TAke Onions and ſlice them thin, and boyle them in faire water till they be boyled drye, and put ſome of the grauie vnto them and pepper groce beaten.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>Sauce for a roaſted Stock Doue.</head>
+                     <p>TAke Onions and mince them not too ſmall, and boile them in a little claret Wine, and when they be boyled almoſte dry, put therto Vinagre. Sugar, Pepper and ſome of the grauy of the Stockdoue.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make ſauce for a capon an other way.</head>
+                     <p>TAke Claret Wine, Roſewater, ſli<g ref="char:EOLhyphen"/>ced Orenges, Sinamon and ginger, and lay it vpon Sops, and lay your Ca<g ref="char:EOLhyphen"/>pon vpon it.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>Sauce for capons, Pheſant, Partriges or Woodcocks.</head>
+                     <p>ONions ſliced very thin, faire water and pepper groce beaten.</p>
+                  </div>
+                  <div type="recipe">
+                     <pb n="4" facs="tcp:3775:5"/>
+                     <head>Chauldron for a Swan.</head>
+                     <p>TAKE white Bread and lay it in ſoke in ſome of the broth that the Giblets be ſod in, and ſtraine it with ſome of the blood of the Swan, a little peece of the Li<g ref="char:EOLhyphen"/>uer and red Wine, and make it ſomwhat thin, and put to it Sinamon and ginger, pepper, Salt and Sugar, &amp; boile it vntill it be ſomwhat thick, and put in two ſpoon<g ref="char:EOLunhyphen"/>full of the grauye of the Swan, and ſo ſerue it in ſaucers being warme.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>Galandine for a crane or a Hearne or any other Foule that is black meat.</head>
+                     <p>TOſte Bread and lay it in ſoke in vi<g ref="char:EOLhyphen"/>nagre, and ſtraine it with Vinagre and a litle Claret wine, boile it on a cha<g ref="char:EOLhyphen"/>ſingdiſh of coles and put in it ſugar, Si<g ref="char:EOLhyphen"/>namon, and Ginger.</p>
+                  </div>
+               </div>
+            </div>
+            <div type="cookery_book">
+               <pb facs="tcp:3775:6"/>
+               <div n="boiled meats" type="section">
+                  <head>For Stewed and boyled Meates.</head>
+                  <div type="recipe">
+                     <head>To ſtue a Capon.</head>
+                     <p>
+                        <seg rend="decorInit">T</seg>Ake the beſt of the Broth of the pot, and put it in a pipkin, and put to it Co<g ref="char:EOLhyphen"/>rance and great raiſins, Dates quartered and o<g ref="char:EOLhyphen"/>nions fine minced, ſtray<g ref="char:EOLhyphen"/>ned bread &amp; time, and let them boile well togither: when they be well boyled, put in your prunes, ſeaſon it w<hi rend="sup">t</hi> cloues, mace, pepper, and very little Salte, a ſpoonfull or two of Vergious, and let it not be too thick. And your Capon being boyled in a pot by it ſelfe in fair water &amp; ſalt to kéepe it faire, and thus you may boyle a Chic<g ref="char:EOLhyphen"/>ken, vele, béef or mutton after this ſort.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To ſtue a Capon in Lemmons.</head>
+                     <p>SLice your Lemmons and put them in a Platter, and put to them white Wine and Roſewater, and ſo boile them and Sugar til they be tender. Then take
+<pb n="5" facs="tcp:3775:6"/> the beſt of the broth wherin your Capon is boyled, and put thereto whole Mace, whole pepper &amp; red Corance, barberies, a litle time, &amp; good ſtore of Marow. Let them boile wel togither til y<hi rend="sup">e</hi> broth be al<g ref="char:EOLhyphen"/>moſt boiled away that you haue no more then will wette your Sops. Then poure your Lemmons vpon your Capon, &amp; ſea<g ref="char:EOLhyphen"/>ſon your broth with Vergious and Su<g ref="char:EOLhyphen"/>gar, and put it vpon your Capon alſo.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To boyle a Capon in white broth.</head>
+                     <p>BOile your Capon in faire licour and couer it to keepe it white, but you muſt boile none other meat with it, take the beſt of the broth, and as much vergi<g ref="char:EOLhyphen"/>ous as of the broth if your Vergious be not too ſower, and put therto whole mace whole pepper, and a good handfull of En<g ref="char:EOLhyphen"/>diue, Letuce or borage, whether of them ye wil, ſmall Raiſins, Dates, Marow of marow bones a little ſtick of whole Si<g ref="char:EOLhyphen"/>namon, the peele of an orenge. Then put in a good peece of Sugar, and boile them well togither. Then take two or three yolkes of egges ſodden, and ſtrain them, and thick it withall, &amp; boile your prunes
+<pb facs="tcp:3775:7"/> by themſelues, and lay vpon your Capon poure your broth vpon your Capon.</p>
+                     <p>Thus maye you boyle any thing in white broth.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>An other to boyle a capon in white broth.</head>
+                     <p>FIrſt take Marow bones, breake them and boyle them and take out the ma<g ref="char:EOLhyphen"/>rowe. Then ſéethe your Capon in the ſame licoure. Then take the beſt of the licoure in a ſmall Potte to make your broth withall. Then take Corance, Da<g ref="char:EOLhyphen"/>tes and prunes, &amp; boyle them in a pot by themſelues till they be plum, then take them vp and put them into your brothe, then put whole Mace to them and a good quantitie of beaten Ginger &amp; ſome Salt. Then put the Marow that you did take from the bones, and ſtrain the yolkes of Egges with Vinager, and put them in<g ref="char:EOLhyphen"/>to your broth with a good péece of Sugar but after this it muſt not boyle: the<g ref="char:cmbAbbrStroke">̄</g> take bread and cut therof thin ſippits, and lay them in the bottom of a diſh. Then take ſugar and ſcrape it about the ſides of the diſh and lay theron your Capon, and the fruit vpon it and ſo ſerue it in.</p>
+                  </div>
+                  <div type="recipe">
+                     <pb n="6" facs="tcp:3775:7"/>
+                     <head>To make Sops for a capon.</head>
+                     <p>TAke Toſtes of Bread, Butter, Cla<g ref="char:EOLhyphen"/>ret wine and ſlices of Orenges, and lay them vpon the Toſtes and Sinamon Sugar and Ginger.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make Sops for chickins.</head>
+                     <p>FIrſte take Butter and melt it vpon a Chaſingdiſhe with Coales, and lay in the Diſh thinne Toſtes of Bread, and make Sorrell ſauce with Vergious and Gooſeberies, ſéeth them with a little ver<g ref="char:EOLhyphen"/>gious and lay them vpon.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To boyle a capon in Browes.</head>
+                     <p>YOu muſt boile your Capon with fat meát, then take the beſt of the broth and put it in a pipkin, &amp; put whole Mace to it, whole Pepper, ſome red Corance, half aſmuch white wine as you haue of broth, good ſtore of Marowe and Dates, and ſcum them clean and kéep your licour very cléere, and ſeaſon it with Vergious and Sugar, and then lay your Capon v<g ref="char:EOLhyphen"/>pon browes finely cut, and ſo poure your broth vpon it.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To boyle a Capon.</head>
+                     <p>TAke your Capon and boyle it tender, and take out a little of the broth and
+<pb facs="tcp:3775:8"/> put it in a little pipkin with whole mace and a good deale of ginger, and quartered Dates, and boyle your corance and prn<g ref="char:EOLhyphen"/>nes in very faire water by themſelues, for making of your broth black and thic<g ref="char:EOLhyphen"/>ken your broth with yolks of egges and wine ſtrained togither or a little Vergi<g ref="char:EOLhyphen"/>ous, and let your broth boile no more when you haue thickned it, for it will quail. Then cut ſippits in a platter, and lay in your Capon, and laye your fruite vpon it, ſo dooing ſerue it out.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To boyle a Capon with Orenges or Lemmons.</head>
+                     <p>TAke your Capon and boyle him ten<g ref="char:EOLhyphen"/>der and take a little of the broth whe<g ref="char:cmbAbbrStroke">̄</g> it is boyled and put it into a pipkin with Mace and Sugar a good deale, and pare three Orenges and pil them and put the<g ref="char:cmbAbbrStroke">̄</g> in your pipkin, and boile them a little a<g ref="char:EOLhyphen"/>mong your broth, and thicken it with wine and yolkes of egges, and Sugar a good deale, and ſalt but a little, and ſet your broth no more on the fire for quai<g ref="char:EOLhyphen"/>ling, and ſerue it without ſippets.</p>
+                  </div>
+                  <div type="recipe">
+                     <pb facs="tcp:3775:8"/>
+                     <head>To boyle a Cony with a Pudding in his Belly.</head>
+                     <p>TAke your Cony and ſley him, &amp; leaue on the eares and waſh it faire, and take grated Bread, ſweete Suet minced fiine, corance and ſome fine hearbs, Pe<g ref="char:EOLhyphen"/>neriall; winter ſauery; percely, Spinage or beets, ſweet margerum, and chop your hearbs fine, and ſeaſon it with Cloues, Mace and Sugar, a little creame and ſalt and yolks of Egs, and Dates minſt fine. Then mingle all your ſtuf togither, and put it in your Rabets belly and ſowe it vp with a thred, for y<hi rend="sup">e</hi> broth take mut<g ref="char:EOLhyphen"/>ton broth when it is boyled a little, and put it in a pot wheras your Rabet may lye long waies in it, and let your broth boile or euer you put it in, then put in Gooceberies or els Grapes, corance and ſwéet Butter, Vergious, Salt, grated bread and Sugar a little, and when it is boyled, lay it in a diſh with Sops. And ſo ſerue it in.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To boile Chickins or Capons.</head>
+                     <p>FIrſt boile them in faire water til they be tender. Then take Bread and ſteep it in the broth of them, and with the
+<pb facs="tcp:3775:9"/> yolks of foure or fiue Egges, &amp; Vergious or white Wine ſtraine it and therewith ſeaſon your broth and your Capon in it. Then take Butter, perſly and other ſmal herbs, and chop them into it. And ſo ſerue them foorth vpon ſops of Bread.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To ſeeth chickins in Lettice.</head>
+                     <p>TAke a neck of Mutton with a marow bone, and ſo let it ſeethe, and ſcum it clean and let it boyle well togither, and when it is enough: then take out ſome of it and ſtraine it, and put in your Chic<g ref="char:EOLhyphen"/>kins. Then take a good many Letuce and waſh them clean and put them in. Then take a little white Bread and ſtraine it and put it into the pot to thick it withal. Then put a little whole mace to ſeaſon it with Pepper and Vergious, and a little ſugar, and cut ſops and lay them on, and put on the marow and ſo ſerue them.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To boyle chickins with hearbs.</head>
+                     <p>TAke your Chickins and ſcalde them and truſſe the wings on, &amp; put their féete vnder the wings of your Chickins, and ſet them on in a little pot and ſcum them faire, when they haue boyled: put in Spinage or Letuice a good deale, and
+<pb n="8" facs="tcp:3775:9"/> Roſemary, ſwéet butter, vergious, ſalt and a little Sugar and ſtrained Bread, with a litle wine, and cut ſippets, and ſerue it out.</p>
+                     <p>
+                        <hi>So may you boyle Mutton, or Pigeons, or Conny.</hi>
+                     </p>
+                  </div>
+                  <div type="recipe">
+                     <head>To ſeeth Hennes and capons in Winter, in whitebroth.</head>
+                     <p>TAke a neck of mutton &amp; a marow bone, and let them boile with the Hennes to<g ref="char:EOLhyphen"/>gither, then take Carret roots, and put the<g ref="char:cmbAbbrStroke">̄</g> into the pot, and then ſtraine a little bread to thick the pot withall and not too thicke, ſeaſon it with Pepper &amp; vergious, and the<g ref="char:cmbAbbrStroke">̄</g> couer them cloſe and let them boyle togi<g ref="char:EOLhyphen"/>ther, then cut Sops and put the broth and the marrow aboue, and ſo ſerue them.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To ſtue capons.</head>
+                     <p>TAke the beſt of your mutton broth and put therto a little whole pepper, and a little whole Mace, Parcely, and time, and boile the<g ref="char:cmbAbbrStroke">̄</g>. Then put in halfe a diſh of ſwéet Butter, Vergious, and a péece of Sugar. Then take a good quantitie of Gooſeberies, and boyle them by themſelues in a little broth, and poure them vpon your chickins, put into your broth a ſpoonfull of yeſt.</p>
+                  </div>
+                  <div type="recipe">
+                     <pb facs="tcp:3775:10"/>
+                     <head>To ſtue Sparrowes.</head>
+                     <p>TAke Ale and ſet it on the fire, and when it ſeetheth ſcum it, and then put in your Sparrowes and ſmall Raiſins, Sugar and Sinamon, Ginger, and Dates, and let the<g ref="char:cmbAbbrStroke">̄</g> boyle togither, and then take marrowe or Butter, and a little vergious, and keepe it cloſe. And when it is enough, make Sops in Platters and ſerue them ſorth.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To ſtue Sparrowes.</head>
+                     <p>TAke good Ale a pottel, or after the quan<g ref="char:EOLunhyphen"/>tities more or leſſe by your diſcretion, and ſet it ouer the fier to boyle, and put in your Sparowes and ſcum the broth, then put therin Onions, Percely, Time, Roſe<g ref="char:EOLhyphen"/>mary chopped ſmall, pepper and Saffron, with Cloues and Mace, a fewe. And make ſippets as you doo for Fiſh, and laye the Sparrowes vpon with the ſaid broth, and in the ſéething put in a peece of ſweet But<g ref="char:EOLhyphen"/>ter, and vergious if néed be</p>
+                  </div>
+                  <div type="recipe">
+                     <head>For to ſtue Larkes.</head>
+                     <p>FIrſt take them and drawe them cleane, and cut off their feete, and then take a good deale of wine in a platter, and take a good deale of marow, and put it in y<hi rend="sup">e</hi> Wine and ſet them on a Chafing diſh, and let the<g ref="char:cmbAbbrStroke">̄</g> ſtew there a good while, then take a quan<g ref="char:EOLhyphen"/>titie
+<pb n="9" facs="tcp:3775:10"/> of ſmal Raiſins, and waſh them clean and put them into the broth, and take a lit<g ref="char:EOLunhyphen"/>tle ſugar, and Sinamon, and a few crums of manchet bread, and put them into the Larkes, and let them ſtue altogither, then take and cut half a doſen Toſtes, and lay them in a Platter, then put them in a diſh with broth, and ſerue them out.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To ſtue Sparrowes or Larkes.</head>
+                     <p>TAke the beſt of Mutton broth, and put it in a Pipkin, and put to it a little whole Mace, whole Pepper, Claret wine, Marigolde leaues, Barberies, Roſewater Vergious, Sugar, and Marrowe: or els ſweet Butter. Perboile the Larkes before and then boyle them in the ſame broth and lay them vpon Sops.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To boile a Duck.</head>
+                     <p>SEeth the Duck with ſome good marow bones or Mutton, and take the beſt of the broth, and put therin a few Cloues, a good many ſliced onions, and let them boile well together till the Onions be tender, and the<g ref="char:cmbAbbrStroke">̄</g> ſeaſon your broth with Vergious, and a little ſugar &amp; ſalt, and a little bruſed pepper, take vp your Duck and lay it vpon ſops and giue it two ſlices vpon y<hi rend="sup">e</hi> breſt, and ſtick it ful of cloues &amp; pour y<hi rend="sup">e</hi> broth vpon it.</p>
+                  </div>
+                  <div type="recipe">
+                     <pb facs="tcp:3775:11"/>
+                     <head>To ſtue a wilde Mallard.</head>
+                     <p>TAKE a wilde Mallard, with a péece of Mutton, and ſet him on the fire, and let him ſéeth, and ſcum him cleane, then ſtraine a little bread and put it in, ſtice halfe a do<g ref="char:EOLhyphen"/>ſen of Onions, and take whole pepper and put it in, and ſeaſon it well with Vergious, and couer it cloſe and let it boyle till it be e<g ref="char:EOLhyphen"/>nough, Then put it in a platter and ſerue it without Sops.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To boyle Stockdoues.</head>
+                     <p>SEethe them with Beefe or Mutton, take the beſt of the broth and put it in a pipkin, and put thereunto Onions finelye minced, and a few Corance, and ſo boyle them till they be very tender, and ſeaſon them with vergious, and a little ſwéet but<g ref="char:EOLhyphen"/>ter, and pour them vpon your Stockdoues when they be laid vpon the Sops.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To ſtue a hinflank of Beefe without fruit.</head>
+                     <p>BOyle your flank of Béef very tender, till the broth be almoſt conſumed, then put the broth into a pipkin, and put to it Oni<g ref="char:EOLhyphen"/>ons, Caret roots ſhred ſmall, being tender ſodden before, and pepper groce beaten, ver<g ref="char:EOLunhyphen"/>gious, and halfe a diſh of ſweet butter, and to lay it vpon.</p>
+                  </div>
+                  <div type="recipe">
+                     <pb n="10" facs="tcp:3775:11"/>
+                     <head>To ſtue a Neares foot.</head>
+                     <p>FIrſt let your Neats foot be ſcalded and made cleane. Then take Onions, ſlice them and boyle them well in faire water. Then take halfe water and halfe Wine, ſo much as need to ſerue for the boiling of the Neats foot (which will be ſoone enough) and put it in a pipkin, put therin ſome Cloues, and a little whole pepper, and take the oni<g ref="char:EOLhyphen"/>ons out of the water they were ſodden in, and put them into the ſame pipkin, and the Neats foote with them till it be almoſt inough. Then take a little vergious, half a diſh of ſwéet butter and a little ſugar, and let them boyle a little togither, and ſerue them in vpon Sops.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>An other to ſtue a Neats foot.</head>
+                     <p>BOyle the Onions in Muſcadell: and put therinto a fewe Corance, whole pepper and cloues: then put in your Neats foot and boyle it tender and ſeaſon it with a good peece of butter, and when they be well boy<g ref="char:EOLhyphen"/>led, lay them vpon ſops and caſt about your diſh ſides a little pouder of Ginger.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To boyle a Leg of Mutton with Lemmons.</head>
+                     <p>VVHen your mutton is half boyled, take it vp, cut it in ſmall péeces,
+<pb facs="tcp:3775:12"/> put it into a Pipkin and couer it cloſe, and put therto the beſt of the broth, as much as ſhall couer your Mutton, your Lemmons being ſliced very thin and quartered and corance: put in pepper groce beaten, and ſo let them boile together, and when they be well boiled, ſeſon it with a little vergious, Sugar, Pepper groce beaten, and a little ſanders, ſo lay it in fine diſhes vpon ſops, it wil make iij. meſſe for the table.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To boile Mutton with Endiue, Borage, or Lettice, or any kinde of hearbs that may ſerue therunto.</head>
+                     <p>VVHen your Mutton is well boyled, take the beſt of the broth, and put it in a Pipkin, and put therto an handfull of Endiue, borage, or what herbs you liſt, and caſt therto a few corance, and let them boyle well, and put therto a péece of vpper cruſt of white bread, ſeaſon it with pepper groce beaten, and a little Vergious, and a little ſugar, &amp; ſo poure it vpon your meat.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To boile mutton for a ſick body.</head>
+                     <p>PVt your mutton into a Pipkin, ſéeth it and ſcum it clean, and put therto a cruſt of Bread. Fennell roots, Percely roots, Co<g ref="char:EOLhyphen"/>rance, great Raiſins, the ſtones taken out,
+<pb n="11" facs="tcp:3775:12"/> and hearbs according as the patient is. If they be colde, hot hearbs may be borne: If they be hot colde herbs be beſt, as Endiue, Sinamon, violet leaues, and ſome Sorell: let them boyle togither. Then put in Prunes, and a very little ſalt, this is broth for a ſick body.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make balles of Mutton.</head>
+                     <p>TAke your Mutton and mince it very fine with Suet. Then ſeaſon it with Sugar, ſinamon, Ginger, Cloues &amp; Mace, Salt, and raw Egges. Make it in round balles. Let your broth ſeeth ere you put the<g ref="char:cmbAbbrStroke">̄</g> in. Make your broth with Corance, dates quartered, whole Mace and ſalt. Thick it with yolkes of Egges, and Vergious, and ſerue it vpon Sops.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to boyle Pigges Petitoes.</head>
+                     <p>TAke your Pigs féet, and the Liuer and Lightes, and cut them in ſmall péeces, then take a litle mutton broth and apples ſliced, Corance, ſweet butter, vergious and grated bread, put them altogither in a lit<g ref="char:EOLhyphen"/>tle pipkin with ſalt and Pepper, perboyle your petitoes or euer you put the<g ref="char:cmbAbbrStroke">̄</g> in your Pipkin, then when they be ready, ſerue the<g ref="char:cmbAbbrStroke">̄</g> vpon ſippets.</p>
+                  </div>
+                  <div type="recipe">
+                     <pb facs="tcp:3775:13"/>
+                     <head>To ſtill a cock for a weake body that is conſumed.</head>
+                     <p>TAke a red Cock that is not too olde, and beate him to death, and whe<g ref="char:cmbAbbrStroke">̄</g> he is dead, fley him and quarter him in ſmall péeces, and bruſe the bones euerye one of them. Then take roots of Fenell, perſely, and ſuc<g ref="char:EOLhyphen"/>cory, Violet leaues, and a good quantitye of Borage, put the Cock in an earthen pipkin and betweene euerye quarter ſome rootes, hearbs, corance, whole mace, Anis ſeeds, be<g ref="char:EOLhyphen"/>ing fine rubbed, and Licorice being ſcraped and ſliced, and ſo fill your pipkin with al the quarters of the Cocke, put in a quarter of a pinte of Roſewater, a pinte of white wine, two or three Dates. If you put in a peece of golde, it will be the better, and halfe a pound of prunes, and lay a couer vpon it, and ſtop it with dough, and ſet the pipkin in a pot of ſeething water, and ſo let it ſeethe twelue houres with a fire vnder the braſſe pot that it ſtandeth in, and the pot kept with licour twelue houres.</p>
+                     <p>When it hath ſodden ſo many houres, then take out the pipkin, pul it open, and put the broth faire into a pot, giue it vnto the weak perſon morning and euening.</p>
+                  </div>
+                  <div type="recipe">
+                     <pb n="12" facs="tcp:3775:13"/>
+                     <head>To make a Hodgepodge.</head>
+                     <p>BOyle a neck of Mutton or a fat rump of Beef, and when it is well boyled, take the beſt of the broth and put it into a pipkin and put a good many onyons to it, two handfull of marigold flowers, and a handful of percely fine picked and groce ſhredde and not too ſmall, and ſo boyle them in the broth and thicke it with ſtrained bread, putting therin groce beaten pepper, and a ſpoonfull of Vinagre, and let it boyle ſomwhat thick and ſo lay it vpon your meat.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make puddings of a Swine.</head>
+                     <p>TAKE the blood of the Swine, and ſwing it, then put therto minced onions large<g ref="char:EOLhyphen"/>ly with Salt, and the Suet of the Hog min<g ref="char:EOLunhyphen"/>ced. Then take the guts clean waſhed, and ſtuffe them with the aforeſaid ſtuffe: and ſo ſeeth them, then broile them vpon the coles, and ſerue them foorth.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make white Puddings of the Hogges Liuer.</head>
+                     <p>YOu muſt perboile the Liuer, and beate it in a morter, and then ſtraine it with Creame, and put therto ſix yolks of Egges and the white of two Egs, and grate halfe
+<pb facs="tcp:3775:14"/> a halfepeny loafe of light Bread, and put it therto with ſmall Raiſins, and Dates, Cloues, Mace, Sugar, Saffron, and the ſuet of Beefe.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>Eiſands with Otemeale grotes.</head>
+                     <p>TAke a pinte of Creame and ſeethe it, and when it is hot, put therto a pinte of Otemeale grotes, and let them ſoke in it all night, and put therto viij. yolks of egs, and a little Pepper, Cloues, mace, and ſaf<g ref="char:EOLhyphen"/>fron, and a good deale of Suet of beefe, and ſmall Raiſins and Dates, and a little Su<g ref="char:EOLhyphen"/>gar.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make Liuerings of a Swine.</head>
+                     <p>FIrſt perboile the Liuer, then ſtamp it in a Morter, and when it is ſmall inough, put it in a veſſell, and put to it ſuct, yolkes of Egges, pepper, cloues, Mace, and Salt. Then take your Guts cleane waſhed, and ſtuffe them with the foreſaide ſtuffe, then boyle them, that doon ſerue them forth.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to make a Pudding in a Turnep root.</head>
+                     <p>TAke your Turnep root, and waſh it fair in warm water, and ſcrape it faire and make it hollow as you doo a Carret roote, and make your ſtuffe of grated bread, and Apples chopt fine, then take Corance, and
+<pb n="13" facs="tcp:3775:14"/> hard Egs, and ſeaſon it with Sugar Si<g ref="char:EOLhyphen"/>namon, and Ginger, and yolks of hard egs and ſo temper your ſtuffe, and put it into the Turnep, then take faire water, and ſet it on the fire, and let it boyle or euer you put in your Turneps, then put in a good péece of ſwéet Butter, and Claret Wine, and a little Vinagre, and Roſemarye, and whole Mace, Sugar, and Corance, and Dates quartered, and when they are boy<g ref="char:EOLhyphen"/>led inough, then will they be tender, then ſerue it in.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>A Pudding in Egges.</head>
+                     <p>TAke and boyle your Egges hard, and blanch them, and cut off the Crowne of them, and take then of the yolks and chop them, Beetes boyled, and yolkes of hard egges, grated Bread, and Corance, Salte Sugar, Sinamon, and Ginger, and then put the yolkes of rawe Egges, and mingle them altogither, then put in your Egges, then for your broth take a little Mutton broth, Corance, Dates, Sugar, a little ſalt and butter, thicken it with yolks of Egs, vergious and a little ſugar, ſo ſerue it in.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>A Pudding in a Tench.</head>
+                     <p>TAKE your Tenche and drawe it very cleane, and cut it not ouer lowe. Then
+<pb facs="tcp:3775:15"/> take béets boiled, or Spinage, and choppe it with yolks of hard Egges, Corance, grated Bread, ſalt, Pepper, Sugar and Sinamon, and yolks of raw Egges, and mingle it to<g ref="char:EOLhyphen"/>gither, and put it in the Tenches bellye, then put it in a platter with faire water and ſwéet butter, and turn it in y<hi rend="sup">e</hi> Platter, and ſet it in the Ouen, and when it is i<g ref="char:EOLhyphen"/>nough, ſerue it in with ſippits and poure the licour that it was boiled in vpon it.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make a pudding in a Carret root.</head>
+                     <p>TAke your Carret root and ſcrape it fair, then take a fine knife and cut out all the meat that is within the roote, and make it hollow, then make your pudding ſtuffe of the liuer of a gooce or of a Pig, with grated bread, Corance, Cloues and mace, Dates, Pepper, Salt and Sugar, chop your Liuer very ſmall, and perboile it ere you chop it, ſo doon, put it in your hollow root. As for the broth, take mutton broth with corance, ca<g ref="char:EOLhyphen"/>rets ſliſte, ſalt, whole Mace, ſwéet Butter, Vergious and grated bread, and ſo ſerue it forth vpon ſippets.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>A Pudding in a Cowcumber.</head>
+                     <p>TAke your Cowcumber and cut out all the meat that is within it, then take a
+<pb n="14" facs="tcp:3775:15"/> Liuer of a Lamb or Pigge, and Grapes or Gooceberies, and grated bread, pepper, ſalt, Cloues and mace, and a little ſuet, and the yolkes of thrée Egs, and mingle altogither and put in the Cowcumber, and let your broth boile or euer you put it in: the broth muſt be made of Mutton broth, Vinagre, and Butter, ſtrained bread, and Salt, and ſo ſerue it out.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to dreſſe Neatſtungs.</head>
+                     <p>FIrſt boile them till they be very tender, then make toſtes of bread, and toſte the<g ref="char:cmbAbbrStroke">̄</g> till they be very black, then waſh the ſame toſtes in faire water, and put them in a faire earthen Veſſell, and then put to them fleſh broth, Vinagre, red Wine, Sinamon and Ginger, and ſtraine theſe altogither, ſo that it be not too thick, and put therto Su<g ref="char:EOLhyphen"/>gar and ſalt, and boyle all theſe togither, then cut your tungs in faire leſhes, and ſo frye them in ſwéet Butter, and that doone, put the Leſhes into your ſauce, and then let them boile well togither, and ſo ſerue them with the ſame ſauce.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>A broth for a Neatstung.</head>
+                     <p>TAke Claret wine, grated Bread, Co<g ref="char:EOLhyphen"/>rance, ſwéete Butter, Sugar, and Si<g ref="char:EOLhyphen"/>namon,
+<pb facs="tcp:3775:16"/> boyle them altogither. Then take the Neats tung and ſlice it and ſo lay it in your diſh with ſippets and ſerue it in.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>A boyled Sallet.</head>
+                     <p>TAke Spinage and boyle it and chop it, and when it is chopt, poure it in a little Pipkin, with Corance, ſweete Butter, Vi<g ref="char:EOLhyphen"/>nagre, and Sugar, boyle them altogither, and when they are boyled put it in a diſhe, and lay ſippets round about, and ſtrew ſu<g ref="char:EOLhyphen"/>ger vpon them and ſerue them out.</p>
+                  </div>
+               </div>
+               <div n="fish" type="section">
+                  <head>¶ For Fiſh.</head>
+                  <div type="recipe">
+                     <head>To ſeethe a Pike.</head>
+                     <p>SCoure your Pike with bay Salte, and then open him on the back, faire waſhe him, and then caſt a little white Salte v<g ref="char:EOLhyphen"/>pon him. Set on faire water wel ſeaſoned with Salte. When this licour ſéetheſh, the<g ref="char:cmbAbbrStroke">̄</g> put in your Pike and fair ſcum it, the<g ref="char:cmbAbbrStroke">̄</g> take the beſt of the broth when it is ſodden, and put it in a little Chafer or Pipkin, and put therto parcely and a little Time, Roſema<g ref="char:EOLhyphen"/>ry, whole Mace, good Yeſt, and half aſmuch Vergious as you haue licour, and boile the<g ref="char:cmbAbbrStroke">̄</g> togither, and put in the Liuer of the Pike,
+<pb n="15" facs="tcp:3775:16"/> and the kell, being clean ſcaled and waſhed, and let them boyle well, then ſeaſon your broth with pepper groce beaten, with ſalt not too much, becauſe your licour is Salte that your Pike is boyled in, put therein a good péece of ſweete Butter, and ſeaſon it with a little Sugar that it be neither too ſharpe nor too ſwéet. So take vp your pike and laye it vpon Sops the ſkinny ſide vp<g ref="char:EOLhyphen"/>ward, and ſo lay your broth vpon it.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>A Pike ſauce for a Pike, Bream, Perch, roch, Carp, Flounders, and all manner of Brooke fiſh.</head>
+                     <p>TAke a poſie of Roſemary and Time, and binde them together, and put in alſo a quantity of Parcelye not bound, and put it into a Cauldron of water, ſalte, and Yeſt, and the hearbs, and let them boyle a prittie while, then put in the Fiſhe, and a good quantitie of Butter, and let them boyle a good while, and you ſhall haue your Pyke Sauce. For all theſe Fiſhes aboue written if they muſt be broyled: take ſauce for them, Butter, Pepper and Vinagre, and boyle it vpon a chafingdiſh, and then lay the broyled fiſh vpon the diſh, but for Eeles and freſh Salmon nothing
+<pb facs="tcp:3775:17"/> but pepper and Vinagre ouer-boyled, and alſo if you will frye them, you muſt take a good quantity of Percely, after the Fiſh is fryed, put in the percelye into the Frying pan, and let it frye in the butter, then take it vp and put it on the fryed Fiſh, as fryed Plaice, Whiting, and ſuch other fiſh, except Eeles, freſh Salmon and Cunger, which be neuer fried, but baked, broiled, roaſted and ſodden.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to ſeeth a Carpe.</head>
+                     <p>CVt the throat of your Carp, &amp; ſaue the blood in a ſaucer, and take your Carpe and ſcoure him with Salt, take out the gal and the Guts, and leaue the Liuer and the fat in the belly of the Carp, ſet on your li<g ref="char:EOLhyphen"/>cour, water and Salt to ſeeth him, and whe<g ref="char:cmbAbbrStroke">̄</g> your licour ſeethes, put in your carp or euer he be dead, and take good heede for ſpringing out of the Pan, for it is euer good to ſeethe fiſh quick, for it maketh the fiſh to eat hard.</p>
+                     <p>Take the beſt of the broth and a little red Wine, good ſtore of Vergious, new yeſt, with the blood of the Carp ſtrained, and ſo put it in a Pipkin with Corance, whole Pepper, and boyle them altogither, put therto half a diſh of ſweet butter, and a lit<g ref="char:EOLhyphen"/>tle time, and Barberies if you haue them,
+<pb n="16" facs="tcp:3775:17"/> and when they be well boyled, ſeaſon it not too ſwéet nor too ſharpe, and then poure it v<g ref="char:EOLhyphen"/>pon your Carpe.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To ſeeth Roches, Flounders, or Eeles.</head>
+                     <p>MAke ye good broth with new yeſt, put therin vergious, ſalt, percely, a little Time, and not much roſemary and pepper, ſo ſet it vpon the fire and boile it, and when it is well boyled put in the Roches, Floun<g ref="char:EOLhyphen"/>ders, Eeles and a little ſwéet butter.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To ſeeth a Gurnard.</head>
+                     <p>OPen your Gurnard in y<hi rend="sup">e</hi> back, and faire waſh and ſéeth it in water &amp; Salt, with the fiſhy ſide vpward, and when it is well ſod, take ſome of the beſt of the broth if you will, or els a little fair water, and put to it new yeſt, a little vergious, percely, roſema<g ref="char:EOLhyphen"/>ry, a little time, a péece of ſweet butter, and whole Mace, and let it boyle in a pipkin by it ſelf till it be well boyled, and then when you ſerue in your Gurnard, poure the ſame broth vpon it.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To ſeeth a Dory or a Mullet.</head>
+                     <p>Make your broth light with yeſt, ſome<g ref="char:EOLhyphen"/>what ſauery with ſalt, and put therin a little Roſemary, and when it ſeethes put in your fiſh, and let it ſeeth very ſoftly, take faire water and vergious a like much, and
+<pb facs="tcp:3775:18"/> put therto a little new Yeſt, corance, whole pepper and a little Mace, and Dates ſhred very fine, and boyle them wel togither, and when they be well boyled, take the beſt of your broth that your fiſh is ſodden in, and put to it ſttrawberyes, gooſeberyes, or bar<g ref="char:EOLhyphen"/>beryes, ſweet Butter, ſome Sugar, and ſo ſeaſon vp your broth, and poure vpon your Dorry or Mullet.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To ſeeth Turbut or Cunger.</head>
+                     <p>SEt on water and ſalt, and ſeaſon it wel, if the Turbut be great quarter him into foure quarters, if he be ſmall, cut him but in halfe, if it be a Burt, ſeethe it whole after this ſort. When your licour doth ſéeth, put in your ſiſh and let it ſeeth very ſoftly till it be ſodden enough, and when it is ſodden, take it not vp till the licour be colde. Then take halfe white Wine, with Vinagre and the broth that it was ſodden in, and lay the fiſh in it to ſouce, Cungar, Sturgion, and all Fiſh that is to be ſouced, in like manner ſauing you muſt ſéethe your Sturgion in water and Salte, and ſouce it with white Wine.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to ſeeth Shrimps.</head>
+                     <p>TAke halfe water and halfe béere or Ale, and ſome ſalt good and ſauery, and ſet it
+<pb n="17" facs="tcp:3775:18"/> on the fire and faire ſcum it, and when it ſée<g ref="char:EOLhyphen"/>theth a full wallop, put in your Shrimpes faire waſhed, and ſeethe them with a quick fire, ſcum them very clean, and let the<g ref="char:cmbAbbrStroke">̄</g> haue but two walmes, then take them vp with a ſcummer, and lay them vpon a fair white cloth, and ſprinckle a little white ſalt vpon them.</p>
+                  </div>
+               </div>
+               <div n="baked meats" type="section">
+                  <head>Bake Meates.</head>
+                  <div type="recipe">
+                     <head>For fine Pyes of Veale or Mutton.</head>
+                     <p>PErboyle your meat and ſhredde it fine, and ſhred your Suet by it ſelfe. When your Suet is fine ſhred put it to your Mut<g ref="char:EOLhyphen"/>ton or Veale and mince them togither, put therto halfe a doſen yolkes of Egges be<g ref="char:EOLhyphen"/>ing hard ſodden and fine minced, ſmall Co<g ref="char:EOLhyphen"/>rance, dates fine minced, ſeaſon it with clo<g ref="char:EOLhyphen"/>ues and mace, Sinamon and Ginger, a ve<g ref="char:EOLhyphen"/>ry little Pepper, a handfull of Carowaies, Sugar and Vergious, and ſome Salt, and ſo put it into your paſte being Chewets or Trunk pyes.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>For Pyes of Mutton or Beefe.</head>
+                     <p>SHred your meat and Suet togither fine, ſeaſon it with cloues, mace, Pepper, and
+<pb facs="tcp:3775:19"/> ſome Saffron, great Raiſins, Corance and prunes, and ſo put it into your Pyes.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To bake a Neats tung.</head>
+                     <p>SEeth your Neats tung very tender and ſlice it diamond ſlices, waſh it with ver<g ref="char:EOLhyphen"/>gious, ſeaſon it with Pepper and ſalt, ſina<g ref="char:EOLhyphen"/>mon and ginger, then lay it into your coffin with Corance, whole Mace, Onions being very ſmall minced, with Marow or elſe ve<g ref="char:EOLhyphen"/>ry ſweet butter, ſome Sugar &amp; ſome dates being very ſmall minced, and put therein ſome vergious.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To bake a Pigge.</head>
+                     <p>TAke your Pig and flea it, and draw out all that clean which is in his bellye, and waſh him clean, and perboyle him, ſeaſon it with Cloues, mace, nutmegs, pepper &amp; ſalt, and ſo lay him in the paſte with good ſtore of Butter, then ſet it in the Ouen till it be ba<g ref="char:EOLhyphen"/>ked inough.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To bake a gammon of Bacon.</head>
+                     <p>TAke your Bacon and boyle it, and ſtuffe it with Parcely and Sage, and yolks of hard Egges, and when it is boyled, ſtuffe it and let it boyle againe, ſeaſon it with Pep<g ref="char:EOLhyphen"/>per, cloues and mace, whole cloues ſtick faſt in, ſo then lay it in your paſte with ſalt but<g ref="char:EOLhyphen"/>ter.</p>
+                  </div>
+                  <div type="recipe">
+                     <pb n="18" facs="tcp:3775:19"/>
+                     <head>To bake Chickins.</head>
+                     <p>SEaſon them with cloues, mace, ſinamon ginger, and ſome pepper, ſo put them in<g ref="char:EOLhyphen"/>to your coffin, and put therto corance dates Prunes, and ſwéet Butter, or els Marow, and when they be halfe baked, put in ſome ſirup of vergious, and ſome ſugar, ſhake the<g ref="char:cmbAbbrStroke">̄</g> togither and ſet them into the ouen again.</p>
+                     <p>Bake Sparowes, Larkes, or any kinde of ſmall birds, claues féet or ſhéepes tunges after the ſame manner.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make a Chicken Pye.</head>
+                     <p>SCalde the Chickins, draw them, and pull out the breſt bones, then ſeaſon the<g ref="char:cmbAbbrStroke">̄</g> with cloues and mace, Pepper and Salte, and if you haue them grapes, or gooſeberies: when you haue ſo deon, make paſte of fine flower, and put in your Chickins, and ſet them in the Ouen, then boyle foure Egs hard, then take the yolks and ſtrain them with vergi<g ref="char:EOLhyphen"/>ous, and put Sugar thereto and put it into your chicken pye when it is half baked, and when it is ready to be ſerued in, annoint it ouer with butter, Sugar &amp; roſewater, then put it into the ouen til you ſerue them in.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To bake Chickins without fruit.</head>
+                     <p>SEaſon your Chickins with cloues, mace and pepper, lay the<g ref="char:cmbAbbrStroke">̄</g> into your paſte with
+<pb facs="tcp:3775:20"/> ſwéet butter, gooſeberies, ſugar and whole mace. And when they be well baked, put therto vergious, yolkes of egges ſtrained, ſhake them togither and ſet them into the Ouen againe.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To bake Pigeons.</head>
+                     <p>SEaſon them with Pepper, ſalte, and ver<g ref="char:EOLhyphen"/>gious, and lay the<g ref="char:cmbAbbrStroke">̄</g> in your paſte, and put to them ſweet Butter, gooſeberies, and two or three ſpoonfull of vergious.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To bake Crane or Buſtard.</head>
+                     <p>FIrſt take him and perboyle him a little, and then take ſweet Lard and Lard him withall, the<g ref="char:cmbAbbrStroke">̄</g> put it into the Coffin, and take Pepper and ſalt, and ſeaſon them togither and caſt it vpon it, and take butter, and put it into the Coffin, and ſo let it bake y<hi rend="sup">e</hi> ſpace of foure houres, and ſerue them forth.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To bake Geece or Capons.</head>
+                     <p>SEaſon them with pepper and Salte, put Butter therto, and prick your gooſe with ſome Cloues,</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To bake Turky Fowles.</head>
+                     <p>CLeue your Turkye foule on the back, and bruſe al the bones. Seaſon it with Pepper groce beaten and ſalt, and put into it good ſtore of Butter, he muſt haue fiue houres baking.</p>
+                  </div>
+                  <div type="recipe">
+                     <pb n="19" facs="tcp:3775:20"/>
+                     <head>To bake Feſant or Partriges.</head>
+                     <p>BAke your Feſant or Partridge as you doo your capon with Pepper and Salt, and draw them with Lard if you wil, and put to them ſweet Butter.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to bake Sparrowes or other ſmall birds.</head>
+                     <p>MAke paſte of fine floure, egges, butter and faire water, therof make Coffins then ſeaſon your birds with ſugar and gin<g ref="char:EOLhyphen"/>ger, then take good chéeſe clene ſcraped and ſmall minced with a little Butter, and put them into your coffins, and put therto your birds, and cloſe it till it be enough.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To bake Capons or Chickins.</head>
+                     <p>TAke paſte as is aforeſaid, and ſeaſon the Capon with ginger, ſalt and Vergious. then take Lard and mince it meetlye ſmall, and put that firſt into the Coffin, then put your Capon vnto it with the breſt down<g ref="char:EOLhyphen"/>ward, ſo couer it and bake it, when it is al<g ref="char:EOLhyphen"/>moſt enough, put into it the yolkes of three or foure Egges ſtrained through a ſtrainer with a little vergious, and ſo let it ſtand til it be inough.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To bake wilde Ducks.</head>
+                     <p>VVHen they be fair dreſſed and perboi<g ref="char:EOLhyphen"/>led, ſeaſon them with Pepper and Salt, a few whole cloues amongſt the, and
+<pb facs="tcp:3775:21"/> Onions ſmall minced, and ſwéet butter, ver<g ref="char:EOLunhyphen"/>gious and a little ſugar.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>For to bake Mallards.</head>
+                     <p>FIrſt truſſe them and perboyle them, and put them into the coffin, then take pep<g ref="char:EOLhyphen"/>per and Salt, and ſeaſon them and foure or fiue onions péeled and ſliced, and put them altogither with a good peece of ſwéet butter vnto the Mallards, and ſo let the<g ref="char:cmbAbbrStroke">̄</g> bake two houres, and when they be baked, put in half a goblet of Vergious for euery Mallard, and ſo ſerue them.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to bake pyes of Calues feet.</head>
+                     <p>TAke Calues feet and waſh them, boyle and blanch the haire of them, ſeaſon the<g ref="char:cmbAbbrStroke">̄</g> with cloues and mace, and a little pepper, vergious and ſugar, dates, prunes, corance, and ſweet butter, then make your paſte of fine flower with yolkes of Egges, and raiſe the Coffin ſquare, when it is halfe baked, then take it out and put in Vergious and ſugar with the yolks of hard Egs ſtrained.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to bake Conies, Rabets, or Hares, with fruit or without fruit.</head>
+                     <p>SEaſon them with Pepper and Salte, Cloues and mace, and ſo laye them into your paſte with Corance or Prunes, great
+<pb n="20" facs="tcp:3775:21"/> Raiſins and if you will: butter and a little vergious.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To bake ſmall meats.</head>
+                     <p>TAke Egges and ſéethe them hard, then take the yolkes out of them and braye them in a morter, and temper them with Creme, and then ſtraine them, and put to the<g ref="char:cmbAbbrStroke">̄</g> Pepper, Saffron, Cloues, Mace, ſmall raiſins, Almonds blanched and ſmall ſhred, and grated bread.</p>
+                     <p>Take Peares alſo ſodden in Ale, and bray and ſtraine them with the ſame Licour, and put therto Baſtard and Honny, and put it into a pan and ſtir it on the fire til it be wel ſodden, then make little coffins and ſet the<g ref="char:cmbAbbrStroke">̄</g> in the Ouen til they be hard, and then take them out againe, and put the foreſaid licour into them and ſo ſerue them forth.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make ſmall bake meats of Sirup and Peares.</head>
+                     <p>TAke Peares and ſéethe them in Ale, then bray them and ſtraine them and put Sanders to them and Ale, with the ſpi<g ref="char:EOLhyphen"/>ces aforeſaide, and the Coffins in likewiſe ordered, and ſo put in the ſirup.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to bake Veniſon.</head>
+                     <p>VVHen it is perboiled, ſeaſon it with Salt and Pepper ſomewhat groce
+<pb facs="tcp:3775:22"/> beaten, and a little Ginger, and good ſtore of ſwéet Butter, and when the Veniſon is tender baked, put to it half a doſen ſpoonfull of Claret wine, and ſhake it well togither.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To bake Veniſon to eat hot.</head>
+                     <p>CVt the Veniſon in faire péeces, in quan<g ref="char:EOLhyphen"/>titie as you will haue your paſties, and perboyle it, that doon, ſtick the grain ſide ful of Cloues, and Lard the lean ſide with good lard, and ſeaſon it with pepper, ſalt, and all manner of ſpices, then put the grained ſide of the veniſon downwards into the coffin of brown paſte, and ſo cloſe it and bake it, and whe<g ref="char:cmbAbbrStroke">̄</g> it is open turn the grain ſide vpward.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To bake Veniſon to eat colde.</head>
+                     <p>TAke Veniſon and cut it as the graine goeth, and cut it in quantity as ye wil haue your Paſties, and perboile it in faire water, then take Lard and cut it in length of your fleſh, and therwith lard it as thicke as you can, ſo that one péece of the Larde touch not an other. Then take all manner of ſpices, ſalt, and Vinagre, that doon, put it into brown paſte and bake it.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To bake Veniſon of red Deere.</head>
+                     <p>LAye it in water, and then waſh it very clean out of y<hi rend="sup">e</hi> water, if it be clean draw it with Larde, then take meale and ſift it,
+<pb n="21" facs="tcp:3775:22"/> and take faire licour and let it boile, &amp; make your paſte with that, then take Béefe ſuet, mince it and beate it, driue out your paſte very thick, cloſe it and let it bake ſix houres when it is half baked, take Cloues &amp; mace and Vinagre, and ſo boile the<g ref="char:cmbAbbrStroke">̄</g> togither, put them into your redde Déere, at a little hole made for that purpoſe. And when you haue ſo doon, ſtop the hole with ſome of the ſame dough, and then ſet it in againe vntill it be inough.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To bake Veniſon of Fallow Deere.</head>
+                     <p>LAy it in water and waſh it very clean, then perboile it, if it be of the ſide, raiſe the ſkin of it: if it be of the haunch, preſſe it: ſeaſon it with pepper and ſalt, take good ſtore of Oxe Suet, and mince it very fine, when von haue minced it, beat it, the<g ref="char:cmbAbbrStroke">̄</g> take Flower, butter and Egges and make your paſte ſtiffe, then driue it out, and then put in your ſuet and Veniſon and cloſe it, then take the yolk of an egge and a little beere, and wet it ouer, and let it bake foure hou<g ref="char:EOLhyphen"/>res, and then ſerue it in.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To bake the Vmbles of a Deere.</head>
+                     <p>MInce them very ſmall with Suet, and ſeaſon them with Pepper, a little
+<pb facs="tcp:3775:23"/> Ginger, a little Sinamon and Corance, and put into your paſte, and when your pye is baked, put to it two ſpoonfuls of Cla<g ref="char:EOLhyphen"/>ret wine, and ſhake it well togither.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To bake a Pig like a Fawne.</head>
+                     <p>FLey him when he is in the haire, ſeaſon it with pepper and ſalt, Cloues and mace, take Claret wine, Vergious, Roſewater, Sinamon, Ginger and Sugar, boyle them togither, laye your Pig flat like a Fawne or a Kidde, and put your ſirup vnto it and ſwéet butter, and ſo bake it leiſurely.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make Florentines.</head>
+                     <p>TAke Vele and ſome of the Kidney of the Loyne, or colde Veale roaſted, colde ca<g ref="char:EOLhyphen"/>pon or Pheſant, which of them you wil, and mince it very ſmall with ſwéet ſuet, put vn<g ref="char:EOLhyphen"/>to it two or three yolks of Egs, being hard ſod, Corance and dates ſmall ſhred, ſeaſon it with a little ſinamon and ginger, a very little cloues and mace, with a little Salte and ſugar, a little Time being finely ſhred. Make your paſte fine with butter &amp; yolkes of Egs and Sugar, role it very thin and ſo lay it in a platter with butter vnderneath: and ſo cut your couer and lay it vpon it.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>A Florentine of Fleſh.</head>
+                     <pb n="22" facs="tcp:3775:23"/>
+                     <p>TAKE the Kidneies of Veale and chop them very ſmall with Corance, dates, ſinamon and Ginger, Sugar, ſalt, and the yolks of thrée Egs, and mingle altogither, and make a fine paſte with yolks of egges, and butter, and let there be Butter in your diſhe bottome, then driue them to ſmall Cakes, and put one in the diſh bottom, and lay your meat in, then lay your other vpon your meat, and cloſe them togither, and cut the couer and it, when it is baked the<g ref="char:cmbAbbrStroke">̄</g> ſtrew Sugar and ſerue it out.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>A Florentine of Fiſh.</head>
+                     <p>TAke apples, grated bread, Corance, and chop your apples verye fine, and mingle your ſtuffe with yolkes of Egs, and driue out your paſte as you do the other, put but<g ref="char:EOLhyphen"/>ter in your diſh bottom and ſo ſerue it out.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make Florentines with Eeles for Fiſh dayes.</head>
+                     <p>TAKE great Eeles, fleye them and per<g ref="char:EOLhyphen"/>boyle them a little, then take the fiſhe from y<hi rend="sup">e</hi> bones, and mince it ſmall with ſome Wardens amongſt it, to make it to mince ſmall, and ſeaſon it with cloues and mace, pepper, Corance and Dates, and when you lay it into your paſte, take a little fine Su<g ref="char:EOLhyphen"/>gar and lay it vpon before you couer it, and
+<pb facs="tcp:3775:24"/> when it is halfe baked or altogither, laye a péece of ſwéet Butter vpon the couer, and a little roſewater and ſugar. After the ſame manner, minced pyes of Eeles.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make a Florentine.</head>
+                     <p>TAke the Kidney of Veale and boyle it a little, choppe it very fine. Then take Cloues, Mace and Pepper, and ſeaſon it withall, then take an ounce of Biſkets, and aſmuch of Carowayes, and put into your ſtuffe, make your paſte of fine floure, butter Egges and Sugar, and driue your paſte ve<g ref="char:EOLhyphen"/>ry thin, and lay a ſhéet of paſte in a diſh and vnder it lay a little butter, and ſpread it a<g ref="char:EOLhyphen"/>broad with your thumb, the<g ref="char:cmbAbbrStroke">̄</g> lay your meat aloft on it in the diſhe, then make the other ſhéet and cut it and lay it vpon your meat. Then cloſe it and cut it round about like a Starre, and ſet it in the Ouen and let it a<g ref="char:EOLhyphen"/>bide a quarter of an houre, then take it out and wet it ouer with Butter, then caſt ſu<g ref="char:EOLhyphen"/>gar wet with roſewater vpon it, then ſet it into the Ouen again a little while, the<g ref="char:cmbAbbrStroke">̄</g> take it out and ſerue it in.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to make Chuets.</head>
+                     <p>TAKE Veale and perboyle it and chop it very fine, take beefe Suet and mince it fine, then take Prunes, Dates and
+<pb n="23" facs="tcp:3775:24"/> Corance, waſh them very clean and put the<g ref="char:cmbAbbrStroke">̄</g> into your meat, then take Cloues, Mace, and pepper to ſeaſon your meat withal and a little quantity of ſalt, vergious and Su<g ref="char:EOLhyphen"/>gar, two ounces of biſkets, and as many of Carowaies, this is the ſeaſoning of your meat, then take fine flowre, yolkes of Egs, and butter, a little quantitye of roſewater and ſugar, then make little coffins for your Chewets and let them bake a quarter of an houre, then wet them ouer with butter, then ſtrewe on Sugar and wet the Sugar with a little Roſewater, and ſet them into the Ouen again, then take and ſerue fiue in a diſh.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to bake Vaunts.</head>
+                     <p>TAke the kidney of Veale and perboile it till it be tender, then take &amp; chop it ſmall with the yolkes of thrée or foure Egs, then ſeaſon it with Dates ſmall cut, ſmall rai<g ref="char:EOLhyphen"/>ſins, Ginger, Sugar, Sinamon, Saffron and a little Salte, and for the paſte to laye it in. Take a doſen of Egs both the white and the yolkes, and beate them well togi<g ref="char:EOLhyphen"/>ther, then take Butter and put it into a frying pan, and fry them as thin as a pan<g ref="char:EOLhyphen"/>cake, then lay your ſtuffe therin, and ſo frye them togither in a pan, then caſt ſugar and
+<pb facs="tcp:3775:25"/> Ginger vpon it, and ſo ſerue it forth.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to make Peſcods.</head>
+                     <p>FIrſt make ſhort paſte with yolks of egs, butter and a little ſugar. Then take for the ſtuffe, Marow, ſmall raiſins, dates, Si<g ref="char:EOLhyphen"/>namon, Sugar and Ginger, and then frye them with ſwéet butter, and whe<g ref="char:cmbAbbrStroke">̄</g> you ſerue them, caſt on Sugar and Sinamon.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to bake Eeles whole.</head>
+                     <p>VVHen they be fleyed &amp; clean waſhed, ſeaſon them with vergious, pepper, and ſalt, Cloues and mace, and put to them corance, great Raiſins and Prunes, ſweete butter and Vergious.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To bake Lamprons.</head>
+                     <p>FAire ſcoure them or fleye them, and ſea<g ref="char:EOLhyphen"/>ſon them with pepper and Salt, and put to them ſome onions, vergious, butter and Oiſters.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to bake Lamprons fine.</head>
+                     <p>PVt to them ſmall Raiſins and Onyons minced very fine, and dates minced fine, a little whole Mace, ſome Prunes, if you will butter and vergious.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to bake a Lamprey.</head>
+                     <p>VVHen you haue fleied and waſhed it clean, ſeaſon it with Pepper, and ſalt, and make a light Gallandine and
+<pb n="24" facs="tcp:3775:25"/> put to it good ſtore of butter, and after this ſort you muſt make your gallandine. Take white bread toſtes and lay them in ſteep in Claret wine, or els in vergious, &amp; ſo ſtrain them with vinagre, and make it ſomewhat thin, and put ſugar, Sinamon and ginger, and boyle it on a Chafing diſh of coles, this Galandine being not too thicke, put it into your pye of Lampreye, and after this ſort ſhall you bake Porpos or Puffins.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To bake Carp, Bream, Mullet, Pike, Trout, Roche or any other kinde of Fiſh.</head>
+                     <p>SEaſon them with Cloues and Mace, and pepper, and bake them with ſmal raiſins, ſweete butter and Vergious, great raiſins, and ſome prunes.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to bake a Holybut head.</head>
+                     <p>FIrſt water it till it be freſh then cut it in ſmall peeces like Culpines of an Erle, and ſeaſon it with pepper &amp; Saffron, cloues and mace, ſmall raiſins &amp; great, and med<g ref="char:EOLhyphen"/>dle al theſe wel togither, and alſo put ther<g ref="char:EOLhyphen"/>to a good meſſe of vergious, and ſo bake the ſame Fiſh.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to bake Cunger.</head>
+                     <p>SEaſon it with pepper and ſalt and make your pies but euen meet for one gubbin, and put to it ſweet butter, &amp; let it not drye.</p>
+                  </div>
+                  <div type="recipe">
+                     <pb facs="tcp:3775:26"/>
+                     <head>To bake a Stockfiſh.</head>
+                     <p>SEaſon your Stockfiſh with pepper &amp; ſalt and lay it into y<hi rend="sup">e</hi> paſte, and put good ſtore of butter to it, and ſhred onions ſmall, and percely, and caſt it vpon the ſtockfiſh, &amp; put a little vergious vnto it, and bake it.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to bake watered Herrings.</head>
+                     <p>LEt your Herrings be wel watered, and ſeaſon them with Pepper and a little Cloues and mace, and put vnto them min<g ref="char:EOLhyphen"/>ced Onions, great raiſins and ſmall, a little ſwéet butter, and a little ſugar, and ſo bake them.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to bake Cuſtards.</head>
+                     <p>TAke to euery pinte of Cream fiue Egs, and put in no whites, and ſtraine your Cream and Egges together, ſeaſon it with Cloues &amp; mace, and ſugar, and when your paſte is well hardened in the Ouen, hauing ſmall raiſins &amp; dates, put in your ſtuffe, and let it not bake too much, for much baking will make your Cuſtard to quaile, or els to fall. Doucets after the ſame ſort.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to bake Wardens.</head>
+                     <p>COre your wardens and pare them, and perboyle them and laye them in your paſte, and put in euery warden where you take out the Core a Cloue or twain, put to them
+<pb n="25" facs="tcp:3775:26"/> Sugar, Ginger, and Sinamon, more ſina<g ref="char:EOLhyphen"/>mon then ginger, make your cruſt very fine and ſomewhat thick, and bake them lei<g ref="char:EOLhyphen"/>ſurely.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to bake Quinces.</head>
+                     <p>TAke half a pound of Sugar, and a doſen of Quinces and pare them, take half an ounce of Sinamon and Ginger, take fine flower, ſweet butter, and Egges, and make your paſte, then put in all your ſtuffe and cloſe it vp.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>Another to bake Quinces.</head>
+                     <p>COre your Quinces and fair pare them, perboyle them in ſeething licour, Wine or water, or halfe wine and half water, and ſeaſon them with Sinamon and ſugar, and put halfe a doſen Cloues into your Pyes amongſt them, and halfe a doſen ſpoonful of roſewater, put in good ſtore of ſugar. If you will bake them a ſlighter waye, you maye put in Muſcadell to ſpare Sugar.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to bake Orenges.</head>
+                     <p>FAire péele your Orenges, and pick away all the white that is vnder the peele, and ſo lay them in fine paſte, and put into them Sugar, very little Sinamon or none at all, but a little Ginger and bake them very leiſurely.</p>
+                  </div>
+               </div>
+               <div n="roast meats" type="section">
+                  <pb facs="tcp:3775:27"/>
+                  <head>Roaſt Meates.</head>
+                  <div type="recipe">
+                     <head>To roaſt Veniſon.</head>
+                     <p>FIrſt perboile it, and then make it tender eaſt it into cold water, then Lard it and roſte it, and for ſauce take broth, Vinagre, Pepper, Cloues and mace, with a little ſalt and boile theſe togither and ſerue it vpon your Veniſon.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to roaſt a Hare.</head>
+                     <p>VVAſh him in faire water, the<g ref="char:cmbAbbrStroke">̄</g> perboile him, and lay him in colde water a<g ref="char:EOLhyphen"/>gaine, then Larde him and roaſt him on a Broche, then to make ſauce for him, take red vinagre, Salt, Pepper, ginger, Cloues, Mace, and put the<g ref="char:cmbAbbrStroke">̄</g> togither, then mince ap<g ref="char:EOLhyphen"/>ples and onions, and fry them in a Panne, then put your ſauce to them with a little ſugar, and let them boyle well togither, the<g ref="char:cmbAbbrStroke">̄</g> baſte it vpon your Hare, and ſo ſerue it.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To roaſt a Capon.</head>
+                     <p>YOu muſt roſte a Capon with his head off, his wings and Legs on whole.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>Roſte a Pheſant.</head>
+                     <p>¶ As a Capon, and when you ſerue him in, ſtick one of his fethers vpon his breſt.</p>
+                     <p>
+                        <hi>Partridge as a Pheſant, but no Fether.</hi>
+                     </p>
+                  </div>
+                  <div type="recipe">
+                     <head>Roſte a Quaile.</head>
+                     <pb n="26" facs="tcp:3775:27"/>
+                     <p>With his legs broken and knit one within an other.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>Roaſt a Crane.</head>
+                     <p>With his legs turned vp behinde him, his wings cut of at y<hi rend="sup">e</hi> ioynt next the bodye, and then winde the neck about the broche, and put the bill into his breſt.</p>
+                     <p>
+                        <hi>Heron, Curlew and Bitter, as a Crane: but the Bittures head muſt be of.</hi>
+                     </p>
+                  </div>
+                  <div type="recipe">
+                     <head>Roſte a Plouer.</head>
+                     <p>With his head off, and his Legs turned vp<g ref="char:EOLhyphen"/>ward vpon his back.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>Roaſt a Snite.</head>
+                     <p>With his Bill put into his breſt, and his Legs turned vpward vpon his breſt.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To roaſt Woodcocks.</head>
+                     <p>FIrſt pluck them, and draw out the guts, leaue the Liuer ſtill in them, then ſtuffe them with lard chopped ſmall, and Ienoper beryes, with his bill put into his breſt and his feet as the Snite, and ſo roaſt him on a ſpit, and ſet vnder it a faire large pan with white wine in it, and chopped Percely, Vi<g ref="char:EOLhyphen"/>nagre, ſalt and ginger, then make toſtes of white bread, and toſte the<g ref="char:cmbAbbrStroke">̄</g> vpon a grediron, ſo that they be not brent, the<g ref="char:cmbAbbrStroke">̄</g> put theſe toſts in a diſh, and lay your woodcoks vpon them and put your ſauce y<hi rend="sup">e</hi> ſame broth vpon the<g ref="char:cmbAbbrStroke">̄</g>,
+<pb facs="tcp:3775:28"/> and ſo ſerue them forth.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make Allowes of Eeles.</head>
+                     <p>TAke and ſplat an Eele by the back, and keepe the belly whole, and ſo take out the bone, then take onions, percely, Time, and Roſemary chopped together, and put therto pepper and ſalt, and a little Saffron, and ſo lay it vpon the Eeles, and the<g ref="char:cmbAbbrStroke">̄</g> wrap it vp in Culpines, and put them vpon a ſpit and ſo roaſt them.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make a Frycace of colde Mutton or Veale.</head>
+                     <p>CHop fleſh ſmall and fry it in ſwéet but<g ref="char:EOLhyphen"/>ter, and then put thereto a little white wine, Salt, and Ginger, and ſerue it foorth in faire diſhes.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make a Fricace of Gooſe giblets or Hennes, or Capons.</head>
+                     <p>FIrſt cut them in prety péeces, and ſo boile them in water til they be tender, the<g ref="char:cmbAbbrStroke">̄</g> fry them in butter, and ſo ſerue the<g ref="char:cmbAbbrStroke">̄</g> forth with pouder of Ginger and Salt.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make a Fricace of a good Haddock or Whiting.</head>
+                     <p>Firſt ſeeth the fiſh and ſcum it, and pick out the bones, take Onions and chop them ſmall then fry them in Butter or Oyle till they be enough, and put in your Fiſh, and
+<pb n="27" facs="tcp:3775:28"/> frye them till it be drye, that doon: ſerue it forth with pouder of Ginger on it.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To fry Whitings.</head>
+                     <p>FIrſt flay them and waſh them clean and ſcale them, that doon, lap them in floure and fry them in Butter and oyle. Then to ſerue them, mince apples or onions and fry them, then put the<g ref="char:cmbAbbrStroke">̄</g> into a veſſel with white wine, vergious, ſalt, pepper, cloues &amp; mace, and boile them togither on the Coles, and ſerue it vpon the Whitings.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To fry a Cods head.</head>
+                     <p>FIrſt cleue it in péeces and waſhe it clean and fry it in Butter or Oyle. Then cut Onions in rundels and ſo frye them, that doon put them in a veſſell, and put to them red wine or vinagre, ſalt, ginger, ſinamon, cloues &amp; mace, and boile all theſe well togi<g ref="char:EOLhyphen"/>ther, and then ſerue it vpon your cods head.</p>
+                  </div>
+               </div>
+               <div n="tarts" type="section">
+                  <head>Tartes.</head>
+                  <div type="recipe">
+                     <head>To make a Tarte of Cheeſe.</head>
+                     <p>TAke good fine paſte and driue it as thin as you can. Then take cheeſe, part it, mince it, and braye it in a morter with the yolks of Egs til it be like paſte, then put it in a faire diſh with clarified butter, and the<g ref="char:cmbAbbrStroke">̄</g>
+                        <pb facs="tcp:3775:29"/> put it abroade into your paſte and couer it with a faire cut couer, and ſo bake it: that doon, ſerue it forth.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make a Tarte of Prunes.</head>
+                     <p>TAke Prunes and waſh them, then boile them with faire water, cut in halfe a pe<g ref="char:EOLhyphen"/>ny loaf of white bread, and take them out and ſtraine them with Claret wine, ſeaſon it with ſinamon, Ginger and Sugar, and a little Roſewater, make the paſte as fine as you can, and dry it, and fill it, and let it drie in the ouen, take it out and caſt on it Biſ<g ref="char:EOLhyphen"/>kets and Carawaies.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>Tarts of Damſons without a couer.</head>
+                     <p>SCalde your Damſons with roſewater in a Platter, and then ſtrain them and ſea<g ref="char:EOLhyphen"/>ſon them with ſugar, ſinamon, and ginger, and ſo make a Tart without a Couer.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>Tartes of Damſons with a couer.</head>
+                     <p>LAy in your Damſon whole, and ſo ſea<g ref="char:EOLhyphen"/>ſon them with ſugar, Sinamon &amp; Gin<g ref="char:EOLhyphen"/>ger, and ſo lay on a couer.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>Tartes of Cherries.</head>
+                     <p>PLuck off your ſtalks and lay your Che<g ref="char:EOLhyphen"/>ries into your paſte and ſeaſon the<g ref="char:cmbAbbrStroke">̄</g> with ſugar, ſinamon and ginger, and lay a couer vpon them</p>
+                  </div>
+                  <div type="recipe">
+                     <head>Tartes of Gooſeberies.</head>
+                     <pb n="28" facs="tcp:3775:29"/>
+                     <p>LAy your Gooſeberies in your cruſt, and put to them ſinamon and Ginger, Su<g ref="char:EOLhyphen"/>gar and a few ſmall raiſins put among the<g ref="char:cmbAbbrStroke">̄</g>, and couer them with a Couer.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>Tartes of Apples with couers.</head>
+                     <p>MInce your Apples very ſmall, ſeaſon them with Sugar, ſinamon &amp; ginger, and laye thereon a faire couer, and dreſſe your couer when it is halfe baked with Roſewater and Sugar.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>Tartes of Apples without couers.</head>
+                     <p>BOyle your Apples very tender in a lit<g ref="char:EOLhyphen"/>tle wine, or for lack of Wine Ale, and then ſtrain them with Sugar, ſinamon and ginger. Make a tart of it without a couer.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>Tartes of Quinces without couers.</head>
+                     <p>STraine your Quinces with ſome wine, whe<g ref="char:cmbAbbrStroke">̄</g> they be <gap reason="illegible" resp="#OXF" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>oiled tender, and an apple with them, or two or three Wardens, ſtraine them and ſeaſon them with Sugar, Sinamon and Ginger, and ſo make a tarte without a couer.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>Tarte of Quinces with couers.</head>
+                     <p>WHen your Quinces be very tender and colde, mince them with two or three Wardens amongſt them and ſeaſon them with ſugar, ſinamon and ginger, and ſo the paſte being very fine, lay a couer vpon the<g ref="char:cmbAbbrStroke">̄</g>.</p>
+                  </div>
+                  <div type="recipe">
+                     <pb facs="tcp:3775:30"/>
+                     <head>How to make Tartes of Spinage.</head>
+                     <p>BOyle your Spinage very tender, and three or foure apples with it, and when it is very tender, ſtraine it through a faire cloth, and then ſeaſon it with the yolk of an egge, Sugar, Sinamon, and Ginger.</p>
+                     <p>Tartes of Borage after the ſame faſhion.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>Tartes of Eglentine berries.</head>
+                     <p>TAke the berries and picke out al y<hi rend="sup">e</hi> white within them, and boyle them very ten<g ref="char:EOLhyphen"/>der in faire water, and when they be almoſt ſod dry, put therin wine, and thrée or foure Apples, and ſtraine them, ſeaſon them with ſugar, ſinamon and ginger, ſo make a Tart without a couer.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>Tarte of Strawberies.</head>
+                     <p>SEſon your Strawberyes with ſugar, a very ltttle Sinamon, a little ginger, and ſo couer them with a couer, and you muſt lay vpon the couer a morſell of ſwéet But<g ref="char:EOLhyphen"/>ter, Roſewater and Sugar, you may Ice the couer if you will, you muſt make your Ice with the white of an egge beaten, and Roſewater and Sugar.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to make a Tart of Briar hips.</head>
+                     <p>TAke Hippes and waſhe them, and boyle them in Claret wine, and ſtraine them through a ſtrainer, ſeaſon them with Si<g ref="char:EOLhyphen"/>namon,
+<pb n="29" facs="tcp:3775:30"/> ginger and Sugar, and make your paſte, and fill it with the ſame ſtuffe.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make a Tart of Cream.</head>
+                     <p>TAke Creame and Egs and ſtir them, togither, and put them into a ſtrainer till the whay be come out, then ſtrain it that it may be thick, ſeaſon it with Ginger, Su<g ref="char:EOLhyphen"/>gar, and a little Saffron, and then make your paſte with flower, and dry your paſte in the Ouen, and then fill it, and ſet it into the Ouen to dry, and then take it out, and caſt Sugar on it, and ſo ſerue it forth.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to make a good Marchpaine.</head>
+                     <p>FIrſt take a pound of long ſmal almonds and blanch them in cold water, and dry them as drye as you can, then grinde them ſmall, and put no licour to them but as you muſt needs to kéepe them from oyling, and that licour that you put in muſt be roſewa<g ref="char:EOLhyphen"/>ter, in manner as you ſhall think good, but wet your Peſtel therin, when ye haue bea<g ref="char:EOLhyphen"/>ten them fine, take halfe a pound of Sugar and more, and ſee that it be beaten ſmall in pouder, it muſt be fine ſugar, then put it to your Almonds and beate them altogither, whe<g ref="char:cmbAbbrStroke">̄</g> they be beaten, take your wafers and cut them compaſſe round, and of the bignes you will haue your Marchpaine, and then
+<pb facs="tcp:3775:31"/> aſſoone as you can after the tempering of your ſtuffe, let it be put in your paſte, and ſtrike it abroad with a flat ſtick as euen as you can, and pinch y<hi rend="sup">e</hi> very ſtuffe as it were an edge ſet vpon, and then put a paper vn<g ref="char:EOLhyphen"/>der it, and ſet it vpon a faire boord, and lay a lattin Baſin ouer it the bottome vpwarde, and the<g ref="char:cmbAbbrStroke">̄</g> lay burning coles vpon the bottom of the baſin. To ſee how it baketh, if it hap<g ref="char:EOLhyphen"/>pen to bren too faſt in ſome place, ſolde pa<g ref="char:EOLhyphen"/>pers as broad as the place is &amp; lay it vpon that place, and thus with attending ye ſhal bake it a little more then a quarter of an houre, and whe<g ref="char:cmbAbbrStroke">̄</g> it is wel baked, put on your gold and biſkets, and ſtick in Comfits, and ſo you ſhall make a good Marchpaine. Or euer that you bake it you muſt caſt on it ſine Sugar and Roſewater that will make it look like Ice.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make pottage of Cherries.</head>
+                     <p>FRy white bread in butter til it be brown and ſo put it into a diſh, then take Cher<g ref="char:EOLhyphen"/>ries and take out the ſtones, and frye them where you fried the bread, then put thereto Sugar, Ginger, and Sinamon, for lacke of broth, take White or Claret Wine, boyle theſe togither, and that doon, ſerue them v<g ref="char:EOLhyphen"/>pon your Toſtes.</p>
+                  </div>
+                  <div type="recipe">
+                     <pb n="30" facs="tcp:3775:31"/>
+                     <head>To poche Egges in broth.</head>
+                     <p>TAke faire licour and as much vergious, and new Yeſt, and put therin Corance, whole mace, ſweet butter, and ſugar, a good handfull of white Beets, and ſo boile them very tender, and ſo poche your Egs in faire water ſeething, and laye them vpon ſops, and poure the broth and hearbs vpon.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To boyle yong Peaſon or Beaues.</head>
+                     <p>FIrſte ſhale them and ſeethe them in faire water, then take them out of the water and put them into boyling milk, then take the yolks of Egs with crums of bread, and ginger, and ſtraine them thorow a ſtrainer with the ſaid milk, then take chopped perce<g ref="char:EOLunhyphen"/>ly, Saffron and Salt, and ſerue it foorth for Pottage.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make carbonados of Mutton.</head>
+                     <p>CVt a Leg of Mutton in thin fillets, and to make it tender chop it on both the ſides with the back of a knife, ſo that they be not chopped thorow, then ſalt them well and lay them on a grediron, and broil them till they be mough, and with Vinagre and minced onions ſerue them forth.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make a Haggas of Almain.</head>
+                     <p>TAKE two Buts of Mutton, and trye them well from Skinnes and ſenowes,
+<pb facs="tcp:3775:32"/> and mince it with ſuet as ſmall as you can, then take Dates and mince them ſmal, the<g ref="char:cmbAbbrStroke">̄</g> take theſe Spices which follow, one ounce of Corance clean waſhed, an ounce of ſina<g ref="char:EOLhyphen"/>mon, a quarter of half an ounce of Ginger and aſmuch of pepper, and an ounce of Su<g ref="char:EOLhyphen"/>gar with the yolkes of eight or nine Egs, clean fryed from the whites Take alſo fine faire light bread grated, with a little Salt, and a portion of Saffron, and boile al theſe togither, then row theſe Corance in Suet of a Calfe or Sheepe, then put them into a frying pan, and ſo ſet them into a hot ouen, and when they be brown turne them, and when they be baked, take them out and ſerue three in a diſh.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To dreſſe Chickins vpon Sorrell ſops.</head>
+                     <p>TAke ſorrell and beat it in a morter, and put in Vergious and ſtrain it through a ſtrainer, then cut fine Sops of white bread and lay them in a diſhe, and put the ſorrell ſauce to the bread, put ſinamon, ginger, and Sugar, with butter to your ſauce, the<g ref="char:cmbAbbrStroke">̄</g> roſte your Chickins and ſerue them forth.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to make ſops of Almain.</head>
+                     <p>TAke white wine with Bare or Ale, and put crums of white bread, yolks of Egs
+<pb n="31" facs="tcp:3775:32"/> ſugar and ſinamon, with Salt and ſaffron, ſtrain theſe and boile them a little togither then cut white bread into your diſhe, and put the pottage to it, and ſo ſerue it foorth.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to make Toſtes.</head>
+                     <p>TAke the Kidneye of Vele when it is ro<g ref="char:EOLhyphen"/>ſted, and chop it very fine, then take and put it in a diſh, put in the yolks of three egs put in Sinamon, Ginger and ſugar, take a a little Roſewater and put to it, take white bread and cut it like diamonds, and toſte a little, ſet all your ſtuffe on a Chaſingdiſhe with Coles, and ſtirre it and ſpread it vpon the Toſtes, take the yolke of an Egge, and with a fether baſte them ouer, then bake them in a pan and ſet them in a diſhe, and caſt Sugar on them.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make Ielly.</head>
+                     <p>TAke Calues feete and fley them, and faire waſhe them, and ſet them on to ſée the in faire licour, and faire ſcum them, and when they be tender ſod, faire ſtraine out the licour, and ſee your licour be verye cleere, and put your licour into a pot, if there be a pottle of it, put a pottle of claret wine vnto it, and two pound Sugar, a quar<g ref="char:EOLhyphen"/>tern of ſinamon, half a quartern of ginger, an ounce of Nutmegs, an ounce of grains,
+<pb facs="tcp:3775:33"/> ſome long Pepper, a fewe Cloues whole, a few Coliander ſads, a little ſalt. Iſongl<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap>ſſe being faire waſhed and laid in water a day before, Turnſole being aired by the fier and du<gap reason="illegible" resp="#OXF" extent="1+ letters">
+                           <desc>•…</desc>
+                        </gap>ed, and when they be wel ſod, let it run through a bag, and put two whites of Egs in the bag.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make an Apple Moiſe.</head>
+                     <p>ROſte your Apples very fair, and when you haue ſo doon, peele them and ſtrain them with the yolk of an Egge or twaine, and Roſewater, and boile it on a Chefing<g ref="char:EOLhyphen"/>diſh of Coles with a peece of ſweet Butter, put in ſugar and ginger, and when you lay it in your diſh, caſt ſinamon &amp; Sugar on it.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make a diſh of Snow</head>
+                     <p>TAke a pottle of ſweet thick Cream, and the white of eight Egs, and beate them altogither with a ſpoone, then put them in<g ref="char:EOLhyphen"/>to your Creme with a diſh full of Roſewa<g ref="char:EOLhyphen"/>ter, and a diſh full of Sugar withall, then take a ſtick and make it clean, and then cut it in the end four ſquare, and therwith beat all the aforeſaid things togither, and euer as it ariſeth, take it off, and put it into a Cullender, this doon, take a platter and ſet an Apple in the midſt of it, and ſtick a thick buſh of Roſemary in the Apple. Then caſt
+<pb n="25" facs="tcp:3775:33"/> your Snow vpon the Roſemary &amp; fill your platter therwith, and if you haue wafers, caſt ſome withall, and ſo ſerue them foorth.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make white Ginger bread.</head>
+                     <p>TAke <hi>Gumma Dragagantis</hi> half an once, and ſtéep it in roſewater two daies, the<g ref="char:cmbAbbrStroke">̄</g> put therto a pound of Sugar beaten &amp; fine<g ref="char:EOLhyphen"/>ly ſerced, and beate them well together, ſo that it may be wrought like paſte, the<g ref="char:cmbAbbrStroke">̄</g> role it thin into two Cakes, then take a fewe Iordain almonds &amp; blaunch them in colde water, then dry them with a faire Cloth, and ſtampe them in a morter very finelye, adding therto a little roſewater, beat fine<g ref="char:EOLhyphen"/>ly alſo the whiteſt Sugar you can get and ſearce it. Then take Ginger, pare it and beat it very ſmall and ſerce it, then put in ſugar to the almonds &amp; beat them togither very well, then take it out and work it at your pleaſure, then lay it euen vpon one of your cakes, and couer it with an other and when you put it in the molde, ſtrewe fine ginger both aboue and beneath, if you haue not great ſtore of Sugar, then take Rice and beat it ſmall and ſerce it, and put it in<g ref="char:EOLhyphen"/>to the Morter and beat them altogither.</p>
+                  </div>
+                  <div type="recipe">
+                     <pb facs="tcp:3775:34"/>
+                     <head>To to make Bennets.</head>
+                     <p>PVt butter and water ouer the fier in a faire pan, and when it boyleth put ther<g ref="char:EOLhyphen"/>to fine Flower and Salte, and ſo let them boyle, but ſtir them well for brenning, and when it is wel thick, put it into an earthen pan, the<g ref="char:cmbAbbrStroke">̄</g> break Egs into it and boyle them ſo togither, then boyle a good quantitye of Butter clarified ouer the fire, and with a ſpoone put in your other ſtuffe and ſo frye them till they be browne, and that doone, ſerue them foorth with Sugar on them.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>How to make Pomages,</head>
+                     <p>TAke a quart of red wine or ſwéet wine, and v. or vj. well watriſhe Apples, pare them and cut them in peeces and caſt away the cores, then put the apples with y<hi rend="sup">e</hi> wine into a pot and boyle the<g ref="char:cmbAbbrStroke">̄</g> on the fire till they be tender, and take a manchet lofe and cut it in thin peeces and caſt it into the pot, the<g ref="char:cmbAbbrStroke">̄</g> when the apples be tender, put to them a quarter of a pound of Sugar, but draw the<g ref="char:cmbAbbrStroke">̄</g> through a ſtrainer before, and alſo an ou<g ref="char:cmbAbbrStroke">̄</g>ce of Sinamon, halfe a quarter of an ounce of ginger, and boyle al theſe togither in a cha<g ref="char:EOLhyphen"/>fer or a pot, and then take them out again, and put the<g ref="char:cmbAbbrStroke">̄</g> into a faire baſon or in achar<g ref="char:EOLhyphen"/>ger,
+<pb n="33" facs="tcp:3775:34"/> then make a dredge of ſinamon, ſugar and Ginger, but moſt of Sugar, and dreſſe your Pomages in faire diſhes, then caſt in your dredge and ſerue it out hot or colde.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make Farts of Portingale.</head>
+                     <p>TAke a quart of life Hony, and ſet it v<g ref="char:EOLhyphen"/>pon the fire and when it ſeetheth ſcum it clean, and then put in a certaine of fine Biſkets well ſerced, and ſome pouder of Cloues, ſome Ginger, and powder of ſina<g ref="char:EOLhyphen"/>mon, Annis ſéeds and ſome Sugar, and let all theſe be well ſtirred vpon the fire, til it be as thicke as you thinke needfull, and for the paſte for them take Flower as finelye dreſſed as may be, and a good peece of ſweet Butter, and woorke all theſe ſame well to<g ref="char:EOLhyphen"/>gither, and not knead it.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>A French Puffin.</head>
+                     <p>TAke and make a verye fine péece of paſte with yolkes of Egs and ſweete butter and ſugar: and driue your cakes ve<g ref="char:EOLhyphen"/>ry thin and fine, ſix or ſeauen, and put but<g ref="char:EOLhyphen"/>ter molten betweene euerye one of them, make your cakes little round ones, and let there be a good deale of Butter in the diſhe bottom, and then ſet them in the Ouen till they be baked inough, then ſtrew on ſugar vpon it and ſerue it out.</p>
+                  </div>
+                  <div type="recipe">
+                     <pb facs="tcp:3775:35"/>
+                     <head>A buttered Loafe.</head>
+                     <p>TAke very fine flowre and yolks of Egs, ſweet butter, yeſt, cloues, mace, ſugar, ſinamon, ginger, and woork it togither and make them in little loues, and when they are baked inough, ſet a good deale of ſwéet butter vpon a chafingdiſh and coles, the<g ref="char:cmbAbbrStroke">̄</g> cut your loaf in three peeces and butter it, then ſtrew ſugar betwixt euery péece and ſerue it out.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>For brenning meats.</head>
+                     <p>TAke wine and good Ale, and fill the<g ref="char:cmbAbbrStroke">̄</g> well togither and they will then bren, and this is good for Sewes or diſh meates, and all other meates that a man will haue brenning.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make Almond Butter.</head>
+                     <p>BLanch two pound of Almonds and bray them ſmall in a Morter, but put no Li<g ref="char:EOLhyphen"/>cour to the<g ref="char:cmbAbbrStroke">̄</g> of a good while, but bray them as ſmall as you can, and whe<g ref="char:cmbAbbrStroke">̄</g> they be ſmall inough, caſt a little water to them into the Morter, then draw them through a Strai<g ref="char:EOLhyphen"/>ner as you can, then put it into a faire pot with a quarter of a pound of ſugar, and ſet it on the fire, but ſtir it well for burning, and put in a little Salt, but not too much, and when it boyleth take it from the fire,
+<pb n="34" facs="tcp:3775:35"/> and put to it a good quantitie of Damaſke water or roſewater with an eye of ſaffron, but not too much, then take a faire Cloth of an elle long, and lay the butter vpon it, and let the cloth be held ſtrait, and draw vnder the ſame cloth with a Ladle, that the wa<g ref="char:EOLhyphen"/>ter may come clean from it, and the<g ref="char:cmbAbbrStroke">̄</g> draw it aboue in y<hi rend="sup">e</hi> midſt of the cloth, and knit the corners of the cloth togither, and ſo hang it vp and let it dry, and then dreſſe it into diſhes, and print it as you doo butter, and plant it with kernels of Pomgranets, and ſo ſerue it foorth.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make Almond milk hot.</head>
+                     <p>TAke blanched Almonds and bray them ſmal, then with faire water draw them through a ſtrainer, and make them not too thin nor too thick, and then put them into a pot with a quarter of a pound of ſugar and let them boile ouer the fire, and when they boyle take them from the fire, then take a manchet loaf and cut it in thin péeces, ſtéep it in a pinte of White wine, as Baſtard, Tire, or Maulmſie, then caſt it into Al<g ref="char:EOLhyphen"/>mond Milk and dreſſe it in fair diſhes, and ſo ſerue it foorth.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make Ipocras.</head>
+                     <pb facs="tcp:3775:36"/>
+                     <p>TAke a gallon of Wine, and an ounce of Sinamon, two ounces of Ginger, and a pound of Sugar, twenty cloues bru<g ref="char:EOLhyphen"/>ſed, and twenty corns of pepper groce bea<g ref="char:EOLhyphen"/>ten, and let all thoſe ſoke one night, and let it run through a bag.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make Conſerue of Quinces after the manner of Spaine.</head>
+                     <p>TAke ſix or ſeuen pound of Quinces, and two gallons and a halfe of water, and ſet your water on the fire till it be thorow warm, then put therto the whites of two Egs, ſhels and all, and all to ſtir it with a ſtick, and then let it ſtand vpon the fire till it caſt a great ſcum. Then take of the ſaid ſcum, and put therto fiue pound of Sugar, and let it ſtand till it be molten, and a lit<g ref="char:EOLhyphen"/>tle while after, and then take it from the fire, and let it run through a woollen cloth of Cotten, and then put in your Quinces clean pared and the cores clean taken out, and ſo ſet them vpon the fier the ſpace of an houre and a halfe, and then take them of the fier, and ſtrain them through a canuas cloth water and al, and then ſet them vpon the fire again &amp; let them ſeethe the ſpace of two houres &amp; a half, and all that time ſtir it with ſtickes with broade endes, and to
+<pb n="35" facs="tcp:3775:36"/> know when it is inough, lay it vpon a box lid, and when it commeth vp cleane it is enough.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make Conſerue of Orenges.</head>
+                     <p>TAke Orenges and pare them very thin the red of the out ſides away and quar<g ref="char:EOLhyphen"/>ter them in four, and take away the white of the inſide, then ſéeth them in faire water ſoftlye for breaking, ofte change them in warm water til they be ſoft: as the yelow<g ref="char:EOLhyphen"/>nes dooth ſeeth away, ſo weareth away the bitternes, the<g ref="char:cmbAbbrStroke">̄</g> take them out of the water and lay them in a fair veſſell that the wa<g ref="char:EOLhyphen"/>ter may run away from them, then beate them ſmall with a ſpoone, and put to euery pound of Orenges one pound of ſugar, and half a pound of Roſewater, and boile them togither and box them.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To preſerue Orenges.</head>
+                     <p>TAke your Pilles and water them two nights and one day, and dry them clean againe, and boyle them with a ſoft fire the ſpace of one hower, then take them out to coole, and make your ſirrop half with roſe<g ref="char:EOLhyphen"/>water and half with that liquor, &amp; put dou<g ref="char:EOLhyphen"/>ble ſugar to your Orenges, and when your ſirup is halfe ſodden, then let your Orenges ſeethe one quarter of an houre more, then take out your Orenges &amp; let the ſirop ſéeth
+<pb facs="tcp:3775:37"/> vntill it rope, and when all is colde, then put your Orenges into y<hi rend="sup">e</hi> ſirrop: the white of an Egge and Sugar beaten togither, will make it to candie.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make ſirup of Violets.</head>
+                     <p>FIrſt gather a great quantitye of Violet flowers and picke them cleane from the ſtalkes and ſet them on the fire, and put to them ſo much roſewater as you think good then let them boyle altogither vntill the colour be forth of them, then take the<g ref="char:cmbAbbrStroke">̄</g> of the fire and ſtraine them through a fine cloth, then put ſo much Sugar to them as you think good, then ſet it againe to the fire vn<g ref="char:EOLhyphen"/>till it be ſomewhat thick, and put it into a violl glaſſe.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make Cherries in confection.</head>
+                     <p>TAke ripe and choſen cherries, cut of half the ſtalks and put them in a frying pan ouer a ſoft fire, for euery pound of Cheries ſtrew vpon them a pound of good white ſu<g ref="char:EOLhyphen"/>gar in pouder, ſéeth them ſo till y<hi rend="sup">e</hi> third part be waſted, when they are ſod put in a lit<g ref="char:EOLhyphen"/>tle Roſewater with a few cloues, and ſina<g ref="char:EOLhyphen"/>mon beaten togither, then let them coole two or thrée houres, and then put them in<g ref="char:EOLhyphen"/>to your pots.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To make Prunes in confection.</head>
+                     <pb n="36" facs="tcp:3775:37"/>
+                     <p>TAke Prunes of damaſke &amp; do like with them as you did with cheries, ſaue that for euery pound of Prunes take xij. ounces of ſugar, and that there muſt be waſted the fourth parte of the ſirrup awaye, and that the Cloues and Sinamon muſt be but half bruſed, or els both be a like.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>Marmalade of Quinces or any other thing.</head>
+                     <p>TAke the Quinces and quarter them, and cut out the Cores and pare them clean, and ſéeth them in faire water til they be very tender, then take them with roſe<g ref="char:EOLhyphen"/>water and ſtrain them, and doo as is afore<g ref="char:EOLhyphen"/>ſaid in euery thing.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To preſerue Quinces.</head>
+                     <p>FAire core your Quinces and ſéethe Li<g ref="char:EOLhyphen"/>cour vpon the fire, and put in the cores, and ſéeth them very well with two or three péeces of Quinces, and then put in your Quinces, and let them boyle very ſoftlye till they be tender, then take vp your quin<g ref="char:EOLhyphen"/>ces, and ſet them faire vpon a cloth, and let your Licour ſéethe a great while till it be ſomewhat high coloured of the Quinces, and then when the licour is colde, and the Quinces be colde, then put in your Quin<g ref="char:EOLhyphen"/>ces againe and ſo faire couer them.
+<pb facs="tcp:3775:38"/> Theſe wil ſerue to bake or make tartes all the yéere.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To preſerue Orenges, Lemmons, and Pomecitrons.</head>
+                     <p>FIrſt ſhaue your Orenges finely, and put them into water two dayes and two nights, changing your water three times a day then perboyle the<g ref="char:cmbAbbrStroke">̄</g> in thrée ſeuerall wa<g ref="char:EOLhyphen"/>ters, the<g ref="char:cmbAbbrStroke">̄</g> take ſo much water as you think conuenient for y<hi rend="sup">e</hi> quantity of your orenges the<g ref="char:cmbAbbrStroke">̄</g> put in for euery pound of Orenges, one pound &amp; a half of ſugar into the water, and put in two whites of Egs &amp; beat them al<g ref="char:EOLhyphen"/>togither, then ſet them on y<hi rend="sup">e</hi> fire in a braſſe veſſel, and when they boile, ſcum them ve<g ref="char:EOLhyphen"/>ry clean, and clenſe them through a Iellye bag, then ſet it on the fire &amp; put in the oren<g ref="char:EOLhyphen"/>ges. Vſe walnuts in like manner, and vſe Lemmons &amp; Pomecitrons in like ſort, but they muſt lye in water but one night.</p>
+                  </div>
+                  <div type="recipe">
+                     <head>To preſerue all kind of fruits that they ſhall not break in the preſeruing.</head>
+                     <p>TAke a Platter that is plaine in the bot<g ref="char:EOLhyphen"/>tom and lay Sugar in the bottom, then Cheries or any other fruit, and ſo betwéen euery row you lay, throw ſugar and ſet it vpon a pots head, and couer it with a diſh, and ſo let it boyle.</p>
+                  </div>
+               </div>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="table_of_contents">
+            <pb facs="tcp:3775:38"/>
+            <head>✿ The Table of the thinges contained in this Booke.</head>
+            <list>
+               <item>THe order howe meates ſhould be ſerued at the Table, both fleſh and Fiſh, with their ſauces. Folio. 1. &amp; 2.</item>
+               <item>Sauce for Capons &amp; Turkye Fowles. 3</item>
+               <item>Sauce for roaſted Stockdoues. 3</item>
+               <item>Another for a Ca<g ref="char:EOLhyphen"/>pon. 3</item>
+               <item>For Capons, Feſant, Partriges or Wood<g ref="char:EOLhyphen"/>cocks. 3</item>
+               <item>Chaldron for a Swan. 4</item>
+               <item>Gallandine for a Crane, Heron, or any other Fowle that is black meat. 4</item>
+            </list>
+            <list>
+               <head>Stewed and Boyled Meats.</head>
+               <item>To ſtew a Capan. 4</item>
+               <item>To ſtew a Capon in Lemmons. 4</item>
+               <item>To boyle a capon in white broth. 5</item>
+               <item>Another to boyle a capon in white broth. 5</item>
+               <item>To make ſops for chickins. 6.</item>
+               <item>To boyle a capon in browes. 6.</item>
+               <item>To boile a capon. 6.</item>
+               <item>To boyle a capon with Orenges or Lemmons. 6.</item>
+               <item>To boyle a cunnye with a pudding in his belly. 7.</item>
+               <item>To boyle chikins or capons. 7.</item>
+               <item>To ſeeth chickins in Letuce. 7.</item>
+               <item>To boyle chickins with hearbs. 7.</item>
+               <item>To ſeeth Hennes or capons in winter in white broth. 8.</item>
+               <item>To ſtue capons. 8.</item>
+               <item>To ſtew Sparrows. 8</item>
+               <item>To ſtew Larkes. 8</item>
+               <pb facs="tcp:3775:39"/>
+               <item>To ſtew Sparrowes or Larkes. 9.</item>
+               <item>To boyle a Duck. 9</item>
+               <item>To ſtue a wilde mal<g ref="char:EOLhyphen"/>lard. 9</item>
+               <item>To boile ſtockdoues Fol. 9.</item>
+               <item>To ſtew a Hinflank of Beefe. 9</item>
+               <item>To ſtew a Neates foot. 10</item>
+               <item>Another to ſtew a Neats foot. 10</item>
+               <item>To boyle a Legge of Mutton with Lem<g ref="char:EOLhyphen"/>mons, 10.</item>
+               <item>To boyle Mutton with Endiue, borage Lettice, or any kinde of hearbes that may ſerue thereunto. 10.</item>
+               <item>To bake Mutton for a ſick body. 10</item>
+               <item>To make balles of mutton. 11</item>
+               <item>How to boyle Pigs petitoes. 11</item>
+               <item>To ſtill a Cock for a weake bodye that is conſumed. 11</item>
+               <item>To make a Hodg<g ref="char:EOLhyphen"/>podge. 12.</item>
+               <item>To make puddinges of a ſwine. 12</item>
+               <item>To make white pud<g ref="char:EOLhyphen"/>dings of Hogges Li<g ref="char:EOLhyphen"/>uer. 12</item>
+               <item>Eiſands with otmeal grotes. 12.</item>
+               <item>To make Liueringes of a Swine. 12</item>
+               <item>How to make a pud<g ref="char:EOLhyphen"/>ding in a turnep root. 12</item>
+               <item>A pudding in Egs. 13</item>
+               <item>A Pudding in a tench. 13</item>
+               <item>To make a pudding in a carret root. 13</item>
+               <item>A pudding in a cowcumber. 13</item>
+               <item>To dreſſe Neates tungs. 14</item>
+               <item>A broth for a Neats tung. 14</item>
+               <item>A boyled ſallet. 14</item>
+            </list>
+            <list>
+               <pb facs="tcp:3775:39"/>
+               <head>For Fiſh.</head>
+               <item>To ſeeth a Pike. 14</item>
+               <item>A Pike ſauce for a Pike, Breame, Perch, Roch, Carps, Floun<g ref="char:EOLhyphen"/>ders, and all manner of Brook Fiſh. 15</item>
+               <item>To ſeeth a carp. 15</item>
+               <item>To ſeethe Roches, flounders or Eeles. 16</item>
+               <item>To ſeethe a Gur<g ref="char:EOLhyphen"/>nard. 16</item>
+               <item>To ſeeth a Dorry or Mullet. 16</item>
+               <item>To ſeeth a Turbut or Cunger. 16</item>
+               <item>To ſeeth ſhrimps. 16</item>
+               <item>To make Floren<g ref="char:EOLhyphen"/>tines. 21</item>
+               <item>A Florentine of Fleſh. 22</item>
+               <item>A Florentine of Fiſh. 22</item>
+               <item>To make Florentins with Eeles. 22</item>
+               <item>To make a Floren<g ref="char:EOLhyphen"/>tine. 22</item>
+               <item>To bake Eeeles whole. 23</item>
+               <item>To bake Lam<g ref="char:EOLhyphen"/>prons. 23</item>
+               <item>To bake Lamprons fine. 23</item>
+               <item>To bake a Lam<g ref="char:EOLhyphen"/>prey. 23.</item>
+               <item>To bake a Carpe, Breme, Mullet, Pike, trout, Roche, or any other kind of fiſh. 24</item>
+               <item>to bake a Holibut head. 24</item>
+               <item>to bake cunger. 24</item>
+               <item>to bake Stockfiſh. 24</item>
+               <item>to bake watered Her<g ref="char:EOLunhyphen"/>rings. 24</item>
+               <item>to make allowes of Eeles. 26</item>
+               <item>To make a fricace of a good Haddock. 26</item>
+               <item>to fry Whitings. 27</item>
+               <item>to fry a codſhed. 27</item>
+            </list>
+            <list>
+               <head>Bake Meats.</head>
+               <item>For fine pyes of Vele or Mutton. 17</item>
+               <item>For pyes of Mutton
+<pb facs="tcp:3775:40"/> or Beefe. 17</item>
+               <item>To bake a Neats tung. 17</item>
+               <item>To bake a Pig. 17</item>
+               <item>To bake a gammon of Bacon. 17</item>
+               <item>To bake chickins. 18</item>
+               <item>To make a chickin pye. 18</item>
+               <item>To bake Chickins without fruit. 18</item>
+               <item>To bake pigions. 18</item>
+               <item>To bake a Crane or Buſtard. 18</item>
+               <item>To bake Geece or capons. 18</item>
+               <item>To bake Turky Fowles. 18</item>
+               <item>To bake Feſantes or Partriges. 19</item>
+               <item>to bake Sparrows or other ſmall birds. 19</item>
+               <item>to bake a capon or chickins. 19</item>
+               <item>To bake Wilde Ducks. 19</item>
+               <item>To bake Mal<g ref="char:EOLhyphen"/>lards. 18</item>
+               <item>To bake pyes of calues feet. 19</item>
+               <item>To bake Cunnies, Rabats or Hares with fruit or with<g ref="char:EOLhyphen"/>out fruit. 19</item>
+               <item>To bake ſmall meats. 20</item>
+               <item>To make ſmall bake meats of ſirup and Peares. 20</item>
+               <item>To bake veniſon. 20</item>
+               <item>To bake Veniſon to eat hot. 20</item>
+               <item>To bake Veniſon to eat colde. 20</item>
+               <item>To bake Veniſon of a red Deere. 20</item>
+               <item>To bake Veniſon of a fallow deer. 21</item>
+               <item>To bake the vmbles of a Deere. 21</item>
+               <item>To bake a Pig like a Fawne. 21</item>
+               <item>To make chuets. 22</item>
+               <item>to make Vaunts. 23</item>
+               <item>to make peſcods. 23</item>
+               <item>to bake cuſtards. 24</item>
+               <pb facs="tcp:3775:40"/>
+               <item>Doucets after the ſame manner. 24</item>
+               <item>to bake wardens. 24</item>
+               <item>to bake Quinces, 25</item>
+               <item>Another to bake Quinces. 25</item>
+               <item>to bake Orenges. 25</item>
+            </list>
+            <list>
+               <head>Roſte Meats.</head>
+               <item>Veniſon. 25.</item>
+               <item>Hare. 25</item>
+               <item>capon. 25.</item>
+               <item>Feſant. 25.</item>
+               <item>Partridge. 25.</item>
+               <item>Quail, crane, heron, curlew Bittur, Plouer, ſnite, Woodcock. 26</item>
+               <item>A Fricaſe of colde mutton or Vele. 26</item>
+               <item>A Fricaſe of Gooce giblets, Hennes or capons. 26</item>
+            </list>
+            <list>
+               <head>Tartes.</head>
+               <item>Of cheeſe, of Prunes. of damſons without couers. 27</item>
+               <item>Of Damſons with couers, of cheries. 27</item>
+               <item>Of Gooceberies, Of apples without co<g ref="char:EOLhyphen"/>uers, of quinces with out couers, of Quin<g ref="char:EOLhyphen"/>ces with couers, Of Spinage, Of barage, Of Eglantine beries, Of ſtrawberies, Of briar Hips. 28</item>
+               <item>Of creame. 29</item>
+            </list>
+            <list>
+               <head>Diuers other banque<g ref="char:EOLhyphen"/>ting Diſhes.</head>
+               <item>A Marchpaine. 29</item>
+               <item>Potage of cheries. 29</item>
+               <item>poch egs in broth, 30</item>
+               <item>Boile yong peſon. 30</item>
+               <item>Carbonados of mut<g ref="char:EOLhyphen"/>ton, Haggas of Al<g ref="char:EOLhyphen"/>main, chickins vpon ſorell ſops, Sops of Almain, 30</item>
+               <item>Toſtes, Ielly, Apple moiſe, Snowe. 31</item>
+               <item>Ginger bread. 32</item>
+               <item>Bennets, Poma<g ref="char:EOLhyphen"/>ges. 32</item>
+               <item>Fartes of Portin<g ref="char:EOLhyphen"/>gale. 33</item>
+               <pb facs="tcp:3775:41"/>
+               <item>French Puffin. 33</item>
+               <item>A buttered Loafe. 33</item>
+               <item>Brenning meats. 33</item>
+               <item>Almond butter. 33</item>
+               <item>almond milk hot. 34</item>
+               <item>Ipocras. 34</item>
+               <item>Conſerue of Quin<g ref="char:EOLhyphen"/>ces after the manner of Spaine. 34</item>
+               <item>Conſerue of Oren<g ref="char:EOLhyphen"/>ges. 34</item>
+               <item>To preſerue Oren<g ref="char:EOLhyphen"/>ges. 35</item>
+               <item>To make Sirrop of Violets. 35</item>
+               <item>Cherries in confecti<g ref="char:EOLhyphen"/>on. 35</item>
+               <item>Prunes in confecti<g ref="char:EOLhyphen"/>on. 36</item>
+               <item>Marmalade of Quinces. 36</item>
+               <item>Preſerue Quin<g ref="char:EOLhyphen"/>ces. 36</item>
+               <item>Preſerue Orenges, Lemmons, Pome<g ref="char:EOLhyphen"/>citrons. 36</item>
+               <item>To preſerue all kind of fruit. 36</item>
+            </list>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:3775:41"/>
+         </div>
+      </back>
+   </text>
+</TEI>

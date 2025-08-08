@@ -1,0 +1,977 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Barley-breake, or, A vvarning for vvantons. Written by W.N. Gent</title>
+            <author>W. N., Gent.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1607</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 31 KB of XML-encoded text transcribed from 11 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A07968</idno>
+            <idno type="STC">STC 18336</idno>
+            <idno type="STC">ESTC S110078</idno>
+            <idno type="EEBO-CITATION">99845695</idno>
+            <idno type="PROQUEST">99845695</idno>
+            <idno type="VID">10613</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A07968)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 10613)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 723:08)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Barley-breake, or, A vvarning for vvantons. Written by W.N. Gent</title>
+                  <author>W. N., Gent.</author>
+               </titleStmt>
+               <extent>[32] p.   </extent>
+               <publicationStmt>
+                  <publisher>By Simon Stafford, dwelling in the Cloth-fayre, neere the red Lyon,</publisher>
+                  <pubPlace>Printed at London :</pubPlace>
+                  <date>1607.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Erroneously attributed to Nicholas Breton.</note>
+                  <note>In verse.</note>
+                  <note>Signatures: A-D⁴.</note>
+                  <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Libertinism --  Poetry --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-02</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2012-02</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:10613:1"/>
+            <pb facs="tcp:10613:1"/>
+            <p>BARLEY-breake, OR, <hi>A VVarning for VVantons,</hi> Written by W. N. Gent.</p>
+            <figure>
+               <q>AVT NVNC AVT N<gap reason="illegible" resp="#MURP" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap>AM.</q>
+               <figDesc>printer's device of Simon Stafford</figDesc>
+            </figure>
+            <p>Printed at London by <hi>Simon Stafford,</hi> dwelling in the Cloth-fayre, neere the red Lyon, 1607.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:10613:2"/>
+            <pb facs="tcp:10613:2"/>
+            <head>TO THE VERTVOVS AND chaſte Maiden, Miſtreſſe <hi>Eliz. G.</hi> daughter to the <hi>VVorſhipfull</hi> Rob. C. <hi>Eſquire, yours</hi> in ſeruice W.N. wiſheth all fortunes ſmiles, with the dew of im<g ref="char:EOLhyphen"/>mortall felicitie.</head>
+            <p>
+               <seg rend="decorInit">I</seg>T is not vnknowne (right vertuous) a<g ref="char:EOLhyphen"/>mongſt the wiſe, the ſillie Oaten pipe, winded by a rurall Shepheard, vnder a ſhadowing Hawthorne, ſprouting on a champion mountaine, hath beene as highly eſteemed, as the curious ſtrained Lute, ſounded by the cunning Muſician in the richeſt chamber of the Court of the moſt potentate Princes, and that a ſillie braunch reft from an Oliue tree, hath beene as accep<g ref="char:EOLhyphen"/>table, as the moſt precious perle dragd from the ſands of the Ocean. Then, ſeeing the zeale lyeth not in the gift, but in the giuer: I ſhall entreat you as gratefully to accept this my Treatiſe, as I deliuer it, not for the worth, but as a teſtimonie of the zeale and duety from me belonging, which ſo long time I haue ſtudied how to manifeſt. And thus hoping there ſhall be nothing herein conſtrued contrarie to my ſimple meaning, nei<g ref="char:EOLhyphen"/>ther my preſumption held in diſdaine, I end, though not forgetting my bounden duetie to your VVorſhip<g ref="char:EOLhyphen"/>full Parent and my very good friend, to whom if this my Pamphlet may cauſe mirth, as an Arbour teſt, it hath his deſire, and my hopes accompliſhed.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <gap reason="missing" extent="2 pages">
+               <desc>〈2 pages missing〉</desc>
+            </gap>
+            <div type="part">
+               <pb facs="tcp:10613:3"/>
+               <lg>
+                  <l>Then one in others rights would not intrude,</l>
+                  <l>But each lamented at his neighbours paine:</l>
+                  <l>None gaue a cauſe to ſue or to beſu'de,</l>
+                  <l>The weight of conſcience wanted not a graine.</l>
+               </lg>
+               <lg>
+                  <l>By pleaſant ſprings the young and youthfull ſort</l>
+                  <l>Would ſit and talke of their vnfained loue,</l>
+                  <l>Whoſe ſimple truth would in a word report</l>
+                  <l>More faith and zeale, then in an age we proue.</l>
+               </lg>
+               <lg>
+                  <l>Why, Parents then would let their children goe</l>
+                  <l>To plaies and reuells both by night and day;</l>
+                  <l>Where now they dread &amp; feare their ouerthrow:</l>
+                  <l>For rape and murder lurke in euery way.</l>
+               </lg>
+               <lg>
+                  <l>A Shepheard then ſecure might lye and ſleepe,</l>
+                  <l>Hauing a care his victuall were not ſtole</l>
+                  <l>By Wolues and Curs that in the hillocks keepe,</l>
+                  <l>And range abroad, while <hi>Somnus</hi> gaines the gole.</l>
+               </lg>
+               <lg>
+                  <l>Thus would he fill his daughter with a ſound,</l>
+                  <l>Whilſt ſhe poore girle did ſee her mates at play:</l>
+                  <l>His words againe might very well rebound:</l>
+                  <l>For why, her minde was fix'd another way.</l>
+               </lg>
+               <lg>
+                  <l>But on a time the Lads and Laſſes came,</l>
+                  <l>Entreating <hi>Elpin</hi> that ſhe might goe play.</l>
+                  <l>He ſaid ſhe ſhould (<hi>Euphema</hi> was her name)</l>
+                  <l>And then denyes: yet needs ſhe muſt away.</l>
+               </lg>
+               <lg>
+                  <l>To <hi>Barley-breake</hi> they roundly then 'gan fall:</l>
+                  <l>
+                     <hi>Raimon, Euphema</hi> had vnto his mate:</l>
+                  <l>For by a lot he won her from them all:</l>
+                  <l>Wherefore young <hi>Streton</hi> doth his fortune hate.</l>
+               </lg>
+               <lg>
+                  <l>But yet ere long he ran and caught her out,</l>
+                  <l>And on the backe a gentle fall he gaue her.</l>
+                  <pb facs="tcp:10613:3"/>
+                  <l>It is a fault which iealous eyes ſpie out,</l>
+                  <l>A maide to kiſſe before her iealous father.</l>
+               </lg>
+               <lg>
+                  <l>Old <hi>Elpin</hi> ſmiles, but yet he frets within.</l>
+                  <l>
+                     <hi>Euphema</hi> faith, ſhe was vniuſtly caſt.</l>
+                  <l>She ſtriues, he holds, his hand goes out, and in:</l>
+                  <l>She cries, Away, and yet ſhe holds him faſt,</l>
+               </lg>
+               <lg>
+                  <l>Till ſentence giuen by an other maid,</l>
+                  <l>That ſhe was caught according to the law:</l>
+                  <l>The voice whereof this ciuill quarrell ſtaid,</l>
+                  <l>And to his make each luſty lad 'gan draw.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Euphema</hi> now with <hi>Streton</hi> is in hell:</l>
+                  <l>(For ſo the middle roome is alwaies cald)</l>
+                  <l>He would for euer, if he might, there dwell;</l>
+                  <l>He holds it bliſſe with her to be inthrald.</l>
+               </lg>
+               <lg>
+                  <l>The other run, and in their running change:</l>
+                  <l>
+                     <hi>Streton</hi> 'gan catch, and then let goe his hold,</l>
+                  <l>
+                     <hi>Euphema,</hi> like a Doe, doth ſwiftly range,</l>
+                  <l>Yet taketh none, although full well ſhe could,</l>
+               </lg>
+               <lg>
+                  <l>And winkes on <hi>Streton,</hi> he on her 'gan ſmile,</l>
+                  <l>And faine would whiſper ſomething in her eare.</l>
+                  <l>She knew his mind, and bid him vſe a wile,</l>
+                  <l>As ſhe ran by him, ſo that none did heare.</l>
+               </lg>
+               <lg>
+                  <l>Some other paſtimes then they would begin;</l>
+                  <l>And to looke hands one doth them all aſſummon.</l>
+                  <l>Varietie is good in euery thing,</l>
+                  <l>Excepting onely Gods and earthly women.</l>
+               </lg>
+               <lg>
+                  <l>Then hand in hand they make a circle round,</l>
+                  <l>And with a napkin one muſt goe about,</l>
+                  <l>And looke behinde what lad, this ſame is found,</l>
+                  <l>Mu<gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> 
+                     <gap reason="illegible" resp="#MURP" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> to <gap reason="illegible" resp="#MURP" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> her that ſo markt him out.</l>
+                  <gap reason="missing" extent="2 pages">
+                     <desc>〈2 pages missing〉</desc>
+                  </gap>
+               </lg>
+               <lg>
+                  <pb facs="tcp:10613:4"/>
+                  <l>Where we will leaue them to their feaſt, and bed,</l>
+                  <l>Whichatter ſupper they entend to ſee,</l>
+                  <l>And treat of Cratchets now in <hi>Stretons</hi> head,</l>
+                  <l>Vpon the mountaines reſtleſſe wanders he.</l>
+               </lg>
+               <lg>
+                  <l>His ſheepe, for him, might all at riot run,</l>
+                  <l>And told themſelues, or elſe do what they would:</l>
+                  <l>He teares no woe, he dreads no loſſe to come,</l>
+                  <l>The Shepheardeſſe hath all his thoughts in hold:</l>
+               </lg>
+               <lg>
+                  <l>His ſtudie is, which way he might contriue</l>
+                  <l>A place and time, where they might fit confer,</l>
+                  <l>And how he might a cauſe ſufficient giue,</l>
+                  <l>To make his loue and paſſion knowne to her.</l>
+               </lg>
+               <lg>
+                  <l>One while he thinkes to ſend his griefe in time,</l>
+                  <l>And therein praiſe her cruell conquering eyes:</l>
+                  <l>But then he feares ſhe will ſome error finde:</l>
+                  <l>For ſhe was faire, and therewith paſſing wiſe.</l>
+               </lg>
+               <lg>
+                  <l>Then thinkes he on what words he ſhould depend,</l>
+                  <l>If he ſhould hap to finde a time and place:</l>
+                  <l>One was too meane, another to no end;</l>
+                  <l>This word obſcure, and that was too too baſe.</l>
+               </lg>
+               <lg>
+                  <l>In the concluſion, he doth beate his braine,</l>
+                  <l>When through the matter he hath ſwiftly run:</l>
+                  <l>Then all atreſh begin doth he againe,</l>
+                  <l>As farre to ſeeke as when he firſt begun.</l>
+               </lg>
+               <lg>
+                  <l>Much like vnto a Player on a ſtage,</l>
+                  <l>When he forgets the thing that he ſhould doe,</l>
+                  <l>As one diſtract doth <hi>exit</hi> in a rage,</l>
+                  <l>That faine would act, but yet he knowes not how.</l>
+               </lg>
+               <lg>
+                  <l>Perplexed thus, he ſpends the ſilent night,</l>
+                  <l>Vntill <hi>Aurora</hi> with a bluſhing red,</l>
+                  <pb facs="tcp:10613:4"/>
+                  <l>Comes as a Herald to proclay me the light</l>
+                  <l>Of heauens bright taper riſing from his bed.</l>
+               </lg>
+               <lg>
+                  <l>And then e're long, he might afarre perceaue</l>
+                  <l>Old <hi>Elpins</hi> dogge come driuing of the flocke;</l>
+                  <l>Wherat the champion mountaines he 'gan leaue,</l>
+                  <l>And by the way he ſhrouds behinde a rocke,</l>
+               </lg>
+               <lg>
+                  <l>Where he might ſee, and yet might not be ſeene,</l>
+                  <l>Old <hi>Elpin</hi> and his pretie ſnowy maid,</l>
+                  <l>Louingly paceyng vp alongſt the greene,</l>
+                  <l>Vnto the mountaine, where Bawle for them ſtaid:</l>
+               </lg>
+               <lg>
+                  <l>And to a ſhade, where they did vſe to ſit,</l>
+                  <l>(For by this time the Sun was got on high)</l>
+                  <l>Prepare they did to ſhun the ſcorching heate:</l>
+                  <l>The Ewes 'gan feede, the lambes are frisking by.</l>
+               </lg>
+               <lg>
+                  <l>And <hi>Elpin</hi> now ſome ſtorie will reuiue,</l>
+                  <l>To feaſt the time as it did paſſe along;</l>
+                  <l>And from <hi>Caliſto</hi> he doth it deriue,</l>
+                  <l>And <hi>Iupiter,</hi> and of <hi>Caliſtos</hi> wrong.</l>
+               </lg>
+               <lg>
+                  <l>One tale (quoth he) will ſteale the day away,</l>
+                  <l>Whilſt that our flocke in ſhadow chew the cud:</l>
+                  <l>Then of a Nymph my purpoſe is to ſay;</l>
+                  <l>But not of her whom <hi>Ioue</hi> bore on the flood,</l>
+               </lg>
+               <lg>
+                  <l>Nor yet of her that caught was fetching water,</l>
+                  <l>Nor yet o<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> her whom <hi>Neſſus</hi> earſt did wrong,</l>
+                  <l>Nor yet of her whom <hi>Iaſon</hi> ſo did flatter,</l>
+                  <l>Nor of the three that <hi>Cacus</hi> kept ſo long:</l>
+               </lg>
+               <lg>
+                  <l>Nor of the Queene that <hi>Carthage</hi> did incloſe;</l>
+                  <l>Nor will I ſpeake of faire <hi>Lucrecias</hi> rape,</l>
+                  <l>Ne tell a ſtorie of the <hi>Albion</hi> Roſe,</l>
+                  <l>Nor <hi>10</hi> yet, of Cow that had the ſhape.</l>
+                  <gap reason="missing" extent="2 pages">
+                     <desc>〈2 pages missing〉</desc>
+                  </gap>
+               </lg>
+               <lg>
+                  <pb facs="tcp:10613:5"/>
+                  <l>Whoſe chaſt deſires had made her been forlorne</l>
+                  <l>Of kin and countrey; and with that doth bring</l>
+               </lg>
+               <lg>
+                  <l>Learned examples for the virgine life,</l>
+                  <l>Whoſe contemplation highly paſt all other:</l>
+                  <l>Not tedious chat, but all in comely briefe,</l>
+                  <l>She craues the goddeſſe leaue to liue together.</l>
+               </lg>
+               <lg>
+                  <l>Who gladly graunts, and by the hand her takes,</l>
+                  <l>And next <hi>Caliſto</hi> kindly doth embrace her.</l>
+                  <l>For ioy whereof <hi>Ioues</hi> ſuttle inwards quakes,</l>
+                  <l>Whoſe hopes depended wholy to deface her.</l>
+               </lg>
+               <lg>
+                  <l>Vnto the Cloyſter, all in ſeemely ray,</l>
+                  <l>For to inſtall this new-elected Nun,</l>
+                  <l>This ſacred traine with Muſicke take the way,</l>
+                  <l>Where, with importance euery rite is done.</l>
+               </lg>
+               <lg>
+                  <l>Looke how a Foxe, when he intends to take</l>
+                  <l>A ſilly lambe, his purpoſe to obtaine,</l>
+                  <l>Staukes farre at firſt, for feare ſome dogs awake,</l>
+                  <l>Then neere and neere, till he the lambe hath ſtaine.</l>
+               </lg>
+               <lg>
+                  <l>So walkes flye <hi>Ioue</hi> with his <hi>Caliſto</hi> forth,</l>
+                  <l>A furlong firſt, the next day three or foure,</l>
+                  <l>Then backe againe, with tales of note and worth,</l>
+                  <l>Some fetcht from heauen, and ſome from earth far lower.</l>
+               </lg>
+               <lg>
+                  <l>So long at laſt vnto a ſhadow groue</l>
+                  <l>They ſtraid, ſo farre quite out of ſound or cry.</l>
+                  <l>Which thing well noted of diſſembling <hi>Ioue,</hi>
+                  </l>
+                  <l>Soone ſate him downe the faire <hi>Caliſto</hi> by;</l>
+               </lg>
+               <lg>
+                  <l>As who would ſay, Let's reſt: for walkes are weary.</l>
+                  <l>Where laughing, they claſpe eithers iuory hands,</l>
+                  <l>Prooue ſtrength of armes, as maids will being merry,</l>
+                  <l>Clip wreſts, draw lots, meat waſtes with ſilken bands.</l>
+               </lg>
+               <lg>
+                  <pb facs="tcp:10613:5"/>
+                  <l>And now although the game began in ſport,</l>
+                  <l>The filly Nymph rude earneſt doth ſuſtaine:</l>
+                  <l>It's vaine to ſtriue, or vſe the womans arte,</l>
+                  <l>Screeke out, or ſtruggle, prayers are but vaine.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Ioue</hi> ſhewes himſelfe, but to <hi>Caliſtos</hi> griefe,</l>
+                  <l>He her deflour'd, and ſtraight to heauen flies,</l>
+                  <l>Where he doth kiſſe Queene <hi>Iuno</hi> his iealous wife,</l>
+                  <l>To blind the ſcape from her all-watchfull eyes.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Caliſto</hi> maid, a maid? nay, there Hyde,</l>
+                  <l>The ſnowy one, who was a maid ere while,</l>
+                  <l>Tis ſhe (I meane) whoſe fortunes are deſcryde,</l>
+                  <l>Lamenting ſits, that euen now did ſmile.</l>
+               </lg>
+               <lg>
+                  <l>The day was gone, and <hi>Phebus</hi> maskt his face,</l>
+                  <l>The antike world is ſhut in robes of night:</l>
+                  <l>Yet ſhe poore ſoule, bewayling ſtill her caſe,</l>
+                  <l>Aſham'd henceforth to gaze vpon the light.</l>
+               </lg>
+               <lg>
+                  <l>Yet in the end ſhe doth recall to mind,</l>
+                  <l>That what was paſt, no wight the act did know,</l>
+                  <l>And that cloſe action much the world doth blind.</l>
+                  <l>
+                     <hi>All are not maids that virgins are in ſhow.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>Conſidering this, ſhe wipes her blubbered eyes,</l>
+                  <l>And charg'd with feare, ſhe mends her ruffled clothes,</l>
+                  <l>And for excuſe, her wits ſhe doth ſurpriſe</l>
+                  <l>For her delay; ſo to the Cloyſter goes,</l>
+               </lg>
+               <lg>
+                  <l>As light as euer Nymph or damzell trod:</l>
+                  <l>No change of fortune may <hi>Diana</hi> ſpy;</l>
+                  <l>No marke is ſeene of any foyle ſhe had;</l>
+                  <l>Front bolt-vpright, ſhe neuer ſtept awry:</l>
+               </lg>
+               <lg>
+                  <l>And making there (as wily women can)</l>
+                  <l>Excuſe worth credit for her long delay,</l>
+                  <gap reason="missing" extent="2 pages">
+                     <desc>〈2 pages missing〉</desc>
+                  </gap>
+               </lg>
+               <lg>
+                  <pb facs="tcp:10613:6"/>
+                  <l>But wherefore beat I thus the ſenceleſſe ayre?</l>
+                  <l>Why warble I theſe vaine and fruteleſſe words,</l>
+                  <l>Whilſt he relentleſſe Leatcher keepes him there,</l>
+                  <l>Where he's ſupreme, and pittie none affords?</l>
+               </lg>
+               <lg>
+                  <l>Why doe I not complaine vnto the gods?</l>
+                  <l>
+                     <hi>Caliſto,</hi> doe; let him beare ſhame with thee:</l>
+                  <l>Shew how he did betray thee to the woods;</l>
+                  <l>Let <hi>Iuno</hi> know how he hath dealt with me.</l>
+               </lg>
+               <lg>
+                  <l>Yet, fooliſh wench, tis vaine, if ſo thou thinke,</l>
+                  <l>That to thy plaints the gods will credit giue:</l>
+                  <l>Noe, they will rather at his falſhood winke:</l>
+                  <l>Thy information they will not beleeue.</l>
+               </lg>
+               <lg>
+                  <l>Like ſtormes on plaines, with threats hee'le beare thee downe.</l>
+                  <l>A ſilly lambe a Lyon cann't defame?</l>
+                  <l>Heele vnto tortures haue thee drag'd and bound,</l>
+                  <l>If thou his ſcapes ſhouldſt once detect or name.</l>
+               </lg>
+               <lg>
+                  <l>And thus (God wot) doe mountaines take their freakes,</l>
+                  <l>But euermore poore mole-hils beare the blame.</l>
+                  <l>The <hi>Owle</hi> may ſee the haughtie <hi>Eagle</hi> ſcapes:</l>
+                  <l>But none durſt once accuſe him for the ſame.</l>
+               </lg>
+            </div>
+            <div type="part">
+               <lg>
+                  <l>THis ſaid, ſhe ſpies <hi>Diana</hi> with her traine,</l>
+                  <l>With courſe directed to a fountaine, where</l>
+                  <l>The loftie trees coole ſhadow doth containe,</l>
+                  <l>Where ſhe did vſe to waſh her body bare.</l>
+               </lg>
+               <lg>
+                  <l>Faine would ſhe hide: but <hi>Dian</hi> ſhe eſpies,</l>
+                  <l>And called her, whoſe heaſt ſhe doth obay;</l>
+                  <l>And ſtanding vp, ſhe wipes her watery eyes,</l>
+                  <l>And to the fountaine with them takes the way.</l>
+               </lg>
+               <lg>
+                  <l>Good God, what tis for ſilly maides to ſhift,</l>
+                  <l>When conſcience writes ſome action in the cheeke!</l>
+                  <pb facs="tcp:10613:6"/>
+                  <l>She hangs the head, her eyes ſhe durſt not lift</l>
+                  <l>Vp from the ground, the ayre ſhe did not like.</l>
+               </lg>
+               <lg>
+                  <l>The Nymph, that euer by <hi>Dianas</hi> ſide</l>
+                  <l>Went cheeke by iowle, bearing a ſtately port,</l>
+                  <l>Now lurkes behind, not willing to be ey'd,</l>
+                  <l>Byting her lips, as one aſham'd in hart.</l>
+               </lg>
+               <lg>
+                  <l>Which cauſ'd a muttring 'mongſt the virgine rout,</l>
+                  <l>And ſome ſuppoſed ſhe had ſtept amiſſe:</l>
+                  <l>Her very count'nance may diſſolue the doubt,</l>
+                  <l>Her cheeke bewrayes, that it had caught a kiſſe.</l>
+               </lg>
+               <lg>
+                  <l>But being come vnto the ſiluer ſtreame,</l>
+                  <l>Where naked all attend to waſh the Queene,</l>
+                  <l>
+                     <hi>Caliſtos</hi> robes no more may hide her ſhame:</l>
+                  <l>
+                     <hi>Ioues</hi> ſuttle freak's apparent to be ſeene.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Caliſtos</hi> griefe is publike to their eyes;</l>
+                  <l>Her ſlender hands may not her belly hide.</l>
+                  <l>The goddeſſe ſpies, and therewith out ſhe cryes,</l>
+                  <l>Strumpet, auaunt, thy whoredome is deſcride.</l>
+               </lg>
+               <lg>
+                  <l>The Nymphs all ſhouted: but the ſorry one</l>
+                  <l>On bended knees deſires to be heard:</l>
+                  <l>But hopeleſſe ſoule, attention had ſhe none.</l>
+                  <l>For her exile their voyces all accord.</l>
+               </lg>
+               <lg>
+                  <l>Away ſhe goes, as one expeld from Court,</l>
+                  <l>And liues in deſerts, as a wight forlorne,</l>
+                  <l>Where, to the world (as ancient fame reports)</l>
+                  <l>And to her woe, was hayrie <hi>Arcas</hi> borne.</l>
+               </lg>
+               <lg>
+                  <l>From whom <hi>Arcadia</hi> tooke at firſt the name,</l>
+                  <l>The Sonne of <hi>Ioue,</hi> a <hi>Satire</hi> firſt became:</l>
+                  <l>The angry <hi>Iuno,</hi> to augment her fame,</l>
+                  <l>Vpon the Nymph a Beariſh ſhape doth frame.</l>
+                  <gap reason="missing" extent="2 pages">
+                     <desc>〈2 pages missing〉</desc>
+                  </gap>
+               </lg>
+               <lg>
+                  <pb facs="tcp:10613:7"/>
+                  <l>When Pinkes and Cowſlips, ſhall be made a bed,</l>
+                  <l>Vpon whoſe gentle leaues ſecure wee'le ſleepe,</l>
+                  <l>Lockt one to other, whilſt red lips doe wed,</l>
+                  <l>Inuiron'd with armes, breſts ſweete kiſſing meete,</l>
+               </lg>
+               <lg>
+                  <l>Caſt ouer with a vale of beautyous Lillyes,</l>
+                  <l>Vpon which mantle ſhall curiouſly be drawne</l>
+                  <l>A thouſand ſtories by renown'd <hi>Apelles,</hi>
+                  </l>
+                  <l>Where we will ſee how louing ſoules doe fawne.</l>
+               </lg>
+               <lg>
+                  <l>If theſe delights, with many thouſand more,</l>
+                  <l>May in thy breſt moue matter of regard,</l>
+                  <l>Let me no longer thus diſtreſt implore:</l>
+                  <l>But with a ſmile my loyall loue reward.</l>
+               </lg>
+            </div>
+            <div type="part">
+               <lg>
+                  <l>VVIth that, he takes her by the Iuory hand,</l>
+                  <l>And ſilent ſtands to heare her make reply;</l>
+                  <l>When that her lookes giue him to vnderſtand,</l>
+                  <l>That womens thoughts doe on ſuch ſubiects lye.</l>
+               </lg>
+               <lg>
+                  <l>And ſhee with ſilent motion giues conſent,</l>
+                  <l>Not noting once the fraud of golden ſhowres,</l>
+                  <l>Nor how too late, betrayed maides repent</l>
+                  <l>Themſelues, in ſuffring men to plucke their flowres,</l>
+               </lg>
+               <lg>
+                  <l>But ſuffers <hi>Streton</hi> to doe what he would:</l>
+                  <l>Her mind is dauncing on this promiſt pleaſure.</l>
+                  <l>Away will I, (leſt Pandor proue I ſhould)</l>
+                  <l>Leauing <hi>Euphema</hi> to repent by leaſure.</l>
+               </lg>
+            </div>
+            <div type="part">
+               <lg>
+                  <l>ANd now of <hi>Elpin,</hi> whom we touch't before,</l>
+                  <l>That home was run, deluded with a wile,</l>
+                  <l>And view'd his houſe, his windowes and his dore,</l>
+                  <l>Whilſt crafty <hi>Streton</hi> ſtole his bliſſe the while.</l>
+               </lg>
+               <lg>
+                  <l>And when his eyes, the meſſengers of ioy,</l>
+                  <l>Had backe return'd the tidings of no wrong,</l>
+                  <pb facs="tcp:10613:7"/>
+                  <l>With hems, and ſighs, he ſhakes away annoy,</l>
+                  <l>And to the deſerts 'gan he paſe along;</l>
+               </lg>
+               <lg>
+                  <l>Where all that day he ſpends in whoopes and calls:</l>
+                  <l>But from his child the ayre doth nothing lend,</l>
+                  <l>When greater dread his trembling hart inthrals,</l>
+                  <l>Suppoſing that ſhe had <hi>Adonis</hi> end.</l>
+               </lg>
+               <lg>
+                  <l>And when the clouds had maskt the face of heauen,</l>
+                  <l>And cole-blacke ſhade, the ſubiect of all illneſſe,</l>
+                  <l>Had full poſſeſt the ſeate that time had giuen,</l>
+                  <l>And in her mantle wrapt vp all in ſtilneſſe,</l>
+               </lg>
+               <lg>
+                  <l>He ſate him downe, girt with extremeſt woe.</l>
+                  <l>O, why did Nature ſuch affection breed,</l>
+                  <l>That parents eyes with teares ſhould ouerflow,</l>
+                  <l>And dim their glaſſes for their graceleſſe ſeed?</l>
+               </lg>
+               <lg>
+                  <l>For after he with ſighs had toll'd her knell,</l>
+                  <l>And clenſd the brooke of grones that ſtaid the flood,</l>
+                  <l>With wringed hands, Adue (quoth) he) farewell,</l>
+                  <l>The onely comfort of my withered blood:</l>
+               </lg>
+               <lg>
+                  <l>Farewell the face, that duld the fatall knife,</l>
+                  <l>Farewell the breſt, that heaued out ſuch layes,</l>
+                  <l>Farewell the ſhield and target of my life,</l>
+                  <l>Farewell the whole ſupporter of my dayes:</l>
+               </lg>
+               <lg>
+                  <l>And welcome thou blacke miſtres of the night,</l>
+                  <l>In thy ſad armes let me alwaies ſleepe:</l>
+                  <l>O let me not reuiue to ſee the light,</l>
+                  <l>O let the Sunne beneath for euer keepe:</l>
+               </lg>
+               <lg>
+                  <l>And from the darke and hideous ſcowling clouds,</l>
+                  <l>Powre ſtormes of vengeance on this curſed place;</l>
+                  <l>Blow Northerne blaſts, and ſcatter downe theſe ſhrouds,</l>
+                  <l>Eare vp the roots from <hi>Terras</hi> pampered face:</l>
+                  <gap reason="missing" extent="2 pages">
+                     <desc>〈2 pages missing〉</desc>
+                  </gap>
+               </lg>
+               <lg>
+                  <pb facs="tcp:10613:8"/>
+                  <l>And therefore ſhew the role of this thy care,</l>
+                  <l>Shew out the burden of thy warbling hart,</l>
+                  <l>And vnto thee I likewiſe will declare</l>
+                  <l>As ſad a tale in euery point and part.</l>
+               </lg>
+               <lg>
+                  <l>So may one helpe another in a ſtraine:</l>
+                  <l>Ile ſigh, whilſt thou deliuerſt out thy griefe;</l>
+                  <l>And thou ſhalt pitty, whilſt my part doth rayne,</l>
+                  <l>And meete at laſt both with a weary life.</l>
+               </lg>
+            </div>
+            <div type="part">
+               <lg>
+                  <l>HEreat the other pleaſed ſeem'd to be,</l>
+                  <l>And by the hand he <hi>Elpin</hi> doth inuite</l>
+                  <l>To ſit by him, beſide an Oaken tree,</l>
+                  <l>Whoſe burly branches kept the Caue from light.</l>
+               </lg>
+               <lg>
+                  <l>And after they vpon a brace of pipes,</l>
+                  <l>Had many ſollum mournefull tunes o'rerunne,</l>
+                  <l>The ſcarlet eyes of one the other wipes,</l>
+                  <l>When <hi>Elpins</hi> mate his tale he thus begun:</l>
+               </lg>
+            </div>
+            <div type="part">
+               <head>Stretons Fathers tale.</head>
+               <lg>
+                  <l>THe cauſe I moane, is not for any loſſe,</l>
+                  <l>If reaſon might dame Natures errour maſter:</l>
+                  <l>But follies bred within the bones of vs,</l>
+                  <l>Stand farre without the cure of wiſdomes plaſter.</l>
+               </lg>
+               <lg>
+                  <l>And where affection buyldes her habitation,</l>
+                  <l>Admit it be in ne're ſo baſe a ſoyle,</l>
+                  <l>What counſell can with ſtrongeſt proteſtation,</l>
+                  <l>Withdraw it foorth, or eaſe vs of that toyle?</l>
+               </lg>
+               <lg>
+                  <l>My ſelfe, whom age ſhould bynde in Wiſdomes lore,</l>
+                  <l>And through experience tread the path that's beſt,</l>
+                  <l>May not refraine from that which makes me ſore,</l>
+                  <l>But loue the vulture that doth gnaw my breſt.</l>
+               </lg>
+               <lg>
+                  <l>A graceleſſe ſonne, an off-ſpring of my bloud,</l>
+                  <l>In whom my youth had ſtored vp his ioy,</l>
+                  <pb facs="tcp:10613:8"/>
+                  <l>To be a comfort when I nothing cou'd,</l>
+                  <l>Hath ſtolne my Goats, and packt himſelfe away,</l>
+               </lg>
+               <lg>
+                  <l>And tane with him a wily wanton maid,</l>
+                  <l>
+                     <hi>Euphema</hi> hight, whom I this preſent morne</l>
+                  <l>Found in his lap, as ſhe aſleepe was laid,</l>
+                  <l>Whilſt he with flowers did her head adorne,</l>
+               </lg>
+               <lg>
+                  <l>And at my ſhowing ſuddenly aroſe,</l>
+                  <l>And in a moment flung out of my ſight,</l>
+                  <l>And hither came (at leaſt I ſo ſuppoſe)</l>
+                  <l>And in this caue I hop't on them to light.</l>
+               </lg>
+            </div>
+            <div type="part">
+               <head>Elpins anſwere to Stretons Father.</head>
+               <lg>
+                  <l>ENough, enough, toe much: oh, ſay no more,</l>
+                  <l>(Quoth weary <hi>Elpin</hi>) thou haſt poyſoned me:</l>
+                  <l>Forbeare, forbeare to rub me on that ſore,</l>
+                  <l>That inward bleeds, and may not cured be.</l>
+               </lg>
+               <lg>
+                  <l>Thy Goats? my girle, hath one felon ſtolne;</l>
+                  <l>Accurſt for one, and damned for the other:</l>
+                  <l>Woe to the day and place where he was borne;</l>
+                  <l>Shame to his father, and horrour to his mother.</l>
+               </lg>
+            </div>
+            <div type="part">
+               <head>Stretons Fathers reply.</head>
+               <lg>
+                  <l>CEaſe, bawling caitife, I thy words diſdaine,</l>
+                  <l>Quoth <hi>Stretons</hi> Father, ſhame be to thy ſelfe:</l>
+                  <l>If ſhe be thine, ſhe is as lewd as mine:</l>
+                  <l>Then ceaſe to dote ſo on a wanton elfe.</l>
+                  <l>The fathers loue the child to ill doth harden,</l>
+                  <l>When that it ſtands ſo publike ſhe may view it,</l>
+                  <l>Whereby preſuming on her Fathers pardon,</l>
+                  <l>She iumps ſo far, till ſhe with ſhame doth rue it.</l>
+               </lg>
+               <lg>
+                  <l>They both are naught, ſo naught <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>et both them run:</l>
+                  <l>One day they'le wiſh they had kept parents rules:</l>
+                  <pb facs="tcp:10613:9"/>
+                  <l>An aged eye can oft ſee things to come,</l>
+                  <l>When greener heads account vs doating fooles.</l>
+               </lg>
+               <lg>
+                  <l>Put vp thy Pipe; let's get vs to our flockes:</l>
+                  <l>And let them gad, till they repentance catch:</l>
+                  <l>When <hi>Hyems</hi> ſhall vpon them ſhake his lockes,</l>
+                  <l>Their grazing feaſt will haue a weariſh tarch.</l>
+               </lg>
+               <lg>
+                  <l>When ſiluer ſhowres congeale to hardned hayle,</l>
+                  <l>When pleaſant meads conuert to mariſh ground,</l>
+                  <l>When ſtately trees of ſap their leaues ſhall fayle,</l>
+                  <l>Or when the wind ſhall tumble <hi>Progne</hi> downe;</l>
+               </lg>
+               <lg>
+                  <l>Then ſhall we ſee our Graſſe-hoppers to come,</l>
+                  <l>And with the words of mercy cloy our eares,</l>
+                  <l>When fooliſh we with pittie ouercome,</l>
+                  <l>Shall fondly ſhead a thouſand pardoning teares.</l>
+               </lg>
+               <lg>
+                  <l>Whereat they roſe, and ſighing tooke their way</l>
+                  <l>Vnto the mountaine where the Shepheards plaid,</l>
+                  <l>Where woefull <hi>Elpin</hi> paſſed many a day,</l>
+                  <l>In deepe laments for his too careleſſe maid.</l>
+               </lg>
+               <lg>
+                  <l>And on a time, as he alone was ſate,</l>
+                  <l>Neere to a fountaine or a liuely ſpring,</l>
+                  <l>Vnto a Pipe made of a ramping Oate,</l>
+                  <l>With ſtrained voice he lowdly thus 'gan ſing.</l>
+               </lg>
+            </div>
+            <div type="part">
+               <head>Elpins Song.</head>
+               <lg>
+                  <l>THe harſhie rockes are all to totters rent,</l>
+                  <l>The frisking lambs haue left their wonted playes,</l>
+                  <l>Faire <hi>Philomele</hi> is dombe and diſcontent,</l>
+                  <l>The ſcowling clouds abbridge our ſun-ſhine dayes.</l>
+               </lg>
+               <lg>
+                  <l>The ſeemely Lilly hangs her louely head,</l>
+                  <l>The Violet dies, with the Carnation white;</l>
+                  <l>Faire Marigold infolds no more her ſeede,</l>
+                  <l>The frugrant Roſe is withered with deſpight:</l>
+               </lg>
+               <lg>
+                  <pb facs="tcp:10613:9"/>
+                  <l>The earth is barren, ciuilitie is dombe,</l>
+                  <l>Our brighteſt daies are foggie, ſoule, and blacke:</l>
+                  <l>O time it is, O time, when wilt thou come,</l>
+                  <l>And ſhew the Lambe, whoſe comming many lacke?</l>
+               </lg>
+            </div>
+            <div type="part">
+               <lg>
+                  <l>ANd ending this, though more he would haue ſung,</l>
+                  <l>Had not <hi>Euphema</hi> to his ſight appeard,</l>
+                  <l>Who at his feete with hands together wrung,</l>
+                  <l>And wombe bewraying what within it bear'd,</l>
+               </lg>
+               <lg>
+                  <l>Lies pleading for remiſſion of her fact,</l>
+                  <l>With vowed promiſe to tranſgreſſe no more,</l>
+                  <l>Whoſe ſudden fight her Fathers life-ſtrings crackt,</l>
+                  <l>And falling downe, he ended his implore.</l>
+               </lg>
+               <lg>
+                  <l>Well might ſhe waile: but death his owne will keepe,</l>
+                  <l>Well might ſhe rocke and ſhocke her Fathers corſe:</l>
+                  <l>Well might ſhe fit her downe by him and weepe,</l>
+                  <l>That 'twixt them twaine pale death had made diuorce.</l>
+               </lg>
+               <lg>
+                  <l>Now ſtands ſhe ſpeechleſſe, choakt with inward woe,</l>
+                  <l>And with her hands her Iuorie breſt doth beate,</l>
+                  <l>Curſing in hart what brought her hereunto.</l>
+                  <l>Thus women will, but when it is too late.</l>
+               </lg>
+               <lg>
+                  <l>And then on <hi>Streton</hi> ſhe 'gan lowd exclaime,</l>
+                  <l>Who had forſaken her in this her neede,</l>
+                  <l>Leaning a marke for ſhame to take her aime.</l>
+                  <l>The vulgar fruit that ſprings from wanton ſeede.</l>
+               </lg>
+            </div>
+            <div type="part">
+               <head>Euphemas Lamentation.</head>
+               <lg>
+                  <l>VVAS I (quoth ſhe) the chieſe <hi>Arcadian</hi> maid?</l>
+                  <l>Was I the wardrop of my Fathers treaſure?</l>
+                  <l>I was, I was: but all's at riot laid.</l>
+                  <l>My iewel's changed for a fruitleſſe pleaſure.</l>
+               </lg>
+               <lg>
+                  <pb facs="tcp:10613:10"/>
+                  <l>O, heare I not the birds bewray my fact?</l>
+                  <l>O, ſee I not the flockes abhorre my ſight?</l>
+                  <l>Behold, behold, the world lothing thy act:</l>
+                  <l>See how they ſcorne, who in thee tooke delight.</l>
+               </lg>
+               <lg>
+                  <l>Then looke on, you, whom <hi>Iaſons</hi> would allure,</l>
+                  <l>See here the Muſicke of a yeelding ſong:</l>
+                  <l>Read what it is to build on vowes impute.</l>
+                  <l>The ſweeteſt words containe oft greateſt wrong.</l>
+               </lg>
+               <lg>
+                  <l>Beautie, without the ornament of honour;</l>
+                  <l>Is like a Roſe whom Spiders haue bereft,</l>
+                  <l>The pure ſweete odour time beſtowd vpon her,</l>
+                  <l>Loth'd of the Bees when hony none is left,</l>
+               </lg>
+               <lg>
+                  <l>And pittied as a Deare amongſt an heard,</l>
+                  <l>When he with ſoyle hath al him ouer-dight,</l>
+                  <l>Whoſe company they will not once afford,</l>
+                  <l>But beate him hence, as lothing ſuch a ſight.</l>
+               </lg>
+               <lg>
+                  <l>But whereunto doe I this breath applie?</l>
+                  <l>Why draw I thus the pourtract of my fate?</l>
+                  <l>Why rather doe I not deſpaire and die,</l>
+                  <l>And cancell vp my life with honours date?</l>
+               </lg>
+               <lg>
+                  <l>Now that baſe luſt lies publike, voide of harbour,</l>
+                  <l>Spreading abroad the enſigne of tranſgreſſion,</l>
+                  <l>Now vertuous triumphs haue forſooke the arbour,</l>
+                  <l>Leauing the ſeate where ſhame hath ta'ne poſſeſſion;</l>
+               </lg>
+               <lg>
+                  <l>Prepare, vaine fleſh, you that conſpir'd with ſhame,</l>
+                  <l>Ope wide your veines to let out wanton ſtreames,</l>
+                  <l>Reſolue, reſolue to die. And with the ſame,</l>
+                  <l>An armed blade euen at her breſt ſhe aimes.</l>
+               </lg>
+               <lg>
+                  <l>Looke, how a villen toucht with conſciences dart,</l>
+                  <l>When at his feete he lies, whom he would ſlay,</l>
+                  <pb facs="tcp:10613:10"/>
+                  <l>Pots forth his hand, and then repents in hart,</l>
+                  <l>Now vowes to ſtrike, but horror bids him ſtoy:</l>
+               </lg>
+               <lg>
+                  <l>Euen ſo her hand the knife pluckes to and fro,</l>
+                  <l>Fearing to hurt the boſome which it loues,</l>
+                  <l>Whilſt feare and ſcorne threats each others woe,</l>
+                  <l>One crying, Stab; the other ſtill reproues.</l>
+               </lg>
+               <lg>
+                  <l>Thus ſtanding in ſuſpence 'twixt life and death;</l>
+                  <l>Death arguing feare, life crying out diſhonour:</l>
+                  <l>When reſolution hating lothed breath,</l>
+                  <l>Confutes pale feare to let in death vpon her,</l>
+               </lg>
+               <lg>
+                  <l>Then <hi>Dido</hi> like ſhe pearſ'd the frame of Nature;</l>
+                  <l>When through the bulwarke of her crimſon blood,</l>
+                  <l>Deaths roaring cannon ſpoyles the worke and feature,</l>
+                  <l>Breaking the ſtage whereon liues action ſtood.</l>
+               </lg>
+               <lg>
+                  <l>But what is fate, if we conceiue with meaſure?</l>
+                  <l>Who beares the badge of fortune, rules not her.</l>
+                  <l>The deeds of men are voide at heauens pleaſure:</l>
+                  <l>Our doome decreed, we cannot mead, nor marre.</l>
+               </lg>
+               <lg>
+                  <l>Whilſt this her blood the ſcornefull earth embrac'd,</l>
+                  <l>Before the ſet of liues declining ſun,</l>
+                  <l>The caitife <hi>Streton</hi> being thither chac'd</l>
+                  <l>By Wolues, and Beares, whoſe force he ſought to ſhun,</l>
+               </lg>
+               <lg>
+                  <l>And looking round which way he beſt might take,</l>
+                  <l>His eyes did ſpy this diſmall ſpectacle,</l>
+                  <l>The ſight whereof made ioynts and ſynewes ſhake.</l>
+                  <l>And as he gaz'd, behold, a miracle.</l>
+               </lg>
+               <lg>
+                  <l>Thoſe ſauage beaſts, whoſe iawes he ſought to flie,</l>
+                  <l>Had in a moment compaſt him about,</l>
+                  <l>As who would ſay, Villaine, behold her die.</l>
+                  <l>And therewithall the ayre and wood throughout</l>
+               </lg>
+               <lg>
+                  <pb facs="tcp:10613:11"/>
+                  <l>
+                     <hi>Did</hi> ring and ſound with noyſe of beaſts and birds,</l>
+                  <l>Who at him bay'd and ſtar'de as at an <hi>Owle:</hi>
+                  </l>
+                  <l>Kites, Crowes, and Buzzards, Iayes, with woluiſh heards,</l>
+                  <l>Rookes; Pies, and Oopes, and each deuouring ſowle.</l>
+               </lg>
+               <lg>
+                  <l>Amongſt the reſt, a blacke and filthie bird</l>
+                  <l>Sate on a ſkrange, and cries, A rope, a rope.</l>
+                  <l>Whoſe ougly voyce to <hi>Streton</hi> plaine was heard;</l>
+                  <l>And ſeeing hope of life ſtood paſt all hope,</l>
+               </lg>
+               <lg>
+                  <l>Aloud replies, A rope? why, I haue none:</l>
+                  <l>If die I muſt, come ſunder theſe my quarters.</l>
+                  <l>A prating Parrot ſitting all alone,</l>
+                  <l>Him anſwere makes, Goe hang thee in thy garters.</l>
+               </lg>
+               <lg>
+                  <l>With that, in haſte his garters he puts off.</l>
+                  <l>A nimble Ape his topman ſtrait will bee,</l>
+                  <l>And hangs vp <hi>Streton,</hi> whil<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>t a Monkie did ſcoffe.</l>
+                  <l>Crying, Good fruite, good fruite doth beare the tree.</l>
+               </lg>
+               <lg>
+                  <l>The <hi>Owle</hi> forth-with a ſolemne dirge doth ſing:</l>
+                  <l>With that, the Rauen ſeaz'd vpon his eyes.</l>
+                  <l>His funerall condold, and euery thing,</l>
+                  <l>They left his bones a banquet for the flies.</l>
+               </lg>
+            </div>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:10613:11"/>
+         </div>
+      </body>
+   </text>
+</TEI>

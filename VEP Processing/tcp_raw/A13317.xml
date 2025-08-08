@@ -1,0 +1,1258 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>De templis, a treatise of temples wherein is discovered the ancient manner of building, consecrating, and adorning of churches.</title>
+            <author>R. T.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1638</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 130 KB of XML-encoded text transcribed from 125 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A13317</idno>
+            <idno type="STC">STC 23625</idno>
+            <idno type="STC">ESTC S101632</idno>
+            <idno type="EEBO-CITATION">99837441</idno>
+            <idno type="PROQUEST">99837441</idno>
+            <idno type="VID">1762</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A13317)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 1762)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1397:03)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>De templis, a treatise of temples wherein is discovered the ancient manner of building, consecrating, and adorning of churches.</title>
+                  <author>R. T.</author>
+               </titleStmt>
+               <extent>[16], 237, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by R. Bishop, for Thomas Alchorn, at the Green Dragon in S. Pauls Church-yard,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1638.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Dedication signed: R.T.</note>
+                  <note>Imperfect; A1, blank except for signature, lacking.</note>
+                  <note>Reproduction of the original in the Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Church architecture --  Early works to 1800.</term>
+               <term>Church decoration and ornament --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-01</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-02</date>
+            <label>Susie Lorand</label>Sampled and proofread</change>
+         <change>
+            <date>2011-02</date>
+            <label>Susie Lorand</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div xml:lang="lat" type="imprimatur">
+            <pb facs="tcp:1762:1"/>
+            <p>
+               <hi>PEr legi Tractatum hunc</hi> De Templis, <hi>in quo nihil reperio ſanae fidei, aut bonis moribus contrarium, quo minùs cum utilitate imprimatur.</hi>
+            </p>
+            <closer>
+               <signed>Tho: Wykes <hi>R.P. Epiſ: Lond: Cap: domeſt:</hi>
+               </signed> 
+               <dateline>Ex aedibus Fulham: <date>April: 13. 1638.</date>
+               </dateline>
+            </closer>
+         </div>
+         <div type="title_page">
+            <pb facs="tcp:1762:1" rendition="simple:additions"/>
+            <p>
+               <hi>De Templis,</hi> A TREATISE OF TEMPLES: Wherein is diſco<g ref="char:EOLhyphen"/>vered the Ancient man<g ref="char:EOLhyphen"/>ner of Building, Conſe<g ref="char:EOLhyphen"/>crating, and Adorning of CHURCHES.</p>
+            <p>LONDON, Printed by <hi>R. Biſhop,</hi> for <hi>Thomas Alchorn,</hi> at the Green Dragon in <hi>S. Pauls</hi> Church-yard. 1638.</p>
+            <pb facs="tcp:1762:2" rendition="simple:additions"/>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:1762:2" rendition="simple:additions"/>
+            <head>To the thrice noble and right pious Knights, Sir <hi>Paul Pindar,</hi> and Sir <hi>Iohn Wolſten<g ref="char:EOLhyphen"/>holme.</hi>
+            </head>
+            <opener>
+               <salute>Moſt Worthy Knights,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">Y</seg>Our loves to Churches is ſo great, that I preſume this little <hi>Treatiſe,</hi> for its ar<g ref="char:EOLhyphen"/>guments ſake, will eaſily find your fa<g ref="char:EOLhyphen"/>vourable
+<pb facs="tcp:1762:3"/>
+acceptance. The which I humbly preſent unto your view: together with my beſt ſervice to your commands,</p>
+            <closer>
+               <signed>Your humble ſervant R. T.</signed>
+            </closer>
+         </div>
+         <div type="table_of_contents">
+            <pb facs="tcp:1762:3"/>
+            <head>The Contents of the Chapters.</head>
+            <list>
+               <label>
+                  <hi>Chap.</hi> 1.</label>
+               <item>OF the word <hi>Temple,</hi> and why not us'd by the Primitive Chriſti<g ref="char:EOLhyphen"/>ans. <hi>pa.</hi> 1</item>
+               <label>
+                  <hi>Chap.</hi> 2.</label>
+               <item>Divers names of the Temples of the Gentiles. 7</item>
+               <label>
+                  <hi>Chap.</hi> 3.</label>
+               <item>Divers names of the Iewiſh Temples. 11</item>
+               <label>
+                  <pb facs="tcp:1762:4"/>
+                  <hi>Chap.</hi> 4.</label>
+               <item>Divers names of Chri<g ref="char:EOLhyphen"/>ſtian Temples. 16</item>
+               <label>
+                  <hi>Chap.</hi> 5.</label>
+               <item>The definition of a Temple. 33</item>
+               <label>
+                  <hi>Chap.</hi> 6.</label>
+               <item>Of the forme or figure of Temples. 38</item>
+               <label>
+                  <hi>Chap.</hi> 7.</label>
+               <item>Of the parts of Chriſtian Temples. 50</item>
+               <label>
+                  <hi>Chap.</hi> 8.</label>
+               <item>Of the ſituation of Temples, and why Eaſt<g ref="char:EOLhyphen"/>ward? 59</item>
+               <label>
+                  <hi>Chap.</hi> 9.</label>
+               <item>Of the Rites, and Cere<g ref="char:EOLhyphen"/>monies, uſed at the De<g ref="char:EOLhyphen"/>dication of Heathen
+<pb facs="tcp:1762:4"/>
+Temples. 73</item>
+               <label>
+                  <hi>Chap.</hi> 10.</label>
+               <item>Of the Dedication of the Iewes Temples. 82</item>
+               <label>
+                  <hi>Chap.</hi> 11.</label>
+               <item>Of the Conſecration of Chriſtian Temples. 89</item>
+               <label>
+                  <hi>Chap.</hi> 12.</label>
+               <item>Whether yearly Feaſts obſerved upon the dayes of Dedication of Chriſtian Churches, be lawfull? 98</item>
+               <label>
+                  <hi>Chap.</hi> 13.</label>
+               <item>Of the ends, for which Temples were built. 108</item>
+               <label>
+                  <hi>Chap.</hi> 14.</label>
+               <item>How the whole world may bee ſaid to bee a Tem<g ref="char:EOLhyphen"/>ple. 114</item>
+               <label>
+                  <pb facs="tcp:1762:5"/>
+                  <hi>Chap.</hi> 15.</label>
+               <item>How every particular Chriſtian may bee ſaid to be the Temple of God. 129</item>
+               <label>
+                  <hi>Chap.</hi> 16.</label>
+               <item>How the Body of Chriſt, and how the Bleſſed Virgin Mother, may be<g ref="char:EOLhyphen"/>ſaid to bee the Temples of God. 134</item>
+               <label>
+                  <hi>Chap.</hi> 17.</label>
+               <item>Of the multitude, and ſplendour of Heathen Temples. 139</item>
+               <label>
+                  <pb facs="tcp:1762:5"/>
+                  <hi>Chap.</hi> 18.</label>
+               <item>Of the Magnificence of the Jewiſh Temples. 157</item>
+               <label>
+                  <hi>Chap.</hi> 19.</label>
+               <item>Of the Builders of Chri<g ref="char:EOLhyphen"/>ſtian Temples. 169</item>
+               <label>
+                  <hi>Chap.</hi> 20.</label>
+               <item>Of adorning Chriſtian Temples. 176</item>
+               <label>
+                  <hi>Chap.</hi> 21.</label>
+               <item>A decent forme of building and adorning a Church. 183</item>
+               <label>
+                  <pb facs="tcp:1762:6"/>
+                  <hi>Chap.</hi> 22.</label>
+               <item>Of Burying in Churches. 204</item>
+               <label>
+                  <hi>Chap.</hi> 23.</label>
+               <item>Of the Priviledges and Immunities of Tem<g ref="char:EOLhyphen"/>ples. 214</item>
+               <label>
+                  <hi>Chap.</hi> 24.</label>
+               <item>Of the right uſe of Tem<g ref="char:EOLhyphen"/>ples, and how they are abuſed. 220</item>
+               <label>
+                  <hi>Chap.</hi> 25.</label>
+               <item>Of the rewards which ſuch receive, who built and adorn Churches. 229</item>
+            </list>
+         </div>
+         <div type="errata">
+            <pb facs="tcp:1762:6"/>
+            <head>ERRATA.</head>
+            <p>Page 3 for <hi>id eſt, r</hi> that <hi>is, p</hi> 17 <hi>r locus quo, &amp;c. p</hi> 25 <hi>r</hi> donours <hi>p</hi> 53 <hi>r quo conditur, &amp; quo Ponitur. p</hi> 56 <hi>r</hi> ἐν ἐιρήνῄ, <hi>p</hi> 76 <hi>r Capitolinus, p</hi> 96 <hi>r celebrandas,</hi> 105 <hi>r</hi> in all times <hi>p</hi> 115 <hi>r</hi> erected, <hi>p</hi> 116 <hi>r</hi> opinion, <hi>p</hi> 120 <hi>r</hi> which, <hi>p</hi> 207 &amp; 213 <hi>r</hi> διδα<g ref="char:EOLhyphen"/>σκαλεῖον.</p>
+            <pb facs="tcp:1762:7"/>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:1762:7"/>
+            <head>A TREATISE OF TEMPLES.</head>
+            <div n="1" type="chapter">
+               <head>CHAP. I. <hi>Of the word</hi> Temple, <hi>and why not us'd by the Primi<g ref="char:EOLhyphen"/>tive Chriſtians.</hi>
+               </head>
+               <p>
+                  <hi>
+                     <seg rend="decorInit">T</seg>Empla dicta qua<g ref="char:EOLhyphen"/>ſi tecta ampla,</hi> ſo <hi>Iſidor:</hi> Great and ample buil<g ref="char:EOLhyphen"/>dings, are called <hi>Temples:</hi>
+                  <pb n="2" facs="tcp:1762:8"/>
+according with that of <hi>Arnobius, Templum eſt neſcio quid immane, at<g ref="char:EOLhyphen"/>que amplum.</hi> For in old times, onely thoſe buil<g ref="char:EOLhyphen"/>dings which were of great, and magnificent ſtructure, were called <hi>Temples.</hi> So the <hi>Capitol</hi> at Rome, the Temple of <hi>Diana</hi> at Epheſus, of <hi>Se<g ref="char:EOLhyphen"/>rapis</hi> at Alexandria, of <hi>Minerva</hi> at Athens, were called <hi>Temples,</hi> being all huge, and ſtately buil<g ref="char:EOLhyphen"/>dings.</p>
+               <p>
+                  <hi>Rodulphus Agricola</hi> de<g ref="char:EOLhyphen"/>rives <note place="margin">
+                     <hi>In</hi> 2. <hi>de<g ref="char:EOLhyphen"/>clam. Seneca.</hi>
+                  </note> the word; <hi>à tem<g ref="char:EOLhyphen"/>plando,</hi> becauſe the anci<g ref="char:EOLhyphen"/>ent heathens; before
+<pb n="3" facs="tcp:1762:8"/>
+they began to build, <hi>tem<g ref="char:EOLhyphen"/>plabantur, id eſt,</hi> did cu<g ref="char:EOLhyphen"/>riouſly view, and obſerve the auguries of the South-ſayers, that they might more proſpe<g ref="char:EOLhyphen"/>rouſly ſucceed in the e<g ref="char:EOLhyphen"/>rection.</p>
+               <p>
+                  <hi>Cornelius à Lapide,</hi> de<g ref="char:EOLhyphen"/>rives <note place="margin">In 2. Cor. cap. 6. v. 16.</note> it <hi>à tuendo,</hi> and am<g ref="char:EOLhyphen"/>plifies his derivation, from the double ſignifi<g ref="char:EOLhyphen"/>cation of <hi>tueri,</hi> to ſee, and defend, <hi>Deus enim</hi> (ſaies hee) <hi>&amp; tuetur &amp; intuetur,</hi> God hath al<g ref="char:EOLhyphen"/>way an Eye upon his Church, and will ſurely defend it, from all its e<g ref="char:EOLhyphen"/>nemies.</p>
+               <p>
+                  <pb n="4" facs="tcp:1762:9"/>
+The Primitive Chri<g ref="char:EOLhyphen"/>ſtians, are ſaid not to call their Churches, Temples; and Cardi<g ref="char:EOLhyphen"/>nall <note place="margin">
+                     <hi>Lib.</hi> 3. <hi>de cultu Sanctor.</hi>
+                  </note> 
+                  <hi>Bellarmine,</hi> gives this reaſon for it; becauſe the Jewiſh ſacrifices offer'd in their Temple, were as yet freſh in memorie, and might with the name ſeeme ſtill to re<g ref="char:EOLhyphen"/>maine: as alſo becauſe the Gentiles, call'd the pla<g ref="char:EOLhyphen"/>ces where they worſhipt their Idols by the ſame names. So that you ſhall not often find (if I mi<g ref="char:EOLhyphen"/>ſtake not) in ancient Chriſtian writers, the word Temple, unleſſe
+<pb n="5" facs="tcp:1762:9"/>
+ſignifying the Temples of the heathen, untill the time of <hi>Conſtantine</hi> the Great, by whoſe munifi<g ref="char:EOLunhyphen"/>cent pietie, ſtately, and beanteous Temples were every where erected, the Temples of Idols de<g ref="char:EOLhyphen"/>ſtroyed, and the Chri<g ref="char:EOLhyphen"/>ſtians enjoyed publique libertie, throughout the whole world, then alſo was the name Prieſt, more frequently apply<g ref="char:EOLhyphen"/>ed to the Chriſtians, as appeares in the writings of S. <hi>Hilarie,</hi> S. <hi>Ambroſe,</hi> S. <hi>Auguſtin,</hi> and others.</p>
+               <p>
+                  <hi>Laelius Biſciola</hi> is of o<g ref="char:EOLhyphen"/>pinion, <note place="margin">
+                     <hi>Lib.</hi> 17. <hi>cap</hi> 19.</note> that the Primi<g ref="char:EOLhyphen"/>tive
+<pb n="6" facs="tcp:1762:10"/>
+Chriſtians had no Temples, their poverty was not able to erect ſo ſtately, and glorious buildings, as were called Temples. Nor if they had beene able, would the Gentiles have ſuffe<g ref="char:EOLhyphen"/>red them, for we read in Eccleſiaſticque ſtories, that they pull'd downe their humble, and low Oratories: Beſides, it was not lawfull, for any to build a Temple, un<g ref="char:EOLhyphen"/>leſſe the ground were firſt hallowed by the Idolatrous, and ſuperſti<g ref="char:EOLhyphen"/>tious ceremonies, of the Augurs, which the Chri<g ref="char:EOLhyphen"/>ſtians
+<pb n="7" facs="tcp:1762:10"/>
+could by no meanes endure.</p>
+            </div>
+            <div n="2" type="chapter">
+               <head>CHAP. II. <hi>Divers names of the Temples of the Gentiles.</hi>
+               </head>
+               <p>
+                  <hi>
+                     <seg rend="decorInit">D</seg>Elubra,</hi> were ſa<g ref="char:EOLhyphen"/>cred ſtructures of the Gen<g ref="char:EOLhyphen"/>tiles, ſo called (as <hi>I<g ref="char:EOLhyphen"/>ſidor</hi> ſaith) <hi>à diluendo,</hi> for they had fountaines belonging to them, in the which they were wont to waſh, before they entered into them, for which reaſon (ſaith
+<pb n="8" facs="tcp:1762:11"/>
+hee) well might our Temples be cald <hi>Delu<g ref="char:EOLhyphen"/>bra,</hi> at whoſe entrance ſtands the ſacred Font, by whoſe water, we are cleans'd in Baptiſme from our ſins. But thoſe Temples have beene ſo polluted, by the ſacrile<g ref="char:EOLhyphen"/>gious Idolatrie of the heathens, that all Chri<g ref="char:EOLhyphen"/>ſtian writers, (unleſſe the Poets for verſe ſake) abhor the very word.</p>
+               <p>
+                  <hi>Fana,</hi> were a kind of Temples, ſo called, <hi>à fando,</hi> ſaies <hi>Feſtus,</hi> from certaine words uttered by the Prieſts, when the bounds of the ground
+<pb n="9" facs="tcp:1762:11"/>
+wheron they ſtood were firſt limited. Others think they were ſo cal<g ref="char:EOLhyphen"/>led <hi>à Faunis,</hi> from their Gods <hi>Fauni,</hi> to whom they were dedicated.</p>
+               <p>Saint <hi>Paul</hi> ſpeaking of <note place="margin">1 Cor. 8. 10</note> the Temples of Idols, cals them <hi>Idolia,</hi> recep<g ref="char:EOLhyphen"/>tacles of vaine Idols, and feigned deities, in which they were kept, and worſhipped, and in which they kept feaſts with the meat which was offered in ſacrifice to the Idols, of which kind of fea<g ref="char:EOLhyphen"/>ſtings, <hi>Herodotus</hi> ſpeaks, and alſo <hi>Virgil.</hi> 
+                  <note place="margin">
+                     <hi>Lib</hi> 8. <hi>Aeneid.</hi>
+                  </note>
+               </p>
+               <p>The Turks have their
+<pb n="10" facs="tcp:1762:12"/>
+                  <hi>Fana,</hi> ſome greater than others, all which in their language are called <hi>Moſ<g ref="char:EOLhyphen"/>chits</hi> or <hi>Moſquitas,</hi> the greateſt of all, is that of <hi>Sancta Sophia</hi> at Con<g ref="char:EOLhyphen"/>ſtantinople, of which more hereafter.</p>
+               <p>In Japan, the cheifeſt Temple (they ſay) of 13000. is called <hi>Denix,</hi> from the name of their Idoll <hi>Denichi,</hi> which they worſhip under the forme of the Sun, the Moone, and the Ele<g ref="char:EOLhyphen"/>ments.</p>
+            </div>
+            <div n="3" type="chapter">
+               <pb n="11" facs="tcp:1762:12"/>
+               <head>CHAP. III. <hi>Divers names of the Iewiſh Temples.</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">T</seg>He Jewes, before <hi>Salomons</hi> Tem<g ref="char:EOLhyphen"/>ple was built, had their Tabernacle, which they called the houſe of the Lord. So we read, how that <hi>Elcana</hi> brought <note place="margin">1 Sam. 1. 32.</note> 
+                  <hi>Samuel</hi> to the houſe of the Lord in Silo, where is meant, the Tabernacle, for the Temple was not then built. The word is a diminutive <hi>à Tabernâ,</hi> which ſignifies any
+<pb n="12" facs="tcp:1762:13"/>
+houſe, fit for habitation, <hi>à tabulis,</hi> becauſe they were uſually enclos'd with boards, but though built of other matter, cuſtome ſtill retained the name.</p>
+               <p>The Jewes Taber<g ref="char:EOLhyphen"/>nacle had the forme of a Temple, but was made as the Tents and Ta<g ref="char:EOLhyphen"/>bernacles wherein the Jewes dwelt at that time when <hi>Moyſes</hi> built it.</p>
+               <p>The firſt part of the Tabernacle, in which was the Candleſtick, the Table, &amp;c. was called the Sanctuary, and into this firſt Tabernacle, all the
+<pb n="13" facs="tcp:1762:13"/>
+Prieſts might enter, and at all times, but into the ſecond, which was called <hi>Sanctum Sanctorum,</hi> might the high Prieſt onely come, and that but once every yeare, not without blood, which hee offered for himſelfe, and for the er<g ref="char:EOLhyphen"/>rours of the people, as we read <hi>Hebrewes</hi> 9. 2. <hi>A ſanguine,</hi> from blood, ſaith <hi>Iſidor,</hi> comes the word <hi>Sanctum,</hi> for the ancients accounted no<g ref="char:EOLhyphen"/>thing holy, <hi>Niſi quod ho<g ref="char:EOLhyphen"/>ſtiae ſanguine eſſet conſe<g ref="char:EOLhyphen"/>cratum,</hi> unleſſe it were hallowed, with the
+<pb n="14" facs="tcp:1762:14"/>
+blood of a Sacrifice.</p>
+               <p>That moſt ſacred place of the Tabernacle which was called <hi>San<g ref="char:EOLhyphen"/>ctum Sanctorum,</hi> the ho<g ref="char:EOLhyphen"/>lieſt of holies, becauſe it conteined in it, the moſt holy things which ap<g ref="char:EOLhyphen"/>perteined to the Jewiſh religion, was alſo called <hi>Oraculum,</hi> the Oracle, from the Divine an<g ref="char:EOLhyphen"/>ſwers, which therein were uttered by the voyce of an Angell.</p>
+               <p>The Jewes had alſo, beſides the Temple of <hi>Salomon,</hi> certaine other edifices dedicated to the worſhip of God, which
+<pb n="15" facs="tcp:1762:14"/>
+were called <hi>Synagogues,</hi> from the Greek word <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> to aſſemble or ga<g ref="char:EOLhyphen"/>ther together, in theſe houſes it was lawfull to pray, to preach, or diſ<g ref="char:EOLhyphen"/>pute, but not to offer ſa<g ref="char:EOLhyphen"/>crifices. The Temple was as it were the Cathedrall Church, the Synagogues as petty pariſh Churches belonging to it. The farre diſtance of the Temple, was the firſt oc<g ref="char:EOLhyphen"/>caſion of building theſe Synagogues; to which thoſe Jewes that dwelt in remote places, might repaire in ſtead of the Te<g ref="char:cmbAbbrStroke">̄</g>ple, like to our Chap<g ref="char:EOLhyphen"/>pels
+<pb n="16" facs="tcp:1762:15"/>
+of eaſe in great Pa<g ref="char:EOLhyphen"/>riſhes.</p>
+               <p>Wee often read in holy Scriptures the Temple called the houſe of God, the houſe of the Lord: and our bleſſed Saviour, from the cheifeſt ſer<g ref="char:EOLhyphen"/>vice men doe in it, cal<g ref="char:EOLhyphen"/>led it <hi>Domus Orationis,</hi> 
+                  <note place="margin">Mat. 21. 13.</note> the houſe of prayer.</p>
+            </div>
+            <div n="4" type="chapter">
+               <head>CHAP. IV. <hi>Divers names of Chri<g ref="char:EOLhyphen"/>ſtian Temples.</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">A</seg>S <hi>Synagoga</hi> a<g ref="char:EOLhyphen"/>mongſt the
+<pb n="17" facs="tcp:1762:15"/>
+Jewes, ſo the word <hi>Ec<g ref="char:EOLhyphen"/>cleſia,</hi> amongſt Ortho<g ref="char:EOLhyphen"/>dox Chriſtian writers, ſignifies not onely the Congregation of the people of God, but the place alſo where the Aſ<g ref="char:EOLhyphen"/>ſembly meets. <hi>Eccleſia dicitur</hi> (ſaith Saint <hi>Au<g ref="char:EOLhyphen"/>guſtin) quò Eccleſia con<g ref="char:EOLhyphen"/>gregatur,</hi> the place where the Catholique Church meets together, is called a Church.</p>
+               <p>
+                  <hi>Baſilica,</hi> is often read in Saint <hi>Anguſtin,</hi> and o<g ref="char:EOLhyphen"/>ther Fathers, for a Tem<g ref="char:EOLhyphen"/>ple: <hi>Bellarmin</hi> ſaith, that <note place="margin">
+                     <hi>Lib.</hi> 3. <hi>cap.</hi> 4. <hi>de cult. Sa<g ref="char:cmbAbbrStroke">̄</g>ctor.</hi>
+                  </note> the ſame place may bee called a Temple, as it is
+<pb n="18" facs="tcp:1762:16"/>
+deſtin'd to Gods wor<g ref="char:EOLhyphen"/>ſhip, and a <hi>Baſilica,</hi> as it is the ornament of ſome Saints Sepulcher, and ſo, is both a Temple to God, and a Tombe to his Martyrs. Kings Pa<g ref="char:EOLhyphen"/>laces, were of old called <hi>Baſilicae,</hi> from Βασιλευς, a King, and the ſacred Temples, dedicated to the King of Kings, may well bee ſo called. <hi>Baſi<g ref="char:EOLhyphen"/>licae</hi> were alſo certaine buildings adjoyning to Market places, where the Judges ſate, and de<g ref="char:EOLhyphen"/>cided Law caſes, menti<g ref="char:EOLhyphen"/>oned by <hi>Plinius ſecundus</hi> in one of his Epiſtles,
+<pb n="19" facs="tcp:1762:16"/>
+                  <hi>Deſcendebam in Baſilicam Iulianam, ſedebant Iudi<g ref="char:EOLhyphen"/>ces. &amp;c.</hi> I went into the <hi>Iulian Baſilica,</hi> where the Judges ſate. Theſe <hi>Baſi<g ref="char:EOLhyphen"/>licae,</hi> ſaith <hi>Baronius,</hi> were <note place="margin">Marty<g ref="char:EOLhyphen"/>rol. Ro<g ref="char:cmbAbbrStroke">̄</g>.</note> by a happy Metamor<g ref="char:EOLhyphen"/>phôſis, changed into Chriſtian Churches, and ſtill retained their old name, as may be gathe<g ref="char:EOLhyphen"/>red by that of <hi>Auſonius</hi> 
+                  <note place="margin">In gra<g ref="char:EOLhyphen"/>tiaru<g ref="char:cmbAbbrStroke">̄</g> a<g ref="char:EOLhyphen"/>ctione pro con<g ref="char:EOLhyphen"/>ſolatu.</note> to <hi>Gratian: Baſilicae, olim negotiis plenae, nunc votis, votiſque pro tuâ ſalute ſuſceptis:</hi> Thoſe <hi>Baſili<g ref="char:EOLhyphen"/>cae,</hi> which erſt while were throngd with pub<g ref="char:EOLhyphen"/>like negotiations, are now filled with praiers,
+<pb n="20" facs="tcp:1762:17"/>
+and wiſhes, for your Ma<g ref="char:EOLhyphen"/>jeſties proſperity. And the agreement in forme of the ancient Chriſtian Churches, with theſe <hi>Baſilicae</hi> makes the opi<g ref="char:EOLhyphen"/>nion very probable; for the <hi>Baſilicae</hi> were divers galleries or porticues, joyned together, ſtan<g ref="char:EOLhyphen"/>ding upon columnes, e<g ref="char:EOLhyphen"/>qually diſtant, as <hi>Vitru<g ref="char:EOLhyphen"/>vius</hi> teaches.</p>
+               <p>Churches built in re<g ref="char:EOLhyphen"/>membrance of ſome Saint or Martyr, were called <hi>Memoriae;</hi> Saint <hi>Auguſtin</hi> uſes this word often, in his book of the City of God, <hi>Memoria</hi> 
+                  <note place="margin">
+                     <hi>Lib.</hi> 22. <hi>cap</hi> 8.</note>
+                  <pb n="21" facs="tcp:1762:17"/>
+                  <hi>Martyrum ibi eſt Mediola<g ref="char:EOLhyphen"/>nenſium, Gervaſii, &amp; Pro<g ref="char:EOLhyphen"/>taſii:</hi> There (ſaith hee) is the Memoriall of <hi>Ger<g ref="char:EOLhyphen"/>vaſe</hi> and <hi>Protaſe,</hi> both Martyrs of Millan. And elſe-where, <hi>Nos Marty<g ref="char:EOLhyphen"/>ribus noſtris, non Templa ſicut Diis, ſed Memorias, ſicut hominibus mortuis, quorum apud Deum, ſpiritus vivunt fabrica<g ref="char:EOLhyphen"/>mus:</hi> Wee erect not Temples to our Mar<g ref="char:EOLhyphen"/>tyrs, as if wee thought them gods, but Memo<g ref="char:EOLhyphen"/>rials, as to men whoſe ſoules, we are ſure, live with God.</p>
+               <p>The ſame Temples
+<pb n="22" facs="tcp:1762:18"/>
+which the Latines call <hi>Memoriae,</hi> the Greekes call <hi>Martyria,</hi> which at firſt were onely thoſe Churches, in which the bodies of holy Martyrs were interred. After<g ref="char:EOLhyphen"/>wards other Churches ſhared in the name, ſo that famous Temple of the Reſurrection of our Saviour, at Jeruſalem, (built by the ſingular care, and pietie of <hi>Eu<g ref="char:EOLhyphen"/>ſtace,</hi> a Prieſt of Con<g ref="char:EOLhyphen"/>ſtantinople, as Saint <hi>Hierome</hi> writeth) was called a Martyrie, be<g ref="char:EOLhyphen"/>cauſe is was a Teſtimo<g ref="char:EOLhyphen"/>niall of our bleſſed Sa<g ref="char:EOLhyphen"/>viours
+<pb n="23" facs="tcp:1762:18"/>
+Reſurrection.</p>
+               <p>Chriſtian Churches are alſo called <hi>Tituli,</hi> ſo <hi>Prudentius, Parte aliâ titulum Pauli, &amp;c.</hi> now the chief Churches only, which in Rome belong to the Lords Cardinals, are called <hi>Tituli.</hi>
+               </p>
+               <p>There are in Rome certaine Churches cal<g ref="char:EOLhyphen"/>led <hi>Diaconiae,</hi> Deaconries belonging to the Cardi<g ref="char:EOLhyphen"/>nall Deacons.</p>
+               <p>They were at firſt, houſes of publique hoſ<g ref="char:EOLhyphen"/>pitality, having Orato<g ref="char:EOLhyphen"/>ries adjoyning to them, in which the Deacons miniſtred to the neceſſi<g ref="char:EOLhyphen"/>ties
+<pb n="24" facs="tcp:1762:19"/>
+of the poor father<g ref="char:EOLhyphen"/>leſſe children, and wid<g ref="char:EOLhyphen"/>dowes.</p>
+               <p>
+                  <hi>Parochia</hi> or rather <hi>Pa<g ref="char:EOLhyphen"/>raeciae,</hi> 
+                  <note place="margin">
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>.</note> are Pariſh Chur<g ref="char:EOLhyphen"/>ches, ordained for a cer<g ref="char:EOLhyphen"/>taine number of neigh<g ref="char:EOLhyphen"/>bouring inhabitants, who are to receive from the Pariſh Prieſt, the holy Sacraments, and all things elſe, needfull for the Salvation of ſoules.</p>
+               <p>A little place, ordai<g ref="char:EOLhyphen"/>ned onely for prayers, is called <hi>Oratorium,</hi> an Oratory, in Greeke, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, or <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, a houſe of Prayer.</p>
+               <p>Oratories adjoyning
+<pb n="25" facs="tcp:1762:19"/>
+to Temples, are called <hi>Cubicula,</hi> Cloſets. Pope <hi>Leo</hi> is reported by <hi>Ana<g ref="char:EOLhyphen"/>ſtaſius,</hi> to have ordained divers Clergy men, to be <hi>Cubicularii</hi> Keepers, or Clerks of the Cloſet.</p>
+               <p>A Chaunterie ſo cal<g ref="char:EOLhyphen"/>led a <hi>Cantando,</hi> is a Church or Chappell, en<g ref="char:EOLhyphen"/>dowed with Lands, or other yearely revenues, for the maintenance of one or more Prieſts dai<g ref="char:EOLhyphen"/>ly, to ſing Maſſe for the ſoule of the donour and ſuch others as they did appoint.</p>
+               <p>The heathens had cer<g ref="char:EOLhyphen"/>taine ſacred places,
+<pb n="26" facs="tcp:1762:20"/>
+which they called <hi>Sacel<g ref="char:EOLhyphen"/>la,</hi> and thoſe little Chur<g ref="char:EOLhyphen"/>ches, or rather parts of great Churches, which are divided from the body of the Church, by iron bars, or latices, are by the Chriſtians ſo cal<g ref="char:EOLhyphen"/>led.</p>
+               <p>Theſe <hi>Sacella</hi> are alſo called <hi>Capellae,</hi> Chap<g ref="char:EOLhyphen"/>pels, of which <hi>Honorius</hi> in his Sermon of Saint <hi>Martin,</hi> ſaith thus; <hi>San<g ref="char:EOLhyphen"/>cti Martini Capa, Franco<g ref="char:EOLhyphen"/>rum Regibus ad bella eun<g ref="char:EOLhyphen"/>tibus, pro ſigno antefere<g ref="char:EOLhyphen"/>batur, &amp; per eam hoſtibus victis, victoria potieba<g ref="char:EOLhyphen"/>tur, &amp; Cuſtodes illius</hi>
+                  <pb n="27" facs="tcp:1762:20"/>
+                  <hi>Capae, uſque hodie Capellani appellantur:</hi> The French Kings (ſaith hee) had Saint <hi>Martins</hi> Cap caried before them to battaile, for an enſigne; and thoſe clergy men, who caryed it, were called <hi>Capellani</hi> Chaplaines, and the place where it was kept, was called <hi>Ca<g ref="char:EOLhyphen"/>pella.</hi>
+               </p>
+               <p>The Greekes call their Temple <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, the holy place, they called it alſo <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, becauſe it is Gods houſe where he dwells, though ſome thinke rather from the Hebrew word <hi>Naghan,</hi>
+                  <pb n="28" facs="tcp:1762:21"/>
+which ſignifies beauty, ſince nothing ought to be ſo beautifull, as the Temple, whence that of the Pſalmiſt. That our daughters may be as the corner ſtones poli<g ref="char:EOLhyphen"/>ſhed after the ſimilitude of a Temple.</p>
+               <p>We call our greateſt Churches Cathedrals, becauſe they belong <hi>ad Cathedram Epiſcopi,</hi> to the Epiſcopall Seat; they are alſo called <hi>Eccleſiae E<g ref="char:EOLhyphen"/>piſcopales &amp; Baptiſmales,</hi> alſo Mother Churches. For in the primitive times (either in imitati<g ref="char:EOLhyphen"/>on of Saint <hi>Iohns</hi> bapti<g ref="char:EOLhyphen"/>zing
+<pb n="29" facs="tcp:1762:21"/>
+of Chriſt in the ri<g ref="char:EOLhyphen"/>ver Jordan, or rather <hi>quia nondum Oratoria vel</hi> 
+                  <note place="margin">
+                     <hi>Lib.</hi> 2. <hi>cap.</hi> 14. <hi>Eccl. hi.</hi>
+                  </note> 
+                  <hi>Baptiſtoria in ipſo exordio naſcentis Eccleſiae pote<g ref="char:EOLhyphen"/>rant aedificari;</hi> as vene<g ref="char:EOLhyphen"/>rable <hi>Bede</hi> thinkes, be<g ref="char:EOLhyphen"/>cauſe they were unpro<g ref="char:EOLhyphen"/>vided of Fonts and Churches, therefore) the rites of Baptiſme were performed in ri<g ref="char:EOLhyphen"/>vers and fountaines; but afterwards, it was orde<g ref="char:EOLhyphen"/>red that Baptiſterials, or Fonts ſhould be placed in the great Church of every City, wherein the Biſhop himſelfe reſi<g ref="char:EOLhyphen"/>ded, and the right of
+<pb n="30" facs="tcp:1762:22"/>
+Baptiſme belonged to the Cathedrall Church onely, unleſſe in caſe of neceſſitie. And theſe Churches were there<g ref="char:EOLhyphen"/>fore called Mother Churches. Becauſe that as the people in their mothers womb were borne men, ſo in the Fonts of Baptiſme as in the Churches womb, they were borne Chri<g ref="char:EOLhyphen"/>ſtians. In after ages (becauſe of the farre di<g ref="char:EOLhyphen"/>ſtances of the Cathedrall Churches) the right of Baptiſme was transferred to Parochiall Churches; which Churches in re<g ref="char:EOLhyphen"/>gard
+<pb n="31" facs="tcp:1762:22"/>
+of the Chappels of eaſe, and private Orato<g ref="char:EOLhyphen"/>ries belonging to them, may now alſo be called Baptiſmall and Mother Churches, to whom on<g ref="char:EOLhyphen"/>ly belong the right of Sepulture and Baptiſme.</p>
+               <p>We Engliſhmen, call the Temple the Church; in the North parts of En<g ref="char:EOLhyphen"/>gland the <hi>Kyrk,</hi> from the Greek word κυριακον, or κυριακη, the Lords houſe: and <hi>Cedrenus</hi> ſpeaking of the Emperour <hi>Conſtan<g ref="char:EOLhyphen"/>tin,</hi> uſes this very word, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, hee makes Temples or Churches, to the honour
+<pb n="32" facs="tcp:1762:23"/>
+of God. It is alſo uſed by the Laodicean Cou<g ref="char:cmbAbbrStroke">̄</g>cell, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. It is not fit to keep feaſts in the Churches. And Saint <hi>Hierom.</hi> often uſes the Latin word, <hi>Do<g ref="char:EOLhyphen"/>minicum,</hi> or <hi>Dominica</hi> for the Temple.</p>
+               <p>There are certaine Churches called <hi>Min<g ref="char:EOLhyphen"/>ſters, quaſi</hi> Monaſters <hi>à Monaſterio,</hi> as ſome think, becauſe the Canons in former times, lived a Monaſtique life, as ap<g ref="char:EOLhyphen"/>peares by their houſes, and cloyſters, and had all things in common, like as the Primitive Chriſti<g ref="char:EOLhyphen"/>ans
+<pb n="33" facs="tcp:1762:23"/>
+had. And hitherto of the names of Tem<g ref="char:EOLhyphen"/>ples.</p>
+            </div>
+            <div n="5" type="chapter">
+               <head>CHAP. V. <hi>The definition of a Temple.</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">A</seg> Temple is by ſome thus de<g ref="char:EOLhyphen"/>fined, <hi>Templum eſt aedificium Deo conſe<g ref="char:EOLhyphen"/>cratum,</hi> it is an edifice, conſecrated to God. And in this definition is conteined the whole na<g ref="char:EOLhyphen"/>ture of any Temple.</p>
+               <p>It is an edifice, whe<g ref="char:EOLhyphen"/>ther
+<pb n="34" facs="tcp:1762:24"/>
+made of wood, or of ſtone, as marble, Touch, &amp;c. or of metals, as braſſe, ſilver, gold, &amp;c. the word ſignifies, as well poore, and meane buildings, as great, and noble. <hi>Ara floribus redi<g ref="char:EOLhyphen"/>mita ſpelunca frondibus inumbrata:</hi> an Altar (ſaith one) deckt with flowers or a cave, or grotto, made of boughes, may bee called a Tem<g ref="char:EOLhyphen"/>ple.</p>
+               <p>It is reported of our own Anceſtors the old Saxons, that they uſed to have publique praiers under a Croſſe, erected
+<pb n="35" facs="tcp:1762:24"/>
+in the open fields, which place and ſtructure was to them a Temple. <hi>Mos<g ref="char:EOLhyphen"/>eſt Saxonicae gentis quod in nonnullis nobilium bo<g ref="char:EOLhyphen"/>norumque hominum prae<g ref="char:EOLhyphen"/>diis Sanctae Crucis ſignum Domino dicatum, &amp; cum magno honore in altum erectum ad commodam diurnae orationis ſeduli<g ref="char:EOLhyphen"/>tatem ſolent habere. Ho<g ref="char:EOLhyphen"/>daperic. Wilibaldi.</hi>
+               </p>
+               <p>We read alſo how the holy Patriarch <hi>Iacob,</hi> e<g ref="char:EOLhyphen"/>rected <note place="margin">Gen. 28. 17.</note> the ſtone on which he had ſlept, for a Temple, and with a ſeemly reverence pow<g ref="char:EOLhyphen"/>ring oyle upon it, ſaid
+<pb n="36" facs="tcp:1762:25"/>
+thus. <hi>Quàm terribilis eſt locus iſte, &amp;c.</hi> How terrible is this place, it is no other than the houſe of God, the gate of heaven.</p>
+               <p>When wee ſay, it is conſecrated to God, we not onely diſtinguiſh it from all profane buil<g ref="char:EOLhyphen"/>dings, but alſo teach the end, for which it was built. And if by God, we will underſtand the feigned deities, in this de<g ref="char:EOLhyphen"/>finition may alſo bee comprehended, the <hi>Fana</hi> and <hi>Delubra,</hi> of the heathens, as well as the Temples of the Jewes,
+<pb n="37" facs="tcp:1762:25"/>
+and Chriſtians, or any other, who ignorantly worſhip the true God; for wee read that Saint <hi>Paul</hi> found an Altar at <note place="margin">Act. 17. 23.</note> 
+                  <hi>Athens,</hi> with this in<g ref="char:EOLhyphen"/>ſcription, <hi>Ignoto Deo,</hi> To the unknowne God, which God (Saint <hi>Paul</hi> ſaith) they ignorantly worſhip'd. Finally, whe<g ref="char:EOLhyphen"/>ther you conſider the matter, forme, figure, ſi<g ref="char:EOLhyphen"/>tuation, &amp;c. of Temples, all are in this definition comprized.</p>
+            </div>
+            <div n="6" type="chapter">
+               <pb n="38" facs="tcp:1762:26"/>
+               <head>CHAP. VI. <hi>Of the forme or figure of Temples.</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">T</seg>He forme of a Temple, is two<g ref="char:EOLhyphen"/>fold, either the externall forme, which is obvious to every be<g ref="char:EOLhyphen"/>holder, or the internall forme, which bodily eyes, cannot ſee. That conſiſts in the figure, and outward workmanſhip: This in the dedication. The externall forme, of which wee intend to ſpeak, depending almoſt
+<pb n="39" facs="tcp:1762:26"/>
+wholly on the fancie of the Architect, has ever been various, and uncer<g ref="char:EOLhyphen"/>taine. The Gentiles commonly fitted their buildings to the nature of their Gods. <hi>Iupiter Olympius</hi>'s Temple, was built after the Dorique order, with columnes round about the out<g ref="char:EOLhyphen"/>ſides of it; and by <hi>Iupiter</hi> was ſignified the fire, as by <hi>Iuno</hi> the ayre, whoſe Temple they builded af<g ref="char:EOLhyphen"/>ter the ſelf-ſame order, and manner, intending doubtleſſe thereby, to ſignifie, the great ſtrength of the two ele<g ref="char:EOLhyphen"/>ments,
+<pb n="40" facs="tcp:1762:27"/>
+of fire, and ayre; as alſo, the vicinity of the nature of ayre, in its ſupreme region to the fire.</p>
+               <p>
+                  <hi>Vitruvius</hi> ſaith, that the Dorique manner of <note place="margin">
+                     <hi>Lib.</hi> 1. 3. 4.</note> building, being more ſtrong, doth beſt beſeem the Temple of the more warlike and robuſtious Gods, as <hi>Mars</hi> and <hi>Her<g ref="char:EOLhyphen"/>cules, &amp;c.</hi> But to <hi>Flora, Venus,</hi> the Nymphes of the fountaines, and the like delicate Godeſſes, if you build a Temple, let it bee after the Corin<g ref="char:EOLhyphen"/>thian order, more ſlen<g ref="char:EOLhyphen"/>der &amp; beautifull, the Ca<g ref="char:EOLhyphen"/>pitols
+<pb n="41" facs="tcp:1762:27"/>
+&amp; Freezes, grac'd with curious leaves and carved flowers. To Dei<g ref="char:EOLhyphen"/>ties of the middle ſort, as <hi>Iuno, Diana, Bacchus, &amp;c.</hi> let the Temples be ere<g ref="char:EOLhyphen"/>cted after the Ionique building, which is the meane betwixt the ſe<g ref="char:EOLhyphen"/>vere grave Dorique or<g ref="char:EOLhyphen"/>der, and the light ſlender and effeminate building of Corinth.</p>
+               <p>Many of the Temples of the Heathen, in the Apoſtles times, and in the time of <hi>Conſtantine</hi> the great, were conver<g ref="char:EOLhyphen"/>ted from Idols, to the worſhip of the true God,
+<pb n="42" facs="tcp:1762:28"/>
+yet ſtill reteined their old figure and ſhape, <hi>Alia falſorum Numinum Tem<g ref="char:EOLhyphen"/>pla, dirui, alia in melio<g ref="char:EOLhyphen"/>rem</hi> 
+                  <note place="margin">
+                     <hi>Serm.</hi> 3 <hi>de verb. Apoſt.</hi>
+                  </note> 
+                  <hi>uſum commutari con<g ref="char:EOLhyphen"/>ſuevere<g ref="char:punc">▪</g>
+                  </hi> as Saint <hi>Auguſtin</hi> tels us.</p>
+               <p>Some Temples of the Heathens were conver<g ref="char:EOLhyphen"/>ted to the ſervice of the true God: Others were quite demoliſhed. We <note place="margin">
+                     <hi>Euſeb. de vit. Const. Lib.</hi> 3.</note> read, how that the wic<g ref="char:EOLhyphen"/>ked infidels had erected a Temple, in that verie place where our Sa<g ref="char:EOLhyphen"/>viours Sepulcher was, to their impure Goddeſſe <hi>Venus,</hi> which <hi>Conſtantin</hi> pulled down to the very
+<pb n="43" facs="tcp:1762:28"/>
+foundation, comman<g ref="char:EOLhyphen"/>ding alſo that the ſtones, timber, and rubbiſh of it, ſhould bee carryed farre from that ground.</p>
+               <p>Saint <hi>Greg.</hi> in an Epi<g ref="char:EOLhyphen"/>ſtle <note place="margin">
+                     <hi>Lib.</hi> 9. <hi>Epiſt.</hi> 71</note> to <hi>Melitus</hi> an Abbot, gives command, that <hi>Au<g ref="char:EOLhyphen"/>guſtine</hi> the Biſhop (as I ſuppoſe) of Canterbury, and he to whom England owes much for her con<g ref="char:EOLhyphen"/>verſion, ſhould deſtroy the Idols in England, but ſuffer their Temples ſtill to ſtand: <hi>Nam Gens illa verum Deum cognoſcens</hi> (ſaith hee) <hi>ad loca quae conſuevit familiariùs con<g ref="char:EOLhyphen"/>curret,</hi> and a little after:
+<pb n="44" facs="tcp:1762:29"/>
+                  <hi>Duris mentibus omnia ab<g ref="char:EOLhyphen"/>ſcindere, impoſſibile eſſe non dubium eſt. Qui lo<g ref="char:EOLhyphen"/>cum ſummum aſcendere nititur, gradibus vel paſ<g ref="char:EOLhyphen"/>ſibus, non ſaltibus eleva<g ref="char:EOLhyphen"/>tur, &amp;c.</hi> And by this, we may gueſſe at the fi<g ref="char:EOLhyphen"/>gure of the Churches, which the primitive Chriſtians firſt uſed. The figure moſt affected by the ancient heathen, was the round, imitating (as it were) thereby the Heavens. Of this figure, was <hi>Veſta's</hi> Temple, built in Rome by <hi>Numa,</hi> of this figure was alſo the fa<g ref="char:EOLhyphen"/>mous <hi>Pantheon.</hi>
+               </p>
+               <p>
+                  <pb n="45" facs="tcp:1762:29"/>
+Indeed the Temples which the Chriſtians e<g ref="char:EOLhyphen"/>rected from the very foundation, were of o<g ref="char:EOLhyphen"/>ther figure, yet ſome of them were of the round; ſuch was that ſtately Temple of <hi>Sancta Sophia</hi> builded by the Emperor <hi>Conſtantine,</hi> of which <hi>Phil: Lonicerus</hi> hath this <note place="margin">
+                     <hi>Tom.</hi> 1. <hi>Chron. Turc. Par.</hi> 2. <hi>cap.</hi> 1.</note> deſcription; The Tem<g ref="char:EOLhyphen"/>ple of <hi>Sancta Sophia</hi> at Conſtantinople, excels all the reſt, the roof is vaulted and covered with lead: in figure not unlike the <hi>Pantheon</hi> in Rome, but much grea<g ref="char:EOLhyphen"/>ter, and higher. It ſtands
+<pb n="46" facs="tcp:1762:30"/>
+upon ſtately Marble and Porphyrie pillars, the doores of it are all cove<g ref="char:EOLhyphen"/>red with braſſe, one of which is ſaid, to have been made of the wood of <hi>Noah's</hi> Ark. This Temple (ſaith he) was built by <hi>Conſtantine</hi> the great, but now the Turks have throwne downe the Altars, pain<g ref="char:EOLhyphen"/>tings, and Images of the Chriſtians, and caſt their bels into Ordnance.</p>
+               <p>
+                  <hi>Pet: Gregorius Toloza<g ref="char:EOLhyphen"/>nus</hi> 
+                  <note place="margin">
+                     <hi>Lib.</hi> 12. <hi>de Rep. cap.</hi> 22.</note> ſaith, that the Apo<g ref="char:EOLhyphen"/>ſtles themſelves gave or<g ref="char:EOLhyphen"/>der, that the body of the Church ſhould be built
+<pb n="47" facs="tcp:1762:30"/>
+long, after the figure of a ſhip, in which the Bi<g ref="char:EOLhyphen"/>ſhop ſhould ſit as Pilot, the Deacons as Mari<g ref="char:EOLhyphen"/>ners: The Biſhops ſeat ſhould be placed in the middle; on the one ſide, ſhould ſit the Prieſts, and Deacons; on the o<g ref="char:EOLhyphen"/>ther ſide the Lay men, and the women ſhould bee ſeparated from the men, in a place by them<g ref="char:EOLhyphen"/>ſelves.</p>
+               <p>
+                  <hi>Conſtantine</hi> beautified the City Antioch, with a moſt ſpacious and ſaire Church, whoſe inward part or quire, was of an octangular figure, for the
+<pb n="48" facs="tcp:1762:31"/>
+conveniency of many private Oratories belon<g ref="char:EOLhyphen"/>ging to it.</p>
+               <p>Divers Churches have many Iſles, joyned to the body of the Church, like ſo many boats, or ſhips, compacted and tyed together; and ſome think that by this figure, the Chriſtian builders did deſire to expreſſe Saint <hi>Peters</hi> boat, warning us, that faile here in this world, amongſt ſo many rocks, and dangers, to be ſure wee commit our<g ref="char:EOLunhyphen"/>ſelves, to a ſafe bottom, by whoſe help, we may at laſt arive at our bleſ<g ref="char:EOLhyphen"/>ſed
+<pb n="49" facs="tcp:1762:31"/>
+haven, for want of which care, many dayly make ſhipwrack of their ſalvation.</p>
+               <p>We ſee many Churches built after the figure of a Croſſe, and without doubt, the pious buil<g ref="char:EOLhyphen"/>ders, did by that fi<g ref="char:EOLhyphen"/>gure deſire to reſem<g ref="char:EOLhyphen"/>ble the Croſſe on which CHRIST was Cruci<g ref="char:EOLhyphen"/>fied.</p>
+            </div>
+            <div n="7" type="chapter">
+               <pb n="50" facs="tcp:1762:32"/>
+               <head>CHAP. VII. <hi>Of the parts of Chriſtian Temples.</hi>
+               </head>
+               <p>
+                  <hi>
+                     <seg rend="decorInit">B</seg>Ellarmine</hi> ob<g ref="char:EOLhyphen"/>ſerves <note place="margin">
+                     <hi>Lib.</hi> 3. <hi>de cult. Sa<g ref="char:cmbAbbrStroke">̄</g>ctor. cap.</hi> 3.</note>, that Chriſtian Tem<g ref="char:EOLhyphen"/>ples are built with three parts, after the faſhion of <hi>Salomons</hi> Temple. Firſt there is the portch, which the Greeks call <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, the Latines <hi>Ve<g ref="char:EOLhyphen"/>ſtibulum.</hi> Secondly, there is the <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, the ſhip or body of the Church. Thirdly, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, the quire or Chancell, divided
+<pb n="51" facs="tcp:1762:32"/>
+from the body of the Church, by an aſcent of ſteps and certaine <hi>can<g ref="char:EOLhyphen"/>celli,</hi> latices, bars, or hangings, which part belongs to the Prieſts onely.</p>
+               <p>
+                  <hi>Durandus</hi> compares <note place="margin">
+                     <hi>Lib.</hi> 1. <hi>Enchir. cap.</hi> 1.</note> the parts of the Church, to the parts of a mans body; the place where the Altar ſtands, to the head, the Croſſe on ei<g ref="char:EOLhyphen"/>ther ſide, to his armes, the body of the Church, to the reſt of his body.</p>
+               <p>
+                  <hi>Baronius</hi> diſtinguiſhes <note place="margin">
+                     <hi>Anno Chriſti</hi> 57. <hi>N.</hi> 103.</note> the Church into foure parts. <hi>viz.</hi> the Portch, the Church it ſelfe, the
+<pb n="52" facs="tcp:1762:33"/>
+Chancell, and the place moſt ſacred, where the Altar ſtands.</p>
+               <p>There is adjoyning alſo to Churches a little houſe, or roome, in which the Prieſt pre<g ref="char:EOLhyphen"/>pares himſelfe to doe his holy office, called <hi>Aedi<g ref="char:EOLhyphen"/>cula Salutatoria, &amp; Sa<g ref="char:EOLhyphen"/>crarium,</hi> the Sacrary, or Veſtry.</p>
+               <p>Pope <hi>Clement</hi> is ſaid to have co<g ref="char:cmbAbbrStroke">̄</g>manded that on either ſide of Churches, ſhould be built <hi>Paſtopho<g ref="char:EOLhyphen"/>ria,</hi> little chambers or roomes, into which the reliques of the holy Eu<g ref="char:EOLhyphen"/>chariſt, were caryed, and
+<pb n="53" facs="tcp:1762:33"/>
+in them the ſacred veſ<g ref="char:EOLhyphen"/>ſels, and veſtments were to bee kept, <hi>Paulinus</hi> ex<g ref="char:EOLhyphen"/>preſſes the uſe of theſe places in this diſtick,
+<q>
+                     <lg xml:lang="lat">
+                        <l>
+                           <hi>Hic locus eſt, venera<g ref="char:cmbAbbrStroke">̄</g>da pe<g ref="char:EOLhyphen"/>nus</hi> 
+                           <note place="margin">
+                              <hi>Epi.</hi> 12.</note> 
+                           <hi>qua conditur, &amp; qua</hi>
+                        </l>
+                        <l>
+                           <hi>Ponitur alma ſacri pompa Miniſterii.</hi>
+                        </l>
+                     </lg>
+                  </q>
+               </p>
+               <p>The Greekes agree, much with the Latines, in the figure of their Churches, as appeares by that of <hi>Simeon</hi> Arch<g ref="char:EOLhyphen"/>biſhop of Theſſalonica, in his booke <hi>De Templo.</hi> Our Temples (ſaith he) have three parts, <hi>viz.</hi>
+                  <pb n="54" facs="tcp:1762:34"/>
+the place before the Temple, which we call the Church portch, the Temple it ſelfe, and the Chancell. Which three-fold diviſion, may put us in mind of the ſacred myſtery of the bleſſed Trinity, as alſo of the three-fold order of holy Angels; beſides there is on earth a three-fold di<g ref="char:EOLhyphen"/>ſtinction of the elect people of God, who are either Prieſts, or perfect beleevers, or publique penitents: Further (ſaith hee) the Church Portch, denotes Earth: the Church, Heaven;
+<pb n="55" facs="tcp:1762:34"/>
+the Chancell, the things above the Heavens.</p>
+               <p>There were in the Greeke Churches five places, or ſtations aſſig<g ref="char:EOLhyphen"/>ned to the penitents, which were not divers parts of the Church, but had their denominations from the divers actions performed in them. The firſt was without the Church doores, where the Penitents ſtood weeping and imploring the prayers of thoſe that went in, or out, called in Latin <hi>Fletus.</hi>
+               </p>
+               <p>The ſecond called <hi>Auditio,</hi> was within
+<pb n="56" facs="tcp:1762:35"/>
+the Church doores, where they heard divine ſervice, and the Scrip<g ref="char:EOLhyphen"/>tures expounded.</p>
+               <p>The third, <hi>Subjectio</hi> or <hi>Subſtratio,</hi> which was within the body of the Church, behind the ſeates, from whence they went forth of the <note place="margin">
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>. <hi>Chryſo. Liturg.</hi>
+                  </note> Church, with the <hi>Cate<g ref="char:EOLhyphen"/>chumeni,</hi> when theſe words were uttered by the Deacon, <hi>Qui Cate<g ref="char:EOLhyphen"/>chumeni ſunt, exeant.</hi> You that are as yet lear<g ref="char:EOLhyphen"/>ning the Principles of Religion, and are not Baptized, goe ye forth of the Church.</p>
+               <p>
+                  <pb n="57" facs="tcp:1762:35"/>
+The fourth place, was called <hi>Conſiſtentia;</hi> where having performed Ca<g ref="char:EOLhyphen"/>nonicall penance, they ſtood with the reſt of the Congregation, and prayed.</p>
+               <p>The fift was <hi>Partici<g ref="char:EOLhyphen"/>patio;</hi> where with the reſt of the faithfull (ha<g ref="char:EOLhyphen"/>ving brought forth fruits worthy of Repentance) they received the holy Communion.</p>
+               <p>And thus farre of the parts of Chriſtian Tem<g ref="char:EOLhyphen"/>ples, which <hi>Bellarmine</hi> ſaith, are built after the faſhion of <hi>Salomons</hi> Temple; and ſome
+<pb n="58" facs="tcp:1762:36"/>
+people are ſo wiſe, as they feare leſt to build a Chriſtian Church ſo like <hi>Salomons</hi> Temple, bee directly to bring in Judaiſme. But wiſer men than they, know that all which the Jewes did, was not Judaiſme, Let them remember that for their com<g ref="char:EOLhyphen"/>fort.</p>
+            </div>
+            <div n="8" type="chapter">
+               <pb n="59" facs="tcp:1762:36"/>
+               <head>CHAP. VIII. <hi>Of the ſituation of Tem<g ref="char:EOLhyphen"/>ples, and why Eaſtward?</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">T</seg>He ſituation of Temples, hath reſpect either to the place on earth, or to the climate of the Heavens. We read of Temples built in ſundry places: Some on the ſhoare, to <hi>Venus</hi> and <hi>Nep<g ref="char:EOLhyphen"/>tune;</hi> ſome on the tops of Mountaines, called in holy writ, <hi>High-Places;</hi> ſome in Valleys, others in Fields, in Cities, in
+<pb n="60" facs="tcp:1762:37"/>
+dark Groves, and ſome under the Earth. But where ever they were built, they all looked to<g ref="char:EOLhyphen"/>wards the Eaſt, and re<g ref="char:EOLhyphen"/>ceived the light of the riſing Sun, at their upper end, as divers Authors teſtifie: Perchance the reaſon why the Gentiles uſed this ſituation was, becauſe they were wont to ſing Hymnes, and praiſes to their Idols, at Sunne-riſing. And <hi>Plato</hi> 
+                  <note place="margin">
+                     <hi>Lib.</hi> 10. <hi>de legib.</hi>
+                  </note> tells us, that as well Greeks, as Barbarians, at the riſing, and ſetting, of the Sun and Moon, uſed often proſtrations and a<g ref="char:EOLhyphen"/>dorations.
+<pb n="61" facs="tcp:1762:37"/>
+From which cuſtome of the heathens <hi>Clemens</hi> takes occaſion to blame the lazineſſe of <note place="margin">2 <hi>Conſti. c.</hi> 64. 10</note> ſuch Chriſtians as came late to Church.</p>
+               <p>The ſame poſition and ſituation of Tem<g ref="char:EOLhyphen"/>ples has ever beene in uſe amongſt the Chriſti<g ref="char:EOLhyphen"/>ans, as the teſtimonie of ancient Authors, be<g ref="char:EOLhyphen"/>ſides experience reach us: <hi>Eccleſias Chriſtiano<g ref="char:EOLhyphen"/>rum,</hi> 
+                  <note place="margin">Lib. con. Valent.</note> 
+                  <hi>Orientem amare ſo<g ref="char:EOLhyphen"/>litas,</hi> ſaies <hi>Tertulian,</hi> Chriſtian Temples have ever born a love towards the Eaſt. Some write, that it was a tradition of
+<pb n="62" facs="tcp:1762:38"/>
+the Apoſtles, that in ſo<g ref="char:EOLhyphen"/>lemn <note place="margin">
+                     <hi>Bellar. de cultu Sancto. lib.</hi> 3. <hi>cap.</hi> 3.</note> and publique pray<g ref="char:EOLhyphen"/>ers, in the Church, all ſhould turne their faces towards the Eaſt, and for that reaſon, all Churches were built Eaſtward, un<g ref="char:EOLhyphen"/>leſſe ſome few, which the inconvenience of the place would not permit to be ſo built, as that at Antioch, of which <hi>So<g ref="char:EOLhyphen"/>crates</hi> takes ſpeciall no<g ref="char:EOLhyphen"/>tice, whoſe Altar was <note place="margin">
+                     <hi>Lib.</hi> 5. <hi>cap.</hi> 21.</note> placed at the Weſt.</p>
+               <p>Divers other reaſons are given for building Chriſtian Temples Eaſt<g ref="char:EOLhyphen"/>ward, as becauſe of the early frequenting of Ma<g ref="char:EOLhyphen"/>tins
+<pb n="63" facs="tcp:1762:38"/>
+by the primitive Chriſtians, which <hi>Tertu<g ref="char:EOLhyphen"/>lian, Clemens, Philo, &amp;</hi> 
+                  <note place="margin">
+                     <hi>Apol. c.</hi> 2. <hi>lib. de convit. Lib.</hi> 10 <hi>Epist.</hi> 97</note> 
+                  <hi>Plinius ſecundus</hi> in one of his Epiſtles to <hi>Trajan,</hi> and others report, to have been by them, moſt exactly and religiouſly obſerved. Who when the Sun began to diſperſe his rayes upon the earth, did then begin to poure forth their ſoules to their God, the very ſi<g ref="char:EOLhyphen"/>tuation of the Temple, as it were teaching them, with what actions they were to begin the day, for no time is ſo fit to preſent our prayers
+<pb n="64" facs="tcp:1762:39"/>
+and devotions to the di<g ref="char:EOLhyphen"/>vine Majeſty, no time ſo glorious, as the morning, no time of the day ſo well agreeing with our infirmity.</p>
+               <p>Another reaſon, why rather to the Eaſt, than to any other region of the Heavens, may bee becauſe it has ever been accounted the moſt ex<g ref="char:EOLhyphen"/>cellent part of the world, from thence the Heavens begin their motions. Thither there<g ref="char:EOLhyphen"/>fore we turne our faces, in our prayers, riſing as it were from the night of ſin, and forſaking the
+<pb n="65" facs="tcp:1762:39"/>
+works of darkneſſe, wee implore the Divine goodneſſe, to ſhew the light of his countenance upon us.</p>
+               <p>Saint <hi>Auguſtin</hi> gives <note place="margin">
+                     <hi>Tom.</hi> 4.</note> this reaſon, <hi>Cum oramus ad Orientem convertimur, non tanquam ibi ſit Deus, &amp; quaſi caeteras mundi partes deſeruerit, qui Ma<g ref="char:EOLhyphen"/>jeſtate potentiae, ubique praeſens eſt; ſed ut admo<g ref="char:EOLhyphen"/>neatur animus, ad excel<g ref="char:EOLhyphen"/>lentiorem ſe convertere, id eſt ad Dominum, cum ipſum corpus, quod terre<g ref="char:EOLhyphen"/>num, ad corpus excellen<g ref="char:EOLhyphen"/>tius, ſcilicet coeleſte con<g ref="char:EOLhyphen"/>vertitur.</hi> We turn our
+<pb n="66" facs="tcp:1762:40"/>
+faces (ſaith hee) towards the Eaſt, when we pray, not as if we thought God were there onely to bee found, whoſe Majeſty is every where preſent, but when wee turne our earthly bodies, to that glorious part of the Heavens, our ſoules may conſider the glorious Majeſtie of that nature, to which we addreſſe our petitions.</p>
+               <p>Furthermore, God placed the Garden of Paradiſe in the Eaſt; for where the vulgar tranſla<g ref="char:EOLhyphen"/>tion reads, <hi>Plantaverat Deus Paradiſum, à prin<g ref="char:EOLhyphen"/>cipio.</hi> 
+                  <note place="margin">Gen. 2.</note>
+                  <pb n="67" facs="tcp:1762:40"/>
+The Septuagint better according to the originall have it, κατὰ ἀνα<g ref="char:EOLhyphen"/>τολὰς, Eaſtward, thither therefore wee turne our faces, ſaith <hi>Greg: Nyſſen,</hi> 
+                  <note place="margin">
+                     <hi>Lib.</hi> 2. <hi>de Ora.</hi>
+                  </note> like baniſhed men, to<g ref="char:EOLhyphen"/>ward our owne Coun<g ref="char:EOLhyphen"/>trey.</p>
+               <p>Other reaſons may be taken from our bleſſed Saviour, who is called, <hi>Lux mundi,</hi> and <hi>Sol Iuſti<g ref="char:EOLhyphen"/>tiae,</hi> 
+                  <note place="margin">Iohn 8.</note> The light of the world, the Sun of righ<g ref="char:EOLhyphen"/>teouſneſſe, <hi>Cujus nomen eſt Oriens, Zach.</hi> 6. 12. <note place="margin">S. Hier. tranſl.</note> the day ſpring from a<g ref="char:EOLhyphen"/>bove, to him wee direct our prayers, from him
+<pb n="68" facs="tcp:1762:41"/>
+our ſoules receive illu<g ref="char:EOLhyphen"/>mination, motion, life, and being, as the whole world from the Eaſtern Sun, receives its light and heat.</p>
+               <p>The <hi>Sanctum Sancto<g ref="char:EOLhyphen"/>rum</hi> of the Jewiſh Tem<g ref="char:EOLhyphen"/>ple was built Weſtward, and when they prayed, they turned their faces that way, <hi>Ezechiel</hi> 8. 16. Thoſe who contrary to the rites and cuſtome of their Temple, prayed with their faces towards the Eaſt, are ſaid to bee guilty of an exceeding great abomination. And indeed well might their
+<pb n="96" facs="tcp:1762:41"/>
+lookes bee towards the Weſt, who ſtill even to this day in vaine, expect the Meſſias, that Sun of righteouſneſſe to ariſe: Wel might their faces be Weſtward, their Church, and Kingdome, being bending to its eternall night. But we Chriſtians, firmely believe that our Saviour is riſen from the dark night of the grave, his Church ſhall for ever endure, of his Kingdome ſhall be no end.</p>
+               <p>When our Redeemer hung dying on the Croſſe, it is very pro<g ref="char:EOLhyphen"/>bable that his face was
+<pb n="80" facs="tcp:1762:42"/>
+Weſtward, and true Chriſtians, ſaith <hi>Damaſ<g ref="char:EOLhyphen"/>cen,</hi> 
+                  <note place="margin">
+                     <hi>Lib.</hi> 4. <hi>de fide cap.</hi> 13.</note> are drawn Eaſtward in their prayers (as the needle, by a ſecret mag<g ref="char:EOLhyphen"/>netique vertue, is drawn towards the North) as it were beholding the face of their Saviour.</p>
+               <p>Furthermore, Chriſts Reſurrection was in the bluſhing morning, when the Angels, in ſtead of wakefull Cocks, ſaluted that bright following day.</p>
+               <p>Laſtly, hee aſcended into Heaven in the Eaſt, and from thence we ex<g ref="char:EOLhyphen"/>pect his ſecond com<g ref="char:EOLhyphen"/>ming,
+<pb n="81" facs="tcp:1762:42"/>
+which as himſelfe has fore<g ref="char:punc">▪</g>told us, ſhall be <note place="margin">Mat. 24, 27.</note> as lightning from the Eaſt.</p>
+               <p>Surely, they doe right piouſly, who obſerve this ceremony of tur<g ref="char:EOLhyphen"/>ning Eaſtward, when they pray, with the like devotion, it was firſt in<g ref="char:EOLhyphen"/>ſtituted, yet are not Chriſtans ſo ſtrictly to obſerve it, in their Churches, as the Turks are bound in their <hi>Moſ<g ref="char:EOLhyphen"/>ques</hi> to turne South, to<g ref="char:EOLhyphen"/>wards their <hi>Meccha.</hi> It is (as <hi>Aquinas</hi> teaches) <note place="margin">
+                     <hi>Secunda ſecundae queſt.</hi> 84 <hi>art.</hi> 3.</note> very much conducing, to the decencie of pub<g ref="char:EOLhyphen"/>lique
+<pb n="72" facs="tcp:1762:43"/>
+prayer, it is not required of neceſſity, eſpecially in private de<g ref="char:EOLhyphen"/>votions, ſeeing there is no commandement for it. And in publique prayers alſo, in the Temple, if upon good reaſons, we turne any other way without con<g ref="char:EOLhyphen"/>tempt of Authority; or ſuppoſe the ſituation of the Church be not Eaſt<g ref="char:EOLhyphen"/>ward, we may certainly bee blameleſſe. For <note place="margin">Pſal. 145. 18</note> God alike in everie place, is neere to them that call upon him, to all that call upon him in truth. But ſurely the
+<pb n="73" facs="tcp:1762:43"/>
+former reaſons, ſeriouſly pondered, may ſerve to ſtirre up in our ſoules more fervency and de<g ref="char:EOLhyphen"/>votion in prayer.</p>
+            </div>
+            <div n="9" type="chapter">
+               <head>CHAP. IX. <hi>Of the Rites, and Cere<g ref="char:EOLhyphen"/>monies, uſed at the Dedi<g ref="char:EOLhyphen"/>cation of Heathen Tem<g ref="char:EOLhyphen"/>ples.</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">T</seg>He Dedication makes the edi<g ref="char:EOLhyphen"/>fice a Temple<hi>:</hi> many Palaces and pro<g ref="char:EOLhyphen"/>fane buildings have the like ſituation, and figure;
+<pb n="74" facs="tcp:1762:44"/>
+yet are not Temples, be<g ref="char:EOLhyphen"/>cauſe not conſecrated to God. That we Chriſtians may learne even from the vaine ſuperſtition of the Heathen, with what reverence the places de<g ref="char:EOLhyphen"/>dicated to the true God are to be uſed, we intend firſt, to ſpeak of the De<g ref="char:EOLhyphen"/>dication of Heathen Temples.</p>
+               <p>Before they began to build, the limits and bounds of the ground, were determined, and deſigned, and this they called <hi>effari Templum,</hi> 
+                  <note place="margin">Varro. Feſt. Pomp.</note> 
+                  <hi>vel ſiſtere Fanum,</hi> all which was moſt religi<g ref="char:EOLhyphen"/>ouſly,
+<pb n="75" facs="tcp:1762:44"/>
+and carefully per<g ref="char:EOLhyphen"/>formed by the ſupeſtiti<g ref="char:EOLhyphen"/>ous ceremonies of the Augures. After this, they began to build, and when the building was fini<g ref="char:EOLhyphen"/>ſhed, the founders dedi<g ref="char:EOLhyphen"/>cated them to ſome God, to whom by vow they had formerly bound themſelfes to erect them. Laſtly, followed the Conſecration, or Inau<g ref="char:EOLhyphen"/>guration, by the Sooth<g ref="char:EOLhyphen"/>ſayers, after whoſe augu<g ref="char:EOLhyphen"/>ries, they were accoun<g ref="char:EOLhyphen"/>ted moſt ſacred; and unleſſe all their rites and ceremonies had paſſed, they were not called
+<pb n="76" facs="tcp:1762:45"/>
+Temples, and this is the difference made of <hi>Tem<g ref="char:EOLhyphen"/>plum,</hi> and <hi>Aedes ſacra,</hi> in <note place="margin">
+                     <hi>Lib.</hi> 14. <hi>cap.</hi> 7.</note> 
+                  <hi>Aulus Gellius.</hi>
+               </p>
+               <p>
+                  <hi>Tacitus</hi> hath this rela<g ref="char:EOLhyphen"/>tion <note place="margin">
+                     <hi>lib</hi> 4.</note> of <hi>Jupiter Capitolius</hi> Temple, when it was re-edified by <hi>Veſpaſian;</hi> The Emperour (ſaith hee) committed the whole care of the buſi<g ref="char:EOLhyphen"/>neſſe to <hi>Lucius Veſtinus,</hi> a Gentleman in Rome of great note. <hi>Veſtinus</hi> diligently conſults the Augures, they command that all the rubbiſh of the former Temple, bee firſt carried into the ma<g ref="char:EOLhyphen"/>riſh grounds, then that
+<pb n="77" facs="tcp:1762:45"/>
+the Temple be built in the ſelfe-ſame limits, in which it formerly had ſtood, for the Gods (ſay they) love no new fa<g ref="char:EOLhyphen"/>ſhions: All this being done, on the eleventh of the Calends of July, being a very faire day, the ſpace of ground, whereon the Temple ſhould ſtand, was all be<g ref="char:EOLhyphen"/>decked, and adorned with garlands, and rib<g ref="char:EOLhyphen"/>bins; and the Souldiers whoſe names were ac<g ref="char:EOLhyphen"/>counted fortunate and lucky, entered in upon it, with greene boughes in their hands; Then
+<pb n="78" facs="tcp:1762:46"/>
+followed the Veſtall Nunnes, with boyes and girles, whoſe fathers and mothers were then li<g ref="char:EOLhyphen"/>ving, and all beſprinckl'd the ground with faire ri<g ref="char:EOLhyphen"/>ver waters: After theſe came <hi>Plautus Aelian,</hi> the high Prieſt, (whom <hi>Hel<g ref="char:EOLhyphen"/>vidius Priſcus</hi> the Pre<g ref="char:EOLhyphen"/>tor of the City, fol<g ref="char:EOLhyphen"/>lwed) and he Conſecra<g ref="char:EOLhyphen"/>ted the ground, with Sa<g ref="char:EOLhyphen"/>crifices of Bulls and Oxen, which he offered on an Altar of greene turf, imploring <hi>Jupiter, Juno, Pallas,</hi> and the o<g ref="char:EOLhyphen"/>ther Gods, which were preſidents of the Em<g ref="char:EOLhyphen"/>pire,
+<pb n="79" facs="tcp:1762:46"/>
+and Tutular of cheir City, that they would pleaſe to proſper their beginnings, and by their divine help, aſſiſt the piety of mortall men, in the erection of their owne houſe; then tooke hee a ribbin into his hands, which was tyed to a great ſtone, to which were alſo faſtned many ropes, which the Prieſts, the Magiſtrates, Senators, Gentlemen, and divers of the com<g ref="char:EOLhyphen"/>mon people, laying hold on, with great joy, drew the firſt ſtone into the foundation, after
+<pb n="80" facs="tcp:1762:47"/>
+which they caſt many great lumps of untried Gold and Silver, for the Augures had ſtricktly commanded, that onely the <hi>Primitiae Metallo<g ref="char:EOLhyphen"/>rum,</hi> the oare of metals, which never came in the furnace, ſhould bee caſt in; leſt the worke ſhould bee profaned by any oblation which had formerly beene deſtined to any other uſe. Thus farre <hi>Tacitus.</hi> Divers other Authors report the like ſolemnities at the Dedication of other <note place="margin">
+                     <hi>Lib.</hi> 6. <hi>cap.</hi> 14. <hi>Lib.</hi> 19.</note> Temples, as <hi>Alexander ab Alexandro, Livie,</hi> and
+<pb n="81" facs="tcp:1762:47"/>
+                  <hi>Dio Caſſ:</hi> who tells of <note place="margin">
+                     <hi>Lib.</hi> 60</note> great feaſting, when the Temple which <hi>Tiberius</hi> dedicated to <hi>Livia,</hi> was Conſecrated, <hi>Tiberius</hi> feaſted all the Senators, <hi>Livia</hi> their wives, and o<g ref="char:EOLhyphen"/>ther matrons of Rome. Wee read alſo in holy Scripture, with what ſo<g ref="char:EOLhyphen"/>lemnity the Golden Sta<g ref="char:EOLhyphen"/>tue of <hi>Nebuchadnezzar</hi> 
+                  <note place="margin">Dan. 3.</note> was erected. Others ſpeake of Maſques and Playes, and other pom<g ref="char:EOLhyphen"/>peous ſhewes, uſed by the Heathen, at the Conſecration of their Temples. And they are ſaid to have beene
+<pb n="82" facs="tcp:1762:48"/>
+ſo ſtrict and curious in obſerving the rites of Dedication, that they would rather build the Temple anew, than any whit commit an errour in the obſervance of them.</p>
+            </div>
+            <div n="10" type="chapter">
+               <head>CHAP. X. <hi>Of the Dedication of the Iewes Temples.</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">T</seg>He ſolemnities uſed by the Jewes, at the Dedication of their Altars, before the
+<pb n="83" facs="tcp:1762:48"/>
+written Law, are copi<g ref="char:EOLhyphen"/>ouſly ſet downe in the ſacred Scriptures. In them wee alſo read of the great gifts and obla<g ref="char:EOLhyphen"/>tions offered by the He<g ref="char:EOLhyphen"/>brew Princes under the Law, at the Dedication of their Tabernacle, when it was anointed all over with an oyntment of a moſt fragrant ſmell.</p>
+               <p>In them wee read of <note place="margin">Num. 7</note> the burnt offrings, and peace offrings, offered by <hi>David</hi> on the Altar, which he built unto the Lord, in the threſhing floore of <hi>Araunah</hi> the <note place="margin">2 Sa<g ref="char:cmbAbbrStroke">̄</g>. 24.</note>
+                  <pb n="84" facs="tcp:1762:49"/>
+                  <hi>Jebuſite.</hi> Of the great rejoycing that was at the Dedication of the Temple, after it was re<g ref="char:EOLhyphen"/>edified by <hi>Cyrus,</hi> how they kept the day holy, on which it was dedicated, <note place="margin">Macch. 4.</note> how they adorned the fore-front of the Temple with golden Crownes and Shields, and <hi>Judas</hi> and his brethren, and the reſt of the Congregation ordained, that the dayes of the Dedication of the Altar, ſhould be kept in their ſeaſon, from yeare to yeare, for the ſpace of eight dayes, with great mirth, and gladneſſe,
+<pb n="85" facs="tcp:1762:49"/>
+which very ſolemnities were kept, and obſerved in our Saviours time, as appeares by Saint <hi>Johns</hi> 
+                  <note place="margin">Iohn 10. 22.</note> Goſpell.</p>
+               <p>But above all, the rites and ſolemnities u<g ref="char:EOLhyphen"/>ſed by the Jewes, thoſe uſed by <hi>Salomon,</hi> at the firſt Dedication of the Temple, are moſt remar<g ref="char:EOLhyphen"/>kable. When the buil<g ref="char:EOLhyphen"/>ding <note place="margin">1 Reg 8.</note> was quite finiſhed, he firſt aſſembled the El<g ref="char:EOLhyphen"/>ders of Iſrael, and all the heads of the Tribes, the chief of the fathers of the children of Iſrael, to bring the Ark of the Covenant out of Sion,
+<pb n="86" facs="tcp:1762:50"/>
+the City of <hi>David.</hi> Then the Prieſts tooke up the Ark, and brought it, and the Tabernacle, and the holy veſſells, into the Temple, with all the re<g ref="char:EOLhyphen"/>ligious pomp that might be, and placed the Arke of the Covenant, in the moſt holy place of the Temple, called the O<g ref="char:EOLhyphen"/>racle: King <hi>Salomon</hi> himſelfe kneeling meek<g ref="char:EOLhyphen"/>ly on his knees, prayes to God, before the Altar, beſeeching him to re<g ref="char:EOLhyphen"/>member the word which hee ſpake to his ſervant <hi>David,</hi> that hee would dwell on earth with his
+<pb n="87" facs="tcp:1762:50"/>
+people. And to heare in Heaven and to for<g ref="char:EOLhyphen"/>give the ſinnes of his people Iſrael, which ſhould pray, and make ſupplications in that houſe. After this, hee roſe up, and ſpreading forth his hands to Heaven, hee ſtood and bleſſed all the Congre<g ref="char:EOLhyphen"/>gation. Laſtly, he of<g ref="char:EOLhyphen"/>fered, two and twenty thouſand Oxen, and an hundred and twentie thouſand ſheep. And God himſelfe crowned theſe religious ſolemni<g ref="char:EOLhyphen"/>ties, with his moſt ſa<g ref="char:EOLhyphen"/>cred preſence, in a glo<g ref="char:EOLhyphen"/>rious
+<pb n="88" facs="tcp:1762:51"/>
+Cloud. So that the Prieſt could not ſtand to miniſter, be<g ref="char:EOLhyphen"/>cauſe of the Cloud, for the glorie of the LORD had filled the houſe, and this glorious ſplendour all the people beheld, as <note place="margin">
+                     <hi>Serm. in lib. Reg. &amp; Para. lib.</hi> 3.</note> 
+                  <hi>Serrarius</hi> upon that place tells us.</p>
+            </div>
+            <div n="11" type="chapter">
+               <pb n="89" facs="tcp:1762:51"/>
+               <head>CHAP. XI. <hi>Of the Conſecration of Chriſtian Temples.</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">A</seg>S for Chriſtian Temples, it is moſt certaine that the cuſtome of con<g ref="char:EOLhyphen"/>ſecrating them, has been uſed ever ſince the Apo<g ref="char:EOLhyphen"/>ſtles times: Saint <hi>Clement</hi> 
+                  <note place="margin">
+                     <hi>Epiſt.</hi> 2.</note> in an Epiſtle to S. <hi>James</hi> the brother of our Lord, has theſe words, <hi>Eccle<g ref="char:EOLhyphen"/>ſias, per congrna &amp; utilia facite loca, quae divinis precibus ſacrare oportet.</hi>
+                  <pb n="90" facs="tcp:1762:52"/>
+Build your Churches in decent and convenient places, and Conſecrate them with divine praiers.</p>
+               <p>
+                  <hi>Euſebius lib.</hi> 10. <hi>cap.</hi> 3. ſaith, that no ſooner was <hi>Conſtantine</hi> created Em<g ref="char:EOLhyphen"/>perour, but immediatly the ſacred Temples were from the founda<g ref="char:EOLhyphen"/>tions, raiſed to an excee<g ref="char:EOLhyphen"/>ding height. Then, ſaies he, was that long wiſhed for, and much deſired ſight ſeene, the celebra<g ref="char:EOLhyphen"/>ting of the Dedication of Churches, The Con<g ref="char:EOLhyphen"/>ſecration of Oratories, The meeting together of Biſhops, The uniting
+<pb n="91" facs="tcp:1762:52"/>
+of the members of Chriſt, into one Harmo<g ref="char:EOLhyphen"/>ny, which had beene ſevered into forraine Countries.</p>
+               <p>Pope <hi>Sylveſter,</hi> is ſaid <note place="margin">Ritual. Roman.</note> to have inſtituted theſe ceremonies of Conſe<g ref="char:EOLhyphen"/>cration. Firſt, hee or<g ref="char:EOLhyphen"/>dained that a Croſſe ſhould be erected to ſig<g ref="char:EOLhyphen"/>nifie, that the place was deſtined for a Church, and ſacred to our bleſ<g ref="char:EOLhyphen"/>ſed Saviour, who was crucified for our ſinnes. Then, that it ſhould be Conſecrated by none but a Biſhop, who firſt knocks at the doore, after
+<pb n="92" facs="tcp:1762:53"/>
+opens it with his Croſi<g ref="char:EOLhyphen"/>ers ſtaffe, thereby ſigni<g ref="char:EOLhyphen"/>fying, that power is gi<g ref="char:EOLhyphen"/>ven to the Prieſt, to knock at the doores of our hearts, by the prea<g ref="char:EOLhyphen"/>ching of the Word, and by it to open them, for the receiving of Faith. After that, the Biſhop enters the Church and with his ſtaff, on the pave<g ref="char:EOLhyphen"/>ment, which is ſtrewd with aſhes for the ſame purpoſe, hee writes the characters of the Greek and Latine Alphabet, teaching thereby that our hearts being open'd, and prepared to receive
+<pb n="93" facs="tcp:1762:53"/>
+faith, the Prieſt as it were writes in them, the Ele<g ref="char:EOLhyphen"/>ments and Principles of Chriſtian Faith, and Re<g ref="char:EOLhyphen"/>ligion: Next hee be<g ref="char:EOLhyphen"/>ſprinkles the Church with a bruſh of Hyſop, dipt in holy water, tea<g ref="char:EOLhyphen"/>ching thereby, that when the grounds of Chriſtian Religion, are perfectly learned, af<g ref="char:EOLhyphen"/>terwards followes the Sacrament of Baptiſme. Hee alſo ordained that twelve Croſſes, ſhould be painted on the wall, ſignifying the twelve Apoſtles, who valiant<g ref="char:EOLhyphen"/>ly bare that banner,
+<pb n="94" facs="tcp:1762:54"/>
+throughout the world: Twelve Lamps are alſo lighted, denoting that by their preaching, the whole world was en<g ref="char:EOLhyphen"/>lightned, which before ſate in darkneſſe, and in the ſhadow of death. And as the liquour of oyle, ſwimmes above o<g ref="char:EOLhyphen"/>ther liquours, ſo the of<g ref="char:EOLhyphen"/>fice of Prieſthood, is more ſacred than other worldly dignities. Laſt<g ref="char:EOLhyphen"/>ly, when the ſolemnities of Conſecration, are quite ended, hee ordai<g ref="char:EOLhyphen"/>ned, that the reſt of the day ſhould be kept holy, with much mirth and re<g ref="char:EOLhyphen"/>joycing,
+<pb n="95" facs="tcp:1762:54"/>
+and that the mirth and joy of that day, ſhould every yeare, bee celebrated afreſh. Thereby teaching, that after this life, piouſly en<g ref="char:EOLhyphen"/>ded, we ſhall certainely enter into the joyes of Heaven, which are joyes without any ſorrow, without any feare, with<g ref="char:EOLhyphen"/>out any end.</p>
+               <p>And this cuſtome wee ſee is ſtill obſerved by the practiſe of Chriſti<g ref="char:EOLhyphen"/>ans, in our yearely feaſts, and Wakes, and was alſo in ancient times, as may appeare by the Sermons of holy Fathers, made at
+<pb n="96" facs="tcp:1762:55"/>
+the Anniverſaries of the Dedication of Churches. And thus the afore-na<g ref="char:EOLhyphen"/>med <hi>Judas Macchabeus,</hi> celebrated the Dedica<g ref="char:EOLhyphen"/>tion of the Temple yearly. Which Feaſt <note place="margin">Iohn 10. 22.</note> Chriſt himſelfe honou<g ref="char:EOLhyphen"/>red with his ſacred pre<g ref="char:EOLhyphen"/>ſence, which gave occa<g ref="char:EOLhyphen"/>ſion to <hi>Felix Quartus,</hi> to write thus to the Biſhops of ſundry Provinces. <hi>Solennitates Dedicatio<g ref="char:EOLhyphen"/>nis Eccleſiarum, per ſin<g ref="char:EOLhyphen"/>gulos annos celebrandos eſſe ipſo Domino exem<g ref="char:EOLhyphen"/>plum dante<g ref="char:punc">▪</g>qui ad Feſtum Dedicationis Templi, cum reliquis populis, eandem</hi>
+                  <pb n="97" facs="tcp:1762:55"/>
+                  <hi>Feſtivitatent celebraturus venit.</hi> Chriſt himſelfe, gave us an example of keeping yearly Feaſts, who came himſelfe, with the reſt of the people, to celebrate the yearly Feaſt of the Dedication of the Temple, at Jeruſalem.</p>
+            </div>
+            <div n="12" type="chapter">
+               <pb n="98" facs="tcp:1762:56"/>
+               <head>CHAP. XII. <hi>Whether yearly Feaſts obſerved upon the dayes of Dedication of Chriſtian Churches, be lawfull?</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">T</seg>Here are in the World ſome people, who by no meanes will allow of theſe anniverſary Feaſts, and rejoycings. Nor can the authorities before recited, any more move them, than skilfull Mu<g ref="char:EOLhyphen"/>ſique can move a log. So conſtant are they to their firſt thoughts, that
+<pb n="99" facs="tcp:1762:56"/>
+they deeme it impoſſible for them to thinke bet<g ref="char:EOLhyphen"/>ter. They feare, they feare, leſt they ſhould be Jewes, or Gentiles, or they know not what, be<g ref="char:EOLhyphen"/>cauſe the Jewes, and the Gentiles uſed to rejoyce, upon the like occaſion. But, <hi>Duo cum faciunt</hi> 
+                  <note place="margin">
+                     <hi>Ter. A<g ref="char:EOLhyphen"/>delph. act.</hi> 5. <hi>ſc.</hi> 3.</note> 
+                  <hi>idem, hoc licet impune facere huic, illi non licet.</hi> Two men may doe the ſame thing, the one may be guiltleſſe, the other worthy of blame. The Gentiles and the Chri<g ref="char:EOLhyphen"/>ſtians, may both rejoyce, the one at the Dedica<g ref="char:EOLhyphen"/>tion of a Temple to I<g ref="char:EOLhyphen"/>dols,
+<pb n="100" facs="tcp:1762:57"/>
+the other at the Conſecration of a Church, to the true God; the one does what's good, and juſt, the other commits an execrable thing, in the ſight of God. And it ſhall fare with eithers joy, as with the two women, of which Chriſt ſpeakes (at the Mill a<g ref="char:EOLhyphen"/>bout one worke both) the one ſhall be received for pious and religious, the other ſhall bee reje<g ref="char:EOLhyphen"/>cted, as profane, and ido<g ref="char:EOLhyphen"/>latrous.</p>
+               <p>And for Judaiſme let them know, that the
+<pb n="101" facs="tcp:1762:57"/>
+Feaſt of Dedication, was none of the ceremonies commanded that Nati<g ref="char:EOLhyphen"/>on to obſerve, but has its foundation in Nature. Indeed the ceremonies which properly apper<g ref="char:EOLhyphen"/>taine to the Jewes, are utterly unlawfull for us Chriſtians, to uſe: As for example, if any man ſhould ſacrifice the Paſ<g ref="char:EOLhyphen"/>chall Lamb, (as was once commanded the Jewes to doe) he ſhould make a proteſtation of a falſe faith, and by this ſacri<g ref="char:EOLhyphen"/>fice, plainely profeſſe, that hee beleived not, that Jeſus Chriſt our Sa<g ref="char:EOLhyphen"/>viour
+<pb n="102" facs="tcp:1762:58"/>
+was yet come into the world, to ſave ſin<g ref="char:EOLhyphen"/>ners, had not yet ſuffer'd death for our ſinnes, nor riſen for our juſtificati<g ref="char:EOLhyphen"/>on. But the mirth and anniverſary ſolemne joy, for the dedication of a Temple, is founded in Nature, and not of Gods immediate inſtitution; <hi>Salomon, Eſdras,</hi> the <hi>Macchahees,</hi> by the in<g ref="char:EOLhyphen"/>ſtruction of Nature dee<g ref="char:EOLhyphen"/>med it to bee meet, and fit, that when the Tem<g ref="char:EOLhyphen"/>ple was finiſhed, a pub<g ref="char:EOLhyphen"/>lique joy ſhould follow, as naturally all men re<g ref="char:EOLhyphen"/>joyce at the end of any
+<pb n="103" facs="tcp:1762:58"/>
+great worke, and ſo oft as they remember it. And ſince every good ſubject will rejoyce on the birth day, and Coro<g ref="char:EOLhyphen"/>nation day of our Royall King: Why ſhould a true Chriſtian feare to rejoyce on that day, when a Temple, a pub<g ref="char:EOLhyphen"/>lique good was brought forth, when a Church was Conſecrated, and made holy.</p>
+               <p>But here they make another queſtion, Whe<g ref="char:EOLhyphen"/>ther the Church bee more holy, than another place? And truly if by holineſſe, they meane
+<pb n="104" facs="tcp:1762:59"/>
+(as mehaps they doe) ſanctity proceeding from divine grace, and the habit of Charity, &amp;c. We anſwer, that it is no ho<g ref="char:EOLhyphen"/>lyer than another place. But if they thinke it is not therefore holy, be<g ref="char:EOLhyphen"/>cauſe it is Dedicated to the ſervice of God, they are much deceived.</p>
+               <p>We read in the books of <hi>Leviticus,</hi> how that all things which were <note place="margin">Lev. c. ult.</note> dedicated to the ſervice of God, are called holy to the Lord.</p>
+               <p>And that the Church is dedicated to God, hath beene all ready ſhewne.
+<pb n="105" facs="tcp:1762:59"/>
+If the tythe of Bullocks and Sheep, <hi>Levit</hi> 27. 32. be holy to the Lord, be<g ref="char:EOLhyphen"/>cauſe ſeparated from the uſe and injury of ſecular perſons, and reſerved for the peculiar ſervice of the Miniſters of God, then certainely thoſe buildings, which by the publique conſent of all Nations, and in all things have beene accounted ſacred, and are ſeparated to the peculiar ſervice of God himſelfe, are by us to be eſteemed holy and the foppiſh impiety of thoſe that perſwade the contrarie, deſerves ra<g ref="char:EOLhyphen"/>ther
+<pb n="106" facs="tcp:1762:60"/>
+ſevere puniſhment than pittie.</p>
+               <p>Beſides, the Church being a place in which God is after a more pe<g ref="char:EOLhyphen"/>culiar manner preſent, may well be called holy, God himſelfe ſaid to <hi>Moſes, The place where</hi> 
+                  <note place="margin">Exod. 3</note> 
+                  <hi>thou ſtandeſt is holy ground,</hi> for God was in that place peculiarly preſent.</p>
+               <p>Further, well may the Church be called ho<g ref="char:EOLhyphen"/>ly, it being the place of holy things, in it are the holy Sacraments, to it the Saints on earth fre<g ref="char:EOLhyphen"/>quently reſort, and in it
+<pb n="107" facs="tcp:1762:60"/>
+we beleive that the holy Angels are preſent.</p>
+               <p>Laſtly, by the Law of contraries, it will follow, that as the Temples of Devils are to be accoun<g ref="char:EOLhyphen"/>ted unholy and profane, as being polluted with the ſervice done in them: So the Temples of the true God are moſt ſa<g ref="char:EOLhyphen"/>cred, and holy, being ſanctified by the Word of God and Praier.</p>
+            </div>
+            <div n="13" type="chapter">
+               <pb n="108" facs="tcp:1762:61"/>
+               <head>CHAP. XIII. <hi>Of the ends, for which Temples were built.</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">I</seg>T is moſt cer<g ref="char:EOLhyphen"/>taine, that ſome Temples were built only to flatter great Kings, with the vaine conceit of a Deity. Wherefore <hi>Tiberius Cae<g ref="char:EOLhyphen"/>ſar</hi> ſtricktly forbad, any Temple to be erected to him.</p>
+               <p>Other Temples were built to the honour of ſome famous men, zea<g ref="char:EOLhyphen"/>lous errour miſtaking
+<pb n="109" facs="tcp:1762:61"/>
+them to be Gods. The ends for which they were erected to the true God, may be foure.</p>
+               <p>Firſt, to offer Sacri<g ref="char:EOLhyphen"/>fice in them.</p>
+               <p>Secondly, to bee Se<g ref="char:EOLhyphen"/>pulchers, and Repoſito<g ref="char:EOLhyphen"/>ries of the corps of his bleſſed Martyrs, untill the generall Reſurre<g ref="char:EOLhyphen"/>ction.</p>
+               <p>Thirdly, to offer and preſent in them Prayers unto Almighty God.</p>
+               <p>Fourthly, that Chri<g ref="char:EOLhyphen"/>ſtian people might meet together in one place, to heare the Word of God, and receive the Sacra<g ref="char:EOLhyphen"/>ments.
+<pb n="110" facs="tcp:1762:62"/>
+Some adde to theſe a fift, <hi>viz.</hi> that the Divine Majeſty might vouchſafe ſtill to conti<g ref="char:EOLhyphen"/>nue with us, and to dwell amongſt us. Not as if they thought that the infinite Divine Nature could bee con<g ref="char:EOLhyphen"/>tained within the nar<g ref="char:EOLhyphen"/>row walls of a Church, but according with that which <hi>Salomon</hi> ſaid, <note place="margin">1 Kings 8. 13.</note> when he had finiſhed the Temple; <hi>I have ſurely built thee a houſe to dwell in, a ſtedfaſt place for thee to abide in for ever.</hi> God, we piouſly believe, to bee in every
+<pb n="111" facs="tcp:1762:62"/>
+place, but we cannot ſay properly, that he dwells in any place, but in his Temple. There, as in his Court and Palace he diſtributes his divine gifts and graces, to the hearts of his faithfull ſervants: there we more plainely behold his glo<g ref="char:EOLhyphen"/>ry and majeſty, in the ſtatelineſſe, and beautie of the building, in the richneſſe of the ſacred veſſells and ornaments, the numerous multituds of his Servants, the vari<g ref="char:EOLhyphen"/>ous fruits of the bleſſed Sacraments, the dignity, holineſſe, and ſacred
+<pb n="112" facs="tcp:1762:63"/>
+pompe of his Mini<g ref="char:EOLhyphen"/>ſters.</p>
+               <p>Before the Temple was built by <hi>Salomon,</hi> God was not with his people in any one fixed or ſettled place. <hi>Moſes</hi> Tabernacle was por<g ref="char:EOLhyphen"/>table, and carried from one place to another, but when the Temple was built, and the Arke of God placed in it, God began to reſt, and dwell amongſt them, whence that of the Pſalmiſt, <hi>A<g ref="char:EOLhyphen"/>riſe O God into thy reſt,</hi> 
+                  <note place="margin">Pſal. 132. 8.</note> 
+                  <hi>thou, and the Arke of thy ſtrength.</hi>
+               </p>
+               <p>Saint <hi>Hierome</hi> calls
+<pb n="113" facs="tcp:1762:63"/>
+the Church, <hi>Heredita<g ref="char:EOLhyphen"/>tem Dei,</hi> Gods porti<g ref="char:EOLhyphen"/>on, or inheritance; nor ſhall any man eſcape his vengeance, that ſhall attempt to diſpoſ<g ref="char:EOLhyphen"/>ſeſſe him of it, nor ſhall their pietie be un<g ref="char:EOLhyphen"/>rewarded which hath merited ſuch an heire.</p>
+            </div>
+            <div n="14" type="chapter">
+               <pb n="114" facs="tcp:1762:64"/>
+               <head>CHAP. XIV. <hi>How the whole world may bee ſaid to bee a Tem<g ref="char:EOLhyphen"/>ple.</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">H</seg>Itherto of Tem<g ref="char:EOLhyphen"/>ples built by men, as well Jewes, and Gentiles, as Chriſtians, all which proclaime the Art, Magnificence, or Pietie of the builders. There are alſo Temples built by the powerfull hand of the Almighty Crea<g ref="char:EOLhyphen"/>tour, as the vaſt and the great Univerſe, what is it,
+<pb n="115" facs="tcp:1762:64"/>
+but a Temple, according to which patterne, mor<g ref="char:EOLhyphen"/>tall men have corrected theirs, imitating its fi<g ref="char:EOLhyphen"/>gure in their rotundaes, before ſpoken of. <hi>Dioge<g ref="char:EOLhyphen"/>nes</hi> ſaies plainely, <hi>Mun<g ref="char:EOLhyphen"/>dum</hi> 
+                  <note place="margin">Laert. in Vit. cjus</note> 
+                  <hi>eſſe Dei Templum ſanctiſſimum:</hi> The world is the ſacred Temple of God.</p>
+               <p>And the <hi>Perſians,</hi> who worſhiped the Sun for their God, are reported not to have built any Temple for it, ſaying, <hi>Mundum univerſum eſſe</hi> 
+                  <note place="margin">
+                     <hi>Strabo Lib.</hi> 15.</note> 
+                  <hi>illi Templum;</hi> the whole Univerſe is his Temple.</p>
+               <p>The <hi>Bythinians,</hi> for
+<pb n="116" facs="tcp:1762:65"/>
+the ſame reaſon offered <note place="margin">
+                     <hi>Herodo. lib</hi> 1.</note> their ſacrifices on tops of Mountaines, inſtead of Altars.</p>
+               <p>And <hi>Tacitus</hi> writing of the Germans, ſaies, <hi>Nec cohiberi parietibus Deos, ex magnitudine Coeleſtium arbitrabantur.</hi> They were of opinions (conſidering the huge<g ref="char:EOLhyphen"/>neſſe of the Heavens) that God could not bee contained, within the compaſſe of any walls.</p>
+               <p>The old Romans worſhiped their God <hi>Terminus,</hi> and divers o<g ref="char:EOLhyphen"/>ther of their Gods In Temples open roofed,
+<pb n="117" facs="tcp:1762:65"/>
+ſuppoſing it unfit to ſtreighten their fancied deities within walls.</p>
+               <p>The Chriſtians them<g ref="char:EOLhyphen"/>ſelves have called the U<g ref="char:EOLhyphen"/>niverſe, the Temple of Almighty God, though never guilty of that er<g ref="char:EOLhyphen"/>rour (into which ſome blind Schiſmatiques and Heretiques have ſtum<g ref="char:EOLhyphen"/>bled) as to thinke that therefore no Churches ought to bee built, and had they power to their blind boldneſſe, would ſoone pull them downe, and keepe their conven<g ref="char:EOLhyphen"/>ticles and aſſemblies in ſhops and cellars. <hi>Melius</hi>
+                  <pb n="118" facs="tcp:1762:66"/>
+                  <hi>Graeci noſtri, qui ut augu<g ref="char:EOLhyphen"/>rent</hi> 
+                  <note place="margin">Cicero. de legib.</note> 
+                  <hi>pietatem in Deum, eaſdem illum quas nos Vr<g ref="char:EOLhyphen"/>bes incolere voluerunt:</hi> Much better did our fore-fathers, who for the encreaſe of Pietie and Religion, built Houſes for God to dwell a<g ref="char:EOLhyphen"/>mongſt us. Alas! our memories (eſpecially in good things) are too too weake, nor can we (ſuch is the courſe of our life here) worſhip God de<g ref="char:EOLhyphen"/>cently, and duly enough, in every place.</p>
+               <p>The Primitive Chri<g ref="char:EOLhyphen"/>ſtians, indeed called the Univerſe the Temple of
+<pb n="119" facs="tcp:1762:66"/>
+God, becauſe the tyran<g ref="char:EOLhyphen"/>nies of the Gentiles, would not permit them to enjoy any other. <hi>Dei Templum eſt Vniverſum, hoc quod cernitur vel quae latiores complectitur am<g ref="char:EOLhyphen"/>bitus mens humana, nec aliquod his dignius Tem<g ref="char:EOLhyphen"/>plum Deo Opt: Max: eirgi poteſt:</hi> The whole Uni<g ref="char:EOLhyphen"/>verſe (were they wont to ſay) is our Temple, or rather the ſoule of every Chriſtian, is the Temple of his God, which is of larger capacity than the whole world: and more glorious Temples than theſe can no where bee
+<pb n="120" facs="tcp:1762:67"/>
+builded, to our great and good God.</p>
+               <p>And well may the U<g ref="char:EOLhyphen"/>niverſe be called a Tem<g ref="char:EOLhyphen"/>ple, there has beene no<g ref="char:EOLhyphen"/>thing ſaid of Temples, but may very well bee ſaid of it; If they be called Temples, be<g ref="char:EOLhyphen"/>cauſe they bee vaſt, and great ſtructures, is any thing greater than the Univerſe, which conteines all things in its vaſt capacity. If <hi>Baſilicae,</hi> from their ſtate and ma<g ref="char:EOLhyphen"/>jeſty, how much better does that name fit the Univerſe, than with nothing more royall, It
+<pb n="121" facs="tcp:1762:67"/>
+has the Firmament for its roof, the Starres for tapers, the Heaven for its Altar, Woods and Groves, inſtead of Ta<g ref="char:EOLhyphen"/>peſtry hangings, and the Earth for its pavement, which God himſelfe be<g ref="char:EOLhyphen"/>ſprinckles with the dew of Heaven. If a Tem<g ref="char:EOLhyphen"/>ple bee rightly defined, <hi>Aedificium Deo conſecra<g ref="char:EOLhyphen"/>tum:</hi> The whole World was created for no other end, but for us, to ſerve and worſhip God in it. The Univerſe, ſaies <hi>Leſ<g ref="char:EOLhyphen"/>ſius,</hi> 
+                  <note place="margin">
+                     <hi>Lib.</hi> 4. <hi>de perſ. div. ca.</hi> 4</note> is two waies condu<g ref="char:EOLhyphen"/>cing to our good, firſt it affords us dwelling, and
+<pb n="122" facs="tcp:1762:68"/>
+all things neceſſary for this life, and ſo it is like a well furniſhed, and a ſpacious houſe, for man conſiſting of a body, needs a thouſand corpo<g ref="char:EOLhyphen"/>reall helpes, to the ſweet and pleaſant leading of his life here.</p>
+               <p>Secondly, it is as a Temple to our ſoules, inſtructing them, in the knowledge of their Maker, declaring his power, wiſdome. beauty, goodneſſe, and other attributes: A hu<g ref="char:EOLhyphen"/>mane ſoule, for whoſe ſake all corporeall things were created, is of the
+<pb n="123" facs="tcp:1762:68"/>
+very loweſt degree of intellectuall creatures, and ſo weake of under<g ref="char:EOLhyphen"/>ſtanding, that without the helpe of our ſenſes we underſtand nothing, wherefore it deſires an union, and conjunction with our bodies, that by the helpe of our ſenſes underſtanding ſenſible things, it may from them by diligent meditation, &amp; ſerious diſcourſe, come to underſtand its ſelfe, &amp; its Creatour. And for this cauſe, God created not onely things neceſſa<g ref="char:EOLhyphen"/>ry for the ſuſtenance of humane life, but innume<g ref="char:EOLhyphen"/>rable
+<pb n="124" facs="tcp:1762:69"/>
+more things, by whoſe beauty, and ſplen<g ref="char:EOLhyphen"/>dour, wee may in ſome meaſure conceive, and know the excellency of our maker, and knowing him, may love, worſhip, honour, and give thanks unto him. The great<g ref="char:EOLhyphen"/>neſſe of the Heavens, the vaſtneſſe of the ſeas, and earth, ſhew his power and greatneſſe; the glory and ſplendour of ſtarres, and pretious gems, what doe they to a conſidering ſoule, but ſet forth his beauty, and glory? The curious ſubtilty in forming the
+<pb n="125" facs="tcp:1762:69"/>
+limbs of each creature, declares his wiſdome and perfection. The ſure order, in the Heavens courſe, and motion, teaches us his provi<g ref="char:EOLhyphen"/>dence. There is indeed nothing in the whole world that doth not mervellouſly inſtruct our minds in the knowledge of our Creatour: So that whatſoever could bee naturally known of God, was certainely knowne by the ancient Philoſophers. For the inviſible things of God, are made knowne unto us, by the viſible crea<g ref="char:EOLhyphen"/>tures,
+<pb n="126" facs="tcp:1762:70"/>
+and by the meanes of ſtudious and diligent contemplation, as Saint <hi>Paul</hi> teaches<hi>: Inviſibilia</hi> 
+                  <note place="margin">Rom. 1</note> 
+                  <hi>enim ipſius, a creatura Mundi, per ea quae facta ſunt intellecta, conſpici<g ref="char:EOLhyphen"/>untur.</hi>
+               </p>
+               <p>For this end, there<g ref="char:EOLhyphen"/>fore did God build this Temple, in it he dwels, <hi>Totamque infuſa per ar<g ref="char:EOLhyphen"/>tus, mens agitat molem:</hi> hee fils every part of it, and we are continually in his preſence. The whole World is a Tem<g ref="char:EOLhyphen"/>ple, to thoſe that want a Temple; no man for want of a Church, is ex<g ref="char:EOLhyphen"/>cuſed
+<pb n="127" facs="tcp:1762:70"/>
+from ſerving of God. The holy Her<g ref="char:EOLhyphen"/>mits of old, ſpoken of by S. <hi>Hierom, viz.</hi> S. <hi>Anthony,</hi> Saint <hi>Paul, Hilarion, &amp;c.</hi> though they lived in rocks, caves, and ſolitary places, yet were they ne<g ref="char:EOLhyphen"/>ver out of the Temple, ſtill praiſing and wor<g ref="char:EOLhyphen"/>ſhiping God, and alwaies adoring his infinite Ma<g ref="char:EOLhyphen"/>jeſty.</p>
+               <p>When God had fini<g ref="char:EOLhyphen"/>ſhed this Temple, for ſigne (as it were) of joy in the perfection of it, he bleſſed the day next en<g ref="char:EOLhyphen"/>ſuing, and made it an holy day; giving us an
+<pb n="128" facs="tcp:1762:71"/>
+example of rejoycing, at the Dedication of ours, every creature now be<g ref="char:EOLhyphen"/>gan to worſhip God, in this Temple, ſo ſoone as it was made, onely wretched man profaned it.</p>
+            </div>
+            <div n="15" type="chapter">
+               <pb n="129" facs="tcp:1762:71"/>
+               <head>CHAP. XV. <hi>How every particular Chriſtian may bee ſaid to be the Temple of God.</hi>
+               </head>
+               <p>
+                  <hi>
+                     <seg rend="decorInit">C</seg>Lemens Alexan<g ref="char:EOLhyphen"/>drinus</hi> 
+                  <note place="margin">
+                     <hi>Lib</hi> 7. <gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>. <hi>Strom.</hi>
+                  </note> tels us, that every par<g ref="char:EOLhyphen"/>ticular member of the Catholique Church, is a Te<g ref="char:cmbAbbrStroke">̄</g>ple of God built upon the foundation of Faith, Hope and Charity, rais'd not upon columnes of marble, or ſtone wals, but on fleſhy hearts, far excelling that of <hi>Salo<g ref="char:EOLhyphen"/>mons,</hi> which was both
+<pb n="130" facs="tcp:1762:72"/>
+made, and marred by the hands of mortall men.</p>
+               <p>Saint <hi>Anguſtin</hi> ſaith, our hearts are Gods Al<g ref="char:EOLhyphen"/>tars, <note place="margin">
+                     <hi>Lib.</hi> 10. <hi>cap.</hi> 4. <hi>de Civi. Dei.</hi>
+                  </note> on which we offer to him bloody ſacrifices, when for his truth we ſuffer martyrdome: we offer ſweet incenſes to him, when our hearts are inflamed with pure and holy love.</p>
+               <p>Whence is that of <hi>La<g ref="char:EOLhyphen"/>ctantius, Quid opus eſt</hi> 
+                  <note place="margin">
+                     <hi>Lib.</hi> 1. <hi>cap.</hi> 20. <hi>Inſt.</hi>
+                  </note> 
+                  <hi>ſuper vacuis extructioni<g ref="char:EOLhyphen"/>bus loca occupare, firmius &amp; incorruptius templum eſt cor humanum, hoc po<g ref="char:EOLhyphen"/>tius ornetur, hoc veris il<g ref="char:EOLhyphen"/>lis numinibus impleatur.</hi>
+                  <pb n="131" facs="tcp:1762:72"/>
+Why doe yee (yee vaine Gentiles) take ſuch care in building Temples to your falſe Gods, and neg<g ref="char:EOLhyphen"/>lect the internall ver<g ref="char:EOLhyphen"/>tues, which dight the ſoule; The ſoule of man is a moſt firme, and in<g ref="char:EOLhyphen"/>corruptible Temple, let that bee beautified and adorned with graces: to what purpoſe are theſe vaſt heaps of ſtone ere<g ref="char:EOLhyphen"/>cted, and no roome left for God in your ſoules; theſe are the true Tem<g ref="char:EOLhyphen"/>ples of the living God, which hee hath purcha<g ref="char:EOLhyphen"/>ſed with his moſt preci<g ref="char:EOLhyphen"/>ous blood. <hi>Know yee</hi>
+                  <pb n="132" facs="tcp:1762:73"/>
+                  <hi>not,</hi> ſaith S. <hi>Paul, that yee</hi> 
+                  <note place="margin">1 Cor. 3. 16. 9.</note> 
+                  <hi>are the Temples of God, &amp; God dwels in ye:</hi> and again, <hi>Dei aedificatio eſtis, ye are Gods buildings.</hi>
+               </p>
+               <p>Saint <hi>Bernard</hi> teaches <note place="margin">
+                     <hi>Serm.</hi> 1 <hi>de dedi.</hi>
+                  </note> at large, how the ſoule of everie Chri<g ref="char:EOLhyphen"/>ſtian may bee ſaid to bee the Temple of his God. It is dedicated and con<g ref="char:EOLhyphen"/>ſecrated in Baptiſme, it is reedified by Confirma<g ref="char:EOLhyphen"/>tion and the holy Eucha<g ref="char:EOLhyphen"/>riſt, &amp;c. all to teach us how carefull wee ought to bee, leſt we pollute and profane it, it behoves us often to remember Saint <hi>Pauls, Neſcitis, quia</hi>
+                  <pb n="133" facs="tcp:1762:73"/>
+                  <hi>Dei Templum eſtis,</hi> know ye not, that ye are the Temples of God, and if any man defiles the Temple of God, him will God deſtroy; But if there were no other puniſhment than this, this ſure is full of hor<g ref="char:EOLhyphen"/>rour, that we expell the holy Spirit out of our hearts, and entertaine the foule ſpirit in his roome.</p>
+            </div>
+            <div n="16" type="chapter">
+               <pb n="134" facs="tcp:1762:74"/>
+               <head>CHAP. XVI. <hi>How the Body of Chriſt, and how the Bleſſed Virgin Mother, may be ſaid to bee the Temples of God.</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">O</seg>F all Temples, theſe two are moſt tranſcen<g ref="char:EOLhyphen"/>dent, they are Chriſts owne words, <hi>Deſtroy this Temple, and in three daies I will raiſe it up againe:</hi> 
+                  <note place="margin">Iohn 2. 19. 21.</note> 
+                  <hi>and hee ſpake this of his body.</hi> In <hi>Salomons</hi> Tem<g ref="char:EOLhyphen"/>ple at Jeruſalem, all the while it was building, no
+<pb n="135" facs="tcp:1762:74"/>
+ſaw, normallet was heard in it. And our Saviour is called the ſtone cut <note place="margin">Dan. 2. 34.</note> from the rock without hands. <hi>Verè,</hi> ſaith Saint <hi>Ambroſe, verè Templum</hi> 
+                  <note place="margin">In Pſa. 47.</note> 
+                  <hi>Dei, eſt corpus Chriſti, in quo noſtrorum eſt purifica<g ref="char:EOLhyphen"/>tio peccatorum, verè Tem<g ref="char:EOLhyphen"/>plum Dei, caro illa, in qua nullum peccati potuit eſſe contagium, ſed ipſa pro delicto totius Mundi fuit ſacrificium. Verè Tem<g ref="char:EOLhyphen"/>plum Dei, caro illa, in qua Dei imago fulgebat, &amp; corporaliter plenitudo Divinitatis habitabat:</hi> Well, well, might the body of our Saviour
+<pb n="136" facs="tcp:1762:75"/>
+Chriſt, be called a Tem<g ref="char:EOLhyphen"/>ple, by which wee are cleanſed from our ſins; well might it be called a Temple, which was pol<g ref="char:EOLhyphen"/>luted with no ſinne, but was offered a Sacrifice for the ſin of the whole world: Well might it be called the Temple of God, in which the very image of God ſhined ſo bright, nay in which the fulneſſe of the Deity dwelt bodily.</p>
+               <p>The other Temple, which may alſo be truly called a Temple, dedica<g ref="char:EOLhyphen"/>ted to God, is his moſt-chaſte and immaculate
+<pb n="137" facs="tcp:1762:75"/>
+Mother, the bleſſed Vir<g ref="char:EOLhyphen"/>gin <hi>Mary,</hi> of whoſe ſtructure God himſelfe tooke ſuch care, that ſome of the <hi>Roman</hi> Church hold opinion, ſhee was not polluted with any, no not Origi<g ref="char:EOLhyphen"/>nall ſinne. Surely this Temple, was richly dect with all beauteous ver<g ref="char:EOLhyphen"/>tues, which God the Father from all eternity elected, and prepared for himſelfe, which was o<g ref="char:EOLhyphen"/>ver-ſhaddowed with the power of the Moſt-high, and in which for the ſpace of nine moneths, the body of our bleſſed
+<pb n="138" facs="tcp:1762:76"/>
+Saviour, really inhabi<g ref="char:EOLhyphen"/>ted. And thus farre of Temples built by the di<g ref="char:EOLhyphen"/>vine Art of the moſt ſu<g ref="char:EOLhyphen"/>preme Architect. Now let us returne to Tem<g ref="char:EOLhyphen"/>ples built by mortall men: And firſt we will ſpeake of them, whoſe founders might have de<g ref="char:EOLhyphen"/>ſerved high, and eternall praiſe, had their know<g ref="char:EOLhyphen"/>ledge of the true God, beene equall to their Art and magnificence, but inſtead of Dedica<g ref="char:EOLhyphen"/>ting theſe ſumptuous buildings, to the honour of the true God, they moſt ſacrilegiouſly de<g ref="char:EOLhyphen"/>voted
+<pb n="139" facs="tcp:1762:76"/>
+them to Devils, Idols, Crocodiles, Leeks and Onyons, and other moſt baſe and contemp<g ref="char:EOLhyphen"/>tible creatures.</p>
+            </div>
+            <div n="17" type="chapter">
+               <head>CHAP. XVII. <hi>Of the multitude, and ſplendour of Heathen Temples.</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">A</seg>Ll nations, from the beginning of the World, have beene naturally in<g ref="char:EOLhyphen"/>clined, to build and a<g ref="char:EOLhyphen"/>dorne Temples, as if it were impoſſible for a
+<pb n="140" facs="tcp:1762:77"/>
+humane life, to be lead here upon earth, with<g ref="char:EOLhyphen"/>out them: <hi>Si terras obeas, invenire poſſis Vr<g ref="char:EOLhyphen"/>bes, Muris, Literis, Regi<g ref="char:EOLhyphen"/>bus, Opibus, numiſmate carentes: Gymnaſiorum, &amp; Theatrorum neſcias, Vrbem Templis, Diiſque carentem, quae praecibus, jurejurando, Oraculo non utatur, non bonorum cauſa ſacrificet, non mala ſacris avertat, nemo un<g ref="char:EOLhyphen"/>quam vidit:</hi> If you tra<g ref="char:EOLhyphen"/>vaile throughout the whole World, ſaies <hi>Plu<g ref="char:EOLhyphen"/>tarch,</hi> you may chance to come to ſome Cities, where there is no Lear<g ref="char:EOLhyphen"/>ning,
+<pb n="141" facs="tcp:1762:77"/>
+no Coyne, no Schooles, or publique Theaters, &amp;c. but you ſhall never in all your travailes ſee a City hat has no God to worſhip, no kind of Temples, to ſerve him in: that offers no ſacrifice to avert ca<g ref="char:EOLhyphen"/>lamities, or thankſgiving for proſperitie. A<g ref="char:EOLhyphen"/>mongſt<g ref="char:punc">▪</g> all nations ſome kind of Temple has been uſed: The barbarous <hi>Scythian</hi> is reported to have had a Temple dedi<g ref="char:EOLhyphen"/>cated to Mars, and in it <note place="margin">
+                     <hi>Herodo. lib.</hi> 4.</note> they ſtuck up a javelin, which they worſhipt in<g ref="char:EOLhyphen"/>ſtead of his Image. Ne<g ref="char:EOLhyphen"/>ver
+<pb n="142" facs="tcp:1762:78"/>
+any writ of any Na<g ref="char:EOLhyphen"/>tions, but have beene co<g ref="char:EOLhyphen"/>pious in deſcribing their Temples, as who ſhall read <hi>Herodotus, Athe<g ref="char:EOLhyphen"/>neus, &amp;c.</hi> ſhall find. <hi>Reiſnerus</hi> reports above <note place="margin">
+                     <hi>Anti<g ref="char:EOLhyphen"/>quit. Rom. li.</hi> 1. <hi>cap.</hi> 13.</note> 400. Temples to have ſtood in old Rome, be<g ref="char:EOLhyphen"/>ſides <hi>Lararia,</hi> and private places, in which they placed Images, ſacred to their peculiar Gods. So that when <hi>Pyrrhus</hi> asked his Ambaſſadours, what they thought of the Ci<g ref="char:EOLhyphen"/>tie, they anſwered, that <note place="margin">
+                     <hi>Florus. lib.</hi> 1. 18</note> the whole City ſeemd to them to bee but one Temple.</p>
+               <p>
+                  <pb n="143" facs="tcp:1762:78"/>
+                  <hi>Japan</hi> is ſaid to have 13000 Temples, 3800 of which were built by one King, and 50 in one grove.</p>
+               <p>In <hi>Grand Cayre,</hi> as <hi>Ratz<g ref="char:EOLhyphen"/>vill</hi> 
+                  <note place="margin">
+                     <hi>Epiſt.</hi> 3. <hi>de ſua peregrin Hiero<g ref="char:EOLhyphen"/>ſoly.</hi>
+                  </note> reports, are 6800 faire and ſtately Moſques beſides ſuch as want tur<g ref="char:EOLhyphen"/>rets and roofes, of which there is no ſmall number. But paſſing by the num<g ref="char:EOLhyphen"/>ber, let's ſpeake of their ſplendour and riches, to the confuſion of ſuch who envie the coſt be<g ref="char:EOLhyphen"/>ſtowed on Chriſtian Temples, when they ſhall ſee how farre the worſhipers of Idols have
+<pb n="144" facs="tcp:1762:79"/>
+exceeded our times in piety towards their falſe Gods.</p>
+               <p>The <hi>Aegyptians</hi> are <note place="margin">
+                     <hi>Herodo. lib</hi> 2. <hi>N<g ref="char:punc">▪</g>
+                     </hi> 4.</note> ſaid to have beene the firſt people in the world who had knowledge of the Gods. From them the <hi>Aſſyrians</hi> had their learning, who built the Temple to <hi>Hercules,</hi> in <hi>Tyre,</hi> to <hi>Venus</hi> or <hi>Aſtarta</hi> in <hi>Phoenicia,</hi> both admi<g ref="char:EOLhyphen"/>rable pieces of work<g ref="char:EOLhyphen"/>manſhip, but farre ex<g ref="char:EOLhyphen"/>ceeded by that at <hi>Hiera<g ref="char:EOLhyphen"/>polis,</hi> ſacred to the <hi>Syrian</hi> goddeſſe <hi>Juno,</hi> which as <hi>Lucian</hi> thinkes, was built by <hi>Deucalion,</hi> im<g ref="char:EOLhyphen"/>mediatly
+<pb n="145" facs="tcp:1762:79"/>
+after the flood; the wals of it were cove<g ref="char:EOLhyphen"/>red with gold, the roof was maſſy gold, all glo<g ref="char:EOLhyphen"/>rious as the Sun: nor with leſſe ſplendour were Temples built to <hi>Jupiter, Herodotus</hi> ſaith, that in his time there ſtood a Temple at Baby<g ref="char:EOLhyphen"/>lon, Dedicated to <hi>Jupi<g ref="char:EOLhyphen"/>ter Belus,</hi> of figure <note place="margin">
+                     <hi>Lib.</hi> 1. <hi>cap.</hi> 181.</note> ſquare, each ſide contei<g ref="char:EOLhyphen"/>ning the length of two furlongs, in the middle of it aroſe a ſquaretower, the height of it one fur<g ref="char:EOLhyphen"/>long, over it were built others leſſe, to the num<g ref="char:EOLhyphen"/>ber of eight: They went
+<pb n="146" facs="tcp:1762:80"/>
+upon the out-ſides by an aſcent of ſtaires, to the higheſt Turret, in which was a little Chappell, in it a bed richly furniſhed, and a Table of pure gold.</p>
+               <p>Memorable alſo is the glory of that Temple, in one of the Atlantique Iſlands, built of ſilver and gold, to the honour of <hi>Neptune</hi> and <hi>Clito.</hi> Theſe feigned deities, were thought worthy of gold and ſilver; but the true God, who gives all beauty and luſtre to gold and precious ſtones is ſcarcely honoured,
+<pb n="147" facs="tcp:1762:80"/>
+ſomewhere within ſtone walls.</p>
+               <p>Moſt admirable of all, was the Temple of <hi>Dia<g ref="char:EOLhyphen"/>na</hi> at <hi>Epheſus,</hi> it was ac<g ref="char:EOLhyphen"/>counted one of the won<g ref="char:EOLhyphen"/>ders of the World: All <hi>Aſia</hi> was buſied two hun<g ref="char:EOLhyphen"/>dred <note place="margin">
+                     <hi>Plin. lib</hi> 36. <hi>cap.</hi> 14.</note> and twenty yeares in building of it. It had its foundation laid in a mariſh ground, the bet<g ref="char:EOLhyphen"/>ter to endure the injuries of earth-quakes, and to make the foundation firme, they firſt ramm'd into the ground great quantities of coales, up<g ref="char:EOLhyphen"/>on which they ſpread fleeces of wooll. It was
+<pb n="148" facs="tcp:1762:81"/>
+foure hundred twentie five and foot long, two hundred and twentie foot broad, it had a hun<g ref="char:EOLhyphen"/>dred and twenty ſeven columns, every one of which was the coſt of a ſeverall King; each co<g ref="char:EOLhyphen"/>lumne was ſixty foot high, thirtie ſix of them were moſt exqui<g ref="char:EOLhyphen"/>ſitely wrought and en<g ref="char:EOLhyphen"/>graven, whereof one was the handiwork of <hi>Scopas,</hi> that excellent graver. The roof of it was of Cedar, the doores of Cyprus. This ſo ſtate<g ref="char:EOLhyphen"/>ly and magnificent e<g ref="char:EOLhyphen"/>difice, was burnt downe
+<pb n="149" facs="tcp:1762:81"/>
+by one <hi>Heroſtratus,</hi> who was deſirous to eternize <note place="margin">
+                     <hi>Strabo l. b.</hi> 14.</note> his name, by the infamy of his fact.</p>
+               <p>Amongſt the Romans, the <hi>Capitol</hi> was famous, it was begun by <hi>Tarqui<g ref="char:EOLhyphen"/>nius Priſcus</hi> by reaſon of a vow, which he made in his warres againſt the <hi>Sabines,</hi> and finiſhed by <hi>Horatius Pulvillus</hi> the Coſul, when the govern<g ref="char:EOLhyphen"/>ment by Kings was chan<g ref="char:EOLhyphen"/>ged: the foundation of it was laid very deep, it was eight acres in circuit, each ſide was two hun<g ref="char:EOLhyphen"/>dred foot long, and very neere as broad, the
+<pb n="150" facs="tcp:1762:82"/>
+South-ſide was encom<g ref="char:EOLhyphen"/>paſſed with three rankes of Columnes, the other ſides with two; within it were three Chappels joyned together by each the others walls, all co<g ref="char:EOLhyphen"/>vered with the ſame roof, the one ſacred to <hi>Jupiter,</hi> the other on each ſide to <hi>Juno</hi> and <hi>Mi<g ref="char:EOLhyphen"/>nerva:</hi> Whence that of <hi>Auſonius.</hi>
+                  <q xml:lang="lat">Trina in Tarpeio fulgent conſortia Templo.</q>
+This Temple was con<g ref="char:EOLhyphen"/>ſumed by fire, in the Ci<g ref="char:EOLhyphen"/>vill warres, which were
+<pb n="151" facs="tcp:1762:82"/>
+in <hi>Sulla's</hi> time, and after repaired by <hi>Veſpaſian,</hi> and <hi>Domitian;</hi> it was of capa<g ref="char:EOLhyphen"/>city to conteine 8000 or 10000 men, 12000 ta<g ref="char:EOLhyphen"/>lents were ſpent onely in guilding of it.</p>
+               <p>The <hi>Pantheon</hi> (though in time, yet) in work<g ref="char:EOLhyphen"/>manſhip, nothing infe<g ref="char:EOLhyphen"/>riour to the <hi>Capitol,</hi> was built by <hi>Agrippa</hi> the ſon in law of <hi>Auguſtus,</hi> who had thrice beene Con<g ref="char:EOLhyphen"/>ſull. It is yet ſtanding in Rome, and though it be ſpoiled of its ancient or<g ref="char:EOLhyphen"/>naments, yet is it highly honoured, in being De<g ref="char:EOLhyphen"/>dicated to the true God,
+<pb n="152" facs="tcp:1762:83"/>
+and the memory of our bleſſed Lady, by <hi>Boniface</hi> the fourth. Such was the ancient beauty of this Temple that <hi>Pline</hi> 
+                  <note place="margin">
+                     <hi>Lib.</hi> 25.</note> reckons it, <hi>inter pulcheri<g ref="char:EOLhyphen"/>ma operum,</hi> amongſt the moſt beautifull pieces in the whole World. And <hi>Sebaſtian Serly,</hi> a man very skilfull in Ar<g ref="char:EOLhyphen"/>chitecture, ſaith, it is the onely choice piece of perfect workeman-ſhip, his eies ever beheld. It was equally as broad as high; In <hi>Trajans</hi> time it was fired by lightning, and reedified by <hi>M. Au<g ref="char:EOLhyphen"/>relius Antonius.</hi>
+               </p>
+               <p>
+                  <pb n="153" facs="tcp:1762:83"/>
+We read of divers o<g ref="char:EOLhyphen"/>ther Temples amongſt the Romans, of equall beauty and ſtately ſtru<g ref="char:EOLhyphen"/>cture.</p>
+               <p>The great ſuperſtiti<g ref="char:EOLhyphen"/>ous Temple amongſt the Turkes, is that at <hi>Mecca,</hi> famous for <hi>Mahomets</hi> Tomb, of which Tem<g ref="char:EOLhyphen"/>ple they have this tale in their learning, <hi>viz.</hi> 
+                  <note place="margin">
+                     <hi>Lonicer li.</hi> 1. <hi>ca.</hi> 17.</note> that God commanded <hi>Abraham</hi> to build it, and that whoſoever ſhould repaire to it, confeſſing, and bawailing their ſins, ſhould receive pardon<hi>: Abraham</hi> ſtraightway de<g ref="char:EOLhyphen"/>ſign'd the plot of it, and
+<pb n="154" facs="tcp:1762:84"/>
+drew the limits of its foundation. And im<g ref="char:EOLhyphen"/>mediatly the moun<g ref="char:EOLhyphen"/>taines, ſtones, timber, and all things neceſſary for the building came to<g ref="char:EOLhyphen"/>gether of their owne accords, ſo that the draught and deſigne of it was all the trouble <hi>Abram</hi> was put to.</p>
+               <p>
+                  <hi>Ratzvill</hi> ſaies, that <note place="margin">
+                     <hi>Epiſt.</hi> 3.</note> he viewed all the cheif Moſques in <hi>Grand Cair,</hi> but entred into none, there is one (ſaies hee) which they call <hi>Giama<g ref="char:EOLhyphen"/>laſſar,</hi> much like the Ca<g ref="char:EOLhyphen"/>thedrall Churches of the Chriſtians, there the
+<pb n="155" facs="tcp:1762:84"/>
+Patriarch of the Turkes and the <hi>Santons</hi> dwell, it has eight courts, and is an Italian mile in com<g ref="char:EOLhyphen"/>paſſe. <note place="margin">
+                     <hi>Maſ<g ref="char:EOLhyphen"/>feius lib</hi> 1. <hi>hiſt.</hi>
+                  </note>
+               </p>
+               <p>The <hi>Malabars</hi> a peo<g ref="char:EOLhyphen"/>ple of <hi>India,</hi> worſhip an Idol which they call <hi>Pa<g ref="char:EOLhyphen"/>rabramma,</hi> and ſay that he is the eldeſt God of all and that hee has three ſonnes, to whoſe honour they we are three thrids tyed about their necks, they worſhip alſo divers beaſts, to whom they build ſtatly Temples, not any whit inferiour to (if not exceeding) the mag<g ref="char:EOLhyphen"/>nificence of the anci<g ref="char:EOLhyphen"/>ent
+<pb n="156" facs="tcp:1762:85"/>
+Romans. Amongſt which there is one de<g ref="char:EOLhyphen"/>dicated to an Ape, and onely Apes are ſacrifiſed in it, for which purpoſe they have adjoyning to it, a Porticu of won<g ref="char:EOLhyphen"/>drous length, to keepe Apes in for ſacrifice. It is ſupported by 700 mar<g ref="char:EOLhyphen"/>ble Columnes, equall in greatneſſe to thoſe of <hi>Agrippa,</hi> in the <hi>Pautheon</hi> at Rome.</p>
+            </div>
+            <div n="18" type="chapter">
+               <pb n="157" facs="tcp:1762:85"/>
+               <head>CHAP. XVIII. <hi>Of the Magnificence of the Jewiſh Temples.</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">T</seg>He Pagans and Infidels were in<g ref="char:EOLhyphen"/>ſtructed by Na<g ref="char:EOLhyphen"/>ture, to build Temples, but the Jewes were commanded by God, and were not inferiour to any Nation, in the glory of their Temple. <hi>Salomon</hi> was a King ſo great and wiſe, as never any before him, nor ſince him was like unto him.
+<pb n="158" facs="tcp:1762:86"/>
+Well might he therfore build the moſt excellent Temple in the World: It was a true Maſter<g ref="char:EOLhyphen"/>piece, not made after the manner of any be<g ref="char:EOLhyphen"/>fore it, nor could poſte<g ref="char:EOLhyphen"/>rity ever equall it. The ſituation of it, was upon Mount <hi>Moria,</hi> an ex<g ref="char:EOLhyphen"/>ceeding high Mountain, as <hi>Ezech.</hi> ſpeaks, cha. 40. It had foure Porches or Courts, into the firſt Court might any come, ſuch women only excepted who by their Law were accounted uncleane. Into the ſe<g ref="char:EOLhyphen"/>cond, onely the Jewes
+<pb n="159" facs="tcp:1762:86"/>
+might enter; into the third were ſuch males admitted, as were clean; And into the fourth came the Prieſts onely. The ſtructure of it was all of ſquare ſtone, yet no iron tooles, as ſaw or hammar was heard in it all the while it was in building. For the ſtones were all hewn, and per<g ref="char:EOLhyphen"/>fectly fitted in the quar<g ref="char:EOLhyphen"/>ries, before they were brought thither, ſo that no great noiſe could bee made, ſome noiſe though very ſmall, was made in the joyning and com<g ref="char:EOLhyphen"/>pacting the ſtones toge<g ref="char:EOLhyphen"/>ther,
+<pb n="160" facs="tcp:1762:87"/>
+as <hi>Vatablas Joſephus Hu:</hi> Cardinal: <hi>Cajetan,</hi> and others hold opini<g ref="char:EOLhyphen"/>on. But that the tooles were made of braſſe, and not of iron, is an opinion fond and ridiculous.</p>
+               <p>Infinite ſummes of Gold and Silver were left by King <hi>David,</hi> be<g ref="char:EOLhyphen"/>ſides materials towards the building, eighty thouſand Work-men, which were Proſelites, wrought dayly in the quaries, ſeventy thou<g ref="char:EOLhyphen"/>ſand Labourors carried the ſtones to convenient places; thirty thouſand Iſraelites Carpenters
+<pb n="161" facs="tcp:1762:87"/>
+hewed wood in <hi>Libanas,</hi> beſides innumerable mul<g ref="char:EOLhyphen"/>titudes of <hi>Tyrians,</hi> and by theſe gueſſe at the vaſt greatneſſe of this Tem<g ref="char:EOLhyphen"/>ple. Yet the time came when this ſo glorious Temple, had not one ſtone left upon another, but was quite deſtroyed, not according to the or<g ref="char:EOLhyphen"/>dinary courſe and miſe<g ref="char:EOLhyphen"/>rable condition of other humane things, to the greateſt of which is de<g ref="char:EOLhyphen"/>nied eternity, but by the moſt juſt wrath of God upon that nation.</p>
+               <p>In Hieruſalem were foure hundred &amp; eighty
+<pb n="162" facs="tcp:1762:88"/>
+Synagogues beſides the Temple. And in other Cities and places alſo were many, for the Jews had a tradition, that where-ever ten men of Iſrael were, there ought to bee built a Syna<g ref="char:EOLhyphen"/>gogue.</p>
+               <p>
+                  <hi>Joſephus</hi> tels of ano<g ref="char:EOLhyphen"/>ther <note place="margin">
+                     <hi>Bell. Iud. l.</hi> 7 <hi>cap.</hi> 30.</note> Temple, which the Jewes had in Egypt, cal<g ref="char:EOLhyphen"/>led <hi>Onion,</hi> from <hi>Onia</hi> the High Prieſt, who in the time of <hi>Antiochus</hi> wars, fled to King <hi>Ptolomy,</hi> and obteined of him eighty furlongs of ground, at <hi>Heliopolis,</hi> whereon hee built this Temple, in
+<pb n="163" facs="tcp:1762:88"/>
+manner of a Caſtle, with fortifications and bul<g ref="char:EOLhyphen"/>works on every ſide, for defence againſt the Schiſm of the other Jews, who dwelt at Hieruſa<g ref="char:EOLhyphen"/>lem, and were much of<g ref="char:EOLhyphen"/>fended at the building of this Temple, contrary to their Law. Although the Propheſie of <hi>Iſaiah</hi> was urged for it, <hi>viz. That a Temple ſhould bee built in Egypt.</hi> But after the deſtruction of Jeruſa<g ref="char:EOLhyphen"/>lem, this Egyptian Tem<g ref="char:EOLhyphen"/>ple was ſhut up by the Roman governour, and no man ſuffered to enter into it.</p>
+               <p>
+                  <pb n="164" facs="tcp:1762:89"/>
+Not long after the re<g ref="char:EOLhyphen"/>edifying of <hi>Salomons</hi> Temple, by <hi>Eſdras,</hi> the Samaritans built another Temple, in Mount <hi>Ga<g ref="char:EOLhyphen"/>rizim,</hi> the chiefeſt Au<g ref="char:EOLhyphen"/>thour in the erecting of it, was <hi>Manaſſes,</hi> the bro<g ref="char:EOLhyphen"/>ther of <hi>Jaddi</hi> the High Prieſt, who had married the daughter of <hi>Sanabal<g ref="char:EOLhyphen"/>let,</hi> the Prince of the Sa<g ref="char:EOLhyphen"/>maritans, and Generall of the <hi>Perſian</hi> Kings armies. He built it after the man<g ref="char:EOLhyphen"/>ner of the Temple at Je<g ref="char:EOLhyphen"/>ruſalem, and challenged to himſelfe the honour of a new Prieſthood, to whom divers factious
+<pb n="165" facs="tcp:1762:89"/>
+people joyned them<g ref="char:EOLhyphen"/>ſelves, <note place="margin">
+                     <hi>Ioſeph.</hi> 11. <hi>ca.</hi> 28</note> many holding to the High Prieſt at Jeru<g ref="char:EOLhyphen"/>ſalem, many to <hi>Manaſſes,</hi> whereupon grew a great Schiſme amongſt the Jewes. The Samaritans polluted the true wor<g ref="char:EOLhyphen"/>ſhip of God with idola<g ref="char:EOLhyphen"/>try. This Temple was afterwards demoliſhed by <hi>John</hi> ſonne of <hi>Simeon,</hi> &amp; nephew of <hi>Hircanius,</hi> who ſlew the Samari<g ref="char:EOLhyphen"/>tans who offered ſacri<g ref="char:EOLhyphen"/>fice in it.</p>
+               <p>We read of diverſe o<g ref="char:EOLhyphen"/>ther Temples built a<g ref="char:EOLhyphen"/>mongſt the Jewes, <hi>Salo<g ref="char:EOLhyphen"/>mon</hi> is ſaid to have built
+<pb n="166" facs="tcp:1762:90"/>
+a Temple to the idol of <note place="margin">3 Reg. <hi>cap.</hi> 11.</note> 
+                  <hi>Moab,</hi> on a Mountaine right againſt Hieruſalem; he built alſo a Temple to <hi>Molech,</hi> the idoll of the ſons of <hi>Ammon;</hi> nay he built Temples for all his wives, which were of other Nations.</p>
+               <p>In the bookes of the <note place="margin">1 Mac. i.</note> 
+                  <hi>Macchabes,</hi> we read how <hi>Antiochus</hi> built Temples and Altars in Hieruſa<g ref="char:EOLhyphen"/>lem to idols, and many of the Jewes conſented to him; nay, they not onely conſented, but plainly betrayed the moſt ſacred Temple, to the gods, or rather de<g ref="char:EOLhyphen"/>vills
+<pb n="167" facs="tcp:1762:90"/>
+of the Nations, ex<g ref="char:EOLhyphen"/>cluding the true God from amongſt them, and thinking his onely Son, our bleſſed Saviour, when hee took fleſh, and came amongſt them, not onely unworthy of a Temple, but unwor<g ref="char:EOLhyphen"/>thy whom the earth ſhould beare; for with their grievous ſins, they ſuffered grievous puniſh<g ref="char:EOLhyphen"/>ments, <note place="margin">De bello Iudaico.</note> and the Temple in which they were wont to glory, was ut<g ref="char:EOLhyphen"/>terly deſtroy'd, nor could ever ſince be re-edified, though attempted by <hi>Julian</hi> the <hi>Apoſtata,</hi> in
+<pb n="168" facs="tcp:1762:91"/>
+diſhonour and contempt <note place="margin">
+                     <hi>Niceph. lib.</hi> 10. <hi>cap.</hi> 9. <hi>Antiqui</hi>
+                  </note> of JESUS CHRIST, <hi>Anno Chriſti</hi> 363. For fire burſt out of the ground, and burnt the worke men and their tooles, and earth-quakes fulfilling Chriſts predi<g ref="char:EOLhyphen"/>ction, ſhattered the very foundation of it all to pieces.</p>
+            </div>
+            <div n="19" type="chapter">
+               <pb n="169" facs="tcp:1762:91"/>
+               <head>CHAP. XIX. <hi>Of the Builders of Chri<g ref="char:EOLhyphen"/>ſtian Temples.</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">S</seg>Aint <hi>Ignatius,</hi> that Ancient Father, equall in time to the holy Apo<g ref="char:EOLhyphen"/>ſtles, tels us, that Tem<g ref="char:EOLhyphen"/>ples were erected by the Chriſtians, at the very beginning of Chriſtian Religion; and wee read in <hi>Euſebius,</hi> of many E<g ref="char:EOLhyphen"/>dicts ſet forth by the <note place="margin">
+                     <hi>lib.</hi> 8.</note> Heathen Emperours, for the pulling them down,
+<pb n="170" facs="tcp:1762:92"/>
+and till others could bee built, the Apoſtles and primative Chriſtians, were contented with Di<g ref="char:EOLhyphen"/>ning-roomes, in private houſes, in ſtead of Tem<g ref="char:EOLhyphen"/>ples.</p>
+               <p>Saint <hi>Cyrill</hi> ſaith, that <note place="margin">
+                     <hi>Catech.</hi> 16.</note> that place was a Church conſecrated by the Apo<g ref="char:EOLhyphen"/>ſtles, in which they were aſſembled, when the Holy Ghoſt deſcended upon them, in the ſhape of cloven tongues.</p>
+               <p>And ſome thinke that <note place="margin">
+                     <hi>Turſell. lib.</hi> 11. <hi>annal.</hi>
+                  </note> the houſe in which the bleſſed Virgin Mother dwelt at Nazareth, was made a Temple, and
+<pb n="171" facs="tcp:1762:92"/>
+conſecrated by the A<g ref="char:EOLhyphen"/>poſtles: divers other Temples were built by other primitive Chri<g ref="char:EOLhyphen"/>ſtians.</p>
+               <p>The Biſhops of Rome, eſpecially of old, having beene chief men in maintaining, and pro<g ref="char:EOLhyphen"/>pagating Chriſtian Reli<g ref="char:EOLhyphen"/>gion, are known to have erected many. There is no Province in the whole Chriſtian World, in which Churches have not beene built, by their order and appointment, and by the care and dili<g ref="char:EOLhyphen"/>gence of thoſe Prieſts whom they ſent thither
+<pb n="172" facs="tcp:1762:93"/>
+to convert the Infi<g ref="char:EOLhyphen"/>dels.</p>
+               <p>And for other Bi<g ref="char:EOLhyphen"/>ſhops, though we know that all Temples receive their ſanctity from them, at the Conſecration, and therefore muſt needs owe their better part to them; For the Archi<g ref="char:EOLhyphen"/>tect can make but the walls, and the Biſhop onely can make the Temple. Yet it is moſt certaine, that in old time, and now alſo many pious Biſhops, and Pre<g ref="char:EOLhyphen"/>lats of the Church, have from the very foundati<g ref="char:EOLhyphen"/>on at their proper coſts,
+<pb n="173" facs="tcp:1762:93"/>
+and charges erected ſtately, and beauteous Temples, as ſacred Folds to encloſe, and feed the flock, com<g ref="char:EOLhyphen"/>mitted to their charge.</p>
+               <p>The liberality and munificence of Kings, and Princes, in ſuch ſtructures is immenſe, and admirable, as of <hi>Conſtantine</hi> the Great, of <hi>Helen</hi> his mother, of <hi>Caeſar, Juſtinian,</hi> and o<g ref="char:EOLhyphen"/>thers, who ſucceeded them, and have ſhewne themſelves as well heirs of their virtues, and re<g ref="char:EOLhyphen"/>ligion, as of their Crowns and Kingdomes, in not
+<pb n="174" facs="tcp:1762:94"/>
+onely fairely adorning, but almoſt filling their Empires and Dominions, with rich Biſhopricks, ſtately Colledges, and moſt beautifull Tem<g ref="char:EOLhyphen"/>ples.</p>
+               <p>And not onely Kings and Princes, but others alſo, of more inferiour rank, have aſpired to ſuch great and ſublime de<g ref="char:EOLhyphen"/>ſignes, and would not by any meanes bee diſ<g ref="char:EOLhyphen"/>ſwaded from it, well knowing, that they ſhould not loſe by it in this world, and in the world to come, ſhould ſhine like moſt glorious
+<pb n="175" facs="tcp:1762:94"/>
+ſtarres, as having beene meanes by which ſin<g ref="char:EOLhyphen"/>ners have beene conver<g ref="char:EOLhyphen"/>ted unto God. They well conſidered, that the vanity and ſplendour of this world, would ſhortly vaniſh into no<g ref="char:EOLhyphen"/>thing, wherefore they employed all their wealth, in ſuch pious, and religious works, and now they enjoy perma<g ref="char:EOLhyphen"/>nent riches, and true ho<g ref="char:EOLhyphen"/>nours in Heaven.</p>
+            </div>
+            <div n="20" type="chapter">
+               <pb n="176" facs="tcp:1762:95"/>
+               <head>CHAP. XX. <hi>Of adorning Chriſtian Temples.</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">A</seg>S Parents are not conten<g ref="char:EOLhyphen"/>ted in the bare having of children, but they beſtow coſts in cloathing, and adorning them, leſt their ſordid<g ref="char:EOLhyphen"/>neſſe might be their diſ<g ref="char:EOLhyphen"/>grace: Even ſo godly Princes and other pious Chriſtians, have not thought their liberall pieties extended farre
+<pb n="177" facs="tcp:1762:95"/>
+enough, when the Tem<g ref="char:EOLhyphen"/>ples have beene brought up to the very roofes, unleſſe they beautified them with all kind of ornaments, that might adde glory and grace un<g ref="char:EOLhyphen"/>to them, as curious pain<g ref="char:EOLhyphen"/>tings, hangings, guilding, ſumptuous veſtments, rich gifts in mony, cha<g ref="char:EOLhyphen"/>lices, plate, farmes, lord<g ref="char:EOLhyphen"/>ſhips, beſides great privi<g ref="char:EOLhyphen"/>ledges and immunities.</p>
+               <p>Some men there are who envy the Orna<g ref="char:EOLhyphen"/>ments of the Church, and grudg at any coſt be<g ref="char:EOLhyphen"/>ſtowed upon it, yet wee read in holy Scriptures,
+<pb n="178" facs="tcp:1762:96"/>
+that God himſelfe dicta<g ref="char:EOLhyphen"/>ted to <hi>Moyſes</hi> the orna<g ref="char:EOLhyphen"/>ments of the Taberna<g ref="char:EOLhyphen"/>cle, &amp;c. And Saint <hi>Hie<g ref="char:EOLhyphen"/>rome</hi> reckons it not a<g ref="char:EOLhyphen"/>mongſt the leaſt of <hi>Nepo<g ref="char:EOLhyphen"/>tians</hi> 
+                  <note place="margin">
+                     <hi>In Epi<g ref="char:EOLhyphen"/>taph. Nepoli<g ref="char:EOLhyphen"/>ani. E<g ref="char:EOLhyphen"/>piſt</hi> 3. <hi>ad Heliod.</hi>
+                  </note> praiſes, that hee was ſolicitous that the Altar ſhouldlook bright, the wals ſhould be with<g ref="char:EOLhyphen"/>out duſt, or cobwebbes, the pavement cleane ſwept, and ſtrewd with flowers, the Church porch bedecked with greene boughes. <hi>Nepo<g ref="char:EOLhyphen"/>tian</hi> (ſaith hee) was an<g ref="char:EOLhyphen"/>other <hi>Bezaliel,</hi> wondrous witty in contriving, what might be gracefull
+<pb n="179" facs="tcp:1762:96"/>
+and beautifull to the Church. And ſurely if Wraſtlers and Gladiators have their Amphithea<g ref="char:EOLhyphen"/>ters, and Paleſters, if the Senators have their Courts and Capitoll, if the Philoſophers their Lycea, if mortall Princes have their Palaces, nay if every private man, hath his dwelling houſe dreſſed and adorned, with all the ſweetneſſe and beauty he can deviſe, what reaſon has any man to thinke, that the Temples of the Eternall God, ſhould be baſe and ſordid, or why ſhould
+<pb n="180" facs="tcp:1762:97"/>
+any man (like that trai<g ref="char:EOLhyphen"/>tour <hi>Judas)</hi> thinke all loſt that is beſtowed on <note place="margin">Mat. 26. 8.</note> him.</p>
+               <p>
+                  <hi>Herodotus</hi> tels of won<g ref="char:EOLhyphen"/>drous <note place="margin">
+                     <hi>Lib.</hi> 1. 2. 8. &amp;c.</note> rich guifts ſent to the Temple at Delphos, by the Gentiles, but compared with the obla<g ref="char:EOLhyphen"/>tions in <hi>Salomons</hi> Tem<g ref="char:EOLhyphen"/>ple, they will ſeeme no<g ref="char:EOLhyphen"/>thing, for which as Ve<g ref="char:EOLhyphen"/>nerable <hi>Bede</hi> obſerves; there were in the Tem<g ref="char:EOLhyphen"/>ple two Treaſuries, the <note place="margin">In 12. Mat.</note> one like a Cheſt, wherin they put the monies, which were offered for the uſes of the Temple, of which Saint <hi>Marke</hi>
+                  <pb n="181" facs="tcp:1762:97"/>
+ſpeakes, <hi>And Jeſus ſate</hi> 
+                  <note place="margin">Marc. 12. 41.</note> 
+                  <hi>over againſt the Treaſury and beheld how the people caſt mony into the Trea<g ref="char:EOLhyphen"/>ſurie, and many that were rich, caſt in much, &amp;c.</hi> The other was built like a great Hal, in the which, offrings of greater bulk were kept, and of this S. <hi>John</hi> ſeemes to ſpeake; <hi>Theſe words ſpake</hi> JESUS <note place="margin">Iohn 8. 20.</note> 
+                  <hi>in the Treaſury in the Temple, &amp;c.</hi> But nei<g ref="char:EOLhyphen"/>ther Jewes nor Gentiles have exceeded the Chri<g ref="char:EOLhyphen"/>ſtians in the Ornaments, and Treaſure of their Temples; nothing have ever beene more glori<g ref="char:EOLhyphen"/>ous
+<pb n="182" facs="tcp:1762:98"/>
+than their Altars, than their Veſtments, Chalices, and other Or<g ref="char:EOLhyphen"/>naments, as who ſhall read <hi>Anaſtaſius,</hi> of the <note place="margin">Anaſt. in vit. Po. in Silveſt.</note> almoſt prodigious muni<g ref="char:EOLhyphen"/>ficence of <hi>Conſtantine</hi> the Great, will confeſſe; and the like incredible liberality of others to<g ref="char:EOLhyphen"/>wards the Church, may <note place="margin">
+                     <hi>Niceph.</hi> 14. 2.</note> elſe-where be read.</p>
+            </div>
+            <div n="21" type="chapter">
+               <pb n="183" facs="tcp:1762:98"/>
+               <head>CHAP. XXI. <hi>A decent forme of building and adorning a Church.</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">O</seg>Ur age is very forward to good workes (let ſome men talke what they will to the contrary) and for their pietie in building re<g ref="char:EOLhyphen"/>pairing and adorning Churches, may compare almoſt with any former times, in the memory of man: More Churches have beene built, and
+<pb n="184" facs="tcp:1762:99"/>
+adorned, in the reigne of our King <hi>Charles,</hi> than in the reigne of many Kings before.</p>
+               <p>But me thinks as in moſt of our other good works, ſo in this alſo the piety and devotion of well diſpoſed minds, doe ſeeme ſome times to have wanted better di<g ref="char:EOLhyphen"/>rections. We have ſeene in ſome places, Churches newly erected, but the parts, forme, and ſituati<g ref="char:EOLhyphen"/>on, have beene ſo un<g ref="char:EOLhyphen"/>couth, that there has ſcarce beene any reſem<g ref="char:EOLhyphen"/>blance of a Church, no Religion in the whole
+<pb n="185" facs="tcp:1762:99"/>
+fabrique. Wee have ſeene them painted, I cannot ſay beautified, but with ſuch gaudy co<g ref="char:EOLhyphen"/>lours as can adde no or<g ref="char:EOLhyphen"/>nament to ſo ſolemn &amp; religious a place: For my part, I ſhall be ever farre from diſcouraging any, whoſe mindes God hath moved to ſo holy actions. I intend onely to ſet down what I con<g ref="char:EOLhyphen"/>ceive out of ancient Au<g ref="char:EOLhyphen"/>thors, and other obſerva<g ref="char:EOLhyphen"/>tions, to be moſt grace<g ref="char:EOLhyphen"/>full and comly for ſuch an Edifice, ever humbly ſubmitting to the judge<g ref="char:EOLhyphen"/>ment and cenſure of my
+<pb n="186" facs="tcp:1762:100"/>
+betters and thoſe whom it more concernes.</p>
+               <p>For the ſituation Eaſt<g ref="char:EOLhyphen"/>ward, I ſhall need ſay no more, though even in that of late dayes ſome have failed; I will onely adde, that it were very gracefull, that there ſhould bee an aſcent of ſteps up to the Church. That famous Temple of Saint <hi>Peters</hi> in Rome, which <hi>Sebaſtian Serly</hi> cals a wonderfull work, and the faireſt in the whole World; you aſ<g ref="char:EOLhyphen"/>cend into it by many ſtaires. Thoſe <hi>quinde<g ref="char:EOLhyphen"/>cem Pſalmi Graduales,</hi>
+                  <pb n="187" facs="tcp:1762:100"/>
+which follow the 119 Pſal. are ſaid to have bin ſung by the Levites, on the ſteps, as they aſcen<g ref="char:EOLhyphen"/>ded into the Temple, and thence had their name. And wee read, <hi>Acts</hi> 3. 1. that Saint <hi>Peter</hi> and <hi>John</hi> went up toge<g ref="char:EOLhyphen"/>ther into the Temple at the ninth houre of Prayer.</p>
+               <p>For the figure wee know that the Ancient Chriſtians, had not al<g ref="char:EOLhyphen"/>waies one, but ſome times varied. Their ro<g ref="char:EOLhyphen"/>tundaes they borrowd from the Heathens, to whoſe ſervice it was
+<pb n="188" facs="tcp:1762:101"/>
+moſt agreable, for their Altars were plac'd in the middle of their Temples, and at their Sacrifices they danced round about them, ſinging Hymnes, and Songs, in praiſe of their Gods, to whom they ſacrificed. The men in the ſacrifices to <hi>Venus</hi> or <hi>Aſtarte,</hi> wearing womens garments, and the women at <hi>Mars</hi>'s feaſts, putting on mens armour. And this kind of ſuperſtitious idolatrie was in uſe amongſt the Nations, in <hi>Moyſes</hi> time, and was occaſion of that Law, <hi>Deut.</hi> 22. 5. <hi>The</hi>
+                  <pb n="189" facs="tcp:1762:101"/>
+                  <hi>woman ſhall not we are that which pertaineth to the man, neither ſhall man put on womans raiment;</hi> as <hi>Aquinas</hi> 2. <hi>ſecundae queſt.</hi> 102. <hi>Art.</hi> 6. and M<hi rend="sup">r</hi>. <hi>Selden,</hi> in his learned Tract <hi>de Diis Syris,</hi> ex<g ref="char:EOLhyphen"/>cellently teaches us: This figure, I ſay, of Temples, was received by the Chriſtians, in caſe of neceſſity, and was after, and may now very well be rejected, as not convenient for our ſer<g ref="char:EOLhyphen"/>vice. Our Communion Tables, being now pla<g ref="char:EOLhyphen"/>ced at the Eaſt end, cloſe to the wall not to bee
+<pb n="190" facs="tcp:1762:102"/>
+danced about, as in for<g ref="char:EOLhyphen"/>mer times.</p>
+               <p>The beſt and moſt received figure is the long, and though ſome may thinke the broad ſquare, the ovall, or round, more convenient (as being of more capa<g ref="char:EOLhyphen"/>city) to heare Sermons, and Lectures, yet ſurely the Majeſty and reve<g ref="char:EOLhyphen"/>rence of the place ap<g ref="char:EOLhyphen"/>peares not ſo much in them. And the man who enters the Weſt doore from farre behol<g ref="char:EOLhyphen"/>ding the Altar where he ſeriouſly intends to offer his devotions to his God
+<pb n="191" facs="tcp:1762:102"/>
+and Saviour, ſhall find his devout ſoule, more rapt with divine awe and reverence, more infla<g ref="char:EOLhyphen"/>med with pure and holy zeale, in the delay and late approach unto it, than if at firſt he had entered upon it.</p>
+               <p>Pillars in all other buildings, are very in<g ref="char:EOLhyphen"/>convenient in Churches, gracefull, ſtately and ne<g ref="char:EOLhyphen"/>ceſſary, as well for ſup<g ref="char:EOLhyphen"/>porting the roof, diſtin<g ref="char:EOLhyphen"/>ction of the Iles from the body of the Church, and different from profane buildings; beſides it has beene ſo received a man<g ref="char:EOLhyphen"/>ner
+<pb n="190" facs="tcp:1762:103"/>
+of building, that to leave them out, ſa<g ref="char:EOLhyphen"/>vours too much of no<g ref="char:EOLhyphen"/>veltie.</p>
+               <p>The Chancell or Quire, muſt bee higher than the body of the Church; and in Cathe<g ref="char:EOLhyphen"/>drall Churches, it has been an ancient cuſtome ever ſince <hi>Conſtantines</hi> time, that vaults ſhould be built under the Quire which were called <hi>Cryp<g ref="char:EOLhyphen"/>tae,</hi> in remembrance of thoſe vaults, caves, and ſecret places, under ground, where the Chri<g ref="char:EOLhyphen"/>ſtians in times of perſe<g ref="char:EOLhyphen"/>cution, were wont to aſ<g ref="char:EOLhyphen"/>ſemble
+<pb n="193" facs="tcp:1762:103"/>
+to ſerve God; ſuch is S<hi rend="sup">t</hi>. <hi>Faiths</hi> under S. <hi>Pauls</hi> Church in Lon<g ref="char:EOLhyphen"/>don, which is now con<g ref="char:EOLhyphen"/>verted to a Pariſh Church.</p>
+               <p>The Chancell being divided from the Church by grates of wood, curi<g ref="char:EOLhyphen"/>ouſly carved, or of iron, or braſſe caſt into comly works, is not onely very gracefull, but according to the lawes and orders of building obſerved by the primitive Chriſtians.</p>
+               <p>The place where the Co<g ref="char:cmbAbbrStroke">̄</g>munion Table ſtands, ought to be higher than the reſt of the Chancell,
+<pb n="194" facs="tcp:1762:104"/>
+but all this and more we ſee duly obſerved in the ſtructure of Cathedrall Churches: For Pariſh Churches, and private Chappels, it were very meet that they ſhould be built after the manner of Cathedrals, as neere as with convenience they may. When there are no Iles adjoyning to the body of the Church, Pi<g ref="char:EOLhyphen"/>laſters wrought into the wall, with well framed Capitals, would adde much beauty to the fa<g ref="char:EOLhyphen"/>brique, &amp; much ſtrength to the wals, between w<hi rend="sup">ch</hi> would bee convenient
+<pb n="195" facs="tcp:1762:104"/>
+ſpaces to beautifie the Church, with ſome ex<g ref="char:EOLhyphen"/>cellent paintings of Sa<g ref="char:EOLhyphen"/>cred ſtories, which may ſtrike into the beholder, religious, and devout Meditations.</p>
+               <p>Over the Capitals ac<g ref="char:EOLhyphen"/>cording to the common rules of Architecture, muſt run an Architrave freeze, and Coronis, which every work-man knowes how to adorne with leaves and flowers, &amp;c. according to the or<g ref="char:EOLhyphen"/>der of building. Over theſe, let the windoores be placed, which becauſe they ſtand high differ
+<pb n="196" facs="tcp:1762:105"/>
+more from profane buil<g ref="char:EOLhyphen"/>dings, keep our thoughts from wandring abroad, whilſt our eyes have no<g ref="char:EOLhyphen"/>thing but Heaven, and heavenly objects to be<g ref="char:EOLhyphen"/>hold, and beſides caſt an excellent light for the paintings on the wals.</p>
+               <p>The number of win<g ref="char:EOLhyphen"/>doores ought to obſerve the grace of the whole ſtructure, which if they be not of common glaſſe, but painted, adorne the Church with a glorious light, and moderate that bright light, which is a hinderance to devotion. The Utopian Temples,
+<pb n="197" facs="tcp:1762:105"/>
+ſaith S<hi rend="sup">r</hi> 
+                  <hi>T: More,</hi> were <hi>ſub<g ref="char:EOLhyphen"/>obſcura,</hi> ſome what dark: <hi>Nec id aedificandi inſcitiâ factum ſed conſilio Sacer<g ref="char:EOLhyphen"/>dotum, quod immodica lux cogitationes diſpergit.</hi> For devotion requires colle<g ref="char:EOLhyphen"/>cted ſpirits, which light diffuſes, as Sir <hi>H: Wotton</hi> ſeems to interpret him in his Elements of Archite<g ref="char:EOLhyphen"/>cture. And we find it by experience, that in our light Churches, did not wee cloſe our eyes, wee could hardly keepe our thoughts from diſtracti<g ref="char:EOLhyphen"/>ons till the end of a ſhort collect. And I verily be<g ref="char:EOLhyphen"/>lieve that the holy fer<g ref="char:EOLhyphen"/>vour
+<pb n="198" facs="tcp:1762:106"/>
+of devotion was more intenſe in the pri<g ref="char:EOLhyphen"/>mitive Chriſtians dark obſcure vaults, than hath ever beene in our lightſome Churches.</p>
+               <p>The roof if it be vaul<g ref="char:EOLhyphen"/>ted, is more agreable to antiquitie, than if flat, it makes the voyce more audible; you may adorn it with an azure colour, and gilded ſtars and then as in figure, ſo in colour it reſembles the Hemi<g ref="char:EOLhyphen"/>ſphear of the Heavens; which perhaps gave oc<g ref="char:EOLhyphen"/>caſion to S. <hi>Chryſoſt:</hi> to cal the Church οὐρανὸν ὲπί<g ref="char:EOLhyphen"/>γειον, an earthly heaven.</p>
+               <p>
+                  <pb n="199" facs="tcp:1762:106"/>
+The Chancel, as it has alwayes beene divided from the Church, ſo may the roof of it be of a dif<g ref="char:EOLhyphen"/>ferent height, and more richly adorned, and the windoores of a differing faſhion from the Church: That when we ſhall en<g ref="char:EOLhyphen"/>ter into this place, more holy &amp; divine thoughts may poſſeſſe our minds, occaſioned by the diffe<g ref="char:EOLhyphen"/>ring ſtructure, and more glorious ornaments.</p>
+               <p>But of all parts of the Chancell, that where the Communion Table ſtands, has ever beene accounted moſt ſacred;
+<pb n="200" facs="tcp:1762:107"/>
+In adorning that, no coſt ought to be thought too much. There we behold the myſtery of our Re<g ref="char:EOLhyphen"/>demption lively expreſ<g ref="char:EOLhyphen"/>ſed. Nor can we make publique profeſſion of our Chriſtian faith, hope, and love, any way ſo wel, as being ſtudious in a<g ref="char:EOLhyphen"/>dorning the ſacred Al<g ref="char:EOLhyphen"/>tars, did we verily believe Chriſt Jeſus <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, to be truly pre<g ref="char:EOLhyphen"/>ſent with us, ſo oft as the bleſſed Sacrament is ce<g ref="char:EOLhyphen"/>lebrated (as the ancient <note place="margin">Liturgi. Chryſo.</note> Greek Church beleeved, and as he moſt certainly is, though the manner of
+<pb n="201" facs="tcp:1762:107"/>
+his being there, we know not) would Chriſtians be ſo deſperatly irreligi<g ref="char:EOLhyphen"/>ous, to entertaine him, as the Jewiſh hoſt did at his firſt co<g ref="char:cmbAbbrStroke">̄</g>ming, within bare wals, and on bare boards, or not rather in the moſt noble manner we could deviſe.</p>
+               <p>Hither bring your ſtatelieſt hangings, and adorne the wals; hither your richeſt carpets, and beſpred the ground; [hi<g ref="char:EOLhyphen"/>ther the moſt glorious ſilks, and fineſt linnen, to cover the holy Table. The alacrity and inge<g ref="char:EOLhyphen"/>nious piety of former
+<pb n="202" facs="tcp:1762:108"/>
+times, in adorning this ſacred place, makes us ſeeme dull, ſtupid, and irreligious.</p>
+               <p>In the French Canon <hi>Law. li.</hi> 1. <hi>cap.</hi> 146. Prieſts were commanded to ex<g ref="char:EOLhyphen"/>hort the women pub<g ref="char:EOLhyphen"/>liquely in their Sermons, to beſtow fine linnen cloaths on the Altar. And truly if Ladies &amp; Gentle<g ref="char:EOLhyphen"/>women, were ſtudious in working holy veſtments, &amp;c. as tis probable, that the bleſſed woma<g ref="char:cmbAbbrStroke">̄</g> 
+                  <hi>Dorcas</hi> did, <hi>Acts</hi> 9. 39. how much more acceptable would it bee to God, than in wearing thoſe curious
+<pb n="203" facs="tcp:1762:108"/>
+needle works, on their own backs? what an ho<g ref="char:EOLhyphen"/>nour would it bee to themſelves? what perfe<g ref="char:EOLhyphen"/>ction to their art? and whilſt they ſtrived to ex<g ref="char:EOLhyphen"/>cell each other, what a godly contention, &amp; hap<g ref="char:EOLhyphen"/>py emulation, would be ſoon ſtirred up in the whole ſex? and what a religious employment might they have, who now are feigne to viſit each others, not know<g ref="char:EOLhyphen"/>ing what elſe to do?</p>
+            </div>
+            <div n="22" type="chapter">
+               <pb n="204" facs="tcp:1762:109"/>
+               <head>CHAP. XXII. <hi>Of Burying in Churches.</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">T</seg>Here is in uſe a<g ref="char:EOLhyphen"/>mongſt Chriſti<g ref="char:EOLhyphen"/>ans, a cuſtome of burying dead bodies within the Churches, and erecting their ſtately Monuments for them, which is accounted a pi<g ref="char:EOLhyphen"/>ous &amp; religious cuſtome, but being better thought on, may perhaps ſeem by the frequency and com<g ref="char:EOLhyphen"/>munity of it, rather an abuſe, and pollution of the ſacred place.</p>
+               <p>The time was, when
+<pb n="205" facs="tcp:1762:109"/>
+the corps of the dead were entomb'd in their private houſes, &amp; thence ſprung the religious ob<g ref="char:EOLhyphen"/>ſervations of the <hi>Lares,</hi> &amp; <hi>Penates,</hi> 'mongſt the hea<g ref="char:EOLhyphen"/>then, but ſucceeding ages thought it to be <hi>conſue<g ref="char:EOLhyphen"/>tudinem foedam atque tetram,</hi> a foule and fil<g ref="char:EOLhyphen"/>thy cuſtome. Nor would they permit any to be bu<g ref="char:EOLhyphen"/>ried, ſo much as within the City wals; <hi>Ne ſanctis Municipiorum jus pollua<g ref="char:EOLhyphen"/>tur,</hi> ſaies the Law of the 12. Tables. And ſurely if a Corporation may bee polluted by burials (ei<g ref="char:EOLhyphen"/>ther Phyſically, by the
+<pb n="206" facs="tcp:1762:110"/>
+ſtench and loathſome va<g ref="char:EOLhyphen"/>pours of the dead carcaſes infecting the aire, or Mo<g ref="char:EOLhyphen"/>rally, by the the mixing <hi>Mortua Vivis:)</hi> any man will eaſily think that a Temple may.</p>
+               <p>The Jewes buried their dead without the City, unleſſe their Kings and Prophets, who were bu<g ref="char:EOLhyphen"/>ried in the City of <hi>David,</hi> not in places of publique reſort, but in private grots, and caves. And whereas we read 1 <hi>Sam.</hi> 25. 1. that <hi>Samuel</hi> was bu<g ref="char:EOLhyphen"/>ried in his owne houſe at Ramah, the <hi>Geneva</hi> note tels us plainly it is meant
+<pb n="207" facs="tcp:1762:110"/>
+among his own kindred.</p>
+               <p>The old Romans and Greeks alſo, buried with<g ref="char:EOLhyphen"/>out their cities, and there erected their Monume<g ref="char:cmbAbbrStroke">̄</g>ts before the Citie gates, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, ſaies S. <hi>Chryſoſt</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> That paſſengers might be put in mind of mortality; as alſo, that the Citizens might with more enrag'd courage and alacrity, ſally out upon their enemies, that ſhould injure or vi<g ref="char:EOLhyphen"/>olate the monuments of their Anceſtors.</p>
+               <p>No Nation ſo barba<g ref="char:EOLhyphen"/>rous
+<pb n="208" facs="tcp:1762:111"/>
+as to fill the places where they worſhipt, but a feigned divinity, with the carcaſes of their dead. The Turks are famous in all hiſtories, for keeping their <hi>Moſchits,</hi> free from the leaſt pollution. So free are they from com<g ref="char:EOLhyphen"/>mon burials, that it is not lawfull, for the Grand Signour himſelfe, to bee there interred.</p>
+               <p>
+                  <hi>Abraham</hi> buried the holy woman <hi>Sara</hi> in a field, and was there bu<g ref="char:EOLhyphen"/>ried himſelfe, <hi>Gen.</hi> 25. 9. It was a Cave, where <hi>La<g ref="char:EOLhyphen"/>zarus</hi> was buried, whom Chriſt ſo loved, that hee
+<pb n="209" facs="tcp:1762:111"/>
+wept when hee drew neere his grave, <hi>John</hi> 11. 38. The Widdowes ſon was carying out of the ci<g ref="char:EOLhyphen"/>tie to buriall, <hi>Luke</hi> 7. 12. Our bleſſed Saviour him<g ref="char:EOLhyphen"/>ſelfe, was entombed in a Garden, whoſe ſacred corps, what Temple might not have beene proud to have contain'd.</p>
+               <p>Many holy Councels have forbidde<g ref="char:cmbAbbrStroke">̄</g>, <hi>Ne corpora defunctorum intra Eccleſi<g ref="char:EOLhyphen"/>am ſepeliantur,</hi> that none ſhould preſume to bury within the Churches. But in proceſſe of time, it was indulged to pious Em<g ref="char:EOLhyphen"/>perours (men that had
+<pb n="210" facs="tcp:1762:112"/>
+fought the battailes of the Church, and had well deſerved of her) to bee buried in the Church porch. Afterwards to holy Biſhops, &amp; to other Clergy men of eminent, and remarkable ſanctity, burial within the Church was permitted. After o<g ref="char:EOLhyphen"/>ther men, famous and renouned, who had given great revenues to the church, were alſo buried in it. Laſtly, all were ſuf<g ref="char:EOLhyphen"/>fered that would pay the fees. And S. <hi>Gregory</hi> in his <hi>Dialogues lib.</hi> 4. <hi>ca.</hi> 50. favours the cuſtome very much, ſuppoſing
+<pb n="211" facs="tcp:1762:112"/>
+that the kindred and friends of the deceaſed, ſeeing their Monuments, may bee put in mind to pray for their ſoules de<g ref="char:EOLhyphen"/>parted. And this truly may be a good reaſon a<g ref="char:EOLhyphen"/>mongſt the Papiſts. But why wee, who call our Church the Reformed, and renounce all the er<g ref="char:EOLhyphen"/>rours and ſuperſtitions of Rome, ſhould ſtill ſo fre<g ref="char:EOLhyphen"/>quently, &amp; for people of meane ranke or little de<g ref="char:EOLhyphen"/>ſert retaine this, having no ſuch religious pre<g ref="char:EOLhyphen"/>tence for it, truly I know not: I verily believe, had not cuſtome ſo farre al<g ref="char:EOLhyphen"/>ready
+<pb n="212" facs="tcp:1762:113"/>
+prevailed, our Church would not per<g ref="char:EOLhyphen"/>mit it. I am ſure that ſomewhere, great ſees are demanded, onely to ſtop the paſſage from the heady and indiſcreet multitude.</p>
+               <p>Some men ſurely, with an honeſt and good mind, have by this meanes de<g ref="char:EOLhyphen"/>ſired to teſtifie to poſte<g ref="char:EOLhyphen"/>rity, their certain hope of a joy full Reſurrection; and that as they lived in the unity, and faith of the Church; ſo neither in death were they divided from her. Others, I feare are too too guilty of pride
+<pb n="213" facs="tcp:1762:113"/>
+and vaine glory, who care not how much the Majeſtie of the ſacred places ſuffer, ſo they may have their Tombes, their Armes &amp; their Banners, (Enſignes, of vanity and pride) erected<g ref="char:punc">▪</g> S. <hi>Chryſo<g ref="char:EOLhyphen"/>ſtome</hi> calls the Church, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, the ſchoole of humility, and are not we miſtaken, that thinke it, the onely fit place to diſplay our pride.</p>
+            </div>
+            <div n="23" type="chapter">
+               <pb n="214" facs="tcp:1762:114"/>
+               <head>CHAP. XXIII. <hi>Of the Priviledges and Immunities of Temples.</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">T</seg>He Priviledges, and Immunities that Temples have enjoyed, have ad<g ref="char:EOLhyphen"/>ded much honour, and ornament to them: a<g ref="char:EOLhyphen"/>mongſt others, that they have beene places of re<g ref="char:EOLhyphen"/>fuge, which immunity conſiſteth in this (as <hi>Na<g ref="char:EOLhyphen"/>var</hi> 
+                  <note place="margin">
+                     <hi>Navar. Man.</hi> 25. 17. <hi>Can. in ſum. ju<g ref="char:EOLhyphen"/>ris.</hi> 3. <hi>tit.</hi> 42.</note> and <hi>Caniſius</hi> teach) that any perſon guilty of any crime, and eſcaping to the Temple, might
+<pb n="215" facs="tcp:1762:114"/>
+not bee halled from thence to puniſhment, or priſon. Nay if the of<g ref="char:EOLhyphen"/>fender were in the Offi<g ref="char:EOLhyphen"/>cers hands, leading him to puniſhment, yet eſca<g ref="char:EOLhyphen"/>ping to ſo ſacred a place, he might not be carried any further. Heretiques, Pagans, Jewes, publique robbers, and ſuch as committed their offence within the Temple, were not ſuffered to enjoy theſe priviledges.</p>
+               <p>Nor were the Laytie onely prohibited, but Clergy men alſo, by an ancient Councell, were forbidden to pollute the
+<pb n="216" facs="tcp:1762:115"/>
+holy Temple, by taking their Servants or Schol<g ref="char:EOLhyphen"/>lers from the Church, to which they flew, to eſcape puniſhment<g ref="char:punc">▪</g> 
+                  <hi>Quod ſi fecerit,</hi> ſaies the Coun<g ref="char:EOLhyphen"/>cell, <hi>à loco cui honorem non dederit, ſegregetur,</hi> let him bee ſuſpended, and caſt out from that place, which he ſo light<g ref="char:EOLhyphen"/>ly eſteemed; and indeed by this, and the like out<g ref="char:EOLhyphen"/>rages of paſſionate men, the Majeſty of the Sacred Temple, is not alittle vi<g ref="char:EOLhyphen"/>olated; this is <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, <note place="margin">Acts 21. 28.</note> as the Scripture ſpeakes, to he have your ſelfe in the Church no
+<pb n="217" facs="tcp:1762:115"/>
+otherwiſe than in a com<g ref="char:EOLhyphen"/>mon and profane houſe. Other priviledges which Almighty God hath ho<g ref="char:EOLhyphen"/>noured his Church with<g ref="char:EOLhyphen"/>all, far exceed theſe; he has pleaſed to grant to penitent ſinners, that come thither, confeſſing, and bewailing their ſins, forgiveneſſe of them, though they come as black as Ravens, they ſhall returne as white as Doves. He hath placed in it his holy Angels to be its guard, and at the miniſtration of the holy Communion, no man doubteth of their eſpe<g ref="char:EOLhyphen"/>ciall
+<pb n="218" facs="tcp:1762:116"/>
+attendance. Nay it hath pleaſed God to ho<g ref="char:EOLhyphen"/>nour his Temple with miracles. <hi>Gregory Nazi<g ref="char:EOLhyphen"/>enzen</hi> tels of one wrought upon his owne <note place="margin">
+                     <hi>Orat.</hi> 2. <hi>in laude<g ref="char:cmbAbbrStroke">̄</g> Sororis.</hi>
+                  </note> ſiſter, who was a woman (ſaies hee) ſo holy as bleſſed ſoules departed; ſhee came into the Church, and leaning her head againſt the Altar, her eyes being full of teares, uttered theſe words, with a ſweet con<g ref="char:EOLhyphen"/>fidence in her God, <hi>I will never depart one foot from this place, unleſſe I be healed from my diſeaſe:</hi> and ſhee was immediatly
+<pb n="219" facs="tcp:1762:116"/>
+healed; thus he. But we muſt not therefore ex<g ref="char:EOLhyphen"/>pect, the like miracles to be wrought in ours, <hi>Di<g ref="char:EOLhyphen"/>vina</hi> 
+                  <note place="margin">In Epiſt. ad cler. Hipp.</note> 
+                  <hi>voluntas, ſicut ho<g ref="char:EOLhyphen"/>minibus, ita etiam &amp; lo<g ref="char:EOLhyphen"/>cis, pro ſuo libitu diſtri<g ref="char:EOLhyphen"/>buit ſanctitates &amp; grati<g ref="char:EOLhyphen"/>as,</hi> ſaies Saint <hi>Anguſtin;</hi> God works miracles, when, and where hee pleaſes. He hath bleſſed our Temples, with what is greater than a miracle; tis a harder thing to have the diſeaſes of the ſoule, than of the body, healed. Repentance is the grea<g ref="char:EOLhyphen"/>teſt cure that can bee wrought. It is a far grea<g ref="char:EOLhyphen"/>ter
+<pb n="220" facs="tcp:1762:117"/>
+miracle, for a ſinner to be converted, than for water to bee turned into wine.</p>
+            </div>
+            <div n="24" type="chapter">
+               <head>CHAP. XXIV. <hi>Of the right uſe of Tem<g ref="char:EOLhyphen"/>ples, and how they are abuſed.</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">T</seg>Hoſe men ſure<g ref="char:EOLhyphen"/>ly make right good uſe of the Church, who make it the object of their bounty, and munificence in buil<g ref="char:EOLhyphen"/>ding, repairing, beautify<g ref="char:EOLhyphen"/>ing, or adding any orna<g ref="char:EOLhyphen"/>ment
+<pb n="211" facs="tcp:1762:117"/>
+unto it. And the like doe they who often frequent it, confeſſing and bewailing their ſins, receive the holy Sacra<g ref="char:EOLhyphen"/>ments, heare the Word of God, or doe any other Chriſtian, and religious duty in it: The ancient Chriſtians, when they came to any place, were wont firſt of all to viſit the Churches, into which they entred with all reve<g ref="char:EOLhyphen"/>rent, and decent behavi<g ref="char:EOLhyphen"/>our, humbly ſaluting the God of the Temple, by ſome devout prayer.</p>
+               <p>The holy Fathers, held their Councels
+<pb n="222" facs="tcp:1762:118"/>
+and Synods, in the Tem<g ref="char:EOLhyphen"/>ples.</p>
+               <p>So we read, that the Generall <hi>Nicen</hi> Coun<g ref="char:EOLhyphen"/>cell was held in the chief Temple at Nice, &amp;c. <note place="margin">
+                     <hi>Euſeb. de vit. Conſt. lib.</hi> 3.</note>
+               </p>
+               <p>In them alſo Kings, and Emperours, receive their Crowns, as it were acknowledging their ho<g ref="char:EOLhyphen"/>nour to bee immediatly received from God.</p>
+               <p>But there is nothing ſo cleane, that we have not polluted, nothing ſo holy that our bold wickednes, hath not violated: The ſacred majeſty of the Temple hath experience of this truth which is a<g ref="char:EOLhyphen"/>buſed
+<pb n="223" facs="tcp:1762:118"/>
+and profaned, even by thoſe men who by ſacred office, are bound to reprove the abuſes of<g ref="char:EOLhyphen"/>fered by others. Such are they, who ſerve themſelves, and not the Altar, who ſeek riches, honours, eaſe, and plea<g ref="char:EOLhyphen"/>ſure in it, and not the glory of God, and the ſalvation of the ſoules committed to their charge.</p>
+               <p>And thoſe who whilſt they ſeeme to adorne Churches, doe vilely de<g ref="char:EOLhyphen"/>face them with pain<g ref="char:EOLhyphen"/>ting Lions, Unicorns, &amp;c. in ſuch uncivill and un<g ref="char:EOLhyphen"/>ſeemely
+<pb n="224" facs="tcp:1762:119"/>
+ſort, that chaſt, and modeſt eyes, dare ſcarcely looke on them: Mehaps the Homily that ſpeakes againſt outragi<g ref="char:EOLhyphen"/>ous decking of Churches meanes this.</p>
+               <p>And thoſe alſo abuſe the Temple, who ſuffer it to bee foule and un<g ref="char:EOLhyphen"/>clean, the ſacred veſſels to be baſe and vile; who ſeldome come thither, as if it were only built for Swallows, &amp; Sparrows to inhabit; who doe not ſeriouſly confeſſe their ſins, and intend to lead a new life, but come to the Church like men
+<pb n="225" facs="tcp:1762:119"/>
+that enter into a bath, but waſh not, returning foul<g ref="char:EOLhyphen"/>er than they came, being infected with the ſoile, &amp; filth of others. Thoſe alſo are guilty of this ſin, who come thither to ſhew their rich &amp; ſump<g ref="char:EOLhyphen"/>tuous apparell, and new faſhions, as it were pre<g ref="char:EOLhyphen"/>ſenting a ſhow, in the theater: And thoſe who behave not themſelves in it, with all lowly reve<g ref="char:EOLhyphen"/>rence, as the holineſſe and majeſty of the place requires, and the exam<g ref="char:EOLhyphen"/>ples of bleſſed Saints teachs us: S. <hi>Elizabeth,</hi> who was a kings daughter,
+<pb n="226" facs="tcp:1762:120"/>
+is reported to have put off her Crown, when ſhe entred into the Temple, ſaying, it was not decent for her to weare a crown of gold in that place, where her Saviour was preſented to her, with a crowne of thornes. We read of divers, whom God hath moſt ſeverely puniſhed for abuſing his Temple<hi>:</hi> S. <hi>Chryſoſtom</hi> 
+                  <note place="margin">Orat. in Gentil.</note> has this ſtory of <hi>Julian,</hi> and <hi>Felix,</hi> who ſomtimes were Chriſtians, but for the favour of <hi>Julian</hi> the Emperour, forſooke Chriſt. Theſe men by the command of the Em<g ref="char:EOLhyphen"/>perour,
+<pb n="227" facs="tcp:1762:120"/>
+entred the Tem<g ref="char:EOLhyphen"/>ple built by <hi>Conſtantine</hi> at Antioch: <hi>Julian</hi> con<g ref="char:EOLhyphen"/>tumeliouſly polluted the Altar, and with con<g ref="char:EOLhyphen"/>tempt ſate down upon the ſacred veſſels; <hi>Felix</hi> ſeeing the rich Orna<g ref="char:EOLhyphen"/>ments of the Church, look ye (quoth he) with what ſtate <hi>Maries</hi> Son is ſerved; But <hi>Julians</hi> bowels ſhortly after rot<g ref="char:EOLhyphen"/>ted, and his excrements came forth at his mouth, and <hi>Felix</hi> miſerably died, ſtreames of blood iſſuing out of his blaſphemous mouth. Many other la<g ref="char:EOLhyphen"/>mentable ſtories might
+<pb n="228" facs="tcp:1762:121"/>
+bee recited of others, who have wronged and abuſed the ſacred Tem<g ref="char:EOLhyphen"/>ples, or any way violated them, by taking away their poſſeſſions. So true is that of the Apoſtle, 1 <hi>Cor.</hi> 9. <hi>Hee that de<g ref="char:EOLhyphen"/>ſtroyes the Temple, him will God deſtroy.</hi>
+               </p>
+            </div>
+            <div n="25" type="chapter">
+               <pb n="229" facs="tcp:1762:121"/>
+               <head>CHAP. XXV. <hi>Of the rewards which ſuch receive, who build and adorn Churches.</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">I</seg>F that man that for Gods ſake gives but a cup of cold water, ſhal receive a reward; Lord! what reward ſhall they receive whoſe pious munificence has erected or adorned a Temple? Whilſt they live here great honours ſhall ſeek and find them; and ſacred Hiſtory ſhall (for the ioy and delight of all future ages) em<g ref="char:EOLhyphen"/>balme
+<pb n="230" facs="tcp:1762:122"/>
+them with the precious oyntment of a good name.</p>
+               <p>When the royall deeds of our deere So<g ref="char:EOLhyphen"/>veraignes bleſſed reigne, ſhall be delivered to po<g ref="char:EOLhyphen"/>ſterity, his magnificent piety, his care and religi<g ref="char:EOLhyphen"/>ous diligence in building &amp; adorning ſacred Tem<g ref="char:EOLhyphen"/>ples, muſt needs take up a great part in the ſtory.</p>
+               <p>Who knowes whether this little Treatiſe, <hi>plus uno maneat perenne ſaeclo,</hi> (may after a long and vile neglect) be again brought to light and per<g ref="char:EOLhyphen"/>petuate the honorable
+<pb n="231" facs="tcp:1762:122"/>
+acts and pious munifi<g ref="char:EOLhyphen"/>cence of Sr <hi>Paul Pindar,</hi> at whoſe ſole coſts and charges a great part of that ancient ſtructure de<g ref="char:EOLhyphen"/>dicated to the memory of S. <hi>Paul</hi> in London, was repaired, the Quire beau<g ref="char:EOLhyphen"/>tified with guildings, and paintings, and ſtately a<g ref="char:EOLhyphen"/>dorned with rich han<g ref="char:EOLhyphen"/>gings. The pariſh Church where he dwels, and o<g ref="char:EOLhyphen"/>ther private Churches, greatly enriched by his bounty. Nor ſhall the piety of S<hi rend="sup">r</hi> 
+                  <hi>Jo: Wolſten<g ref="char:EOLhyphen"/>holm,</hi> ever be forgotten, who at the pious requeſt of the yong Knight his
+<pb n="232" facs="tcp:1762:123"/>
+ſon, hath adorned <hi>Stan<g ref="char:EOLhyphen"/>more,</hi> the place of his birth, with a beautifull, and comely Church, ere<g ref="char:EOLhyphen"/>cted from the very foun<g ref="char:EOLhyphen"/>dation, at his great coſt.</p>
+               <p>Little did that good <note place="margin">
+                     <hi>Euſeb.</hi> 10. <hi>c.</hi> 4.</note> Biſhop <hi>Paulinus,</hi> Biſhop of <hi>Tyre,</hi> by whoſe meanes and procurement, the fa<g ref="char:EOLhyphen"/>mous Temple at <hi>Tyre</hi> in <hi>Phenicia</hi> was built; little, I ſay, did he think, that the whole current of the O<g ref="char:EOLhyphen"/>ration ſhould be diverted to him, when in the ſo<g ref="char:EOLhyphen"/>lemne aſſembly of many other Biſhops, the Prea<g ref="char:EOLhyphen"/>cher began thus: O ye friends and Prieſts of the
+<pb n="233" facs="tcp:1762:123"/>
+moſt high God, which are beautified with holy robes, and the heavenly crown of glory; And thou the ornament of the new and holy Tem<g ref="char:EOLhyphen"/>ple, to whom God him<g ref="char:EOLhyphen"/>ſelfe hath granted this great honour, that thou ſhouldſt on earth build his houſe: well may we call thee another <hi>Beſeleel</hi> chief builder of Gods Tabernacle, a <hi>Salomon,</hi> a new <hi>Zerobabel,</hi> who haſt added greater glory to the Temple than it had before, &amp;c.</p>
+               <p>We read of memo<g ref="char:EOLhyphen"/>rable victories obteined
+<pb n="234" facs="tcp:1762:124"/>
+by ſuch men, as have beene builders of Tem<g ref="char:EOLhyphen"/>ples. <hi>Juſtinian</hi> the Empe<g ref="char:EOLhyphen"/>ror (as is by ſome obſer<g ref="char:EOLhyphen"/>ved) recovered all <hi>Aſia,</hi> formerly loſt by the Ro<g ref="char:EOLhyphen"/>mans, ſhortly after hee had dedicated a Church, to the memory of our bleſſed Lady.</p>
+               <p>It may ſeeme ſtrange to ſome, that we ſhould put riches among the re<g ref="char:EOLhyphen"/>wards which builders re<g ref="char:EOLhyphen"/>ceive; for it has ever beene a common opini<g ref="char:EOLhyphen"/>on, that building is the ſpeedieſt way to waxe poore, but it fareth o<g ref="char:EOLhyphen"/>ther wiſe, with ſuch as
+<pb n="235" facs="tcp:1762:124"/>
+build Temples, them<g ref="char:EOLhyphen"/>ſelves have confeſt, that their riches have not de<g ref="char:EOLhyphen"/>creaſed, the more they dedicated to God, the richer ſtill they grew.</p>
+               <p>The pious Lady <hi>He<g ref="char:EOLhyphen"/>lena,</hi> mother to the Em<g ref="char:EOLhyphen"/>perour <hi>Conſtantine,</hi> built many Churches: Yea, e<g ref="char:EOLhyphen"/>ven in her old age, ſhee undertooke a religious journey to the holy Land for the ſame purpoſe, and there erected two Temples, to the honour of God, the one at Beth<g ref="char:EOLhyphen"/>lem, the other upon the Mount of Olives; &amp; cer<g ref="char:EOLhyphen"/>tainly God rewarded her
+<pb n="236" facs="tcp:1762:125"/>
+according to her works. She lived alwaies in great happineſſe and proſperi<g ref="char:EOLhyphen"/>ty, to the age of 80 years, and then in the preſence of her ſon, who was the moſt potent Prince in the whole world; amidſt her grand-children ſprung from Royall blood, ſhe expired her bleſſed ſoule in ſuch a happy manner, that it could not be eſtee<g ref="char:EOLhyphen"/>med a death, but rather a changing of a fraile mu<g ref="char:EOLhyphen"/>table life, for eternall and celeſtiall glory.</p>
+               <p>Many more rewards, doe they receive in this world, as health of body,
+<pb n="237" facs="tcp:1762:125"/>
+a quiet and happy life, adorned with chaſtity, and all other virtues, and laſtly, a moſt bleſſed death, after which they doe receive eternall and unſpeakable joyes.</p>
+            </div>
+            <trailer>THE END.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>

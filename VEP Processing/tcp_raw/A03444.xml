@@ -1,0 +1,434 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sermon preached at Saint Buttolphs neare Aldersgate, the 26. of Februarie, 1609. By William Holbrooke. Entitled No gaine to this</title>
+            <author>Holbrooke, William.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1609</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 63 KB of XML-encoded text transcribed from 29 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2012-10">2012-10 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A03444</idno>
+            <idno type="STC">STC 13565</idno>
+            <idno type="STC">ESTC S119074</idno>
+            <idno type="EEBO-CITATION">99854281</idno>
+            <idno type="PROQUEST">99854281</idno>
+            <idno type="VID">19692</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A03444)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 19692)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1072:01)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sermon preached at Saint Buttolphs neare Aldersgate, the 26. of Februarie, 1609. By William Holbrooke. Entitled No gaine to this</title>
+                  <author>Holbrooke, William.</author>
+               </titleStmt>
+               <extent>[6], 48 p.   </extent>
+               <publicationStmt>
+                  <publisher>Imprinted by Felix Kyngston, for Elizabeth Burby, dwelling in Pauls Churchyard at the signe of the Swan,</publisher>
+                  <pubPlace>At London :</pubPlace>
+                  <date>1609.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2008-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2008-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-09</date>
+            <label>Holly Beeman</label>Sampled and proofread</change>
+         <change>
+            <date>2011-09</date>
+            <label>Holly Beeman</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2012-05</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:19692:1"/>
+            <pb facs="tcp:19692:1" rendition="simple:additions"/>
+            <p>
+               <hi>A</hi> SERMON PREACHED AT SAINT BVTTOLPHS neare Alderſgate, the 26. <hi>of Februarie,</hi> 1609.</p>
+            <p>By WILLIAM HOLBROOKE.</p>
+            <p>
+               <hi>Entitled</hi> No gaine to this.</p>
+            <q>
+               <bibl>
+                  <hi>MATTH. 5.6.</hi>
+               </bibl>
+               <p>Bleſſed are they which hunger and thirst for righteouſneſſe: for they ſhall be filled.</p>
+            </q>
+            <p>
+               <hi>AT LONDON.</hi> Imprinted by <hi>Felix Kyngston,</hi> for ELIZABETH BVRBY, dwelling in Pauls Churchyard at <hi>the ſigne of the Swan.</hi> 1609.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:19692:2"/>
+            <pb facs="tcp:19692:2"/>
+            <head>TO THE RIGHT HONORABLE, AND SINCERE PROFESSORS, and maintainers of Chriſts true <hi>re<g ref="char:EOLhyphen"/>ligion, the Lord</hi> CAVENDISH, <hi>my</hi> very good Lord, and the vertuous <hi>La<g ref="char:EOLhyphen"/>die his wife, my ſingular good Ladie,</hi> Grace and peace be multiplied <hi>through Christ.</hi>
+            </head>
+            <p>
+               <seg rend="decorInit">T</seg>Hat I ſhould make ſo bould (Right Honora<g ref="char:EOLhyphen"/>ble) as to ſhrewde my ſelfe and this my work, vnder your protection, hauing not deſerued the leaſt, of thoſe ſo many and irrequitable fauours, I haue from the bountiful harts and hands of your Honors, alreadie receiued; you may iuſtly except againſt, but
+<pb facs="tcp:19692:3"/> vnderſta<g ref="char:cmbAbbrStroke">̄</g>ding, that I endeauor this, (the firſt fruits of my labors) as a to<g ref="char:EOLhyphen"/>ken of my thankfulnes, and an ear<g ref="char:EOLhyphen"/>neſt, of my bounden dutie vnto your Honors, as alſo, that herein I haue imitated, the holy Euangeliſt <hi>Luke,</hi>
+               <note place="margin">Luke 1.3.</note> in dedicating his labours, to that friend of God (noble <hi>Theophi<g ref="char:EOLhyphen"/>lus</hi>) in whoſe ſtead you are to me. And that by taking the protection of this my work, you ſhall not only honor God, in proclaiming your ſelues enemies to <hi>Momus,</hi> and al his complices, but alſo, encourage o<g ref="char:EOLhyphen"/>thers, to the performance of the like duties to God, and your Honors: I doubt not, but I ſhal be freed, from all imputation of boldneſſe, both in the hearts, and by the mouthes of your Honors; whoſe fauour herein, I only craue and reſpect.</p>
+            <p>Thus, doubting nothing, of your protection of this my worke, bring<g ref="char:EOLhyphen"/>ing, and offering ſuch gaine vnto your Honors, as is no where elſe to
+<pb facs="tcp:19692:3"/> to bee found, but in the word of God. I humblie leaue your Honors to God, <hi>and the word of his grace, which is able to ſaue your ſoules,</hi> wiſhing to you and yours the increaſe of faith and good conſci<g ref="char:EOLhyphen"/>ence.</p>
+            <closer>
+               <signed>Your Honors, in all dutie and ſeruice euer readie. <hi>W. HOLBROOKE.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:19692:4"/>
+            <head>TO THE READER.</head>
+            <p>
+               <seg rend="decorInit">I</seg> Dare not (gentle Rea<g ref="char:EOLhyphen"/>der) ſay the Booke will performe what the title promiſeth, I, (as one de<g ref="char:EOLhyphen"/>ſiring thy good, and wil<g ref="char:EOLhyphen"/>ling to bring ſome thing, thoug it be but morter, towards the building of Gods houſe) haue at the earneſt and importu<g ref="char:EOLhyphen"/>nate requeſt of ſome, publiſhed this worke, which I pray thee fauourablie to receiue, and diligently to reade, be not readie to find fault, but do better, and then thou mayeſt well find fault, elſe thou proclaimeſt either thy enuie or ig<g ref="char:EOLhyphen"/>norance, if thou reape any good by the ſame, make thy beſt vſe of it, giue God the thanks, and let me haue the helpe of thy prayers. <hi>Farewell.</hi>
+            </p>
+            <closer>
+               <signed>Thine in the Lord. W. HOLBROOKE.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:19692:4"/>
+            <head>A SERMON PREA<g ref="char:EOLhyphen"/>CHED AT SAINT BVT<g ref="char:EOLhyphen"/>tolphs neare Alderſgate, vpon <hi>the</hi> 26 <hi>of Februarie,</hi> 1609.</head>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>1. TIMOTH. 6.6.</hi>
+                  </bibl>
+                  <p>Godlineſſe is great gaine, with ſuffi<g ref="char:EOLhyphen"/>ciencie.</p>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">T</seg>He Prophet long ſince que<g ref="char:EOLhyphen"/>ſtioned with the Lord a<g ref="char:EOLhyphen"/>bout the matter of his ſer<g ref="char:EOLhyphen"/>mon, being commanded to goe; agreeable vnto which, I often asked the Lord in ſecret, what I ſhould vnfold vnto you at this preſent, before this veniſon was brought to my hand, to dreſſe for you. After the reiection of many, I contented my ſelfe with this Scripture, being a doctrine ſo neceſſary to be learned, and as yet, not of many (if of any) practiſed; the wa<g ref="char:cmbAbbrStroke">̄</g>t wher<g ref="char:EOLhyphen"/>of
+<pb n="2" facs="tcp:19692:5"/> only, is the cauſe, of all afflictions pre<g ref="char:EOLhyphen"/>ſent, and of all to come, and alreadie threatned, for why is our Land (a fruit<g ref="char:EOLhyphen"/>full Land in compariſon of others) bar<g ref="char:EOLhyphen"/>ren? for the ſinnes of the people: for the which cauſe, that there <hi>may be no more complaining in our ſtreets,</hi> I haue made ſpeciall choice of this Scripture, which will not only, (if we will yeeld thereto) leade vs, to the cauſe of euils preſent, and further threatned, but wil direct vs, what courſe to take, to turne away the fierce wrath of the Lord, to cauſe his face, in fa<g ref="char:EOLhyphen"/>uour to ſhine vpon vs again, to co<g ref="char:cmbAbbrStroke">̄</g>tinue it when we haue it, and of foes, to make vs friends with the Almightie, in whoſe hands, we are as nothing, and leſſe then nothing; and <hi>into whoſe hands, it is a fear<g ref="char:EOLhyphen"/>full thing, to fall;</hi> much more, ſtil to blow, the coales and ſparks of his wrath, alrea<g ref="char:EOLhyphen"/>die kindled by our vngodlineſſe.</p>
+            <p>And becauſe I know this, nor any o<g ref="char:EOLhyphen"/>ther direction wil be taſted of you, much leſſe digeſted by you, except it bring gaine with it: he which cannot (nor euer could) lie, hath told you in theſe words, that this will bring in gaine, yea which is more, that it is gaine it ſelfe. For the
+<pb n="3" facs="tcp:19692:5"/> vnfolding whereof, that you may haue it ſerued in, in ſeuerall diſhes, and not alto<g ref="char:EOLhyphen"/>gether, ſet forth in parcels, not in groſſe, that you may the better carue, and make choice of the ſame: obſerue, how <hi>Paul</hi> was occaſioned vnto theſe words, name<g ref="char:EOLhyphen"/>ly, by the eſteeme &amp; account, many tea<g ref="char:EOLhyphen"/>chers and profeſſors, made of religion, and the doctrine of godlines, which was this, &amp; no more, ſo far they eſteemed it, as it would ſerue for their gaine, making godlines, to ſtoope to gaine, not gaine to godlines, and therfore, accounted gaine godlineſſe. Vnto which carnall opinion, and eſtimation of theirs, <hi>Paul</hi> (both for the encouragement of <hi>Timothie,</hi> to ſtick to the ſimple and plain doctrine of god<g ref="char:EOLhyphen"/>lines in teaching, and the people in pro<g ref="char:EOLhyphen"/>feſſing) doth oppoſe himſelfe, in theſe words, hereby, ironicallie correcting their iudgement, and teaching another doctrine, <hi>viz. That godlineſſe is great gaine,</hi> making the ſame plaine, and vn<g ref="char:EOLhyphen"/>deniably true, by ſetting out, the waiters vpon godlineſſe, in the two laſt words, <hi>[with ſufficiencie.]</hi> So that in this verſe, are theſe two parts, firſt, a doctrine and po<g ref="char:EOLhyphen"/>ſitiue aſſertion, that godlineſſe is gaine,
+<pb n="4" facs="tcp:19692:6"/> yea great gaine. Secondly, the proofe of the ſame, which may be drawne into two reaſons and arguments after this manes, (<hi>the words [with ſufficiencie]</hi> ſo tranſlated according to the original,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</note> as <hi>Caluin</hi> hath done) (being referred, as well they may, both to the affection of the mind, and then the ſenſe is according to the vſuall tranſlation, <hi>Godlineſſe is great gaine,</hi> be<g ref="char:EOLhyphen"/>cauſe it maketh a man to be contented, counting that ſufficient which he hath; and to the thing it ſelfe, or matter of the doctrine, and then the ſenſe is thus. <hi>God<g ref="char:EOLhyphen"/>lineſſe is great gaine,</hi> becauſe it alwaies hath ſufficiencie following and atten<g ref="char:EOLhyphen"/>ding it.) I ſay, being thus vnderſtood, as <hi>Caluin</hi> vnderſtandeth them, they may be drawne into forme of reaſon thus.</p>
+            <p>That which doth make a man conten<g ref="char:EOLhyphen"/>ted with that he hath, and to count that ſufficient, be it more or leſſe, is great gaine.</p>
+            <p>But godlineſſe doth make a man con<g ref="char:EOLhyphen"/>tented with that he hath, and ma<g ref="char:EOLhyphen"/>keth him to count that ſufficient, be it more or leſſe.</p>
+            <p>Therefore godlineſſe is great gaine.</p>
+            <p>In this reaſon the queſtion is, whether
+<pb n="5" facs="tcp:19692:6"/> godlineſſe be great gaine, the an<g ref="char:EOLhyphen"/>ſwere is affirmitiuely, yea, the <hi>ter<g ref="char:EOLhyphen"/>tium,</hi> wherby the Apoſtle proueth this, is, Contentednes, becauſe that is cauſed thereby.</p>
+            <p>
+               <hi>Arg.</hi> 2. That which doth alwaies being ſufficiencie with it, is great gaine.</p>
+            <p>But godlines doth alwaies being ſuf<g ref="char:EOLhyphen"/>ficiencie with it.</p>
+            <p>Therefore godlines is great gaine.</p>
+            <p>Before wee come to the words, wee muſt not omit what <hi>Paul</hi> offereth to our conſideration, in making this vſe of the carnall eſteeme of godlines, expreſſed in theſe words, in the verſe immediately praeceding, which is this.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Doct. </seg>
+               </label> Chriſtians muſt not only reiect, and ſhew their diſlike, to the carnall and vn<g ref="char:EOLhyphen"/>ſauourie ſpeeches of the wicked, but al<g ref="char:EOLhyphen"/>ſo learne &amp; reach good out of the ſame. I doe not meane nor teach hereby,<note place="margin">Anticipatio.</note> that Chriſtians are willingly &amp; vſually to in<g ref="char:EOLhyphen"/>trude themſelues into ſuch companies, and places, as Stage-plaies, Tauernes, Bawdie houſes, and the like, where they may haue occaſion offered hereof: for <hi>Dauid</hi> teacheth another doctrine in theſe words, <hi>Away from me yee wicked,</hi>
+               <note place="margin">Pſalm. 119.115.</note>
+               <pb n="6" facs="tcp:19692:7"/> but if occaſionally, and vnwillingly, they heare ſuch, then this doctrine is for dire<g ref="char:EOLhyphen"/>ction vnto the<g ref="char:cmbAbbrStroke">̄</g>; which wanteth no proof, if examples of the beſt, be for our inſtru<g ref="char:EOLhyphen"/>ction recorded in holy writ. It was the opinion of ſome in <hi>Pauls</hi> time, as it ap<g ref="char:EOLhyphen"/>peareth in his epiſtle to the Romans, <hi>that they might doe euill that good might come thereof.</hi>
+               <note place="margin">Rom. 3.8.</note> A ſentence altogether contrarie to truth, and euery where oppugned, by the veritie and truth of Gods word, for the whole ſcripture, euery where, beateth againſt the doing of euill, vpon any con<g ref="char:EOLhyphen"/>ditions. Now <hi>Paul</hi> ſurely confirmeth this doctrine before propounded, by the vſe he made of this falſhood, carnall, ſenſu<g ref="char:EOLhyphen"/>all and diuelliſh, as all the doctrines of men are, for he reiecteth it, and eſtabliſh<g ref="char:EOLhyphen"/>eth the contrary truth, that <hi>we may not for any cauſe do euill.</hi> And leſt <hi>Paul</hi> ſhould leaue this doctrine vnconfirmed as truth, obſerue whether he doth not the like elſewhere, to teach vs to do the like, as occaſion ſhal be offered.<note place="margin">Rom. 6.1.</note> For as it appea<g ref="char:EOLhyphen"/>reth in the ſelfeſame record, men were ſicke of the ſame diſeaſe, that moſt are ſicke of in our daies; the worſt, and I thinke, the laſt age of the world. Some,
+<pb n="7" facs="tcp:19692:7"/> and not a few, thought that it was <hi>law<g ref="char:EOLhyphen"/>full to ſinne, that Gods mercie and grace by Christ might abound,</hi> encouraging them<g ref="char:EOLhyphen"/>ſelues, as moſt of our daies do, to ſin, be<g ref="char:EOLhyphen"/>cauſe God is mercifull, making his mer<g ref="char:EOLhyphen"/>cies with Chriſt his merits, a pack-horſe for their ſinne, or rather a warrant for the ſame, which opinion, commeth not a iot behind the former, in vntruth and diue<g ref="char:EOLhyphen"/>liſhnes, if not go beyond it: <hi>Paul</hi> abhor<g ref="char:EOLhyphen"/>reth this doctrine, and teacheth, to make a more holy vſe, of the mercies &amp; grace of God. If theſe be not ſufficient, behold how our Sauiour ſubſcribeth to this truth, by his practiſe, and requireth thy ſubſcription to the ſame:<note place="margin">Iohn 4.</note> the woman of Samaria, beginneth to brawle and ſcould at him, when he came vnto her (as many, yea moſt of our age do, when he offereth himſelfe in the miniſtery of his word vn<g ref="char:EOLhyphen"/>to them) what doth our Sauiour? doth he <hi>par pari referre,</hi> and do her euill and railing words cauſe the like? I trow no; but he reiecteth them, and maketh vſe of her words, which ſhe vnderſtood carnal<g ref="char:EOLhyphen"/>ly, and thereby taught her,<note place="margin">Iohn 6.26.</note> and all that Citie, the way to heauen. And the like he did, when he beheld ſuch comming vn<g ref="char:EOLhyphen"/>to
+<pb n="8" facs="tcp:19692:8"/> him, as were moued ſo to doe, reſpe<g ref="char:EOLhyphen"/>cting the feeding of their bodies, not their ſoules, (as the hungrie followers of Chriſt in theſe times, I meane carnall followers of him, that only looke at him ſo far as religion ſhall go with riches) he by their carnal ſeeking him, taught them how to eate and drinke him, of <hi>whom whoſoeuer eateth and drinketh ſhall neuer periſh, hunger, or thirst againe.</hi>
+            </p>
+            <p>This doctrine, howſoeuer it is, (if not vnknowne) vnpractiſed, for who taketh the aduantage, he might gaine by the <label type="milestone">
+                  <seg type="milestoneunit">Reaſ. </seg>1</label> like? yet reaſon requireth the ſame at the hand of Chriſtians, who are ſanctified by the holy Ghoſt, and in ſome meaſure haue repaired in the<g ref="char:cmbAbbrStroke">̄</g>, the image of God, once defaced, by the ſinne of the firſt <hi>A<g ref="char:EOLhyphen"/>dam,</hi> and therefore in ſome ſort can do, that which is by a Father affirmed of God, that he ca<g ref="char:cmbAbbrStroke">̄</g> 
+               <hi>elicere bona ex malis,</hi> and ſo truly through the grace they haue re<g ref="char:EOLhyphen"/>ceiued, ought to ſucke hony out of the moſt poiſonable herbe that may be, yea not only out of the ſins of others, but al<g ref="char:EOLhyphen"/>ſo <label type="milestone">
+                  <seg type="milestoneunit">Reaſ. </seg>2</label> of their owne. And ſurely howſoeuer the wicked are by the actions of their mates and fellowes in euill, whetted on,
+<pb n="9" facs="tcp:19692:8"/> and made more ſharpe and eager of bitt in ſinning: yet the godly man is cleane contrarie to this, being made of another mettal, for that ſtone which will ſharpen the wicked to ſinne, will, and ought to dul and make blunt Gods children ther<g ref="char:EOLhyphen"/>unto, and ſet an edge to cut another way, vpon them. So did <hi>Dauid</hi> find it; when he ſaid, and without queſtion, without boaſting of himſelfe, or falſe ſpeaking, <hi>My eyes guſhed out with teares, becauſe men kept not thy law:</hi> and what heart, I beſeech you, had <hi>Daniel</hi> or <hi>Nehemiah</hi> to ſinne, when the whole multitude was on euill? ſurely none, but with <hi>Ieremiah</hi> be<g ref="char:EOLhyphen"/>took themſelues to mourning, weeping, and wailing in ſecret, and to abſtaine from the common abominations, as <hi>Pe<g ref="char:EOLhyphen"/>ter</hi> willeth, yea <hi>though it ſeeme ſtrange to them, we runne not for company ſake with them into the ſame exceſſe of riot.</hi>
+            </p>
+            <p>O that this were put in practiſe, what <label type="milestone">
+                  <seg type="milestoneunit">Vſe </seg>1</label> doctrines might we teach, or rather how many ſermons might we daily preach to our ſelues and others? If we would la<g ref="char:EOLhyphen"/>bor and endeuour to bring hony to our ſelues, &amp; ours, to <hi>ſweeten that which dead flies, I meane our ſins, haue made to ſtinck?</hi>
+               <pb n="10" facs="tcp:19692:9"/> who is he, that is godly, that daily hea<g ref="char:EOLhyphen"/>reth not men by their words diuerſly diſhonoring God, and by their deeds crucifying Chriſt againe, as though he had not alreadie, more then ſufficiently and enough, ſuffered? Oh canſt thou go vnder the name of a Chriſtian, and not only reioyce, &amp; laugh to ſee theſe weeds grow where thou art, but alſo omitteſt to gather any good from the ſame? Re<g ref="char:EOLhyphen"/>pent, yea let it grieue thee, and cauſe thee to couer thy face for ſhame, that thou haſt liued ſo long, complaining of the wickednes of the daies, and haſt pro<g ref="char:EOLhyphen"/>fited no more by them, be a better huſ<g ref="char:EOLhyphen"/>ba<g ref="char:cmbAbbrStroke">̄</g>d for the time to come. If Magiſtrates, maſters and miſtreſſes, parents and go<g ref="char:EOLhyphen"/>uernors, would learne and put in vſe this doctrine, we ſhould not haue ſo many <hi>tents of Kedar as we haue,</hi> and <hi>ſo few fami<g ref="char:EOLhyphen"/>lies of Cornelius calling daily vpo<g ref="char:cmbAbbrStroke">̄</g> the Lord.</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Ʋſe </seg>2</label>
+               <hi>Paul</hi> is not aſhamed, to manifeſt, and to leaue on record, that his iudgement is contrarie to theirs, which was carnal, and altogether fleſhly.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Doct. </seg>
+               </label> Whereby he teacheth vs, that as the iudgement of Chriſtians is contrary to the iudgement of carnall and earthly
+<pb n="11" facs="tcp:19692:9"/> minded men, ſo Chriſtians muſt not be aſhamed, both by ſpeech &amp; practiſe, to ſhew the ſame, which the example of the 3.<note place="margin">Dan. 3.</note> children yeeldeth proofe of ſufficient<g ref="char:EOLhyphen"/>ly. And as the Scripture euery where co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>firmeth, ſo Reaſon requireth the ſame, for ſurely, the Spirit of God, wherof all Chri<g ref="char:EOLhyphen"/>ſtians <label type="milestone">
+                  <seg type="milestoneunit">Reaſ. </seg>1</label> haue receiued, <hi>(for of him, that is of Christ, we all receiue grace for grace)</hi> doth alter the iudgeme<g ref="char:cmbAbbrStroke">̄</g>t of the parties in who<g ref="char:cmbAbbrStroke">̄</g> it is, ſo that they can ſay, and their pro<g ref="char:EOLhyphen"/>feſſion doth ſhew, that <hi>by the grace of God, they are that they are,</hi> not Carnall, as before the receiuing of the ſpirit, but ſpirituall, <hi>ſanctified and ſet apart to do the will of God.</hi> And therefore muſt needs be vnlike to the carnall and worldly earth<g ref="char:EOLhyphen"/>wormes, both in iudgement and profe<g ref="char:EOLhyphen"/>ſſion. And ſurely, this ſuteth with the na<g ref="char:EOLhyphen"/>ture <label type="milestone">
+                  <seg type="milestoneunit">Reaſ. </seg>2</label> of their ſeruice, which is cleane con<g ref="char:EOLhyphen"/>trary to the ſeruice of the carnall, and that, by the reaſon of the contrary diſpo<g ref="char:EOLhyphen"/>ſition of the maſters whom they follow, Chriſt &amp; the diuell: whoſoeuer follow<g ref="char:EOLhyphen"/>eth the former, muſt needs be vnlike the attendants of the ſecond, <hi>for what agree<g ref="char:EOLhyphen"/>ment is there betweene Christ and Belial; light and darkneſſe?</hi> Seuerall and diuers
+<pb n="12" facs="tcp:19692:10"/> maſters, giue ſeueral and diuers liueries, that their men may be knowne one from another, and ſo do Chriſt and the diuell. <hi>Christs liuerie is the beautifull and white profeſſion of the truth,</hi> a robe and garment beſeeming the greateſt; the liuery of the diuell is ſinne, a blacke and filthie coue<g ref="char:EOLhyphen"/>ring, vnfit for, and not beſeeming any.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Vſe </seg>1</label> To teach vs not to think the worſe of Chriſtian religion, becauſe the iudgeme<g ref="char:cmbAbbrStroke">̄</g>t of worldly minded men is co<g ref="char:cmbAbbrStroke">̄</g>trary here<g ref="char:EOLhyphen"/>unto, for by the ſame reaſon, we might reiect the Scriptures of God, the truth whereof, euery carnall and naturall man is againſt, and accompliſheth not, for <hi>the light came into the darkneſſe, and the dark<g ref="char:EOLhyphen"/>neſſe comprehendeth it not.</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Vſe </seg>2</label> Hereby, as by the pureſt glaſſe, wee may ſee the diuell his bar, whereby he keepeth many, yea the moſt of our daies, from religion, becauſe then, ſay they, I muſt (do as God would haue me) be vn<g ref="char:EOLhyphen"/>like in iudgement &amp; practiſe to my ſelfe formerly, and all the reſt of the world, ſee how that, which thou reputeſt a matter worthie of eſteeme, to be like the world, is the diuels barre, whereby he keepeth thee from being like to Chriſt, whom to
+<pb n="13" facs="tcp:19692:10"/> be vnlike, is to be like the diuell, and whom to know is eternall life.</p>
+            <p>Let Chriſtians then, not be aſhamed <label type="milestone">
+                  <seg type="milestoneunit">Vſe </seg>3</label> of their profeſſion, though the world be contrary vnto them, nay let them bee contrary to the world in this particular, to thinke nothing gaine but godlineſſe, and that which is inned by the ſame, not being vnſatiable, or alwaies of a ha<g ref="char:EOLhyphen"/>uing and receiuing diſpoſition, thinking all is fiſh that commeth to the net, and all is well got that is put in the purſe: herein Chriſtians are diſcerned from worldlings. The words.</p>
+            <p>
+               <hi>Godlineſſe is great gaine.</hi> Whence wee learne.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Doct. </seg>
+               </label> Howſoeuer the world reputeth and eſteemeth godlines, the truth is, by the mouth of the Apoſtle, that it is great gaine: in which opinion the Apoſtle is not alone, but the ſame Spirit that ſpake heere, ſpeaketh elſewhere, and more ful<g ref="char:EOLhyphen"/>ly confirmeth it, affirming that nothing this world can afford; is comparable hereunto, whether pearles, long life, ri<g ref="char:EOLhyphen"/>ches, worldly honor, or whatſoeuer. For that which he there nameth vnderſtan<g ref="char:EOLhyphen"/>ding, is the ſame he heere meaneth by
+<pb n="14" facs="tcp:19692:11"/> godlines, namely, to get the doctrine of godlines to vs, yea to euery of vs as our owne, and to lead our liues and walke accordingly, this is gaine therefore, ſaith he that cannot lie.</p>
+            <p>
+               <note place="margin">Prou. 3.14.19.</note>
+               <hi>The merchandize thereof is better then the merchandize of ſiluer, and the gaine thereof is better then gold, It is more preci<g ref="char:EOLhyphen"/>ous then pearles, and all things that thou canſt deſire are not to be compared to her. Le<g ref="char:cmbAbbrStroke">̄</g>gth of daies is in her right ha<g ref="char:cmbAbbrStroke">̄</g>d, &amp; in her left hand riches and glorie. Her waies are waies of pleaſure, and all her pathes prospe<g ref="char:EOLhyphen"/>ritie. Shee is a tree of life to all them that lay hold of her, and bleſſed is he that retai<g ref="char:EOLhyphen"/>neth her.</hi> This ſaith, as much as the do<g ref="char:EOLhyphen"/>ctrine offereth to our conſideration, and if we wil not beleeue him, he telleth you according to that experience he had in the world?<note place="margin">Eccle. 12.15.</note> 
+               <hi>(And who went beyond the King in outward matters? or hasted thereto more then he?) that this is the end of all, and the whole man to feare God and keepe his Com<g ref="char:EOLhyphen"/>mandements:</hi> whom, vpon the experie<g ref="char:cmbAbbrStroke">̄</g>ce, it is better to beleeue, then to go and ſee by triall, whether he ſay the truth yea or no. This doctrine will appeare to be true the more manifeſtly: if we conſider the
+<pb n="15" facs="tcp:19692:11"/> excellencie of it in diuers reſpects, by which wee may not only iudge of the reſt, but be moued to ſubſcribe to this as truth.</p>
+            <p>And firſt, let vs ſee what the Scripture ſaith, concerning the ſtate and ſtanding of the godly man, it ſaith that ſuch men <hi>are bleſſed,</hi> as witneſſeth the Pſalmiſt. Pſal. 1.1.2. <hi>Bleſſed is the man that walketh not in the counſell of the wicked, nor ſtan<g ref="char:EOLhyphen"/>deth in the way of ſinners, nor ſitteth in the ſeate of the ſcornefull, but his delight is in the law of the Lord, and in his law doth he exerciſe himſelfe both day and night.</hi> A<g ref="char:EOLhyphen"/>gaine; in Pſal. 112.1. <hi>Bleſſed is the man that feareth the Lord, &amp; delighteth great<g ref="char:EOLhyphen"/>ly in his Commandements:</hi> which he like<g ref="char:EOLhyphen"/>wiſe auerreth, Pſal. 119.1.1. neither is this his opinion only, if you caſt your eyes vpon the 13 verſe of the 3. of the Prou. where he ſaith, <hi>Bleſſed is the man that findeth wiſedome, and the man that getteth vnderstanding;</hi> from which plaine euidences of Scripture prouing, that <hi>god<g ref="char:EOLhyphen"/>lineſſe only maketh a man bleſſed.</hi> (For it poſſeſſeth him of all things, by it hee is made capable of all earthly benefits without vſurpation, &amp; of the kingdome
+<pb n="16" facs="tcp:19692:12"/> of heauen, the greateſt of all.) I conclude that godlines is great gaine, becauſe it maketh man, naturally curſed and miſe<g ref="char:EOLhyphen"/>rable, happie and truly bleſſed, and who would not haue this gaine? for who de<g ref="char:EOLhyphen"/>ſireth not bleſſedneſſe?</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> By godlines we get Chriſt the treaſure, of all treaſures, <hi>in whom dwelleth the ful<g ref="char:EOLhyphen"/>nes of the Godhead bodily, and is head of the Church, whom to know is eternall life,</hi> and whom to ſeeke and find, all a man hath is not too great coſt to be at, nor all a mans time is not too much or long to ſpend, nor the greateſt paines, as dig<g ref="char:EOLhyphen"/>ging and deluing, is not too painfull. By this treaſure, that is, by Chriſt, wee are made <hi>freemen</hi> of vaſſals and bondſlaues,<note place="margin">Epheſ. 2.</note> we are made rich, of beggers, hauing no<g ref="char:EOLhyphen"/>thing, of <hi>aliens and ſtrangers,</hi> we <hi>are made free denizens, and of the commonwealth of Iſrael,</hi> by him we haue claime and title to all good, and freedome from all euill. If then this treaſure, namely, Chriſt, be at<g ref="char:EOLhyphen"/>tained vnto by godlines, who can deny it to be great gaine, and who will not be deſirous to attaine and get the ſame?</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> Of all other gaine this (though of all other the greateſt, and not by any other
+<pb n="17" facs="tcp:19692:12"/> matchable) is obtained by the leaſt coſt and charges, for no more is required, <hi>but come and eate,</hi> ſo that the poore that haue no houſe to put their heads in, nor peny to put in their purſe, may make as good a bargaine heere, as the richeſt; yea of<g ref="char:EOLhyphen"/>tentimes, and for the moſt part, they gaine moſt heere, which haue the leaſt, the leaneſt bodies, haue the fatteſt ſouls, and the thinneſt clothed bodies, haue the fineſt clothed ſoules. Whereby doth appeare, the difference betwixt this gaine, and the gaine of earthly things, to the gaine of this, all, both rich and poor, high and low, may attaine, one as wel as another, and the pooreſt oftentimes gai<g ref="char:EOLhyphen"/>neth the moſt; In earthly gaine, he hath moſt that is richeſt. So then beloued, if this gaine require no more but thy la<g ref="char:EOLhyphen"/>bour, ſurely thou canſt not but repute it great, yea the greateſt of all gaines. For doe not tradeſmen and merchants that traffique for commodities, repute that the greateſt gaine, which commeth in by leaſt labour, induſtrie and coſt? and of ſuch trade doth euery one deſire to be, how much more then muſt we of neceſ<g ref="char:EOLhyphen"/>ſitie, confeſſe that godlineſſe is great
+<pb n="18" facs="tcp:19692:13"/> gaine, ſeeing it coſteth the leaſt, and is attained vnto, as well by the pooreſt as richeſt.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="4"/> In reſpect of the abilitie, thou hereby reapeſt, ſuch abilitie as no other gaine is able to afford to any, by this, thou art made able to profit, and do good to all, and which is more admirable, without hurt to thy ſelfe, nay the more thou gi<g ref="char:EOLhyphen"/>ueſt others, the more thou haſt thy ſelfe, wherein againe, doth appeare another obſeruable difference, betwixt earthly and heauenly riches, of the former who<g ref="char:EOLhyphen"/>ſoeuer ſpendeth and giueth to others, hath the leſſe for himſelfe, but of the lat<g ref="char:EOLhyphen"/>ter, whoſoeuer gaineth and giueth to o<g ref="char:EOLhyphen"/>thers, he is not only, not made the poo<g ref="char:EOLhyphen"/>rer, but richer, O admirable riches! and gaine ſurpaſſing all, and beyond all to be deſired. Hereby, whoſoeuer hath the<g ref="char:cmbAbbrStroke">̄</g>, I ſay, whoſoeuer is true godly, is able to <milestone type="tcpmilestone" unit="unspecified" n="1"/> do good to himſelfe. Firſt, both in ſoule and bodie, for godlineſſe maketh a man to be far from that ſicknes <hi>Salomon</hi> ſpea<g ref="char:EOLhyphen"/>keth of, <hi>That he ſaw a man had much, and had no heart to vſe it,</hi> godlines changeth a man, and maketh his heart readie, and willing to vſe that hee hath; it maketh
+<pb n="19" facs="tcp:19692:13"/> thee able to reſpect and do good to thy <milestone type="tcpmilestone" unit="unspecified" n="2"/> ſoule in the firſt place, and to labour and endeauour the beautifying of the ſame, before and beyond the beautifying of the body, which the naturall and world<g ref="char:EOLhyphen"/>ly man is far from; <hi>who ſo far careth, as his ſight leadeth him,</hi> and therefore cannot ca<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e for the ſoule, and the good thereof, for he hath no ſpirituall eyes to ſee the ſame. By this, a man is made able alſo to <milestone type="tcpmilestone" unit="unspecified" n="3"/> benefit and do good to others, at home, and abroad: at home, his wife, children, ſeruants; abroad, his friends, ſtrangers, to doe for which according to his out<g ref="char:EOLhyphen"/>ward abilitie, and meanes, he hath not only a heart willing, but eſpecially he hath a heart and ſoule willing and able to benefit them in the beſt things; by in<g ref="char:EOLhyphen"/>crepation, exhortation, counſell, aduiſe and the like. Yea who is he that ſtandeth not in need of the helpe of the godly man? Princes and, Nobles, and all ſorts. For the godly man only, is able by his prayers to profit the King and Court, Ci<g ref="char:EOLhyphen"/>tie and countrey, although neuer ſo far off, <hi>The prayer of the faithfull auaileth much for thy life,</hi> yea when thou art ſicke, <hi>ten faithfull and godly men are able to keep
+<pb n="20" facs="tcp:19692:14"/> Gods iudgements away,</hi> to cauſe God to repent of his anger, yea, <hi>one Lot is able to hold God.</hi> So that beloued ſeeing godli<g ref="char:EOLhyphen"/>nes maketh thee able to do good to all, though neuer ſo great, or remote, and that without detriment to thy ſelfe, thou muſt needs conclude with me, godlines is gaine, yea great gaine, and who deſi<g ref="char:EOLhyphen"/>reth not to be of this trade?</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="5"/> If we conſider the durance of it, it is gaine indeed, for what gaine bringeſt thou in by any traffique, but it is ſubiect to periſhing, to be taken from thee, or thou from it? this is of a contrary nature, it can neuer be taken from thee, if thou once haue it, it will go with thee abroad, ſtay with thee at home, lie with thee in bed, ſit with thee at thy table, ſticke to thee in proſperitie, to keepe thee from being lifted vp, ſtand by thee in aduerſi<g ref="char:EOLhyphen"/>tie and the euill day: it will not faile thee in thy ſickneſſe, not forſake thee in thy death, nay it will go with thee into the graue, and from thence to heauen. No ſurges, ſtormes or tempeſts of the ſea of this world, can make ſhipwracke of the fame. And therein it excelleth the grea<g ref="char:EOLhyphen"/>teſt gaine that merchants fetch from far,
+<pb n="21" facs="tcp:19692:14"/> euery day ſuch gaine is ſubiect to periſh<g ref="char:EOLhyphen"/>ing, by land and ſea, by ſtormes, robbers and pirates. But this only will abide, and neuer be taken from him, in whom it is, <hi>nay the gates of hell ſhall not preuaile a<g ref="char:EOLhyphen"/>gainst this,</hi> what gaine then is compara<g ref="char:EOLhyphen"/>ble to this? none ſurely. <hi>Who then but Salomons fooles will refuſe to trauell for the ſame?</hi>
+            </p>
+            <p>If there be any gaine free from malig<g ref="char:EOLhyphen"/>nant <milestone type="tcpmilestone" unit="unspecified" n="6"/> mouthes, ſo that they cannot ex<g ref="char:EOLhyphen"/>cept againſt the lawfull getting of the ſame, this is it, nay there is none but this of that nature, this is attained to without detriment to any, and retained to the benefit and profit of all, as in the fourth reaſon is at large ſhewed, therfore, this is gaine, yea gaine worth the hauing.</p>
+            <p>This neuer commeth alone, but it al<g ref="char:EOLhyphen"/>waies <milestone type="tcpmilestone" unit="unspecified" n="7"/> bindeth thoſe to thee, from whom thou haſt it, and that not for a day, but for euer, not to thy ſelfe only, but alſo to thine, exceeding other gaine herein, for, thy gaine thou haſt from men, but the parties from whom thou haſt it are at li<g ref="char:EOLhyphen"/>bertie. The caſe is far otherwiſe in this, thou haſt the gaine, (or rather if I may ſo ſay the ſtocke) and the parties fro<g ref="char:cmbAbbrStroke">̄</g> whom
+<pb n="22" facs="tcp:19692:15"/> thou haſt it bound to thee and thine, and no meane perſons neither: God the Fa<g ref="char:EOLhyphen"/>ther, God the Sonne, and God the holy Ghoſt; better are no where to be had. And he that cannot lie hath told thee, if thou be godly and feare him, <hi>hee will be the God of thee and thy <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eede,</hi> O happie gaine, and thrice happie is that man that maketh a iourney to bring in ſuch gaine, by which thou art made ſure of Gods bleſſing to be vpon thy labours, Chriſt to redeeme thee, the holy Ghoſt to ſancti<g ref="char:EOLhyphen"/>fie thee, and the Angels to attend and watch thee for thy good, nay more then all this, thou gaineſt a mercifull Father, prouident for the good of thine heere, and ſo will be after thou art dead, ſo that thy children ſhall neuer be fatherleſſe, for <hi>God careth for them.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="8"/> Hereby art thou brought into fauour with God, with whom thou waſt before at variance, he is become thy Father, thou his ſonne. Hereby art thou made graci<g ref="char:EOLhyphen"/>ous in the eyes and hearts of good men, to whom thou waſt a ſtra<g ref="char:cmbAbbrStroke">̄</g>ger before, yea in whoſe harts thou waſt before excom<g ref="char:EOLhyphen"/>municated: nay, now thou art in ſuch eſtate, that thou ſhalt be ſure to haue thy
+<pb n="23" facs="tcp:19692:15"/> enemies at peace with thee, this the<g ref="char:cmbAbbrStroke">̄</g> muſt needs be great gaine, that bringeth ſuch fauour both with God and men.</p>
+            <p>If thou haue this thou canſt neuer be <milestone type="tcpmilestone" unit="unspecified" n="9"/> banckrout, wherein thou art richer then all merchants, for herein this pearle godlineſſe excelleth all other, nay all pearles <hi>are not to be compared to her,</hi> they are ſubiect to ruine, this permanent, and thou ſhalt neuer be depriued of it.</p>
+            <p>This lengthens thy life, and therefore <milestone type="tcpmilestone" unit="unspecified" n="10"/> the Pſalmiſt ſaith, <hi>If thou wilt but feare God, the plague ſhall not come neer thee,</hi>
+               <note place="margin">Pſalm. 34.12.13.14.</note> and againe, <hi>Who deſireth to liue long and ſee good daies. Let him refraine from euill, and do good:</hi> and againe the Wiſeman ſaith, <hi>Length of daies is in her right hand.</hi> So then it preſerueth from euill, thou art ſafe whe<g ref="char:cmbAbbrStroke">̄</g> others are in danger, thou ſhalt <milestone type="tcpmilestone" unit="unspecified" n="2"/> be in health, when others are ſicke: fur<g ref="char:EOLhyphen"/>ther, by it thou art taught to commit the reuenge to God, and therefore art farre from quarrelling, brawling, and the like, whereby thou mighteſt, (as many doe, and haue done) haſten thy end by vnna<g ref="char:EOLhyphen"/>turall death. It teacheth thee to vſe all <milestone type="tcpmilestone" unit="unspecified" n="3"/> good meanes, for the preſeruation of life, and by no meanes to haue a hand in
+<pb n="24" facs="tcp:19692:16"/> murdering thy ſelfe: ſo that this being true, that it is a meanes to lengthen thy life, it muſt needs bee concluded that it is gaine ſurpaſſing all others, quieting thee in aduerſitie, in the euill day wor<g ref="char:EOLhyphen"/>king in thee true contentedneſſe, not en<g ref="char:EOLhyphen"/>uying at the proſperitie of others, nor murmuring at thy owne: ſo that it is true, which was propheſied of our Sauiour, in the godly (for they are made like to him through the worke of the Spirit) <hi>That they open not their mouthes, but like ſheepe dumbe, are led to the ſlaughter.</hi> Neither murmuring againſt God or men, nor grudging at their owne eſtate. By all which, it appeareth plainly, to any that hath but the leaſt ſight of the Spirit, <hi>that godlines is gaine;</hi> bringing in all good, and keeping out all euill.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Vſe </seg>1</label> To condemne the contrarie iudge<g ref="char:EOLhyphen"/>ment of the world, that ſee no ſuch thing herein, and therefore are ſo far from it: but no maruell, <hi>For can the blind diſcerne of colours, or the earthly minded deſire hea<g ref="char:EOLhyphen"/>uenly thinge?</hi> No no, <hi>their bellie is their god,</hi> and the world their heauen, and heere they haue their happineſſe.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Vſe </seg>2</label> To moue all to be merchants for this
+<pb n="25" facs="tcp:19692:16"/> pearle, and to put out our money, and to aduenture for the ſame: the beſt way to beſtow thy money, thou canſt think on, the gaine thereof will come in, whether thou ſleepeſt or wakeſt; O then come to the market, where it is to be ſold, and that is in the aſſemblies, where <hi>wiſdomes maids haue made ready, and ſet before thee this pearle,</hi> if thou haue any heart to buy it, there is the garden where groweth pleaſant flowers. Neuer come, but crop the ſame, take ſome with thee, and weare them, neuer leaue them off, (they wil be euer greene) that thou mayeſt be ſwee<g ref="char:EOLhyphen"/>ter, to preſent thy ſelfe hereafter, in the middeſt of the congregation, before the Lord, then heretofore thou haſt been. <hi>Take heed how you heare, be good Scribes, taught to the kingdome of God, bringing forth of your treaſure, things now and old.</hi>
+            </p>
+            <p>To teach vs, with what reuerence we <label type="milestone">
+                  <seg type="milestoneunit">Vſe </seg>3</label> are to vſe ſuch as bring theſe pearles, namely, the Miniſters, to <hi>count their field beautifull, and to yeeld them honor,</hi> no mer<g ref="char:EOLhyphen"/>chant, or goldſmith, is worthie the en<g ref="char:EOLhyphen"/>tertainment and countenance, theſe men are worthie of; for their pearles, are far exceeding theirs, and the rate, no thing
+<pb n="26" facs="tcp:19692:17"/> ſo chargeable. But <hi>Pharaoh,</hi> in prouiding for the Idolatrous Prieſts, and reueren<g ref="char:EOLhyphen"/>cing them, ſhall condemne many of our Engliſh men, for the neglect and little regard, Gods Miniſters finde amongſt them, who trauell to heauen for euery Sermon, farther then any merchant for his commoditie.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="4"/> Is godlines ſuch a gaine? then labour thou by all meanes to ſettle it in the land, to keepe it where it is, and to ſet it where it is not, a better ſeruice thou canſt not do God, the King, thy countrey, thy ſelfe; or thine.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="5"/> Heere, parents may learne a trade to teach their children, and bind them ap<g ref="char:EOLhyphen"/>prentices vnto, both the elder and yon<g ref="char:EOLhyphen"/>ger, all muſt be of this trade. But eſpeci<g ref="char:EOLhyphen"/>ally this is worthy the marking for poor men, that haue many children and no<g ref="char:EOLhyphen"/>thing to giue them, neuer ſuch a world, ſay they, now, except a man can giue, a round ſumme, none can ſet their chil<g ref="char:EOLhyphen"/>dren to any trade; ſee, ſee, foole, heere is a trade, the gainfulleſt of all, not mat<g ref="char:EOLhyphen"/>chable, nor any with it comparable, bind him to this, it will coſt nothing, for thou which haſt nothing, mayeſt, as
+<pb n="27" facs="tcp:19692:17"/> ſoone preferre thy child heere, as he that hath moſt, a better trade thou canſt not find, nor a better maſter is not to bee ſerued.</p>
+            <p>
+               <hi>Motiues to moue vs to traffique for this.</hi>
+            </p>
+            <p>If any thing befall vs but well, ſhame, <milestone type="tcpmilestone" unit="unspecified" n="1"/> pouertie, aduerſitie, neglect of vs and ours, we may thanke our ſelues for this rod, for we would not when we might, preuent this, we refuſed wiſdome, this gaine, that would haue preſerued vs, fro<g ref="char:cmbAbbrStroke">̄</g> theſe and all other euils, therefore, wee may be rightly aſhamed of our ſelues, and wiſdome, <hi>may iustly laugh at our de<g ref="char:EOLhyphen"/>ſtruction.</hi> Wouldeſt thou then not haue thy ſelfe faultie when euill commeth, and thanke thy ſelfe for the ſame, get godlines, a gaine, whereby, thou ſhalt be euer rich, both in body and ſpirit, and neuer poore.</p>
+            <p>Our care, for worldly and tranſitorie <milestone type="tcpmilestone" unit="unspecified" n="2"/> gaine, which will ſoone (yea when we haue moſt need) faile vs, ſhall condemne vs, if we neglect the ſeeking of this. Ther<g ref="char:EOLhyphen"/>fore, labour for this.</p>
+            <p>Chriſt, that euerlaſting wiſdome of <milestone type="tcpmilestone" unit="unspecified" n="3"/> the Father, will laugh at vs at the day of iudgement, ſeeing wee would not bee
+<pb n="28" facs="tcp:19692:18"/> good to our ſelues, whileſt wee might. Therefore, labour for it, if thou woul<g ref="char:EOLhyphen"/>deſt not haue Chriſt to count thee a foole, when his eſteeme of thee to bee wiſe, would be more worth to thee, then many kingdomes.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="4"/> There is no comming to heauen, nor ſtanding before God in iudgeme<g ref="char:cmbAbbrStroke">̄</g>t, with<g ref="char:EOLhyphen"/>out this; if thou be not <hi>clothed with this robe, and couered with this wedding gar<g ref="char:EOLhyphen"/>ment,</hi> thou ſhalt not come within hea<g ref="char:EOLhyphen"/>uen, nor euer enioy the comfortable preſence of God. If then thou wouldeſt not to hell, nor be kept out of the gates of heauen, get this, and labour for god<g ref="char:EOLhyphen"/>lineſſe: for thou muſt bring ſomething, and nothing but this, elſe <hi>ibis for as.</hi>
+            </p>
+            <p>
+               <note place="margin">Impedi<g ref="char:EOLhyphen"/>ments to be auoided.</note>Thinke not that this is the doctrine of man, and that I make more adoe then needs, there is no ſuch matter, think not I ſay, thou art well enough without it, for without this, thou art without grace, and ſo without heauen; and although thou wilt not ſee, yet I will mourne for thee, and weepe, ſaying to euery ſuch a one, as our Sauiour ſaid to the citie of Ie<g ref="char:EOLhyphen"/>ruſalem, <hi>O that thou, euen at this day, at the least, knewest thy viſitation, and happi<g ref="char:EOLhyphen"/>neſſe,
+<pb n="29" facs="tcp:19692:18"/> for thou ſayest, that thou art rich, and lackest nothing, but alas, thou art blind, poore, and naked.</hi>
+            </p>
+            <p>Dreame not, that it will (as the blind <milestone type="tcpmilestone" unit="unspecified" n="2"/> man thinketh) be an hinderance to thy honor, credit, fauour, and reputation a<g ref="char:EOLhyphen"/>mongſt men, for, this were to attach God, with ſaying vntruthes; who hath promiſed, <hi>to honor ſuch, as honor him, and to make their enemies at peace with them:</hi> who euer yet ſerued God, and came to diſgrace by the ſame? <hi>not Iohn Baptist,</hi>
+               <note place="margin">2. Chro. 22.11.24.16.</note> 
+               <hi>I am ſure, in Herods Court, nor Iehoiada, in the daies and Court of Ioaſh, nor Ioſeph in the Court of Pharaoh.</hi>
+            </p>
+            <p>Deceiue not thy ſelfe, neither feede <milestone type="tcpmilestone" unit="unspecified" n="3"/> thy ſelfe with vaine hopes, and per<g ref="char:EOLhyphen"/>ſwaſions, that thou canſt to heauen, without this, the common barre, that keepeth, and nuſleth men ſtill in pro<g ref="char:EOLhyphen"/>phaneneſſe, and ſtoppeth them from entring into the way euerlaſting, and <hi>from tasting, to ſee how good the Lord is.</hi> Auoid theſe diuelliſh and carnall in<g ref="char:EOLhyphen"/>ſinuations, weigh the former motiues, and ioyne prayer therewith, ſo mayeſt thou bee truely godly, and a great gai<g ref="char:EOLhyphen"/>ner.</p>
+            <pb n="30" facs="tcp:19692:19"/>
+            <p>
+               <hi>Godlineſſe is great gaine:</hi> The falſe tea<g ref="char:EOLhyphen"/>chers before, made the doctrine of god<g ref="char:EOLhyphen"/>lineſſe, a gainfull arte, and thought all was wel gotten, that was gotten, but he teacheth otherwiſe, that gaine muſt ſuite with godlines, elſe all is naught: from whence we learne.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Doct. </seg>
+               </label> No gaine is tolerable and lawfull, but that which is inned by godlines, &amp; that was the cauſe that made <hi>Paul</hi> to cleare himſelfe, from any goods gotten vnlaw<g ref="char:EOLhyphen"/>fully,<note place="margin">Act. 20.33.34. 2 Cor. 12.16.17.</note> by <hi>guile, pilling of them, or craftie dealing with them.</hi> And a vſuall thing it is with the holy men of God, to free themſelues, from the ſame, and therfore, <hi>Zaccheus</hi> offered, yea appointed part of his goods, to make reſtitution, if he had inned any thing by forged cauellation. <label type="milestone">
+                  <seg type="milestoneunit">Reaſ. </seg>
+               </label> And ſurely, this is plaine by reaſon, if we well perpend euery thing: for this war<g ref="char:EOLhyphen"/>rant wee muſt ſhew, or elſe, all will bee nought, when it will bee demaunded, <hi>Who required theſe things at your hands?</hi> If we cannot ſhew godlineſſe for a war<g ref="char:EOLhyphen"/>rant, how we came to our riches, we ſhall proue, no better then theeues, and if we ſpeed better, it is beyond all expectati<g ref="char:EOLhyphen"/>on and poſſibilitie.</p>
+            <pb n="31" facs="tcp:19692:19"/>
+            <p>Not ſo much to bragge and boaſt of <label type="milestone">
+                  <seg type="milestoneunit">Vſe </seg>1</label> what we haue got, as how truly we haue got it, according to the rule of godlines. For it is not much, but goods godlily gotten, that maketh thee rich: and if thou haue thouſands, but it came in by vſurie, falſe ballances, ſwearing, and for<g ref="char:EOLhyphen"/>ſwearing, lying, and double dealing, it were better thou hadeſt nothing, but wereſt as poore as <hi>Lazarus,</hi> and as bare as <hi>Iob;</hi> for the more thou haſt, and vn<g ref="char:EOLhyphen"/>lawfully gotten, the greater ſhall be thy account and puniſhment. <hi>Diues</hi> muſt giue account for his white clothing and delicate feeding, the rich man, for his large and ſtuffed barnes.</p>
+            <p>Hereby may wee ſee, the miſerable <label type="milestone">
+                  <seg type="milestoneunit">Vſe </seg>2</label> eſtate of all worldly and wicked men, who haue no right or title to any thing, and therefore, what they haue gained, is but ſtubble, laid vp for the fite of Gods wrath to conſume, and gathered toge<g ref="char:EOLhyphen"/>ther, by meere vſurpation. They are, for their miſdemeanor towards the Priuie Councellours of heauen, Father, Sonne, and holy Ghoſt, baniſhed, and made vn<g ref="char:EOLhyphen"/>capable, till they bee in Chriſt, of the
+<pb n="32" facs="tcp:19692:20"/> right and title of any earthly, much more of heauenly benefits.</p>
+            <p>
+               <hi>With ſufficiencie:</hi> out of the firſt expo<g ref="char:EOLhyphen"/>ſition of the ſame, we learne.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Doct. </seg>
+               </label> Godlineſſe, in whomſoeuer it is, ma<g ref="char:EOLhyphen"/>keth the partie, in whom it is, contented with that he hath, he counteth that ſuffi<g ref="char:EOLhyphen"/>cient, which he poſſeſſeth, be it more or leſſe.<note place="margin">Geneſ. 12.</note> This made <hi>Abraham</hi> contented, at the command of the Lord to (take the next way to beggerie, if he had conſul<g ref="char:EOLhyphen"/>ted with fleſh and blood) to <hi>leaue his countrie and kindred.</hi> And to doe more then that, (which was againſt nature, (and who but he, that belieued God, could haue done it?) namely, to ſacri<g ref="char:EOLhyphen"/>fice his firſt borne <hi>Iſaak;</hi> yea, his ſonne, in whom the promiſe was made.<note place="margin">Philip. 4.11.12.13.</note> 
+               <hi>Paul</hi> was contented, hauing this gaine firſt, and aſſured thereof, <hi>to want, and abound, and to be content with euery estate good re<g ref="char:EOLhyphen"/>port, and euill report, he patiently endured, being counted a deceiuer, and yet true:</hi> and <hi>Ioſeph,</hi> all contempt, impriſonment, and iniuries, cauſeleſſe. And howſoeuer, this is ſtrange to fleſh and blood, and the na<g ref="char:EOLhyphen"/>turall man cannot attaine hereunto, but
+<pb n="33" facs="tcp:19692:20"/> is alwaies carping, and caring, yea pi<g ref="char:EOLhyphen"/>ning himſelfe away, with griefe, and ex<g ref="char:EOLhyphen"/>ceſſiue care, for an earthworme he is. Yet that the godly man ſhould be ſutable to this truth, <label type="milestone">
+                  <seg type="milestoneunit">Reaſ. </seg>
+               </label> it will appeare by plaine rea<g ref="char:EOLhyphen"/>ſon, drawne from the ground of Diuini<g ref="char:EOLhyphen"/>tie, namely, godlines altereth and chan<g ref="char:EOLhyphen"/>geth the peruerſe and greedie mind of man, and ſo maketh it like to Gods mind and will, ſo that Gods will is his will, and he is affectioned like vnto him, reſting contented with that he hath, as beſt for him, not daring to reſiſt the will of God, who hath, by his ouerruling prouidence, bequeathed him ſuch a le<g ref="char:EOLhyphen"/>gacie, as he poſſeſſeth ſo much and no more. Which, we find <hi>Iob</hi> to verifie vn<g ref="char:EOLhyphen"/>to vs, contented with much, with abun<g ref="char:EOLhyphen"/>dance of cattell, children, ſeruants and the like, and contented with all theſe, yea when he was ſpoiled of all theſe, by enemies, which hee teſtifieth, when hee ſaith, <hi>The Lord giueth, and the Lord ta<g ref="char:EOLhyphen"/>keth away, bleſſed be the name of the Lord.</hi> This is more then nature and the natural man can attaine vnto, as that example of <hi>Pharaoh</hi> ſheweth, and experience tea<g ref="char:EOLhyphen"/>cheth, if we caſt our eyes vpon the god<g ref="char:EOLhyphen"/>leſſe,
+<pb n="34" facs="tcp:19692:21"/> and prophane of our daies, who, if matters anſwere not their expectation, ſweare, murmure, and grudge againſt God, <hi>yea, accuſe God of follie.</hi>
+            </p>
+            <p>So that godlines changing the diſ<g ref="char:EOLhyphen"/>contented will of man, it muſt needs fol<g ref="char:EOLhyphen"/>low, that in whomſoeuer it is, there is contentednes, &amp; that which they haue is accounted by them ſufficiencie. And beſides this, <label type="milestone">
+                  <seg type="milestoneunit">Reaſ. </seg>
+               </label> it needeth not to ſeeme ſtrange vnto vs, if we conſider by what tenure, or ſeruice, the godly hold that portion they haue, ſurely their tenure is <hi>in capite,</hi> which is Chriſt Ieſus, whereof they are alwaies ſure, and in poſſeſſion, and ſo, reſt contented with their tenure: which made <hi>Dauid,</hi> to ſay from a fee<g ref="char:EOLhyphen"/>ling <hi>ſoule, that he found more ioy, in the light of Gods countenance,</hi> (that is, that he had a tenure <hi>in capite,</hi> Chriſt Ieſus, <hi>then all earthly minded men, which he meaneth, by (they) in that place), had, or could poſſi<g ref="char:EOLhyphen"/>blie haue, of their encreaſe, of wine and oyle,</hi> holding it not <hi>in capite,</hi> as he did. Of which mind, <hi>Paul</hi> was, not much diffe<g ref="char:EOLhyphen"/>ring from him, nay altogether agreeing with him, when he ſaid, and no other<g ref="char:EOLhyphen"/>wiſe then he thought, <hi>That he counted all
+<pb n="35" facs="tcp:19692:21"/> things dung, in respect of the excellent knowledge, of Christ Ieſus.</hi> Which doe plainly ſhew vs the force of this reaſon, that for as much, as Gods children are aſſured of Chriſt, whereby they hold all they haue, they therefore are contented, with whatſoeuer portion, God beſtow<g ref="char:EOLhyphen"/>eth vpon them, and count that ſufficien<g ref="char:EOLhyphen"/>cie and enough, and can ſay, <hi>that their heritage, is a goodly heritage.</hi>
+            </p>
+            <p>To make this a touchſtone, and triall, <label type="milestone">
+                  <seg type="milestoneunit">Vſe </seg>1</label> what godlines there is in vs, by this, namely, by thy contentednes, for with<g ref="char:EOLhyphen"/>out queſtion, according to our content<g ref="char:EOLhyphen"/>ment is our growth in grace, and an<g ref="char:EOLhyphen"/>ſwerable thereto, is our proficiencie in Chriſts Schoole: and that we may not bee deceiued hereby, I will lay downe ſome few infallible notes, of true con<g ref="char:EOLhyphen"/>tentednes, in whomſoeuer it is.</p>
+            <p>Firſt, there is in the truly contented, a ſubmiſſion of his will to Gods will, and this is to bee obſerued at two ſeuerall times, namely, in the daies of proſperi<g ref="char:EOLhyphen"/>rite and aduerſitie: in the daies of pro<g ref="char:EOLhyphen"/>ſpiritie, when all things flow in apace, canſt thou then ſubmit thy will to Gods will? Not to ſet thy heart vpon them,
+<pb n="36" facs="tcp:19692:22"/> canſt thou receiue them thankefully, and beſtowe them to his glory; this is Gods will and purpoſe, in beſtowing proſpe<g ref="char:EOLhyphen"/>ritie vpon thee, and the like correſpon<g ref="char:EOLhyphen"/>dently is in thee, if thou be truly conten<g ref="char:EOLhyphen"/>ted, proſperitie doth not lift thee vp, ſteale thy heart from God, nor make thee ſwiniſh, to receiue them vnthank<g ref="char:EOLhyphen"/>fully, or vſe them vnprofitablie.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Reaſ. </seg>2</label> That thou bee truly contented, thou ſubmitteſt thy will to Gods, in the daies of aduerſitie,<note place="margin">1. In words.</note> yea when the tide, gale and ſtreame, are all againſt thee, thou canſt ſay with old <hi>Ely,</hi> and godly <hi>Hezekiah, The word of the Lord is good,</hi> though it go neuer ſo much againſt the haire: ſo, if thou canſt ſay, that aduerſitie being the Lords worke, is good for thee, then thou art truly contented.</p>
+            <p>
+               <note place="margin">2. In actio<g ref="char:cmbAbbrStroke">̄</g>.</note>This appeareth, if in aduerſitie, thou canſt and doeſt, by thy actions, ſhew thy ſelfe to be contented with Gods will, as, to fare according to thy eſtate, and to cut thy coat according to thy cloth, and not as many doe, (who are by this do<g ref="char:EOLhyphen"/>ctrine condemned) run themſelues into debt, for apparell, ouer head and eares, ſo that they can neuer ſhift themſelues
+<pb n="37" facs="tcp:19692:22"/> of the ſame, ſo long as they liue, and that, becauſe they would not be ſuited accor<g ref="char:EOLhyphen"/>ding to their place, but according to the faſhion. Of the like ranck are many gen<g ref="char:EOLhyphen"/>tlewomen, who not ſtooping to their husbands ability, wil make him to weare a bare coat, ſell his land, and ſtand in the mercers bookes, for the maintaining of their pride: like vnto whom, in the third place (who likewiſe are heere obſerued for reproofe) are the gallants of our daies, who weare vpon their backes, not their owne, but another mans, their vel<g ref="char:EOLhyphen"/>uet cloake, their ſatten ſuits, and the like, for which, they are indebted to the mer<g ref="char:EOLhyphen"/>cers, or tailers. And another ſort of the<g ref="char:cmbAbbrStroke">̄</g>, which are of the beſt ſort too, and wee haue but few ſo good, who cary all they haue with them, not reſpecting old age, or the time to come, ſo that they may ſay with <hi>Bias, omnia mea mecum porto,</hi> and ſo they do, <hi>honestie only excepted,</hi> for that they carrie not with them, becauſe they haue it not; the land is full of ſuch ſnailes, carrying their houſes, goods, lands, &amp; all they haue, vpon their backs. Now vnderſtand mee,<note place="margin">Praeocc.</note> and miſtake mee not, I ſpeake of ſuch, as thus deale, not
+<pb n="38" facs="tcp:19692:23"/> being, neceſſarily occaſioned thereunto, but only, becauſe they ſcorne to ſtoope to their places, and make their ſpending ſutable thereunto. For I know, a man ha<g ref="char:EOLhyphen"/>uing but a little, and his place requiring it, he may lawfully, ſpend it all in appa<g ref="char:EOLhyphen"/>rell, the place being lawfull, and ſuch, as by the laying out of all he then hath, he is in poſſibilitie, and likelihood, to pro<g ref="char:EOLhyphen"/>uide for after times.</p>
+            <p>Here againe co<g ref="char:cmbAbbrStroke">̄</g>meth to be reproued, and to be charged deeply with this fault and ſin, y<hi rend="sup">e</hi> painted <hi>Iezabels</hi> of our daies, who only, not being content with that feature, &amp; face, God, (who is only wiſe) hath giuen them, muſt needs, and doe, digge vnto themſelues, ciſternes of their owne inuentions. A fearefull ſinne it is, and moſt vſed, where ſin ſhould be leaſt cou<g ref="char:cmbAbbrStroke">̄</g>tenanced. For the co<g ref="char:cmbAbbrStroke">̄</g>futation where<g ref="char:EOLhyphen"/>of, I will aske but this queſtion, whether thoſe words <hi>[Iezabel the whore, that pain<g ref="char:EOLhyphen"/>ted her ſelfe]</hi> were ſpoken to the praiſe of her, or diſpraiſe? if to the diſpraiſe, whe<g ref="char:EOLhyphen"/>ther to be imitated or no? anſwerable vnto which, is that place, of the damſels dauncing before <hi>Herod,</hi> which was like, to the wanton, and artificiall dauncing,
+<pb n="39" facs="tcp:19692:23"/> ſo much vſed, &amp; practiſed in theſe daies, as I take it, that is left vpon Record, to the diſpraiſe of her, and then not to be imitated: ſhee did it to pleaſe <hi>Herod,</hi> without any thought, of <hi>Iohns</hi> head, vn<g ref="char:EOLhyphen"/>till <hi>Herod</hi> made ſo large a proffer, and ſhe conſulted with her diuelliſh mother. And truly, the wanton dancing of our daies, is only to pleaſe men, abomina<g ref="char:EOLhyphen"/>ble, as the effects thereof do ſhew. For what doth it bring forth, but wanton<g ref="char:EOLhyphen"/>nes in action, wanton behauiour after? and often hereby, are affections drawne to mariage, to the after griefe of the par<g ref="char:EOLhyphen"/>ties, diſhonoring of God, and vexation of parents.</p>
+            <p>Hereby, is our Land and nation iuſtly taxed of this ſin, by being ſaid, to be the New-fangledeſt nation vnder the hea<g ref="char:EOLhyphen"/>uens. For what is the cauſe, of euery yeares, nay euery moneths, new faſhi<g ref="char:EOLhyphen"/>on? what is the cauſe, I ſay, that we go beyond all others, in learning how to make and weare <hi>ſtrange apparell,</hi> and that we, are ſo <hi>full of the East manners?</hi> ſurely our diſcontentednes, if this were not it, we ſhould ſee the fruit of our own lands more vpon our backes, then wee
+<pb n="40" facs="tcp:19692:24"/> do, and not ſilkes, veluets, and tafferies, ſo much in vſe, as we do, this is the cauſe, I ſay, that we can hardly find that wiſe, whereof <hi>Salomon</hi> ſpeaketh, <hi>That doth her huſband good, and no euill, and her huſ<g ref="char:EOLhyphen"/>band is knowne, when he ſitteth in the gates with the Elders, ſo that, both he and ſhe are clothed with the workes of her hands,</hi> what is the cauſe of this? truly diſcontented<g ref="char:EOLhyphen"/>nes, counting all we haue at home baſe and nothing worthy, but what is farre fetcht, and deare bought, all muſt bee Spaniſh, and the like, elſe no bargaine.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> Note of true contentednes is thank<g ref="char:EOLhyphen"/>fulneſſe in aduerſitie; canſt thou giue God thankes that thou art poore? affli<g ref="char:EOLhyphen"/>cted? doſt not thou murmur, grudge, and repine at Gods corrections? then thou art truely contented; if not, thou art yet farre from godlineſſe.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="3"/> True contentedneſſe will not ſtraine and cracke a good conſcience, to be in<g ref="char:EOLhyphen"/>riched thereby, it will rather bee with<g ref="char:EOLhyphen"/>out, and count pouertie happines, with the rich table of a good conſcience to feaſt at, then vſe any vnlawfull meanes, and indirect courſes, to attaine to more, and climbe higher: whereby are con<g ref="char:EOLhyphen"/>demned,
+<pb n="41" facs="tcp:19692:24"/> as deepely guiltie of this fault, all ſchollers, that vſe ſimonie, temporiſing, and laying of wagers, and the like, to aduance themſelues by, and to climbe to preferment. Thoſe, that vſe falſe waights, deceitfull wares, calling white blacke, and blacke white, ſet their money to vſurie, take pledges, vſe gaming and playing, yea ſicophanti<g ref="char:EOLhyphen"/>ſing, and humouring of men in their euill, for the bettering and enriching of their eſtate, are plainely told by this do<g ref="char:EOLhyphen"/>ctrine, there is no godlineſſe in them. I would this were well weighed and and laid to heart, by ſuch, as thruſt others, to get themſelues in, out of ſer<g ref="char:EOLhyphen"/>uices, houſes, ſhops, &amp;c. and vſe meanes, to withdraw cuſtomers from others, not doing, as they would bee done by, a common ſinne, and whereof many are deadly ſicke; but to all ſuch, be it knowne, there is little godlineſſe, becauſe no true contentednes in them.</p>
+            <p>True contentednes, doth not make a <milestone type="tcpmilestone" unit="unspecified" n="4"/> man idle, but hath alwaies ioyned with it, an honeſt care and endeauour, by all good and lawfull meanes, to better his eſtate, vſing the meanes, committing
+<pb n="42" facs="tcp:19692:25"/> the ſucceſſe to God, and reſting there<g ref="char:EOLhyphen"/>with contented, whatſoeuer it be, <hi>pro</hi> or <hi>contra.</hi> By theſe examine thy ſelfe, whe<g ref="char:EOLhyphen"/>ther true contentedneſſe be in thee, and conſequently godlines; if theſe bee not in thee, and thou ſtand not according to theſe affected, there is no contentednes in thee, and as little godlineſſe.</p>
+            <p>And that this contentednes ſhould follow godlineſſe, ſurely, it ſtandeth with all reaſon, though fleſh and blood ſay not ſo, but is alwaies hauing and repining: but that you may be brought to this, to account that you haue ſuffi<g ref="char:EOLhyphen"/>cient, be it more or leſſe, conſider with me theſe motiues following.</p>
+            <p>It is an argument that thou art god<g ref="char:EOLhyphen"/>ly, as both this place ſheweth thee, and the example of <hi>Iob</hi> declareth; for that was one proofe, that God had ſaid true, in commending him <hi>to bee an vpright and iuſt man,</hi> and <hi>one that feared God,</hi> I ſay, this prooued the ſame, namely his contentednes with much or little, and I tell you, this is no ſmal matter, to haue a marke, to aſſure thy ſelfe that thou art Gods, or rather, by this bee marked in the forhead for his; it is better to haue
+<pb n="43" facs="tcp:19692:25"/> this, then to weare a coate with the Kings armes vpon it: for, this aſſureth thee to be ſeruant to the King of Kings, the other, to a man, whoſe breath is in his noſtrils.</p>
+            <p>Whatſoeuer thou haſt is beſt for <milestone type="tcpmilestone" unit="unspecified" n="2"/> thee, be it more or leſſe, for thou being godly, and the ſonne, and the child of God, he, out of his fatherly reſpect to thee, (louing and reſpecting thee, more then a father, or mother can their child) giueth thee that which is beſt for thee, not that, which may pleaſe thy ha<g ref="char:EOLhyphen"/>uing corruption beſt; and therefore, thou art to thinke with thy ſelfe, if more were better, I ſhould haue it, but God ſeeth, that I would vſe it to his diſho<g ref="char:EOLhyphen"/>nour, it would puffe me vp, make mee proud, ſteale my heart from him, and make me forgetfull of him; and there<g ref="char:EOLhyphen"/>fore, he being wiſer, and knowing what is better for me then my ſelfe, doth al<g ref="char:EOLhyphen"/>lot me this as beſt for me: this, if wee were fully reſolued of, would bring vs to contentednes with our portion, being more or leſſe.</p>
+            <p>If thou haue any thing, it is more <milestone type="tcpmilestone" unit="unspecified" n="3"/> then thou haſt deſerued; for what haſt
+<pb n="46" facs="tcp:19692:26"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="47" facs="tcp:19692:26"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb n="44" facs="tcp:19692:27"/> thou deſerued, but to bee a vagabond and runagate, and to begge thy bread, and to goe vp and downe naked? ſure<g ref="char:EOLhyphen"/>ly nothing. If God therefore giue thee any thing, thou haſt good reaſon to bee content, for thou haſt more then thou canſt any waies deſerue, or challenge for merit and due.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="4"/> This is the way to get more, to bee contented with that wee haue, not to grudge, murmure and repine, <hi>for humi<g ref="char:EOLhyphen"/>litie is the way to honor,</hi> and God neuer aduanceth any of his, (for I iudge not ſuch as are without) but ſuch as he ſeeth are truly contented with that they haue, and euery ſuch a one, is the neareſt to preferment: ſo that therefore we ſhould learne to be contented, it being the next doore, degree and ſtep, to haue more.</p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="5"/> And ſurely, the contrary hereunto, diſcontentedneſſe, and alwaies finding fault with Gods allowance, is the way to moue God, not only to curſe that thou haſt, the meate and drinke thou putteſt into thy bellie, and the clothes thou put<g ref="char:EOLhyphen"/>teſt vpon thy backe, &amp;c. as hee did the meate in the mouthes of the murmu<g ref="char:EOLhyphen"/>ring Iſraelites, but alſo to bring worſe
+<pb n="45" facs="tcp:19692:27"/> things vpon thee, and to make thee to <hi>drinke thine owne iniquities,</hi> yea, to be in a far worſe eſtate then thou waſt before. For, where was it euer read or ſeene, that any moued through diſcontentedneſſe, labouring to better their eſtate, by their own wit, euer proſpered? not any where, let the builders of Babel ſpeak, the now wicked angels, that would be like God, the people of Iſrael, that muſt needs haue a King: if theſe fared well, then bee thou diſcontented, murmure and grudge; but if thou wouldeſt not drinke of the ſame ſauce, as they haue done, namely to be worſe then thou waſt be<g ref="char:EOLhyphen"/>fore, becauſe thou waſt wel, and couldeſt not hold thee ſo, I ſay, if thou wouldeſt not fare thus, labour to be conte<g ref="char:cmbAbbrStroke">̄</g>ted, and account ſufficient that thou haſt, bee it more or leſſe; weigh theſe motiues, and pray to God to ſanctifie the ſame vnto thee, thou that haſt not yet learned the leſſon of contentedneſſe.</p>
+            <p>Out of the ſecond ſenſe of the words, <hi>[with ſufficiencie]</hi> as they may be referred to the matter, containing a promiſe, we obſerue and teach.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Doct. </seg>
+               </label> Godlines is ſuch a gaine, that whoſo<g ref="char:EOLhyphen"/>euer
+<pb n="46" facs="tcp:19692:28"/> profeſſe the ſame, ſhall alwaies haue ſufficient, which God hath verified elſe<g ref="char:EOLhyphen"/>where, and left in black and white, ſealed with the blood of his owne Sonne: if we will but conſider the promiſes made to euery godly man, in the 28. of Deut. in the former part of that chapter, or what the Pſalmiſt hath recorded in Pſa. 34.11. or againe, in Pſal. 80. <hi>That no good thing ſhalbe wanting to them that feare the Lord, ſuch ſhall be fed with the finest wheat.</hi> 
+               <label type="milestone">
+                  <seg type="milestoneunit">Reaſ. </seg>
+               </label> And this muſt needs be true, if we conſider whereby wee challenge and hold the right we haue in the things of this life, namely, by our godlineſſe, ſo far as thou art in Chriſt, redeemed by his blood, and ſanctified by his Spirit, ſo farre thou art aſſured of ſufficiencie, and haſt right claime and intereſt to the things of this life, being loſt before by the firſt <hi>Adam,</hi> and recouered for thee, and all ſuch as feare God, by the ſecond <hi>Adam.</hi>
+            </p>
+            <p>
+               <milestone type="tcpmilestone" unit="unspecified" n="2"/> If we ioine hereunto the care of God, and the loue he beareth to his, this muſt needs be true: for, will hee care for the wicked, and not for his? in truth, hee ſheweth himſelfe to haue little care ouer them, if they profeſſe him, and he yeeld
+<pb n="47" facs="tcp:19692:28"/> not them ſufficient allowance. Then, as he is a carefull God, for the good of his, thou ſhalt haue ſufficient, if thou ſerue him.</p>
+            <p>To allure all to come to this eſtate, <label type="milestone">
+                  <seg type="milestoneunit">Vſe </seg>1</label> and to encourage all to go on herein, that haue laid hold on the ſame, for thou ſhalt haue ſufficient for thee and thine at all times, for thy ſeruice, the deare yeare, and old age, all is one to him; he wil not for charges caſt thee off in the one, nor diſcarde thee in the o<g ref="char:EOLhyphen"/>ther, for he is able to maintaine his fa<g ref="char:EOLhyphen"/>milie and houſhold, as well in the deare yeare, as when there is abundance of all things, and all things at an eaſie rate; for who euer ſerued God and wanted?</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Obiect. </seg>
+               </label> Some will ſay, notwithſtanding all that hath been ſaid, and Gods faire pro<g ref="char:EOLhyphen"/>miſes, yet they ſee men that ſerue God, haue little enough, and are often in great ſcarcitie and want.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Anſw. </seg>
+               </label> It is good that ſuch do look to them<g ref="char:EOLhyphen"/>ſelues, that their ſinnes be not the cauſe of the ſame.</p>
+            <p>None of Gods children, if they caſt <label type="milestone">
+                  <seg type="milestoneunit">Vſe </seg>2</label> their eie vpon their preſent condition, but they haue enough: for if in affliction
+<pb n="48" facs="tcp:19692:29"/> they haue ſufficient for that; if poore, <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> that: but if they conſider themſelues <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>therwiſe, according to that they are <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> but according to that they would <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> then they haue not enough, but th<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> ſufficiencie muſt be meaſured by th<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> preſent ſtanding, and ſo there is n<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> that followeth the Lord in truth, but <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> hath ſufficient.</p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Vſe </seg>3</label> Thou muſt meaſure thy ſufficiencie by the wil of the doner, not of thy ſelfe.</p>
+            <p>Thus farre haue I, according to the meaſure of grace receiued, proceeded in this Scripture. Now my deſire is, th<gap reason="illegible" resp="#UOM" extent="1+ letters">
+                  <desc>•…</desc>
+               </gap> all that reade the ſame, may gaine by this doctrine. Which, God for his Chriſts ſake, grant. <hi>Amen.</hi>
+            </p>
+            <closer>Amen.</closer>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>

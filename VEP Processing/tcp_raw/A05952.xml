@@ -1,0 +1,582 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The shepheards starre, or The ministers guide. By Richard Bayly late minister of Crawley in Sussex</title>
+            <author>Bayly, Richard, fl. 1640.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1640</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 76 KB of XML-encoded text transcribed from 33 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A05952</idno>
+            <idno type="STC">STC 1625</idno>
+            <idno type="STC">ESTC S112124</idno>
+            <idno type="EEBO-CITATION">99847382</idno>
+            <idno type="PROQUEST">99847382</idno>
+            <idno type="VID">12415</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A05952)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 12415)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1194:14)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The shepheards starre, or The ministers guide. By Richard Bayly late minister of Crawley in Sussex</title>
+                  <author>Bayly, Richard, fl. 1640.</author>
+               </titleStmt>
+               <extent>[2], 62 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by E. G[riffin] for Iohn Rothwell at the Sun in S. Pauls-Church-yard,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1640.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>A sermon.</note>
+                  <note>Printer's name from STC.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-11</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-01</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2013-01</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:12415:1" rendition="simple:additions"/>
+            <pb facs="tcp:12415:1" rendition="simple:additions"/>
+            <p>THE SHEPHEARDS STARRE, OR THE MINISTERS GVIDE.</p>
+            <p>By <hi>Richard Bayly</hi> late Miniſter of <hi>Crawley</hi> in <hi>Suſſex.</hi>
+            </p>
+            <q>
+               <bibl>
+                  <hi>Dan. 12.3.</hi>
+               </bibl>
+               <p>They that be wiſe ſhall ſhine as the bright<g ref="char:EOLhyphen"/>neſſe of the Firmament, and they that turne many to righteouſneſſe, as the Starres for ever, and ever.</p>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>E. G.</hi> for <hi>Iohn Rothwell</hi> at the Sun in S. <hi>Pauls-Church-yard,</hi> 1640.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:12415:2"/>
+            <pb n="1" facs="tcp:12415:2"/>
+            <head>
+               <hi>Concio ad Clerum.</hi> THE SHEPHEARDS STARRE. OR THE MINISTERS GUIDE.</head>
+            <epigraph>
+               <q>
+                  <bibl>Textus, Apocalypſis <hi>Cap. 1. Verſ. 16.</hi>
+                  </bibl> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. And hee bad in his hand Seven Starres.</q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">M</seg>Oſt of the parcells of the booke of God like the Ri<g ref="char:EOLhyphen"/>ver, whoſe waters iſſued out of the Sanctuary, doe ſometimes runne with a more ſhallow ſtreame where the wea<g ref="char:EOLhyphen"/>keſt
+<pb n="2" facs="tcp:12415:3"/> eye may finde a bottome. Some<g ref="char:EOLhyphen"/>times againe they fall into deeper channells above the reach of the tal<g ref="char:EOLhyphen"/>leſt heads. Only this laſt love-token which Chriſt bequeathed unto his Church with ſome other parts of di<g ref="char:EOLhyphen"/>vine writ, are as the maine Ocean, full of nothing but deeper myſteries, where the higheſt Elephant may Swimme, they are not for Lambes to wade in. S. <hi>Hierome</hi> no ſooner viewes this Sea, but he thinkes he may ſafely ſay, <hi>Tot Sacramenta, quot verba.</hi> The A<g ref="char:EOLhyphen"/>pocalypſe containes as many myſteries as words. But S. <hi>Auſtine</hi> ſomewhat mitigates the Apprehenſion of ſuch difficulty, <hi>In Apocalypſi multa obſcurè dicuntur, ut mentem legentis exerceant.</hi> Many things are here involued in a cloud of obſcurity, that the minde of the Reader might be exerciſed with greater diligence. The deeper ſearch of a more induſtrious hand may find out thoſe Gemmes and mines of Gold, which the ſlothfull eye cannot diſ<g ref="char:EOLhyphen"/>cerne upon the ſurface of the ground. The difficulty of theſe abſtruſer truthes made ſome in<note n="*" place="margin">Vide Don Ep. in Euſe. Et Hier. ep? ad Card<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>n.</note> thoſe primitive times
+<pb n="3" facs="tcp:12415:3"/> of the Church unjuſtly to thruſt them out of the Canon of their Faith.<note place="margin">Nazianzene Catal. Slci.</note> Sure we are, Chriſt never ſent this orientall Pearle as <hi>Primaſius</hi> calls it, his laſt pre<g ref="char:EOLhyphen"/>ſent unto his Spouſe, that ſhe ſhould keepe it under the key of ſilence and concealement. In the beginning of the propheſie, we are invited by a bleſ<g ref="char:EOLhyphen"/>ſing pronounced to them that reade it, and in the end a ſpeciall command is layd upon <hi>Iohn,</hi> ſeale not up the ſayings of this booke. <hi>Cap.</hi> 22.10.<note place="margin">
+                  <hi>Cap,</hi> 22.10.</note> Search them then we may with the more deliberate judgements of ſober minds, but not with the rawer phanſies of immature heades.<note place="margin">Iohn.</note> Chriſt would have his belo<g ref="char:EOLhyphen"/>ved Diſciple to out-live the reſt of the Apoſtles that in his older age, he might reveale theſe darker ſecrets un<g ref="char:EOLhyphen"/>to Gods Church. It is for the graveſt yeares and ripeſt heads to dive into the Sea of theſe hidden <hi>Revelations.</hi> Yet when the Spirit of God himſelfe ſhall pleaſe to be our Pilot, we need not feare the Rockes of errours, youn<g ref="char:EOLhyphen"/>ger eyes may have light enough to ſee what theſe ſeven Starres are in the right hand of Chriſt, when the ſpirit
+<pb n="4" facs="tcp:12415:4"/> itſelfe tells us,<note place="margin">
+                  <hi>C.</hi> 1.</note> (<hi>Ver.</hi> the laſt.) The ſeven Starres are the Angels of the ſeven Churches. What theſe Angels are, the whole body of expoſitors will ſpeake out of the mouthes of <hi>Primaſius,</hi> and <hi>Rupertus,</hi> The Biſhops of the ſeven Churches of <hi>Aſia, Et eorum nomine praeſules totius Eccleſiae Spirituales,</hi> and in their name, the ſpirituall Gover<g ref="char:EOLhyphen"/>nours and Miniſters of the whole Church; theſe are the Starres in the right hand of Chriſt.</p>
+            <p>
+               <note place="margin">Ap.</note>I could wiſh ſome Starre of greater magnitude then my ſelfe unworthy of the honour of this title, were now confin'd within this Orbe, to caſt up<g ref="char:EOLhyphen"/>on you the rayes of his more divine and deeper knowledge. It were fitter for my ſelfe to be a hearer, then a ſpea<g ref="char:EOLhyphen"/>ker in this grave aſſembly. Only give me leave to make my apology for that which ſuperiour power hath pleaſed to impoſe, in thoſe words of Saint <hi>Hierome</hi> unto <hi>Julian,</hi>
+               <note place="margin">Epiſt. ad Iu<g ref="char:EOLhyphen"/>lianum.</note> 
+               <hi>Athletae ſuis in<g ref="char:EOLhyphen"/>citatorib. fortiores ſunt, &amp; tamen monet debilior ut pugnet is qui fortior <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſt.</hi> The wiſedome of your Candid well tempered judgements ſhall make me
+<pb n="5" facs="tcp:12415:4"/> thinke that you will judge no Starre too meane, to leade you unto Chriſt, this Sonne of man in that Text; <hi>Qui habebat in dextrâ ſuâ ſtellas ſeptem,</hi> who had in his right hand ſeven Starres. Which words will yeeld themſelves divided into theſe two parts. Firſt,<note place="margin">Diviſ.</note> that appellation or title given, ſeven Starres. Secondly, the ſcituation or orbe, wherein they move, the right Hand of Chriſt. Firſt, of that firſt, the Appellation.</p>
+            <div type="part">
+               <head>Seven Starres.</head>
+               <p>To deſcant on the number Seven is more fit for <hi>Pythagoras</hi> his ſchoole then a divine Pulpit. It was ever held the number of perfection; and ſurely noe ſmall part of the worlds perfecti<g ref="char:EOLhyphen"/>on lies in theſe Starres. It may be ſufficient for us to know, that under that finite number here expreſſed, is included the whole company of the Preachers and Miniſters of the Goſ<g ref="char:EOLhyphen"/>pell. Theſe are the Starres in the right Hand of Chriſt.<note place="margin">Quare Stellae.</note>
+               </p>
+               <p>If you pleaſe to lend me your at<g ref="char:EOLhyphen"/>tentions
+<pb n="6" facs="tcp:12415:5"/> in the drawing of eight lines, you may behold your ſelves running parallell with that caeleſtiall Starre,<note place="margin">Quare Stellae, Octo ratio ves. Prima.</note> as your compleateſt patterne.</p>
+               <p>Firſt, the Starres are ordained to give light unto the world in the nights darkeneſſe.</p>
+               <p>The Miniſters of Chriſt alſo are appointed to diſpell the darknes of this preſent night of ignorance by the ſplendour of their Heavenly doctrine, which muſt reſemble the light of the Starres in theſe two reſpects.<note place="margin">Primum Membrum primae Rationis.</note> Firſt, the Starres ſhine with no other bor<g ref="char:EOLhyphen"/>rowed light then that which comes from the Sunne their fountaine; and all the light of the Miniſters doctrine muſt be ſuch as is derived from the Sunne of righteouſneſſe. <hi>Aretas</hi> ob<g ref="char:EOLhyphen"/>ſerves that the Holy Ghoſt hath cal<g ref="char:EOLhyphen"/>led the Churches <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>,<note place="margin">In Apoca<g ref="char:EOLhyphen"/>lypſc. <hi>1.12.</hi> v.</note> Candleſtickes and not Candles, they have noe proper light in themſelves, but are <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, as Charriots only to convey the light which is derived from above. Wee know the Candleſticke is the proper ſeate of Candles, and not of Starres. And yet
+<pb n="7" facs="tcp:12415:5"/> the Miniſters of Chriſt which ſhine in theſe golden Candleſtickes, muſt be called Starres, and not Candles. For the light of a Candle is droſſie and impute, borrowed from this in<g ref="char:EOLhyphen"/>ferior Earth. But the Miniſters doctrine muſt be like the more pure and hea<g ref="char:EOLhyphen"/>venly ſplendour of the Starres, ſuch as is derived from the Sunne of righte<g ref="char:EOLhyphen"/>ouſnes. When <hi>Moſes</hi> and <hi>Aron</hi> are joyned Commiſſioners in Gods Em<g ref="char:EOLhyphen"/>baſſadge unto <hi>Pharaoh,</hi> they muſt ſpeake no other words then God ſhall put into their mouthes.<note place="margin">Exod. 4.15</note> 
+                  <hi>Balaams</hi> firſt ſpeech ſmelt of the condition of a true Prophet, had he kept himſelfe to his own words, If <hi>Balak</hi> would give me his houſe full of ſilver and gold, I cannot goe beyond the Word of the Lord my God, to doe leſſe or more. <hi>Numb.</hi> 22.18.<note place="margin">Num. 22.18.</note> The people may deſier good <hi>Micaias</hi> mouth to learne the language to utter words like the words of one of the falſe Prophets, and to ſpeake that which is good and plea<g ref="char:EOLhyphen"/>ſant. But the prophet knowes it is not for ſuch a Starre to ſhine with any other light then what is derived from
+<pb n="8" facs="tcp:12415:6"/> Heaven, as the Lord liveth, what the Lord ſaith unto me, that will I ſpeake, 1. <hi>Kings.</hi> 22.13, 14. When <hi>Paul</hi> is made a Ueſſell to carry Gods Name unto the <hi>Gentiles,</hi> he dares not to deliver any thing unto the Church, which himſelfe hath not received from the Lord Chriſt. 1. <hi>Cor.</hi> 11.23.<note place="margin">1 Cor. 11.23.</note> The Miniſters of Chriſt ſhould alwayes feare to make the people receivers of ſuch pretended truthes, as are ſtollen out of the Shop of mens pri<g ref="char:EOLhyphen"/>vate fancies. What the civill Law ſpeakes of the woman is true of them, <hi>
+                     <g ref="char:V">Ʋ</g>xor lucet radiis mariti.</hi> They are noe longer Starres in the right hand of Chriſt, then they ſhine forth by the beames of his light. Theſe Starres noe ſooner fall from the Firmament of heavenly truthes, but they become burning lamps.<note place="margin">Rev. 8.10</note> 
+                  <hi>Flammâ proprii ſenſus &amp; igne ambitionis accenſi,</hi> ſaith <hi>Car<g ref="char:EOLhyphen"/>thuſian,</hi> ſet on fire with the flame of ſelfe conceit and fond ambition, their doctrines are noe longer like the naturall light of the Starres which comes by Gods creating, but like the artificiall blaze of a ſmoaking Lampe,
+<pb n="9" facs="tcp:12415:6"/> which is made by mans deviſing. <hi>Scaliger</hi>
+                  <note place="margin">Scaliger.</note> commends <hi>Eruditam quandam ignorantiam</hi> a certaine learned ignor<g ref="char:EOLhyphen"/>ance, when we make Gods revealed Will the bounds of our prying know<g ref="char:EOLhyphen"/>ledge. There are ſome deeper myſteries, which may well require <hi>Bernards</hi>
+                  <note place="margin">Bernard.</note> rule. <hi>Credere piëtas, ſcrutari temeritas.</hi> It will be better piety to believe then ſearch them; In theſe we ſhould wade noe farther then the Hand of Gods direction leads us in his bleſſed Word. Not <hi>(B)</hi> as if the Booke of God muſt of neceſſity be the only, though chiefe object of our contemplations: We are not ſo confin'd within theſe limits, but that we may ſometimes ſtep into humane learning without breaking the hedge of Gods permiſſion, we finde in Eccleſiaſticall Hiſtorie, a<g ref="char:EOLhyphen"/>mongſt many curſed deviſes, which <hi>Iulians</hi> head plotted againſt the Chri<g ref="char:EOLhyphen"/>ſtians,<note place="margin">Iulians plat.</note> this was none of the loweſt ſtampe; His prohibiting them to learne humane Authours in their publick Schooles, that ſo they might no lon<g ref="char:EOLhyphen"/>ger pierce the <hi>Gentiles</hi> with their own quills.<note place="margin">
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>n Socrates.</note> 
+                  <hi>Socrates</hi> reciting the Hiſtory
+<pb n="10" facs="tcp:12415:7"/> ſpends a whole Chapter in the defence of humane learning. The Fathers in<g ref="char:EOLhyphen"/>deed in the primitive Church being to encounter with heathens had more frequent uſe of ſuch learning to con<g ref="char:EOLhyphen"/>vince their errours out of their own principles. For as <hi>Socrates</hi> ſaith well, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. The enemies is then worſt hurt, when he is wounded with his own weapon. But we being eaſed of that labour, muſt be more ſparing, yet when we ſhall find ſuch ſpeeches dropt from the quills of heathens as are more befit<g ref="char:EOLhyphen"/>ting a Chriſtians mouth, then their Pennes, I know no reaſon, why we may not take thoſe jewells out of dung-hills, and place them in more convenient caskets. <hi>Nazianzen</hi> was not afrayd to blame ſome Chriſtians in his dayes,<note place="margin">Nazian. Orat. fun. in Baſilium.</note> that cryed out upon humane learning, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, as dangerous, as deceitfull, ſuch as uſually drives men farther off from God. We have not learn'd (ſaith he) to contemne the Sunne, and Starres of Heaven; becauſe
+<pb n="11" facs="tcp:12415:7"/> ſome have abuſed them, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, Worſhipping the things of God in the place of God. Our better wiſedome will be this, to leave the danger, and take the profit unto our ſelves. For we may ſay of humane Authours,<note place="margin">
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>heoph. Alex.</note> what <hi>Theophilus Alexan<g ref="char:EOLhyphen"/>drinus</hi> ſpake of <hi>Origens</hi> bookes. They are <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, like a field of all ſorts of Flowers. Our wiſedome ſhould be to gather ſuch fayre Roſes as may adorne the Garland of truth, and leave the thornes behind as un<g ref="char:EOLhyphen"/>ſefull. The <hi>Bees</hi> (ſaith <hi>Baſill</hi>) doe not faſten upon all Flowers,<note place="margin">Baſil. de legendis Lib. Gent.</note> and of thoſe, on which they fall, they take nothing but what is <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, Profitable to make their Honey. <hi>Moſes</hi> was firſt learned in all the wiſedom of the <hi>Aegyptians,</hi>
+                  <note place="margin">Acts 7.2<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </note> be<g ref="char:EOLhyphen"/>fore he was made Gods meſſenger un<g ref="char:EOLhyphen"/>to <hi>Pharaoh. Daniel</hi> was firſt taught the learning and the tongue of the <hi>Chaldeaens,</hi>
+                  <note place="margin">Daniel 1.</note> before he came to interpret divine viſions. Though the Apoſtles firſt learning was in their Fiſh-nets, yet the Holy Ghoſt muſt deſcend up<g ref="char:EOLhyphen"/>on them in the ſhape of cloven-fiery
+<pb n="12" facs="tcp:12415:8"/> tongue, before they ſhall be diſper<g ref="char:EOLhyphen"/>ſed abroad to teach all Nations.<note place="margin">Acts 2.4, 5.</note> 
+                  <hi>Paul</hi> himſelfe had been brought up at the feet of <hi>Gamaliel,</hi> and ſuch was his ſacred eloquence,<note place="margin">Acts 22.3.</note> that he was eſteemed by the Infidels a <hi>Mercury,</hi> the god of eloquence, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, ſaith <hi>Chryſoſtome,</hi>
+                  <note place="margin">Act 14.12.</note> becauſe he excelled ſo much in ſpeaking, wearing the gar<g ref="char:EOLhyphen"/>land before the chiefeſt Oratour. He<g ref="char:EOLhyphen"/>reſy indeed hath noe better weapons to defend her ſelfe then humane elo<g ref="char:EOLhyphen"/>quence: Therefore <hi>
+                     <g ref="char:V">Ʋ</g>incentius Lyrenen<g ref="char:EOLhyphen"/>ſis</hi> obſerves, that <hi>Origens</hi> and <hi>Ter<g ref="char:EOLhyphen"/>tullians</hi> tranſcendent learning made their erroneous tenents, the more dan<g ref="char:EOLhyphen"/>gerous. The Syren-tunes of ſuch e<g ref="char:EOLhyphen"/>loquence are no better then <hi>Tertullians Stillicidia mellis de libalunculo venena<g ref="char:EOLhyphen"/>to,</hi>
+                  <note place="margin">Te<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>tullian.</note> as that criticall Father ſpeakes, droppes of Honey out of a poyſoned Lymbeck. But when humane learning is uſed only as an ornament unto truth, ſhe will never diſlike, that her nakednes ſhould be covered with ſuch garments. S. <hi>Auguſtine</hi> confeſſeth, It was that eloquence of <hi>Ambroſe,</hi> which firſt wrought upon his young affecti<g ref="char:EOLhyphen"/>ons.
+<pb n="13" facs="tcp:12415:8"/> And M<hi rend="sup">r</hi>. <hi>Zanchy</hi> thinkes it noe part of an indiſcreet Cooke ſo to pre<g ref="char:EOLhyphen"/>pare his diſhes, that the pleaſantnes of the ſawce, may make thoſe truthes to relliſh with the palates of ſome, which otherwiſe would diſtaſt them as unſavoury. The bitter pills of more ſharp and piercing inſtructions, roll'd in ſugar'd eloquence may be ſwallow<g ref="char:EOLhyphen"/>ed with greater eaſe. Only <hi>(B)</hi> here our care ſhould be, to account <hi>Salomons</hi> porch our beſt Athens,<note place="margin">Tert<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>l.</note> and to keepe our uſuall walke within the circuite of Gods booke.</p>
+               <p>They report of <hi>Caroloſtadius,</hi> whoſe firſt education was in popiſh Schooles, that he was, <hi>Octo annorum doctor,</hi> when he came to the reading of the Scrip<g ref="char:EOLhyphen"/>tures, and yet was regiſtred in the publick acts of the Univerſity, <hi>Suffi<g ref="char:EOLhyphen"/>cientiſſimus,</hi> one moſt ſufficient to be a teacher of Gods Church. Such popiſh Method will ſcarce make good Divines. The Apoſtles knew nothing unleſſe <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, the heavenly inſpired Scriptures able to make the man of God perfect, and furniſhed unto every good worke, 2. <hi>Tim.</hi> 3.16.<note place="margin">2 Tim. 3.1<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> 17.</note>
+                  <pb n="14" facs="tcp:12415:9"/> 17. Hereby onely we ſhall deſerve S. <hi>Hieromes</hi> prayſe of <hi>Nepotian,</hi>
+                  <note place="margin">
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>n Epiſt. ad Heliodorum.</note> 
+                  <hi>Lecti<g ref="char:EOLhyphen"/>one aſſiduâ &amp; meditatione diurnâ pictus ſuum fecerat Bibliothecam Chriſti.</hi> Our continuall ſtudy, and dayly medita<g ref="char:EOLhyphen"/>tion on Gods booke will make our breaſts as the Libraries of Chriſt, that ſo whatſoever truth proceeds from our doctrines may bee like the light of the Starres derived from the Sunne of Righteouſnes.</p>
+               <p>
+                  <note place="margin">Secund<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Sec. 1 ae. Rationis.</note>Secondly, the light of Starres is al<g ref="char:EOLhyphen"/>wayes accompained with ſome quick<g ref="char:EOLhyphen"/>ning heate, ſo ſhould the light of the Miniſters doctrine be ever warmed with the kindly heate of true zeale. Faithfull <hi>Moſes</hi> can no ſooner ſee the people dancing about the Calfe,<note place="margin">Exodus 32 20.</note> but the fire of his zeale ſhall quickly melt that golden vanity. What <hi>Nazi<g ref="char:EOLhyphen"/>anzen</hi> reports of <hi>Baſill,</hi>
+                  <note place="margin">Orat: fun. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>n Baſil.</note> is a fit em<g ref="char:EOLhyphen"/>b<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>me of a Miniſter. A pillar of fire, with this Motto, <hi>Talis eſt Baſilius.</hi> So <hi>Nazianzene</hi> ſaith of him, that he was, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> as a fere amongſt Thornes, ſoone conſuming the ſtrawie manners of the wicked with the heate of his
+<pb n="15" facs="tcp:12415:9"/> burning zeale. We reade of <hi>Phinehas,</hi>
+                  <note place="margin">Pſ. 106.30.</note> that he ſtood up and executed judge<g ref="char:EOLhyphen"/>ment, and the Plague ſtayed. What a ſtay would there be of the plague of ſinne, how would Satans kingdome be ſtreightned, if our ſpirituall <hi>Phi<g ref="char:EOLhyphen"/>nehaſſes,</hi> were all knit together as one man, like thoſe <hi>Iſraelits</hi> at <hi>Gibeah. Iudges</hi> 20.11.<note place="margin">Iudges 20 11.</note> To publiſh judgements againſt the rebellions of the people. Trembling feare would not ſuffer the Drunkard to hold his Cups; the Swea<g ref="char:EOLhyphen"/>rer, and Adulterer would be weary<g ref="char:EOLhyphen"/>ed with continuall purſuites, did the Trumpets of Gods Sanctuary never ceaſe to proclaime warre, and de<g ref="char:EOLhyphen"/>ſtruction againſt ſuch ſinnes. We love too much that our Pulpits ſhould eccho forth the ſweeter ſounds of mercy, and not the harſher tunes of judge<g ref="char:EOLhyphen"/>ment. But <hi>Gregory Nyſſen</hi> tells us,<note place="margin">Greg<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>y Nyſſi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </note> that the dead Snakes are never raiſed un<g ref="char:EOLhyphen"/>leſſe by a clappe of thunder. The ſe<g ref="char:EOLhyphen"/>cure ſinner will ſcarce be rayſed out of his dead ſleep, unleſſe by thoſe lowder clappes of judgements which come from <hi>Iames</hi> and <hi>John,</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> ſonnes of Thunder.<note place="margin">Chryſoſtome.</note> Its obſerved of <hi>Chryſo<g ref="char:EOLhyphen"/>ſtome,</hi>
+                  <pb n="16" facs="tcp:12415:10"/> that he reprooved ſinne as if it had been an injury done unto him<g ref="char:EOLhyphen"/>ſelfe;<note place="margin">
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>hryſoſtome Vide Centu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Magdebu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.</note> We ſhould never want words of reproofe, if we could make the peoples ſinnes, our own injuries. We reade the zeale of that holy Father, and cannot but admire his valour. <hi>Zozomene</hi>
+                  <note place="margin">Zozomene.</note> tells us, the disfavour of the times were the portion of his Cup, that makes us fearefull to walke in his ſteps. We love the prayſes of men, more then the prayſe of God, but <hi>Hierome</hi> thinkes,<note place="margin">Epiſt. ad Nepotionum.</note> 
+                  <hi>Lachrymae auditorum laudes tuae ſint,</hi> The hearers teares will be the beſt prayſes of our Pulpit Oratory. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> was <hi>Pauls</hi> rule for <hi>Titus,</hi> 1.13.<note place="margin">Titus 1.13</note> Its a ſharpe-cut<g ref="char:EOLhyphen"/>ting word, written in Vinegar, and wil not pleaſe the palates of moſt men. But ſure we are, we ſhould diſcover the skill of weake Chirurgions, if we ſhould never uſe the knife of the Law to cut off putrifyed members, as well as the gentle. Oyle of the Goſ<g ref="char:EOLhyphen"/>pell, to poare into leſſer and freſher wounds. Not <hi>(B)</hi> as if their breaths ſhould alwayes ſmell of the ſowreneſſe of the Law, and never of the ſweet<g ref="char:EOLhyphen"/>neſſe
+<pb n="17" facs="tcp:12415:10"/> of the Goſpell. It was <hi>Luthers</hi>
+                  <note place="margin">Luther.</note> excuſe to thoſe that reproved his ſharpe-teeth'd Sermons, <hi>Cortex meus amarus, nucleus v. dulcis,</hi> under the bitter rind of Gods ſeverer Juſtice, we ſhould include the more pleaſant kernell of his mercy. In the Arke of the Tabernacle (ſaith <hi>Gregory) Virga Simul &amp; Manna,</hi>
+                  <note place="margin">Gregori s ib. <hi>3.</hi> mor.</note> 
+                  <hi>Arons</hi> Rod and the Manna were layd up both to<g ref="char:EOLhyphen"/>gether. We muſt feed the people ſome<g ref="char:EOLhyphen"/>times with that ſweeter Manna of the promiſes as well as ſtrike them with the Rod of more bitter threatnings. Thus ſhould the light of our doctrine be like the ſplendour of the Starres, both driven from the Sunne of Righte<g ref="char:EOLhyphen"/>ouſnes and warmed with the heate of zeale, that ſo we may bee true Starres in the right Hand of Chriſt, to diſpell the darknes of this night of ignorance.</p>
+               <p>Secondly,<note place="margin">Ratio Secun.</note> the Starres of Heaven not only in their light, but in their well ordered motion doe ſpeake forth the prayſes of their Creatour. Theſe Starres in Chriſt Hand muſt be the <hi>Glory of Chriſt</hi> by the regulate moti<g ref="char:EOLhyphen"/>on<note place="margin">1 Cor 8.23</note>
+                  <pb n="18" facs="tcp:12415:11"/> of a holy life as well as by the ſhining light of ſound doctrine.<note place="margin">
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>.</note> We may obſerve that the Lord made his ancient Prophets to preach by their outward practiſes as well as by their words. <hi>Noah</hi> muſt be a Preacher of Righteouſnes by the building of an Arke;<note place="margin">
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>eremy 27.<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> &amp; 28.</note> 
+                  <hi>Ieremy</hi> muſt put yoakes on his own neck when he brings newes of <hi>Babyloniſh</hi> bands. <hi>Ionah</hi> muſt firſt practiſe Repentance in the Whales belly before he can well preach Re<g ref="char:EOLhyphen"/>pentance to ſinfull <hi>Nineveh.</hi>
+                  <note place="margin">
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>onah. 1.17 <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>, 4.</note> 
+                  <hi>Beda</hi> ob<g ref="char:EOLhyphen"/>ſerves that <hi>Moſes</hi> did firſt ſanctifie the Sonnes of <hi>Aron</hi> by waſhing,<note place="margin">Exodus 40 12.13.</note> and annointing, before he would cloath them with the holy garments of the Prieſt-hood.<note place="margin">Beda.</note> 
+                  <hi>Sacerdotum animi ab<g ref="char:EOLhyphen"/>luendi, deinde ſacris ordinib. Veſtiantur.</hi> A Miniſter is then fit to be inveſted with ſacred orders when his ſoule is waſhed from the ſilth of a ſinfull life. The holynes of our lives is that only which will make both our perſons ho<g ref="char:EOLhyphen"/>noured, and our doctrines powerfull, unto Gods glory. This was <hi>Pauls</hi> rejoycing. 2 <hi>Cor.</hi> 1.13.<note place="margin">2 Cor. 1.13</note> That he wrote noe other things unto them then what
+<pb n="19" facs="tcp:12415:11"/> they might reade in him. This will be a Miniſters chiefeſt honour, when there is nothing written in his tongue, which the people may not reade in his life.</p>
+               <p>If <hi>Origen</hi> will have his name ſpread in Gods Church with a ſweet ſmel<g ref="char:EOLhyphen"/>ing odour, this only muſt doe it;<note place="margin">Euſeb. de Origene lib. <hi>6.</hi> cap. <hi>8.</hi>
+                  </note> 
+                  <hi>Hic eſt, qui vivit ut docet, &amp; docet ut vi<g ref="char:EOLhyphen"/>vit,</hi> as <hi>Euſebius</hi> reports of him. The Apoſtles care was in nothing to give offence, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. 2. <hi>Cor.</hi> If <hi>Momus</hi> can eſpy faults and ſcandalls in <hi>Pauls</hi> life,<note place="margin">2 Cor. 6.3.</note> he will ſoon faſten the teeth of cenſure, and con<g ref="char:EOLhyphen"/>tempt upon his Miniſtery. Surely the eloquence of our tongues will little prevaile with our hearers, un<g ref="char:EOLhyphen"/>leſſe as <hi>Beda</hi> ſpeakes of <hi>Chunibert,</hi>
+                  <note place="margin">Bedae de Ch<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>mberto dictum.</note> 
+                  <hi>Quae agenda docebat, ipſe prius agendo praemonſtrabat.</hi> Wee ſhew forth the truth of that by action in our lifes, which we preach ſhould be done in our Pulpits.<note place="margin">A. Gellius de Lacedaem.</note> 
+                  <hi>Aulus Gellius</hi> obſerves a cuſtome amongſt the <hi>Lacedemonians,</hi> When a good ſentence proceeded out of an evill mouth, (that it might have the greater force,) they retai<g ref="char:EOLhyphen"/>ned
+<pb n="20" facs="tcp:12415:12"/> the ſentence, and changed the authours name. For moſt true is that of <hi>Gregory.</hi>
+                  <note place="margin">
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>regory.</note> 
+                  <hi>Loquendi authoritas per<g ref="char:EOLhyphen"/>ditur quando vox opere non adjuvatur.</hi> We ſhall ſoone looſe the authority of our ſpeaking, if our words be not helped forward with our workes. I know thee who thou art, the holy one of God, was the language of that uncleane ſpirit, <hi>Marke</hi> 1.24.<note place="margin">Mark. 1.24</note> It was the holyneſſe of Chriſts perſon which made the Divells tremble. <hi>Eraſmus</hi> in one of his Epiſtles men<g ref="char:EOLhyphen"/>tions a ſtory of the Divells lifting up one of his creatures to the top of a Chimney in that Towne of <hi>Shil<g ref="char:EOLhyphen"/>tach</hi> in <hi>Germany,</hi>
+                  <note place="margin">Epiſt. lib. <hi>27</hi> Epiſt. <hi>20</hi> &amp; ex eodem Bucholcerus anno. <hi>2533</hi>
+                  </note> that at the turning of a pot, which he put into her hands, the whole Towne might be ſet on fire. The blindnes of thoſe times ſent for two Prieſts to lay downe the curſed ſpirit with their charmes, and to quench thoſe intended flames with their holy-waters. But the Divell could ſoone anſwer, that he feared not their threatning words, <hi>Quòd alter eſſet Scortator, uterque Fur.</hi> When one of them was an Adulterer
+<pb n="21" facs="tcp:12415:12"/> and both of them Theeves. The wiſeſt charmes from the mouth of a looſe-liver will little prevayle to caſt the Divell out of his ſtrong poſſeſſion of a ſinners heart.</p>
+               <p>I cannot deny, but the maſter may ſend a good worke of charity by the hand of a bad ſervant, and ſometime ſaith <hi>Cyprian, Per alium licet impeni<g ref="char:EOLhyphen"/>tentem, miſericors dominus alium revo<g ref="char:EOLhyphen"/>care vult ab impenitentiâ.</hi> Some like the playſter may heale the wounded hearts of others, and themſelves at laſt bee caſt into the fire; Like the water of <hi>Baptiſme</hi> (to uſe <hi>Gregories</hi> Expreſſion) <hi>quae peccata Baptizato<g ref="char:EOLhyphen"/>torum diluens illos ad regnum Caeleſte mittit, &amp; ipſa in cloacas deſcendit.</hi>
+                  <note place="margin">In Hom. <hi>2</hi>
+                  </note> How<g ref="char:EOLhyphen"/>ſoever thoſe only are moſt likely to pull down Satans ſtrongeſt holds, which bring the ſword of the ſpirit in the hand of a holy life.<note place="margin">Camerarius in Theodo<g ref="char:EOLhyphen"/>reti Hiſtor</note> 
+                  <hi>Camera<g ref="char:EOLhyphen"/>rius</hi> obſerves of <hi>Athanaſius, Mores illius &amp; oratio plus nocuere adverſariis quàm ſcripta,</hi> he hurt his adverſaries more by his good life then great learning. Our ſpirituall adverſary Sa<g ref="char:EOLhyphen"/>tan will be ſooner vanquiſhed with
+<pb n="22" facs="tcp:12415:13"/> the unſpotted ſanctity of our lifes, then the learned eloquence of our tongues. It is indeed the moſt recei<g ref="char:EOLhyphen"/>ved opinion, that the Caeleſtiall Starres doe virtually produce that heate in this ſublunary world which is not in<g ref="char:EOLhyphen"/>herent in themſelves. But the more ancient ſearchers into natures ſecrets could not well conceive how they ſhould have power to give that unto others, which they wanted in them<g ref="char:EOLhyphen"/>ſelves.<note place="margin">
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>en. <hi>1 <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>1.</hi> aec opino <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ridet <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>heodoreto, <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> prima <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rat. de <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rovid.</note> Therefore <hi>Plato</hi> ſomewhat al<g ref="char:EOLhyphen"/>ters the phraſe of <hi>Moſes,</hi> In the beginning God created <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, The Earth and the Heaven, in his opinion a Globe of purer fire, where<g ref="char:EOLhyphen"/>of the Starres are the more conden<g ref="char:EOLhyphen"/>ſed parts. Sure we are, our ſpirituall Starres will have ſmall or noe virtue to produce the heate of holyneſſe in the breaſts of others, if their owne hearts were never yet baptized with the fire of the ſpirit. We may bring more hurt then profit to GODS Church,<note place="margin">Bernard.</note> if we be, <hi>Catholici praedi<g ref="char:EOLhyphen"/>cando, haeretici verò vivendo,</hi> as <hi>Ber<g ref="char:EOLhyphen"/>nard</hi> ſpeakes, Catholickes, in our doctrines and Heretickes, in our lifes.
+<pb n="23" facs="tcp:12415:13"/> For of the two, (ſaith <hi>Iſidore Pelu<g ref="char:EOLhyphen"/>ſiota</hi>) <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.<note place="margin">Iſidorus.</note> The bad example of our looſe lifes may carry more ſoules to Hell then the good words of our golden tongues can convey to Heaven. <hi>Theodorete</hi>
+                  <note place="margin">Theodoretus</note> hath obſerved in his firſt oration <hi>de providentiâ</hi> that God hath given the Starres not only to enlighten the nights darknes, but hath made them alſo by the poſition, and order of their motions, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, as ſo many markes and foote ſtepps to guide the wary marriner thorough the untrackt pathes of his watry voyage. Chriſt would have his ſpirituall Starres to be ſuch in the order and motion of their lifes, that thoſe which ſayle on the Sea of this world may by the guid<g ref="char:EOLhyphen"/>ance of their good example be ledd ſafely to the Haven of future hap<g ref="char:EOLhyphen"/>pineſſe. But when that light of grace which ſhould ſhine forth in their lifes ſhall be turned into the filthy vapour of an <hi>Ignis Fatuus,</hi> it will quickly lead many followers with them in<g ref="char:EOLhyphen"/>to pitts of deſtruction. Natures in<g ref="char:EOLhyphen"/>ſtinct
+<pb n="24" facs="tcp:12415:14"/> teaches the people to make their leaders life as their looking glaſſe, whereby they dreſſe and attire their own manners. Therefore it was (as <hi>Minutius Faelix</hi> conjectures) that the Devills policy made the Poets fayne their heatheniſh gods guilty of the worlds pollutions,<note place="margin">Minutius Faelix pag. <hi>
+                        <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>78.</hi>
+                  </note> 
+                  <hi>
+                     <g ref="char:V">Ʋ</g>t vitiis hominum auctoritas quaedam pararetur.</hi> That the vices of men might get ſome autho<g ref="char:EOLhyphen"/>rity from their example. The falls of higher Cedars will deſtroy thoſe leſſer ſhrubs which grew under the ſhelter of their boughes. <hi>Caput malum, Caput mali,</hi> is the phyſitians rule, An evill head is the head of evill, <hi>vicious humours</hi> will quickly flow thence to marre the health of the whole body.<note place="margin">Ieremy 23.28, 15.</note> From the Prophets in <hi>Hieru<g ref="char:EOLhyphen"/>ſalem</hi> will prophanenes ſoone goe forth into all the land:<note place="margin">Auguſti. Confeſſ.</note> let not then <hi>(B)</hi> S. <hi>Auguſtines</hi> complaint of his dayes be any longer true of ours, <hi>Sur<g ref="char:EOLhyphen"/>gunt indocti &amp; rapiunt Caelum, &amp; nos cum doctrinis noſtris excludimur.</hi> Why ſhould we carry our literature about with us as <hi>
+                     <g ref="char:V">Ʋ</g>riahs</hi> letter to be our owne deſtruction?<note place="margin">2 Sam. 14.12.</note> 
+                  <hi>Suetonius</hi> re<g ref="char:EOLhyphen"/>ports
+<pb n="25" facs="tcp:12415:14"/> of <hi>Iulius Caeſar,</hi> that when he was ſlayne in the Senate houſe there were thoſe letters found about him, which if he had but reade might have diſcovered his plotted death. Pitty it were that any ſhould dye in Hell with thoſe letters, that learning a<g ref="char:EOLhyphen"/>bout them, which if they had read in practiſe, might have diſcovered a way to have eſcaped that eternall miſery. Why ſhould not the ſame boate convey the ferry man as well as the paſſengers to the other ſide of <hi>Iordan</hi> into the Land of <hi>Canaan?</hi>
+                  <note place="margin">Levit. 10.3. Num. 11.11.</note> Surely God will never endure unho<g ref="char:EOLhyphen"/>ly lives in thoſe which are neare him and which ſhould ſanctify him be<g ref="char:EOLhyphen"/>fore the people. <hi>Moſes</hi> ſhewed ſome want of faith in the matter of the quailes. (<hi>Numbers</hi> 11.21.) yet this being done in private obtained the Lords connivence. But when his more publick unbeliefe diſhonours God in the ſight of the people, noe leſſe then the loſſe of an Earthly <hi>Ca<g ref="char:EOLhyphen"/>naan</hi> muſt be his puniſhment.</p>
+               <p>Chriſt will ever looke that thoſe which he honours bee Starres in his<note place="margin">Num. 20.</note>
+                  <pb n="26" facs="tcp:12415:15"/> right hand ſhould prayſe him in the regulate motion of a well-ordered converſation as well as in the light of ſound doctrine.</p>
+               <p>
+                  <hi>Aelian</hi> tells us that the high-Prieſt among the <hi>Aegyptians</hi> was wont to weare about his neck an ornament of a ſaphyre ſtone, which was called by the name of <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> or truth. <hi>
+                     <g ref="char:V">Ʋ</g>rim</hi> and <hi>Thummim,</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, ma<g ref="char:EOLhyphen"/>nifeſtation &amp; truth, as the ſeptuagint have it, are ſuch ornaments which ſhould be ever found in the breaſts of Gods Prieſts, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> (ſo the ſeptuagint render their <hi>
+                     <g ref="char:V">Ʋ</g>rim</hi> and <hi>Thummim</hi> on the breaſt of the high Preiſt under the Law) manife<g ref="char:EOLhyphen"/>ſtation and truth are ſuch ornaments, which muſt never be wanting from the breaſts, and hearts of GODS Prieſts.</p>
+               <p>
+                  <note place="margin">
+                     <hi>Ratio.</hi> 3.</note>Thirdly, the Celeſtiall Starres be<g ref="char:EOLhyphen"/>ſides their light and motion have a ſecret influence into the deeper bowells of the Earth, whither their light cannot reach. Theſe ſpirituall Starres in Chriſts Hand muſt have ſome good influence into the hearts of thoſe, to
+<pb n="27" facs="tcp:12415:15"/> whom their light of Doctrine or ex<g ref="char:EOLhyphen"/>ample and motion of life cannot ex<g ref="char:EOLhyphen"/>tend, and that by their prayers,<note place="margin">Influence by Prayer.</note> and by their Charity.</p>
+               <p>He is a Prophet, and he ſhall pray for thee, was the language of elder times <hi>Gen.</hi> 20.7.<note place="margin">Gen. 20.7</note> And it ſhould be the dialect of our dayes: God forbid that <hi>Samuel</hi> ſhould ever ſinne againſt the Lord in ceaſing to pray for<note n="*" place="margin">1 Sam. 12 23. <hi>Lu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>her</hi> of Prayer.</note> 
+                  <hi>Iſrael.</hi> Prayer is one of <hi>Luthers</hi> three things, which concurre to the making up of a good Divine, and am ſure it is the beſt conduite-pipe to convey every good and perfect gift from a<g ref="char:EOLhyphen"/>bove into the Church beneath. How would <hi>Amalek</hi> fall before the face of <hi>Iſrael,</hi> did the firme ſtone of con<g ref="char:EOLhyphen"/>ſtant devotion keepe up the hands of faithfull <hi>Moſes</hi> in continuall prayer.<note place="margin">Exodus 17.11, 12.</note> When good <hi>Alexander</hi> ſpends the whole night in Prayer, <hi>Arrius</hi> that blazing Starre ſhall ſooner goe out with an ill ſmell then come to be en<g ref="char:EOLhyphen"/>thron'd in a chayre of expected ho<g ref="char:EOLhyphen"/>nour. <hi>Vide Socratis Hiſt. lib.</hi> 1. We know not <hi>(B)</hi> what wonder wor<g ref="char:EOLhyphen"/>king efficacy there is in the fervent
+<pb n="28" facs="tcp:12415:16"/> Prayer of a righteous heart.<note place="margin">James 5.16</note> Memo<g ref="char:EOLhyphen"/>rable is that ſtory mention'd by <hi>Xiphilinus</hi> the contracter of <hi>Dion,</hi>
+                  <note place="margin">X philinus de Marc. Anton.</note> and we finde it alſo in that Epiſtle of <hi>Marcus</hi> the Emperour in that worke of <hi>Iuſtine Martyr.</hi> When that Emper<g ref="char:EOLhyphen"/>ours Army not overcome by their enemies ſword was like to periſh for want of water; The prayers of a band of Chriſtians in the army brought down thunderbolts on the heads of their enemies, and a cooling ſhowre to refreſh their own wants. Were the prayers of Gods faithfull Mini<g ref="char:EOLhyphen"/>ſters the Charriots, and Horſe-men of <hi>Iſrael,</hi> ſhot forth with all their ſtrength, they might be able to croſſe the Seas and like that <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> fall with the ſweete influence of a refreſhing ſhowre upon the Tents of Gods <hi>Iſrael,</hi> and as hote thunder<g ref="char:EOLhyphen"/>bolts upon the heads of their <hi>Aegyp<g ref="char:EOLhyphen"/>tian</hi> Enemies.</p>
+               <p>
+                  <note place="margin">Influence by charity.</note>But our Prayers alſo muſt be wing'd with Charity, or elſe they will ſcarce bring the true Olive branch of com<g ref="char:EOLhyphen"/>fort in their mouthes unto poore diſtreſſed Chriſtans. <hi>Sic mens per com<g ref="char:EOLhyphen"/>paſſionem
+<pb n="29" facs="tcp:12415:16"/> doleat, ut &amp; larga manus af<g ref="char:EOLhyphen"/>fectum doloris Oſtendat,</hi> is <hi>Gregories</hi> rule. The mind muſt ſo grieve over the miſeries of others by compaſſion, that the affection of the heart be ſhew<g ref="char:EOLhyphen"/>ed in the largenes of the hand. Good wiſhes are the breaths of Charity, they may bring ſome cooling blaſts of leſſer comforts; but they are the hands of action muſt affoord the trueſt helpe. The Starres above enjoy not their influence to themſelves, but caſt it forth into the bowells of the Earth where they produce pretious miner<g ref="char:EOLhyphen"/>alls and heapes of gold in thoſe ear<g ref="char:EOLhyphen"/>then Coffers. Theſe ſpirituall Starres in Chriſts Hand ſhould not pleaſe them<g ref="char:EOLhyphen"/>ſelves in a ſelf fruitio<g ref="char:cmbAbbrStroke">̄</g> of their goodnes, they ſhould by ſome ſecret influence of their Charity produce golden mines of comforts in thoſe fleſhy cabbinets, the bowells of poore dejected Chriſti<g ref="char:EOLhyphen"/>ans. <hi>Aurum habet Eccleſia,</hi>
+                  <note place="margin">Ambroſe.</note> 
+                  <hi>non ut ſervet ſed ut eroget,</hi> is the judgement of S. <hi>Ambroſe.</hi> God gives the Church her wealth not to impriſon within iron barres, but to helpe the diſtreſſes of the poore. The ſtomack receives not the meate to keepe it to her ſelfe,
+<pb n="30" facs="tcp:12415:17"/> but ſends it abroad into the other parts.<note place="margin">Stomachus Eccleſ. Auth <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>p. imperf. in Matthaeum.</note> The Miniſters are as the ſtomack of the Church, they receive not the mercies of God to be lock't up with<g ref="char:EOLhyphen"/>in the narrow confines of their own ſole injoyement, but to tranſfuſe them thorough the veines of Charity a<g ref="char:EOLhyphen"/>mongſt all the members of Chriſts body.<note place="margin">Luke 10.32.</note> It ſhould not be ſayd in our dayes, <hi>Levites</hi> paſſe by on the other ſide, when <hi>Samaritans</hi> ſtand ſtill to powre the oyle of Mercy into woun<g ref="char:EOLhyphen"/>ded travailers. This will be ever ex<g ref="char:EOLhyphen"/>pected from the Starres of Chriſt, that they ſhould have ſome good influ<g ref="char:EOLhyphen"/>ence into the hearts of others by their prayers and by their Charity.</p>
+               <p>
+                  <note place="margin">
+                     <hi>Ratio.</hi> 4.</note>Fourthly, the Starres of Heaven are ever reſtleſſe in their motion, and yet never wearyed. Theſe Starres in Chriſts hand muſt imitate the dili<g ref="char:EOLhyphen"/>gence of their pattern by the practiſe of an unwearyed patience in the mo<g ref="char:EOLhyphen"/>tion of their reſtleſſe function. The office of a Miniſter did never yet con<g ref="char:EOLhyphen"/>ſiſt in idleneſſe.<note place="margin">1 Tim. 3.1</note> He that deſireth the office of a Biſhop deſireth a good worke. <hi>Laborem, non delicias; ut inter<g ref="char:EOLhyphen"/>miſſâ
+<pb n="31" facs="tcp:12415:17"/> Rachelis decorâ facie intret ad Leam oculis lippam,</hi> as <hi>Hierome</hi> ſpeakes. A worke it is, and not a play;<note place="margin">1 Tim. 4.15</note> a lea<g ref="char:EOLhyphen"/>ving of <hi>Rachels</hi> fayre face to enter in<g ref="char:EOLhyphen"/>to bleare-eyed <hi>Lea.</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Our whole ſelves may be well imployed in the ſervice of this work.<note place="margin">1 Tim. 6.12.</note> 
+                  <hi>Timothy</hi> wil ne<g ref="char:EOLhyphen"/>ver find it a matter of eaſe, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Many bitter agonies attend the calling of a Miniſter. Thoſe indeed which have learned the art of caſting their whole burden upon the backes of others reſerving nothing to them<g ref="char:EOLhyphen"/>ſelves,<note place="margin">Bernard. ſic &amp; Ch<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>yſoſt. voc<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>t <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>. lib. <hi>3.</hi> 
+                     <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> Sacerd.</note> know not whether S. <hi>Bernard</hi> ſpeakes ſence, when he calls the Mi<g ref="char:EOLhyphen"/>niſtery, <hi>Onus ipſis angelis formidan<g ref="char:EOLhyphen"/>dum,</hi> a burden under which the Angells may well tremble. The Poets fained of <hi>Pallas,</hi> that ſhee left off her Trumpets when ſhee ſaw her cheekes began to ſwell with blowing. It muſt not bee true of Chriſts Mini<g ref="char:EOLhyphen"/>ſters that they ceaſe to ſound the Trumpets of the Sanctuary, when their faces begin to ſwell with the fatneſſe of the Earth. We ſhall bee then moſt enemies to our own graces, when wee doe leaſt good unto the
+<pb n="32" facs="tcp:12415:18"/> people.<note place="margin">Clemens Alex.</note> 
+                  <hi>Clemens Alexandrinus</hi> com<g ref="char:EOLhyphen"/>pares the graces of Gods Spirit unto wells of living waters. Thoſe wells which are continually drawn. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, ſend forth their water more cleare and reſplendent. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. But thoſe turne to corruption of whom no man partakes. We are all as leſſer Ciſternes partaking of the fullnes of Chriſt,<note place="margin">Simile.</note> the Fountaine of all Grace. The water ſtanding continually in the Ciſterne may quickly corrupt and pu<g ref="char:EOLhyphen"/>trifie, but the oftner wee turne the cock to powre out of thoſe waters up<g ref="char:EOLhyphen"/>on the parched ground of the peoples hearts,<note place="margin">John 4.16. <hi>v.</hi>
+                  </note> a new ſupply of grace for grace will flow from Chriſt our Fountain. It may ſeeme not without a myſte<g ref="char:EOLhyphen"/>ry, that God would have the Sheep<g ref="char:EOLhyphen"/>fold, the firſt Schoole of inſtruction unto his kingly Prophet, and the fiſh<g ref="char:EOLhyphen"/>nets, the firſt academy unto his bleſſed Apoſtles. Amongſt all the callings of men, where more bitter labours then in the Shepheards hooke, and the Fiſhers net?<note place="margin">Luke 5.5.</note> 
+                  <hi>Peter</hi> could paſſe the whole night in patient watching of
+<pb n="33" facs="tcp:12415:18"/> his nets, and catch nothing. <hi>Iacob</hi> was content to be conſumed with drought by day, &amp; with froſt by night, leaſt <hi>La<g ref="char:EOLhyphen"/>bans</hi> ſheepe ſhould be ſtollen and his Lambes miſcarry.<note place="margin">Gen. 31.40.</note> What then muſt be the patience of Gods Miniſters in their ſharpeſt labours, leaſt the ſoules of Men, more worth the<g ref="char:cmbAbbrStroke">̄</g> Lambes ſhould miſca<g ref="char:EOLhyphen"/>ry &amp; fall into the hands of that devou<g ref="char:EOLhyphen"/>ring Lyon? If a ſhepeard looſe a Sheep,<note place="margin">1 Peter. 5.8.</note> though his M<hi rend="sup">r</hi>. ſhould not grant him pardon, yet ſaith <hi>Chryſ.</hi> its but <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, his purſe may redeem the loſſe.<note place="margin">Chryſ. de Sacerd. lib. <hi>2</hi>
+                  </note> Only thoſe which are entruſted with <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, the reaſonable flocke of Chriſt, if the Sheepe periſh through their default, the puniſhment extends beyond the purſes reach, to the loſſe of their deareſt ſoules. If a ma<g ref="char:cmbAbbrStroke">̄</g> had the bloud of Chriſt in a Violl co<g ref="char:cmbAbbrStroke">̄</g>mitted to his charge, how chary would he be in the keeping of ſo rich a Pearle? We have (ſaith <hi>Bernard</hi>) the ſoules of men committed to our charge,<note place="margin">Ezek. 3.18.</note> more deare unto Chriſt then his own ſoule, and ſhall we be careleſſe keepers of ſuch pretious Jewells? Surely <hi>(B)</hi> the danger cannot be ſmall, which hangs
+<pb n="34" facs="tcp:12415:19"/> over the neglect of thoſe which watch over ſoules, as they that muſt give ac<g ref="char:EOLhyphen"/>count as the Apoſtle ſpeakes. <hi>Heb.</hi> 13.17.<note place="margin">Heb. 13.17</note> Such was <hi>Chryſoſtomes</hi> apprehen<g ref="char:EOLhyphen"/>ſion of this danger, that he profeſſeth of himſelfe in his ſixth booke, <hi>de Sacerdotio,</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. He could never reade or thinke of that giving account, but it fill'd his heart with feare and his joynts with trembling. The bitter judgements of God upon ſome have made them feele the ſmart of this truth.<note place="margin">Euſeb. lib. <hi>8.</hi> cap. <hi>22.</hi>
+                  </note> 
+                  <hi>Euſebius</hi> obſerves in his eighth booke, That it fell as a part of divine Juſtice upon ſome Miniſters in the perſequution of <hi>Diocleſian,</hi> that for their not taking heed to the flock of Chriſt whereof the Holy Ghoſt had made them overſeers,<note place="margin">Acts 20.28</note> they were made <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, keepers of Camells inſtead of paſtors of Chriſts ſheepe.<note place="margin">Lutherus de Canonico Erphordi<g ref="char:EOLhyphen"/>enſi.</note> And <hi>Luther</hi> ſpeakes of one whoſe unfaithfulneſſe in his Miniſteriall function made his dying tongue to taſt the Gall of that bitter wiſh, <hi>O utinam fuiſſem omni vitâ meâ ſubulci famulus.</hi> I ſhall never wiſh
+<pb n="35" facs="tcp:12415:19"/> that any in this aſſembly may ever have cauſe to give the Engliſh of this harſh Latine. What ſudden ſhame will cover the faces of ſome at the laſt day, when Chriſt ſhall demand of them as <hi>Iohn</hi> the Evangeliſt did of that Biſhop in <hi>Euſebius,</hi> whoſe remiſſe care had been the ruine of the young man committed to his cuſtody, <hi>Age depo<g ref="char:EOLhyphen"/>ſitum nobis redde,</hi> where are thoſe many ſoules depoſed into your hands and loſt under your careleſſe ſoule-ſtarving education? If the warmeſt bloud in our hearts were diſſolved into droppes of ſweate, it were not too much to gaine ſoules. <hi>Aron</hi> was to weare the names of the Children of <hi>Iſrael</hi> on the breaſt-plate of judg<g ref="char:EOLhyphen"/>ment upon his heart. <hi>Exodus</hi> 18.29. The care of his peoples ſoules can ne<g ref="char:EOLhyphen"/>ver ſit too neare the heart of a good Miniſter. He muſt be willing to learne <hi>Pauls</hi> language to the <hi>Galathians</hi> 4.19.<note place="margin">Gal. 4.19.</note> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, to carry his peo<g ref="char:EOLhyphen"/>ple in the ſecret wombe of deareſt affections, and feele no leſſe then the throes of a woman in travayle, till Chriſt be formed in the hearts of his
+<pb n="36" facs="tcp:12415:20"/> hearers. Such was the care of good <hi>Luther,</hi>
+                  <note place="margin">Lutherus.</note> If waiting on my Miniſtery all my dayes (ſaith he) I could gaine but one ſoule, <hi>Eo contentus Deo gratias agerem,</hi> content with that as a ſuf<g ref="char:EOLhyphen"/>ficient reward of all my paines. I would give God the thankes. For were a man able to ſee the beauty of a ſoule (as <hi>Catharina Senenſis,</hi> a re<g ref="char:EOLhyphen"/>ligious woman once ſpake) <hi>Centies in die pro illius ſalute ſubiret mortem.</hi>
+                  <note place="margin">Siquis vide<g ref="char:EOLhyphen"/>re poſſet pulchri<g ref="char:EOLhyphen"/>tudinem unius animae. Catharina Senenſis.</note> Hee would not thinke a hundred deathes in one day too much to ſave one ſoule. Howſoever <hi>(B)</hi> this be our portion in the ſhort night of this preſent world, to be in continuall mo<g ref="char:EOLhyphen"/>tion like the Starres, or herein ra<g ref="char:EOLhyphen"/>ther like the Candle (<hi>Alciats</hi> emblem of a miniſter) to waſt and conſume our ſelves in giving light unto others, yet there will bee <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> as <hi>Theodorete</hi> calls it elegantly,<note place="margin">Orat. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rima de provid.</note> A day without an evening, that ſhall ne<g ref="char:EOLhyphen"/>ver end in the darkneſſe of any ſor<g ref="char:EOLhyphen"/>row; this ſhall ſufficiently recom<g ref="char:EOLhyphen"/>pence our greateſt paines, when as the ſilke Worme having ſpent and work't out our ſelves we ſhall end in the ſoft
+<pb n="37" facs="tcp:12415:20"/> ſilke of eternall happineſſe.<note place="margin">Mat. 5.12</note> Our Maſter bids us rejoyce in this; great ſhall be our reward in Heaven,<note place="margin">Dan. 12.1</note> when thoſe which turne many to righteouſ<g ref="char:EOLhyphen"/>neſſe ſhall ſhine as the Starres in glo<g ref="char:EOLhyphen"/>ry. <hi>Si labor terret, merces invitet,</hi> ſaith <hi>Bernard.</hi>
+                  <note place="margin">Bernard.</note> If the labour of our Mini<g ref="char:EOLhyphen"/>ſteriall duty affright us, yet let the greatneſſe of reward encourage us to be like the Starres, in the reſtleſſe, and unwearyed motion of our ſpirituall function.</p>
+               <p>Fifthly,<note place="margin">
+                     <hi>Ratio.</hi> 5.</note> the caeleſtiall Starres keepe their continuall motion within the circuit of their Heavenly Orbes. The Starres in Chriſts Hand ſhould have their converſation in Heaven farre re<g ref="char:EOLhyphen"/>mote from theſe earthly vanities. Their lifes ſhould flouriſh like the Palme-Tree,<note place="margin">Pſa. 92.12</note> as the <hi>Pſalmiſt</hi> ſpeakes, of which Tree S. <hi>Gregory</hi> obſerves, that ſhee growes leaſt in the body or truncke neare the Earth, and biggeſt in her boughes which are nearer Heaven. Our affections ſhould be like the faſhion of the heart; as nature hath layd it in that body narrow, and cloſe ſhut in that part which is to the Earth, more
+<pb n="38" facs="tcp:12415:21"/> broad and open towards Heaven. <hi>Timothy</hi> will never pleaſe him that hath choſen him to be his ſpirituall Souldier, if he doe ſuffer himſelfe <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, to be intangled in the affayres of this life. 2. <hi>Tim.</hi> 2.4.<note place="margin">2 Tim. 2.4.</note> The birdlime of earthly thoughts will keepe down the wing of the ſoule from mounting upwards by heavenly contemplations. The cloggy body of the Earth interpoſed be<g ref="char:EOLhyphen"/>tween our hearts, and Chriſt, will ſoon eclipſe the beauty of our Starrie-lights. It were well for the Church if the generation of thoſe were quite ex<g ref="char:EOLhyphen"/>tinct of whom <hi>Eraſmus</hi>
+                  <note place="margin">Eraſmus.</note> ſpeakes, <hi>Deci<g ref="char:EOLhyphen"/>matores potiùs quam praedicatores,</hi> their tything tables are oftner in their hands then Gods Booke before their eyes: But <hi>Clemangis</hi> thinkes it no wonder if ſome ſuch be more greedy after the gaine of wealth then ſoules.<note place="margin">Clemang. de corrupto ec<g ref="char:EOLhyphen"/>cleſiae ſtatu.</note> 
+                  <hi>Quib. paſtores fieri tam charo conſtitit.</hi> When they bought their ſhepheards hooke at ſuch deare rates. We ſee <hi>(B)</hi> na<g ref="char:EOLhyphen"/>ture hath ſo framed the eyes of our body, that wee cannot looke up to Heaven and down upon the Earth at
+<pb n="39" facs="tcp:12415:21"/> the ſame time. Surely the eye of our Miniſteriall function will ſeldome looke up by heavenly Meditations, when the eyes of our mind are conti<g ref="char:EOLhyphen"/>nually fixt upon the Earth. Therefore <hi>Cyprian</hi> makes this the cauſe,<note place="margin">Cyprian. Epiſt.</note> why the <hi>Levites</hi> had no lot of inheritance with the other tribes, <hi>
+                     <g ref="char:V">Ʋ</g>t in nulla re avocarentur, nec cogitare aut agere ſa<g ref="char:EOLhyphen"/>cularia cogerentur.</hi> And <hi>Sulpitius Se<g ref="char:EOLhyphen"/>verus</hi> in his firſt booke of his ſacred Hiſtory,<note place="margin">Sulpit. Se<g ref="char:EOLhyphen"/>verus li. <hi>1.</hi> de Hiſto.</note> thought good to commend the ſame example as a looking-glaſſe to the Clergy in his time, which (ſaith he) too much unmindfull or at leaſt ignorant of that precept, <hi>In<g ref="char:EOLhyphen"/>hiant poſſeſſionibus, praedia excolunt, e<g ref="char:EOLhyphen"/>munt venduntque: quaeſtui per omnia ſtudent, &amp; quaſi venalem praeferunt Sanctitatem.</hi> It were well wee might not reade the meaning of this com<g ref="char:EOLhyphen"/>plaint in our engliſh practiſe. For in the judgement of <hi>Syneſius,</hi> ſo to con<g ref="char:EOLhyphen"/>joyne worldly dealings with Prieſtly actions is. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, To weave Woollen,<note place="margin">Syneſius Epiſt. <hi>57.</hi> contra An<g ref="char:EOLhyphen"/>dronicum.</note> and Linnen toge<g ref="char:EOLhyphen"/>gether in the garment of an <hi>Iſraelite.</hi> I admire their skill (ſaith the ſame
+<pb n="40" facs="tcp:12415:22"/> Father) which can deale in both theſe, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, for my ſelfe, I find it beyond the reach of my power to ſerve two ſuch maſters, as God, and Mammon. Not <hi>(B)</hi> that we ſhould ſtrippe our ſelves of all care after the things of this world.<note place="margin">1 Tim. 5.<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>8. <hi>v.</hi>
+                  </note> So we might runne the hazzard of being worſe then Infidells in not providing for our own. Only let not covetouſneſſe make this a mask for unjuſt and undecent practiſes. The Divell will ſoon catch us with a golden hooke, if we ſuffer him to angle long in our hearts with tenta<g ref="char:EOLhyphen"/>tions to worldly-mindedneſſe. It will be a hard matter for the light of theſe ſpirituall Starres, like the beames of the Sunne to lye amongſt the dung, and dirt of the Earth, and yet receive no tincture of defilement. Our beau<g ref="char:EOLhyphen"/>ty of holineſſe may be ſoone defaced, if the affections, the feete of our ſoules ſtirre much in the duſt of the Earth.<note place="margin">Vide Epi<g ref="char:EOLhyphen"/>phanium de Meletis.</note> 
+                  <hi>Epiphanius</hi> obſerves of the <hi>Meletians,</hi> though they were Ortho<g ref="char:EOLhyphen"/>dox in their Faith, yet by Commu<g ref="char:EOLhyphen"/>nion with <hi>Arrius</hi> and his faction,
+<pb n="41" facs="tcp:12415:22"/> they were not <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, free from the filthy dung of ſome corrupt manners. Too much familiarity with the men and matters of the world will quickly bring con<g ref="char:EOLhyphen"/>tempt upon our perſons, and caſt ſome ſoyle upon our manners; We ſhall be then moſt like the Starres our pattern, when we keepe our ſelves within the Orbe of Heavenly contem<g ref="char:EOLhyphen"/>plations, farre remote from this inferi<g ref="char:EOLhyphen"/>or, and baſer Earth.</p>
+               <p>Sixthly the Starres of Heaven ſhine brighteſt in the darkeſt nights.<note place="margin">
+                     <hi>Ratio.</hi> 6.</note> Theſe Starres of Chriſts Hand in the dar<g ref="char:EOLhyphen"/>keſt nights of perſecution or afflicti<g ref="char:EOLhyphen"/>on ſhould ſend forth their brighteſt beames. Perſecution hath ever been the reward of Prophets from the hands of wicked men.</p>
+               <p>If <hi>Jeremy</hi> will be faithfull in his embaſſadge,<note place="margin">Ier. 11.21.</note> propheſy no more leaſt thou dye, will be the peoples voyce. So true is that of <hi>Hierome</hi> againſt <hi>Iovinian, Amara eſt <g ref="char:V">Ʋ</g>eritas, &amp; quiſquis eam praedicat, amaritudine ſatiabitur.</hi> Truth is of a bitter re<g ref="char:EOLhyphen"/>liſh with the palate of moſt men, and
+<pb n="42" facs="tcp:12415:23"/> &amp; whoſoever preacheth it ſhalbe fill'd with bitterneſſe. Howſoever in the blackeſt nights, theſe Starres muſt not withdraw their light.<note place="margin">Aelien. Cy<g ref="char:EOLhyphen"/>nosbat<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s.</note> 
+                  <hi>Aelian</hi> re<g ref="char:EOLhyphen"/>ports of the Herbe <hi>Cynoſbatus,</hi> that in the day time it lyes hidde amongſt other herbes and is not diſcovered, but in the night it appeares like a glorious Starre. Thoſe graces of Gods Spirit, in the hearts of Gods faithfull ſervants ſhould ſhine as bright Starres in the obſcureſt nights of affliction which in the clearer ſunſhine of proſ<g ref="char:EOLhyphen"/>perity did not appeare with that per<g ref="char:EOLhyphen"/>fect luſtre. When bleſſed <hi>Paul</hi> cea<g ref="char:EOLhyphen"/>ſeth to be an agent in the Churches perſecution, at the next newes we heare him a patient in the Churches troubles. What is that catalogue of his often perills. 2. <hi>Cor.</hi> 11. but as a picture of the unquiet Sea full of the ſwelling waves of perſequutions bea<g ref="char:EOLhyphen"/>ting upon the back each of other, the leaſt whereof may ſuffice to breake the earthen Pitcher of humane frailty?<note place="margin">This joy wants words to expreſſe it.</note> Yet in all theſe ſufferings, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> (2 <hi>Cor.</hi> 7.4.) is the ſtrange Swan-like tune from the
+<pb n="43" facs="tcp:12415:23"/> mouth of this dying, and afflicted ſaint.</p>
+               <p>
+                  <hi>Luthers Theorome, Schola Crucis, Schola lucis,</hi> The light of ſuperabun<g ref="char:EOLhyphen"/>dant joy ſhining thorough the black clouds of abounding afflictions is a harſh ſounding paradox in the eares of the world, and a truth which is onely found in the ſchoole of Chriſts croſſe.</p>
+               <p>
+                  <hi>Pauls</hi> body may be caſt into fetters,<note place="margin">2. <hi>Ep.</hi> Tim. 2.9. <hi>v:</hi>
+                  </note> but the light of his Goſpell will ad<g ref="char:EOLhyphen"/>mit no bonds. <hi>Modeſtus</hi> may uſe his beſt skill to entangle <hi>Baſill</hi> in the <hi>Arrian</hi> ſubtleties, but at laſt he ſhall carry newes unto <hi>Valens</hi> of a ſtrange valour, as <hi>Nazianzen</hi> reports it,<note place="margin">Nazianzen. in Orat. fun. de Baſil.</note> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Such (ſaith he) is the re<g ref="char:EOLhyphen"/>ſolute courage of <hi>Baſill,</hi> that words cannot overcome him, threatnings cannot ſhake him,<note place="margin">Stella C<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                     <g ref="char:EOLhyphen"/>dentes.</note> and all allure<g ref="char:EOLhyphen"/>ments cannot draw him. They are ſtill falſe lights or meteors hanging in the Ayre of ambition, not fixt in the Firmament of truth, which every wind of trouble is able to caſt upon the
+<pb n="44" facs="tcp:12415:24"/> ground of a new Faith.<note n="*" place="margin">Vide ad finem, Aegypt. P<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>n<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>.</note> 
+                  <hi>Quis tibi verum audebit dicere, ſi ſacerdos Dei non audebit?</hi> ſaith <hi>Ambroſe.</hi>
+                  <note place="margin">Ambroſ.</note> When the Wolfe comes, whoſe voyce ſhould be heard, if not the Shepheards? The people muſt needs be as loſt ſheepe when the Shephards flight cauſeth them to goe aſtray.<note place="margin">Ieremy 50.4.</note> Whereas the ex<g ref="char:EOLhyphen"/>ample of a well-ſinewed patience and valour in the leaders, might ſteele the hearts of weaker Chriſtians to follow them in the ſame ſteps. We find a paſ<g ref="char:EOLhyphen"/>ſage in <hi>Luke</hi> 23.26.<note place="margin">Luke 23.26.</note> they lay hold on <hi>Simon</hi> a <hi>Cyrenian,</hi> and on him they layd the Croſſe, that he might beare it <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> behind Jeſus. The word is derived from <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> (ſaith <hi>Euſtathius,</hi>) as if it were <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Therefore have ſome conceited, that he followed after Jeſus bearing ſome part of the Croſſe, himſelfe going be<g ref="char:EOLhyphen"/>fore and bearing the greateſt part. The examples of conſtant patience ſhining forth in the blackeſt afflictions of Gods Miniſters, would be as ſo many <hi>Cyrenians</hi> to beare a part in the croſ<g ref="char:EOLhyphen"/>ſes of weaker Chriſtians, that they might not faint under the burden of
+<pb n="45" facs="tcp:12415:24"/> their heavy preſſures. We ſhall for<g ref="char:EOLhyphen"/>get what we are, Starres in the right hand of Chriſt, if in the darkeſt nights of perſecution or affliction, wee ſhould not ſend forth our brighteſt beames.</p>
+               <p>Seventhly,<note place="margin">
+                     <hi>Ratio</hi> 7.</note> the Starres above differ amongſt themſelves in their quantity, and in their quality. Theſe ſpirituall Starres of Chriſts hand are not all a<g ref="char:EOLhyphen"/>like in the gifts and endowments of the ſpirit. Some are like <hi>Barnabas,</hi> fitteſt to draw the milke of conſolation out of the breaſts of the ſweeteſt promiſes to ſtill the noyſe of the crying con<g ref="char:EOLhyphen"/>ſcience. Others like <hi>Boanerges,</hi> moſt skilfull to awaken the ſleepy conſci<g ref="char:EOLhyphen"/>ence of the ſecure ſinner.</p>
+               <p>Some are moſt apt in ſchoole con<g ref="char:EOLhyphen"/>troverſies, like <hi>Auſtin, Mallei Haerae<g ref="char:EOLhyphen"/>ticorum,</hi>
+                  <note place="margin">Auguſtinus. malleus Hae<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>eticorum.</note> fit hammers to beate downe hereſies. Others more practicall, like S. <hi>Ambroſe,</hi> to ſtrike down the ſinnes of the people with the rod of Diſ<g ref="char:EOLhyphen"/>cipline. God would not have every land to bring forth all commodities, to keepe up commerce and traffique. The Lord hath planted his gifts di<g ref="char:EOLhyphen"/>verſely
+<pb n="46" facs="tcp:12415:25"/> in the hearts of his ſervants to maintaine a ſpirituall traffique of deareſt affections in the mutuall ex<g ref="char:EOLhyphen"/>change of their gifts, and graces. The blunt whet-ſtone may ſharpen the keener Knife, and ſome more dull in knowledge may ſet a ſharper edge of zeale on the ſubtle conceits of more refined wits.<note place="margin">Acts 18.24, 26.</note> 
+                  <hi>Apollos</hi> mighty in the Scriptures might learne ſomething from <hi>Aquila,</hi> and <hi>Priſcilla</hi> meaner per<g ref="char:EOLhyphen"/>ſons. The <hi>Jewiſh Rabbines</hi> confeſſe, they came to underſtand that place in <hi>Eſai.</hi> 14.23.<note place="margin">Eſai. 14.23</note> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, I will ſweepe them with the beſome of deſtruction, by hearing an <hi>Arabian</hi> woman ſpeake of a Broome in her language to her mayde. All this di<g ref="char:EOLhyphen"/>verſity of gifts come from one and the ſame ſpirit, for the firmer union of the Church in love and concord. The Starres ſeeme to us ſometimes to eclipſe the ſplendor each of other, yet no jarring contention amongſt themſelves.<note place="margin">Leſſen.</note> If the bright ſplendour of anothers grace ſhould ſeem to leſſen the ſhining of our weaker lights, yet let not bitter contention marre the
+<pb n="47" facs="tcp:12415:25"/> harmony of our ſpirituall Starres. It came from the Penne of that <hi>Graecian</hi> Oratour <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>;<note place="margin">Demoſthenes</note> If any man have much, and do us no wrong, what cauſe have we to caſt upon him the ma<g ref="char:EOLhyphen"/>lignant aſpect of an envious eye, and to bite him with the teeth of envy?<note place="margin">Judges 5.20.</note> The Starres which diſagree not among themſelves, joyned in one to fight in their courſes againſt <hi>Siſera,</hi> and his Hoſt. Civill warres can never be good, when a publick enemy is at hand to encounter with us. Our beſt wiſe<g ref="char:EOLhyphen"/>dome will be to leave off private diſ<g ref="char:EOLhyphen"/>cords and to joyne our mutuall for<g ref="char:EOLhyphen"/>ces againſt that common <hi>Siſera,</hi> Sa<g ref="char:EOLhyphen"/>tan the grand Captaine of all thoſe troups of enemies, which warre againſt the peace of <hi>Sion.</hi> It's full time <hi>(B)</hi> for <hi>Abner</hi> to cry unto <hi>Ioab,</hi> ſhall the ſword of brotherly diſſenſion devoure for ever? know we not that it will be bitterneſſe in the latter end. 2 <hi>Sam.</hi> 2.26.<note place="margin">2. Sam 2.26.</note> It's a bad preſage of the bodies deſtruction, when <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, as <hi>Nazianzen</hi> ſpeakes,<note place="margin">Nazianzen. Orat. <hi>1</hi> a.</note> the mem<g ref="char:EOLhyphen"/>bers contend amongſt themſelves.
+<pb n="48" facs="tcp:12415:26"/> That towring City will be ſoone tur<g ref="char:EOLhyphen"/>ned into a <hi>Babel,</hi> when once the builders are divided in their tongues. One calls forbrick, and they bring him morter; another layes a ſtone in the building, and a fourth pulls it down. How ſhould the towers of Gods <hi>Hieruſalem</hi> come to any perfection, when the ſpirituall builders are divi<g ref="char:EOLhyphen"/>ded in their hands, and tongues? What happy ſucceſſe would crowne the building of the Temple, were all the workemen <hi>
+                     <g ref="char:V">Ʋ</g>nius labii</hi> of one lip.<note place="margin">Gen. 11.1.</note> God hath diſtinguiſhed the members of the ſame body into ſeverall fun<g ref="char:EOLhyphen"/>ctions. Yet as <hi>Theodorete</hi> well obſerves, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.<note place="margin">Orat <hi>6.</hi> de providen.</note> Every part keepes natures operation peculiar to it ſelfe, but the profit is extended in common for the good of the whole body. It ſhould be for the good and perfection of Chriſts body, the Church, not the diviſion of his Coate: that diverſity of gifts hath made theſe ſpirituall Starres like their patterne, not all alike in their quantity, nor in their quality.</p>
+               <pb n="49" facs="tcp:12415:26"/>
+               <p>Eightly, the Caeleſtiall Starres,<note place="margin">
+                     <hi>Ratio</hi> 8.</note> though they be great in themſelves, yet they appeare ſmall and little unto others. The greatneſſe of honour in theſe ſpirituall Starres of Chriſtians ſhould be ſo termed, that others may judge them little in appearance in <hi>their own eyes</hi> by the practiſe of humility. <hi>Paul</hi> was no ſooner made a Starre of the primeſt magnitude, not inferior to the cheifeſt of the Apoſtles, but he appeares in his own eyes <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>Epheſ.</hi> 3.8.<note place="margin">
+                     <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Cor. 12.11.</note> Leſſe then the leaſt of all Saints. <hi>Non eſt magnum eſſe hu<g ref="char:EOLhyphen"/>milem in abjectione</hi> ſaith <hi>Bernard;</hi>
+                  <note place="margin">Bernard.</note> the Low dejected eſtates of ſome men conſtraynes them to put on a forced humility. <hi>Magna prorſus &amp; rara Vir<g ref="char:EOLhyphen"/>tus humilitas honorata.</hi> This is the ra<g ref="char:EOLhyphen"/>reſt virtue, when honour and humili<g ref="char:EOLhyphen"/>ty are concentred in one breaſt. This will be our chiefeſt ornament, when the honour and dignity of our cal<g ref="char:EOLhyphen"/>ling is graced with this attendant of humility. The dignity of the perſon may quickly mingle the Eagles Fea<g ref="char:EOLhyphen"/>thers of mounting pride amongſt his choyceſt graces. This Moth will ſoo<g ref="char:EOLhyphen"/>neſt
+<pb n="50" facs="tcp:12415:27"/> breede in the fineſt cloth of the beſt wits. When <hi>Paul</hi> is lifted up to the third Heavens, there is ſome dan<g ref="char:EOLhyphen"/>ger of being carryed beyond himſelfe, unleſſe <hi>Stimulus in Carne</hi> a good in the fleſh drive him back. Maſter <hi>Foxe</hi> was much delighted in that ſeeming paradox,<note place="margin">
+                     <hi>Mr.</hi> Foxes paradox.</note> that his graces did him moſt hurt, and his ſinnes moſt good. The ſight of his black feete was a meanes to keepe down the ſpreading of his white plumes, whereas the conti<g ref="char:EOLhyphen"/>nuall thought of his graces might have blowed up his heart with windy pride above the pight of other men. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>,<note place="margin">Chryſoſt.</note> as <hi>Chryſoſtome</hi> well obſerves. The ſubtle Serpent knowes how to caſt his poy<g ref="char:EOLhyphen"/>ſon upon our beſt actions; to make good <hi>Hezekiah</hi> ſwell with oſtentati<g ref="char:EOLhyphen"/>on of his treaſures. This poyſon is that which diſtempers the eye of our judgement and makes us account that pride in ſome, which we would e<g ref="char:EOLhyphen"/>ſteeme ornaments of grace in our own hearts; the eye infected with a falſe colour will ſoon misjudge all things
+<pb n="51" facs="tcp:12415:27"/> like her ſelfe. A proud eye will ac<g ref="char:EOLhyphen"/>knowledge no man humble. Humility <hi>(B)</hi> would be the beſt glue to joyne the hearts of Miniſters in the neareſt union of concord and affection. When <hi>Epiphanius</hi> and <hi>Chryſoſtome</hi> yield too much unto a ſelfe opinion, they may ſoon fall into ſharpe contentions. Let <hi>Epiphanius</hi> never come into his own Country, and let not <hi>Chryſoſtome</hi> dye a Biſhop, were the breathings of a ſecret pride. The Divell hath wrought miſchiefe in the Church by nothing more then by ſowing the tares of diſſenting pride amongſt the Clergy.<note place="margin">Parker.</note> Some have obſerved that no leſſe then foureſcore and eight kindes of hereſies aroſe in the Church in the firſt 400. yeares after Chriſt; they all ſprung from an ambitious deſire after the chayre of honour, and the au<g ref="char:EOLhyphen"/>thours ſelfe-pleaſing pride in the con<g ref="char:EOLhyphen"/>ceits of their own braines.<note place="margin">Pſal. 25.9.</note> The <hi>Pſal<g ref="char:EOLhyphen"/>miſt</hi> tells us; the humble are thoſe whom GOD will teach his wayes. Wee know the deſcending into the loweſt pits, and deepeſt wells, is the ready way to ſee thoſe Starres at noon<g ref="char:EOLhyphen"/>day,
+<pb n="52" facs="tcp:12415:28"/> which others above us cannot behold; when we keepe in the low vault of humility, we may diſcover thoſe Starres of divine truthes which others higher then our ſelves above us cannot ſo wel diſcerne when their eyes are ſwelled with pride. It is no ſmall honour that you are Starres in the right hand of Chriſt, but remember the greater you are in dignity, others ſhould behold you like the Starres, the leſſer in appearance, by the practiſe of humility.</p>
+               <p>
+                  <note place="margin">Applicatio ad populum.</note>We have hitherto looked upon our ſelves in this Starry glaſſe: I muſt in the next place deſire to faſten the peoples eyes upon theſe Starres by ſome application unto them.</p>
+               <p>
+                  <note place="margin">Applic.</note>Are the miniſters of the Goſpell as Starres in the right hand of Chriſt? then <hi>(B)</hi> what ioyfull prayſe ſhould fill the hearts and mouthes of that people, whoſe eyes are bleſſed with the light of theſe Starres? when the morning light appeares, it teares off that mourning garment of ſorrow which the Sable night had caſt upon the body of the Earth. The time
+<pb n="53" facs="tcp:12415:28"/> was, when the darkeſt night might have ſhewed you ſom ſimilitude but no equa<g ref="char:EOLhyphen"/>lity unto that diſmall ſpirituall dark<g ref="char:EOLhyphen"/>neſſe which tyranniz'd over our whole Nation. Alas what joy could the <hi>Ae<g ref="char:EOLhyphen"/>gyptians</hi> have in their pleaſant Land? what comfort could <hi>Pharaoh</hi> take on his ſtately throne when palpable darkeneſſe clouded their faces? But ſince the Starres of CHRIST ſent from Heaven, which at the firſt found <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, as <hi>Chry<g ref="char:EOLhyphen"/>ſoſtome</hi> ſpeakes, a Land full of the workes of helliſh darkenes, by the preaching of the Goſpell, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, they have turned it in<g ref="char:EOLhyphen"/>to a lightſome Heaven. How can their hearts bee voyd of joy which were once darke, and are now light? How ſhould their mouthes be voyd of the ſweeteſt tunes of prayſe and thankſgiving, which were once clo<g ref="char:EOLhyphen"/>ſed up with the ſilence of ignorance, but are now opened with the beames of ſaving knowledge?<note place="margin">Hier<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nym. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>. Vigil.</note> 
+                  <hi>Hierome</hi> tells <hi>Vi<g ref="char:EOLhyphen"/>gilantius,</hi> that the Chriſtians in his time were wont to light up Candles at the reading of the Goſpell, <hi>ad
+<pb n="54" facs="tcp:12415:29"/> ad laetitiae ſignum demonſtrandum,</hi> to hang forth a ſigne of their joy. We little conſider the darknes of our fore-Fathers in that night of former ig<g ref="char:EOLhyphen"/>norance, if we cannot rejoyce when the Starres of Chriſt caſt upon us the rayes of his glorious Goſpell. It was the conceit of <hi>Ariſtotle,</hi> that if the Angells ſhould ceaſe moving thoſe Caeleſtiall Orbes, men on Earth could not be able to moove a hand or foot. How could we moove the leaſt finger with any joy, ſhould the An<g ref="char:EOLhyphen"/>gells of the Churches ceaſe their ſpi<g ref="char:EOLhyphen"/>rituall motions whereby they convey that light of comfort to diſpell the darkeneſſe of our greateſt ſorrowes? <hi>Chryſoſtome</hi> in one of his Epiſtles re<g ref="char:EOLhyphen"/>ports of the <hi>Taurocilicians,</hi>
+                  <note place="margin">Chryſoſt. in Ep<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ſt.</note> that they came about him in his baniſhment with weeping eyes, and ſaid, <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. It had beene better, that the Sunne ſhould have withdrawne her beames, then that the mouth of <hi>Chryſoſtome</hi> ſhould have beene ſtopt with ſilence: better it were <hi>(B)</hi> that the Sunne of all the earth<g ref="char:EOLhyphen"/>ly
+<pb n="55" facs="tcp:12415:29"/> joyes ſhould diſſolve into nothing then that the light of theſe ſpirituall Starres ſhould be withdrawne from you. <hi>Micah</hi> thought there was cauſe enough to grieve, when his God, and his Prieſt were departed from him. <hi>Iudges</hi> 18.24.<note place="margin">Judges 18 24.</note> Yee have taken away my gods, and the prieſt and yee are gone away, and what have I more? What is this that yee ſay unto mee, what ayleth thee? We need not aske a people, what ayleth them, we need not demand a cauſe of their bitter lamentation, when God ſhall depart from them, by taking away thoſe hea<g ref="char:EOLhyphen"/>venly Starres which were wont to ſhine upon them with the ſplendor of ſaving truth. What have they more to comfort them in the midſt of ſuch ſorrowes?</p>
+               <p>The light of the Starres which in the nights darkeneſſe are our beſt com<g ref="char:EOLhyphen"/>forts, will quickly vaniſh at the ari<g ref="char:EOLhyphen"/>ſing Sunne. In the night of this pre<g ref="char:EOLhyphen"/>ſent world, your chiefe happineſſe flowes from the Starres in Chriſts Hand; When indeed the Sunne of Righteouſneſſe ſhall appeare in the
+<pb n="56" facs="tcp:12415:30"/> morning of the Reſurrection, there will be no more need of theſe leſſer lights.<note n="*" place="margin">Num. 27.21. Eph<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>d. 1. Sam. 30.</note> When once yee arrive at <hi>Ca<g ref="char:EOLhyphen"/>naan</hi> the clearer glaſſe of a more di<g ref="char:EOLhyphen"/>vine light the <hi>Deity,</hi> better then the Prieſts Urim ſhall repreſent things to the view in bigger letters; but whilſt yee travayle thorough the Wilder<g ref="char:EOLhyphen"/>neſſe of this world, your eyes ſhould be continually fixt on the Law of God in the mouth of his Miniſters, theſe pillars of fire to guide you in your righteſt way. Thoſe which la<g ref="char:EOLhyphen"/>bour amongſt you in word, and doctrine, account them worthy of double honour, is the Apoſtles pre<g ref="char:EOLhyphen"/>cept. <hi>Honor &amp; ſubſidium</hi> is <hi>Hieromes</hi> interpretation. The honour of your hearts &amp; the helpe of your maintenance is the reward due unto the labours of theſe Starres. When we looke upon the manners of our dayes, they give us cauſe to complaine with <hi>Nazianzen.</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. A Miniſter is now is now become a bare empty title,<note place="margin">
+                     <hi>Orat.</hi> 1.</note> as if there were no honour due unto his function. The greateſt ſort love in<g ref="char:EOLhyphen"/>deed that language of that <hi>Grecians</hi> in
+<pb n="57" facs="tcp:12415:30"/> 
+                  <hi>Homer.</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>, To reverence the Prieſt,<note place="margin">Iliad. <hi>5:</hi> in tuit.</note> and receive his gifts. Their fayre preſents, and large gifts may procure them ſome reſpect, whereas otherwiſe Reverence ſhould be no companion to their per<g ref="char:EOLhyphen"/>ſons. <hi>Bede</hi> informes us, that the time was when the rarity of preaching had taught our fore-fathers ſuch an eſteem of Gods Miniſters, that when the Biſhop of the Province did at any time ſend one of his Presbyters, or Miniſters amongſt them, they flocked about him with greateſt joy, <hi>Et ut Deum venerabantur,</hi> and worſhipped him as a god ſent from Heaven. Were the Sun-ſhine of the Goſpell a little with holden from you, ye would ſoon learne a higher account of the Mi<g ref="char:EOLhyphen"/>niſters: which like the light of the Sunne, the more common, the leſſe eſteemed. And with the honour of your hearts you muſt adjoyne alſo the helpe of your Purſes for the main<g ref="char:EOLhyphen"/>tenance of theſe Starres. It was the con<g ref="char:EOLhyphen"/>ceite of the ancient <hi>Naturaliſts,</hi> that the coeleſtiall Starres are fed with ex<g ref="char:EOLhyphen"/>halations ariſing from the Earth as a
+<pb n="58" facs="tcp:12415:31"/> ſupply of Oyle unto thoſe heavenly Lampes, which ſhine for the good of this inferior world. Sure we are, theſe ſpirituall Starres muſt bee nouriſhed with a ſupply of your maintenance, for whoſe eternall well-fares they ſpend their beſt ſtrength. If we ſowe unto you our ſpirituall light, is it any great thing, if wee reape your temporalls? The blind <hi>Aegyptians</hi> were ſo devoute as not to ſuffer the bitter famine to compell their Prieſts to ſell their Land.<note place="margin">1 Cor. 9.11.</note> And ſhall ſuch pinching famine fall upon the Mi<g ref="char:EOLhyphen"/>niſters of the Goſpell in ſome pla<g ref="char:EOLhyphen"/>ces, that they muſt be compelled to ſel<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> not their Lands, (of that they have none<g ref="char:punc">▪</g>) But their bookes, and ſtudy-furniture to buy them food? When the devotions of men in the dayes of <hi>Conſtantine</hi> had inriched the Church with large endowments, there was a voyce heard from Heaven (if we may believe <hi>Nauclerus) Hodiè Venenum infuſum in Eccleſiam,</hi> This day is poyſon dropt into the Church. I am ſure a farre worſe poyſon is ſpread in the hearts of many, they can turne
+<pb n="59" facs="tcp:12415:31"/> the Churches patrimony left by their Fathers devotion, into a monopoly of their owne poſſeſſions. Our age is full of ſuch <hi>Dionyſius's</hi> which are willing to robbe the Church of her golden Coate, leaſt it ſhould make her proud: they thinke a woollen garment will keepe her warme e<g ref="char:EOLhyphen"/>nough and make her humble. Gods Miniſters are fallen under the power of ſuch cruell taskemaſters, that the tale of brick is expected without di<g ref="char:EOLhyphen"/>minution, and little or no Straw is left to worke with. The woefull ex<g ref="char:EOLhyphen"/>perience of many families hath made it a true obſervation, that the Eagle ſeldome or never ſteales a piece of fleſh from Gods Altar, but ſhee carries a coale along with it, which ſets her neſt on fire, howſoever the glorious Sun-ſhine of their inſtant proſperity, may make ſome ready to thinke that in earneſt which <hi>Dionyſius</hi> in <hi>Lactantius</hi> ſpeakes in jeſt unto his companions. <hi>
+                     <g ref="char:V">Ʋ</g>idetiſne quàm proſpera ſacrilegis navigatio ab ipſis diis immor<g ref="char:EOLhyphen"/>talib. tribuatur?</hi> You ſee how the Gods bleſſe ſacrilegious perſons with
+<pb n="60" facs="tcp:12415:32"/> the pleaſant wind of a proſperous navigation. The ſweetneſſe of the Glebe diſtempers their palates that they cannot judge of the bitter<g ref="char:EOLhyphen"/>neſſe of the ſinne. Their preſent fe<g ref="char:EOLhyphen"/>licity makes them thinke ſacriledge, a bleſſing and not a curſe. Yet ſure we are, Heaven and Earth ſhall ſooner paſſe away then the leaſt <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> of Gods Word ſhall faile. It is a ſnare to the man that devoureth Holy things. <hi>Prov.</hi> 20.25.<note place="margin">Pro. 20.25</note> How many ſoules will cry out for vengeance a<g ref="char:EOLhyphen"/>gainſt them, when (as God tells thoſe extortioners, <hi>Ieremy</hi> 2.38.) in their skirts, in their broad wings and golden lace, is found the bloud of poore innocents.</p>
+               <p>
+                  <note place="margin">Gen. 9.4. Levit. 17.12.13, 14.</note>The old Law thought it not fit that Gods people ſhould eate the bloud of any beaſt. Surely the Goſpell will never judge it lawfull, that Chriſti<g ref="char:EOLhyphen"/>ans ſhould feed, and cloath them<g ref="char:EOLhyphen"/>ſelves with the bloud of ſoules. There<g ref="char:EOLhyphen"/>fore <hi>(B)</hi> it will be your beſt wiſ<g ref="char:EOLhyphen"/>dome to walke worthy of the light of theſe Starres whilſt yee doe in<g ref="char:EOLhyphen"/>joy them,<note place="margin">Eſay. 22.1.</note> leaſt God in his juſt diſ<g ref="char:EOLhyphen"/>pleaſure
+<pb n="61" facs="tcp:12415:32"/> ſhould remove them out of our golden Candleſticke. We ſee, that the Starres above keepe no one con<g ref="char:EOLhyphen"/>tinuall place in our Hemiſpheare; the evening ſhewes them in the Weſt, and the morning finds them in the Eaſt. Theſe ſpirituall Starres are in the right hand of Chriſt, the hand fitteſt for motion. He may quickly ſend them to enlighten thoſe Eaſtern parts, which were once light, ſhi<g ref="char:EOLhyphen"/>ning with a glorious light, when we our ſelves ſate in darknes <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd in the ſhadow of death:<note place="margin">Eſa. 22.1.</note> our valley of vi<g ref="char:EOLhyphen"/>ſion may be ſoone covered with the darkneſſe of our former ignorance if we begin to contemne the Starre<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> whence our light proceeds. All your happineſſe comes by the light of the Goſpell, therfore you may well beſtow the honour and the maintenance upon theſe Starres in the <hi>Right hand of Chriſt.</hi>
+               </p>
+               <p>And now if the time would give leave, I ſhould crave your attentions unto the Orbe where theſe Starres are ſcituate <hi>Dextrâ Chriſti,</hi> that there you might behold their honour and their ſafety.
+<pb n="62" facs="tcp:12415:33"/> The right hand is the place of chiefeſt honour, and of greateſt ſtrength to defend our friends. It is no ſmall ho<g ref="char:EOLhyphen"/>nour to theſe ſpirituall Starres, that they are with <hi>Bathſheba</hi> placed at the right hand of <hi>Salomon.</hi>
+                  <note place="margin">1 Kings 2.19.</note> And they ſhall ever finde ſufficient ſtrength in this hand to defend, and protect them ſafe from the cloſe-contrived projects of their wiſeſt enemies. But I muſt not be unmindefull of the other occaſions; therefore, let us deſire of God, a bleſ<g ref="char:EOLhyphen"/>ſing upon the word heard, that after our daies in the Kingdome of grace, we may be placed, as <hi>Happy Starres on the right hand of Chriſt in glory,</hi> 
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>.</p>
+            </div>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:12415:33"/>
+         </div>
+      </body>
+   </text>
+</TEI>

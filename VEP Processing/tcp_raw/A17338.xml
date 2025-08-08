@@ -1,0 +1,1286 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sermon preached at Pauls crosse on Trinity sunday, 1571. By E.B.</title>
+            <author>Bush, Edward.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1576</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 80 KB of XML-encoded text transcribed from 34 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A17338</idno>
+            <idno type="STC">STC 4183</idno>
+            <idno type="STC">ESTC S107148</idno>
+            <idno type="EEBO-CITATION">99842850</idno>
+            <idno type="PROQUEST">99842850</idno>
+            <idno type="VID">7543</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A17338)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 7543)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 453:04)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sermon preached at Pauls crosse on Trinity sunday, 1571. By E.B.</title>
+                  <author>Bush, Edward.</author>
+                  <author>Bunny, Edmund, 1540-1619.</author>
+               </titleStmt>
+               <extent>[64] p.   </extent>
+               <publicationStmt>
+                  <publisher>by Iohn Awdely,</publisher>
+                  <pubPlace>Imprinted at London :</pubPlace>
+                  <date>1576.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>E.B. = Edward Bush.</note>
+                  <note>Sometimes attributed to Edmund Bunny.</note>
+                  <note>Signatures: A-H⁴.</note>
+                  <note>Running title reads: A sermon preached at Paules Crosse.</note>
+                  <note>Reproduction of the original in Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Sermons, English --  16th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-02</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-03</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-05</date>
+            <label>Colm MacCrossan</label>Sampled and proofread</change>
+         <change>
+            <date>2013-05</date>
+            <label>Colm MacCrossan</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:7543:1"/>
+            <pb facs="tcp:7543:1" rendition="simple:additions"/>
+            <p>¶ A ſer<g ref="char:EOLunhyphen"/>mon <hi>preached</hi> at Pauls croſſe on Trinity ſun<g ref="char:EOLhyphen"/>day, 1571. By. <hi>E. B.</hi>
+            </p>
+            <p>Imprinted at <hi>London by Iohn</hi> Awdely. 1576.</p>
+            <figure>
+               <figDesc>printer's device of John Awdeley, a compartment with two naked boys on the jambs. On the sill the initials I.N. on a shield. (McKerrow 98)</figDesc>
+               <p>I N</p>
+            </figure>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb facs="tcp:7543:2" rendition="simple:additions"/>
+            <pb facs="tcp:7543:2"/>
+            <head>¶ A Sermon vpon a part of <hi>the .iij. Chapter of Paules</hi> ſe<g ref="char:EOLhyphen"/>cond Epiſtle to Timotheus.</head>
+            <epigraph>
+               <q>
+                  <bibl>2. TIMOTHEVS. 3.16.</bibl>
+                  <p>¶ All ſcripture is geuen by inſpiration of God, and is profitable to doctrine, to reproue, to correction, to inſtructi<g ref="char:EOLhyphen"/>on which is in righteouſneſſe. 17 That the man of God may be perfect, inſtruc<g ref="char:EOLunhyphen"/>ted vnto all good workes.</p>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">A</seg>S al the holy ſcripture is pro<g ref="char:EOLhyphen"/>fitable to teach trew &amp; ſounde doctrine to confute falſe and erronious doctrine, to inſtruct in good and godly life, and to reproue vngodly and wicked life, that the man of God may be profited &amp; prepared to euery good worke as the Apoſtle ſaith. So righte honorable &amp; dearely beloued in our Sauiour Chriſt, if I may make any compariſo<g ref="char:cmbAbbrStroke">̄</g> betwene thoſe diuine, &amp; heauenly bookes, the booke of Pſalmes is a moſt preci<g ref="char:EOLhyphen"/>ous pearle, &amp; a moſt worthy worke contey<g ref="char:EOLhyphen"/>ning moſt ſweete &amp; comfortable doctrine for
+<pb facs="tcp:7543:3"/> the ſoule and conſcience of man. And therfore whoſoeuer he was that did write y<hi rend="sup">e</hi> firſt pre<g ref="char:EOLhyphen"/>face before the commentaries of ſ. Auguſtine vpo<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the Pſalmes, doth not vnworthely cal this boke <hi>Regiſtrus totius ſacra ſcripture &amp;c</hi>
+            </p>
+            <p n="1">1. A regiſter of all the holy ſcripture and a perfection of all diuinity. And ſ. Auguſtine himſelfe in his owne preface ſaith that this booke of the Pſalmes is <hi>Communis quidam theſaurus bonae doctrine apteſingulis neceſſa<g ref="char:EOLhyphen"/>ria Subminiſtrans,</hi> that is a certayne com<g ref="char:EOLhyphen"/>mune treaſure or ſcholehouſe of good doc<g ref="char:EOLhyphen"/>trine,<note place="margin">Caluine in his prea<g ref="char:EOLhyphen"/>face before y<hi rend="sup">e</hi> Pſalmes.</note> miniſtring fitly to euery one thoſe thinges which be neceſſarie for them. A cer<g ref="char:EOLhyphen"/>taine worthy writer of our age calleth this booke an Anatomie of the ſoule, for that ther is no affection, paſſion, nor motion, vnto the which the ſoule of man is ſubiect but he may ſee the ſame moſt liuely expreſſed in thys booke of the Pſalmes. For whether wee be perſecuted by open enemies, or moleſted by thoſe that haue ſeemed to be our friendes, who haue gone vp into the temple with vs,<note place="margin">Pſal. 41 9 <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>5.15,</note> &amp; haue taken ſweete counſel together, or whe<g ref="char:EOLhyphen"/>ther we be greeued with ſickenes, or troubled with the feeling of our ſynnes, or in what o<g ref="char:EOLhyphen"/>ther ſoeuer perplexity or diſtreſſe we be, we may ſucke out of thys booke of the Pſalmes
+<pb facs="tcp:7543:3"/> moſt ſwéete and comfortable doctrine ether for the amendment of our lyues, or the com<g ref="char:EOLhyphen"/>fort of our conſciences. And therefore S. Au<g ref="char:EOLhyphen"/>guſtine ſaith very wel, that thys booke of the Pſalmes is <hi>ſcutuma nocturuis terroribus, diurnorum requ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>es laborum, tutela pueris, or<g ref="char:EOLhyphen"/>namentum adoieſcentibus, Solamen Senibus, mulieribus aptiſſimus decor,</hi> that is to ſay, a ſhield againſt the terrors of the night, a reſt for the labors of the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ay, a defence for childre<g ref="char:cmbAbbrStroke">̄</g> an ornament for yong men, I would to God y<hi rend="sup">e</hi> yong men would ſeeke to ſtay their fraile and ſlippery youth with the diligent reading of thys booke. I would that old men would ſolace their wearyſome old age with medi<g ref="char:EOLhyphen"/>tating on this booke. I would women would trym, and attyre themſe<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e not with gold &amp; brodered heare, as the Apoſtle. ſaith but with the precious pearles, &amp; iewels that are con<g ref="char:EOLhyphen"/>teined in thys booke. Surely S. Iereme in <hi>epitaphio Paule</hi> hath theſe words. <hi>Ne<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> emim licebat cuique Sororum ignorare Pſalmos, &amp; non de ſcripturis ſanctis quotidie aliquid di<g ref="char:EOLhyphen"/>ſcere,</hi> That is to ſay, it was not lawful for a<g ref="char:EOLhyphen"/>ny of the ſiſters that were with Paula to be ignorant of the Pſalmes, or not to learne euery day ſomewhat of the ſcriptures. A god<g ref="char:EOLunhyphen"/>ly exerciſe for women. The ſame ſ. Ierome
+<pb facs="tcp:7543:4"/> writing to a gentelwoman called Data, in<g ref="char:EOLhyphen"/>ſtructing her how to bring vp her doughter writeth thus. <hi>Turpia verba non intelliga<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, cantica mundi ignoret adhuc tenera lingda pſalmis dulcibus imbuator.</hi> That is, Let her not heare filthie talk, let her not learne word<g ref="char:EOLunhyphen"/>ly ſonges, but whileſt her tounge is as yet tender let it be exerciſed in the ſwete pſalms A godly education for children. Here by the way I muſt ſhow you, how contrary y<hi rend="sup">e</hi> iudge<g ref="char:EOLunhyphen"/>ment of S. Ierome is to the opinion of the papiſtes S. Ierome woulde haue not onely men, but alſo women: not onely women but alſo children &amp; yong girles to be exerciſed &amp; trained vp in the ſcriptures. The Papiſtes haue k<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>pt the light of gods word vnder the buſſhell of a ſtraunge tounge, haue taken a<g ref="char:EOLhyphen"/>way the key of knowledge and haue ſhut vp the kingdom of God before men, and neither wyl enter in themſelues nor ſuffer others that would. But to returne againe to my purpoſe if this booke of the Pſalms be ſo wor<g ref="char:EOLhyphen"/>thy a worke, ought not we worthely vſe it? Yes verely. And how ſhall we worthely vſe it? If we do reuerently vſe it, if we ſtudy and meditate vpon it, if we breake the ſhell and get the kernall, that is, if we ſeeke the ſimple ſence of the holy ghoſt, and applie the ſame
+<pb facs="tcp:7543:4"/> vnto our ſelues, ether to amend our lyues, or to comfort our conſciences, if we do thus vſe it, we ſhall worthely and frutefully vſe it. But I feare me we do for y<hi rend="sup">e</hi> moſt part abuſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> it, we reade it, but we little regard it, we do but run ouer it, we toſſe it from one ſyde to another lyke tennis balles with ſmall com<g ref="char:EOLhyphen"/>fort to our ſelues, and leſſe profit to others. Thus to vſe gods holy word is not rightly to vſe it, but rather to abuſe it. For whoſo<g ref="char:EOLhyphen"/>euer doth vſe the word of God to any other ende, then to that to the which the ſpirit of God did indite if, and the holy prophets and Apoſtles did write it, do abuſe it, and then ſhall render an accompt to God for it. I pray God for his mercy, that our haſtye handling of his holy word, do not haſten his iuſt iudge<g ref="char:EOLunhyphen"/>ment to depriue vs of it. But ſome man per<g ref="char:EOLhyphen"/>aduenture may heare ſay: What meane you to ſpeake thus much vpon the Pſalmes? Be<g ref="char:EOLhyphen"/>cauſe (dearely beloued) I purpoſe by the aſ<g ref="char:EOLhyphen"/>ſiſtance of gods grace &amp; holy ſpirit, to intreate on a pſalme. for conſidering that that part of ſcripture which is apointed this d<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>yte be <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ad for the Goſpel hath bene of late very largely handeled in very puplike &amp; ſolemne place by others, and that the other part of ſcripture is taken out of the reuelation, more meete to be
+<pb facs="tcp:7543:5"/> handeled by a méeter man, and by one that hath more learning and leaſure the<g ref="char:cmbAbbrStroke">̄</g> I haue for theſe conſiderations I ſay I haue omit<g ref="char:EOLhyphen"/>ted them and at this time preſent haue ta<g ref="char:EOLhyphen"/>ken my ſelfe to a Pſalme.</p>
+            <q>
+               <bibl>Pſalme. LXXV.</bibl>
+               <p>¶ VVe wyll praiſe thee O God we wyll praiſe thee. For thy name is nere<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> therefore they wyll declare thy wondrous workes.</p>
+            </q>
+            <p>THis Pſalme may be deuided into foure partes whereof the firſt conteyneth a vow and promiſe of y<hi rend="sup">e</hi> godly to praiſe the name of God, and to declare his wonder<g ref="char:EOLhyphen"/>full workes, for that his name is euer neare both to be are, &amp; alſo to ſaue &amp; deliuer them.</p>
+            <p n="2">2. The ſecond part conteyneth an anſwer in the perſon of almighty God, wherein is declared that God when he ſhal ſee a conue<g ref="char:EOLhyphen"/>nient tyme wyll iudge iuſtly, and although the earth withall the inhabitance thereof be far out of frame, yet he wyll ſtabliſh the pil<g ref="char:EOLhyphen"/>lers thereof, &amp; bring al to good order againe.</p>
+            <p n="3">3. The third part conteyneth an exhorta<g ref="char:EOLhyphen"/>tion to the foliſh and wicked, neither to truſt
+<pb facs="tcp:7543:5"/> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n their own power, and wiſedome, nor to exalt themſelues againſt God &amp; his people: But rather to conſider that al true prefer<g ref="char:EOLhyphen"/>ment commeth of God, and he exalteth ſome, and putteth downe other.</p>
+            <p n="4">4. The fourth and laſt part conteineth partly a co<g ref="char:cmbAbbrStroke">̄</g>mination of Gods heauy iudge<g ref="char:EOLhyphen"/>mentes, which hang ouer the wicked, and partly a conſolatio<g ref="char:cmbAbbrStroke">̄</g> of his mercies towards the godly. Vpon theſe foure points I pur<g ref="char:EOLhyphen"/>poſe by Gods grace to intreat.</p>
+            <p>
+               <hi>VVe wyl praiſe thee O God.</hi> This firſt part as I haue aboue touched conteyneth a promiſe of the people of God to praiſe the name of God, becauſe he is euer neare to heare them, and hys power euer preſent, &amp; his help euer at hand to ſaue &amp; deliuer the<g ref="char:cmbAbbrStroke">̄</g>.</p>
+            <p>Firſt we haue to conſider whom we muſt prayſe, and to whom we muſt pray. Euen the Lord our God. It is he onely who crea<g ref="char:EOLunhyphen"/>ted &amp; made vs, it is he onely who beſtoweth all both ſpirituall graces, &amp; temporall be<g ref="char:EOLhyphen"/>nifites vpon vs, therefore him onely muſt we prayſe, and to him only pray. Prayer whereof prayſe &amp; thankes geuing is a part, is the cheefeſt exerciſe of a good chriſtians ſaith, it is our ſpiritual ſeruice, it is the ſa<g ref="char:EOLhyphen"/>crifice of their lips which confeſſe his name
+<pb facs="tcp:7543:6"/> and therefore it is to be offered only to god. But there vpon I will not ſtand.</p>
+            <p>Secondly let vs conſider of whom God muſt be prayſed not generally of all men, but perticularly of ſome, not of the wicked and vngodly, but of thoſe that feare God, and walke in his wayes, of thoſe that loue him, &amp; keepe his commaundements, of thoſe that bee iuſtified by his grace, and ſainti<g ref="char:EOLhyphen"/>fied by his ſpirite. God will not be prayſed of a blaſphemous mouth, nor of tunge that is geuen to ſwearing. God wil not be prai<g ref="char:EOLhyphen"/>ſed of a dronke<g ref="char:cmbAbbrStroke">̄</g> head, nor a malicious mind, nor a couetous hart, nor a filthy defiled bo<g ref="char:EOLhyphen"/>dy. God will not be praiſed of thoſe whoſe feete are ready to run to do miſchife, and whoſe hands are ful of bloud. God ſaith by the prophets: When you ſhall ſtre<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>tch out your hands, I wil hide mine eies from you and though ye make many prayers, I wyl not heare you, for your handes be full of bloud. In the which place there is ment by bloud, not onely the external and outward ſheding of bloud, but alſo al kind of cruelty, extremity, vſury, extortion and oppreſſion of the pore. Therefore all they in whoſe houſes is the ſpoile of the poore, that beate the people to powder, as Eſay ſaith: and
+<pb facs="tcp:7543:6"/> that pluck of their ſkinnes &amp; chop in péeces <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>heir fleſh,<note place="margin">Mich. 33</note> as it were for the pot as Micha <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>aith: or that eate vp gods people as though <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hey were bread, as Dauid ſayth,<note place="margin">Pſal. i4. 4</note> cannot worthely and fruitefully prayſe God. And <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ere there ſuch in Iudea, and is there no ſuch in England? Yes to many. Al vſurers that byte, yea and vndo their poore brethe<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>in, be ſuch, all raiſers and rackers of rents be ſuch, all turners of the poore out of their houſes and liuings: be ſuch, to conclude, all they y<hi rend="sup">t</hi> vſe any iniury or violence againſt the poore, be ſuch. And if we put all theſe together, we ſhal ſée that there be inough &amp; to many ſuch. There was neuer greater pride, neuer greater extorcion &amp; oppreſſion to maintain pride. I do know wher of late there hath bene villages wherein diuers families haue bene noriſhed, &amp; men main<g ref="char:EOLhyphen"/>teyned, able to ſerue both the prince and cuntry. And now all are wrung out, &amp; tur<g ref="char:EOLhyphen"/>ned out, and all is annexed to the demayne of one man to mainteine an vnſatiable cor<g ref="char:EOLunhyphen"/>morant. Thefe that thus turne out y<hi rend="sup">e</hi> poore, turne Gods fauorable face from them: they turne Gods frowning face and ireful coun<g ref="char:EOLunhyphen"/>tenance toward them. Wo be vnto them ſaith God by his prophet, that ioyne houſe
+<pb facs="tcp:7543:7"/> to houſe, &amp; lay field to field, tyll there be no place for the poore, that you may dwell by your ſelues in the midddeſt of the earth. This is in the eares of the Lord of hoſtes, ſo that many houſes ſhalbe deſolate, euen many &amp; great without inhabitant, Surely if this be not amended, God hymſelfe from heauen wyl reuenge it.</p>
+            <p>
+               <note place="margin">Pro. 21. i3.</note>Salomon in the prouerbes ſaith: he that ſtoppeth his eares at the cry of the poore, he himſelfe ſhall cry and not be heard. If thoſe that be merciles, that ſhew no pity nor co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>paſſion vpon the poore, that do not helpe &amp; reliue them in their neceſſity, cannot frute fully praiſe God, much more they that op<g ref="char:EOLhyphen"/>preſſe and vndo the pore, can nether prayſe nor pleaſe God.</p>
+            <p>
+               <note place="margin">Pro. 28.9.</note>The ſame Salomon ſaith: He that tur<g ref="char:EOLhyphen"/>neth his eare from hearing the lawe of the Lord, his prayer is abominable. By the which wee may learne, that aſwell they which be careles and negligent in hearing Gods word, as alſo thoſe wilfull obſtinate papiſtes whych wyll not once voutſafe to come <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o the congregation and heare it, can not worthely prayſe God.<note place="margin">
+                  <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </note>
+            </p>
+            <p>S. Iames exhorteth vs in theſe wordes: If any man lack wiſdome, let him aſke it
+<pb facs="tcp:7543:7"/> of God, which geueth to all men liberally, and caſteth no man in the téeth, and it ſhall <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e giuen him. But let him aſke in fayth &amp; wauer not, for he that wauereth is lyke a waue of the ſea, toſt of the wind and caried away, nether let that man thynke that he ſhall receiue any thyng of the Lord. By the which we be taught, y<hi rend="sup">t</hi> they in whoſe harts is the roote of infidelity who are deſtitute of faith by the which we apprehend the mer<g ref="char:EOLunhyphen"/>cies of God in Chriſt, can nether praiſe nor pleaſe God, for by faith we are grafted into Chriſt, by faith wee be adopted to be the children of God, by faith Chriſt dwelleth in our harts, therefore without faith it is im<g ref="char:EOLhyphen"/>poſſible to pleaſe God. And whatſoeuer is not of faith is ſynne.</p>
+            <p>Finally all they that work wickednes &amp; lyue diſſolutely without feare of God,<note place="margin">Caluine in his prea<g ref="char:EOLhyphen"/>face before y<hi rend="sup">e</hi> pſalmes.</note> can<g ref="char:EOLhyphen"/>not worthely praiſe god. Dauid ſaith: if I regard wickednes in my hart, the Lorde wil not heare me. And Salomon ſaith, that the ſacrifices of the wicked be abhominati<g ref="char:EOLhyphen"/>on vnto the Lord. Dauid alſo ſaith, that the prayer of the wicked is tourned into ſynne In the ninth of S. Iohn it is ſayd: God hea<g ref="char:EOLhyphen"/>reth not ſynners. But ſome ma<g ref="char:cmbAbbrStroke">̄</g> may heare ſay, whom then doth God heare? Are we
+<pb facs="tcp:7543:8"/> not al ſynners, hath not God concludes all vnder ſyn: are we not all vnprofitable ſer<g ref="char:EOLhyphen"/>uantes? Whom then ſhal God heare? I an<g ref="char:EOLhyphen"/>ſwer (Dearely beloued) that we be al ſin<g ref="char:EOLhyphen"/>ners, and that there is not one that doth good, no not one: Yet notwithſtanding ther are two ſortes of ſynners. There be ſome that ſynne but they are ſory for their ſyns, they haue contrite &amp; broken harts for their ſynnes, they féele the burthen of their ſyns in their conſciences, they trauell &amp; be heuy laden with their ſynnes. Theſe come vn<g ref="char:EOLhyphen"/>to Chriſt Ieſus, &amp; by him are refreſhed and eaſed of their ſynnes. Theſe beleue that almighty God for Chriſt Ieſus ſake wilbe merciful to their ſynnes, and forgiue them their iniquities, And thus by faith Chriſts obedience is made their obedience. Chriſts fulfilling of the law, is become their fulfil<g ref="char:EOLhyphen"/>ling of the lawe: Chriſtes righteouſnes is their righteouſnes, and couereth all their vnrighteouſnes. So that although they be vnrighteous ſynners in themſelues, yet before God they be righteous for Chriſt Ie<g ref="char:EOLhyphen"/>ſus ſake I pray God we all may be in the number of this ſort of ſynners. Theſe ſyn<g ref="char:EOLhyphen"/>ners God loueth and heareth. The eies of the Lorde are ouer the righteous and hys
+<pb facs="tcp:7543:8"/> eares be open vnto their prayers.</p>
+            <p>But there is another ſort of ſynners, which commit ſyn without griefe of mind, <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>r compunctio<g ref="char:cmbAbbrStroke">̄</g> of hart, which delight in ſyn, <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd run forward in ſynne like the ſtoned <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>orſe in the battel, &amp; wallow in wickednes <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>yke the ſow in the myre. They haue not <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hys lyuely faith which is an aſſurance of Gods loue towardes vs in Chriſt Ieſus, &amp; <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> lyuely apprehenſion of Gods mercyes in Chriſt. Theſe cannot prayſe God, nay the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nger of almighty God hangeth ouer them <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o route then: out. Let vs beware and take <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>éede that we be not in number of theſe ſyn<g ref="char:EOLunhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ers. Theſe god heareth not, but hath as it <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s in the Pſalm. <hi>Odiſti omnes qui operatur <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>niquit<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tem,</hi> 1. Thou hateſt al thoſe y<hi rend="sup">e</hi> work wickednes. But rather let vs rent our harts &amp; not our garments, and turne to the Lord our God, who is gracious and merci<g ref="char:EOLhyphen"/>full, flow to anger and of great gooones. Here alſo I wyl ſhow you that the papiſts <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>annot praiſe god, and yet they boaſt much of prayer, and ſay that praier is deſpiſed &amp; neglected of vs. But I truſt any man may eaſily perceyue partly by the earneſt zeale of Godly men in praier, &amp; partly by the ear<g ref="char:EOLhyphen"/>neſt exhortacions of good men to prayſe, &amp;
+<pb facs="tcp:7543:9"/> laſtly by the Godly bookes, that we haue written or prayer that thys is no true re<g ref="char:EOLhyphen"/>porte, by them to deface gods touth, and to bring vs into hatred with the people.</p>
+            <p>In deede as our Sauiour Chriſt diſpiſed the hipocritical praiers of the papiſtes, We condemne their vnfruitefull numbling in a ſtraunge tounge, and their vngodly cal<g ref="char:EOLhyphen"/>ling vpon creatures which is not warran<g ref="char:EOLhyphen"/>ted but co<g ref="char:cmbAbbrStroke">̄</g>demned, by the word of God. But as for true prayer which is a lifting vp of our ſoules, and a pouring forth of our harts before God, &amp; an earneſt inuocation of his holy name in the only name of hys deare ſonne Chriſt Ieſus our ſauiour, we greatly co<g ref="char:cmbAbbrStroke">̄</g>mend, &amp; earneſtly exhort al men vnto it.</p>
+            <p>But howſoeuer the papiſts glory in their prayer, I wil proue vnto you by gods grace that they cannot frutefully praiſe God, for howe can they fruitefully prayſe God who diſhonor God, and ſpoyle Chriſt Ieſus of hys glory. Chriſt Ieſus was appointed &amp; annointed of his father to be our king who onely ſhould conquer and ouercome Sa<g ref="char:EOLhyphen"/>than, ſinne, death and damnation, who on<g ref="char:EOLhyphen"/>ly ſhoulde rule hys vniuerſall church with hys ſpirite and word, who onely ſhould be the head of hys church, and gyue lyfe vnto
+<pb facs="tcp:7543:9"/> the ſame being his body. But the papiſtes <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>aue robbed him hereof, for they haue deui<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ed many other meanes <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o ouercome ſinne, <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Satan, beſides Chriſt. You heard of late <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n this place, how that the papiſtes affirme <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hat Chriſt died only for originall ſynne, <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd that for other ſynnes wee our ſelues muſt mak<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſatiſfaction, you heard alſo how <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hat Pigghius the papiſte doth confidently <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uouch that originall ſynne is not ſynne, <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ut onely ſo called becauſe it floweth and <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ommeth from ſyn. So that of this doctrine <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> muſt needes folow that Chriſt died for <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hat which is not in deede ſynne, but hath <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nly the name and title of ſynne. They <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>aue commit the regiment of Chriſts vni<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>erſall church to one man, who hath bene <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uer ſo vnable to <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uſteine ſo great a charge <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hat hetherto he was neuer wel able right <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y to rule that one city of Rome, nor his col<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>edge of Cardnals. Him they haue made <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ead of the Church, in whom (as they ſay) <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he vnity of the Church conſi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>teth, &amp; vpon <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hom the ſafety of the Church dependeth, <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o that he which is not in thys Church, whereof the Pope is head, is out of Noes <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rke, &amp; out of peters ſhip, &amp; cannot be <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>aued <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ut muſt néedes be drowned. Thys is th<gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>
+               <pb facs="tcp:7543:10"/> doctrine, by the which they depriue Chriſt Ieſus as much as in them lieth of that func<g ref="char:EOLunhyphen"/>tion vnto the which his heuenly father t<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o appoint him. Chriſt was annointed and ap<g ref="char:EOLhyphen"/>pointed to be our onely prophet and ſchole<g ref="char:EOLhyphen"/>maiſter, whom onely we ſhuld haue as his heauenly father did teſtify of hym ſaying. <hi>Hic eſt ſilius meus dilectus in quo mihi benae complacitum eſt, ipſe andite.</hi> 1. This is my welbeloued ſonne in whom I am wel plea<g ref="char:EOLhyphen"/>ſed, heare him. He hath deliuered vnto vs his holy word and goſpell which is able to ſaue our ſoules, and alſo to make the man of god perfect prepared to euery good work, this he hath ſealed and confirmed with his bloud. Yet notwithſtanding the papiſtes do affirme that all things needeful and neceſ<g ref="char:EOLhyphen"/>ſary to our ſaluation, a<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> not conteined in the ſcriptures, but that we muſt receyue many traditio<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s, which yet are but triffles and beleue many vnwritten verities. And thus in effect they take from hym the office of being our prophet to inſtruct vs. Chriſt Ieſus was annoynted of God to be our hi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> prieſt, where with the ſacrifice of his body and bloud once offered hath payd the price and raunſome of our ſinnes, who entred once into the holy place, and found eternal
+<pb facs="tcp:7543:10"/> redemption, who with one ſacryfyce once <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ffered hath made perfyt al thoſe that ſhal<g ref="char:EOLhyphen"/>be ſaued,<note place="margin">Mich. 33</note> who died once the righteous for the vnrighteous,<note place="margin">Pſal. i4. 4</note> and bare our ſinnes vpon the wood. But the Papiſtes haue brought in a fained &amp; forged ſacrifice of their owne deuiſe, auailable (as they ſaye) not onely for the ſynnes of thoſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> that are alyue, but alſo for them that are dead. Thys feyned ſacrifice, as it hath no warrant at al in the word of God, ſo is it a great derogation to the death and paſſion of Chriſt coniured by the Pope: <hi>Peccatum <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rangit vt Chriſti San<g ref="char:EOLhyphen"/>quis et augit</hi> It breaketh and greueth ſynne as wel as the bloud of Chriſt. For thus ful rudely or rather blaſphemouſly dyd Pope Vrbane runne to Fre<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>erick the Emperor. They ſay that holy water is aueileable, ad <hi>ſalutem animae et corporis</hi> to the ſaluation of the ſoule and body. They haue taught vs to ſay and pray. <hi>Ieſu bonae per Thoma merita noſtra nobis demitte debita. i.</hi> Good Ieſus for the merits of Thomas forgiue vs our debtes, that is to ſay our ſynnes. And againe. <hi>Tu per Thoma ſanguinem &amp;c</hi> which in a rude rime they thus tranſlated make vs Chriſt to clime whether Thomas
+<pb facs="tcp:7543:11"/> did aſcend. Thus we may plainely perceiue that the papiſtes aſcribe that which is only proper to the merites and bloud of Chriſt Ieſus the ſonne of God, to the merites and bloud of a man, I wyll not ſay what maner of man. I reade in an epiſtle lately written to the ſenate of Venice, that in that ſolemne Church of S. Marke in Venice ther be cun<g ref="char:EOLhyphen"/>ningly and coſtly graued the foure pictures of the foure Euangeliſtes,<note place="margin">Pro. 21.13</note> and vnder euery one his peculiar verſe. Vnder S. Mathew this: <hi>ablue concta reae mentis mala ſancte Mathee:</hi> that is O S. Mathew waſh away all the euils of a gilty minde: and vnder S. Iohn thys: <hi>Quo ſine ſine manes perduc nos virgo Iohannes,</hi> that is, O Virgine Iohn bring vs thither wher thou doeſt abide for euer.<note place="margin">Pro. 28.9.</note> If thys be not blaſphemous againſt God the father &amp; our ſauiour Ieſus chriſt, I know not what I ſhuld cou<g ref="char:cmbAbbrStroke">̄</g>t or cal blaſphe<g ref="char:EOLunhyphen"/>mous. Chriſt was annointed to be our on<g ref="char:EOLhyphen"/>ly mediator betwixt God and man, as the Apoſtel ſaith. But they haue made many mediators wherof we may wel doubt whe<g ref="char:EOLhyphen"/>ther ſome be in heaue<g ref="char:cmbAbbrStroke">̄</g> or not. And thus we may ſufficiently ſée that the Papiſtes al<g ref="char:EOLhyphen"/>though they profeſſe Chriſt in worde,<note place="margin">
+                  <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap>
+               </note> yet they deny hym in déede. Wherefore vn<g ref="char:EOLhyphen"/>leſſe
+<pb facs="tcp:7543:11"/> we hate and abhorre this diueliſh, dam<g ref="char:EOLunhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>able doctrine which is repugnant to Gods <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ord, and iniurous to Chriſts death we can <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e ther truely pleaſe nor prayſe God.</p>
+            <p>Now let vs conſider how we muſt praiſe God: It is here ſayd. <hi>VVe wyl praiſe thee O God, we wil praiſe thee,</hi> this repitition is <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n effectual kind of ſpeach, teaching vs, that we muſt praiſe God earneſtly and not neg<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ygently, zealouſly and not careſly, feruent<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y not coldly. And herein we muſt tread in <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he ſteppes and follow the example of our ſauiour Chriſt, who in the dayes of his fleſh (as the Apoſtel ſaith) did offer vp prayers &amp; ſupplications, <hi>cum clamore valido et lachri<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>mis,</hi> with ſtrong crying and teares, to him that was able to ſaue him. And howe we may thus effectualy pray,<note place="margin">Caluine in his prea<g ref="char:EOLhyphen"/>face before y<hi rend="sup">e</hi> pſalmes,</note> the Apoſtle teach<g ref="char:EOLunhyphen"/>eth vs ſaying, <hi>Spiritus interpellat pro nobis <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>gemitibus menarrabilibus.</hi> 1. The ſpirite of God maketh interceſſion for vs with gro<g ref="char:EOLhyphen"/>nings that cannot be expreſſed, the meaning whereof is as S. Auguſtine doth truely ex<g ref="char:EOLhyphen"/>pound it, that the ſpirite of God doth moue and ſtir vp our harts to pray vnto God with ſighes &amp; gronings which cannot be expreſ<g ref="char:EOLhyphen"/>ſed. They therefore which are ſealed wyth Gods holy ſpirit, and whom the ſayd ſpirite
+<pb facs="tcp:7543:12"/> doth moue to cry Abba father, they I ſay do pray vnto god with déepe ſighes: gronings The Apoſtle in the 12 to the Romaines tea<g ref="char:EOLhyphen"/>cheth vs who be the true worſhippers of God, <hi>Spiritu feruentes domino ſeruientes,</hi> be<g ref="char:EOLunhyphen"/>ing feruent in ſpirit, and fearing the Lord. Thoſe be the true ſeruers and ſeruantes of God which be feruent in the ſpirit. But the world is nowe come to that pointe almoſt, that it is cou<g ref="char:cmbAbbrStroke">̄</g>ted in a maner worthy reproſſe to be zealous and feruent in the ſpirit. For if a man calmely and temperately handle gods cauſe, then he is counted a wiſeman, a ſober man, and a diſcreate man. But if the zeale of Gods houſe haue eaten him vp &amp; touch the quick, he hunger &amp; thirſt the re<g ref="char:EOLhyphen"/>formation of things that be amiſſe, then he is called raſhe, fooliſh, vndiſcreate, and I wot not what. But I beſech God that all men, eſpecially the miniſters &amp; preachers of Gods holy worde may be endewed wyth the two properties which are commended in Apollo to be feruent in the ſpirite, and mighty in the ſcriptures. Both theſe muſt be coupled together, and not ſeuered a ſun<g ref="char:EOLhyphen"/>der in a miniſter, for nether knowledge is ſufficient without zeale, nether zeale with<g ref="char:EOLhyphen"/>out knowledge, For S. Paule doth teſtifye
+<pb facs="tcp:7543:12"/> of hys cuntrymen the Iewes, that they had zeale towards God, but not accordinge to <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nowledge. And yet in my opinio<g ref="char:cmbAbbrStroke">̄</g> good zeale <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ith ſmall learning, is better then great <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>arning with ſmall zeale.</p>
+            <p>Now let vs conſider why we ſhuld praiſe God and declare his meruelous workes, it &amp; heare declared in theſe wordes. <hi>For thy <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ame is neare.</hi> The name of God, that is to God himſelf, his power and maieſty is ſaid <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s be neare. Firſt becauſe he is readye to <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ere our prayers and peticions, Secondly <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ecauſe his mighty power is euer preſent <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o ſaue and deliuer vs. Of the firſt Dauid <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>aith: the Lord is neare do al that call vpon <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>im in truth. And god promiſeth by the pro<g ref="char:EOLhyphen"/>phet Eſaias to here his people euen before they cal vpon him. I haue good cauſe to con<g ref="char:EOLhyphen"/>fute the papiſts, who imagine God to ſtand a ſoufe and far of, and that therfore we muſt come vnto hym, as vnto a worldly king by the meanes of Sainctes, who in their opini<g ref="char:EOLunhyphen"/>on are nerer vnto vs then God. But dea<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ly beloued be not deceiued there is no ſaint in heauen nor earth ſo nere vnto thee, as is al<g ref="char:EOLhyphen"/>mighty God, For as touching the ſaintes which be, are departed thys lyfe, whether they do heare our praiers or knowe our e<g ref="char:EOLhyphen"/>ſtate
+<pb facs="tcp:7543:13"/> it is to be doubted, ſurely S. Auguſtin in his booke <hi>de cura pro mortuis ad Pauli<g ref="char:EOLhyphen"/>num,</hi> ſeemeth to conclude, that as we here liuing do not know what is don in heauen, ſo that ſaintes in heauen know not what is done on the earth. And to thys purpoſe he alledgeth certayne places out of the holye ſcriptures, Firſt out of the .63, chapter of E<g ref="char:EOLhyphen"/>ſaias the Prophet, <hi>Abraham nefciuitnos, Iſrael ignorauit nos.</hi> Abraha<g ref="char:cmbAbbrStroke">̄</g> hath not know<g ref="char:EOLunhyphen"/>en vs, Iſraell hath not knowen vs, thou O Lord art our Father, and our redeemer, thy name is for euer. Here the Prophet doth not direct his prayer to Abraham nor to Ia<g ref="char:EOLhyphen"/>cob, but only to God, yea and he plainly pro<g ref="char:EOLunhyphen"/>feſſeth that Abraham &amp; Iacob did not know their eſtate, and therefore he ſeeketh only to God. Another place Auguſtine aledgeth out of the Pſalme, <hi>Pater et mater dereliquerunt me, dominus autem ſuſepit me-</hi> My Father and my mother haue forſaken me, but the Lorde hath taken me vp. A thirde place he writeth out of the booke of Kinges where Hulda the prophetiſſe did ſhew king Ioſia that he ſhuld be gathered to his Fathers, and buried in peace, that hys eyes myght not ſee the euil which God would bring vp on y<hi rend="sup">e</hi> people. By theſe places. S. Auguſtine
+<pb facs="tcp:7543:13"/> doth proue that the ſaincts departed do ne<g ref="char:EOLhyphen"/>uer heare our prayers, nor vnderſtand our eſtate. But if I ſhould graunt that they do heare our praiers (which yet cannot be pro<g ref="char:EOLhyphen"/>ued by the ſcriptures) yet doth it not follow that they be nearer vnto vs then God. Sa<g ref="char:EOLhyphen"/>lomon ſaith, <hi>Tu ſolus nouiſti corda filiorum Iſrael:</hi> Thou only O lord knoweſt the harts of the ſonnes of Iſrael. He onely ſearch the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>arts &amp; reines, and therefore he is nearer vnto vs then all ſainctes &amp; creatures. But as touching thys matter of Inuocation I will ſay no more, only this I conclude, we haue in the ſcriptures the expreſſe co<g ref="char:cmbAbbrStroke">̄</g>maun<g ref="char:EOLhyphen"/>dement of God to call vpon him. Call vpon me (ſaith God) in the day of thy trouble and I wil deliuer thee, and thou ſhalt glorify me. We haue many promiſes that our prayers ſhalbe accepted &amp; graunted being offered to god in y<hi rend="sup">e</hi> name of our ſauiour Chriſt as may peare in the text laſt alledged. And in Ioel it is ſand <hi>Que cunque in vocauerit. &amp;c.</hi> who ſoeuer calleth vpon the name of the Lorde ſhalbe ſaued. And our Sauiour Chriſt ſaith Whatſoeuer ye aſke of the father in my name, be ſhal geue it you. We haue exam<g ref="char:EOLhyphen"/>ples of the holy patriarches, prophets, and Appoſtles which prayed to none other but
+<pb facs="tcp:7543:14"/> onely to God. On the other part we haue not in al the ſcriptures any one commaun<g ref="char:EOLhyphen"/>dement to pray to any ſainct, nor any pro<g ref="char:EOLhyphen"/>miſe that our prayers ether made vnto the<g ref="char:cmbAbbrStroke">̄</g> or offered to God in their names, ſhalbe ac<g ref="char:EOLhyphen"/>cepted or graunted of God, nether haue we any one example of any one Godly patri<g ref="char:EOLhyphen"/>arch. Prophet, or Apoſtell that euer prayed to any other but only to God, and therefore ought we alſo to poure fourth our prayers only to God. And thys in my iudgement might ſufficiently ſerue any man that will humbly ſubmit himſelf to Gods truth, and not be froward &amp; obſtinat againſt the ſame.</p>
+            <p>Secondelye Gods name is ſaide to be neare, becauſe hys power is euer preſente to ſaue and deliuer his. But here it may bee obiected. Howe is Gods power euer preſente, when the Godlye do greatelye complaine after this ſort. Why ſtandeſt thou a far of O Lord, and hideſt thee in dew tyme, euen in affliction? And againe, how long wilt thou forget me O Lord, for euer? How long wilt thou hyde thy face from me <hi>Vſque quo domine?</hi> How long O Lord ſhal all the workers of wickednes triumphe. &amp;c I anſwer that all though God be euer pre<g ref="char:EOLhyphen"/>ſent to ſaue his, yet he doth not ſhewe the
+<pb facs="tcp:7543:14"/> ſame, nether do they taſt of it, vntil it ſéeme <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ood vnto almighty God,<note place="margin">Mich. 3<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </note> and therefore it fo<g ref="char:EOLunhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oweth in the ſecond part, <hi>VVhen I ſhall <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ake a conuenient tyme I wyll iudge iuſtly.</hi>
+               <note place="margin">Pſal. i4. 4</note> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o that we muſt paciently wayte on the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ord, and abide the Lords leaſure. And whe<g ref="char:cmbAbbrStroke">̄</g> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e ſhal take a conuenient time he wil iudge <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uſtly. This iuſt iudgement of God conſiſt<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n .ij. points partly in ſauing and deliuering <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>is people which feare hym, and partly in <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uniſhinge and plaginge his enemies: where by the waye I maye note that all ciuil iuſtice (which ought alſo to be confor<g ref="char:EOLhyphen"/>med to the iuſtice of God) conſiſteth lyke<g ref="char:EOLhyphen"/>wiſe in theſe two, pointes in defending the good, and puniſhing the euill. All common wealthes (ſaith the philoſopher) muſt be ru<g ref="char:EOLhyphen"/>led with <hi>Praemio &amp; paena,</hi> reward to the good, &amp; puniſhment for the euil. And therfore wher the good and Godly be puniſhed, or the wicked ſpared, there is neither iuſt iudge<g ref="char:EOLhyphen"/>ment nor good gouerment.</p>
+            <p>Here before I procede any further I muſt exhort al iudges and magiſtrates by the ex<g ref="char:EOLhyphen"/>ample of almighty God to iude iuſtly and ſeuerely to puniſh ſynne, and eſpecially I muſt earneſtly moue you ſeuerely &amp; ſharp<g ref="char:EOLunhyphen"/>ly to puniſh murther, and ſheding of bloud.
+<pb facs="tcp:7543:15"/>
+               <gap reason="duplicate" resp="#OXF" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb facs="tcp:7543:15"/>
+               <gap reason="duplicate" resp="#OXF" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb facs="tcp:7543:16"/> For mens handes are ſo tickliſh, and their feete ſo ready to runne to this miſchiefe (as may appeare by theſe ſtirs &amp; vprores lately raiſed which can ſcarſly be appeaſed (that vnleſſe this enormity be ſeuerly puniſhed no peace nor quietnes can be preſerued. And yet I do not mind to kindle you to any fur<g ref="char:EOLhyphen"/>ther ſeuerity then God in his law hath com<g ref="char:EOLunhyphen"/>maunded.<note place="margin">Pro. 21. 13</note> In the .ix. of Geneſis we reade y<hi rend="sup">t</hi> he which ſheedeth mans bloud, by man ſhal his bloud be ſhed againe. This was before the law was giuen. In the lawe Exod. 21. it is thus ſayd: he ſhall dye the death. In the .35. of Numeri God expreſſely co<g ref="char:cmbAbbrStroke">̄</g>maundeth that whoſoeuer killeth any perſon the iudg ſhal ſlay the murtherer through two witnes but one witnes ſhal not teſtifi againſt a per<g ref="char:EOLunhyphen"/>ſo<g ref="char:cmbAbbrStroke">̄</g> to cauſe him to die. And it foloweth after ye ſhal take no recompenſe for the life of the murtherer, which is worthy to dye, but he ſhalbe put to death. Here al agréeme<g ref="char:cmbAbbrStroke">̄</g>t with the parties is excluded &amp; prohibited of God. And the reaſon hereof foloweth in theſe wordes: for bloud defileth the land, and the land cannot be cleanſed of the bloud that is ſhed therein, but by the bloud of him that ſhed it. In the .19. of Deuteronomie God commaundeth thus: thy eye ſhall not ſpare
+<pb facs="tcp:7543:16"/> him, but thou ſhalt put away the cry of inno<g ref="char:EOLunhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ent bloud from Iſraell that it may be well <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ith thée. Thy eye ſhall not ſpare him ſaith God, thou ſhalt haue no pity nor compaſſio<g ref="char:cmbAbbrStroke">̄</g> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>pon him, thou ſhalt not ſay. Oh he is a pro<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>er man, a tal fellow, able to do good ſeruice <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o, thy eye ſhall not ſpare hym ſayth God. Paule ſpared Agag, but God did reiect him. Achab ſpared Benadab. But God plagued him for it. Wher the mighty God ſaith kill, ſhall earth and aſhes ſay ſpare? No, the ma<g ref="char:EOLhyphen"/>giſtrate is appointed to execute Gods law, And not to diſpence with it at his pleaſure. The ſecond thing that is to be conſidered is that we muſt put awaye the cry of inno<g ref="char:EOLhyphen"/>cent bloud, by the which we may learn, that bloud wrongfully ſhed crieth for vengeance As the bloud of Abell cryed vnto God from the ground, and wo be to that lande where God is as it were enforced to take y<hi rend="sup">e</hi> ſword into his owne hande, it is a terrible thyng ſaith the Apoſtle to fall into the handes of the liuing God. The third thing that there is to be noted is, that it may be well wyth thée, the which admoniſheth, vs that it can<g ref="char:EOLhyphen"/>not be well with that people, where the ſhéeding of innocent bloud is not puniſhed. God will not be pleaſed with the Iſralites
+<pb facs="tcp:7543:17"/> vntil the heades that is to ſay the princes &amp; rulers of the people whoe had bene cau<g ref="char:EOLhyphen"/>ſers of that fornicatyon &amp; Idolatry commit<g ref="char:EOLunhyphen"/>ted w<hi rend="sup">t</hi> the Moabits he hanged before the ſon God will not be pacified with the Iſralits, vntil Athan be ſtoned. The ſtorme wil not ceaſe vntil Ionas who was the occaſio<g ref="char:cmbAbbrStroke">̄</g> ther<g ref="char:EOLhyphen"/>of be throwne ouer bord. And ſo ſurely this realme, and chiefly thys City of Londo<g ref="char:cmbAbbrStroke">̄</g> wil neuer be quiet vntill theſe Ionaſſes, theſe ſheders of bloud be ether throne ouer bourd or tourned off the ladder. And yet my mea<g ref="char:EOLhyphen"/>ning is not, but that in ſome caſes ſlaughter may be committed and the ſame by death be not reuenged. As if a man ſlea his neigh<g ref="char:EOLhyphen"/>bour and before dyd not hate hym, God in ſuch caſes prouided places of refuge, to the which the ſtear ſhould flée, and ther<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e ſaued from the auenger of bloud. And alſo if a ma<g ref="char:cmbAbbrStroke">̄</g> be conſtrained and extremely vrged for the ſafety of his owne lyfe the magiſtrate may conſider thereof. But my meaning is that this wilfulnes of whot heads, &amp; luſty blouds is to be reſtrained and ſharply puniſhed. A crocked word &amp; by and by his dagger on his head, a little ouerthward aunſwer, and hys ſword in his ſyde. This is not to be ſuffered
+<pb facs="tcp:7543:17"/> in a Chriſtian common wealth. But to come <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> my matter, generally I exhort al iudges <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>d magiſtrats to iudge iuſtly, not to turne <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>dgement into wormewood, neither by vn<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſt and wrongfull iudgement, neither by <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>elaying and deferring of iuſtice. And alſo <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> beware that neither bribery do blind the<g ref="char:cmbAbbrStroke">̄</g> or reſpect of perſons do moue them to iudg <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>niuſtly. Iuſtice muſt haue but and eye <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd not twoo, not to looke on the cauſe <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ith the one, and on the purſe with the o<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>er, not on the matter with the one, and <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>pon the partie with the other, No, Iuſtice <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uſt haue but one eye, which directly muſt <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>poke vpon the cauſe. Iudge therefore <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſtly, for as you iudge ſo ſhall you be <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>udged, and with what meaſure you meate <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o other, with the ſame ſhall it be meaſured <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o you againe. This can the poet Phocilli<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>es (whom I had like to haue called a pro<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hane Poet, but in deede hee was a deuine Poet) teache vs in theſe verſes: reiect not <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he poore, iudge no man vniuſtly, for if thou <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>udge wrongfullye, God ſhall afterwarde <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>udge thee, And thus much by the way tou<g ref="char:EOLhyphen"/>ching the iudgement of man. Now to come againe to my text: when I take a conuenie<g ref="char:cmbAbbrStroke">̄</g>t tyme (ſaith God) I will iudge iuſtly. Thys
+<pb facs="tcp:7543:18"/> iuſt iudgement of God I haue before touch<g ref="char:EOLhyphen"/>ed conſiſteth in theſe two things in ſauing and deliuering his people, and plaging hys enemies. And when is it a conuenient time for God to iudge thée iuſtly. Surely it is a conuenient time for God to iudge iuſtly in puniſhing of the wicked when their ſynnes are growen to a ripenes and fulnes, when no admonition will amend them, when no correction will reclayme them, then I ſay it is a conuenient tyme for God to poure downe his heauy iudgements vpon them, When the wickednes of man was waxen great vpon the earth and all fleſh had defi<g ref="char:EOLhyphen"/>led their wayes, and God had appointed the<g ref="char:cmbAbbrStroke">̄</g> a ſpace office ſcore yeares to repent in, and called them by the mouth of Noah to repen<g ref="char:EOLunhyphen"/>tance &amp; had cauſed the Arke to be made in ſigne of their deſtruction, when nothing I ſay could amend them, but they neglected gods calling, diſpiſe<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> his preacher and con<g ref="char:EOLhyphen"/>tinewed in their wickednes, then was it a conuenient tyme for god to execute hys iuſt <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ogementes againſt them. So lyke<g ref="char:EOLhyphen"/>wiſe when the crye of the ſynnes of Sodom had aſcended vp vnto heauen, and they would not be warned by righteous Lot, bu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> rather vexed him with their vncleane con<g ref="char:EOLhyphen"/>verſation,
+<pb facs="tcp:7543:18"/> then was it a conuenient tyme, for <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>od terrybly to deſtroy them, with fyre and <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rimſtone from heauen. So likewiſe the Iewes, when God of his great mercy had <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>yſen vp early (as y<hi rend="sup">e</hi> ſcripture tearmeth it) <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd had ſent al his ſeruaunts the prophets <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nto them, had cryed vnto them, but they would not heare him, had called vnto them but they would not anſwer him, but walked <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n the ſtubbernnes of their own hearts; and mocked Gods meſſengers, miſuſed his pro<g ref="char:EOLhyphen"/>phets, and diſpiſed his wordes. Then when there was no remedy, it was a conuenient tyme for the wrath of the Lord to ariſe a<g ref="char:EOLhyphen"/>gainſt them, who brought the Caldeans vpon them, by whom their cuntrey was ſpoiled, their Cities ſubuerted, their temple wherein they ſo glorified was raiſed, their people deſtroyed, and the reſt caryed into miſerable captiuity. The like may be ſayd of the Iewes afterward, for when neither the diuine doctrine which our Sauiour Chriſt taught, nor the wonderfull workes which he had wrought among them, could moue the<g ref="char:cmbAbbrStroke">̄</g> to acknowledge and embrace him for their only Meſſias &amp; Sauiour, but they would crucify the Lord of glory, &amp; perſecute his Apoſtols, the<g ref="char:cmbAbbrStroke">̄</g> was it a conuenient tyme
+<pb facs="tcp:7543:19"/> for God to bring the Romanes vpon the<g ref="char:cmbAbbrStroke">̄</g>, by whom they were miſerably and terribly deſtroyed. Let vs dearely beloued be admo<g ref="char:EOLhyphen"/>niſhed by theſe examples to take heede that we walke not in the like ſtubbernnes, and commit not the like wickednes as they did, for ſurely if we do, we ſhall drink of y<hi rend="sup">e</hi> ſame cup as they did But when I conſider our great vnthankfulnes towardes God, our great wickednes againſt God, our backſly<g ref="char:EOLhyphen"/>ding and backſtarting from God. I ſtand in horror and terror of theſe heauy iudgeme<g ref="char:cmbAbbrStroke">̄</g>ts which I feare me hang ouer vs. God for his mercy turne them away from vs, and the onely way for vs to auoid them, is to turne by true &amp; vnfeyned repentance to the Lord our God, who is gracious &amp; mercifull, ſlow to anger and of great goodnes. Thus you haue heard when it is a conuenient tyme for God to plauge his enemies: Now let vs conſider when it is a conuenient tyme for God to iudge iuſtly in ſauing and deli<g ref="char:EOLhyphen"/>uering his people. When god hath ſuffici<g ref="char:EOLhyphen"/>ently corrected his people for their ſynnes, hath tried their fayth, and proued their pa<g ref="char:EOLhyphen"/>cience, and when al power of man, and all help of fleſhe and bloud faileth, then is it a conuenient tyme for almighty god, to put
+<pb facs="tcp:7543:19"/> to his hand, and to deliuer them from their miſeries. When God had puniſhed the Iſ<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>alites in Egipt, where they were greuouſ<g ref="char:EOLunhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y oppreſſed,<note place="margin">Exo. 2.24 Exod. 3.9 10.</note> and there was no meanes for man to deliuer them, then God hearde their <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rye, conſidered their ſorrowes and ſent Moſes vnto them, and deliuered them with <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> mighty hand, and an outſtretched arme. And after that they were come out of Egipt and the Egiptians did purſue the<g ref="char:cmbAbbrStroke">̄</g>, the red ſea being before them, and the Egiptians <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ehind them, and no way in mans iudge<g ref="char:EOLhyphen"/>ment to eſcape, then was it a conuenient tyme for God to ſtretth foorth his mighty hand,<note place="margin">Exe. 14.16</note> and to make a paſſage for his people <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hrough the red ſea, <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> to ouer whelme his e<g ref="char:EOLhyphen"/>nemies in the ſame. So likewiſe when god had plaged the Iewes (as <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> haue before tou<g ref="char:EOLunhyphen"/>ched) with the captiuity of <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>abylon, at the laſt when the .70. yeares were e<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>pired, and no hope of deliuerance in the ſight of man, then God remembring his promiſe which he had ſworne vnto Abraha<g ref="char:cmbAbbrStroke">̄</g> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> hys word which he had reueled vnto <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ere<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> r<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>moued the hart of king Ci<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>s to ſend home his peo<g ref="char:EOLunhyphen"/>ple to repaire the<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> City, and to build hys temple. So, to applye this doctrine vnto our ſelues, when Go<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> for our iniquities had of
+<pb facs="tcp:7543:20"/> late b<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ought vs into the captiuity of Egipt and babilon, and the wild bore of Rome had rooted vp the Lordes vyneard, when for the light of the Goſpel, we had the light of can<g ref="char:EOLhyphen"/>dels, for the holy bible, bables and banners, for Gods word, mans triffling traditions, for preaching, maſſing, and for our free iuſ<g ref="char:EOLhyphen"/>tification by the mere mercie and grace of God in Chriſt Ieſus through faith, mans merites and righteouſnes eſtabliſhed. Yea when not only a forrein prince and proud people were brought in, vnto whom wee were like to haue bene made thral, and thu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> when there was no expectation of any de<g ref="char:EOLhyphen"/>liuerance from theſe great miſeries,<note place="margin">Pſal. 14.4</note> then was it a conuenient tyme for God ſéeing y<hi rend="sup">e</hi> oppreſſion of the <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>dy, and hearing the ſighes of the poor<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> to aryſe and ſet them at liberty whom the wicked had thralled. Then God did <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> vs from aboue and did ſend vs a gracious prince, fleſh of our fleſh, &amp; bone of our bones, by whom he hath reſtored vnto vs the comfort of his worde, deſtu<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ed vs from this foreyne oppreſion &amp; ſlauery &amp; tranſlated vs out of darknes into hys mar<g ref="char:EOLunhyphen"/>uelous <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ight. I wold to God that we would continually remember theſe great mer<g ref="char:EOLhyphen"/>cies, which God hath ſtewed vs herein. O
+<pb facs="tcp:7543:20"/> that we would ſay with Dauid. What that <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> render vnto the Lord for all his benefites <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>wards vs? We will take the cup of ſal<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ation, and prayſe the name of the Lorde. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>et duety one of vs lay. My ſoule prayſe <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the Lord, &amp; al that is within me praiſe <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ys holy name, my ſoule praiſe thou the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ord, and forget not all his benefites. Let <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s beware that we prouoke not God by our <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nthankfulnes and wickednes to depriue <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s of all theſe great benefites. For ſurely <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> God of his mercy hath reſtored vnto vs <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> holy word, ſo of hys iuſtice he may take <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ſame from vs.</p>
+            <p>Here <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e may further learne that as God <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> all things in conuenient time, ſo ought <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> alſo d<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> all thinges in conuenient tyme. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ho worldely wiſe men, much obiect thys <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>onuenient tyme chiefely againſt the refor<g ref="char:EOLunhyphen"/>mation of religion and the houſe of God. O ſay they it to not yet conuenient tyme, thy <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>yme wyll not ſuffer it, the tyme will not beare it, you muſt tary the tyme? In deede <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>dued <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s it is very m<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>te althings <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ne in conuenient tyme, ſo ought we <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the other ſ<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e to take heede that we omit <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> conuenie<g ref="char:cmbAbbrStroke">̄</g>t time to do good in the church <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> of God when it is offered. How dangerous
+<pb facs="tcp:7543:21"/> a thing it is in al kind of maters to let paſſe oportunity and conuenient tyme, any man may eaſely perceiue. If the Generall omit oportunity of tyme to charge his enemies, when it is offered, he may looſe the victory as we read of ſundry others, as namely of Iohn Frederick the Duke of Saxonie, and the Lantgraue againſt Charles the fift<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> the Mariner take not conuenient tyme of wynd and wether, when he may haue it, he may loſe his paſſage: if the Merchant ſlyp conuenient tyme of making his bargaine, he may forgo his gaines. Therefore the prophet doth admoniſh vs to take oportun<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>ty of time: <hi>Querite domin<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m dum prope<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſt.</hi> Seeke the lord whileſt he is neare, which teacheth vs that if wee doo not ſéeke the Lord whileſt we haue oportunity when we our ſelues wold we ſhal not find him Chriſt our Sauiour tooke this tyme, I muſt work (ſaith he) the workes of hym that ſent me, while it is day. To this alſo S. Paule doth exhort vs, <hi>Dum tempus habemus operemu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> bonum,</hi> while we haue time let vs <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o good, I feare me we haue omitted this conuenient tyme. When God at the firſt dyd reſt o<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> vnto vs the comfort of his goſpel, then was it a conuenient tyme to haue made a <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ight
+<pb facs="tcp:7543:21"/> reformation of religion. But our eye was <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ot then ſingle, nor our doings ſimple, then <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e drew not out of the booke of God a right <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>at, neither laid we a ſure foundation of <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ght reformation, we did not then vtterly <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>boliſhed all ſuperſtitious vanities,<note place="margin">Mich. <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </note> which <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ow by Gods iuſt iudgeme<g ref="char:cmbAbbrStroke">̄</g>t are prickes in <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>r eies: and thornes in our ſides. But here peraduenture ſome men may ſay all things be wel and in good order, we ought to praiſe the name of God for this we haue, and be thankfull vnto the prince. In deede as I doubt not, but all that feare God earneſtly prayſe the name of the Lorde for theſe hys mercies that god may finiſh that good work which he hath begon by her maieſty. So yet we muſt needes confeſſe that al things be not well and in right order. For I thynke that there is no wiſe or learned man will hold that popiſh opinion, that the church is, <hi>ſine macula et ruga,</hi> without ſpot or wrincle or that nothing can be bettered or amended But if any ſhould ſo ſay, I would ſay, that he wer ether wilfully blind and would not ſee, or ſtarke blind, and could not ſee. And ere I wyll touch ſome abuſes which re<g ref="char:EOLhyphen"/>maine in the Church, not as God who ſeeth the ſecrete of mens harts knoweth to main<g ref="char:EOLunhyphen"/>taine
+<pb facs="tcp:7543:22"/> any contention which I vtterly ha<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e and abhorre in my ſoule, but onely to moue vs to ſeeke ſome earneſt reformation. It is a miſorder that popiſh prieſtes who haue be witched the world, haue burnt incenſe to the idoles of the houſe of Iſraell, who haue led the people to worſhip ſtraunge gods, &amp; haue cauſed them to commit fornication with ſtocks and ſtones, ſhold by the vertue of their idolatrous orders remayne mini<g ref="char:EOLhyphen"/>ſters in the Church of God. No man ſaith the Apoſtle taketh this honor vnto himſelf, vnleſſe he be called of God as was Aaron, but theſe popiſh prieſtes were neuer called of God as was Aaron, for they were called to ſacrifice for the quicke and the deade, which calling is not of God, for that they haue not the warrant of gods worde for it, therefore I conclude they ought not to take this honor vnto them. That zealous King Ioſiah in hys zealous reformation did put down the Chemerims, that is to ſay thoſe black prieſts which had burnt incenſe in the high places, and would not ſuffer the<g ref="char:cmbAbbrStroke">̄</g> to come vp to the Alter of the lorde which was in Ieruſalem. Euen ſo I ſay that theſe popiſh prieſtes ought not to come vp to the Alter of the Lorde which is in Ieruſalem,
+<pb facs="tcp:7543:22"/> they ought not to remaine miniſters in th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hurch of God. Theſe be thoſe dragons of whom you heard lately in this place which <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uerthrow in the night all that was built <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n the day. Yea theſe w<hi rend="sup">t</hi> their priuy preſuaſi<g ref="char:EOLunhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ns &amp; ſecret ſuggeſtio<g ref="char:cmbAbbrStroke">̄</g> wil ouerthrow more <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n one day or night, then a Godly learned <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>reacher is able to build vp in many daies. Yea theſe wil ſo mumble and tumble vp the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eruice (as they call it) that the poore people <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hall get ſmall edification or comfort by it, <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd therein they haue their hartes deſyre. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd I will adde hereto this reaſon. The <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>apiſtes will not admit our miniſters to <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ay maſſe, vnles they be ſhauen, greaſed, and <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rdeyned againe. And why ſhould we then <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>dmit their prieſtes to ſerue in the church <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>f God? hath not God commaunded vs to do vnto the great whore of Babilon as ſhe hath done vnto vs. But here I may rightly make that complaint which Tertullian in hys daies made: <hi>O me<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ior fides natio<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>um in ſuam ſectum, quae multam ſolemnitatem Chriſtianorum ſibi vendicat, non dominicum <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>em, non pentecoſten etiamſi noſſent nobiſ<g ref="char:EOLhyphen"/>cum non communicaſſent, timerent enim Chriſtian viderentur. Nos ne Ethnici pronu<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>ciemur non veremur:</hi> that is to ſay: O better
+<pb facs="tcp:7543:23"/> faith of the natio<g ref="char:cmbAbbrStroke">̄</g>s or gentils towards their ſect, who wil take to them ſelues no ſolem<g ref="char:EOLhyphen"/>nity of the Chriſtians, not the ſunday, not whitſuntide, neither wil they co<g ref="char:cmbAbbrStroke">̄</g>municate with vs in any other thing that they know for they would feare leaſt they ſhould ſeeme to be Chriſtians, but we fere not to be coun<g ref="char:EOLunhyphen"/>ted or named to be Ethnikes. Eue<g ref="char:cmbAbbrStroke">̄</g> ſo many A ſay, O noble papiſts, O better faith of the Papiſtes towards their ſect, who wil none of our miniſters, none of our ſeruice, none of our orders, no, not ſo much as a text of ſcrip<g ref="char:EOLunhyphen"/>ture painted on a wall, but it ſhould be wa<g ref="char:EOLhyphen"/>ſhed out and defaced. But O ſéely Chriſti<g ref="char:EOLhyphen"/>ans, O poore proteſtants, who muſt be faine to receyue their Prieſtes, to be ouerruled with their Cannon law, to take their Cere<g ref="char:EOLunhyphen"/>monies, which now (as I haue ſayde) are prickes in our eies, and thornes in our ſides I am perſwaded in my conſcience that the word of God would better fructifye amonge vs, and we ſhould enioye more quietnes, if we did receyue as little from them, as they do of vs. And I beſech God if it be hys holy will it may be ſo. But ſome man may here ſay, do you not know that many good men haue beene deceiued, wil you haue none ſuch receiued? Yes dearely beloued my meaning
+<pb facs="tcp:7543:23"/> is not, but that Godly &amp; meete men, hauing <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nounced their popiſh orders and ſatiſfyed <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> church of God, may be receiued and ad<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>itted to ſerue in the church of God,<note place="margin">Exo. 2.24 Exod. 3.9 10.</note> but I <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ffly ſpeake of thoſe blind guides, and e<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>mies to gods truth which are not to be <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rmitted to remaine for the miniſtrati<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> of the word and ſacraments.</p>
+            <p>What ſhould I heare complaine of the <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>nd ignorant and vnmeete miniſters that <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e admitted. I might ſay much herein, but I <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>yſt not nowe ſpeake of that whereof I <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>nnot think without great greffe. This on <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> I ſay,<note place="margin">Exe. 14.<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>6</note> that this is a great offence to many <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>d a great ſclaunder to the worde of God. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o graunt it may be redreſſed. Here I may <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>mplaine of the great lack of doctrine, and <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the preaching of Gods word vniuerſally <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>od<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> in the country. London hath great <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>auſe to praiſe god, for that his word is here <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> plentyfully preached. And if London do <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ot thankfully receiue it, and truely folow <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t, it ſhalbe eaſyer for Sodom and Gomor<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ah in the day of iudgement then for thys Citye. But ſurely when I come out of the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>untry hether to the City, methink I come <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nto another world, euen out of darknes in<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o light. For here the word of God is plen<g ref="char:EOLhyphen"/>tifully
+<pb facs="tcp:7543:24"/> preached I pray God it may be as ple<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLunhyphen"/>tifully folowed. In the country their won<g ref="char:EOLhyphen"/>derful great want thereof, that a man may go a great way, and cannot heare the word of the Lorde preached. Here be many good me<g ref="char:cmbAbbrStroke">̄</g> endued with many good gifts of know<g ref="char:EOLhyphen"/>ledge, zeale, and godly life, able to do much good in the church of God. I beſech God for his crucifyed Chriſts ſake that they may be well fauoured, cheriſhed, &amp; maintained. In the country be fewe labourers, Loyterors inow. Here in London as I am perſwaded is much good ground many which receyue the word of God with a good &amp; honeſt hart, and bringe forth fruites, ſome thirtyfolde, ſome ſixtifolde,<note place="margin">Pſal. i4.4</note> and ſome an hundrethfolde. In the cuntry for want of tylling &amp; oft plow<g ref="char:EOLunhyphen"/>ing (for without o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>t plowing, and much la<g ref="char:EOLhyphen"/>bour barren ground will not bring fourth fruit) there ſpringeth fourth brambles, bry<g ref="char:EOLhyphen"/>ars and wéedes. But here is a miſery to be conſidered, although there is great lack of profitable paſtors and faithfull labourers in the Church. I meane in thoſe cuntries that I haue bene in, and I think other contryes be not farre vnlyke, yet notwithſtanding there be mo, then be placed in any charge, or preferred to any calling. I know myſelf
+<pb facs="tcp:7543:24"/> good and godly men, learned men of long <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ontinuance in the vniuerſity and able to do <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uch good in the Church of God, and yet <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ot called in any charge, or placed ouer any <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ock. Yea ſome haue told me, that they haue <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ene offered many benefices (as they be cal<g ref="char:EOLunhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ed) and yet they could not haue taken one <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nleſſe they had taken part with Iudas Iſ<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ariote, or with Simon Magus. But what <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eane you by that will ſome man ſay? For <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>uth ether they muſt haue ſaid with Iudas <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hat will you giue me? will you giue me <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>enty markes or poundes, and take you <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he reſt, and ſo I ſhall not be able to conti<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> on the chardge, but I wyll betray all <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>his people to the diuell and to you, or els <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hey muſt haue ſayde with Simon Magus <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hat ſhall I giue you for your benefyce. I <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>il giue you ſuch a diſh of Apples as Mai<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ter Latimar ſpeaketh of, or I wil giue you <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>x. or. xl. l. a yeare out of it I will giue you ſo much that I ſhall not be able to giue a poore body a peece of bread. But I will here admoniſh theſe patrons that for as much a<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> to them it perteineth to place faithfull pa<g ref="char:EOLhyphen"/>ſtors ouer Chriſtes congregations, which can and will féede them with knowledge, and direct them by example of godly life, if
+<pb facs="tcp:7543:25"/> they loking vpon their owne commodities do not prouide ſuch men, but place blinde guides, dum dogges, and lewd hyrelinges, the people for want of inſtruction ſhal periſh (for where prophecy that is the preaching of Gods word faileth, ther the people periſh faith Salomon) but ther bloud ſhalbe requi<g ref="char:EOLhyphen"/>red at theſe patrons or rather latro<g ref="char:cmbAbbrStroke">̄</g>s, hands. Let them truſt vnto it, and looke for it. But here is another abuſe which is partly an oc<g ref="char:EOLhyphen"/>caſion of the other. Not only papiſtes but al<g ref="char:EOLunhyphen"/>ſo profeſſers yea and preachers of Gods word do ioyne many liuinges together and place vnder them careles Curatos, doing little or no good themſelues to diuers of the<g ref="char:cmbAbbrStroke">̄</g>. Patrons ſee this and gather hereof that they may as well enioy the benefice as other ec<g ref="char:EOLhyphen"/>cleſiaſticall men which come neuer or ſel<g ref="char:EOLhyphen"/>dome to their charge. I cannot tell what to ſay hereto, but that both is nought, and that the patrone which doth not prouide a good man for his charge, and that miniſter which doth not carefully looke to his charge; and diligently feed his ſlock theſe both euen the patron and the paſtor ſhall periſh, and the peoples bloud ſhalbe required at their hands I am ſory euen in my hart that profeſſors &amp; preachers of the Goſpell ſhould ſo far ouer<g ref="char:EOLhyphen"/>reach
+<pb facs="tcp:7543:25"/> themſelues in this behalfe, that they <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uſt be reformed and reſtrained by lawe. I <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ray God that the ſtate of the Church of <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ngland may be brought to that order that <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>her may be to one flock one ſheperd, to one <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hurch on Miniſter, and that all faculties,<note place="margin">Mich. 3<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </note> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>luralities, reſidences, and ſuch other abho<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>inacions may return to Rome fro<g ref="char:cmbAbbrStroke">̄</g> whence <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hey came. I may here lykewiſe complaine <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>w that the liuinges appointed to maine<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ine the Miniſtery are made vniuerſally <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ayes and ſpoiles for al ſorts of men. They <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>aineteyne <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oyes in the vniuerſity, gentel<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>en in the Innes of courte, gentelmen and <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>awyers in the cuntrey, and are commonly <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ade rewardes for ſeruing men. Thus the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ople pay their deuties to thys ende that <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ey may haue a learned man amongſt the<g ref="char:cmbAbbrStroke">̄</g> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> teach &amp; comfort them, &amp; the ſame be vngod<g ref="char:EOLunhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> conueied to other vſes, the people being as <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>attered ſheepe without a ſhepheard. This is <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>me<g ref="char:cmbAbbrStroke">̄</g>table to ſee ſo many gatherers of t<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eth, &amp; <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> few preachers of y<hi rend="sup">e</hi> word, this had neede to <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e reformed, for vntolerable abuſe is herein. <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> may here co<g ref="char:cmbAbbrStroke">̄</g>plaine of great want of Ecle<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>aſticall diſcipline and puniſhment of ſynne. <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> heare great complaint here of abrode <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ountry that there is ether no puniſhmente
+<pb facs="tcp:7543:26"/> for ſynne, or at the leaſt very lyttle. Which whether it be throughe the ſlacknes of the lawe which doth ouer rule vs, or by the cor<g ref="char:EOLhyphen"/>ruption of them that haue the execution of the law in their handes I will not now ſay but this I may to truely ſaye that there is great lack of ſeuere diſcipline. As for exco<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>munication it is more vſed for mony mat<g ref="char:EOLhyphen"/>ters, then for correction of ſinne, Theſe and ſundry ſuch other abuſes and enormities be the thinges which greeue good men, and cauſe them both to praye and to preach for the reformation of them. It is not a cappe, tippet, or ſurples only, which are but ſmall matters, and the ſmalleſt of many matters. which are to be reformed in the Church of England. And yet my mea<g ref="char:EOLhyphen"/>ning is not that ſmal acco<g ref="char:cmbAbbrStroke">̄</g>pt ſhuld be made of theſe things For hereof I am wel aſſured that how ſmall ſoeuer they ſeeme, they do no ſmal hurt in the church of God, for to clogge mens conſciences, to hinder the courſe of the go<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>pell, to breede contentions amonge bre<g ref="char:EOLhyphen"/>theren is no ſmall hurt. S<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>al thinges may do much hurte, a graine of a grape is but a ſmal thinge, and yet it killed Anacreon the Poet, a haire is but a very ſmal thinge, and yet it choked on Fabius a ſenator of Rome
+<pb facs="tcp:7543:26"/> a flee is but a ſmall thing, and yet it ſtraug<g ref="char:EOLunhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ed a proude Pope, yea the proudeſt I think <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hat euer was Adrian the .iiij. a contry man <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>f our owne, a ſmal mote may hurt the eye, <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ſmal thing may trouble a good conſience, <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ſmal deale of Leaue<g ref="char:cmbAbbrStroke">̄</g> wil Leauen a whole <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>mp, to eate meate is but a ſmal thing, yet <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>a ma<g ref="char:cmbAbbrStroke">̄</g> eate it with a douting &amp; repining co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ience he is conde<g ref="char:cmbAbbrStroke">̄</g>ned becauſe he enteth not <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>f faith. It is a ſmal thing to ſay <hi>Aue</hi> to a ma<g ref="char:cmbAbbrStroke">̄</g> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>et S. Iohn ſaith that he which ſaith <hi>Aue,</hi> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hat is God ſpeede to him that bringeth not <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>is doctrine, is partaker of hys euill deedes. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hriſt ſayth that he which is faithfull in a <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>tle, wilbe faithful in much, and he that is <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> faythfull in a little wilbe vnfaithfull in <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uch. So alſo the poet ſayth: Vnle<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſe thou <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ke heede to ſmall thinges, thou ſhalt looſe <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>reat thinges. Wherefore I woulde make <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>umble ſute and ſupplication vnto thoſe <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hom I loue, reuerence, and honour, that <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ood mens conſciences in thys caſe myght <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ot be enforced, but perſwaded. Surely it <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> a token of Gods anger &amp; wrath, when the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>outhes of his ſeruauntes the prophetes be <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>opped. It is conuenient tyme that theſe <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hinges were redreſſed. Let vs not ſaye as <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he Iewes <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>id, who after they wer returned
+<pb facs="tcp:7543:27"/> from captiuity ſaid as appeareth by the pro<g ref="char:EOLhyphen"/>phet Aggeus, the tyme is not yet come, that the Lordes houſe ſhuld be builded, but God by his prophet ſayde vnto them, is it tyme for your ſelues to dwel in your ſealed hou<g ref="char:EOLhyphen"/>ſes, and this houſe lye waſt? Euen ſo may I now ſaye, is it tyme for you to lye in your faire houſes, to ſeeke your own commodites and follow your owne pleaſures, and not to ſeeke reformation of religion and the houſe of God? Let vs not defer and put of the time Salomon ſaith: he that obſerueth the mynd ſhall not ſow, and he y<hi rend="sup">e</hi> regardeth the clouds ſhall not mow, for either the wind is in the north &amp; then it is to colde, or els in the ſouth and then it is whot, or els in the Eaſt, and then it to dry, or els in the weſt, and then it is to wel, and ſo a ma<g ref="char:cmbAbbrStroke">̄</g> ſhal neuer ſow. This teacheth vs that we muſt not ſtand to mu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>h looking to the time, and putting of the time, but we muſt earneſtly &amp; zealouſly go about gods cauſe, and God ſhal bleſſe our trauaile &amp; giue good ſucceſſe vnto the ſame. Thus you haue heard how the church is diſſolued and diſordered Let vs pray vnto God to e<g ref="char:EOLhyphen"/>ſtabliſh the Pillers of it. Our gracious So<g ref="char:EOLhyphen"/>ueraigne the Queenes Maieſty is the prin<g ref="char:EOLhyphen"/>cipall
+<pb facs="tcp:7543:27"/> piller of this church of England vn<g ref="char:EOLhyphen"/>der Chriſt. It ſtandeth vs greately vpon earneſtly to pray vnto God long to eſtabliſh this piller amongſt vs.<note place="margin">Exo. 2.2<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Exod. 3.10.</note> For if the ſtrong Sampſon the mighty God, ſhoulde for our ſyns lay hys hand vpon this piller and pull it down, O Lorde what ruine were lyke to folow. I ſée nothing but deſtruction lyke to fall vpon vs, as did vpon the wicked Phili<g ref="char:EOLhyphen"/>ſtians. All thoſe paſtors who are either in chefeſt place, or endued with greateſt giftes are called in y<hi rend="sup">e</hi> ſcriptures pillers, ſo Iames, Cephas, and Iohn, who were counted to be the pillers gaue vnto Paule and Barnabas their right hands of ſociety &amp; fellowſhip.<note place="margin">Exe. 14. i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </note> Let <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s likewiſe pray vnto God for theſe pillers that they may all ioyne their harts &amp; hands of felowſhip together, to fight manfully to<g ref="char:EOLhyphen"/>gether to ouerthrow the kingdome of Anti<g ref="char:EOLhyphen"/>chriſt and darknes, and to eſtabliſh the king<g ref="char:EOLhyphen"/>dome of Chriſt among vs. The Church of God is called the piller of truth we ought lykewyſe to poure out our prayers before God, that thys piller may ſtand ſtedfaſt a<g ref="char:EOLhyphen"/>mong vs. And here if I dyd loue digreſſions &amp; diſcourſes from my matter. I in got aun<g ref="char:EOLhyphen"/>ſwer the papiſtes who bragge much of this place, &amp; cry mightely out ſaying, the church
+<pb facs="tcp:7543:28"/> is the piller of truth, we be the church ther<g ref="char:EOLhyphen"/>fore, we be the piller of truth, but this reaſon I will returne vpon them. The Church is the piller of truth, now if they can proue that they be the pillers, vpholders &amp; main<g ref="char:EOLhyphen"/>teners of truth, then muſt we, and wyll we graunt them to be the Church. But if they be the pilers of damnable doctrine contrary to Gods holy word, howſoeuer they braggs themſelues to be the Church of Chriſt, they be in déede the Sinagoge of Satan. In the Arke of the Couenant wer three things, the tables of the teſtament, the pot of Mann<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, &amp; the rod of Aaron, which be .iij. certain ſignes of the viſible Church of Chriſt. Whereby we may learne, that where the worde of God is truely, preached the ſacramentes according to Chriſtes inſtitution miniſtred, and Eccle<g ref="char:EOLunhyphen"/>ſiaſtical diſcipline dewly executed, there is the church of Chriſt. Now if the papiſts can proue, that in there Church true doctrine grounded vpon Gods word hath bene prea<g ref="char:EOLhyphen"/>ched, that the ſacraments haue bene vſed &amp; miniſtred according to Chriſts inſtitution, and that diſcipline hath bene rightly execu<g ref="char:EOLhyphen"/>ted, then will we recant and reuoke what<g ref="char:EOLhyphen"/>ſoeuer wee haue mainetained or preached, then will we ioyne handes with them. But
+<pb facs="tcp:7543:28"/> thys they can neuer be able to proue, &amp; ther<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e they can neuer proue the<g ref="char:cmbAbbrStroke">̄</g>ſelues to be y<hi rend="sup">e</hi> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e church of God, which is y<hi rend="sup">e</hi> piller of truth. But to leaue thys, now I wyl come to the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ird part of my matter, which conteyneth I haue before touched an exhortation of <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e Prophet vnto the wicked, to ceaſe from <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eir folly and wickednes, not to truſt to <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uch to their own wiſdome and power, not <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> exalte themſelues againſt God and hys <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eople, but rather to remember that all true <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eferment commeth from God, and he exal<g ref="char:EOLunhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> ſome and putteth downe other, <hi>I ſayde <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>o the fooliſh be not ſo fooliſh. &amp;c.</hi> Firſt <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> vs conſider whom the prophet calleth <gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>ſh, not thoſe whom we call Morians, <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>tural fooles, but the wicked and vngodly, <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ho how ſubtil and crafty ſoeuer they ſéeme <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>to man, yet vnto God be very fooles. And <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>erfore whom the prophet in the firſt part <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>f the verſe calleth fooles, in the other part <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e calleth wicked, I ſayd vnto the wicked, <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>t not vp your horne on hye. So likewiſe <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> another place. The fooliſh ſhal not ſtande <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>efore thy eyes, thou hateſt all thoſe that <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>orke iniquity. Whom in the firſt part the Prophet calleth fooles, in the ſecond he cal<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eth workers of iniquity. Such fooles be
+<pb facs="tcp:7543:29"/> thoſe of whom Dauid ſpeaketh: <hi>Dixit in ſa<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>i<g ref="char:EOLunhyphen"/>ens in corde ſuo, non eſt deus:</hi> The foole hath ſayd in his hart, their is no God. Thoſe that profeſſe in their words to know God, and in their workes deny him, being abhominable; diſobedient, and vnto euery good worke re<g ref="char:EOLhyphen"/>probate are ſuch fooles. God ſaith by the pro<g ref="char:EOLhyphen"/>phet Hieremy: <hi>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>tultus eſt populus mens, me non cognouit. &amp;c.</hi> My people is fooliſh, they haue not knowen me, they are fooliſh chil<g ref="char:EOLhyphen"/>dren and haue no vnderſtanding, they are wiſe to do euill, but to do wel they haue no knowledge. Thoſe that haue wit to worke miſchefe, and none to do that which is righ<g ref="char:EOLhyphen"/>teous are ſuch fooles. They that haue not the true knowledge of God by his worde are al together fooliſh, <hi>The beginning of wiſdome is the feare of God,</hi> without the feare of God there is no true wiſdome. <hi>Re<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ecerunt verbu<g ref="char:cmbAbbrStroke">̄</g> deum. &amp;c They haue reiected the word of the Lord and what wiſdome remaineth in them:</hi> That which is not grounded vpon the word of God is mere fooliſhnes. And here I would admoniſh all men, and eſpecially rulers and magiſtrates to beware of carnall councels, &amp; worldly policies, which be not builded vpon God and his worde. They which although they ſeme plauſible to the fleſh, becauſe they
+<pb facs="tcp:7543:29"/> vs the fruites of the fleſh and procéede from mans braine, yet are they not acceptable <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ut rather deteſtable before God. And in his iuſtice doth often confound them, and turne vpon them vpon the heades of thoſe that were the Autors of them.<note place="margin">Mich. 3<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </note> He catcheth the wiſe in their own craftines. Ioſephes Bre<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>heren hearing that he had dreamed that his <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ather and they ſhuld yeld reuerence to him, they tooke crafty councell together to diſap<g ref="char:EOLhyphen"/>point this matter, and ſolde him into Egipt. But thys which they thought ſhoulde haue <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ene a meane to haue auoided this their ſub<g ref="char:EOLunhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ection to Ioſeph, God made it a meane to bring the ſame to paſſe. Ieroboam after <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hat the ten tribes were fallen from Robo<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>m &amp; had made him their kinge, he thought with himſelfe, that if the people did go vp <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>till to do ſacrifice in the houſe of Hieruſa<g ref="char:EOLhyphen"/>lem, then their harts would turne againe to Roboam and ſo forſake him, he tooke a ſub<g ref="char:EOLhyphen"/>til and politike counſel to make .ij. Calues, and placed them in Dan and Bethel &amp; ſayd theſe are thy Gods O Iſrael which brought thee out of the lande of Egipt, and they lyke Calues went vp &amp; worſhipped theſe calues This counſell redounded to the deſtruction of <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eroboam and his poſterity, and at the
+<pb facs="tcp:7543:30"/> laſt of the whole realme and eſtate. The Iewes thinking that if he ſhold ſuffer Chriſt our ſauiour to procéede as he had began, the Romaines wold come and take away their place and nation, they thought it good coun<g ref="char:EOLhyphen"/>ſel, they procured gods anger and indigna<g ref="char:EOLhyphen"/>tion againſt them, who for y<hi rend="sup">e</hi> ſame brought the Romaines vpon them which miſerably deſtroyed the<g ref="char:cmbAbbrStroke">̄</g>. This we ſee the ſaying of the poet true. Euell counſell is worſt to him that giueth it. Let all men therefore learne to direct their counſels to the glory of God, and to build them vpon Gods worde, and then though the raine fal, the ſloudes come downe, and the wynnds blow, yet they ſhal ſtand becauſe they be built vpon the rock: but if they build them vpon the vncertaine and v<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſuce ſandes of their own braines, a little blaſt of wind wyl eaſely ouerthrow them, for ther is no wiſdom, vnderſtanding nor counſale againſt the Lord. Submit ther<g ref="char:EOLunhyphen"/>fore your wiſdom to the wiſedome of God? Euen man (ſaith the Prophet) is a leaſt of hys own knowledge the which may moue vs not to truſt to much to our own wiſdom and counſaile, but rather to take counſa<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e at the mouth of Go<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>, &amp; to ſay with Dauid, thy teſtimonies are my delight and my cou<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>ſailers,
+<pb facs="tcp:7543:30"/> theſe counſellers will neither lye, <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>atter, nor diſſemble, God graunt that wee may be counſailed by them. Chriſt our ſaui<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ur ſaid to the rich man that went about to <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nlarge his barnes, and ſayde to his ſoule, <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oule thou haſt much goods laid vp in ſtore <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>r many yeares, take thine eaſe, eate drink <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd take thy paſtime. Thou foole this night <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>al thy ſoule be taken from thee. Thoſe <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>at be careful for this ſcaile and vncertaine <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>fe and careles for the life eternal, are very <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ples. It is true wiſdome firſt to ſéeke the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ngdome of God, and all other things ſhal <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> giuen vnto vs. The virgines which had <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>t oyle in their lampes a<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> y<hi rend="sup">e</hi> co<g ref="char:cmbAbbrStroke">̄</g>ming of the <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>dgrom, but wold ſeke for ſome of others, <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e called fooliſh virgines and were ſhut out This oyle I take to be the righteouſnes and <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eedes of others. <hi>Iuſtus ex fide ſua viuet,</hi> the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ighteous ſhall liue by his owne faith. We <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uſt all ſtand before the t<gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>unall ſeat of Chriſt to receyue euery man according to <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hat he hath done in his own body, whether <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>f be good or euill. Salomon ſaith <hi>ſtulti de<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ident peccatum,</hi> the fooliſh laugh at ſynne. Thoſe therefore that laugh at ſynne when <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hey be admoniſhed or reproued are fooles, and if God do not giue them repentaunce,
+<pb facs="tcp:7543:31"/> they ſhalbe ther where ther is no laughing but weeping and gnaſſhing of téeth. And he that ſitteth in the heauens ſhall laugh them to ſcorne, the Lord ſhall haue them in deri<g ref="char:EOLhyphen"/>ſion. The Prophet ſaith: they altogether dote and are become fooliſh, for the flocke is the doctrine of vanity. All Papiſtes which not only worſhip images, but alſo make the<g ref="char:cmbAbbrStroke">̄</g> doctors and teachers of the lay people, are co<g ref="char:cmbAbbrStroke">̄</g>uinced by this place to dote and to be foo<g ref="char:EOLhyphen"/>liſh, &amp; the prophet Abacuc ſaith, they be tea<g ref="char:EOLhyphen"/>chers of lyes. A fooliſh thing it is for a man endewed with wit, reaſon, and the ſenſes, to fal down before a dum ſtock or block which hath no reaſon, nor vnderſtanding, which hath eyes and ſeeeth not, eares and heareth not, noſe &amp; ſmelleth not &amp;c, But theſe fooles with their folly I will let go, only I exhort the<g ref="char:cmbAbbrStroke">̄</g> not to do ſo fooliſhly, but rather to ſeeke for true wiſdome which is ioyned with the feare of God. Let not y<hi rend="sup">e</hi> wicked lyft vp their horn, I might here ſhow you how the Pope hath lifted vp his horne. He will needes be Chriſts Vikar vpon the earth, Peters ſuc<g ref="char:EOLhyphen"/>ceſſor, head of the vniuerſall Church, and byſhop of the whole world, is not this to lift vp his head very hye? Yea he wilbe <hi>Domi<g ref="char:EOLhyphen"/>nus deus noſter Papa,</hi> our God the Pope, he
+<pb facs="tcp:7543:31"/> wyll haue power in heauen, earth, and pur<g ref="char:EOLhyphen"/>gatory, he will forgiue ſinne, and make Saintes, and is not this to lift vp his horne very hye? Is not this to exalt himſelf aboue all that is called God? He hath made Empe<g ref="char:EOLhyphen"/>rors and kinges to kiſſe his féete, and holde his ſtyrrop, to waite at the gates of a cyty. <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>j. or iij. dayes in froſt and ſnow barefooted, he hath troden in their neckes, he hath depo<g ref="char:EOLunhyphen"/>ſed them from their crownes &amp; kingdomes, and hath abſolued their ſubiectes from their obedience and loyalty,<note place="margin">Exe. 14.<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </note> and is not thys to <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ift vp his horne very hye? Thys Romiſh <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ul hath of late lifted vp his horne againſt <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ur gracious Soueraigne, againſt thys our <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ountry, and the eſtate thereof. But Gods <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ame be praiſed, this Buls hornes are now ſawed, he cannot goare vs, this Boores tuſ<g ref="char:EOLhyphen"/>ſhes are now cut, he cannot ra<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s vs: And if we will vtterly flye and forſake hym &amp; all his damnable doctrine, and depend wholly vpon God, he ſhal neuer be able to goare vs or hurt vs, God hath here promiſed in thys Pſalme that the hornes of the wicked ſhal be exalted. And let the Pope looke for thys y<hi rend="sup">t</hi> for as much as he hath thus exalted him<g ref="char:EOLhyphen"/>ſelfe, God wil put him down. And although this great whore ſay that ſhe fitteth lyke a
+<pb facs="tcp:7543:32"/> Quéene, is no widow, and ſhall ſée no mour<g ref="char:EOLhyphen"/>ning, yet ſhal her plagues come at one day, death, and ſorow, &amp; famine, and ſhée ſhall be burnt with fyer, for ſtrong is the Lord God which wil condemne her. And the ſpirite of God by S. Paule did forſhew that the Lord ſhal conſume him w<hi rend="sup">t</hi> the ſpirit of his mouth and aboliſh hym with the brightnes of hys comming. And let all thoſe that ſéeke to flye a loft with the winges of vanity, and ſeeke to exalt themſelues by bribery, flattery, or any other vngodly meanes, know that the Lord God wil throw them down. The An<g ref="char:EOLhyphen"/>gels which kept not their firſt eſtate, but would exalt themſelues either aboue, or a<g ref="char:EOLhyphen"/>gainſt God, God threw them downe into e<g ref="char:EOLhyphen"/>uerlaſting chaines of darknes vnto y<hi rend="sup">e</hi> iudge<g ref="char:EOLhyphen"/>ment of the laſt day. Adam and Eue would be exalting themſelues, and would be lyke vnto God, hauing knowledge of good and e<g ref="char:EOLhyphen"/>uill, but God pulled them down ſhewed the<g ref="char:cmbAbbrStroke">̄</g> their nakednes, and driue them out of Para<g ref="char:EOLhyphen"/>diſe. Corah, Dathan, and Abyram woulde néedes exalt the<g ref="char:cmbAbbrStroke">̄</g>ſelues againſt Moſes their godly gouernour, but God cauſed the earth to open, and ſwallow them vp. Abſalon would exalt himſelf againſt his own father and king, and would haue bene king in his
+<pb facs="tcp:7543:32"/> place, but God quailed hys courage, and he <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>me to a ſhameful ende as he wel deſerued <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eing hanged in his heare, and thruſt throw <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ith ſpeares. Nabuchadonozer king of Ba<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ilon would aſcend into heauen and, exalt <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>is throne aboue the ſtarres of heauen, and <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> like to the moſt hyeſt, but God brought <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>im downe, and made him eate graſſe like <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>n Oxe. Beware therefore of exalting your <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>elues, let God exalt you, for true preferme<g ref="char:cmbAbbrStroke">̄</g>t <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ometh neither from the Eaſt, nor from the Weſt, nor fro<g ref="char:cmbAbbrStroke">̄</g> the South but fro<g ref="char:cmbAbbrStroke">̄</g> the Lord: <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e exalteth Moſes from kéeping of ſhéepe to <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e the deliuerer &amp; gouernour of his people, <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e exalted Ioſeph to be gouernour of Egipt <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nder the king, he choſe Dauid his ſeruant <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd tooke him from the ſheepefoldes, euen <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rom behind the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>wes with yong, and exal<g ref="char:EOLhyphen"/>ted him to feede his people in Iacob, and his inheritance in Iſrael. God exalted the virgine Mary fro<g ref="char:cmbAbbrStroke">̄</g> low degree to be mother of our Sauiour Ieſus Chriſt. Chriſt calle<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the Apoſtles from the nets, and made them pillers of his truth, thus we ſée that true which Annaſaid: <hi>Ichoua pauper<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> facit<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>, humiliat<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>et exaltat.</hi> The Lord maketh poore and ritch bringeth low and exalteth And that which the Virgine Mary ſayde.
+<pb facs="tcp:7543:33"/> 
+               <hi>Depoſuit potentes de ſede, et exaltauit humi<g ref="char:EOLhyphen"/>les:</hi> He hath put down the mighty fro<g ref="char:cmbAbbrStroke">̄</g> their ſeate, and hath exalted the humble &amp; méeke. And howe daungerouſly they haue fallen which haue aſcended very hye. But as I haue ſayd to conſider that true preferment commeth from God. And here I will admo<g ref="char:EOLhyphen"/>niſh all thoſe that be exalted to any authori<g ref="char:EOLhyphen"/>ty to remember who hath exalted them, and from what they haue bene exalted, and third<g ref="char:EOLunhyphen"/>ly to what ende they are exalted, to acknow<g ref="char:EOLunhyphen"/>ledge y<hi rend="sup">t</hi> what power or dignity ſoeuer they haue, they haue it of God, &amp; that to edificati<g ref="char:EOLhyphen"/>on and not to deſtruction. I might ſpeake much more of exaltation, but the tyme will not ſuffer me, wherefore I wil now come to the laſt part wherein is ſet forth a commi<g ref="char:EOLhyphen"/>nation againſt the wicked, that in the hand of the Lord is a cup, and the wyne is red, it is full mixt, and he poureth out of the ſame, al the wicked of the earth ſhall wring out &amp; drinke the dregs thereof. This word Cup is often tymes in the ſcripture taken in the euyll parte, for affliction plague and puniſhment, as in Hieremie. Babel hath bene a cup of goulde in the Lordes hand that made al the earth dronken, the nations haue drunke<g ref="char:cmbAbbrStroke">̄</g> of her wine, therfore
+<pb facs="tcp:7543:33"/> do the natio<g ref="char:cmbAbbrStroke">̄</g>s rage, that is to ſay, Babel hath <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e a ſcourge in the hande of the Lorde to <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rge the wickednes of the world. So like<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>iſe Eſay, Awake, awake, ſtand vp Ieruſa<g ref="char:EOLunhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>m which haſt drunken at the hand of the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ord the Cup of his wrath, thou haſt drun<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>n the dregs of the Cup of trembling and <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ung them out. And in the Pſalme, <hi>Pluet <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>per impios,</hi> vpon the wicked he ſhal raine <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ars, fyre, &amp; brimſtone, &amp; ſtormy tempeſt, <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>is ſhalbe the portion of their cup. In this <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nſe Chriſt ſaid to his Diſciples that were <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſpiring to primacye, ye know not what ye <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ke, are ye able to drinke of the cup that I <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>al drink of. And againe: Father if it be thy <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>yl let this Cup paſſe fro<g ref="char:cmbAbbrStroke">̄</g> me. So we reade <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the Apocalips, if any man worſhip the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eaſt, and his image and receiue his marke <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> his forhead, or on his hand, the ſame ſhal <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rinke of the wine of the wrath of God, yea <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>f the pure wine, which is poured into the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>up of his wrath, and he ſhalbe tormented <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n fyer &amp; brimſtone before the holy Angels <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> before the lambe. So dearly be loued if we <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o not vnfeinedly feare God &amp; ſtand in awe <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>f his iudgements, but worke wickednes &amp; <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o<g ref="char:cmbAbbrStroke">̄</g>mit abominations in the ſight of God, <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>urely we ſhall drinke of this cup which is
+<pb facs="tcp:7543:34"/> filled with Gods wrath. For vnto the<g ref="char:cmbAbbrStroke">̄</g> (ſaith the Apoſtle) which are contentious and diſ<g ref="char:EOLhyphen"/>obey the truth, and obey vnrighteouſnes, ſhalbe indignation, &amp; wrath, tribulation &amp; anguiſh vpon euery ſoule that doth euil: Let vs take heede y<hi rend="sup">t</hi> we prouoke not Gods anger by our ſynnes. Conſider that it is a terrible thing to fal into the hands of y<hi rend="sup">e</hi> liuing God, wherfore I exhort you dearely beloued, vn<g ref="char:EOLhyphen"/>feinedly to repe<g ref="char:cmbAbbrStroke">̄</g>t you of your ſins, truely to turne to y<hi rend="sup">e</hi> lord your God, to ſerue him in ho<g ref="char:EOLhyphen"/>lines &amp; righteouſnes all the dayes of your liues, &amp; earneſtly to pray vnto god, that ye may drink of y<hi rend="sup">e</hi> cup of his mercies in Chriſt &amp; not of the cup of his wrath. And this if we wil do, god ſhalbe our God, &amp; we his people: God ſhal bleſſe vs both with temporal bene<g ref="char:EOLhyphen"/>fites, &amp; ſpiritual graces, and we ſhal drinke the cup of his great mercies: the which god our mercifull father for hys crucifyed Chriſtes ſake graunt vs, to whom with the holy ghoſt three perſons &amp; one true and immortal god be al lande, prayſe and glory both now and for euermore. <hi>Amen.</hi>
+            </p>
+            <pb facs="tcp:7543:34"/>
+         </div>
+      </body>
+   </text>
+</TEI>

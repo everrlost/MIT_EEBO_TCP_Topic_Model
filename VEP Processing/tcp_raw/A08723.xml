@@ -1,0 +1,438 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quæstiones in sacra theologia discutiendæ Oxonii in vesperiis, decimo die Iulii, ann. D. 1619</title>
+            <author>University of Oxford.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1619</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 8 KB of XML-encoded text transcribed from 1 1-bit group-IV TIFF page image.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A08723</idno>
+            <idno type="STC">STC 19016.5</idno>
+            <idno type="STC">ESTC S1603</idno>
+            <idno type="EEBO-CITATION">20235009</idno>
+            <idno type="OCLC">ocm 20235009</idno>
+            <idno type="VID">23871</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A08723)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 23871)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1711:15)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Quæstiones in sacra theologia discutiendæ Oxonii in vesperiis, decimo die Iulii, ann. D. 1619</title>
+                  <author>University of Oxford.</author>
+               </titleStmt>
+               <extent>1 broadside.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[Oxford :</pubPlace>
+                  <date>1619]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Place and date of imprint suggested by STC (2nd ed.).</note>
+                  <note>In double columns.</note>
+                  <note>Reproduction of original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="lat">lat</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>University of Oxford --  Examinations.</term>
+               <term>Theology --  Examinations, questions, etc.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2007-08</date>
+            <label>Aptara</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-03</date>
+            <label>John Latta</label>Sampled and proofread</change>
+         <change>
+            <date>2010-03</date>
+            <label>John Latta</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="lat">
+      <body>
+         <div type="tract">
+            <pb facs="tcp:23871:1" rendition="simple:additions"/>
+            <head>QVAESTIONES IN SA<g ref="char:EOLhyphen"/>CRA
+THEOLOGIA DISCV<g ref="char:EOLhyphen"/>TIENDAE
+OXONII IN VESPE<g ref="char:EOLhyphen"/>RIIS,
+DECIMO DIE
+Inlij, Ann. D. 1619.</head>
+            <div type="questions">
+               <head>Quaſtiones Inceptoris ROGERI BATES.</head>
+               <list>
+                  <head>An</head>
+                  <item>Verè fideles poſſint à fide deficere? <hi>Neg.</hi>
+                  </item>
+                  <item>Vera fides eſſe poſſit abſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> dilectione aliiſ<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> virtutibus? <hi>Neg.</hi>
+                  </item>
+                  <item>Iuſtitla quâ ſumus formaliter juſti ſit inhaerens? <hi>Neg.</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="questions">
+               <head>Quaeſtiones Inceptoris HEN. HOOKE.</head>
+               <list>
+                  <head>An</head>
+                  <item>Chriſtus ſit vnicum pro peccatis ſacrificium? <hi>Aff.</hi>
+                  </item>
+                  <item>Vnica oblatione Chriſtus pro peccatis ſatisfecerit? <hi>Aff.</hi>
+                  </item>
+                  <item>Miſſa Papiſtica ſit ſacrificium propitiatorium? <hi>Neg.</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="questions">
+               <head>Quaestiones Inceptoris THOMAE CLIFFORD.</head>
+               <list>
+                  <head>An</head>
+                  <item>Eccleſiae regimen debeat eſſe monarchicum? <hi>Neg.</hi>
+                  </item>
+                  <item>Papa ſit Epiſcopus oecumenicus? <hi>Neg.</hi>
+                  </item>
+                  <item>Papa ſit Antichriſtus? <hi>Aff.</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="questions">
+               <head>Quaeſtiones Inceptoris SAMVELIS FELL.</head>
+               <list>
+                  <head>An</head>
+                  <item>Corpus Chriſti eſſe in duobus locis ſimul ſit contradictio? <hi>Aff.</hi>
+                  </item>
+                  <item>Accidens abſolutâ Dei potentiâ poſſit conſeruati ſine ſubjecto? <hi>Aff.</hi>
+                  </item>
+                  <item>Decretum de dandâ fide ſit in mente divinâ prius decreto de danda ſalute? <hi>N.</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="questions">
+               <head>Quaeſtiones Inceptoris THOMaE ILES.</head>
+               <list>
+                  <head>An</head>
+                  <item>Semel verè juſtificatus ſemper maneat juſtificatus? <hi>Aff.</hi>
+                  </item>
+                  <item>Voluntas humana reſiſtere poſſit gratiae Dei efficaci? <hi>Neg.</hi>
+                  </item>
+                  <item>Non renati jus habeant ad creaturas? <hi>Aff.</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="questions">
+               <head>Quaeſtiones Inceptoris EVANI VAVGHAN.</head>
+               <list>
+                  <head>An</head>
+                  <item>Liceat Miniſtris matrimonium contrahere? <hi>Aff.</hi>
+                  </item>
+                  <item>Bigami poſſint ad ſacros ordines admitti? <hi>Aff.</hi>
+                  </item>
+                  <item>Polygamia ſit licita? <hi>Neg.</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="questions">
+               <head>Quaeſtiones Inceptoris RICHARDI ASTLEY.</head>
+               <list>
+                  <head>An</head>
+                  <item>Sancti ſint invocandi? <hi>Neg.</hi>
+                  </item>
+                  <item>Papae ſit ſanctos canonizare? <hi>Neg.</hi>
+                  </item>
+                  <item>Diverſitas ſit gloriae ſanctorum reſurgentium? <hi>Aff.</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="questions">
+               <head>Quaeſtiones Inceptoris RICHARDI PARKER.</head>
+               <list>
+                  <head>An</head>
+                  <item>Remiſſâ culpâ maneat debitum luendae poenae? <hi>Neg.</hi>
+                  </item>
+                  <item>Extet in eccleſia the ſaurus ſatisfactionum qui ſit fundamentum Indulgenti<g ref="char:EOLhyphen"/>arum?
+<hi>Neg.</hi>
+                  </item>
+                  <item>Sancti defuncti ante diem judicij beatificâ Dei fruantur viſione? <hi>Aff.</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="questions">
+               <head>Quaeſtiones Inceptoris IOHANNIS WILSON.</head>
+               <list>
+                  <item>An.</item>
+                  <item>Sola Scriptura ſit norma fidei? <hi>Aff.</hi>
+                  </item>
+                  <item>Contineat omnia ad ſalutem neceſſaria? <hi>Aff.</hi>
+                  </item>
+                  <item>Sit vulganda in eâ linguâ quam populus intelligit? <hi>Aff.</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="questions">
+               <head>Quaeſtiones Inceptoris HENRICI WATKINS.</head>
+               <list>
+                  <head>An</head>
+                  <item>Sacramenta conferant gratiam ex opere operato? <hi>Neg.</hi>
+                  </item>
+                  <item>Sacramenta vet. &amp; Novi Teſt. interſe differant? <hi>Neg.</hi>
+                  </item>
+                  <item>Qu<gap reason="illegible: blotted" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>dam ſacrament<gap reason="illegible: blotted" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> imprimant characterem indelebilem? <hi>Neg.</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="questions">
+               <head>Quaeſtiones Inceptoris GVL. DOLBEN.</head>
+               <list>
+                  <head>An</head>
+                  <item>Declmae debeantur Miniſtris Evangelij jure Divino? <hi>Aff.</hi>
+                  </item>
+                  <item>Bona opera ad ſalutem ſint neceſſaria? <hi>Aff.</hi>
+                  </item>
+                  <item>Bonis operibus Legem impleamus? <hi>Neg.</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="questions">
+               <head>Quaeſtiones Inceptoris IOHANNIS BRIGENDEN.</head>
+               <list>
+                  <item>An.</item>
+                  <item>Bona opera ſint meritoria? <hi>Neg.</hi>
+                  </item>
+                  <item>Bona renatorum opera ſint perfecta? <hi>Neg.</hi>
+                  </item>
+                  <item>Omnia peccata ſint mortalia? <hi>Aff.</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="questions">
+               <head>Quaeſtiones Inceptoris RICHARDI CLVET.</head>
+               <list>
+                  <item>An.</item>
+                  <item>Poſt Adami lapſum libertas adbonum ſit prorſus amiſſa? <hi>Aff.</hi>
+                  </item>
+                  <item>Propter vnionem hypoſtaticam facta ſit proprietatum communicatio? <hi>Neg.</hi>
+                  </item>
+                  <item>Omnes baptizati ſint juſtificati? <hi>Neg.</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="questions">
+               <head>Quaeſtiones Inceptoris ROBERTI PINES.</head>
+               <list>
+                  <item>An.</item>
+                  <item>Eccleſia ſit ſemper viſibilis? <hi>Neg.</hi>
+                  </item>
+                  <item>Eccleſia viſibilis poſſit deficere? <hi>Aff.</hi>
+                  </item>
+                  <item>Eccleſia Proteſtantium conciliari poſſit cum Pontificiâ? <hi>Neg.</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="questions">
+               <head>Quaestiones Inceptoris GVLIELMI SMITH.</head>
+               <list>
+                  <item>An.</item>
+                  <item>Principum ſit Concilia generalia indicere? <hi>Aff.</hi>
+                  </item>
+                  <item>Proprium munus ſit Papae Concilijs generalibus praeſidere? <hi>Neg.</hi>
+                  </item>
+                  <item>Major ſit authoritas Concilij quam ſcripturae? <hi>Neg.</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="questions">
+               <head>Quaeſtiones Inceptoris THOW VINNYFF.</head>
+               <list>
+                  <item>An.</item>
+                  <item>Chriſtus ſecundùm vtram<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> naturam ſit mediator? <hi>Aff.</hi>
+                  </item>
+                  <item>Chriſtus ſecundùm utram<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> obedientiam ſit Redemptor? <hi>Aff.</hi>
+                  </item>
+                  <item>Chriſtus aliquod pro ſeipſo meruerit? <hi>Neg.</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="questions">
+               <head>QVAESTIONES IN IVRE CIVILI DISCV<g ref="char:EOLhyphen"/>TIENDAE
+IN VESPERIIS.</head>
+               <head>Quaeſtiones Inceptoris RICHARDI CLARKE.</head>
+               <list>
+                  <head>An</head>
+                  <item>Liceat contrahentibus, ſe invicem circumvenire? <hi>Aff.</hi>
+                  </item>
+                  <item>Principes poſſint prohibere venationem in Locis publicis? <hi>Aff.</hi>
+                  </item>
+                  <item>Superioris mandatum excuſet in delictis? <hi>Aff.</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="questions">
+               <head>Quaeſtiones Inceptoris RICHARDI ZOVCH.</head>
+               <list>
+                  <head>An.</head>
+                  <item>In communi periculo diſpendium vnius, aliorum contributione ſit reſarci<g ref="char:EOLhyphen"/>endum?
+<hi>Aff.</hi>
+                  </item>
+                  <item>Penſio ſit remittenda pro re conductâ, quâ conductor vti non potuit? <hi>Aff.</hi>
+                  </item>
+                  <item>Re à pluribus fu<gap reason="illegible: faint" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>to ſublata ſinguli teneantur in ſolidum? <hi>Aff.</hi>
+                  </item>
+               </list>
+            </div>
+            <div type="questions">
+               <head>QVAESTIONES IN PHILOSOPHIA DISCV<g ref="char:EOLhyphen"/>TIENDAE
+IN VESPERIIS.</head>
+               <list>
+                  <head>An</head>
+                  <item>Sit in anima humana quoddam irrationale? <hi>Neg.</hi>
+                  </item>
+                  <item>Academia vnicui<expan>
+                        <am>
+                           <g ref="char:abque"/>
+                        </am>
+                        <ex>que</ex>
+                     </expan> pateat? <hi>Aff.</hi>
+                  </item>
+                  <item>Compoſitio reipſa ſupponat in partibus indigentiam? <hi>Aff.</hi>
+                  </item>
+               </list>
+               <p>
+                  <hi>Reſpondente</hi> THOMA WALKER <hi>Incept.</hi>
+               </p>
+            </div>
+            <div type="questions">
+               <head>QVAESTIONES IN S. THEOLOGIA DISCVTIENDAE
+Oxonij in Comitijs, duodecimo die Julij. Anno Dom. 1619.</head>
+               <list>
+                  <head>An.</head>
+                  <item>Chriſtus verè &amp; integrè pro peccatis noſtris ſatisfecerit? <hi>Aff.</hi>
+                  </item>
+                  <item>Ipſe actus fidei nobis imputetur pro iuſtitia legis ſenſu proprio? <hi>Neg.</hi>
+                  </item>
+                  <item>Fides &amp; fidei iuſtitia ſint propria Electorum? <hi>Aff.</hi>
+                  </item>
+               </list>
+               <p>Reſpondente <hi>THOMA WORALL</hi> Sa. Th. Bac.</p>
+            </div>
+            <div type="questions">
+               <head>QVAESTIONES IN IVRE CIVILI DISCVTI<g ref="char:EOLhyphen"/>ENDAE
+IN COMITIIS.</head>
+               <list>
+                  <head>An.</head>
+                  <item>Qui famoſum libellum ſcripſit, necdum in Lucem edidit, teneatur iniuria<g ref="char:EOLhyphen"/>rum?
+<hi>Aff.</hi>
+                  </item>
+                  <item>Filio detur actio, contra eum qui defunctum patrem contumeliâ affecit? <hi>Aff.</hi>
+                  </item>
+                  <item>Qui Principem convitiis inſectatur, ſit reus laeſae Maieſtatis? <hi>Aff.</hi>
+                  </item>
+               </list>
+               <p>Reſpondente <hi>RICHARDO ZOVCH</hi> in LL. Incept.</p>
+            </div>
+            <div type="questions">
+               <head>QVAESTIONES IN PHILOSOPHIA DISCVTI<g ref="char:EOLhyphen"/>ENdae
+IN COMITIIS.</head>
+               <list>
+                  <head>An</head>
+                  <item>Errorem individuè comitetur complacentia? <hi>Aff.</hi>
+                  </item>
+                  <item>Maxima ſit animi delectatio in ſenſibilibus? <hi>Neg.</hi>
+                  </item>
+                  <item>
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap> ſit poſſibilis? <hi>Neg.</hi>
+                  </item>
+               </list>
+               <p>Reſpondente <hi>HENRICO SELLER.</hi> Art. M<gap reason="illegible: blotted" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>g.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,454 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A Perpetvall kalender</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1577</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 10 KB of XML-encoded text transcribed from 1 1-bit group-IV TIFF page image.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A17133</idno>
+            <idno type="STC">STC 401.9</idno>
+            <idno type="STC">ESTC S3017</idno>
+            <idno type="EEBO-CITATION">29683559</idno>
+            <idno type="OCLC">ocm 29683559</idno>
+            <idno type="VID">28077</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A17133)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 28077)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1861:39)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A Perpetvall kalender</title>
+               </titleStmt>
+               <extent>1 sheet ([1] p.).   </extent>
+               <publicationStmt>
+                  <publisher>Imprinted at London, nigh the three [--] in the Vintree, by Thomas Dawson,</publisher>
+                  <pubPlace>[London] :</pubPlace>
+                  <date>[1577]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Imperfect: faded, with loss of text.</note>
+                  <note>"Take this as a remembraunce, and for no other cause: esteeme not the gift, but the good wyll of Dawse [i.e. Thomas Dawson?]"</note>
+                  <note>Reproduction of original in the Society of Antiquaries.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Perpetual calendars.</term>
+               <term>Broadsides --  London (England) --  16th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2007-09</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-05</date>
+            <label>John Latta</label>Sampled and proofread</change>
+         <change>
+            <date>2010-05</date>
+            <label>John Latta</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="tract">
+            <pb facs="tcp:28077:1"/>
+            <head>
+               <g ref="char:leaf">❧</g> A PERPETVALL KALENDER.</head>
+            <div type="part">
+               <p>The daye Artifyciall is, 12. howres.</p>
+               <p>The daye Naturall is. 24. howres.</p>
+               <p>60. minutes maketh an howre.</p>
+            </div>
+            <div type="part">
+               <p>The Iewes do cou<g ref="char:cmbAbbrStroke">̄</g>t 12. howres in a day thus. 1. 2. 3. 4. 5. 6. 7. 8 9. 10. 11. 12.</p>
+               <p>Wee count our. 12. howres in a daye thus: 7. 8. 9. 10. 11. 12. 1. 2. 3. 4. 5. 6.</p>
+            </div>
+            <div type="part">
+               <p>In euery yere there is <gap reason="illegible: faint" extent="1+ letters">
+                     <desc>•…</desc>
+                  </gap>e howres whiche doe make euery 4. yeare leape yeare, whiche conteineth 366. Dayes.</p>
+            </div>
+            <div type="part">
+               <head>The yeares from the creatio<g ref="char:cmbAbbrStroke">̄</g> of the world.</head>
+               <p>From the creation vnto the floode. <gap reason="illegible: faint" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>676</p>
+               <p>From the flood to Moyſes is. <gap reason="illegible: faint" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>797.</p>
+               <p>From Moyſes to Chriſt is <gap reason="illegible: faint" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>4.</p>
+               <p>From Chriſt to this yeare is 1577.</p>
+               <p>Summa totalis 5544.</p>
+            </div>
+            <div type="part">
+               <p>The ſupputation of the yeare of our Lorde God in this our Church of Englande, begin<g ref="char:EOLhyphen"/>neth the 25, day of March: the ſame daye ſup<g ref="char:EOLhyphen"/>poſed to be the fyrſt day vpon the whiche the world was created, &amp; the day whe<g ref="char:cmbAbbrStroke">̄</g> Chriſt was conceiued in the wombe of the virgin <gap reason="illegible: faint" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>
+               </p>
+            </div>
+            <div type="part">
+               <head>A yeare contayneth</head>
+               <p>In monthes. 12.</p>
+               <p>In weekes. 52.</p>
+               <p>In daies 365.</p>
+               <p>In howres. 8766.</p>
+               <p>In min. 525960.</p>
+            </div>
+            <div type="part">
+               <p>
+                  <gap reason="illegible: faint" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> dayes do al<g ref="char:EOLunhyphen"/>wayes beginne the ſyxte daye of Iulye, and they doe ende the. 17. daye of Au<g ref="char:EOLhyphen"/>guſt.</p>
+            </div>
+            <div type="part">
+               <p>The yeare is deuided into foure partes, <gap reason="illegible: faint" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap>, the Winter, the Spring time, the Summer, and the fal of y<hi rend="sup">e</hi> Leafe The winter begin<g ref="char:EOLhyphen"/>neth the 8. of Nouember, and endeth the 8. of February: Spring time beginneth the 8. of February, and doth continue to the 8. of May. Summer doth begin the 8. of May, and endeth the 8. of Auguſt, The fall of the leafe beginneth the 8. day of Auguſt, and doth ende the 8. day of February.</p>
+            </div>
+            <div type="part">
+               <l>The 11. daye of Iune is longeſt in the yeare:</l>
+               <l>And the 12. of December ſhorteſt doth appeare.</l>
+            </div>
+            <div type="part">
+               <l>The 11. of March, &amp; September the thirtene:</l>
+               <l>The day and night in howres are moſt euen.</l>
+            </div>
+            <div type="part">
+               <l>
+                  <gap reason="illegible: faint" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> daies hath September,</l>
+               <l>Aprill, Iune, and Nouember.</l>
+               <l>February hath. 28. alone,</l>
+               <l>And al the reſt thyrtie and one.</l>
+            </div>
+            <div type="part">
+               <p>At the ende of euery 29 dayes and a halfe, we haue the new moone: the yeare of the moone is 354. daies, &amp; is made iuſt with the yeare of the Sun, which is 365. daies &amp; a quarter, by addinge to the Epact, which is 11. dayes. 3. howres.</p>
+            </div>
+            <div type="part">
+               <p>Eaſterday is euer the firſt Sonday after the ful Moone, which co<g ref="char:cmbAbbrStroke">̄</g>meth betweene the. 22. of March, and the. 25. of Apryl: by which the reſt, called moueable Feaſts, be knowe<g ref="char:cmbAbbrStroke">̄</g>. As the firſt Sonday in Lent, ſyxe weeks before Eaſter. Rogatio<g ref="char:cmbAbbrStroke">̄</g> Sonday. 5. weekes after Aſcention day the Thurſday following: And Whyt ſonday. 7. weeks from Eaſterday. And Trynitye Sonday, the next Sonday after.</p>
+            </div>
+            <div type="part">
+               <p>
+                  <gap reason="illegible: faint" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Terme beginneth the 23. of Ianuary (if it be not Son<g ref="char:EOLhyphen"/>day) and endeth the 12. of February. And hath 4. returnes.</p>
+            </div>
+            <div type="part">
+               <p>
+                  <gap reason="illegible: faint" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Terme beginneth 17. dayes after Eaſter: and endeth the Monday before Whytſonday: and hath. 5. returnes.</p>
+            </div>
+            <div type="part">
+               <p>
+                  <gap reason="illegible: faint" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Terme beginneth the Fryday after Trinity Sonday, and endeth the Wedneſday fortnight after, and hath 4. returnes</p>
+            </div>
+            <div type="part">
+               <p>
+                  <gap reason="illegible: faint" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Terme beginneth the. 9. of October (if it be not Sonday) &amp; endeth the 28. of Nouember, and hath. 8. returnes.</p>
+            </div>
+            <div type="part">
+               <p>The <gap reason="illegible: faint" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> dooth open. 8. dayes before any Terme, except Trynitie Terme: then it openeth. 4 dayes before.</p>
+            </div>
+            <div type="part">
+               <p>
+                  <table>
+                     <row>
+                        <cell role="label">
+                           <gap reason="illegible: faint" extent="1 span">
+                              <desc>〈…〉</desc>
+                           </gap> moneth.</cell>
+                        <cell role="label">
+                           <gap reason="illegible: faint" extent="1 span">
+                              <desc>〈…〉</desc>
+                           </gap> with theyr length.</cell>
+                        <cell role="label">
+                           <gap reason="illegible: faint" extent="1 span">
+                              <desc>〈…〉</desc>
+                           </gap> and night.</cell>
+                        <cell role="label" cols="2">
+                           <gap reason="illegible: faint" extent="1 span">
+                              <desc>〈…〉</desc>
+                           </gap> for the uſe of the peg.</cell>
+                     </row>
+                     <row>
+                        <cell>Twelfe daye, the ſyxte of</cell>
+                        <cell>
+                           <gap reason="illegible: faint" extent="1 word">
+                              <desc>〈◊〉</desc>
+                           </gap>
+                        </cell>
+                        <cell>31. ☼</cell>
+                        <cell>the day is 7. howres 52. minutes. the night is 16 howres 8. minuts</cell>
+                        <cell>☼ 1.</cell>
+                        <cell>17. ☼</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <gap reason="illegible: faint" extent="1 span">
+                              <desc>〈…〉</desc>
+                           </gap>
+                        </cell>
+                        <cell>Februarie.</cell>
+                        <cell>28. ☼</cell>
+                        <cell>the day is 9. howres 33. minuts. the night is 14. howres 26. min.</cell>
+                        <cell>☼ 2.</cell>
+                        <cell>18. ☼</cell>
+                     </row>
+                     <row>
+                        <cell>Our Ladye daye, the 25. of</cell>
+                        <cell>
+                           <gap reason="illegible: faint" extent="1 word">
+                              <desc>〈◊〉</desc>
+                           </gap>
+                        </cell>
+                        <cell>31. ☼</cell>
+                        <cell>the day is 11. howres 22. minuts the night is 12. howres. 38. mi.</cell>
+                        <cell>☼ 3.</cell>
+                        <cell>19. ☼</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <gap reason="illegible: faint" extent="1 span">
+                              <desc>〈…〉</desc>
+                           </gap>
+                        </cell>
+                        <cell>Aprill.</cell>
+                        <cell>30. ☼</cell>
+                        <cell>the day is 13. howres 34. minuts the night is 10. howres 26. min.</cell>
+                        <cell>☼ 4.</cell>
+                        <cell>20. ☼</cell>
+                     </row>
+                     <row>
+                        <cell>Phillip &amp; Iacob, the. 1. of</cell>
+                        <cell>May.</cell>
+                        <cell>31. ☼</cell>
+                        <cell>the day is 15. howres 16. minuts the night 8. howres 44. minutes.</cell>
+                        <cell>☼ 5.</cell>
+                        <cell>21. ☼</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <gap reason="illegible: faint" extent="1 span">
+                              <desc>〈…〉</desc>
+                           </gap> the .24. of</cell>
+                        <cell>Iune.</cell>
+                        <cell>30. ☼</cell>
+                        <cell>the day is 16. howres 23. minuts the night is. 7. howres. 37. min.</cell>
+                        <cell>☼ 6.</cell>
+                        <cell>22. ☼</cell>
+                     </row>
+                     <row>
+                        <cell>S. Iames day, the. 25. of</cell>
+                        <cell>Iulye.</cell>
+                        <cell>31. ☼</cell>
+                        <cell>the day is 15. howres 59. minuts the night is 8. howres &amp; 1. minute</cell>
+                        <cell>☼ 7.</cell>
+                        <cell>23. ☼</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <gap reason="illegible: faint" extent="1 span">
+                              <desc>〈…〉</desc>
+                           </gap>
+                        </cell>
+                        <cell>Auguſt.</cell>
+                        <cell>31. ☼</cell>
+                        <cell>the day is. 14. howres. 33. min. the night is. 9. howres. 27, min.</cell>
+                        <cell>☼ 8.</cell>
+                        <cell>24. ☼</cell>
+                     </row>
+                     <row>
+                        <cell>Saint Michael, the. 29. of</cell>
+                        <cell>
+                           <gap reason="illegible: faint" extent="1 word">
+                              <desc>〈◊〉</desc>
+                           </gap>
+                        </cell>
+                        <cell>30. ☼</cell>
+                        <cell>the day is. 12. howres. 37. min. the night 11 howres 23. minuts.</cell>
+                        <cell>☼ 9.</cell>
+                        <cell>25. ☼</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <gap reason="illegible: faint" extent="1 span">
+                              <desc>〈…〉</desc>
+                           </gap>
+                        </cell>
+                        <cell>October.</cell>
+                        <cell>31. ☼</cell>
+                        <cell>the day is 10. howres 46. minuts the night is. 13. howres 24. min.</cell>
+                        <cell>☼ 10.</cell>
+                        <cell>26. ☼</cell>
+                     </row>
+                     <row>
+                        <cell>Al Saintes, the 1. daye of</cell>
+                        <cell>
+                           <gap reason="illegible: faint" extent="1 word">
+                              <desc>〈◊〉</desc>
+                           </gap>
+                        </cell>
+                        <cell>30. ☼</cell>
+                        <cell>the day is 8. howres 52. minutes the night is 15. howres 6. minuts</cell>
+                        <cell>☼ 11.</cell>
+                        <cell>27. ☼</cell>
+                     </row>
+                     <row>
+                        <cell>
+                           <gap reason="illegible: faint" extent="1 span">
+                              <desc>〈…〉</desc>
+                           </gap>
+                        </cell>
+                        <cell>December.</cell>
+                        <cell>31. ☼</cell>
+                        <cell>the day is 7. howres 38. minutes the night is 16. howres 22. min.</cell>
+                        <cell>☼ 12.</cell>
+                        <cell>28. ☼</cell>
+                     </row>
+                     <row>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell>☼ 13.</cell>
+                        <cell>29. ☼</cell>
+                     </row>
+                     <row>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell>☼ 14.</cell>
+                        <cell>30. ☼</cell>
+                     </row>
+                     <row>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell>☼ 15.</cell>
+                        <cell>31. ☼</cell>
+                     </row>
+                     <row>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell>☼ 16.</cell>
+                        <cell> </cell>
+                     </row>
+                  </table>
+               </p>
+            </div>
+            <div type="part">
+               <p>¶ <hi>A <gap reason="illegible: faint" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> ſumme of the Regiment of <gap reason="illegible: faint" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> ſince the flood, geathered out of the co<g ref="char:cmbAbbrStroke">̄</g>mendable trauaile of <gap reason="illegible: faint" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>
+                  </hi>
+               </p>
+               <p>
+                  <gap reason="illegible: faint" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> hundreth yeares after the floode, Noah deuvded the earth amongſt his. 3. ſonnes: to Shem he gaue <hi>Aſia:</hi> to Ham he gaue <hi>Africa,,</hi> and to Iapheth he gaue <hi>Europa,</hi> whereof Englande is a parcel, which was inhab<gap reason="illegible: missing" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ted. 200. yeares after the flood, by Sa<g ref="char:EOLhyphen"/>mothes one of Iapheths ſons: after whoſe name the people were called <hi>Samothei,</hi> and the Land<gap reason="illegible: faint" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <hi>Samothea.</hi> 341. yeres. Theyr Reli<g ref="char:EOLhyphen"/>gion was good, for they learned it of Noah. After that time came in Albion, to whom curſed Ham was great Gra<g ref="char:cmbAbbrStroke">̄</g>dfather, who ſub<g ref="char:EOLunhyphen"/>dued the Samothes, &amp; called y<hi rend="sup">e</hi> land Albion, which was ſo called. 595. yeres. The Religio<g ref="char:cmbAbbrStroke">̄</g> in that time was idolatrous. 1116. yeres<g ref="char:EOLhyphen"/>before the byrth of Chriſt, came in Bru<gap reason="illegible: faint" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e, &amp; conquered the land, which after that time was called Britaine. 1946. yeres. Their Re<g ref="char:EOLhyphen"/>ligion was Paganiſme, woorſhipping of Saturne, Iupiter, and Mars, in ſteed of the liuing God. The firſt foundation of Chriſtian faith was laid here in Britaine, in the yeare of our Lord God 63. by Ioſeph of Aramathia. This was the firſt prouince that generally receyued the Goſpel in anno. 180. in the time of king Lucius, a Britaine. It remayned in this land aboue. 300. yeres, vntil the Sax<g ref="char:EOLhyphen"/>ons conquered the land, and compelled the Britaines with the Goſpel to flee into Wales, &amp; placed Paganiſme here againe, for 143. yeares. In the time of the Saxons came Auſtine the Monke from Rome, in anno 596. to preach the Goſpell, whiche was corrupted with ſuperſticious ceremonies of that Romiſh See. He landed at the Ile of Thanet in Kent, where he conuerted and baptiſed King Ethelbert, being king there, with a great number of Saxons. Since which time, the people of this land haue bin baptiſed, confeſſing the name of the Father, the Son, and the holy Ghoſt, but vtterly degenerating from that true ſinceritie of the Chriſtia<g ref="char:cmbAbbrStroke">̄</g> faith, which they outwardlye profeſſed, vntil ſuch time as King Henry the eight (by the wil of God) aboliſhed out of this Realme the vſurped po<g ref="char:EOLhyphen"/>wer of that Antichriſt of Rome, reduced the Scriptures to the knowledge of the vulgar toung, and redreſſed the ſtate of the Church and religion. This land was called Britayne vntil ſuch time as King Egbert a Saxon, about the yere of our Lord God 830. co<g ref="char:cmbAbbrStroke">̄</g>man<g ref="char:EOLhyphen"/>ded the land to be called England, &amp; the people Engliſhmen. It hath bin inuaded ſince Chriſts time, by fiue ſundry nations: fyrſt by the Romaines, who came in with <hi>Iulius Ceſar</hi> 54 yeres before the birth of Chriſt: Seco<g ref="char:cmbAbbrStroke">̄</g>dly, by the Piets, who came in anno 87. Third<g ref="char:EOLhyphen"/>ly by y<hi rend="sup">e</hi> Saxons, who came in anno 449. Fourthly by the Danes, who came in anno 791 And fyftly, by the Normas, who came in with William the Conqueror, in anno 1067. Since which time, there hath raigned in Englande 21. Kinges, and 1 Queene, to the yeare of our Lorde God 1558. In the which yeare our moſt gracious <hi>Queene Elizabeth</hi> beganne her proſperous raygne, which God graunt to be long amongſt vs, to Gods glory, her Maieſties endleſſe comfort, and the profite of this our common wealth, Amen.</p>
+            </div>
+            <div type="part">
+               <p>
+                  <hi>Take this as a remembraunce, and for no other cauſe: Eſteeme not the gifte, but the good wyll of D<gap reason="illegible: faint" extent="1+ letters">
+                        <desc>•…</desc>
+                     </gap>ſe.</hi>
+               </p>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>
+               <hi>Imprinted at London, nigh the three <gap reason="illegible: faint" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ra<gap reason="illegible: faint" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>es in the Vintree, by Thomas Dawſon.</hi>
+            </p>
+         </div>
+      </back>
+   </text>
+</TEI>

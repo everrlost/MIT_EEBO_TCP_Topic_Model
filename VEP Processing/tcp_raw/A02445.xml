@@ -1,0 +1,551 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The beautie of the remarkable yeare of Grace, 1638 The yeare of the great Covenant of Scotland.</title>
+            <author>T. H., fl. 1638.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1638</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 22 KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A02445</idno>
+            <idno type="STC">STC 12578</idno>
+            <idno type="STC">ESTC S103591</idno>
+            <idno type="EEBO-CITATION">99839341</idno>
+            <idno type="PROQUEST">99839341</idno>
+            <idno type="VID">3750</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A02445)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 3750)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 960:04)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The beautie of the remarkable yeare of Grace, 1638 The yeare of the great Covenant of Scotland.</title>
+                  <author>T. H., fl. 1638.</author>
+               </titleStmt>
+               <extent>[16] p.   </extent>
+               <publicationStmt>
+                  <publisher>By George Anderson,</publisher>
+                  <pubPlace>Printed at Edinburgh :</pubPlace>
+                  <date>1638.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Signatures: A-B⁴.</note>
+                  <note>Running title reads: The yeare of Grace, 1638.</note>
+                  <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Covenanters --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-03</date>
+            <label>Lauren Proux</label>Sampled and proofread</change>
+         <change>
+            <date>2010-03</date>
+            <label>Lauren Proux</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:3750:1"/>
+            <pb facs="tcp:3750:1" rendition="simple:additions"/>
+            <p>THE BEAVTIE OF <hi>THE REMARKABLE Yeare of Grace,</hi> 1638. The Yeare of the great <hi>Co<g ref="char:EOLhyphen"/>venant of Scotland.</hi>
+            </p>
+            <p>
+               <hi>By</hi> T. H.</p>
+            <figure>
+               <figDesc>tree emblem</figDesc>
+            </figure>
+            <p>Printed at <hi>Edinburgh</hi> by <hi>George Anderſon,</hi> 1638.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:3750:2"/>
+            <pb facs="tcp:3750:2"/>
+            <head>THE YEER OF GRACE, 1638.</head>
+            <l>
+               <seg rend="decorInit">W</seg>HO'ill favour me with winges, that I may flee</l>
+            <l>To glories Mount, where Laureat Poets bee?</l>
+            <l>Fill mee with ſacred fire, You gentle Nine,</l>
+            <l>Inſpire mee with your Gaïties Divine,</l>
+            <l>Tune my Theorbe, ſweet ſiſters, ſtretch the ſtring</l>
+            <l>Yet higher, that ſhe may more ſweetly ſing.</l>
+            <l>Hence all you Soul-dividing cares, go hence,</l>
+            <l>You heart afflicting griefs, and but diſpenſe</l>
+            <l>A little with your Captive, let mee play</l>
+            <l>Within a paradiſe but one poor day:</l>
+            <l>Remove your anger, your ſad wrath forebear,</l>
+            <l>Till I do ſing the beautie of a year;</l>
+            <l>In which luxurious amarous, Heaven doth woe</l>
+            <l>His Miſtres Earth, with ſmiles upon his brow,</l>
+            <l>And would invite each Gentle Sprite to be</l>
+            <l>A Poet of this epithalamie.</l>
+            <l>
+               <pb facs="tcp:3750:3"/>Heer all you ſmyling fancies, haſten heere</l>
+            <l>You nobler raptures of Apolloes Lyre,</l>
+            <l>And throng within my breaſt, all you Idees</l>
+            <l>Within his Cabinet, come if you pleaſe</l>
+            <l>And my poor ſoul enrich, come all which may</l>
+            <l>Teach a young wanton baſhfull pen to play.</l>
+            <l>For now great HE, who ſtreach'd the azure round</l>
+            <l>About this hanging Ball, hath all things crown'd</l>
+            <l>With his beſt bleſſings, willing men rejoice</l>
+            <l>In libertie of ſoul with thankfull voice</l>
+            <l>'Tis he that's cloathed with light, and dwels in thunder,</l>
+            <l>Diſplayes this gratious Year, great Year of wonder<g ref="char:punc">▪</g>
+            </l>
+            <l>A yeare, which ſhall unto all nations be</l>
+            <l>A common talk, This our felicitie</l>
+            <l>Shall be the meaſure of their ſouls deſire,</l>
+            <l>And patter<gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap> of their wiſhes, when th' aſpire</l>
+            <l>At ſuch <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oy, peace, harmonie, and bleſſe</l>
+            <l>As this Great year of our Great Covenant is</l>
+            <l>In which are opened the eyes of Nations all.</l>
+            <l>And fill'd with wonder, thus when our Nephews ſhall</l>
+            <l>Ask at their fathers what this year did meane,</l>
+            <l>(For after yeares from hence ſhall date their tyme</l>
+            <l>In Almanackes, and in our hiſtorie</l>
+            <l>This year of joy gold letters ſhall deſcry)</l>
+            <l>The Sage and Eldrs ſhall their children teach</l>
+            <l>How heavens the glade wings of their love did ſtretch</l>
+            <l>Upon the humble earth, and they ſhall tell</l>
+            <l>How in theſe bleſſed dayes the land was full</l>
+            <l>With ſweetneſſe of the Lord, even as we ſee</l>
+            <l>The waters great which covereth the Sea</l>
+            <l>They ſhall informe them how contract did paſſe</l>
+            <l>'Twixt heavens, and earth, that ſo this great year was</l>
+            <l>
+               <pb facs="tcp:3750:3"/>Year of the feaſt, in ſigne that there ſhall ſtand</l>
+            <l>Betwixt them an Eternall Covenant;</l>
+            <l>And now each Soul is fill'd with joy, each Man</l>
+            <l>To tell poſteritie hath pen in hand,</l>
+            <l>I wiſh to have as many ſouls and eyes</l>
+            <l>T'admire and gaze, as ſtars are in the skyes;</l>
+            <l>And yet mine extaſie would be but ſmall</l>
+            <l>In ſuch exceſſe, to ſee this newborne All,</l>
+            <l>The wearied rolling heavens, the exhauſted earth</l>
+            <l>Like to the Eagle hath renewed their birth</l>
+            <l>And lookes, ſo young, ſo gay, as when of old</l>
+            <l>Th'eternall King caſt them in virgine mould,</l>
+            <l>Or firſt came out of the eternall treaſure,</l>
+            <l>Embelliſht with the riches of all pleaſure.</l>
+            <l>The heavens diſplayes a ſweet and ſmyling grace,</l>
+            <l>Without a wrinkle, or ſpot in their face:</l>
+            <l>So do they ſhine, waſht with a Chriſtall flood,</l>
+            <l>As then, before the firſt impoſtour woo'd</l>
+            <l>The King of Creatures to taſte the trie</l>
+            <l>Of miſtique fruit, thus teaching him to die:</l>
+            <l>So white the world new-walled did appeare,</l>
+            <l>Not ſtained with debauches of the aire</l>
+            <l>As yet, and in their ſerene infancie</l>
+            <l>Of winds and raines, knew note the luxurie.</l>
+            <l>How thy emboſome the enamour'd earth</l>
+            <l>So kindlie now? See how a gentle breath</l>
+            <l>Doth feed all living things? VVhat ſweetneſſe<g ref="char:punc">▪</g>
+            </l>
+            <l>In this ſo univerſall Amitie.</l>
+            <l>O livelie brighneſſe! O the beautie rare!</l>
+            <l>O force of Sun, and moone! O kindneſſe deare</l>
+            <l>Of favouring heavens! And where then was your skill</l>
+            <l>Till now, that would not make your court'ſie kill</l>
+            <l>
+               <pb facs="tcp:3750:4"/>Our feares and povertie, now you do ſhow</l>
+            <l>More ſweetneſſe then both Arabees do know:</l>
+            <l>You have rain'd floudes of Manna, th'earth doth ſwell</l>
+            <l>Pamp'red in richer balme. What time can tell</l>
+            <l>Celeſtiall powers ſo ſtrongly all combinde,</l>
+            <l>As in this year wee wanton worldlings finde?</l>
+            <l>Heavens treaſures have beene ſhut till now, but lo</l>
+            <l>In golden floudes of pleaſures now we flow,</l>
+            <l>Powr'd from the cabinet of him who reignes</l>
+            <l>(Which this great year proclames) above all Kings:</l>
+            <l>With ſublunarie pleaſures drunk, wee ſee</l>
+            <l>What Heavens can do, and what the Earth can be</l>
+            <l>When ſhe hath ſuckt beſt influence from above,</l>
+            <l>Or when the Sun with criſped rayes makes love:</l>
+            <l>When hote flame maſculine doth him inſpire,</l>
+            <l>And makes th'earth pregnant with his vigorous fire.</l>
+            <l>Tell me thou Gentle Planet of the day,</l>
+            <l>Who through ſtar-poudred Scarf of heaven doſt ſtray,</l>
+            <l>Who gilds the heavens, &amp; paints the earth with flowrs,</l>
+            <l>And flames of life through Neptunes boſome powres,</l>
+            <l>Art Thou the ſame ſhyn'd in our Fathers dayes?</l>
+            <l>Hath any brighter ſoul given thee new rayes?</l>
+            <l>What new things hath this earthly globe reveald?</l>
+            <l>What from Thy ſight till now hath it conceald?</l>
+            <l>What change diſcovers thou in naturall things?</l>
+            <l>That thus thou flies 'bout us with glader wings?</l>
+            <l>Indeed the Taper which we had before thee</l>
+            <l>Was but a ſparkling diamond to thy glorie;</l>
+            <l>Or like the thin ſquibes of thy Siſters face,</l>
+            <l>When ſhe the cold and ſilent vault doth grace:</l>
+            <l>We muſt forſooth confeſſe (Prince of the day)</l>
+            <l>Thou obleidges heaven and earth in a ſtrange way:</l>
+            <l>
+               <pb facs="tcp:3750:4"/>Thou haſt daign'd to'unvaile thy face, and now we ſee</l>
+            <l>Thy naked dy, which masked wont to bee.</l>
+            <l>Ah gallant Sun, thy wanton dangling hair</l>
+            <l>Provokes the Frolick Earth t'embalme the air,</l>
+            <l>Where numberleſſe golden atomes of the day</l>
+            <l>Hath hanging at each one pearles to array</l>
+            <l>Proud Flora, looking like a glorious Bride,</l>
+            <l>Attyr'd with Majeſtie on everie ſide;</l>
+            <l>On which the Sun dartes many an amorous look,</l>
+            <l>Reading his active beautie on Heavens Book,</l>
+            <l>And dreſſing in Neptunes glaſſe his jollier haires,</l>
+            <l>Each day courts hotlier, and more fine appeares:</l>
+            <l>No more the Guelded Son of this bleſt Year</l>
+            <l>Need now the anger of barbarous ſeaſon fear,</l>
+            <l>For his rebuke is taken away, and now</l>
+            <l>Thoſe fields to which retiring Sun did ſhow</l>
+            <l>His fainter face, do laugh as well as thoſe,</l>
+            <l>Who can boaſt of poſſeſſion of the roſe;</l>
+            <l>Nay this whole yeere's but a continued May,</l>
+            <l>Luxurious in her pride, and beſt array;</l>
+            <l>And look how much the Heavens doe the fire</l>
+            <l>Excell, or yet how much the tender Air</l>
+            <l>Exceed the groſſer VVater, even ſo</l>
+            <l>Each Tyme, each Thing ſurpaſſe their own kinde too;</l>
+            <l>The Cloudes weep no more, and forget to raine,</l>
+            <l>The Sun to leave us, and to turne his waine;</l>
+            <l>The Southern Pole doth wonder at his ſtay,</l>
+            <l>And 'gines to queſtion what moves him to play</l>
+            <l>So long within this artick circled clime,</l>
+            <l>'Tis cauſe he'ld ſee the great change of the tyme;</l>
+            <l>Which all the Elements do preach; which are</l>
+            <l>Not of ſo ley a mettall as they were.</l>
+            <l>
+               <pb facs="tcp:3750:5"/>But more ennobled, and leſſe diſcordant.</l>
+            <l>For in this great year of the Covenant</l>
+            <l>An all-embracing ſweetneſſe doth enlive</l>
+            <l>Each place and ſeaſon, now all things do thriv<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+            </l>
+            <l>A ſweet calme influence every where wee ſee,</l>
+            <l>As if each of the Stars had drunk a ſea</l>
+            <l>Of nectar, and inebriat every flower</l>
+            <l>VVith their benigne aſpects, and heavenly power.</l>
+            <l>VVhere would you ſend your large enquiring eyes?</l>
+            <l>VVould you them feaſt on th'earth, or on the skyes?</l>
+            <l>Or ſpring through th'air, where Bird briquils &amp; playes,</l>
+            <l>And ſings to natures king, with natur'd layes,</l>
+            <l>But every where you's finde a ſtrange beautie,</l>
+            <l>And reverend ſweetneſſe kiſſe your conquered eye;</l>
+            <l>Each glorious object fils our curious ſoul,</l>
+            <l>There's nothing now which our deſires controule:</l>
+            <l>The ſmyling Heavens, flattering, ſeeme to praiſe</l>
+            <l>The ſtrong-beam'd Sun, with his refined rayes,</l>
+            <l>The fethered voyces, Birdes, devoutly bends</l>
+            <l>Their keene and learned bills, which nimbly indents</l>
+            <l>Thouſand of various checkred conquering noates,</l>
+            <l>Darted from mignon prettie warbling throats:</l>
+            <l>The ſtately trees where theſe ſweet woodnymph lodge,</l>
+            <l>(Theſe harmleſſe painted Syrens, which diſgorge</l>
+            <l>Their mutuall flames) being wounded with the joy,</l>
+            <l>And ſweetneſſe of the eſpouſed harmonie</l>
+            <l>Did amber teares, weep, cauſe they could not know</l>
+            <l>Either to dance or ſing, els they'ld do ſo</l>
+            <l>And keep a part, yet look they gladlie ſhake</l>
+            <l>Their curl'd topes, throwing bloſſomes to awake</l>
+            <l>The ſleeping Naides in their chriſtall ſtreames</l>
+            <l>And joine their mirth with their natures athemes,</l>
+            <l>
+               <pb facs="tcp:3750:5"/>VVherein each pittie nature courtes the great</l>
+            <l>Their own diſcords, and paſſions do forget.</l>
+            <l>The ſwelling angry winds, who whipt the Sea,</l>
+            <l>The terrour of the woods which wount to be</l>
+            <l>Rolling a lowring Horrour through the deep,</l>
+            <l>Afrighting Mortals in their harmleſſe Sleep,</l>
+            <l>VVith ſoft and ſilken winges now gently creep,</l>
+            <l>Solliciting the winter flowres to peep,</l>
+            <l>And with authoritie as Heavens coole Fan</l>
+            <l>Correcting proud Don <hi>Phoebus</hi> melting flame.</l>
+            <l>Their ſpicknard breathes do laughing bloſſomes blow</l>
+            <l>To our labouring trees, and fruites upon them throw,</l>
+            <l>And gentlie call out from their cloiſtered gemmes</l>
+            <l>Our Peſtan Roſes glorying on their ſtemmes.</l>
+            <l>The Arabian winds which boaſted that they were</l>
+            <l>Compoſed not as other meteors are</l>
+            <l>But made of Amber Spirits, now do give</l>
+            <l>Their beſt elixer, and do murmuring ſtrive,</l>
+            <l>VVhich ſhall our flowres moſt kindly entertaine,</l>
+            <l>And flatter Flora in an amourous ſtraine:</l>
+            <l>You pride of nature, glorie in the year,</l>
+            <l>Svvet flovvres, vvhat Genius bade you appeare</l>
+            <l>In your beſt garments? VVould you be renovvnd</l>
+            <l>'Cauſe each of you is worth a dyamound.</l>
+            <l>If Pythagorick tranſmigration could</l>
+            <l>'Mongſt flovvres, and trees eſtabliſh'd be, I would</l>
+            <l>Say that theſe lovelie ſoules this year are come</l>
+            <l>To inhabite you from the Elezium,</l>
+            <l>Your ſwet Sabean odours choak us now,</l>
+            <l>You have Arabian perfumes ſtiffled too:</l>
+            <l>Rare Beauties of rare Favour, whence be you,</l>
+            <l>With your ſo prettie pride and uncouth hew?</l>
+            <l>
+               <pb facs="tcp:3750:6"/>I thinke you be deſcended from that race</l>
+            <l>Of Floraes People, which did Eden grace,</l>
+            <l>Your Pompe's unuſuall, and yee ſeeme to come</l>
+            <l>Natures Embaſſadours, for to tell ſome</l>
+            <l>Strange glory of this age, t'aſſure the land</l>
+            <l>Of Heavens acceptance of this Covenant,</l>
+            <l>Which it hath ſealed with our common King,</l>
+            <l>This is belike the Sermon you do bring</l>
+            <l>Your painted faces, and your pleaſant light</l>
+            <l>Makes of our Earth a conſtellation bright:</l>
+            <l>Shine boldly Daughters of this bleſſed year;</l>
+            <l>Rejoice you glittering Troupe, and do not fear</l>
+            <l>That Summers angry Heat, and fretting Cold</l>
+            <l>Of your ſadde enemie darre be ſo bold</l>
+            <l>Zou to importune, or to robe your glorie</l>
+            <l>Ne'er eare did heare, ne'er eye did read in ſtorie</l>
+            <l>Such yeare as this you're come to celebrate,</l>
+            <l>Appointed by deare Providence, not Fate,</l>
+            <l>VVherein Heavens ſpheares do give a prettier dance,</l>
+            <l>And the great Mover will have no offence</l>
+            <l>Given to any ſublunarie Creature</l>
+            <l>(Sweet trees and flowres) but that your joy and pleaſure,</l>
+            <l>May be ſecure, and full, fred from the fear</l>
+            <l>Of unkinde Sun, or injuries of the year.</l>
+            <l>Put foorth aſpiring Mountains theſe your lillies</l>
+            <l>VVhite as the ſnow in Salmon, you O valleyes,</l>
+            <l>VVhich with your violets like a garment are</l>
+            <l>Moſt proudly cled, and fragrant as the myrre,</l>
+            <l>You likewiſe ſolemnize this happie yeare</l>
+            <l>And ſtretch your carpets which embrodered are</l>
+            <l>By natures hand, who with Sydonian dye</l>
+            <l>Thriſe drunk doth entertaine the danceing eye:</l>
+            <l>
+               <pb facs="tcp:3750:6"/>Behold this is the year of our great feaſt,</l>
+            <l>The world is beautified, and we're oppreſt</l>
+            <l>With riches and delights, which do as far</l>
+            <l>Exceed before times, as the Idalian ſtar</l>
+            <l>Outſhines the lay meteors in the air</l>
+            <l>Or ſhrinking ſhrubes, o'retopes the Cedars fair.</l>
+            <l>Thoſe Heaven-beloved trees do drinke no more</l>
+            <l>The vulgar vapors, as they did before,</l>
+            <l>But feedes on Spirites of the Nobler Roſe</l>
+            <l>Alambiqued by the enquiring noſe</l>
+            <l>Of <hi>Phoebus</hi> ſteeds, who ſnaring flames and light</l>
+            <l>Doe yeeld a relliſh of a ſtrange delight.</l>
+            <l>Now intertwiſt good Trees your amarous armes,</l>
+            <l>Freely poſſeſſe your ſelf in thoſe your charmes,</l>
+            <l>No Shriv'ling winde dare now to teare your Hair</l>
+            <l>Now doth your freiz'ld beruques ſpruſſe appear,</l>
+            <l>The incivile Zephyres who were wont to rove</l>
+            <l>Amongſt your treaſures, ruſhing from the Cove,</l>
+            <l>Who all your dainties riffled, and threw down</l>
+            <l>Your Pride, your children humbled to the ground:</l>
+            <l>Thoſe winds which your yet tender fruit did make</l>
+            <l>All orphanes, and your ſelfe did cauſe to ſhake</l>
+            <l>For very fear, now they do no more ſo,</l>
+            <l>But kindly taim'd more mercifully blow.</l>
+            <l>If any of our forefathers ſhould ariſe</l>
+            <l>From natures cold bed, and lift up his eyes</l>
+            <l>Behold the Heavens renew'd, the Earth refin'd</l>
+            <l>The glory of all the Elements ſublim'd</l>
+            <l>The beautie of the never-lowring Sun,</l>
+            <l>The ſweetneſſe of the ever-pleaſing Moone,</l>
+            <l>The riches of each tree, bluſh of each roſe,</l>
+            <l>The treaſures which golden Ceres doth diſcloſe,</l>
+            <l>
+               <pb facs="tcp:3750:7"/>And that before her time, he ſhall ſtraight ſmile</l>
+            <l>And ſay, This muſt be ſure the fortunat Ile</l>
+            <l>Or the Heſperids, bleſſed with the dew</l>
+            <l>Of Heaven, wherein moſt laviſhlie did grow</l>
+            <l>The golden aples; or elſe he would conceave</l>
+            <l>Both Roles, were changed, and the Spheres to have</l>
+            <l>Some other motion, or the Sun to approach</l>
+            <l>From Southerne people his eternall Coach,</l>
+            <l>And us below the Equator for to ly,</l>
+            <l>Where loftier Sun dartes his directer ray;</l>
+            <l>And where he doth diſpenſe a prouder light</l>
+            <l>From his ſublimer Throne flaming more bright.</l>
+            <l>This good oldman, reviv'd, which never ſaw</l>
+            <l>But ordinarie yeares, would ſtand in aw</l>
+            <l>To call this <hi>Scotland,</hi> nay, ſure he would be</l>
+            <l>Like One tranſported to ſweet Arabie</l>
+            <l>From ſome cold hungrie melancholick clime,</l>
+            <l>To ſee the charge of ſeaſon, place, and tyme.</l>
+            <l>All other yeares being paragon'd with this;</l>
+            <l>Nor ſoul, nor life, nor beautie have, nor bleſſe;</l>
+            <l>And lookes but like a winter, when theſe dayes</l>
+            <l>Doe glory in triumphing matchleſſe rayes.</l>
+            <l>Like as the hoaſtes of ſtars do ſhrink away;</l>
+            <l>When gentle Phebe cometh foorth to play,</l>
+            <l>At whoſe appearing in her fuller grace</l>
+            <l>Aſham'd, like ſillie people they hide their face,</l>
+            <l>And doth retire to a diſtance, for if ſhee</l>
+            <l>Approach too nie, drown'd with her glore they die:</l>
+            <l>So other yeeres that were the lights of time</l>
+            <l>The glory of Chronicles, muſt now think ſhame,</l>
+            <l>And hold themſelves but rags when this ſhall be</l>
+            <l>A dyademe to all Eternitie.</l>
+            <l>
+               <pb facs="tcp:3750:7"/>The former years to this were but Aurore,</l>
+            <l>And ſerved to uſher foorth this great yeares Glore,</l>
+            <l>Were but thin ſhades to that great Majeſtie</l>
+            <l>Which now appeares cloath'd with felicitie.</l>
+            <l>Nature hath ſpent her Spirit for to trime</l>
+            <l>Her ſelf with Buskings, and to grace the tyme,</l>
+            <l>Strain'd all her Force and Riches for to ſhow</l>
+            <l>Unto the world what wonders ſhee can do,</l>
+            <l>She hath taught heavens ſpheres to'utweave a year ſo fine</l>
+            <l>That of this Twiſt they have no more behinde</l>
+            <l>Which ſweetlie doth erect it's ſtatelie head,</l>
+            <l>O'relooking other humble yeares as dead,</l>
+            <l>Termines the Worlds hopes, who wondering gaze:</l>
+            <l>And crownes it worthie of immortall Bayes.</l>
+            <l>Who ſo the beautie of this yeare would ſhow</l>
+            <l>And paint it all exactlie, he muſt know</l>
+            <l>Firſt, how to outſtare the Sun, with his faint eyes,</l>
+            <l>Number the Sand, and Dyamounds in the skyes,</l>
+            <l>For every Seaſon, every Month and Day,</l>
+            <l>Each bluſhing apple, at the Suns proud ray</l>
+            <l>Each forreſt, Garden, each embrodered Bray,</l>
+            <l>Each roſe, each lillie, each brave busked tree,</l>
+            <l>Each of their leaves, each atome of the Sun,</l>
+            <l>When he is newborne, or when he's going down;</l>
+            <l>Each twinkle of a ſtar, or her ſweet ſmile,</l>
+            <l>Who did the boy Endimion ne'er beguile</l>
+            <l>Would be too thronged in a volume great;</l>
+            <l>And craves more lines then my poore pen can get,</l>
+            <l>The Pagnim Poets who can magnifie</l>
+            <l>A ſillie roſe, and baſe things deifie,</l>
+            <l>Who nature rude thinke that they do obſcure,</l>
+            <l>Metamorphoſing, violets in ſtars pure</l>
+            <l>
+               <pb facs="tcp:3750:8"/>Can no more reach the glory of this time</l>
+            <l>And ſeaſons beautie, nor they can confine</l>
+            <l>The boundleſſe Ocean in their narrow quill,</l>
+            <l>Or with few atomes all this All can fill;</l>
+            <l>Yet let's admire what we cannot attaine;</l>
+            <l>And prattle as we may with thankfull, ſtraine</l>
+            <l>While that the reſt of Nations all do burne</l>
+            <l>With jealouſie, holding themſelves forelorne.</l>
+            <l>You Miſtres of the world, and Europes eye;</l>
+            <l>You Land, which doth in natures boſome ly;</l>
+            <l>And you, who never ſaw our Chairles-waine</l>
+            <l>Lazie Bootes, and Caſſiopea ſhine;</l>
+            <l>And you who looke alike to both the Poles,</l>
+            <l>Whoſe double Summers no angry Heavens controlles,</l>
+            <l>All you who thought Heavens ſpheres did roll for you,</l>
+            <l>And you alone, be not offended now;</l>
+            <l>And ſpare your grudging, if we honoured be</l>
+            <l>More by the Heavens, dearer to them nor yee.</l>
+            <l>Stand by neglected Nations, Trouble not</l>
+            <l>Our feaſting, and our mirth, nor interrupt</l>
+            <l>Our juſt conceaved joy, learne to admire</l>
+            <l>Heavens power, and our felicitie this yeare:</l>
+            <l>And you belov'd Indwellers of the land</l>
+            <l>Crown'd with advantages, Come hand in hand</l>
+            <l>Let's ſhout till we do drown the Spheres in Heaven</l>
+            <l>Arreſt the Sun to ſtand, and Planets ſeven,</l>
+            <l>And make the God of the fift Sphere throw'way</l>
+            <l>His fooliſh ſword, deſcend, and with us play;</l>
+            <l>Each thing within the Univerſe expreſſe</l>
+            <l>A ſympathie of our joy and bleſſedneſſe</l>
+            <l>Come blow the trumpet, blow you heavens, rejoice,</l>
+            <l>Be glad O Earth, Proud Sea, lift up your voice,</l>
+            <l>
+               <pb facs="tcp:3750:8"/>Come with your olive garlands, come vvith palmes</l>
+            <l>Or with Uranias flowres, and ſing your Pſalmes</l>
+            <l>You Virgine daughters, come you dameſells all,</l>
+            <l>And Syons mountain enter ſhall the Ball;</l>
+            <l>Reach me my warbling lute, and I'll accord</l>
+            <l>Th' eſpouſed vaines, ſollicite every cord;</l>
+            <l>I'll court the Ladie'f lyres, whoſe ſacred wombe</l>
+            <l>All Graces, all ſweet Melodie doth entombe,</l>
+            <l>Bring me my pleaſant Harpe, my Gythare dear,</l>
+            <l>And I will joine with you, I'll ſtrain an air</l>
+            <l>So ſweet, ſo full, as ſhall you Hilles entrance</l>
+            <l>And make their Trees come laughing heer, and dance,</l>
+            <l>So doth a Candle help the Sun to ſee,</l>
+            <l>So doth a ſillie Streame ingroſſe the Sea;</l>
+            <l>So doth the Heaven in Arras work appeare,</l>
+            <l>With every empriſon'd Star and ſilent Sphere,</l>
+            <l>As my Raſh Muſe hath now diffuſed her layes</l>
+            <l>And whiſpered as ſhee could the great yeares praiſe</l>
+            <l>Awaking highbred ſprites that weare the Bayes,</l>
+            <l>To ſtretch their numbers, their proud notes to raiſe.</l>
+            <l>
+               <hi>Sic erat in fatis.</hi>
+            </l>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,502 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A short catechisme for householders. By T.P.</title>
+            <author>T. P., fl. 1624.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1624</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 10 KB of XML-encoded text transcribed from 7 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A08791</idno>
+            <idno type="STC">STC 19079</idno>
+            <idno type="STC">ESTC S120100</idno>
+            <idno type="EEBO-CITATION">99855300</idno>
+            <idno type="PROQUEST">99855300</idno>
+            <idno type="VID">20787</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A08791)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 20787)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1553:13)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A short catechisme for householders. By T.P.</title>
+                  <author>T. P., fl. 1624.</author>
+               </titleStmt>
+               <extent>[12] p.   </extent>
+               <publicationStmt>
+                  <publisher>Imprinted by F.K[ingston] for George Winder, and are to be sold at his shop in Saint Dunstons Church-yard,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1624.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Printer's name from STC.</note>
+                  <note>A different work from STC 6710.5.</note>
+                  <note>Signatures: A (-A1,8).</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Catechisms, English --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-12</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-12</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-01</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2010-05</date>
+            <label>SPi Global</label>Rekeyed and resubmitted</change>
+         <change>
+            <date>2010-06</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2010-06</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:20787:1"/>
+            <pb facs="tcp:20787:1"/>
+            <p>A SHORT CATECHISME FOR HOVSE<g ref="char:EOLhyphen"/>HOLDERS.</p>
+            <p>By <hi>T. P.</hi>
+            </p>
+            <p>LONDON, Imprinted by <hi>F.K.</hi> for <hi>George Win<g ref="char:EOLhyphen"/>der,</hi> and are to be ſold at his ſhop in Saint <hi>Dunſtons</hi> Church-yard.
+1624.</p>
+         </div>
+      </front>
+      <body>
+         <div type="catechism">
+            <pb facs="tcp:20787:2"/>
+            <pb facs="tcp:20787:2"/>
+            <head>A SHORT CATECHISME FOR HOVSEHOLDERS.</head>
+            <p>
+               <hi>Queſtion.</hi>
+            </p>
+            <p>
+               <hi>
+                  <seg rend="decorInit">W</seg>Hat ſhould bee the chiefe deſire and indeuour of e<g ref="char:EOLhyphen"/>uery Chriſtian in this life?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> To ſeeke the glory of God, and to obtaine happineſſe and ſaluation of his owne ſoule.</p>
+            <p>
+               <hi>Q. How may we obtaine that?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> By keeping Couenant with God the Lord?</p>
+            <p>
+               <hi>Q. Who is God the Lord?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> That infinite and almighty Spi<g ref="char:EOLhyphen"/>rit, who is the maker, preſeruer and go<g ref="char:EOLhyphen"/>uernour of all things.</p>
+            <p>
+               <hi>Q. How many Gods be there?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Three perſons, yet but one God.</p>
+            <p>
+               <hi>Q. How many couenants hath that
+<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>e God made with vs?</hi>
+            </p>
+            <pb facs="tcp:20787:3"/>
+            <p>
+               <hi>A.</hi> Two: the firſt is the Couenant of workes: the ſecond is the Couenant of grace.</p>
+            <p>
+               <hi>Q. Where hath God reuealed his will about theſe Couenants?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> In the books of holy Scriptures, wherein all things needefull to ſaluation are contained.</p>
+            <p>
+               <hi>Q. What is the Couenant of workes?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> That which promiſeth life, vpon condition of perfect obedience to the Law.</p>
+            <p>
+               <hi>Q. What doth the Law of God re<g ref="char:EOLhyphen"/>quire of you?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> To loue the Lord our God, with all our might: and our neighbour as our ſelues.</p>
+            <p>
+               <hi>Q. Are you able to keepe this Law of God?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No: I breake it in thought, word, and deede.</p>
+            <p>
+               <hi>Q. Did God create man vnable?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No, for in the Image of God cre<g ref="char:EOLhyphen"/>ated he him.</p>
+            <p>
+               <hi>Q. How commeth mans nature to be diſabled?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> By the ſinne and diſobedience of our firſt parents <hi>Adam</hi> and <hi>Eue.</hi>
+            </p>
+            <p>
+               <hi>Q. What is ſinne?</hi>
+            </p>
+            <pb facs="tcp:20787:3"/>
+            <p>
+               <hi>A.</hi> The breach of Gods Law.</p>
+            <p>
+               <hi>Q. What is the puniſhment of ſinne?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The curſe of God, both on bodie and ſoule in this life, and that which is to come.</p>
+            <p>
+               <hi>Q. Wherein then doth the miſery of man conſiſt?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Firſt, in this, that by nature hee doth nothing, nor can doe nothing but ſinne: Secondly, that for ſinne hee lyeth vnder the wrath and curſe of God.</p>
+            <p>
+               <hi>Q. Is there then no hope to be ſaued by the Couenant of workes?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No, for by the workes of the Law ſhall no fleſh liuing be iuſtified.</p>
+            <p>
+               <hi>Q. What is the Couenant of Grace?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> That which promiſeth ſaluation to all penitent ſinners, vpon condition of faith in Chriſt Ieſus.</p>
+            <p>
+               <hi>Q. Who are penitent ſinners?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Thoſe that finde, feele, and grieue that they are miſerable by ſinne.</p>
+            <p>
+               <hi>Q. By whom are penitent ſinners to looke for life and ſaluation?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Onely by Ieſus Chriſt, who being God, became man, that he might bee a fit Mediator betwixt God and man.</p>
+            <p>
+               <hi>Q. Why was he to be man?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> That he might dye for vs.</p>
+            <pb facs="tcp:20787:4"/>
+            <p>
+               <hi>Q. Why to be God?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> That he might ouercome death, and that his death might bee a ſufficient ranſome for the ſinnes of the whole world.</p>
+            <p>
+               <hi>Q. What did Ieſus Chriſt for you?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> He did fulfill the law, &amp; indure the curſe of God for vs.</p>
+            <p>
+               <hi>Q. Why did he ſo?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> That we may bee iuſtified,
+<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ti<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ed and glorified.</p>
+            <p>
+               <hi>Q. What is iuſtification?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Gods freeing vs from the guilt of
+<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>r ſ<gap reason="illegible" resp="#PDCC" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>es, for the merit of Chriſt, and his accepting vs as righteous vnto life i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> him.</p>
+            <p>
+               <hi>Q. What are the fruits of Iuſtification?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Reconciliation and Adoption.</p>
+            <p>
+               <hi>Q. What is Reconciliation?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Our admittance into Gods loue and fauour.</p>
+            <p>
+               <hi>Q. What is Adoption?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Gods accepting vs into the place and ſtate of f<gap reason="illegible" resp="#PDCC" extent="4 letters">
+                  <desc>••••</desc>
+               </gap>e<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>.</p>
+            <p>
+               <hi>Q. What is Sanctification?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Gods purging our hearts from the corruption of ſinne: and his re<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>g vs with holy qualities.</p>
+            <p>
+               <hi>Q. What are the parts of Sanctifica<g ref="char:EOLhyphen"/>tion?</hi>
+            </p>
+            <pb facs="tcp:20787:4"/>
+            <p>
+               <hi>A.</hi> Mortification, which is the killing a ſubduing our corruptions: and vinifi<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>tion, which is the quickening in vs of
+<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oly affections.</p>
+            <p>
+               <hi>Q. What is Glorification?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Gods iudging our bodies and
+<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>les with euerlaſting glory in heauen.</p>
+            <p>
+               <hi>Q. Shall all men be made partakers of theſe benefits by Chriſt?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No, none but the true members
+<gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the Church?</p>
+            <p>
+               <hi>Q. What is the Church?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The whole company of them that
+<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e predeſtinate and called to life.</p>
+            <p>
+               <hi>Q. How are the members of the Church to partake of theſe benefits?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Onely by a true and liuely fa<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ith.</p>
+            <p>
+               <hi>Q. What is faith?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> A beliefe of the Goſpell, whereby
+<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e receiue and reſt vpon Chriſt, offe<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> in the ſame for our ſaluation.</p>
+            <p>
+               <hi>Q. What are the ſignes of faith?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Peace of conſcience, hungring
+<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>er the Word; Newneſſe of heart and <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>.</p>
+            <p>
+               <hi>Q. What are thoſe publike ordinances thereby faith is wrought and increaſed <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> the heart?</hi>
+            </p>
+            <pb facs="tcp:20787:5"/>
+            <p>
+               <hi>A.</hi> The miniſtery of the Word, Sa<g ref="char:EOLhyphen"/>craments, and Prayer.</p>
+            <p>
+               <hi>Q. What is the miniſtery of the Word?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The Word of God read and preached by one called and appointed therevnto by God.</p>
+            <p>
+               <hi>Q. What is Prayer?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The calling vpon God in the name of Chriſt Ieſus.</p>
+            <p>
+               <hi>Q. How many Sacraments hath Chriſt ordained in the Church?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Two onely, as generally neceſſa<g ref="char:EOLhyphen"/>ry to ſaluation: that is to ſay, Baptiſme and the Supper of the Lord.</p>
+            <p>
+               <hi>Q. What meaneſt thou by this word Sacrament?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> I meane, an outward and viſible ſigne of an inward and ſpirituall grace giuen vnto vs, ordained by Chriſt him<g ref="char:EOLhyphen"/>ſelfe, as a meanes whereby we receiue the ſame, and a pledge to aſſure vs ther<g ref="char:EOLhyphen"/>of.</p>
+            <p>
+               <hi>Q. How many parts be there in a Sa<g ref="char:EOLhyphen"/>crament?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Two: the outward viſible ſigne, and the inward ſpirituall grace.</p>
+            <p>
+               <hi>Q. What is the outward viſible ſigne or forme in Baptiſme?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Water: wherein the perſon bap<g ref="char:EOLhyphen"/>tized
+<pb facs="tcp:20787:5"/>is dipped or ſprinkled with it, in the Name of the Father, and of the Sonne, and of the holy Ghoſt.</p>
+            <p>
+               <hi>Q. What is the inward and ſpirituall grace?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> A death vnto ſinne, and a new birth vnto righteouſneſſe: for being by nature borne in ſinne, and the children of wrath, wee are hereby made the children of grace.</p>
+            <p>
+               <hi>Q. What is required of perſons to be baptized?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Repentance, whereby they for<g ref="char:EOLhyphen"/>ſake ſinne: and faith, whereby they ſted<g ref="char:EOLhyphen"/>faſtly beleeue the promiſes of God made to them in the Sacrament.</p>
+            <p>
+               <hi>Q. Why then are infants baptized, when by reaſon of their tender age, they cannot performe them?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Yes, they doe performe them by their Sureties, who promiſe and vow them both in their names, which when they come to age, themſelues are bound to performe.</p>
+            <p>
+               <hi>Q. Why was the Sacrament of the Lords Supper ordained?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> For the continuall remembrance of the Sacrifice of the death of Chriſt, and the benefits we receiue thereby.</p>
+            <pb facs="tcp:20787:6"/>
+            <p>
+               <hi>Q. What is the outward part or ſign<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> of the Lords Supper?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Bread and Wine; which the Lord hath commanded to bee receiued.</p>
+            <p>
+               <hi>Q. What is the inward part or thing ſignified?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The body and blood of Chriſt, which are verily and indeede taken and receiued of the faithfull in the Lords Supper.</p>
+            <p>
+               <hi>Q. What are the benefits whereof we are partakers thereby?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The ſtrengthening &amp; refrſhing of our ſoules by the body &amp; blood of Chriſt, as our bodies are by the Bread &amp; Wine.</p>
+            <p>
+               <hi>Q. What is required of them which come to the Lords Supper?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> To examine them ſelues whe<g ref="char:EOLhyphen"/>ther they repent them cruely of their former ſinnes, ſtedfaſtly purpoſing to lead a new life, haue a liuely faith is Gods mercy through Chriſt, which a thankefull remembrance of his death, and
+<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ee in Charitie with all men.</p>
+            <p>
+               <hi>Q. How are thoſe, who haue recei<g ref="char:EOLhyphen"/>ued ſo to beleeue, to walke as they may glorifie God?</hi>
+            </p>
+            <p>
+               <hi>Q.</hi> By the dayly practiſing of the du<g ref="char:EOLhyphen"/>ties of repentance and obedience.</p>
+            <pb facs="tcp:20787:6"/>
+            <p>
+               <hi>Q. What is repentance?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> A griefe of heart that wee haue
+<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ſpleaſed God, with a ſtedfaſt pur<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ſe and endeauour of amendment of <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>.</p>
+            <p>
+               <hi>Q. What is new obedience?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> A conſtant deſire and indeuour to
+<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ow and performe all the Commande<g ref="char:EOLhyphen"/>ments of God.</p>
+            <p>
+               <hi>Q. What ſhall bee the eſtate of thoſe
+<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hat thus walke, at the laſt day?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Their bodies being raiſed from the graue, ſhall be ioyned to their ſoules, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> both ſhall liue in euerlaſting happi<g ref="char:EOLhyphen"/>neſſe and glory.</p>
+            <p>
+               <hi>Q. What ſhall bee the eſtate of vn<g ref="char:EOLhyphen"/>beleeuers, impenitent and diſobedient perſons?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Their bodies alſo being raiſed from the graue, ſhall bee ioyned to their ſoules, and they both caſt into euerla<g ref="char:EOLhyphen"/>ſting fire.</p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:20787:7"/>
+            <pb facs="tcp:20787:7"/>
+         </div>
+      </body>
+   </text>
+</TEI>

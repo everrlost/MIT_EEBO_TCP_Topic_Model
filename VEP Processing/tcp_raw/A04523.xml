@@ -1,0 +1,760 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>[Capystranus a metrical romance].</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1515</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 23 KB of XML-encoded text transcribed from 12 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A04523</idno>
+            <idno type="STC">STC 14649</idno>
+            <idno type="STC">ESTC S106539</idno>
+            <idno type="EEBO-CITATION">99842254</idno>
+            <idno type="PROQUEST">99842254</idno>
+            <idno type="VID">6895</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A04523)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 6895)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 754:05)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>[Capystranus a metrical romance].</title>
+               </titleStmt>
+               <extent>[10+] leaves : ill.  </extent>
+               <publicationStmt>
+                  <publisher>W. de Worde,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>ca. 1515]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Title and imprint from STC.</note>
+                  <note>Verse; first line of text reads: O myghty fader in heuen on hye.</note>
+                  <note>In this edition A3r beneath Hodnett 1117 reads: Now Machamyte that turke vntrue; B1r beneath Hodnett 1118 reads: The emperour of Constantyne.</note>
+                  <note>A fragment; leaves A2-C3 only.</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>John, --  of Capistrano, Saint, 1386-1456 --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-10</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2013-10</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="poem">
+            <pb facs="tcp:6895:1"/>
+            <pb facs="tcp:6895:1" rendition="simple:additions"/>
+            <head>
+               <add>Capystranus a Metrical Romance</add>
+            </head>
+            <pb facs="tcp:6895:2" rendition="simple:additions"/>
+            <pb facs="tcp:6895:2" rendition="simple:additions"/>
+            <lg>
+               <l>
+                  <seg rend="decorInit">O</seg> Myghty fader in heuen on hye</l>
+               <l>One god and perſones thre</l>
+               <l>That made bothe daye and nyght</l>
+               <l>And after as it was thy wyll</l>
+               <l>Thyn owne ſone thou ſent vs tyll</l>
+               <l>In amayden to lyght</l>
+               <l>Syth the Iewes that were wylde</l>
+               <l>Hanged hym that was ſo mylde</l>
+               <l>And to dethe hym dyght</l>
+               <l>Whan he was deed the ſothe to ſaye</l>
+               <l>To lyfe he roſe on the thyrde daye</l>
+               <l>Thoroughe his owne myght</l>
+               <l>Then to helle he wente anone</l>
+               <l>And toke out ſoules many one</l>
+               <l>Out of that holde he hente</l>
+               <l>Maugre the fendes that were bolde</l>
+               <l>He toke the pryſoners out of holde</l>
+               <l>With them to heuen he wente</l>
+               <l>On his faders ryght hande he hym ſette</l>
+               <l>That all ſholde knowe withouten lette</l>
+               <l>That he was omnypotente</l>
+               <l>And after wyſdome he was ſente</l>
+               <l>That all ſholde kepe his commaundemente</l>
+               <l>And for to byleue in hym verray</l>
+               <l>That is our ſauyour</l>
+               <l>That borne was of that blyſſed floure</l>
+               <l>That byght Mary I ſaye</l>
+               <l>That ſhall vs deme withouten myſſe</l>
+               <l>Some to payne and ſome to blyſſe</l>
+               <l>At dredefull domes daye</l>
+               <l>Tho that byleue on hym a ryght</l>
+               <l>To blyſſe they goue with aungelles bryght</l>
+               <pb facs="tcp:6895:3"/>
+               <l> 
+                  <gap reason="illegible" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>yſſe and Ioye for aye</l>
+               <l>
+                  <gap reason="illegible" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Iheſu as thou bought vs dere</l>
+               <l>Gyue them Ioye this geſt wyll here</l>
+               <l>And herken on a ryght</l>
+               <l>Some men loueth to here tell</l>
+               <l>Of doughty knyghtes that were fell</l>
+               <l>And ſome of ladyes bryght</l>
+               <l>And ſome myracles that are tolde</l>
+               <l>And ſome of venterous knyghtes olde</l>
+               <l>That for our lorde dyde fyght</l>
+               <l>As Charles dyde that noble kynge</l>
+               <l>That hethen downe dyde brynge</l>
+               <l>Thrughe the helpe of god almyghty</l>
+               <l>He wanne fro the hethen houndes</l>
+               <l>The ſpere and nayles of cryſtes woundes</l>
+               <l>And alſo the crowne of thorne</l>
+               <l>And many a ryche relyke mo</l>
+               <l>Mawgre of them he wanne alſo</l>
+               <l>And kylled them euen and morne</l>
+               <l>The turkes and the paynyms bolde</l>
+               <l>He felled doune many a folde</l>
+               <l>Durſt none ſtande hym beforne</l>
+               <l>Charles gan them ſo affraye</l>
+               <l>That the catyues myght curſe the daye</l>
+               <l>And the tyme that they were borne</l>
+            </lg>
+            <div type="part">
+               <pb facs="tcp:6895:3"/>
+               <p>
+                  <figure>
+                     <figDesc>depiction of Turks and Christians doing battle</figDesc>
+                  </figure>
+               </p>
+               <lg>
+                  <l>
+                     <seg rend="decorInit">N</seg>Ow Machamyte that turke vntrue</l>
+                  <l>To our lorde Cryſt Iheſu</l>
+                  <l>And to his lawe alſo</l>
+                  <l>Many cryſten men ſlayne hath be</l>
+                  <l>And wanne conſtantyne y<hi rend="sup">e</hi> noble cyte</l>
+                  <l>With many townes mo</l>
+                  <l>He brent and ſlewe / &amp; lefte none on lyfe</l>
+                  <l>Neyther man / chylde / ne wyfe</l>
+                  <l>To dethe he made them go</l>
+                  <l>Yonge Innocentes y<hi rend="sup">e</hi> neuer dyde gylte</l>
+                  <l>That falſe turke hath them ſpylte</l>
+                  <l>He played the kynge Pharao</l>
+                  <l>All the ſtretes of Conſtantyne</l>
+                  <l>Ranne blode reder than wyne</l>
+                  <l>That meruayle was to ſe</l>
+                  <pb facs="tcp:6895:4"/>
+                  <l> There coude no man his fote downe ſette</l>
+                  <l>I gyue you knowlege withonten lette</l>
+                  <l>But on a deed body</l>
+                  <l>The cryſten men wente to wrake</l>
+                  <l>The chuches and our ymages they brake</l>
+                  <l>That were made of ſtone and tree</l>
+                  <l>The crucyfyxe of our ſauyour</l>
+                  <l>They keſt it downe with dyſhonour</l>
+                  <l>And alſo our lady</l>
+                  <l>The ſlewe our preeſtes at the maſſe</l>
+                  <l>Goddes men had no grace</l>
+                  <l>They kylled them downe in euery ſtede</l>
+                  <l>Bothe preeſtes &amp; clerkes they put to dede</l>
+                  <l>Within goddes holy place</l>
+                  <l>The turkes kene with ſhelde and ſpere</l>
+                  <l>Our preeſtes before the hye aultere</l>
+                  <l>They ranne thrughe in a rage</l>
+                  <l>Many gan dye for cryſtes loue</l>
+                  <l>Aungelles theyr ſoules bare aboue</l>
+                  <l>To blyſſe and moche ſolace</l>
+                  <l>Thus the turke the wycked quede</l>
+                  <l>Cryſten people he put to dede</l>
+                  <l>And lefte fewe vpon lyue</l>
+                  <l>The hethen cryed with grete dyſyte</l>
+                  <l>On mahounde and Macamyte</l>
+                  <l>The turkes men full ryue</l>
+                  <l>There was uone that durſt on Iheſu crye</l>
+                  <l>But they were taken and ſlayne in hye</l>
+                  <l>Anone and that byleue</l>
+                  <l>The turke hym ſelfe a crye dyde make</l>
+                  <l>There ſholde no man a pryſoner take</l>
+                  <l>God lette them neuer thryue</l>
+                  <pb facs="tcp:6895:4"/>
+                  <l> Then the dogges y<hi rend="sup">e</hi> byleued on mahounde</l>
+                  <l>The cryſten people kylled to the grounde</l>
+                  <l>No golde myght be theyr mede</l>
+                  <l>The Cryſten ſawe that they ſholde dye</l>
+                  <l>And on theyr mayſters layde hande quycly</l>
+                  <l>And faught a wele good ſpede</l>
+                  <l>Euery pryſoner then on lyue</l>
+                  <l>Kylled of the turkes foure or fyue</l>
+                  <l>To helle theyr ſoules yede</l>
+                  <l>Or our pryſoners after were take</l>
+                  <l>Many a turke they made blake</l>
+                  <l>There was no helme nor haubergyon</l>
+                  <l>Plate or male nor good aucton</l>
+                  <l>Theyr dyntes myght refrayne</l>
+                  <l>Macamyte ſawe his men ſo dye</l>
+                  <l>And loude on mahound ehe gan crye</l>
+                  <l>In herte he was not fayne</l>
+                  <l>Our cryſten neded no wepen craue</l>
+                  <l>The ſtretes laye full take who wolde haue</l>
+                  <l>To fyght with men of mayne</l>
+                  <l>Anone within a lytell throwe</l>
+                  <l>Fyue. M. turkes on a rowe</l>
+                  <l>In the ſtretes lay ſlayne</l>
+                  <l>Whan Mychamyte that ſpyed</l>
+                  <l>Out on mahounde he cryed</l>
+                  <l>And as a fende dyde yell</l>
+                  <l>Our cryſten ſtode in full grete doubte</l>
+                  <l>As doughty men layde faſt aboute</l>
+                  <l>Vpon the houndes of helle</l>
+                  <l>Our cryſten men were then to fewe</l>
+                  <l>For the turkes came euer newe</l>
+                  <l>In ſothe as I you tell</l>
+                  <pb facs="tcp:6895:5"/>
+                  <l> Our men hewed on haſtely</l>
+                  <l>And made turkes loude to crye</l>
+                  <l>The falſe downe they fell</l>
+                  <l>Thus countred with ſaraſyns kene</l>
+                  <l>Tyll .lxxx. M. were layde be dene</l>
+                  <l>In a lytell thought</l>
+                  <l>Mychamyte was neuer ſo we</l>
+                  <l>To ſe ſo fewe ſo many ſlo</l>
+                  <l>His ſorwe was not ſhorte</l>
+                  <l>He cryed Mahounde as he wolde braſte</l>
+                  <l>Our cryſten on Iheſu cryed faſte</l>
+                  <l>That all the worlde wrought</l>
+                  <l>Some ſcaped away with goddes grace</l>
+                  <l>On lyue maugre the turkes face</l>
+                  <l>But many than gan dye</l>
+                  <l>At the dyſtruccyon of Cyuys</l>
+                  <l>Were not ſo many ſlayne ywys</l>
+                  <l>As were ou bothe partyes</l>
+                  <l>Alas ſaufe cryſten wyll of heuen</l>
+                  <l>Our cryſten were made vneuen</l>
+                  <l>With a falſe company</l>
+                  <l>For of the turkes and ſaraſyns kene</l>
+                  <l>An. C. were withouten wene</l>
+                  <l>Agaynſt one of our meny</l>
+               </lg>
+            </div>
+            <div type="part">
+               <pb facs="tcp:6895:5"/>
+               <p>
+                  <figure>
+                     <figDesc>depiction of Turks and Christians doing battle during the seige of Belgrade</figDesc>
+                  </figure>
+               </p>
+               <lg>
+                  <l>
+                     <seg rend="decorInit">T</seg>He emperour of Conſtantyne</l>
+                  <l>A doughty man at a tyme</l>
+                  <l>The turke hym toke that hethen bounde</l>
+                  <l>And gaue hym many a gryſly wounde</l>
+                  <l>I praye god gyue hym grame</l>
+                  <l>He bounde hym tyll the blode out braſte</l>
+                  <l>And badde hym forſake Iheſu in haſte</l>
+                  <l>Or elles thou ſhalte haue ſhame</l>
+                  <l>Haue done anone / and hym defye</l>
+                  <l>And alſo his moder Marye</l>
+                  <l>That thou calleſt his dame</l>
+                  <l>Valeryan anſwered and ſayd nay</l>
+                  <l>Thou ſhalte neuer ſe that daye</l>
+                  <l>That I ſhall hym forſake</l>
+                  <l>Turne the turke and all thy men</l>
+                  <l>Or elles in helle thou ſhalte brenne</l>
+                  <pb facs="tcp:6895:6"/>
+                  <l> Amonge the fendes blacke</l>
+                  <l>Leue in Iheſu full of myght</l>
+                  <l>And that mayden that he in lyght</l>
+                  <l>For cryſten men ſake</l>
+                  <l>Than the turke wexed euyll a payed</l>
+                  <l>Commaunded his men at a brayed</l>
+                  <l>Anone to make hym naked</l>
+                  <l>He had them bete him with ſcourges kene</l>
+                  <l>And after bore out his eyen</l>
+                  <l>With wymbles hote and reed</l>
+                  <l>They plucked his herte by and by</l>
+                  <l>And bothe his eeres on hy</l>
+                  <l>They cut of his heed</l>
+                  <l>With pynſons his teche they brake</l>
+                  <l>Bad hym anone his god forſake</l>
+                  <l>Or ſholde neuer ete breed</l>
+                  <l>They ſawe in no wyſe that it wolde be</l>
+                  <l>Anone they made a ſawe of tre</l>
+                  <l>And ſawed hym to deed</l>
+                  <l>Tho the turkes with moche payne</l>
+                  <l>This doughty men haue they ſlayne</l>
+                  <l>For Cryſtes ſake I ſaye</l>
+                  <l>And ſo they dyde with many mo</l>
+                  <l>The turkes myght curſe the tyme alſo</l>
+                  <l>That they there came that daye</l>
+                  <l>Of cryſtes people was many a part marte</l>
+                  <l>There was no turke payed of his parte</l>
+                  <l>By the laſte ende of the fraye</l>
+                  <l>They had helle fo<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> theyr fyght</l>
+                  <l>They cryſten wente to heuen bryght</l>
+                  <l>To bye in blyſſe for aye</l>
+                  <l>Thus is conſtantyne y<hi rend="sup">e</hi> noble cyte wonne</l>
+                  <pb facs="tcp:6895:6"/>
+                  <l> Beten doune with many a gonne</l>
+                  <l>And cryſten people ſlayne</l>
+                  <l>There the turke with his meyne</l>
+                  <l>Keped ſtyll that noble cyte</l>
+                  <l>Durſte no man hym with ſayne</l>
+                  <l>Forty myle rounde aboute</l>
+                  <l>Durſt no man by hym route</l>
+                  <l>Neyther on hyll ne playne</l>
+                  <l>The turke kepte the felde many a day</l>
+                  <l>Cryſten people in the countray</l>
+                  <l>Of hym were dredde Iſayne</l>
+                  <l>Where they myght ony cryſten gete</l>
+                  <l>I tell you now withouten doute</l>
+                  <l>They lefte there lyfe to wedde</l>
+                  <l>All ſuffred dethe for Cryſtes ſake</l>
+                  <l>That this turke myght ouertake</l>
+                  <l>But thus they for hym fledde</l>
+                  <l>Thereof herde a holy frere</l>
+                  <l>The werkes of the fendes fere</l>
+                  <l>And to Rome hym ſpedde</l>
+                  <l>Iohan capyſtranus the frere hyght</l>
+                  <l>I dare ſay he was goddes knyght</l>
+                  <l>An holy man was he</l>
+                  <l>To the pope anone he wanne</l>
+                  <l>Capyſtranus that holy man</l>
+                  <l>And kneled vpon his kne</l>
+                  <l>He ſayd fader for cryſtes lone of heuen</l>
+                  <l>That made this worlde and dayes ſeuen</l>
+                  <l>Herken now to me</l>
+                  <l>There is a turke I vnderſtande</l>
+                  <l>That brennes and ſlees goddes lande</l>
+                  <l>Grete dole it is to ſe</l>
+                  <pb facs="tcp:6895:7"/>
+                  <l> The turke his purpoſe is</l>
+                  <l>I lete you were withouten mys</l>
+                  <l>To wynne all hungree</l>
+                  <l>Therfore fader put thy holy hande</l>
+                  <l>And helpe to warre goddes lande</l>
+                  <l>His true vycar yf thou be</l>
+                  <l>He brenneth chirches in euery place</l>
+                  <l>Cryſten men gothe to deth a pace</l>
+                  <l>To beholde is grete pyte</l>
+                  <l>Now fader helpe with thy ſocoure</l>
+                  <l>For Maryes loue that ſwete floure</l>
+                  <l>Our hope is moche in the</l>
+                  <l>With two hondred this ſame daye</l>
+                  <l>To Grecuſwyſſyngburgh he toke the waye</l>
+                  <l>This is no ſcorne</l>
+                  <l>Many a thouſande there ſhall dye</l>
+                  <l>If he wynne that ryall cytye</l>
+                  <l>All hungrye is forlorne</l>
+                  <l>I am the meſſynger of Iheſus</l>
+                  <l>Truely lorde it wyll be thus</l>
+                  <l>As I haue ſayd beforne</l>
+                  <l>Therfore helpe with all thy myght</l>
+                  <l>For goddes loue for to fyght</l>
+                  <l>That was of Marye borne</l>
+                  <l>Than the pope ſayd anone</l>
+                  <l>Good broder frere Ihon</l>
+                  <l>As I vnderſtande</l>
+                  <l>Thou precheſt goddes wordes wyde</l>
+                  <l>In the countree on euecy ſyde</l>
+                  <l>In many a dyuerſe lande</l>
+                  <l>Thou knoweſt many a noble man</l>
+                  <l>Take a capytayne where thou can</l>
+                  <pb facs="tcp:6895:7"/>
+                  <l> Whyder that he be free or bonde</l>
+                  <l>And as I am goddes bycar true</l>
+                  <l>This falſe turke his reſe ſhall rue</l>
+                  <l>And therto my holy hande</l>
+                  <l>Now fader I thanke the hartely</l>
+                  <l>To cheſe a capytayne the bydde me</l>
+                  <l>Certayne without ony mys</l>
+                  <l>Now holy fader withouten layne</l>
+                  <l>This ſhall be my capytayne</l>
+                  <l>He ſayd the pope ymys</l>
+                  <l>A baner of cryſtes pyſſyon</l>
+                  <l>That mannes ſoule dyde redempcyon</l>
+                  <l>And brought them from payne to lyght</l>
+                  <l>Holowe it with thy hande</l>
+                  <l>The people may the better ſtande</l>
+                  <l>That vnder it dooth fyght</l>
+                  <l>This ſhall be my capytayne</l>
+                  <l>An other wolde I haue fayne</l>
+                  <l>That is thy bull of leed</l>
+                  <l>That all that vnder it dooth fyght</l>
+                  <l>For goddes loue mooſt of myght</l>
+                  <l>Euer in ony lande</l>
+                  <l>If it happen them to be ſlayne</l>
+                  <l>That theyr ſoules come neuer in payne</l>
+                  <l>After that they be deed</l>
+                  <l>The people ſayd blyſſed myght thou be</l>
+                  <l>A holy man I holde the</l>
+                  <l>I wyll do after thy rede</l>
+                  <l>Anone y<hi rend="sup">e</hi> baner was made and halowed</l>
+                  <l>The bull cealed and vp folded</l>
+                  <l>And the pardon of grace</l>
+                  <l>Delyuered it to the frere truely</l>
+                  <pb facs="tcp:6895:8"/>
+                  <l> The people blyſſed hym tymes thre</l>
+                  <l>And thus his leue he taketh</l>
+                  <l>Barefote he bare out of the toune</l>
+                  <l>The baner of cryſtes paſſyoune</l>
+                  <l>Towarde the turke he haſteth</l>
+                  <l>And preched goddes lawe as he yede</l>
+                  <l>And moche people to hym gan ſpede</l>
+                  <l>To gete theyr ſoules ſolace</l>
+                  <l>Grete golde and ſyluer was hym gyuen</l>
+                  <l>And euer he delte it euen</l>
+                  <l>Tho people that with hym yede</l>
+                  <l>So certaynly as I you ſaye</l>
+                  <l>All romayne for hym dyde praye</l>
+                  <l>And ſo it was grete nede</l>
+                  <l>Suche freres we haue to fewe</l>
+                  <l>Pray all we Cryſte Iheſu</l>
+                  <l>To be his helpe and ſpede</l>
+                  <l>For of this I fynde a fytte</l>
+                  <l>Ferther and ye wyll ſytte</l>
+                  <l>Herkyn and take good hede</l>
+               </lg>
+            </div>
+            <div type="part">
+               <pb facs="tcp:6895:8"/>
+               <lg>
+                  <l>
+                     <seg rend="decorInit">T</seg>His frere wente to Hungry</l>
+                  <l>And many men with hym truely</l>
+                  <l>That for our lorde dyde fyght</l>
+                  <l>To an vnyuerſyte he toke the waye</l>
+                  <l>The greteſt in Hungrye I dare well ſaye</l>
+                  <l>Gottauntas it hyght</l>
+                  <l>Out of the vnyuerſyte there wente in fere</l>
+                  <l>Syxe and twenty. M. with the frere</l>
+                  <l>Of relygyous men full ryght</l>
+                  <l>The mooſt partye was preeſtes I ſaye</l>
+                  <l>Eueryche preued hym that day</l>
+                  <l>That he was goddes knyght</l>
+                  <l>The frere with grete deuocyon</l>
+                  <l>Bare the baner of cryſtes paſſyon</l>
+                  <l>Amonge the people all</l>
+                  <l>Dyſplayed abrode grete Ioye to ſe</l>
+                  <l>Men of dyuerſe countre</l>
+                  <l>Faſt to hym gan fall</l>
+                  <l>Thus paſſed forthe Capyſtranus</l>
+                  <l>And met with the good erle Obedyanus</l>
+                  <l>A captayne pryncypall</l>
+                  <l>Twenty thouſande and mo</l>
+                  <l>Amonge them was but knyghtes two</l>
+                  <l>And thus men dooth them call</l>
+                  <l>Rycharde morpath a knyght of Englonde</l>
+                  <l>And ſyr Iohan Elacke I vnderſtonde</l>
+                  <l>That was a turke before</l>
+                  <l>And now he is a curteys knyght</l>
+                  <l>I lete you wete and a wyght</l>
+                  <l>And ſtedfaſt in our lore</l>
+                  <l>Many a turke hath greued ſore</l>
+                  <l>Theyr lyues they lefte behynde</l>
+                  <pb facs="tcp:6895:9"/>
+                  <l> He hath made them hop heedles</l>
+                  <l>Many one withouten les</l>
+                  <l>Where he myght theym fynde</l>
+                  <l>There .xx. thouſande met in fere</l>
+                  <l>With Obedyauns and the frere</l>
+                  <l>In helme and hauberke bryght</l>
+                  <l>To grecuſwyſſynburgh he toke the waye</l>
+                  <l>There the turke at ſyege laye</l>
+                  <l>With many a knyght</l>
+                  <l>Fourtene wekes the turke had ben there</l>
+                  <l>And put the cryſten to moche fere</l>
+                  <l>To hym they had no myght</l>
+                  <l>Fyue. C. gonnes he lete ſhote at ones</l>
+                  <l>Brake doune the walles with ſtones</l>
+                  <l>The wylde fyre lemed lyght</l>
+                  <l>To here it was grete wonder</l>
+                  <l>The noyſe of gonnes moche lyke the thonder</l>
+                  <l>That was a frefull dynne</l>
+                  <l>The noyſe was herde many a myle</l>
+                  <l>Obedyaunce the meane whyle</l>
+                  <l>Entred the towne within</l>
+                  <l>At .vi of the clocke the ſothe to ſaye</l>
+                  <l>After noone on the Maudeleyne</l>
+                  <l>And neyther leſſe ne mo</l>
+                  <l>And Capyſtranus good frere Ihon</l>
+                  <l>Aſſoyled our men euerychone</l>
+                  <l>To batayll or they dyde gone</l>
+                  <l>And cryed loude with voyce clere</l>
+                  <l>Lete vs fyght for our ſoupere</l>
+                  <l>In heuen is redy dyght</l>
+                  <l>Our baner ſhall I bere to daye</l>
+                  <l>And to Iheſu faſt ſhall praye</l>
+                  <pb facs="tcp:6895:9"/>
+                  <l> To ſpede vs in our ryght</l>
+                  <l>Anone they togyder mette</l>
+                  <l>Fyue. M. deed withouten lette</l>
+                  <l>In helme and hauberke bryght</l>
+                  <l>Obedianus that noble man</l>
+                  <l>Slewe them faſt that ſerued ſathan</l>
+                  <l>Thorowe cryſt theyr crownes had care</l>
+                  <l>All that he with his faucon hyt</l>
+                  <l>There was no ſalue I lette you wyt</l>
+                  <l>That euer myght hele that ſore</l>
+                  <l>There was no turke that he with met</l>
+                  <l>But he had ſuche a buffet</l>
+                  <l>That he greued neuer cryſten man more</l>
+                  <l>He was a doughty knyght</l>
+                  <l>The fals he felled for goddes ryght</l>
+                  <l>I praye god wele myght he fare</l>
+                  <l>Morpath and blacke Iohan</l>
+                  <l>That daye kylled turkes many one</l>
+                  <l>Certayne withouten lette</l>
+                  <l>There was none ſo good armoure</l>
+                  <l>That theyr dyntes myght endure</l>
+                  <l>Helme nor bryght baſynet</l>
+                  <l>They hewe vpon the hethen on hye</l>
+                  <l>They fyre out of euery ſyde gan flye</l>
+                  <l>So boldely on they bette</l>
+                  <l>Many a turke there was caſt</l>
+                  <l>Beten tyll the braynes braſt</l>
+                  <l>Theyr mayſters there they mette</l>
+                  <l>Many a. M. of preeſtes there was</l>
+                  <l>The turkes herde neuer ſuche a maſſe</l>
+                  <l>As they harde that daye</l>
+                  <l>Our preeſtes te deum ſonge</l>
+                  <pb facs="tcp:6895:10"/>
+                  <l> The hethen faſt downe they donge</l>
+                  <l>Then pax was put awaye</l>
+                  <l>There was ſcole mayſters of the beſt</l>
+                  <l>Many of them were brought to reſt</l>
+                  <l>That wolde not lere theyr lawe</l>
+                  <l>Thus our cryſten people dyde fyght</l>
+                  <l>From .v. of y<hi rend="sup">e</hi> clocke on Maudeleyne nyght</l>
+                  <l>Tyll .x. on the other daye</l>
+                  <l>Then came y<hi rend="sup">e</hi> turkes with newe batayll</l>
+                  <l>Clene clad in plate and male</l>
+                  <l>A. C. thouſande and mo</l>
+                  <l>On dromydaryes gan they ryde</l>
+                  <l>And kylled our men on euery ſyde</l>
+                  <l>Two. M. were there ſloo</l>
+                  <l>Our men to ſtande they had no mayne</l>
+                  <l>But fledde to the towne anone</l>
+                  <l>With woundes wyde and bloo</l>
+                  <l>Twenty thouſande of our men</l>
+                  <l>Were borne downe at the brydge ende</l>
+                  <l>The turkes were ſo thro</l>
+                  <l>Dromydaryes ouer them ranne</l>
+                  <l>And kylled downe bothe horſe and man</l>
+                  <l>In the felde durſt none abyde</l>
+                  <l>Obedianus had many a wounde</l>
+                  <l>Or he wolde flee the grounde</l>
+                  <l>For all the turkes pryde</l>
+                  <l>Morpath and blacke Iohan</l>
+                  <l>Had woundes many one</l>
+                  <l>That blody were and wyde</l>
+                  <l>To the towne they fledde on fote</l>
+                  <l>They ſawe it was no better bote</l>
+                  <l>Theyr ſtedes were ſlayne that tyde</l>
+                  <pb facs="tcp:6895:10"/>
+                  <l> The turkes folowed in to the towne</l>
+                  <l>And kylled all before them downe</l>
+                  <l>Grete doyll it was to ſee</l>
+                  <l>In to the towne the grete turke wanne</l>
+                  <l>And kylled wyfe chylde and man</l>
+                  <l>The Innocentes thycke gan dye</l>
+                  <l>Iohan Capyſtranus ſe that it was thus</l>
+                  <l>And hent a curcyfyxe of cryſt Iheſus</l>
+                  <l>Ranne vp tyll a toure on hye</l>
+                  <l>The halowed baner with hym he bare</l>
+                  <l>In the top of the toure he ſet it there</l>
+                  <l>And cryed full pytefully</l>
+                  <l>He ſayd lorde god in heuen on hye</l>
+                  <l>Where is become thyn olde myght</l>
+                  <l>That men were wonte to haue</l>
+                  <l>O my lorde cryſte Iheſus</l>
+                  <l>Why haſt thou forgoten vs</l>
+                  <l>Now helpe of the we craue</l>
+                  <l>Loke on thy people that do thus dye</l>
+                  <l>Lorde ones caſt downe thyn eye</l>
+                  <l>And helpe thy men to ſaue</l>
+                  <l>Now lorde ſende downe thy moche myght</l>
+                  <l>Agaynſt theſe fendes for to fyght</l>
+                  <l>That ſo thy people dyſpray</l>
+                  <l>Thynke lorde how I haue preched thy lawe</l>
+                  <l>Gone barefote bothe in froſt and ſnawe</l>
+                  <l>To pleaſe the to thy paye</l>
+                  <l>I haue faſted and ſuffred dyſeaſe</l>
+                  <l>Prayed all onely the to pleaſe</l>
+                  <l>The pſalmes ofte I ſaye</l>
+                  <l>For all my ſeruyſe I haue done the</l>
+                  <l>I aſke no more to my fee</l>
+                  <pb facs="tcp:6895:11"/>
+                  <l> But helpe thy men to day</l>
+                  <l>For and thou lette them thus ſpyll</l>
+                  <l>I am ryght in good wyll</l>
+                  <l>For euer to forſake thy laye</l>
+                  <l>Now mary mayden helpe me to daye</l>
+                  <l>Or elles thy matyns ſhall I neuer ſaye</l>
+                  <l>Dayes of all my lyue</l>
+                  <l>Ne no prayer that the ſhall pleaſe</l>
+                  <l>But yf thou helpe now our deſeaſe</l>
+                  <l>Ne menye thy Ioyes fyue</l>
+                  <l>A poynt is for thy maydenhede</l>
+                  <l>That all this people ſuffreth dede</l>
+                  <l>Now helpe to ſtynte our ſtryue</l>
+                  <l>Now lady of thy men haue pyte</l>
+                  <l>Praye for them to thy ſone on hye</l>
+                  <l>As thou arte mayden and wyfe</l>
+                  <l>O lorde fader omnypotent</l>
+                  <l>Thynke on y<hi rend="sup">e</hi> myracle y<hi rend="sup">t</hi> thou charles ſent</l>
+                  <l>That for the dyde fyght</l>
+                  <l>Thrughe his prayer and grace</l>
+                  <l>The ſone ſhone ſtyll thre dayes ſpace</l>
+                  <l>And ſhone with beames bryght</l>
+                  <l>Pharao thou drowned in the ſee</l>
+                  <l>Tho that thou lete go free</l>
+                  <l>Awaye thou ledde them ryght</l>
+                  <l>This daye lorde thou helpe thy men</l>
+                  <l>Thou art alſo bygge now as thou was then</l>
+                  <l>And of as moche myght</l>
+                  <l>The frere loude on god cryed</l>
+                  <l>A longe myle on euery ſyde</l>
+                  <l>The people herde his voyſe</l>
+                  <l>Twenty. M. dede for to ſee</l>
+                  <pb facs="tcp:6895:11"/>
+                  <l> Within the twynclyn of an eye</l>
+                  <l>To lyfe they roſe agayne</l>
+                  <l>Echone a wepyn in hande hente</l>
+                  <l>And frely began to fyght</l>
+                  <l>And felde downe faſt theyr foes</l>
+                  <l>The good erle Obedianus</l>
+                  <l>Faught frely for our lorde Iheſus</l>
+                  <l>On euery ſyde ſpronge his loſe</l>
+                  <l>He droue the truke out of the towne</l>
+                  <l>The cryſten felled the falſe downe</l>
+                  <l>And droue them to the felde agayne</l>
+                  <l>Twenty. M. with them mette</l>
+                  <l>Orelles the turke withouten lette</l>
+                  <l>Surely had ben ſlayne</l>
+                  <l>Than were they fayne for to fyght</l>
+                  <l>Than euer was foule of daye lyght</l>
+                  <l>Certayne withouten layne</l>
+               </lg>
+               <lg>
+                  <l>NOw begynneth a newe batayll</l>
+                  <l>I let you wyt withouten fayle</l>
+                  <l>Of myghty men of mayne</l>
+                  <l>Ychone hewe on other with Ire</l>
+                  <l>That all the felde ſemed fyre</l>
+                  <l>Alſo lyght as leme of thonder</l>
+                  <l>Euery man hurte other in haſt</l>
+                  <l>And layde on baſynettes to braynes braſt</l>
+                  <l>And euer the falſe fell vnder</l>
+                  <l>The blode ranne all the felde</l>
+                  <l>Of doughty men vnder ſhelde</l>
+                  <l>To ſe it was grete wonder</l>
+                  <l>There was he wynge from the hals</l>
+                  <l>The helmes and the hedes als</l>
+                  <pb facs="tcp:6895:12"/>
+                  <l> Ryche knyghtes were vnknytte</l>
+                  <l>Many a turke withouten fayle</l>
+                  <l>Tombled top ouer tayle</l>
+                  <l>That neuer roſe yet</l>
+                  <l>So harde on helmes they hewe</l>
+                  <l>That there were turkes but fewe</l>
+                  <l>That in ſadyll coude ſytte</l>
+                  <l>There was no turke there</l>
+                  <l>But he myght tell of moche care</l>
+                  <l>I lette you well wytte</l>
+                  <l>There was ſtycked many a ſtede</l>
+                  <l>Grete dromydaryes made blede</l>
+                  <l>Tho they for faynt fell</l>
+                  <l>The cryſten men had quarelles good</l>
+                  <l>They dredde nothynge to ſhed theyr blode</l>
+                  <l>Whan Iheſu dyde them call</l>
+                  <l>They hewed on with ſwerdes kene</l>
+                  <l>Of helmes with the hedes by deene</l>
+                  <l>Tumbled as a ball</l>
+                  <l>So delte they ſtrokes on a brayde</l>
+                  <l>That no turke helde hym apayde</l>
+                  <l>The proudeſt of them all</l>
+                  <l>There was hurtelynge in fere</l>
+                  <l>Broken many a ſharpe ſpere</l>
+                  <l>And drawen many a knyfe</l>
+                  <l>Stedes ſterted out of ſtryfe</l>
+                  <l>And keſt theyr mayſters in the waye</l>
+                  <l>Vtterly byleue</l>
+                  <l>Many a hethen in theyr ghere</l>
+                  <l>His folowe gan downe bere</l>
+                  <l>And to the erthe hym dryue</l>
+                  <l>The blode ranne thrughe the breſt</l>
+               </lg>
+            </div>
+            <pb facs="tcp:6895:12"/>
+         </div>
+      </body>
+   </text>
+</TEI>

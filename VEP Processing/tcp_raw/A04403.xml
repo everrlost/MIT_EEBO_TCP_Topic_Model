@@ -1,0 +1,652 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Here begynneth a mery geste of the frere and the boye</title>
+            <title>Fryer and the boy.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1513</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 19 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A04403</idno>
+            <idno type="STC">STC 14522</idno>
+            <idno type="STC">ESTC S119434</idno>
+            <idno type="EEBO-CITATION">99854641</idno>
+            <idno type="PROQUEST">99854641</idno>
+            <idno type="VID">20071</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A04403)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 20071)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1384:18)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Here begynneth a mery geste of the frere and the boye</title>
+                  <title>Fryer and the boy.</title>
+               </titleStmt>
+               <extent>[16] p. : ill.  </extent>
+               <publicationStmt>
+                  <publisher>In Fletestrete at the sygne of the sonne, by Wynkyn de Worde],</publisher>
+                  <pubPlace>[Enprynted at London :</pubPlace>
+                  <date>[between 1510 and 1513]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Imprint from colophon. Suggested publication date from STC.</note>
+                  <note>Signatures: A.</note>
+                  <note>Reproduction of the original in the Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Tales, English --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-11</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2010-11</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="poem">
+            <pb facs="tcp:20071:1"/>
+            <pb facs="tcp:20071:1" rendition="simple:additions"/>
+            <head>¶ Here begynneth a mery geſte of the frere and the boye.</head>
+            <p>
+               <figure>
+                  <figDesc>a friar and a shepherd</figDesc>
+               </figure>
+            </p>
+            <l>GOd that dyed for vs all</l>
+            <l>And dranke bothe eyſell and gall</l>
+            <l>Brynge vs out of bale</l>
+            <l>And gyue them good lyfe &amp; longe</l>
+            <l>That lyſteneth to my ſonge</l>
+            <l>Or tendeth to my tale</l>
+            <l>There dwelled an huſbonde in my countre</l>
+            <l>That had wyues thre.</l>
+            <l>By proceſſe of tyme</l>
+            <l>By the fyrſt wyfe a ſone he had</l>
+            <l>That was a good ſturdy ladde</l>
+            <l>And an happy hyne</l>
+            <l>His fader loued hym wele</l>
+            <l>So dyde his moder neuer a dele</l>
+            <l>I tell you as I thynke</l>
+            <l>All ſhe thought was loſt by the rode</l>
+            <l>That dyde the lytell boye ony good</l>
+            <l>Other mete or drynke</l>
+            <l>
+               <pb facs="tcp:20071:2"/>
+And yet ywys it was but badde</l>
+            <l>And therof not halfe ynough he had</l>
+            <l>But euermore of the worſte</l>
+            <l>Therfore euyll mote ſhe fare</l>
+            <l>For euer ſhe dyde the lytell boye care</l>
+            <l>As ferforth as ſhe dorſte</l>
+            <l>The good wyfe to her huſbonde gan ſaye</l>
+            <l>I wolde ye wolde put this boye awaye</l>
+            <l>And that ryght ſoone in haſte</l>
+            <l>Truly he is a curſed ladde</l>
+            <l>I wolde ſome other man hym had</l>
+            <l>That wolde hym better chaſte</l>
+            <l>Than ſayd the good man agayne</l>
+            <l>Dame I ſhall to the ſayne</l>
+            <l>He is but tender of aege</l>
+            <l>He ſhall abyde with me this yere</l>
+            <l>Tyll he be more ſtrongere</l>
+            <l>For to wynne better wage</l>
+            <l>We haue a man a ſtoute freke</l>
+            <l>That in the felde kepeth our nete</l>
+            <l>Slepynge all the daye</l>
+            <l>He ſhall come home ſo god me ſhelde</l>
+            <l>And the boye ſhall in to the felde</l>
+            <l>To kepe our beeſtes yf he may</l>
+            <l>Than ſayd the wyfe verament</l>
+            <l>Therto ſoone I aſſent</l>
+            <l>For that me thynketh mooſt nedy</l>
+            <l>On the morowe whan it was daye</l>
+            <l>The lytell boye wente on his waye</l>
+            <l>To the felde full redy</l>
+            <l>Of no man he had no care</l>
+            <l>But ſange hey howe awaye the mare</l>
+            <l>
+               <pb facs="tcp:20071:2"/>
+And made Ioye ynough</l>
+            <l>Forth he wente truly to ſayne</l>
+            <l>Tyll he came to the playne</l>
+            <l>His dyner forth he drough</l>
+            <l>Whan he ſawe it was but bad</l>
+            <l>Full lytell luſt therto he had</l>
+            <l>But put it vp agayne</l>
+            <l>Therfore he was not to wyte</l>
+            <l>He ſayd he wolde ete but lyte</l>
+            <l>Tyll nyght that he came home</l>
+            <l>And as the boye ſate on a hyll</l>
+            <l>An olde man came hym tyll</l>
+            <l>Walkynge by the waye</l>
+            <l>Sone he ſayd god theſe</l>
+            <l>Syr welcome more ye be</l>
+            <l>The lytell boye gan ſaye</l>
+            <l>The olde man ſayd I am an hongred ſore</l>
+            <l>Haſt thou ony mete in ſtore</l>
+            <l>That thou mayſt gyue me</l>
+            <l>The chylde ſayd ſo god me ſaue</l>
+            <l>To ſuche vytayle as I haue</l>
+            <l>Welcome ſhall ye be</l>
+            <l>Therof the olde man was gladde</l>
+            <l>The boye drewe forth ſuche as he had</l>
+            <l>And ſayd do gladly</l>
+            <l>The olde man was eaſy to pleaſe</l>
+            <l>He ete and made hym well at eaſe</l>
+            <l>And ſayd ſone gramercy</l>
+            <l>Sone thou haſt gyuen mete to me</l>
+            <l>I ſhall the gyue thynges thre</l>
+            <l>Thou ſhalte them neuer forgete</l>
+            <l>Than ſayd the boye as I trowe</l>
+            <l>
+               <pb facs="tcp:20071:3"/>
+It is beſt that I haue a bowe</l>
+            <l>Byrdes for to ſhote</l>
+            <l>A bowe ſone I ſhall the gyue</l>
+            <l>That ſhall laſt the all thy lyue</l>
+            <l>And euer a lyke mete</l>
+            <l>Shote therin whan thou good thynke</l>
+            <l>For yf thou ſhote and wynke</l>
+            <l>The prycke thou ſhalte hytte</l>
+            <l>Whan he the bowe in honde felte</l>
+            <l>And the boltes vnder his belte</l>
+            <l>Lowde than he lough</l>
+            <l>He ſayd now had I a pype</l>
+            <l>Though it were neuer ſo lyte</l>
+            <l>Than were I gladde ynough</l>
+            <l>A pype ſone thou ſhalte haue alſo</l>
+            <l>In true muſyke it ſhall go</l>
+            <l>I do the well to wyte</l>
+            <l>All that may the pype here</l>
+            <l>Shall not themſelfe ſtere</l>
+            <l>But laugh and lepe aboute</l>
+            <l>What ſhall the thyrde be</l>
+            <l>For I wyll gyue the gyftes thre</l>
+            <l>As I haue-ſayd to the before</l>
+            <l>The lytell boye on hym lough</l>
+            <l>And ſayd ſyr I haue ynough</l>
+            <l>I wyll deſyre no more</l>
+            <l>The olde man ſayd my trouth I plyght</l>
+            <l>Thou ſhalte haue that I the hyght</l>
+            <l>Saye on now and let me ſe</l>
+            <l>Than ſayd the boye anone</l>
+            <l>I haue a ſtepdame at home</l>
+            <l>She is a ſhrewe to me</l>
+            <l>
+               <pb facs="tcp:20071:3"/>
+Whan my fader gyueth me mete</l>
+            <l>She wolde theron that I were cheke</l>
+            <l>And ſtareth me in the face</l>
+            <l>Whan ſhe loketh on me ſo</l>
+            <l>I wolde ſhe ſholde let a rappe go</l>
+            <l>That it myght rynge ouer all the place</l>
+            <l>Than ſayd the olde man tho</l>
+            <l>Whan ſhe loketh on the ſo</l>
+            <l>She ſhall begyn to blowe</l>
+            <l>All that euer it may here</l>
+            <l>Shall not themſelfe ſtere</l>
+            <l>But laugh on a rowe</l>
+            <l>Fare well quod the olde man</l>
+            <l>God kepe the ſayd the chylde than</l>
+            <l>I take my leue at the</l>
+            <l>God that mooſt beſt may</l>
+            <l>Kepe the bothe nyght and day</l>
+            <l>Gramercy ſone ſayd he</l>
+            <l>Than drewe it towarde the nyght</l>
+            <l>Iacke hym hyed home full ryght</l>
+            <l>It was his ordynaunce</l>
+            <l>He toke his pype and began to blowe</l>
+            <l>All his beeſtes on a rowe</l>
+            <l>Aboute hym they daunce</l>
+            <l>Thus wente he pypynge thrugh the towne</l>
+            <l>His beeſtes hym folowed by the ſowne</l>
+            <l>In to his faders cloſe</l>
+            <l>He wente and put them vp echone</l>
+            <l>Homewarde he wente anone</l>
+            <l>In to his faders hall he goſe</l>
+            <l>His fader at his ſouper ſat</l>
+            <l>Lytell Iacke eſpyed well that</l>
+            <l>
+               <pb facs="tcp:20071:4"/>
+And ſayd to hym anone</l>
+            <l>Fader I haue kepte your nete</l>
+            <l>I praye you gyue me ſome mete</l>
+            <l>I am an hongred by ſaynt Ihone</l>
+            <l>I haue ſytten meteleſſe</l>
+            <l>All this daye kepynge your beeſtes</l>
+            <l>My dyner feble it was</l>
+            <l>His fader toke a capons wynge</l>
+            <l>And at the boye he gan it ſlynge</l>
+            <l>And badde hym ete a pace</l>
+            <l>That greued his ſtepmoders herte ſore</l>
+            <l>As I tolde you before</l>
+            <l>She ſtared hym in the face</l>
+            <l>With that ſhe let go a blaſte</l>
+            <l>That they in the hall were agaſte</l>
+            <l>It range ouer all the place</l>
+            <l>All they laughed and had good game</l>
+            <l>The wyfe waxed reed for ſhame</l>
+            <l>She wolde that ſhe had ben gone</l>
+            <l>Quod the boye well I wote</l>
+            <l>That gonne was well ſhote</l>
+            <l>As it had ben a ſtone</l>
+            <l>Curſedly ſhe loked on hym tho</l>
+            <l>An other blaſte ſhe let go</l>
+            <l>She was almooſt rente</l>
+            <l>Quod the boye wyll ye ſe</l>
+            <l>How my dame letteth pellettes fle</l>
+            <l>In fayth or euer ſhe ſtynte</l>
+            <l>The boye ſayd vnto his dame</l>
+            <l>Tempre thy bombe he ſayd for ſhame</l>
+            <l>She was full of ſorowe</l>
+            <l>Dame ſayd the good man go thy waye</l>
+            <l>
+               <pb facs="tcp:20071:4"/>
+For I ſwere to the by my faye</l>
+            <l>Thy gere is not to borowe</l>
+            <l>Afterwarde as ye ſhall here</l>
+            <l>To the hous there came a frere</l>
+            <l>To lye there all nyght</l>
+            <l>The wyfe loued hym as a ſaynt</l>
+            <l>And to hym made her complaynt</l>
+            <l>And tolde hym aryght</l>
+            <l>We haue a boye within ywys</l>
+            <l>A ſhrewe for the nones he is</l>
+            <l>He dooth me moche care</l>
+            <l>I dare not loke hym vpon</l>
+            <l>I am aſhamed by ſaynt Iohn<g ref="char:cmbAbbrStroke">̄</g>
+            </l>
+            <l>To tell you how I fare</l>
+            <l>I praye you mete the boye to morowe</l>
+            <l>Bete hym well and gyue hym ſorowe</l>
+            <l>And make the boye lame</l>
+            <l>Quod the frere I ſhall hym bete</l>
+            <l>Quod the wyfe do not forgete</l>
+            <l>He dooth me moche ſhame</l>
+            <l>I trowe the boye be ſome wytche</l>
+            <l>Quod the frere I ſhall hym teche</l>
+            <l>Haue thou no care</l>
+            <l>I ſhall hym teche yf I may</l>
+            <l>Quod the wyfe I the praye</l>
+            <l>Do hym not ſpare</l>
+            <l>On the morowe the boye aroſe</l>
+            <l>In to the felde ſoone he goſe</l>
+            <l>His beeſtes for to dryue</l>
+            <l>The frere ranne out at the gate</l>
+            <l>He was afterde leeſt he came to late</l>
+            <l>He ranne faſt and blyue</l>
+            <l>
+               <pb facs="tcp:20071:5"/>
+Whan he came vpon a londe</l>
+            <l>Lytell Iacke there he foude</l>
+            <l>Dryuynge his beeſtes all alone</l>
+            <l>Boye he ſayd god gyue the ſhame</l>
+            <l>What haſt thou done to thy dame</l>
+            <l>Tell thou me anone</l>
+            <l>But yf thou canſt excuſe the well</l>
+            <l>By my trouth bete I the wyll</l>
+            <l>I wyll no lenger abyde</l>
+            <l>Quod the boye what eyleth the</l>
+            <l>My dame fareth as well as ye</l>
+            <l>What nedeth the to chyde</l>
+            <l>Quod the boye wyll ye wete</l>
+            <l>How I can a byrde ſhete</l>
+            <l>And other thynge withall</l>
+            <l>Syr he ſayd though I be lyte</l>
+            <l>Yonder byrde wyll I ſmyte</l>
+            <l>And gyue her the I ſhall</l>
+            <l>There ſate a byrde vpon a brere</l>
+            <l>Shote on boye quod the frere</l>
+            <l>For that me lyſteth to ſe</l>
+            <l>He hytte the byrde on the heed</l>
+            <l>That ſhe fell downe deed</l>
+            <l>No ferder myght ſhe flee</l>
+            <l>The frere to the buſſhe wente</l>
+            <l>Vp the byrde for to hente</l>
+            <l>He thought it beſt for to done</l>
+            <l>Iacke ſoke his pype and began to blowe</l>
+            <l>Than the frere as I trowe</l>
+            <l>Began to daunce ſoone</l>
+            <l>As ſoone as he the pype herde</l>
+            <l>Lyke a wood man he fared</l>
+            <l>
+               <pb facs="tcp:20071:5"/>
+He lepte and daunced aboute</l>
+            <l>The breres ſcratched hym in the face</l>
+            <l>And in many an other place</l>
+            <l>That the blode braſt out</l>
+            <l>And tare his clothes by and by</l>
+            <l>His cope and his ſcapelary</l>
+            <l>And all his other wede</l>
+            <l>He daunced amonge thornes thycke</l>
+            <l>In many places they dyde hym prycke</l>
+            <l>That faſt gan he blede</l>
+            <l>Iacke pyped and laughed amonge</l>
+            <l>The frere amonge the thornes was thronge</l>
+            <l>He hopped wonders hye</l>
+            <l>At the laſt he helde vp his honde</l>
+            <l>And ſayd I haue daunced to longe</l>
+            <l>That I am lyke to dye</l>
+            <l>Gentyll Iacke holde thy pype ſtyll</l>
+            <l>And my trouth I plyght the tyll</l>
+            <l>I wyll do the no woo</l>
+            <l>Iacke ſayd in that tyde</l>
+            <l>Frere ſkyppe out on the ferder ſyde</l>
+            <l>Lyghtly that thou were goo</l>
+            <l>The frere out of the buſſhe wente</l>
+            <l>All to ragged and to rente</l>
+            <l>And torne on euery ſyde</l>
+            <l>Vnnethes on hym had one cloute</l>
+            <l>His hely for to wrappe aboute</l>
+            <l>His harneys for to hyde</l>
+            <l>The breres had hym ſcratched ſo in the face</l>
+            <l>And many an other place</l>
+            <l>He was all to bledde with blode</l>
+            <l>All that myght the frere ſe</l>
+            <l>
+               <pb facs="tcp:20071:6"/>
+Were fayne awaye to flee</l>
+            <l>They wende he had ben wode</l>
+            <l>Whan he came to his hooſt</l>
+            <l>Of his Iourney he made no booſt</l>
+            <l>His clothes were rente all</l>
+            <l>Moche ſorowe in his herte he had</l>
+            <l>And euery man hym dradde</l>
+            <l>Whan he came in to the hall</l>
+            <l>The wyfe ſayd where haſt thou bene</l>
+            <l>In an euyll place I wene</l>
+            <l>Me thynketh by thyn araye</l>
+            <l>Dame I haue ben with thy ſone</l>
+            <l>The deuyll of hell hym ouercome</l>
+            <l>For no man elles may</l>
+            <l>With that came in the good man</l>
+            <l>The wyfe ſayd to hym than</l>
+            <l>Here is a foule araye</l>
+            <l>Thy ſone that is the lefe and dere</l>
+            <l>Hath almooſt ſlayne this holy frere</l>
+            <l>Alas and welawaye</l>
+            <l>The good man ſayd benedicite</l>
+            <l>What hath the boye done frere to the</l>
+            <l>Tell me without lette</l>
+            <l>The frere ſayd the deuyll hym ſpede</l>
+            <l>He hath made me dau<g ref="char:cmbAbbrStroke">̄</g>ce maugre my hede</l>
+            <l>Amonge the thornes hey go bette</l>
+            <l>The good man ſayd to hym tho</l>
+            <l>Haddeſt thou loſt thy lyfe ſo</l>
+            <l>It had ben grete ſynne</l>
+            <l>The frere ſayd by our lady</l>
+            <l>The pype wente ſo meryly</l>
+            <l>That I coude neuer blynne</l>
+            <l>
+               <pb facs="tcp:20071:6"/>
+Whan it drewe towarde the nyght</l>
+            <l>The boye came home full ryght</l>
+            <l>As he was wonte to do</l>
+            <l>Whan he came in to the hall</l>
+            <l>His fader dyde hym ſoone call</l>
+            <l>And badde hym to come hym to</l>
+            <l>Boye he ſayd tell me here</l>
+            <l>What haſt thou done to the frere</l>
+            <l>Tell me without leſynge</l>
+            <l>Fader he ſayd by my faye</l>
+            <l>I dyde nought elles as I you ſaye</l>
+            <l>But pyped hym a ſprynge</l>
+            <l>That ſayd his fader wolde I here</l>
+            <l>Mary god forbede ſayd the frere</l>
+            <l>His handes he dyde wrynge</l>
+            <l>Yes ſayd the good man by goddes grace</l>
+            <l>Than ſayd the frere out alas</l>
+            <l>And made grete mournynge</l>
+            <l>For the loue of god quod the frere</l>
+            <l>If ye wyll that he pype here</l>
+            <l>Bynde me to a poſt</l>
+            <l>For I knowe none other rede</l>
+            <l>And I daunce I am but deed</l>
+            <l>Well I wote my lyfe is loſt</l>
+            <l>Stronge ropes they ſoke in honde</l>
+            <l>The frere to the poſt they bonde</l>
+            <l>In the myddle of the hall</l>
+            <l>All that at the ſouper ſat</l>
+            <l>Laughed and had good game therat</l>
+            <l>And ſayd the frere wolde not fall</l>
+            <l>Than ſayd the good man</l>
+            <l>Pype on good ſone</l>
+            <l>
+               <pb facs="tcp:20071:7"/>
+Hardely whan thou wylte</l>
+            <l>Fader he ſayd ſo mote I the</l>
+            <l>Haue ye ſhall ynough of gle</l>
+            <l>Tyll ye bydde me be ſtyll</l>
+            <l>As ſoone as Iacke the pype hent</l>
+            <l>All that there were verament</l>
+            <l>Began to daunce and lepe</l>
+            <l>Whan they gan the pype here</l>
+            <l>They myght not themſelfe ftere</l>
+            <l>But hurled on an hepe</l>
+            <l>The good man was in no dyſpayre</l>
+            <l>But lyghtly lepte out of his chayre</l>
+            <l>With a good chere</l>
+            <l>Some lepte ouer the ſtocke</l>
+            <l>Some ſtombled at the blocke</l>
+            <l>And ſome fell flatte in the fyre</l>
+            <l>The good man had grete game</l>
+            <l>How they daunced all in ſame</l>
+            <l>The wyfe after gan ſteppe</l>
+            <l>Euermore the keſt her eye at Iacke</l>
+            <l>And faſt her tayle began to cracke</l>
+            <l>Lowde than they coude ſpeke</l>
+            <l>The frere hymſelfe was almooſt loſt</l>
+            <l>For knockynge his heed ayenſt the poſt</l>
+            <l>He had none other grace</l>
+            <l>The rope rubbed hy<g ref="char:cmbAbbrStroke">̄</g> vnder the chynne</l>
+            <l>That the blode downe dyde rynne</l>
+            <l>In many a dyuers place</l>
+            <l>Iacke ranne in to the ſtrete</l>
+            <l>After hym faſt dyde they lepe</l>
+            <l>Truly they coude not ſtynte</l>
+            <l>They wente out ar the dore ſo thycke</l>
+            <l>
+               <pb facs="tcp:20071:7"/>
+That eche man fell on others necke</l>
+            <l>So pretely out they wente</l>
+            <l>Neyghbours that were faſt by</l>
+            <l>Herde the pype go ſo meryly</l>
+            <l>They ranne in to the gate</l>
+            <l>Some lepte ouer the hatche</l>
+            <l>They had no tyme to drawe the latche</l>
+            <l>They wende they had come to late</l>
+            <l>Some laye in theyr bedde</l>
+            <l>And helde vp theyr hede</l>
+            <l>Anone they were waked</l>
+            <l>Some ſterte in the waye</l>
+            <l>Truly as I you ſaye</l>
+            <l>Starke bely naked</l>
+            <l>By that they were gadred aboute</l>
+            <l>Iwys there was a grete route</l>
+            <l>Dauncynge in the ſtrete</l>
+            <l>Some were lame and myght not go</l>
+            <l>But yet ywys they daunced to</l>
+            <l>On handes and on fete</l>
+            <l>They boye ſayd now wyll I reſt</l>
+            <l>Quod the good man I holde it beſt</l>
+            <l>With a mery chere</l>
+            <l>Seaſe ſone whan thou wylte</l>
+            <l>In fayth this is the meryeſt fytte</l>
+            <l>That I herde this ſeuen yere</l>
+            <l>They daunced all in ſame</l>
+            <l>Some laughed and had good game</l>
+            <l>And ſome had many a fall</l>
+            <l>Thou curſed boye quod the frere</l>
+            <l>Here I ſomon the that thou appere</l>
+            <l>Before the offycyall</l>
+            <l>
+               <pb facs="tcp:20071:8" rendition="simple:additions"/>
+Loke thou be there on frydaye</l>
+            <l>I wyll the mete and I may</l>
+            <l>For to ordeyne the ſorowe</l>
+            <l>The boye ſayd by god auowe</l>
+            <l>Frere I am as redy as thou</l>
+            <l>And frydaye were to morowe</l>
+            <l>Frydaye came as ye may here</l>
+            <l>Iackes ſtepdame and the frere</l>
+            <l>Togyder there they metre</l>
+            <l>Folke gadered a grete paſe</l>
+            <l>To here euery mannes caſe</l>
+            <l>The offycyall was ſette</l>
+            <l>There was moche to do</l>
+            <l>Maters more than one or two</l>
+            <l>Bothe with preeſt and clerke</l>
+            <l>Some had teſtamentes for to preue</l>
+            <l>And fayre women by your leue</l>
+            <l>That had ſtrokes in the derke</l>
+            <l>Euery man put forth his caſe</l>
+            <l>Than came forth frere Topyas</l>
+            <l>And Iackes ſtepdame alſo</l>
+            <l>Syr offycyall ſayd he</l>
+            <l>I haue brought a boye to the</l>
+            <l>Whiche hath wrought me moche wo</l>
+            <l>He is a grete nygromancere</l>
+            <l>In all orlyaunce is not his pere</l>
+            <l>As by my trouth I trowe</l>
+            <l>He is a wytche quod the wyfe</l>
+            <l>Than as I ſhall tell you blythe</l>
+            <l>Lowde coude ſhe blowe</l>
+            <l>Some laughed without fayle</l>
+            <l>Some ſayd dame tempre thy tayle</l>
+            <l>
+               <pb facs="tcp:20071:8" rendition="simple:additions"/>
+Ye wreſte it all amyſſe</l>
+            <l>Dame quod the offycyall</l>
+            <l>Tell forth on thy tale</l>
+            <l>Lette not for this</l>
+            <l>The wyfe was afrayed of another cracke</l>
+            <l>That no worde more ſhe ſpacke</l>
+            <l>She durſt not for drede</l>
+            <l>The frere ſayd ſo mote I the</l>
+            <l>Knaue this is longe of the</l>
+            <l>That euyll mote thou ſpede</l>
+            <l>The frere ſayd ſyr offycyall</l>
+            <l>The boye wyll combre vs all</l>
+            <l>But yf ye may hym chaſte</l>
+            <l>Syr he hath a pype truly</l>
+            <l>Wyll make you daunce and lepe on hye</l>
+            <l>Tyll your herte braſte</l>
+            <l>The offycyall ſayd ſo mote I the</l>
+            <l>That pype wolde I fayne ſe</l>
+            <l>And knowe what myrth that he can make</l>
+            <l>Mary god forbede than ſayd the frere</l>
+            <l>That he ſholde pype here</l>
+            <l>Afore that I hens the waye take</l>
+            <l>Pype on Iacke ſayd the offycyall</l>
+            <l>I wyll here now how thou canſt playe</l>
+            <l>Iacke blewe vp the ſothe to faye</l>
+            <l>And made them ſoone to daunce all</l>
+            <l>The offycyall lepte ouer the deſke</l>
+            <l>And daunced aboute wonder faſte</l>
+            <l>Tyll bothe his ſhynnes he all to breſt</l>
+            <l>Hym thought it was not of the beſt</l>
+            <l>Than cryed he vnto the chylde</l>
+            <l>To pype no more within this place</l>
+            <l>
+               <pb facs="tcp:20071:9" rendition="simple:additions"/>
+But to holde ſtyll for goddes grace</l>
+            <l>And for the loue of mary mylde</l>
+            <l>Than ſayd Iacke to them echone</l>
+            <l>If ye wolde me graunte with herte fre</l>
+            <l>That he ſhall do me no vylany</l>
+            <l>But hens to departe euen as I come</l>
+            <l>Therto they anſwered all anone</l>
+            <l>And promyſed hym anone ryght</l>
+            <l>In his quarell for to fyght</l>
+            <l>And defende hym from his fone</l>
+            <l>Thus they departed in that tyde</l>
+            <l>The offycyall and the ſompnere</l>
+            <l>His ſtepdame and the frere</l>
+            <l>With grete Ioye and moche pryde</l>
+         </div>
+         <trailer>¶ Thus endeth the frere and y<hi rend="sup">e</hi> boye.</trailer>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>Enpryn<g ref="char:EOLunhyphen"/>ted at London in Fleteſtrete at the ſygne of the ſonne / by wynkyn de worde.</p>
+            <p>
+               <figure>
+                  <figDesc>printer's device of Wynkyn de Worde</figDesc>
+                  <p>W <figure>
+                        <figDesc>symbol for the numbers 74</figDesc>
+                     </figure> C</p>
+                  <p>wynkyn de worde</p>
+               </figure>
+            </p>
+            <pb facs="tcp:20071:9"/>
+         </div>
+      </back>
+   </text>
+</TEI>

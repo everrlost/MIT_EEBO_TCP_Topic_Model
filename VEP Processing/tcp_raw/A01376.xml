@@ -1,0 +1,698 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An apologie for vvomenkinde</title>
+            <author>I. G., fl. 1605.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1605</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 26 KB of XML-encoded text transcribed from 16 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A01376</idno>
+            <idno type="STC">STC 11497</idno>
+            <idno type="STC">ESTC S105724</idno>
+            <idno type="EEBO-CITATION">99841450</idno>
+            <idno type="PROQUEST">99841450</idno>
+            <idno type="VID">6035</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A01376)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 6035)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1379:19)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An apologie for vvomenkinde</title>
+                  <author>I. G., fl. 1605.</author>
+               </titleStmt>
+               <extent>[32] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Ed. Allde for William Ferebrand, and are to be solde at his shop in Popes-head Alley neere the Royall Exchange,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1605.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Dedication signed: I.G.</note>
+                  <note>In verse.</note>
+                  <note>Cf. Folger catalogue, which gives signatures: A-D⁴.</note>
+                  <note>Vertical chain lines.</note>
+                  <note>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Women --  Early works to 1800.</term>
+               <term>Women --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-04</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-05</date>
+            <label>Lauren Proux</label>Sampled and proofread</change>
+         <change>
+            <date>2009-05</date>
+            <label>Lauren Proux</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:6035:1" rendition="simple:additions"/>
+            <p>AN APOLOGIE <hi>FOR VVOMEN<g ref="char:EOLhyphen"/>KINDE.</hi>
+            </p>
+            <l>Odi prophanum vulgus et arceo</l>
+            <l>Fauetc linguis, Catmina non prius</l>
+            <l>Audita Muſarum Sacerdos,</l>
+            <l>Virginibus Faemimſque canto.</l>
+            <p>
+               <hi>LONDON</hi> Printed by <hi>Ed. Allde</hi> for <hi>William Ferebrand,</hi> and are to be ſolde at his Shop in <hi>Popes-head Alley</hi> neere the <hi>Royall Exchange.</hi> 1605.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:6035:2"/>
+            <pb facs="tcp:6035:2"/>
+            <head>TO THE QVEENES <hi>MOST SACRED</hi> MAIESTIE.</head>
+            <lg>
+               <l>GReat <hi>Queene,</hi> at firſt this taske I took in hand,</l>
+               <l>Thinking <hi>Eliza</hi> and your ſelfe to ſing,</l>
+               <l>And for examples your ſole names to bring,</l>
+               <l>As mightye Princes of the Womens band,</l>
+               <l>As two choiſe rulers of our <hi>Britisſh</hi> Land:</l>
+               <l>As ſplendent mirrours of dame Natures wealth,</l>
+               <l>The poores, afflicteds, and th'oppreſleds health.</l>
+            </lg>
+            <lg>
+               <l>But when my ſtrength a ſpace I tryed had,</l>
+               <l>Str<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>in<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> in deepe conceits to pen my minde:</l>
+               <l>My wit ſtarke dull I found my ſight meere blinde,</l>
+               <l>My hands did tremble and my wordes were bad,</l>
+               <l>Not one rich ſentence gal<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ntly was clad.</l>
+               <l>Nor wonder was it: form bookes I finde,</l>
+               <l>Some Birds, the Sunnes bright beames do feare by kinde.</l>
+            </lg>
+            <pb facs="tcp:6035:3"/>
+            <lg>
+               <l>Wherefore, ſoone as I came to ſee my fall</l>
+               <l>From Sky-built hopes which had borne vp my heart,</l>
+               <l>I ſtraight reſolued on another part,</l>
+               <l>Brief<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ly to writ in ſence more generall</l>
+               <l>An Elegle, in The me vnmiſticall;</l>
+               <l>And h<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>g it by your Princely Altars light:</l>
+               <l>Where Lampes of grace might keepe it ſtill in ſpight.</l>
+            </lg>
+            <closer>
+               <signed>Your Ma<hi rend="sup">ties.</hi> humble &amp; obedient ſervant: <hi>I. G.</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:6035:3"/>
+            <head>AN <hi>APOLOGIE</hi> for VVoman-kinde.</head>
+            <lg>
+               <l>MVſes diuine which on <hi>Pernaſſus</hi> dwell,</l>
+               <l>Bathing your ſelues in <hi>Pegaſaean</hi> well;</l>
+               <l>Infuſe high thoughts into my dullard ſprite.</l>
+               <l>And guide my trembling hands, whilſt I indite</l>
+               <l>The ſacred honours of your fellowe Sexe,</l>
+               <l>Which mens vnlawfull tirannye doth vexe.</l>
+               <l>And you three Siſters whome we <hi>Graces</hi> name,</l>
+               <l>Fayre ſpotleſſe Virgins without fault or blame,</l>
+               <l>Beſtowe ſome beautyes on my rugged rimes</l>
+               <l>That they may pleaſe our more then carping times,</l>
+               <pb facs="tcp:6035:4"/>
+               <l>And in full health preſerue themſelues (at leaſt)</l>
+               <l>From ſharp-tongue dartes of many headed beaſt.</l>
+               <l>Immortall <hi>Nectar</hi> in my minde diſtill,</l>
+               <l>That I may write (with fauourable quill)</l>
+               <l>Womens admired gloryes and then praiſe.</l>
+               <l>That may be read in our next Nephewes dayes.</l>
+               <l>And you bright Lampes which to the world giue Light,</l>
+               <l>(Mightie Commaunders of the greateſt might)</l>
+               <l>Braue Ladyes, ſage Matrones, comely Damoſelles,</l>
+               <l>Whoſe armed thoughts reſiſt all wicked ſpelles,</l>
+               <l>Be you my Load-ſtarres, guide me without ſayle,</l>
+               <l>Direct this little Barque (wherein I ſayle)</l>
+               <l>That it may ſcape the ſandes of high diſdaine,</l>
+               <l>And to the Porte of fauours ſafely game.</l>
+               <l>Full well I wot, this ſubject was more fitte</l>
+               <l>For peerleſſe <hi>Homers</hi> or for <hi>Virgils</hi> witte,</l>
+               <l>The <hi>Florence-Petrarkes, Taſſoes,</hi> or <hi>Ronſardes,</hi>
+               </l>
+               <l>
+                  <hi>Sidnyes</hi> or <hi>Spencers;</hi> vnto whome, rewardes,</l>
+               <pb facs="tcp:6035:4"/>
+               <l>Garlands of Bayes by Poets graunted are.</l>
+               <l>Yet ſithence one whoſe temples ſtill are bare,</l>
+               <l>Whoſe fruitleſſe braine is like a barren rocke,</l>
+               <l>A ſtonye ground, or ouer-dryed ſtocke,</l>
+               <l>Could thus much ſing: what might ſome others ſay!</l>
+               <l>Swannes notes excelling on their dying day.</l>
+               <l>Nor is it pride that makes me thus preſume</l>
+               <l>A great Atlanticke burthen to aſſume.</l>
+               <l>A labour which might <hi>Hercules</hi> beſeeme,</l>
+               <l>Or one whoſe ſame the world ſhould more eſteeme.</l>
+               <l>It's iuſt dutie, to a cauſe neglected,</l>
+               <l>By all abler perſons vnreſpected,</l>
+               <l>That makes me take this Pencill in mine hand</l>
+               <l>(The moſt vnskilfull Paynter in our Land)</l>
+               <l>And on this playned table vndertake,</l>
+               <l>Of your high worth ſome portraiture to make.</l>
+               <l>Would God I had renoum'd <hi>Apelles</hi> skill,</l>
+               <l>Then might my worke well anſwer to my will.</l>
+               <pb facs="tcp:6035:5"/>
+               <l>But why doe I the artes of men deſire</l>
+               <l>Who <hi>Chymons</hi> are, vnleſſe firſt ſet on fire,</l>
+               <l>By kindely heat, whence all their ſcience flowes,</l>
+               <l>Which afterwards ſo bright reſplendent ſhowes?</l>
+               <l>Within this Laberinth I hope to tread</l>
+               <l>With fearleſſe foote led by your beauties thred,</l>
+               <l>So as no vglye Minotaur, of ſpight</l>
+               <l>Shall dare with helliſh mouth at me to bite.</l>
+               <l>Nor gainſt me ſnarling dog tooth'd Momus barke,</l>
+               <l>But ſay I chaum like to the morning Larke,</l>
+               <l>In muſique ſtraines a meaſur'd harmonye</l>
+               <l>For women-kinde, Natures Epitomye.</l>
+               <l>And as for me: one louing kinde regarde,</l>
+               <l>Or freindly looke, ſhall be my ſole rewarde.</l>
+               <l>Now muſe no longer ſtay, thy race beginne,</l>
+               <l>Declare dame Euahs ſtate before her ſinne</l>
+               <l>Was by the Thunder-darter puniſhed,</l>
+               <l>By paines enioyn'd vnto all women-head.</l>
+               <pb facs="tcp:6035:5"/>
+               <l>Shewe what in Edens garden ſhe hath beene,</l>
+               <l>Let at the leaſt her gloryes paſt be ſeene.</l>
+               <l>When other creatures God created had,</l>
+               <l>And ſawe that all were good and none were bad,</l>
+               <l>Al's careleſſe man, whome he as beſt did prize</l>
+               <l>Seated to dwell in earthly Paradize:</l>
+               <l>Then, there he framed paſsing faire the reſt</l>
+               <l>With knowledge and with wiſdome chiefly bleſt.</l>
+               <l>Woman repleniſhed with excellence,</l>
+               <l>Conceipt, and gloden ſtreaming eloquence.</l>
+               <l>Her ſplendent hayres were Amber coloured.</l>
+               <l>And like freſh flowers in Aprill ſauoured.</l>
+               <l>Her ſmooth forhead that no arte did borrowe</l>
+               <l>Was like the ſea which no winde doth furrowe,</l>
+               <l>Her vaulted eyebrowes made of Ebeny,</l>
+               <l>The horned Moone reſembled in the Skye.</l>
+               <l>Her ſparkling eyes as two cleer ſtarres did ſhine,</l>
+               <l>Full of ſweet grace and maieſtie diuine.</l>
+               <pb facs="tcp:6035:6"/>
+               <l>Her cares, whoſe ſhape my thoughts doe farre ſurpaſſe,</l>
+               <l>Were like two Roſes in a Chriſtall glaſſe,</l>
+               <l>Her white pretty Eagle-noſe deſcended,</l>
+               <l>As a mount amidſt a plaine it hanged.</l>
+               <l>Enuie herſelfe beholding it had ſhame,</l>
+               <l>Becauſe therein ſhe-nothing found to blame.</l>
+               <l>Two red flowers ſet in milke, her cheekes did ſeeme,</l>
+               <l>Where his ſtrong holde the Shooting-Boy did deeme,</l>
+               <l>Her mouth which did embalme the aire about,</l>
+               <l>At Corrall lippes did ſend herſweete breath out,</l>
+               <l>Shewing two ranckes of pearles well poliſhed,</l>
+               <l>Which hedg'd her tongue by <hi>Suada</hi> furniſhed.</l>
+               <l>But what meane I, in ſhort wordes to compriſe,</l>
+               <l>That which in ample theame I might deuiſe?</l>
+               <l>Her body beauties ſtore-houſe, God did make</l>
+               <l>And not from mudde, but <hi>Adames</hi> ſide did take,</l>
+               <l>The matter whence he did the worke compoſe,</l>
+               <l>(Durt was ore baſe a ſubiect to be choſe.)</l>
+               <pb facs="tcp:6035:6"/>
+               <l>So as her eſſence, though not different,</l>
+               <l>(As two times flood) was more excellent</l>
+               <l>Then <hi>Adams</hi> was, my ſpeech I will confirme,</l>
+               <l>Leaſt that I ſeeme it vainely to affirme.</l>
+               <l>Being the firſt thinges God did onely giue,</l>
+               <l>The ſecond plancalſ life the third did liue,</l>
+               <l>Endu'd with ſence: reaſon the fourth obtaind,</l>
+               <l>And ſo the laſt more worthineſſe ſtill gaind.</l>
+               <l>This certainely well vnderſtood the man,</l>
+               <l>When at the firſt ſight boaſting he began</l>
+               <l>To ſay, out of his fleſh ſhe had been tooke:</l>
+               <l>(So ſoone as from his braſen ſleepe he wooke.)</l>
+               <l>This perfectly the ſubull Serpent knew,</l>
+               <l>When her he tempted, with his: Is it true?</l>
+               <l>To winne the man he thought it was no doubt,</l>
+               <l>That was his feare the woman would ſtand out.</l>
+               <l>Wherefore to her he did addreſſe his wiles,</l>
+               <l>Wherewith mankinde hee daily ſtill beguiles.</l>
+               <pb facs="tcp:6035:7"/>
+               <l>Who though at firſt ſhe did well ſhun his ſleights,</l>
+               <l>Yet (ah) at length he catch'd her by his baites.</l>
+               <l>Well what did Adam? he did not deny,</l>
+               <l>But cat the fruite forbidden readily,</l>
+               <l>And after deem'd his caſe could not be bad,</l>
+               <l>Telling by Euahs meanes he ſinned had</l>
+               <l>To high lehouah puniſher of vice,</l>
+               <l>Which cal'd them foorth hidden in Paradice,</l>
+               <l>And tooke the rule out of the womans handes,</l>
+               <l>Making her thrall vnto ſubiections bandes.</l>
+               <l>That was before mans pow'rfull gouerneſſe.</l>
+               <l>His miſtreſſe, loue, his wife, his Empreſſe.</l>
+               <l>Yet did he not her caſt in ſlauery,</l>
+               <l>Nor any baſer foule ſeruilitye.</l>
+               <l>But leſt her guidance to her husbands will,</l>
+               <l>Onely for order yeilding to him ſtill</l>
+               <l>So Abell was ſubiected vnto Cain,</l>
+               <l>Yet Cadets Iudge th'authoritie is vaine.</l>
+               <pb facs="tcp:6035:7"/>
+               <l>And 'tis a point that euery one can tell,</l>
+               <l>The younger borne, moſt what doe farre excell.</l>
+               <l>Now let ſome Tyger-bred clowne ſpeake his minde,</l>
+               <l>Rayling his fill againſt all women kinde,</l>
+               <l>Terming them wanton, luſtfull, letcherous,</l>
+               <l>Mincing decemblers, ſlye, fine, vicious.</l>
+               <l>Let ſome grimme Syre his Dame in furye ſtrike,</l>
+               <l>Which is his pleaſures mate, his half his like,</l>
+               <l>In whoſe faire face Roſes and Lillyes meet,</l>
+               <l>Whoſe looke is ſmiling and whoſe ſpeech is ſweet.</l>
+               <l>Sith gainſt all lawes and iuſtice ſuch doe deale,</l>
+               <l>From malefactors well may one appeale.</l>
+               <l>Yet would I fayne their proper vice once learne,</l>
+               <l>Which makes mens talke to be of them ſo ſterne.</l>
+               <l>Are they accuſtom'd to that filthy ſinne,</l>
+               <l>Which is extol'd by beaſtly <hi>Aretin?</hi>
+               </l>
+               <l>The ſhame of Greece, Spayne, Italy and France,</l>
+               <l>Where men gainſt kinde doe ſpend their cheuiſance.</l>
+               <pb facs="tcp:6035:8"/>
+               <l>Ah, ah noe. Nor is it Venerie,</l>
+               <l>Men brag of that in greateſt brauerie:</l>
+               <l>But faultes in diuers ſubiectes alter not,</l>
+               <l>A blame in one in each one is a blot.</l>
+               <l>Beſides, the men are cauſers of thoſe crimes.</l>
+               <l>That women weakely doe commit ſome times.</l>
+               <l>Witneſſe their carefull ſuites, their inſtruments,</l>
+               <l>Their Syrens Songes, their ſilent allurements.</l>
+               <l>Bribed ſpeakers, inuentions curious,</l>
+               <l>Iuſtes, daunces, preſences, letters amourous,</l>
+               <l>their fained frenzies, harder heartes tomoue,</l>
+               <l>Their oathes, their vowes, their ſickenes growne from loue</l>
+               <l>Doth one deny all theſe and lend none care?</l>
+               <l>With ſome baſe Peaſant ſhe dooth make good cheare.</l>
+               <l>
+                  <hi>Plaſſo</hi> reportes, which ſought to make her ſinne,</l>
+               <l>Tis muſt keepe out, there is a key within.</l>
+               <l>So as to hinder ſiniſter bad talke,</l>
+               <l>Many doe chuſe full ſecretly to walke.</l>
+               <pb facs="tcp:6035:8"/>
+               <l>In wickedneſſe: thinking faultes hidden ſmall,</l>
+               <l>Though eyes there are which plainly ſee them all.</l>
+               <l>Well; ſundry times of women I haue read,</l>
+               <l>Which for their honours, now long ſince are dead.</l>
+               <l>As <hi>Lucia</hi> and chaſte <hi>Lucretia,</hi>
+               </l>
+               <l>The Dameſels <hi>Hyppe</hi> and <hi>Orythia<g ref="char:punc">▪</g>
+                  </hi>
+               </l>
+               <l>But of one man as yet I neuer heard,</l>
+               <l>Who for his chaſtitie tooke ſuch reward.</l>
+               <l>Then fondlings ceaſe the female ſexe to blame,</l>
+               <l>None truth can ſpeake that turneth to their ſhame.</l>
+               <l>Their very paines by God to them enioyn'd,</l>
+               <l>Shewe how their mindes to goodnes are enclin'd.</l>
+               <l>For 'tis a rule; God ſends his troubles ſuch</l>
+               <l>As be his creatures able, leſſe or much.</l>
+               <l>
+                  <hi>Atlas</hi> alone hath chargd the heauens to bear,</l>
+               <l>Rich Carbuncles in golde men onely weare,</l>
+               <l>And vertues vnto women proper are.</l>
+               <l>Are you affected vnto pietye,</l>
+               <pb facs="tcp:6035:9"/>
+               <l>Deuouter godlineſſe or charitye?</l>
+               <l>Example take the Virgin bleſs'd Mary,</l>
+               <l>Whoſe wombe conceiu'd our healthfull miſtery.</l>
+               <l>Here might I ſay women did honour more,</l>
+               <l>Chriſt lowe abaſ'd, in all appearance poore,</l>
+               <l>Then his Diſciples or Apoſtles durſt,</l>
+               <l>'Tis manly wiſdome ſtill to ſeare the wurſt.</l>
+               <l>And here to tell, the labour were not ſpilt</l>
+               <l>How many Schooles and Hoſpitalles are built</l>
+               <l>By womens wondrous liberalitie,</l>
+               <l>The true perfect patternes of high bountie.</l>
+               <l>Als' might I well from Pagan writers ſhewe</l>
+               <l>Who onely rules of blinded reaſon knewe</l>
+               <l>The famous zeale which they in women deem'd,</l>
+               <l>And therefore iudg'd them by their Gods eſteem'd.</l>
+               <l>Hence in large ſorte to honour them they raign'd,</l>
+               <l>Many the place of Goddeſſes had gain'd.</l>
+               <l>As Iuno, Cibell, and Minerua,</l>
+               <pb facs="tcp:6035:9"/>
+               <l>Venus, Themis, Ceres and Diana.</l>
+               <l>Hence ſome aliue to heau'n they haue vp borne,</l>
+               <l>Whoſe bleſſed mindes this earthly mudde did ſcorne.</l>
+               <l>Hence all the vertues female haue they nam'd,</l>
+               <l>As, Peace, and Iuſtice, Truth, with Faith vnblam'd,</l>
+               <l>And honeſtye which neuer makes aſham'd</l>
+               <l>But I an hundreth other poynts doe ſee</l>
+               <l>That in my iudgement farre more needfull bee.</l>
+               <l>And now me thinks my ſelfe am like vnto</l>
+               <l>Some one who doth into a Garden goe,</l>
+               <l>Of greene hearbes a Poſie for to gather,</l>
+               <l>Yet there knowes not which to take moſt rather.</l>
+               <l>So I the beſt thinges ſtriue for to propound,</l>
+               <l>Yet which are they my wiſdome cannot ſound'</l>
+               <l>Wherefore me pardon deere Mineruaes brood,</l>
+               <l>If that my choyſe or order be not good:</l>
+               <l>Of womens loue to men firſt will I tell</l>
+               <l>Reaſons apparent why to prize them well.</l>
+               <pb facs="tcp:6035:10"/>
+               <l>For by theſe two Gods lawe is full defin'd,</l>
+               <l>Loue vnto him and vnto humane kind.</l>
+               <l>And of this loue our Countrye claimes chiefe part,</l>
+               <l>The next our Parents looke for in our hart.</l>
+               <l>Yoke mates and Children doe a third require,</l>
+               <l>The fourth our neighbours at our hands deſire.</l>
+               <l>Now in all ſortes women more loyall are</l>
+               <l>Then any men. Long circumſtance I ſpare:</l>
+               <l>Eke many Hiſtories I will omitte,</l>
+               <l>Which to declare this argument are fitte.</l>
+               <l>To ayde her Countrye, faire <hi>Macaras</hi>
+               </l>
+               <l>Her life did ſpend alſo <hi>Protogeus,</hi>
+               </l>
+               <l>
+                  <hi>Pandora, Pleria</hi> and <hi>Theopa,</hi>
+               </l>
+               <l>
+                  <hi>Paſithea</hi> with braue hair'd <hi>Eubula</hi>
+               </l>
+               <l>Did leſſe reſpect their owne proſpertie.</l>
+               <l>Then their deere Countries ſweet felicitie.</l>
+               <l>The beautifull Dame <hi>Cratiſsiclea,</hi>
+               </l>
+               <l>(King <hi>Cleominos</hi> mother of <hi>Sparta</hi>
+               </l>
+               <pb facs="tcp:6035:10"/>
+               <l>Her ſelfe an hoſtage dared to preſent,</l>
+               <l>And vndergoe a willing baniſhment</l>
+               <l>From ſeruitude her Citie for to ſaue.</l>
+               <l>Such actes as theſe, ſome loſtye ſtraines do craue.</l>
+               <l>Where were the men which voluntary dy'd</l>
+               <l>When theſe occurrents fearfull did betide?</l>
+               <l>Where were become their big Thraſonicke wordes,</l>
+               <l>Their gliſtring armours, and their thrilling ſwordes?</l>
+               <l>'Tis true I ſee, as I haue ſeene moſt ofte:</l>
+               <l>The hart's moſt hardy dwell with tongues moſt ſoſte.</l>
+               <l>
+                  <hi>Solynus</hi> ſaith, there was a Roman wife</l>
+               <l>Who with her dugges preſeru'd her mothers life,</l>
+               <l>Into the priſon hauing leaue to enter,</l>
+               <l>Dayly to viewe her poore ſtaruing mother.</l>
+               <l>So <hi>Nicon</hi> olde <hi>Xantippe</hi> nouriſhed</l>
+               <l>Her Father, whome the Iaylor famiſhed.</l>
+               <l>Shewe me more loue, ſhewe me more conſtantnes</l>
+               <l>In any men: ſhewe me more faithfulnes.</l>
+               <pb facs="tcp:6035:11"/>
+               <l>I ſilently paſſe by <hi>Hypſipila,</hi>
+               </l>
+               <l>With hundreths more like young <hi>A<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>igena,</hi>
+               </l>
+               <l>That haue excel'd in truſty loyaltye,</l>
+               <l>The very band of all ſocietye.</l>
+               <l>
+                  <hi>Chelon<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi> is by <hi>Plutarch</hi> honoured,</l>
+               <l>For perfect freindſhip to her ſpouſall bed.</l>
+               <l>Who more eſteem'd her husband then a Crowne,</l>
+               <l>Wa'ſt euer ſeene mens pride did ſo come downe?</l>
+               <l>The Spartane Dames their <hi>Theſeaus</hi> did conſerue,</l>
+               <l>And from deaths preſent daunger them preſerue:</l>
+               <l>Changing their garments with them ſecretly,</l>
+               <l>And ſo reſtoring them to liberty,</l>
+               <l>Remain'd themſelues fell, feirce rage to endure,</l>
+               <l>(For nothing elſe to looke for were they ſure)</l>
+               <l>Alceſtis did to ſaue her husband dye,</l>
+               <l>Admetus King of wealthy Theſſaly,</l>
+               <l>Canna no longer cared for liues breath</l>
+               <l>Then that ſhe might reuenge Sinatus death.</l>
+               <pb facs="tcp:6035:11"/>
+               <l>Saxo the Dane, Gunilda doth extoll,</l>
+               <l>Porcia the Romane, Liuy doth enroll,</l>
+               <l>Pliny doth praiſe the fickely fiſhers wife,</l>
+               <l>Who for to eaſe his paines deſpiſde her life.</l>
+               <l>So Alexander <hi>ab Alexandra,</hi>
+               </l>
+               <l>And Aelian, commend full many moe,</l>
+               <l>Which for to worke their husbands caſe and joy;</l>
+               <l>Their owne griefe nought regarded, or annoy.</l>
+               <l>But vnderſtand, it is not mine account</l>
+               <l>The Sunnes bright beames in number iuſt to count.</l>
+               <l>Likewiſe a Fountaine that is neuer drye,</l>
+               <l>Doth need many buckets it to emptye.</l>
+               <l>Further how Children deerly they affect,</l>
+               <l>Or elſe their neighbours friendly doe reſpect;</l>
+               <l>For me to ſhewe were meere ſimplicitie,</l>
+               <l>Sith all confeſſe thereof the veritie.</l>
+               <l>To proue that fire hath heat, or water colde,</l>
+               <l>Is in no dout or danger to be bolde.</l>
+               <pb facs="tcp:6035:12"/>
+               <l>Wherefore Ile túrne me to another theame,</l>
+               <l>Long while enough I ſowed haue this ſeame.</l>
+               <l>In Prudence, Iuſtice, Liberalitye</l>
+               <l>(Whereof Kings boaſt) and Magnanimitye:</l>
+               <l>Hereby ſome ſhort examples ile declare</l>
+               <l>That in no poynt women ought wanting are.</l>
+               <l>Thoſe that can gouerne well, no vertues want,</l>
+               <l>But of braue Queenes the number is not ſcant</l>
+               <l>That in times paſt with glory and renowne,</l>
+               <l>Many a Kingdome rules haue and towne.</l>
+               <l>The warlike Almaignes this doe teſtifie,</l>
+               <l>So doth the Carthaginian Hiſtorie.</l>
+               <l>The Blacke Moores brag of hardie <hi>Meroe,</hi>
+               </l>
+               <l>The Bohemians of their <hi>Valaſque,</hi>
+               </l>
+               <l>Large Siria commends <hi>Zenebia,</hi>
+               </l>
+               <l>The grim ſterne Goths their <hi>Amalaſuntha.</hi>
+               </l>
+               <l>Sage <hi>Theodora</hi> did the Empire ſway,</l>
+               <l>And men vnworthy, thence did chace away.</l>
+               <pb facs="tcp:6035:12"/>
+               <l>
+                  <hi>Semiramis</hi> drye Egipt did poſſeſſe,</l>
+               <l>Whome Nilus ouce-flowings ſtill doe bleſſe.</l>
+               <l>And doth not England ſing Eliza's prayſe,</l>
+               <l>Who farre excelled all before her dayes?</l>
+               <l>Was neuer Prince which ruled with more peace,</l>
+               <l>Or did more gently ſubjects paines releaſe,</l>
+               <l>And terrors vnto proud high mindes encreaſe.</l>
+               <l>Out Zoylus and all thy helliſh traine,</l>
+               <l>'Tis not foule ſpight that can pure vertue ſtaine.</l>
+               <l>Whiles Sunne and Moone their courſes keep in vre.</l>
+               <l>Womens heroïcke prayſes ſhall endure:</l>
+               <l>Well haue their woorthy ſp'rits this merited,</l>
+               <l>In whome all fine inuentions firſt were bred.</l>
+               <l>The ſeauen Artes that men call liberall,</l>
+               <l>Were by the Siſters nine firſt found out all.</l>
+               <l>Geſture ſeemely and demeanours comely,</l>
+               <l>We attribute to the Graces onely.</l>
+               <l>Cumea wrote the Romane policye.</l>
+               <pb facs="tcp:6035:13"/>
+               <l>Sapho neuer like for Poeſie.</l>
+               <l>In Rome a Statue dedicated was</l>
+               <l>To Gracchus miſtreſle that wel ſpeaking Laſſe.</l>
+               <l>Pithagoras learned of Theocia,</l>
+               <l>Wi<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e Socrates of faire Diotina,</l>
+               <l>Plato none indged like Archenaſſa.</l>
+               <l>With thouſands more, which men themſelues do note</l>
+               <l>And I it needleſſe iudge them all to quote,</l>
+               <l>Whoſe famous ſcience was by men admit'd,</l>
+               <l>As if that God their knowledge had inſpir'd.</l>
+               <l>Yea at this day how many may we ſee,</l>
+               <l>That heere in England now ſtill liuing bee,</l>
+               <l>Whoſe pennes and tongues (when as it is their will)</l>
+               <l>Farre doe excell each other humane skill?</l>
+               <l>I ſilently of purpoſe paſſe their names,</l>
+               <l>Sith nought my ſpeech can adde vnto their fames.</l>
+               <l>Ah but men blame all womens ſecrecye,</l>
+               <l>Their fearfull mindes, changing and cowardly,</l>
+               <pb facs="tcp:6035:13"/>
+               <l>'Tis true that malice neuer wants a marke,</l>
+               <l>And huge great fires ariſe oft from a ſparke.</l>
+               <l>For if by reaſon we this matter trye,</l>
+               <l>We nothing finde therein ſaue forgerye;</l>
+               <l>Not that I meane all women to excuſe,</l>
+               <l>Al's for ſome fewe I would not all abuſe.</l>
+               <l>We ſay in ſinne he ſildome ought to moue,</l>
+               <l>who fitly can another well reproue.</l>
+               <l>What thing more common then diſloyaltie</l>
+               <l>'Mong greateſt friends profeſsing amitie?</l>
+               <l>Ours is the golden worlde: the loue of golde</l>
+               <l>Is more this day then it hath beene of olde.</l>
+               <l>A ſomme of Coyne buyes honours, loue and freinds,</l>
+               <l>Men are no longer wolues to men, but fiends,</l>
+               <l>that which you tell to him is to a ſtone,</l>
+               <l>Yet all he babbles ſo ſoone as you are gone.</l>
+               <l>But in times paſt, that hardy female band,</l>
+               <l>Which in one night, of Danes did free our land;</l>
+               <pb facs="tcp:6035:14"/>
+               <l>She who from kinde Piſiſtratus conceald,</l>
+               <l>That which her torments might haue well reueald,</l>
+               <l>The banquet Cryaſſau, and Brutus wife,</l>
+               <l>Shew in what ſilence they can ſpend their life,</l>
+               <l>As for to fall together by the eares,</l>
+               <l>With Gunnes, and Swordes, with Halberds or with ſpeares</l>
+               <l>For ſome ſmall toyes not worth the ſpeaking off,</l>
+               <l>A icaſt in mirth, or merrie nipping ſcoff,</l>
+               <l>It is not womens cuſtome I profeſſe,</l>
+               <l>Ill ſhould I doe a truth not to confeſſe,</l>
+               <l>Tis true they judge the fight of armes is leaſt,</l>
+               <l>Man by his reaſon differs from a beaſt;</l>
+               <l>Likewiſe Sage nature hath not wrought ſo ſtrong,</l>
+               <l>Their Corpes, nor armes, ne yet their legges ſo long,</l>
+               <l>As mens ſhe hath: but framed them moſte fit,</l>
+               <l>To entertaine each combatte with their witte,</l>
+               <l>And mids' a thouſand merrie pretty ſweetes,</l>
+               <l>Repell an onſet twixt a paire of ſheetes,</l>
+               <pb facs="tcp:6035:14"/>
+               <l>Their handes are made for muſicke inſtruments,</l>
+               <l>Not for to brandiſh warlike complements,</l>
+               <l>Further I deeme ſuch hommaſſe fortitude,</l>
+               <l>In woman kinde ſmall vertue doth include,</l>
+               <l>Better doth Venus kerchiefe to them ſit,</l>
+               <l>Or lunoes ſtate, with wiſe Minerues witte,</l>
+               <l>Then brutiſh, rude, and cruell killing armes,</l>
+               <l>Of bloudy Mars, from whom comes naught but harmes</l>
+               <l>And truth to ſay, without all ſpight or hate,</l>
+               <l>Thoſe manniſh quean sare moſte degenerate:</l>
+               <l>Yet if ſome others aske for hardineſſe,</l>
+               <l>With ſtout courage, and vndaunted bouldneſſe,</l>
+               <l>Well can I ſhew, ſo as each one will graunt</l>
+               <l>Women at neede can be full valiaunt.</l>
+               <l>Call me to minde braue laſſes of old daies,</l>
+               <l>Who gained pryſes in Olimpicque plaies,</l>
+               <l>Remember we their greene banke Tritonida,</l>
+               <l>For fencing, for ryding Themerinda,</l>
+               <pb facs="tcp:6035:15"/>
+               <l>Where alſo 'twas their ordinary guiſe,</l>
+               <l>To wraſtle, runne, and leape for excerciſe.</l>
+               <l>Forget not we how Archidamia</l>
+               <l>With her great crue, beat Pyrrhus from Sparta.</l>
+               <l>Nor yet the ſame of one-dugd Amazons,</l>
+               <l>Who in large compaſſe planted their Cantons.</l>
+               <l>who hath not heard of lewiſh Deborah?</l>
+               <l>Iudith, and Iael that ſlewe Siſara?</l>
+               <l>I bluſh to name the maid of Orleance</l>
+               <l>(Ah ſhame) which dreſt our armyes out of France.</l>
+               <l>The fixt King Henryes daughtet of our land,</l>
+               <l>Preſeru'd her father from a murth'ring hand.</l>
+               <l>But what meane I to ſayle thus farre from ſhore?</l>
+               <l>Stormes ofte ariſe, which none did doubt before.</l>
+               <l>If that a thouſand tongues poſſeſſe I might,</l>
+               <l>And eke ten thouſand hands well skild to write,</l>
+               <l>A breſt of ſtrong braſſe with ſome Steutors voyce,</l>
+               <l>Yet would I rather if I had my choyce,</l>
+               <pb facs="tcp:6035:15"/>
+               <l>The Startes and ſandes to number vndertake;</l>
+               <l>Then of all women true rehearfall make,</l>
+               <l>Which for admired vertues mertit praiſe,</l>
+               <l>A ſubiect large to taske an hundroth daies.</l>
+               <l>Better I think it heere to ſtay the courſe</l>
+               <l>Of my weake pen, vntyr'd in this diſcourſe,</l>
+               <l>Mens hardines I pleaſed am to ſed,</l>
+               <l>Their knowledge, ſtrength, and wiſdome liketh mee,</l>
+               <l>Their maſſye corps I meane not to diſpraiſe,</l>
+               <l>Nor ought beſides whence prayſes iuſt they raiſe.</l>
+               <l>Yet when they needes compariſons will make,</l>
+               <l>And womens gloryes violently take.</l>
+               <l>I ſay that valour with magnificence,</l>
+               <l>honoured vertue and all excellence,</l>
+               <l>In that ſweet kinde doe principally ſhine,</l>
+               <l>Ca<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ſing it ſeeme to be the moſt diuine.</l>
+               <l>Therefore wiſe men that chooſe in verite</l>
+               <l>Wiues, <hi>amore, n<gap reason="illegible" resp="#UOM" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>e, ore, et re</hi>
+               </l>
+               <pb facs="tcp:6035:16"/>
+               <l>Ought them as equals in each point t' eſteeme,</l>
+               <l>And but for order them inferiours deeme,</l>
+               <l>Wherefore fine Ladies, graue Mattons, Dameſels,</l>
+               <l>Let your pure mindes withſtand al wicked ipels,</l>
+               <l>Yeelde you your ſelues to ordinance deuine,</l>
+               <l>That your high worth may ſtill more brightly ſhine,</l>
+               <l>And thou Dame-Fortune neuer doe them bleſſe,</l>
+               <l>Which by iniuſtice doe thy ſexe oppreſſe.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:6035:16"/>
+         </div>
+      </body>
+   </text>
+</TEI>

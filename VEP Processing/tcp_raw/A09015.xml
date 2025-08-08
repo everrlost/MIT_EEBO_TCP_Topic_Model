@@ -1,0 +1,655 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The p[ar]lyament of deuylles</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1509</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 24 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A09015</idno>
+            <idno type="STC">STC 19305</idno>
+            <idno type="STC">ESTC S110251</idno>
+            <idno type="EEBO-CITATION">99845835</idno>
+            <idno type="PROQUEST">99845835</idno>
+            <idno type="VID">10761</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A09015)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 10761)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 138:12)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The p[ar]lyament of deuylles</title>
+               </titleStmt>
+               <extent>[16] p.   </extent>
+               <publicationStmt>
+                  <publisher>Enprynted by Wynkyn de worde, prynter vnto the moost excellent pryncesse my lady the kynges moder,</publisher>
+                  <pubPlace>[[London] :</pubPlace>
+                  <date>The yere of our lorde. M.CCCCC. [and] ix. [1509]]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>With a title-page woodcut.</note>
+                  <note>Imprint from colophon.</note>
+                  <note>Signatures: [A]⁴ B⁴.</note>
+                  <note>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Jesus Christ --  Poetry --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2008-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2008-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-07</date>
+            <label>Lauren Proux</label>Sampled and proofread</change>
+         <change>
+            <date>2009-07</date>
+            <label>Lauren Proux</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <head>The ꝑlyament of deuylles</head>
+         <div type="illustration">
+            <pb facs="tcp:10761:1"/>
+            <pb facs="tcp:10761:1"/>
+            <p>
+               <figure/>
+            </p>
+         </div>
+         <div type="poem">
+            <pb facs="tcp:10761:2"/>
+            <l>AS Mary was grette with Gabryell</l>
+            <l>And had conceyued and borne a chylde</l>
+            <l>All the deuylles of the erthe / of y<hi rend="sup">e</hi> ayre and of hell</l>
+            <l>Helde theyr parlyament of that mayde mylde</l>
+            <l>¶What man had made her wombe to ſwell</l>
+            <l>To tempt her ye tende to ſylde</l>
+            <l>Her chyldes fader who can tell</l>
+            <l>Who dyde with her tho werkes wylde</l>
+            <l>¶In hell the fendes tho anſwered</l>
+            <l>We knewe neuer fader that he had</l>
+            <l>But amonge prophetes we haue lered</l>
+            <l>That god with man had conuenaunt made</l>
+            <l>¶A ſerpent in deſert was rered</l>
+            <l>So ſhall goddes ſone in man be had</l>
+            <l>The ſoule of hym ſhall be vnſpered</l>
+            <l>His herte to cloue and he forblad</l>
+            <l>¶Theſe prophetes ſpeke ſo in myſt</l>
+            <l>What they ment we neuer knewe</l>
+            <l>They ſpake of one ſholde hyght Cryſt</l>
+            <l>But Maryes ſone hyght Iheſu</l>
+            <l>¶And they ſayd y<hi rend="sup">e</hi> Cryſt w<hi rend="sup">t</hi> god ſholde be atwyſt</l>
+            <l>But this Iheſu neuer in the godhede grewe</l>
+            <l>We ben begyled all with our lyſt</l>
+            <l>The clothe is all of another hewe</l>
+            <l>¶And though god make his parlyment</l>
+            <l>Of peas / mercy / trouthe / and reaſon</l>
+            <l>And from heuen to erthe his ſone be ſent</l>
+            <l>In mankynde to take a ceaſon</l>
+            <l>¶We ſhall ordayne by one aſſent</l>
+            <l>A preuy counceyle all of treaſon</l>
+            <l>And clayme Iheſu for our rent</l>
+            <l>For y<hi rend="sup">t</hi> he is kynde of man it is good cheſon</l>
+            <l>¶Wryte we his name whyder we ſpede</l>
+            <l>Sychen to vs he is vnknowen</l>
+            <l>
+               <pb facs="tcp:10761:2"/>For though he be come of ſtraunge ſede</l>
+            <l>Yet in Adams grounde was he ſowen</l>
+            <l>¶Whan he is type do we our dede</l>
+            <l>Loke that we do hym repe and mowne</l>
+            <l>For though god hym ſelfe our rolles rede</l>
+            <l>By ryght we chalenge Iheſu for our owne</l>
+            <l>¶To me mayſter deuyll it lyes</l>
+            <l>To Iheſu wyll I take hede</l>
+            <l>To nouryſſhe hym in fantaſyes</l>
+            <l>His freyle fleſſhe bothe to clothe and fede</l>
+            <l>¶And though that he be neuer ſo wyſe</l>
+            <l>Yet out of the way I wyll hym lede</l>
+            <l>And make of hym bothe fole and nyſe</l>
+            <l>And in hell his ſoule brede</l>
+            <l>¶Thus the deuylles theyr wyles caſt</l>
+            <l>With theyr argumentes grete</l>
+            <l>And thyrty yere they founded faſt</l>
+            <l>To tempte Iheſu in many an hete</l>
+            <l>¶In to a wyldernes with Iheſu I paſt</l>
+            <l>Of hym knowlege for to gete</l>
+            <l>And forty dayes there dyde he faſt</l>
+            <l>Without ſlepe drynke or mete</l>
+            <l>¶The mayſter deuyll wonder thought</l>
+            <l>Of Iheſus worthy compleccyon</l>
+            <l>By mannes fode lyued he nought</l>
+            <l>But by prayer and deuocyon</l>
+            <l>¶But whan he hongred as me thought</l>
+            <l>To tempte hym than I made me bowne</l>
+            <l>Lo here ben ſtones harde wrought</l>
+            <l>Make therof breed to mannes foyſowne</l>
+            <l>¶Forſothe Iheſu ſayd not onely in brede</l>
+            <l>Is veryly mannes propre lyuynge</l>
+            <l>But euery worde of the godheed</l>
+            <l>To body and ſoule is confortynge</l>
+            <l>
+               <pb facs="tcp:10761:3" rendition="simple:additions"/>¶Vpon an hygh pynacle I hym brought anone</l>
+            <l>And left hym there and adowne I ſpronge</l>
+            <l>And ſayd ſaue the harmeles bothe lymme &amp; bone</l>
+            <l>And do now mayſtryes whyle thou arte yonge</l>
+            <l>¶If thou be goddes ſone lete ſe</l>
+            <l>Of the is wryten longe agone</l>
+            <l>Aungelles in hondes ſholde bere the</l>
+            <l>Leeſt thou ſpurne thy fote at a ſtone</l>
+            <l>¶Iheſus ſayd in holy wryte thou mayſt ſe</l>
+            <l>Tempte not thy lorde god lyuynge alone</l>
+            <l>With all thy myght in euery degre</l>
+            <l>Thou ſhalte hym ſerue and other none</l>
+            <l>¶The deuyll ſawe it myght not gayne</l>
+            <l>Of Iheſu his purpoſe he gan myſſe</l>
+            <l>He brought hym to an hygh mountayne</l>
+            <l>And badde hym do as he wolde wyſſe</l>
+            <l>And there he ſhewed hym for certayne</l>
+            <l>Iewelles rycheſſe and worldly blyſſe</l>
+            <l>Worſhyp me here and become my ſwayne</l>
+            <l>And I ſhall gyue the all this</l>
+            <l>¶Go Sathanas from blyſſe thou hye</l>
+            <l>From heuen ryche that ryall toure</l>
+            <l>In Exody it is wryten certaynly</l>
+            <l>Thyn lorde god thou ſhalte honoure</l>
+            <l>¶Alas quod the deuyll how arte thou ſo wytty</l>
+            <l>Thy wordes are bytter / thy werkes are ſoure</l>
+            <l>Thy concluſyon knytteth me ſo feruently</l>
+            <l>I abode neuer ſo ſharpe a ſhoure</l>
+            <l>¶The deuylles gadred theyr grete frame</l>
+            <l>And helde theyr parlyament in the myſt.</l>
+            <l>One wolde ryfle vs at hame</l>
+            <l>And gadre the floure out of our twyſt</l>
+            <l>¶New Iaylours wolde wayte vs ſhame</l>
+            <l>One men called hym Iohan baptyſt</l>
+            <l>
+               <pb facs="tcp:10761:3"/>But now he hath torned Iheſu is his name</l>
+            <l>That fyrſt hyght Iheſu now is Cryſt</l>
+            <l>¶Laugh ne ſporte I hym neuer ſawe</l>
+            <l>But in ſtablenes he is alway</l>
+            <l>And ſtraytly kepeth goddes lawe</l>
+            <l>And ſtrongly withſtandeth myn affray</l>
+            <l>¶To werkes of vyce he wyll not drawe</l>
+            <l>A wonders worde I herde hym ſay</l>
+            <l>The grete temple he wolde downe thrawe</l>
+            <l>And reyſe it agayne on the thyrde day</l>
+            <l>¶Whan he was borne wonders befell</l>
+            <l>Ouer all was peas bothe eeſt and weſt</l>
+            <l>In Rome of oyle there ſpronge a well</l>
+            <l>From tryſtmer to tyber it ranne preſt</l>
+            <l>¶In Rome the temples downe fell</l>
+            <l>Theyr mawmettes dyde all to breſt</l>
+            <l>Aungelles to ſhepeherdes glory gan tell</l>
+            <l>In erthe to all mankynde bothe peas and reſt</l>
+            <l>¶The emperoure in Rome ſtode hye</l>
+            <l>Thre ſones in one he ſawe ſhynynge clere</l>
+            <l>In the myddes of them a mayden he ſye</l>
+            <l>A man chylde in her armes dyde bere</l>
+            <l>¶The emperour and Cybyll ſpoken prophecye</l>
+            <l>And they accorded bothe in fere</l>
+            <l>And ſayd goddes ſone mankynde ſholde bye</l>
+            <l>It is a token the tyme draweth nere</l>
+            <l>¶Alſo thre kynges came from ferre</l>
+            <l>To worſhyp Iheſu all they ſought</l>
+            <l>Whiche rey<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ed Herodes hette therre</l>
+            <l>Hym to ſle for they ſo wrought</l>
+            <l>¶By the lyghtnynge of a ſterre</l>
+            <l>To Iheſu all thre preſentes they brought</l>
+            <l>Homewardes an aungell taught them nerre</l>
+            <l>Another way than they had thought</l>
+            <l>
+               <pb facs="tcp:10761:4"/>¶Than I counceyled Herode within a whyle</l>
+            <l>To dyſtroye the formeſt prophecy</l>
+            <l>That all men chyldren in towne and pyle</l>
+            <l>To ſle them y<hi rend="sup">t</hi> Iheſu myght with them dye</l>
+            <l>¶He fledde in to Egypt in that whyle</l>
+            <l>Theyr mawmentes fell downe from on hye</l>
+            <l>He knewe my thought and ſawe my gyle</l>
+            <l>I myght not hyde me from his eye</l>
+            <l>¶To tempte Iheſu it wyll not auayle</l>
+            <l>Of the worldes good he hath no nede</l>
+            <l>I leſe on hym ſo moche trauayle</l>
+            <l>The more I ſo werke the worſe I ſpede</l>
+            <l>¶With the ſharper aſſautes I hym aſſayle</l>
+            <l>The leſſe of me he ſtandeth in drede</l>
+            <l>The bolder in byker I byd hym batayle</l>
+            <l>The leſſe of me he taketh hede</l>
+            <l>¶For yf I tempte hym with wrathe or pryde</l>
+            <l>With pacyence and mekenes he ſcomfyteth me</l>
+            <l>If I tempte hym w<hi rend="sup">t</hi> lechery I muſt me hyde</l>
+            <l>He voydeth me of with chaſtyte</l>
+            <l>¶In glotony and enuy he wyll not abyde</l>
+            <l>But is euer in meſure and charyte</l>
+            <l>In couetyſe and auaryce he wyll not ryde</l>
+            <l>But is euer in largeſſe and pouerte</l>
+            <l>¶The deuyll ſayd neyther in hote ne cole</l>
+            <l>I may not make hym ſtumble ne fall</l>
+            <l>I wyſt hym neuer go to ſcole</l>
+            <l>And yet I ſawe hym dyſpute in the ſcole hall</l>
+            <l>¶He ſet hym ſelfe on the hyeſt ſtole</l>
+            <l>And argued agaynſt the mayſters all</l>
+            <l>Some called hym wyſe / ſome called hym fole</l>
+            <l>But goddes ſone he dooth hymſelfe call</l>
+            <l>¶His werkes paſſeth mannes kynde</l>
+            <l>For croked and creples he maketh ryght</l>
+            <l>
+               <pb facs="tcp:10761:4"/>For deef and dombe and borne blynde</l>
+            <l>He gyueth them ſpeche herynge and ſyght</l>
+            <l>¶Madde men he gyueth them theyr mynde</l>
+            <l>He maketh meſels hole and lyght</l>
+            <l>Alegyon of fendes in a man he dyde fynde</l>
+            <l>All he droue out through his myght</l>
+            <l>¶Wyne of water he maketh blyue</l>
+            <l>And dothe many a wonders dede</l>
+            <l>With two fyſſhes and loues fyue</l>
+            <l>Fyue thouſande men I ſawe hym fede</l>
+            <l>¶Twelue lepes of relefe therof dyde thryue</l>
+            <l>To men and chyldren that had nede</l>
+            <l>Deed men he reyſed agayne on lyue</l>
+            <l>And yet wered he neuer but one wede</l>
+            <l>¶He handleth neyther money ne knyfe</l>
+            <l>Neyther in ſynne deſireth he ony woman to kyſſe</l>
+            <l>But ones he ſaued a wedded wyfe</l>
+            <l>In ſpouſayle that had done amyſſe</l>
+            <l>¶He is ſo wonderfull in lyfe</l>
+            <l>I can not knowe well what he is</l>
+            <l>I wolde he had ended our ſtryfe</l>
+            <l>He is out of our bokes / and we out of his</l>
+            <l>¶Sythen I hym fyrſt tempte began</l>
+            <l>I ſawe hym neuer chaunge hewe</l>
+            <l>Ones he bad me go foule Sathan</l>
+            <l>Euermore that reprefe I rewe</l>
+            <l>¶In werkes he is god / in perſone a man</l>
+            <l>Lyke to hym I neuer none knewe</l>
+            <l>Where lerned he all the wytte that he can</l>
+            <l>For euery day he doth wonders newe</l>
+            <l>¶I folowed hym ones to a place</l>
+            <l>To a mountayne vpon hyght</l>
+            <l>Peter Iohan and Iames there was</l>
+            <l>Hely and Moyſes ſtode there vpryght</l>
+            <l>
+               <pb facs="tcp:10761:5"/>¶I wolde haue ſeen Iheſus face</l>
+            <l>But I myght not it ſhone ſo bryght</l>
+            <l>The ſothfaſt ſonne dyde it enbrace</l>
+            <l>The bryght beames blent my ſyght</l>
+            <l>¶ To lete the prophecy ſoone I went</l>
+            <l>The Iewes to ſle Iheſus I gaue them choyſe</l>
+            <l>If he deye on the rode we ſhall be ſhent</l>
+            <l>I wolde not that they had gyuen that voyſe</l>
+            <l>¶I was wo for that Iugement</l>
+            <l>Of crucifige to here the noyſe</l>
+            <l>Pylates wyfe I bad beſyly gyue tent</l>
+            <l>That Iheſu were not done on the croyſe</l>
+            <l>¶Yet the Iewes for his dedes good</l>
+            <l>Falſe wytnes agaynſt hym conſpyred</l>
+            <l>And nayled hym vpon the rode</l>
+            <l>And payned hym there tyll that he deyed</l>
+            <l>¶Vnder his left ſyde I my ſelfe ſtode</l>
+            <l>And after his ſoule ſtraytly ſpyed</l>
+            <l>I wyſt neuer whyder it yode</l>
+            <l>Whan he gaue it vp ſo manly he cryed</l>
+            <l>¶The ſonne and moone loſt theyr lyght</l>
+            <l>The elementes fought as lyght thonder</l>
+            <l>The erthe quaued and mountaynes on hyght</l>
+            <l>Valeys and ſtones breſt aſonder</l>
+            <l>¶Deed men aroſe thorowe his myght</l>
+            <l>To bere wytnes of that wonder</l>
+            <l>My mynde fayled I loſt my ſyght</l>
+            <l>I wyſt not how ſoone I came there vnder</l>
+            <l>¶Iheſus ſoule is gone I wote not where</l>
+            <l>So pryuely he dyde fro me pas</l>
+            <l>Whan his herte was perced with a ſpere</l>
+            <l>Than wyſt I well who he was</l>
+            <l>¶Orderne we vs with all our gere</l>
+            <l>For hyder he thynketh to make a race</l>
+            <l>
+               <pb facs="tcp:10761:5"/>Aryſe we all that ben bounden here</l>
+            <l>And ſtyfly defende we our place</l>
+            <l>¶For yf that he wolde hyder come</l>
+            <l>We ſhall go euerychone</l>
+            <l>Agaynſt hym bothe all and ſome</l>
+            <l>And tere of hym bone from bone</l>
+            <l>¶Than ſayd Lucyfer anone</l>
+            <l>It is but waſte to ſpeke ſo</l>
+            <l>The ſpyryte of hym is now hyder come</l>
+            <l>For to werke vs all wo</l>
+            <l>¶There as the good ſoules dyde in dwell</l>
+            <l>They cheyned the gates and barred them faſt</l>
+            <l>Anone Iheſus ſayd / ye prynces fell</l>
+            <l>Open the gates that euer ſhall laſt</l>
+            <l>¶And lete in your kynge of heuen &amp; hell</l>
+            <l>The deuylles aſked hym than in haſt</l>
+            <l>Who is the kynge of blyſſe thou dooſt of tell</l>
+            <l>Weneſt thou to make vs all agaſt</l>
+            <l>¶Stronge god and kynge of myght</l>
+            <l>I am lorde and kynge of blyſſe</l>
+            <l>Vſurper of dethe myghty in fyght</l>
+            <l>Euerlaſtynge gates open without myſſe</l>
+            <l>¶Bothe peas mercy trouth and ryght</l>
+            <l>I brought them at one and made them to kyſſe</l>
+            <l>Euerlaſtynge gates open on hyght</l>
+            <l>And lete in your kynge to take out his</l>
+            <l>¶For I the ſoule of Iheſu cryſt am come hyder</l>
+            <l>Wytneſſe therof my body in erthe lyeth deed</l>
+            <l>And the holy gooſt with the ſoule togyder</l>
+            <l>That neuer ſhall parte fro the godheed</l>
+            <l>¶In heuens blyſſe ye ſtode full ſlyder</l>
+            <l>Through pryde ye offended my faders bede</l>
+            <l>Mannes ſoule for mekenes ſhall come hyder</l>
+            <l>There as ye fendes forfeyted that ſtede</l>
+            <l>
+               <pb facs="tcp:10761:6"/>¶Than ſayd Lucyfer god dyde forbede</l>
+            <l>To Adam in paradyſe but one tre</l>
+            <l>On payne of dethe to haue for that dede</l>
+            <l>And after in hell euer to be</l>
+            <l>¶And thou arte come of Adams ſede</l>
+            <l>Therfore by ryght we chalenge the</l>
+            <l>For in holy wryte thou may rede</l>
+            <l>In hell is no remyde</l>
+            <l>¶Iheſu ſayd Lucyfer trouth thou telleſt me</l>
+            <l>But thou woteſt not thy ſelfe how</l>
+            <l>There is a bonde hell / but this is fre</l>
+            <l>The bonde hell was ordeyned for you</l>
+            <l>¶For that y<hi rend="sup">e</hi> man forfeyted through a tre</l>
+            <l>Through a tre agayne bought is he now</l>
+            <l>Thou madeſt hym ſynne y<hi rend="sup">e</hi> payne longeth to the</l>
+            <l>For thou wayteſt neuer good to mannes prow</l>
+            <l>¶Lucyfer thou me vndernome</l>
+            <l>And ſayd y<hi rend="sup">t</hi> I was of the ſede of Adams kyn</l>
+            <l>Forſothe I dyde out of the godhede come</l>
+            <l>And toke fleſſhe and blode a mayde within</l>
+            <l>¶For as of y<hi rend="sup">e</hi> ſede of erthe there ſpryngeth blome</l>
+            <l>So met we and parted without ſynne</l>
+            <l>Thyn argument is falſe ſo is thy dome</l>
+            <l>By what ryght woldeſt thou me wynne</l>
+            <l>¶Who was chefe of thy counſayle</l>
+            <l>In heuen whan thou forfeyted the blys</l>
+            <l>In paradyſe Adam thou dydeſt aſſayle</l>
+            <l>And tempted hym to forfeyte his</l>
+            <l>¶And I in his quarell toke batayle</l>
+            <l>Ayenſt my fader to amende his mys</l>
+            <l>Wherfore of thy purpoſe thou ſhall fayle</l>
+            <l>For thy quarell nought it is</l>
+            <l>¶Than Lucyfer anſwered agayne</l>
+            <l>Why ſpekeſt thou ſo to me here</l>
+            <l>
+               <pb facs="tcp:10761:6"/>It was but wanton wordes in vayne</l>
+            <l>I trow thow comeſt hyder vs to fere</l>
+            <l>¶Somtyme whan I was in heuen on hye</l>
+            <l>That I there loſt for my pryde certayne</l>
+            <l>Here after I hope full ſykerly</l>
+            <l>For to come to that blyſſe agayne</l>
+            <l>¶Cryſt Iheſu ſpake to Sathan tho</l>
+            <l>And ſayd to hym in this manere</l>
+            <l>It is but waſte to ſpeke ſo</l>
+            <l>Or ony ſuche wordes to vtter here</l>
+            <l>¶That tyme whyle thou in heuen were</l>
+            <l>Full moche Ioye haddeſt thou tho</l>
+            <l>For all thy felawes were glad there</l>
+            <l>But ryght ſoone it was ouergo</l>
+            <l>¶Lucyfer ſpake to hym agayne</l>
+            <l>And ſayd to hym with wordes ſere</l>
+            <l>Here haue I dwelled in wo and payne</l>
+            <l>More than foure thouſande yere</l>
+            <l>¶Helpe me to that blyſſe agayne</l>
+            <l>The whiche I loſt for my pryde there</l>
+            <l>For there in it is pleaſure certayne</l>
+            <l>To dwell with aungelles ſhynynge clere</l>
+            <l>¶Here me Lucyfer I ſhall the tell</l>
+            <l>Or euer ony thynge was wrought</l>
+            <l>Heuen or erthe ayre or hell</l>
+            <l>Forſothe than I made the of nought</l>
+            <l>¶In heuen whan thou ſtodeſt wele</l>
+            <l>I made the aboue aungelles all</l>
+            <l>But therof cared thou neuer adele</l>
+            <l>Suche pryde in thyn herte gan fall</l>
+            <l>¶In heuen whan thou were at thy wyll</l>
+            <l>Thou myghteſt haue ben in peas and reſt</l>
+            <l>I toke the my ſete full ſtyll</l>
+            <l>It to ſeme thou were full preſt</l>
+            <l>
+               <pb facs="tcp:10761:7"/>¶And whyle I went where me lyſt</l>
+            <l>And come agayne anone on hye</l>
+            <l>Thou ſayd thou were worthyeſt</l>
+            <l>And to ſyt there as well as I</l>
+            <l>¶And thou repenteſt the neuer more</l>
+            <l>But euer aggredeſt thy treſpace</l>
+            <l>Adam wept and ſyghed ſore</l>
+            <l>And aſked mercy and oyle of grace</l>
+            <l>¶My fader ſent me hyther therfore</l>
+            <l>And on a tre lete dethe me chace</l>
+            <l>A ſpere through my herte gan bore</l>
+            <l>And lete out the worthyeſt oyle that euer was</l>
+            <l>¶In my faders name of heuen</l>
+            <l>Open the gates agaynſt me</l>
+            <l>As lyght of ayre and thonder leuen</l>
+            <l>The gates to braſt and gan to fle</l>
+            <l>¶God toke out Adam and Eue full euen</l>
+            <l>And all his choſen company</l>
+            <l>The prophetes ſayd with mylde ſteuen</l>
+            <l>A ſonge of wonders now ſynge we</l>
+            <l>¶Aha ſayd Adam my god I ſe</l>
+            <l>He that made me with his honde</l>
+            <l>I ſe ſayd Noe where cometh he</l>
+            <l>That ſaued me bothe on water and londe</l>
+            <l>¶Quod Abraham I ſe my god ſo fre</l>
+            <l>That ſaued my ſone from bytter bonde</l>
+            <l>Tho ſayd Moyſes the tables he betoke me</l>
+            <l>His lawe to preche and vnderſtonde</l>
+            <l>¶Quod Dauyd we ſpake of one ſo ſtout</l>
+            <l>That ſholde breke the braſen gates</l>
+            <l>Quod zachary and his folke take out</l>
+            <l>And leue there ſtyll ſuche as he hates</l>
+            <l>¶Quod Symeon he lyghtneth his folke in dym</l>
+            <l>Where as derkenes ſhedeth theyr ſtates</l>
+            <l>
+               <pb facs="tcp:10761:7"/>Tho ſayd Iohan this lambe I ſpake of hym</l>
+            <l>That all the worldes ſynne abates</l>
+            <l>¶Our lorde them toke by the hande</l>
+            <l>And brought them to the place of blyſſe</l>
+            <l>And ſayd to them I vnderſtande</l>
+            <l>This bargayne I haue bought or this</l>
+            <l>¶For ryche and poore fre and bonde</l>
+            <l>That wyll aſke grace and amende theyr myſſe</l>
+            <l>Shall be with you here Ioconde</l>
+            <l>In my kyngdome heuens blyſſe</l>
+            <l>¶Thus Iheſu cryſt harowed hell</l>
+            <l>And ledde his ſeruaunts to paradyſe</l>
+            <l>With the other helles wolde he not mell</l>
+            <l>Where fendes blacke bounden lyſe</l>
+            <l>¶And where dampned ſoules euer ſhall dwell</l>
+            <l>That wyll not amende but euer be nyſe</l>
+            <l>Tourmented with horryble deuylles fell</l>
+            <l>That ſomtyme were aungelles of pryce</l>
+            <l>¶Hell repreued tho the deuyll Sathan</l>
+            <l>And horrybly gan hym dyſpyſe</l>
+            <l>To me thou arte a ſhrewde captan</l>
+            <l>A combred wretche in cowardyſe</l>
+            <l>¶Tho ſayd Lucyfer ſythen y<hi rend="sup">e</hi> worlde fyrſt began</l>
+            <l>I haue brought hyder many a grete pryce</l>
+            <l>Hyder in to hell of all kynde of man</l>
+            <l>Bothe true falſe folyſſhe and wyſe</l>
+            <l>¶Hell ſo worſhypped neuer thou were</l>
+            <l>I<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> thou coudeſt haue kept the ſo</l>
+            <l>I brought the bothe god and man in fere</l>
+            <l>Why were thou ſo nyce to lete hym go</l>
+            <l>¶Quod hell not with thy powere</l>
+            <l>I myght not warne hym one of tho</l>
+            <l>He toke out all that were hym dere</l>
+            <l>I myght not let hym though he wolde mo</l>
+            <l>
+               <pb facs="tcp:10761:8"/>¶Quod Belſabub I barred full faſt</l>
+            <l>The gate with locke / chayne / bolte / and pyn</l>
+            <l>And with one worde of his mouthes blaſt</l>
+            <l>They brake vp and he came in</l>
+            <l>¶He bounde me and downe me caſt</l>
+            <l>It is no bote to ſtryue with hym</l>
+            <l>Whan the dredefull dome is come and paſt</l>
+            <l>Our endles payne is than to begyn</l>
+            <l>¶Though the Iewes made Iheſu to dye</l>
+            <l>Yet on the thyrde day he roſe to lyfe agayne</l>
+            <l>It was to hym more vyctory</l>
+            <l>Than though he had all the Iewes ſlayne</l>
+            <l>¶Some were glad whan they hym ſe</l>
+            <l>Some were fory and ſome were ſayne</l>
+            <l>And ſomtyme in one company</l>
+            <l>Amonge fyue hondred he was fayne</l>
+            <l>¶Of oyntementes full many a droppe</l>
+            <l>Mary mawdeleyne to Iheſu ſhe brought</l>
+            <l>Iheſu went from her a lytell ſloppe</l>
+            <l>And ſayd mawdeleyne touche me nought</l>
+            <l>¶All his dyſcyples were in wanhope</l>
+            <l>For to conforte them Iheſu thought</l>
+            <l>And bad them his woundes handle &amp; grope</l>
+            <l>I haue fleſſhe &amp; blode ſo ſpyrytes haue nought</l>
+            <l>¶Thomas was of ryght harde beleue</l>
+            <l>Tyll he had ſpoken with Iheſu tho</l>
+            <l>Iheſu ſpake with wordes breue</l>
+            <l>Come hyder Thomas and ſpeke me to</l>
+            <l>¶For here thou mayſt now the ſothe preue</l>
+            <l>How that I was on the rode ydo</l>
+            <l>And he that wyll not on it beleue</l>
+            <l>Shall for euer to paynes go</l>
+            <l>¶Than ſayd Iheſu with mylde ſpeche</l>
+            <l>To his dyſcyples I wyll ye go</l>
+            <l>
+               <pb facs="tcp:10761:8"/>To all creatures about to preche</l>
+            <l>Myn vpryſynge to frende and fo</l>
+            <l>¶And tho that beleue that ye teche</l>
+            <l>Bodyes and ſoules ſaued ben tho</l>
+            <l>And they that beleue not I ſay to eche</l>
+            <l>They ſhall for euer to payne go</l>
+            <l>¶Fro you fendes ſhall fle for my name</l>
+            <l>Addres and venym ſhall from you ſtele</l>
+            <l>Though ye drynke poyſon it ſhall you not tame</l>
+            <l>Neyther harme you ne no grefe fele</l>
+            <l>¶I ſhall new tongues in you frame</l>
+            <l>All maner of language forth to dele</l>
+            <l>And they that ye touche ſeke or lame</l>
+            <l>Body and ſoule I wyll them hele</l>
+            <l>¶Our lorde after his reſurreccyon here</l>
+            <l>In erthe he was forſothe dwellynge</l>
+            <l>Tyll holy thurſday comen were</l>
+            <l>That he ſtyed to heuen where he is kynge</l>
+            <l>¶At the drefull dome without leſynge</l>
+            <l>Bothe quycke and deed there ſhall he deme</l>
+            <l>God gyue vs grace in our lyuynge</l>
+            <l>To ſerue our our god and Mary to queme</l>
+            <l>¶Of all the chyldren that euer were borne</l>
+            <l>Saue onely Cryſt hymſelfe alone</l>
+            <l>Was none ſo holy here beforne</l>
+            <l>As was this holy chylde ſaynt Iohn<g ref="char:cmbAbbrStroke">̄</g>
+            </l>
+            <l>¶That baptyſed our lorde in flome Iordone</l>
+            <l>With full deuout and good deuocyon</l>
+            <l>And after for Iheſus loue to dethe gan gone</l>
+            <l>And ſuffred full grete paſſyon</l>
+            <l>¶Now ſhall I tell with full good chere</l>
+            <l>Of that holy aſſumpcyon</l>
+            <l>Of his blyſſed moder dere</l>
+            <l>How ſhe was taken vp with full grete deuocyon</l>
+            <l>
+               <pb facs="tcp:10761:9"/>¶Vnto her blyſſed ſone as her wyll were</l>
+            <l>That therto ſent his aungelles adowne</l>
+            <l>And vp they bare that mayden clere</l>
+            <l>Quene of heuen they dyde her crowne</l>
+            <l>¶Than all thaungelles that were in heuen</l>
+            <l>Were at the crownynge of that mayde fre</l>
+            <l>And ſonge all with mylde ſteuen</l>
+            <l>Gloria tibi domine</l>
+            <l>¶That is a ſonge of Ioye and blyſſe</l>
+            <l>God gyue vs grace that lyght to ſe</l>
+            <l>Of his mercy that we not myſſe</l>
+            <l>Oui natus es de virgine</l>
+            <l>¶This tale that I haue tolde you here</l>
+            <l>Is called the deuylles parlyament</l>
+            <l>Therof is red in tyme of the yere</l>
+            <l>On the fyrſt ſonday of clene lent</l>
+            <l>¶Who that wyll for heuen procure</l>
+            <l>Kepe hym fro the deuylles combrement</l>
+            <l>In heuen his ſoule may than be ſure</l>
+            <l>With aungelles to ſynge in lyght ſplendent</l>
+            <l>¶ This leſſon of new was made but late</l>
+            <l>There be no tryfles in it at all</l>
+            <l>The deuylles booſt thus gan he bate</l>
+            <l>Our curteyſe Cryſt / our kynge ryall</l>
+            <l>¶He helpe vs all in at heuens gate</l>
+            <l>With ſayntes to ſyt there out of thrall</l>
+            <l>Cryſt kepe vs out of harme and hate</l>
+            <l>For thyn holy ſpyryte ſo ſpecyall</l>
+            <closer>Amen.</closer>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>¶Thus endeth the parlyament of deuylles. En<g ref="char:EOLhyphen"/>prynted by Wynkyn de worde prynter / vnto the mooſt excellent prynceſſe my lady the kynges mo<g ref="char:EOLunhyphen"/>der. The yere of our lorde. M.CCCCC. &amp; .ix.</p>
+            <pb facs="tcp:10761:9"/>
+         </div>
+      </back>
+   </text>
+</TEI>
