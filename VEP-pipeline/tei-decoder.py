@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+# formerly tei-decoder-ptake2.py
 __author__ = 'wchen (modified by ifrankel)'
 
 import sys
